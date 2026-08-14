@@ -181,7 +181,7 @@ export function buildSourcesBlock(readerSources, searchUrls) {
 
 const SYSTEM_PROMPT = `You are an equity/industry research analyst. Produce a single JSON object describing an industry, filled ONLY from the SOURCES the user provides.
 
-Return ONLY the JSON object — no prose, no markdown, no code fences.
+Return ONLY the JSON object — no prose, no markdown, no code fences, no XML tags. Your entire response must start with { and end with }.
 
 Required JSON shape (OMIT any field, array item, or whole section you cannot support from the SOURCES — never output an empty placeholder and never invent numbers):
 
@@ -311,9 +311,10 @@ async function main() {
 
   const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\n\nSOURCES:\n${sourcesBlock}`;
   console.log('[research] calling Claude for structured extraction...');
-  // Generous cap: the schema JSON plus (on Sonnet 5) adaptive thinking share
-  // this budget, so give headroom to avoid a truncated, unparseable reply.
-  let obj = await callClaudeJSON({ system: SYSTEM_PROMPT, user, max_tokens: 12000 });
+  // Disable thinking so the entire token budget goes to the JSON (on Sonnet 5,
+  // adaptive thinking otherwise eats the budget and truncates the output), and
+  // give a generous ceiling for a rich schema with a full report_markdown.
+  let obj = await callClaudeJSON({ system: SYSTEM_PROMPT, user, max_tokens: 20000, thinking: { type: 'disabled' } });
   if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
     throw new Error('Model did not return a JSON object.');
   }
