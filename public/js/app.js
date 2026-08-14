@@ -1147,7 +1147,7 @@
 
   async function loadIndustry(slug) {
     stopRun();
-    setView('dashboard'); showTopSearch(true);
+    setView('dashboard');
     destroyCharts();
     renderedTabs.clear();
     renderedSubs.clear();
@@ -1159,9 +1159,9 @@
       const data = await res.json();
       state.data = data; state.slug = slug;
       recordView(slug, (data.meta && data.meta.name) || slug);
+      setIndustryLock((data.meta && data.meta.name) || slug);
       renderIndustryHeader(data);
-      $('#search-input').value = (data.meta && data.meta.name) || '';
-      $('#footer-note').textContent = (data.meta && data.meta.mock) ? 'Showing mock data for ' + (data.meta.name || slug) : 'Showing ' + (data.meta && data.meta.name || slug);
+      $('#footer-note').textContent = 'Showing ' + ((data.meta && data.meta.name) || slug);
       showTab(state.activeTab || 'deep');
     } catch (e) {
       $('#panel-deep').innerHTML = '';
@@ -1200,12 +1200,22 @@
     $('#industry-header').classList.toggle('hidden', !dash);
     $('#tabbar').classList.toggle('hidden', !dash);
     if (!dash) TABS.forEach((t) => $('#panel-' + t.id).classList.add('hidden'));
+    // Topbar: a Back-to-search button on any non-home view; the locked industry
+    // label (a static title, NOT a search box) only while viewing an industry.
+    $('#back-btn').classList.toggle('hidden', view === 'home');
+    $('#industry-lock').classList.toggle('hidden', !dash);
   }
-  function showTopSearch(on) { const ts = $('#topbar-search'); if (ts) ts.classList.toggle('hidden', !on); }
+  function setIndustryLock(name) {
+    const el = $('#industry-lock');
+    if (!el) return;
+    el.innerHTML = '';
+    el.appendChild(h('span', { html: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>' }));
+    el.appendChild(h('span', { class: 'lk-name' }, name || 'Industry'));
+    el.title = name || '';
+  }
 
   function goHome() {
     stopRun();
-    $('#search-input').value = '';
     $('#footer-note').textContent = 'Search an industry or company to begin';
     renderHome();
   }
@@ -1240,8 +1250,7 @@
   /** The graceful "not researched yet" screen (shown in the home area). */
   function renderNotResearched(info) {
     stopRun();
-    setView('home'); showTopSearch(true);
-    if (info.industry_name) $('#search-input').value = info.industry_name;
+    setView('home');
     $('#footer-note').textContent = 'No data yet for ' + (info.industry_name || 'this query');
 
     const actionHost = h('div', { class: 'nr-actions' },
@@ -1293,7 +1302,7 @@
     }
 
     const ui = renderProgress({ name, isRefresh: cfg.isRefresh });
-    setView('progress'); showTopSearch(true);
+    setView('progress');
 
     if (cfg.offline) return progressManual(ui, name, null);
 
@@ -1453,7 +1462,7 @@
   /** The search-first home: hero search + "Research it" + your research history. */
   function renderHome() {
     stopRun();
-    setView('home'); showTopSearch(false);
+    setView('home');
     $('#footer-note').textContent = 'Search an industry or company to begin';
     const host = $('#home-view'); host.innerHTML = '';
 
@@ -1555,14 +1564,14 @@
     }
     buildTabbar();
 
-    $('#search-form').addEventListener('submit', (e) => { e.preventDefault(); handleSearch($('#search-input').value); });
-
-    // Brand block → back to the search-first home.
+    // Back to the search-first home: the brand block and the explicit Back button.
     const brand = $('#brand-home');
     if (brand) {
       brand.addEventListener('click', goHome);
       brand.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goHome(); } });
     }
+    const backBtn = $('#back-btn');
+    if (backBtn) backBtn.addEventListener('click', goHome);
 
     try {
       const res = await fetch('./data/industries/index.json', { cache: 'no-cache' });
