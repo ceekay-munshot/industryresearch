@@ -356,3 +356,71 @@ npx wrangler secret put BEDROCK_MODEL_ID    # e.g. us.anthropic.claude-sonnet-5
 
 **Local dev:** put the same keys in a git-ignored `.dev.vars` file (see
 [Running locally](#running-locally)); `wrangler dev` loads it automatically.
+
+---
+
+## Smart Input (`/api/resolve` + `/api/research`)
+
+The search box accepts an **industry name OR a company name**, and handles an
+industry that hasn't been researched yet.
+
+**`POST /api/resolve` `{ query }`** — resolves intent:
+
+1. Normalises the query and matches it against `index.json` (exact + fuzzy, real
+   entries preferred over mock). A hit returns `{ type:"industry", slug,
+   matched:true }` and the dashboard loads it.
+2. Otherwise Claude classifies it as a **company** or an **industry**; for a
+   company it infers the primary industry as a short canonical name. The inferred
+   industry is re-checked against the index (a company may map to an industry we
+   already have). Returns `{ type, company?, industry_name, slug, matched:false }`.
+3. **Never-fail** — on any error (including no Bedrock key) it treats the raw
+   query as a literal industry name. When the Worker is unreachable (opening the
+   file directly), the frontend falls back to a local index match.
+
+When nothing matches, the UI shows a small card — *"We haven't researched
+&lt;industry&gt; yet"* (plus *"Detected industry for &lt;company&gt;:
+&lt;industry&gt;"* when it came from a company) — with a **Research it** button.
+
+**`POST /api/research` `{ industry }`** (optional) — dispatches the existing
+**Research Industry (full rebuild)** GitHub workflow via `workflow_dispatch`
+(`inputs.industry`), then the frontend polls `data/industries/<slug>.json` every
+~20s and loads it when it appears. If the GitHub token isn't configured, it
+returns clear **manual steps** instead — the button never dead-ends.
+
+Covered by `node scripts/test-resolve.mjs` (pure: slug parity with the pipeline,
+index matching, real-over-mock) and `node scripts/test-resolve-worker.mjs` (the
+full handlers with mocked assets + Bedrock + the GitHub dispatch API).
+
+### Optional Worker secrets for one-click research
+
+One-click **Research it** needs the Worker to be able to trigger the workflow.
+These are **optional** — without them everything else works, and the button
+falls back to on-screen manual steps. Like the Bedrock keys, they are
+**Cloudflare Worker secrets, separate from the GitHub Actions secrets**.
+
+| Worker var | Purpose | Default if unset |
+| --- | --- | --- |
+| `GITHUB_TOKEN` | Fine-grained PAT with **Actions: write** on this repo | — (button shows manual steps) |
+| `GITHUB_REPO` | `owner/name` of this repo (e.g. `ceekay-munshot/industryresearch`) | — (button shows manual steps) |
+| `GITHUB_REF` | Branch to dispatch the workflow on | `main` |
+
+**Create the token:** GitHub → **Settings → Developer settings → Fine-grained
+personal access tokens** → new token scoped to **this repository only**, with
+**Repository permissions → Actions: Read and write** (Contents can stay
+read-only). Copy the token.
+
+**Set the secrets (CLI):**
+
+```bash
+npx wrangler secret put GITHUB_TOKEN     # paste the fine-grained PAT
+npx wrangler secret put GITHUB_REPO      # e.g. ceekay-munshot/industryresearch
+# optional, only if you dispatch off a non-default branch:
+npx wrangler secret put GITHUB_REF       # e.g. main
+```
+
+**Or the dashboard:** Workers &amp; Pages → your Worker → **Settings → Variables
+and Secrets** → add `GITHUB_TOKEN` as an **encrypted** secret and `GITHUB_REPO`
+as a plain variable → **Deploy**.
+
+Without these, the flow still works end-to-end — "Research it" simply shows the
+manual "run the workflow with this industry name" instructions.
