@@ -92,6 +92,15 @@ renders except the Chat tab, which needs the Worker route.
 Every fact with a source shows a small clickable **source chip**. Any empty or
 missing JSON field is hidden gracefully — no blank boxes, no `undefined`.
 
+A **freshness + coverage strip** under the header shows how current and how
+complete the data is — two independent axes, never merged: a relative "Updated N
+ago", a coverage meter (`filled / expected` sections), and a freshness dot driven
+by the stalest material figure. Each section card carries an **"as of &lt;year&gt;"**
+chip (coloured by how fast that section ages) and a **source-count** chip, and any
+expected-but-missing section is listed as **"Still gathering"** rather than hidden.
+All of it is computed from `meta.coverage` + `meta.updated_at`, which the pipeline
+writes automatically.
+
 ---
 
 ## Data contract
@@ -101,7 +110,8 @@ generic and defensive: sections render only when present, in a fixed order.
 
 ```jsonc
 {
-  "meta":     { "slug", "name", "aliases": [], "definition", "is_manufacturing", "generated_at", "mock" },
+  "meta":     { "slug", "name", "aliases": [], "definition", "is_manufacturing", "generated_at", "updated_at", "mock",
+                "coverage": { "sections": { "<section>": { "sources", "confidence", "as_of" } } } },
   "summary":  { "headline", "key_takeaways": ["…"], "report_markdown": "## …" },
   "size":     { "current": { "value", "unit", "year" }, "cagr_pct", "history": [ { "year", "value" } ], "source": {} },
   "segments": [ { "name", "share_pct", "note", "source": {} } ],

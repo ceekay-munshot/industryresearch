@@ -63,6 +63,83 @@
   }
 
   /* ----------------------------------------------------------------------- *
+   * Freshness + coverage — two independent axes (never merged). Freshness =
+   * "is this current?" (data age vs each section's natural cadence). Coverage =
+   * "is this the whole picture?" (sections filled + source depth). Everything is
+   * computed from data the JSON already carries (meta.coverage + section presence).
+   * ----------------------------------------------------------------------- */
+  // Per-section [warn, error] thresholds in DAYS (age past these = aging / stale).
+  const FRESH_T = {
+    news: [14, 30], youtube: [30, 90], players: [182, 365], reports: [182, 365],
+    size: [365, 730], growth_drivers: [365, 730], margins: [365, 730], quant: [365, 730],
+    segments: [548, 1095], value_chain: [548, 1095], channels: [548, 1095], _default: [365, 730],
+  };
+  const daysSince = (dateStr, now) => { const t = Date.parse(dateStr); return isNaN(t) ? null : Math.max(0, Math.round((now - t) / 86400000)); };
+  const asOfYear = (asOf) => { const m = String(asOf || '').match(/(20\d\d|19\d\d)/); return m ? m[1] : null; };
+  function freshnessTier(section, asOf, now) {
+    const d = daysSince(asOf, now);
+    if (d == null) return null;
+    const [warn, err] = FRESH_T[section] || FRESH_T._default;
+    if (d <= warn) return { tier: 'fresh', word: 'Current' };
+    if (d <= err) return { tier: 'aging', word: 'Aging' };
+    return { tier: 'stale', word: 'Outdated' };
+  }
+  function relativeTime(dateStr, now) {
+    const d = daysSince(dateStr, now);
+    if (d == null) return null;
+    if (d < 1) return 'today';
+    if (d === 1) return 'yesterday';
+    if (d < 14) return d + ' days ago';
+    if (d < 60) return Math.round(d / 7) + ' weeks ago';
+    if (d < 730) return Math.round(d / 30) + ' months ago';
+    return Math.round(d / 365) + ' years ago';
+  }
+  const EXPECTED = [
+    { key: 'size', label: 'Market size' }, { key: 'segments', label: 'Segments' },
+    { key: 'growth_drivers', label: 'Growth drivers' }, { key: 'value_chain', label: 'Value chain' },
+    { key: 'channels', label: 'Channels' }, { key: 'players', label: 'Players' }, { key: 'margins', label: 'Margins' },
+  ];
+  const SRC_EXPECTED = [{ key: 'news', label: 'News' }, { key: 'reports', label: 'Reports' }, { key: 'youtube', label: 'Videos' }];
+  const MATERIAL = ['size', 'players', 'margins'];
+
+  /** Look up per-section freshness/source metadata from meta.coverage. */
+  function sectionCov(section) {
+    const cov = state.data && state.data.meta && state.data.meta.coverage && state.data.meta.coverage.sections;
+    return (cov && cov[section]) || null;
+  }
+
+  /** Compute the coverage + freshness model for the header strip. */
+  function coverageModel(data) {
+    const m = data.meta || {};
+    const cov = (m.coverage && m.coverage.sections) || {};
+    const now = Date.now();
+    const exp = EXPECTED.slice();
+    if (m.is_manufacturing) exp.push({ key: 'quant', label: 'Capacity & trade' });
+    const present = (e, isSrc) => has(isSrc ? (data.sources || {})[e.key] : data[e.key]);
+    const rank = { fresh: 0, aging: 1, stale: 2 };
+    let filled = 0, depthSum = 0, depthN = 0, worst = null;
+    const missing = [];
+    const consider = (e, isSrc) => {
+      const p = present(e, isSrc);
+      const c = cov[e.key] || {};
+      if (p) {
+        filled++;
+        if (c.sources) { depthSum += Math.min(c.sources, 3) / 3; depthN++; }
+        if (MATERIAL.includes(e.key)) {
+          const t = freshnessTier(e.key, c.as_of, now);
+          if (t && (!worst || rank[t.tier] > rank[worst.tier])) worst = t;
+        }
+      } else { missing.push(e); }
+    };
+    exp.forEach((e) => consider(e, false));
+    SRC_EXPECTED.forEach((e) => consider(e, true));
+    const total = exp.length + SRC_EXPECTED.length;
+    const depthBonus = depthN ? depthSum / depthN : 0;
+    const score = Math.round(100 * (0.7 * (filled / total) + 0.3 * depthBonus));
+    return { filled, total, missing, score, dot: worst, updated: relativeTime(m.updated_at || m.generated_at, now), updatedAbs: m.updated_at || m.generated_at };
+  }
+
+  /* ----------------------------------------------------------------------- *
    * Inline SVG icon set
    * ----------------------------------------------------------------------- */
   const I = {
@@ -79,6 +156,7 @@
     factory: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M4 20V9l5 4V9l5 4V9l5 4v7"/></svg>',
     empty: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7"/><path d="M3 7l3-4h12l3 4"/><path d="M9 12h6"/></svg>',
     chevron: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="m9 6 6 6-6 6"/></svg>',
+    refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>',
   };
 
   /* ----------------------------------------------------------------------- *
@@ -94,10 +172,23 @@
     }, h('span', { html: I.link }), h('span', { class: 'src-label' }, label));
   }
 
+  /** Per-section freshness ("as of <year>") + source-depth chips for a card head. */
+  function sectionChips(section) {
+    const c = sectionCov(section);
+    if (!c) return [];
+    const out = [];
+    const yr = asOfYear(c.as_of);
+    const t = freshnessTier(section, c.as_of, Date.now());
+    if (yr && t) out.push(h('span', { class: `asof asof-${t.tier}`, title: `${t.word} — data as of ${yr}` }, 'as of ' + yr));
+    if (c.sources) out.push(h('span', { class: 'srccount', title: `${c.sources} distinct source${c.sources > 1 ? 's' : ''} back this section` }, c.sources + (c.sources > 1 ? ' sources' : ' source')));
+    return out;
+  }
+
   function card(opts) {
-    const { title, subtitle, badge, source, body, hoverable = true, className = '' } = opts;
+    const { title, subtitle, badge, source, body, hoverable = true, className = '', section } = opts;
     const right = [];
     if (badge) right.push(badge);
+    if (section) right.push(...sectionChips(section));
     if (source) right.push(sourceChip(source));
     const head = (title || right.length) ? h('div', { class: 'card-head' },
       h('div', { class: 'min-w-0' },
@@ -278,7 +369,7 @@
         },
       }));
     }
-    return card({ title: 'Market size over time', subtitle: has(size.current) && size.current.unit ? `in ${size.current.unit}` : null, source: size.source, body });
+    return card({ title: 'Market size over time', subtitle: has(size.current) && size.current.unit ? `in ${size.current.unit}` : null, source: size.source, section: 'size', body });
   }
 
   function secSegments(data) {
@@ -294,7 +385,7 @@
       data: { labels: segs.map((s) => s.name), datasets: [{ data: segs.map((s) => s.share_pct), backgroundColor: segs.map((_, i) => color(i)), borderColor: '#fff', borderWidth: 2, hoverOffset: 6 }] },
       options: { responsive: true, maintainAspectRatio: false, cutout: '62%', plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.parsed}%` } } } },
     }));
-    return card({ title: 'Segments', subtitle: 'share of market', body });
+    return card({ title: 'Segments', subtitle: 'share of market', section: 'segments', body });
   }
 
   function secGrowthDrivers(data) {
@@ -309,7 +400,7 @@
         d.detail && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed' }, d.detail),
         d.source ? h('div', {}, sourceChip(d.source)) : null,
       )));
-    return card({ title: 'Growth drivers', subtitle: 'what is pulling demand', body: grid });
+    return card({ title: 'Growth drivers', subtitle: 'what is pulling demand', section: 'growth_drivers', body: grid });
   }
 
   function twList(items, kind) {
@@ -350,7 +441,7 @@
           s.source ? h('div', { class: 'mt-2' }, sourceChip(s.source)) : null,
         ),
       )));
-    return card({ title: 'Value chain', subtitle: 'stage-by-stage, with a margin note each', body: track });
+    return card({ title: 'Value chain', subtitle: 'stage-by-stage, with a margin note each', section: 'value_chain', body: track });
   }
 
   function secMargins(data) {
@@ -365,7 +456,7 @@
         h('div', { style: { width: Math.min(100, Number(val)) + '%', height: '100%', background: accent, borderRadius: '999px' } })),
     );
     return card({
-      title: 'Margin pool', subtitle: 'where the rupee lands', source: m.source,
+      title: 'Margin pool', subtitle: 'where the rupee lands', source: m.source, section: 'margins',
       body: h('div', {},
         bar('Manufacturer (EBITDA)', m.manufacturer_pct, 'var(--chart-1)'),
         bar('Retailer / dealer', m.retailer_pct, 'var(--chart-4)'),
@@ -394,7 +485,7 @@
     }));
     // sources vary per channel; surface the first as the card source, list rest inline if distinct
     const src = ch.find((c) => c.source && c.source.url) && ch.find((c) => c.source && c.source.url).source;
-    return card({ title: 'Channel mix', subtitle: 'how it reaches buyers', source: src, body: box });
+    return card({ title: 'Channel mix', subtitle: 'how it reaches buyers', source: src, section: 'channels', body: box });
   }
 
   function secPlayers(data) {
@@ -420,7 +511,7 @@
         h('td', {}, p.source ? sourceChip(p.source, { short: true }) : '—'),
       ))),
     );
-    const tableCard = card({ title: 'Players', subtitle: `${players.length} tracked`, className: 'min-w-0', body: h('div', { class: 'table-scroll' }, table) });
+    const tableCard = card({ title: 'Players', subtitle: `${players.length} tracked`, className: 'min-w-0', section: 'players', body: h('div', { class: 'table-scroll' }, table) });
 
     // ----- Market-share doughnut -----
     const shareData = players.filter((p) => p.market_share_pct != null);
@@ -456,7 +547,7 @@
     if (cap.length) {
       const { box, canvas } = chartBox(Math.max(160, cap.length * 42 + 30));
       cards.push(card({
-        title: 'Installed capacity', subtitle: cap[0].unit ? `by player (${cap[0].unit})` : 'by player',
+        title: 'Installed capacity', subtitle: cap[0].unit ? `by player (${cap[0].unit})` : 'by player', section: 'quant',
         body: h('div', {}, box, h('div', { class: 'mt-2 text-[11px] text-slate-400' }, cap.map((c) => c.region).filter(has).length ? 'Regions: ' + cap.map((c) => `${c.player} — ${c.region}`).filter((s) => !/undefined/.test(s)).join(' · ') : null)),
       }));
       requestAnimationFrame(() => newChart(canvas, {
@@ -697,6 +788,26 @@
   /* ======================================================================= *
    * INDUSTRY HEADER
    * ======================================================================= */
+  /** The freshness + coverage strip: two independent axes, plus what's still
+   *  gathering — so stale or thin data is visible, never a silent blank. */
+  function renderFreshnessBar(data) {
+    const cm = coverageModel(data);
+    const segs = [];
+    for (let i = 0; i < cm.total; i++) segs.push(h('i', { class: 'cov-seg' + (i < cm.filled ? '' : ' off') }));
+    const dot = cm.dot || { tier: 'fresh', word: 'Current' };
+    const chips = [];
+    if (cm.updated) chips.push(h('span', { class: 'fb-chip', title: cm.updatedAbs ? 'Data updated ' + cm.updatedAbs : '' },
+      h('span', { class: 'fb-ic', html: I.refresh }), 'Updated ' + cm.updated));
+    chips.push(h('span', { class: 'fb-chip' }, 'Coverage', h('span', { class: 'cov-meter' }, ...segs), h('b', { class: 'tabnum' }, cm.filled + '/' + cm.total)));
+    chips.push(h('span', { class: 'fb-chip' }, h('span', { class: 'fb-dot dot-' + dot.tier }), dot.word,
+      h('span', { class: 'fb-score' }, '· ' + cm.score + '/100')));
+    const wrap = h('div', { class: 'fade-in' }, h('div', { class: 'freshbar' }, ...chips));
+    if (cm.missing.length) wrap.appendChild(h('div', { class: 'fb-gather' },
+      h('span', { class: 'gskel' }), h('span', { class: 'gather-label' }, 'Still gathering:'),
+      ...cm.missing.map((e) => h('span', { class: 'gchip' }, e.label))));
+    return wrap;
+  }
+
   function renderIndustryHeader(data) {
     const root = $('#industry-header');
     root.innerHTML = '';
@@ -712,12 +823,12 @@
               m.is_manufacturing && h('span', { class: 'badge badge-brand' }, I ? h('span', { class: 'w-3 h-3', html: I.factory }) : null, 'Manufacturing')),
             has(m.definition) && h('p', { class: 'text-[13.5px] text-slate-500 leading-relaxed mt-2 max-w-3xl' }, m.definition)),
           h('div', { class: 'flex flex-col items-end gap-2 flex-shrink-0' },
-            m.mock && h('span', { class: 'mock-flag' }, h('span', { class: 'w-1.5 h-1.5 rounded-full bg-current' }), 'Mock data'),
-            has(m.generated_at) && h('span', { class: 'text-[11px] text-slate-400' }, 'Updated ' + m.generated_at))),
+            m.mock && h('span', { class: 'mock-flag' }, h('span', { class: 'w-1.5 h-1.5 rounded-full bg-current' }), 'Mock data'))),
         aliases.length ? h('div', { class: 'flex items-center gap-1.5 flex-wrap mt-3' },
           h('span', { class: 'text-[11px] font-semibold uppercase tracking-wide text-slate-400 mr-1' }, 'Also known as'),
           ...aliases.map((a) => h('span', { class: 'text-[11.5px] font-medium text-slate-500 bg-slate-100 rounded-md px-2 py-0.5' }, a))) : null,
       )));
+    root.appendChild(renderFreshnessBar(data));
   }
 
   /* ======================================================================= *
