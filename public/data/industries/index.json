@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "paints-coatings",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -8,6 +8,16 @@
         "Medium Density Fiberboard India",
         "MDF panel industry India",
         "engineered wood panels India"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "paints-coatings",
+      "name": "Paints & Coatings",
+      "aliases": [
+        "Decorative and Industrial Paints",
+        "Paints and Coatings Industry"
       ],
       "is_manufacturing": true,
       "mock": false
