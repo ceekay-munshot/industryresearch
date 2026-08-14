@@ -24,7 +24,7 @@ industry. The frontend holds no data of its own — drop in a new
 | Fonts      | Inter (UI/body) + Plus Jakarta Sans (headings) via Google Fonts |
 | Charts     | Chart.js v4 (CDN) — bar / horizontal bar / stacked / doughnut / line-area only |
 | Data       | Committed JSON per industry under `public/data/industries/`  |
-| Backend    | `worker/index.js` — a minimal Cloudflare Worker serving `./public` + one stub route |
+| Backend    | `worker/index.js` — a Cloudflare Worker serving `./public` + a grounded `POST /api/chat` route |
 
 ---
 
@@ -62,7 +62,7 @@ industry. The frontend holds no data of its own — drop in a new
 
 ## Running locally
 
-**Option A — full site (recommended, enables the chat stub):**
+**Option A — full site (recommended, enables Chat):**
 
 ```bash
 npm install
@@ -70,6 +70,20 @@ npm run dev        # → wrangler dev, serves ./public and the /api/chat route
 ```
 
 Then open the URL Wrangler prints (usually `http://localhost:8787`).
+
+For Chat to return **answers** locally (not just the friendly "try again" message)
+the Worker needs a Bedrock key. Put it in a git-ignored `.dev.vars` file at the
+repo root:
+
+```
+BEDROCK_API_KEY=your-bedrock-api-key
+# optional overrides:
+# BEDROCK_REGION=us-east-1
+# BEDROCK_MODEL_ID=us.anthropic.claude-sonnet-5
+```
+
+`wrangler dev` loads `.dev.vars` automatically. Without a key, every other route
+still works and Chat degrades gracefully.
 
 **Option B — quick look (no Worker):** open `public/index.html` in a browser, or
 serve the folder with any static server (e.g. `npx serve public`). Everything
@@ -92,7 +106,11 @@ renders except the Chat tab, which needs the Worker route.
 3. **YouTube** — grid of relevant video cards.
 4. **Reports** — broker / industry / policy reports.
 5. **News** — recent headlines with sentiment badges.
-6. **Chat** — simple chat UI that calls `POST /api/chat` (stub reply for now).
+6. **Chat** — ask questions about the current industry in plain English. The
+   Worker answers **only** from that industry's gathered data, **cites the source
+   URL** for each claim, and says "not in the data" rather than guessing when a
+   question is out of scope. Suggested starter questions get you going; answers
+   show source chips beneath them. See [Chat backend](#chat-backend-apichat).
 
 Every fact with a source shows a small clickable **source chip**. Any empty or
 missing JSON field is hidden gracefully — no blank boxes, no `undefined`.
@@ -266,3 +284,75 @@ BSE), and Screener / Trendlyne / Tickertape (ToS forbids scraping).
 All workflows use Node 22 with no `npm install` (global `fetch` + stdlib only).
 Guarantees for the store and the feed parsers are covered by
 `node scripts/test-store.mjs` and `node scripts/test-feeds.mjs`.
+
+---
+
+## Chat backend (`/api/chat`)
+
+The **Chat** tab is a grounded, source-backed Q&A over one industry's committed
+data — it runs in the Cloudflare **Worker** (`worker/index.js`), not the research
+pipeline, and touches no scraping.
+
+**How it works.** `POST /api/chat` accepts `{ slug, question, history? }`. The
+Worker:
+
+1. Loads `public/data/industries/<slug>.json` from static assets
+   (`env.ASSETS.fetch`). The slug is sanitised (`[a-z0-9-]` only) so it can't
+   escape the industries directory.
+2. Builds a compact **grounded context** from the assembled data — summary, and
+   the key facts per section with each fact's **source URL inline** — trimmed to a
+   token budget.
+3. Calls Claude on Bedrock (raw HTTPS + bearer token, the same shape as
+   `lib/llm.mjs`) with a system prompt that says: *answer using ONLY this data,
+   cite the source URL for each claim, and if the answer isn't in the data say so
+   — never guess.*
+4. Returns `{ answer, sources: [{label, url}] }`.
+
+**Guarantees (same spirit as the rest of the app):**
+
+- **Grounded + cite-or-admit** — answers come only from the loaded data; every
+  claim is asked to cite a source URL; out-of-scope questions get an honest
+  "not in the data".
+- **Never-invent** — any source the model returns whose URL is **not already in
+  the data** is dropped before the response is sent.
+- **Never-fail** — every error path (no key, bad slug, unknown industry, Bedrock
+  down, unparseable reply) returns a friendly `{ answer }` with HTTP 200, never a
+  500.
+- **Generic** — works for any industry present in `index.json`; nothing is
+  hard-coded to MDF.
+
+Covered by `node scripts/test-chat.mjs` (pure logic: grounding, never-invent,
+slug safety, history shaping) and `node scripts/test-chat-worker.mjs` (the full
+`fetch` handler with mocked assets + Bedrock).
+
+### Worker secrets (set these on the deployed Worker)
+
+The Chat backend reads its Bedrock config from the **Worker** environment. These
+are **Cloudflare Worker secrets — separate from the GitHub Actions secrets** used
+by the research pipeline. Setting them in GitHub does **not** make them available
+to the deployed Worker, and vice-versa; the Chat tab stays in its friendly
+"try again" state until the Worker has `BEDROCK_API_KEY`.
+
+| Worker var | Purpose | Default if unset |
+| --- | --- | --- |
+| `BEDROCK_API_KEY` | Bedrock API key (bearer token) — **required for Chat** | — (Chat returns the friendly fallback) |
+| `BEDROCK_REGION` | Bedrock region | `us-east-1` |
+| `BEDROCK_MODEL_ID` | Model id | `us.anthropic.claude-sonnet-5` |
+
+**Set the secret (CLI):**
+
+```bash
+# from the repo root, against the deployed Worker:
+npx wrangler secret put BEDROCK_API_KEY
+# paste the key when prompted. Optional overrides:
+npx wrangler secret put BEDROCK_REGION      # e.g. us-east-1
+npx wrangler secret put BEDROCK_MODEL_ID    # e.g. us.anthropic.claude-sonnet-5
+```
+
+**Set the secret (Cloudflare dashboard):** Workers &amp; Pages → your Worker
+(`industry-research-dashboard`) → **Settings → Variables and Secrets** → add
+`BEDROCK_API_KEY` as an **encrypted** secret (and, if needed, `BEDROCK_REGION` /
+`BEDROCK_MODEL_ID` as plain variables) → **Deploy**.
+
+**Local dev:** put the same keys in a git-ignored `.dev.vars` file (see
+[Running locally](#running-locally)); `wrangler dev` loads it automatically.

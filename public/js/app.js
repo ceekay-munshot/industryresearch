@@ -904,49 +904,110 @@
     root.appendChild(h('div', { class: 'report-doc', id: 'report-doc' }, header, h('div', { class: 'report-body' }, ...body)));
   }
 
+  /** Starter questions, filtered to the sections this industry actually has —
+   *  so we never suggest a question the data can't answer. Generic for any industry. */
+  function starterQuestions(data) {
+    const cand = [
+      { need: () => has(data.size), q: 'How big is the market and how fast is it growing?' },
+      { need: () => has(data.segments), q: 'What are the main segments?' },
+      { need: () => has(data.players), q: 'Who are the top players?' },
+      { need: () => has(data.channels), q: 'How is it sold and distributed?' },
+      { need: () => has(data.growth_drivers) || has(data.tailwinds), q: "What's driving growth?" },
+      { need: () => has(data.headwinds), q: 'What are the key risks?' },
+      { need: () => has(data.margins), q: 'What do margins look like across the chain?' },
+      { need: () => has(data.value_chain), q: 'Walk me through the value chain.' },
+    ];
+    const picked = cand.filter((c) => c.need()).map((c) => c.q);
+    return (picked.length ? picked : ['Give me a quick overview of this industry.']).slice(0, 4);
+  }
+
   function renderChat(root, data) {
     root.innerHTML = '';
-    const log = h('div', { class: 'chat-log', id: 'chat-log' });
     const nm = (data.meta && data.meta.name) || 'this industry';
-    log.appendChild(h('div', { class: 'msg bot' }, `Hi! Ask me anything about ${nm}. (This is a scaffold — replies come from a stub for now.)`));
+    const slug = (data.meta && data.meta.slug) || state.slug;
+    // Conversation memory for follow-up questions (sent to the worker each turn).
+    const history = [];
+
+    const log = h('div', { class: 'chat-log', id: 'chat-log' });
+    log.appendChild(h('div', { class: 'msg bot' },
+      `Hi! Ask me anything about ${nm}. I answer only from the gathered dashboard data and cite the sources — if something isn't in the data, I'll say so.`));
 
     const input = h('input', { class: 'flex-1 min-w-0 border-0 outline-none bg-transparent text-[14px]', type: 'text', placeholder: 'Ask a question…', autocomplete: 'off' });
-    const form = h('form', { class: 'searchbar mt-4', style: { borderRadius: '14px' } },
-      input,
-      h('button', { class: 'text-white font-semibold text-[13px] rounded-lg px-4 py-1.5 flex-shrink-0', style: { background: 'var(--primary)' }, type: 'submit' }, 'Send'),
-    );
+    const sendBtn = h('button', { class: 'text-white font-semibold text-[13px] rounded-lg px-4 py-1.5 flex-shrink-0', style: { background: 'var(--primary)' }, type: 'submit' }, 'Send');
+    const form = h('form', { class: 'searchbar mt-4', style: { borderRadius: '14px' } }, input, sendBtn);
+
+    const ctx = { log, history, data, slug, input, sendBtn, busy: false };
+
+    // Suggested starter questions — clickable, disappear once the chat gets going.
+    const starters = h('div', { class: 'chat-starters', id: 'chat-starters' },
+      h('span', { class: 'chat-starters-label' }, 'Try asking'),
+      ...starterQuestions(data).map((q) =>
+        h('button', { class: 'chat-starter', type: 'button', onClick: () => { if (!ctx.busy) submit(ctx, q); } }, q)));
+
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const text = input.value.trim();
-      if (!text) return;
-      input.value = '';
-      sendChat(log, text, data);
+      submit(ctx, input.value);
     });
 
-    root.appendChild(card({ hoverable: false, title: 'Chat', subtitle: 'ask about this industry',
-      body: h('div', {}, h('div', { class: 'rounded-xl bg-slate-50 border border-[var(--border)] p-4', style: { minHeight: '340px', maxHeight: '52vh', overflowY: 'auto' } }, log), form) }));
+    root.appendChild(card({ hoverable: false, title: 'Chat', subtitle: `ask about ${nm}`,
+      body: h('div', {},
+        h('div', { class: 'chat-window', style: { minHeight: '340px', maxHeight: '52vh', overflowY: 'auto' } }, log),
+        starters, form) }));
     input.focus();
   }
 
-  async function sendChat(log, text, data) {
+  function submit(ctx, raw) {
+    const text = String(raw || '').trim();
+    if (!text || ctx.busy) return;
+    ctx.input.value = '';
+    const starters = document.getElementById('chat-starters');
+    if (starters) starters.remove();               // hide suggestions after the first question
+    sendChat(ctx, text);
+  }
+
+  /** Append a bot answer bubble plus a source-chip row (grounded citations). */
+  function botAnswer(answer, sources) {
+    const bubble = h('div', { class: 'msg bot', style: { whiteSpace: 'pre-wrap' } }, answer);
+    const group = h('div', { class: 'msg-group' }, bubble);
+    const chips = (sources || []).map((s) => sourceChip(s)).filter(Boolean);
+    if (chips.length) group.appendChild(h('div', { class: 'chat-src-row' },
+      h('span', { class: 'chat-src-label' }, 'Sources'), ...chips));
+    return group;
+  }
+
+  async function sendChat(ctx, text) {
+    const { log, history, data, slug } = ctx;
     log.appendChild(h('div', { class: 'msg user' }, text));
     const typing = h('div', { class: 'msg bot typing' }, 'Thinking…');
     log.appendChild(typing);
     log.scrollTop = log.scrollHeight;
+
+    ctx.busy = true; ctx.sendBtn.disabled = true; ctx.input.disabled = true;
+    ctx.sendBtn.style.opacity = '.6';
+    // Prior turns only — the worker appends this question itself.
+    const priorHistory = history.slice();
     try {
       const res = await fetch('/api/chat', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text, industry: data.meta && data.meta.slug }),
+        body: JSON.stringify({ slug, question: text, history: priorHistory }),
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const json = await res.json();
       typing.remove();
-      log.appendChild(h('div', { class: 'msg bot' }, json.reply || '(no reply)'));
+      const answer = (json && typeof json.answer === 'string' && json.answer.trim())
+        ? json.answer.trim() : '(no answer)';
+      log.appendChild(botAnswer(answer, json && json.sources));
+      history.push({ role: 'user', content: text }, { role: 'assistant', content: answer });
     } catch (e) {
       typing.remove();
-      log.appendChild(h('div', { class: 'msg bot' }, 'Chat backend isn’t reachable yet. Run “npm run dev” (wrangler) to serve the /api/chat stub. This is expected when opening the file directly.'));
+      log.appendChild(h('div', { class: 'msg bot' },
+        'Chat isn’t reachable right now. On the deployed site this is served by the Cloudflare Worker (/api/chat); locally run “npm run dev” (wrangler) with the BEDROCK_API_KEY secret set. Opening the HTML file directly won’t reach the worker.'));
+    } finally {
+      ctx.busy = false; ctx.sendBtn.disabled = false; ctx.input.disabled = false;
+      ctx.sendBtn.style.opacity = '';
+      ctx.input.focus();
+      log.scrollTop = log.scrollHeight;
     }
-    log.scrollTop = log.scrollHeight;
   }
 
   /* ======================================================================= *
