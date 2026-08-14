@@ -317,6 +317,18 @@
     .home-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 6px 2px 14px; }
     .home-section-title { font-family: 'Plus Jakarta Sans','Inter',sans-serif; font-size: 18px; font-weight: 800; color: var(--ink); }
     .home-section-count { font-size: 12.5px; color: var(--ink-hint); font-weight: 600; }
+    /* In-flight / just-finished run cards on the home page (no-interruption layer) */
+    .pending-wrap:not(:empty) { display: flex; flex-direction: column; gap: 10px; margin-bottom: 22px; }
+    .pending-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; border-radius: 13px; background: var(--primary-soft); border: 1px solid var(--primary-border); flex-wrap: wrap; }
+    .pending-card.pending-done { background: var(--good-soft, #ecfdf5); border-color: var(--good, #10b981); }
+    .pending-main { display: flex; align-items: center; gap: 12px; min-width: 0; }
+    .pending-name { font-weight: 700; font-size: 15px; color: var(--ink); }
+    .pending-sub { font-size: 12.5px; color: var(--ink-hint); margin-top: 2px; }
+    .pending-check { width: 26px; height: 26px; border-radius: 50%; background: var(--good, #10b981); color: #fff; display: grid; place-items: center; flex: none; }
+    .pending-check svg { width: 15px; height: 15px; }
+    .pending-btn { flex-shrink: 0; font-size: 13px; font-weight: 700; color: var(--primary-text); background: var(--card); border: 1px solid var(--primary-border); border-radius: 10px; padding: 8px 16px; cursor: pointer; transition: all .16s; }
+    .pending-btn:hover { background: #fff; }
+    .pending-btn.primary { color: #fff; background: var(--good, #10b981); border-color: var(--good, #10b981); }
 
     /* ---------- History list (on home) + Refresh ---------- */
     .hist-list { display: flex; flex-direction: column; gap: 10px; }

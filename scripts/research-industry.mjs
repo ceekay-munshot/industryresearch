@@ -55,6 +55,9 @@ const CACHE_ROOT = join(ROOT, 'data', 'cache');
 
 const INDUSTRY = (process.env.INDUSTRY || 'MDF boards, India').trim();
 const COUNTRY = process.env.INDUSTRY_COUNTRY || 'India';
+// The current year drives recency everywhere: search queries hunt for it, and the
+// analyst prompts are told to lead with it rather than an old base year.
+const YEAR = new Date().getFullYear();
 
 // Bump when the Stage-A extraction prompt changes — every cached extraction then
 // misses and re-runs, so a prompt improvement propagates cleanly. The model id is
@@ -146,30 +149,38 @@ function pruneEmpty(obj) {
   return out;
 }
 
-/** Checklist-driven query set covering every schema section. */
+/** Checklist-driven query set covering every schema section. Years are dynamic
+ *  (current + neighbours) so the pipeline always hunts for the LATEST figures,
+ *  never a hard-coded base year that silently ages every calendar year. */
 function buildQueries(industry) {
+  const Y = YEAR;
   return [
-    `${industry} market size 2024 2025`,
+    `${industry} market size ${Y}`,
+    `${industry} market size ${Y} ${Y - 1} latest estimate`,
+    `${industry} market size forecast ${Y}-${Y + 6}`,
+    `${industry} ${Y} outlook trends latest`,
     `${industry} market growth rate CAGR forecast`,
     `${industry} market segments by application share`,
     `${industry} value chain analysis raw material to retail`,
     `${industry} distribution channels dealers modern trade`,
     `${industry} key players market share leaders`,          // critical
-    `${industry} top companies revenue EBITDA margin`,        // critical
+    `${industry} top companies revenue EBITDA margin ${Y}`,   // critical
     `${industry} listed companies stock manufacturers`,
     `${industry} manufacturer margin vs retailer margin profitability`,
-    `${industry} demand drivers growth outlook`,
-    `${industry} production capacity additions expansion`,    // manufacturing
+    `${industry} demand drivers growth outlook ${Y}`,
+    `${industry} production capacity additions expansion ${Y}`, // manufacturing
     `${industry} imports exports anti-dumping duty`,          // manufacturing
-    `${industry} industry report analysis`,
+    `${industry} industry report ${Y} analysis`,
   ];
 }
 
 function newsQueries(industry) {
+  const Y = YEAR;
   return [
-    `${industry} news`,
-    `${industry} capacity expansion results`,
-    `${industry} prices demand`,
+    `${industry} news ${Y}`,
+    `${industry} latest developments ${Y}`,
+    `${industry} capacity expansion results ${Y}`,
+    `${industry} prices demand ${Y}`,
   ];
 }
 
@@ -338,11 +349,17 @@ async function readPages(urlObjs, cache, ctx) {
 /* ---- YouTube discovery --------------------------------------------------- */
 
 async function findYouTube(industry) {
+  // Bias toward videos that help UNDERSTAND the industry — overview, the key
+  // players, the competitive/investment picture, and substitutes / "vs" videos —
+  // with only a single "how it's made" angle. Stage B then curates from these.
   const bases = [
-    `${industry} industry analysis`,
-    `${industry} SOIC`,
-    `${industry} value chain`,
-    `${industry} factory tour`,
+    `${industry} industry explained overview`,
+    `${industry} market analysis ${YEAR} investment thesis`,
+    `${industry} top companies key players comparison`,
+    `${industry} vs alternatives which is better`,
+    `${industry} substitute products competition`,
+    `${industry} advantages disadvantages why`,
+    `${industry} how it is made process`,
   ];
   const byId = new Map();
   const add = (id, title, url, snippet) => {
@@ -667,6 +684,8 @@ Required JSON shape (OMIT any field, array item, or whole section you cannot sup
 }
 
 Rules:
+- RECENCY IS A PRIORITY IN EVERY SECTION. Today is in ${YEAR}. Whenever the facts offer the same data point for more than one year, use the MOST RECENT — a ${YEAR} or ${YEAR - 1} figure beats an older one EVEN IF the older year is cited by more sources. This applies to size, segment shares, player market shares / capacity, margins, utilisation, imports and duties alike. For "size.current" pick the latest year (put older years in "history"); when the facts give a forward estimate for ${YEAR} or ${YEAR + 1}, prefer it and set "year" accordingly. The "headline" and "key_takeaways" must reflect the CURRENT state (the latest size and where the market is heading) — never lead with a figure that is two or more years old when a newer one exists.
+- MAXIMISE USEFUL VALUE — do not artificially limit output. There is no fixed amount to show per industry: capture EVERY well-sourced segment, driver, tailwind, headwind, channel, player and value-chain stage the facts support, and every notable, well-sourced industry-specific metric or fact (record standout KPIs a source states in the most fitting section's "note"/"detail"). Richer, sourced data is better; only omit what is unsourced or irrelevant.
 - Fill ONLY from the provided EXTRACTED FACTS and SEARCH SNIPPETS. Do NOT use outside knowledge for numbers.
 - The EXTRACTED FACTS are already grouped by category (SIZE, GROWTH, SEGMENTS, VALUE CHAIN, CHANNELS, PLAYERS, MARGINS, MARKET SHARE, CAPACITY, IMPORTS, DUTY) — use each group to fill the matching schema section.
 - Every fact object MUST include "source": { "label": short publisher/source name, "url": the source url given with the fact, "snippet": the short supporting quote given with the fact, as PLAIN TEXT — no internal double-quotes or line breaks }. If a fact has no usable url, OMIT that fact rather than inventing a source.
@@ -674,6 +693,7 @@ Rules:
 - "players" is the most important section. Capture as many named companies as the facts support. For each company: set "listed" (true/false) and "ticker" when the facts give them; set "segment" when stated; set "market_share_pct" whenever a source states or clearly implies that company's share; and use "note" to record qualitative leader / ranking positioning a source states (e.g. largest MDF maker in India, market leader in South India, second-largest capacity, among the top three). Mine BOTH the PLAYERS and MARKET SHARE fact groups for this. Do NOT invent or infer per-company "revenue" or "ebitda_margin_pct" — leave those two fields out unless a source explicitly states that company's figure; per-company financial benchmarking is a separate later step, so omitting them is expected and fine.
 - Include the "quant" section ONLY if the industry is manufacturing AND the facts give capacity / utilisation / imports / duty. Otherwise omit "quant" entirely.
 - For "sources.youtube" and "sources.reports": use ONLY the provided YOUTUBE CANDIDATES and REPORT CANDIDATES lists — do NOT invent videos or reports. Keep each item's exact url. Add channel / publisher / date / type only when evident, and write a one-line plain-English "why_relevant" (video) or "summary" (report). Omit any candidate clearly irrelevant to this industry. Do NOT include a "news" key — news is added separately.
+- CURATE the YouTube list for genuine UNDERSTANDING of the industry, not manufacturing trivia. Prefer videos that explain the industry, its market and outlook, its key players / companies, its competitive dynamics, and — importantly — its substitutes / alternatives / "X vs Y" comparisons (e.g. a rival product and why it competes). Keep AT MOST ONE "how it is made" / factory-tour video, and only if room remains. In each video's "why_relevant", say what a viewer will learn (e.g. "overview of the industry and its leaders", "why <substitute> competes with <product>"). Order the most insightful, understanding-first videos before the how-it's-made one.
 - Set meta.mock = false and meta.generated_at to today. Use simple, plain-English labels a non-expert can read.
 - Keep "report_markdown" grounded in the sourced facts; no filler.`;
 
@@ -788,7 +808,9 @@ export function foldNews(obj, newsItems) {
     const key = canonicalUrl(n.url) || n.title;
     if (!merged.has(key)) merged.set(key, n);
   }
-  obj.sources.news = [...merged.values()].slice(0, 30);
+  // Most-recent first (dated items on top; undated sink to the bottom).
+  const ts = (n) => { const t = Date.parse(n.published || n.date || ''); return isNaN(t) ? -Infinity : t; };
+  obj.sources.news = [...merged.values()].sort((a, b) => ts(b) - ts(a)).slice(0, 30);
   if (!Array.isArray(obj.sources.reports)) obj.sources.reports = [];
   if (!Array.isArray(obj.sources.youtube)) obj.sources.youtube = [];
   return obj;
