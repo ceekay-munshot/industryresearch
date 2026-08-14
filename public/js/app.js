@@ -793,7 +793,9 @@
 
   function renderNews(root, data) {
     root.innerHTML = '';
-    const news = ((data.sources && data.sources.news) || []).filter((n) => has(n.title));
+    const newsTs = (n) => { const t = Date.parse(n.published || n.date || ''); return isNaN(t) ? -Infinity : t; };
+    const news = ((data.sources && data.sources.news) || []).filter((n) => has(n.title))
+      .slice().sort((a, b) => newsTs(b) - newsTs(a));   // most recent headlines first
     if (!news.length) { root.appendChild(card({ hoverable: false, body: emptyState('No news yet', 'Recent headlines will appear here.') })); return; }
     const sentiment = (s) => {
       const k = String(s || '').toLowerCase();
@@ -1254,6 +1256,32 @@
   let runTimer = null, runActive = false;
   function stopRun() { if (runTimer) { clearInterval(runTimer); runTimer = null; } runActive = false; }
 
+  /* No-interruption layer: an in-flight run is persisted, so a refresh / closing
+   * the tab never loses it. On the next load we resume tracking (or surface the
+   * finished result on the home page). Serializable by design — a run record is
+   * { slug, name, since, sig, isRefresh, company, startedMs }. */
+  const PENDING_KEY = 'irx-pending-v1';
+  function readPending() { try { return JSON.parse(localStorage.getItem(PENDING_KEY) || '{}') || {}; } catch (e) { return {}; } }
+  function writePending(p) { try { localStorage.setItem(PENDING_KEY, JSON.stringify(p)); } catch (e) { /* private mode */ } }
+  function setPending(rec) { const p = readPending(); p[rec.slug] = rec; writePending(p); }
+  function clearPending(slug) { const p = readPending(); if (p[slug]) { delete p[slug]; writePending(p); } }
+  function listPending() {
+    const p = readPending(); const now = Date.now(); let changed = false;
+    for (const k of Object.keys(p)) { if (!p[k] || now - (p[k].startedMs || 0) > 120 * 60000) { delete p[k]; changed = true; } }
+    if (changed) writePending(p);
+    return Object.values(p).sort((a, b) => (b.startedMs || 0) - (a.startedMs || 0));
+  }
+  /** Has a pending run's result actually landed on the deployed site yet? */
+  async function isRunReady(rec) {
+    try {
+      const res = await fetch('./data/industries/' + rec.slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
+      if (!res.ok) return false;
+      const text = await res.text();
+      if (!rec.sig) return text.length > 200;               // new industry: it now exists with data
+      return String(text.length) !== rec.sig;               // update: content changed
+    } catch (e) { return false; }
+  }
+
   const STAGES = [
     'Starting up…',
     'Fetching sources across the web',
@@ -1270,13 +1298,14 @@
     const name = cfg.query;
     const slug = cfg.slug || slugifyLocal(cfg.query);
 
-    // For an update, remember the current file so we can detect a REAL change.
-    let baseline = null, since = '', sig = '';
+    // For an update, remember the current file's fingerprint so we can detect a
+    // REAL change (length differs). Stored in the run record so it survives a refresh.
+    let since = '', sig = '';
     if (cfg.isRefresh) {
       try {
         const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
-        if (res.ok) { baseline = await res.text(); sig = String(baseline.length);
-          try { since = (JSON.parse(baseline).meta || {}).updated_at || ''; } catch (e) { /* ignore */ } }
+        if (res.ok) { const text = await res.text(); sig = String(text.length);
+          try { since = (JSON.parse(text).meta || {}).updated_at || ''; } catch (e) { /* ignore */ } }
       } catch (e) { /* no baseline -> first change reloads */ }
     }
 
@@ -1294,7 +1323,17 @@
     } catch (e) { resp = null; }
 
     if (!resp || !resp.dispatched) return progressManual(ui, name, resp && resp.message);
-    startProgressLoop({ ui, slug: resp.slug || slug, name, baseline, since, sig, isRefresh: cfg.isRefresh, startedMs: Date.now() });
+    const rec = { slug: resp.slug || slug, name, since, sig, isRefresh: !!cfg.isRefresh, company: cfg.company || '', startedMs: Date.now() };
+    setPending(rec);                       // persist so a refresh never loses the run
+    startProgressLoop({ ui, ...rec });
+  }
+
+  /** Re-enter the progress screen for an already-dispatched run (after a refresh)
+   *  WITHOUT re-triggering the workflow. */
+  function resumeRun(rec) {
+    const ui = renderProgress({ name: rec.name, isRefresh: rec.isRefresh, company: rec.company });
+    setView('progress');
+    startProgressLoop({ ui, ...rec });
   }
 
   /** Build the progress screen; returns handles the loop updates. */
@@ -1323,7 +1362,7 @@
     stopRun(); runActive = true;
     const TAU = o.isRefresh ? 45000 : 100000;     // asymptotic time constant (refresh is faster)
     let runDoneAt = 0, pollBusy = false, lastPoll = 0, displayPct = 0;
-    const isNew = o.baseline == null;
+    const isNew = !o.sig;                          // no baseline fingerprint => a brand-new industry
 
     const fmt = (ms) => { const s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
     const setStage = (idx) => {
@@ -1337,7 +1376,7 @@
       o.ui.stageNow.textContent = STAGES[Math.min(idx, STAGES.length - 1)];
     };
     const finish = () => {
-      stopRun();
+      stopRun(); clearPending(o.slug);
       o.ui.bar.style.width = '100%'; o.ui.pct.textContent = '100%';
       o.ui.stages.querySelectorAll('li').forEach((li) => {
         li.classList.remove('st-active'); li.classList.add('st-done');
@@ -1346,28 +1385,25 @@
       o.ui.stageNow.textContent = 'Complete';
       setTimeout(() => loadIndustry(o.slug), 650);
     };
-    const fail = () => { stopRun(); progressFail(o.ui, o.name, () => runResearch({ query: o.name, slug: o.slug, isRefresh: o.isRefresh })); };
+    const fail = () => { stopRun(); clearPending(o.slug); progressFail(o.ui, o.name, () => runResearch({ query: o.name, slug: o.slug, isRefresh: o.isRefresh })); };
 
     const tick = async () => {
       const elapsed = Date.now() - o.startedMs;
       o.ui.elapsed.textContent = fmt(elapsed) + ' elapsed';
       const target = 90 * (1 - Math.exp(-elapsed / TAU));   // eases toward, never past, 90%
       displayPct = Math.max(displayPct, target);
-      o.ui.bar.style.width = displayPct.toFixed(1) + '%';
-      o.ui.pct.textContent = Math.round(displayPct) + '%';
-      setStage(Math.min(STAGES.length - 1, Math.floor((displayPct / 90) * (STAGES.length - 1))));
-      if (displayPct >= 88) o.ui.stageNow.textContent = STAGES[STAGES.length - 1] + '  still working…';
 
       if (!pollBusy && Date.now() - lastPoll > 11000) {
         pollBusy = true; lastPoll = Date.now();
         try {
-          // (a) the honest signal: can the frontend load new data now?
+          // (a) the honest signal: can the frontend load the finished data now?
           const res = await fetch('./data/industries/' + o.slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
           if (res.ok) {
             const text = await res.text();
-            if (isNew || text !== o.baseline) { pollBusy = false; return finish(); }
+            if (isNew ? text.length > 200 : String(text.length) !== o.sig) { pollBusy = false; return finish(); }
           }
-          // (b) friendly run state — only to detect failure or a finished no-op run.
+          // (b) friendly run state — to detect failure, or a finished run whose data
+          //     is still being published (deploy lag) / a no-op update.
           const qs = 'slug=' + encodeURIComponent(o.slug) + '&t=' + o.startedMs +
             (o.since ? '&since=' + encodeURIComponent(o.since) : '') + (o.sig ? '&sig=' + encodeURIComponent(o.sig) : '');
           const sres = await fetch('/api/research-status?' + qs, { cache: 'no-cache' });
@@ -1379,6 +1415,16 @@
         } catch (e) { /* keep going */ }
         pollBusy = false;
       }
+
+      // Once the run itself has finished, hold near the top and say we're
+      // publishing — the bar reaches 100% only when the data is really loadable.
+      if (runDoneAt) { displayPct = Math.max(displayPct, 95); }
+      o.ui.bar.style.width = displayPct.toFixed(1) + '%';
+      o.ui.pct.textContent = Math.round(displayPct) + '%';
+      setStage(Math.min(STAGES.length - 1, Math.floor((displayPct / 90) * (STAGES.length - 1))));
+      if (runDoneAt) o.ui.stageNow.textContent = 'Publishing results…';
+      else if (displayPct >= 88) o.ui.stageNow.textContent = STAGES[STAGES.length - 1] + '  still working…';
+
       // An update whose run finished but changed nothing (already current): end after a short grace.
       if (!isNew && runDoneAt && Date.now() - runDoneAt > 75000) return finish();
     };
@@ -1463,6 +1509,11 @@
       form,
       h('p', { class: 'home-hint' }, 'Try “MDF boards, India”, “Asian Paints”, or “solar rooftop EPC”.')));
 
+    // In-flight / just-finished runs — so nothing is ever lost across a refresh.
+    const pendingHost = h('div', { class: 'pending-wrap' });
+    host.appendChild(pendingHost);
+    renderPendingCards(pendingHost);
+
     const listHost = h('div', { class: 'hist-list' }, h('div', { class: 'hist-loading' }, 'Loading your research…'));
     const countEl = h('div', { class: 'home-section-count' }, '');
     host.appendChild(h('div', {},
@@ -1470,6 +1521,42 @@
       listHost));
     input.focus();
     populateHistory(listHost, countEl);
+  }
+
+  /** Render any in-flight / just-finished runs at the top of home, so a refresh
+   *  never leaves the user stranded — they can resume progress or open the result. */
+  async function renderPendingCards(host) {
+    host.innerHTML = '';
+    const pend = listPending();
+    if (!pend.length) return;
+    for (const rec of pend) {
+      const card = h('div', { class: 'pending-card' });
+      host.appendChild(card);
+      renderPendingRunning(card, rec);
+      isRunReady(rec).then((ready) => { if (ready) renderPendingReady(card, rec); });
+    }
+  }
+  function renderPendingRunning(card, rec) {
+    const mins = Math.max(0, Math.floor((Date.now() - (rec.startedMs || Date.now())) / 60000));
+    card.className = 'pending-card';
+    card.innerHTML = '';
+    card.appendChild(h('div', { class: 'pending-main' },
+      h('span', { class: 'nr-spinner' }),
+      h('div', { class: 'min-w-0' },
+        h('div', { class: 'pending-name' }, (rec.isRefresh ? 'Updating ' : 'Researching ') + rec.name),
+        h('div', { class: 'pending-sub' }, 'In progress' + (mins ? ' · started ' + mins + ' min ago' : '') + ' — this can take a few minutes.'))));
+    card.appendChild(h('button', { class: 'pending-btn', type: 'button', onClick: () => resumeRun(rec) }, 'View progress'));
+  }
+  function renderPendingReady(card, rec) {
+    card.className = 'pending-card pending-done';
+    card.innerHTML = '';
+    card.appendChild(h('div', { class: 'pending-main' },
+      h('span', { class: 'pending-check', html: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>' }),
+      h('div', { class: 'min-w-0' },
+        h('div', { class: 'pending-name' }, rec.name + ' is ready'),
+        h('div', { class: 'pending-sub' }, (rec.isRefresh ? 'Updated' : 'Research finished') + ' — open it to see the latest.'))));
+    card.appendChild(h('button', { class: 'pending-btn primary', type: 'button',
+      onClick: () => { clearPending(rec.slug); loadIndustry(rec.slug); } }, 'Open'));
   }
 
   async function populateHistory(listHost, countEl) {
