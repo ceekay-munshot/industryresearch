@@ -133,6 +133,15 @@
     .searchbar input { border: 0; outline: 0; width: 100%; font-size: 14px; background: transparent; color: var(--ink); }
     .searchbar input::placeholder { color: var(--ink-hint); }
 
+    /* Back-to-search button (shown when viewing an industry / a run) */
+    .back-btn { display: inline-flex; align-items: center; gap: 7px; height: 40px; padding: 0 14px; font-size: 13.5px; font-weight: 600; color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); border-radius: 11px; cursor: pointer; transition: all .16s; white-space: nowrap; flex-shrink: 0; }
+    .back-btn:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
+    .back-btn svg { width: 16px; height: 16px; }
+    /* Locked industry label — deliberately NOT styled like the search box */
+    .industry-lock { display: inline-flex; align-items: center; gap: 8px; max-width: min(520px, 46vw); height: 40px; padding: 0 15px; font-size: 14px; font-weight: 600; color: var(--ink); background: var(--neutral-soft); border: 1px solid var(--border); border-radius: 11px; cursor: default; }
+    .industry-lock svg { width: 13px; height: 13px; color: var(--ink-hint); flex-shrink: 0; }
+    .industry-lock .lk-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
     /* ---------- Tabs ---------- */
     .tabbar { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
     .tabbar::-webkit-scrollbar { display: none; }
@@ -516,13 +525,12 @@
           </div>
         </div>
 
-        <div id="topbar-search" class="flex-1 min-w-0 max-w-[520px] ml-auto">
-          <form id="search-form" class="searchbar" role="search">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-            <input id="search-input" type="text" placeholder="Type an industry or company…" autocomplete="off" aria-label="Search industry" />
-            <kbd class="text-[10px] text-slate-400 border border-slate-200 rounded px-1.5 py-0.5 hidden sm:inline">↵</kbd>
-          </form>
-        </div>
+        <button id="back-btn" type="button" class="back-btn hidden" title="Back to search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          <span>Back to search</span>
+        </button>
+        <!-- When an industry is open, its name shows here as a LOCKED label (not a search box). -->
+        <div id="industry-lock" class="industry-lock hidden ml-auto" aria-live="polite"></div>
       </div>
 
       <!-- Primary tabs -->
