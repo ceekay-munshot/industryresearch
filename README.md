@@ -42,7 +42,8 @@ industry. The frontend holds no data of its own — drop in a new
 │           └── mdf.json               # Mock MDF (India) data — "mock": true
 ├── lib/
 │   ├── llm.mjs                        # The ONLY place we call Claude (Bedrock, raw HTTPS)
-│   └── muns.mjs                       # Muns fastapi wrappers (search / news / reader)
+│   ├── muns.mjs                       # Muns fastapi wrappers (search / news / reader)
+│   └── scrape.mjs                     # Firecrawl / Scrape.do / Mistral-OCR fetchers
 ├── scripts/
 │   ├── test-bedrock.mjs               # Bedrock connectivity check
 │   └── research-industry.mjs          # Deep-research pipeline → fills <slug>.json
@@ -158,9 +159,16 @@ PDF reports are added in a later step.
   authenticated with a Bedrock API key as a bearer token. No npm dependencies.
 - `lib/muns.mjs` — wrappers for the Muns fastapi tools (`web-search`,
   `news-search`, `web-reader`) with defensive normalizers and continue-on-error.
+- `lib/scrape.mjs` — richer fetchers: **Firecrawl** (clean markdown),
+  **Scrape.do** (rendered HTML fallback / JS-heavy pages like YouTube results),
+  and **Mistral OCR** (PDF → text). Same defensive/continue-on-error discipline.
 - `scripts/research-industry.mjs` — builds a checklist of queries, searches +
-  reads sources, then asks Claude to fill the schema **only from those sources**
-  (every fact carries a `source: {label, url, snippet}` with a verbatim quote).
+  reads generic web pages **and** reads broker / industry / government **report
+  PDFs** (via OCR) so segments, value chain, channels, margins and player market
+  share have quotable numbers. Also discovers YouTube videos and report
+  candidates and fills the **YouTube** and **Reports** tabs. Claude fills the
+  schema **only from those sources** (every fact carries a
+  `source: {label, url, snippet}` with a verbatim quote).
 
 **Required GitHub secrets:**
 
@@ -170,6 +178,9 @@ PDF reports are added in a later step.
 | `BEDROCK_REGION` | Bedrock region | `us-east-1` |
 | `BEDROCK_MODEL_ID` | Model id | `us.anthropic.claude-sonnet-5` |
 | `MUNS_TOKEN` | Muns fastapi bearer token | — (research only) |
+| `FIRECRAWL_API_KEY` | Firecrawl scrape (report pages) | — (skipped if unset) |
+| `SCRAPEDO_API_KEY` | Scrape.do rendered HTML (YouTube, fallback) | — (skipped if unset) |
+| `MISTRAL_API_KEY` | Mistral OCR (report PDFs) | — (skipped if unset) |
 
 **How to run (GitHub → Actions):**
 
