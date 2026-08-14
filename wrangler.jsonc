@@ -1,0 +1,19 @@
+{
+  // Cloudflare Worker + static assets config for the Industry Research Dashboard.
+  // Docs: https://developers.cloudflare.com/workers/static-assets/
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "industry-research-dashboard",
+  "main": "worker/index.js",
+  "compatibility_date": "2025-01-01",
+
+  // Serve ./public as static assets. The `binding` lets the Worker fall back
+  // to asset serving via `env.ASSETS.fetch(request)` for any non-API route.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}

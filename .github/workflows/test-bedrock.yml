@@ -1,0 +1,25 @@
+name: Test Bedrock
+
+# Manual only. Validates the Bedrock API key + region + model id before running
+# the real research pipeline. Does not commit anything.
+on:
+  workflow_dispatch:
+
+jobs:
+  test-bedrock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run Bedrock connectivity check
+        env:
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_REGION: ${{ secrets.BEDROCK_REGION }}
+          BEDROCK_MODEL_ID: ${{ secrets.BEDROCK_MODEL_ID }}
+        run: node scripts/test-bedrock.mjs
