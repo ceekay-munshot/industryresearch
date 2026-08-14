@@ -16,6 +16,10 @@ permissions:
 jobs:
   research:
     runs-on: ubuntu-latest
+    # The pipeline reads every source in full and distils each with its own Claude
+    # call (Stage A), so a rich industry can take a while. Reliability over speed —
+    # give it plenty of headroom rather than let a long-but-healthy run be killed.
+    timeout-minutes: 350
     steps:
       - name: Checkout default branch
         uses: actions/checkout@v4

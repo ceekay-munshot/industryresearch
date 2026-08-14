@@ -147,10 +147,10 @@ generic and defensive: sections render only when present, in a fixed order.
 ## Data pipeline (research)
 
 Real, source-backed data is gathered by a manually-triggered GitHub Action that
-fills the **same** industry JSON schema. Scope so far: the Deep Research /
-Overview data (size, growth, segments, value chain, channels, players, margins,
-and — for manufacturing — capacity/imports) plus the **news** list. YouTube and
-PDF reports are added in a later step.
+fills the **same** industry JSON schema: the Deep Research / Overview data (size,
+growth, segments, value chain, channels, players, margins, and — for
+manufacturing — capacity/imports) plus the **news**, **YouTube** and **reports**
+source tabs.
 
 **Pieces:**
 
@@ -163,12 +163,26 @@ PDF reports are added in a later step.
   **Scrape.do** (rendered HTML fallback / JS-heavy pages like YouTube results),
   and **Mistral OCR** (PDF → text). Same defensive/continue-on-error discipline.
 - `scripts/research-industry.mjs` — builds a checklist of queries, searches +
-  reads generic web pages **and** reads broker / industry / government **report
-  PDFs** (via OCR) so segments, value chain, channels, margins and player market
-  share have quotable numbers. Also discovers YouTube videos and report
-  candidates and fills the **YouTube** and **Reports** tabs. Claude fills the
-  schema **only from those sources** (every fact carries a
-  `source: {label, url, snippet}` with a verbatim quote).
+  reads generic web pages **and** broker / industry / government **report PDFs**
+  (via OCR) so segments, value chain, channels, margins and player market share
+  have quotable numbers. Also discovers YouTube videos and report candidates and
+  fills the **YouTube** and **Reports** tabs. Every fact carries a
+  `source: {label, url, snippet}` with a supporting quote.
+
+  Two design rules drive it:
+
+  - **Never fail.** Every external call (Muns, Firecrawl, Scrape.do, Mistral,
+    Bedrock) retries with backoff and then skips-and-continues — one bad source
+    can't crash the run. Partial data is fine: whatever was gathered is always
+    written and committed. The run aborts (writing nothing) *only* if literally
+    nothing at all was gathered.
+  - **Maximum data, no trimming.** Every report and page is read in **full** and,
+    if large, **chunked** so nothing is skipped. Extraction is a two-stage
+    map-reduce: **Stage A** distils each source/chunk into a small list of clean
+    checklist facts with one focused Claude call per piece (a failed piece is
+    skipped, the rest kept); **Stage B** fills the schema from all the distilled
+    facts plus search/news snippets. Because Stage A compacts everything first,
+    Stage B always gets a small, clean input no matter how much raw text was read.
 
 **Required GitHub secrets:**
 

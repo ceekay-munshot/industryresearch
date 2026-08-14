@@ -6,9 +6,26 @@
  *
  * Scope: Deep Research / Overview data (size, growth, segments, value chain,
  * channels, players, margins, and — for manufacturing — capacity/imports) PLUS
- * the news, YouTube and reports source tabs. Segments / value chain / channels /
- * margins / market share come from richer sources (broker & industry report
- * PDFs read via OCR, plus scraped report pages), not just generic web search.
+ * the news, YouTube and reports source tabs.
+ *
+ * DESIGN — reliability first, maximum data, never fail:
+ *  - Every external call (Muns, Firecrawl, Scrape.do, Mistral, Bedrock) is
+ *    continue-on-error with retry+backoff inside its wrapper: a failure skips
+ *    that one source and the run keeps going. The run only aborts if literally
+ *    nothing at all was gathered — otherwise it always writes whatever it has.
+ *  - No content caps / no trimming. Every report and page is read in FULL and,
+ *    if large, chunked so nothing is skipped.
+ *  - Two-stage map-reduce (to stay reliable, never to drop data):
+ *      Stage A (map)    — one focused Claude call per source/chunk distils the
+ *                         messy full text into a small list of clean checklist
+ *                         facts (size, growth, segments, value chain, channels,
+ *                         players, margins, market share, capacity, imports),
+ *                         each with a short plain-text snippet + source url. A
+ *                         failed source is skipped; the rest are kept.
+ *      Stage B (reduce) — one call fills the full schema from the distilled
+ *                         facts + search/news snippets. Because Stage A already
+ *                         compacted everything, Stage B's input is always small
+ *                         and clean regardless of how much raw text we read.
  *
  * INDUSTRY env selects the target (default "MDF boards, India").
  * No npm dependencies — global fetch + node stdlib only.
@@ -27,15 +44,19 @@ const DATA_DIR = join(ROOT, 'public', 'data', 'industries');
 const INDUSTRY = (process.env.INDUSTRY || 'MDF boards, India').trim();
 const COUNTRY = process.env.INDUSTRY_COUNTRY || 'India';
 
-// Budgets — keep the model prompt to a sane size.
-const MAX_URLS = 15;
-const READER_BATCH = 4;
-const MAX_SOURCE_CHARS = 8000;    // per generic web page
-const MAX_REPORT_CHARS = 25000;   // per rich report / PDF (they carry the numbers)
-const MAX_TOTAL_CHARS = 150000;   // whole SOURCES block (smaller = cleaner, more reliable output)
-const MAX_YOUTUBE = 8;
-const MAX_REPORTS = 8;
-const READ_REPORTS = 3;           // how many report URLs to fully read (top 2-3 cleanest)
+// Discovery breadth. These bound how many candidates we DISCOVER — they never
+// trim the CONTENT of anything we read (sources are always read in full and
+// chunked). Any drop past a bound is logged, never silent.
+const MAX_URLS = 20;            // generic web pages to read
+const READER_BATCH = 3;        // small reader batches — don't overwhelm the API
+const REPORT_CAND_CAP = 30;    // report candidates to keep from discovery
+const REPORT_READ_CAP = 24;    // report candidates to fully read
+const CHUNK_CHARS = 36000;     // Stage-A chunk size (large sources are chunked)
+const CHUNK_OVERLAP = 1200;    // overlap so a fact spanning a boundary isn't lost
+const STAGE_A_MAX_TOKENS = 6000;
+const STAGE_B_MAX_TOKENS = 24000;
+const MAX_YOUTUBE = 8;         // videos shown in the YouTube tab
+const MAX_REPORTS = 12;        // reports shown in the Reports tab
 
 /* ----------------------------------------------------------------------- */
 
@@ -150,8 +171,10 @@ async function gatherSearchUrls(industry) {
 
   const unique = [...seen.values()];
   const capped = unique.slice(0, MAX_URLS);
-  console.log(`[research] collected ${rawCount} raw results, ${unique.length} unique URLs, using top ${capped.length}, dropped ${unique.length - capped.length}.`);
-  return capped;
+  console.log(`[research] collected ${rawCount} raw results, ${unique.length} unique URLs, reading top ${capped.length}, dropped ${unique.length - capped.length}.`);
+  // Return both the pages to read and ALL snippets (snippets are cheap and help
+  // Stage B even for pages we don't fully read).
+  return { pages: capped, all: unique };
 }
 
 async function gatherNews(industry) {
@@ -187,7 +210,7 @@ async function readPages(urlObjs) {
     for (const r of read) sources.push(r);
     console.log(`[research] read batch ${i / READER_BATCH + 1} (${batch.length} urls) -> ${read.length} pages`);
   }
-  console.log(`[research] read ${sources.length}/${urls.length} pages successfully.`);
+  console.log(`[research] read ${sources.length}/${urls.length} pages successfully (full text).`);
   return sources;
 }
 
@@ -249,6 +272,8 @@ async function findReports(industry) {
     `${industry} initiating coverage pdf`,
     `${industry} market report`,
     `${industry} annual report`,
+    `${industry} broker research report`,
+    `${industry} government report pdf`,
   ];
   const seen = new Map();
   for (const q of queries) {
@@ -268,26 +293,44 @@ async function findReports(industry) {
     }
     console.log(`[research] reports "${q}" -> ${results.length} results (${seen.size} unique so far)`);
   }
-  const cands = [...seen.values()].slice(0, MAX_REPORTS);
+  const all = [...seen.values()];
+  const cands = all.slice(0, REPORT_CAND_CAP);
+  if (all.length > cands.length) console.log(`[research] ${all.length} report candidates found, keeping ${cands.length} (REPORT_CAND_CAP).`);
   console.log(`[research] report candidates: ${cands.length}.`);
   return cands;
 }
 
+/** Read every report candidate in FULL (no per-report char cap). PDFs go through
+ *  OCR; other pages through Firecrawl, then Scrape.do as a fallback. Reading is
+ *  bounded by REPORT_READ_CAP with any skip logged, never silent. */
 async function readReports(reportCands) {
-  // Prioritise PDFs (they carry segments / margins / market share), read a few.
+  // Prioritise PDFs (they carry segments / margins / market share).
   const ranked = [...reportCands].sort((a, b) => (isPdf(b.url) ? 1 : 0) - (isPdf(a.url) ? 1 : 0));
-  const top = ranked.slice(0, READ_REPORTS);
+  const toRead = ranked.slice(0, REPORT_READ_CAP);
+  if (ranked.length > toRead.length) {
+    console.log(`[research] ${ranked.length} report candidates; reading ${toRead.length} (REPORT_READ_CAP), skipping ${ranked.length - toRead.length}.`);
+  }
   const out = [];
-  for (const c of top) {
+  for (const c of toRead) {
     let src = null;
-    if (isPdf(c.url)) {
-      src = await mistralOCR(c.url);
-    } else {
-      src = await firecrawlScrape(c.url);
-      if (!src) {
-        const s = await scrapedoScrape(c.url);
-        if (s && s.html) src = { url: c.url, text: htmlToText(s.html) };
+    try {
+      if (isPdf(c.url)) {
+        src = await mistralOCR(c.url);
+        if (!src) {
+          const s = await scrapedoScrape(c.url);
+          if (s && s.html) src = { url: c.url, text: htmlToText(s.html) };
+        }
+      } else {
+        src = await firecrawlScrape(c.url);
+        if (!src) {
+          const s = await scrapedoScrape(c.url);
+          if (s && s.html) src = { url: c.url, text: htmlToText(s.html) };
+        }
       }
+    } catch (e) {
+      // Belt-and-suspenders: the fetchers never throw, but never let one crash us.
+      console.warn(`[research] report read error ${c.url}: ${e.message}`);
+      src = null;
     }
     if (src && src.text) {
       out.push({ url: c.url, text: src.text });
@@ -296,8 +339,204 @@ async function readReports(reportCands) {
       console.log(`[research] report read FAIL ${c.url}`);
     }
   }
-  console.log(`[research] read ${out.length}/${top.length} report sources.`);
+  console.log(`[research] read ${out.length}/${toRead.length} report sources (full text).`);
   return out;
+}
+
+/* ---- Full-text source prep ---------------------------------------------- */
+
+/** Split text into <= size chunks with a small overlap so a fact that straddles
+ *  a boundary still appears whole in at least one chunk. */
+export function chunkText(text, size = CHUNK_CHARS, overlap = CHUNK_OVERLAP) {
+  const s = String(text || '');
+  if (!s) return [];
+  if (s.length <= size) return [s];
+  const step = Math.max(1, size - overlap);
+  const chunks = [];
+  for (let i = 0; i < s.length; i += step) {
+    chunks.push(s.slice(i, i + size));
+    if (i + size >= s.length) break;
+  }
+  return chunks;
+}
+
+/** Merge report + web full-text sources and drop duplicate URLs so we never read
+ *  (or pay to extract) the same page twice. */
+export function dedupeSources(sources) {
+  const seen = new Set();
+  const out = [];
+  for (const s of (sources || [])) {
+    if (!s || !s.text) continue;
+    const key = canonicalUrl(s.url) || s.url || '';
+    if (key && seen.has(key)) continue;
+    if (key) seen.add(key);
+    out.push(s);
+  }
+  return out;
+}
+
+/* ---- Stage A: per-source focused fact extraction (map) ------------------- */
+
+const FACT_CATEGORIES = new Set([
+  'size', 'growth', 'segments', 'value_chain', 'channels', 'players',
+  'margins', 'market_share', 'capacity', 'imports', 'duty', 'other',
+]);
+
+const STAGE_A_SYSTEM = `You are a meticulous industry research analyst. You are given an industry name and ONE source document (which may be a chunk of a larger report). Extract EVERY specific, quantified fact in the SOURCE TEXT that is relevant to that industry. Use ONLY the SOURCE TEXT — no outside knowledge, and never invent or round numbers.
+
+Return ONLY a JSON object — your entire response must start with { and end with } — no prose, no markdown, no code fences:
+
+{ "facts": [ { "category": "<one of: size, growth, segments, value_chain, channels, players, margins, market_share, capacity, imports, duty, other>", "text": "<one clear plain-English sentence stating the fact, including the specific number / name / % / year>", "snippet": "<a short ~10-25 word supporting quote from the SOURCE TEXT>" } ] }
+
+CRITICAL — STRICTLY VALID JSON:
+- Do NOT put any raw double-quote (") character inside a string value. If the source uses quotes, drop them or use single quotes.
+- Keep every string on a single line — no raw line breaks inside a string value.
+- One stray unescaped quote breaks the whole file, so be careful.
+
+Capture (be exhaustive, one fact per data point): market size / value; growth, CAGR and forecasts; segment names and shares; value-chain stages and their margins; distribution channels and shares; named companies with revenue / EBITDA % / market share / capacity / listed status / ticker; manufacturer vs retailer margins; production capacity and utilisation; imports / exports and volumes; anti-dumping or other duties.
+
+If the SOURCE TEXT contains no facts relevant to the industry, return exactly { "facts": [] }.`;
+
+/** Normalize the model's Stage-A reply into clean fact records, tagging each with
+ *  the known source url and enforcing plain-text snippets. */
+export function normalizeFacts(raw, url) {
+  const arr = raw && Array.isArray(raw.facts) ? raw.facts : (Array.isArray(raw) ? raw : []);
+  const out = [];
+  for (const f of arr) {
+    if (!f || typeof f !== 'object') continue;
+    const text = oneLine(f.text || f.fact || '', 400);
+    if (!text) continue;
+    let category = String(f.category || 'other').toLowerCase().replace(/[^a-z_]/g, '');
+    if (!FACT_CATEGORIES.has(category)) category = 'other';
+    // Snippets must be safe inside a JSON string later — strip double-quotes.
+    const snippet = oneLine(f.snippet || '', 300).replace(/"/g, "'");
+    out.push({ category, text, snippet, url: url || '' });
+  }
+  return out;
+}
+
+/** Drop facts that repeat (e.g. from overlapping chunks) by category+text. */
+export function dedupeFacts(facts) {
+  const seen = new Set();
+  const out = [];
+  for (const f of (facts || [])) {
+    if (!f || !f.text) continue;
+    const key = `${f.category}|${String(f.text).toLowerCase().replace(/\s+/g, ' ').trim()}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(f);
+  }
+  return out;
+}
+
+async function extractFactsFromSource(source, idx, total) {
+  const chunks = chunkText(source.text);
+  if (!chunks.length) return [];
+  const facts = [];
+  for (let c = 0; c < chunks.length; c++) {
+    const label = `${source.kind} ${idx + 1}/${total} chunk ${c + 1}/${chunks.length}`;
+    try {
+      const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\nSource URL: ${source.url}\n\nSOURCE TEXT (extract every relevant fact):\n${chunks[c]}`;
+      const res = await callClaudeJSON({ system: STAGE_A_SYSTEM, user, max_tokens: STAGE_A_MAX_TOKENS, thinking: { type: 'disabled' } });
+      const got = normalizeFacts(res, source.url);
+      facts.push(...got);
+      console.log(`[research] stageA ${label} -> ${got.length} facts`);
+    } catch (e) {
+      // Isolate the failure: skip this chunk, keep everything else.
+      console.warn(`[research] stageA ${label} FAILED (skipped): ${e.message}`);
+    }
+  }
+  return facts;
+}
+
+async function runStageA(fullTextSources) {
+  const all = [];
+  for (let i = 0; i < fullTextSources.length; i++) {
+    const facts = await extractFactsFromSource(fullTextSources[i], i, fullTextSources.length);
+    all.push(...facts);
+  }
+  const deduped = dedupeFacts(all);
+  console.log(`[research] Stage A: ${all.length} facts extracted -> ${deduped.length} after dedupe, from ${fullTextSources.length} sources.`);
+  return deduped;
+}
+
+/** Group facts by category into a compact, clean digest for Stage B. */
+export function buildFactDigest(facts) {
+  const order = ['size', 'growth', 'segments', 'value_chain', 'channels', 'players', 'margins', 'market_share', 'capacity', 'imports', 'duty', 'other'];
+  const byCat = new Map(order.map((c) => [c, []]));
+  for (const f of (facts || [])) {
+    const cat = byCat.has(f.category) ? f.category : 'other';
+    byCat.get(cat).push(f);
+  }
+  const parts = [];
+  for (const cat of order) {
+    const list = byCat.get(cat);
+    if (!list || !list.length) continue;
+    const lines = list.map((f) => `- ${f.text} (source: ${f.url || 'n/a'})${f.snippet ? ` [quote: ${f.snippet}]` : ''}`);
+    parts.push(`## ${cat.toUpperCase().replace(/_/g, ' ')}\n${lines.join('\n')}`);
+  }
+  return parts.join('\n\n');
+}
+
+/* ---- Stage B: schema fill (reduce) --------------------------------------- */
+
+const STAGE_B_SYSTEM = `You are an equity/industry research analyst. Produce a single JSON object describing an industry, filled ONLY from the EXTRACTED FACTS and SEARCH SNIPPETS the user provides.
+
+Return ONLY the JSON object — no prose, no markdown, no code fences, no XML tags. Your entire response must start with { and end with }.
+
+Output STRICTLY VALID JSON. Inside every string value: keep it on a single line (no raw line breaks) and do NOT include any raw double-quote (") character — if you need to quote something inside a string, remove the quotes or use single quotes instead. This is critical: one stray unescaped quote breaks the whole file.
+
+Required JSON shape (OMIT any field, array item, or whole section you cannot support from the FACTS — never output an empty placeholder and never invent numbers):
+
+{
+  "meta": { "slug", "name", "aliases": [], "definition", "is_manufacturing": true|false, "generated_at", "mock": false },
+  "summary": { "headline", "key_takeaways": ["3-5 short plain-English bullets"], "report_markdown": "## multi-section writeup using ## headings, **bold**, and - lists" },
+  "size": { "current": { "value": <number>, "unit": "e.g. USD billion / ₹ crore", "year": <number> }, "cagr_pct": <number>, "cagr_note": "short window note", "history": [ { "year": <number>, "value": <number> } ], "source": { "label", "url", "snippet" } },
+  "segments": [ { "name", "share_pct": <number>, "note", "source": {"label","url","snippet"} } ],
+  "growth_drivers": [ { "title", "detail", "source": {"label","url","snippet"} } ],
+  "tailwinds": [ { "point", "source": {"label","url","snippet"} } ],
+  "headwinds": [ { "point", "source": {"label","url","snippet"} } ],
+  "value_chain": [ { "stage", "description", "margin_note", "source": {"label","url","snippet"} } ],
+  "channels": [ { "channel", "share_pct": <number>, "source": {"label","url","snippet"} } ],
+  "players": [ { "name", "listed": true|false, "ticker", "segment", "revenue": <number>, "revenue_unit", "revenue_year": <number>, "ebitda_margin_pct": <number>, "market_share_pct": <number>, "note", "source": {"label","url","snippet"} } ],
+  "margins": { "manufacturer_pct": <number>, "retailer_pct": <number>, "notes", "source": {"label","url","snippet"} },
+  "quant": { "capacity": [ { "player", "region", "capacity": <number>, "unit", "year": <number> } ], "utilisation_pct": <number>, "imports": [ { "year": <number>, "volume": <number>, "unit" } ], "duty": [ { "country", "note" } ], "source": {"label","url","snippet"} },
+  "sources": {
+    "youtube": [ { "title", "channel", "url", "published", "why_relevant" } ],
+    "reports": [ { "title", "publisher", "date", "url", "type", "summary" } ]
+  }
+}
+
+Rules:
+- Fill ONLY from the provided EXTRACTED FACTS and SEARCH SNIPPETS. Do NOT use outside knowledge for numbers.
+- The EXTRACTED FACTS are already grouped by category (SIZE, GROWTH, SEGMENTS, VALUE CHAIN, CHANNELS, PLAYERS, MARGINS, MARKET SHARE, CAPACITY, IMPORTS, DUTY) — use each group to fill the matching schema section.
+- Every fact object MUST include "source": { "label": short publisher/source name, "url": the source url given with the fact, "snippet": the short supporting quote given with the fact, as PLAIN TEXT — no internal double-quotes or line breaks }. If a fact has no usable url, OMIT that fact rather than inventing a source.
+- Numbers must come from the facts. Never estimate, round-trip, or invent figures. Prefer the most recent year available. When several facts agree or overlap, consolidate them into one entry.
+- "players" is the most important section — capture as many named companies as the facts support, with whatever of revenue / EBITDA % / market share / listed / ticker each one gives.
+- Include the "quant" section ONLY if the industry is manufacturing AND the facts give capacity / utilisation / imports / duty. Otherwise omit "quant" entirely.
+- For "sources.youtube" and "sources.reports": use ONLY the provided YOUTUBE CANDIDATES and REPORT CANDIDATES lists — do NOT invent videos or reports. Keep each item's exact url. Add channel / publisher / date / type only when evident, and write a one-line plain-English "why_relevant" (video) or "summary" (report). Omit any candidate clearly irrelevant to this industry. Do NOT include a "news" key — news is added separately.
+- Set meta.mock = false and meta.generated_at to today. Use simple, plain-English labels a non-expert can read.
+- Keep "report_markdown" grounded in the sourced facts; no filler.`;
+
+async function runStageB(facts, snippetUrls, youtubeCands, reportCands) {
+  const digest = buildFactDigest(facts);
+  const snippetLines = (snippetUrls || [])
+    .filter((u) => u.snippet)
+    .map((u) => `- ${u.title ? u.title + ' — ' : ''}${oneLine(u.snippet, 300)} [${u.url}]`);
+  const ytList = youtubeCands.length
+    ? youtubeCands.map((c, i) => `${i + 1}. ${c.title || '(untitled)'} — ${c.url}`).join('\n')
+    : '(none)';
+  const rpList = reportCands.length
+    ? reportCands.map((c, i) => `${i + 1}. [${c.type}] ${c.title || '(untitled)'} — ${c.url}`).join('\n')
+    : '(none)';
+
+  const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\n\nEXTRACTED FACTS (distilled from full reading of every source; grouped by category):\n${digest || '(none extracted)'}\n\nSEARCH SNIPPETS (supplementary short result snippets):\n${snippetLines.join('\n') || '(none)'}\n\nYOUTUBE CANDIDATES:\n${ytList}\n\nREPORT CANDIDATES:\n${rpList}`;
+
+  console.log(`[research] Stage B: filling schema from ${facts.length} facts + ${snippetLines.length} snippets (digest ${digest.length} chars).`);
+  // Disable thinking so the entire token budget goes to the JSON (on Sonnet 5,
+  // adaptive thinking otherwise eats the budget and truncates the output).
+  const obj = await callClaudeJSON({ system: STAGE_B_SYSTEM, user, max_tokens: STAGE_B_MAX_TOKENS, thinking: { type: 'disabled' } });
+  return obj;
 }
 
 /* ---- Source-tab reconciliation (candidates + model annotations) ---------- */
@@ -364,82 +603,7 @@ export function attachSources(obj, youtubeCands, reportCands) {
   return obj;
 }
 
-/** Build the SOURCES block: rich report/PDF text first (prioritised), then web
- *  pages, then compact search snippets — capped, with the trimmed amount logged. */
-export function buildSourcesBlock(reportSources, readerSources, searchUrls) {
-  let total = 0;
-  let trimmed = 0;
-  const parts = [];
-
-  const push = (label, url, text, cap) => {
-    if (!text) return;
-    const clipped = text.length > cap ? text.slice(0, cap) : text;
-    if (text.length > cap) trimmed += text.length - cap;
-    const block = `\n===== ${label}: ${url || '(unknown url)'} =====\n${clipped}\n`;
-    if (total + block.length > MAX_TOTAL_CHARS) { trimmed += clipped.length; return; }
-    parts.push(block);
-    total += block.length;
-  };
-
-  for (const s of (reportSources || [])) push('REPORT SOURCE', s.url, s.text, MAX_REPORT_CHARS);
-  for (const s of (readerSources || [])) push('WEB SOURCE', s.url, s.text, MAX_SOURCE_CHARS);
-
-  const snippetLines = (searchUrls || [])
-    .filter((u) => u.snippet)
-    .map((u) => `- ${u.title ? u.title + ' — ' : ''}${u.snippet} [${u.url}]`);
-  if (snippetLines.length) {
-    const block = `\n===== SEARCH SNIPPETS =====\n${snippetLines.join('\n')}\n`;
-    if (total + block.length <= MAX_TOTAL_CHARS) { parts.push(block); total += block.length; }
-    else {
-      const room = MAX_TOTAL_CHARS - total;
-      if (room > 200) { parts.push(block.slice(0, room)); total += room; trimmed += block.length - room; }
-      else trimmed += block.length;
-    }
-  }
-
-  console.log(`[research] SOURCES block: ${total} chars (${(reportSources || []).length} reports + ${(readerSources || []).length} web + snippets); ~${trimmed} chars trimmed.`);
-  return parts.join('\n');
-}
-
 /* ----------------------------------------------------------------------- */
-
-const SYSTEM_PROMPT = `You are an equity/industry research analyst. Produce a single JSON object describing an industry, filled ONLY from the SOURCES the user provides.
-
-Return ONLY the JSON object — no prose, no markdown, no code fences, no XML tags. Your entire response must start with { and end with }.
-
-Output STRICTLY VALID JSON. Inside every string value: keep it on a single line (no raw line breaks) and do NOT include any raw double-quote (") character — if you need to quote something inside a string, remove the quotes or use single quotes instead. This is critical: one stray unescaped quote breaks the whole file.
-
-Required JSON shape (OMIT any field, array item, or whole section you cannot support from the SOURCES — never output an empty placeholder and never invent numbers):
-
-{
-  "meta": { "slug", "name", "aliases": [], "definition", "is_manufacturing": true|false, "generated_at", "mock": false },
-  "summary": { "headline", "key_takeaways": ["3-5 short plain-English bullets"], "report_markdown": "## multi-section writeup using ## headings, **bold**, and - lists" },
-  "size": { "current": { "value": <number>, "unit": "e.g. USD billion / ₹ crore", "year": <number> }, "cagr_pct": <number>, "cagr_note": "short window note", "history": [ { "year": <number>, "value": <number> } ], "source": { "label", "url", "snippet" } },
-  "segments": [ { "name", "share_pct": <number>, "note", "source": {"label","url","snippet"} } ],
-  "growth_drivers": [ { "title", "detail", "source": {"label","url","snippet"} } ],
-  "tailwinds": [ { "point", "source": {"label","url","snippet"} } ],
-  "headwinds": [ { "point", "source": {"label","url","snippet"} } ],
-  "value_chain": [ { "stage", "description", "margin_note", "source": {"label","url","snippet"} } ],
-  "channels": [ { "channel", "share_pct": <number>, "source": {"label","url","snippet"} } ],
-  "players": [ { "name", "listed": true|false, "ticker", "segment", "revenue": <number>, "revenue_unit", "revenue_year": <number>, "ebitda_margin_pct": <number>, "market_share_pct": <number>, "note", "source": {"label","url","snippet"} } ],
-  "margins": { "manufacturer_pct": <number>, "retailer_pct": <number>, "notes", "source": {"label","url","snippet"} },
-  "quant": { "capacity": [ { "player", "region", "capacity": <number>, "unit", "year": <number> } ], "utilisation_pct": <number>, "imports": [ { "year": <number>, "volume": <number>, "unit" } ], "duty": [ { "country", "note" } ], "source": {"label","url","snippet"} },
-  "sources": {
-    "youtube": [ { "title", "channel", "url", "published", "why_relevant" } ],
-    "reports": [ { "title", "publisher", "date", "url", "type", "summary" } ]
-  }
-}
-
-Rules:
-- Fill ONLY from the provided SOURCES. Do NOT use outside knowledge for numbers.
-- Every fact object MUST include "source": { "label": short publisher/source name, "url": the source URL from the SOURCES, "snippet": a short ~15-30 word supporting quote from that source, written as PLAIN TEXT — strip any internal double-quotes and line breaks (paraphrase lightly or use single quotes if needed) so it is safe inside a JSON string }. If you cannot attach a real source URL and a supporting snippet, OMIT the fact.
-- Numbers must come from the sources. Never estimate, round-trip, or invent figures. Prefer the most recent year available.
-- The REPORT SOURCE blocks (broker / industry / government reports and PDFs) are the best place to find segments, value chain, distribution channels, margins and player market share — mine them carefully for those sections.
-- "players" is the most important section — capture as many named companies as the sources support, with whatever of revenue / EBITDA % / market share / listed / ticker each source gives.
-- Include the "quant" section ONLY if the industry is manufacturing AND the sources give capacity / utilisation / imports / duty. Otherwise omit "quant" entirely.
-- For "sources.youtube" and "sources.reports": use ONLY the provided YOUTUBE CANDIDATES and REPORT CANDIDATES lists — do NOT invent videos or reports. Keep each item's exact url. Add channel / publisher / date / type only when evident, and write a one-line plain-English "why_relevant" (video) or "summary" (report). Omit any candidate that is clearly irrelevant to this industry. Do NOT include a "news" key — news is added separately.
-- Set meta.mock = false and meta.generated_at to today. Use simple, plain-English labels a non-expert can read.
-- Keep "report_markdown" grounded in the sourced facts; no filler.`;
 
 export function enforceMeta(obj, slug) {
   const meta = (obj.meta && typeof obj.meta === 'object') ? obj.meta : {};
@@ -463,7 +627,6 @@ export function foldNews(obj, newsItems) {
     if (!merged.has(key)) merged.set(key, n);
   }
   obj.sources.news = [...merged.values()];
-  // Reports + YouTube are populated in a later step.
   if (!Array.isArray(obj.sources.reports)) obj.sources.reports = [];
   if (!Array.isArray(obj.sources.youtube)) obj.sources.youtube = [];
   return obj;
@@ -527,42 +690,53 @@ async function main() {
   const slug = slugify(INDUSTRY);
   console.log(`[research] slug=${slug}`);
 
-  // a/b) queries -> web search + news
-  const searchUrls = await gatherSearchUrls(INDUSTRY);
+  // a/b) queries -> web search + news (each call is retry+continue-on-error)
+  const { pages: searchPages, all: allSearch } = await gatherSearchUrls(INDUSTRY);
   const newsItems = await gatherNews(INDUSTRY);
-
-  if (!searchUrls.length && !newsItems.length) {
-    throw new Error('No search or news results — check MUNS_TOKEN and connectivity. Aborting so no empty file is written.');
-  }
 
   // c) discover YouTube videos and report/PDF candidates
   const youtubeCands = await findYouTube(INDUSTRY);
   const reportCands = await findReports(INDUSTRY);
 
-  // d) read rich report sources (PDF via OCR, else scrape) + the top web pages
+  // d) read rich report sources (PDF via OCR, else scrape) + the web pages — all
+  //    in FULL, no truncation. Dedupe so we never extract the same URL twice.
   const reportSources = await readReports(reportCands);
-  const readerSources = await readPages(searchUrls);
+  const readerSources = await readPages(searchPages);
+  const fullTextSources = dedupeSources([
+    ...reportSources.map((s) => ({ ...s, kind: 'report' })),
+    ...readerSources.map((s) => ({ ...s, kind: 'web' })),
+  ]);
+  console.log(`[research] ${fullTextSources.length} unique full-text sources to distil (${reportSources.length} reports + ${readerSources.length} web pages).`);
 
-  // e) extract into the schema — reports prioritised in the source budget
-  const sourcesBlock = buildSourcesBlock(reportSources, readerSources, searchUrls);
-  const ytList = youtubeCands.length
-    ? youtubeCands.map((c, i) => `${i + 1}. ${c.title || '(untitled)'} — ${c.url}`).join('\n')
-    : '(none)';
-  const rpList = reportCands.length
-    ? reportCands.map((c, i) => `${i + 1}. [${c.type}] ${c.title || '(untitled)'} — ${c.url}`).join('\n')
-    : '(none)';
-
-  const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\n\nSOURCES:\n${sourcesBlock}\n\nYOUTUBE CANDIDATES:\n${ytList}\n\nREPORT CANDIDATES:\n${rpList}`;
-  console.log('[research] calling Claude for structured extraction...');
-  // Disable thinking so the entire token budget goes to the JSON (on Sonnet 5,
-  // adaptive thinking otherwise eats the budget and truncates the output), and
-  // give a generous ceiling for a rich schema with a full report_markdown.
-  let obj = await callClaudeJSON({ system: SYSTEM_PROMPT, user, max_tokens: 20000, thinking: { type: 'disabled' } });
-  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
-    throw new Error('Model did not return a JSON object.');
+  // Abort ONLY if literally nothing at all was gathered — otherwise always write.
+  const gatheredAnything =
+    allSearch.length || newsItems.length || youtubeCands.length || reportCands.length || fullTextSources.length;
+  if (!gatheredAnything) {
+    throw new Error('Nothing gathered at all (no search, news, youtube, reports or readable pages) — check MUNS_TOKEN / connectivity. Aborting so no empty file is written.');
   }
 
-  // f) enforce meta, fold news, reconcile youtube/reports, write files, report
+  // e) Stage A (map): per-source focused fact extraction. A failed source is
+  //    skipped; the rest are kept.
+  const facts = await runStageA(fullTextSources);
+
+  // f) Stage B (reduce): fill the schema from the distilled facts + snippets.
+  //    Wrapped so that even a total extraction failure still writes partial data
+  //    (meta + news/youtube/reports tabs) rather than crashing the run.
+  let obj = {};
+  try {
+    console.log('[research] calling Claude for Stage B structured extraction...');
+    obj = await runStageB(facts, allSearch, youtubeCands, reportCands);
+  } catch (e) {
+    console.error(`[research] Stage B FAILED — writing partial data (sources only). ${e && e.stack ? e.stack : e}`);
+    obj = {};
+  }
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
+    console.warn('[research] Stage B did not return an object — writing partial data (sources only).');
+    obj = {};
+  }
+
+  // g) enforce meta, fold news, reconcile youtube/reports, write files, report.
+  //    These always run so the file is written with whatever we have.
   obj = enforceMeta(obj, slug);
   obj = foldNews(obj, newsItems);
   obj = attachSources(obj, youtubeCands, reportCands);
