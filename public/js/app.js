@@ -165,11 +165,12 @@
   function sourceChip(src, opts) {
     if (!src || !src.url) return null;
     const full = src.label || 'Source';
-    const label = (opts && opts.short) ? 'Source' : full;
+    const iconOnly = opts && opts.icon;
+    const label = iconOnly ? '' : ((opts && opts.short) ? 'Source' : full);
     return h('a', {
-      class: 'source-chip', href: src.url, target: '_blank', rel: 'noopener noreferrer',
+      class: 'source-chip' + (iconOnly ? ' source-chip-icon' : ''), href: src.url, target: '_blank', rel: 'noopener noreferrer',
       title: src.snippet ? `${full} — ${src.snippet}` : full,
-    }, h('span', { html: I.link }), h('span', { class: 'src-label' }, label));
+    }, h('span', { html: I.link }), label ? h('span', { class: 'src-label' }, label) : null);
   }
 
   /** Per-section freshness ("as of <year>") + source-depth chips for a card head. */
@@ -191,11 +192,11 @@
     if (section) right.push(...sectionChips(section));
     if (source) right.push(sourceChip(source));
     const head = (title || right.length) ? h('div', { class: 'card-head' },
-      h('div', { class: 'min-w-0' },
+      h('div', { class: 'card-head-main min-w-0' },
         title && h('h3', { class: 'card-title' }, title),
         subtitle && h('p', { class: 'card-sub' }, subtitle),
       ),
-      right.length ? h('div', { class: 'flex items-center gap-2 flex-shrink-0 flex-wrap justify-end' }, ...right) : null,
+      right.length ? h('div', { class: 'card-head-chips flex items-center gap-2 flex-wrap' }, ...right) : null,
     ) : null;
     return h('div', { class: `card ${hoverable ? 'hoverable' : ''} ${className}` }, head, h('div', { class: 'card-body' }, body));
   }
@@ -297,12 +298,12 @@
         h('span', { class: 'legend-swatch', style: { background: color(i) } }),
         h('div', { class: 'min-w-0 flex-1' },
           h('div', { class: 'flex items-center justify-between gap-2' },
-            h('span', { class: 'text-[13px] font-semibold text-slate-700 truncate' }, it.name),
+            h('span', { class: 'legend-name' }, it.name),
             h('span', { class: 'text-[13px] font-bold tnum text-slate-900 flex-shrink-0' }, pct(it.value)),
           ),
           it.note && h('div', { class: 'text-[11px] text-slate-400 truncate' }, it.note),
         ),
-        it.source ? sourceChip(it.source) : null,
+        it.source ? sourceChip(it.source, { icon: true }) : null,
       )));
   }
 
@@ -372,20 +373,55 @@
     return card({ title: 'Market size over time', subtitle: has(size.current) && size.current.unit ? `in ${size.current.unit}` : null, source: size.source, section: 'size', body });
   }
 
+  /** Unique source objects (by url), for a compact shared "Sources" row. */
+  function uniqueSources(list) {
+    const seen = new Set(); const out = [];
+    for (const s of (list || [])) { if (!s || !s.url || seen.has(s.url)) continue; seen.add(s.url); out.push(s); }
+    return out;
+  }
+
   function secSegments(data) {
     const segs = (data.segments || []).filter((s) => s && s.share_pct != null);
     if (!segs.length) return null;
-    const { box, canvas } = chartBox(220);
-    const body = h('div', { class: 'grid gap-4 items-center', style: { gridTemplateColumns: 'minmax(0,200px) 1fr' } },
-      box,
-      doughnutLegend(segs.map((s) => ({ name: s.name, value: s.share_pct, note: s.note, source: s.source }))),
-    );
+    const sum = segs.reduce((a, s) => a + Number(s.share_pct || 0), 0);
+    // A doughnut only reads honestly as a true parts-of-whole breakdown. When the
+    // shares mix cuts (e.g. product + region) and sum past 100%, use a horizontal
+    // bar instead — no false whole, and long names sit cleanly on the axis.
+    const isBreakdown = segs.length <= 7 && sum >= 92 && sum <= 108;
+
+    if (isBreakdown) {
+      const { box, canvas } = chartBox(220);
+      const body = h('div', { class: 'seg-grid' }, box,
+        doughnutLegend(segs.map((s) => ({ name: s.name, value: s.share_pct, note: s.note, source: s.source }))));
+      requestAnimationFrame(() => newChart(canvas, {
+        type: 'doughnut',
+        data: { labels: segs.map((s) => s.name), datasets: [{ data: segs.map((s) => s.share_pct), backgroundColor: segs.map((_, i) => color(i)), borderColor: '#fff', borderWidth: 2, hoverOffset: 6 }] },
+        options: { responsive: true, maintainAspectRatio: false, cutout: '62%', plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.parsed}%` } } } },
+      }));
+      return card({ title: 'Segments', subtitle: 'share of market', section: 'segments', body });
+    }
+
+    const height = Math.max(170, segs.length * 46 + 20);
+    const { box, canvas } = chartBox(height);
+    const srcs = uniqueSources(segs.map((s) => s.source));
+    const body = h('div', {}, box,
+      srcs.length ? h('div', { class: 'src-row' }, h('span', { class: 'src-row-label' }, 'Sources'), ...srcs.map((s) => sourceChip(s))) : null);
+    const maxV = Math.max(...segs.map((s) => Number(s.share_pct)));
     requestAnimationFrame(() => newChart(canvas, {
-      type: 'doughnut',
-      data: { labels: segs.map((s) => s.name), datasets: [{ data: segs.map((s) => s.share_pct), backgroundColor: segs.map((_, i) => color(i)), borderColor: '#fff', borderWidth: 2, hoverOffset: 6 }] },
-      options: { responsive: true, maintainAspectRatio: false, cutout: '62%', plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.parsed}%` } } } },
+      type: 'bar',
+      data: { labels: segs.map((s) => s.name), datasets: [{ data: segs.map((s) => Number(s.share_pct)), backgroundColor: segs.map((_, i) => color(i)), borderRadius: 6, barThickness: 20 }] },
+      options: {
+        indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+        layout: { padding: { right: 46 } },
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.parsed.x}%` } } },
+        scales: {
+          x: { display: false, grid: { display: false }, min: 0, max: maxV * 1.16 },
+          y: { grid: { display: false }, border: { display: false }, ticks: { autoSkip: false, font: { size: 11.5 }, color: '#334155', callback: function (v) { const l = String(this.getLabelForValue(v)).replace(/\s*\([^)]*\)\s*$/, ''); return l.length > 22 ? l.slice(0, 21) + '…' : l; } } },
+        },
+      },
+      plugins: [valueLabels((v) => v + '%', 'y')],
     }));
-    return card({ title: 'Segments', subtitle: 'share of market', section: 'segments', body });
+    return card({ title: 'Segments', subtitle: 'share by cut — product & region', section: 'segments', body });
   }
 
   function secGrowthDrivers(data) {
@@ -466,52 +502,89 @@
   }
 
   function secChannels(data) {
-    const ch = (data.channels || []).filter((c) => c && c.share_pct != null);
-    if (!ch.length) return null;
-    const { box, canvas } = chartBox(Math.max(160, ch.length * 46 + 30));
-    requestAnimationFrame(() => newChart(canvas, {
-      type: 'bar',
-      data: { labels: ch.map((c) => c.channel), datasets: [{ data: ch.map((c) => c.share_pct), backgroundColor: ch.map((_, i) => color(i)), borderRadius: 7, borderSkipped: false, barThickness: 20 }] },
-      options: {
-        indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-        layout: { padding: { right: 44 } },
-        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.parsed.x}%` } } },
-        scales: {
-          x: { max: Math.min(100, Math.max(...ch.map((c) => c.share_pct)) + 12), grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => v + '%' } },
-          y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' } } },
+    const all = (data.channels || []).filter((c) => c && has(c.channel));
+    if (!all.length) return null;
+    const withShare = all.filter((c) => c.share_pct != null);
+
+    // Quantified: a share bar. Only-qualitative (notes, no %): a clean list so the
+    // channel intel is surfaced instead of silently dropped.
+    if (withShare.length >= 2) {
+      const ch = withShare;
+      const { box, canvas } = chartBox(Math.max(160, ch.length * 46 + 30));
+      requestAnimationFrame(() => newChart(canvas, {
+        type: 'bar',
+        data: { labels: ch.map((c) => c.channel), datasets: [{ data: ch.map((c) => c.share_pct), backgroundColor: ch.map((_, i) => color(i)), borderRadius: 7, borderSkipped: false, barThickness: 20 }] },
+        options: {
+          indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+          layout: { padding: { right: 44 } },
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.parsed.x}%` } } },
+          scales: {
+            x: { max: Math.min(100, Math.max(...ch.map((c) => c.share_pct)) + 12), grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => v + '%' } },
+            y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 20 ? l.slice(0, 19) + '…' : l; } } },
+          },
         },
-      },
-      plugins: [valueLabels((v) => v + '%', 'y')],
-    }));
-    // sources vary per channel; surface the first as the card source, list rest inline if distinct
-    const src = ch.find((c) => c.source && c.source.url) && ch.find((c) => c.source && c.source.url).source;
-    return card({ title: 'Channel mix', subtitle: 'how it reaches buyers', source: src, section: 'channels', body: box });
+        plugins: [valueLabels((v) => v + '%', 'y')],
+      }));
+      const src = (all.find((c) => c.source && c.source.url) || {}).source;
+      return card({ title: 'Channel mix', subtitle: 'share of sales', source: src, section: 'channels', body: box });
+    }
+
+    const list = h('div', { class: 'flex flex-col gap-3' }, ...all.map((c, i) =>
+      h('div', { class: 'flex items-start gap-3' },
+        h('span', { class: 'w-2.5 h-2.5 rounded-full flex-shrink-0 mt-1.5', style: { background: color(i) } }),
+        h('div', { class: 'min-w-0 flex-1' },
+          h('div', { class: 'font-semibold text-[13.5px] text-slate-800' }, c.channel),
+          has(c.note) && h('div', { class: 'text-[12.5px] text-slate-500 leading-snug mt-0.5' }, c.note),
+          c.source ? h('div', { class: 'mt-1.5' }, sourceChip(c.source, { short: true })) : null))));
+    return card({ title: 'Channels', subtitle: 'routes to market', section: 'channels', body: list });
   }
 
   function secPlayers(data) {
     const players = (data.players || []).filter((p) => has(p.name));
     if (!players.length) return null;
 
-    // ----- Players table -----
-    const cols = ['Company', 'Listed', 'Segment', 'Revenue', 'EBITDA %', 'Market share', 'Source'];
-    const table = h('table', { class: 'data-table' },
-      h('thead', {}, h('tr', {}, ...cols.map((c, i) => h('th', { class: (i >= 3 && i <= 5) ? 'num' : '' }, c)))),
-      h('tbody', {}, ...players.map((p, i) => h('tr', {},
-        h('td', {}, h('div', { class: 'cell-primary' }, p.name), p.note && h('div', { class: 'text-[11.5px] text-slate-400 leading-tight mt-0.5' }, p.note)),
-        h('td', {}, p.listed === true ? badge(p.ticker ? p.ticker : 'Listed', 'brand') : (p.listed === false ? h('span', { class: 'badge badge-neutral' }, 'Private') : '—')),
-        h('td', {}, has(p.segment) ? h('span', { class: 'text-slate-600' }, p.segment) : '—'),
-        h('td', { class: 'num' }, p.revenue != null ? h('span', {}, formatSize({ value: p.revenue, unit: p.revenue_unit }, true), p.revenue_year ? h('span', { class: 'text-slate-400 text-[11px]' }, ' ’' + String(p.revenue_year).slice(-2)) : null) : '—'),
-        h('td', { class: 'num' }, p.ebitda_margin_pct != null ? pct(p.ebitda_margin_pct) : '—'),
-        h('td', { class: 'num' }, p.market_share_pct != null
-          ? h('div', {},
-              h('div', { class: 'font-semibold' }, pct(p.market_share_pct)),
-              h('div', { class: 'mt-1 h-1.5 rounded-full bg-slate-100 overflow-hidden', style: { minWidth: '54px' } },
-                h('div', { style: { width: Math.min(100, Number(p.market_share_pct)) + '%', height: '100%', background: color(i) } })))
-          : '—'),
-        h('td', {}, p.source ? sourceChip(p.source, { short: true }) : '—'),
-      ))),
+    // Only render numeric columns that at least one player actually has — a whole
+    // column of "—" is noise.
+    const hasRev = players.some((p) => p.revenue != null);
+    const hasEbitda = players.some((p) => p.ebitda_margin_pct != null);
+    const hasShare = players.some((p) => p.market_share_pct != null);
+    const cols = [{ label: 'Company' }, { label: 'Listed' }, { label: 'Segment' }];
+    if (hasRev) cols.push({ label: 'Revenue', num: true });
+    if (hasEbitda) cols.push({ label: 'EBITDA %', num: true });
+    if (hasShare) cols.push({ label: 'Market share', num: true });
+    cols.push({ label: 'Source' });
+
+    const rowFor = (p, i) => h('tr', {},
+      h('td', { class: 'cell-company' },
+        h('div', { class: 'cell-primary' }, p.name),
+        p.note && h('div', { class: 'cell-note', title: p.note }, p.note)),
+      h('td', {}, p.listed === true ? badge(p.ticker ? p.ticker : 'Listed', 'brand') : (p.listed === false ? h('span', { class: 'badge badge-neutral' }, 'Private') : '—')),
+      h('td', {}, has(p.segment) ? h('span', { class: 'text-slate-600 whitespace-nowrap' }, p.segment) : '—'),
+      hasRev ? h('td', { class: 'num' }, p.revenue != null ? h('span', {}, formatSize({ value: p.revenue, unit: p.revenue_unit }, true), p.revenue_year ? h('span', { class: 'text-slate-400 text-[11px]' }, ' ’' + String(p.revenue_year).slice(-2)) : null) : '—') : null,
+      hasEbitda ? h('td', { class: 'num' }, p.ebitda_margin_pct != null ? pct(p.ebitda_margin_pct) : '—') : null,
+      hasShare ? h('td', { class: 'num' }, p.market_share_pct != null
+        ? h('div', {},
+            h('div', { class: 'font-semibold' }, pct(p.market_share_pct)),
+            h('div', { class: 'mt-1 h-1.5 rounded-full bg-slate-100 overflow-hidden', style: { minWidth: '54px' } },
+              h('div', { style: { width: Math.min(100, Number(p.market_share_pct)) + '%', height: '100%', background: color(i) } })))
+        : '—') : null,
+      h('td', {}, p.source ? sourceChip(p.source, { short: true }) : '—'),
     );
-    const tableCard = card({ title: 'Players', subtitle: `${players.length} tracked`, className: 'min-w-0', section: 'players', body: h('div', { class: 'table-scroll' }, table) });
+
+    const CAP = 12;
+    const tbody = h('tbody', {}, ...players.slice(0, CAP).map(rowFor));
+    const table = h('table', { class: 'data-table' },
+      h('thead', {}, h('tr', {}, ...cols.map((c) => h('th', { class: c.num ? 'num' : '' }, c.label)))),
+      tbody);
+    const tableBody = h('div', {}, h('div', { class: 'table-scroll' }, table));
+    if (players.length > CAP) {
+      const btn = h('button', {
+        class: 'show-all-btn',
+        onClick: (e) => { players.slice(CAP).forEach((p, j) => tbody.appendChild(rowFor(p, CAP + j))); e.currentTarget.remove(); },
+      }, `Show all ${players.length} companies`, h('span', { class: 'w-3.5 h-3.5', html: I.chevron }));
+      tableBody.appendChild(btn);
+    }
+    const tableCard = card({ title: 'Players', subtitle: `${players.length} companies`, className: 'min-w-0', section: 'players', body: tableBody });
 
     // ----- Market-share doughnut -----
     const shareData = players.filter((p) => p.market_share_pct != null);
@@ -529,12 +602,12 @@
       }));
     }
 
-    return h('div', { class: 'grid gap-4 items-start', style: { gridTemplateColumns: '1fr' } },
-      h('div', { class: 'grid gap-4', style: { gridTemplateColumns: 'minmax(0,1fr)' } },
-        h('div', { class: 'grid gap-4 lg:grid-cols-3 items-start' },
-          h('div', { class: 'lg:col-span-2 min-w-0' }, tableCard),
-          shareCard && h('div', { class: 'min-w-0' }, shareCard),
-        )));
+    // Full-width table when there's no market-share chart; otherwise a 2:1 split.
+    if (!shareCard) return h('div', {}, tableCard);
+    return h('div', { class: 'grid gap-4 grid-cols-1 lg:grid-cols-3 items-start' },
+      h('div', { class: 'lg:col-span-2 min-w-0' }, tableCard),
+      h('div', { class: 'min-w-0' }, shareCard),
+    );
   }
 
   function secQuant(data) {
@@ -557,7 +630,7 @@
           indexAxis: 'y', responsive: true, maintainAspectRatio: false,
           layout: { padding: { right: 70 } },
           plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.x) + (cap[0].unit ? ' ' + cap[0].unit : '') } } },
-          scales: { x: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } }, y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' } } } },
+          scales: { x: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } }, y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 18 ? l.slice(0, 17) + '…' : l; } } } },
         },
         plugins: [valueLabels((v) => num(v), 'y')],
       }));
@@ -601,7 +674,7 @@
         h('span', { class: 'w-8 h-8 rounded-lg grid place-items-center text-white flex-shrink-0', style: { background: 'linear-gradient(135deg,var(--chart-1),var(--chart-7))' }, html: I.factory }),
         h('div', {}, h('div', { class: 'font-display font-extrabold text-[16px] text-slate-900' }, 'Supply & Trade'),
           h('div', { class: 'text-[12px] text-slate-400' }, 'capacity · utilisation · imports · duty'))),
-      h('div', { class: 'grid gap-4 lg:grid-cols-2' }, ...cards));
+      h('div', { class: 'grid gap-4 grid-cols-1 lg:grid-cols-2' }, ...cards));
   }
 
   function secReport(data) {
@@ -660,7 +733,7 @@
     const items = nodes.filter(Boolean);
     if (!items.length) return null;
     if (items.length === 1) return h('div', { class: 'mt-4' }, items[0]);
-    return h('div', { class: `grid gap-4 mt-4 ${colsClass || ''} items-start` }, ...items);
+    return h('div', { class: `grid gap-4 mt-4 grid-cols-1 ${colsClass || ''} items-start` }, ...items);
   }
 
   /* ======================================================================= *
@@ -687,7 +760,7 @@
               has(v.channel) && h('span', { class: 'font-semibold text-slate-500' }, v.channel),
               has(v.channel) && has(v.published) && h('span', {}, '·'),
               has(v.published) && h('span', {}, v.published)),
-            has(v.why_relevant) && h('div', { class: 'mt-2 text-[12px] text-slate-500 leading-snug bg-slate-50 rounded-lg px-2.5 py-1.5' }, v.why_relevant)),
+            has(v.why_relevant) && h('div', { class: 'mt-2 text-[12px] text-slate-500 leading-snug bg-slate-50 rounded-lg px-2.5 py-1.5 clamp-3' }, v.why_relevant)),
         );
       }));
     root.appendChild(grid);
@@ -725,17 +798,17 @@
       if (k === 'neutral') return badge('Neutral', 'neutral');
       return has(s) ? badge(s, 'neutral') : null;
     };
-    const list = h('div', { class: 'flex flex-col gap-3' },
+    const list = h('div', { class: 'grid gap-3 md:grid-cols-2 items-start' },
       ...news.map((n) => h('a', { class: 'card hoverable block', href: n.url || '#', target: '_blank', rel: 'noopener noreferrer' },
         h('div', { class: 'card-body' },
-          h('div', { class: 'flex items-start justify-between gap-3 flex-wrap' },
-            h('div', { class: 'font-display font-bold text-[14.5px] text-slate-800 leading-snug flex-1 min-w-0' }, n.title),
+          h('div', { class: 'flex items-start justify-between gap-3' },
+            h('div', { class: 'font-display font-bold text-[14px] text-slate-800 leading-snug flex-1 min-w-0 clamp-2' }, n.title),
             sentiment(n.sentiment)),
           h('div', { class: 'flex items-center gap-1.5 mt-1 text-[12px] text-slate-400' },
-            has(n.publisher) && h('span', { class: 'font-semibold text-slate-500' }, n.publisher),
-            has(n.publisher) && has(n.date) && h('span', {}, '·'),
-            has(n.date) && h('span', {}, n.date)),
-          has(n.snippet) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5' }, n.snippet)),
+            has(n.publisher) && h('span', { class: 'font-semibold text-slate-500 truncate max-w-[60%]' }, n.publisher),
+            has(n.publisher) && has(n.date) && h('span', { class: 'flex-shrink-0' }, '·'),
+            has(n.date) && h('span', { class: 'flex-shrink-0' }, n.date)),
+          has(n.snippet) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5 clamp-2' }, n.snippet)),
       )));
     root.appendChild(list);
   }

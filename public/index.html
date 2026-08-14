@@ -315,6 +315,32 @@
     .asof-aging { color: var(--warn); background: var(--warn-soft); border: 1px solid var(--warn-border); }
     .asof-stale { color: var(--bad); background: var(--bad-soft); border: 1px solid var(--bad-border); }
     .srccount { font-size: 11px; font-weight: 600; color: var(--ink-muted); background: var(--neutral-soft); border: 1px solid var(--border); border-radius: 6px; padding: 2px 7px; white-space: nowrap; }
+
+    /* ---------- QA polish: card head, tables, legends, clamps ---------- */
+    /* Page body never scrolls sideways: panels clip stray horizontal overflow,
+       while nested scrollers (e.g. .table-scroll) keep their own X scroll. */
+    .tab-panel { overflow-x: clip; }
+    .card-head { flex-wrap: wrap; }
+    .card-head-main { flex: 1 1 auto; min-width: 56%; }
+    .card-head-chips { margin-left: auto; justify-content: flex-end; }
+    .clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+    /* Players table: narrower min, sized company column, clamped notes */
+    .data-table { min-width: 560px; }
+    .data-table td.cell-company { min-width: 168px; max-width: 300px; }
+    .cell-note { margin-top: 3px; font-size: 11.5px; color: var(--ink-hint); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .show-all-btn { width: 100%; margin-top: 10px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--primary-text); background: var(--primary-soft); border: 1px solid var(--primary-border); border-radius: 10px; padding: 9px 12px; cursor: pointer; transition: background .15s; }
+    .show-all-btn:hover { background: #e5ddfb; }
+    .show-all-btn svg { transform: rotate(90deg); }
+
+    /* Segments: doughnut+legend grid stacks on mobile; bar-mode source row */
+    .seg-grid { display: grid; gap: 16px; align-items: center; grid-template-columns: minmax(0,200px) 1fr; }
+    @media (max-width: 640px) { .seg-grid { grid-template-columns: 1fr; } }
+    .legend-name { font-size: 13px; font-weight: 600; color: var(--ink-2); line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .source-chip-icon { padding: 5px; gap: 0; }
+    .src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
+    .src-row-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-hint); margin-right: 2px; }
   </style>
 </head>
 
