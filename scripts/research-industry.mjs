@@ -767,6 +767,10 @@ export function enforceMeta(obj, slug) {
   const meta = (obj.meta && typeof obj.meta === 'object') ? obj.meta : {};
   meta.slug = slug;
   meta.name = (meta.name && String(meta.name).trim()) || INDUSTRY;
+  // The exact input that produced this slug (slugify(query) === slug). Stored so
+  // a "Refresh" can re-run the pipeline against the SAME slug with a good search
+  // query, rather than re-deriving one from the display name (which may drift).
+  meta.query = INDUSTRY;
   if (!Array.isArray(meta.aliases)) meta.aliases = [];
   meta.mock = false;
   meta.generated_at = today();

@@ -391,6 +391,20 @@ Covered by `node scripts/test-resolve.mjs` (pure: slug parity with the pipeline,
 index matching, real-over-mock) and `node scripts/test-resolve-worker.mjs` (the
 full handlers with mocked assets + Bedrock + the GitHub dispatch API).
 
+### Recent runs + Refresh
+
+A **Recent** button next to the search box opens a dropdown of every researched
+industry (from `index.json` + each file's `meta`) — name, when it was last
+researched/updated, coverage, and, per browser, when *you* last viewed it —
+newest first. Click a row to open it. Each row, and the loaded industry header,
+carries a **Refresh** that re-runs research for that industry **in place**: it
+re-uses `/api/research` and then reloads when the file's content changes (a
+whole-body compare, so same-day re-runs are caught). Because the pipeline is
+additive / write-if-better, a refresh only improves the data. Refresh sends
+`meta.query` — the exact input that produced the slug — so the re-run targets the
+**same** file rather than a drifted one (the pipeline records `meta.query` for
+this; guarded by `scripts/test-resolve.mjs`).
+
 ### Optional Worker secrets for one-click research
 
 One-click **Research it** needs the Worker to be able to trigger the workflow.

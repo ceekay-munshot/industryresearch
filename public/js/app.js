@@ -159,6 +159,8 @@
     refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>',
     report: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-3"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M8 11h8M8 15h8M8 19h5"/></svg>',
     download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>',
+    history: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l4 2"/></svg>',
+    open: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M7 17 17 7M8 7h9v9"/></svg>',
   };
 
   /* ----------------------------------------------------------------------- *
@@ -1038,6 +1040,15 @@
     root.innerHTML = '';
     const m = data.meta || {};
     const aliases = (m.aliases || []).filter(has);
+
+    // Refresh control: re-run research for THIS industry (same slug) and reload
+    // when the data changes. Uses meta.query so slugify(query) === this slug.
+    const refreshStatus = h('div', { class: 'hdr-refresh-status' });
+    const refreshBtn = h('button', {
+      class: 'hdr-refresh', type: 'button', title: 'Re-run research to bring this industry up to date',
+      onClick: () => refreshIndustry((m.query || m.name || m.slug), m.slug, refreshStatus, refreshBtn),
+    }, h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Refresh data');
+
     root.appendChild(h('div', { class: 'card fade-in relative overflow-hidden' },
       h('div', { class: 'absolute left-0 top-0 bottom-0 w-1.5', style: { background: 'linear-gradient(180deg,var(--chart-1),var(--chart-2))' } }),
       h('div', { class: 'card-body pl-6' },
@@ -1048,10 +1059,12 @@
               m.is_manufacturing && h('span', { class: 'badge badge-brand' }, I ? h('span', { class: 'w-3 h-3', html: I.factory }) : null, 'Manufacturing')),
             has(m.definition) && h('p', { class: 'text-[13.5px] text-slate-500 leading-relaxed mt-2 max-w-3xl' }, m.definition)),
           h('div', { class: 'flex flex-col items-end gap-2 flex-shrink-0' },
-            m.mock && h('span', { class: 'mock-flag' }, h('span', { class: 'w-1.5 h-1.5 rounded-full bg-current' }), 'Mock data'))),
+            m.mock && h('span', { class: 'mock-flag' }, h('span', { class: 'w-1.5 h-1.5 rounded-full bg-current' }), 'Mock data'),
+            m.mock ? null : refreshBtn)),
         aliases.length ? h('div', { class: 'flex items-center gap-1.5 flex-wrap mt-3' },
           h('span', { class: 'text-[11px] font-semibold uppercase tracking-wide text-slate-400 mr-1' }, 'Also known as'),
           ...aliases.map((a) => h('span', { class: 'text-[11.5px] font-medium text-slate-500 bg-slate-100 rounded-md px-2 py-0.5' }, a))) : null,
+        refreshStatus,
       )));
     root.appendChild(renderFreshnessBar(data));
   }
@@ -1147,6 +1160,7 @@
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       state.data = data; state.slug = slug;
+      recordView(slug, (data.meta && data.meta.name) || slug);
       renderIndustryHeader(data);
       $('#search-input').value = (data.meta && data.meta.name) || '';
       $('#footer-note').textContent = (data.meta && data.meta.mock) ? 'Showing mock data for ' + (data.meta.name || slug) : 'Showing ' + (data.meta && data.meta.name || slug);
@@ -1272,27 +1286,40 @@
         h('span', {}, 'Researching ', h('b', {}, info.industry_name), '… this usually takes a few minutes.'));
       const sub = h('p', { class: 'nr-poll-note' }, 'This page will load it automatically as soon as it’s ready.');
       host.appendChild(status); host.appendChild(sub);
-      beginPolling(slug, info.industry_name, sub);
+      pollLoop(slug, { baseline: null, noteEl: sub });
       return;
     }
     // Not configured, or dispatch failed → clear manual steps (never a dead end).
     showManual(host, info, resp && resp.message);
   }
 
-  function beginPolling(slug, industryName, noteEl) {
+  /** Poll <slug>.json until it's ready. When `baseline` (the current file text)
+   *  is given, we wait for the content to CHANGE (a refresh of an existing
+   *  industry); otherwise we wait for it to first appear (a brand-new industry).
+   *  Same-day refreshes are caught because we compare the whole body, not the
+   *  day-granular updated_at. */
+  function pollLoop(slug, opts) {
     stopPolling();
+    const baseline = (opts && 'baseline' in opts) ? opts.baseline : null;
+    const noteEl = opts && opts.noteEl;
+    const onDone = (opts && opts.onDone) || (() => loadIndustry(slug));
     const started = Date.now();
-    const MAX_MS = 15 * 60 * 1000;       // give up polling after ~15 min (run may still finish later)
+    const MAX_MS = 15 * 60 * 1000;       // stop polling after ~15 min (run may still finish later)
     const tick = async () => {
       const mins = Math.floor((Date.now() - started) / 60000);
-      if (noteEl) noteEl.textContent = 'Still working' + (mins ? ` (${mins} min)` : '') + '… it will load automatically when ready.';
+      if (noteEl) noteEl.textContent = 'Still working' + (mins ? ` (${mins} min)` : '') + '… it will update automatically when ready.';
       try {
         const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
-        if (res.ok) { stopPolling(); return loadIndustry(slug); }
+        if (res.ok) {
+          const text = await res.text();
+          if (baseline == null || text !== baseline) { stopPolling(); return onDone(); }
+        }
       } catch (e) { /* keep polling */ }
-      if (Date.now() - started > MAX_MS && noteEl) {
+      if (Date.now() - started > MAX_MS) {
         stopPolling();
-        noteEl.textContent = 'The run is taking longer than usual. It will appear here once it finishes and the site redeploys — check back shortly or reload the page.';
+        if (noteEl) noteEl.textContent = baseline == null
+          ? 'The run is taking longer than usual. It’ll appear here once it finishes and the site redeploys — reload to check.'
+          : 'The refresh is taking longer than usual, or produced no new data. Reload the page to check once the run finishes.';
       }
     };
     pollTimer = setInterval(tick, 20000);
@@ -1309,6 +1336,158 @@
       h('p', { class: 'nr-manual-body' }, steps)));
   }
 
+  /* ======================================================================= *
+   * HISTORY — a record of every researched industry (index.json + each file's
+   * meta), newest first. Click to open, Refresh to re-run. Your own recently-
+   * viewed order is remembered locally (per browser).
+   * ======================================================================= */
+  const HISTORY_KEY = 'irx-history-v1';
+  function readLocalHistory() {
+    try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || '{}') || {}; } catch (e) { return {}; }
+  }
+  function recordView(slug, name) {
+    if (!slug) return;
+    try {
+      const hh = readLocalHistory();
+      hh[slug] = { name: name || (hh[slug] && hh[slug].name) || slug, viewedAt: Date.now(), views: ((hh[slug] && hh[slug].views) || 0) + 1 };
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(hh));
+    } catch (e) { /* localStorage unavailable — history still works from the index */ }
+  }
+
+  const industryDataCache = new Map();   // slug -> full data (fetched lazily for the list)
+  async function fetchIndustry(slug) {
+    if (industryDataCache.has(slug)) return industryDataCache.get(slug);
+    let data = null;
+    try {
+      const res = await fetch('./data/industries/' + slug + '.json', { cache: 'no-cache' });
+      if (res.ok) data = await res.json();
+    } catch (e) { data = null; }
+    industryDataCache.set(slug, data);
+    return data;
+  }
+
+  let historyOpen = false;
+  function toggleHistory(force) {
+    const menu = $('#history-menu'); const btn = $('#history-btn');
+    if (!menu || !btn) return;
+    historyOpen = (typeof force === 'boolean') ? force : !historyOpen;
+    menu.classList.toggle('hidden', !historyOpen);
+    btn.setAttribute('aria-expanded', historyOpen ? 'true' : 'false');
+    if (historyOpen) renderHistoryMenu(menu);
+  }
+
+  async function renderHistoryMenu(menu) {
+    menu.innerHTML = '';
+    industryDataCache.clear();             // always reflect the latest committed files
+    const idx = state.index;
+    const entries = (idx && Array.isArray(idx.industries)) ? idx.industries.filter(Boolean) : [];
+    const head = h('div', { class: 'history-menu-head' },
+      h('span', { class: 'history-menu-title' }, 'Recently researched'),
+      h('span', { class: 'history-menu-count' }, entries.length + (entries.length === 1 ? ' industry' : ' industries')));
+    if (!entries.length) {
+      menu.appendChild(head);
+      menu.appendChild(emptyState('No research yet', 'Search an industry or company to get started.'));
+      return;
+    }
+    const listHost = h('div', { class: 'hist-list' }, h('div', { class: 'hist-loading' }, 'Loading…'));
+    menu.appendChild(head); menu.appendChild(listHost);
+
+    const local = readLocalHistory();
+    const datas = await Promise.all(entries.map((e) => fetchIndustry(e.slug)));
+    if (menu.classList.contains('hidden')) return;   // closed while loading
+    const now = Date.now();
+    const rows = entries.map((e, i) => {
+      const data = datas[i];
+      const meta = (data && data.meta) || {};
+      const when = meta.updated_at || meta.generated_at || null;
+      const lv = local[e.slug];
+      return { e, meta, cm: data ? coverageModel(data) : null, when, whenT: Date.parse(when || '') || 0, viewedAt: (lv && lv.viewedAt) || 0 };
+    });
+    rows.sort((a, b) => (b.whenT - a.whenT) || (b.viewedAt - a.viewedAt)); // newest research first, then your recent views
+
+    listHost.innerHTML = '';
+    rows.forEach((r) => listHost.appendChild(historyRow(r, now)));
+  }
+
+  function openIndustryFromHistory(slug) { toggleHistory(false); loadIndustry(slug); }
+
+  function historyRow(r, now) {
+    const { e, meta, cm, when, viewedAt } = r;
+    const slug = e.slug;
+    const name = (meta && meta.name) || e.name || slug;
+    const isCurrent = state.slug === slug;
+
+    const bits = [];
+    if (when) bits.push(h('span', { title: 'Data as of ' + when }, 'Updated ' + relativeTime(when, now)));
+    else bits.push(h('span', { class: 'hist-dim' }, 'details unavailable'));
+    if (cm) bits.push(h('span', {}, cm.filled + '/' + cm.total + ' sections'));
+    if (cm && cm.score != null) bits.push(h('span', {}, cm.score + '/100'));
+    if (viewedAt) bits.push(h('span', { class: 'hist-you' }, 'You viewed ' + relativeTime(new Date(viewedAt).toISOString(), now)));
+    if (meta && meta.mock) bits.push(h('span', { class: 'hist-mock' }, 'mock'));
+
+    const status = h('div', { class: 'hist-status' });
+    const query = (meta && (meta.query || meta.name)) || name;
+    const openBtn = h('button', { class: 'hist-btn hist-open', type: 'button', onClick: () => openIndustryFromHistory(slug) },
+      h('span', { class: 'w-3.5 h-3.5', html: I.open }), 'Open');
+    const refreshBtn = h('button', { class: 'hist-btn hist-refresh', type: 'button', title: 'Re-run research to bring this up to date',
+      onClick: () => refreshIndustry(query, slug, status, refreshBtn) },
+      h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Refresh');
+
+    return h('div', { class: 'hist-row' + (isCurrent ? ' hist-current' : '') },
+      h('div', { class: 'hist-row-top' },
+        h('div', { class: 'hist-main', onClick: () => openIndustryFromHistory(slug) },
+          h('div', { class: 'hist-name' }, name, isCurrent ? h('span', { class: 'hist-badge' }, 'viewing') : null),
+          bits.length ? h('div', { class: 'hist-meta' }, ...interpose(bits, '·')) : null),
+        h('div', { class: 'hist-actions' }, openBtn, refreshBtn)),
+      status);
+  }
+
+  function interpose(arr, sep) {
+    const out = [];
+    arr.forEach((x, i) => { if (i) out.push(h('span', { class: 'hist-sep' }, sep)); out.push(x); });
+    return out;
+  }
+
+  /** Re-run research for an EXISTING industry and reload it when the data
+   *  changes. Reuses /api/research + the change-poller. Never-fail: shows manual
+   *  steps if the Worker isn't configured or is unreachable. */
+  async function refreshIndustry(query, slug, statusHost, btn) {
+    if (statusHost.dataset.busy === '1') return;
+    statusHost.dataset.busy = '1';
+    if (btn) { btn.disabled = true; btn.style.opacity = '.55'; }
+    statusHost.innerHTML = '';
+    const note = h('span', {}, 'Dispatching refresh…');
+    statusHost.appendChild(h('div', { class: 'hist-refreshing' }, h('span', { class: 'nr-spinner' }), note));
+
+    // Baseline = current file body; reload when it changes (catches same-day runs).
+    let baseline = null;
+    try {
+      const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
+      if (res.ok) baseline = await res.text();
+    } catch (e) { /* baseline stays null -> first observed change reloads */ }
+
+    let resp = null;
+    try {
+      const r = await fetch('/api/research', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ industry: query }),
+      });
+      if (r.ok) resp = await r.json();
+    } catch (e) { resp = null; }
+
+    if (resp && resp.dispatched) {
+      note.textContent = 'Refreshing “' + query + '”… this reloads automatically when the new data lands (a few minutes).';
+      pollLoop(slug, { baseline, noteEl: note });
+      return;
+    }
+    // Not configured / failed → clear manual steps, re-enable the button.
+    statusHost.innerHTML = '';
+    const steps = (resp && resp.message) ||
+      ('One-click refresh isn’t configured. Run the “Research Industry (full rebuild)” workflow in GitHub → Actions with industry “' + query + '”.');
+    statusHost.appendChild(h('div', { class: 'hist-manual' }, h('span', { class: 'w-3.5 h-3.5 flex-shrink-0', html: I.warn }), h('span', {}, steps)));
+    statusHost.dataset.busy = '';
+    if (btn) { btn.disabled = false; btn.style.opacity = ''; }
+  }
+
   async function init() {
     readPalette();
     if (window.Chart) {
@@ -1323,6 +1502,16 @@
     buildTabbar();
 
     $('#search-form').addEventListener('submit', (e) => { e.preventDefault(); handleSearch($('#search-input').value); });
+
+    // History dropdown near the search bar: toggle on click, close on outside-click / Esc.
+    const histBtn = $('#history-btn');
+    if (histBtn) {
+      histBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleHistory(); });
+      document.addEventListener('click', (e) => {
+        if (historyOpen && !e.target.closest('#history-menu') && !e.target.closest('#history-btn')) toggleHistory(false);
+      });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && historyOpen) toggleHistory(false); });
+    }
 
     try {
       const res = await fetch('./data/industries/index.json', { cache: 'no-cache' });
