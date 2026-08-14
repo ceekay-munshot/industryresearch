@@ -67,6 +67,18 @@ export default {
       }
     }
 
+    if (url.pathname === '/api/research-status') {
+      if (request.method !== 'GET') return json({ error: 'Method not allowed' }, 405, { Allow: 'GET' });
+      // Never-fail: on any error report a safe "running" (the frontend also
+      // watches the file, and times out gracefully) — never a 500.
+      try {
+        return await handleResearchStatus(url, env, request);
+      } catch (err) {
+        console.error('[status] unhandled error:', err && err.stack ? err.stack : err);
+        return json({ state: 'running' });
+      }
+    }
+
     // Everything else: static assets.
     return env.ASSETS.fetch(request);
   },
@@ -267,6 +279,82 @@ async function handleResearch(request, env) {
 function manualSteps(industry) {
   const name = industry || 'the industry';
   return `One-click research isn't configured on this deployment. To research "${name}" manually: open the repo's GitHub → Actions → "Research Industry (full rebuild)" → Run workflow, and enter "${name}" as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.`;
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/research-status — a SIMPLE, friendly progress signal for the UI.
+ * Returns ONLY { state: "starting" | "running" | "done" | "failed" }. No run
+ * ids, no GitHub internals. Completion is honest: "done" means the deployed
+ * data the frontend can actually load is ready (or the run genuinely finished).
+ *
+ * Query: slug (required), since (baseline updated_at, '' for new), sig (baseline
+ * body length, '' for new), t (client start ms — scopes the run lookup).
+ * ------------------------------------------------------------------ */
+async function handleResearchStatus(url, env, request) {
+  const slug = sanitizeSlug(url.searchParams.get('slug'));
+  const since = url.searchParams.get('since') || '';
+  const sig = url.searchParams.get('sig') || '';
+  const t = Number(url.searchParams.get('t') || 0) || 0;
+  if (!slug) return json({ state: 'running' });
+
+  // 1) Is the DEPLOYED file already showing the target data? That's the honest
+  //    "the frontend can load it now" signal.
+  const cur = await loadIndustryText(env, request, slug);
+  if (cur != null) {
+    if (!since && !sig) return json({ state: 'done' });          // new industry: it exists now
+    const curLen = String(cur.length);
+    let curUpd = '';
+    try { curUpd = (JSON.parse(cur).meta || {}).updated_at || ''; } catch { /* ignore */ }
+    if ((sig && curLen !== sig) || (since && curUpd && curUpd !== since)) return json({ state: 'done' });
+  }
+
+  // 2) Otherwise ask the GitHub run how it's going (failed / running / finished).
+  const runState = await latestRunState(env, t);
+  return json({ state: runState });
+}
+
+/** Fetch a committed industry file's raw text via ASSETS (deployed view), or null. */
+async function loadIndustryText(env, request, slug) {
+  try {
+    const u = new URL(`/data/industries/${slug}.json`, request.url);
+    const res = await env.ASSETS.fetch(new Request(u.toString(), { method: 'GET' }));
+    if (!res || !res.ok) return null;
+    return await res.text();
+  } catch { return null; }
+}
+
+/** Map the latest research workflow run to a friendly state. Pure + testable. */
+function mapRunState(runs, cutoffMs) {
+  const list = Array.isArray(runs) ? runs : [];
+  const relevant = cutoffMs ? list.filter((r) => r && Date.parse(r.created_at) >= cutoffMs) : list;
+  const run = relevant[0] || (cutoffMs ? null : list[0]);
+  if (!run) return 'starting';                          // dispatched but not registered yet
+  if (run.status !== 'completed') {
+    return (run.status === 'queued' || run.status === 'requested' || run.status === 'waiting') ? 'starting' : 'running';
+  }
+  return run.conclusion === 'success' ? 'done' : 'failed';
+}
+
+/** Look up the latest research-industry runs and reduce to a friendly state.
+ *  Without a token we can't tell — report "running" (the frontend also watches
+ *  the file and times out gracefully). */
+async function latestRunState(env, tMs) {
+  const token = env.GITHUB_TOKEN && String(env.GITHUB_TOKEN).trim();
+  const repo = env.GITHUB_REPO && String(env.GITHUB_REPO).trim();
+  if (!token || !repo) return 'running';
+  try {
+    const api = `https://api.github.com/repos/${repo}/actions/workflows/research-industry.yml/runs?per_page=5`;
+    const res = await fetch(api, {
+      headers: {
+        Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'industry-research-dashboard',
+      },
+    });
+    if (!res.ok) return 'running';
+    const data = await res.json();
+    const cutoff = tMs ? tMs - 120000 : 0;              // 2-min tolerance for clock skew / registration lag
+    return mapRunState(data && data.workflow_runs, cutoff);
+  } catch { return 'running'; }
 }
 
 /* ------------------------------------------------------------------ *
@@ -645,4 +733,4 @@ function json(obj, status = 200, extraHeaders) {
 // Exposed for unit tests (scripts/test-chat.mjs, scripts/test-resolve.mjs).
 // These are pure functions with no env/network dependency; they are not used by
 // any other runtime module.
-export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps };
+export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps, mapRunState };
