@@ -1,0 +1,14 @@
+{
+  "name": "industry-research-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A generic, source-backed industry research dashboard. Static frontend + a tiny Cloudflare Worker. Driven entirely by per-industry JSON.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
