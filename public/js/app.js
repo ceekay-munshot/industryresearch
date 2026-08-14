@@ -1135,6 +1135,8 @@
   }
 
   async function loadIndustry(slug) {
+    stopPolling();
+    $('#tabbar').classList.remove('hidden');   // restore chrome after a not-researched view
     destroyCharts();
     renderedTabs.clear();
     renderedSubs.clear();
@@ -1155,21 +1157,156 @@
     }
   }
 
+  /* ======================================================================= *
+   * SMART INPUT — the search box accepts an industry OR a company name, and
+   * handles a not-yet-researched industry gracefully.
+   *   1. Ask the Worker /api/resolve to classify + match.
+   *   2. matched  → load it. not matched → offer to research it.
+   *   3. If the Worker is unreachable (static-file view), fall back to a local
+   *      index match; unknown queries still show the graceful card.
+   * ======================================================================= */
+  let pollTimer = null;
+  function stopPolling() { if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
+
+  function slugifyLocal(s) {
+    return String(s).toLowerCase().normalize('NFKD')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').replace(/-{2,}/g, '-') || 'industry';
+  }
+
+  /** Local index match (real entries before mock), for the no-Worker fallback. */
+  function localMatch(idx, q) {
+    if (!idx || !Array.isArray(idx.industries) || !q) return null;
+    const query = q.toLowerCase();
+    const test = (it) => [it.slug, it.name, ...(it.aliases || [])].filter(Boolean).map((s) => s.toLowerCase())
+      .some((s) => s === query || (query.length >= 3 && (s.includes(query) || query.includes(s))));
+    return idx.industries.filter((it) => it && !it.mock).find(test)
+      || idx.industries.filter((it) => it && it.mock).find(test) || null;
+  }
+
   function handleSearch(q) {
-    const idx = state.index;
-    if (!idx || !idx.industries) return;
-    const query = q.trim().toLowerCase();
-    let match = null;
-    if (query) {
-      match = idx.industries.find((it) => {
-        const hay = [it.slug, it.name, ...(it.aliases || [])].filter(Boolean).map((s) => s.toLowerCase());
-        return hay.some((s) => s.includes(query) || query.includes(s));
+    const query = String(q || '').trim();
+    if (!query) return;
+    resolveAndRoute(query);
+  }
+
+  async function resolveAndRoute(query) {
+    stopPolling();
+    $('#footer-note').textContent = 'Resolving “' + query + '”…';
+    let info = null;
+    try {
+      const res = await fetch('/api/resolve', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query }),
       });
+      if (res.ok) info = await res.json();
+    } catch (e) { info = null; }
+
+    if (!info) {
+      // No Worker reachable (opened as a file / offline) — match locally.
+      const m = localMatch(state.index, query);
+      if (m) { $('#footer-note').textContent = ''; return loadIndustry(m.slug); }
+      return renderNotResearched({ industry_name: query, slug: slugifyLocal(query), matched: false, offline: true });
     }
-    const target = match ? match.slug : (idx.default || (idx.industries[0] && idx.industries[0].slug));
-    if (!target) return;
-    if (query && !match) $('#footer-note').textContent = 'Only ' + idx.industries.map((i) => i.name).join(', ') + ' available in this scaffold — showing the default.';
-    loadIndustry(target);
+    if (info.matched && info.slug) { $('#footer-note').textContent = ''; return loadIndustry(info.slug); }
+    renderNotResearched(info);
+  }
+
+  /** The graceful "not researched yet" view with an optional one-click research. */
+  function renderNotResearched(info) {
+    stopPolling();
+    destroyCharts();
+    renderedTabs.clear(); renderedSubs.clear();
+    $('#tabbar').classList.add('hidden');
+    $('#industry-header').innerHTML = '';
+    TABS.forEach((t) => { $('#panel-' + t.id).innerHTML = ''; $('#panel-' + t.id).classList.toggle('hidden', t.id !== 'deep'); });
+    if (info.industry_name) $('#search-input').value = info.industry_name;
+    $('#footer-note').textContent = 'No data yet for ' + (info.industry_name || 'this query');
+
+    const defSlug = state.index && state.index.default;
+    const defName = defSlug && (state.index.industries.find((i) => i.slug === defSlug) || {}).name;
+
+    const actionHost = h('div', { class: 'nr-actions' });
+    const card_ = h('div', { class: 'card fade-in' }, h('div', { class: 'card-body' },
+      h('div', { class: 'nr-wrap' },
+        h('div', { class: 'nr-icon', html: I.empty }),
+        h('h2', { class: 'nr-title' }, 'We haven’t researched ', h('span', { class: 'nr-name' }, info.industry_name || 'that'), ' yet.'),
+        (info.company)
+          ? h('p', { class: 'nr-detected' }, 'Detected industry for ', h('b', {}, info.company), ': ', h('b', {}, info.industry_name), '.')
+          : h('p', { class: 'nr-sub' }, 'Nothing has been gathered for this one yet.'),
+        actionHost,
+        defSlug ? h('button', { class: 'nr-back', type: 'button', onClick: () => loadIndustry(defSlug) },
+          '← Back to ' + (defName || defSlug)) : null,
+      )));
+    renderResearchCta(actionHost, info);
+    $('#panel-deep').appendChild(card_);
+  }
+
+  /** The primary "Research it" call-to-action (before it's clicked). */
+  function renderResearchCta(host, info) {
+    host.innerHTML = '';
+    host.appendChild(h('button', {
+      class: 'nr-btn', type: 'button', onClick: () => startResearch(host, info),
+    }, h('span', { class: 'w-4 h-4', html: I.refresh }), 'Research it'));
+  }
+
+  async function startResearch(host, info) {
+    host.innerHTML = '';
+    host.appendChild(h('div', { class: 'nr-status' },
+      h('span', { class: 'nr-spinner' }),
+      h('span', {}, 'Dispatching research for ', h('b', {}, info.industry_name), '…')));
+
+    // Offline / no Worker → straight to manual steps.
+    if (info.offline) return showManual(host, info, null);
+
+    let resp = null;
+    try {
+      const r = await fetch('/api/research', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ industry: info.industry_name }),
+      });
+      if (r.ok) resp = await r.json();
+    } catch (e) { resp = null; }
+
+    if (resp && resp.dispatched) {
+      const slug = resp.slug || info.slug;
+      host.innerHTML = '';
+      const status = h('div', { class: 'nr-status' }, h('span', { class: 'nr-spinner' }),
+        h('span', {}, 'Researching ', h('b', {}, info.industry_name), '… this usually takes a few minutes.'));
+      const sub = h('p', { class: 'nr-poll-note' }, 'This page will load it automatically as soon as it’s ready.');
+      host.appendChild(status); host.appendChild(sub);
+      beginPolling(slug, info.industry_name, sub);
+      return;
+    }
+    // Not configured, or dispatch failed → clear manual steps (never a dead end).
+    showManual(host, info, resp && resp.message);
+  }
+
+  function beginPolling(slug, industryName, noteEl) {
+    stopPolling();
+    const started = Date.now();
+    const MAX_MS = 15 * 60 * 1000;       // give up polling after ~15 min (run may still finish later)
+    const tick = async () => {
+      const mins = Math.floor((Date.now() - started) / 60000);
+      if (noteEl) noteEl.textContent = 'Still working' + (mins ? ` (${mins} min)` : '') + '… it will load automatically when ready.';
+      try {
+        const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
+        if (res.ok) { stopPolling(); return loadIndustry(slug); }
+      } catch (e) { /* keep polling */ }
+      if (Date.now() - started > MAX_MS && noteEl) {
+        stopPolling();
+        noteEl.textContent = 'The run is taking longer than usual. It will appear here once it finishes and the site redeploys — check back shortly or reload the page.';
+      }
+    };
+    pollTimer = setInterval(tick, 20000);
+    tick();
+  }
+
+  function showManual(host, info, message) {
+    host.innerHTML = '';
+    const steps = message || ('One-click research isn’t configured on this deployment. To research “' + info.industry_name +
+      '” manually: open the repo on GitHub → Actions → “Research Industry (full rebuild)” → Run workflow, and enter “' +
+      info.industry_name + '” as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.');
+    host.appendChild(h('div', { class: 'nr-manual' },
+      h('div', { class: 'nr-manual-head' }, h('span', { class: 'w-4 h-4', html: I.warn }), 'Manual research'),
+      h('p', { class: 'nr-manual-body' }, steps)));
   }
 
   async function init() {

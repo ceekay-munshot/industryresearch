@@ -43,6 +43,30 @@ export default {
       }
     }
 
+    if (url.pathname === '/api/resolve') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      try {
+        return await handleResolve(request, env);
+      } catch (err) {
+        console.error('[resolve] unhandled error:', err && err.stack ? err.stack : err);
+        // Never-fail: treat the raw query as a literal industry name.
+        const q = await safeQuery(request);
+        return json({ type: 'industry', industry_name: q, slug: slugify(q), matched: false, fallback: true });
+      }
+    }
+
+    if (url.pathname === '/api/research') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      try {
+        return await handleResearch(request, env);
+      } catch (err) {
+        console.error('[research] unhandled error:', err && err.stack ? err.stack : err);
+        const q = await safeQuery(request, 'industry');
+        return json({ ok: true, dispatched: false, configured: false, industry: q, slug: slugify(q),
+          message: manualSteps(q) });
+      }
+    }
+
     // Everything else: static assets.
     return env.ASSETS.fetch(request);
   },
@@ -121,6 +145,185 @@ async function loadIndustry(env, request, slug) {
     console.error('[chat] asset load failed:', err && err.message ? err.message : err);
     return null;
   }
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/resolve — turn a free-text query (industry OR company) into a target.
+ *   1. Match the query against the committed index.json (exact + fuzzy).
+ *   2. Otherwise classify with Claude: COMPANY or INDUSTRY, and for a company
+ *      infer its primary industry as a short canonical name.
+ *   3. Re-check the inferred industry against the index (a company may map to an
+ *      industry we already have).
+ *   4. Never-fail: any error → treat the raw query as a literal industry name.
+ * ------------------------------------------------------------------ */
+async function handleResolve(request, env) {
+  let body = {};
+  try { body = await request.json(); } catch { body = {}; }
+  const query = typeof (body && body.query) === 'string' ? body.query.trim() : '';
+  if (!query) return json({ type: 'industry', industry_name: '', slug: '', matched: false, empty: true });
+
+  const index = await loadIndex(env, request);
+
+  // 1) Direct match against what we already have.
+  const direct = matchIndustry(index, query);
+  if (direct) return json({ type: 'industry', slug: direct.slug, industry_name: direct.name || query, matched: true });
+
+  // 2) Classify with Claude (company vs industry). If no key / any failure, the
+  //    literal fallback below still gives a usable result.
+  let cls = null;
+  try {
+    cls = await classifyQuery(env, query);
+  } catch (err) {
+    console.warn('[resolve] classify failed:', err && err.message ? err.message : err);
+  }
+
+  if (cls && cls.industry_name) {
+    // 3) The inferred industry might already be researched under another phrasing.
+    const viaIndustry = matchIndustry(index, cls.industry_name);
+    if (viaIndustry) {
+      return json({ type: cls.type || 'company', company: cls.company || undefined,
+        slug: viaIndustry.slug, industry_name: viaIndustry.name || cls.industry_name, matched: true });
+    }
+    return json({ type: cls.type || 'industry', company: cls.company || undefined,
+      industry_name: cls.industry_name, slug: slugify(cls.industry_name), matched: false });
+  }
+
+  // 4) Literal fallback.
+  return json({ type: 'industry', industry_name: query, slug: slugify(query), matched: false, fallback: true });
+}
+
+/** Ask Claude to classify the query and (for a company) infer its industry. */
+async function classifyQuery(env, query) {
+  const system = [
+    'You classify a short search query as either a COMPANY or an INDUSTRY/sector.',
+    'If it is a COMPANY, infer the single primary industry/sector it operates in, as a short canonical industry name suitable for a research dashboard (Title Case; include a country only if the query clearly implies one).',
+    'If it is already an INDUSTRY or sector, return a cleaned-up canonical industry name.',
+    'Return ONLY strict JSON, no prose or fences:',
+    '{"type":"company"|"industry","company":"<company name if type=company, else empty>","industry_name":"<short canonical industry name>"}',
+    'Keep industry_name concise (2-6 words). Never invent a company that is clearly an industry, or vice-versa.',
+  ].join('\n');
+  const raw = await callBedrock(env, {
+    system,
+    messages: [{ role: 'user', content: `Query: ${query}` }],
+    max_tokens: 200,
+  });
+  const obj = sliceToObject(raw);
+  if (!obj || typeof obj.industry_name !== 'string' || !obj.industry_name.trim()) return null;
+  const type = obj.type === 'company' ? 'company' : 'industry';
+  return {
+    type,
+    company: type === 'company' && typeof obj.company === 'string' ? obj.company.trim() : '',
+    industry_name: obj.industry_name.trim(),
+  };
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/research — optionally dispatch the existing GitHub research workflow.
+ * Requires GITHUB_TOKEN (actions:write) + GITHUB_REPO (owner/name) on the Worker.
+ * Without them, returns clear manual steps instead. Never crashes either way.
+ * ------------------------------------------------------------------ */
+async function handleResearch(request, env) {
+  let body = {};
+  try { body = await request.json(); } catch { body = {}; }
+  const industry = typeof (body && body.industry) === 'string' ? body.industry.trim() : '';
+  if (!industry) return json({ ok: true, dispatched: false, configured: false, industry: '', slug: '', message: manualSteps('') });
+
+  const slug = slugify(industry);
+  const token = env.GITHUB_TOKEN && String(env.GITHUB_TOKEN).trim();
+  const repo = env.GITHUB_REPO && String(env.GITHUB_REPO).trim();
+
+  if (!token || !repo) {
+    return json({ ok: true, dispatched: false, configured: false, industry, slug, message: manualSteps(industry) });
+  }
+
+  const ref = (env.GITHUB_REF && String(env.GITHUB_REF).trim()) || 'main';
+  const wf = 'research-industry.yml';
+  const api = `https://api.github.com/repos/${repo}/actions/workflows/${wf}/dispatches`;
+  try {
+    const res = await fetch(api, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'User-Agent': 'industry-research-dashboard',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref, inputs: { industry } }),
+    });
+    if (res.status === 204) {
+      return json({ ok: true, dispatched: true, configured: true, industry, slug, ref });
+    }
+    const text = await res.text();
+    console.error(`[research] dispatch HTTP ${res.status}: ${String(text).slice(0, 300)}`);
+    return json({ ok: true, dispatched: false, configured: true, industry, slug,
+      error: `GitHub API HTTP ${res.status}`, message: manualSteps(industry) });
+  } catch (err) {
+    console.error('[research] dispatch error:', err && err.message ? err.message : err);
+    return json({ ok: true, dispatched: false, configured: true, industry, slug, message: manualSteps(industry) });
+  }
+}
+
+function manualSteps(industry) {
+  const name = industry || 'the industry';
+  return `One-click research isn't configured on this deployment. To research "${name}" manually: open the repo's GitHub → Actions → "Research Industry (full rebuild)" → Run workflow, and enter "${name}" as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.`;
+}
+
+/* ------------------------------------------------------------------ *
+ * Index loading + industry matching (exact + fuzzy, prefers real over mock).
+ * ------------------------------------------------------------------ */
+async function loadIndex(env, request) {
+  try {
+    const u = new URL('/data/industries/index.json', request.url);
+    const res = await env.ASSETS.fetch(new Request(u.toString(), { method: 'GET' }));
+    if (!res || !res.ok) return { industries: [] };
+    const idx = await res.json();
+    return idx && Array.isArray(idx.industries) ? idx : { industries: [] };
+  } catch (err) {
+    console.error('[resolve] index load failed:', err && err.message ? err.message : err);
+    return { industries: [] };
+  }
+}
+
+/** Normalise for comparison: lowercase, punctuation→space, collapse whitespace. */
+function normalizeText(s) {
+  return String(s || '').toLowerCase().normalize('NFKD')
+    .replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+}
+
+/** Best index entry for a query, or null. Real (non-mock) entries are matched
+ *  first, so leftover mock scaffolding never shadows real data; within a pass,
+ *  an exact slug/name/alias match beats a fuzzy one. */
+function matchIndustry(index, query) {
+  const q = normalizeText(query);
+  if (!q) return null;
+  const list = (index.industries || []).filter(Boolean);
+  return bestMatch(list.filter((it) => !it.mock), q) || bestMatch(list.filter((it) => it.mock), q);
+}
+
+function bestMatch(items, q) {
+  let best = null, bestScore = 0;
+  for (const it of items) {
+    const fields = [it.slug, it.name, ...(Array.isArray(it.aliases) ? it.aliases : [])]
+      .filter(Boolean).map(normalizeText);
+    let score = 0;
+    for (const f of fields) {
+      if (!f) continue;
+      if (f === q) { score = Math.max(score, 3); continue; }
+      // fuzzy: one contains the other, guarded so tiny tokens don't over-match
+      if (q.length >= 3 && (f.includes(q) || q.includes(f))) score = Math.max(score, 1);
+    }
+    if (score > bestScore) { bestScore = score; best = it; }
+  }
+  return best;
+}
+
+async function safeQuery(request, key) {
+  try {
+    const b = await request.json();
+    const v = b && (b[key || 'query'] || b.query || b.industry);
+    return typeof v === 'string' ? v.trim() : '';
+  } catch { return ''; }
 }
 
 /* ------------------------------------------------------------------ *
@@ -411,6 +614,17 @@ function sanitizeSlug(slug) {
   return /^[a-z0-9][a-z0-9-]{0,80}$/.test(s) ? s : '';
 }
 
+/** Mirror of the pipeline's slugify (scripts/research-industry.mjs) so a slug
+ *  built here matches the file the workflow will write. */
+function slugify(s) {
+  return String(s)
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-{2,}/g, '-') || 'industry';
+}
+
 function has(v) {
   if (v == null) return false;
   if (Array.isArray(v)) return v.length > 0;
@@ -428,6 +642,7 @@ function json(obj, status = 200, extraHeaders) {
   });
 }
 
-// Exposed for unit tests (scripts/test-chat.mjs). These are pure functions with
-// no env/network dependency; they are not used by any other runtime module.
-export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages };
+// Exposed for unit tests (scripts/test-chat.mjs, scripts/test-resolve.mjs).
+// These are pure functions with no env/network dependency; they are not used by
+// any other runtime module.
+export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps };
