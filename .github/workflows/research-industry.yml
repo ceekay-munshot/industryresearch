@@ -53,12 +53,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- public/data/industries; then
+          # Persist the dashboard JSON AND the additive store + caches (the fact
+          # ledger, coverage, and fetch/extract records) so re-runs stay cheap and
+          # only-improve. Content blobs (data/cache/*/content) are gitignored.
+          if git diff --quiet -- public/data/industries data/store data/cache; then
             echo "No data changes to commit."
             exit 0
           fi
 
-          git add public/data/industries
+          git add public/data/industries data/store data/cache
           git commit -m "data: refresh deep research for ${INDUSTRY}"
 
           # Push with up to 4 attempts, rebasing on the remote between tries.

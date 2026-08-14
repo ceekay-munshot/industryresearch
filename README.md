@@ -187,6 +187,18 @@ source tabs.
     skipped, the rest kept); **Stage B** fills the schema from all the distilled
     facts plus search/news snippets. Because Stage A compacts everything first,
     Stage B always gets a small, clean input no matter how much raw text was read.
+  - **Additive & incremental (only-improve).** The dashboard JSON is a *derived*
+    artifact. The source of truth is an append-only **fact ledger**
+    (`data/store/<slug>/facts.jsonl`) that accumulates every fact with provenance,
+    first/last-seen and a corroboration count; a content-addressed **cache**
+    (`data/cache/<slug>/`) skips re-fetching and re-extracting unchanged sources,
+    so re-runs cost few or no model calls. Assembly is **write-if-better**: a
+    section is only replaced when the new one is at least as strong, so a weaker
+    run can never blank or regress a filled section — the output only holds or
+    improves. Confidence is noisy-OR over *distinct* sources
+    (`1 − Π(1 − quality_i)`). Seed the ledger from an existing file with
+    `node scripts/migrate-store.mjs <slug>`; the pipeline also auto-seeds on the
+    first run. Guarantees are covered by `node scripts/test-store.mjs`.
 
 **Required GitHub secrets:**
 

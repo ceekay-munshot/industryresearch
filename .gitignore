@@ -15,6 +15,10 @@ dist/
 .env.*
 !.env.example
 
+# Research cache content blobs — large, reconstructable; the small fetch/extract
+# records and the fact ledger under data/store + data/cache/*/*.json ARE committed.
+data/cache/*/content/
+
 # Editor / OS
 .DS_Store
 Thumbs.db
