@@ -296,6 +296,48 @@
     .nr-manual-head { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--warn); margin-bottom: 6px; }
     .nr-manual-body { font-size: 13.5px; color: var(--ink-2); line-height: 1.6; }
 
+    /* ---------- History dropdown (near the search bar) + Refresh ---------- */
+    .hist-anchor { position: relative; flex-shrink: 0; }
+    .history-btn { display: inline-flex; align-items: center; gap: 7px; height: 40px; padding: 0 13px; font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); border-radius: 12px; cursor: pointer; transition: all .16s; white-space: nowrap; }
+    .history-btn:hover, .history-btn[aria-expanded="true"] { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
+    .history-menu { position: absolute; top: calc(100% + 8px); right: 0; z-index: 60; width: min(420px, 92vw); max-height: min(70vh, 560px); overflow-y: auto; background: var(--card); border: 1px solid var(--border-strong); border-radius: 14px; box-shadow: 0 12px 34px rgba(15,23,42,.16); padding: 12px; }
+    .history-menu-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; padding: 2px 4px 10px; }
+    .history-menu-title { font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-hint); }
+    .history-menu-count { font-size: 12px; color: var(--ink-hint); font-weight: 600; }
+    .hist-list { display: flex; flex-direction: column; gap: 8px; }
+    .hist-loading { color: var(--ink-hint); font-size: 13px; padding: 10px 4px; }
+    .hist-row { border: 1px solid var(--border); border-radius: 12px; padding: 13px 15px; background: var(--card); transition: border-color .16s, box-shadow .16s; }
+    .hist-row:hover { border-color: var(--border-strong); box-shadow: var(--shadow-sm); }
+    .hist-row.hist-current { border-color: var(--primary-border); background: var(--primary-soft); }
+    .hist-row-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .hist-main { min-width: 0; flex: 1 1 260px; cursor: pointer; }
+    .hist-name { font-weight: 700; font-size: 15px; color: var(--ink); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .hist-badge { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--primary-text); background: #fff; border: 1px solid var(--primary-border); border-radius: 999px; padding: 2px 7px; }
+    .hist-meta { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; font-size: 12.5px; color: var(--ink-hint); margin-top: 4px; }
+    .hist-meta .hist-sep { color: var(--border-strong); }
+    .hist-meta .hist-you { color: var(--primary-text); font-weight: 600; }
+    .hist-meta .hist-mock { color: var(--warn); font-weight: 700; }
+    .hist-meta .hist-dim { font-style: italic; }
+    .hist-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+    .hist-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; border-radius: 9px; padding: 7px 12px; cursor: pointer; transition: all .16s; white-space: nowrap; }
+    .hist-open { color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); }
+    .hist-open:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
+    .hist-refresh { color: #fff; background: var(--primary); border: 1px solid var(--primary); }
+    .hist-refresh:hover { filter: brightness(1.06); }
+    .hist-refresh:disabled { cursor: default; }
+    .hist-status:empty { display: none; }
+    .hist-refreshing { display: flex; align-items: center; gap: 9px; font-size: 13px; color: var(--ink-2); margin-top: 11px; padding-top: 11px; border-top: 1px dashed var(--border); }
+    .hist-manual { display: flex; align-items: flex-start; gap: 8px; font-size: 12.5px; color: var(--ink-2); line-height: 1.55; margin-top: 11px; padding: 10px 12px; background: var(--warn-soft); border: 1px solid var(--warn-border); border-radius: 10px; }
+    .hist-manual svg { color: var(--warn); margin-top: 1px; }
+
+    /* Refresh control in the industry header */
+    .hdr-refresh { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 600; color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); border-radius: 9px; padding: 7px 13px; cursor: pointer; transition: all .16s; }
+    .hdr-refresh:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
+    .hdr-refresh:disabled { cursor: default; }
+    .hdr-refresh-status { width: 100%; }
+    .hdr-refresh-status:empty { display: none; }
+    .hdr-refresh-status .hist-refreshing, .hdr-refresh-status .hist-manual { margin-top: 14px; }
+
     /* ---------- Markdown (class name avoids Tailwind's `.prose`/utility space) ---------- */
     .markdown h2 { font-size: 16px; font-weight: 800; margin: 18px 0 8px; color: var(--ink); }
     .markdown h2:first-child { margin-top: 0; }
@@ -441,12 +483,19 @@
           </div>
         </div>
 
-        <div class="flex-1 min-w-0 max-w-[520px] ml-auto">
-          <form id="search-form" class="searchbar" role="search">
+        <div class="flex items-center gap-2 flex-1 min-w-0 max-w-[620px] ml-auto">
+          <form id="search-form" class="searchbar flex-1 min-w-0" role="search">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
             <input id="search-input" type="text" placeholder="Type an industry or company…" autocomplete="off" aria-label="Search industry" />
             <kbd class="text-[10px] text-slate-400 border border-slate-200 rounded px-1.5 py-0.5 hidden sm:inline">↵</kbd>
           </form>
+          <div class="hist-anchor">
+            <button id="history-btn" type="button" class="history-btn" title="Recently researched" aria-haspopup="true" aria-expanded="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l4 2"/></svg>
+              <span class="hidden sm:inline">Recent</span>
+            </button>
+            <div id="history-menu" class="history-menu hidden" role="menu" aria-label="Recently researched"></div>
+          </div>
         </div>
       </div>
 

@@ -40,6 +40,14 @@ ok('fuzzy "widgets" picks the non-mock entry', (matchIndustry(idx2, 'widgets') |
 const idxOnlyMock = { industries: [{ slug: 'm', name: 'M only', mock: true }] };
 ok('mock is used only when it is the sole match', (matchIndustry(idxOnlyMock, 'M only') || {}).slug === 'm');
 
+console.log('refresh invariant — meta.query slugifies back to the slug:');
+// A "Refresh" re-runs the pipeline with meta.query; it must resolve to the SAME
+// slug (same file), never a drifted one. Guard the committed data + the invariant.
+const mdf = JSON.parse(readFileSync(new URL('../public/data/industries/mdf-boards-india.json', import.meta.url), 'utf8'));
+ok('mdf file carries meta.query', typeof mdf.meta.query === 'string' && mdf.meta.query.length > 0);
+ok('slugify(meta.query) === meta.slug', slugify(mdf.meta.query) === mdf.meta.slug);
+ok('display name would DRIFT (why we store query)', slugify(mdf.meta.name) !== mdf.meta.slug);
+
 console.log('manualSteps:');
 const ms = manualSteps('Ceramic Tiles, India');
 ok('names the industry + the workflow', /Ceramic Tiles, India/.test(ms) && /Research Industry/.test(ms) && /Actions/.test(ms));
