@@ -256,11 +256,22 @@
     .yt-play svg { width: 20px; height: 20px; color: var(--primary); margin-left: 2px; }
 
     /* ---------- Chat ---------- */
+    .chat-window { border-radius: 14px; background: var(--neutral-soft, #f7f9fc); border: 1px solid var(--border); padding: 16px; }
     .chat-log { display: flex; flex-direction: column; gap: 12px; }
-    .msg { max-width: 78%; padding: 11px 14px; border-radius: 14px; font-size: 14px; line-height: 1.5; }
+    .msg { max-width: 78%; padding: 11px 14px; border-radius: 14px; font-size: 14px; line-height: 1.55; word-wrap: break-word; overflow-wrap: anywhere; }
     .msg.user { align-self: flex-end; background: var(--primary); color: #fff; border-bottom-right-radius: 4px; }
     .msg.bot { align-self: flex-start; background: #fff; color: var(--ink-2); border: 1px solid var(--border); border-bottom-left-radius: 4px; box-shadow: var(--shadow-sm); }
     .msg.bot.typing { color: var(--ink-hint); font-style: italic; }
+    /* a bot answer + its source chips, grouped and left-aligned */
+    .msg-group { align-self: flex-start; display: flex; flex-direction: column; gap: 7px; max-width: 88%; }
+    .msg-group .msg.bot { max-width: 100%; }
+    .chat-src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding-left: 2px; }
+    .chat-src-label { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-hint); margin-right: 2px; }
+    /* suggested starter questions */
+    .chat-starters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; }
+    .chat-starters-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-hint); margin-right: 2px; }
+    .chat-starter { font-size: 12.5px; font-weight: 600; color: var(--primary-text); background: var(--primary-soft); border: 1px solid var(--primary-border); border-radius: 999px; padding: 6px 13px; cursor: pointer; transition: all .16s; }
+    .chat-starter:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
 
     /* ---------- Markdown (class name avoids Tailwind's `.prose`/utility space) ---------- */
     .markdown h2 { font-size: 16px; font-weight: 800; margin: 18px 0 8px; color: var(--ink); }
