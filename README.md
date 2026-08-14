@@ -391,19 +391,40 @@ Covered by `node scripts/test-resolve.mjs` (pure: slug parity with the pipeline,
 index matching, real-over-mock) and `node scripts/test-resolve-worker.mjs` (the
 full handlers with mocked assets + Bedrock + the GitHub dispatch API).
 
-### Recent runs + Refresh
+### Home (search-first) + history + Update
 
-A **Recent** button next to the search box opens a dropdown of every researched
+Opening the app lands on a **search-first home**, not a pre-loaded industry: a
+hero search + **Research it**, and a **Your research** list of every researched
 industry (from `index.json` + each file's `meta`) — name, when it was last
-researched/updated, coverage, and, per browser, when *you* last viewed it —
-newest first. Click a row to open it. Each row, and the loaded industry header,
-carries a **Refresh** that re-runs research for that industry **in place**: it
-re-uses `/api/research` and then reloads when the file's content changes (a
-whole-body compare, so same-day re-runs are caught). Because the pipeline is
-additive / write-if-better, a refresh only improves the data. Refresh sends
-`meta.query` — the exact input that produced the slug — so the re-run targets the
-**same** file rather than a drifted one (the pipeline records `meta.query` for
-this; guarded by `scripts/test-resolve.mjs`).
+researched/updated, coverage, and, per browser, when *you* last viewed it,
+newest first. The brand/logo returns here anytime.
+
+Each history row has two plain actions:
+
+- **View saved output** — instantly loads the already-saved data (no run, no
+  waiting).
+- **Update** — re-runs research for that industry **in place** (also available as
+  **Update** on the loaded industry header). It re-uses `/api/research`, then
+  reloads when the file's content actually changes (a whole-body compare, so
+  same-day re-runs are caught). Because the pipeline is additive /
+  write-if-better, an update only improves the data. Update sends `meta.query` —
+  the exact input that produced the slug — so the re-run targets the **same**
+  file, not a drifted one (guarded by `scripts/test-resolve.mjs`).
+
+### Friendly progress screen + `/api/research-status`
+
+Any run (**Research it**, **Update**) shows a full-panel progress experience —
+animated stages ("Fetching sources…", "Reading reports & PDFs…", "Writing the
+summary…"), an elapsed timer, and a bar that **eases toward ~90% and only snaps
+to 100% when the data is actually ready** (never the "bar full but nothing
+loaded" trap). Completion is honest, not a timer: the frontend watches the
+deployed file for a real change/appearance, and polls **`GET
+/api/research-status?slug=…`** — which returns **only** a friendly
+`{ state: "starting" | "running" | "done" | "failed" }` (never run ids or GitHub
+internals) by combining the deployed file with the latest workflow run. On
+`failed` the screen offers **Try again**; if one-click research isn't configured,
+it explains that instead of dead-ending. Guarded by
+`scripts/test-status-worker.mjs`.
 
 ### Optional Worker secrets for one-click research
 

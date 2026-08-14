@@ -296,15 +296,21 @@
     .nr-manual-head { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--warn); margin-bottom: 6px; }
     .nr-manual-body { font-size: 13.5px; color: var(--ink-2); line-height: 1.6; }
 
-    /* ---------- History dropdown (near the search bar) + Refresh ---------- */
-    .hist-anchor { position: relative; flex-shrink: 0; }
-    .history-btn { display: inline-flex; align-items: center; gap: 7px; height: 40px; padding: 0 13px; font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); border-radius: 12px; cursor: pointer; transition: all .16s; white-space: nowrap; }
-    .history-btn:hover, .history-btn[aria-expanded="true"] { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
-    .history-menu { position: absolute; top: calc(100% + 8px); right: 0; z-index: 60; width: min(420px, 92vw); max-height: min(70vh, 560px); overflow-y: auto; background: var(--card); border: 1px solid var(--border-strong); border-radius: 14px; box-shadow: 0 12px 34px rgba(15,23,42,.16); padding: 12px; }
-    .history-menu-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; padding: 2px 4px 10px; }
-    .history-menu-title { font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-hint); }
-    .history-menu-count { font-size: 12px; color: var(--ink-hint); font-weight: 600; }
-    .hist-list { display: flex; flex-direction: column; gap: 8px; }
+    /* ---------- Home (search-first landing) ---------- */
+    .home-hero { max-width: 680px; margin: 22px auto 30px; text-align: center; }
+    .home-title { font-family: 'Plus Jakarta Sans','Inter',sans-serif; font-size: 30px; font-weight: 800; color: var(--ink); letter-spacing: -.02em; line-height: 1.2; }
+    .home-sub { font-size: 15px; color: var(--ink-hint); margin-top: 10px; }
+    .home-search { display: flex; gap: 10px; margin-top: 24px; }
+    .home-search .searchbar { flex: 1; height: 52px; border-radius: 14px; font-size: 15px; }
+    .home-search-btn { display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0; font-size: 15px; font-weight: 700; color: #fff; background: var(--primary); border: 0; border-radius: 14px; padding: 0 22px; cursor: pointer; box-shadow: var(--shadow-sm); transition: filter .16s; }
+    .home-search-btn:hover { filter: brightness(1.06); }
+    .home-hint { font-size: 12.5px; color: var(--ink-hint); margin-top: 12px; }
+    .home-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 6px 2px 14px; }
+    .home-section-title { font-family: 'Plus Jakarta Sans','Inter',sans-serif; font-size: 18px; font-weight: 800; color: var(--ink); }
+    .home-section-count { font-size: 12.5px; color: var(--ink-hint); font-weight: 600; }
+
+    /* ---------- History list (on home) + Refresh ---------- */
+    .hist-list { display: flex; flex-direction: column; gap: 10px; }
     .hist-loading { color: var(--ink-hint); font-size: 13px; padding: 10px 4px; }
     .hist-row { border: 1px solid var(--border); border-radius: 12px; padding: 13px 15px; background: var(--card); transition: border-color .16s, box-shadow .16s; }
     .hist-row:hover { border-color: var(--border-strong); box-shadow: var(--shadow-sm); }
@@ -319,15 +325,42 @@
     .hist-meta .hist-mock { color: var(--warn); font-weight: 700; }
     .hist-meta .hist-dim { font-style: italic; }
     .hist-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
-    .hist-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; border-radius: 9px; padding: 7px 12px; cursor: pointer; transition: all .16s; white-space: nowrap; }
-    .hist-open { color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); }
-    .hist-open:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
-    .hist-refresh { color: #fff; background: var(--primary); border: 1px solid var(--primary); }
-    .hist-refresh:hover { filter: brightness(1.06); }
-    .hist-refresh:disabled { cursor: default; }
+    .hist-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; border-radius: 9px; padding: 8px 14px; cursor: pointer; transition: all .16s; white-space: nowrap; }
+    /* Primary action = View saved output (instant, most common). Secondary = Update (re-run). */
+    .hist-view { color: #fff; background: var(--primary); border: 1px solid var(--primary); }
+    .hist-view:hover { filter: brightness(1.06); }
+    .hist-update { color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); }
+    .hist-update:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
+    .hist-update:disabled { cursor: default; opacity: .55; }
     .hist-status:empty { display: none; }
-    .hist-refreshing { display: flex; align-items: center; gap: 9px; font-size: 13px; color: var(--ink-2); margin-top: 11px; padding-top: 11px; border-top: 1px dashed var(--border); }
     .hist-manual { display: flex; align-items: flex-start; gap: 8px; font-size: 12.5px; color: var(--ink-2); line-height: 1.55; margin-top: 11px; padding: 10px 12px; background: var(--warn-soft); border: 1px solid var(--warn-border); border-radius: 10px; }
+
+    /* ---------- Friendly progress screen (research / update / refresh) ---------- */
+    .prog-wrap { max-width: 620px; margin: 26px auto; }
+    .prog-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; box-shadow: var(--shadow-sm); padding: 30px 30px 34px; }
+    .prog-head { display: flex; align-items: center; gap: 13px; }
+    .prog-spin { width: 26px; height: 26px; border-radius: 50%; border: 3px solid var(--primary-border); border-top-color: var(--primary); animation: nr-spin .8s linear infinite; flex: none; }
+    .prog-title { font-family: 'Plus Jakarta Sans','Inter',sans-serif; font-size: 19px; font-weight: 800; color: var(--ink); line-height: 1.25; }
+    .prog-elapsed { font-size: 12.5px; color: var(--ink-hint); font-variant-numeric: tabular-nums; margin-top: 2px; }
+    .prog-barwrap { height: 10px; background: var(--neutral-soft, #eef2f7); border-radius: 999px; overflow: hidden; margin: 22px 0 8px; }
+    .prog-bar { height: 100%; width: 0; background: linear-gradient(90deg, var(--chart-1), var(--chart-2)); border-radius: 999px; transition: width .9s cubic-bezier(.22,.61,.36,1); }
+    .prog-pct { font-size: 12px; color: var(--ink-hint); font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; }
+    .prog-stage-now { font-size: 15px; font-weight: 700; color: var(--ink); margin: 18px 0 4px; display: flex; align-items: center; gap: 9px; }
+    .prog-reassure { font-size: 13px; color: var(--ink-hint); }
+    .prog-stages { list-style: none; margin: 20px 0 0; padding: 16px 0 0; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 9px; }
+    .prog-stages li { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: var(--ink-hint); transition: color .3s; }
+    .prog-stages li .st-dot { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--border-strong); flex: none; display: grid; place-items: center; }
+    .prog-stages li.st-done { color: var(--ink-2); }
+    .prog-stages li.st-done .st-dot { background: var(--good); border-color: var(--good); color: #fff; }
+    .prog-stages li.st-active { color: var(--ink); font-weight: 700; }
+    .prog-stages li.st-active .st-dot { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+    .prog-fail { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px; padding: 8px 0 4px; }
+    .prog-fail-icon { width: 44px; height: 44px; display: grid; place-items: center; color: var(--bad); background: var(--bad-soft, #fef2f2); border: 1px solid var(--warn-border); border-radius: 12px; }
+    .prog-fail-icon svg { width: 24px; height: 24px; }
+    .prog-fail-title { font-size: 18px; font-weight: 800; color: var(--ink); }
+    .prog-fail-sub { font-size: 13.5px; color: var(--ink-hint); max-width: 420px; }
+    .prog-btn { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: #fff; background: var(--primary); border: 0; border-radius: 11px; padding: 10px 20px; cursor: pointer; }
+    .prog-btn.ghost { color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); }
     .hist-manual svg { color: var(--warn); margin-top: 1px; }
 
     /* Refresh control in the industry header */
@@ -471,7 +504,7 @@
   <header class="topbar">
     <div class="max-w-[1240px] mx-auto px-4 sm:px-6">
       <div class="flex items-center gap-3 sm:gap-5 py-3">
-        <div class="flex items-center gap-3 flex-shrink-0">
+        <div id="brand-home" class="flex items-center gap-3 flex-shrink-0 cursor-pointer" role="button" tabindex="0" title="Home — search & history">
           <div class="brandmark">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M3 3v18h18" /><path d="M7 14l3-4 3 3 4-6" />
@@ -483,19 +516,12 @@
           </div>
         </div>
 
-        <div class="flex items-center gap-2 flex-1 min-w-0 max-w-[620px] ml-auto">
-          <form id="search-form" class="searchbar flex-1 min-w-0" role="search">
+        <div id="topbar-search" class="flex-1 min-w-0 max-w-[520px] ml-auto">
+          <form id="search-form" class="searchbar" role="search">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
             <input id="search-input" type="text" placeholder="Type an industry or company…" autocomplete="off" aria-label="Search industry" />
             <kbd class="text-[10px] text-slate-400 border border-slate-200 rounded px-1.5 py-0.5 hidden sm:inline">↵</kbd>
           </form>
-          <div class="hist-anchor">
-            <button id="history-btn" type="button" class="history-btn" title="Recently researched" aria-haspopup="true" aria-expanded="false">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l4 2"/></svg>
-              <span class="hidden sm:inline">Recent</span>
-            </button>
-            <div id="history-menu" class="history-menu hidden" role="menu" aria-label="Recently researched"></div>
-          </div>
         </div>
       </div>
 
@@ -506,6 +532,12 @@
 
   <!-- ===================== MAIN ===================== -->
   <main class="max-w-[1240px] mx-auto px-4 sm:px-6 py-6">
+    <!-- Search-first home (default): hero search + research history -->
+    <section id="home-view" class="hidden"></section>
+
+    <!-- Friendly progress screen while a run is happening -->
+    <section id="progress-view" class="hidden"></section>
+
     <!-- Industry header strip -->
     <div id="industry-header" class="mb-5"></div>
 
@@ -521,7 +553,7 @@
   <footer class="max-w-[1240px] mx-auto px-4 sm:px-6 pb-10 pt-2">
     <div class="text-[11px] text-slate-400 flex flex-wrap items-center gap-2">
       <span>Industry Research Dashboard</span><span>·</span>
-      <span id="footer-note">Scaffold with mock data</span>
+      <span id="footer-note">Search an industry or company to begin</span>
     </div>
   </footer>
 

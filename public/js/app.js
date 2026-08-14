@@ -1041,13 +1041,12 @@
     const m = data.meta || {};
     const aliases = (m.aliases || []).filter(has);
 
-    // Refresh control: re-run research for THIS industry (same slug) and reload
+    // Update control: re-run research for THIS industry (same slug) and reload
     // when the data changes. Uses meta.query so slugify(query) === this slug.
-    const refreshStatus = h('div', { class: 'hdr-refresh-status' });
     const refreshBtn = h('button', {
       class: 'hdr-refresh', type: 'button', title: 'Re-run research to bring this industry up to date',
-      onClick: () => refreshIndustry((m.query || m.name || m.slug), m.slug, refreshStatus, refreshBtn),
-    }, h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Refresh data');
+      onClick: () => runResearch({ query: (m.query || m.name || m.slug), slug: m.slug, isRefresh: true }),
+    }, h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Update');
 
     root.appendChild(h('div', { class: 'card fade-in relative overflow-hidden' },
       h('div', { class: 'absolute left-0 top-0 bottom-0 w-1.5', style: { background: 'linear-gradient(180deg,var(--chart-1),var(--chart-2))' } }),
@@ -1064,7 +1063,6 @@
         aliases.length ? h('div', { class: 'flex items-center gap-1.5 flex-wrap mt-3' },
           h('span', { class: 'text-[11px] font-semibold uppercase tracking-wide text-slate-400 mr-1' }, 'Also known as'),
           ...aliases.map((a) => h('span', { class: 'text-[11.5px] font-medium text-slate-500 bg-slate-100 rounded-md px-2 py-0.5' }, a))) : null,
-        refreshStatus,
       )));
     root.appendChild(renderFreshnessBar(data));
   }
@@ -1148,8 +1146,8 @@
   }
 
   async function loadIndustry(slug) {
-    stopPolling();
-    $('#tabbar').classList.remove('hidden');   // restore chrome after a not-researched view
+    stopRun();
+    setView('dashboard'); showTopSearch(true);
     destroyCharts();
     renderedTabs.clear();
     renderedSubs.clear();
@@ -1179,9 +1177,6 @@
    *   3. If the Worker is unreachable (static-file view), fall back to a local
    *      index match; unknown queries still show the graceful card.
    * ======================================================================= */
-  let pollTimer = null;
-  function stopPolling() { if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
-
   function slugifyLocal(s) {
     return String(s).toLowerCase().normalize('NFKD')
       .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').replace(/-{2,}/g, '-') || 'industry';
@@ -1197,6 +1192,24 @@
       || idx.industries.filter((it) => it && it.mock).find(test) || null;
   }
 
+  /* ---- View management: home (search + history) / dashboard / progress ---- */
+  function setView(view) {
+    $('#home-view').classList.toggle('hidden', view !== 'home');
+    $('#progress-view').classList.toggle('hidden', view !== 'progress');
+    const dash = view === 'dashboard';
+    $('#industry-header').classList.toggle('hidden', !dash);
+    $('#tabbar').classList.toggle('hidden', !dash);
+    if (!dash) TABS.forEach((t) => $('#panel-' + t.id).classList.add('hidden'));
+  }
+  function showTopSearch(on) { const ts = $('#topbar-search'); if (ts) ts.classList.toggle('hidden', !on); }
+
+  function goHome() {
+    stopRun();
+    $('#search-input').value = '';
+    $('#footer-note').textContent = 'Search an industry or company to begin';
+    renderHome();
+  }
+
   function handleSearch(q) {
     const query = String(q || '').trim();
     if (!query) return;
@@ -1204,8 +1217,8 @@
   }
 
   async function resolveAndRoute(query) {
-    stopPolling();
-    $('#footer-note').textContent = 'Resolving “' + query + '”…';
+    stopRun();
+    $('#footer-note').textContent = 'Looking up “' + query + '”…';
     let info = null;
     try {
       const res = await fetch('/api/resolve', {
@@ -1224,22 +1237,20 @@
     renderNotResearched(info);
   }
 
-  /** The graceful "not researched yet" view with an optional one-click research. */
+  /** The graceful "not researched yet" screen (shown in the home area). */
   function renderNotResearched(info) {
-    stopPolling();
-    destroyCharts();
-    renderedTabs.clear(); renderedSubs.clear();
-    $('#tabbar').classList.add('hidden');
-    $('#industry-header').innerHTML = '';
-    TABS.forEach((t) => { $('#panel-' + t.id).innerHTML = ''; $('#panel-' + t.id).classList.toggle('hidden', t.id !== 'deep'); });
+    stopRun();
+    setView('home'); showTopSearch(true);
     if (info.industry_name) $('#search-input').value = info.industry_name;
     $('#footer-note').textContent = 'No data yet for ' + (info.industry_name || 'this query');
 
-    const defSlug = state.index && state.index.default;
-    const defName = defSlug && (state.index.industries.find((i) => i.slug === defSlug) || {}).name;
+    const actionHost = h('div', { class: 'nr-actions' },
+      h('button', { class: 'nr-btn', type: 'button',
+        onClick: () => runResearch({ query: info.industry_name, slug: info.slug, isRefresh: false, offline: info.offline }) },
+        h('span', { class: 'w-4 h-4', html: I.refresh }), 'Research it'));
 
-    const actionHost = h('div', { class: 'nr-actions' });
-    const card_ = h('div', { class: 'card fade-in' }, h('div', { class: 'card-body' },
+    const host = $('#home-view'); host.innerHTML = '';
+    host.appendChild(h('div', { class: 'card fade-in' }, h('div', { class: 'card-body' },
       h('div', { class: 'nr-wrap' },
         h('div', { class: 'nr-icon', html: I.empty }),
         h('h2', { class: 'nr-title' }, 'We haven’t researched ', h('span', { class: 'nr-name' }, info.industry_name || 'that'), ' yet.'),
@@ -1247,93 +1258,166 @@
           ? h('p', { class: 'nr-detected' }, 'Detected industry for ', h('b', {}, info.company), ': ', h('b', {}, info.industry_name), '.')
           : h('p', { class: 'nr-sub' }, 'Nothing has been gathered for this one yet.'),
         actionHost,
-        defSlug ? h('button', { class: 'nr-back', type: 'button', onClick: () => loadIndustry(defSlug) },
-          '← Back to ' + (defName || defSlug)) : null,
-      )));
-    renderResearchCta(actionHost, info);
-    $('#panel-deep').appendChild(card_);
+        h('button', { class: 'nr-back', type: 'button', onClick: goHome }, '← Back to search'),
+      ))));
   }
 
-  /** The primary "Research it" call-to-action (before it's clicked). */
-  function renderResearchCta(host, info) {
-    host.innerHTML = '';
-    host.appendChild(h('button', {
-      class: 'nr-btn', type: 'button', onClick: () => startResearch(host, info),
-    }, h('span', { class: 'w-4 h-4', html: I.refresh }), 'Research it'));
-  }
+  /* ---- Runs: research (new) or update (refresh), with a friendly progress UI ---- */
+  let runTimer = null, runActive = false;
+  function stopRun() { if (runTimer) { clearInterval(runTimer); runTimer = null; } runActive = false; }
 
-  async function startResearch(host, info) {
-    host.innerHTML = '';
-    host.appendChild(h('div', { class: 'nr-status' },
-      h('span', { class: 'nr-spinner' }),
-      h('span', {}, 'Dispatching research for ', h('b', {}, info.industry_name), '…')));
+  const STAGES = [
+    'Starting up…',
+    'Fetching sources across the web',
+    'Reading industry reports & PDFs',
+    'Finding relevant YouTube videos',
+    'Checking players, segments & margins',
+    'Writing the summary report',
+    'Finishing up…',
+  ];
 
-    // Offline / no Worker → straight to manual steps.
-    if (info.offline) return showManual(host, info, null);
+  /** Trigger a run and show the progress screen. cfg: { query, slug, isRefresh, offline } */
+  async function runResearch(cfg) {
+    stopRun();
+    const name = cfg.query;
+    const slug = cfg.slug || slugifyLocal(cfg.query);
+
+    // For an update, remember the current file so we can detect a REAL change.
+    let baseline = null, since = '', sig = '';
+    if (cfg.isRefresh) {
+      try {
+        const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
+        if (res.ok) { baseline = await res.text(); sig = String(baseline.length);
+          try { since = (JSON.parse(baseline).meta || {}).updated_at || ''; } catch (e) { /* ignore */ } }
+      } catch (e) { /* no baseline -> first change reloads */ }
+    }
+
+    const ui = renderProgress({ name, isRefresh: cfg.isRefresh });
+    setView('progress'); showTopSearch(true);
+
+    if (cfg.offline) return progressManual(ui, name, null);
 
     let resp = null;
     try {
       const r = await fetch('/api/research', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ industry: info.industry_name }),
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ industry: name }),
       });
       if (r.ok) resp = await r.json();
     } catch (e) { resp = null; }
 
-    if (resp && resp.dispatched) {
-      const slug = resp.slug || info.slug;
-      host.innerHTML = '';
-      const status = h('div', { class: 'nr-status' }, h('span', { class: 'nr-spinner' }),
-        h('span', {}, 'Researching ', h('b', {}, info.industry_name), '… this usually takes a few minutes.'));
-      const sub = h('p', { class: 'nr-poll-note' }, 'This page will load it automatically as soon as it’s ready.');
-      host.appendChild(status); host.appendChild(sub);
-      pollLoop(slug, { baseline: null, noteEl: sub });
-      return;
-    }
-    // Not configured, or dispatch failed → clear manual steps (never a dead end).
-    showManual(host, info, resp && resp.message);
+    if (!resp || !resp.dispatched) return progressManual(ui, name, resp && resp.message);
+    startProgressLoop({ ui, slug: resp.slug || slug, name, baseline, since, sig, isRefresh: cfg.isRefresh, startedMs: Date.now() });
   }
 
-  /** Poll <slug>.json until it's ready. When `baseline` (the current file text)
-   *  is given, we wait for the content to CHANGE (a refresh of an existing
-   *  industry); otherwise we wait for it to first appear (a brand-new industry).
-   *  Same-day refreshes are caught because we compare the whole body, not the
-   *  day-granular updated_at. */
-  function pollLoop(slug, opts) {
-    stopPolling();
-    const baseline = (opts && 'baseline' in opts) ? opts.baseline : null;
-    const noteEl = opts && opts.noteEl;
-    const onDone = (opts && opts.onDone) || (() => loadIndustry(slug));
-    const started = Date.now();
-    const MAX_MS = 15 * 60 * 1000;       // stop polling after ~15 min (run may still finish later)
-    const tick = async () => {
-      const mins = Math.floor((Date.now() - started) / 60000);
-      if (noteEl) noteEl.textContent = 'Still working' + (mins ? ` (${mins} min)` : '') + '… it will update automatically when ready.';
-      try {
-        const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
-        if (res.ok) {
-          const text = await res.text();
-          if (baseline == null || text !== baseline) { stopPolling(); return onDone(); }
-        }
-      } catch (e) { /* keep polling */ }
-      if (Date.now() - started > MAX_MS) {
-        stopPolling();
-        if (noteEl) noteEl.textContent = baseline == null
-          ? 'The run is taking longer than usual. It’ll appear here once it finishes and the site redeploys — reload to check.'
-          : 'The refresh is taking longer than usual, or produced no new data. Reload the page to check once the run finishes.';
-      }
+  /** Build the progress screen; returns handles the loop updates. */
+  function renderProgress(o) {
+    const host = $('#progress-view'); host.innerHTML = '';
+    const bar = h('div', { class: 'prog-bar' });
+    const pct = h('div', { class: 'prog-pct' }, '0%');
+    const elapsed = h('div', { class: 'prog-elapsed' }, '0:00 elapsed');
+    const stageNow = h('div', { class: 'prog-stage-now' }, STAGES[0]);
+    const stages = h('ul', { class: 'prog-stages' }, ...STAGES.map((s) => h('li', {}, h('span', { class: 'st-dot' }), s)));
+    const title = (o.isRefresh ? 'Updating ' : 'Researching ') + (o.name || 'this industry');
+    const card = h('div', { class: 'prog-card' },
+      h('div', { class: 'prog-head' }, h('div', { class: 'prog-spin' }),
+        h('div', { class: 'min-w-0' }, h('div', { class: 'prog-title' }, title), elapsed)),
+      h('div', { class: 'prog-barwrap' }, bar), pct,
+      stageNow, h('div', { class: 'prog-reassure' }, 'This usually takes a few minutes — you can leave this open, it updates on its own.'),
+      stages);
+    host.appendChild(h('div', { class: 'prog-wrap' }, card));
+    return { host, card, bar, pct, stageNow, stages, elapsed };
+  }
+
+  function startProgressLoop(o) {
+    stopRun(); runActive = true;
+    const TAU = o.isRefresh ? 45000 : 100000;     // asymptotic time constant (refresh is faster)
+    let runDoneAt = 0, pollBusy = false, lastPoll = 0, displayPct = 0;
+    const isNew = o.baseline == null;
+
+    const fmt = (ms) => { const s = Math.floor(ms / 1000); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+    const setStage = (idx) => {
+      const lis = o.ui.stages.querySelectorAll('li');
+      lis.forEach((li, i) => {
+        li.classList.toggle('st-done', i < idx);
+        li.classList.toggle('st-active', i === idx);
+        if (i < idx) li.querySelector('.st-dot').innerHTML = '<span style="font-size:10px;line-height:1">✓</span>';
+        else li.querySelector('.st-dot').innerHTML = '';
+      });
+      o.ui.stageNow.textContent = STAGES[Math.min(idx, STAGES.length - 1)];
     };
-    pollTimer = setInterval(tick, 20000);
+    const finish = () => {
+      stopRun();
+      o.ui.bar.style.width = '100%'; o.ui.pct.textContent = '100%';
+      o.ui.stages.querySelectorAll('li').forEach((li) => {
+        li.classList.remove('st-active'); li.classList.add('st-done');
+        li.querySelector('.st-dot').innerHTML = '<span style="font-size:10px;line-height:1">✓</span>';
+      });
+      o.ui.stageNow.textContent = 'Complete';
+      setTimeout(() => loadIndustry(o.slug), 650);
+    };
+    const fail = () => { stopRun(); progressFail(o.ui, o.name, () => runResearch({ query: o.name, slug: o.slug, isRefresh: o.isRefresh })); };
+
+    const tick = async () => {
+      const elapsed = Date.now() - o.startedMs;
+      o.ui.elapsed.textContent = fmt(elapsed) + ' elapsed';
+      const target = 90 * (1 - Math.exp(-elapsed / TAU));   // eases toward, never past, 90%
+      displayPct = Math.max(displayPct, target);
+      o.ui.bar.style.width = displayPct.toFixed(1) + '%';
+      o.ui.pct.textContent = Math.round(displayPct) + '%';
+      setStage(Math.min(STAGES.length - 1, Math.floor((displayPct / 90) * (STAGES.length - 1))));
+      if (displayPct >= 88) o.ui.stageNow.textContent = STAGES[STAGES.length - 1] + '  still working…';
+
+      if (!pollBusy && Date.now() - lastPoll > 11000) {
+        pollBusy = true; lastPoll = Date.now();
+        try {
+          // (a) the honest signal: can the frontend load new data now?
+          const res = await fetch('./data/industries/' + o.slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
+          if (res.ok) {
+            const text = await res.text();
+            if (isNew || text !== o.baseline) { pollBusy = false; return finish(); }
+          }
+          // (b) friendly run state — only to detect failure or a finished no-op run.
+          const qs = 'slug=' + encodeURIComponent(o.slug) + '&t=' + o.startedMs +
+            (o.since ? '&since=' + encodeURIComponent(o.since) : '') + (o.sig ? '&sig=' + encodeURIComponent(o.sig) : '');
+          const sres = await fetch('/api/research-status?' + qs, { cache: 'no-cache' });
+          if (sres.ok) {
+            const st = (await sres.json()).state;
+            if (st === 'failed') { pollBusy = false; return fail(); }
+            if (st === 'done' && !runDoneAt) runDoneAt = Date.now();
+          }
+        } catch (e) { /* keep going */ }
+        pollBusy = false;
+      }
+      // An update whose run finished but changed nothing (already current): end after a short grace.
+      if (!isNew && runDoneAt && Date.now() - runDoneAt > 75000) return finish();
+    };
+    runTimer = setInterval(tick, 1000);
     tick();
   }
 
-  function showManual(host, info, message) {
-    host.innerHTML = '';
-    const steps = message || ('One-click research isn’t configured on this deployment. To research “' + info.industry_name +
-      '” manually: open the repo on GitHub → Actions → “Research Industry (full rebuild)” → Run workflow, and enter “' +
-      info.industry_name + '” as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.');
-    host.appendChild(h('div', { class: 'nr-manual' },
-      h('div', { class: 'nr-manual-head' }, h('span', { class: 'w-4 h-4', html: I.warn }), 'Manual research'),
-      h('p', { class: 'nr-manual-body' }, steps)));
+  function progressFail(ui, name, onRetry) {
+    stopRun();
+    ui.host.innerHTML = '';
+    ui.host.appendChild(h('div', { class: 'prog-wrap' }, h('div', { class: 'prog-card' },
+      h('div', { class: 'prog-fail' },
+        h('div', { class: 'prog-fail-icon', html: I.warn }),
+        h('div', { class: 'prog-fail-title' }, 'Something went wrong'),
+        h('p', { class: 'prog-fail-sub' }, 'We couldn’t finish researching ' + (name || 'this industry') + ' this time. Please try again.'),
+        h('div', { class: 'flex items-center gap-2.5' },
+          h('button', { class: 'prog-btn', type: 'button', onClick: onRetry }, h('span', { class: 'w-4 h-4', html: I.refresh }), 'Try again'),
+          h('button', { class: 'prog-btn ghost', type: 'button', onClick: goHome }, 'Back'))))));
+  }
+
+  function progressManual(ui, name, message) {
+    stopRun();
+    ui.host.innerHTML = '';
+    const steps = message || ('Automatic research isn’t set up on this site yet, so this can’t run in one click. Once it’s configured, “Research it” and “Update” will start a run automatically.');
+    ui.host.appendChild(h('div', { class: 'prog-wrap' }, h('div', { class: 'prog-card' },
+      h('div', { class: 'prog-fail' },
+        h('div', { class: 'prog-fail-icon', html: I.warn }),
+        h('div', { class: 'prog-fail-title' }, 'Couldn’t start automatically'),
+        h('p', { class: 'prog-fail-sub' }, steps),
+        h('button', { class: 'prog-btn ghost', type: 'button', onClick: goHome }, 'Back to search')))));
   }
 
   /* ======================================================================= *
@@ -1366,35 +1450,49 @@
     return data;
   }
 
-  let historyOpen = false;
-  function toggleHistory(force) {
-    const menu = $('#history-menu'); const btn = $('#history-btn');
-    if (!menu || !btn) return;
-    historyOpen = (typeof force === 'boolean') ? force : !historyOpen;
-    menu.classList.toggle('hidden', !historyOpen);
-    btn.setAttribute('aria-expanded', historyOpen ? 'true' : 'false');
-    if (historyOpen) renderHistoryMenu(menu);
+  /** The search-first home: hero search + "Research it" + your research history. */
+  function renderHome() {
+    stopRun();
+    setView('home'); showTopSearch(false);
+    $('#footer-note').textContent = 'Search an industry or company to begin';
+    const host = $('#home-view'); host.innerHTML = '';
+
+    const input = h('input', { class: 'flex-1 min-w-0 border-0 outline-none bg-transparent text-[15px]', type: 'text',
+      placeholder: 'Type an industry or company…', autocomplete: 'off', 'aria-label': 'Search industry or company' });
+    const searchbar = h('div', { class: 'searchbar' },
+      h('span', { class: 'flex-shrink-0', html: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>' }),
+      input);
+    const form = h('form', { class: 'home-search', role: 'search' }, searchbar,
+      h('button', { class: 'home-search-btn', type: 'submit' }, h('span', { class: 'w-4 h-4', html: I.refresh }), 'Research it'));
+    form.addEventListener('submit', (e) => { e.preventDefault(); handleSearch(input.value); });
+
+    host.appendChild(h('div', { class: 'home-hero' },
+      h('h1', { class: 'home-title' }, 'What industry do you want to understand?'),
+      h('p', { class: 'home-sub' }, 'Search any industry or company. If we haven’t researched it yet, start a run in one click.'),
+      form,
+      h('p', { class: 'home-hint' }, 'Try “MDF boards, India”, “Asian Paints”, or “solar rooftop EPC”.')));
+
+    const listHost = h('div', { class: 'hist-list' }, h('div', { class: 'hist-loading' }, 'Loading your research…'));
+    const countEl = h('div', { class: 'home-section-count' }, '');
+    host.appendChild(h('div', {},
+      h('div', { class: 'home-section-head' }, h('div', { class: 'home-section-title' }, 'Your research'), countEl),
+      listHost));
+    input.focus();
+    populateHistory(listHost, countEl);
   }
 
-  async function renderHistoryMenu(menu) {
-    menu.innerHTML = '';
-    industryDataCache.clear();             // always reflect the latest committed files
+  async function populateHistory(listHost, countEl) {
+    industryDataCache.clear();               // always reflect the latest committed files
     const idx = state.index;
-    const entries = (idx && Array.isArray(idx.industries)) ? idx.industries.filter(Boolean) : [];
-    const head = h('div', { class: 'history-menu-head' },
-      h('span', { class: 'history-menu-title' }, 'Recently researched'),
-      h('span', { class: 'history-menu-count' }, entries.length + (entries.length === 1 ? ' industry' : ' industries')));
+    // Only real researched industries — leftover mock scaffolding never shows here.
+    const entries = (idx && Array.isArray(idx.industries)) ? idx.industries.filter((e) => e && !e.mock) : [];
     if (!entries.length) {
-      menu.appendChild(head);
-      menu.appendChild(emptyState('No research yet', 'Search an industry or company to get started.'));
+      listHost.innerHTML = '';
+      listHost.appendChild(emptyState('No research yet', 'Search an industry or company above to get started.'));
       return;
     }
-    const listHost = h('div', { class: 'hist-list' }, h('div', { class: 'hist-loading' }, 'Loading…'));
-    menu.appendChild(head); menu.appendChild(listHost);
-
     const local = readLocalHistory();
     const datas = await Promise.all(entries.map((e) => fetchIndustry(e.slug)));
-    if (menu.classList.contains('hidden')) return;   // closed while loading
     const now = Date.now();
     const rows = entries.map((e, i) => {
       const data = datas[i];
@@ -1404,12 +1502,10 @@
       return { e, meta, cm: data ? coverageModel(data) : null, when, whenT: Date.parse(when || '') || 0, viewedAt: (lv && lv.viewedAt) || 0 };
     });
     rows.sort((a, b) => (b.whenT - a.whenT) || (b.viewedAt - a.viewedAt)); // newest research first, then your recent views
-
+    if (countEl) countEl.textContent = entries.length + (entries.length === 1 ? ' industry' : ' industries');
     listHost.innerHTML = '';
     rows.forEach((r) => listHost.appendChild(historyRow(r, now)));
   }
-
-  function openIndustryFromHistory(slug) { toggleHistory(false); loadIndustry(slug); }
 
   function historyRow(r, now) {
     const { e, meta, cm, when, viewedAt } = r;
@@ -1425,67 +1521,25 @@
     if (viewedAt) bits.push(h('span', { class: 'hist-you' }, 'You viewed ' + relativeTime(new Date(viewedAt).toISOString(), now)));
     if (meta && meta.mock) bits.push(h('span', { class: 'hist-mock' }, 'mock'));
 
-    const status = h('div', { class: 'hist-status' });
     const query = (meta && (meta.query || meta.name)) || name;
-    const openBtn = h('button', { class: 'hist-btn hist-open', type: 'button', onClick: () => openIndustryFromHistory(slug) },
-      h('span', { class: 'w-3.5 h-3.5', html: I.open }), 'Open');
-    const refreshBtn = h('button', { class: 'hist-btn hist-refresh', type: 'button', title: 'Re-run research to bring this up to date',
-      onClick: () => refreshIndustry(query, slug, status, refreshBtn) },
-      h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Refresh');
+    const viewBtn = h('button', { class: 'hist-btn hist-view', type: 'button', title: 'Open the already-saved data (no waiting)', onClick: () => loadIndustry(slug) },
+      h('span', { class: 'w-3.5 h-3.5', html: I.open }), 'View saved output');
+    const updateBtn = h('button', { class: 'hist-btn hist-update', type: 'button', title: 'Re-run research to bring this up to date',
+      onClick: () => runResearch({ query, slug, isRefresh: true }) },
+      h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Update');
 
     return h('div', { class: 'hist-row' + (isCurrent ? ' hist-current' : '') },
       h('div', { class: 'hist-row-top' },
-        h('div', { class: 'hist-main', onClick: () => openIndustryFromHistory(slug) },
+        h('div', { class: 'hist-main', onClick: () => loadIndustry(slug) },
           h('div', { class: 'hist-name' }, name, isCurrent ? h('span', { class: 'hist-badge' }, 'viewing') : null),
           bits.length ? h('div', { class: 'hist-meta' }, ...interpose(bits, '·')) : null),
-        h('div', { class: 'hist-actions' }, openBtn, refreshBtn)),
-      status);
+        h('div', { class: 'hist-actions' }, viewBtn, updateBtn)));
   }
 
   function interpose(arr, sep) {
     const out = [];
     arr.forEach((x, i) => { if (i) out.push(h('span', { class: 'hist-sep' }, sep)); out.push(x); });
     return out;
-  }
-
-  /** Re-run research for an EXISTING industry and reload it when the data
-   *  changes. Reuses /api/research + the change-poller. Never-fail: shows manual
-   *  steps if the Worker isn't configured or is unreachable. */
-  async function refreshIndustry(query, slug, statusHost, btn) {
-    if (statusHost.dataset.busy === '1') return;
-    statusHost.dataset.busy = '1';
-    if (btn) { btn.disabled = true; btn.style.opacity = '.55'; }
-    statusHost.innerHTML = '';
-    const note = h('span', {}, 'Dispatching refresh…');
-    statusHost.appendChild(h('div', { class: 'hist-refreshing' }, h('span', { class: 'nr-spinner' }), note));
-
-    // Baseline = current file body; reload when it changes (catches same-day runs).
-    let baseline = null;
-    try {
-      const res = await fetch('./data/industries/' + slug + '.json?t=' + Date.now(), { cache: 'no-cache' });
-      if (res.ok) baseline = await res.text();
-    } catch (e) { /* baseline stays null -> first observed change reloads */ }
-
-    let resp = null;
-    try {
-      const r = await fetch('/api/research', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ industry: query }),
-      });
-      if (r.ok) resp = await r.json();
-    } catch (e) { resp = null; }
-
-    if (resp && resp.dispatched) {
-      note.textContent = 'Refreshing “' + query + '”… this reloads automatically when the new data lands (a few minutes).';
-      pollLoop(slug, { baseline, noteEl: note });
-      return;
-    }
-    // Not configured / failed → clear manual steps, re-enable the button.
-    statusHost.innerHTML = '';
-    const steps = (resp && resp.message) ||
-      ('One-click refresh isn’t configured. Run the “Research Industry (full rebuild)” workflow in GitHub → Actions with industry “' + query + '”.');
-    statusHost.appendChild(h('div', { class: 'hist-manual' }, h('span', { class: 'w-3.5 h-3.5 flex-shrink-0', html: I.warn }), h('span', {}, steps)));
-    statusHost.dataset.busy = '';
-    if (btn) { btn.disabled = false; btn.style.opacity = ''; }
   }
 
   async function init() {
@@ -1503,14 +1557,11 @@
 
     $('#search-form').addEventListener('submit', (e) => { e.preventDefault(); handleSearch($('#search-input').value); });
 
-    // History dropdown near the search bar: toggle on click, close on outside-click / Esc.
-    const histBtn = $('#history-btn');
-    if (histBtn) {
-      histBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleHistory(); });
-      document.addEventListener('click', (e) => {
-        if (historyOpen && !e.target.closest('#history-menu') && !e.target.closest('#history-btn')) toggleHistory(false);
-      });
-      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && historyOpen) toggleHistory(false); });
+    // Brand block → back to the search-first home.
+    const brand = $('#brand-home');
+    if (brand) {
+      brand.addEventListener('click', goHome);
+      brand.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goHome(); } });
     }
 
     try {
@@ -1519,8 +1570,8 @@
     } catch (e) {
       state.index = { default: 'mdf', industries: [{ slug: 'mdf', name: 'MDF Boards' }] };
     }
-    const first = (state.index && state.index.default) || (state.index && state.index.industries[0] && state.index.industries[0].slug) || 'mdf';
-    loadIndustry(first);
+    // Default view is the search-first home — NOT an auto-loaded industry.
+    renderHome();
 
     // Re-flow charts on resize (Chart.js handles most, this covers orientation changes)
     let rt;
