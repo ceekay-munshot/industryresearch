@@ -164,10 +164,14 @@ source tabs.
   and **Mistral OCR** (PDF → text). Same defensive/continue-on-error discipline.
 - `scripts/research-industry.mjs` — builds a checklist of queries, searches +
   reads generic web pages **and** broker / industry / government **report PDFs**
-  (via OCR) so segments, value chain, channels, margins and player market share
-  have quotable numbers. Also discovers YouTube videos and report candidates and
-  fills the **YouTube** and **Reports** tabs. Every fact carries a
-  `source: {label, url, snippet}` with a supporting quote.
+  (OCR via Mistral, falling back to Firecrawl when OCR can't fetch the PDF) so
+  segments, value chain, channels, margins and player market share have quotable
+  numbers. Also discovers YouTube videos and report candidates and fills the
+  **YouTube** and **Reports** tabs. Every fact carries a
+  `source: {label, url, snippet}` with a supporting quote. The **News** tab is
+  filled from the Muns news API, and — because that index is sparse for niche
+  industries — falls back to news-outlet hits among the web results plus
+  company-specific queries once the player list is known.
 
   Two design rules drive it:
 

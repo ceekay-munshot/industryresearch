@@ -177,28 +177,113 @@ async function gatherSearchUrls(industry) {
   return { pages: capped, all: unique };
 }
 
-async function gatherNews(industry) {
+/* ---- News-domain heuristics + company-news helpers ---------------------- */
+
+// Well-known business/news outlets (India-focused, plus global wires).
+const NEWS_DOMAINS = /(?:economictimes\.indiatimes|business-standard|livemint|moneycontrol|thehindubusinessline|businessline\.|financialexpress|businesstoday\.in|zeebiz|cnbctv18|bqprime|bloombergquint|ndtv|hindustantimes|timesofindia\.indiatimes|indianexpress|reuters|bloomberg|forbes|equitymaster|trendlyne)\.[a-z]/i;
+
+/** Does a search hit look like a news article (news-outlet domain or news-y path)? */
+export function looksLikeNews(url, publisher = '') {
+  const u = String(url || '');
+  if (!u) return false;
+  if (NEWS_DOMAINS.test(u)) return true;
+  if (/\/(news|article|articleshow|markets|companies|story|press-release)s?[\/-]/i.test(u)) return true;
+  const p = String(publisher || '').toLowerCase();
+  if (/(times|news|mint|standard|express|wire|reuters|bloomberg|moneycontrol|cnbc)/.test(p)) return true;
+  return false;
+}
+
+/** Turn general web-search hits into news items, keeping only news-looking ones. */
+export function newsFromWeb(results) {
+  const out = [];
+  for (const r of (results || [])) {
+    if (!r || !r.url || !looksLikeNews(r.url, r.publisher)) continue;
+    out.push({ title: r.title || '', publisher: r.publisher || '', date: r.date || '', url: r.url, snippet: r.snippet || '' });
+  }
+  return out;
+}
+
+/** Strip parentheticals + corporate suffixes so a player name searches cleanly. */
+export function cleanCompanyName(name) {
+  return String(name || '')
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\b(Ltd|Limited|Pvt|Private|Inc|LLP)\.?\b/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+async function gatherNews(industry, webResults) {
   const from_date = daysAgo(550); // ~18 months
   const to_date = today();
   const seen = new Map();
+  const add = (n) => {
+    if (!n || (!n.url && !n.title)) return;
+    const key = canonicalUrl(n.url) || n.title;
+    if (!key || seen.has(key)) return;
+    seen.set(key, {
+      title: n.title || '',
+      publisher: n.publisher || '',
+      date: n.date || '',
+      url: n.url || '',
+      snippet: n.snippet || '',
+    });
+  };
   for (const q of newsQueries(industry)) {
     const results = normalizeSearch(await newsSearch(q, COUNTRY, from_date, to_date));
-    for (const r of results) {
-      const key = canonicalUrl(r.url) || r.title;
-      if (!key || seen.has(key)) continue;
-      seen.set(key, {
-        title: r.title || '',
-        publisher: r.publisher || '',
-        date: r.date || '',
-        url: r.url || '',
-        snippet: r.snippet || '',
-      });
-    }
+    for (const r of results) add(r);
     console.log(`[research] news "${q}" -> ${results.length} items (${seen.size} unique so far)`);
+  }
+  // Fallback / top-up: news-search is often sparse for niche industries. Synthesize
+  // from the general web-search hits that point at news outlets (already gathered).
+  if (seen.size < 8 && Array.isArray(webResults) && webResults.length) {
+    const before = seen.size;
+    const webNews = newsFromWeb(webResults);
+    for (const n of webNews) add(n);
+    console.log(`[research] news ${before ? 'thin — topping up' : 'empty — synthesizing'} from web hits: ${webNews.length} news-domain URLs, total now ${seen.size}.`);
   }
   const news = [...seen.values()].filter((n) => n.title || n.url).slice(0, 20);
   console.log(`[research] ${news.length} news items collected.`);
   return news;
+}
+
+/** Company-specific news, run AFTER we know the players. news-search first, then a
+ *  news-domain-filtered web-search fallback (robust when news-search returns nothing). */
+async function gatherCompanyNews(players, industry) {
+  const from_date = daysAgo(550);
+  const to_date = today();
+  const names = [];
+  const seenName = new Set();
+  for (const p of (players || [])) {
+    if (!p || !p.name) continue;
+    const nm = cleanCompanyName(p.name);
+    if (!nm || nm.length < 3 || seenName.has(nm.toLowerCase())) continue;
+    seenName.add(nm.toLowerCase());
+    names.push({ name: nm, listed: !!p.listed });
+  }
+  // Prioritise listed companies (they generate results/capacity news); cap calls.
+  names.sort((a, b) => (b.listed ? 1 : 0) - (a.listed ? 1 : 0));
+  const top = names.slice(0, 5);
+  if (!top.length) return [];
+  const seen = new Map();
+  const add = (n) => {
+    if (!n || (!n.url && !n.title)) return;
+    const key = canonicalUrl(n.url) || n.title;
+    if (!key || seen.has(key)) return;
+    seen.set(key, { title: n.title || '', publisher: n.publisher || '', date: n.date || '', url: n.url || '', snippet: n.snippet || '' });
+  };
+  for (const { name } of top) {
+    for (const q of [`${name} results`, `${name} capacity expansion`]) {
+      const items = normalizeSearch(await newsSearch(q, COUNTRY, from_date, to_date));
+      for (const r of items) add(r);
+    }
+    // Web fallback filtered to news outlets — catches news even if news-search is dead.
+    const web = normalizeSearch(await webSearch(`${name} ${industry} news`, COUNTRY));
+    for (const r of newsFromWeb(web)) add(r);
+    console.log(`[research] company news "${name}" -> ${seen.size} total so far`);
+  }
+  const out = [...seen.values()].slice(0, 12);
+  console.log(`[research] company news: ${out.length} items from ${top.length} companies.`);
+  return out;
 }
 
 async function readPages(urlObjs) {
@@ -313,18 +398,24 @@ async function readReports(reportCands) {
   const out = [];
   for (const c of toRead) {
     let src = null;
+    let method = '';
     try {
       if (isPdf(c.url)) {
         src = await mistralOCR(c.url);
+        if (src) method = 'pdf/ocr';
+        // OCR sometimes can't fetch/parse a PDF (e.g. 400 "file could not be
+        // fetched") — let Firecrawl try the same PDF before giving up.
+        if (!src) { src = await firecrawlScrape(c.url); if (src) method = 'pdf/firecrawl'; }
         if (!src) {
           const s = await scrapedoScrape(c.url);
-          if (s && s.html) src = { url: c.url, text: htmlToText(s.html) };
+          if (s && s.html) { src = { url: c.url, text: htmlToText(s.html) }; method = 'pdf/scrapedo'; }
         }
       } else {
         src = await firecrawlScrape(c.url);
+        if (src) method = 'firecrawl';
         if (!src) {
           const s = await scrapedoScrape(c.url);
-          if (s && s.html) src = { url: c.url, text: htmlToText(s.html) };
+          if (s && s.html) { src = { url: c.url, text: htmlToText(s.html) }; method = 'scrapedo'; }
         }
       }
     } catch (e) {
@@ -334,7 +425,7 @@ async function readReports(reportCands) {
     }
     if (src && src.text) {
       out.push({ url: c.url, text: src.text });
-      console.log(`[research] report read OK  ${c.url} (${src.text.length} chars, ${isPdf(c.url) ? 'pdf/ocr' : 'scrape'})`);
+      console.log(`[research] report read OK  ${c.url} (${src.text.length} chars, ${method || 'unknown'})`);
     } else {
       console.log(`[research] report read FAIL ${c.url}`);
     }
@@ -382,7 +473,7 @@ const FACT_CATEGORIES = new Set([
   'margins', 'market_share', 'capacity', 'imports', 'duty', 'other',
 ]);
 
-const STAGE_A_SYSTEM = `You are a meticulous industry research analyst. You are given an industry name and ONE source document (which may be a chunk of a larger report). Extract EVERY specific, quantified fact in the SOURCE TEXT that is relevant to that industry. Use ONLY the SOURCE TEXT — no outside knowledge, and never invent or round numbers.
+const STAGE_A_SYSTEM = `You are a meticulous industry research analyst. You are given an industry name and ONE source document (which may be a chunk of a larger report). Extract EVERY fact in the SOURCE TEXT relevant to that industry — both quantified facts (numbers, %, years) AND named-company positioning statements (market leader, largest, #1, ranked, second-largest). Use ONLY the SOURCE TEXT — no outside knowledge, and never invent or round numbers.
 
 Return ONLY a JSON object — your entire response must start with { and end with } — no prose, no markdown, no code fences:
 
@@ -393,7 +484,7 @@ CRITICAL — STRICTLY VALID JSON:
 - Keep every string on a single line — no raw line breaks inside a string value.
 - One stray unescaped quote breaks the whole file, so be careful.
 
-Capture (be exhaustive, one fact per data point): market size / value; growth, CAGR and forecasts; segment names and shares; value-chain stages and their margins; distribution channels and shares; named companies with revenue / EBITDA % / market share / capacity / listed status / ticker; manufacturer vs retailer margins; production capacity and utilisation; imports / exports and volumes; anti-dumping or other duties.
+Capture (be exhaustive, one fact per data point): market size / value; growth, CAGR and forecasts; segment names and shares; value-chain stages and their margins; distribution channels and shares; named companies with market share / capacity / listed status / ticker (and revenue / EBITDA % ONLY if the source states that company's figure); market-leadership or ranking statements about named companies (largest / #1 / market leader / second-largest capacity), even when no exact percentage is given — categorize these as market_share or players; manufacturer vs retailer margins; production capacity and utilisation; imports / exports and volumes; anti-dumping or other duties.
 
 If the SOURCE TEXT contains no facts relevant to the industry, return exactly { "facts": [] }.`;
 
@@ -512,7 +603,7 @@ Rules:
 - The EXTRACTED FACTS are already grouped by category (SIZE, GROWTH, SEGMENTS, VALUE CHAIN, CHANNELS, PLAYERS, MARGINS, MARKET SHARE, CAPACITY, IMPORTS, DUTY) — use each group to fill the matching schema section.
 - Every fact object MUST include "source": { "label": short publisher/source name, "url": the source url given with the fact, "snippet": the short supporting quote given with the fact, as PLAIN TEXT — no internal double-quotes or line breaks }. If a fact has no usable url, OMIT that fact rather than inventing a source.
 - Numbers must come from the facts. Never estimate, round-trip, or invent figures. Prefer the most recent year available. When several facts agree or overlap, consolidate them into one entry.
-- "players" is the most important section — capture as many named companies as the facts support, with whatever of revenue / EBITDA % / market share / listed / ticker each one gives.
+- "players" is the most important section. Capture as many named companies as the facts support. For each company: set "listed" (true/false) and "ticker" when the facts give them; set "segment" when stated; set "market_share_pct" whenever a source states or clearly implies that company's share; and use "note" to record qualitative leader / ranking positioning a source states (e.g. largest MDF maker in India, market leader in South India, second-largest capacity, among the top three). Mine BOTH the PLAYERS and MARKET SHARE fact groups for this. Do NOT invent or infer per-company "revenue" or "ebitda_margin_pct" — leave those two fields out unless a source explicitly states that company's figure; per-company financial benchmarking is a separate later step, so omitting them is expected and fine.
 - Include the "quant" section ONLY if the industry is manufacturing AND the facts give capacity / utilisation / imports / duty. Otherwise omit "quant" entirely.
 - For "sources.youtube" and "sources.reports": use ONLY the provided YOUTUBE CANDIDATES and REPORT CANDIDATES lists — do NOT invent videos or reports. Keep each item's exact url. Add channel / publisher / date / type only when evident, and write a one-line plain-English "why_relevant" (video) or "summary" (report). Omit any candidate clearly irrelevant to this industry. Do NOT include a "news" key — news is added separately.
 - Set meta.mock = false and meta.generated_at to today. Use simple, plain-English labels a non-expert can read.
@@ -626,7 +717,7 @@ export function foldNews(obj, newsItems) {
     const key = canonicalUrl(n.url) || n.title;
     if (!merged.has(key)) merged.set(key, n);
   }
-  obj.sources.news = [...merged.values()];
+  obj.sources.news = [...merged.values()].slice(0, 30);
   if (!Array.isArray(obj.sources.reports)) obj.sources.reports = [];
   if (!Array.isArray(obj.sources.youtube)) obj.sources.youtube = [];
   return obj;
@@ -690,9 +781,11 @@ async function main() {
   const slug = slugify(INDUSTRY);
   console.log(`[research] slug=${slug}`);
 
-  // a/b) queries -> web search + news (each call is retry+continue-on-error)
+  // a/b) queries -> web search + news (each call is retry+continue-on-error).
+  //      gatherNews falls back to news-outlet hits among the web results when the
+  //      news API returns nothing.
   const { pages: searchPages, all: allSearch } = await gatherSearchUrls(INDUSTRY);
-  const newsItems = await gatherNews(INDUSTRY);
+  const newsItems = await gatherNews(INDUSTRY, allSearch);
 
   // c) discover YouTube videos and report/PDF candidates
   const youtubeCands = await findYouTube(INDUSTRY);
@@ -738,7 +831,14 @@ async function main() {
   // g) enforce meta, fold news, reconcile youtube/reports, write files, report.
   //    These always run so the file is written with whatever we have.
   obj = enforceMeta(obj, slug);
-  obj = foldNews(obj, newsItems);
+  // Company-specific news now that we know the players (news-search + web fallback).
+  let companyNews = [];
+  try {
+    companyNews = await gatherCompanyNews(obj.players, INDUSTRY);
+  } catch (e) {
+    console.warn(`[research] company news step failed (skipped): ${e.message}`);
+  }
+  obj = foldNews(obj, [...newsItems, ...companyNews]);
   obj = attachSources(obj, youtubeCands, reportCands);
 
   if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR, { recursive: true });
