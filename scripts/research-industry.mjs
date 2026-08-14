@@ -43,6 +43,9 @@ import {
 import {
   loadCache, saveCache, fetchCacheGet, fetchCachePut, extractKey, extractGet, extractPut,
 } from '../lib/cache.mjs';
+import {
+  reportInputHash, REPORT_SYSTEM, buildReportUser, normalizeReport, deterministicReport,
+} from '../lib/report.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -74,6 +77,7 @@ const CHUNK_CHARS = 36000;     // Stage-A chunk size (large sources are chunked)
 const CHUNK_OVERLAP = 1200;    // overlap so a fact spanning a boundary isn't lost
 const STAGE_A_MAX_TOKENS = 6000;
 const STAGE_B_MAX_TOKENS = 24000;
+const REPORT_MAX_TOKENS = 20000;
 const MAX_YOUTUBE = 8;         // videos shown in the YouTube tab
 const MAX_REPORTS = 12;        // reports shown in the Reports tab
 
@@ -893,6 +897,35 @@ function sectionDatesFromLedger(ledger, obj) {
   return out;
 }
 
+/** The consolidated written report — a derived artifact from the assembled JSON.
+ *  Cached by a hash of the fields it depends on (warm runs don't re-pay), and
+ *  never-fail: on error it keeps the previous report, or falls back to a
+ *  deterministic one, so there is always a report. */
+async function buildReport(obj, incumbent, now) {
+  const hash = reportInputHash(obj);
+  const prev = incumbent && incumbent.summary && incumbent.summary.report;
+  if (prev && prev.hash === hash && prev.kind === 'llm' && Array.isArray(prev.sections) && prev.sections.length) {
+    console.log('[research] report: data unchanged — reusing prior report (no Bedrock call).');
+    return prev;
+  }
+  try {
+    console.log('[research] report: generating narrative (one Bedrock call)...');
+    const raw = await callClaudeJSON({ system: REPORT_SYSTEM, user: buildReportUser(obj), max_tokens: REPORT_MAX_TOKENS, thinking: { type: 'disabled' } });
+    const sections = normalizeReport(raw, obj);
+    if (sections.length) {
+      console.log(`[research] report: generated ${sections.length} sections.`);
+      return { kind: 'llm', generated_at: now, hash, sections };
+    }
+    console.warn('[research] report: model returned no usable sections.');
+  } catch (e) {
+    console.warn(`[research] report generation FAILED (keeping prior / fallback): ${e.message}`);
+  }
+  if (prev && Array.isArray(prev.sections) && prev.sections.length) { console.log('[research] report: kept previous report.'); return prev; }
+  const det = deterministicReport(obj); det.generated_at = now;
+  console.log(`[research] report: deterministic fallback (${det.sections.length} sections).`);
+  return det;
+}
+
 async function main() {
   const cfg = llmConfig();
   const runId = process.env.GITHUB_RUN_ID ? `gh-${process.env.GITHUB_RUN_ID}` : `local-${Date.now()}`;
@@ -979,6 +1012,10 @@ async function main() {
   obj.meta.updated_at = now;
   obj.meta.coverage = coverage;
   console.log(merged.changed.length ? `[research] sections improved: ${merged.changed.join(', ')}` : '[research] no section improved this run (output held steady — monotonic).');
+
+  // k) consolidated written report (derived, cached, never-fail)
+  obj.summary = (obj.summary && typeof obj.summary === 'object') ? obj.summary : {};
+  obj.summary.report = await buildReport(obj, incumbent, now);
 
   // j) persist: dashboard JSON + ledger + coverage + caches
   if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR, { recursive: true });

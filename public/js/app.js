@@ -157,6 +157,8 @@
     empty: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7"/><path d="M3 7l3-4h12l3 4"/><path d="M9 12h6"/></svg>',
     chevron: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="m9 6 6 6-6 6"/></svg>',
     refresh: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>',
+    report: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-3"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M8 11h8M8 15h8M8 19h5"/></svg>',
+    download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>',
   };
 
   /* ----------------------------------------------------------------------- *
@@ -813,6 +815,95 @@
     root.appendChild(list);
   }
 
+  /* ======================================================================= *
+   * REPORT TAB — the consolidated written report (with inline charts + PDF)
+   * ======================================================================= */
+  function reportAllSources(data) {
+    const rep = data.summary && data.summary.report;
+    const secs = (rep && rep.sections) || [];
+    const seen = new Set(); const out = [];
+    for (const s of secs) for (const r of (s.source_refs || [])) { if (r && r.url && !seen.has(r.url)) { seen.add(r.url); out.push(r); } }
+    return out;
+  }
+
+  /** The dashboard chart that belongs inline with a report section, so the report
+   *  is visual, not text-only. Reuses the exact section renderers. */
+  function reportChart(heading, data) {
+    const t = String(heading || '').toLowerCase();
+    try {
+      if (/market size|size &|growth/.test(t) && has(data.size)) return secSize(data);
+      if (/segment/.test(t)) return secSegments(data);
+      if (/value chain/.test(t)) return secValueChain(data);
+      if (/distribution|channel/.test(t)) return secChannels(data);
+      if (/player|positioning|competit/.test(t)) return secPlayers(data);
+      if (/margin/.test(t)) return secMargins(data);
+      if (/supply|capacity/.test(t)) return secQuant(data);
+    } catch (e) { return null; }
+    return null;
+  }
+
+  function reportSection(s, data) {
+    const isSources = /^\s*sources\b/i.test(s.heading);
+    const kids = [h('h2', { class: 'report-h' }, s.heading)];
+    if (s.key_numbers && s.key_numbers.length) {
+      kids.push(h('div', { class: 'report-keynums' }, ...s.key_numbers.map((k) =>
+        h('div', { class: 'report-kn' },
+          k.label ? h('span', { class: 'report-kn-label' }, k.label) : null,
+          h('span', { class: 'report-kn-value tnum' }, k.value)))));
+    }
+    for (const p of (s.prose || [])) kids.push(h('p', { class: 'report-p' }, p));
+    if (isSources) {
+      const refs = (s.source_refs && s.source_refs.length) ? s.source_refs : reportAllSources(data);
+      kids.push(h('ol', { class: 'report-src-list' }, ...refs.map((r) =>
+        h('li', {}, h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, r.label || 'Source'),
+          h('span', { class: 'report-src-url' }, r.url)))));
+    } else {
+      const chart = reportChart(s.heading, data);
+      if (chart) kids.push(h('div', { class: 'report-chart' }, chart));
+      if (s.source_refs && s.source_refs.length) {
+        kids.push(h('div', { class: 'report-srcrow' }, h('span', { class: 'report-srcrow-label' }, 'Sources'),
+          ...s.source_refs.map((r) => sourceChip(r))));
+      }
+    }
+    return h('section', { class: 'report-section' }, ...kids);
+  }
+
+  function renderReport(root, data) {
+    root.innerHTML = '';
+    const m = data.meta || {};
+    const rep = data.summary && data.summary.report;
+    let sections = (rep && Array.isArray(rep.sections)) ? rep.sections.filter((s) => s && s.heading && Array.isArray(s.prose) && s.prose.length) : [];
+
+    let body;
+    if (sections.length) {
+      body = sections.map((s) => reportSection(s, data));
+    } else if (has(data.summary && data.summary.report_markdown)) {
+      body = [h('section', { class: 'report-section' }, h('div', { class: 'markdown', html: mdToHtml(data.summary.report_markdown) }))];
+    } else {
+      root.appendChild(card({ hoverable: false, body: emptyState('Report is being written', 'The consolidated report will appear here once it is generated from the data.') }));
+      return;
+    }
+
+    const cm = coverageModel(data);
+    const dot = cm.dot || { tier: 'fresh', word: 'Current' };
+    const asOf = (rep && rep.generated_at) || m.updated_at || m.generated_at;
+    const header = h('div', { class: 'report-head' },
+      h('div', { class: 'min-w-0' },
+        h('div', { class: 'report-eyebrow' }, m.is_manufacturing ? 'Industry report · manufacturing' : 'Industry report'),
+        h('h1', { class: 'report-title' }, m.name || 'Industry'),
+        h('div', { class: 'report-metaline' },
+          asOf ? h('span', {}, 'Data as of ' + asOf) : null,
+          asOf ? h('span', { class: 'report-sep' }, '·') : null,
+          h('span', { class: 'inline-flex items-center gap-1.5' }, h('span', { class: 'fb-dot dot-' + dot.tier }), dot.word + ' data'),
+          h('span', { class: 'report-sep' }, '·'),
+          h('span', {}, cm.filled + '/' + cm.total + ' sections covered'),
+          (rep && rep.kind === 'fallback') ? h('span', { class: 'report-badge', title: 'A deterministic summary built from the data; the full narrative is written on the next research run.' }, 'auto-summary') : null)),
+      h('button', { class: 'report-print-btn no-print', onClick: () => window.print() },
+        h('span', { class: 'w-4 h-4', html: I.download }), 'Download PDF'));
+
+    root.appendChild(h('div', { class: 'report-doc', id: 'report-doc' }, header, h('div', { class: 'report-body' }, ...body)));
+  }
+
   function renderChat(root, data) {
     root.innerHTML = '';
     const log = h('div', { class: 'chat-log', id: 'chat-log' });
@@ -909,6 +1000,7 @@
    * ======================================================================= */
   const TABS = [
     { id: 'deep', label: 'Deep Research', icon: I.chart },
+    { id: 'report', label: 'Report', icon: I.report },
     { id: 'youtube', label: 'YouTube', icon: I.video },
     { id: 'reports', label: 'Reports', icon: I.doc },
     { id: 'news', label: 'News', icon: I.news },
@@ -937,6 +1029,7 @@
   function renderTab(id) {
     const panel = $('#panel-' + id);
     if (id === 'deep') return renderDeepShell();
+    if (id === 'report') return renderReport(panel, state.data);
     if (id === 'youtube') return renderYouTube(panel, state.data);
     if (id === 'reports') return renderReports(panel, state.data);
     if (id === 'news') return renderNews(panel, state.data);

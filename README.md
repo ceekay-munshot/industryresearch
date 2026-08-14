@@ -84,10 +84,15 @@ renders except the Chat tab, which needs the Worker route.
    _Growth & dynamics_ (drivers, tailwinds vs headwinds), _Value chain & channels_,
    _Players & supply_ (players table, market-share doughnut, optional Supply &
    Trade block), and _Full report_ (collapsible written summary).
-2. **YouTube** — grid of relevant video cards.
-3. **Reports** — broker / industry / policy reports.
-4. **News** — recent headlines with sentiment badges.
-5. **Chat** — simple chat UI that calls `POST /api/chat` (stub reply for now).
+2. **Report** — a consolidated, source-backed **written report** generated from the
+   assembled data: section-by-section prose with highlighted key numbers, the
+   dashboard charts embedded inline, per-section source chips, a "data as of"
+   freshness line, and a Sources appendix. A **Download PDF** button prints it to a
+   clean A4 hand-out (nav/tabs/controls hidden, charts kept).
+3. **YouTube** — grid of relevant video cards.
+4. **Reports** — broker / industry / policy reports.
+5. **News** — recent headlines with sentiment badges.
+6. **Chat** — simple chat UI that calls `POST /api/chat` (stub reply for now).
 
 Every fact with a source shows a small clickable **source chip**. Any empty or
 missing JSON field is hidden gracefully — no blank boxes, no `undefined`.
@@ -209,6 +214,15 @@ source tabs.
     (`1 − Π(1 − quality_i)`). Seed the ledger from an existing file with
     `node scripts/migrate-store.mjs <slug>`; the pipeline also auto-seeds on the
     first run. Guarantees are covered by `node scripts/test-store.mjs`.
+  - **Consolidated report (derived, cached).** After assembly, one Bedrock call
+    (`lib/report.mjs`) writes a structured, section-by-section report grounded
+    **only** in the assembled facts (every source_ref must already exist in the
+    data — invented ones are dropped). It's **cached** by a hash of the fields it
+    depends on (news refreshes don't count), so warm runs don't re-pay; on failure
+    the previous report is kept, or a **deterministic** template report (pure
+    restatement of the data) is produced, so there is always a report. Seed one
+    from existing data with `node scripts/seed-report.mjs <slug>`; guarantees are
+    covered by `node scripts/test-report.mjs`.
 
 **Required GitHub secrets:**
 

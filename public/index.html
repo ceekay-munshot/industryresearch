@@ -341,6 +341,52 @@
     .source-chip-icon { padding: 5px; gap: 0; }
     .src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
     .src-row-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-hint); margin-right: 2px; }
+
+    /* ---------- Report tab (consolidated written report) ---------- */
+    .report-doc { max-width: 880px; margin: 0 auto; }
+    .report-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 2px 2px 16px; border-bottom: 2px solid var(--ink); }
+    .report-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--primary-text); }
+    .report-title { font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -.02em; color: var(--ink); margin: 6px 0 0; line-height: 1.1; }
+    .report-metaline { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12.5px; color: var(--ink-muted); margin-top: 9px; }
+    .report-sep { color: var(--border-strong); }
+    .report-badge { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--warn); background: var(--warn-soft); border: 1px solid var(--warn-border); border-radius: 6px; padding: 1px 6px; }
+    .report-print-btn { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #fff; background: var(--primary); border: 0; border-radius: 10px; padding: 9px 15px; cursor: pointer; flex-shrink: 0; transition: background .15s; }
+    .report-print-btn:hover { background: var(--primary-600); }
+    .report-section { padding: 22px 0 6px; border-bottom: 1px solid var(--border); }
+    .report-section:last-child { border-bottom: 0; }
+    .report-h { font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif; font-size: 19px; font-weight: 800; letter-spacing: -.01em; color: var(--ink); margin: 0 0 11px; }
+    .report-p { font-size: 14.5px; line-height: 1.72; color: var(--ink-2); margin: 0 0 12px; max-width: 70ch; }
+    .report-keynums { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+    .report-kn { display: inline-flex; flex-direction: column; gap: 1px; background: var(--primary-soft); border: 1px solid var(--primary-border); border-radius: 10px; padding: 6px 12px; }
+    .report-kn-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--primary-text); }
+    .report-kn-value { font-size: 15px; font-weight: 800; color: var(--ink); }
+    .report-chart { margin: 8px 0 14px; }
+    .report-srcrow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 8px; }
+    .report-srcrow-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-hint); margin-right: 2px; }
+    .report-src-list { margin: 4px 0 0; padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
+    .report-src-list li { font-size: 13px; }
+    .report-src-list a { color: var(--primary-text); font-weight: 600; text-decoration: none; }
+    .report-src-list a:hover { text-decoration: underline; }
+    .report-src-url { display: block; font-size: 11px; color: var(--ink-hint); word-break: break-all; }
+    @media (max-width: 640px) { .report-title { font-size: 24px; } }
+
+    /* ---------- Print / PDF: A4, chrome hidden, clean breaks ---------- */
+    @media print {
+      @page { size: A4; margin: 15mm; }
+      html, body { background: #fff !important; }
+      .topbar, #tabbar, .subtabbar, #industry-header, footer, .no-print,
+      .tab-panel:not(#panel-report) { display: none !important; }
+      #panel-report { display: block !important; }
+      main { max-width: none !important; margin: 0 !important; padding: 0 !important; }
+      .report-doc { max-width: none !important; }
+      .card { box-shadow: none !important; border: 1px solid #e5e7eb !important; }
+      .report-section { break-inside: auto; page-break-inside: auto; }
+      .report-h { break-after: avoid; page-break-after: avoid; }
+      .report-keynums, .report-chart, .chart-box, .report-kn, .report-srcrow { break-inside: avoid; page-break-inside: avoid; }
+      .report-p { orphans: 3; widows: 3; }
+      .show-all-btn, .card-head-chips { display: none !important; }
+      a { color: inherit !important; text-decoration: none !important; }
+    }
   </style>
 </head>
 
@@ -382,6 +428,7 @@
 
     <!-- Tab panels -->
     <section id="panel-deep"    class="tab-panel" role="tabpanel"></section>
+    <section id="panel-report"  class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-youtube" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-reports" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-news"    class="tab-panel hidden" role="tabpanel"></section>
