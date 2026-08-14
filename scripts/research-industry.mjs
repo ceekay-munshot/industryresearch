@@ -31,11 +31,11 @@ const COUNTRY = process.env.INDUSTRY_COUNTRY || 'India';
 const MAX_URLS = 15;
 const READER_BATCH = 4;
 const MAX_SOURCE_CHARS = 8000;    // per generic web page
-const MAX_REPORT_CHARS = 40000;   // per rich report / PDF (they carry the numbers)
-const MAX_TOTAL_CHARS = 250000;   // whole SOURCES block
+const MAX_REPORT_CHARS = 25000;   // per rich report / PDF (they carry the numbers)
+const MAX_TOTAL_CHARS = 150000;   // whole SOURCES block (smaller = cleaner, more reliable output)
 const MAX_YOUTUBE = 8;
 const MAX_REPORTS = 8;
-const READ_REPORTS = 4;           // how many report URLs to fully read
+const READ_REPORTS = 3;           // how many report URLs to fully read (top 2-3 cleanest)
 
 /* ----------------------------------------------------------------------- */
 
@@ -213,17 +213,21 @@ async function findYouTube(industry) {
     });
   };
 
+  // PRIMARY: Muns web search with a site:youtube.com filter — needs no Scrape.do.
   for (const base of bases) {
-    for (const q of [base, `${base} youtube`]) {
+    for (const q of [`${base} site:youtube.com`, `${base} youtube`]) {
       const results = normalizeSearch(await webSearch(q, COUNTRY));
+      let found = 0;
       for (const r of results) {
         const id = youtubeId(r.url);
-        if (id) add(id, r.title, r.url, r.snippet);
+        if (id) { add(id, r.title, r.url, r.snippet); found++; }
       }
+      console.log(`[research] youtube search "${q}" -> ${found} video links (${byId.size} unique so far)`);
     }
   }
 
-  // Optional enrichment: scrape the YouTube results page (JS-heavy) for more ids.
+  // OPTIONAL enrichment only: scrape the (JS-heavy) YouTube results page for more
+  // ids. Never load-bearing — if Scrape.do is unavailable it just adds nothing.
   try {
     const scraped = await scrapedoScrape(`https://www.youtube.com/results?search_query=${encodeURIComponent(industry + ' industry')}`);
     if (scraped && scraped.html) {
@@ -403,6 +407,8 @@ const SYSTEM_PROMPT = `You are an equity/industry research analyst. Produce a si
 
 Return ONLY the JSON object — no prose, no markdown, no code fences, no XML tags. Your entire response must start with { and end with }.
 
+Output STRICTLY VALID JSON. Inside every string value: keep it on a single line (no raw line breaks) and do NOT include any raw double-quote (") character — if you need to quote something inside a string, remove the quotes or use single quotes instead. This is critical: one stray unescaped quote breaks the whole file.
+
 Required JSON shape (OMIT any field, array item, or whole section you cannot support from the SOURCES — never output an empty placeholder and never invent numbers):
 
 {
@@ -426,7 +432,7 @@ Required JSON shape (OMIT any field, array item, or whole section you cannot sup
 
 Rules:
 - Fill ONLY from the provided SOURCES. Do NOT use outside knowledge for numbers.
-- Every fact object MUST include "source": { "label": short publisher/source name, "url": the source URL from the SOURCES, "snippet": a VERBATIM ~15-30 word quote copied from that source that supports the fact }. If you cannot attach a real source URL and verbatim snippet, OMIT the fact.
+- Every fact object MUST include "source": { "label": short publisher/source name, "url": the source URL from the SOURCES, "snippet": a short ~15-30 word supporting quote from that source, written as PLAIN TEXT — strip any internal double-quotes and line breaks (paraphrase lightly or use single quotes if needed) so it is safe inside a JSON string }. If you cannot attach a real source URL and a supporting snippet, OMIT the fact.
 - Numbers must come from the sources. Never estimate, round-trip, or invent figures. Prefer the most recent year available.
 - The REPORT SOURCE blocks (broker / industry / government reports and PDFs) are the best place to find segments, value chain, distribution channels, margins and player market share — mine them carefully for those sections.
 - "players" is the most important section — capture as many named companies as the sources support, with whatever of revenue / EBITDA % / market share / listed / ticker each source gives.
