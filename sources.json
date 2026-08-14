@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "_comment": "Committed source registry for the incremental recency refresh. Only free, ToS-clean, CI-friendly feeds are enabled. Change-detection is by feed pubDate + HTTP conditional GET; per-industry watermarks live in data/store/<slug>/watermarks.json. Crons are UTC (IST = UTC+5:30).",
+  "defaults": {
+    "user_agent": "Mozilla/5.0 (compatible; industry-research-bot/1.0; +https://github.com)",
+    "timeout_ms": 20000,
+    "country": "IN",
+    "max_items_per_source": 40
+  },
+  "recency_sources": [
+    {
+      "id": "google-news-industry",
+      "type": "rss",
+      "query_mode": "industry",
+      "interval_hours": 4,
+      "tos_risk": "low",
+      "url": "https://news.google.com/rss/search?q={q}%20when:7d&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    {
+      "id": "gdelt-industry",
+      "type": "gdelt",
+      "query_mode": "industry",
+      "interval_hours": 4,
+      "tos_risk": "low",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=({q})%20sourcecountry:IN&mode=artlist&format=json&maxrecords=75&timespan=5d"
+    },
+    {
+      "id": "google-news-companies",
+      "type": "rss",
+      "query_mode": "players",
+      "interval_hours": 6,
+      "tos_risk": "low",
+      "url": "https://news.google.com/rss/search?q={q}%20when:14d&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    {
+      "id": "et-industry",
+      "type": "rss",
+      "query_mode": "filter",
+      "interval_hours": 6,
+      "tos_risk": "low",
+      "url": "https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms"
+    },
+    {
+      "id": "moneycontrol-business",
+      "type": "rss",
+      "query_mode": "filter",
+      "interval_hours": 6,
+      "tos_risk": "low",
+      "url": "https://www.moneycontrol.com/rss/business.xml"
+    },
+    {
+      "id": "pib-releases",
+      "type": "rss",
+      "query_mode": "filter",
+      "interval_hours": 24,
+      "tos_risk": "low",
+      "url": "https://www.pib.gov.in/ViewRss.aspx?reg=1&lang=1"
+    }
+  ],
+  "full_rebuild": {
+    "cron_utc": "0 3 * * 1",
+    "note": "Weekly, Mon 03:00 UTC (= 08:30 IST). Re-derives the analytical sections via research-industry.mjs, which is itself incremental (cached) and write-if-better."
+  },
+  "excluded": [
+    { "id": "nse-india", "reason": "Blocks datacenter/cloud IPs (GitHub-hosted runners get 401/403). Prefer BSE for the same disclosures, or route via a residential proxy / self-hosted runner." },
+    { "id": "bse-india", "reason": "Official filings via an unofficial/undocumented API; needs per-company scrip codes + browser UA/Origin headers. Left out of the default recency pass until scrip codes are wired; safe to add per-industry." },
+    { "id": "screener.in", "reason": "ToS forbids scraping; no public API. Use primary sources (BSE/SEBI/AMFI) instead." },
+    { "id": "trendlyne", "reason": "No public developer API; scraping restricted." },
+    { "id": "tickertape", "reason": "Explicitly not available programmatically; scraping forbidden." }
+  ]
+}

@@ -228,9 +228,27 @@ source tabs.
    `BEDROCK_REGION` to your key's region and/or `BEDROCK_MODEL_ID` to one of
    `us.anthropic.claude-sonnet-5`, `anthropic.claude-sonnet-5`,
    `us.anthropic.claude-opus-4-8`, `anthropic.claude-opus-4-8`.
-2. **Research Industry** — enter an industry (default `MDF boards, India`). It
-   writes `public/data/industries/<slug>.json`, updates `index.json`, and commits
-   the change to the default branch.
+2. **Research Industry (full rebuild)** — enter an industry (default
+   `MDF boards, India`). It writes `public/data/industries/<slug>.json`, updates
+   `index.json` + the fact store, and commits to the default branch.
 
-Both workflows are `workflow_dispatch` only (nothing runs automatically) and use
-Node 22 with no `npm install` (global `fetch` + stdlib only).
+**Automated refresh (two tiers, off one committed `sources.json`):**
+
+- **Refresh Recency** (`.github/workflows/refresh-recency.yml`) — a fast, cheap
+  pass every ~4h that appends only **news** newer than each source's watermark
+  (no LLM, no rebuild). Recency backbone is free and ToS-clean: Google News RSS,
+  GDELT, publisher RSS (ET / Moneycontrol / PIB) filtered by industry keyword +
+  player names, with change-detection via feed dates + HTTP conditional GET.
+- **Research Industry (full rebuild)** — also runs **weekly** (`Mon 03:00 UTC =
+  08:30 IST`) to re-derive the analytical sections; because the pipeline is
+  incremental + write-if-better, the weekly run is cheap and only-improves.
+
+Both write jobs share a `concurrency` group with `cancel-in-progress: false`
+(queue, never cancel) and commit with rebase-pull-push + a true no-op when nothing
+changed. Cron times are **UTC** (IST is +5:30). `sources.json` also documents the
+sources deliberately kept **out** of automation: NSE (blocks cloud IPs — prefer
+BSE), and Screener / Trendlyne / Tickertape (ToS forbids scraping).
+
+All workflows use Node 22 with no `npm install` (global `fetch` + stdlib only).
+Guarantees for the store and the feed parsers are covered by
+`node scripts/test-store.mjs` and `node scripts/test-feeds.mjs`.

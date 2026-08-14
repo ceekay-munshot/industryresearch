@@ -1,7 +1,10 @@
-name: Research Industry
+name: Research Industry (full rebuild)
 
-# Manual only. Runs the deep-research pipeline for one industry and commits the
-# refreshed public/data/industries/*.json to the default branch.
+# The slow, thorough pass: re-derives the analytical sections for an industry via
+# the incremental (cached, write-if-better) pipeline and commits the refreshed
+# public/data + fact store. Runs manually with an industry input, and weekly on a
+# schedule for the default industry. Cron times are UTC (IST = UTC+5:30), so
+# Mon 03:00 UTC = Mon 08:30 IST.
 on:
   workflow_dispatch:
     inputs:
@@ -9,9 +12,17 @@ on:
         description: 'Industry to research (e.g. "MDF boards, India")'
         required: true
         default: 'MDF boards, India'
+  schedule:
+    - cron: '0 3 * * 1'
 
 permissions:
   contents: write
+
+# Queue, never cancel — shared with the recency refresh so the two never race on
+# the committed data files.
+concurrency:
+  group: research-data-commit
+  cancel-in-progress: false
 
 jobs:
   research:
