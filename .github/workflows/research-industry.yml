@@ -1,0 +1,71 @@
+name: Research Industry
+
+# Manual only. Runs the deep-research pipeline for one industry and commits the
+# refreshed public/data/industries/*.json to the default branch.
+on:
+  workflow_dispatch:
+    inputs:
+      industry:
+        description: 'Industry to research (e.g. "MDF boards, India")'
+        required: true
+        default: 'MDF boards, India'
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run research pipeline
+        env:
+          INDUSTRY: ${{ inputs.industry }}
+          MUNS_TOKEN: ${{ secrets.MUNS_TOKEN }}
+          BEDROCK_API_KEY: ${{ secrets.BEDROCK_API_KEY }}
+          BEDROCK_REGION: ${{ secrets.BEDROCK_REGION }}
+          BEDROCK_MODEL_ID: ${{ secrets.BEDROCK_MODEL_ID }}
+        run: node scripts/research-industry.mjs
+
+      - name: Commit updated data
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          INDUSTRY: ${{ inputs.industry }}
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- public/data/industries; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git add public/data/industries
+          git commit -m "data: refresh deep research for ${INDUSTRY}"
+
+          # Push with up to 4 attempts, rebasing on the remote between tries.
+          n=0
+          until [ "$n" -ge 4 ]; do
+            if git push origin "HEAD:${DEFAULT_BRANCH}"; then
+              echo "Pushed."
+              exit 0
+            fi
+            n=$((n+1))
+            echo "Push failed (attempt $n). Rebasing on origin/${DEFAULT_BRANCH} and retrying..."
+            git pull --rebase origin "${DEFAULT_BRANCH}" || true
+            sleep "$((2 ** n))"
+          done
+
+          echo "Push failed after retries."
+          exit 1

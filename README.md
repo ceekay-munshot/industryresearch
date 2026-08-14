@@ -40,6 +40,15 @@ industry. The frontend holds no data of its own — drop in a new
 │       └── industries/
 │           ├── index.json             # List of available industries + default
 │           └── mdf.json               # Mock MDF (India) data — "mock": true
+├── lib/
+│   ├── llm.mjs                        # The ONLY place we call Claude (Bedrock, raw HTTPS)
+│   └── muns.mjs                       # Muns fastapi wrappers (search / news / reader)
+├── scripts/
+│   ├── test-bedrock.mjs               # Bedrock connectivity check
+│   └── research-industry.mjs          # Deep-research pipeline → fills <slug>.json
+├── .github/workflows/
+│   ├── test-bedrock.yml               # Manual: validate Bedrock key/region/model
+│   └── research-industry.yml          # Manual: run research + commit data
 ├── worker/
 │   └── index.js                       # Serves ./public + POST /api/chat stub
 ├── wrangler.jsonc                     # Worker + static-assets config
@@ -131,3 +140,46 @@ generic and defensive: sections render only when present, in a fixed order.
 - **Never breaks:** tables scroll horizontally inside their own container; the page
   body never scrolls sideways; chart value labels are drawn with padding so they
   don't clip.
+
+---
+
+## Data pipeline (research)
+
+Real, source-backed data is gathered by a manually-triggered GitHub Action that
+fills the **same** industry JSON schema. Scope so far: the Deep Research /
+Overview data (size, growth, segments, value chain, channels, players, margins,
+and — for manufacturing — capacity/imports) plus the **news** list. YouTube and
+PDF reports are added in a later step.
+
+**Pieces:**
+
+- `lib/llm.mjs` — the only place we call Claude. Uses Claude on **AWS Bedrock**
+  via raw HTTPS (`bedrock-runtime.<region>.amazonaws.com/model/<model>/invoke`),
+  authenticated with a Bedrock API key as a bearer token. No npm dependencies.
+- `lib/muns.mjs` — wrappers for the Muns fastapi tools (`web-search`,
+  `news-search`, `web-reader`) with defensive normalizers and continue-on-error.
+- `scripts/research-industry.mjs` — builds a checklist of queries, searches +
+  reads sources, then asks Claude to fill the schema **only from those sources**
+  (every fact carries a `source: {label, url, snippet}` with a verbatim quote).
+
+**Required GitHub secrets:**
+
+| Secret | Purpose | Default if unset |
+| --- | --- | --- |
+| `BEDROCK_API_KEY` | Bedrock API key (bearer token) — **required** | — (errors) |
+| `BEDROCK_REGION` | Bedrock region | `us-east-1` |
+| `BEDROCK_MODEL_ID` | Model id | `us.anthropic.claude-sonnet-5` |
+| `MUNS_TOKEN` | Muns fastapi bearer token | — (research only) |
+
+**How to run (GitHub → Actions):**
+
+1. **Test Bedrock** — validates the key/region/model. If it fails, set
+   `BEDROCK_REGION` to your key's region and/or `BEDROCK_MODEL_ID` to one of
+   `us.anthropic.claude-sonnet-5`, `anthropic.claude-sonnet-5`,
+   `us.anthropic.claude-opus-4-8`, `anthropic.claude-opus-4-8`.
+2. **Research Industry** — enter an industry (default `MDF boards, India`). It
+   writes `public/data/industries/<slug>.json`, updates `index.json`, and commits
+   the change to the default branch.
+
+Both workflows are `workflow_dispatch` only (nothing runs automatically) and use
+Node 22 with no `npm install` (global `fetch` + stdlib only).
