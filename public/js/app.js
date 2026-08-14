@@ -1238,37 +1238,16 @@
     } catch (e) { info = null; }
 
     if (!info) {
-      // No Worker reachable (opened as a file / offline) — match locally.
+      // No Worker reachable (opened as a file / offline) — match locally, else try to research.
       const m = localMatch(state.index, query);
       if (m) { $('#footer-note').textContent = ''; return loadIndustry(m.slug); }
-      return renderNotResearched({ industry_name: query, slug: slugifyLocal(query), matched: false, offline: true });
+      return runResearch({ query, slug: slugifyLocal(query), isRefresh: false, offline: true });
     }
+    // Already researched → open it. Otherwise research it right away — the user
+    // already clicked "Research it", so don't ask the same question again. The
+    // company→industry detection (if any) is shown on the progress screen.
     if (info.matched && info.slug) { $('#footer-note').textContent = ''; return loadIndustry(info.slug); }
-    renderNotResearched(info);
-  }
-
-  /** The graceful "not researched yet" screen (shown in the home area). */
-  function renderNotResearched(info) {
-    stopRun();
-    setView('home');
-    $('#footer-note').textContent = 'No data yet for ' + (info.industry_name || 'this query');
-
-    const actionHost = h('div', { class: 'nr-actions' },
-      h('button', { class: 'nr-btn', type: 'button',
-        onClick: () => runResearch({ query: info.industry_name, slug: info.slug, isRefresh: false, offline: info.offline }) },
-        h('span', { class: 'w-4 h-4', html: I.refresh }), 'Research it'));
-
-    const host = $('#home-view'); host.innerHTML = '';
-    host.appendChild(h('div', { class: 'card fade-in' }, h('div', { class: 'card-body' },
-      h('div', { class: 'nr-wrap' },
-        h('div', { class: 'nr-icon', html: I.empty }),
-        h('h2', { class: 'nr-title' }, 'We haven’t researched ', h('span', { class: 'nr-name' }, info.industry_name || 'that'), ' yet.'),
-        (info.company)
-          ? h('p', { class: 'nr-detected' }, 'Detected industry for ', h('b', {}, info.company), ': ', h('b', {}, info.industry_name), '.')
-          : h('p', { class: 'nr-sub' }, 'Nothing has been gathered for this one yet.'),
-        actionHost,
-        h('button', { class: 'nr-back', type: 'button', onClick: goHome }, '← Back to search'),
-      ))));
+    runResearch({ query: info.industry_name, slug: info.slug, isRefresh: false, company: info.company });
   }
 
   /* ---- Runs: research (new) or update (refresh), with a friendly progress UI ---- */
@@ -1301,7 +1280,7 @@
       } catch (e) { /* no baseline -> first change reloads */ }
     }
 
-    const ui = renderProgress({ name, isRefresh: cfg.isRefresh });
+    const ui = renderProgress({ name, isRefresh: cfg.isRefresh, company: cfg.company });
     setView('progress');
 
     if (cfg.offline) return progressManual(ui, name, null);
@@ -1329,7 +1308,10 @@
     const title = (o.isRefresh ? 'Updating ' : 'Researching ') + (o.name || 'this industry');
     const card = h('div', { class: 'prog-card' },
       h('div', { class: 'prog-head' }, h('div', { class: 'prog-spin' }),
-        h('div', { class: 'min-w-0' }, h('div', { class: 'prog-title' }, title), elapsed)),
+        h('div', { class: 'min-w-0' },
+          h('div', { class: 'prog-title' }, title),
+          o.company ? h('div', { class: 'prog-detected' }, 'detected from “' + o.company + '”') : null,
+          elapsed)),
       h('div', { class: 'prog-barwrap' }, bar), pct,
       stageNow, h('div', { class: 'prog-reassure' }, 'This usually takes a few minutes — you can leave this open, it updates on its own.'),
       stages);
