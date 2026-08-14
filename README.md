@@ -92,6 +92,15 @@ renders except the Chat tab, which needs the Worker route.
 Every fact with a source shows a small clickable **source chip**. Any empty or
 missing JSON field is hidden gracefully — no blank boxes, no `undefined`.
 
+A **freshness + coverage strip** under the header shows how current and how
+complete the data is — two independent axes, never merged: a relative "Updated N
+ago", a coverage meter (`filled / expected` sections), and a freshness dot driven
+by the stalest material figure. Each section card carries an **"as of &lt;year&gt;"**
+chip (coloured by how fast that section ages) and a **source-count** chip, and any
+expected-but-missing section is listed as **"Still gathering"** rather than hidden.
+All of it is computed from `meta.coverage` + `meta.updated_at`, which the pipeline
+writes automatically.
+
 ---
 
 ## Data contract
@@ -101,7 +110,8 @@ generic and defensive: sections render only when present, in a fixed order.
 
 ```jsonc
 {
-  "meta":     { "slug", "name", "aliases": [], "definition", "is_manufacturing", "generated_at", "mock" },
+  "meta":     { "slug", "name", "aliases": [], "definition", "is_manufacturing", "generated_at", "updated_at", "mock",
+                "coverage": { "sections": { "<section>": { "sources", "confidence", "as_of" } } } },
   "summary":  { "headline", "key_takeaways": ["…"], "report_markdown": "## …" },
   "size":     { "current": { "value", "unit", "year" }, "cagr_pct", "history": [ { "year", "value" } ], "source": {} },
   "segments": [ { "name", "share_pct", "note", "source": {} } ],
@@ -187,6 +197,18 @@ source tabs.
     skipped, the rest kept); **Stage B** fills the schema from all the distilled
     facts plus search/news snippets. Because Stage A compacts everything first,
     Stage B always gets a small, clean input no matter how much raw text was read.
+  - **Additive & incremental (only-improve).** The dashboard JSON is a *derived*
+    artifact. The source of truth is an append-only **fact ledger**
+    (`data/store/<slug>/facts.jsonl`) that accumulates every fact with provenance,
+    first/last-seen and a corroboration count; a content-addressed **cache**
+    (`data/cache/<slug>/`) skips re-fetching and re-extracting unchanged sources,
+    so re-runs cost few or no model calls. Assembly is **write-if-better**: a
+    section is only replaced when the new one is at least as strong, so a weaker
+    run can never blank or regress a filled section — the output only holds or
+    improves. Confidence is noisy-OR over *distinct* sources
+    (`1 − Π(1 − quality_i)`). Seed the ledger from an existing file with
+    `node scripts/migrate-store.mjs <slug>`; the pipeline also auto-seeds on the
+    first run. Guarantees are covered by `node scripts/test-store.mjs`.
 
 **Required GitHub secrets:**
 
@@ -206,9 +228,27 @@ source tabs.
    `BEDROCK_REGION` to your key's region and/or `BEDROCK_MODEL_ID` to one of
    `us.anthropic.claude-sonnet-5`, `anthropic.claude-sonnet-5`,
    `us.anthropic.claude-opus-4-8`, `anthropic.claude-opus-4-8`.
-2. **Research Industry** — enter an industry (default `MDF boards, India`). It
-   writes `public/data/industries/<slug>.json`, updates `index.json`, and commits
-   the change to the default branch.
+2. **Research Industry (full rebuild)** — enter an industry (default
+   `MDF boards, India`). It writes `public/data/industries/<slug>.json`, updates
+   `index.json` + the fact store, and commits to the default branch.
 
-Both workflows are `workflow_dispatch` only (nothing runs automatically) and use
-Node 22 with no `npm install` (global `fetch` + stdlib only).
+**Automated refresh (two tiers, off one committed `sources.json`):**
+
+- **Refresh Recency** (`.github/workflows/refresh-recency.yml`) — a fast, cheap
+  pass every ~4h that appends only **news** newer than each source's watermark
+  (no LLM, no rebuild). Recency backbone is free and ToS-clean: Google News RSS,
+  GDELT, publisher RSS (ET / Moneycontrol / PIB) filtered by industry keyword +
+  player names, with change-detection via feed dates + HTTP conditional GET.
+- **Research Industry (full rebuild)** — also runs **weekly** (`Mon 03:00 UTC =
+  08:30 IST`) to re-derive the analytical sections; because the pipeline is
+  incremental + write-if-better, the weekly run is cheap and only-improves.
+
+Both write jobs share a `concurrency` group with `cancel-in-progress: false`
+(queue, never cancel) and commit with rebase-pull-push + a true no-op when nothing
+changed. Cron times are **UTC** (IST is +5:30). `sources.json` also documents the
+sources deliberately kept **out** of automation: NSE (blocks cloud IPs — prefer
+BSE), and Screener / Trendlyne / Tickertape (ToS forbids scraping).
+
+All workflows use Node 22 with no `npm install` (global `fetch` + stdlib only).
+Guarantees for the store and the feed parsers are covered by
+`node scripts/test-store.mjs` and `node scripts/test-feeds.mjs`.

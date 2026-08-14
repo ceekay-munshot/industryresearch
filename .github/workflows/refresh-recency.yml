@@ -1,0 +1,70 @@
+name: Refresh Recency (news)
+
+# The fast, cheap pass: appends only news/announcements newer than each source's
+# watermark to every real industry's JSON. No LLM, no analytical rebuild. Runs
+# every ~4 hours (times are UTC — IST is +5:30) and can be run manually.
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Queue, never cancel — a cancelled run would lose that window's data. Shared with
+# the full rebuild so the two never race on the committed data files.
+concurrency:
+  group: research-data-commit
+  cancel-in-progress: false
+
+jobs:
+  recency:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run recency refresh
+        run: node scripts/refresh-recency.mjs
+
+      - name: Commit updated news
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # True no-op when nothing changed (no commit, no push, no noise).
+          if git diff --quiet -- public/data/industries data/store; then
+            echo "No news changes to commit."
+            exit 0
+          fi
+
+          git add public/data/industries data/store
+          git commit -m "data: recency refresh (news)"
+
+          # Rebase-pull-push with retries so concurrent data commits don't clash.
+          n=0
+          until [ "$n" -ge 4 ]; do
+            if git push origin "HEAD:${DEFAULT_BRANCH}"; then
+              echo "Pushed."
+              exit 0
+            fi
+            n=$((n+1))
+            echo "Push failed (attempt $n). Rebasing on origin/${DEFAULT_BRANCH} and retrying..."
+            git pull --rebase origin "${DEFAULT_BRANCH}" || true
+            sleep "$((2 ** n))"
+          done
+
+          echo "Push failed after retries."
+          exit 1

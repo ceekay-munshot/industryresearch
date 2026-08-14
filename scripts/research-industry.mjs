@@ -36,13 +36,32 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { callClaudeJSON, llmConfig } from '../lib/llm.mjs';
 import { webSearch, newsSearch, webReader, normalizeSearch, normalizeReader } from '../lib/muns.mjs';
 import { firecrawlScrape, scrapedoScrape, mistralOCR, htmlToText, extractYouTubeFromHtml } from '../lib/scrape.mjs';
+import {
+  loadLedger, saveLedger, upsertFacts, decayAndSupersede, supportByCategory,
+  buildLedgerDigest, mergeAssembly, mergeCoverage, factsFromAssembled, sourceQuality, sha256,
+} from '../lib/store.mjs';
+import {
+  loadCache, saveCache, fetchCacheGet, fetchCachePut, extractKey, extractGet, extractPut,
+} from '../lib/cache.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DATA_DIR = join(ROOT, 'public', 'data', 'industries');
+const STORE_ROOT = join(ROOT, 'data', 'store');
+const CACHE_ROOT = join(ROOT, 'data', 'cache');
 
 const INDUSTRY = (process.env.INDUSTRY || 'MDF boards, India').trim();
 const COUNTRY = process.env.INDUSTRY_COUNTRY || 'India';
+
+// Bump when the Stage-A extraction prompt changes — every cached extraction then
+// misses and re-runs, so a prompt improvement propagates cleanly. The model id is
+// also part of the cache key (see lib/cache.mjs), so a model change recomputes too.
+const PROMPT_VERSION = 'stageA-v1';
+// How long a fetched source is trusted without re-fetching (content-hash cache).
+// Re-runs within this window on the same machine skip the fetch entirely; a fresh
+// CI runner re-fetches but still skips the (dominant) LLM extraction via the
+// committed extraction markers.
+const FETCH_TTL_DAYS = Number(process.env.FETCH_TTL_DAYS || 30);
 
 // Discovery breadth. These bound how many candidates we DISCOVER — they never
 // trim the CONTENT of anything we read (sources are always read in full and
@@ -286,17 +305,30 @@ async function gatherCompanyNews(players, industry) {
   return out;
 }
 
-async function readPages(urlObjs) {
+const READER_TASK = () => `Extract facts about ${INDUSTRY}: market size, growth, segments, value chain, channels, key players and their revenue/margin/market share, capacity, imports and duties.`;
+
+/** Read one page's full text via the Muns reader. Returns text or null. */
+async function fetchPageText(url) {
+  const read = normalizeReader(await webReader([url], READER_TASK()));
+  const hit = read.find((r) => r && r.text);
+  return hit ? hit.text : null;
+}
+
+/** Read generic web pages in FULL through the content cache (per-URL so caching
+ *  is precise). Returns [{url,text,content_hash,cached}]. */
+async function readPages(urlObjs, cache, ctx) {
   const urls = urlObjs.map((u) => u.url).filter(Boolean);
-  const sources = [];
-  for (let i = 0; i < urls.length; i += READER_BATCH) {
-    const batch = urls.slice(i, i + READER_BATCH);
-    const read = normalizeReader(await webReader(batch, `Extract facts about ${INDUSTRY}: market size, growth, segments, value chain, channels, key players and their revenue/margin/market share, capacity, imports and duties.`));
-    for (const r of read) sources.push(r);
-    console.log(`[research] read batch ${i / READER_BATCH + 1} (${batch.length} urls) -> ${read.length} pages`);
+  const out = [];
+  let cachedN = 0;
+  for (const url of urls) {
+    const src = await cachedFetchText(cache, url, 'muns-reader', () => fetchPageText(url), ctx);
+    if (src && src.text) {
+      out.push({ url, text: src.text, content_hash: src.content_hash, cached: src.cached });
+      if (src.cached) cachedN++;
+    }
   }
-  console.log(`[research] read ${sources.length}/${urls.length} pages successfully (full text).`);
-  return sources;
+  console.log(`[research] read ${out.length}/${urls.length} pages (${cachedN} from cache).`);
+  return out;
 }
 
 /* ---- YouTube discovery --------------------------------------------------- */
@@ -385,53 +417,66 @@ async function findReports(industry) {
   return cands;
 }
 
-/** Read every report candidate in FULL (no per-report char cap). PDFs go through
- *  OCR; other pages through Firecrawl, then Scrape.do as a fallback. Reading is
- *  bounded by REPORT_READ_CAP with any skip logged, never silent. */
-async function readReports(reportCands) {
-  // Prioritise PDFs (they carry segments / margins / market share).
+/** Fetch one report candidate's full text (PDF -> OCR, else Firecrawl, then
+ *  Scrape.do). Returns { text, method } or null. Never throws. */
+async function fetchReportText(c) {
+  try {
+    if (isPdf(c.url)) {
+      let src = await mistralOCR(c.url);
+      if (src) return { text: src.text, method: 'pdf/ocr' };
+      // OCR sometimes can't fetch/parse a PDF (e.g. 400 "file could not be
+      // fetched") — let Firecrawl try the same PDF before giving up.
+      src = await firecrawlScrape(c.url);
+      if (src) return { text: src.text, method: 'pdf/firecrawl' };
+      const s = await scrapedoScrape(c.url);
+      if (s && s.html) return { text: htmlToText(s.html), method: 'pdf/scrapedo' };
+    } else {
+      const src = await firecrawlScrape(c.url);
+      if (src) return { text: src.text, method: 'firecrawl' };
+      const s = await scrapedoScrape(c.url);
+      if (s && s.html) return { text: htmlToText(s.html), method: 'scrapedo' };
+    }
+  } catch (e) {
+    console.warn(`[research] report read error ${c.url}: ${e.message}`);
+  }
+  return null;
+}
+
+/** Read every report candidate in FULL (no per-report char cap), through the
+ *  content cache — a fresh fetch is skipped when the same URL was fetched within
+ *  the TTL and its cached text is on hand. Returns [{url,text,content_hash,cached}]. */
+async function readReports(reportCands, cache, ctx) {
   const ranked = [...reportCands].sort((a, b) => (isPdf(b.url) ? 1 : 0) - (isPdf(a.url) ? 1 : 0));
   const toRead = ranked.slice(0, REPORT_READ_CAP);
   if (ranked.length > toRead.length) {
     console.log(`[research] ${ranked.length} report candidates; reading ${toRead.length} (REPORT_READ_CAP), skipping ${ranked.length - toRead.length}.`);
   }
   const out = [];
+  let cachedN = 0;
   for (const c of toRead) {
-    let src = null;
-    let method = '';
-    try {
-      if (isPdf(c.url)) {
-        src = await mistralOCR(c.url);
-        if (src) method = 'pdf/ocr';
-        // OCR sometimes can't fetch/parse a PDF (e.g. 400 "file could not be
-        // fetched") — let Firecrawl try the same PDF before giving up.
-        if (!src) { src = await firecrawlScrape(c.url); if (src) method = 'pdf/firecrawl'; }
-        if (!src) {
-          const s = await scrapedoScrape(c.url);
-          if (s && s.html) { src = { url: c.url, text: htmlToText(s.html) }; method = 'pdf/scrapedo'; }
-        }
-      } else {
-        src = await firecrawlScrape(c.url);
-        if (src) method = 'firecrawl';
-        if (!src) {
-          const s = await scrapedoScrape(c.url);
-          if (s && s.html) { src = { url: c.url, text: htmlToText(s.html) }; method = 'scrapedo'; }
-        }
-      }
-    } catch (e) {
-      // Belt-and-suspenders: the fetchers never throw, but never let one crash us.
-      console.warn(`[research] report read error ${c.url}: ${e.message}`);
-      src = null;
-    }
+    const src = await cachedFetchText(cache, c.url, 'report', () => fetchReportText(c).then((r) => (r ? r.text : null)), ctx);
     if (src && src.text) {
-      out.push({ url: c.url, text: src.text });
-      console.log(`[research] report read OK  ${c.url} (${src.text.length} chars, ${method || 'unknown'})`);
+      out.push({ url: c.url, text: src.text, content_hash: src.content_hash, cached: src.cached });
+      if (src.cached) cachedN++;
+      console.log(`[research] report read ${src.cached ? 'CACHE' : 'OK   '} ${c.url} (${src.text.length} chars)`);
     } else {
       console.log(`[research] report read FAIL ${c.url}`);
     }
   }
-  console.log(`[research] read ${out.length}/${toRead.length} report sources (full text).`);
+  console.log(`[research] read ${out.length}/${toRead.length} report sources (${cachedN} from cache).`);
   return out;
+}
+
+/** Fetch-or-cache a URL's cleaned text. Returns {text, content_hash, cached} or
+ *  null. On a fresh cache record whose text blob is present, skips the fetch. */
+async function cachedFetchText(cache, url, api, doFetch, ctx) {
+  const hit = fetchCacheGet(cache, url, { ttlDays: ctx.ttlDays, now: ctx.now });
+  if (hit && hit.text) return { text: hit.text, content_hash: hit.content_hash, cached: true };
+  let text = null;
+  try { text = await doFetch(); } catch (e) { console.warn(`[research] fetch error ${url}: ${e.message}`); }
+  if (!text) return null;
+  const { content_hash } = fetchCachePut(cache, url, text, { api, now: ctx.now });
+  return { text, content_hash, cached: false };
 }
 
 /* ---- Full-text source prep ---------------------------------------------- */
@@ -520,35 +565,54 @@ export function dedupeFacts(facts) {
   return out;
 }
 
-async function extractFactsFromSource(source, idx, total) {
+async function extractFactsFromSource(source, idx, total, cache, ctx) {
   const chunks = chunkText(source.text);
-  if (!chunks.length) return [];
+  if (!chunks.length) return { facts: [], calls: 0, hits: 0 };
+  const ch = source.content_hash || sha256(source.text);
   const facts = [];
+  let calls = 0, hits = 0;
   for (let c = 0; c < chunks.length; c++) {
     const label = `${source.kind} ${idx + 1}/${total} chunk ${c + 1}/${chunks.length}`;
+    const key = extractKey(ch, c, PROMPT_VERSION, ctx.modelId);
+    if (extractGet(cache, key)) { hits++; continue; } // already extracted (facts are in the ledger)
     try {
       const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\nSource URL: ${source.url}\n\nSOURCE TEXT (extract every relevant fact):\n${chunks[c]}`;
       const res = await callClaudeJSON({ system: STAGE_A_SYSTEM, user, max_tokens: STAGE_A_MAX_TOKENS, thinking: { type: 'disabled' } });
-      const got = normalizeFacts(res, source.url);
+      const got = normalizeFacts(res, source.url).map((f) => ({
+        category: f.category, text: f.text, snippet: f.snippet,
+        source_url: f.url, source_quality: sourceQuality(f.url), content_hash: ch,
+      }));
       facts.push(...got);
+      extractPut(cache, key, got.length, ctx.now);
+      calls++;
       console.log(`[research] stageA ${label} -> ${got.length} facts`);
     } catch (e) {
-      // Isolate the failure: skip this chunk, keep everything else.
+      // Isolate the failure: skip this chunk, keep everything else. Do NOT mark it
+      // extracted, so a later run retries it.
       console.warn(`[research] stageA ${label} FAILED (skipped): ${e.message}`);
     }
   }
-  return facts;
+  return { facts, calls, hits };
 }
 
-async function runStageA(fullTextSources) {
+/** Stage A over every full-text source: distil each into facts, using the
+ *  extraction cache so unchanged chunks cost no LLM call. Returns the freshly
+ *  extracted facts (to upsert into the ledger) and the set of content hashes seen
+ *  this run (whose ledger facts get their last_seen bumped). */
+async function runStageA(fullTextSources, cache, ctx) {
   const all = [];
+  const seenHashes = new Set();
+  let calls = 0, hits = 0;
   for (let i = 0; i < fullTextSources.length; i++) {
-    const facts = await extractFactsFromSource(fullTextSources[i], i, fullTextSources.length);
-    all.push(...facts);
+    const s = fullTextSources[i];
+    if (s.content_hash) seenHashes.add(s.content_hash);
+    const r = await extractFactsFromSource(s, i, fullTextSources.length, cache, ctx);
+    all.push(...r.facts);
+    calls += r.calls; hits += r.hits;
   }
   const deduped = dedupeFacts(all);
-  console.log(`[research] Stage A: ${all.length} facts extracted -> ${deduped.length} after dedupe, from ${fullTextSources.length} sources.`);
-  return deduped;
+  console.log(`[research] Stage A: ${deduped.length} new facts from ${fullTextSources.length} sources (${calls} LLM calls, ${hits} chunks served from cache).`);
+  return { facts: deduped, seenHashes };
 }
 
 /** Group facts by category into a compact, clean digest for Stage B. */
@@ -609,8 +673,7 @@ Rules:
 - Set meta.mock = false and meta.generated_at to today. Use simple, plain-English labels a non-expert can read.
 - Keep "report_markdown" grounded in the sourced facts; no filler.`;
 
-async function runStageB(facts, snippetUrls, youtubeCands, reportCands) {
-  const digest = buildFactDigest(facts);
+async function runStageB(digest, snippetUrls, youtubeCands, reportCands) {
   const snippetLines = (snippetUrls || [])
     .filter((u) => u.snippet)
     .map((u) => `- ${u.title ? u.title + ' — ' : ''}${oneLine(u.snippet, 300)} [${u.url}]`);
@@ -621,9 +684,9 @@ async function runStageB(facts, snippetUrls, youtubeCands, reportCands) {
     ? reportCands.map((c, i) => `${i + 1}. [${c.type}] ${c.title || '(untitled)'} — ${c.url}`).join('\n')
     : '(none)';
 
-  const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\n\nEXTRACTED FACTS (distilled from full reading of every source; grouped by category):\n${digest || '(none extracted)'}\n\nSEARCH SNIPPETS (supplementary short result snippets):\n${snippetLines.join('\n') || '(none)'}\n\nYOUTUBE CANDIDATES:\n${ytList}\n\nREPORT CANDIDATES:\n${rpList}`;
+  const user = `Industry: ${INDUSTRY}\nCountry focus: ${COUNTRY}\n\nEXTRACTED FACTS (distilled from the full fact ledger, grouped by category; "sources: N" is how many distinct sources corroborate a claim — prefer better-corroborated values):\n${digest || '(none extracted)'}\n\nSEARCH SNIPPETS (supplementary short result snippets):\n${snippetLines.join('\n') || '(none)'}\n\nYOUTUBE CANDIDATES:\n${ytList}\n\nREPORT CANDIDATES:\n${rpList}`;
 
-  console.log(`[research] Stage B: filling schema from ${facts.length} facts + ${snippetLines.length} snippets (digest ${digest.length} chars).`);
+  console.log(`[research] Stage B: filling schema from ledger digest (${digest.length} chars) + ${snippetLines.length} snippets.`);
   // Disable thinking so the entire token budget goes to the JSON (on Sonnet 5,
   // adaptive thinking otherwise eats the budget and truncates the output).
   const obj = await callClaudeJSON({ system: STAGE_B_SYSTEM, user, max_tokens: STAGE_B_MAX_TOKENS, thinking: { type: 'disabled' } });
@@ -774,81 +837,159 @@ function upsertIndex(slug, meta) {
 
 /* ----------------------------------------------------------------------- */
 
+function readJson(path) {
+  try { return JSON.parse(readFileSync(path, 'utf8')); } catch (e) { return null; }
+}
+
+/** Bump last_seen for prior-run ledger facts whose source we re-observed this run
+ *  via a cache hit (so recency stays accurate without re-extracting). Pure. */
+function touchSeen(ledger, hashes, { runId, now }) {
+  if (!hashes || !hashes.size) return ledger;
+  return ledger.map((f) => {
+    if (f.content_hash && hashes.has(f.content_hash) && f.last_run_id !== runId) {
+      return { ...f, last_seen: now, last_run_id: runId, seen_count: (f.seen_count || 1) + 1, status: f.status === 'stale' ? 'active' : f.status };
+    }
+    return f;
+  });
+}
+
+/** Sources tabs are additive too: keep this run's items, then add any prior ones
+ *  not already present (dedup by url), capped. */
+function unionSources(obj, incumbent) {
+  obj.sources = obj.sources && typeof obj.sources === 'object' ? obj.sources : {};
+  const inc = (incumbent && incumbent.sources) || {};
+  const merge = (a, b, keyFn, cap) => {
+    const out = []; const seen = new Set();
+    for (const x of [...(a || []), ...(b || [])]) {
+      if (!x) continue;
+      const k = keyFn(x);
+      if (!k || seen.has(k)) continue;
+      seen.add(k); out.push(x);
+    }
+    return out.slice(0, cap);
+  };
+  obj.sources.news = merge(obj.sources.news, inc.news, (n) => canonicalUrl(n.url) || n.title, 30);
+  obj.sources.reports = merge(obj.sources.reports, inc.reports, (r) => canonicalUrl(r.url), MAX_REPORTS);
+  obj.sources.youtube = merge(obj.sources.youtube, inc.youtube, (y) => youtubeId(y.url) || y.url, MAX_YOUTUBE);
+  return obj;
+}
+
+/** Best-effort "as of" year per section, from dated values in the assembled JSON. */
+function sectionDatesFromLedger(ledger, obj) {
+  const out = {};
+  const set = (sec, v) => {
+    const m = String(v || '').match(/(20\d\d|19\d\d)/);
+    if (!m) return;
+    if (!out[sec] || m[1] > out[sec].slice(0, 4)) out[sec] = `${m[1]}-01-01`;
+  };
+  if (obj.size && obj.size.current) set('size', obj.size.current.year);
+  for (const h of ((obj.size && obj.size.history) || [])) set('size', h.year);
+  for (const c of ((obj.quant && obj.quant.capacity) || [])) set('quant', c.year);
+  for (const im of ((obj.quant && obj.quant.imports) || [])) set('quant', im.year);
+  for (const n of ((obj.sources && obj.sources.news) || [])) set('news', n.date);
+  for (const r of ((obj.sources && obj.sources.reports) || [])) set('reports', r.date);
+  const gen = (obj.meta && obj.meta.generated_at) || '';
+  for (const s of ['segments', 'growth_drivers', 'tailwinds', 'headwinds', 'value_chain', 'channels', 'players', 'margins']) set(s, gen);
+  return out;
+}
+
 async function main() {
   const cfg = llmConfig();
-  console.log(`[research] industry="${INDUSTRY}" country="${COUNTRY}"`);
-  console.log(`[research] model=${cfg.model_id} region=${cfg.region}`);
+  const runId = process.env.GITHUB_RUN_ID ? `gh-${process.env.GITHUB_RUN_ID}` : `local-${Date.now()}`;
+  const now = today();
   const slug = slugify(INDUSTRY);
-  console.log(`[research] slug=${slug}`);
+  const ctx = { now, runId, ttlDays: FETCH_TTL_DAYS, modelId: cfg.model_id };
+  console.log(`[research] industry="${INDUSTRY}" country="${COUNTRY}" slug=${slug}`);
+  console.log(`[research] model=${cfg.model_id} region=${cfg.region} run=${runId} prompt=${PROMPT_VERSION}`);
 
-  // a/b) queries -> web search + news (each call is retry+continue-on-error).
-  //      gatherNews falls back to news-outlet hits among the web results when the
-  //      news API returns nothing.
+  // Load the additive store + caches. Auto-seed the ledger from the committed
+  // dashboard on the first run with a store, so nothing already gathered is lost.
+  const storeDir = join(STORE_ROOT, slug);
+  const cacheDir = join(CACHE_ROOT, slug);
+  const ledgerPath = join(storeDir, 'facts.jsonl');
+  const coveragePath = join(storeDir, 'coverage.json');
+  const outPath = join(DATA_DIR, `${slug}.json`);
+  const incumbent = readJson(outPath) || {};
+  let ledger = loadLedger(ledgerPath);
+  const cache = loadCache(cacheDir);
+  if (!ledger.length && incumbent && incumbent.meta && !incumbent.meta.mock) {
+    const seed = factsFromAssembled(incumbent);
+    ledger = upsertFacts(ledger, seed, { runId: 'seed', now: incumbent.meta.generated_at || now });
+    console.log(`[research] seeded ledger from committed ${slug}.json: ${ledger.length} facts.`);
+  }
+  console.log(`[research] ledger start: ${ledger.length} facts; cache: ${Object.keys(cache.fetch).length} fetch, ${Object.keys(cache.extracted).length} extract markers.`);
+
+  // a/b) gather
   const { pages: searchPages, all: allSearch } = await gatherSearchUrls(INDUSTRY);
   const newsItems = await gatherNews(INDUSTRY, allSearch);
-
-  // c) discover YouTube videos and report/PDF candidates
   const youtubeCands = await findYouTube(INDUSTRY);
   const reportCands = await findReports(INDUSTRY);
 
-  // d) read rich report sources (PDF via OCR, else scrape) + the web pages — all
-  //    in FULL, no truncation. Dedupe so we never extract the same URL twice.
-  const reportSources = await readReports(reportCands);
-  const readerSources = await readPages(searchPages);
+  // d) read full text (cache-aware)
+  const reportSources = await readReports(reportCands, cache, ctx);
+  const readerSources = await readPages(searchPages, cache, ctx);
   const fullTextSources = dedupeSources([
     ...reportSources.map((s) => ({ ...s, kind: 'report' })),
     ...readerSources.map((s) => ({ ...s, kind: 'web' })),
   ]);
-  console.log(`[research] ${fullTextSources.length} unique full-text sources to distil (${reportSources.length} reports + ${readerSources.length} web pages).`);
+  console.log(`[research] ${fullTextSources.length} unique full-text sources (${reportSources.length} reports + ${readerSources.length} web pages).`);
 
-  // Abort ONLY if literally nothing at all was gathered — otherwise always write.
-  const gatheredAnything =
-    allSearch.length || newsItems.length || youtubeCands.length || reportCands.length || fullTextSources.length;
+  // Abort ONLY if literally nothing at all was gathered AND there's no prior ledger.
+  const gatheredAnything = allSearch.length || newsItems.length || youtubeCands.length || reportCands.length || fullTextSources.length || ledger.length;
   if (!gatheredAnything) {
-    throw new Error('Nothing gathered at all (no search, news, youtube, reports or readable pages) — check MUNS_TOKEN / connectivity. Aborting so no empty file is written.');
+    throw new Error('Nothing gathered at all and no prior ledger — check MUNS_TOKEN / connectivity. Aborting so no empty file is written.');
   }
 
-  // e) Stage A (map): per-source focused fact extraction. A failed source is
-  //    skipped; the rest are kept.
-  const facts = await runStageA(fullTextSources);
+  // e) Stage A (cache-aware) -> accumulate into the ledger
+  const { facts: newFacts, seenHashes } = await runStageA(fullTextSources, cache, ctx);
+  ledger = upsertFacts(ledger, newFacts, { runId, now });
+  ledger = touchSeen(ledger, seenHashes, { runId, now });
+  ledger = decayAndSupersede(ledger, { now });
+  const support = supportByCategory(ledger);
+  console.log(`[research] ledger now ${ledger.length} facts across ${Object.keys(support).length} sections.`);
 
-  // f) Stage B (reduce): fill the schema from the distilled facts + snippets.
-  //    Wrapped so that even a total extraction failure still writes partial data
-  //    (meta + news/youtube/reports tabs) rather than crashing the run.
-  let obj = {};
+  // f) Stage B from the accumulated LEDGER digest (not just this run's facts).
+  const digest = buildLedgerDigest(ledger, { now });
+  let candidate = {};
   try {
     console.log('[research] calling Claude for Stage B structured extraction...');
-    obj = await runStageB(facts, allSearch, youtubeCands, reportCands);
+    candidate = await runStageB(digest, allSearch, youtubeCands, reportCands);
   } catch (e) {
-    console.error(`[research] Stage B FAILED — writing partial data (sources only). ${e && e.stack ? e.stack : e}`);
-    obj = {};
+    console.error(`[research] Stage B FAILED — prior analytical data is kept via write-if-better. ${e && e.stack ? e.stack : e}`);
+    candidate = {};
   }
-  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
-    console.warn('[research] Stage B did not return an object — writing partial data (sources only).');
-    obj = {};
-  }
+  if (!candidate || typeof candidate !== 'object' || Array.isArray(candidate)) candidate = {};
 
-  // g) enforce meta, fold news, reconcile youtube/reports, write files, report.
-  //    These always run so the file is written with whatever we have.
-  obj = enforceMeta(obj, slug);
-  // Company-specific news now that we know the players (news-search + web fallback).
+  // g) meta, company news, source tabs (on the candidate)
+  candidate = enforceMeta(candidate, slug);
   let companyNews = [];
-  try {
-    companyNews = await gatherCompanyNews(obj.players, INDUSTRY);
-  } catch (e) {
-    console.warn(`[research] company news step failed (skipped): ${e.message}`);
-  }
-  obj = foldNews(obj, [...newsItems, ...companyNews]);
-  obj = attachSources(obj, youtubeCands, reportCands);
+  try { companyNews = await gatherCompanyNews(candidate.players, INDUSTRY); }
+  catch (e) { console.warn(`[research] company news step failed (skipped): ${e.message}`); }
+  candidate = foldNews(candidate, [...newsItems, ...companyNews]);
+  candidate = attachSources(candidate, youtubeCands, reportCands);
 
+  // h) WRITE-IF-BETTER: never blank or regress a filled section vs the incumbent.
+  const merged = mergeAssembly(candidate, incumbent);
+  let obj = merged.obj;
+  obj = unionSources(obj, incumbent);   // source tabs are additive too
+  obj = enforceMeta(obj, slug);         // meta from this run (generated_at, mock:false)
+
+  // i) freshness + coverage metadata (Phase 2 renders from this; additive)
+  const coverage = mergeCoverage(readJson(coveragePath), support, sectionDatesFromLedger(ledger, obj));
+  obj.meta.updated_at = now;
+  obj.meta.coverage = coverage;
+  console.log(merged.changed.length ? `[research] sections improved: ${merged.changed.join(', ')}` : '[research] no section improved this run (output held steady — monotonic).');
+
+  // j) persist: dashboard JSON + ledger + coverage + caches
   if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR, { recursive: true });
-  const outPath = join(DATA_DIR, `${slug}.json`);
+  if (!existsSync(storeDir)) mkdirSync(storeDir, { recursive: true });
   writeFileSync(outPath, JSON.stringify(obj, null, 2) + '\n');
-  console.log(`[research] wrote ${outPath}`);
-
+  saveLedger(ledgerPath, ledger);
+  writeFileSync(coveragePath, JSON.stringify(coverage, null, 2) + '\n');
+  saveCache(cache);
   upsertIndex(slug, obj.meta);
   reportFilled(obj);
-  console.log('[research] DONE');
+  console.log(`[research] wrote ${outPath} + ledger (${ledger.length} facts) + coverage + caches. DONE`);
 }
 
 // Run only when invoked directly (not when imported by tests).
