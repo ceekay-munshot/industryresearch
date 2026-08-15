@@ -74,7 +74,16 @@
     size: [365, 730], growth_drivers: [365, 730], margins: [365, 730], quant: [365, 730],
     segments: [548, 1095], value_chain: [548, 1095], channels: [548, 1095], _default: [365, 730],
   };
-  const daysSince = (dateStr, now) => { const t = Date.parse(dateStr); return isNaN(t) ? null : Math.max(0, Math.round((now - t) / 86400000)); };
+  // Whole-calendar-day difference. A date-only string ("2026-08-15") is a plain
+  // calendar date, so anchor BOTH sides to local midnight before diffing — else a
+  // stamp parsed as UTC-midnight rounds to "yesterday" from ~noon UTC onward the
+  // SAME day it was written (the classic "refreshed today, shows yesterday" bug).
+  const startOfDay = (ms) => { const d = new Date(ms); return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime(); };
+  const daysSince = (dateStr, now) => {
+    const m = String(dateStr || '').match(/^(\d{4})-(\d{2})-(\d{2})/);
+    const start = m ? new Date(+m[1], +m[2] - 1, +m[3]).getTime() : Date.parse(dateStr);
+    return isNaN(start) ? null : Math.max(0, Math.round((startOfDay(now) - startOfDay(start)) / 86400000));
+  };
   const asOfYear = (asOf) => { const m = String(asOf || '').match(/(20\d\d|19\d\d)/); return m ? m[1] : null; };
   function freshnessTier(section, asOf, now) {
     const d = daysSince(asOf, now);
