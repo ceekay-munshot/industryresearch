@@ -384,9 +384,10 @@
         h('div', { class: 'flex items-center gap-2 mb-2' },
           h('span', { class: 'section-label' }, meta.is_manufacturing ? 'Manufacturing industry' : 'Industry snapshot'),
         ),
-        has(s.headline) && h('h2', { class: 'font-display text-[20px] sm:text-[23px] font-extrabold leading-snug text-slate-900 tracking-tight' }, s.headline),
-        takeaways.length ? h('div', { class: 'flex flex-wrap gap-2 mt-4' },
-          ...takeaways.map((t) => h('span', { class: 'chip' }, h('span', { class: 'w-3.5 h-3.5 text-brand-600', html: I.check }), t))) : null,
+        has(s.headline) && h('h2', { class: 'headline' }, s.headline),
+        takeaways.length ? h('ul', { class: 'takeaways' },
+          ...takeaways.map((t) => h('li', { class: 'takeaway' },
+            h('span', { class: 'takeaway-mark w-4 h-4', html: I.check }), h('span', {}, t)))) : null,
       ),
     });
   }
@@ -395,7 +396,12 @@
    *  sections don't capture. Shows a value, a trend (when a series is given) and a
    *  source icon. Renders nothing when the data has none. */
   function secHighlights(data) {
-    const items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)));
+    // Decision-grade: an analyst wants the number that's true NOW. Drop figures
+    // whose year is clearly stale (older than ~3 years) so a 2009 market share
+    // never sits next to a 2026 one. Undated and forward (forecast) figures stay.
+    const NOW_YEAR = new Date().getFullYear();
+    const fresh = (x) => { const y = Number(x.year); return !isFinite(y) || y >= NOW_YEAR - 3; };
+    const items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)) && fresh(x));
     if (!items.length) return null;
     const tiles = items.slice(0, 12).map((x) => {
       const series = Array.isArray(x.series) ? x.series : null;
@@ -466,48 +472,67 @@
     return out;
   }
 
-  function secSegments(data) {
-    const segs = (data.segments || []).filter((s) => s && s.share_pct != null);
-    if (!segs.length) return null;
-    const sum = segs.reduce((a, s) => a + Number(s.share_pct || 0), 0);
-    // A doughnut only reads honestly as a true parts-of-whole breakdown. When the
-    // shares mix cuts (e.g. product + region) and sum past 100%, use a horizontal
-    // bar instead — no false whole, and long names sit cleanly on the axis.
-    const isBreakdown = segs.length <= 7 && sum >= 92 && sum <= 108;
-
-    if (isBreakdown) {
-      const { box, canvas } = chartBox(220);
-      const body = h('div', { class: 'seg-grid' }, box,
-        doughnutLegend(segs.map((s) => ({ name: s.name, value: s.share_pct, note: s.note, source: s.source }))));
-      requestAnimationFrame(() => newChart(canvas, {
-        type: 'doughnut',
-        data: { labels: segs.map((s) => s.name), datasets: [{ data: segs.map((s) => s.share_pct), backgroundColor: segs.map((_, i) => color(i)), borderColor: '#fff', borderWidth: 2, hoverOffset: 6 }] },
-        options: { responsive: true, maintainAspectRatio: false, cutout: '62%', plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.parsed}%` } } } },
-      }));
-      return card({ title: 'Segments', subtitle: 'share of market', section: 'segments', body });
+  /* Segments are a MARKET STRUCTURE, so keep each analytical cut separate — a
+   * product split, a regional split and a composition split are three different
+   * questions and must never share one bar. Honors an explicit `dimension` from
+   * the pipeline; else infers it. Each cut renders as its own always-labelled
+   * breakdown, with a multi-year sparkline when the pipeline supplies `history`. */
+  const SEG_DIMS = [
+    { id: 'product', label: 'By product' },
+    { id: 'composition', label: 'By composition' },
+    { id: 'channel', label: 'By channel' },
+    { id: 'region', label: 'By region' },
+    { id: 'context', label: 'Share of adjacent market' },
+  ];
+  function segDimension(s) {
+    if (s.dimension) {
+      const d = String(s.dimension).toLowerCase();
+      if (SEG_DIMS.find((x) => x.id === d)) return d;
+      if (/region|geo/.test(d)) return 'region';
+      if (/composition|type|dairy/.test(d)) return 'composition';
+      if (/channel|trade|retail/.test(d)) return 'channel';
+      if (/context|adjacent|versus|vs/.test(d)) return 'context';
+      return 'product';
     }
-
-    const height = Math.max(170, segs.length * 46 + 20);
-    const { box, canvas } = chartBox(height);
-    const srcs = uniqueSources(segs.map((s) => s.source));
-    const body = h('div', {}, box,
-      srcs.length ? h('div', { class: 'src-row' }, h('span', { class: 'src-row-label' }, 'Sources'), ...srcs.map((s) => sourceChip(s))) : null);
-    const maxV = Math.max(...segs.map((s) => Number(s.share_pct)));
-    requestAnimationFrame(() => newChart(canvas, {
-      type: 'bar',
-      data: { labels: segs.map((s) => s.name), datasets: [{ data: segs.map((s) => Number(s.share_pct)), backgroundColor: segs.map((_, i) => color(i)), borderRadius: 6, barThickness: 20 }] },
-      options: {
-        indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-        layout: { padding: { right: 46 } },
-        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.parsed.x}%` } } },
-        scales: {
-          x: { display: false, grid: { display: false }, min: 0, max: maxV * 1.16 },
-          y: { grid: { display: false }, border: { display: false }, ticks: { autoSkip: false, font: { size: 11.5 }, color: '#334155', callback: function (v) { const l = String(this.getLabelForValue(v)).replace(/\s*\([^)]*\)\s*$/, ''); return l.length > 22 ? l.slice(0, 21) + '…' : l; } } },
-        },
-      },
-      plugins: [valueLabels((v) => v + '%', 'y')],
-    }));
-    return card({ title: 'Segments', subtitle: 'share by cut — product & region', section: 'segments', body });
+    const hay = ((s.name || '') + ' ' + (s.note || '')).toLowerCase();
+    if (/\b(region|north|south|east|west|metro|rural|urban|tier[- ]?\d|zone|geograph)\b/.test(hay)) return 'region';
+    if (/\b(composition|dairy|plant[- ]?based|non[- ]?dairy|frozen dessert|fat content|milk fat)\b/.test(hay)) return 'composition';
+    if (/\b(channel|modern trade|general trade|quick[- ]?commerce|e-?commerce|horeca|institutional)\b/.test(hay)) return 'channel';
+    if (/\b(vs|versus|confectionery|snack|adjacent|share of|of the .* market)\b/.test(hay)) return 'context';
+    return 'product';
+  }
+  function segRow(s, i, maxV) {
+    const hasShare = s.share_pct != null && !isNaN(Number(s.share_pct));
+    const w = hasShare ? Math.max(2, Math.min(100, (Number(s.share_pct) / maxV) * 100)) : 0;
+    const spark = Array.isArray(s.history) && s.history.length > 1
+      ? sparkline(s.history.map((p) => ({ year: p.year, value: p.share_pct != null ? p.share_pct : p.value })), color(i)) : null;
+    return h('div', { class: 'seg-row' },
+      h('div', { class: 'seg-row-top' },
+        h('span', { class: 'seg-name', title: s.name }, String(s.name || '').replace(/\s*\([^)]*\)\s*$/, '')),
+        spark ? h('span', { class: 'seg-spark' }, spark) : null,
+        h('span', { class: 'seg-val' }, hasShare ? Number(s.share_pct) + '%' : '—'),
+        s.source ? sourceChip(s.source) : null),
+      hasShare ? h('div', { class: 'seg-track' }, h('div', { class: 'seg-fill', style: { width: w + '%', background: color(i) } })) : null,
+      has(s.note) ? h('div', { class: 'seg-note' }, s.note) : null);
+  }
+  function secSegments(data) {
+    const segs = (data.segments || []).filter((s) => s && has(s.name));
+    if (!segs.length) return null;
+    const groups = new Map();
+    segs.forEach((s, i) => { const d = segDimension(s); if (!groups.has(d)) groups.set(d, []); groups.get(d).push({ ...s, _i: i }); });
+    const order = SEG_DIMS.map((x) => x.id).filter((id) => groups.has(id));
+    const multi = order.length > 1;
+    const blocks = order.map((id) => {
+      const list = groups.get(id);
+      const dim = SEG_DIMS.find((x) => x.id === id);
+      const withShare = list.filter((s) => s.share_pct != null);
+      const maxV = withShare.length ? Math.max(...withShare.map((s) => Number(s.share_pct))) : 100;
+      return h('div', { class: 'seg-block' },
+        multi ? h('div', { class: 'seg-dim' }, dim.label) : null,
+        ...list.map((s) => segRow(s, s._i, maxV)));
+    });
+    return card({ title: 'Segments', subtitle: multi ? 'market structure, by cut' : 'share of market', section: 'segments',
+      body: h('div', { class: 'seg-blocks' }, ...blocks) });
   }
 
   function secGrowthDrivers(data) {
@@ -866,6 +891,15 @@
     return xs.length % 2 ? xs[mid] : (xs[mid - 1] + xs[mid]) / 2;
   }
   const firstUnit = (peers) => { const p = (peers || []).find((x) => x.revenue_unit); return p ? p.revenue_unit : ''; };
+  /** Only surface a forward note if it reads like a clean sentence — never a raw
+   *  markdown table dump (e.g. street_estimates "| Summary | Date | Stock |…"). */
+  function cleanForwardNote(s) {
+    const t = String(s == null ? '' : s).trim();
+    if (!t || t.length > 240) return '';
+    if (/^\s*\|/.test(t) || (t.match(/\|/g) || []).length >= 2) return '';   // markdown table row(s)
+    if (/^[\s|:-]+$/.test(t) || !/[a-z]{3}/i.test(t)) return '';              // separators / no real words
+    return t;
+  }
   function benchListedCell(p) {
     if (p.listed === true) return badge(p.ticker ? p.ticker : 'Listed', 'brand');
     if (p.listed === false) return badge(p.status === 'unlisted-drhp' ? 'Unlisted' : 'Private', 'neutral');
@@ -901,8 +935,15 @@
     const peers = (b && Array.isArray(b.peers)) ? b.peers.filter((p) => p && p.name) : [];
     if (!peers.length) { root.appendChild(card({ hoverable: false, body: emptyState('No benchmarking yet', 'Peer financials appear here once a run gathers them.') })); return; }
 
-    const groups = groupPeers(peers);
-    const showGroupHead = groups.length > 1 || groups[0].name !== 'Other';
+    // Group only when the segment cut actually CLUSTERS peers. Free-text segments
+    // often give ~one group per peer — a table of 14 one-row "segments" is noise,
+    // not a comp sheet — so fall back to a single ranked list (leaders first) with
+    // one overall median.
+    let groups = groupPeers(peers);
+    const avgGroup = peers.length / Math.max(1, groups.length);
+    const useGroups = groups.length >= 2 && groups.length <= 5 && avgGroup >= 2;
+    if (!useGroups) groups = [{ name: 'All peers', peers }];
+    const showGroupHead = useGroups;
     const totalCols = 2 + BENCH_METRICS.length + 1;
 
     const thead = h('thead', {}, h('tr', {},
@@ -911,9 +952,9 @@
       h('th', {}, 'Source')));
     const tbody = h('tbody', {});
 
-    const nameCell = (p) => h('td', { class: 'cell-company' },
+    const nameCell = (p) => { const fwd = cleanForwardNote(p.forward_note); return h('td', { class: 'cell-company' },
       h('div', { class: 'cell-primary-row' }, h('span', { class: 'cell-primary' }, p.name), p.analyst ? analystBadge() : null, editBtn(() => editPeer(p), 'Edit ' + p.name)),
-      p.forward_note ? h('div', { class: 'cell-note', title: p.forward_note }, p.forward_note) : null);
+      fwd ? h('div', { class: 'cell-note', title: fwd }, fwd) : null); };
 
     const filledRow = (p) => h('tr', {},
       nameCell(p),
@@ -950,7 +991,9 @@
         h('td', { colspan: String(totalCols) },
           h('span', { class: 'bench-group-name' }, g.name),
           h('span', { class: 'bench-group-count' }, ' · ' + g.peers.length + (g.peers.length === 1 ? ' peer' : ' peers')))));
-      const filled = g.peers.filter((p) => !p.pending && hasAnyMetric(p));
+      // Leaders first: peers with financials ranked by revenue, then pending rows.
+      const filled = g.peers.filter((p) => !p.pending && hasAnyMetric(p))
+        .sort((a, b) => (Number(b.revenue) || -Infinity) - (Number(a.revenue) || -Infinity));
       const pend = g.peers.filter((p) => p.pending || !hasAnyMetric(p));
       filled.forEach((p) => tbody.appendChild(filledRow(p)));
       pend.forEach((p) => tbody.appendChild(pendingRow(p)));
@@ -978,31 +1021,65 @@
     if (charts.length) root.appendChild(h('div', { class: 'grid gap-4 mt-4 grid-cols-1 lg:grid-cols-2 items-start' }, ...charts));
   }
 
+  /* Curate videos the way an analyst reads them — by research angle, not one
+   * undifferentiated grid. Honors an explicit `category` from the pipeline; else
+   * infers from the title. "How it's made" sinks to the bottom and is capped —
+   * one factory tour is context, six is noise. */
+  const YT_CATS = [
+    { id: 'made', label: "How it's made", re: /\b(how it'?s made|how .{0,20} is made|how .{0,20} are made|factory|factories|manufactur|production process|processing|mega ?factory|assembly line)\b/i },
+    { id: 'podcast', label: 'Interviews & podcasts', re: /\b(podcast|interview|in conversation|fireside|conversation with|sits down with|talks to)\b/i },
+    { id: 'startup', label: 'Startups & disruptors', re: /\b(startup|start-up|disrupt|d2c|founder|unicorn|rise of|story of|new[- ]age|challenger|entrepreneur|how .{0,20} (built|started|grew|became))\b/i },
+    { id: 'industry', label: 'Industry & thesis', re: /.*/ },   // default bucket
+  ];
+  const YT_ORDER = ['industry', 'startup', 'podcast', 'made'];
+  const YT_MADE_CAP = 2;
+  function ytCategory(v) {
+    if (v.category) { const m = YT_CATS.find((c) => c.id === String(v.category).toLowerCase()); if (m) return m.id; }
+    const title = v.title || '';   // title only — descriptions are noisy ("new episode!" etc.)
+    for (const c of YT_CATS) if (c.re.test(title)) return c.id;
+    return 'industry';
+  }
+  function ytCard(v) {
+    const thumb = h('div', { class: 'yt-thumb' });
+    if (has(v.thumbnail)) {
+      const img = h('img', { src: v.thumbnail, alt: '', loading: 'lazy', referrerpolicy: 'no-referrer' });
+      img.addEventListener('error', () => img.remove());
+      thumb.appendChild(img);
+    }
+    thumb.appendChild(h('div', { class: 'yt-play' }, h('span', { html: I.play })));
+    return h('a', { class: 'card hoverable overflow-hidden block', href: v.url || '#', target: '_blank', rel: 'noopener noreferrer' },
+      thumb,
+      h('div', { class: 'p-3.5' },
+        h('div', { class: 'font-display font-bold text-[13.5px] text-slate-800 leading-snug' }, v.title || 'Untitled'),
+        h('div', { class: 'flex items-center gap-1.5 mt-1.5 text-[11.5px] text-slate-400' },
+          has(v.channel) && h('span', { class: 'font-semibold text-slate-500' }, v.channel),
+          has(v.channel) && has(v.published) && h('span', {}, '·'),
+          has(v.published) && h('span', {}, v.published)),
+        has(v.why_relevant) && h('div', { class: 'yt-why' }, v.why_relevant)));
+  }
   function renderYouTube(root, data) {
     root.innerHTML = '';
     const vids = ((data.sources && data.sources.youtube) || []).filter((v) => has(v.title) || has(v.url));
     if (!vids.length) { root.appendChild(card({ hoverable: false, body: emptyState('No videos yet', 'YouTube results will appear here once gathered.') })); return; }
-    const grid = h('div', { class: 'grid gap-4', style: { gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))' } },
-      ...vids.map((v) => {
-        const thumb = h('div', { class: 'yt-thumb' });
-        if (has(v.thumbnail)) {
-          const img = h('img', { src: v.thumbnail, alt: '', loading: 'lazy', referrerpolicy: 'no-referrer' });
-          img.addEventListener('error', () => img.remove());
-          thumb.appendChild(img);
-        }
-        thumb.appendChild(h('div', { class: 'yt-play' }, h('span', { html: I.play })));
-        return h('a', { class: 'card hoverable overflow-hidden block', href: v.url || '#', target: '_blank', rel: 'noopener noreferrer' },
-          thumb,
-          h('div', { class: 'p-3.5' },
-            h('div', { class: 'font-display font-bold text-[13.5px] text-slate-800 leading-snug line-clamp-2', style: { display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical', overflow: 'hidden' } }, v.title || 'Untitled'),
-            h('div', { class: 'flex items-center gap-1.5 mt-1.5 text-[11.5px] text-slate-400' },
-              has(v.channel) && h('span', { class: 'font-semibold text-slate-500' }, v.channel),
-              has(v.channel) && has(v.published) && h('span', {}, '·'),
-              has(v.published) && h('span', {}, v.published)),
-            has(v.why_relevant) && h('div', { class: 'mt-2 text-[12px] text-slate-500 leading-snug bg-slate-50 rounded-lg px-2.5 py-1.5 clamp-3' }, v.why_relevant)),
-        );
-      }));
-    root.appendChild(grid);
+
+    const byCat = new Map(YT_ORDER.map((id) => [id, []]));
+    for (const v of vids) byCat.get(ytCategory(v)).push(v);
+
+    const sections = [];
+    for (const id of YT_ORDER) {
+      let list = byCat.get(id);
+      if (!list.length) continue;
+      const cat = YT_CATS.find((c) => c.id === id);
+      let dropped = 0;
+      if (id === 'made' && list.length > YT_MADE_CAP) { dropped = list.length - YT_MADE_CAP; list = list.slice(0, YT_MADE_CAP); }
+      sections.push(h('div', { class: 'yt-section' },
+        h('div', { class: 'yt-sec-head' },
+          h('span', { class: 'yt-sec-title' }, cat.label),
+          h('span', { class: 'yt-sec-count' }, list.length + (dropped ? ' shown' : (list.length === 1 ? ' video' : ' videos'))),
+          dropped ? h('span', { class: 'yt-sec-note' }, '· ' + dropped + ' more factory tour' + (dropped > 1 ? 's' : '') + ' hidden') : null),
+        h('div', { class: 'yt-grid' }, ...list.map(ytCard))));
+    }
+    root.appendChild(h('div', { class: 'flex flex-col gap-6' }, ...sections));
   }
 
   function renderReports(root, data) {
