@@ -1396,7 +1396,7 @@
       } catch (e) { /* no baseline -> first change reloads */ }
     }
 
-    const ui = renderProgress({ name, isRefresh: cfg.isRefresh, company: cfg.company });
+    const ui = renderProgress({ name, isRefresh: cfg.isRefresh, company: cfg.company, slug });
     setView('progress');
 
     if (cfg.offline) return progressManual(ui, name, null);
@@ -1418,9 +1418,30 @@
   /** Re-enter the progress screen for an already-dispatched run (after a refresh)
    *  WITHOUT re-triggering the workflow. */
   function resumeRun(rec) {
-    const ui = renderProgress({ name: rec.name, isRefresh: rec.isRefresh, company: rec.company });
+    const ui = renderProgress({ name: rec.name, isRefresh: rec.isRefresh, company: rec.company, slug: rec.slug });
     setView('progress');
     startProgressLoop({ ui, ...rec });
+  }
+
+  /** Cancel a running research/update: stop the GitHub run (via the Worker) and
+   *  stop tracking it locally. Never-fail: if the Worker can't cancel it, we still
+   *  stop tracking and point the user to GitHub Actions. */
+  async function cancelRun(rec) {
+    if (!rec || !rec.slug) return;
+    if (!confirm('Cancel the research run for ' + (rec.name || 'this industry') + '?')) return;
+    stopRun();
+    let resp = null;
+    try {
+      const r = await fetch('/api/research-cancel', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug: rec.slug }),
+      });
+      if (r.ok) resp = await r.json();
+    } catch (e) { resp = null; }
+    clearPending(rec.slug);          // stop tracking here regardless of the server result
+    goHome();
+    $('#footer-note').textContent = (resp && resp.cancelled)
+      ? 'Cancelled the run for ' + (rec.name || 'this industry') + '.'
+      : ((resp && resp.message) || 'Stopped tracking this run. To fully stop it, cancel it in GitHub → Actions.');
   }
 
   /** Build the progress screen; returns handles the loop updates. */
@@ -1440,7 +1461,9 @@
           elapsed)),
       h('div', { class: 'prog-barwrap' }, bar), pct,
       stageNow, h('div', { class: 'prog-reassure' }, 'This usually takes a few minutes — you can leave this open, it updates on its own.'),
-      stages);
+      stages,
+      o.slug ? h('div', { class: 'prog-cancel-row' },
+        h('button', { class: 'prog-cancel', type: 'button', onClick: () => cancelRun({ slug: o.slug, name: o.name }) }, 'Cancel run')) : null);
     host.appendChild(h('div', { class: 'prog-wrap' }, card));
     return { host, card, bar, pct, stageNow, stages, elapsed };
   }
@@ -1632,7 +1655,9 @@
       h('div', { class: 'min-w-0' },
         h('div', { class: 'pending-name' }, (rec.isRefresh ? 'Updating ' : 'Researching ') + rec.name),
         h('div', { class: 'pending-sub' }, 'In progress' + (mins ? ' · started ' + mins + ' min ago' : '') + ' — this can take a few minutes.'))));
-    card.appendChild(h('button', { class: 'pending-btn', type: 'button', onClick: () => resumeRun(rec) }, 'View progress'));
+    card.appendChild(h('div', { class: 'pending-actions' },
+      h('button', { class: 'pending-btn ghost', type: 'button', onClick: () => cancelRun(rec) }, 'Cancel'),
+      h('button', { class: 'pending-btn', type: 'button', onClick: () => resumeRun(rec) }, 'View progress')));
   }
   function renderPendingReady(card, rec) {
     card.className = 'pending-card pending-done';
