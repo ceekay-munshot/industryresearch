@@ -166,15 +166,19 @@
   /* ----------------------------------------------------------------------- *
    * Reusable pieces
    * ----------------------------------------------------------------------- */
+  /** A source is shown as a compact ICON that links straight to the source — no
+   *  long label cluttering the UI. Hovering reveals the publisher + snippet.
+   *  Pass { label: true } for the rare place a text label is genuinely wanted. */
   function sourceChip(src, opts) {
     if (!src || !src.url) return null;
     const full = src.label || 'Source';
-    const iconOnly = opts && opts.icon;
-    const label = iconOnly ? '' : ((opts && opts.short) ? 'Source' : full);
+    const showLabel = opts && opts.label;
     return h('a', {
-      class: 'source-chip' + (iconOnly ? ' source-chip-icon' : ''), href: src.url, target: '_blank', rel: 'noopener noreferrer',
-      title: src.snippet ? `${full} — ${src.snippet}` : full,
-    }, h('span', { html: I.link }), label ? h('span', { class: 'src-label' }, label) : null);
+      class: 'source-chip source-chip-icon' + (showLabel ? ' has-label' : ''),
+      href: src.url, target: '_blank', rel: 'noopener noreferrer',
+      title: (src.snippet ? `${full} — ${src.snippet}` : full) + ' · opens the source',
+      'aria-label': 'Source: ' + full,
+    }, h('span', { html: I.link }), showLabel ? h('span', { class: 'src-label' }, full) : null);
   }
 
   /** Per-section freshness ("as of <year>") + source-depth chips for a card head. */
@@ -205,14 +209,56 @@
     return h('div', { class: `card ${hoverable ? 'hoverable' : ''} ${className}` }, head, h('div', { class: 'card-body' }, body));
   }
 
-  function metricPill(label, value, sub, accent) {
+  function metricPill(label, value, sub, accent, trend) {
     return h('div', { class: 'metric-pill' }, h('div', {},
       h('div', { class: 'kpi-label' }, label),
       h('div', { class: 'flex items-baseline gap-1.5' },
         h('span', { class: 'kpi-value text-[22px]', style: accent ? { color: accent } : null }, value),
         sub && h('span', { class: 'text-[11px] text-slate-400 font-medium' }, sub),
+        trend || null,
       ),
     ));
+  }
+
+  /* ---- Trends: read a {year,value} series and show direction + a sparkline ---- */
+  function cleanSeries(series) {
+    return (series || []).filter((p) => p && p.value != null && !isNaN(Number(p.value)))
+      .map((p) => ({ year: Number(p.year) || 0, value: Number(p.value) }))
+      .sort((a, b) => a.year - b.year);
+  }
+  function trendFrom(series) {
+    const s = cleanSeries(series);
+    if (s.length < 2) return null;
+    const a = s[s.length - 2].value, b = s[s.length - 1].value;
+    const dir = b > a ? 'up' : b < a ? 'down' : 'flat';
+    const pct = a > 0 ? Math.round(((b - a) / a) * 100) : null;
+    return { dir, pct };
+  }
+  function trendBadge(series, dirOverride) {
+    const t = trendFrom(series);
+    const dir = (t && t.dir) || (dirOverride === 'up' || dirOverride === 'down' || dirOverride === 'flat' ? dirOverride : null);
+    if (!dir) return null;
+    const arrow = dir === 'up' ? '▲' : dir === 'down' ? '▼' : '▪';
+    const pctTxt = t && t.pct != null ? (t.pct > 0 ? '+' : '') + t.pct + '%' : '';
+    return h('span', { class: 'trend-badge trend-' + dir, title: 'Trend' + (pctTxt ? ' ' + pctTxt : '') },
+      h('span', { class: 'trend-arrow' }, arrow), pctTxt ? h('span', {}, pctTxt) : null);
+  }
+  /** Tiny inline sparkline SVG from a {year,value} series. */
+  function sparkline(series, stroke) {
+    const s = cleanSeries(series);
+    if (s.length < 2) return null;
+    const w = 96, hgt = 28, pad = 3;
+    const vals = s.map((p) => p.value);
+    const mn = Math.min(...vals), mx = Math.max(...vals), span = (mx - mn) || 1;
+    const pts = s.map((p, i) => {
+      const x = pad + (i / (s.length - 1)) * (w - 2 * pad);
+      const y = hgt - pad - ((p.value - mn) / span) * (hgt - 2 * pad);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+    const col = stroke || (PALETTE[0] || '#7c3aed');
+    const last = pts.split(' ').pop().split(',');
+    return h('span', { class: 'spark', title: `${s[0].year}: ${num(s[0].value)} → ${s[s.length-1].year}: ${num(s[s.length-1].value)}`, html:
+      `<svg viewBox="0 0 ${w} ${hgt}" width="${w}" height="${hgt}" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${last[0]}" cy="${last[1]}" r="2.4" fill="${col}"/></svg>` });
   }
 
   function emptyState(msg, hint) {
@@ -333,13 +379,37 @@
     });
   }
 
+  /** Adaptive "Key metrics" strip — standout, industry-specific KPIs the fixed
+   *  sections don't capture. Shows a value, a trend (when a series is given) and a
+   *  source icon. Renders nothing when the data has none. */
+  function secHighlights(data) {
+    const items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)));
+    if (!items.length) return null;
+    const tiles = items.slice(0, 12).map((x) => {
+      const series = Array.isArray(x.series) ? x.series : null;
+      const valTxt = has(x.value) ? String(x.value) + (has(x.unit) ? ' ' + x.unit : '') : '';
+      return h('div', { class: 'kpi-tile' },
+        h('div', { class: 'kpi-tile-head' },
+          h('span', { class: 'kpi-tile-label' }, x.label),
+          x.source ? sourceChip(x.source) : null),
+        h('div', { class: 'kpi-tile-valrow' },
+          valTxt ? h('span', { class: 'kpi-tile-val' }, valTxt,
+            has(x.year) ? h('span', { class: 'kpi-tile-year' }, ' ’' + String(x.year).slice(-2)) : null) : null,
+          trendBadge(series, x.trend)),
+        series ? h('div', { class: 'kpi-tile-spark' }, sparkline(series, color(0)))
+          : (has(x.note) ? h('div', { class: 'kpi-tile-note' }, x.note) : null));
+    });
+    return card({ hoverable: false, title: 'Key metrics', subtitle: 'standout figures for this industry',
+      body: h('div', { class: 'kpi-grid' }, ...tiles) });
+  }
+
   function secSize(data) {
     const size = data.size;
     if (!has(size) || (!has(size.current) && !has(size.history))) return null;
     const hist = (size.history || []).filter((p) => p && p.value != null);
     const body = h('div', {},
       h('div', { class: 'flex flex-wrap items-end gap-3 mb-4' },
-        has(size.current) && metricPill('Current size', formatSize(size.current), size.current.year ? 'FY' + String(size.current.year).slice(-2) : null, 'var(--chart-1)'),
+        has(size.current) && metricPill('Current size', formatSize(size.current), size.current.year ? 'FY' + String(size.current.year).slice(-2) : null, 'var(--chart-1)', trendBadge(hist)),
         size.cagr_pct != null && metricPill('CAGR', pct(size.cagr_pct), size.cagr_note || 'growth', 'var(--chart-3)'),
       ),
     );
@@ -701,9 +771,10 @@
   const DEEP_SUBS = [
     {
       id: 'overview', label: 'Overview',
-      available: (d) => has(d.summary) || has(d.size) || has(d.segments),
+      available: (d) => has(d.summary) || has(d.size) || has(d.segments) || has(d.highlights),
       render: (root, d) => appendChildren(root, [
         secHeadline(d),
+        secHighlights(d),
         gridStack([secSize(d), secSegments(d)], 'lg:grid-cols-2'),
       ]),
     },

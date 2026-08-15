@@ -197,6 +197,26 @@
     .source-chip svg { width: 11px; height: 11px; flex-shrink: 0; }
     .source-chip .src-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
+    /* ---------- Trends: badge + sparkline ---------- */
+    .trend-badge { display: inline-flex; align-items: center; gap: 2px; font-size: 11.5px; font-weight: 700; padding: 1px 6px; border-radius: 6px; line-height: 1.4; white-space: nowrap; }
+    .trend-badge .trend-arrow { font-size: 9px; }
+    .trend-up { color: var(--good); background: var(--good-soft, #ecfdf5); }
+    .trend-down { color: var(--bad); background: var(--bad-soft, #fef2f2); }
+    .trend-flat { color: var(--ink-hint); background: var(--neutral-soft); }
+    .spark { display: inline-flex; align-items: center; }
+    .spark svg { display: block; }
+
+    /* ---------- Key-metrics (highlights) tiles ---------- */
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
+    .kpi-tile { border: 1px solid var(--border); border-radius: 12px; padding: 13px 14px; background: var(--card); display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+    .kpi-tile-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+    .kpi-tile-label { font-size: 12px; font-weight: 600; color: var(--ink-hint); line-height: 1.35; }
+    .kpi-tile-valrow { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+    .kpi-tile-val { font-family: 'Plus Jakarta Sans','Inter',sans-serif; font-size: 21px; font-weight: 800; color: var(--ink); letter-spacing: -.01em; }
+    .kpi-tile-year { font-size: 12px; font-weight: 600; color: var(--ink-hint); }
+    .kpi-tile-spark { margin-top: 2px; color: var(--chart-1); }
+    .kpi-tile-note { font-size: 12px; color: var(--ink-2); line-height: 1.5; }
+
     .badge {
       display: inline-flex; align-items: center; gap: 5px;
       font-size: 11px; font-weight: 700; letter-spacing: .02em;
@@ -469,7 +489,10 @@
     .seg-grid { display: grid; gap: 16px; align-items: center; grid-template-columns: minmax(0,200px) 1fr; }
     @media (max-width: 640px) { .seg-grid { grid-template-columns: 1fr; } }
     .legend-name { font-size: 13px; font-weight: 600; color: var(--ink-2); line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .source-chip-icon { padding: 5px; gap: 0; }
+    /* Icon-only source: a compact round link button (label lives in the tooltip) */
+    .source-chip-icon { width: 24px; height: 24px; padding: 0; gap: 0; border-radius: 50%; justify-content: center; color: var(--ink-hint); }
+    .source-chip-icon svg { width: 12px; height: 12px; }
+    .source-chip-icon.has-label { width: auto; border-radius: 999px; padding: 2px 9px 2px 7px; gap: 4px; }
     .src-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
     .src-row-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-hint); margin-right: 2px; }
 
