@@ -1121,6 +1121,14 @@
       onClick: () => runResearch({ query: (m.query || m.name || m.slug), slug: m.slug, isRefresh: true }),
     }, h('span', { class: 'w-3.5 h-3.5', html: I.refresh }), 'Update');
 
+    // The full written report is a DOWNLOAD, not a tab — one clickable button.
+    const rep = data.summary && data.summary.report;
+    const hasReport = (rep && Array.isArray(rep.sections) && rep.sections.length) || (data.summary && has(data.summary.report_markdown));
+    const downloadBtn = h('button', {
+      class: 'hdr-download', type: 'button', title: 'Download the full written report (PDF)',
+      onClick: downloadReport,
+    }, h('span', { class: 'w-3.5 h-3.5', html: I.download }), 'Download report');
+
     root.appendChild(h('div', { class: 'card fade-in relative overflow-hidden' },
       h('div', { class: 'absolute left-0 top-0 bottom-0 w-1.5', style: { background: 'linear-gradient(180deg,var(--chart-1),var(--chart-2))' } }),
       h('div', { class: 'card-body pl-6' },
@@ -1132,7 +1140,8 @@
             has(m.definition) && h('p', { class: 'text-[13.5px] text-slate-500 leading-relaxed mt-2 max-w-3xl' }, m.definition)),
           h('div', { class: 'flex flex-col items-end gap-2 flex-shrink-0' },
             m.mock && h('span', { class: 'mock-flag' }, h('span', { class: 'w-1.5 h-1.5 rounded-full bg-current' }), 'Mock data'),
-            m.mock ? null : refreshBtn)),
+            m.mock ? null : h('div', { class: 'flex items-center gap-2 flex-wrap justify-end no-print' },
+              hasReport ? downloadBtn : null, refreshBtn))),
         aliases.length ? h('div', { class: 'flex items-center gap-1.5 flex-wrap mt-3' },
           h('span', { class: 'text-[11px] font-semibold uppercase tracking-wide text-slate-400 mr-1' }, 'Also known as'),
           ...aliases.map((a) => h('span', { class: 'text-[11.5px] font-medium text-slate-500 bg-slate-100 rounded-md px-2 py-0.5' }, a))) : null,
@@ -1140,12 +1149,20 @@
     root.appendChild(renderFreshnessBar(data));
   }
 
+  /** The written report is download-only: render it into the (screen-hidden)
+   *  report panel, let the inline charts paint, then print. The print stylesheet
+   *  shows only #panel-report, so the browser's "Save as PDF" captures the report. */
+  function downloadReport() {
+    if (!state.data) return;
+    renderReport($('#panel-report'), state.data);
+    setTimeout(() => { try { window.print(); } catch (e) {} }, 450);
+  }
+
   /* ======================================================================= *
    * TABS + STATE
    * ======================================================================= */
   const TABS = [
     { id: 'deep', label: 'Deep Research', icon: I.chart },
-    { id: 'report', label: 'Report', icon: I.report },
     { id: 'youtube', label: 'YouTube', icon: I.video },
     { id: 'reports', label: 'Reports', icon: I.doc },
     { id: 'news', label: 'News', icon: I.news },
@@ -1174,7 +1191,6 @@
   function renderTab(id) {
     const panel = $('#panel-' + id);
     if (id === 'deep') return renderDeepShell();
-    if (id === 'report') return renderReport(panel, state.data);
     if (id === 'youtube') return renderYouTube(panel, state.data);
     if (id === 'reports') return renderReports(panel, state.data);
     if (id === 'news') return renderNews(panel, state.data);
