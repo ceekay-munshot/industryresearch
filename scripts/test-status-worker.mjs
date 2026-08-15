@@ -71,5 +71,40 @@ ok('POST -> 405', res405.status === 405);
 const body = await (await worker.fetch(get('slug=widgets'), makeEnv({ file: '{}' }))).json();
 ok('response exposes ONLY { state } (no internals)', Object.keys(body).length === 1 && 'state' in body);
 
+// ---- /api/research-cancel ----
+function cancelEnv({ runs = [], cancelStatus = 202, token = 'ghp', repo = 'o/r' } = {}) {
+  let cancelCalls = 0, lastCancelId = null;
+  const env = { GITHUB_TOKEN: token, GITHUB_REPO: repo, ASSETS: { fetch: async () => new Response('nf', { status: 404 }) },
+    _cancelCalls: () => cancelCalls, _lastCancelId: () => lastCancelId };
+  global.fetch = async (url, opts) => {
+    const u = String(url);
+    if (u.includes('/actions/workflows/research-industry.yml/runs')) return new Response(JSON.stringify({ workflow_runs: runs }), { status: 200 });
+    const m = u.match(/\/actions\/runs\/(\d+)\/cancel/);
+    if (m && (opts && opts.method) === 'POST') { cancelCalls++; lastCancelId = m[1]; return new Response(cancelStatus === 202 ? null : 'err', { status: cancelStatus }); }
+    throw new Error('unexpected fetch: ' + u);
+  };
+  return env;
+}
+const postCancel = (env) => worker.fetch(new Request('https://d.example.com/api/research-cancel', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' }), env);
+
+console.log('\n/api/research-cancel:');
+let e = cancelEnv({ runs: [{ id: 555, status: 'in_progress' }] });
+let cb = await (await postCancel(e)).json();
+ok('cancels the active run', cb.cancelled === true && e._cancelCalls() === 1 && e._lastCancelId() === '555');
+
+e = cancelEnv({ runs: [{ id: 9, status: 'completed', conclusion: 'success' }] });
+cb = await (await postCancel(e)).json();
+ok('no active run -> cancelled:false, no cancel call', cb.cancelled === false && e._cancelCalls() === 0);
+
+e = cancelEnv({ runs: [{ id: 7, status: 'in_progress' }], cancelStatus: 409 });
+cb = await (await postCancel(e)).json();
+ok('GitHub cancel fails -> cancelled:false + message', cb.cancelled === false && /Actions/.test(cb.message || ''));
+
+cb = await (await postCancel(cancelEnv({ token: '' }))).json();
+ok('no token -> configured:false, friendly', cb.cancelled === false && cb.configured === false && /Actions/.test(cb.message || ''));
+
+const c405 = await worker.fetch(new Request('https://d.example.com/api/research-cancel', { method: 'GET' }), cancelEnv({}));
+ok('GET -> 405', c405.status === 405);
+
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

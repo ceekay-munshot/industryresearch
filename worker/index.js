@@ -67,6 +67,16 @@ export default {
       }
     }
 
+    if (url.pathname === '/api/research-cancel') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      try {
+        return await handleResearchCancel(request, env);
+      } catch (err) {
+        console.error('[cancel] unhandled error:', err && err.stack ? err.stack : err);
+        return json({ ok: true, cancelled: false, configured: false, message: cancelManual() });
+      }
+    }
+
     if (url.pathname === '/api/research-status') {
       if (request.method !== 'GET') return json({ error: 'Method not allowed' }, 405, { Allow: 'GET' });
       // Never-fail: on any error report a safe "running" (the frontend also
@@ -279,6 +289,44 @@ async function handleResearch(request, env) {
 function manualSteps(industry) {
   const name = industry || 'the industry';
   return `One-click research isn't configured on this deployment. To research "${name}" manually: open the repo's GitHub → Actions → "Research Industry (full rebuild)" → Run workflow, and enter "${name}" as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.`;
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/research-cancel — cancel the currently-running research workflow.
+ * Needs GITHUB_TOKEN + GITHUB_REPO (same as dispatch). Returns only a simple
+ * { cancelled } flag; never leaks run ids or GitHub internals. Never crashes.
+ * ------------------------------------------------------------------ */
+function cancelManual() {
+  return "Couldn't stop the run automatically. You can cancel it from the repo's GitHub → Actions → the running \"Research Industry\" run → Cancel.";
+}
+
+async function handleResearchCancel(request, env) {
+  const token = env.GITHUB_TOKEN && String(env.GITHUB_TOKEN).trim();
+  const repo = env.GITHUB_REPO && String(env.GITHUB_REPO).trim();
+  if (!token || !repo) return json({ ok: true, cancelled: false, configured: false, message: cancelManual() });
+
+  const gh = (path, method) => fetch(`https://api.github.com/repos/${repo}${path}`, {
+    method: method || 'GET',
+    headers: {
+      Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'industry-research-dashboard',
+    },
+  });
+  try {
+    const res = await gh('/actions/workflows/research-industry.yml/runs?per_page=10');
+    if (!res.ok) return json({ ok: true, cancelled: false, configured: true, message: cancelManual() });
+    const data = await res.json();
+    const runs = Array.isArray(data.workflow_runs) ? data.workflow_runs : [];
+    const active = runs.find((r) => r && ['in_progress', 'queued', 'requested', 'waiting', 'pending'].includes(r.status));
+    if (!active) return json({ ok: true, cancelled: false, configured: true, message: 'No active run to cancel — it may have already finished.' });
+    const c = await gh(`/actions/runs/${active.id}/cancel`, 'POST');
+    if (c.status === 202) return json({ ok: true, cancelled: true, configured: true });
+    console.error(`[cancel] GitHub cancel HTTP ${c.status}`);
+    return json({ ok: true, cancelled: false, configured: true, message: cancelManual() });
+  } catch (err) {
+    console.error('[cancel] error:', err && err.message ? err.message : err);
+    return json({ ok: true, cancelled: false, configured: true, message: cancelManual() });
+  }
 }
 
 /* ------------------------------------------------------------------ *
