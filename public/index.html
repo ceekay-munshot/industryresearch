@@ -260,6 +260,25 @@
     .data-table td.num, .data-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
     .cell-primary { font-weight: 700; color: var(--ink); }
 
+    /* ---------- Benchmarking ---------- */
+    /* Two-class selector so the wide-table min-width wins over the mobile
+       `.data-table { min-width }` override — the 9 columns stay readable and
+       scroll inside .table-scroll instead of cramping. */
+    .data-table.bench-table { min-width: 860px; }
+    .bench-group td { background: var(--primary-soft); padding: 8px 14px; }
+    .data-table tbody tr.bench-group:hover td { background: var(--primary-soft); }
+    .bench-group-name { font-weight: 800; color: var(--primary-text); font-size: 12.5px; }
+    .bench-group-count { color: var(--ink-hint); font-size: 11.5px; font-weight: 600; }
+    .bench-median td { background: #fbfaff; font-weight: 700; color: var(--ink); }
+    .data-table tbody tr.bench-median:hover td { background: #f5f2ff; }
+    .bench-median-label { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-hint); font-weight: 800; }
+    .bench-median-count { color: var(--ink-hint); font-size: 11px; font-weight: 600; }
+    .bench-pending .cell-primary { color: var(--ink-2); font-weight: 600; }
+    .bench-pill { display: inline-flex; align-items: center; font-size: 10.5px; font-weight: 800; letter-spacing: .03em; text-transform: uppercase;
+      color: var(--warn); background: var(--warn-soft); border: 1px solid var(--warn-border); border-radius: 999px; padding: 2px 8px; margin-right: 8px; white-space: nowrap; }
+    .bench-pending-note { font-size: 12px; color: var(--ink-hint); }
+    .bench-caption { font-size: 12px; color: var(--ink-hint); margin-top: 10px; line-height: 1.5; }
+
     /* ---------- Value chain ---------- */
     .vc-track { display: flex; gap: 0; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
     .vc-stage { flex: 1 0 190px; min-width: 190px; position: relative; padding-right: 20px; }
@@ -622,6 +641,7 @@
 
     <!-- Tab panels -->
     <section id="panel-deep"    class="tab-panel" role="tabpanel"></section>
+    <section id="panel-benchmarking" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-report"  class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-youtube" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-reports" class="tab-panel hidden" role="tabpanel"></section>

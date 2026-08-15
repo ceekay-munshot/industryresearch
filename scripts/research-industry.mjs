@@ -34,7 +34,14 @@ import { writeFileSync, readFileSync, existsSync, mkdirSync, realpathSync } from
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { callClaudeJSON, llmConfig } from '../lib/llm.mjs';
-import { webSearch, newsSearch, webReader, normalizeSearch, normalizeReader } from '../lib/muns.mjs';
+import {
+  webSearch, newsSearch, webReader, normalizeSearch, normalizeReader,
+  stockSearch, combinedFinancials, streetEstimates, drhpByName, normalizeStockSearch,
+} from '../lib/muns.mjs';
+import {
+  BENCH_PROMPT_VERSION, FINANCIALS_SYSTEM, buildFinancialsUser, normalizeFinancials,
+  hasFinancials, pickListedMatch, drhpDocFrom, drhpExists, mergeBenchmarking, normName as benchNormName,
+} from '../lib/benchmark.mjs';
 import { firecrawlScrape, scrapedoScrape, mistralOCR, htmlToText, extractYouTubeFromHtml } from '../lib/scrape.mjs';
 import {
   loadLedger, saveLedger, upsertFacts, decayAndSupersede, supportByCategory,
@@ -968,6 +975,141 @@ async function buildReport(obj, incumbent, now) {
   return det;
 }
 
+/* ---- Peer benchmarking (Muns financials for listed, DRHP for unlisted) ---- */
+
+const BENCH_MAX = Number(process.env.BENCH_MAX || 16);          // players to benchmark
+const BENCH_CONCURRENCY = Number(process.env.BENCH_CONCURRENCY) || 4;
+const BENCH_MAX_TOKENS = 2000;                                  // small structured JSON
+
+/** Citeable source for a listed peer's financials (screener.in, via combined_financials). */
+function screenerSource(ticker) {
+  const t = String(ticker || '').trim();
+  return t ? { label: 'screener.in (combined financials)', url: `https://www.screener.in/company/${encodeURIComponent(t)}/consolidated/`, snippet: '' } : null;
+}
+
+/** A clean "pending — fill later (Private Circle)" peer row (never a blank). */
+function pendingPeer(player, reason, extra = {}) {
+  return pruneEmpty({
+    name: player.name,
+    listed: extra.listed !== undefined ? extra.listed : (player.listed === true ? true : (player.listed === false ? false : undefined)),
+    ticker: player.ticker || '',
+    segment: player.segment || '',
+    status: extra.status || 'pending',
+    pending: true,
+    pending_reason: reason || 'Private Circle',
+    prospectus: extra.prospectus,
+    source: extra.source,
+    updated_at: extra.updated_at,
+  });
+}
+
+/** Fetch combined_financials markdown for a ticker through the content cache.
+ *  Returns {text, content_hash} (fresh or cached-with-blob), {content_hash,text:null}
+ *  (fresh cache record but blob evicted — lets us reuse committed metrics by hash),
+ *  or null. Mirrors the reader/report cache path so re-runs don't refetch. */
+async function getFinancialsCached(cache, ticker, ctx) {
+  const key = `muns://combined_financials/${encodeURIComponent(ticker)}?country=India&q=consolidated`;
+  const hit = fetchCacheGet(cache, key, { ttlDays: ctx.ttlDays, now: ctx.now });
+  if (hit && hit.text) return { text: hit.text, content_hash: hit.content_hash, cached: true };
+  if (hit && hit.content_hash) return { text: null, content_hash: hit.content_hash, cached: true };
+  const md = await combinedFinancials(ticker);
+  if (!md || !String(md).trim()) return null;
+  const { content_hash } = fetchCachePut(cache, key, md, { api: 'combined_financials', now: ctx.now });
+  return { text: md, content_hash, cached: false };
+}
+
+/** Benchmark ONE player: resolve ticker → listed financials (cached, one Claude
+ *  extraction) OR unlisted DRHP prospectus OR a clean pending row. Never throws a
+ *  useful case away — every branch returns a usable peer. */
+async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, counters) {
+  const inc = incByName.get(benchNormName(player.name)) || null;
+  if (inc && inc.added_by === 'analyst') return inc;             // never clobber an analyst peer
+
+  // 1) Resolve a ticker: player's own, else a prior one, else birdnest search.
+  let ticker = String(player.ticker || '').trim();
+  let listed = player.listed === true || !!ticker;
+  if (!ticker && inc && inc.ticker) { ticker = inc.ticker; listed = true; }
+  if (!ticker && player.listed !== false) {
+    const results = normalizeStockSearch(await stockSearch(cleanCompanyName(player.name) || player.name));
+    const m = pickListedMatch(results, player.name);
+    if (m) { ticker = m.ticker; listed = true; }
+  }
+  const keepInc = () => (inc && (hasFinancials(inc) || inc.prospectus))
+    ? { ...inc, name: player.name, ticker: ticker || inc.ticker || '', segment: player.segment || inc.segment || '' } : null;
+
+  // 2) Listed → combined financials → reuse-by-hash OR one extraction.
+  if (listed && ticker) {
+    const fin = await getFinancialsCached(cache, ticker, ctx);
+    if (fin && fin.content_hash) {
+      const reuse = incByHash.get(fin.content_hash);
+      if (reuse && hasFinancials(reuse)) {
+        counters.reused++;
+        return pruneEmpty({ ...reuse, name: player.name, ticker, listed: true, segment: player.segment || reuse.segment || '', pending: false, status: 'listed', updated_at: ctx.now });
+      }
+      if (fin.text) {
+        let metrics = {};
+        try {
+          const raw = await callClaudeJSON({ system: FINANCIALS_SYSTEM, user: buildFinancialsUser(player.name, ticker, fin.text), max_tokens: BENCH_MAX_TOKENS, thinking: { type: 'disabled' } });
+          metrics = normalizeFinancials(raw);
+          counters.calls++;
+          extractPut(cache, extractKey(fin.content_hash, 0, BENCH_PROMPT_VERSION, ctx.modelId), Object.keys(metrics).length, ctx.now);
+        } catch (e) {
+          console.warn(`[bench] ${player.name}: extraction failed (${e.message})`);
+        }
+        if (hasFinancials(metrics)) {
+          const peer = pruneEmpty({
+            name: player.name, listed: true, ticker, segment: player.segment || '',
+            status: 'listed', pending: false, ...metrics,
+            fin_content_hash: fin.content_hash, source: screenerSource(ticker), updated_at: ctx.now,
+          });
+          try { const est = await streetEstimates(ticker); const note = est ? oneLine(String(est), 220) : ''; if (note) peer.forward_note = note; }
+          catch (e) { /* optional forward note */ }
+          return peer;
+        }
+      }
+    }
+    return keepInc() || pendingPeer({ ...player, ticker }, 'Financials pending (Private Circle)', { status: 'listed-pending', listed: true, updated_at: ctx.now });
+  }
+
+  // 3) Unlisted → DRHP prospectus link, else a clean pending row.
+  let drhp = null;
+  try { drhp = await drhpByName(cleanCompanyName(player.name) || player.name); } catch (e) { drhp = null; }
+  if (drhpExists(drhp)) {
+    const doc = drhpDocFrom(drhp);
+    return pruneEmpty({
+      name: player.name, listed: false, segment: player.segment || '',
+      status: 'unlisted-drhp', pending: true, pending_reason: 'From prospectus / Private Circle',
+      prospectus: doc ? { label: 'DRHP prospectus', url: doc.url } : undefined,
+      source: doc ? { label: 'DRHP prospectus', url: doc.url, snippet: '' } : undefined,
+      updated_at: ctx.now,
+    });
+  }
+  return keepInc() || pendingPeer(player, 'Private Circle', { status: 'unlisted', listed: player.listed === false ? false : undefined, updated_at: ctx.now });
+}
+
+/** Benchmarking stage: run every player (bounded concurrency, never-fail per
+ *  player), then merge write-if-better over the incumbent so a failed run can
+ *  never regress a filled peer to pending. Returns { generated_at, peers } or null. */
+async function runBenchmarking(players, incumbentBenchmarking, cache, ctx) {
+  const list = (players || []).filter((p) => p && p.name);
+  if (!list.length) return null;
+  const capped = list.slice(0, BENCH_MAX);
+  if (list.length > capped.length) console.log(`[bench] ${list.length} players; benchmarking top ${capped.length} (BENCH_MAX).`);
+  const incPeers = (incumbentBenchmarking && Array.isArray(incumbentBenchmarking.peers)) ? incumbentBenchmarking.peers : [];
+  const incByName = new Map(incPeers.map((p) => [benchNormName(p.name), p]));
+  const incByHash = new Map(incPeers.filter((p) => p.fin_content_hash && hasFinancials(p)).map((p) => [p.fin_content_hash, p]));
+  const counters = { calls: 0, reused: 0 };
+
+  const raw = await mapLimit(capped, BENCH_CONCURRENCY, async (player) => {
+    try { return await benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, counters); }
+    catch (e) { console.warn(`[bench] ${player.name}: failed (${e.message}) — pending`); return pendingPeer(player, 'Private Circle', { updated_at: ctx.now }); }
+  });
+  const peers = mergeBenchmarking(raw.filter(Boolean), incPeers);
+  const filled = peers.filter(hasFinancials).length;
+  console.log(`[bench] ${peers.length} peers: ${filled} with financials, ${peers.length - filled} pending; ${counters.calls} LLM calls, ${counters.reused} reused.`);
+  return { generated_at: ctx.now, peers };
+}
+
 async function main() {
   const cfg = llmConfig();
   const runId = process.env.GITHUB_RUN_ID ? `gh-${process.env.GITHUB_RUN_ID}` : `local-${Date.now()}`;
@@ -1054,6 +1196,24 @@ async function main() {
   obj.meta.updated_at = now;
   obj.meta.coverage = coverage;
   console.log(merged.changed.length ? `[research] sections improved: ${merged.changed.join(', ')}` : '[research] no section improved this run (output held steady — monotonic).');
+
+  // i2) peer benchmarking — real financials for listed players (Muns combined
+  //     financials → one grounded extraction), DRHP prospectus for unlisted, and
+  //     a clean "pending (Private Circle)" row otherwise. Never-fail, additive,
+  //     cached, write-if-better per peer. Kept from the prior run when MUNS_TOKEN
+  //     is absent or the step fails, so it can only hold or improve.
+  try {
+    if (process.env.MUNS_TOKEN && Array.isArray(obj.players) && obj.players.length) {
+      const bench = await runBenchmarking(obj.players, incumbent.benchmarking, cache, ctx);
+      if (bench && bench.peers && bench.peers.length) obj.benchmarking = bench;
+      else if (incumbent.benchmarking) obj.benchmarking = incumbent.benchmarking;
+    } else if (incumbent.benchmarking) {
+      obj.benchmarking = incumbent.benchmarking;
+    }
+  } catch (e) {
+    console.warn(`[research] benchmarking step failed (kept prior): ${e && e.message ? e.message : e}`);
+    if (incumbent.benchmarking) obj.benchmarking = incumbent.benchmarking;
+  }
 
   // k) consolidated written report (derived, cached, never-fail)
   obj.summary = (obj.summary && typeof obj.summary === 'object') ? obj.summary : {};

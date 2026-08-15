@@ -145,6 +145,7 @@
   const I = {
     link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
     chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M3 3v18h18"/><rect x="7" y="10" width="3" height="7"/><rect x="12" y="6" width="3" height="11"/><rect x="17" y="13" width="3" height="4"/></svg>',
+    bench: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M3 3v18h18"/><rect x="7" y="9" width="4" height="8" rx="1"/><rect x="14" y="5" width="4" height="12" rx="1"/></svg>',
     video: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="m10 9 5 3-5 3z" fill="currentColor" stroke="none"/></svg>',
     doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M14 3v5h5"/><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M9 13h6M9 17h6"/></svg>',
     news: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M4 5h13v14a2 2 0 0 1-2 2H5a2 2 0 0 1-1-3.9"/><path d="M17 7h2a1 1 0 0 1 1 1v9a2 2 0 0 1-2 2"/><path d="M8 8h6M8 12h6M8 16h3"/></svg>',
@@ -814,6 +815,155 @@
   /* ======================================================================= *
    * OTHER TABS
    * ======================================================================= */
+  /* ======================================================================= *
+   * BENCHMARKING — peer financials, grouped by sub-segment with a median row
+   * per group, plus revenue and EBITDA% bar charts. Listed peers carry real
+   * screener financials; unlisted / not-yet-available peers show a clear
+   * "Pending (Private Circle)" row — never a blank cell.
+   * ======================================================================= */
+  const BENCH_KEYS = ['revenue', 'revenue_cagr_3y_pct', 'ebitda_pct', 'pat_pct', 'roce_pct', 'roe_pct'];
+  const hasAnyMetric = (p) => BENCH_KEYS.some((k) => p && p[k] != null);
+
+  function revCell(p) {
+    if (p.revenue == null) return '—';
+    return h('span', {}, formatSize({ value: p.revenue, unit: p.revenue_unit }, true),
+      p.revenue_year ? h('span', { class: 'text-slate-400 text-[11px]' }, ' ’' + String(p.revenue_year).slice(-2)) : null);
+  }
+  const BENCH_METRICS = [
+    { key: 'revenue', label: 'Revenue', fmt: revCell },
+    { key: 'revenue_cagr_3y_pct', label: 'Rev 3Y CAGR', fmt: (p) => pct(p.revenue_cagr_3y_pct) },
+    { key: 'ebitda_pct', label: 'EBITDA %', fmt: (p) => pct(p.ebitda_pct) },
+    { key: 'pat_pct', label: 'PAT %', fmt: (p) => pct(p.pat_pct) },
+    { key: 'roce_pct', label: 'RoCE', fmt: (p) => pct(p.roce_pct) },
+    { key: 'roe_pct', label: 'RoE', fmt: (p) => pct(p.roe_pct) },
+  ];
+
+  function groupPeers(peers) {
+    const map = new Map();
+    for (const p of peers) {
+      const seg = (p.segment && String(p.segment).trim()) || 'Other';
+      if (!map.has(seg)) map.set(seg, []);
+      map.get(seg).push(p);
+    }
+    return [...map.entries()].map(([name, ps]) => ({ name, peers: ps }));
+  }
+  function medianLocal(nums) {
+    const xs = (nums || []).map(Number).filter((n) => !isNaN(n)).sort((a, b) => a - b);
+    if (!xs.length) return null;
+    const mid = Math.floor(xs.length / 2);
+    return xs.length % 2 ? xs[mid] : (xs[mid - 1] + xs[mid]) / 2;
+  }
+  const firstUnit = (peers) => { const p = (peers || []).find((x) => x.revenue_unit); return p ? p.revenue_unit : ''; };
+  function benchListedCell(p) {
+    if (p.listed === true) return badge(p.ticker ? p.ticker : 'Listed', 'brand');
+    if (p.listed === false) return badge(p.status === 'unlisted-drhp' ? 'Unlisted' : 'Private', 'neutral');
+    return '—';
+  }
+  function benchSourceCell(p) {
+    if (p.source && p.source.url) return sourceChip(p.source, { short: true });
+    if (p.prospectus && p.prospectus.url) return sourceChip({ label: p.prospectus.label || 'Prospectus', url: p.prospectus.url }, { short: true });
+    return '—';
+  }
+  function benchBarCard(title, subtitle, peers, valOf, fmt) {
+    const { box, canvas } = chartBox(Math.max(150, peers.length * 40 + 28));
+    requestAnimationFrame(() => newChart(canvas, {
+      type: 'bar',
+      data: { labels: peers.map((p) => p.name), datasets: [{ data: peers.map(valOf), backgroundColor: peers.map((_, i) => color(i)), borderRadius: 7, borderSkipped: false, barThickness: 18 }] },
+      options: {
+        indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+        layout: { padding: { right: 66 } },
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => fmt(c.parsed.x) } } },
+        scales: {
+          x: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => fmt(v) } },
+          y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 22 ? l.slice(0, 21) + '…' : l; } } },
+        },
+      },
+      plugins: [valueLabels((v) => fmt(v), 'y')],
+    }));
+    return card({ title, subtitle, className: 'min-w-0', body: box });
+  }
+
+  function renderBenchmarking(root, data) {
+    root.innerHTML = '';
+    const b = data.benchmarking;
+    const peers = (b && Array.isArray(b.peers)) ? b.peers.filter((p) => p && p.name) : [];
+    if (!peers.length) { root.appendChild(card({ hoverable: false, body: emptyState('No benchmarking yet', 'Peer financials appear here once a run gathers them.') })); return; }
+
+    const groups = groupPeers(peers);
+    const showGroupHead = groups.length > 1 || groups[0].name !== 'Other';
+    const totalCols = 2 + BENCH_METRICS.length + 1;
+
+    const thead = h('thead', {}, h('tr', {},
+      h('th', {}, 'Company'), h('th', {}, 'Listed'),
+      ...BENCH_METRICS.map((m) => h('th', { class: 'num' }, m.label)),
+      h('th', {}, 'Source')));
+    const tbody = h('tbody', {});
+
+    const filledRow = (p) => h('tr', {},
+      h('td', { class: 'cell-company' },
+        h('div', { class: 'cell-primary' }, p.name),
+        p.forward_note ? h('div', { class: 'cell-note', title: p.forward_note }, p.forward_note) : null),
+      h('td', {}, benchListedCell(p)),
+      ...BENCH_METRICS.map((m) => h('td', { class: 'num' }, p[m.key] != null ? m.fmt(p) : '—')),
+      h('td', {}, benchSourceCell(p)));
+
+    const pendingRow = (p) => h('tr', { class: 'bench-pending' },
+      h('td', { class: 'cell-company' }, h('div', { class: 'cell-primary' }, p.name)),
+      h('td', {}, benchListedCell(p)),
+      h('td', { class: 'bench-pending-cell', colspan: String(BENCH_METRICS.length) },
+        h('span', { class: 'bench-pill' }, 'Pending'),
+        h('span', { class: 'bench-pending-note' }, p.pending_reason || 'Private Circle')),
+      h('td', {}, benchSourceCell(p)));
+
+    const medianRow = (ps) => {
+      const withFin = ps.filter((p) => !p.pending && hasAnyMetric(p));
+      if (withFin.length < 2) return null;                 // a "median" of one isn't meaningful
+      return h('tr', { class: 'bench-median' },
+        h('td', {}, h('span', { class: 'bench-median-label' }, 'Median'), h('span', { class: 'bench-median-count' }, ' · ' + withFin.length)),
+        h('td', {}),
+        ...BENCH_METRICS.map((m) => {
+          const med = medianLocal(withFin.map((p) => p[m.key]).filter((v) => v != null && !isNaN(Number(v))));
+          if (med == null) return h('td', { class: 'num' }, '—');
+          return h('td', { class: 'num' }, m.key === 'revenue'
+            ? formatSize({ value: med, unit: firstUnit(withFin) }, true)
+            : pct(Math.round(med * 10) / 10));
+        }),
+        h('td', {}));
+    };
+
+    for (const g of groups) {
+      if (showGroupHead) tbody.appendChild(h('tr', { class: 'bench-group' },
+        h('td', { colspan: String(totalCols) },
+          h('span', { class: 'bench-group-name' }, g.name),
+          h('span', { class: 'bench-group-count' }, ' · ' + g.peers.length + (g.peers.length === 1 ? ' peer' : ' peers')))));
+      const filled = g.peers.filter((p) => !p.pending && hasAnyMetric(p));
+      const pend = g.peers.filter((p) => p.pending || !hasAnyMetric(p));
+      filled.forEach((p) => tbody.appendChild(filledRow(p)));
+      pend.forEach((p) => tbody.appendChild(pendingRow(p)));
+      const mr = medianRow(g.peers);
+      if (mr) tbody.appendChild(mr);
+    }
+
+    const table = h('table', { class: 'data-table bench-table' }, thead, tbody);
+    const pendingCount = peers.filter((p) => p.pending || !hasAnyMetric(p)).length;
+    const sub = `${peers.length} peer${peers.length === 1 ? '' : 's'}` + (pendingCount ? ` · ${pendingCount} pending (Private Circle)` : '');
+    const legend = pendingCount ? h('p', { class: 'bench-caption' },
+      h('span', { class: 'bench-pill' }, 'Pending'),
+      ' rows are unlisted or not yet available — sourced from a prospectus / Private Circle, they fill in as data lands.') : null;
+    root.appendChild(card({ title: 'Peer benchmarking', subtitle: sub, className: 'min-w-0',
+      body: h('div', {}, h('div', { class: 'table-scroll' }, table), legend) }));
+
+    // Charts — revenue by player + EBITDA% by player (peers that carry the metric).
+    const charts = [];
+    const revPeers = peers.filter((p) => p.revenue != null).sort((a, b) => Number(b.revenue) - Number(a.revenue)).slice(0, 12);
+    if (revPeers.length >= 2) charts.push(benchBarCard('Revenue by player', firstUnit(revPeers) || 'latest FY', revPeers,
+      (p) => Number(p.revenue), (v) => formatSize({ value: v, unit: firstUnit(revPeers) }, true)));
+    const ebPeers = peers.filter((p) => p.ebitda_pct != null).sort((a, b) => Number(b.ebitda_pct) - Number(a.ebitda_pct)).slice(0, 12);
+    if (ebPeers.length >= 2) charts.push(benchBarCard('EBITDA % by player', 'operating margin', ebPeers,
+      (p) => Number(p.ebitda_pct), (v) => v + '%'));
+    if (charts.length) root.appendChild(h('div', { class: 'grid gap-4 mt-4 grid-cols-1 lg:grid-cols-2 items-start' }, ...charts));
+  }
+
   function renderYouTube(root, data) {
     root.innerHTML = '';
     const vids = ((data.sources && data.sources.youtube) || []).filter((v) => has(v.title) || has(v.url));
@@ -1163,11 +1313,13 @@
    * ======================================================================= */
   const TABS = [
     { id: 'deep', label: 'Deep Research', icon: I.chart },
+    { id: 'benchmarking', label: 'Benchmarking', icon: I.bench, available: (d) => d && d.benchmarking && Array.isArray(d.benchmarking.peers) && d.benchmarking.peers.length > 0 },
     { id: 'youtube', label: 'YouTube', icon: I.video },
     { id: 'reports', label: 'Reports', icon: I.doc },
     { id: 'news', label: 'News', icon: I.news },
     { id: 'chat', label: 'Chat', icon: I.chat },
   ];
+  const tabAvailable = (t) => (typeof t.available === 'function' ? t.available(state.data) : true);
   const state = { data: null, slug: null, index: null, activeTab: 'deep', activeSub: null };
   const renderedTabs = new Set();
   const renderedSubs = new Set();
@@ -1175,7 +1327,9 @@
   function buildTabbar() {
     const bar = $('#tabbar');
     bar.innerHTML = '';
-    TABS.forEach((t) => bar.appendChild(h('button', {
+    // A tab may declare availability (e.g. Benchmarking only when peers exist).
+    if (!TABS.find((t) => t.id === state.activeTab && tabAvailable(t))) state.activeTab = 'deep';
+    TABS.filter(tabAvailable).forEach((t) => bar.appendChild(h('button', {
       class: 'tab-btn' + (t.id === state.activeTab ? ' active' : ''), 'data-tab': t.id, role: 'tab',
       onClick: () => showTab(t.id),
     }, h('span', { html: t.icon }), t.label)));
@@ -1191,6 +1345,7 @@
   function renderTab(id) {
     const panel = $('#panel-' + id);
     if (id === 'deep') return renderDeepShell();
+    if (id === 'benchmarking') return renderBenchmarking(panel, state.data);
     if (id === 'youtube') return renderYouTube(panel, state.data);
     if (id === 'reports') return renderReports(panel, state.data);
     if (id === 'news') return renderNews(panel, state.data);
@@ -1250,6 +1405,7 @@
       recordView(slug, (data.meta && data.meta.name) || slug);
       setIndustryLock((data.meta && data.meta.name) || slug);
       renderIndustryHeader(data);
+      buildTabbar();   // rebuild with data-aware availability (e.g. Benchmarking only when peers exist)
       $('#footer-note').textContent = 'Showing ' + ((data.meta && data.meta.name) || slug);
       showTab(state.activeTab || 'deep');
     } catch (e) {

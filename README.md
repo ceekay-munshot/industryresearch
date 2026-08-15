@@ -97,12 +97,16 @@ renders except the Chat tab, which needs the Worker route.
    long scroll: _Overview_ (headline, takeaways, market size, segments),
    _Growth & dynamics_ (drivers, tailwinds vs headwinds), _Value chain & channels_,
    _Players & supply_ (players table, market-share doughnut, optional Supply &
-   Trade block), and _Full report_ (collapsible written summary).
-2. **Report** — a consolidated, source-backed **written report** generated from the
-   assembled data: section-by-section prose with highlighted key numbers, the
-   dashboard charts embedded inline, per-section source chips, a "data as of"
-   freshness line, and a Sources appendix. A **Download PDF** button prints it to a
-   clean A4 hand-out (nav/tabs/controls hidden, charts kept).
+   Trade block), and _Full report_ (collapsible written summary). The industry
+   header carries a **Download report** button that prints this written report to
+   a clean A4 PDF (nav/tabs/controls hidden, charts kept).
+2. **Benchmarking** — a **peer financial comparison** built from real filings:
+   a table (grouped by sub-segment, with a **median row per group**) of revenue,
+   3-year revenue CAGR, EBITDA %, PAT %, RoCE and RoE per player, plus **revenue**
+   and **EBITDA %** bar charts. Listed players carry real screener financials;
+   unlisted / not-yet-available players show a clear **"Pending (Private Circle)"**
+   row — never a blank cell. The tab only appears once a run has gathered peer
+   data. See [Peer benchmarking](#peer-benchmarking-benchmarking-tab).
 3. **YouTube** — grid of relevant video cards.
 4. **Reports** — broker / industry / policy reports.
 5. **News** — recent headlines with sentiment badges.
@@ -284,6 +288,46 @@ BSE), and Screener / Trendlyne / Tickertape (ToS forbids scraping).
 All workflows use Node 22 with no `npm install` (global `fetch` + stdlib only).
 Guarantees for the store and the feed parsers are covered by
 `node scripts/test-store.mjs` and `node scripts/test-feeds.mjs`.
+
+---
+
+## Peer benchmarking (Benchmarking tab)
+
+After the players are assembled, the pipeline runs a **benchmarking stage** that
+pulls **real, source-backed financials** for each player and writes them into a
+`benchmarking` block on the industry JSON. It powers the **Benchmarking** tab.
+
+Per player (bounded concurrency, **never-fail per player**):
+
+1. **Resolve a ticker** — the player's own `ticker`, else Muns company search
+   (`birdnest.muns.io/stock/search`, `user_index: 124`) for the best **India-listed**
+   match (guarded by a name check so a coincidental ticker isn't taken).
+2. **Listed → combined financials** — `POST devde.muns.io/filings/combined_financials`
+   `{ ticker, country: "India", q: "consolidated" }` returns screener.in markdown,
+   which **one grounded Claude call** distils into `{ revenue, revenue_unit,
+   revenue_year, revenue_cagr_3y_pct, ebitda_pct, pat_pct, roce_pct, roe_pct }` —
+   **only** what the document states (unknowns omitted, never invented). The source
+   is the company's screener.in page. An optional `street_estimates` call adds a
+   short forward note.
+3. **Unlisted → DRHP** — `GET devde.muns.io/filings/drhp/<name>`; if a prospectus
+   exists the peer is marked unlisted with the **prospectus link** and financials
+   **"pending — from prospectus / Private Circle"**; otherwise a clean
+   **"pending (Private Circle)"** row. Pending peers are shown clearly, never as
+   blank cells, and are shaped so a later source (Private Circle) fills them **in
+   place** with no rework.
+
+**Additive, cached, monotonic:** the combined-financials fetch goes through the
+content cache (a re-run within the TTL doesn't refetch; an unchanged document
+reuses the prior extraction with **no** Claude call, keyed by content hash). The
+result is merged **write-if-better per peer** — a failed run can never regress a
+filled peer back to "pending", and an **analyst-added** peer (see Add/Edit) is
+never clobbered. The whole stage is skipped gracefully (keeping any prior data)
+when `MUNS_TOKEN` isn't set. It reuses the pipeline's `MUNS_TOKEN`
+(GitHub Actions secret) — the same one the rest of the research pipeline uses.
+
+The pure logic (grounded-financials normalization, India-listed matching, DRHP
+extraction, per-peer write-if-better merge, median) is covered by
+`node scripts/test-benchmark.mjs`.
 
 ---
 
