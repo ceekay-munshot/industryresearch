@@ -333,15 +333,12 @@ async function fetchPageText(url) {
  *  is precise). Returns [{url,text,content_hash,cached}]. */
 async function readPages(urlObjs, cache, ctx) {
   const urls = urlObjs.map((u) => u.url).filter(Boolean);
-  const out = [];
-  let cachedN = 0;
-  for (const url of urls) {
+  const results = await mapLimit(urls, READ_CONCURRENCY, async (url) => {
     const src = await cachedFetchText(cache, url, 'muns-reader', () => fetchPageText(url), ctx);
-    if (src && src.text) {
-      out.push({ url, text: src.text, content_hash: src.content_hash, cached: src.cached });
-      if (src.cached) cachedN++;
-    }
-  }
+    return (src && src.text) ? { url, text: src.text, content_hash: src.content_hash, cached: src.cached } : null;
+  });
+  const out = results.filter(Boolean);
+  const cachedN = out.filter((o) => o.cached).length;
   console.log(`[research] read ${out.length}/${urls.length} pages (${cachedN} from cache).`);
   return out;
 }
@@ -472,18 +469,17 @@ async function readReports(reportCands, cache, ctx) {
   if (ranked.length > toRead.length) {
     console.log(`[research] ${ranked.length} report candidates; reading ${toRead.length} (REPORT_READ_CAP), skipping ${ranked.length - toRead.length}.`);
   }
-  const out = [];
-  let cachedN = 0;
-  for (const c of toRead) {
+  const results = await mapLimit(toRead, READ_CONCURRENCY, async (c) => {
     const src = await cachedFetchText(cache, c.url, 'report', () => fetchReportText(c).then((r) => (r ? r.text : null)), ctx);
     if (src && src.text) {
-      out.push({ url: c.url, text: src.text, content_hash: src.content_hash, cached: src.cached });
-      if (src.cached) cachedN++;
       console.log(`[research] report read ${src.cached ? 'CACHE' : 'OK   '} ${c.url} (${src.text.length} chars)`);
-    } else {
-      console.log(`[research] report read FAIL ${c.url}`);
+      return { url: c.url, text: src.text, content_hash: src.content_hash, cached: src.cached };
     }
-  }
+    console.log(`[research] report read FAIL ${c.url}`);
+    return null;
+  });
+  const out = results.filter(Boolean);
+  const cachedN = out.filter((o) => o.cached).length;
   console.log(`[research] read ${out.length}/${toRead.length} report sources (${cachedN} from cache).`);
   return out;
 }
@@ -620,17 +616,35 @@ async function extractFactsFromSource(source, idx, total, cache, ctx) {
  *  extraction cache so unchanged chunks cost no LLM call. Returns the freshly
  *  extracted facts (to upsert into the ledger) and the set of content hashes seen
  *  this run (whose ledger facts get their last_seen bumped). */
+/** Run `fn` over items with at most `limit` in flight. Order-preserving; a thrown
+ *  item resolves to null so one bad source never sinks the batch. */
+async function mapLimit(items, limit, fn) {
+  const out = new Array(items.length);
+  let next = 0;
+  const worker = async () => {
+    while (next < items.length) {
+      const i = next++;
+      try { out[i] = await fn(items[i], i); } catch (e) { out[i] = null; }
+    }
+  };
+  await Promise.all(Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, worker));
+  return out;
+}
+
+const STAGE_A_CONCURRENCY = Number(process.env.STAGE_A_CONCURRENCY) || 5;
+const READ_CONCURRENCY = Number(process.env.READ_CONCURRENCY) || 4;
+
 async function runStageA(fullTextSources, cache, ctx) {
-  const all = [];
   const seenHashes = new Set();
+  for (const s of fullTextSources) if (s && s.content_hash) seenHashes.add(s.content_hash);
+  // Each source is its own Claude call, so extract several at once — this turns a
+  // long sequential grind into a short burst. Bedrock throttling (429) is handled
+  // by the retry/backoff in lib/llm.mjs, and the per-source cache keys don't collide.
+  const results = await mapLimit(fullTextSources, STAGE_A_CONCURRENCY,
+    (s, i) => extractFactsFromSource(s, i, fullTextSources.length, cache, ctx));
+  const all = [];
   let calls = 0, hits = 0;
-  for (let i = 0; i < fullTextSources.length; i++) {
-    const s = fullTextSources[i];
-    if (s.content_hash) seenHashes.add(s.content_hash);
-    const r = await extractFactsFromSource(s, i, fullTextSources.length, cache, ctx);
-    all.push(...r.facts);
-    calls += r.calls; hits += r.hits;
-  }
+  for (const r of results) { if (r && r.facts) { all.push(...r.facts); calls += r.calls || 0; hits += r.hits || 0; } }
   const deduped = dedupeFacts(all);
   console.log(`[research] Stage A: ${deduped.length} new facts from ${fullTextSources.length} sources (${calls} LLM calls, ${hits} chunks served from cache).`);
   return { facts: deduped, seenHashes };
