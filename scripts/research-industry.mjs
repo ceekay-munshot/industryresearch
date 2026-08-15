@@ -36,11 +36,11 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { callClaudeJSON, llmConfig } from '../lib/llm.mjs';
 import {
   webSearch, newsSearch, webReader, normalizeSearch, normalizeReader,
-  stockSearch, combinedFinancials, streetEstimates, drhpByName, normalizeStockSearch,
+  stockSearch, combinedFinancials, streetEstimates, drhpByName, drhpSearch, normalizeStockSearch,
 } from '../lib/muns.mjs';
 import {
   BENCH_PROMPT_VERSION, FINANCIALS_SYSTEM, buildFinancialsUser, normalizeFinancials,
-  hasFinancials, pickListedMatch, drhpDocFrom, drhpExists, mergeBenchmarking, normName as benchNormName,
+  hasFinancials, pickListedMatch, drhpDocFrom, drhpExists, drhpFinancialsText, mergeBenchmarking, normName as benchNormName,
 } from '../lib/benchmark.mjs';
 import { parseOverrides, applyOverrides } from '../lib/overrides.mjs';
 import { firecrawlScrape, scrapedoScrape, mistralOCR, htmlToText, extractYouTubeFromHtml } from '../lib/scrape.mjs';
@@ -1019,6 +1019,31 @@ async function getFinancialsCached(cache, ticker, ctx) {
   return { text: md, content_hash, cached: false };
 }
 
+/** For an UNLISTED company, get financials from its DRHP prospectus so we don't
+ *  default to "pending (Private Circle)" when a filing exists. Prefers financial
+ *  text straight from the DRHP API response; else OCRs the prospectus PDF (cached).
+ *  Returns { text, content_hash, doc } (doc = the prospectus link, may lack text),
+ *  or null when no DRHP is on file. Never throws. */
+async function getDrhpFinancials(cache, name, ctx) {
+  let drhp = null;
+  try { drhp = await drhpByName(name); } catch (e) { drhp = null; }
+  if (!drhpExists(drhp)) { try { drhp = await drhpSearch(name); } catch (e) { /* keep prior */ } }
+  if (!drhpExists(drhp)) return null;
+  const doc = drhpDocFrom(drhp);
+  // 1) financial text embedded in the DRHP response.
+  let text = drhpFinancialsText(drhp);
+  let content_hash = null;
+  if (text) {
+    const put = fetchCachePut(cache, `muns://drhp/${encodeURIComponent(name)}#body`, text, { api: 'drhp', now: ctx.now });
+    content_hash = put.content_hash;
+  } else if (doc && doc.url && isPdf(doc.url)) {
+    // 2) OCR the prospectus PDF (through the content cache, like a report).
+    const src = await cachedFetchText(cache, doc.url, 'drhp-ocr', async () => { const r = await mistralOCR(doc.url); return r ? r.text : null; }, ctx);
+    if (src && src.text) { text = src.text; content_hash = src.content_hash; }
+  }
+  return { text: text || null, content_hash, doc };
+}
+
 /** Benchmark ONE player: resolve ticker → listed financials (cached, one Claude
  *  extraction) OR unlisted DRHP prospectus OR a clean pending row. Never throws a
  *  useful case away — every branch returns a usable peer. */
@@ -1072,17 +1097,44 @@ async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, coun
     return keepInc() || pendingPeer({ ...player, ticker }, 'Financials pending (Private Circle)', { status: 'listed-pending', listed: true, updated_at: ctx.now });
   }
 
-  // 3) Unlisted → DRHP prospectus link, else a clean pending row.
-  let drhp = null;
-  try { drhp = await drhpByName(cleanCompanyName(player.name) || player.name); } catch (e) { drhp = null; }
-  if (drhpExists(drhp)) {
-    const doc = drhpDocFrom(drhp);
-    return pruneEmpty({
+  // 3) Unlisted → pull financials from the DRHP prospectus if one exists (extract,
+  //    don't just link). Only fall back to "pending (Private Circle)" when there is
+  //    no DRHP, or none of its financials are extractable.
+  const drName = cleanCompanyName(player.name) || player.name;
+  let dr = null;
+  try { dr = await getDrhpFinancials(cache, drName, ctx); } catch (e) { dr = null; }
+  if (dr) {
+    const prospectus = dr.doc && dr.doc.url ? { label: 'DRHP prospectus', url: dr.doc.url } : undefined;
+    const drSource = prospectus ? { label: 'DRHP prospectus', url: dr.doc.url, snippet: '' } : undefined;
+    if (dr.content_hash) {
+      const reuse = incByHash.get(dr.content_hash);
+      if (reuse && hasFinancials(reuse)) {
+        counters.reused++;
+        return pruneEmpty({ ...reuse, name: player.name, listed: false, segment: player.segment || reuse.segment || '', pending: false, status: 'unlisted-drhp', updated_at: ctx.now });
+      }
+      if (dr.text) {
+        let metrics = {};
+        try {
+          const raw = await callClaudeJSON({ system: FINANCIALS_SYSTEM, user: buildFinancialsUser(player.name, '', dr.text), max_tokens: BENCH_MAX_TOKENS, thinking: { type: 'disabled' } });
+          metrics = normalizeFinancials(raw);
+          counters.calls++;
+          extractPut(cache, extractKey(dr.content_hash, 0, BENCH_PROMPT_VERSION, ctx.modelId), Object.keys(metrics).length, ctx.now);
+        } catch (e) { console.warn(`[bench] ${player.name}: DRHP extraction failed (${e.message})`); }
+        if (hasFinancials(metrics)) {
+          return pruneEmpty({
+            name: player.name, listed: false, segment: player.segment || '',
+            status: 'unlisted-drhp', pending: false, ...metrics,
+            fin_content_hash: dr.content_hash, source: drSource, prospectus,
+            note: 'Financials from DRHP prospectus', updated_at: ctx.now,
+          });
+        }
+      }
+    }
+    // A DRHP exists but we couldn't extract numbers — link it + clean pending.
+    return keepInc() || pruneEmpty({
       name: player.name, listed: false, segment: player.segment || '',
       status: 'unlisted-drhp', pending: true, pending_reason: 'From prospectus / Private Circle',
-      prospectus: doc ? { label: 'DRHP prospectus', url: doc.url } : undefined,
-      source: doc ? { label: 'DRHP prospectus', url: doc.url, snippet: '' } : undefined,
-      updated_at: ctx.now,
+      prospectus, source: drSource, updated_at: ctx.now,
     });
   }
   return keepInc() || pendingPeer(player, 'Private Circle', { status: 'unlisted', listed: player.listed === false ? false : undefined, updated_at: ctx.now });

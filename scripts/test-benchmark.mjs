@@ -7,7 +7,7 @@
  */
 import {
   normalizeFinancials, hasFinancials, normName, nameMatchScore, pickListedMatch,
-  drhpDocFrom, drhpExists, peerStrength, mergeBenchmarking, median,
+  drhpDocFrom, drhpExists, drhpFinancialsText, peerStrength, mergeBenchmarking, median,
 } from '../lib/benchmark.mjs';
 
 let pass = 0, fail = 0;
@@ -52,6 +52,13 @@ ok('finds a nested pdf link', (drhpDocFrom({ data: { filing: { pdf_url: 'https:/
 ok('finds a link inside a results array', (drhpDocFrom({ results: [{ url: 'https://y.com/a.pdf', title: 'ABC DRHP' }] }) || {}).title === 'ABC DRHP');
 ok('exists via non-empty results even without a link', drhpExists({ results: [{ company: 'Foo' }] }) === true);
 ok('no filing -> not exists', drhpExists({ results: [] }) === false && drhpExists(null) === false);
+
+console.log('drhpFinancialsText — pull the financial body, ignore junk:');
+const finBody = 'Restated Financial Statements. Revenue from operations was ₹ 1,240 crore in fiscal 2025, up from ₹ 980 crore. '.repeat(6);
+ok('finds a substantial financial text block', drhpFinancialsText({ data: { document: { body: finBody } } }) === finBody);
+ok('ignores a long NON-financial string', drhpFinancialsText({ about: 'x'.repeat(2000) }) === '');
+ok('ignores short financial snippets', drhpFinancialsText({ note: 'Revenue ₹5 cr' }) === '');
+ok('null/empty -> empty string', drhpFinancialsText(null) === '' && drhpFinancialsText({}) === '');
 
 console.log('peerStrength + mergeBenchmarking — write-if-better, never clobber analyst:');
 const filled = { name: 'Greenpanel', ticker: 'GREENPANEL', revenue: 1600, ebitda_pct: 14, roce_pct: 18, source: { url: 'https://screener.in/x' } };
