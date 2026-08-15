@@ -19,6 +19,12 @@
  *   BEDROCK_MODEL_ID  (default "us.anthropic.claude-sonnet-5")
  */
 
+// The override validate/apply logic is a PURE module (no top-level process / node
+// builtins), so it bundles cleanly into the Worker — unlike lib/llm.mjs, which the
+// Worker re-implements because it reads process.env at load. Sharing it keeps the
+// Worker's immediate dashboard patch and the pipeline's replay byte-for-byte identical.
+import { validateOverride, applyOne, serializeOverride } from '../lib/overrides.mjs';
+
 const JSON_HEADERS = { 'Content-Type': 'application/json; charset=utf-8' };
 const ANTHROPIC_VERSION = 'bedrock-2023-05-31';
 // Keep the grounded context within a sane token budget. ~4 chars/token, so
@@ -52,6 +58,30 @@ export default {
         // Never-fail: treat the raw query as a literal industry name.
         const q = await safeQuery(request);
         return json({ type: 'industry', industry_name: q, slug: slugify(q), matched: false, fallback: true });
+      }
+    }
+
+    if (url.pathname === '/api/stock-search') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      // Never-fail: the dropdown is an assist, so any error → an empty list and
+      // plain industry search still works untouched.
+      try {
+        return await handleStockSearch(request, env);
+      } catch (err) {
+        console.error('[stock-search] unhandled error:', err && err.stack ? err.stack : err);
+        return json({ results: [] });
+      }
+    }
+
+    if (url.pathname === '/api/edit') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      // Never-fail: any error becomes a friendly, non-200-crash response with
+      // manual steps so an analyst edit never dead-ends.
+      try {
+        return await handleEdit(request, env);
+      } catch (err) {
+        console.error('[edit] unhandled error:', err && err.stack ? err.stack : err);
+        return json({ ok: true, saved: false, configured: false, message: editManual() });
       }
     }
 
@@ -182,6 +212,7 @@ async function handleResolve(request, env) {
   let body = {};
   try { body = await request.json(); } catch { body = {}; }
   const query = typeof (body && body.query) === 'string' ? body.query.trim() : '';
+  const sector = typeof (body && body.sector) === 'string' ? body.sector.trim() : '';
   if (!query) return json({ type: 'industry', industry_name: '', slug: '', matched: false, empty: true });
 
   const index = await loadIndex(env, request);
@@ -190,11 +221,12 @@ async function handleResolve(request, env) {
   const direct = matchIndustry(index, query);
   if (direct) return json({ type: 'industry', slug: direct.slug, industry_name: direct.name || query, matched: true });
 
-  // 2) Classify with Claude (company vs industry). If no key / any failure, the
-  //    literal fallback below still gives a usable result.
+  // 2) Classify with Claude (company vs industry). A sector hint (from the
+  //    autocomplete pick) sharpens the company→industry inference. If no key /
+  //    any failure, the literal fallback below still gives a usable result.
   let cls = null;
   try {
-    cls = await classifyQuery(env, query);
+    cls = await classifyQuery(env, query, sector);
   } catch (err) {
     console.warn('[resolve] classify failed:', err && err.message ? err.message : err);
   }
@@ -214,8 +246,10 @@ async function handleResolve(request, env) {
   return json({ type: 'industry', industry_name: query, slug: slugify(query), matched: false, fallback: true });
 }
 
-/** Ask Claude to classify the query and (for a company) infer its industry. */
-async function classifyQuery(env, query) {
+/** Ask Claude to classify the query and (for a company) infer its industry.
+ *  An optional `sector` hint (from an autocomplete pick) is passed through to
+ *  sharpen the company→industry inference. */
+async function classifyQuery(env, query, sector) {
   const system = [
     'You classify a short search query as either a COMPANY or an INDUSTRY/sector.',
     'If it is a COMPANY, infer the single primary industry/sector it operates in, as a short canonical industry name suitable for a research dashboard (Title Case; include a country only if the query clearly implies one).',
@@ -224,9 +258,12 @@ async function classifyQuery(env, query) {
     '{"type":"company"|"industry","company":"<company name if type=company, else empty>","industry_name":"<short canonical industry name>"}',
     'Keep industry_name concise (2-6 words). Never invent a company that is clearly an industry, or vice-versa.',
   ].join('\n');
+  const userMsg = sector
+    ? `Query: ${query}\nHint: this is a listed company classified under the "${sector}" sector — treat it as a COMPANY and infer the industry it operates in.`
+    : `Query: ${query}`;
   const raw = await callBedrock(env, {
     system,
-    messages: [{ role: 'user', content: `Query: ${query}` }],
+    messages: [{ role: 'user', content: userMsg }],
     max_tokens: 200,
   });
   const obj = sliceToObject(raw);
@@ -237,6 +274,71 @@ async function classifyQuery(env, query) {
     company: type === 'company' && typeof obj.company === 'string' ? obj.company.trim() : '',
     industry_name: obj.industry_name.trim(),
   };
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/stock-search — company autocomplete for the search bar.
+ * Proxies Muns' birdnest stock/search with the Worker's MUNS_TOKEN and
+ * normalizes the result map into a plain list the dropdown can render. The
+ * dropdown is only an ASSIST — plain industry-name search must keep working —
+ * so this route is never-fail: any error / missing token → { results: [] }.
+ *
+ * Needs MUNS_TOKEN as a Worker secret (separate from the Actions MUNS_TOKEN).
+ * Country for all Muns stock endpoints is India; user_index is always 124.
+ * ------------------------------------------------------------------ */
+const MUNS_STOCK_SEARCH_URL = 'https://birdnest.muns.io/stock/search';
+const MUNS_USER_INDEX = 124;
+const STOCK_SEARCH_TIMEOUT_MS = 8000;   // autocomplete must feel instant
+
+async function handleStockSearch(request, env) {
+  let body = {};
+  try { body = await request.json(); } catch { body = {}; }
+  const query = typeof (body && body.query) === 'string' ? body.query.trim() : '';
+  if (query.length < 2) return json({ results: [] });          // too short to be useful
+
+  const token = env.MUNS_TOKEN && String(env.MUNS_TOKEN).trim();
+  if (!token) return json({ results: [] });                    // not configured → assist silently off
+
+  let data = null;
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), STOCK_SEARCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(MUNS_STOCK_SEARCH_URL, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query, user_index: MUNS_USER_INDEX }),
+      signal: ctl.signal,
+    });
+    if (!res.ok) { console.warn(`[stock-search] HTTP ${res.status}`); return json({ results: [] }); }
+    data = await res.json();
+  } catch (err) {
+    console.warn('[stock-search] fetch error:', err && err.message ? err.message : err);
+    return json({ results: [] });
+  } finally {
+    clearTimeout(timer);
+  }
+  return json({ results: normalizeStockResults(data) });
+}
+
+/** Normalize birdnest stock/search into [{ ticker, name, sector, country }].
+ *  Documented shape: data.results = { TICKER: [country, name, sector], ... }.
+ *  Tolerant: skips malformed rows, trims blanks, caps the list for the dropdown.
+ *  Pure + testable (no env / network). */
+function normalizeStockResults(data) {
+  const results = data && data.results;
+  if (!results || typeof results !== 'object' || Array.isArray(results)) return [];
+  const out = [];
+  for (const [ticker, arr] of Object.entries(results)) {
+    if (!Array.isArray(arr)) continue;
+    const country = String(arr[0] == null ? '' : arr[0]).trim();
+    const name = String(arr[1] == null ? '' : arr[1]).trim();
+    const sector = String(arr[2] == null ? '' : arr[2]).trim();
+    const t = String(ticker || '').trim();
+    if (!t && !name) continue;
+    out.push({ ticker: t, name, sector, country });
+    if (out.length >= 12) break;                               // keep the dropdown short
+  }
+  return out;
 }
 
 /* ------------------------------------------------------------------ *
@@ -289,6 +391,131 @@ async function handleResearch(request, env) {
 function manualSteps(industry) {
   const name = industry || 'the industry';
   return `One-click research isn't configured on this deployment. To research "${name}" manually: open the repo's GitHub → Actions → "Research Industry (full rebuild)" → Run workflow, and enter "${name}" as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.`;
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/edit — persist an analyst add/edit as an authoritative override.
+ *
+ * Validates the edit, then (when GITHUB_TOKEN + GITHUB_REPO are set) commits it
+ * two ways via the GitHub contents API:
+ *   1. appends the record to data/store/<slug>/overrides.jsonl — the durable
+ *      source of truth the pipeline REPLAYS LAST on every run, so an automated
+ *      refresh can never clobber the correction;
+ *   2. patches public/data/industries/<slug>.json in place (same applyOne the
+ *      pipeline uses) so the change shows on the next redeploy without waiting
+ *      for a research run.
+ * Never-fail: without a token it returns clear manual steps; any GitHub error
+ * still yields a friendly 200, never a 500.
+ * ------------------------------------------------------------------ */
+async function handleEdit(request, env) {
+  let body = {};
+  try { body = await request.json(); } catch { body = {}; }
+  const slug = sanitizeSlug(body && body.slug);
+  if (!slug) return json({ ok: true, saved: false, error: 'bad slug', message: 'Reload the dashboard and try again.' });
+
+  // Accept a single { edit } or a batch { edits: [...] } — a row correction can
+  // touch several fields, committed together (one write per file, no sha races).
+  const rawEdits = Array.isArray(body && body.edits) ? body.edits : (body && body.edit ? [body.edit] : []);
+  if (!rawEdits.length) return json({ ok: true, saved: false, error: 'no edit', message: 'Nothing to save.' });
+  const now = new Date().toISOString();
+  const overrides = [];
+  for (const e of rawEdits) { const v = validateOverride(e); if (v.ok) overrides.push({ ...v.override, added_at: now }); }
+  if (!overrides.length) return json({ ok: true, saved: false, error: 'invalid', message: 'Could not save: the edit was invalid.' });
+
+  const token = env.GITHUB_TOKEN && String(env.GITHUB_TOKEN).trim();
+  const repo = env.GITHUB_REPO && String(env.GITHUB_REPO).trim();
+  if (!token || !repo) return json({ ok: true, saved: false, configured: false, count: overrides.length, message: editManual(slug, overrides[0]) });
+
+  const gh = ghClient(token, repo);
+  const first = overrides[0];
+  const commitMsg = `analyst override: ${first.section}${first.target ? '/' + first.target : ''}.${first.field}` + (overrides.length > 1 ? ` (+${overrides.length - 1} more)` : '');
+
+  // 1) Append the durable override records (the pipeline replays these LAST).
+  const oPath = `data/store/${slug}/overrides.jsonl`;
+  const block = overrides.map(serializeOverride).join('\n');
+  const appended = await ghAppendLine(gh, oPath, block, commitMsg);
+  if (!appended.ok) {
+    return json({ ok: true, saved: false, configured: true, count: overrides.length, error: appended.error, message: editManual(slug, first) });
+  }
+
+  // 2) Patch the deployed dashboard JSON for immediate display (best-effort).
+  let patched = false;
+  try {
+    const dPath = `public/data/industries/${slug}.json`;
+    const file = await ghGetFile(gh, dPath);
+    if (file.exists && file.content) {
+      const data = JSON.parse(file.content);
+      for (const ov of overrides) applyOne(data, ov);
+      const put = await ghPutFile(gh, dPath, JSON.stringify(data, null, 2) + '\n', file.sha, commitMsg + ' (display)');
+      patched = put.ok;
+    }
+  } catch (err) {
+    console.warn('[edit] dashboard patch failed (override still saved):', err && err.message ? err.message : err);
+  }
+
+  return json({ ok: true, saved: true, configured: true, patched, count: overrides.length });
+}
+
+function editManual(slug, override) {
+  const line = override ? serializeOverride(override) : '{ "section": "...", "target": "...", "field": "...", "value": "...", "added_by": "analyst" }';
+  return `Saving edits isn't configured on this deployment. To apply this correction, append this line to data/store/${slug || '<slug>'}/overrides.jsonl in the repo and commit — the next research run applies it automatically:\n${line}`;
+}
+
+/* ---- GitHub contents API (read → append/patch → commit) ------------------- */
+function ghClient(token, repo) {
+  return {
+    base: `https://api.github.com/repos/${repo}/contents/`,
+    headers: {
+      Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'industry-research-dashboard',
+    },
+  };
+}
+
+async function ghGetFile(gh, path) {
+  const res = await fetch(gh.base + encodeURI(path), { headers: gh.headers });
+  if (res.status === 404) return { exists: false, content: '', sha: null };
+  if (!res.ok) throw new Error(`GET ${path} HTTP ${res.status}`);
+  const j = await res.json();
+  return { exists: true, content: j && j.content ? b64decode(j.content) : '', sha: j && j.sha };
+}
+
+async function ghPutFile(gh, path, content, sha, message) {
+  const payload = { message, content: b64encode(content) };
+  if (sha) payload.sha = sha;
+  const res = await fetch(gh.base + encodeURI(path), {
+    method: 'PUT', headers: { ...gh.headers, 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+  });
+  if (res.ok) return { ok: true };
+  const t = await res.text();
+  console.error(`[edit] PUT ${path} HTTP ${res.status}: ${String(t).slice(0, 200)}`);
+  return { ok: false, error: `GitHub HTTP ${res.status}` };
+}
+
+async function ghAppendLine(gh, path, line, message) {
+  try {
+    const file = await ghGetFile(gh, path);
+    const prev = file.exists ? file.content : '';
+    const next = (prev && !prev.endsWith('\n') ? prev + '\n' : prev) + line + '\n';
+    return await ghPutFile(gh, path, next, file.sha, message);
+  } catch (err) {
+    console.error('[edit] append failed:', err && err.message ? err.message : err);
+    return { ok: false, error: (err && err.message) || 'append failed' };
+  }
+}
+
+/* UTF-8-safe base64 (workerd has atob/btoa but they are latin1-only). */
+function b64encode(str) {
+  const bytes = new TextEncoder().encode(String(str));
+  let bin = '';
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+function b64decode(b64) {
+  const bin = atob(String(b64).replace(/\s+/g, ''));
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
 }
 
 /* ------------------------------------------------------------------ *
@@ -781,4 +1008,4 @@ function json(obj, status = 200, extraHeaders) {
 // Exposed for unit tests (scripts/test-chat.mjs, scripts/test-resolve.mjs).
 // These are pure functions with no env/network dependency; they are not used by
 // any other runtime module.
-export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps, mapRunState };
+export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps, mapRunState, normalizeStockResults };
