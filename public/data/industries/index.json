@@ -1,5 +1,5 @@
 {
-  "default": "paints-coatings",
+  "default": "data-centers",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -21,6 +21,17 @@
         "Architectural Coatings"
       ],
       "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "data-centers",
+      "name": "Data Centers",
+      "aliases": [
+        "Data Centre Industry",
+        "DC Industry",
+        "Colocation & Cloud Infrastructure"
+      ],
+      "is_manufacturing": false,
       "mock": false
     }
   ]
