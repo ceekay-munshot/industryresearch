@@ -55,6 +55,18 @@ export default {
       }
     }
 
+    if (url.pathname === '/api/stock-search') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      // Never-fail: the dropdown is an assist, so any error → an empty list and
+      // plain industry search still works untouched.
+      try {
+        return await handleStockSearch(request, env);
+      } catch (err) {
+        console.error('[stock-search] unhandled error:', err && err.stack ? err.stack : err);
+        return json({ results: [] });
+      }
+    }
+
     if (url.pathname === '/api/research') {
       if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
       try {
@@ -182,6 +194,7 @@ async function handleResolve(request, env) {
   let body = {};
   try { body = await request.json(); } catch { body = {}; }
   const query = typeof (body && body.query) === 'string' ? body.query.trim() : '';
+  const sector = typeof (body && body.sector) === 'string' ? body.sector.trim() : '';
   if (!query) return json({ type: 'industry', industry_name: '', slug: '', matched: false, empty: true });
 
   const index = await loadIndex(env, request);
@@ -190,11 +203,12 @@ async function handleResolve(request, env) {
   const direct = matchIndustry(index, query);
   if (direct) return json({ type: 'industry', slug: direct.slug, industry_name: direct.name || query, matched: true });
 
-  // 2) Classify with Claude (company vs industry). If no key / any failure, the
-  //    literal fallback below still gives a usable result.
+  // 2) Classify with Claude (company vs industry). A sector hint (from the
+  //    autocomplete pick) sharpens the company→industry inference. If no key /
+  //    any failure, the literal fallback below still gives a usable result.
   let cls = null;
   try {
-    cls = await classifyQuery(env, query);
+    cls = await classifyQuery(env, query, sector);
   } catch (err) {
     console.warn('[resolve] classify failed:', err && err.message ? err.message : err);
   }
@@ -214,8 +228,10 @@ async function handleResolve(request, env) {
   return json({ type: 'industry', industry_name: query, slug: slugify(query), matched: false, fallback: true });
 }
 
-/** Ask Claude to classify the query and (for a company) infer its industry. */
-async function classifyQuery(env, query) {
+/** Ask Claude to classify the query and (for a company) infer its industry.
+ *  An optional `sector` hint (from an autocomplete pick) is passed through to
+ *  sharpen the company→industry inference. */
+async function classifyQuery(env, query, sector) {
   const system = [
     'You classify a short search query as either a COMPANY or an INDUSTRY/sector.',
     'If it is a COMPANY, infer the single primary industry/sector it operates in, as a short canonical industry name suitable for a research dashboard (Title Case; include a country only if the query clearly implies one).',
@@ -224,9 +240,12 @@ async function classifyQuery(env, query) {
     '{"type":"company"|"industry","company":"<company name if type=company, else empty>","industry_name":"<short canonical industry name>"}',
     'Keep industry_name concise (2-6 words). Never invent a company that is clearly an industry, or vice-versa.',
   ].join('\n');
+  const userMsg = sector
+    ? `Query: ${query}\nHint: this is a listed company classified under the "${sector}" sector — treat it as a COMPANY and infer the industry it operates in.`
+    : `Query: ${query}`;
   const raw = await callBedrock(env, {
     system,
-    messages: [{ role: 'user', content: `Query: ${query}` }],
+    messages: [{ role: 'user', content: userMsg }],
     max_tokens: 200,
   });
   const obj = sliceToObject(raw);
@@ -237,6 +256,71 @@ async function classifyQuery(env, query) {
     company: type === 'company' && typeof obj.company === 'string' ? obj.company.trim() : '',
     industry_name: obj.industry_name.trim(),
   };
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/stock-search — company autocomplete for the search bar.
+ * Proxies Muns' birdnest stock/search with the Worker's MUNS_TOKEN and
+ * normalizes the result map into a plain list the dropdown can render. The
+ * dropdown is only an ASSIST — plain industry-name search must keep working —
+ * so this route is never-fail: any error / missing token → { results: [] }.
+ *
+ * Needs MUNS_TOKEN as a Worker secret (separate from the Actions MUNS_TOKEN).
+ * Country for all Muns stock endpoints is India; user_index is always 124.
+ * ------------------------------------------------------------------ */
+const MUNS_STOCK_SEARCH_URL = 'https://birdnest.muns.io/stock/search';
+const MUNS_USER_INDEX = 124;
+const STOCK_SEARCH_TIMEOUT_MS = 8000;   // autocomplete must feel instant
+
+async function handleStockSearch(request, env) {
+  let body = {};
+  try { body = await request.json(); } catch { body = {}; }
+  const query = typeof (body && body.query) === 'string' ? body.query.trim() : '';
+  if (query.length < 2) return json({ results: [] });          // too short to be useful
+
+  const token = env.MUNS_TOKEN && String(env.MUNS_TOKEN).trim();
+  if (!token) return json({ results: [] });                    // not configured → assist silently off
+
+  let data = null;
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), STOCK_SEARCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(MUNS_STOCK_SEARCH_URL, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query, user_index: MUNS_USER_INDEX }),
+      signal: ctl.signal,
+    });
+    if (!res.ok) { console.warn(`[stock-search] HTTP ${res.status}`); return json({ results: [] }); }
+    data = await res.json();
+  } catch (err) {
+    console.warn('[stock-search] fetch error:', err && err.message ? err.message : err);
+    return json({ results: [] });
+  } finally {
+    clearTimeout(timer);
+  }
+  return json({ results: normalizeStockResults(data) });
+}
+
+/** Normalize birdnest stock/search into [{ ticker, name, sector, country }].
+ *  Documented shape: data.results = { TICKER: [country, name, sector], ... }.
+ *  Tolerant: skips malformed rows, trims blanks, caps the list for the dropdown.
+ *  Pure + testable (no env / network). */
+function normalizeStockResults(data) {
+  const results = data && data.results;
+  if (!results || typeof results !== 'object' || Array.isArray(results)) return [];
+  const out = [];
+  for (const [ticker, arr] of Object.entries(results)) {
+    if (!Array.isArray(arr)) continue;
+    const country = String(arr[0] == null ? '' : arr[0]).trim();
+    const name = String(arr[1] == null ? '' : arr[1]).trim();
+    const sector = String(arr[2] == null ? '' : arr[2]).trim();
+    const t = String(ticker || '').trim();
+    if (!t && !name) continue;
+    out.push({ ticker: t, name, sector, country });
+    if (out.length >= 12) break;                               // keep the dropdown short
+  }
+  return out;
 }
 
 /* ------------------------------------------------------------------ *
@@ -781,4 +865,4 @@ function json(obj, status = 200, extraHeaders) {
 // Exposed for unit tests (scripts/test-chat.mjs, scripts/test-resolve.mjs).
 // These are pure functions with no env/network dependency; they are not used by
 // any other runtime module.
-export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps, mapRunState };
+export { buildContext, collectSources, parseAnswer, sanitizeSlug, buildMessages, slugify, normalizeText, matchIndustry, manualSteps, mapRunState, normalizeStockResults };

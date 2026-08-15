@@ -1315,13 +1315,16 @@
     resolveAndRoute(query);
   }
 
-  async function resolveAndRoute(query) {
+  async function resolveAndRoute(query, opts) {
+    opts = opts || {};
     stopRun();
     $('#footer-note').textContent = 'Looking up “' + query + '”…';
     let info = null;
     try {
+      const payload = { query };
+      if (opts.sector) payload.sector = opts.sector;   // autocomplete hint: company's sector → industry
       const res = await fetch('/api/resolve', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query }),
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
       });
       if (res.ok) info = await res.json();
     } catch (e) { info = null; }
@@ -1622,6 +1625,66 @@
     return data;
   }
 
+  /** Company autocomplete: a debounced assist under the home search. As the user
+   *  types, /api/stock-search returns matching listed companies; picking one feeds
+   *  the SAME resolve/research flow as typing (company + sector → industry). Plain
+   *  industry-name search is untouched — the dropdown just closes on submit. Fully
+   *  never-fail: if the endpoint errors or MUNS_TOKEN is unset, no dropdown shows. */
+  function attachAutocomplete(input, wrap) {
+    let dd = null, items = [], active = -1, seq = 0, timer = null;
+
+    function close() { if (dd) { dd.remove(); dd = null; } items = []; active = -1; }
+    function ensure() { if (!dd) { dd = h('div', { class: 'ac-dropdown', role: 'listbox' }); wrap.appendChild(dd); } return dd; }
+    function choose(it) {
+      input.value = it.name || it.ticker || '';
+      close();
+      resolveAndRoute(input.value, { sector: it.sector, company: it.name });
+    }
+    function render() {
+      const el = ensure(); el.innerHTML = '';
+      items.forEach((it, i) => {
+        const meta = [it.sector, it.country].filter(Boolean).join(' · ');
+        const row = h('div', { class: 'ac-item' + (i === active ? ' active' : ''), role: 'option' },
+          h('div', { class: 'ac-text' },
+            h('div', { class: 'ac-name' }, it.name || it.ticker || '—'),
+            meta ? h('div', { class: 'ac-meta' }, meta) : null),
+          it.ticker ? h('span', { class: 'ac-tick' }, it.ticker) : null);
+        // mousedown (not click) so selection wins the race against input blur.
+        row.addEventListener('mousedown', (e) => { e.preventDefault(); choose(it); });
+        el.appendChild(row);
+      });
+    }
+    async function fetchList(q) {
+      const my = ++seq;
+      let data = null;
+      try {
+        const res = await fetch('/api/stock-search', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query: q }),
+        });
+        if (res.ok) data = await res.json();
+      } catch (e) { data = null; }
+      if (my !== seq) return;                                  // a newer keystroke superseded this
+      items = data && Array.isArray(data.results) ? data.results : [];
+      active = -1;
+      if (items.length) render(); else close();
+    }
+    input.addEventListener('input', () => {
+      const q = input.value.trim();
+      if (timer) clearTimeout(timer);
+      if (q.length < 2) { seq++; close(); return; }            // seq++ voids any in-flight response
+      timer = setTimeout(() => fetchList(q), 250);
+    });
+    input.addEventListener('keydown', (e) => {
+      if (!dd || !items.length) return;
+      if (e.key === 'ArrowDown') { e.preventDefault(); active = (active + 1) % items.length; render(); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); active = (active - 1 + items.length) % items.length; render(); }
+      else if (e.key === 'Enter') { if (active >= 0) { e.preventDefault(); choose(items[active]); } }
+      else if (e.key === 'Escape') { close(); }
+    });
+    input.addEventListener('blur', () => setTimeout(close, 150)); // let a click/tap land first
+    return { close };
+  }
+
   /** The search-first home: hero search + "Research it" + your research history. */
   function renderHome() {
     stopRun();
@@ -1634,9 +1697,11 @@
     const searchbar = h('div', { class: 'searchbar' },
       h('span', { class: 'flex-shrink-0', html: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>' }),
       input);
-    const form = h('form', { class: 'home-search', role: 'search' }, searchbar,
+    const acWrap = h('div', { class: 'ac-wrap' }, searchbar);
+    const ac = attachAutocomplete(input, acWrap);
+    const form = h('form', { class: 'home-search', role: 'search' }, acWrap,
       h('button', { class: 'home-search-btn', type: 'submit' }, h('span', { class: 'w-4 h-4', html: I.refresh }), 'Research it'));
-    form.addEventListener('submit', (e) => { e.preventDefault(); handleSearch(input.value); });
+    form.addEventListener('submit', (e) => { e.preventDefault(); ac.close(); handleSearch(input.value); });
 
     host.appendChild(h('div', { class: 'home-hero' },
       h('h1', { class: 'home-title' }, 'What industry do you want to understand?'),

@@ -391,6 +391,32 @@ Covered by `node scripts/test-resolve.mjs` (pure: slug parity with the pipeline,
 index matching, real-over-mock) and `node scripts/test-resolve-worker.mjs` (the
 full handlers with mocked assets + Bedrock + the GitHub dispatch API).
 
+### Company autocomplete (`/api/stock-search`)
+
+As you type in the search box, a **debounced (~250ms) dropdown** suggests matching
+listed companies — *name · sector · country* with the ticker — so you can jump
+straight from a company to its industry. It's an **assist, not a replacement**:
+plain industry-name search works exactly as before, and if the endpoint is
+unconfigured or errors, no dropdown appears and nothing else changes.
+
+**`POST /api/stock-search` `{ query }`** proxies Muns' company search
+(`birdnest.muns.io/stock/search`) with the Worker's `MUNS_TOKEN`, sending
+`{ query, user_index: 124 }` (country is India; `user_index` is always 124), and
+normalises the `data.results` map (`{ TICKER: [country, name, sector] }`) into a
+plain `[{ ticker, name, sector, country }]` list (capped for the dropdown).
+**Never-fail:** a missing token, a short query, an HTTP error, or a network drop
+all return `{ results: [] }` — the Worker never 500s and plain search is untouched.
+
+Picking a company feeds the **same** resolve/research flow as typing: it calls
+`/api/resolve` with the company name **plus a `sector` hint** (which sharpens the
+company→industry inference), then loads the industry if we already have it or
+starts a run. Guarded by `node scripts/test-stock-search.mjs` (the pure normalizer
++ the full handler with a mocked `MUNS_TOKEN` and birdnest fetch).
+
+`MUNS_TOKEN` is a **Cloudflare Worker secret** — the same token the pipeline uses
+for Muns, but set independently on the Worker (see *Worker secrets* below), and
+**separate from the GitHub Actions `MUNS_TOKEN`** the research pipeline reads.
+
 ### Home (search-first) + history + Update
 
 Opening the app lands on a **search-first home**, not a pre-loaded industry: a
@@ -459,3 +485,24 @@ as a plain variable → **Deploy**.
 
 Without these, the flow still works end-to-end — "Research it" simply shows the
 manual "run the workflow with this industry name" instructions.
+
+### Worker secret for company search (`MUNS_TOKEN`)
+
+The **company autocomplete** (`/api/stock-search`) calls Muns from the Worker, so
+it needs `MUNS_TOKEN` set **on the Worker**. This is a **Cloudflare Worker secret,
+separate from the GitHub Actions `MUNS_TOKEN`** the research pipeline uses — same
+token value, set in two places. It's **optional**: without it the dropdown simply
+doesn't appear and plain industry search is unaffected.
+
+| Worker var | Purpose | Default if unset |
+| --- | --- | --- |
+| `MUNS_TOKEN` | Bearer token for Muns company search (autocomplete) | — (dropdown silently off) |
+
+**Set it (CLI):**
+
+```bash
+npx wrangler secret put MUNS_TOKEN       # same token the pipeline uses for Muns
+```
+
+**Or the dashboard:** Workers &amp; Pages → your Worker → **Settings → Variables
+and Secrets** → add `MUNS_TOKEN` as an **encrypted** secret → **Deploy**.
