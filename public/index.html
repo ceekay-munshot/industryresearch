@@ -352,6 +352,18 @@
     .pending-btn.primary { color: #fff; background: var(--good, #10b981); border-color: var(--good, #10b981); }
     .pending-btn.ghost { color: var(--ink-hint); background: transparent; border-color: var(--border-strong); }
     .pending-btn.ghost:hover { color: var(--bad); border-color: var(--warn-border); background: var(--bad-soft, #fef2f2); }
+    /* In-DOM confirm modal (works inside an iframe, unlike native confirm) */
+    .modal-overlay { position: fixed; inset: 0; z-index: 200; background: rgba(15,23,42,.45); display: grid; place-items: center; padding: 20px; animation: fadeIn .15s ease both; }
+    .modal-box { background: var(--card); border-radius: 16px; box-shadow: 0 22px 60px rgba(15,23,42,.32); padding: 24px; max-width: 420px; width: 100%; }
+    .modal-title { font-family: 'Plus Jakarta Sans','Inter',sans-serif; font-size: 17px; font-weight: 800; color: var(--ink); margin-bottom: 7px; }
+    .modal-msg { font-size: 14px; color: var(--ink-2); line-height: 1.55; }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
+    .modal-btn { font-size: 13.5px; font-weight: 700; border-radius: 10px; padding: 9px 17px; cursor: pointer; border: 1px solid transparent; transition: all .16s; }
+    .modal-btn.ghost { color: var(--ink-2); background: var(--card); border-color: var(--border-strong); }
+    .modal-btn.ghost:hover { background: var(--neutral-soft); }
+    .modal-btn.danger { color: #fff; background: var(--bad); border-color: var(--bad); }
+    .modal-btn.danger:hover { filter: brightness(1.06); }
+
     /* Cancel link on the progress screen */
     .prog-cancel-row { text-align: center; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
     .prog-cancel { font-size: 13px; font-weight: 600; color: var(--ink-hint); background: transparent; border: 0; cursor: pointer; padding: 4px 8px; border-radius: 8px; }
