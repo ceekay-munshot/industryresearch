@@ -19,6 +19,12 @@
  *   BEDROCK_MODEL_ID  (default "us.anthropic.claude-sonnet-5")
  */
 
+// The override validate/apply logic is a PURE module (no top-level process / node
+// builtins), so it bundles cleanly into the Worker — unlike lib/llm.mjs, which the
+// Worker re-implements because it reads process.env at load. Sharing it keeps the
+// Worker's immediate dashboard patch and the pipeline's replay byte-for-byte identical.
+import { validateOverride, applyOne, serializeOverride } from '../lib/overrides.mjs';
+
 const JSON_HEADERS = { 'Content-Type': 'application/json; charset=utf-8' };
 const ANTHROPIC_VERSION = 'bedrock-2023-05-31';
 // Keep the grounded context within a sane token budget. ~4 chars/token, so
@@ -64,6 +70,18 @@ export default {
       } catch (err) {
         console.error('[stock-search] unhandled error:', err && err.stack ? err.stack : err);
         return json({ results: [] });
+      }
+    }
+
+    if (url.pathname === '/api/edit') {
+      if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405, { Allow: 'POST' });
+      // Never-fail: any error becomes a friendly, non-200-crash response with
+      // manual steps so an analyst edit never dead-ends.
+      try {
+        return await handleEdit(request, env);
+      } catch (err) {
+        console.error('[edit] unhandled error:', err && err.stack ? err.stack : err);
+        return json({ ok: true, saved: false, configured: false, message: editManual() });
       }
     }
 
@@ -373,6 +391,131 @@ async function handleResearch(request, env) {
 function manualSteps(industry) {
   const name = industry || 'the industry';
   return `One-click research isn't configured on this deployment. To research "${name}" manually: open the repo's GitHub → Actions → "Research Industry (full rebuild)" → Run workflow, and enter "${name}" as the industry. It takes a few minutes; the dashboard shows it once the run commits and the site redeploys.`;
+}
+
+/* ------------------------------------------------------------------ *
+ * /api/edit — persist an analyst add/edit as an authoritative override.
+ *
+ * Validates the edit, then (when GITHUB_TOKEN + GITHUB_REPO are set) commits it
+ * two ways via the GitHub contents API:
+ *   1. appends the record to data/store/<slug>/overrides.jsonl — the durable
+ *      source of truth the pipeline REPLAYS LAST on every run, so an automated
+ *      refresh can never clobber the correction;
+ *   2. patches public/data/industries/<slug>.json in place (same applyOne the
+ *      pipeline uses) so the change shows on the next redeploy without waiting
+ *      for a research run.
+ * Never-fail: without a token it returns clear manual steps; any GitHub error
+ * still yields a friendly 200, never a 500.
+ * ------------------------------------------------------------------ */
+async function handleEdit(request, env) {
+  let body = {};
+  try { body = await request.json(); } catch { body = {}; }
+  const slug = sanitizeSlug(body && body.slug);
+  if (!slug) return json({ ok: true, saved: false, error: 'bad slug', message: 'Reload the dashboard and try again.' });
+
+  // Accept a single { edit } or a batch { edits: [...] } — a row correction can
+  // touch several fields, committed together (one write per file, no sha races).
+  const rawEdits = Array.isArray(body && body.edits) ? body.edits : (body && body.edit ? [body.edit] : []);
+  if (!rawEdits.length) return json({ ok: true, saved: false, error: 'no edit', message: 'Nothing to save.' });
+  const now = new Date().toISOString();
+  const overrides = [];
+  for (const e of rawEdits) { const v = validateOverride(e); if (v.ok) overrides.push({ ...v.override, added_at: now }); }
+  if (!overrides.length) return json({ ok: true, saved: false, error: 'invalid', message: 'Could not save: the edit was invalid.' });
+
+  const token = env.GITHUB_TOKEN && String(env.GITHUB_TOKEN).trim();
+  const repo = env.GITHUB_REPO && String(env.GITHUB_REPO).trim();
+  if (!token || !repo) return json({ ok: true, saved: false, configured: false, count: overrides.length, message: editManual(slug, overrides[0]) });
+
+  const gh = ghClient(token, repo);
+  const first = overrides[0];
+  const commitMsg = `analyst override: ${first.section}${first.target ? '/' + first.target : ''}.${first.field}` + (overrides.length > 1 ? ` (+${overrides.length - 1} more)` : '');
+
+  // 1) Append the durable override records (the pipeline replays these LAST).
+  const oPath = `data/store/${slug}/overrides.jsonl`;
+  const block = overrides.map(serializeOverride).join('\n');
+  const appended = await ghAppendLine(gh, oPath, block, commitMsg);
+  if (!appended.ok) {
+    return json({ ok: true, saved: false, configured: true, count: overrides.length, error: appended.error, message: editManual(slug, first) });
+  }
+
+  // 2) Patch the deployed dashboard JSON for immediate display (best-effort).
+  let patched = false;
+  try {
+    const dPath = `public/data/industries/${slug}.json`;
+    const file = await ghGetFile(gh, dPath);
+    if (file.exists && file.content) {
+      const data = JSON.parse(file.content);
+      for (const ov of overrides) applyOne(data, ov);
+      const put = await ghPutFile(gh, dPath, JSON.stringify(data, null, 2) + '\n', file.sha, commitMsg + ' (display)');
+      patched = put.ok;
+    }
+  } catch (err) {
+    console.warn('[edit] dashboard patch failed (override still saved):', err && err.message ? err.message : err);
+  }
+
+  return json({ ok: true, saved: true, configured: true, patched, count: overrides.length });
+}
+
+function editManual(slug, override) {
+  const line = override ? serializeOverride(override) : '{ "section": "...", "target": "...", "field": "...", "value": "...", "added_by": "analyst" }';
+  return `Saving edits isn't configured on this deployment. To apply this correction, append this line to data/store/${slug || '<slug>'}/overrides.jsonl in the repo and commit — the next research run applies it automatically:\n${line}`;
+}
+
+/* ---- GitHub contents API (read → append/patch → commit) ------------------- */
+function ghClient(token, repo) {
+  return {
+    base: `https://api.github.com/repos/${repo}/contents/`,
+    headers: {
+      Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'industry-research-dashboard',
+    },
+  };
+}
+
+async function ghGetFile(gh, path) {
+  const res = await fetch(gh.base + encodeURI(path), { headers: gh.headers });
+  if (res.status === 404) return { exists: false, content: '', sha: null };
+  if (!res.ok) throw new Error(`GET ${path} HTTP ${res.status}`);
+  const j = await res.json();
+  return { exists: true, content: j && j.content ? b64decode(j.content) : '', sha: j && j.sha };
+}
+
+async function ghPutFile(gh, path, content, sha, message) {
+  const payload = { message, content: b64encode(content) };
+  if (sha) payload.sha = sha;
+  const res = await fetch(gh.base + encodeURI(path), {
+    method: 'PUT', headers: { ...gh.headers, 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+  });
+  if (res.ok) return { ok: true };
+  const t = await res.text();
+  console.error(`[edit] PUT ${path} HTTP ${res.status}: ${String(t).slice(0, 200)}`);
+  return { ok: false, error: `GitHub HTTP ${res.status}` };
+}
+
+async function ghAppendLine(gh, path, line, message) {
+  try {
+    const file = await ghGetFile(gh, path);
+    const prev = file.exists ? file.content : '';
+    const next = (prev && !prev.endsWith('\n') ? prev + '\n' : prev) + line + '\n';
+    return await ghPutFile(gh, path, next, file.sha, message);
+  } catch (err) {
+    console.error('[edit] append failed:', err && err.message ? err.message : err);
+    return { ok: false, error: (err && err.message) || 'append failed' };
+  }
+}
+
+/* UTF-8-safe base64 (workerd has atob/btoa but they are latin1-only). */
+function b64encode(str) {
+  const bytes = new TextEncoder().encode(String(str));
+  let bin = '';
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+function b64decode(b64) {
+  const bin = atob(String(b64).replace(/\s+/g, ''));
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
 }
 
 /* ------------------------------------------------------------------ *

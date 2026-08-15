@@ -331,6 +331,40 @@ extraction, per-peer write-if-better merge, median) is covered by
 
 ---
 
+## Analyst add / edit (`/api/edit`)
+
+Analysts can **correct or add data straight from the dashboard** — a pencil on the
+market-size, margins, players and benchmarking cards, and **Add player / Add peer**
+buttons. Each change is an **authoritative override**, never lost to an automated
+refresh.
+
+- **Storage** — every change is one append-only record in
+  `data/store/<slug>/overrides.jsonl`:
+  `{ section, target, field, value, note?, source_url?, added_by:"analyst", added_at }`.
+- **Authoritative replay** — the pipeline applies overrides **LAST**, after every
+  automated step (write-if-better, benchmarking, report). A correction re-applies
+  its field on top of the fresh data (auto fields it didn't touch keep refreshing);
+  a brand-new item is marked `added_by:"analyst"` so the benchmarking merge never
+  drops it. So a refresh can only ever **keep or improve** an analyst's work.
+- **`POST /api/edit` `{ slug, edit }` (or `{ slug, edits: [...] }`)** validates the
+  change(s), then via the GitHub contents API (read → append/patch → commit):
+  (1) appends the record(s) to `overrides.jsonl` (durable), and (2) patches
+  `public/data/industries/<slug>.json` in place — using the **same** `applyOne` the
+  pipeline replays — so the edit shows on the next redeploy without waiting for a
+  research run. **Never-fail:** without a token it returns the exact JSONL line to
+  paste; any GitHub error still yields a friendly 200.
+- **Instant + iframe-safe** — the edit applies **optimistically in-memory** (the row
+  updates and gets a subtle **"analyst"** badge immediately) while it commits in the
+  background; an in-DOM modal + toast (no native dialogs) keeps it embeddable.
+
+It reuses the Worker's `GITHUB_TOKEN` + `GITHUB_REPO` (the same secrets as one-click
+research — see [Optional Worker secrets](#optional-worker-secrets-for-one-click-research)),
+now needing **Contents: read and write** as well as Actions. Pure validation +
+apply logic is covered by `node scripts/test-overrides.mjs`; the full route
+(append + dashboard patch, batch, never-fail) by `node scripts/test-edit-worker.mjs`.
+
+---
+
 ## Chat backend (`/api/chat`)
 
 The **Chat** tab is a grounded, source-backed Q&A over one industry's committed
@@ -511,8 +545,9 @@ falls back to on-screen manual steps. Like the Bedrock keys, they are
 
 **Create the token:** GitHub → **Settings → Developer settings → Fine-grained
 personal access tokens** → new token scoped to **this repository only**, with
-**Repository permissions → Actions: Read and write** (Contents can stay
-read-only). Copy the token.
+**Repository permissions → Actions: Read and write** and — if you want analyst
+**add/edit** to persist (`/api/edit`) — **Contents: Read and write** too. Copy the
+token.
 
 **Set the secrets (CLI):**
 

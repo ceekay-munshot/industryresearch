@@ -42,6 +42,7 @@ import {
   BENCH_PROMPT_VERSION, FINANCIALS_SYSTEM, buildFinancialsUser, normalizeFinancials,
   hasFinancials, pickListedMatch, drhpDocFrom, drhpExists, mergeBenchmarking, normName as benchNormName,
 } from '../lib/benchmark.mjs';
+import { parseOverrides, applyOverrides } from '../lib/overrides.mjs';
 import { firecrawlScrape, scrapedoScrape, mistralOCR, htmlToText, extractYouTubeFromHtml } from '../lib/scrape.mjs';
 import {
   loadLedger, saveLedger, upsertFacts, decayAndSupersede, supportByCategory,
@@ -1125,6 +1126,7 @@ async function main() {
   const cacheDir = join(CACHE_ROOT, slug);
   const ledgerPath = join(storeDir, 'facts.jsonl');
   const coveragePath = join(storeDir, 'coverage.json');
+  const overridesPath = join(storeDir, 'overrides.jsonl');
   const outPath = join(DATA_DIR, `${slug}.json`);
   const incumbent = readJson(outPath) || {};
   let ledger = loadLedger(ledgerPath);
@@ -1218,6 +1220,21 @@ async function main() {
   // k) consolidated written report (derived, cached, never-fail)
   obj.summary = (obj.summary && typeof obj.summary === 'object') ? obj.summary : {};
   obj.summary.report = await buildReport(obj, incumbent, now);
+
+  // l) analyst overrides — applied LAST so an automated refresh can never clobber
+  //    a manual correction. Append-only + authoritative: every corrected field is
+  //    re-applied on top of the freshly-assembled data. Never-fail.
+  try {
+    if (existsSync(overridesPath)) {
+      const overrides = parseOverrides(readFileSync(overridesPath, 'utf8'));
+      if (overrides.length) {
+        applyOverrides(obj, overrides);
+        console.log(`[research] applied ${overrides.length} analyst override(s) (authoritative, last).`);
+      }
+    }
+  } catch (e) {
+    console.warn(`[research] overrides step failed (skipped): ${e && e.message ? e.message : e}`);
+  }
 
   // j) persist: dashboard JSON + ledger + coverage + caches
   if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR, { recursive: true });

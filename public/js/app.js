@@ -162,6 +162,8 @@
     download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>',
     history: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l4 2"/></svg>',
     open: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M7 17 17 7M8 7h9v9"/></svg>',
+    pencil: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>',
+    plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M12 5v14M5 12h14"/></svg>',
   };
 
   /* ----------------------------------------------------------------------- *
@@ -445,7 +447,7 @@
         },
       }));
     }
-    return card({ title: 'Market size over time', subtitle: has(size.current) && size.current.unit ? `in ${size.current.unit}` : null, source: size.source, section: 'size', body });
+    return card({ title: 'Market size over time', subtitle: has(size.current) && size.current.unit ? `in ${size.current.unit}` : null, source: size.source, section: 'size', badge: editHead(size, editSize, 'Edit market size'), body });
   }
 
   /** Unique source objects (by url), for a compact shared "Sources" row. */
@@ -568,6 +570,7 @@
     );
     return card({
       title: 'Margin pool', subtitle: 'where the rupee lands', source: m.source, section: 'margins',
+      badge: editHead(m, editMargins, 'Edit margins'),
       body: h('div', {},
         bar('Manufacturer (EBITDA)', m.manufacturer_pct, 'var(--chart-1)'),
         bar('Retailer / dealer', m.retailer_pct, 'var(--chart-4)'),
@@ -631,7 +634,7 @@
 
     const rowFor = (p, i) => h('tr', {},
       h('td', { class: 'cell-company' },
-        h('div', { class: 'cell-primary' }, p.name),
+        h('div', { class: 'cell-primary-row' }, h('span', { class: 'cell-primary' }, p.name), p.analyst ? analystBadge() : null, editBtn(() => editPlayer(p), 'Edit ' + p.name)),
         p.note && h('div', { class: 'cell-note', title: p.note }, p.note)),
       h('td', {}, p.listed === true ? badge(p.ticker ? p.ticker : 'Listed', 'brand') : (p.listed === false ? h('span', { class: 'badge badge-neutral' }, 'Private') : '—')),
       h('td', {}, has(p.segment) ? h('span', { class: 'text-slate-600 whitespace-nowrap' }, p.segment) : '—'),
@@ -659,7 +662,7 @@
       }, `Show all ${players.length} companies`, h('span', { class: 'w-3.5 h-3.5', html: I.chevron }));
       tableBody.appendChild(btn);
     }
-    const tableCard = card({ title: 'Players', subtitle: `${players.length} companies`, className: 'min-w-0', section: 'players', body: tableBody });
+    const tableCard = card({ title: 'Players', subtitle: `${players.length} companies`, className: 'min-w-0', section: 'players', badge: addBtn('Add player', addPlayer), body: tableBody });
 
     // ----- Market-share doughnut -----
     const shareData = players.filter((p) => p.market_share_pct != null);
@@ -899,16 +902,18 @@
       h('th', {}, 'Source')));
     const tbody = h('tbody', {});
 
+    const nameCell = (p) => h('td', { class: 'cell-company' },
+      h('div', { class: 'cell-primary-row' }, h('span', { class: 'cell-primary' }, p.name), p.analyst ? analystBadge() : null, editBtn(() => editPeer(p), 'Edit ' + p.name)),
+      p.forward_note ? h('div', { class: 'cell-note', title: p.forward_note }, p.forward_note) : null);
+
     const filledRow = (p) => h('tr', {},
-      h('td', { class: 'cell-company' },
-        h('div', { class: 'cell-primary' }, p.name),
-        p.forward_note ? h('div', { class: 'cell-note', title: p.forward_note }, p.forward_note) : null),
+      nameCell(p),
       h('td', {}, benchListedCell(p)),
       ...BENCH_METRICS.map((m) => h('td', { class: 'num' }, p[m.key] != null ? m.fmt(p) : '—')),
       h('td', {}, benchSourceCell(p)));
 
     const pendingRow = (p) => h('tr', { class: 'bench-pending' },
-      h('td', { class: 'cell-company' }, h('div', { class: 'cell-primary' }, p.name)),
+      nameCell(p),
       h('td', {}, benchListedCell(p)),
       h('td', { class: 'bench-pending-cell', colspan: String(BENCH_METRICS.length) },
         h('span', { class: 'bench-pill' }, 'Pending'),
@@ -950,7 +955,7 @@
     const legend = pendingCount ? h('p', { class: 'bench-caption' },
       h('span', { class: 'bench-pill' }, 'Pending'),
       ' rows are unlisted or not yet available — sourced from a prospectus / Private Circle, they fill in as data lands.') : null;
-    root.appendChild(card({ title: 'Peer benchmarking', subtitle: sub, className: 'min-w-0',
+    root.appendChild(card({ title: 'Peer benchmarking', subtitle: sub, className: 'min-w-0', badge: addBtn('Add peer', addPeer),
       body: h('div', {}, h('div', { class: 'table-scroll' }, table), legend) }));
 
     // Charts — revenue by player + EBITDA% by player (peers that carry the metric).
@@ -1603,6 +1608,188 @@
       document.body.appendChild(overlay);
       okBtn.focus();
     });
+  }
+
+  /* ======================================================================= *
+   * ANALYST ADD / EDIT — correct or add data from the dashboard. Each change
+   * is persisted as an authoritative override (POST /api/edit) that the pipeline
+   * replays LAST, so automated refreshes never clobber it; the edit also applies
+   * optimistically in-memory so it shows instantly. Iframe-safe (in-DOM modal +
+   * toast, no native dialogs). Never-fail: if saving isn't configured, the edit
+   * still applies locally and a toast explains it won't persist yet.
+   * ======================================================================= */
+  const LOCAL_NUMERIC = new Set(['value', 'year', 'cagr_pct', 'share_pct', 'market_share_pct', 'revenue', 'revenue_year', 'revenue_cagr_3y_pct', 'ebitda_pct', 'ebitda_margin_pct', 'pat_pct', 'roce_pct', 'roe_pct', 'manufacturer_pct', 'retailer_pct', 'utilisation_pct']);
+  const LOCAL_BENCH_METRICS = new Set(['revenue', 'revenue_cagr_3y_pct', 'ebitda_pct', 'pat_pct', 'roce_pct', 'roe_pct']);
+  function coerceLocal(field, value) {
+    if (LOCAL_NUMERIC.has(field)) { const n = Number(String(value).replace(/[,%\s₹$]/g, '')); if (isFinite(n)) return n; }
+    return typeof value === 'string' ? value.trim() : value;
+  }
+
+  let toastTimer = null;
+  function toast(msg, kind) {
+    const prev = $('.toast'); if (prev) prev.remove();
+    const el = h('div', { class: 'toast' + (kind ? ' ' + kind : '') }, msg);
+    document.body.appendChild(el);
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { try { el.remove(); } catch (e) {} }, 6000);
+  }
+
+  function analystBadge() { return h('span', { class: 'analyst-badge', title: 'Added or corrected by an analyst — kept through automated refreshes' }, 'analyst'); }
+  function editBtn(onClick, label) {
+    return h('button', { class: 'edit-btn', type: 'button', title: label || 'Edit', 'aria-label': label || 'Edit',
+      onClick: (e) => { e.stopPropagation(); onClick(); } }, h('span', { html: I.pencil }));
+  }
+  function addBtn(label, onClick) { return h('button', { class: 'add-btn', type: 'button', onClick }, h('span', { html: I.plus }), label); }
+  /** Card-head cluster: an "analyst" badge (when the section was analyst-touched) + a pencil. */
+  function editHead(obj, onEdit, label) { return h('span', { class: 'inline-flex items-center' }, obj && obj.analyst ? analystBadge() : null, editBtn(onEdit, label)); }
+
+  /** A form modal. fields: [{key,label,value,kind:'number'|'text',placeholder,full}].
+   *  Resolves { values:{key:{value,changed}}, source_url, note } or null. */
+  function editModal(opts) {
+    opts = opts || {};
+    return new Promise((resolve) => {
+      const overlay = h('div', { class: 'modal-overlay' });
+      let closed = false;
+      const done = (v) => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); overlay.remove(); resolve(v); };
+      const onKey = (e) => { if (e.key === 'Escape') done(null); };
+      const inputs = {};
+      const fieldEls = (opts.fields || []).map((f) => {
+        const inp = h('input', { class: 'modal-input', type: f.kind === 'number' ? 'number' : 'text', step: f.kind === 'number' ? 'any' : null,
+          value: f.value == null ? '' : String(f.value), placeholder: f.placeholder || '' });
+        inputs[f.key] = { inp, orig: (f.value == null ? '' : String(f.value)).trim() };
+        return h('label', { class: 'modal-field' + (f.full ? ' full' : '') }, h('span', { class: 'modal-flabel' }, f.label), inp);
+      });
+      let srcInp = null, noteInp = null;
+      if (opts.allowSource) { srcInp = h('input', { class: 'modal-input', type: 'url', placeholder: 'https://… (optional)' }); fieldEls.push(h('label', { class: 'modal-field full' }, h('span', { class: 'modal-flabel' }, 'Source URL'), srcInp)); }
+      if (opts.allowNote) { noteInp = h('input', { class: 'modal-input', type: 'text', placeholder: 'short note (optional)' }); fieldEls.push(h('label', { class: 'modal-field full' }, h('span', { class: 'modal-flabel' }, 'Note'), noteInp)); }
+      const save = h('button', { class: 'modal-btn primary', type: 'button', onClick: () => {
+        const values = {};
+        for (const [k, o] of Object.entries(inputs)) { const val = o.inp.value.trim(); values[k] = { value: val, changed: val !== o.orig }; }
+        done({ values, source_url: srcInp ? srcInp.value.trim() : '', note: noteInp ? noteInp.value.trim() : '' });
+      } }, opts.saveText || 'Save');
+      overlay.appendChild(h('div', { class: 'modal-box modal-box-form', role: 'dialog', 'aria-modal': 'true' },
+        h('div', { class: 'modal-title' }, opts.title || 'Edit'),
+        opts.subtitle ? h('div', { class: 'modal-sub' }, opts.subtitle) : null,
+        h('div', { class: 'modal-form' }, ...fieldEls),
+        h('div', { class: 'modal-actions' }, h('button', { class: 'modal-btn ghost', type: 'button', onClick: () => done(null) }, 'Cancel'), save)));
+      overlay.addEventListener('click', (e) => { if (e.target === overlay) done(null); });
+      document.addEventListener('keydown', onKey);
+      document.body.appendChild(overlay);
+      const first = overlay.querySelector('.modal-input'); if (first) first.focus();
+    });
+  }
+
+  /** Persist a batch of edits (optimistic apply already done by the caller). */
+  async function submitEdits(edits) {
+    if (!edits || !edits.length) return;
+    let resp = null;
+    try {
+      const r = await fetch('/api/edit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug: state.slug, edits }) });
+      if (r.ok) resp = await r.json();
+    } catch (e) { resp = null; }
+    if (resp && resp.saved) toast('Saved — committed to the repo. Your edit is kept through automated refreshes.');
+    else if (resp && resp.configured === false) toast('Applied here. To persist it, set GITHUB_TOKEN / GITHUB_REPO on the Worker — it isn’t configured yet.', 'warn');
+    else toast('Applied here, but saving to the repo failed — it may not persist.', 'err');
+  }
+
+  /** Re-render the current view from the mutated state.data (charts rebuilt cleanly). */
+  function rerenderAfterEdit() {
+    destroyCharts();
+    renderedTabs.clear(); renderedSubs.clear();
+    buildTabbar();
+    showTab(TABS.find((t) => t.id === state.activeTab && tabAvailable(t)) ? state.activeTab : 'deep');
+  }
+
+  const pruneEdit = (e) => { const o = { section: e.section, target: e.target, field: e.field, value: e.value }; if (e.source_url) o.source_url = e.source_url; if (e.note) o.note = e.note; return o; };
+
+  /** Build edits from a modal result, optimistically mutate `obj`, re-render, persist.
+   *  opts: { skipKeys, pathMap (scalar routing), onEmpty }. Returns true if anything changed. */
+  function applyEdits(section, target, obj, res, opts) {
+    opts = opts || {};
+    const edits = [];
+    for (const [k, o] of Object.entries(res.values)) {
+      if (opts.skipKeys && opts.skipKeys.includes(k)) continue;
+      if (!o.changed || o.value === '') continue;               // never erase via a blank
+      edits.push(pruneEdit({ section, target, field: k, value: o.value, source_url: res.source_url, note: res.note }));
+      const val = coerceLocal(k, o.value);
+      const path = opts.pathMap && opts.pathMap[k];
+      if (path) { obj[path[0]] = obj[path[0]] || {}; obj[path[0]][path[1]] = val; }
+      else obj[k] = val;
+    }
+    if (!edits.length) { if (opts.onEmpty) opts.onEmpty(); return false; }
+    obj.analyst = true;
+    obj.analyst_fields = Array.isArray(obj.analyst_fields) ? obj.analyst_fields : [];
+    edits.forEach((e) => { if (!obj.analyst_fields.includes(e.field)) obj.analyst_fields.push(e.field); });
+    if (res.source_url) obj.source = { label: res.note || 'Analyst edit', url: res.source_url };
+    if (section === 'benchmarking') edits.forEach((e) => { if (LOCAL_BENCH_METRICS.has(e.field)) { obj.pending = false; if (obj.listed === undefined) obj.listed = true; } });
+    rerenderAfterEdit();
+    submitEdits(edits);
+    return true;
+  }
+
+  /* ---- Edit entry points, one per editable target ---- */
+  const PEER_FIELDS = () => ([
+    { key: 'revenue', label: 'Revenue', kind: 'number' }, { key: 'revenue_unit', label: 'Revenue unit', kind: 'text' },
+    { key: 'revenue_year', label: 'Revenue year', kind: 'number' }, { key: 'revenue_cagr_3y_pct', label: 'Rev 3Y CAGR %', kind: 'number' },
+    { key: 'ebitda_pct', label: 'EBITDA %', kind: 'number' }, { key: 'pat_pct', label: 'PAT %', kind: 'number' },
+    { key: 'roce_pct', label: 'RoCE %', kind: 'number' }, { key: 'roe_pct', label: 'RoE %', kind: 'number' },
+  ]);
+  async function editPeer(peer) {
+    const res = await editModal({ title: 'Edit ' + peer.name, subtitle: 'Correct financials — analyst edits are badged and survive automated refreshes.',
+      fields: PEER_FIELDS().map((f) => ({ ...f, value: peer[f.key] })), allowSource: true, allowNote: true });
+    if (res) applyEdits('benchmarking', peer.name, peer, res);
+  }
+  async function addPeer() {
+    const res = await editModal({ title: 'Add a peer', subtitle: 'Add a company to the benchmarking table.',
+      fields: [{ key: 'name', label: 'Company name', kind: 'text', full: true }, { key: 'segment', label: 'Sub-segment', kind: 'text' }, { key: 'revenue', label: 'Revenue', kind: 'number' }, { key: 'revenue_unit', label: 'Revenue unit', kind: 'text', value: 'Rs Cr' }, { key: 'ebitda_pct', label: 'EBITDA %', kind: 'number' }, { key: 'roce_pct', label: 'RoCE %', kind: 'number' }],
+      allowSource: true, allowNote: true, saveText: 'Add peer' });
+    if (!res) return;
+    const name = (res.values.name.value || '').trim();
+    if (!name) return toast('A company name is required.', 'warn');
+    const bench = state.data.benchmarking = (state.data.benchmarking && typeof state.data.benchmarking === 'object') ? state.data.benchmarking : {};
+    if (!Array.isArray(bench.peers)) bench.peers = [];
+    const peer = { name, added_by: 'analyst', listed: true, pending: false, segment: '' };
+    bench.peers.push(peer);
+    applyEdits('benchmarking', name, peer, res, { skipKeys: ['name'], onEmpty: () => {
+      const i = bench.peers.indexOf(peer); if (i >= 0) bench.peers.splice(i, 1);
+      toast('Add at least one value (e.g. revenue or sub-segment).', 'warn');
+    } });
+  }
+  async function editPlayer(player) {
+    const res = await editModal({ title: 'Edit ' + player.name, subtitle: 'Correct this player — analyst edits survive automated refreshes.',
+      fields: [{ key: 'segment', label: 'Segment', kind: 'text', value: player.segment }, { key: 'market_share_pct', label: 'Market share %', kind: 'number', value: player.market_share_pct }, { key: 'revenue', label: 'Revenue', kind: 'number', value: player.revenue }, { key: 'revenue_unit', label: 'Revenue unit', kind: 'text', value: player.revenue_unit }, { key: 'ebitda_margin_pct', label: 'EBITDA %', kind: 'number', value: player.ebitda_margin_pct }, { key: 'note', label: 'Note', kind: 'text', value: player.note, full: true }],
+      allowSource: true, allowNote: true });
+    if (res) applyEdits('players', player.name, player, res);
+  }
+  async function addPlayer() {
+    const res = await editModal({ title: 'Add a player', subtitle: 'Add a company to the players table.',
+      fields: [{ key: 'name', label: 'Company name', kind: 'text', full: true }, { key: 'segment', label: 'Segment', kind: 'text' }, { key: 'market_share_pct', label: 'Market share %', kind: 'number' }, { key: 'note', label: 'Note', kind: 'text', full: true }],
+      allowSource: true, allowNote: true, saveText: 'Add player' });
+    if (!res) return;
+    const name = (res.values.name.value || '').trim();
+    if (!name) return toast('A company name is required.', 'warn');
+    if (!Array.isArray(state.data.players)) state.data.players = [];
+    const player = { name, added_by: 'analyst' };
+    state.data.players.push(player);
+    applyEdits('players', name, player, res, { skipKeys: ['name'], onEmpty: () => {
+      const i = state.data.players.indexOf(player); if (i >= 0) state.data.players.splice(i, 1);
+      toast('Add at least one value (e.g. segment or market share).', 'warn');
+    } });
+  }
+  async function editSize() {
+    const s = state.data.size = (state.data.size && typeof state.data.size === 'object') ? state.data.size : {};
+    const cur = s.current = (s.current && typeof s.current === 'object') ? s.current : {};
+    const res = await editModal({ title: 'Edit market size', subtitle: 'Correct the headline size / CAGR.',
+      fields: [{ key: 'value', label: 'Current size', kind: 'number', value: cur.value }, { key: 'unit', label: 'Unit', kind: 'text', value: cur.unit }, { key: 'year', label: 'Year', kind: 'number', value: cur.year }, { key: 'cagr_pct', label: 'CAGR %', kind: 'number', value: s.cagr_pct }],
+      allowSource: true });
+    if (res) applyEdits('size', '', s, res, { pathMap: { value: ['current', 'value'], unit: ['current', 'unit'], year: ['current', 'year'] } });
+  }
+  async function editMargins() {
+    const m = state.data.margins = (state.data.margins && typeof state.data.margins === 'object') ? state.data.margins : {};
+    const res = await editModal({ title: 'Edit margins', subtitle: 'Correct the margin pool.',
+      fields: [{ key: 'manufacturer_pct', label: 'Manufacturer %', kind: 'number', value: m.manufacturer_pct }, { key: 'retailer_pct', label: 'Retailer %', kind: 'number', value: m.retailer_pct }, { key: 'notes', label: 'Notes', kind: 'text', value: m.notes, full: true }],
+      allowSource: true });
+    if (res) applyEdits('margins', '', m, res);
   }
 
   /** Cancel a running research/update: stop the GitHub run (via the Worker) and
