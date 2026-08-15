@@ -1,5 +1,5 @@
 {
-  "default": "paints-coatings",
+  "default": "ice-cream",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -32,6 +32,17 @@
         "Colocation & Cloud Infrastructure"
       ],
       "is_manufacturing": false,
+      "mock": false
+    },
+    {
+      "slug": "ice-cream",
+      "name": "Ice Cream",
+      "aliases": [
+        "Frozen Dessert",
+        "Ice Cream and Frozen Dessert",
+        "Kulfi and Ice Cream"
+      ],
+      "is_manufacturing": true,
       "mock": false
     }
   ]
