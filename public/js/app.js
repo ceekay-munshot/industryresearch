@@ -1423,12 +1423,37 @@
     startProgressLoop({ ui, ...rec });
   }
 
+  /** In-DOM confirm — a native confirm() is blocked inside a cross-origin iframe
+   *  (and shows the worker's domain), so we render our own modal. Returns a Promise. */
+  function confirmDialog(message, opts) {
+    opts = opts || {};
+    return new Promise((resolve) => {
+      const overlay = h('div', { class: 'modal-overlay' });
+      let closed = false;
+      const done = (v) => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); overlay.remove(); resolve(v); };
+      const onKey = (e) => { if (e.key === 'Escape') done(false); else if (e.key === 'Enter') done(true); };
+      const okBtn = h('button', { class: 'modal-btn danger', type: 'button', onClick: () => done(true) }, opts.okText || 'Yes, cancel');
+      overlay.appendChild(h('div', { class: 'modal-box', role: 'alertdialog', 'aria-modal': 'true' },
+        opts.title ? h('div', { class: 'modal-title' }, opts.title) : null,
+        h('div', { class: 'modal-msg' }, message),
+        h('div', { class: 'modal-actions' },
+          h('button', { class: 'modal-btn ghost', type: 'button', onClick: () => done(false) }, opts.cancelText || 'Keep running'),
+          okBtn)));
+      overlay.addEventListener('click', (e) => { if (e.target === overlay) done(false); });
+      document.addEventListener('keydown', onKey);
+      document.body.appendChild(overlay);
+      okBtn.focus();
+    });
+  }
+
   /** Cancel a running research/update: stop the GitHub run (via the Worker) and
    *  stop tracking it locally. Never-fail: if the Worker can't cancel it, we still
    *  stop tracking and point the user to GitHub Actions. */
   async function cancelRun(rec) {
     if (!rec || !rec.slug) return;
-    if (!confirm('Cancel the research run for ' + (rec.name || 'this industry') + '?')) return;
+    const yes = await confirmDialog('Cancel the research run for ' + (rec.name || 'this industry') + '? The gathered-so-far data is kept.',
+      { title: 'Cancel run?', okText: 'Yes, cancel', cancelText: 'Keep running' });
+    if (!yes) return;
     stopRun();
     let resp = null;
     try {
