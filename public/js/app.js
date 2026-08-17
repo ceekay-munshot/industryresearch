@@ -228,8 +228,8 @@
     if (yr && t) out.push(h('span', { class: `asof asof-${t.tier}`, title: `${t.word} — data as of ${yr}` }, 'as of ' + yr));
     if (c.sources) out.push(h('span', { class: 'srccount srccount-link', role: 'button', tabindex: '0',
       title: `${c.sources} distinct source${c.sources > 1 ? 's' : ''} back this section — click to see them all`,
-      onClick: (e) => { e.preventDefault(); e.stopPropagation(); showTab('sources'); },
-      onKeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showTab('sources'); } },
+      onClick: (e) => { e.preventDefault(); e.stopPropagation(); openSourcesModal(state.data); },
+      onKeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openSourcesModal(state.data); } },
     }, c.sources + (c.sources > 1 ? ' sources' : ' source')));
     return out;
   }
@@ -491,7 +491,7 @@
             label: (c) => formatSize({ value: c.parsed.y, unit: size.current && size.current.unit }) } } },
           scales: {
             x: { grid: { display: false }, border: { display: false } },
-            y: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } },
+            y: { grid: { display: false }, border: { display: false }, ticks: { callback: (v) => num(v) } },
           },
         },
       }));
@@ -600,7 +600,7 @@
     const tail = (data.tailwinds || []).filter((t) => has(t.point));
     const head = (data.headwinds || []).filter((t) => has(t.point));
     if (!tail.length && !head.length) return null;
-    return h('div', { class: 'grid gap-4 md:grid-cols-2' },
+    return h('div', { class: 'flex flex-col gap-4' },
       tail.length ? card({ title: 'Tailwinds', badge: badge('Supportive', 'good'), body: twList(tail, 'good') }) : null,
       head.length ? card({ title: 'Headwinds', badge: badge('Watch', 'warn'), body: twList(head, 'bad') }) : null,
     );
@@ -665,7 +665,7 @@
           layout: { padding: { right: 44 } },
           plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => `${c.parsed.x}%` } } },
           scales: {
-            x: { max: Math.min(100, Math.max(...ch.map((c) => c.share_pct)) + 12), grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => v + '%' } },
+            x: { max: Math.min(100, Math.max(...ch.map((c) => c.share_pct)) + 12), grid: { display: false }, border: { display: false }, ticks: { callback: (v) => v + '%' } },
             y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 20 ? l.slice(0, 19) + '…' : l; } } },
           },
         },
@@ -732,14 +732,16 @@
     }
     const tableCard = card({ title: 'Players', subtitle: `${players.length} companies`, className: 'min-w-0', section: 'players', badge: addBtn('Add player', addPlayer), body: tableBody });
 
-    // ----- Market-share doughnut -----
+    // ----- Market-share doughnut — full width, BELOW the table (never squeezed beside it) -----
     const shareData = players.filter((p) => p.market_share_pct != null);
     let shareCard = null;
     if (shareData.length) {
-      const { box, canvas } = chartBox(200);
+      const { box, canvas } = chartBox(260);
       shareCard = card({
         title: 'Market share', subtitle: 'by revenue',
-        body: h('div', {}, box, h('div', { class: 'mt-3' }, doughnutLegend(shareData.map((p) => ({ name: p.name, value: p.market_share_pct }))))),
+        body: h('div', {},
+          h('div', { class: 'mx-auto', style: { width: '260px', maxWidth: '100%' } }, box),
+          h('div', { class: 'mt-4' }, doughnutLegend(shareData.map((p) => ({ name: p.name, value: p.market_share_pct }))))),
       });
       requestAnimationFrame(() => newChart(canvas, {
         type: 'doughnut',
@@ -748,12 +750,9 @@
       }));
     }
 
-    // Full-width table when there's no market-share chart; otherwise a 2:1 split.
+    // Always one full-width column: the table, then market-share stacked under it.
     if (!shareCard) return h('div', {}, tableCard);
-    return h('div', { class: 'grid gap-4 grid-cols-1 lg:grid-cols-3 items-start' },
-      h('div', { class: 'lg:col-span-2 min-w-0' }, tableCard),
-      h('div', { class: 'min-w-0' }, shareCard),
-    );
+    return h('div', { class: 'flex flex-col gap-4' }, tableCard, shareCard);
   }
 
   function secQuant(data) {
@@ -776,7 +775,7 @@
           indexAxis: 'y', responsive: true, maintainAspectRatio: false,
           layout: { padding: { right: 70 } },
           plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.x) + (cap[0].unit ? ' ' + cap[0].unit : '') } } },
-          scales: { x: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } }, y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 18 ? l.slice(0, 17) + '…' : l; } } } },
+          scales: { x: { grid: { display: false }, border: { display: false }, ticks: { callback: (v) => num(v) } }, y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 18 ? l.slice(0, 17) + '…' : l; } } } },
         },
         plugins: [valueLabels((v) => num(v), 'y')],
       }));
@@ -790,7 +789,7 @@
       requestAnimationFrame(() => newChart(canvas, {
         type: 'line',
         data: { labels: imp.map((r) => r.year), datasets: [{ data: imp.map((r) => r.volume), borderColor: color(4), borderWidth: 2.5, tension: 0.35, pointRadius: 4, pointBackgroundColor: color(4), pointBorderColor: '#fff', pointBorderWidth: 1.5, pointHoverRadius: 7, pointHoverBorderColor: '#fff', pointHoverBorderWidth: 2.5, pointHitRadius: 32, fill: true, backgroundColor: 'rgba(244,63,94,0.10)' }] },
-        options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false }, plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.y) + (imp[0].unit ? ' ' + imp[0].unit : '') } } }, scales: { x: { grid: { display: false }, border: { display: false } }, y: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } } } },
+        options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false }, plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.y) + (imp[0].unit ? ' ' + imp[0].unit : '') } } }, scales: { x: { grid: { display: false }, border: { display: false } }, y: { grid: { display: false }, border: { display: false }, ticks: { callback: (v) => num(v) } } } },
       }));
     }
 
@@ -820,7 +819,7 @@
         h('span', { class: 'w-8 h-8 rounded-lg grid place-items-center text-white flex-shrink-0', style: { background: 'linear-gradient(135deg,var(--chart-1),var(--chart-7))' }, html: I.factory }),
         h('div', {}, h('div', { class: 'font-display font-extrabold text-[16px] text-slate-900' }, 'Supply & Trade'),
           h('div', { class: 'text-[12px] text-slate-400' }, 'capacity · utilisation · imports · duty'))),
-      h('div', { class: 'grid gap-4 grid-cols-1 lg:grid-cols-2' }, ...cards));
+      h('div', { class: 'flex flex-col gap-4' }, ...cards));
   }
 
   function secReport(data) {
@@ -847,7 +846,7 @@
       render: (root, d) => appendChildren(root, [
         secHeadline(d),
         secHighlights(d),
-        gridStack([secSize(d), secSegments(d)], 'lg:grid-cols-2'),
+        gridStack([secSize(d), secSegments(d)], ''),
       ]),
     },
     {
@@ -860,7 +859,7 @@
       available: (d) => has(d.value_chain) || has(d.channels) || has(d.margins),
       render: (root, d) => appendChildren(root, [
         secValueChain(d),
-        gridStack([secChannels(d), secMargins(d)], 'lg:grid-cols-2'),
+        gridStack([secChannels(d), secMargins(d)], ''),
       ]),
     },
     {
@@ -954,7 +953,7 @@
         layout: { padding: { right: 66 } },
         plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => fmt(c.parsed.x) } } },
         scales: {
-          x: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => fmt(v) } },
+          x: { grid: { display: false }, border: { display: false }, ticks: { callback: (v) => fmt(v) } },
           y: { grid: { display: false }, border: { display: false }, ticks: { font: { weight: '600' }, callback: function (v) { const l = String(this.getLabelForValue(v)); return l.length > 22 ? l.slice(0, 21) + '…' : l; } } },
         },
       },
@@ -1052,7 +1051,7 @@
     const ebPeers = peers.filter((p) => p.ebitda_pct != null).sort((a, b) => Number(b.ebitda_pct) - Number(a.ebitda_pct)).slice(0, 12);
     if (ebPeers.length >= 2) charts.push(benchBarCard('EBITDA % by player', 'operating margin', ebPeers,
       (p) => Number(p.ebitda_pct), (v) => v + '%'));
-    if (charts.length) root.appendChild(h('div', { class: 'grid gap-4 mt-4 grid-cols-1 lg:grid-cols-2 items-start' }, ...charts));
+    if (charts.length) root.appendChild(h('div', { class: 'flex flex-col gap-4 mt-4' }, ...charts));
   }
 
   /* Curate videos the way an analyst reads them — by research angle, not one
@@ -1299,10 +1298,11 @@
     return [...map.values()];
   }
 
-  function renderSources(root, data) {
-    root.innerHTML = '';
+  /** The sources view as a self-contained node (used inside the Sources modal). */
+  function buildSourcesView(data) {
+    const wrap = h('div', {});
     const all = collectSources(data).sort((a, b) => b.sections.size - a.sections.size || a.label.localeCompare(b.label));
-    if (!all.length) { root.appendChild(card({ hoverable: false, body: emptyState('No sources yet', 'Sources appear here as the research fills in.') })); return; }
+    if (!all.length) { wrap.appendChild(emptyState('No sources yet', 'Sources appear here as the research fills in.')); return wrap; }
     const sectionSet = Array.from(new Set(all.flatMap((s) => [...s.sections.keys()]))).sort((a, b) => a.localeCompare(b));
     const st = { section: 'all' };
 
@@ -1325,13 +1325,34 @@
       rows.forEach((s) => listHost.appendChild(sourceRow(s)));
     };
 
-    root.appendChild(card({ hoverable: false, body: h('div', {},
-      h('div', { class: 'font-display font-extrabold text-[18px] text-slate-900' }, all.length + ' sources back this dashboard'),
-      h('div', { class: 'text-[12.5px] text-slate-400 mt-0.5' }, 'every figure links to one of these — each source shows which sections it backs')) }));
-    root.appendChild(h('div', { class: 'list-toolbar' },
+    wrap.appendChild(h('div', { class: 'text-[12.5px] text-slate-400 mb-3' }, 'every figure links to one of these — each source shows which sections it backs'));
+    wrap.appendChild(h('div', { class: 'list-toolbar' },
       labeledSelect('Section', [{ value: 'all', label: 'All sections' }, ...sectionSet.map((s) => ({ value: s, label: s }))], 'all', (v) => { st.section = v; draw(); })));
-    root.appendChild(listHost);
+    wrap.appendChild(listHost);
     draw();
+    return wrap;
+  }
+
+  /** Sources open as an in-DOM modal (iframe-safe), launched from the header button
+   *  or any section's "N sources" chip — no longer a top-level tab. */
+  function openSourcesModal(data) {
+    if (!data) return;
+    const all = collectSources(data);
+    const overlay = h('div', { class: 'modal-overlay' });
+    let closed = false;
+    const done = () => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); overlay.remove(); };
+    const onKey = (e) => { if (e.key === 'Escape') done(); };
+    const box = h('div', { class: 'modal-box src-modal', role: 'dialog', 'aria-modal': 'true' },
+      h('div', { class: 'src-modal-bar' },
+        h('div', { class: 'min-w-0' },
+          h('div', { class: 'modal-title' }, all.length + ' sources back this dashboard'),
+          h('div', { class: 'text-[12px] text-slate-400' }, ((data.meta && data.meta.name) || 'This industry') + ' — the full source universe')),
+        h('button', { class: 'src-modal-close', type: 'button', 'aria-label': 'Close', onClick: done }, '×')),
+      h('div', { class: 'src-modal-body' }, buildSourcesView(data)));
+    overlay.appendChild(box);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) done(); });
+    document.addEventListener('keydown', onKey);
+    document.body.appendChild(overlay);
   }
 
   /* ======================================================================= *
@@ -1584,6 +1605,13 @@
       onClick: downloadReport,
     }, h('span', { class: 'w-3.5 h-3.5', html: I.download }), 'Download report');
 
+    // Sources is a header button (opens a modal) — not a tab. Click it (or any
+    // section's "N sources" chip) to see the whole source universe.
+    const sourcesBtn = h('button', {
+      class: 'hdr-sources', type: 'button', title: 'See every source behind this dashboard',
+      onClick: () => openSourcesModal(state.data),
+    }, h('span', { class: 'w-3.5 h-3.5', html: I.sources }), 'Sources');
+
     root.appendChild(h('div', { class: 'card fade-in relative overflow-hidden' },
       h('div', { class: 'absolute left-0 top-0 bottom-0 w-1.5', style: { background: 'linear-gradient(180deg,var(--chart-1),var(--chart-2))' } }),
       h('div', { class: 'card-body pl-6' },
@@ -1596,7 +1624,7 @@
           h('div', { class: 'flex flex-col items-end gap-2 flex-shrink-0' },
             m.mock && h('span', { class: 'mock-flag' }, h('span', { class: 'w-1.5 h-1.5 rounded-full bg-current' }), 'Mock data'),
             m.mock ? null : h('div', { class: 'flex items-center gap-2 flex-wrap justify-end no-print' },
-              hasReport ? downloadBtn : null, refreshBtn))),
+              sourcesBtn, hasReport ? downloadBtn : null, refreshBtn))),
         aliases.length ? h('div', { class: 'flex items-center gap-1.5 flex-wrap mt-3' },
           h('span', { class: 'text-[11px] font-semibold uppercase tracking-wide text-slate-400 mr-1' }, 'Also known as'),
           ...aliases.map((a) => h('span', { class: 'text-[11.5px] font-medium text-slate-500 bg-slate-100 rounded-md px-2 py-0.5' }, a))) : null,
@@ -1681,7 +1709,6 @@
     { id: 'youtube', label: 'YouTube', icon: I.video },
     { id: 'reports', label: 'Reports', icon: I.doc },
     { id: 'news', label: 'News', icon: I.news },
-    { id: 'sources', label: 'Sources', icon: I.sources },
     { id: 'chat', label: 'Chat', icon: I.chat },
   ];
   const tabAvailable = (t) => (typeof t.available === 'function' ? t.available(state.data) : true);
@@ -1714,7 +1741,6 @@
     if (id === 'youtube') return renderYouTube(panel, state.data);
     if (id === 'reports') return renderReports(panel, state.data);
     if (id === 'news') return renderNews(panel, state.data);
-    if (id === 'sources') return renderSources(panel, state.data);
     if (id === 'chat') return renderChat(panel, state.data);
   }
 
@@ -1748,11 +1774,10 @@
   function showSkeleton() {
     const panel = $('#panel-deep');
     panel.innerHTML = '';
-    panel.appendChild(h('div', { class: 'grid gap-4' },
+    panel.appendChild(h('div', { class: 'flex flex-col gap-4' },
       h('div', { class: 'card' }, h('div', { class: 'card-body' }, h('div', { class: 'shimmer h-6 w-2/3 mb-3' }), h('div', { class: 'shimmer h-4 w-1/2' }))),
-      h('div', { class: 'grid gap-4 lg:grid-cols-2' },
-        h('div', { class: 'card' }, h('div', { class: 'card-body' }, h('div', { class: 'shimmer h-52 w-full' }))),
-        h('div', { class: 'card' }, h('div', { class: 'card-body' }, h('div', { class: 'shimmer h-52 w-full' }))))));
+      h('div', { class: 'card' }, h('div', { class: 'card-body' }, h('div', { class: 'shimmer h-52 w-full' }))),
+      h('div', { class: 'card' }, h('div', { class: 'card-body' }, h('div', { class: 'shimmer h-52 w-full' })))));
   }
 
   async function loadIndustry(slug) {

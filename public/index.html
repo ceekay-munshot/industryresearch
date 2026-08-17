@@ -256,7 +256,7 @@
 
     /* ---------- Tables ---------- */
     .table-scroll { width: 100%; overflow-x: auto; border-radius: var(--radius-sm); border: 1px solid var(--border); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 640px; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 0; table-layout: auto; }
     .data-table thead th {
       position: sticky; top: 0; text-align: left; font-size: 11px; letter-spacing: .04em; text-transform: uppercase;
       color: var(--ink-muted); font-weight: 700; background: #f8fafc; padding: 11px 14px; border-bottom: 1px solid var(--border-strong); white-space: nowrap;
@@ -268,10 +268,9 @@
     .cell-primary { font-weight: 700; color: var(--ink); }
 
     /* ---------- Benchmarking ---------- */
-    /* Two-class selector so the wide-table min-width wins over the mobile
-       `.data-table { min-width }` override — the 9 columns stay readable and
-       scroll inside .table-scroll instead of cramping. */
-    .data-table.bench-table { min-width: 860px; }
+    /* Benchmarking (9 cols) fills the full-width card; it only scrolls on a very
+       narrow screen, never at desktop widths. */
+    .data-table.bench-table { min-width: 0; }
     .bench-group td { background: var(--primary-soft); padding: 8px 14px; }
     .data-table tbody tr.bench-group:hover td { background: var(--primary-soft); }
     .bench-group-name { font-weight: 800; color: var(--primary-text); font-size: 12.5px; }
@@ -509,6 +508,15 @@
     .hdr-refresh:disabled { cursor: default; }
     .hdr-download { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 700; color: #fff; background: var(--primary); border: 1px solid var(--primary); border-radius: 9px; padding: 7px 13px; cursor: pointer; transition: filter .16s; }
     .hdr-download:hover { filter: brightness(1.06); }
+    .hdr-sources { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 600; color: var(--ink-2); background: var(--card); border: 1px solid var(--border-strong); border-radius: 9px; padding: 7px 13px; cursor: pointer; transition: all .16s; }
+    .hdr-sources:hover { color: var(--primary-text); border-color: var(--primary-border); background: var(--primary-soft); }
+    .hdr-sources svg { width: 15px; height: 15px; }
+    /* Sources modal (opened from the header button / a section's "N sources" chip) */
+    .modal-box.src-modal { max-width: 760px; width: 100%; max-height: 86vh; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
+    .src-modal-bar { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 18px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+    .src-modal-close { font-size: 22px; line-height: 1; color: var(--ink-hint); background: transparent; border: 0; cursor: pointer; padding: 2px 6px; border-radius: 8px; flex-shrink: 0; transition: all .15s; }
+    .src-modal-close:hover { color: var(--ink); background: var(--neutral-soft); }
+    .src-modal-body { padding: 18px 22px 22px; overflow-y: auto; }
     .hdr-refresh-status { width: 100%; }
     .hdr-refresh-status:empty { display: none; }
     .hdr-refresh-status .hist-refreshing, .hdr-refresh-status .hist-manual { margin-top: 14px; }
@@ -577,9 +585,9 @@
     .clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 
-    /* Players table: narrower min, sized company column, clamped notes */
-    .data-table { min-width: 560px; }
-    .data-table td.cell-company { min-width: 168px; max-width: 300px; }
+    /* Players table: fill the card, roomy company column that wraps gracefully */
+    .data-table { min-width: 0; }
+    .data-table td.cell-company { min-width: 190px; max-width: 380px; }
     .cell-note { margin-top: 3px; font-size: 11.5px; color: var(--ink-hint); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .show-all-btn { width: 100%; margin-top: 10px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--primary-text); background: var(--primary-soft); border: 1px solid var(--primary-border); border-radius: 10px; padding: 9px 12px; cursor: pointer; transition: background .15s; }
     .show-all-btn:hover { background: #e5ddfb; }
@@ -736,7 +744,6 @@
     <section id="panel-youtube" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-reports" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-news"    class="tab-panel hidden" role="tabpanel"></section>
-    <section id="panel-sources" class="tab-panel hidden" role="tabpanel"></section>
     <section id="panel-chat"    class="tab-panel hidden" role="tabpanel"></section>
   </main>
 
