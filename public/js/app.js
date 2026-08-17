@@ -1449,13 +1449,13 @@
 
     const log = h('div', { class: 'chat-log', id: 'chat-log' });
     log.appendChild(h('div', { class: 'msg bot' },
-      `Hi! Ask me anything about ${nm}. I answer only from the gathered dashboard data and cite the sources — if something isn't in the data, I'll say so.`));
+      `Hi! Ask me anything about ${nm}. I answer from everything on this dashboard — the analysis, reports, news and videos — and cite the sources. If something isn't in the data, I'll say so. Flip on “Search the web” to also pull a few live results.`));
 
     const input = h('input', { class: 'flex-1 min-w-0 border-0 outline-none bg-transparent text-[14px]', type: 'text', placeholder: 'Ask a question…', autocomplete: 'off' });
     const sendBtn = h('button', { class: 'text-white font-semibold text-[13px] rounded-lg px-4 py-1.5 flex-shrink-0', style: { background: 'var(--primary)' }, type: 'submit' }, 'Send');
     const form = h('form', { class: 'searchbar mt-4', style: { borderRadius: '14px' } }, input, sendBtn);
 
-    const ctx = { log, history, data, slug, input, sendBtn, busy: false };
+    const ctx = { log, history, data, slug, input, sendBtn, busy: false, web: false };
 
     // Suggested starter questions — clickable, disappear once the chat gets going.
     const starters = h('div', { class: 'chat-starters', id: 'chat-starters' },
@@ -1468,10 +1468,18 @@
       submit(ctx, input.value);
     });
 
+    // Web-search toggle — dashboard-only by default; flip on to let the agent add
+    // a few live web results as a supplement (the founder's ask).
+    const webToggle = h('label', { class: 'chat-web', title: 'Off = answers only from this dashboard. On = also pull a few live web results as a supplement.' },
+      h('input', { type: 'checkbox', class: 'chat-web-cb', onChange: (e) => { ctx.web = e.target.checked; } }),
+      h('span', { class: 'chat-web-sw' }),
+      h('span', { class: 'chat-web-txt' }, 'Search the web'),
+      h('span', { class: 'chat-web-hint' }, 'off = this dashboard only'));
+
     root.appendChild(card({ hoverable: false, title: 'Chat', subtitle: `ask about ${nm}`,
       body: h('div', {},
         h('div', { class: 'chat-window', style: { minHeight: '340px', maxHeight: '52vh', overflowY: 'auto' } }, log),
-        starters, form) }));
+        starters, form, webToggle) }));
     input.focus();
   }
 
@@ -1510,7 +1518,7 @@
     try {
       const res = await fetch('/api/chat', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ slug, question: text, history: priorHistory }),
+        body: JSON.stringify({ slug, question: text, history: priorHistory, web: !!ctx.web }),
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const json = await res.json();
