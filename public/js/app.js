@@ -34,7 +34,7 @@
   function appendChildren(el, children) {
     for (const c of children.flat(Infinity)) {
       if (c == null || c === false || c === '') continue;
-      el.appendChild(typeof c === 'object' ? c : document.createTextNode(String(c)));
+      el.appendChild(typeof c === 'object' ? c : document.createTextNode(cleanText(String(c))));
     }
   }
 
@@ -50,6 +50,27 @@
   };
   const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  /* Scraped report/news text sometimes carries raw HTML fragments (e.g. a literal
+   * "<strong>…</strong>" or "&amp;") that would otherwise render as visible junk.
+   * Decode entities FIRST, then strip tags, so an encoded "&lt;strong&gt;" is turned
+   * into a real tag and removed (not re-surfaced as text). Guarded by a cheap test so
+   * ordinary strings (the vast majority) pass through untouched. */
+  const HTMLISH = /<\/?[a-z!][^>]*>|&(?:amp|lt|gt|quot|apos|nbsp|#\d+|#x[0-9a-f]+);/i;
+  function cleanText(s) {
+    if (s == null) return s;
+    s = String(s);
+    if (!HTMLISH.test(s)) return s;
+    s = s
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
+      .replace(/&quot;/gi, '"').replace(/&#0*39;|&apos;/gi, "'")
+      .replace(/&#(\d+);/g, (m, n) => { try { return String.fromCharCode(+n); } catch (e) { return ''; } })
+      .replace(/&#x([0-9a-f]+);/gi, (m, n) => { try { return String.fromCharCode(parseInt(n, 16)); } catch (e) { return ''; } })
+      .replace(/<\/?[a-z!][^>]*>/gi, '')
+      .replace(/[^\S\n]{2,}/g, ' ')
+      .trim();
+    return s;
+  }
   const num = (v) => (v == null || isNaN(Number(v))) ? '—' : Number(v).toLocaleString('en-IN');
   const pct = (v) => (v == null || isNaN(Number(v))) ? '—' : `${Number(v)}%`;
 
@@ -89,9 +110,12 @@
     const d = daysSince(asOf, now);
     if (d == null) return null;
     const [warn, err] = FRESH_T[section] || FRESH_T._default;
+    // Wording is deliberately non-alarming: an annual market-size figure is always a
+    // year or two old by nature, so we never call it "Outdated". We state the vintage
+    // calmly and let the separate "Updated <when>" chip carry refresh recency.
     if (d <= warn) return { tier: 'fresh', word: 'Current' };
-    if (d <= err) return { tier: 'aging', word: 'Aging' };
-    return { tier: 'stale', word: 'Outdated' };
+    if (d <= err) return { tier: 'aging', word: 'Recent' };
+    return { tier: 'stale', word: 'Latest available' };
   }
   function relativeTime(dateStr, now) {
     const d = daysSince(dateStr, now);
@@ -173,6 +197,7 @@
     open: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M7 17 17 7M8 7h9v9"/></svg>',
     pencil: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>',
     plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M12 5v14M5 12h14"/></svg>',
+    sources: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tab-icon"><path d="M4 6h10M4 12h10M4 18h7"/><circle cx="18.5" cy="16.5" r="2.5"/><path d="M20.3 18.3 22 20"/></svg>',
   };
 
   /* ----------------------------------------------------------------------- *
@@ -201,7 +226,11 @@
     const yr = asOfYear(c.as_of);
     const t = freshnessTier(section, c.as_of, Date.now());
     if (yr && t) out.push(h('span', { class: `asof asof-${t.tier}`, title: `${t.word} — data as of ${yr}` }, 'as of ' + yr));
-    if (c.sources) out.push(h('span', { class: 'srccount', title: `${c.sources} distinct source${c.sources > 1 ? 's' : ''} back this section` }, c.sources + (c.sources > 1 ? ' sources' : ' source')));
+    if (c.sources) out.push(h('span', { class: 'srccount srccount-link', role: 'button', tabindex: '0',
+      title: `${c.sources} distinct source${c.sources > 1 ? 's' : ''} back this section — click to see them all`,
+      onClick: (e) => { e.preventDefault(); e.stopPropagation(); showTab('sources'); },
+      onKeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showTab('sources'); } },
+    }, c.sources + (c.sources > 1 ? ' sources' : ' source')));
     return out;
   }
 
@@ -289,6 +318,7 @@
    * Markdown → HTML (headings, bold, code, lists, paragraphs)
    * ----------------------------------------------------------------------- */
   function mdToHtml(md) {
+    md = cleanText(md);   // drop any stray HTML/entities from scraped prose before parsing
     const inline = (t) => escapeHtml(t)
       .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
       .replace(/`([^`]+)`/g, '<code>$1</code>');
@@ -441,7 +471,8 @@
           datasets: [{
             data: hist.map((p) => p.value),
             borderColor: color(0), borderWidth: 2.5, tension: 0.35,
-            pointRadius: 3, pointBackgroundColor: color(0), pointBorderColor: '#fff', pointBorderWidth: 1.5,
+            pointRadius: 4, pointBackgroundColor: color(0), pointBorderColor: '#fff', pointBorderWidth: 1.5,
+            pointHoverRadius: 7, pointHoverBackgroundColor: color(0), pointHoverBorderColor: '#fff', pointHoverBorderWidth: 2.5, pointHitRadius: 32,
             fill: true,
             backgroundColor: (ctx) => {
               const { ctx: c, chartArea } = ctx.chart;
@@ -454,7 +485,10 @@
         },
         options: {
           responsive: true, maintainAspectRatio: false,
-          plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => formatSize({ value: c.parsed.y, unit: size.current && size.current.unit }) } } },
+          interaction: { mode: 'index', intersect: false },   // hover anywhere on the line → value
+          plugins: { legend: { display: false }, tooltip: { callbacks: {
+            title: (items) => items && items.length ? 'FY' + items[0].label : '',
+            label: (c) => formatSize({ value: c.parsed.y, unit: size.current && size.current.unit }) } } },
           scales: {
             x: { grid: { display: false }, border: { display: false } },
             y: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } },
@@ -755,8 +789,8 @@
       cards.push(card({ title: 'Imports trend', subtitle: imp[0].unit ? `volume (${imp[0].unit})` : 'volume', body: box }));
       requestAnimationFrame(() => newChart(canvas, {
         type: 'line',
-        data: { labels: imp.map((r) => r.year), datasets: [{ data: imp.map((r) => r.volume), borderColor: color(4), borderWidth: 2.5, tension: 0.35, pointRadius: 3, pointBackgroundColor: color(4), pointBorderColor: '#fff', pointBorderWidth: 1.5, fill: true, backgroundColor: 'rgba(244,63,94,0.10)' }] },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.y) + (imp[0].unit ? ' ' + imp[0].unit : '') } } }, scales: { x: { grid: { display: false }, border: { display: false } }, y: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } } } },
+        data: { labels: imp.map((r) => r.year), datasets: [{ data: imp.map((r) => r.volume), borderColor: color(4), borderWidth: 2.5, tension: 0.35, pointRadius: 4, pointBackgroundColor: color(4), pointBorderColor: '#fff', pointBorderWidth: 1.5, pointHoverRadius: 7, pointHoverBorderColor: '#fff', pointHoverBorderWidth: 2.5, pointHitRadius: 32, fill: true, backgroundColor: 'rgba(244,63,94,0.10)' }] },
+        options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false }, plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.y) + (imp[0].unit ? ' ' + imp[0].unit : '') } } }, scales: { x: { grid: { display: false }, border: { display: false } }, y: { grid: { color: '#eef1f6' }, border: { display: false }, ticks: { callback: (v) => num(v) } } } },
       }));
     }
 
@@ -1082,26 +1116,84 @@
     root.appendChild(h('div', { class: 'flex flex-col gap-6' }, ...sections));
   }
 
+  /* ---- Small, reusable list controls (sort pills + a filter dropdown) ---- */
+  function segPills(initial, options, onPick) {
+    const wrap = h('div', { class: 'lt-seg' });
+    options.forEach((o) => wrap.appendChild(h('button', {
+      class: 'lt-pill' + (o.id === initial ? ' active' : ''), type: 'button',
+      onClick: () => { wrap.querySelectorAll('.lt-pill').forEach((b) => b.classList.remove('active')); wrap.querySelectorAll('.lt-pill')[options.indexOf(o)].classList.add('active'); onPick(o.id); },
+    }, o.label)));
+    return wrap;
+  }
+  function labeledSelect(label, options, initial, onPick) {
+    const sel = h('select', { class: 'lt-select', onChange: (e) => onPick(e.target.value) },
+      ...options.map((o) => h('option', { value: o.value, selected: o.value === initial ? 'selected' : null }, o.label)));
+    return h('label', { class: 'lt-field' }, h('span', { class: 'lt-label' }, label), sel);
+  }
+
+  const domainOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
+  const reportBroker = (r) => cleanText(has(r.publisher) ? r.publisher : (domainOf(r.url) || 'Other'));
+  const dateT = (s) => { const t = Date.parse(s || ''); return isNaN(t) ? -Infinity : t; };
+
   function renderReports(root, data) {
     root.innerHTML = '';
-    const reports = ((data.sources && data.sources.reports) || []).filter((r) => has(r.title));
+    const reports = ((data.sources && data.sources.reports) || []).filter((r) => has(r.title))
+      .map((r, i) => ({ ...r, __i: i }));
     if (!reports.length) { root.appendChild(card({ hoverable: false, body: emptyState('No reports yet', 'Broker and industry reports will be listed here.') })); return; }
-    const list = h('div', { class: 'flex flex-col gap-3' },
-      ...reports.map((r) => h('a', { class: 'card hoverable block', href: r.url || '#', target: '_blank', rel: 'noopener noreferrer' },
-        h('div', { class: 'card-body flex items-start gap-3.5' },
-          h('span', { class: 'w-10 h-10 rounded-xl grid place-items-center flex-shrink-0 text-[var(--primary-text)] bg-[var(--primary-soft)]', html: I.doc }),
-          h('div', { class: 'min-w-0 flex-1' },
-            h('div', { class: 'flex items-start justify-between gap-3 flex-wrap' },
-              h('div', { class: 'font-display font-bold text-[14.5px] text-slate-800 leading-snug' }, r.title),
-              has(r.type) && h('span', { class: 'badge badge-brand flex-shrink-0' }, r.type)),
-            h('div', { class: 'flex items-center gap-1.5 mt-1 text-[12px] text-slate-400' },
-              has(r.publisher) && h('span', { class: 'font-semibold text-slate-500' }, r.publisher),
-              has(r.publisher) && has(r.date) && h('span', {}, '·'),
-              has(r.date) && h('span', {}, r.date)),
-            has(r.summary) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5' }, r.summary)),
-        ))));
-    root.appendChild(list);
+
+    const brokers = Array.from(new Set(reports.map(reportBroker))).sort((a, b) => a.localeCompare(b));
+    const st = { sort: 'relevance', broker: 'all' };
+
+    const reportCard = (r) => h('a', { class: 'card hoverable block', href: r.url || '#', target: '_blank', rel: 'noopener noreferrer' },
+      h('div', { class: 'card-body flex items-start gap-3.5' },
+        h('span', { class: 'w-10 h-10 rounded-xl grid place-items-center flex-shrink-0 text-[var(--primary-text)] bg-[var(--primary-soft)]', html: I.doc }),
+        h('div', { class: 'min-w-0 flex-1' },
+          h('div', { class: 'flex items-start justify-between gap-3 flex-wrap' },
+            h('div', { class: 'font-display font-bold text-[14.5px] text-slate-800 leading-snug' }, r.title),
+            has(r.type) && h('span', { class: 'badge badge-brand flex-shrink-0' }, r.type)),
+          h('div', { class: 'flex items-center gap-1.5 mt-1 text-[12px] text-slate-400' },
+            has(r.publisher) && h('span', { class: 'font-semibold text-slate-500' }, r.publisher),
+            has(r.publisher) && has(r.date) && h('span', {}, '·'),
+            has(r.date) && h('span', {}, r.date)),
+          has(r.summary) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5' }, r.summary)),
+      ));
+
+    const listHost = h('div', { class: 'flex flex-col gap-3' });
+    const draw = () => {
+      let rows = reports.slice();
+      if (st.broker !== 'all') rows = rows.filter((r) => reportBroker(r) === st.broker);
+      if (st.sort === 'broker') rows.sort((a, b) => reportBroker(a).localeCompare(reportBroker(b)) || a.__i - b.__i);
+      else if (st.sort === 'newest') rows.sort((a, b) => dateT(b.date) - dateT(a.date) || a.__i - b.__i);
+      else if (st.sort === 'type') rows.sort((a, b) => String(a.type || 'zz').localeCompare(String(b.type || 'zz')) || a.__i - b.__i);
+      listHost.innerHTML = '';
+      if (!rows.length) { listHost.appendChild(emptyState('No reports for this broker', 'Choose a different broker above.')); return; }
+      rows.forEach((r) => listHost.appendChild(reportCard(r)));
+    };
+
+    const toolbar = h('div', { class: 'list-toolbar' },
+      segPills('relevance', [
+        { id: 'relevance', label: 'Relevance' }, { id: 'broker', label: 'Broker A–Z' },
+        { id: 'newest', label: 'Newest' }, { id: 'type', label: 'Type' },
+      ], (id) => { st.sort = id; draw(); }),
+      labeledSelect('Broker', [{ value: 'all', label: 'All brokers (' + brokers.length + ')' }, ...brokers.map((b) => ({ value: b, label: b }))], 'all', (v) => { st.broker = v; draw(); }));
+
+    root.appendChild(toolbar);
+    root.appendChild(listHost);
+    draw();
   }
+
+  /* News categories an analyst thinks in: government / policy, company-specific, and
+   * analyst / brokerage commentary. Inferred from the headline + publisher (the pipeline
+   * can later tag these explicitly). "Company" is the default bucket. */
+  const NEWS_POLICY_RE = /\b(government|govt|ministr(?:y|ies)|minister|polic(?:y|ies)|gst|tariffs?|dut(?:y|ies)|anti[- ]?dumping|bis|bureau of indian standards|regulations?|regulatory|compliance|budget|pib|parliament|cabinet|schemes?|subsid(?:y|ies)|customs|notifications?|niti aayog|nclt|cci|sebi|rbi|make in india|pli)\b/i;
+  const NEWS_ANALYST_RE = /\b(brokerages?|broker|analysts?|ratings?|rated|upgrades?|downgrades?|target price|price target|target of|initiat(?:e|ing) coverage|research report|buy call|sell call|outperform|underperform|overweight|underweight|motilal|nuvama|icici securities|hdfc securities|kotak inst|jefferies|clsa|morgan stanley|goldman|jpmorgan|nomura|emkay|antique|axis capital|elara|prabhudas|sharekhan|anand rathi|systematix)\b/i;
+  function newsCategory(n) {
+    const t = ((n.title || '') + ' ' + (n.publisher || '') + ' ' + (n.snippet || '')).toLowerCase();
+    if (NEWS_ANALYST_RE.test(t)) return 'analyst';
+    if (NEWS_POLICY_RE.test(t)) return 'policy';
+    return 'company';
+  }
+  const coreCompanyName = (nm) => String(nm).replace(/\s+(ltd|limited|inc|plc|pvt\.?|private|corp\.?|corporation|co\.?)\.?$/gi, '').trim() || String(nm);
 
   function renderNews(root, data) {
     root.innerHTML = '';
@@ -1109,6 +1201,18 @@
     const news = ((data.sources && data.sources.news) || []).filter((n) => has(n.title))
       .slice().sort((a, b) => newsTs(b) - newsTs(a));   // most recent headlines first
     if (!news.length) { root.appendChild(card({ hoverable: false, body: emptyState('No news yet', 'Recent headlines will appear here.') })); return; }
+
+    // Company detection from the researched players / peers, for the company filter.
+    const names = Array.from(new Set([
+      ...(data.players || []).map((p) => cleanText(p.name || '')),
+      ...((data.benchmarking && data.benchmarking.peers) || []).map((p) => cleanText(p.name || '')),
+    ].filter((s) => s && coreCompanyName(s).length >= 3)));
+    const newsCompanies = (n) => {
+      const t = ((n.title || '') + ' ' + (n.snippet || '')).toLowerCase();
+      return names.filter((nm) => t.includes(coreCompanyName(nm).toLowerCase()));
+    };
+    const presentCompanies = Array.from(new Set(news.flatMap(newsCompanies))).sort((a, b) => a.localeCompare(b));
+
     const sentiment = (s) => {
       const k = String(s || '').toLowerCase();
       if (k === 'positive') return badge('Positive', 'good');
@@ -1116,19 +1220,118 @@
       if (k === 'neutral') return badge('Neutral', 'neutral');
       return has(s) ? badge(s, 'neutral') : null;
     };
-    const list = h('div', { class: 'grid gap-3 md:grid-cols-2 items-start' },
-      ...news.map((n) => h('a', { class: 'card hoverable block', href: n.url || '#', target: '_blank', rel: 'noopener noreferrer' },
-        h('div', { class: 'card-body' },
-          h('div', { class: 'flex items-start justify-between gap-3' },
-            h('div', { class: 'font-display font-bold text-[14px] text-slate-800 leading-snug flex-1 min-w-0 clamp-2' }, n.title),
-            sentiment(n.sentiment)),
-          h('div', { class: 'flex items-center gap-1.5 mt-1 text-[12px] text-slate-400' },
-            has(n.publisher) && h('span', { class: 'font-semibold text-slate-500 truncate max-w-[60%]' }, n.publisher),
-            has(n.publisher) && has(n.date) && h('span', { class: 'flex-shrink-0' }, '·'),
-            has(n.date) && h('span', { class: 'flex-shrink-0' }, n.date)),
-          has(n.snippet) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5 clamp-2' }, n.snippet)),
-      )));
-    root.appendChild(list);
+    const newsCard = (n) => h('a', { class: 'card hoverable block', href: n.url || '#', target: '_blank', rel: 'noopener noreferrer' },
+      h('div', { class: 'card-body' },
+        h('div', { class: 'flex items-start justify-between gap-3' },
+          h('div', { class: 'font-display font-bold text-[14px] text-slate-800 leading-snug flex-1 min-w-0 clamp-2' }, n.title),
+          sentiment(n.sentiment)),
+        h('div', { class: 'flex items-center gap-1.5 mt-1 text-[12px] text-slate-400' },
+          has(n.publisher) && h('span', { class: 'font-semibold text-slate-500 truncate max-w-[60%]' }, n.publisher),
+          has(n.publisher) && has(n.date) && h('span', { class: 'flex-shrink-0' }, '·'),
+          has(n.date) && h('span', { class: 'flex-shrink-0' }, n.date)),
+        has(n.snippet) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5 clamp-2' }, n.snippet)));
+
+    const st = { cat: 'all', company: 'all' };
+    const count = (id) => id === 'all' ? news.length : news.filter((n) => newsCategory(n) === id).length;
+    const cats = [
+      { id: 'all', label: 'All' }, { id: 'policy', label: 'Govt & policy' },
+      { id: 'company', label: 'Company' }, { id: 'analyst', label: 'Analysts' },
+    ].filter((c) => c.id === 'all' || count(c.id) > 0);
+
+    const listHost = h('div', { class: 'grid gap-3 md:grid-cols-2 items-start' });
+    const draw = () => {
+      let rows = news.slice();
+      if (st.cat !== 'all') rows = rows.filter((n) => newsCategory(n) === st.cat);
+      if (st.company !== 'all') rows = rows.filter((n) => newsCompanies(n).includes(st.company));
+      listHost.innerHTML = '';
+      if (!rows.length) { listHost.appendChild(h('div', { class: 'md:col-span-2' }, emptyState('No matching news', 'Try a different category or company.'))); return; }
+      rows.forEach((n) => listHost.appendChild(newsCard(n)));
+    };
+
+    const catbar = h('div', { class: 'subtabbar mb-1' }, ...cats.map((c) => h('button', {
+      class: 'subtab-btn' + (c.id === st.cat ? ' active' : ''), type: 'button',
+      onClick: (e) => { st.cat = c.id; catbar.querySelectorAll('.subtab-btn').forEach((b) => b.classList.remove('active')); e.currentTarget.classList.add('active'); draw(); },
+    }, c.label, c.id === 'all' ? null : h('span', { class: 'subtab-count' }, ' ' + count(c.id)))));
+
+    const toolbar = h('div', { class: 'list-toolbar' },
+      presentCompanies.length ? labeledSelect('Company',
+        [{ value: 'all', label: 'All companies' }, ...presentCompanies.map((c) => ({ value: c, label: c }))], 'all',
+        (v) => { st.company = v; draw(); }) : null);
+
+    root.appendChild(catbar);
+    if (presentCompanies.length) root.appendChild(toolbar);
+    root.appendChild(listHost);
+    draw();
+  }
+
+  /* ======================================================================= *
+   * SOURCES TAB — the whole source universe in one place, each source shown with
+   * WHAT it backs (which sections cite it). This is where the "34 sources" chip on
+   * any section leads, so an analyst can explore provenance themselves.
+   * ======================================================================= */
+  function collectSources(data) {
+    const map = new Map();   // url -> { label, url, snippet, sections: Map(sectionLabel -> count) }
+    const add = (src, sectionLabel) => {
+      if (!src || !src.url) return;
+      let e = map.get(src.url);
+      if (!e) { e = { label: cleanText(src.label || domainOf(src.url) || 'Source'), url: src.url, snippet: cleanText(src.snippet || ''), sections: new Map() }; map.set(src.url, e); }
+      if (!e.snippet && src.snippet) e.snippet = cleanText(src.snippet);
+      e.sections.set(sectionLabel, (e.sections.get(sectionLabel) || 0) + 1);
+    };
+    const one = (obj, label) => { if (obj && obj.source) add(obj.source, label); };
+    const many = (arr, label) => (arr || []).forEach((x) => { if (x && x.source) add(x.source, label); });
+    one(data.size, 'Market size');
+    many(data.segments, 'Segments');
+    many(data.highlights, 'Key metrics');
+    many(data.growth_drivers, 'Growth drivers');
+    many(data.tailwinds, 'Tailwinds');
+    many(data.headwinds, 'Headwinds');
+    many(data.value_chain, 'Value chain');
+    many(data.channels, 'Channels');
+    many(data.players, 'Players');
+    one(data.margins, 'Margins');
+    one(data.quant, 'Supply & trade');
+    const rep = data.summary && data.summary.report;
+    if (rep && Array.isArray(rep.sections)) rep.sections.forEach((s) => (s.source_refs || []).forEach((r) => add(r, 'Report')));
+    ((data.sources && data.sources.reports) || []).forEach((r) => { if (r && r.url) add({ label: r.publisher || r.title, url: r.url, snippet: r.summary }, 'Reports'); });
+    ((data.sources && data.sources.news) || []).forEach((n) => { if (n && n.url) add({ label: n.publisher || n.title, url: n.url, snippet: n.snippet }, 'News'); });
+    ((data.sources && data.sources.youtube) || []).forEach((v) => { if (v && v.url) add({ label: v.channel || v.title, url: v.url, snippet: v.why_relevant }, 'Videos'); });
+    return [...map.values()];
+  }
+
+  function renderSources(root, data) {
+    root.innerHTML = '';
+    const all = collectSources(data).sort((a, b) => b.sections.size - a.sections.size || a.label.localeCompare(b.label));
+    if (!all.length) { root.appendChild(card({ hoverable: false, body: emptyState('No sources yet', 'Sources appear here as the research fills in.') })); return; }
+    const sectionSet = Array.from(new Set(all.flatMap((s) => [...s.sections.keys()]))).sort((a, b) => a.localeCompare(b));
+    const st = { section: 'all' };
+
+    const sourceRow = (s) => h('a', { class: 'card hoverable block', href: s.url, target: '_blank', rel: 'noopener noreferrer' },
+      h('div', { class: 'card-body flex items-start gap-3.5' },
+        h('span', { class: 'src-favicon', html: I.link }),
+        h('div', { class: 'min-w-0 flex-1' },
+          h('div', { class: 'flex items-center gap-2 flex-wrap' },
+            h('span', { class: 'font-display font-bold text-[14px] text-slate-800' }, s.label),
+            h('span', { class: 'text-[11.5px] text-slate-400' }, domainOf(s.url))),
+          s.snippet ? h('p', { class: 'text-[12.5px] text-slate-500 leading-relaxed mt-1 clamp-2' }, s.snippet) : null,
+          h('div', { class: 'src-sec-row' }, h('span', { class: 'src-sec-label' }, 'Backs'),
+            ...[...s.sections.entries()].map(([lbl, ct]) => h('span', { class: 'src-sec-chip' }, lbl, ct > 1 ? h('b', {}, ' ×' + ct) : null))))));
+
+    const listHost = h('div', { class: 'flex flex-col gap-3' });
+    const draw = () => {
+      const rows = st.section === 'all' ? all : all.filter((s) => s.sections.has(st.section));
+      listHost.innerHTML = '';
+      if (!rows.length) { listHost.appendChild(emptyState('No sources for this section', 'Choose another section.')); return; }
+      rows.forEach((s) => listHost.appendChild(sourceRow(s)));
+    };
+
+    root.appendChild(card({ hoverable: false, body: h('div', {},
+      h('div', { class: 'font-display font-extrabold text-[18px] text-slate-900' }, all.length + ' sources back this dashboard'),
+      h('div', { class: 'text-[12.5px] text-slate-400 mt-0.5' }, 'every figure links to one of these — each source shows which sections it backs')) }));
+    root.appendChild(h('div', { class: 'list-toolbar' },
+      labeledSelect('Section', [{ value: 'all', label: 'All sections' }, ...sectionSet.map((s) => ({ value: s, label: s }))], 'all', (v) => { st.section = v; draw(); })));
+    root.appendChild(listHost);
+    draw();
   }
 
   /* ======================================================================= *
@@ -1214,7 +1417,7 @@
           h('span', { class: 'report-sep' }, '·'),
           h('span', {}, cm.filled + '/' + cm.total + ' sections covered'),
           (rep && rep.kind === 'fallback') ? h('span', { class: 'report-badge', title: 'A deterministic summary built from the data; the full narrative is written on the next research run.' }, 'auto-summary') : null)),
-      h('button', { class: 'report-print-btn no-print', onClick: () => window.print() },
+      h('button', { class: 'report-print-btn no-print', onClick: downloadReport },
         h('span', { class: 'w-4 h-4', html: I.download }), 'Download PDF'));
 
     root.appendChild(h('div', { class: 'report-doc', id: 'report-doc' }, header, h('div', { class: 'report-body' }, ...body)));
@@ -1339,9 +1542,10 @@
     const chips = [];
     if (cm.updated) chips.push(h('span', { class: 'fb-chip', title: cm.updatedAbs ? 'Data updated ' + cm.updatedAbs : '' },
       h('span', { class: 'fb-ic', html: I.refresh }), 'Updated ' + cm.updated));
-    chips.push(h('span', { class: 'fb-chip' }, 'Coverage', h('span', { class: 'cov-meter' }, ...segs), h('b', { class: 'tabnum' }, cm.filled + '/' + cm.total)));
-    chips.push(h('span', { class: 'fb-chip' }, h('span', { class: 'fb-dot dot-' + dot.tier }), dot.word,
-      h('span', { class: 'fb-score' }, '· ' + cm.score + '/100')));
+    chips.push(h('span', { class: 'fb-chip', title: cm.filled + ' of ' + cm.total + ' sections filled, weighted by source depth' }, 'Coverage', h('span', { class: 'cov-meter' }, ...segs), h('b', { class: 'tabnum' }, cm.filled + '/' + cm.total)));
+    chips.push(h('span', { class: 'fb-chip', title: 'Newest key figure is a ' + dot.word.toLowerCase() + ' data point. See the “Updated …” chip for when the dashboard was last refreshed.' },
+      h('span', { class: 'fb-dot dot-' + dot.tier }), dot.word,
+      h('span', { class: 'fb-score', title: 'Data confidence score' }, '· ' + cm.score + '/100')));
     const wrap = h('div', { class: 'fade-in' }, h('div', { class: 'freshbar' }, ...chips));
     if (cm.missing.length) wrap.appendChild(h('div', { class: 'fb-gather' },
       h('span', { class: 'gskel' }), h('span', { class: 'gather-label' }, 'Still gathering:'),
@@ -1395,8 +1599,67 @@
    *  shows only #panel-report, so the browser's "Save as PDF" captures the report. */
   function downloadReport() {
     if (!state.data) return;
-    renderReport($('#panel-report'), state.data);
-    setTimeout(() => { try { window.print(); } catch (e) {} }, 450);
+    // Open the print window synchronously so the browser keeps the click's
+    // user-gesture permission — a window.open fired later (after charts paint) is
+    // blocked as an unsolicited pop-up. We fill this window once the report renders.
+    let win = null;
+    try { win = window.open('', '_blank', 'width=980,height=1200'); } catch (e) { win = null; }
+    if (win) { try { win.document.write('<!doctype html><meta charset="utf-8"><title>Preparing…</title><body style="margin:0;font:15px Inter,system-ui,sans-serif;color:#475569;display:grid;place-items:center;height:100vh">Preparing your report…</body>'); } catch (e) {} }
+    const panel = $('#panel-report');
+    renderReport(panel, state.data);
+    setTimeout(() => finishPrintable(win, panel), 600);
+  }
+
+  /* The dashboard is embedded in an iframe on the Munshot workspace, and a sandboxed
+   * iframe blocks the browser's Print dialog (window.print becomes a no-op) — which is
+   * exactly why the Download button "did nothing". So we render the report into its own
+   * TOP-LEVEL window and print from there. Live <canvas> charts are snapshotted to <img>
+   * so they survive the copy (the new window has no Chart.js). Never-fail: if pop-ups are
+   * blocked we fall back to an in-place print and tell the user how. */
+  function finishPrintable(win, panel) {
+    const src = panel.querySelector('#report-doc') || panel;
+    const clone = src.cloneNode(true);
+    const liveCanvas = src.querySelectorAll('canvas');
+    clone.querySelectorAll('canvas').forEach((cv, i) => {
+      try {
+        const lc = liveCanvas[i];
+        if (lc && lc.width) {
+          const img = document.createElement('img');
+          img.src = lc.toDataURL('image/png');
+          img.style.cssText = 'width:100%;max-width:' + (lc.clientWidth || 640) + 'px;height:auto';
+          cv.replaceWith(img);
+        } else { cv.remove(); }
+      } catch (e) { try { cv.remove(); } catch (_) {} }
+    });
+    clone.querySelectorAll('.no-print, .report-print-btn, .edit-btn, .add-btn').forEach((n) => n.remove());
+    const name = (state.data.meta && state.data.meta.name) || 'Industry';
+    if (!win) {
+      toast('Allow pop-ups for this site to download the report — or press Ctrl/Cmd+P.', 'warn');
+      try { window.print(); } catch (e) {}
+      return;
+    }
+    const styles = Array.from(document.querySelectorAll('style')).map((s) => s.outerHTML).join('\n');
+    try {
+      win.document.open();
+      win.document.write(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">' +
+        '<meta name="viewport" content="width=device-width, initial-scale=1">' +
+        '<title>' + escapeHtml(name) + ' — Industry Primer</title>' +
+        '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">' +
+        '<script src="https://cdn.tailwindcss.com"><\/script>' +
+        styles +
+        '<style>body{background:#fff!important;padding:26px 22px;} .report-doc{max-width:820px;margin:0 auto;} @page{size:A4;margin:15mm;} @media print{.print-actions{display:none!important}}</style>' +
+        '</head><body>' +
+        '<div class="print-actions" style="max-width:820px;margin:0 auto 14px;display:flex;justify-content:flex-end">' +
+        '<button onclick="window.print()" style="font:700 13px Inter,sans-serif;color:#fff;background:#6d28d9;border:0;border-radius:10px;padding:9px 16px;cursor:pointer">Save as PDF / Print</button></div>' +
+        clone.outerHTML + '</body></html>');
+      win.document.close();
+      win.focus();
+      setTimeout(() => { try { win.print(); } catch (e) {} }, 1100);
+    } catch (e) {
+      toast('Could not open the report window — press Ctrl/Cmd+P to print.', 'warn');
+      try { window.print(); } catch (_) {}
+    }
   }
 
   /* ======================================================================= *
@@ -1408,6 +1671,7 @@
     { id: 'youtube', label: 'YouTube', icon: I.video },
     { id: 'reports', label: 'Reports', icon: I.doc },
     { id: 'news', label: 'News', icon: I.news },
+    { id: 'sources', label: 'Sources', icon: I.sources },
     { id: 'chat', label: 'Chat', icon: I.chat },
   ];
   const tabAvailable = (t) => (typeof t.available === 'function' ? t.available(state.data) : true);
@@ -1440,6 +1704,7 @@
     if (id === 'youtube') return renderYouTube(panel, state.data);
     if (id === 'reports') return renderReports(panel, state.data);
     if (id === 'news') return renderNews(panel, state.data);
+    if (id === 'sources') return renderSources(panel, state.data);
     if (id === 'chat') return renderChat(panel, state.data);
   }
 
@@ -2065,25 +2330,49 @@
     function close() { if (dd) { dd.remove(); dd = null; } items = []; active = -1; }
     function ensure() { if (!dd) { dd = h('div', { class: 'ac-dropdown', role: 'listbox' }); wrap.appendChild(dd); } return dd; }
     function choose(it) {
-      input.value = it.name || it.ticker || '';
       close();
+      if (it.kind === 'industry') {           // already researched → open the saved output instantly (no run, no typo risk)
+        input.value = it.name || '';
+        return loadIndustry(it.slug);
+      }
+      input.value = it.name || it.ticker || '';
       resolveAndRoute(input.value, { sector: it.sector, company: it.name });
     }
     function render() {
       const el = ensure(); el.innerHTML = '';
       items.forEach((it, i) => {
-        const meta = [it.sector, it.country].filter(Boolean).join(' · ');
-        const row = h('div', { class: 'ac-item' + (i === active ? ' active' : ''), role: 'option' },
-          h('div', { class: 'ac-text' },
-            h('div', { class: 'ac-name' }, it.name || it.ticker || '—'),
-            meta ? h('div', { class: 'ac-meta' }, meta) : null),
-          it.ticker ? h('span', { class: 'ac-tick' }, it.ticker) : null);
+        let row;
+        if (it.kind === 'industry') {
+          row = h('div', { class: 'ac-item' + (i === active ? ' active' : ''), role: 'option' },
+            h('span', { class: 'ac-ico', html: I.chart }),
+            h('div', { class: 'ac-text' }, h('div', { class: 'ac-name' }, it.name),
+              h('div', { class: 'ac-meta' }, 'Researched · open saved')),
+            h('span', { class: 'ac-open' }, 'Open'));
+        } else {
+          const meta = [it.sector, it.country].filter(Boolean).join(' · ');
+          row = h('div', { class: 'ac-item' + (i === active ? ' active' : ''), role: 'option' },
+            h('div', { class: 'ac-text' },
+              h('div', { class: 'ac-name' }, it.name || it.ticker || '—'),
+              meta ? h('div', { class: 'ac-meta' }, meta) : null),
+            it.ticker ? h('span', { class: 'ac-tick' }, it.ticker) : null);
+        }
         // mousedown (not click) so selection wins the race against input blur.
         row.addEventListener('mousedown', (e) => { e.preventDefault(); choose(it); });
         el.appendChild(row);
       });
     }
-    async function fetchList(q) {
+    /** Industries we already have, matched locally — shown first so the user PICKS an
+     *  existing one (no typo, no accidental fresh run) instead of re-typing it. */
+    function localIndustryItems(q) {
+      const idx = state.index;
+      if (!idx || !Array.isArray(idx.industries)) return [];
+      const ql = q.toLowerCase();
+      return idx.industries.filter((e) => e && !e.mock).map((e) => {
+        const hay = [e.name, e.slug, ...(e.aliases || [])].filter(Boolean).map((s) => String(s).toLowerCase());
+        return hay.some((s) => s.includes(ql) || (ql.length >= 4 && ql.includes(s))) ? { kind: 'industry', slug: e.slug, name: e.name } : null;
+      }).filter(Boolean).slice(0, 4);
+    }
+    async function fetchList(q, locals) {
       const my = ++seq;
       let data = null;
       try {
@@ -2093,7 +2382,8 @@
         if (res.ok) data = await res.json();
       } catch (e) { data = null; }
       if (my !== seq) return;                                  // a newer keystroke superseded this
-      items = data && Array.isArray(data.results) ? data.results : [];
+      const companies = (data && Array.isArray(data.results) ? data.results : []).map((c) => ({ ...c, kind: 'company' }));
+      items = [...(locals || []), ...companies];
       active = -1;
       if (items.length) render(); else close();
     }
@@ -2101,7 +2391,9 @@
       const q = input.value.trim();
       if (timer) clearTimeout(timer);
       if (q.length < 2) { seq++; close(); return; }            // seq++ voids any in-flight response
-      timer = setTimeout(() => fetchList(q), 250);
+      const locals = localIndustryItems(q);
+      if (locals.length) { items = locals; active = -1; render(); }   // show saved industries instantly
+      timer = setTimeout(() => fetchList(q, locals), 250);
     });
     input.addEventListener('keydown', (e) => {
       if (!dd || !items.length) return;
@@ -2257,10 +2549,20 @@
       Chart.defaults.font.family = "'Inter', system-ui, sans-serif";
       Chart.defaults.font.size = 12;
       Chart.defaults.color = '#64748b';
-      Chart.defaults.plugins.tooltip.backgroundColor = 'rgba(15,23,42,0.92)';
-      Chart.defaults.plugins.tooltip.padding = 10;
-      Chart.defaults.plugins.tooltip.cornerRadius = 8;
-      Chart.defaults.plugins.tooltip.titleFont = { weight: '700' };
+      Chart.defaults.plugins.tooltip.backgroundColor = 'rgba(15,23,42,0.94)';
+      Chart.defaults.plugins.tooltip.padding = 11;
+      Chart.defaults.plugins.tooltip.cornerRadius = 9;
+      Chart.defaults.plugins.tooltip.titleFont = { weight: '700', size: 12.5 };
+      Chart.defaults.plugins.tooltip.bodyFont = { weight: '600', size: 12.5 };
+      Chart.defaults.plugins.tooltip.titleColor = '#ffffff';
+      Chart.defaults.plugins.tooltip.bodyColor = '#e5e7eb';
+      Chart.defaults.plugins.tooltip.displayColors = true;   // colored swatch beside each value
+      Chart.defaults.plugins.tooltip.usePointStyle = true;
+      Chart.defaults.plugins.tooltip.boxPadding = 6;
+      // Hover anywhere NEAR a point/bar/slice reveals its value — no pixel-perfect aim
+      // needed. This is what makes every chart feel "hoverable" (the client's ask).
+      Chart.defaults.interaction = { mode: 'nearest', intersect: false, axis: 'xy' };
+      Chart.defaults.hover = { mode: 'nearest', intersect: false };
     }
     buildTabbar();
 
