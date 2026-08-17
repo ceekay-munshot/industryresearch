@@ -1,5 +1,5 @@
 {
-  "default": "ice-cream",
+  "default": "steel",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -40,6 +40,18 @@
       "aliases": [
         "Frozen Desserts",
         "Ice Cream and Frozen Desserts Industry"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "steel",
+      "name": "Steel",
+      "aliases": [
+        "Iron and Steel",
+        "Indian Steel Industry",
+        "Crude Steel",
+        "Finished Steel"
       ],
       "is_manufacturing": true,
       "mock": false
