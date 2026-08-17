@@ -1488,7 +1488,9 @@
   function botAnswer(answer, sources) {
     const bubble = h('div', { class: 'msg bot', style: { whiteSpace: 'pre-wrap' } }, answer);
     const group = h('div', { class: 'msg-group' }, bubble);
-    const chips = (sources || []).map((s) => sourceChip(s)).filter(Boolean);
+    // Show the source LABEL (publisher), not just an icon — the founder wants the
+    // sources visible enough that the reader is tempted to click through.
+    const chips = (sources || []).map((s) => sourceChip(s, { label: true })).filter(Boolean);
     if (chips.length) group.appendChild(h('div', { class: 'chat-src-row' },
       h('span', { class: 'chat-src-label' }, 'Sources'), ...chips));
     return group;

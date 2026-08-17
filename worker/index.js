@@ -708,6 +708,15 @@ function buildContext(d) {
     sum.key_takeaways.forEach((t) => push(`- ${t}`));
   }
 
+  if (Array.isArray(d.highlights) && d.highlights.length) {
+    push('\nKEY METRICS:');
+    d.highlights.slice(0, 12).forEach((x) => {
+      if (!x || !x.label) return;
+      const val = x.value != null ? `${x.value}${x.unit ? ' ' + x.unit : ''}` : '';
+      push(`- ${x.label}${val ? `: ${val}${x.year ? ` (${x.year})` : ''}` : ''}${x.note ? `. ${x.note}` : ''}${src(x.source)}`);
+    });
+  }
+
   if (d.size && d.size.current && d.size.current.value != null) {
     const c = d.size.current;
     const hist = Array.isArray(d.size.history) && d.size.history.length
@@ -756,8 +765,19 @@ function buildContext(d) {
     push(`\nSUPPLY & CAPACITY: ${parts.join('; ')}${src(q.source)}`);
   }
 
-  // Report / news source titles (so "what sources back this?" is answerable).
+  // Source tabs — so the agent reads ALL the data (news, videos, reports), not just
+  // the analytical sections. Recent news first (most useful for "latest" questions).
   const s = d.sources || {};
+  const news = Array.isArray(s.news) ? s.news.filter((n) => n && (n.title || n.url)) : [];
+  if (news.length) {
+    push('\nRECENT NEWS HEADLINES:');
+    news.slice(0, 18).forEach((n) => push(`- ${n.title || 'Headline'}${n.publisher ? ` (${n.publisher})` : ''}${n.date ? ` [${n.date}]` : ''}${n.snippet ? ` — ${String(n.snippet).slice(0, 160)}` : ''}${n.url ? ` ${n.url}` : ''}`));
+  }
+  const yt = Array.isArray(s.youtube) ? s.youtube.filter((v) => v && (v.title || v.url)) : [];
+  if (yt.length) {
+    push('\nRELEVANT VIDEOS:');
+    yt.slice(0, 12).forEach((v) => push(`- ${v.title || 'Video'}${v.channel ? ` (${v.channel})` : ''}${v.why_relevant ? ` — ${v.why_relevant}` : ''}${v.url ? ` ${v.url}` : ''}`));
+  }
   const rep = Array.isArray(s.reports) ? s.reports.filter((r) => r && r.url) : [];
   if (rep.length) {
     push('\nRESEARCH REPORTS:');
@@ -803,6 +823,7 @@ function collectSources(d) {
   add(d.size && d.size.source);
   add(d.margins && d.margins.source);
   add(d.quant && d.quant.source);
+  arr(d.highlights).forEach((x) => add(x && x.source));
   arr(d.segments).forEach((x) => add(x && x.source));
   arr(d.growth_drivers).forEach((x) => add(x && x.source));
   arr(d.tailwinds).forEach((x) => add(x && x.source));
