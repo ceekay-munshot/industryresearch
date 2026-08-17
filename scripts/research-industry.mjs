@@ -63,6 +63,10 @@ const CACHE_ROOT = join(ROOT, 'data', 'cache');
 
 const INDUSTRY = (process.env.INDUSTRY || 'MDF boards, India').trim();
 const COUNTRY = process.env.INDUSTRY_COUNTRY || 'India';
+/** Qualify an industry term with the country UNLESS it already names it, so the
+ *  research is done through the country's (India's) lens without double-tagging
+ *  "MDF boards, India, India". Used by the web / YouTube / report query builders. */
+const withCountry = (industry) => new RegExp(`\\b${COUNTRY}\\b`, 'i').test(industry) ? industry : `${industry} ${COUNTRY}`;
 // The current year drives recency everywhere: search queries hunt for it, and the
 // analyst prompts are told to lead with it rather than an old base year.
 const YEAR = new Date().getFullYear();
@@ -162,33 +166,47 @@ function pruneEmpty(obj) {
  *  never a hard-coded base year that silently ages every calendar year. */
 function buildQueries(industry) {
   const Y = YEAR;
+  const C = COUNTRY;
+  const inC = withCountry(industry);   // e.g. "Paints & Coatings India"
   return [
-    `${industry} market size ${Y}`,
-    `${industry} market size ${Y} ${Y - 1} latest estimate`,
-    `${industry} market size forecast ${Y}-${Y + 6}`,
-    `${industry} ${Y} outlook trends latest`,
-    `${industry} market growth rate CAGR forecast`,
-    `${industry} market segments by application share`,
-    `${industry} value chain analysis raw material to retail`,
-    `${industry} distribution channels dealers modern trade`,
-    `${industry} key players market share leaders`,          // critical
-    `${industry} top companies revenue EBITDA margin ${Y}`,   // critical
-    `${industry} listed companies stock manufacturers`,
-    `${industry} manufacturer margin vs retailer margin profitability`,
-    `${industry} demand drivers growth outlook ${Y}`,
-    `${industry} production capacity additions expansion ${Y}`, // manufacturing
-    `${industry} imports exports anti-dumping duty`,          // manufacturing
-    `${industry} industry report ${Y} analysis`,
+    // --- India-primary: size, structure, players, margins (the analyst's home market) ---
+    `${inC} market size ${Y}`,
+    `${inC} market size ${Y} ${Y - 1} latest estimate`,
+    `${inC} market size forecast ${Y}-${Y + 6}`,
+    `${inC} ${Y} outlook trends latest`,
+    `${inC} market growth rate CAGR forecast`,
+    `${inC} market segments by application share`,
+    `${inC} value chain analysis raw material to retail`,
+    `${inC} distribution channels dealers modern trade`,
+    `${inC} key players market share leaders`,          // critical
+    `${inC} top companies revenue EBITDA margin ${Y}`,   // critical
+    `${inC} listed companies stock manufacturers`,
+    `${inC} manufacturer margin vs retailer margin profitability`,
+    `${inC} demand drivers growth outlook ${Y}`,
+    `${inC} production capacity additions expansion ${Y}`, // manufacturing
+    // --- Trade & regulation through an Indian-analyst lens (KEPT, never dropped) ---
+    `${industry} ${C} imports exports import dependence ${Y}`,
+    `${industry} ${C} anti-dumping duty import tariff safeguard`,
+    `${industry} ${C} export destinations global demand`,
+    `${industry} regulations standards affecting ${C} producers exporters`,
+    // --- Global context that MOVES the India market (still an analyst's job to know) ---
+    `${industry} global market size ${Y} versus ${C}`,
+    `${industry} global oversupply China price impact ${C}`,
+    `${inC} industry report ${Y} analysis pdf`,
   ];
 }
 
 function newsQueries(industry) {
   const Y = YEAR;
+  const C = COUNTRY;
+  const inC = withCountry(industry);
   return [
-    `${industry} news ${Y}`,
-    `${industry} latest developments ${Y}`,
-    `${industry} capacity expansion results ${Y}`,
-    `${industry} prices demand ${Y}`,
+    `${inC} news ${Y}`,
+    `${inC} latest developments ${Y}`,
+    `${inC} capacity expansion results ${Y}`,
+    `${inC} prices demand ${Y}`,
+    `${industry} ${C} import duty anti-dumping trade policy ${Y}`,   // trade / policy
+    `${industry} ${C} government policy regulation ${Y}`,            // government
   ];
 }
 
@@ -357,13 +375,19 @@ async function findYouTube(industry) {
   // Bias toward videos that help UNDERSTAND the industry — overview, the key
   // players, the competitive/investment picture, and substitutes / "vs" videos —
   // with only a single "how it's made" angle. Stage B then curates from these.
+  // India-analyst intent: what an analyst in India would actually watch — the
+  // Indian market, Indian companies, India's outlook and its trade/global links —
+  // not a generic US overview. COUNTRY is also passed to webSearch as a region hint.
+  const inC = withCountry(industry);
+  const C = COUNTRY;
   const bases = [
-    `${industry} industry explained overview`,
-    `${industry} market analysis ${YEAR} investment thesis`,
-    `${industry} top companies key players comparison`,
-    `${industry} vs alternatives which is better`,
-    `${industry} substitute products competition`,
-    `${industry} advantages disadvantages why`,
+    `${inC} industry explained overview`,
+    `${inC} market analysis ${YEAR} outlook`,
+    `${inC} top companies key players`,
+    `${industry} ${C} market opportunity investment thesis`,
+    `${industry} ${C} versus global comparison`,
+    `${industry} ${C} imports exports dependence`,
+    `${industry} substitute products competition ${C}`,
     `${industry} how it is made process`,
   ];
   const byId = new Map();
@@ -395,7 +419,7 @@ async function findYouTube(industry) {
   // OPTIONAL enrichment only: scrape the (JS-heavy) YouTube results page for more
   // ids. Never load-bearing — if Scrape.do is unavailable it just adds nothing.
   try {
-    const scraped = await scrapedoScrape(`https://www.youtube.com/results?search_query=${encodeURIComponent(industry + ' industry')}`);
+    const scraped = await scrapedoScrape(`https://www.youtube.com/results?search_query=${encodeURIComponent(withCountry(industry) + ' industry')}`);
     if (scraped && scraped.html) {
       for (const v of extractYouTubeFromHtml(scraped.html)) add(v.id, v.title, null, '');
     }
@@ -410,13 +434,20 @@ async function findYouTube(industry) {
 /* ---- Report discovery + reading ----------------------------------------- */
 
 async function findReports(industry) {
+  // India-first, and bias hard toward REAL downloadable PDFs (not paywalled
+  // market-research landing pages / tables-of-contents) — the client's ask was
+  // "<industry> india filetype:pdf" and real Indian broker / association / govt reports.
+  const inC = withCountry(industry);
+  const C = COUNTRY;
   const queries = [
-    `${industry} industry report pdf`,
-    `${industry} initiating coverage pdf`,
-    `${industry} market report`,
-    `${industry} annual report`,
-    `${industry} broker research report`,
-    `${industry} government report pdf`,
+    `${inC} industry report filetype:pdf`,
+    `${inC} market report filetype:pdf`,
+    `${inC} initiating coverage brokerage report pdf`,   // Indian brokers (ICICI, Motilal, Nuvama…)
+    `${inC} annual report pdf`,
+    `${industry} ${C} association report pdf`,            // industry bodies (e.g. Indian Paint Association)
+    `${industry} ${C} government ministry report pdf`,    // govt / policy
+    `${industry} ${C} imports exports trade data pdf`,    // trade
+    `${industry} global industry report pdf`,             // one global report for context
   ];
   const seen = new Map();
   for (const q of queries) {
@@ -554,7 +585,7 @@ CRITICAL — STRICTLY VALID JSON:
 - Keep every string on a single line — no raw line breaks inside a string value.
 - One stray unescaped quote breaks the whole file, so be careful.
 
-Capture (be exhaustive, one fact per data point): market size / value; growth, CAGR and forecasts; segment names and shares; value-chain stages and their margins; distribution channels and shares; named companies with market share / capacity / listed status / ticker (and revenue / EBITDA % ONLY if the source states that company's figure); market-leadership or ranking statements about named companies (largest / #1 / market leader / second-largest capacity), even when no exact percentage is given — categorize these as market_share or players; manufacturer vs retailer margins; production capacity and utilisation; imports / exports and volumes; anti-dumping or other duties.
+Capture (be exhaustive, one fact per data point): market size / value; growth, CAGR and forecasts; segment names and shares; value-chain stages and their margins; distribution channels and shares; named companies with market share / capacity / listed status / ticker (and revenue / EBITDA % ONLY if the source states that company's figure); market-leadership or ranking statements about named companies (largest / #1 / market leader / second-largest capacity), even when no exact percentage is given — categorize these as market_share or players; manufacturer vs retailer margins; production capacity and utilisation. Also capture, from a ${COUNTRY}-analyst viewpoint (do not skip these): imports / exports, volumes and key trading partners; import dependence on specific raw materials or inputs; anti-dumping / safeguard / countervailing or other duties imposed by or on ${COUNTRY}; foreign regulations, standards or trade barriers (e.g. BIS, REACH, EU rules) that affect ${COUNTRY} producers or exporters — categorize these as imports or duty; and global forces that materially move the ${COUNTRY} market such as China oversupply / dumping, global crude or raw-material price swings, and currency — categorize these as growth.
 
 If the SOURCE TEXT contains no facts relevant to the industry, return exactly { "facts": [] }.`;
 
@@ -707,6 +738,8 @@ Required JSON shape (OMIT any field, array item, or whole section you cannot sup
 }
 
 Rules:
+- INDIA-ANALYST LENS — read this whole brief as an equity/industry analyst sitting in ${COUNTRY}. ${COUNTRY} is the PRIMARY market: the "headline", "key_takeaways", "size", "segments", "channels", "players" and "margins" must lead with the ${COUNTRY} view and ${COUNTRY} figures. Crucially, do NOT discard global or cross-border context a ${COUNTRY} analyst needs — actively SURFACE it: ${COUNTRY}'s imports and exports and its import dependence for key raw materials/inputs, anti-dumping / safeguard / foreign duties and standards that affect ${COUNTRY} producers or exporters, and the global forces that move the ${COUNTRY} market (e.g. China oversupply / dumping, crude and raw-material price swings, currency). Route these into "highlights", "tailwinds" / "headwinds", "growth_drivers", "value_chain" margin notes, and "quant" (imports / duty). Only omit content with NO relevance to ${COUNTRY}.
+- ONE GEOGRAPHY + ONE UNIT PER SERIES — "size.current" and EVERY point in "size.history" MUST be the SAME geography (${COUNTRY}) and the SAME unit / currency. NEVER put a global market-size series next to a ${COUNTRY} headline, and never mix currencies or units within one series (e.g. do not mix USD billion with ₹ crore). If the facts only offer history for a DIFFERENT geography or in a different unit than the current ${COUNTRY} figure, LEAVE "size.history" OUT rather than mixing them. Put any global market-size number in "highlights" (label it clearly, e.g. "Global market size") — not in "size". Prefer the ${COUNTRY} figure in ₹ (crore / lakh crore / billion) for the ${COUNTRY} headline when the facts provide it.
 - RECENCY IS A PRIORITY IN EVERY SECTION. Today is in ${YEAR}. Whenever the facts offer the same data point for more than one year, use the MOST RECENT — a ${YEAR} or ${YEAR - 1} figure beats an older one EVEN IF the older year is cited by more sources. This applies to size, segment shares, player market shares / capacity, margins, utilisation, imports and duties alike. For "size.current" pick the latest year (put older years in "history"); when the facts give a forward estimate for ${YEAR} or ${YEAR + 1}, prefer it and set "year" accordingly. The "headline" and "key_takeaways" must reflect the CURRENT state (the latest size and where the market is heading) — never lead with a figure that is two or more years old when a newer one exists.
 - MAXIMISE USEFUL VALUE — do not artificially limit output. There is no fixed amount to show per industry: capture EVERY well-sourced segment, driver, tailwind, headwind, channel, player and value-chain stage the facts support.
 - "highlights" is a flexible strip of the STANDOUT, industry-SPECIFIC numbers a client would want at a glance that the fixed sections don't already carry — e.g. penetration / adoption %, per-capita or per-unit consumption, export or import share, a notable ratio (like the MDF:plywood mix), capacity utilisation, a price or realisation trend, replacement-cycle years. Include up to ~8, each with a short "label", a "value", and a "source". When the facts give the SAME metric across multiple years, add a "series" of {year,value} (oldest→newest) and set "trend" to up/down/flat so the trend can be drawn. Do NOT duplicate the headline market size here. Omit "highlights" entirely if the facts offer nothing beyond the fixed sections. Richer, sourced data is better; only omit what is unsourced or irrelevant.
