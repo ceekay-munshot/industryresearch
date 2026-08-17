@@ -151,18 +151,40 @@ async function handleChat(request, env) {
   const industryName = (data.meta && (data.meta.name || data.meta.slug)) || 'this industry';
   const known = collectSources(data);                 // [{label,url}] present in the data
   const knownUrls = new Set(known.map((s) => s.url));
-  const context = buildContext(data);
+  let context = buildContext(data);
+
+  // Optional "Search the web" toggle (off by default). When on, blend a few LIVE
+  // web results as a SUPPLEMENT — the dashboard data still leads. Their URLs are
+  // added to the allowed-citation set so they aren't stripped as "invented".
+  const wantWeb = !!(body && body.web === true);
+  let usedWeb = false;
+  if (wantWeb) {
+    const webResults = await munsWebSearch(env, question);
+    if (webResults.length) {
+      usedWeb = true;
+      const lines = webResults.map((r) => `- ${r.title}${r.snippet ? ` — ${String(r.snippet).slice(0, 200)}` : ''} ${r.url}`);
+      context += `\n\nWEB SEARCH RESULTS (LIVE web — supplementary only; PREFER the dashboard data above and use these solely to fill gaps or add recency; cite the url when you use one):\n${lines.join('\n')}`;
+      webResults.forEach((r) => { if (r.url && !knownUrls.has(r.url)) { knownUrls.add(r.url); known.push({ label: r.title || 'Web result', url: r.url }); } });
+    }
+  }
+
+  const primaryRule = usedWeb
+    ? `Answer using the DASHBOARD DATA below as your PRIMARY source. LIVE WEB SEARCH RESULTS are also provided — use them only to supplement the dashboard or add recency it lacks; use no other outside knowledge.`
+    : `Answer the user's question using ONLY the DASHBOARD DATA provided below. Do not use outside knowledge.`;
+  const scopeRule = usedWeb
+    ? `If neither the dashboard data nor the web results cover it, say so plainly — never guess or invent figures, names, or sources.`
+    : `If the answer is not present in the data, say so plainly (e.g. "The dashboard data doesn't cover that.") — never guess or invent figures, names, or sources.`;
 
   const system = [
     `You are a research assistant for the "${industryName}" industry dashboard.`,
-    `Answer the user's question using ONLY the DASHBOARD DATA provided below. Do not use outside knowledge.`,
-    `Cite the source URL for each claim you make, drawing the URL from the data.`,
-    `If the answer is not present in the data, say so plainly (e.g. "The dashboard data doesn't cover that.") — never guess or invent figures, names, or sources.`,
+    primaryRule,
+    `Cite the source URL for each claim you make, drawing the URL from the provided data${usedWeb ? ' or web results' : ''}.`,
+    scopeRule,
     `Write in plain English, concise and direct. Prefer specific numbers from the data over vague statements.`,
     ``,
     `Return ONLY a strict JSON object, no prose or markdown fences, of the form:`,
-    `{"answer": "<your answer in plain English>", "sources": [{"label": "<source label>", "url": "<source url from the data>"}], "in_data": true|false}`,
-    `"sources" must list only the sources you actually used, each url copied verbatim from the DASHBOARD DATA. If the answer isn't in the data, set "in_data" to false and "sources" to [].`,
+    `{"answer": "<your answer in plain English>", "sources": [{"label": "<source label>", "url": "<source url>"}], "in_data": true|false}`,
+    `"sources" must list only the sources you actually used, each url copied verbatim from the provided data${usedWeb ? ' or web results' : ''}. If the answer isn't available, set "in_data" to false and "sources" to [].`,
     ``,
     `DASHBOARD DATA for ${industryName}:`,
     context,
@@ -318,6 +340,70 @@ async function handleStockSearch(request, env) {
     clearTimeout(timer);
   }
   return json({ results: normalizeStockResults(data) });
+}
+
+/* ------------------------------------------------------------------ *
+ * Chat web-search (optional toggle). When the user flips "Search the web" ON in
+ * the chat, blend a few LIVE Muns web results into the grounded answer as a
+ * SUPPLEMENT — the dashboard data still leads. Uses the same MUNS_TOKEN as the
+ * stock-search assist. Never-fail: no token / any error → [] and chat stays
+ * dashboard-only.
+ * ------------------------------------------------------------------ */
+const MUNS_WEB_SEARCH_URL = 'https://fastapi.muns.io/tools/web-search';
+const CHAT_WEB_TIMEOUT_MS = 9000;
+const CHAT_WEB_MAX = 6;
+
+function cleanW(s) {
+  s = String(s == null ? '' : s);
+  if (!/[<&]/.test(s)) return s.trim();
+  return s
+    .replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"').replace(/&#0*39;|&apos;/gi, "'")
+    .replace(/<\/?[a-z!][^>]*>/gi, '').replace(/[^\S\n]{2,}/g, ' ').trim();
+}
+
+function extractWebResults(data) {
+  let arr = [];
+  if (Array.isArray(data)) arr = data;
+  else if (data && Array.isArray(data.results)) arr = data.results;
+  else if (data && data.data && Array.isArray(data.data.results)) arr = data.data.results;
+  else if (data && data.data && Array.isArray(data.data)) arr = data.data;
+  else if (data && Array.isArray(data.organic)) arr = data.organic;
+  const out = [];
+  for (const r of arr) {
+    if (!r || typeof r !== 'object') continue;
+    const url = r.url || r.link || r.href || r.source_url || '';
+    if (!url) continue;
+    out.push({
+      title: cleanW(r.title || r.name || r.heading || r.headline || 'Result') || 'Result',
+      url: String(url),
+      snippet: cleanW(r.snippet || r.description || r.summary || r.text || r.content || r.excerpt || ''),
+    });
+  }
+  return out;
+}
+
+async function munsWebSearch(env, query, country = 'India') {
+  const token = env.MUNS_TOKEN && String(env.MUNS_TOKEN).trim();
+  if (!token || !query) return [];
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), CHAT_WEB_TIMEOUT_MS);
+  try {
+    const res = await fetch(MUNS_WEB_SEARCH_URL, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query, country }),
+      signal: ctl.signal,
+    });
+    if (!res.ok) { console.warn(`[chat-web] HTTP ${res.status}`); return []; }
+    const data = await res.json().catch(() => null);
+    return extractWebResults(data).slice(0, CHAT_WEB_MAX);
+  } catch (err) {
+    console.warn('[chat-web] fetch error:', err && err.message ? err.message : err);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 /** Normalize birdnest stock/search into [{ ticker, name, sector, country }].
@@ -708,6 +794,15 @@ function buildContext(d) {
     sum.key_takeaways.forEach((t) => push(`- ${t}`));
   }
 
+  if (Array.isArray(d.highlights) && d.highlights.length) {
+    push('\nKEY METRICS:');
+    d.highlights.slice(0, 12).forEach((x) => {
+      if (!x || !x.label) return;
+      const val = x.value != null ? `${x.value}${x.unit ? ' ' + x.unit : ''}` : '';
+      push(`- ${x.label}${val ? `: ${val}${x.year ? ` (${x.year})` : ''}` : ''}${x.note ? `. ${x.note}` : ''}${src(x.source)}`);
+    });
+  }
+
   if (d.size && d.size.current && d.size.current.value != null) {
     const c = d.size.current;
     const hist = Array.isArray(d.size.history) && d.size.history.length
@@ -756,8 +851,19 @@ function buildContext(d) {
     push(`\nSUPPLY & CAPACITY: ${parts.join('; ')}${src(q.source)}`);
   }
 
-  // Report / news source titles (so "what sources back this?" is answerable).
+  // Source tabs — so the agent reads ALL the data (news, videos, reports), not just
+  // the analytical sections. Recent news first (most useful for "latest" questions).
   const s = d.sources || {};
+  const news = Array.isArray(s.news) ? s.news.filter((n) => n && (n.title || n.url)) : [];
+  if (news.length) {
+    push('\nRECENT NEWS HEADLINES:');
+    news.slice(0, 18).forEach((n) => push(`- ${n.title || 'Headline'}${n.publisher ? ` (${n.publisher})` : ''}${n.date ? ` [${n.date}]` : ''}${n.snippet ? ` — ${String(n.snippet).slice(0, 160)}` : ''}${n.url ? ` ${n.url}` : ''}`));
+  }
+  const yt = Array.isArray(s.youtube) ? s.youtube.filter((v) => v && (v.title || v.url)) : [];
+  if (yt.length) {
+    push('\nRELEVANT VIDEOS:');
+    yt.slice(0, 12).forEach((v) => push(`- ${v.title || 'Video'}${v.channel ? ` (${v.channel})` : ''}${v.why_relevant ? ` — ${v.why_relevant}` : ''}${v.url ? ` ${v.url}` : ''}`));
+  }
   const rep = Array.isArray(s.reports) ? s.reports.filter((r) => r && r.url) : [];
   if (rep.length) {
     push('\nRESEARCH REPORTS:');
@@ -803,6 +909,7 @@ function collectSources(d) {
   add(d.size && d.size.source);
   add(d.margins && d.margins.source);
   add(d.quant && d.quant.source);
+  arr(d.highlights).forEach((x) => add(x && x.source));
   arr(d.segments).forEach((x) => add(x && x.source));
   arr(d.growth_drivers).forEach((x) => add(x && x.source));
   arr(d.tailwinds).forEach((x) => add(x && x.source));
