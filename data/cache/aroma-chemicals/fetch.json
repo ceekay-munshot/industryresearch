@@ -1,6 +1,6 @@
 {
   "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2022/11/Specialty-Chemicals-industry-India.pdf": {
-    "content_hash": "a85e791e274d978b560bce2438601c6a852b8605b13bdbb9addf7926f652735d",
+    "content_hash": "1f47d8a22db6f11b4e88fdc26b8d441370838386a21bb1e0ac11053e805cdd3b",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
@@ -8,7 +8,7 @@
     "status": 200
   },
   "https://gemaromatics.com/wp-content/uploads/2024/Industry%20Report.pdf": {
-    "content_hash": "31268db281cac1cd85612586bba27c03cb2becceb1a3bf7eb8f87574188cb9e1",
+    "content_hash": "84dfd01c79a4f1dd831bf3b5c0bae8e06164d35127cde3183eac74d2c59e1627",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
@@ -32,7 +32,7 @@
     "status": 200
   },
   "https://web-assets.bcg.com/91/94/5dd007cc49d78df452b11c9dd771/building-the-next-indian-chemical-giant.pdf": {
-    "content_hash": "0c7c27f99519ab85d033dae395d780b60d1ad75eebc35824168139195ee0a180",
+    "content_hash": "440d406b221eefe9776cb5ef3d2e4fb570e0eeeb4c0f5d18318fcac3b97c107c",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
@@ -279,8 +279,24 @@
     "api": "screener",
     "status": 200
   },
+  "screener://financials/VINATIORGA?c=consolidated": {
+    "content_hash": "bb661a2ce08e6c5f12547bb2434fe73c44a1d90b4f1983640fade5f94b181ff0",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/VINATIORGA?c=standalone": {
     "content_hash": "111789349221cb9648b427eea12870863f45395ff6e0edfb421b914063322831",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/YASHO?c=consolidated": {
+    "content_hash": "e0fab01a0806eceeb8ff634eea6204eaef4f58f03df9c0571443bf6978582283",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
