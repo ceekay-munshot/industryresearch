@@ -1091,9 +1091,20 @@ async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, coun
   let listed = player.listed === true || !!ticker;
   if (!ticker && inc && inc.ticker) { ticker = inc.ticker; listed = true; }
   if (!ticker && player.listed !== false) {
-    const results = normalizeStockSearch(await stockSearch(cleanCompanyName(player.name) || player.name));
-    const m = pickListedMatch(results, player.name);
-    if (m) { ticker = m.ticker; listed = true; }
+    // Try a few query shapes so a well-known listed company (e.g. "Greenpanel
+    // Industries Ltd") reliably resolves its NSE/BSE ticker → screener.in financials.
+    const core = cleanCompanyName(player.name) || player.name;
+    const queries = [core, player.name, core.split(/\s+/).slice(0, 2).join(' ')];
+    const tried = new Set();
+    for (const q of queries) {
+      const qq = String(q || '').trim();
+      if (!qq || tried.has(qq.toLowerCase())) continue;
+      tried.add(qq.toLowerCase());
+      let results = [];
+      try { results = normalizeStockSearch(await stockSearch(qq)); } catch (e) { results = []; }
+      const m = pickListedMatch(results, player.name);
+      if (m) { ticker = m.ticker; listed = true; break; }
+    }
   }
   const keepInc = () => (inc && (hasFinancials(inc) || inc.prospectus))
     ? { ...inc, name: player.name, ticker: ticker || inc.ticker || '', segment: player.segment || inc.segment || '' } : null;
@@ -1129,7 +1140,14 @@ async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, coun
         }
       }
     }
-    return keepInc() || pendingPeer({ ...player, ticker }, 'Financials pending (Private Circle)', { status: 'listed-pending', listed: true, updated_at: ctx.now });
+    return keepInc() || pendingPeer({ ...player, ticker }, 'Financials pending — from screener.in', { status: 'listed-pending', listed: true, updated_at: ctx.now });
+  }
+
+  // A LISTED company whose ticker we couldn't resolve is still LISTED — show it as
+  // "financials pending (screener.in)", NEVER as unlisted / Private Circle. A later
+  // run resolves the ticker and fills its screener financials in place.
+  if (listed) {
+    return keepInc() || pendingPeer(player, 'Financials pending — from screener.in', { status: 'listed-pending', listed: true, updated_at: ctx.now });
   }
 
   // 3) Unlisted → pull financials from the DRHP prospectus if one exists (extract,
