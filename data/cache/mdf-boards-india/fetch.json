@@ -175,6 +175,14 @@
     "api": "muns-reader",
     "status": 200
   },
+  "https://www.baierfloor.com/blog/pre-laminated-mdf-market-forecast-growth-in-2026": {
+    "content_hash": "a08d3121783d7f568856587056b2350b867b57b4b9c59200cd43423a794f50d1",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "muns-reader",
+    "status": 200
+  },
   "https://www.bharat-mobility.com/img/pdf/IBEF-Manufacturing-Sector-Overview.pdf": {
     "content_hash": "e721d3f6ffd4d41819597ded639904a5cb72c8fecab1d3c35dba61e58f646624",
     "etag": null,
@@ -376,11 +384,11 @@
     "status": 200
   },
   "https://www.indexbox.io/store/india-mdf-market-report-analysis-and-forecast-to-2020-": {
-    "content_hash": "43e703ff0bbc29a7528a49a1714368d594a44d7ee3652b83901f397f7f1e162c",
+    "content_hash": "1e851e8c40cf44a45ed857fb88f7afe5803712666642dbb5714f546573e8a596",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
-    "api": "muns-reader",
+    "api": "report",
     "status": 200
   },
   "https://www.indexbox.io/store/india-medium-density-fiberboard-market-analysis-forecast-size-trends-and-insights": {
@@ -485,6 +493,86 @@
     "last_modified": null,
     "fetched_at": "2026-08-17",
     "api": "report",
+    "status": 200
+  },
+  "screener://financials/516003?c=standalone": {
+    "content_hash": "367f52c14565baa69724ae058e849c0a78bbdb08c9dd8a9ecfcb80ec101ccc97",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/ARCHIDPLY?c=consolidated": {
+    "content_hash": "b03495d38e6ba3b98052f0aace76ea8972c0fd6a8d371e7a8444c6daa51b4316",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/CENTURYPLY?c=consolidated": {
+    "content_hash": "f4cb2eb59a40bc09afcdd2af1a120f2713d8921ad2f4347a9cd1e07bf4fc74f2",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/GREENPANEL?c=standalone": {
+    "content_hash": "f6b2e0470a944de841750840f183397a765815d3cc89c04a7b02777312125c7a",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/GREENPLY?c=consolidated": {
+    "content_hash": "0bac25b4072c0c46d2e5bc3c66b9b0199d7228506cba6226fd40e8eb280797e1",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/MANGTIMBER?c=standalone": {
+    "content_hash": "921293f6cbc43bbc49312b8a6df3374069e69a7054ec3f6efbeb2dface2d1283",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/NCLIND?c=standalone": {
+    "content_hash": "90d445dbeb27a77f4bad3bab9ef9d7928cd356c065f4840b2b2daa54482e098c",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/NUCHEM?c=standalone": {
+    "content_hash": "7b1894689f42cfb3ccd630def6019096980b75e16c640850abc899d53ff64dcb",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/RUSHIL?c=standalone": {
+    "content_hash": "591a55481ec6a6c2b765c4a0d0a8f06201a655f82655e02bd6c6a5854f4a0d0b",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/SHIVATEX?c=standalone": {
+    "content_hash": "dc3e9250095b10d7ac09c4a5f9edabf7b6d6866b0b03d954524d6c2ef5793e80",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-18",
+    "api": "screener",
     "status": 200
   }
 }
