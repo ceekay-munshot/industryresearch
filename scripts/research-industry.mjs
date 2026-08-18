@@ -36,12 +36,15 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { callClaudeJSON, llmConfig } from '../lib/llm.mjs';
 import {
   webSearch, newsSearch, webReader, normalizeSearch, normalizeReader,
-  stockSearch, combinedFinancials, streetEstimates, drhpByName, drhpSearch, normalizeStockSearch,
+  drhpByName, drhpSearch,
 } from '../lib/muns.mjs';
 import {
   BENCH_PROMPT_VERSION, FINANCIALS_SYSTEM, buildFinancialsUser, normalizeFinancials,
   hasFinancials, pickListedMatch, drhpDocFrom, drhpExists, drhpFinancialsText, mergeBenchmarking, normName as benchNormName,
 } from '../lib/benchmark.mjs';
+// Listed-company financials come straight from screener.in (free, no auth) — no
+// longer via Muns. Ticker/code resolution uses screener's own search too.
+import { screenerSearch, screenerFinancials, screenerSourceFor } from '../lib/screener.mjs';
 import { parseOverrides, applyOverrides } from '../lib/overrides.mjs';
 import { firecrawlScrape, scrapedoScrape, mistralOCR, htmlToText, extractYouTubeFromHtml } from '../lib/scrape.mjs';
 import {
@@ -1011,16 +1014,15 @@ async function buildReport(obj, incumbent, now) {
   return det;
 }
 
-/* ---- Peer benchmarking (Muns financials for listed, DRHP for unlisted) ---- */
+/* ---- Peer benchmarking (screener.in financials for listed, DRHP for unlisted) ---- */
 
 const BENCH_MAX = Number(process.env.BENCH_MAX || 16);          // players to benchmark
 const BENCH_CONCURRENCY = Number(process.env.BENCH_CONCURRENCY) || 4;
 const BENCH_MAX_TOKENS = 2000;                                  // small structured JSON
 
-/** Citeable source for a listed peer's financials (screener.in, via combined_financials). */
-function screenerSource(ticker) {
-  const t = String(ticker || '').trim();
-  return t ? { label: 'screener.in (combined financials)', url: `https://www.screener.in/company/${encodeURIComponent(t)}/consolidated/`, snippet: '' } : null;
+/** Citeable source for a listed peer's financials (screener.in company page). */
+function screenerSource(code, consolidated) {
+  return screenerSourceFor(code, { consolidated: consolidated !== false });
 }
 
 /** A clean "pending — fill later (Private Circle)" peer row (never a blank). */
@@ -1039,19 +1041,22 @@ function pendingPeer(player, reason, extra = {}) {
   });
 }
 
-/** Fetch combined_financials markdown for a ticker through the content cache.
- *  Returns {text, content_hash} (fresh or cached-with-blob), {content_hash,text:null}
- *  (fresh cache record but blob evicted — lets us reuse committed metrics by hash),
- *  or null. Mirrors the reader/report cache path so re-runs don't refetch. */
-async function getFinancialsCached(cache, ticker, ctx) {
-  const key = `muns://combined_financials/${encodeURIComponent(ticker)}?country=India&q=consolidated`;
+/** Fetch a listed company's financials markdown straight from screener.in, through
+ *  the content cache. `code` is a screener code (NSE symbol like VADILALIND, or a
+ *  numeric code); `consolidated` picks the consolidated page (falls back to
+ *  standalone inside the client). Returns {text, content_hash} (fresh or
+ *  cached-with-blob), {content_hash,text:null} (fresh cache record but blob evicted —
+ *  lets us reuse committed metrics by hash), or null. Mirrors the reader/report
+ *  cache path so re-runs don't refetch. */
+async function getFinancialsCached(cache, code, ctx, consolidated = true) {
+  const key = `screener://financials/${encodeURIComponent(code)}?c=${consolidated ? 'consolidated' : 'standalone'}`;
   const hit = fetchCacheGet(cache, key, { ttlDays: ctx.ttlDays, now: ctx.now });
   if (hit && hit.text) return { text: hit.text, content_hash: hit.content_hash, cached: true };
   if (hit && hit.content_hash) return { text: null, content_hash: hit.content_hash, cached: true };
-  const md = await combinedFinancials(ticker);
-  if (!md || !String(md).trim()) return null;
-  const { content_hash } = fetchCachePut(cache, key, md, { api: 'combined_financials', now: ctx.now });
-  return { text: md, content_hash, cached: false };
+  const fin = await screenerFinancials(code, { consolidated });
+  if (!fin || !fin.text || !String(fin.text).trim()) return null;
+  const { content_hash } = fetchCachePut(cache, key, fin.text, { api: 'screener', now: ctx.now });
+  return { text: fin.text, content_hash, cached: false };
 }
 
 /** For an UNLISTED company, get financials from its DRHP prospectus so we don't
@@ -1079,20 +1084,22 @@ async function getDrhpFinancials(cache, name, ctx) {
   return { text: text || null, content_hash, doc };
 }
 
-/** Benchmark ONE player: resolve ticker → listed financials (cached, one Claude
- *  extraction) OR unlisted DRHP prospectus OR a clean pending row. Never throws a
- *  useful case away — every branch returns a usable peer. */
+/** Benchmark ONE player: resolve screener code → listed financials (cached, one
+ *  Claude extraction) OR unlisted DRHP prospectus OR a clean pending row. Never
+ *  throws a useful case away — every branch returns a usable peer. */
 async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, counters) {
   const inc = incByName.get(benchNormName(player.name)) || null;
   if (inc && inc.added_by === 'analyst') return inc;             // never clobber an analyst peer
 
-  // 1) Resolve a ticker: player's own, else a prior one, else birdnest search.
+  // 1) Resolve a screener code: player's own ticker, else a prior one, else
+  //    screener.in's own search. `consolidated` tracks which page to read.
   let ticker = String(player.ticker || '').trim();
   let listed = player.listed === true || !!ticker;
+  let consolidated = true;
   if (!ticker && inc && inc.ticker) { ticker = inc.ticker; listed = true; }
   if (!ticker && player.listed !== false) {
     // Try a few query shapes so a well-known listed company (e.g. "Greenpanel
-    // Industries Ltd") reliably resolves its NSE/BSE ticker → screener.in financials.
+    // Industries Ltd") reliably resolves its screener code → screener.in financials.
     const core = cleanCompanyName(player.name) || player.name;
     const queries = [core, player.name, core.split(/\s+/).slice(0, 2).join(' ')];
     const tried = new Set();
@@ -1101,17 +1108,17 @@ async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, coun
       if (!qq || tried.has(qq.toLowerCase())) continue;
       tried.add(qq.toLowerCase());
       let results = [];
-      try { results = normalizeStockSearch(await stockSearch(qq)); } catch (e) { results = []; }
+      try { results = await screenerSearch(qq); } catch (e) { results = []; }
       const m = pickListedMatch(results, player.name);
-      if (m) { ticker = m.ticker; listed = true; break; }
+      if (m) { ticker = m.ticker; consolidated = m.consolidated !== false; listed = true; break; }
     }
   }
   const keepInc = () => (inc && (hasFinancials(inc) || inc.prospectus))
     ? { ...inc, name: player.name, ticker: ticker || inc.ticker || '', segment: player.segment || inc.segment || '' } : null;
 
-  // 2) Listed → combined financials → reuse-by-hash OR one extraction.
+  // 2) Listed → screener.in financials → reuse-by-hash OR one extraction.
   if (listed && ticker) {
-    const fin = await getFinancialsCached(cache, ticker, ctx);
+    const fin = await getFinancialsCached(cache, ticker, ctx, consolidated);
     if (fin && fin.content_hash) {
       const reuse = incByHash.get(fin.content_hash);
       if (reuse && hasFinancials(reuse)) {
@@ -1129,14 +1136,11 @@ async function benchmarkOnePlayer(player, incByName, incByHash, cache, ctx, coun
           console.warn(`[bench] ${player.name}: extraction failed (${e.message})`);
         }
         if (hasFinancials(metrics)) {
-          const peer = pruneEmpty({
+          return pruneEmpty({
             name: player.name, listed: true, ticker, segment: player.segment || '',
             status: 'listed', pending: false, ...metrics,
-            fin_content_hash: fin.content_hash, source: screenerSource(ticker), updated_at: ctx.now,
+            fin_content_hash: fin.content_hash, source: screenerSource(ticker, consolidated), updated_at: ctx.now,
           });
-          try { const est = await streetEstimates(ticker); const note = est ? oneLine(String(est), 220) : ''; if (note) peer.forward_note = note; }
-          catch (e) { /* optional forward note */ }
-          return peer;
         }
       }
     }

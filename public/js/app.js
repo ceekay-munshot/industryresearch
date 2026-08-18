@@ -2460,10 +2460,10 @@
   }
 
   /** Company autocomplete: a debounced assist under the home search. As the user
-   *  types, /api/stock-search returns matching listed companies; picking one feeds
-   *  the SAME resolve/research flow as typing (company + sector → industry). Plain
-   *  industry-name search is untouched — the dropdown just closes on submit. Fully
-   *  never-fail: if the endpoint errors or MUNS_TOKEN is unset, no dropdown shows. */
+   *  types, /api/stock-search returns matching listed companies (from screener.in);
+   *  picking one feeds the SAME resolve/research flow as typing (company + sector →
+   *  industry). Plain industry-name search is untouched — the dropdown just closes
+   *  on submit. Fully never-fail: if the endpoint errors, no dropdown shows. */
   function attachAutocomplete(input, wrap) {
     let dd = null, items = [], active = -1, seq = 0, timer = null;
 

@@ -300,16 +300,15 @@ async function classifyQuery(env, query, sector) {
 
 /* ------------------------------------------------------------------ *
  * /api/stock-search — company autocomplete for the search bar.
- * Proxies Muns' birdnest stock/search with the Worker's MUNS_TOKEN and
- * normalizes the result map into a plain list the dropdown can render. The
- * dropdown is only an ASSIST — plain industry-name search must keep working —
- * so this route is never-fail: any error / missing token → { results: [] }.
- *
- * Needs MUNS_TOKEN as a Worker secret (separate from the Actions MUNS_TOKEN).
- * Country for all Muns stock endpoints is India; user_index is always 124.
+ * Queries screener.in's own public search (free, no auth) and normalizes the
+ * result into a plain list the dropdown can render — same source the pipeline
+ * now reads listed financials from, so a picked company's screener code is
+ * guaranteed to resolve its financials. The dropdown is only an ASSIST — plain
+ * industry-name search must keep working — so this route is never-fail: any
+ * error → { results: [] }.
  * ------------------------------------------------------------------ */
-const MUNS_STOCK_SEARCH_URL = 'https://birdnest.muns.io/stock/search';
-const MUNS_USER_INDEX = 124;
+const SCREENER_SEARCH_URL = 'https://www.screener.in/api/company/search/';
+const SCREENER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const STOCK_SEARCH_TIMEOUT_MS = 8000;   // autocomplete must feel instant
 
 async function handleStockSearch(request, env) {
@@ -318,17 +317,14 @@ async function handleStockSearch(request, env) {
   const query = typeof (body && body.query) === 'string' ? body.query.trim() : '';
   if (query.length < 2) return json({ results: [] });          // too short to be useful
 
-  const token = env.MUNS_TOKEN && String(env.MUNS_TOKEN).trim();
-  if (!token) return json({ results: [] });                    // not configured → assist silently off
-
   let data = null;
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), STOCK_SEARCH_TIMEOUT_MS);
   try {
-    const res = await fetch(MUNS_STOCK_SEARCH_URL, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query, user_index: MUNS_USER_INDEX }),
+    const url = `${SCREENER_SEARCH_URL}?q=${encodeURIComponent(query)}&v=3&fts=1`;
+    const res = await fetch(url, {
+      method: 'GET',
+      headers: { 'User-Agent': SCREENER_UA, Accept: 'application/json', 'X-Requested-With': 'XMLHttpRequest', Referer: 'https://www.screener.in/' },
       signal: ctl.signal,
     });
     if (!res.ok) { console.warn(`[stock-search] HTTP ${res.status}`); return json({ results: [] }); }
@@ -406,22 +402,21 @@ async function munsWebSearch(env, query, country = 'India') {
   }
 }
 
-/** Normalize birdnest stock/search into [{ ticker, name, sector, country }].
- *  Documented shape: data.results = { TICKER: [country, name, sector], ... }.
- *  Tolerant: skips malformed rows, trims blanks, caps the list for the dropdown.
- *  Pure + testable (no env / network). */
+/** Normalize screener.in company search into [{ ticker, name, sector, country }].
+ *  Screener shape: [{ id, name, url }] where url is "/company/<CODE>/consolidated/"
+ *  or "/company/<CODE>/"; CODE is the screener code (NSE symbol for most listed
+ *  names). Tolerant: skips rows without a company path, trims blanks, caps the
+ *  list for the dropdown. Pure + testable (no env / network). */
 function normalizeStockResults(data) {
-  const results = data && data.results;
-  if (!results || typeof results !== 'object' || Array.isArray(results)) return [];
+  const rows = Array.isArray(data) ? data : (data && Array.isArray(data.results) ? data.results : []);
   const out = [];
-  for (const [ticker, arr] of Object.entries(results)) {
-    if (!Array.isArray(arr)) continue;
-    const country = String(arr[0] == null ? '' : arr[0]).trim();
-    const name = String(arr[1] == null ? '' : arr[1]).trim();
-    const sector = String(arr[2] == null ? '' : arr[2]).trim();
-    const t = String(ticker || '').trim();
-    if (!t && !name) continue;
-    out.push({ ticker: t, name, sector, country });
+  for (const r of rows) {
+    if (!r || typeof r !== 'object') continue;
+    const m = String(r.url || '').match(/\/company\/([^/]+)\//);
+    const code = m ? decodeURIComponent(m[1]) : '';
+    const name = String(r.name == null ? '' : r.name).trim();
+    if (!code || code.toLowerCase() === 'id' || !name) continue;   // skip partly-paid "/company/id/<n>/" variants
+    out.push({ ticker: code, name, sector: '', country: 'India' });
     if (out.length >= 12) break;                               // keep the dropdown short
   }
   return out;
