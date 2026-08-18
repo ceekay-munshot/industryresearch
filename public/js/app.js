@@ -426,29 +426,73 @@
    *  sections don't capture. Shows a value, a trend (when a series is given) and a
    *  source icon. Renders nothing when the data has none. */
   function secHighlights(data) {
-    // Decision-grade: an analyst wants the number that's true NOW. Drop figures
-    // whose year is clearly stale (older than ~3 years) so a 2009 market share
-    // never sits next to a 2026 one. Undated and forward (forecast) figures stay.
+    // KPIs are FACTS, shown for the MOST RECENT year. When a KPI carries a series,
+    // its headline value/year is the LATEST point in that series (never an old
+    // vintage). Stale figures (older than ~2 years, with no newer point) are
+    // dropped so a 2022 number never sits beside a 2026 one. Most-recent first.
     const NOW_YEAR = new Date().getFullYear();
-    const fresh = (x) => { const y = Number(x.year); return !isFinite(y) || y >= NOW_YEAR - 3; };
-    const items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)) && fresh(x));
+    const latestYear = (x) => { const s = cleanSeries(x.series); if (s.length) return s[s.length - 1].year; const y = Number(x.year); return isFinite(y) ? y : null; };
+    const fresh = (x) => { const y = latestYear(x); return y == null || y >= NOW_YEAR - 2; };
+    let items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)) && fresh(x));
     if (!items.length) return null;
+    items = items.slice().sort((a, b) => (latestYear(b) || 0) - (latestYear(a) || 0));   // most recent first
     const tiles = items.slice(0, 12).map((x) => {
-      const series = Array.isArray(x.series) ? x.series : null;
-      const valTxt = has(x.value) ? String(x.value) + (has(x.unit) ? ' ' + x.unit : '') : '';
-      return h('div', { class: 'kpi-tile' },
+      const series = cleanSeries(x.series);
+      const hasSeries = series.length >= 2;
+      const latest = hasSeries ? series[series.length - 1] : null;
+      const val = latest ? latest.value : x.value;                 // headline = latest data point
+      const yr = latest ? latest.year : x.year;
+      const valTxt = has(val) ? String(val) + (has(x.unit) ? ' ' + x.unit : '') : '';
+      const attrs = { class: 'kpi-tile' + (hasSeries ? ' kpi-tile-trend' : '') };
+      if (hasSeries) { attrs.role = 'button'; attrs.tabindex = '0'; attrs.title = 'Click to see the full trend';
+        attrs.onClick = () => openTrendModal(x); attrs.onKeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openTrendModal(x); } }; }
+      return h('div', attrs,
         h('div', { class: 'kpi-tile-head' },
           h('span', { class: 'kpi-tile-label' }, x.label),
           x.source ? sourceChip(x.source) : null),
         h('div', { class: 'kpi-tile-valrow' },
           valTxt ? h('span', { class: 'kpi-tile-val' }, valTxt,
-            has(x.year) ? h('span', { class: 'kpi-tile-year' }, ' ’' + String(x.year).slice(-2)) : null) : null,
+            has(yr) ? h('span', { class: 'kpi-tile-year' }, ' ’' + String(yr).slice(-2)) : null) : null,
           trendBadge(series, x.trend)),
-        series ? h('div', { class: 'kpi-tile-spark' }, sparkline(series, color(0)))
+        hasSeries ? h('div', { class: 'kpi-tile-sparkrow' },
+            h('span', { class: 'kpi-tile-spark' }, sparkline(series, color(0))),
+            h('span', { class: 'kpi-trendlink' }, 'View trend', h('span', { class: 'w-3 h-3', html: I.chevron })))
           : (has(x.note) ? h('div', { class: 'kpi-tile-note' }, x.note) : null));
     });
-    return card({ hoverable: false, title: 'Key metrics', subtitle: 'standout figures for this industry',
+    return card({ hoverable: false, title: 'Key metrics', subtitle: 'standout figures — most recent year (click a trend to expand)',
       body: h('div', { class: 'kpi-grid' }, ...tiles) });
+  }
+
+  /** A KPI with a series → a modal with its full trend line + the year-by-year values. */
+  function openTrendModal(x) {
+    const series = cleanSeries(x.series);
+    if (series.length < 2) return;
+    const unit = has(x.unit) ? x.unit : '';
+    const overlay = h('div', { class: 'modal-overlay' });
+    let closed = false;
+    const done = () => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); overlay.remove(); };
+    const onKey = (e) => { if (e.key === 'Escape') done(); };
+    const { box, canvas } = chartBox(240);
+    const rows = series.map((p) => h('div', { class: 'trend-row' },
+      h('span', { class: 'trend-row-yr' }, String(p.year)),
+      h('span', { class: 'trend-row-val tnum' }, num(p.value) + (unit ? ' ' + unit : ''))));
+    overlay.appendChild(h('div', { class: 'modal-box src-modal', role: 'dialog', 'aria-modal': 'true', style: { maxWidth: '560px' } },
+      h('div', { class: 'src-modal-bar' },
+        h('div', { class: 'min-w-0' },
+          h('div', { class: 'modal-title' }, x.label),
+          h('div', { class: 'text-[12px] text-slate-400' }, 'trend over time' + (unit ? ' · ' + unit : ''))),
+        h('button', { class: 'src-modal-close', type: 'button', 'aria-label': 'Close', onClick: done }, '×')),
+      h('div', { class: 'src-modal-body' }, box,
+        h('div', { class: 'trend-table' }, ...rows),
+        x.source ? h('div', { class: 'mt-3' }, sourceChip(x.source, { label: true })) : null)));
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) done(); });
+    document.addEventListener('keydown', onKey);
+    document.body.appendChild(overlay);
+    requestAnimationFrame(() => newChart(canvas, {
+      type: 'line',
+      data: { labels: series.map((p) => p.year), datasets: [{ data: series.map((p) => p.value), borderColor: color(0), borderWidth: 2.5, tension: 0.35, pointRadius: 4, pointBackgroundColor: color(0), pointBorderColor: '#fff', pointBorderWidth: 1.5, pointHoverRadius: 7, pointHitRadius: 30, fill: true, backgroundColor: 'rgba(124,58,237,0.10)' }] },
+      options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false }, plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.y) + (unit ? ' ' + unit : '') } } }, scales: { x: { grid: { display: false }, border: { display: false } }, y: { grid: { display: false }, border: { display: false }, ticks: { callback: (v) => num(v) } } } },
+    }));
   }
 
   function secSize(data) {
@@ -512,27 +556,50 @@
    * the pipeline; else infers it. Each cut renders as its own always-labelled
    * breakdown, with a multi-year sparkline when the pipeline supplies `history`. */
   const SEG_DIMS = [
-    { id: 'product', label: 'By product' },
+    { id: 'product', label: 'By product type' },
+    { id: 'application', label: 'By end-use' },
+    { id: 'process', label: 'By production route' },
     { id: 'composition', label: 'By composition' },
     { id: 'channel', label: 'By channel' },
     { id: 'region', label: 'By region' },
     { id: 'context', label: 'Share of adjacent market' },
   ];
+  /* Infer a segment's CUT primarily from its NAME (and any explicit "(by …)" hint) —
+   * NOT its note, because a note names the end-use DRIVERS of a product ("flat steel,
+   * driven by automotive demand") which would wrongly file a product slice under
+   * end-use and make a cut total >100%. Region/context can use the note (their
+   * phrasing is specific and doesn't pollute). */
   function segDimension(s) {
     if (s.dimension) {
       const d = String(s.dimension).toLowerCase();
       if (SEG_DIMS.find((x) => x.id === d)) return d;
       if (/region|geo/.test(d)) return 'region';
-      if (/composition|type|dairy/.test(d)) return 'composition';
-      if (/channel|trade|retail/.test(d)) return 'channel';
-      if (/context|adjacent|versus|vs/.test(d)) return 'context';
+      if (/end[- ]?use|application|sector|consuming|demand[- ]?side/.test(d)) return 'application';
+      if (/process|route|furnace|primary|secondary/.test(d)) return 'process';
+      if (/composition|grade|material/.test(d)) return 'composition';
+      if (/channel|trade|retail|distribution/.test(d)) return 'channel';
+      if (/context|adjacent|versus|\bvs\b/.test(d)) return 'context';
       return 'product';
     }
-    const hay = ((s.name || '') + ' ' + (s.note || '')).toLowerCase();
-    if (/\b(region|north|south|east|west|metro|rural|urban|tier[- ]?\d|zone|geograph)\b/.test(hay)) return 'region';
-    if (/\b(composition|dairy|plant[- ]?based|non[- ]?dairy|frozen dessert|fat content|milk fat)\b/.test(hay)) return 'composition';
-    if (/\b(channel|modern trade|general trade|quick[- ]?commerce|e-?commerce|horeca|institutional)\b/.test(hay)) return 'channel';
-    if (/\b(vs|versus|confectionery|snack|adjacent|share of|of the .* market)\b/.test(hay)) return 'context';
+    const name = String(s.name || '').toLowerCase();
+    const both = ((s.name || '') + ' ' + (s.note || '')).toLowerCase();
+    // An explicit "(by product form)" / "(by end-use)" / "(by region)" hint in the name wins.
+    const byHint = name.match(/\bby (product|type|form|category|grade|end[- ]?use|application|use|composition|process|route|region|geograph|channel|value|volume)\b/);
+    if (byHint) {
+      const g = byHint[1];
+      if (/region|geograph/.test(g)) return 'region';
+      if (/end[- ]?use|application|use/.test(g)) return 'application';
+      if (/process|route/.test(g)) return 'process';
+      if (/composition|grade/.test(g)) return 'composition';
+      if (/channel/.test(g)) return 'channel';
+      return 'product';
+    }
+    if (/\b(region|north|south|east|west|central|metro|rural|urban|tier[- ]?\d|zone|geograph)\b/.test(name)) return 'region';
+    if (/\b(bf[- ]?bof|blast furnace|basic oxygen|electric arc|\beaf\b|induction furnace|primary steel|secondary steel|production route)\b/.test(name)) return 'process';
+    if (/\b(construction|infrastructure|infra|engineering|packaging|automobile|automotive|appliance|consumer durable|white goods|end[- ]?use|capital goods|machinery|real estate|housing|building|transport|shipbuild|railway|defence|defense)\b/.test(name)) return 'application';
+    if (/\b(composition|dairy|plant[- ]?based|non[- ]?dairy|frozen dessert|fat content|milk fat|grade|alloy)\b/.test(name)) return 'composition';
+    if (/\b(channel|modern trade|general trade|quick[- ]?commerce|e-?commerce|horeca|institutional)\b/.test(name)) return 'channel';
+    if (/\b(vs|versus|confectionery|snack|adjacent|share of|of the .* market)\b/.test(both)) return 'context';
     return 'product';
   }
   function segRow(s, i, maxV) {
