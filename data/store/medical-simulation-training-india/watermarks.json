@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-18T08:24:08.034Z",
+      "last_fetched": "2026-08-18T16:21:16.339Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-18T08:24:15.837Z",
+      "last_fetched": "2026-08-18T16:21:50.652Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-18T08:24:16.696Z",
-      "last_epoch": 1786952539000,
+      "last_fetched": "2026-08-18T16:21:51.656Z",
+      "last_epoch": 1787060173000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -48,20 +48,25 @@
         "CBMi5AFBVV95cUxPaGlidjV6ak93YnhKcXVCRXFzSVpubWx2Rk9EM2p5QUR6TUJaWHFmYlphOVVkZmV2S3FkZjlSa2N2VUg1SEk0ckNoSmE2YjlUSzRRcXBrcXpwZWM4VFRXdEZsTHpHel9ZNnpoQWszdGZ6bThQd2V6TVp3LU9Ca1BPZmM5WHBpU1lJaVNEMWNMZHc5NmJHZ2N6VUZXNjB4bklZdVJ0ejJCcmd1Ymh5Mkl6VVFLcjhyY3JIUUdJbXFKcnA4UVhuZUkydFBKVTNLalFTSDFwWWl0V1BRakd5eEdxSVo0WjI",
         "CBMisAFBVV95cUxQaVpDVU5oNGVjQlFkSnhYV0JYMElPR0xhXy01Q212czk5cnNmd0t3cnU1NEhURFZxS1FlY3JkZ2NYNHBEUnF2bkxEaExiYV94ZzhsQTV1VUI0R19WT1ExMUg2ZWtUS1J0R2E4d1Nsd2Q4MGNKekhpcXNMZlhZTV9ZUUxZU1FXY0Q3d2xINHh4TU8xVHFodGVaZmlESklLQ0dMRnZFZHBKYUhWU3BLX1dwaw",
         "CBMiuwFBVV95cUxPLVNFNjlyUi1QOTJjekpFUGk3THNOVFRUOWZjalZWdWwyc3RhOG12SElfWlp3NTdFSEVOdGxWLVlFM3lJSi05OGJKRkZJVXZoTHpXN0NfTlUwbXlURUlnOG03VDZCOTAxZDY5U0tMSTJzWU5PTllNVy1GNDEzMmpvcDNCV3NKUThLQUlMRXMycW56Y2llR1d3VmVsOXBqNXRhWXlXQVhFYmRPR0RCUERXdlJGbnJBRy1lRDEw",
-        "CBMitwFBVV95cUxPcU5udnlEdmhWRTFlSUNCZ1JVYjVXQkw5eDVxQlNqY2JZX0swdkhNQk4tRjd0TWotZE42MExfM0F2Q3E3RXBkbGxvckdsVXE3QW9mUFl0eElFZFczc0RSdVJfcWFkaDk5VnE5RjR2bmhrX1B2TjNWcHl6SC0zLXdadjhxYkRIVmJIVTVHTG5DWHlRRmJjdmtSVjJtcnRiTm1iUGRpZVNzamdVSWRmbjZ2Nm10OFI1WE0"
+        "CBMitwFBVV95cUxPcU5udnlEdmhWRTFlSUNCZ1JVYjVXQkw5eDVxQlNqY2JZX0swdkhNQk4tRjd0TWotZE42MExfM0F2Q3E3RXBkbGxvckdsVXE3QW9mUFl0eElFZFczc0RSdVJfcWFkaDk5VnE5RjR2bmhrX1B2TjNWcHl6SC0zLXdadjhxYkRIVmJIVTVHTG5DWHlRRmJjdmtSVjJtcnRiTm1iUGRpZVNzamdVSWRmbjZ2Nm10OFI1WE0",
+        "CBMie0FVX3lxTE1uR2hJc19mX3VvRVd2VmZMQlU2TDhTUmJQWXhLdlQtM3U0blE1ZUFnd1I5MnhaQzlxT2U4MHpnVE10c2tKVWZkZkcwSXk4blI1SWtHVVdPVGZvVXM4SzlQNkJvWkRwa05ISFJQeVdHTHNwajF1QndUak96Z9IBgAFBVV95cUxQQTlSV2VTenNxa2FSSmtDOVNWSjhzbE1iOFZ4ckxyenZCeEROU1VJQ1pHQ0xwRURxQlYwMHZZVWF0cklkdGl4cGtZSWVDZzRPVzJsYjZfdmVNOVJ4dm9pVFFIeWszVS1VTTA2aVZwc0lCSVptT0tlTjJsSFFJYm9uMQ",
+        "CBMihgJBVV95cUxPeHhiNzRFb2NVbGR6M3JLdkFNcUJpYVREV2NlU1FnRE1ZOWlpWk9FMEZvMWlHcEZ6VzBKeVVpNF9IUkNPaWNwbk1oLWJzZGJJZXE2eHh0ZTNINHFrd2JrbW5wQXFmVFVMWllNZjY0ZFBqMS1teVlQZ2dBejJrZzJZMVZ1QmRkZTUtSEZldXRNaGs0V01Zc2FtNHg5S09KZkFwbVJrd1BMdE9NeDNIUEU4YWQ3Rnl0TnhVeWFIcjE2U19kZWttTDZBaHphVVBJYU9jVXB4OGpRbEYyNVB0WUUxN040a3M5VXFSZm8yaEtRanZmeHNFZHJZZkJQM0dmNndoaC1qcmVR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-18T08:24:16.781Z",
-      "last_epoch": 1786977543000,
-      "etag": "\"02de7b9caa41f056f91db93a960f96c63-gzip\"",
-      "last_modified": "Tue, 18 Aug 2026 08:11:17 GMT",
+      "last_fetched": "2026-08-18T16:21:51.688Z",
+      "last_epoch": 1787059787000,
+      "etag": "\"0244aa7f7e8379fb57ae52f536e68dd71-gzip\"",
+      "last_modified": "Tue, 18 Aug 2026 16:12:54 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/manipal-health-enterprises-to-acquire-kinder-womens-hospital-in-bengaluru/articleshow/133322018.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/healthcare-delivery-capital-intensive-hospital-tariffs-only-tip-of-iceberg-nathealth/articleshow/133318022.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-18T08:24:16.900Z",
+      "last_fetched": "2026-08-18T16:21:51.794Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
