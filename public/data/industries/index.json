@@ -1,5 +1,5 @@
 {
-  "default": "medical-simulation-training-india",
+  "default": "aroma-chemicals",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -63,6 +63,17 @@
         "Healthcare Simulation",
         "Medical Simulation Market",
         "Clinical Skills Simulation Training"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "aroma-chemicals",
+      "name": "Aroma Chemicals",
+      "aliases": [
+        "Fragrance and Flavour Chemicals",
+        "Perfumery Chemicals",
+        "Flavour & Fragrance Ingredients"
       ],
       "is_manufacturing": true,
       "mock": false
