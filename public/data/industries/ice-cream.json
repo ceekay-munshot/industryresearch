@@ -1494,7 +1494,7 @@
     ]
   },
   "benchmarking": {
-    "generated_at": "2026-08-17",
+    "generated_at": "2026-08-18",
     "peers": [
       {
         "name": "Amul (Gujarat Co-operative Milk Marketing Federation - GCMMF)",
@@ -1510,10 +1510,27 @@
         "listed": true,
         "ticker": "MICC",
         "segment": "Dairy ice cream, impulse and take-home",
-        "status": "listed-pending",
-        "pending": true,
-        "pending_reason": "Financials pending (Private Circle)",
-        "updated_at": "2026-08-17"
+        "status": "listed",
+        "pending": false,
+        "updated_at": "2026-08-18",
+        "revenue": 2245.6,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2026,
+        "ebitda_pct": -9.95,
+        "pat_pct": -16.42,
+        "source": {
+          "label": "PrivateCircle",
+          "url": "https://www.privatecircle.co/",
+          "snippet": ""
+        },
+        "added_by": "analyst",
+        "analyst": true,
+        "analyst_fields": [
+          "revenue",
+          "revenue_year",
+          "ebitda_pct",
+          "pat_pct"
+        ]
       },
       {
         "name": "Vadilal Industries Limited",
@@ -1585,9 +1602,30 @@
         "listed": false,
         "segment": "Ice cream",
         "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "pending": false,
+        "updated_at": "2026-08-18",
+        "revenue": 1110.2,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "ebitda_pct": 11.7,
+        "pat_pct": -6.0,
+        "revenue_cagr_3y_pct": 9.68,
+        "roce_pct": 2.87,
+        "source": {
+          "label": "PrivateCircle",
+          "url": "https://www.privatecircle.co/",
+          "snippet": ""
+        },
+        "added_by": "analyst",
+        "analyst": true,
+        "analyst_fields": [
+          "revenue",
+          "revenue_year",
+          "ebitda_pct",
+          "pat_pct",
+          "revenue_cagr_3y_pct",
+          "roce_pct"
+        ]
       },
       {
         "name": "Arun Icecreams (Hatsun Agro Product)",
@@ -1617,27 +1655,96 @@
         "listed": false,
         "segment": "Ice cream",
         "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "pending": false,
+        "updated_at": "2026-08-18",
+        "revenue": 958.9,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "ebitda_pct": 13.6,
+        "pat_pct": 6.98,
+        "revenue_cagr_3y_pct": 20.98,
+        "roce_pct": 35.99,
+        "roe_pct": 33.56,
+        "source": {
+          "label": "PrivateCircle",
+          "url": "https://www.privatecircle.co/",
+          "snippet": ""
+        },
+        "added_by": "analyst",
+        "analyst": true,
+        "analyst_fields": [
+          "revenue",
+          "revenue_year",
+          "ebitda_pct",
+          "pat_pct",
+          "revenue_cagr_3y_pct",
+          "roce_pct",
+          "roe_pct"
+        ]
       },
       {
         "name": "Graviss Foods Private Limited (Baskin Robbins India)",
         "listed": false,
         "segment": "Ice cream parlour / franchise",
         "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "pending": false,
+        "updated_at": "2026-08-18",
+        "revenue": 353.6,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "ebitda_pct": 16.09,
+        "pat_pct": 7.32,
+        "revenue_cagr_3y_pct": 24.45,
+        "roce_pct": 34.85,
+        "roe_pct": 38.54,
+        "source": {
+          "label": "PrivateCircle",
+          "url": "https://www.privatecircle.co/",
+          "snippet": ""
+        },
+        "added_by": "analyst",
+        "analyst": true,
+        "analyst_fields": [
+          "revenue",
+          "revenue_year",
+          "ebitda_pct",
+          "pat_pct",
+          "revenue_cagr_3y_pct",
+          "roce_pct",
+          "roe_pct"
+        ]
       },
       {
         "name": "Kamaths Ourtimes Ice Creams Private Limited (Naturals Ice Cream)",
         "listed": false,
         "segment": "Ice cream parlour, regional/premium",
         "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "pending": false,
+        "updated_at": "2026-08-18",
+        "revenue": 412.8,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "ebitda_pct": 17.93,
+        "pat_pct": 11.17,
+        "revenue_cagr_3y_pct": 23.88,
+        "roce_pct": 26.63,
+        "roe_pct": 21.83,
+        "source": {
+          "label": "PrivateCircle",
+          "url": "https://www.privatecircle.co/",
+          "snippet": ""
+        },
+        "added_by": "analyst",
+        "analyst": true,
+        "analyst_fields": [
+          "revenue",
+          "revenue_year",
+          "ebitda_pct",
+          "pat_pct",
+          "revenue_cagr_3y_pct",
+          "roce_pct",
+          "roe_pct"
+        ]
       },
       {
         "name": "Nirulas",
