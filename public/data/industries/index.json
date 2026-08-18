@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "medical-simulation-training-india",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -52,6 +52,17 @@
         "Indian Steel Industry",
         "Crude Steel",
         "Finished Steel"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "medical-simulation-training-india",
+      "name": "Medical Simulation Training (India)",
+      "aliases": [
+        "Healthcare Simulation Training",
+        "Medical Simulation Market India",
+        "Clinical Skills Simulation"
       ],
       "is_manufacturing": true,
       "mock": false
