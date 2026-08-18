@@ -223,6 +223,18 @@
     .kpi-tile-year { font-size: 11.5px; font-weight: 600; color: var(--ink-hint); }
     .kpi-tile-spark { margin-top: 2px; color: var(--chart-1); }
     .kpi-tile-note { font-size: 12px; color: var(--ink-2); line-height: 1.5; }
+    /* Clickable KPI (has a trend series) → opens the trend modal */
+    .kpi-tile-trend { cursor: pointer; transition: box-shadow .18s, border-color .18s, transform .18s; }
+    .kpi-tile-trend:hover { border-color: var(--primary-border); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .kpi-tile-sparkrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 2px; }
+    .kpi-trendlink { display: inline-flex; align-items: center; gap: 1px; font-size: 11px; font-weight: 700; color: var(--primary-text); white-space: nowrap; opacity: 0; transition: opacity .16s; }
+    .kpi-tile-trend:hover .kpi-trendlink { opacity: 1; }
+    .trend-table { margin-top: 16px; display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .trend-row { display: flex; align-items: center; justify-content: space-between; padding: 8px 13px; font-size: 13px; border-bottom: 1px solid var(--border); }
+    .trend-row:last-child { border-bottom: 0; }
+    .trend-row:nth-child(odd) { background: var(--neutral-soft); }
+    .trend-row-yr { font-weight: 600; color: var(--ink-muted); }
+    .trend-row-val { font-weight: 800; color: var(--ink); }
 
     .badge {
       display: inline-flex; align-items: center; gap: 5px;

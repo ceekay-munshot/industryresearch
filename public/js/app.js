@@ -426,29 +426,73 @@
    *  sections don't capture. Shows a value, a trend (when a series is given) and a
    *  source icon. Renders nothing when the data has none. */
   function secHighlights(data) {
-    // Decision-grade: an analyst wants the number that's true NOW. Drop figures
-    // whose year is clearly stale (older than ~3 years) so a 2009 market share
-    // never sits next to a 2026 one. Undated and forward (forecast) figures stay.
+    // KPIs are FACTS, shown for the MOST RECENT year. When a KPI carries a series,
+    // its headline value/year is the LATEST point in that series (never an old
+    // vintage). Stale figures (older than ~2 years, with no newer point) are
+    // dropped so a 2022 number never sits beside a 2026 one. Most-recent first.
     const NOW_YEAR = new Date().getFullYear();
-    const fresh = (x) => { const y = Number(x.year); return !isFinite(y) || y >= NOW_YEAR - 3; };
-    const items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)) && fresh(x));
+    const latestYear = (x) => { const s = cleanSeries(x.series); if (s.length) return s[s.length - 1].year; const y = Number(x.year); return isFinite(y) ? y : null; };
+    const fresh = (x) => { const y = latestYear(x); return y == null || y >= NOW_YEAR - 2; };
+    let items = (data.highlights || []).filter((x) => x && has(x.label) && (has(x.value) || (Array.isArray(x.series) && x.series.length)) && fresh(x));
     if (!items.length) return null;
+    items = items.slice().sort((a, b) => (latestYear(b) || 0) - (latestYear(a) || 0));   // most recent first
     const tiles = items.slice(0, 12).map((x) => {
-      const series = Array.isArray(x.series) ? x.series : null;
-      const valTxt = has(x.value) ? String(x.value) + (has(x.unit) ? ' ' + x.unit : '') : '';
-      return h('div', { class: 'kpi-tile' },
+      const series = cleanSeries(x.series);
+      const hasSeries = series.length >= 2;
+      const latest = hasSeries ? series[series.length - 1] : null;
+      const val = latest ? latest.value : x.value;                 // headline = latest data point
+      const yr = latest ? latest.year : x.year;
+      const valTxt = has(val) ? String(val) + (has(x.unit) ? ' ' + x.unit : '') : '';
+      const attrs = { class: 'kpi-tile' + (hasSeries ? ' kpi-tile-trend' : '') };
+      if (hasSeries) { attrs.role = 'button'; attrs.tabindex = '0'; attrs.title = 'Click to see the full trend';
+        attrs.onClick = () => openTrendModal(x); attrs.onKeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openTrendModal(x); } }; }
+      return h('div', attrs,
         h('div', { class: 'kpi-tile-head' },
           h('span', { class: 'kpi-tile-label' }, x.label),
           x.source ? sourceChip(x.source) : null),
         h('div', { class: 'kpi-tile-valrow' },
           valTxt ? h('span', { class: 'kpi-tile-val' }, valTxt,
-            has(x.year) ? h('span', { class: 'kpi-tile-year' }, ' ’' + String(x.year).slice(-2)) : null) : null,
+            has(yr) ? h('span', { class: 'kpi-tile-year' }, ' ’' + String(yr).slice(-2)) : null) : null,
           trendBadge(series, x.trend)),
-        series ? h('div', { class: 'kpi-tile-spark' }, sparkline(series, color(0)))
+        hasSeries ? h('div', { class: 'kpi-tile-sparkrow' },
+            h('span', { class: 'kpi-tile-spark' }, sparkline(series, color(0))),
+            h('span', { class: 'kpi-trendlink' }, 'View trend', h('span', { class: 'w-3 h-3', html: I.chevron })))
           : (has(x.note) ? h('div', { class: 'kpi-tile-note' }, x.note) : null));
     });
-    return card({ hoverable: false, title: 'Key metrics', subtitle: 'standout figures for this industry',
+    return card({ hoverable: false, title: 'Key metrics', subtitle: 'standout figures — most recent year (click a trend to expand)',
       body: h('div', { class: 'kpi-grid' }, ...tiles) });
+  }
+
+  /** A KPI with a series → a modal with its full trend line + the year-by-year values. */
+  function openTrendModal(x) {
+    const series = cleanSeries(x.series);
+    if (series.length < 2) return;
+    const unit = has(x.unit) ? x.unit : '';
+    const overlay = h('div', { class: 'modal-overlay' });
+    let closed = false;
+    const done = () => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); overlay.remove(); };
+    const onKey = (e) => { if (e.key === 'Escape') done(); };
+    const { box, canvas } = chartBox(240);
+    const rows = series.map((p) => h('div', { class: 'trend-row' },
+      h('span', { class: 'trend-row-yr' }, String(p.year)),
+      h('span', { class: 'trend-row-val tnum' }, num(p.value) + (unit ? ' ' + unit : ''))));
+    overlay.appendChild(h('div', { class: 'modal-box src-modal', role: 'dialog', 'aria-modal': 'true', style: { maxWidth: '560px' } },
+      h('div', { class: 'src-modal-bar' },
+        h('div', { class: 'min-w-0' },
+          h('div', { class: 'modal-title' }, x.label),
+          h('div', { class: 'text-[12px] text-slate-400' }, 'trend over time' + (unit ? ' · ' + unit : ''))),
+        h('button', { class: 'src-modal-close', type: 'button', 'aria-label': 'Close', onClick: done }, '×')),
+      h('div', { class: 'src-modal-body' }, box,
+        h('div', { class: 'trend-table' }, ...rows),
+        x.source ? h('div', { class: 'mt-3' }, sourceChip(x.source, { label: true })) : null)));
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) done(); });
+    document.addEventListener('keydown', onKey);
+    document.body.appendChild(overlay);
+    requestAnimationFrame(() => newChart(canvas, {
+      type: 'line',
+      data: { labels: series.map((p) => p.year), datasets: [{ data: series.map((p) => p.value), borderColor: color(0), borderWidth: 2.5, tension: 0.35, pointRadius: 4, pointBackgroundColor: color(0), pointBorderColor: '#fff', pointBorderWidth: 1.5, pointHoverRadius: 7, pointHitRadius: 30, fill: true, backgroundColor: 'rgba(124,58,237,0.10)' }] },
+      options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false }, plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => num(c.parsed.y) + (unit ? ' ' + unit : '') } } }, scales: { x: { grid: { display: false }, border: { display: false } }, y: { grid: { display: false }, border: { display: false }, ticks: { callback: (v) => num(v) } } } },
+    }));
   }
 
   function secSize(data) {
@@ -512,27 +556,50 @@
    * the pipeline; else infers it. Each cut renders as its own always-labelled
    * breakdown, with a multi-year sparkline when the pipeline supplies `history`. */
   const SEG_DIMS = [
-    { id: 'product', label: 'By product' },
+    { id: 'product', label: 'By product type' },
+    { id: 'application', label: 'By end-use' },
+    { id: 'process', label: 'By production route' },
     { id: 'composition', label: 'By composition' },
     { id: 'channel', label: 'By channel' },
     { id: 'region', label: 'By region' },
     { id: 'context', label: 'Share of adjacent market' },
   ];
+  /* Infer a segment's CUT primarily from its NAME (and any explicit "(by …)" hint) —
+   * NOT its note, because a note names the end-use DRIVERS of a product ("flat steel,
+   * driven by automotive demand") which would wrongly file a product slice under
+   * end-use and make a cut total >100%. Region/context can use the note (their
+   * phrasing is specific and doesn't pollute). */
   function segDimension(s) {
     if (s.dimension) {
       const d = String(s.dimension).toLowerCase();
       if (SEG_DIMS.find((x) => x.id === d)) return d;
       if (/region|geo/.test(d)) return 'region';
-      if (/composition|type|dairy/.test(d)) return 'composition';
-      if (/channel|trade|retail/.test(d)) return 'channel';
-      if (/context|adjacent|versus|vs/.test(d)) return 'context';
+      if (/end[- ]?use|application|sector|consuming|demand[- ]?side/.test(d)) return 'application';
+      if (/process|route|furnace|primary|secondary/.test(d)) return 'process';
+      if (/composition|grade|material/.test(d)) return 'composition';
+      if (/channel|trade|retail|distribution/.test(d)) return 'channel';
+      if (/context|adjacent|versus|\bvs\b/.test(d)) return 'context';
       return 'product';
     }
-    const hay = ((s.name || '') + ' ' + (s.note || '')).toLowerCase();
-    if (/\b(region|north|south|east|west|metro|rural|urban|tier[- ]?\d|zone|geograph)\b/.test(hay)) return 'region';
-    if (/\b(composition|dairy|plant[- ]?based|non[- ]?dairy|frozen dessert|fat content|milk fat)\b/.test(hay)) return 'composition';
-    if (/\b(channel|modern trade|general trade|quick[- ]?commerce|e-?commerce|horeca|institutional)\b/.test(hay)) return 'channel';
-    if (/\b(vs|versus|confectionery|snack|adjacent|share of|of the .* market)\b/.test(hay)) return 'context';
+    const name = String(s.name || '').toLowerCase();
+    const both = ((s.name || '') + ' ' + (s.note || '')).toLowerCase();
+    // An explicit "(by product form)" / "(by end-use)" / "(by region)" hint in the name wins.
+    const byHint = name.match(/\bby (product|type|form|category|grade|end[- ]?use|application|use|composition|process|route|region|geograph|channel|value|volume)\b/);
+    if (byHint) {
+      const g = byHint[1];
+      if (/region|geograph/.test(g)) return 'region';
+      if (/end[- ]?use|application|use/.test(g)) return 'application';
+      if (/process|route/.test(g)) return 'process';
+      if (/composition|grade/.test(g)) return 'composition';
+      if (/channel/.test(g)) return 'channel';
+      return 'product';
+    }
+    if (/\b(region|north|south|east|west|central|metro|rural|urban|tier[- ]?\d|zone|geograph)\b/.test(name)) return 'region';
+    if (/\b(bf[- ]?bof|blast furnace|basic oxygen|electric arc|\beaf\b|induction furnace|primary steel|secondary steel|production route)\b/.test(name)) return 'process';
+    if (/\b(construction|infrastructure|infra|engineering|packaging|automobile|automotive|appliance|consumer durable|white goods|end[- ]?use|capital goods|machinery|real estate|housing|building|transport|shipbuild|railway|defence|defense)\b/.test(name)) return 'application';
+    if (/\b(composition|dairy|plant[- ]?based|non[- ]?dairy|frozen dessert|fat content|milk fat|grade|alloy)\b/.test(name)) return 'composition';
+    if (/\b(channel|modern trade|general trade|quick[- ]?commerce|e-?commerce|horeca|institutional)\b/.test(name)) return 'channel';
+    if (/\b(vs|versus|confectionery|snack|adjacent|share of|of the .* market)\b/.test(both)) return 'context';
     return 'product';
   }
   function segRow(s, i, maxV) {
@@ -995,6 +1062,9 @@
       ...BENCH_METRICS.map((m) => h('td', { class: 'num' }, p[m.key] != null ? m.fmt(p) : '—')),
       h('td', {}, benchSourceCell(p)));
 
+    // ONLY genuinely private / unlisted peers use this "Private Circle" pending row.
+    // Listed peers never show "pending" — their financials come from screener.in
+    // (they render as normal rows, filling in on the next research run).
     const pendingRow = (p) => h('tr', { class: 'bench-pending' },
       nameCell(p),
       h('td', {}, benchListedCell(p)),
@@ -1024,10 +1094,12 @@
         h('td', { colspan: String(totalCols) },
           h('span', { class: 'bench-group-name' }, g.name),
           h('span', { class: 'bench-group-count' }, ' · ' + g.peers.length + (g.peers.length === 1 ? ' peer' : ' peers')))));
-      // Leaders first: peers with financials ranked by revenue, then pending rows.
-      const filled = g.peers.filter((p) => !p.pending && hasAnyMetric(p))
+      // Leaders first. LISTED peers always render as normal rows (screener.in
+      // financials, or "—" that fills on the next run) — never as a pending row.
+      // Only genuinely private / unlisted peers become "Private Circle" pending.
+      const filled = g.peers.filter((p) => hasAnyMetric(p) || p.listed === true)
         .sort((a, b) => (Number(b.revenue) || -Infinity) - (Number(a.revenue) || -Infinity));
-      const pend = g.peers.filter((p) => p.pending || !hasAnyMetric(p));
+      const pend = g.peers.filter((p) => !hasAnyMetric(p) && p.listed !== true);
       filled.forEach((p) => tbody.appendChild(filledRow(p)));
       pend.forEach((p) => tbody.appendChild(pendingRow(p)));
       const mr = medianRow(g.peers);
@@ -1035,11 +1107,12 @@
     }
 
     const table = h('table', { class: 'data-table bench-table' }, thead, tbody);
-    const pendingCount = peers.filter((p) => p.pending || !hasAnyMetric(p)).length;
-    const sub = `${peers.length} peer${peers.length === 1 ? '' : 's'}` + (pendingCount ? ` · ${pendingCount} pending (Private Circle)` : '');
-    const legend = pendingCount ? h('p', { class: 'bench-caption' },
+    const privatePeers = peers.filter((p) => !hasAnyMetric(p) && p.listed !== true);
+    const sub = `${peers.length} peer${peers.length === 1 ? '' : 's'}`
+      + (privatePeers.length ? ` · ${privatePeers.length} private (Private Circle)` : '');
+    const legend = privatePeers.length ? h('p', { class: 'bench-caption' },
       h('span', { class: 'bench-pill' }, 'Pending'),
-      ' rows are unlisted or not yet available — sourced from a prospectus / Private Circle, they fill in as data lands.') : null;
+      ' rows are private / unlisted companies — their financials come from a prospectus or Private Circle. Listed peers pull financials from screener.in.') : null;
     root.appendChild(card({ title: 'Peer benchmarking', subtitle: sub, className: 'min-w-0', badge: addBtn('Add peer', addPeer),
       body: h('div', {}, h('div', { class: 'table-scroll' }, table), legend) }));
 
@@ -1184,33 +1257,51 @@
   /* News categories an analyst thinks in: government / policy, company-specific, and
    * analyst / brokerage commentary. Inferred from the headline + publisher (the pipeline
    * can later tag these explicitly). "Company" is the default bucket. */
-  const NEWS_POLICY_RE = /\b(government|govt|ministr(?:y|ies)|minister|polic(?:y|ies)|gst|tariffs?|dut(?:y|ies)|anti[- ]?dumping|bis|bureau of indian standards|regulations?|regulatory|compliance|budget|pib|parliament|cabinet|schemes?|subsid(?:y|ies)|customs|notifications?|niti aayog|nclt|cci|sebi|rbi|make in india|pli)\b/i;
-  const NEWS_ANALYST_RE = /\b(brokerages?|broker|analysts?|ratings?|rated|upgrades?|downgrades?|target price|price target|target of|initiat(?:e|ing) coverage|research report|buy call|sell call|outperform|underperform|overweight|underweight|motilal|nuvama|icici securities|hdfc securities|kotak inst|jefferies|clsa|morgan stanley|goldman|jpmorgan|nomura|emkay|antique|axis capital|elara|prabhudas|sharekhan|anand rathi|systematix)\b/i;
+  // Company-EVENT terms (earnings / expansion / corporate action). A story with any
+  // of these is COMPANY news even if it quotes a minister or mentions "govt" — that
+  // was the mis-classification (e.g. "SAIL expands Bokaro plant: Steel Minister" or
+  // "NMDC Q1 net profit jumps as govt searches buyer" are company stories, not policy).
+  const NEWS_COMPANY_EVENT_RE = /\b(net profit|net loss|\bq[1-4]\b|quarter(?:ly)?|results|earnings|revenue|\bebitda\b|\bpat\b|profit (?:jump|jumps|rise|rises|fall|falls|dip|dips|surge|surges|decline|declines|grew|grows|up|down)|order book|new order|plant|expansion|expands?|capacit(?:y|ies)|commission(?:s|ed|ing)?|acquir\w*|merger|amalgamation|\bipo\b|dividend|buyback|capex|stake (?:sale|buy|search)|net sales|launch(?:es|ed)?|greenfield|brownfield|de[- ]?merger|bags order|wins order)\b/i;
+  // PURE policy / government action (checked AFTER company-event, so a company story
+  // that merely names a minister stays under Company).
+  const NEWS_POLICY_RE = /\b(polic(?:y|ies)|\bpli\b|scheme|subsid(?:y|ies)|anti[- ]?dumping|safeguard dut(?:y|ies)|import dut(?:y|ies)|export dut(?:y|ies)|customs dut(?:y|ies)|tariffs?|\bgst\b|budget|regulations?|regulatory|notifications?|\bbis\b|bureau of indian standards|make in india|niti aayog|national .* policy|\bnclt\b|\bcci\b|\bsebi\b|\brbi\b|ministr(?:y|ies)|minister|government|govt|parliament|cabinet)\b/i;
+  const NEWS_ANALYST_RE = /\b(brokerages?|analysts?|ratings?|rated (?:buy|sell|hold|neutral|add|reduce)|upgrades?|downgrades?|target price|price target|target of|initiat(?:e|ing) coverage|research report|buy call|sell call|outperform|underperform|overweight|underweight|motilal|nuvama|icici securities|hdfc securities|kotak inst|jefferies|clsa|morgan stanley|goldman|jpmorgan|nomura|emkay|antique|axis capital|elara|prabhudas|sharekhan|anand rathi|systematix)\b/i;
   function newsCategory(n) {
     const t = ((n.title || '') + ' ' + (n.publisher || '') + ' ' + (n.snippet || '')).toLowerCase();
     if (NEWS_ANALYST_RE.test(t)) return 'analyst';
-    if (NEWS_POLICY_RE.test(t)) return 'policy';
+    if (NEWS_COMPANY_EVENT_RE.test(t)) return 'company';   // corporate action → Company (even if a minister features)
+    if (NEWS_POLICY_RE.test(t)) return 'policy';           // only genuine policy / government action reaches here
     return 'company';
   }
-  const coreCompanyName = (nm) => String(nm).replace(/\s+(ltd|limited|inc|plc|pvt\.?|private|corp\.?|corporation|co\.?)\.?$/gi, '').trim() || String(nm);
 
   function renderNews(root, data) {
     root.innerHTML = '';
     const newsTs = (n) => { const t = Date.parse(n.published || n.date || ''); return isNaN(t) ? -Infinity : t; };
-    const news = ((data.sources && data.sources.news) || []).filter((n) => has(n.title))
-      .slice().sort((a, b) => newsTs(b) - newsTs(a));   // most recent headlines first
-    if (!news.length) { root.appendChild(card({ hoverable: false, body: emptyState('No news yet', 'Recent headlines will appear here.') })); return; }
 
-    // Company detection from the researched players / peers, for the company filter.
-    const names = Array.from(new Set([
-      ...(data.players || []).map((p) => cleanText(p.name || '')),
-      ...((data.benchmarking && data.benchmarking.peers) || []).map((p) => cleanText(p.name || '')),
-    ].filter((s) => s && coreCompanyName(s).length >= 3)));
-    const newsCompanies = (n) => {
+    // Relevance keywords: the industry's own words (name + aliases) + player names.
+    // Used to drop clearly off-topic / generic market noise (e.g. "Stocks under F&O
+    // ban: Bandhan Bank" on a Steel dashboard). Lenient — only drops items that
+    // mention NONE of them.
+    const NEWS_STOP = new Set(['india', 'indian', 'industry', 'market', 'sector', 'limited', 'company', 'the', 'and', 'for', 'with', 'from']);
+    const kw = new Set();
+    const addKw = (s) => String(s || '').toLowerCase().split(/[^a-z0-9]+/).forEach((w) => { if (w.length >= 4 && !NEWS_STOP.has(w)) kw.add(w); });
+    addKw((data.meta || {}).name); ((data.meta || {}).aliases || []).forEach(addKw);
+    const playerCores = (data.players || []).map((p) => cleanText(p.name || '').toLowerCase().replace(/\s+(ltd|limited|pvt|private|inc|plc|industries|corporation).*$/, '').trim()).filter((s) => s.length >= 4);
+    const relevant = (n) => {
+      if (!kw.size && !playerCores.length) return true;
       const t = ((n.title || '') + ' ' + (n.snippet || '')).toLowerCase();
-      return names.filter((nm) => t.includes(coreCompanyName(nm).toLowerCase()));
+      for (const w of kw) if (t.includes(w)) return true;
+      for (const c of playerCores) if (t.includes(c)) return true;
+      return false;
     };
-    const presentCompanies = Array.from(new Set(news.flatMap(newsCompanies))).sort((a, b) => a.localeCompare(b));
+
+    // De-duplicate repeated headlines (feeds echo the same story), drop empties + off-topic.
+    const seenT = new Set();
+    const news = ((data.sources && data.sources.news) || [])
+      .filter((n) => has(n.title) && relevant(n))
+      .filter((n) => { const k = String(n.title).toLowerCase().replace(/\s+/g, ' ').trim(); if (seenT.has(k)) return false; seenT.add(k); return true; })
+      .slice().sort((a, b) => newsTs(b) - newsTs(a));   // most recent first
+    if (!news.length) { root.appendChild(card({ hoverable: false, body: emptyState('No news yet', 'Recent headlines will appear here.') })); return; }
 
     const sentiment = (s) => {
       const k = String(s || '').toLowerCase();
@@ -1230,35 +1321,49 @@
           has(n.date) && h('span', { class: 'flex-shrink-0' }, n.date)),
         has(n.snippet) && h('p', { class: 'text-[13px] text-slate-500 leading-relaxed mt-1.5 clamp-2' }, n.snippet)));
 
-    const st = { cat: 'all', company: 'all' };
-    const count = (id) => id === 'all' ? news.length : news.filter((n) => newsCategory(n) === id).length;
+    const now = Date.now(), DAY = 86400000;
+    const d0 = new Date(); const startOfToday = new Date(d0.getFullYear(), d0.getMonth(), d0.getDate()).getTime();
+    const inRange = (n, id) => {
+      if (id === 'all') return true;
+      const t = newsTs(n); if (t === -Infinity) return false;
+      if (id === 'today') return t >= startOfToday;
+      if (id === 'week') return (now - t) <= 7 * DAY;
+      if (id === 'month') return (now - t) <= 31 * DAY;
+      return true;
+    };
+
+    const st = { cat: 'all', range: 'all' };
+    const catCount = (id) => id === 'all' ? news.length : news.filter((n) => newsCategory(n) === id).length;
     const cats = [
-      { id: 'all', label: 'All' }, { id: 'policy', label: 'Govt & policy' },
-      { id: 'company', label: 'Company' }, { id: 'analyst', label: 'Analysts' },
-    ].filter((c) => c.id === 'all' || count(c.id) > 0);
+      { id: 'all', label: 'All' }, { id: 'company', label: 'Company' },
+      { id: 'policy', label: 'Govt & policy' }, { id: 'analyst', label: 'Analysts' },
+    ].filter((c) => c.id === 'all' || catCount(c.id) > 0);
 
     const listHost = h('div', { class: 'grid gap-3 md:grid-cols-2 items-start' });
     const draw = () => {
       let rows = news.slice();
       if (st.cat !== 'all') rows = rows.filter((n) => newsCategory(n) === st.cat);
-      if (st.company !== 'all') rows = rows.filter((n) => newsCompanies(n).includes(st.company));
+      rows = rows.filter((n) => inRange(n, st.range));
       listHost.innerHTML = '';
-      if (!rows.length) { listHost.appendChild(h('div', { class: 'md:col-span-2' }, emptyState('No matching news', 'Try a different category or company.'))); return; }
+      if (!rows.length) { listHost.appendChild(h('div', { class: 'md:col-span-2' }, emptyState('No news in this range', 'Try a wider date range or another category.'))); return; }
       rows.forEach((n) => listHost.appendChild(newsCard(n)));
     };
 
     const catbar = h('div', { class: 'subtabbar mb-1' }, ...cats.map((c) => h('button', {
       class: 'subtab-btn' + (c.id === st.cat ? ' active' : ''), type: 'button',
       onClick: (e) => { st.cat = c.id; catbar.querySelectorAll('.subtab-btn').forEach((b) => b.classList.remove('active')); e.currentTarget.classList.add('active'); draw(); },
-    }, c.label, c.id === 'all' ? null : h('span', { class: 'subtab-count' }, ' ' + count(c.id)))));
+    }, c.label, c.id === 'all' ? null : h('span', { class: 'subtab-count' }, ' ' + catCount(c.id)))));
 
+    // Date filter (Today / This week / This month) — replaces the company dropdown.
     const toolbar = h('div', { class: 'list-toolbar' },
-      presentCompanies.length ? labeledSelect('Company',
-        [{ value: 'all', label: 'All companies' }, ...presentCompanies.map((c) => ({ value: c, label: c }))], 'all',
-        (v) => { st.company = v; draw(); }) : null);
+      h('span', { class: 'lt-label' }, 'When'),
+      segPills('all', [
+        { id: 'all', label: 'All' }, { id: 'today', label: 'Today' },
+        { id: 'week', label: 'This week' }, { id: 'month', label: 'This month' },
+      ], (id) => { st.range = id; draw(); }));
 
     root.appendChild(catbar);
-    if (presentCompanies.length) root.appendChild(toolbar);
+    root.appendChild(toolbar);
     root.appendChild(listHost);
     draw();
   }
