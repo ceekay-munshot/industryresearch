@@ -1,5 +1,5 @@
 {
-  "default": "fertility-women-s-healthcare",
+  "default": "oncology-hospital-chains-india",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -86,6 +86,17 @@
         "Assisted Reproductive Technology (ART)",
         "Women's Reproductive Health",
         "FemTech"
+      ],
+      "is_manufacturing": false,
+      "mock": false
+    },
+    {
+      "slug": "oncology-hospital-chains-india",
+      "name": "Oncology Hospital Chains (India)",
+      "aliases": [
+        "Cancer care hospitals India",
+        "Comprehensive cancer centres",
+        "India oncology hospitals"
       ],
       "is_manufacturing": false,
       "mock": false
