@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-19T12:27:59.432Z",
+      "last_fetched": "2026-08-19T20:17:43.085Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-19T12:27:59.544Z",
+      "last_fetched": "2026-08-19T20:18:11.924Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-19T12:28:01.289Z",
-      "last_epoch": 1787139815000,
+      "last_fetched": "2026-08-19T20:18:13.789Z",
+      "last_epoch": 1787156611000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -178,21 +178,25 @@
         "CBMipAFBVV95cUxNYjRMZkdFazl0bXpRRGc3eHNKdEhnS1JFRjNncEhtajBiZUNOYXJtb1JjSW00ajNpRjRZWF9OZ3U2MXV4cTRJa0Y0VVdjY3ExTGUzLWRzd1RfY094Z2pURE5jVUJYYk1nSkJMcVJvdnJxSEhMc28xN0MzWllaSlVGWUJRei1YQUctUlVfMmd0UGRacV9iVlhENUNldmRGWGhlcndFUg",
         "CBMivAFBVV95cUxNQ2lZUGVtMkc2ZlZWRjBnZUpVQktHNUVLSEJKOFZtc1JfQ0lTcUt6WmJTRUhOYXU5Qno2LS1ZUTVxclJkTTg4MUNNLUZxcTN6ZFV1dUdHblVKX2xEMG5JZVdBbFVENTZkbXdJSDFJaHFVZ0x5ZDd5bXloRGotNi01cU1yclJ2X0tWSVJWZWx5TFVVU0o4dkpkT3pFWGVZVGstemRydkhiOFNmbkdhMnRMbjRqU3QtR0FWWEprQg",
         "CBMizAFBVV95cUxPdEg3LTVlMUNDY0FXOXRoU0hJcE9iVDExNWowSlNMNU1leTRtRmtPbG96ZVlRU2ZFX0hjZDhKaXdldWo5clZJUVVqYk51eFppQ2REYWFvS2RPeFlVazNkMWxGbjZOZjJBVEF6VlJONEVyVkZzVkhvREVlVmd0eTA1Z0dHLWpfNDlFOHY1OGxtdVFTTUY0N3I5LUs0aE5ZOHY0QzFOUm9yWjNublBZTkJheG54WkJpSm5lMDBqbnc3UFUydnNUTzZkM1IwWTnSAdIBQVVfeXFMTzloNXplZlU2b21TdmtEZUxIcE5kNVliNzVYWmEzMjJKQm4zTHg0bDlSN3JaQ0FGUm9rOGgzUlJMMDBKNmsxU1RXQU9LU010b2s4NUlBOHIyOWxGaE4xUFNFSkNLOTF0dVFMMTBoeWZwS0VMV1ZrU25KV1g2U0hfcFd6ZXZfWDY2UDlRckl0Q1RsaWtLVFhoeHowbm1OYkl0TlVRQWdqbHY4akhIR2VEa1dDMkFwenZ5T3F6dmE3VVV3c1hyc1A2WG1YUU9hLXRocHBB",
-        "CBMie0FVX3lxTE5DTkU2b1lKOXl3ckdrWmVVVkhIaGFuaDNuUk5oel9VU2hJdXNOeEhXX25nSHQtMF83SGc1VlJTemxUZDU3akNvOEhOYnFkZC0xT1dBV0YyTkFjWVFVbnZTTW9wWUN1aHNTanNJY0pXejRidEV2bmxsbVExZw"
+        "CBMie0FVX3lxTE5DTkU2b1lKOXl3ckdrWmVVVkhIaGFuaDNuUk5oel9VU2hJdXNOeEhXX25nSHQtMF83SGc1VlJTemxUZDU3akNvOEhOYnFkZC0xT1dBV0YyTkFjWVFVbnZTTW9wWUN1aHNTanNJY0pXejRidEV2bmxsbVExZw",
+        "CBMiwAFBVV95cUxNVEd4WWVqQlVPTTI5bm1nZEtxMTZvMUtRTEl1WDBSVGJsY3ltb3J2ME5CRVYyUVhFa1RoaldkRW9SbThQT3c4NWVrM2NEYzBjVVp4UHUybFFLUDc0eUl6REYySGVfQnBNaEJCY19MLTlaMmxYVlM1eVhVT0hPTnkyZlRCRGl6M24wUDlvcmpTVlRCYWVQeWEwSWxFckdpcmpEQ1ZQVThJSjhQcnduWU9LYmk3S1R4NlQ5bEM0aS1STTI",
+        "CBMisgFBVV95cUxOeHpjRGsxTVp3eGlmMWp6ME5GN1dBX3hURFJYb0RCeHNIREpiTEFSOUJKRGtxRC1qSnNST01yV3pIa0xJc1VUSEFQdnp3cll5SzNoZjM2T2F6MF90M3JCYzNUZnRyMGR1RDctYmhFRGRoUzVOMC1iZG1JRW80OTdPcDI2MHBIejJyaENWY2Z0b2h0MEhheWFodm5WU1RnYnRkQjhoZ0x5M3JSakZOWS1XYjJB",
+        "CBMilAJBVV95cUxQN1FYa1lZUGNwcmtuVVBEbVZlUGt6MVo0bXgzZTlXbGdOUXRsT3Z2YzJ3c3ZlUW5XVlE4Ml9MVDRVa0pKS3hudjg5OVlhblo3dHg2aGNzaXJlcXA5S2lNbDFHQVUtR0xGU0w3bkNYSjJOY3hlNEhFbEdybko2UDlVdENiNGt6SWRpS1ExVkhJSVNpNHBWbjAtNkQtdDU1N2s4b0RvREtVRkhGdmwxeS0zQU5Yb0Q0SGNOWmh4dV9FMjR2R1ZKNEFVTmpiY1AxR2xMbDhNODRSbGtzcGV4dDJhY2tCS3VqSFhmekR2cGNENjQ5Q1JaYVRpT090bEFHQjFwV25hWGg5SEFVdmRRSWJKMVZaRk3SAZoCQVVfeXFMUGhpMndUVUdMTDFBaHJEdS1zeF9YMzAxMXpYb2dmSGVpNU5FRXYyd3BOLXFyNXY1Z0NaOFRZTXRUVHJjOWV0WWx5YmRBY182Z0FaR21XTTV2UFhHWlRhQWJUMUFSdlhKWEZ0TEF1eVZ2eXVpVVhIbWdkN09URUNPSmFGNmpNQVF5MlloRFpoSnpPSzd4Q0pVVXROX0VOOG4tMElqbndsWG9EejdZVnR3SFNKQ1oxM3lKTFd2QXBJWk12c3NzYXVtTnpIdG9tOTYwNEVPSElXbXB6MEN3ZDVBMXVpQllRdWI0S3h5Umsya21VdVhURFVxV0Ffd3lTTWh5b3RFLWp5LXFHbkcwMnB1VDFBS1RKRmduTG1B"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-19T12:28:01.308Z",
-      "last_epoch": 1787142167000,
-      "etag": "\"082b72305e8ca0c17a0ef56dff9aa4336-gzip\"",
-      "last_modified": "Wed, 19 Aug 2026 12:19:47 GMT",
+      "last_fetched": "2026-08-19T20:18:13.977Z",
+      "last_epoch": 1787165923000,
+      "etag": "\"014551c8e59ee8e98ea79bbfa8f8c4e21-gzip\"",
+      "last_modified": "Wed, 19 Aug 2026 20:10:41 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms",
+        "https://economictimes.indiatimes.com/industry/services/retail/puma-india-hits-the-value-track-to-get-back-in-shape-under-new-chief/articleshow/133357887.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-19T12:28:01.339Z",
+      "last_fetched": "2026-08-19T20:18:14.054Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
