@@ -1,5 +1,5 @@
 {
-  "default": "aroma-chemicals",
+  "default": "fertility-women-s-healthcare",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -76,6 +76,18 @@
         "Aroma ingredients"
       ],
       "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "fertility-women-s-healthcare",
+      "name": "Fertility & Women's Healthcare",
+      "aliases": [
+        "IVF Services",
+        "Assisted Reproductive Technology (ART)",
+        "Women's Reproductive Health",
+        "FemTech"
+      ],
+      "is_manufacturing": false,
       "mock": false
     }
   ]
