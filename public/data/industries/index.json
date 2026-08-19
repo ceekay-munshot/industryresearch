@@ -1,5 +1,5 @@
 {
-  "default": "oncology-hospital-chains-india",
+  "default": "steel",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -48,10 +48,8 @@
       "slug": "steel",
       "name": "Steel",
       "aliases": [
-        "Iron and Steel",
-        "Indian Steel Industry",
-        "Crude Steel",
-        "Finished Steel"
+        "Iron and Steel Industry",
+        "Indian Steel Sector"
       ],
       "is_manufacturing": true,
       "mock": false

@@ -3,41 +3,39 @@
     "slug": "steel",
     "name": "Steel",
     "aliases": [
-      "Iron and Steel",
-      "Indian Steel Industry",
-      "Crude Steel",
-      "Finished Steel"
+      "Iron and Steel Industry",
+      "Indian Steel Sector"
     ],
-    "definition": "The steel industry covers the production of crude and finished steel from iron ore, coking coal and scrap through blast-furnace/BOF, DRI-EAF and scrap-EAF routes, and its downstream use in construction, infrastructure, automotive, engineering and consumer goods.",
+    "definition": "The steel industry covers the mining of iron ore and coal, and the production, processing and distribution of crude and finished steel products (flat, long, structural, specialty) used across construction, infrastructure, automotive, engineering, packaging and consumer goods.",
     "is_manufacturing": true,
-    "generated_at": "2026-08-17",
+    "generated_at": "2026-08-19",
     "mock": false,
     "query": "Steel",
     "updated_at": "2026-08-19",
     "coverage": {
       "sections": {
         "size": {
-          "sources": 17,
-          "confidence": 1,
-          "as_of": "2026-01-01"
-        },
-        "growth_drivers": {
           "sources": 19,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
+        "growth_drivers": {
+          "sources": 21,
+          "confidence": 1,
+          "as_of": "2026-01-01"
+        },
         "players": {
-          "sources": 18,
+          "sources": 19,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "other": {
-          "sources": 17,
+          "sources": 20,
           "confidence": 1,
           "as_of": null
         },
         "quant": {
-          "sources": 18,
+          "sources": 20,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
@@ -47,7 +45,7 @@
           "as_of": "2026-01-01"
         },
         "value_chain": {
-          "sources": 10,
+          "sources": 12,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
@@ -60,126 +58,101 @@
           "sources": 3,
           "confidence": 0.9366,
           "as_of": "2026-01-01"
-        },
-        "news": {
-          "sources": 2,
-          "confidence": 0.84,
-          "as_of": "2026-08-19"
         }
       }
     }
   },
   "summary": {
-    "headline": "India is now the world's second-largest crude steel producer (168.4 MT in FY2025-26) and the fastest-growing large steel market globally, with finished steel consumption at 163.7 MT and capacity crossing 220 MTPA on the way to a 300 MTPA target by 2030-31",
+    "headline": "India is now the world's second-largest steel producer and consumer, with crude steel output at 168.4 MT and finished steel consumption at 163.7 MT in FY2025-26 — the best-ever year for the sector — as the government targets 300 MT capacity by 2030-31 and 500 MT by 2047",
     "key_takeaways": [
-      "India's crude steel production hit 168.4 MT and finished steel consumption 163.7 MT in FY2025-26, growing 9-11% versus a stagnant-to-declining global market led by China's slowdown",
-      "Construction and infrastructure absorb roughly 60-68% of India's steel, making government capex (₹12.2 lakh crore FY26-27) and projects like Bharatmala and PM Gati Shakti the single biggest demand lever",
-      "The market is a two-tier structure: five to six large integrated producers (Tata Steel, JSW Steel, SAIL, JSPL, AM/NS India) account for ~59% of crude steel output, with a large fragmented secondary/EAF sector filling the rest",
-      "India remains heavily import-dependent on coking coal (80-90% imported, mostly from Australia) even as it turned a marginal net exporter of finished steel in FY26, helped by a new 12% safeguard duty against cheap Chinese/Asian imports",
-      "Government policy (PLI for specialty steel, National Steel Policy 2030-31 target of 300 MTPA capacity and 158kg per-capita consumption, Green Steel Taxonomy) is the key structural driver, alongside continuing dependence on imported inputs and Chinese oversupply risk"
+      "India's finished steel consumption hit 163.7 MT in FY26 (up 7.6% YoY) and crude steel production reached 168.4 MT, making FY26 the best-ever year for the sector",
+      "Construction & infrastructure dominates demand at roughly 65-68% of consumption, with engineering/packaging (~22%) and automobiles (~9%) next",
+      "India remains heavily import-dependent on coking coal (85-90% imported, mostly from Australia) even as it targets cutting this to 65% by 2030-31",
+      "Tata Steel, JSW Steel and SAIL together hold about 45% of the domestic market, with JSW targeting 50 MTPA capacity by 2030 and Tata Steel doubling domestic capacity to 40 MT by FY30",
+      "India flipped between net exporter and net importer status through 2025-26 as China's steel oversupply and price dumping pressured global and domestic prices, prompting a 12% safeguard duty on flat steel imports from April 2025"
     ],
-    "report_markdown": "## Market size and trajectory\nIndia's finished steel consumption rose from 77 MT in FY2014-15 to 163.7 MT in FY2025-26 (+7.6% YoY), while finished steel production reached 160.9 MT (+9.7% YoY) and crude steel production hit 168.4 MT (+10.7% YoY) — the best-ever fiscal year for the sector. India's crude steel capacity has crossed 220 MTPA (up from 198.5 MT the prior year), moving toward the National Steel Policy's 300 MTPA target by 2030-31 and a longer-term 500 MT ambition by 2047. India overtook Japan in 2018 to become the world's second-largest crude steel producer and is the world's second-largest steel consumer; China remains far larger (960.8-1,005 MT) but its output has been flat-to-declining, while India posted the highest growth (6.3-7.1%) among top-10 producers in recent years.\n\n## Segments\nConstruction and infrastructure account for roughly 60-68% of steel demand, engineering/packaging ~22%, and automobiles ~9%. By product form, flat steel holds slightly over half the market (54.2% share in 2025) versus long steel, driven by automotive and manufacturing; structural steel leads by product category (33.6%). By technology, the BF-BOF (blast furnace) route accounts for ~44-46% of output versus EAF/other routes, with EAF share expected to rise on scrap availability and specialty long products. Regionally, Odisha, Jharkhand and Chhattisgarh together supply over half of India's crude steel (with Odisha the single largest producing state), while West & Central India (34.7% share) and North India are the largest consuming regions.\n\n## Growth drivers\n- **Infrastructure and government capex**: FY26-27 capex budget of ₹12.2 lakh crore (3x FY19-20 levels), Bharatmala, PM Gati Shakti, metro rail expansion (1,036+ km across 24 cities) and PMAY housing (4+ crore houses sanctioned)\n- **Automotive**: 28+ million vehicles produced in FY2024-25, rising AHSS/EV-grade steel demand as India becomes a top-3 global auto hub\n- **Policy push**: National Steel Policy 2017 targets, PLI Scheme for Specialty Steel (₹6,322 crore outlay, 42+ MoUs, ~24 MT specialty capacity created), Mission Coking Coal, Green Steel Taxonomy\n- **Urbanisation**: urban population projected to reach 600-630 million by 2030\n\n## Value chain and India's import dependence\nIndia has large captive iron ore reserves (Odisha, Jharkhand, Chhattisgarh, Karnataka; potential 700 MT/year output, world's 4th-largest iron ore producer) giving domestic steelmakers a raw-material cost edge. However, India remains structurally short of coking coal — importing 55-90% of requirements (mostly from Australia, also Russia, US, Mozambique) — exposing producers to global price swings; the government's Mission Coking Coal targets raising domestic raw coking coal output to 140 MT by FY2029-30 to cut import dependence from 85% to 65% by 2030-31. About 30 MT of steel scrap is consumed annually, of which ~5 MT is imported.\n\n## Trade, tariffs and China risk\nIndia swung between net importer and net exporter status through FY24-26: it was briefly a net importer in FY2023-24/FY2024-25 as cheap Chinese, Vietnamese and other Asian steel flowed in (Chinese exports priced USD 50-100/tonne below domestic steel amid Chinese oversupply), then turned a marginal net exporter again in FY2025-26 (net exports of 0.08 MT) as exports rose 35.8% and imports fell 46.5%. In April 2025 India imposed a 12% provisional safeguard duty (tapering to 11% over three years) on select flat steel products to counter import surges, alongside anti-dumping duties historically targeted at China, Russia and Ukraine, a revamped Steel Import Monitoring System (SIMS 2.0/SARAL-SIMS), 143+ Quality Control Orders covering 723 products, and a 'melt and pour' rule requiring steel to be fully manufactured in India to qualify as domestic for government procurement.\n\n## Players and market structure\nThe top-6 producers (SAIL, RINL, Tata Steel Group, AM/NS India, JSW Steel, JSPL) produced ~59% of India's crude steel in FY24, with the private sector accounting for 81-83% of total output. JSW Steel is the largest private producer (capacity heading to 50 MT by 2030, ₹2 lakh crore+ investment planned) and has the highest projected sales-volume growth among peers; Tata Steel is the most globally diversified (Europe, Thailand operations) with 100% captive iron ore; SAIL is the largest state-owned integrated producer (~19-20 MT capacity, expanding to 35 MT by 2031) but lags peers on margins and growth; JSPL is expanding fastest (up to 65% capacity growth) and posts the best EBITDA margins among listed peers.\n\n## Margins and cost pressures\nIndustry EBITDA margins compressed sharply from FY22 highs due to falling steel prices and elevated coking coal costs, before an expected recovery from FY26 onward; JSPL consistently leads on margin and least leverage, SAIL lags with the weakest EBITDA/tonne among tier-I mills. High logistics costs (13-14% of GDP), import-dependent coking coal, and volatile international steel prices remain persistent cost headwinds, partly offset by rising value-added product mix (>50% of sales for most large integrated players).",
+    "report_markdown": "## Market size and trajectory\nIndia's finished steel consumption reached **163.7 million tonnes (MT) in FY2025-26**, up 7.6% year-on-year, while crude steel production hit **168.4 MT** and finished steel production **160.9 MT** — government sources describe FY26 as the best-ever year for the sector. This continues a multi-year climb: consumption grew from 100.17 MT in FY2019-20 to 163.7 MT in FY2025-26, a near-doubling in six years. Value-based market-size estimates vary widely by methodology (roughly USD 140-190 billion for 2025 across different trade-journal and consultancy sources), but the volume trend is consistent and strong. Industry and government targets point to crude steel capacity of 300 MT by 2030-31 (National Steel Policy 2017) and 500 MT by 2047, requiring roughly Rs 10 lakh crore (~USD 156 billion) of fresh investment.\n\n## Segments\nBy end-use, **construction and infrastructure account for roughly 65-68% of steel consumption**, followed by engineering and packaging (~22%) and automobiles (~9%). By product form, flat steel holds a slightly larger share (~54%) than long/structural products, with structural steel alone around 33.6% of the product mix in 2025. By production route, the Blast Furnace-Basic Oxygen Furnace (BF-BOF) process still accounts for ~44-46% of output, though EAF/induction-furnace routes (used for ~70% of long steel) are growing faster on the back of rising scrap availability and a government scrap policy targeting doubled domestic ferrous-scrap supply by 2030. Regionally, the East (Odisha, Jharkhand, Chhattisgarh, West Bengal) supplies over half of production, while West & Central India is the single largest consuming region (~35% share).\n\n## Growth drivers and outlook\nGrowth is underpinned by record government capex (Rs 12.2 lakh crore budgeted for FY2026-27, more than 3x FY2019-20 levels), the National Infrastructure Pipeline, Bharatmala, PM Gati Shakti, metro-rail expansion (24+ cities, 1,036+ km) and housing schemes (4 crore+ houses sanctioned under PMAY). The PLI Scheme for Specialty Steel (three rounds, cumulative outlay over Rs 23,000 crore realised) is pushing India up the value curve into coated, electrical, alloy and high-strength steel. India's steel demand has consistently outpaced global demand — growing at a 6-8% CAGR versus roughly flat-to-declining global growth — and India was the only top-10 producer with double-digit volume growth in 2025.\n\n## Value chain and India-specific risks\nIndia has abundant iron ore (Odisha, Jharkhand, Chhattisgarh, Karnataka) that supports near-total captive self-sufficiency for large integrated players, but is structurally short of quality coking coal — importing 55-90% of requirements (mostly from Australia, with rising volumes from Russia, the US and Mozambique). This exposes producer margins to global coal-price swings and freight costs; the government's Mission Coking Coal aims to raise domestic output to 140 MT by FY2029-30 and cut import dependence from 85% to 65% by 2030-31. On the trade side, India has swung between net-importer and net-exporter status multiple times since FY2020 — becoming a net importer again in April-July FY27 — reflecting both China's steel oversupply (Chinese exports priced USD 50-100/tonne below domestic Indian steel) and currency/duty dynamics. In response, the government imposed a 12% provisional (later 3-year, tapering) safeguard duty on non-alloy/alloy flat steel products from April 2025, alongside Quality Control Orders (QCOs, 143 covering 723 products) and a 'melt and pour' domestic-manufacture rule to curb low-quality/dumped imports.\n\n## Players and competitive landscape\nThe market is moderately consolidated: Tata Steel, JSW Steel and SAIL together hold roughly 45% share, with JSW Steel the largest private producer (targeting 50 MTPA by 2030, backed by over Rs 2 lakh crore of announced investment) and SAIL the largest state-owned integrated producer (~19-21 MT capacity). Other significant players include Jindal Steel & Power (JSPL), AM/NS India (ArcelorMittal-Nippon Steel JV building a new 7 MTPA plant in Andhra Pradesh), RINL/Vizag Steel, Jindal Stainless, APL Apollo Tubes, Bhushan Power & Steel and JTL Industries. Sector-wide capex plans point to a multi-year investment cycle exceeding Rs 9 lakh crore (~USD 100 billion) to hit the 2030 capacity target.\n\n## Margins and profitability\nProfitability across listed players peaked around FY22 and has since been under pressure from soft steel prices, high coking-coal costs and rising imports; EBITDA/tonne for most large players in FY24-25 remained well below FY22 peaks. JSPL has generally posted the best margins among peers owing to raw-material integration, while SAIL has lagged with the lowest EBITDA/tonne due to a higher share of low-value semis output. Analysts expect a margin recovery from FY26 onward on steel-price stabilisation, safeguard-duty support, and a rising share of value-added products (VAP shares have risen across Tata Steel, JSW, SAIL and JSPL, most already above 50% VAP mix).",
     "report": {
       "kind": "llm",
-      "generated_at": "2026-08-17",
-      "hash": "4a7147f7dc98645dc87a0ff405a1d91f",
+      "generated_at": "2026-08-19",
+      "hash": "e1a3fc1301ccbaa8b7b62e0bae866ee2",
       "sections": [
         {
           "heading": "Executive summary",
           "prose": [
-            "India is now the world's second-largest crude steel producer, making 168.4 MT in FY2025-26, and is the fastest-growing large steel market globally. Finished steel consumption reached 163.7 MT in the same year, and installed capacity has crossed 220 MTPA on its way to a government target of 300 MTPA by 2030-31.",
-            "Growth is running at 9-11% a year, far ahead of a stagnant-to-declining global steel market that is being dragged down by China's slowdown. Construction and infrastructure remain the biggest demand driver, absorbing roughly 60-68% of India's steel, backed by record government capital spending.",
-            "The industry is a two-tier market: five to six large integrated producers control about 59% of crude steel output, while a large, fragmented secondary and electric-arc-furnace (EAF) sector fills the rest. India still depends on imports for 80-90% of its coking coal, but it briefly turned a net exporter of finished steel in FY2025-26, helped by a new 12% safeguard duty against cheap Chinese and Asian imports."
+            "India is now the world's second-largest steel producer and consumer. In FY2025-26, crude steel production hit 168.4 million tonnes and finished steel consumption reached 163.7 million tonnes, making it the best-ever year for the sector.",
+            "Growth is being driven by government infrastructure spending, urbanisation, automotive expansion and large capacity build-outs by major producers. At the same time, India remains heavily dependent on imported coking coal, and cheap Chinese steel exports keep pressuring prices, prompting the government to impose a safeguard duty on flat steel imports in 2025.",
+            "The government has set targets of 300 million tonnes of capacity by 2030-31 and 500 million tonnes by 2047, positioning steel as a long-term growth sector backed by policy support."
           ],
-          "key_numbers": [],
-          "source_refs": []
+          "key_numbers": [
+            {
+              "label": "Crude steel production",
+              "value": "168.4 MT (FY2025-26)"
+            },
+            {
+              "label": "Finished steel consumption",
+              "value": "163.7 MT (FY2025-26)"
+            },
+            {
+              "label": "Capacity target",
+              "value": "300 MT by 2030-31; 500 MT by 2047"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "PIB / Ministry of Steel",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1"
+            }
+          ]
         },
         {
           "heading": "Market size & growth",
           "prose": [
-            "India's finished steel consumption reached 163.7-164.36 MT in FY2025-26 (2026), up from 152.13 MT in 2025 and 136.29 MT in 2024. This continues a steady multi-year climb from 100.17 MT in 2020 and 94.89 MT in 2021, through 105.75 MT in 2022 and 119.89 MT in 2023.",
-            "The trend shows consistent, accelerating growth over the past five years, with India adding roughly 12-16 MT of consumption a year in the most recent period. This growth stands out globally: India is the only top-10 steel producer posting double-digit volume growth while China, Japan and the EU stagnate or decline."
+            "Finished steel consumption in India reached 163.7 million tonnes in FY2025-26, up from 152.1 million tonnes the year before. This continues a steady multi-year climb: consumption stood at 100.2 million tonnes in FY2019-20, dipped to 94.9 million tonnes in FY2020-21 during the pandemic, and has risen every year since, reaching 105.8 million tonnes (FY2021-22), 119.9 million tonnes (FY2022-23) and 136.3 million tonnes (FY2023-24) before the latest jump.",
+            "The consistent year-on-year growth, capped by FY2025-26 being called the best-ever year for the sector, reflects sustained demand from construction, infrastructure and manufacturing, alongside expanding domestic production capacity."
           ],
-          "key_numbers": [],
-          "source_refs": []
+          "key_numbers": [
+            {
+              "label": "Finished steel consumption (FY26)",
+              "value": "163.7 MT"
+            },
+            {
+              "label": "Finished steel consumption (FY25)",
+              "value": "152.13 MT"
+            },
+            {
+              "label": "Finished steel consumption (FY20)",
+              "value": "100.17 MT"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "PIB / Ministry of Steel",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1"
+            }
+          ]
         },
         {
           "heading": "Segments",
           "prose": [
-            "Construction and infrastructure are the dominant end-use segment, accounting for about 68% of total steel consumption in FY2023-24 (other estimates put it at 60-65%). Engineering and packaging make up around 22%, and the automobile industry accounts for about 9%, though this is expected to rise as India's auto sector grows.",
-            "By product form, flat steel led with 54.2% of the market in 2025, reflecting strong automotive and manufacturing demand. By product category, structural steel held the largest share at 33.6%. On production technology, the blast furnace-basic oxygen furnace (BF-BOF) route accounted for 46.12% of 2025 output, though EAF capacity is expected to gain ground as scrap availability improves.",
-            "Geographically, West and Central India is the largest consuming region, with a 34.7% share in 2025. On the supply side, secondary steel plants including MSMEs made up 47% of crude steel capacity in FY25, alongside the large integrated primary producers."
+            "Construction and infrastructure dominate steel demand, accounting for about 65-68% of total consumption. Engineering and packaging make up around 22%, and the automobile industry contributes roughly 9%. By product type, flat steel (HR coils, CR coils, GP/GC sheets, plates) leads with 54.2% of the market, while structural steel holds 33.6%.",
+            "On the production side, the Blast Furnace-Basic Oxygen Furnace (BF-BOF) route remains dominant, accounting for 46.12% of 2025 output, even as electric arc furnace (EAF) capacity grows. Regionally, estimates vary by source: one puts West & Central India as the largest consuming region at 34.7% share, driven by manufacturing and automotive clusters, while another source cites North India as the largest region at about 31.78%."
           ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Value chain",
-          "prose": [
-            "The value chain starts with raw material sourcing: iron ore is concentrated in Odisha, Jharkhand, Chhattisgarh, Karnataka and Goa, where India has captive reserves supporting up to 700 MT of annual production potential. Coking coal, by contrast, is heavily import-dependent (80-90%), sourced mainly from Australia and also Russia, the US and Mozambique. Producers with 100% captive iron ore, such as Tata Steel, achieve the highest EBITDA per tonne in the industry, while coking coal import dependence remains the key cost-volatility risk.",
-            "Crude steel production is concentrated in Odisha, Jharkhand and Chhattisgarh, which together account for over half of national output, using either the BF-BOF route or electric arc furnaces. Integrated BF-BOF players generally achieve lower unit costs at scale than secondary or EAF producers.",
-            "Midstream processing converts crude steel into finished flat and long products, including hot-rolled coils, cold-rolled sheets, galvanised and coated products, and specialty steels. Value-added and coated or specialty products carry higher margins than commodity long products. Finished steel then moves through a distribution network of traders, stockists and service centres that ensure last-mile availability to end-users and downstream fabricators."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Distribution & channels",
-          "prose": [
-            "Steel reaches end-users through several channels: direct sales, steel service centres, distributors and dealers, and a growing online channel. SAIL alone has built a countrywide network of over 2,300 dealers to ensure availability across virtually all districts.",
-            "Exports are also a significant channel: Indian steel is retailed through more than 9,500 outlets domestically and exported to over a hundred countries worldwide."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Key players & positioning",
-          "prose": [
-            "The market is led by a handful of large integrated producers. JSW Steel is India's largest private-sector steel producer with about 16.9% market share and roughly 28-30 MT of capacity, targeting 50 MT by 2030; it is also the largest exporter of coated products from India. Tata Steel holds about 11.9% share, benefits from 100% captive iron ore giving it industry-leading EBITDA per tonne, and plans to double domestic capacity from 21 MT to 40 MT by FY30.",
-            "SAIL, the largest state-owned producer with about 14.8% share, is expanding capacity from around 21 MT to 35 MT by FY31 but lags private peers on EBITDA per tonne and growth; its market share is expected to fall below 10% by FY30 as faster-growing private players gain ground. Jindal Steel & Power (JSPL) is expanding capacity by 65% via its Angul, Odisha project to 15.9 MT by FY26-27, which will make it the fourth-largest steel manufacturer in India; it consistently leads peers on EBITDA margin and carries the least leverage. AM/NS India, a joint venture of ArcelorMittal and Nippon Steel, holds about 5.2% share and is building a new 7 MTPA plant in Andhra Pradesh.",
-            "Other notable players include Rashtriya Ispat Nigam Limited (RINL), the second-largest public-sector steelmaker with 6.3 MT capacity and India's largest rail supplier; NMDC Steel, recently demerged and building a greenfield plant at Nagarnar; Jindal Stainless, the leading stainless steel producer in India and globally; and downstream tube and pipe makers APL Apollo Tubes and JTL Industries. Bhushan Power & Steel, once one of India's largest secondary steelmakers, was acquired by JSW Steel via insolvency proceedings for Rs 19,700 crore. Globally, China Baowu Group, ArcelorMittal and Ansteel Group are the top three steel producers by market share, though this is a global rather than India-specific context."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Supply & capacity",
-          "prose": [
-            "India's total steel capacity stood at 220.4 MT in 2026, with capacity utilisation running at about 80%. Among major producers, JSW Steel had 29.7 MT of capacity in FY24, growing toward 51.5 MT by FY30-31; Tata Steel had 35.3 MT (domestic plus international); SAIL had 21.4 MT, expanding to 35 MT by FY31; and JSPL had 9.6 MT, expanding to 15.9 MT by FY26-27.",
-            "Finished steel imports fell from 9.55 million tonnes in 2024 to 6.52 million tonnes in 2025, partly reflecting the new safeguard duty on select flat steel products."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Tailwinds vs headwinds",
-          "prose": [
-            "Tailwinds include India's standout double-digit volume growth among top-10 global producers, a brief turn to net exporter status in FY2025-26 (trade surplus of 0.08 MT, with exports up 35.8% and imports down 46.5% year-on-year), and domestic iron ore self-sufficiency across Odisha, Chhattisgarh and Karnataka that gives producers a raw-material cost edge. The government's 12% safeguard duty on select flat steel products, imposed in April 2025, is also protecting domestic mills from import surges, and overall Indian steel demand has grown at 6.4-11.6% CAGR versus flat-to-declining global demand.",
-            "Headwinds include heavy reliance on imported coking coal (80-90%, mostly from Australia), which exposes producers to global price and currency volatility, and persistent pricing pressure from Chinese exports sold USD 50-100 per tonne below domestic steel. India's per-capita steel consumption of about 93-98 kg remains well below the global average of 209-230 kg, limiting near-term per-person demand upside. Lower-tier producers like SAIL face margin pressure and market-share loss to faster-growing private players. High logistics costs (13-14% of GDP) and the distance of eastern India's steel plants from demand centres raise delivered costs, and India briefly slipped back to net importer status in April-July FY27 as imports rose 36.6% year-on-year, outpacing 35% export growth."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Outlook",
-          "prose": [
-            "India's steel industry is set to keep outgrowing the rest of the world, supported by record government capital expenditure (₹12.2 lakh crore for FY2026-27), the National Steel Policy's target of 300 MTPA capacity and 255 MT production by 2030-31, and a longer-term goal of 500 MT capacity by 2047. The PLI Scheme for Specialty Steel is expected to lift specialty steel output to 42 MT by 2026-27, while rising vehicle production and urbanisation (India's urban population is expected to reach 600-630 million by 2030) should broaden demand beyond construction into automotive and consumer segments.",
-            "The main risks to this outlook are structural: continued heavy dependence on imported coking coal, the constant threat of low-priced Chinese steel exports, and the volatility of trade flows, as shown by India's swing from net exporter to net importer within the same fiscal year. Government trade defences such as the safeguard duty and domestic quality-control orders will remain important tools to manage these pressures as capacity expands toward the 2030-31 targets."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Sources",
-          "prose": [
-            "This report draws on Indian government sources (Ministry of Steel, PIB, IBEF) alongside industry research from IMARC Group, Mordor Intelligence, GII Research, MarknTel Advisors, Verified Market Research, DataInsights Market, and financial-sector research from HDFC Securities, Anand Rathi and RBSA."
-          ],
-          "key_numbers": [],
-          "source_refs": [
+          "key_numbers": [
             {
-              "label": "Ministry of Steel / PIB",
-              "url": "https://steel.gov.in/sites/default/files/2026-08/Overview%20of%20Steel%20Sector,%20July,%202026.pdf"
+              "label": "Construction & infrastructure share",
+              "value": "68% (FY2023-24)"
             },
+            {
+              "label": "Flat steel share",
+              "value": "54.2% (2025)"
+            },
+            {
+              "label": "BF-BOF route share",
+              "value": "46.12% (2025)"
+            }
+          ],
+          "source_refs": [
             {
               "label": "PIB / Ministry of Steel",
               "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1"
@@ -193,60 +166,292 @@
               "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market"
             },
             {
-              "label": "IBEF",
-              "url": "https://www.ibef.org/industry/steel"
+              "label": "MarkNtel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html"
+            }
+          ]
+        },
+        {
+          "heading": "Value chain",
+          "prose": [
+            "The steel value chain starts with raw material sourcing. Iron ore is largely mined captively in Odisha, Jharkhand, Chhattisgarh and Karnataka, giving integrated players like Tata Steel and SAIL a cost advantage since they have near-100% captive access. Coking coal is a weak point: 80-90% is imported, mostly from Australia, exposing producers to global price swings.",
+            "Crude steel is produced either through the BF-BOF route, favoured by large integrated players with captive raw materials, or through EAF/induction furnace routes using scrap and sponge iron (DRI). India is the world's largest DRI producer, with about 63 million tonnes of capacity, and is largely self-sufficient in this feedstock.",
+            "Midstream processing converts crude steel into finished products through hot rolling, cold rolling and coating. Specialty lines such as electrical steel, tinplate and galvanized coils are being expanded under government incentive schemes, and these higher-value products carry better margins than commodity long products.",
+            "Distribution runs through direct sales, steel service centers, and dealer networks. SAIL, for example, has more than 2,300 dealers, with dealer margins typically capped by agreement at around Rs 1,200 per tonne over procurement price."
+          ],
+          "key_numbers": [
+            {
+              "label": "Coking coal import dependence",
+              "value": "80-90%"
             },
             {
-              "label": "Ministry of Steel",
-              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf"
+              "label": "India DRI capacity",
+              "value": "~63 MT"
             },
             {
-              "label": "IBEF",
-              "url": "https://www.ibef.org/industry/steel-presentation"
-            },
-            {
-              "label": "GII Research",
-              "url": "https://www.giiresearch.com/report/moi1911741-india-steel-market-share-analysis-industry-trends.html"
-            },
+              "label": "SAIL dealer network",
+              "value": "2,300+ dealers"
+            }
+          ],
+          "source_refs": [
             {
               "label": "HDFC Securities",
               "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf"
-            },
-            {
-              "label": "MarknTel Advisors",
-              "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html"
             },
             {
               "label": "Anand Rathi",
               "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf"
             },
             {
-              "label": "IBEF news",
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market"
+            },
+            {
+              "label": "SAIL",
+              "url": "https://www.sail.co.in/en/dealer-network"
+            }
+          ]
+        },
+        {
+          "heading": "Distribution & channels",
+          "prose": [
+            "Finished steel reaches customers through four main channels: direct sales, steel service centers, distributors and dealers, and online platforms. Direct sales and dealer networks remain the backbone of distribution for large producers, while online channels are an emerging but smaller route to market."
+          ],
+          "key_numbers": [],
+          "source_refs": [
+            {
+              "label": "Data Insights Market",
+              "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527"
+            }
+          ]
+        },
+        {
+          "heading": "Key players & positioning",
+          "prose": [
+            "Tata Steel, JSW Steel and SAIL together control about 45% of the domestic market. Tata Steel is India's largest producer with international operations in Europe and Thailand, and plans to double its domestic capacity from 21 million tonnes to 40 million tonnes by FY30. JSW Steel is India's largest private-sector producer, with capacity near 28-37.7 million tonnes and a target of 50 million tonnes per annum (MTPA) by 2030, backed by over Rs 2 lakh crore of planned investment. SAIL, the largest state-owned producer, runs five integrated plants with about 19-21.4 million tonnes of capacity, but is expected to see its market share fall below 10% by FY30 as private players grow faster.",
+            "Other notable players include Jindal Steel & Power (JSPL), expected to become India's fourth-largest steel manufacturer by FY26 after completing its Angul expansion; AM/NS India, a joint venture between ArcelorMittal and Nippon Steel building a new 7 MTPA mill in Andhra Pradesh; and Rashtriya Ispat Nigam (RINL/Vizag Steel), the second-largest public-sector steelmaker and India's largest rail supplier.",
+            "Downstream and specialty players include Jindal Stainless, a leading stainless steel maker in India and globally; APL Apollo Tubes, a leading structural steel tube and pipe maker with Rs 17,933 crore in trailing sales; and JTL Industries, a smaller tube maker expanding capacity from 0.6 to 1 MTPA with above-peer margins. NMDC Steel, recently demerged from NMDC, is building a new greenfield plant at Nagarnar. Consolidation has also shaped the sector: JSW Steel acquired Bhushan Power & Steel for Rs 19,700 crore via the insolvency process, and Essar Steel was acquired by ArcelorMittal and Nippon Steel to form AM/NS India."
+          ],
+          "key_numbers": [
+            {
+              "label": "Top-3 combined market share",
+              "value": "~45%"
+            },
+            {
+              "label": "JSW Steel capacity target",
+              "value": "50 MTPA by 2030"
+            },
+            {
+              "label": "Tata Steel capacity target",
+              "value": "40 MT by FY30"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "MarkNtel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html"
+            },
+            {
+              "label": "IMARC Group",
+              "url": "https://www.imarcgroup.com/india-steel-market"
+            },
+            {
+              "label": "Anand Rathi",
+              "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf"
+            },
+            {
+              "label": "IBEF",
+              "url": "https://www.ibef.org/industry/steel"
+            },
+            {
+              "label": "RBSA",
+              "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf"
+            },
+            {
+              "label": "Data Insights Market",
+              "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527"
+            },
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.research.pdf/JTL%20Industries%20-IC_11.01.2024_Singed.pdf"
+            },
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.research.pdf/JSW%20Steel%20Ltd.%20-%20Initiating%20Coverage%20-%2019102020.pdf"
+            }
+          ]
+        },
+        {
+          "heading": "Supply & capacity",
+          "prose": [
+            "India's national crude steel capacity stood at 220.4 million tonnes in 2026, with capacity utilisation running at about 80%. Among major producers, JSW Steel's planned capacity is 37.7 million tonnes by FY26, Tata Steel's domestic capacity is 35.3 million tonnes (2024), SAIL's is 21.4 million tonnes (2024), and JSPL's planned capacity is 15.9 million tonnes by FY26.",
+            "The government is targeting 300 million tonnes of national capacity by 2030-31, meaning substantial further capacity additions are planned across all major producers over the next several years."
+          ],
+          "key_numbers": [
+            {
+              "label": "National crude steel capacity",
+              "value": "220.4 MT (2026)"
+            },
+            {
+              "label": "Capacity utilisation",
+              "value": "~80%"
+            },
+            {
+              "label": "JSW Steel capacity",
+              "value": "37.7 MT (planned, FY26)"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "PIB",
+              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf"
+            }
+          ]
+        },
+        {
+          "heading": "Tailwinds vs headwinds",
+          "prose": [
+            "India was the only top-10 steel producer to post double-digit volume growth in 2025, while China, Japan and the EU stagnated or declined. This is backed by strong policy support: the National Steel Policy targets 300 million tonnes of capacity by 2030-31 and 500 million tonnes by 2047. Trade data also shows improvement, with steel exports up 29.1% year-on-year in March 2026 while imports fell 9.5%. A 12% safeguard duty on flat steel imports, imposed in April 2025, protects domestic producers from cheap or dumped imports, and India's abundant iron ore reserves, with potential output of 700 million tonnes a year, give integrated players a raw-material cost edge.",
+            "On the other hand, India imports 80-90% of its coking coal, mostly from Australia, exposing producers to global price and currency risk. Chinese steel oversupply continues to pressure prices, with Chinese exports priced USD 50-100 per tonne below Indian domestic steel. India's per-capita steel consumption, at roughly 93-98 kg, remains far below the global average of about 209-230 kg, limiting near-term demand upside per person. SAIL and other lower-tier producers face margin pressure and market-share loss to faster-growing private players. High logistics costs, at 13-14% of GDP, and the distance between eastern India's plants and demand centres add to delivered costs. Notably, India briefly slipped back into net-importer status during April-July FY27, as imports rose 36.6% year-on-year, outpacing 35% export growth."
+          ],
+          "key_numbers": [
+            {
+              "label": "Coking coal import dependence",
+              "value": "85-90%"
+            },
+            {
+              "label": "Chinese export price discount",
+              "value": "USD 50-100/tonne below domestic"
+            },
+            {
+              "label": "Safeguard duty on flat steel",
+              "value": "12% (from April 2025)"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market"
+            },
+            {
+              "label": "PIB",
+              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf"
+            },
+            {
+              "label": "PIB / Ministry of Steel",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1"
+            },
+            {
+              "label": "IBEF",
+              "url": "https://www.ibef.org/industry/steel"
+            },
+            {
+              "label": "MarkNtel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html"
+            },
+            {
+              "label": "IMARC Group",
+              "url": "https://www.imarcgroup.com/india-steel-market"
+            },
+            {
+              "label": "GII Research",
+              "url": "https://www.giiresearch.com/report/moi1911741-india-steel-market-share-analysis-industry-trends.html"
+            },
+            {
+              "label": "Anand Rathi",
+              "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf"
+            },
+            {
+              "label": "IBEF",
+              "url": "https://www.ibef.org/news/april-july-2026-india-s-steel-sector-exhibits-growth-trend"
+            }
+          ]
+        },
+        {
+          "heading": "Outlook",
+          "prose": [
+            "India's steel sector enters its next phase from a position of strength: FY2025-26 was its best-ever year, with consumption at 163.7 million tonnes and production at 168.4 million tonnes. Growth is underpinned by a large government capex pipeline (Rs 12.2 lakh crore for FY2026-27), rising urbanisation, automotive sector expansion toward EVs, and aggressive capacity build-outs from Tata Steel, JSW Steel, SAIL and JSPL, all aimed at reaching the government's 300 million tonne target by 2030-31 and 500 million tonnes by 2047.",
+            "The main risks to this outlook are structural: heavy reliance on imported coking coal, persistent pressure from cheap Chinese exports, and India's low per-capita steel use relative to the rest of the world. The safeguard duty imposed in 2025 and the government's push to cut coking coal import dependence to 65% by 2030-31 both aim to address these vulnerabilities, but the sector's recent flip into net-importer territory during April-July FY27 shows the trade balance remains sensitive to global conditions."
+          ],
+          "key_numbers": [
+            {
+              "label": "FY2026-27 capex budget",
+              "value": "Rs 12.2 lakh crore"
+            },
+            {
+              "label": "Coking coal import target",
+              "value": "cut to 65% by 2030-31"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "IMARC Group",
+              "url": "https://www.imarcgroup.com/india-steel-market"
+            },
+            {
+              "label": "PIB",
+              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf"
+            }
+          ]
+        },
+        {
+          "heading": "Sources",
+          "prose": [
+            "This report draws on Indian government data (Ministry of Steel/PIB), industry research firms (IMARC, Mordor Intelligence, MarkNtel Advisors, GII Research, Data Insights Market), brokerage research (Anand Rathi, HDFC Securities, RBSA), and industry bodies (IBEF, SAIL)."
+          ],
+          "key_numbers": [],
+          "source_refs": [
+            {
+              "label": "PIB / Ministry of Steel",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1"
+            },
+            {
+              "label": "IMARC Group",
+              "url": "https://www.imarcgroup.com/india-steel-market"
+            },
+            {
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market"
+            },
+            {
+              "label": "MarkNtel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html"
+            },
+            {
+              "label": "PIB",
+              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf"
+            },
+            {
+              "label": "Anand Rathi",
+              "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf"
+            },
+            {
+              "label": "IBEF",
+              "url": "https://www.ibef.org/industry/steel"
+            },
+            {
+              "label": "GII Research",
+              "url": "https://www.giiresearch.com/report/moi1911741-india-steel-market-share-analysis-industry-trends.html"
+            },
+            {
+              "label": "IBEF",
               "url": "https://www.ibef.org/news/april-july-2026-india-s-steel-sector-exhibits-growth-trend"
             },
             {
-              "label": "Verified Market Research",
-              "url": "https://www.verifiedmarketresearch.com/product/india-steel-market/"
-            },
-            {
-              "label": "DataInsights Market",
-              "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527"
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf"
             },
             {
               "label": "SAIL",
               "url": "https://www.sail.co.in/en/dealer-network"
             },
             {
-              "label": "HDFC Securities - JSW Steel",
-              "url": "https://www.hdfcsec.com/hsl.research.pdf/JSW%20Steel%20Ltd.%20-%20Initiating%20Coverage%20-%2019102020.pdf"
+              "label": "Data Insights Market",
+              "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527"
             },
             {
-              "label": "RBSA / HDFC Securities",
+              "label": "RBSA",
               "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf"
-            },
-            {
-              "label": "HDFC Securities - JTL Industries",
-              "url": "https://www.hdfcsec.com/hsl.research.pdf/JTL%20Industries%20-IC_11.01.2024_Singed.pdf"
             }
           ]
         }
@@ -255,167 +460,137 @@
   },
   "highlights": [
     {
-      "label": "India crude steel production",
-      "value": "168.4",
-      "unit": "MT",
-      "year": 2026,
-      "trend": "up",
-      "series": [
-        {
-          "year": 2023,
-          "value": 127.2
-        },
-        {
-          "year": 2024,
-          "value": 144.3
-        },
-        {
-          "year": 2025,
-          "value": 152.2
-        },
-        {
-          "year": 2026,
-          "value": 168.4
-        }
-      ],
-      "note": "FY figures (FY2022-23 to FY2025-26)",
-      "source": {
-        "label": "PIB / Ministry of Steel",
-        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
-        "snippet": "Production | 127.2 | 144.3 | 152.2 | 168.4"
-      }
-    },
-    {
-      "label": "India finished steel consumption",
-      "value": "163.7",
-      "unit": "MT",
-      "year": 2026,
-      "trend": "up",
-      "series": [
-        {
-          "year": 2023,
-          "value": 119.9
-        },
-        {
-          "year": 2024,
-          "value": 136.3
-        },
-        {
-          "year": 2025,
-          "value": 152.1
-        },
-        {
-          "year": 2026,
-          "value": 163.7
-        }
-      ],
-      "note": "FY figures (FY2022-23 to FY2025-26)",
-      "source": {
-        "label": "PIB / Ministry of Steel",
-        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
-        "snippet": "Consumption | 119.9 | 136.3 | 152.1 | 163.7"
-      }
-    },
-    {
-      "label": "India per-capita finished steel consumption",
-      "value": "97.7",
+      "label": "Per-capita steel consumption",
+      "value": "100",
       "unit": "kg",
-      "year": 2024,
+      "year": 2026,
       "trend": "up",
-      "note": "Government target is 158-160 kg by FY30-31, versus world average of ~209-221 kg",
+      "series": [
+        {
+          "year": 2013,
+          "value": 59
+        },
+        {
+          "year": 2023,
+          "value": 93.44
+        },
+        {
+          "year": 2026,
+          "value": 100
+        }
+      ],
+      "note": "National Steel Policy targets 158-160 kg by FY31, versus a global average of ~209-230 kg",
       "source": {
-        "label": "Ministry of Steel",
-        "url": "https://steel.gov.in/sites/default/files/2025-04/An-Overview-of-Steel-Sector.pdf",
-        "snippet": "The same for India was 97.7 kg in 2023-24 (Source: JPC)"
-      }
-    },
-    {
-      "label": "Global market size (Grand View Research)",
-      "value": "1,494.0",
-      "unit": "USD billion",
-      "year": 2025,
-      "trend": "up",
-      "note": "Global steel market context; India is a subset of this",
-      "source": {
-        "label": "Grand View Research",
-        "url": "https://www.grandviewresearch.com/industry-analysis/steel-market",
-        "snippet": "Steel market size was valued at $1494.0 billion in 2025 and is projected to grow from $1525.8 billion in 2026 to $2283.0 billion by 2033"
-      }
-    },
-    {
-      "label": "Top-6 producers share of India crude steel output",
-      "value": "59",
-      "unit": "%",
-      "year": 2024,
-      "trend": "flat",
-      "note": "SAIL, RINL, Tata Steel Group, AM/NS India, JSW Steel and JSPL produced 85.4mn MT in FY24",
-      "source": {
-        "label": "HDFC Securities",
-        "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf",
-        "snippet": "The top-6 players... together produced 85.4mn MT (up 7% YoY), accounting for 59% in total production in FY24"
+        "label": "IBEF",
+        "url": "https://www.ibef.org/industry/steel-presentation",
+        "snippet": "The per-capita consumption of steel touched 100 kgs in FY26 (April-August 2025), with the National Steel Policy targeting 160 kgs by FY31"
       }
     },
     {
       "label": "Coking coal import dependence",
-      "value": "80-90",
+      "value": "85-90",
       "unit": "%",
       "year": 2025,
       "trend": "flat",
-      "note": "Government targets cutting this to 65% by FY2030-31 via Mission Coking Coal",
+      "note": "Target is to cut this to 65% by 2030-31 under Mission Coking Coal",
       "source": {
-        "label": "Ministry of Steel",
+        "label": "MarkNtel Advisors",
         "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html",
-        "snippet": "India imports nearly 85-90% of its coking coal requirements"
+        "snippet": "India imports nearly 85–90% of its coking coal requirements"
       }
     },
     {
-      "label": "Construction & infrastructure share of steel demand",
+      "label": "Secondary/MSME share of crude steel capacity",
+      "value": "47",
+      "unit": "%",
+      "year": 2025,
+      "trend": "flat",
+      "source": {
+        "label": "IBEF",
+        "url": "https://www.ibef.org/industry/steel",
+        "snippet": "Share of Secondary steel plants including MSMEs in crude steel capacity in FY25 stood at 47%"
+      }
+    },
+    {
+      "label": "Top-3 India market share (Tata, JSW, SAIL)",
+      "value": "45",
+      "unit": "%",
+      "year": 2025,
+      "trend": "flat",
+      "source": {
+        "label": "MarkNtel Advisors",
+        "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html",
+        "snippet": "the top three players, Tata Steel, JSW Steel, and Steel Authority of India Limited, collectively account for approximately 45% share"
+      }
+    },
+    {
+      "label": "India's share of global crude steel production",
+      "value": "7.9",
+      "unit": "%",
+      "year": 2024,
+      "trend": "up",
+      "series": [
+        {
+          "year": 2014,
+          "value": 5.2
+        },
+        {
+          "year": 2024,
+          "value": 7.9
+        }
+      ],
+      "source": {
+        "label": "PIB/Ministry of Steel",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
+        "snippet": "Share of global crude steel production rose from 5.2% in 2014 to 7.9% in 2024"
+      }
+    },
+    {
+      "label": "Global market size (steel, worldwide)",
+      "value": "1494",
+      "unit": "USD billion",
+      "year": 2025,
+      "trend": "up",
+      "note": "Global steel market context, not India-specific",
+      "source": {
+        "label": "Grand View Research",
+        "url": "https://www.grandviewresearch.com/industry-analysis/steel-market",
+        "snippet": "Steel market size was valued at $1494.0 billion in 2025"
+      }
+    },
+    {
+      "label": "India crude steel capacity utilisation",
+      "value": "80",
+      "unit": "%",
+      "year": 2024,
+      "trend": "up",
+      "note": "National Steel Policy assumes 85% utilisation at the 2030-31 target",
+      "source": {
+        "label": "HDFC Securities",
+        "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf",
+        "snippet": "Crude steel production grew at 5% CAGR over FY19-24. It grew 13% YoY to 144mn MT in FY24, implying an 80% capacity utilisation"
+      }
+    },
+    {
+      "label": "Construction/infrastructure share of steel demand",
       "value": "68",
       "unit": "%",
       "year": 2024,
       "trend": "flat",
-      "note": "Engineering/packaging ~22%, automobile ~9% of FY2023-24 consumption",
       "source": {
-        "label": "PIB / Ministry of Steel",
+        "label": "PIB",
         "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
-        "snippet": "construction and infrastructure remained the primary drivers of steel demand, accounting for about 68% of total consumption"
-      }
-    },
-    {
-      "label": "India crude steel capacity",
-      "value": "220.4",
-      "unit": "MT",
-      "year": 2026,
-      "trend": "up",
-      "series": [
-        {
-          "year": 2024,
-          "value": 179.5
-        },
-        {
-          "year": 2025,
-          "value": 198.5
-        },
-        {
-          "year": 2026,
-          "value": 220.4
-        }
-      ],
-      "note": "Targeting 300 MTPA by FY2030-31 and 500 MT by 2047",
-      "source": {
-        "label": "Ministry of Steel",
-        "url": "https://steel.gov.in/sites/default/files/2026-08/Overview%20of%20Steel%20Sector,%20July,%202026.pdf",
-        "snippet": "India's crude steel capacity was 220.4 mt in 2025-26"
+        "snippet": "construction and infrastructure remained the primary drivers... accounting for about 68% of total consumption"
       }
     }
   ],
   "size": {
     "current": {
       "value": 163.7,
-      "unit": "MT (finished steel consumption)",
+      "unit": "million tonnes (finished steel consumption)",
       "year": 2026
     },
-    "cagr_note": "Finished steel consumption grew from 77 MT (FY2014-15) to 163.7 MT (FY2025-26); domestic finished steel demand grew at a CAGR of 6.51% over the preceding five fiscal years and industry projections suggest ~6-9% CAGR through FY27-30",
+    "cagr_note": "Finished steel consumption grew from 100.17 MT in FY2019-20 to 163.7 MT in FY2025-26; forward estimates from various trade sources put FY2026-31 CAGR around 9%",
     "history": [
       {
         "year": 2020,
@@ -447,46 +622,48 @@
       }
     ],
     "source": {
-      "label": "Ministry of Steel / PIB",
-      "url": "https://steel.gov.in/sites/default/files/2026-08/Overview%20of%20Steel%20Sector,%20July,%202026.pdf",
-      "snippet": "Finished Steel Consumption | 105.75 | 119.89 | 136.29 | 152.13 | 164.36"
+      "label": "PIB / Ministry of Steel",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
+      "snippet": "Consumption | 119.9 | 136.3 | 152.1 | 163.7"
     }
   },
   "segments": [
     {
-      "name": "Construction and infrastructure",
+      "name": "Construction & infrastructure",
       "share_pct": 68,
-      "note": "Primary driver of steel demand in FY2023-24; other estimates put construction/infra at 60-65%",
+      "dimension": "application",
+      "note": "Primary driver of steel demand in FY2023-24",
       "source": {
-        "label": "PIB / Ministry of Steel",
+        "label": "PIB",
         "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
-        "snippet": "construction and infrastructure remained the primary drivers of steel demand, accounting for about 68% of total consumption"
+        "snippet": "construction and infrastructure remained the primary drivers... accounting for about 68% of total consumption"
       }
     },
     {
-      "name": "Engineering and packaging",
+      "name": "Engineering & packaging",
       "share_pct": 22,
-      "note": "Second-largest end-use segment for finished steel in FY2023-24",
+      "dimension": "application",
       "source": {
-        "label": "PIB / Ministry of Steel",
+        "label": "PIB",
         "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
         "snippet": "the engineering and packaging sectors contributed around 22%"
       }
     },
     {
-      "name": "Automobile industry",
+      "name": "Automobile",
       "share_pct": 9,
-      "note": "Steel demand from automobiles in FY2023-24; India produced 28+ million vehicles in FY2024-25",
+      "dimension": "application",
       "source": {
-        "label": "PIB / Ministry of Steel",
+        "label": "PIB",
         "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
         "snippet": "the automobile industry about 9%"
       }
     },
     {
-      "name": "Flat steel (by product form)",
+      "name": "Flat steel",
       "share_pct": 54.2,
-      "note": "Largest share by type in 2025, driven by automotive and manufacturing demand",
+      "dimension": "product",
+      "note": "Includes HR coils, CR coils, GP/GC sheets, plates",
       "source": {
         "label": "IMARC Group",
         "url": "https://www.imarcgroup.com/india-steel-market",
@@ -494,9 +671,9 @@
       }
     },
     {
-      "name": "Structural steel (by product category)",
+      "name": "Structural steel",
       "share_pct": 33.6,
-      "note": "Leading product category share in 2025",
+      "dimension": "product",
       "source": {
         "label": "IMARC Group",
         "url": "https://www.imarcgroup.com/india-steel-market",
@@ -504,9 +681,10 @@
       }
     },
     {
-      "name": "BF-BOF (Blast Furnace-Basic Oxygen Furnace) route",
+      "name": "BF-BOF route",
       "share_pct": 46.12,
-      "note": "Largest technology route share of 2025 output; EAF expected to gain share on scrap availability",
+      "dimension": "process",
+      "note": "Blast Furnace-Basic Oxygen Furnace remains dominant despite EAF growth",
       "source": {
         "label": "Mordor Intelligence",
         "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market",
@@ -514,9 +692,10 @@
       }
     },
     {
-      "name": "West & Central India (by region)",
+      "name": "West & Central India",
       "share_pct": 34.7,
-      "note": "Largest regional consuming market share in 2025",
+      "dimension": "region",
+      "note": "Largest consuming region, driven by manufacturing and automotive clusters",
       "source": {
         "label": "IMARC Group",
         "url": "https://www.imarcgroup.com/india-steel-market",
@@ -524,66 +703,67 @@
       }
     },
     {
-      "name": "Secondary steel plants including MSMEs",
-      "share_pct": 47,
-      "note": "Share of crude steel capacity in FY25, versus large integrated primary producers",
+      "name": "North India",
+      "share_pct": 31.78,
+      "dimension": "region",
+      "note": "Alternative regional-share estimate from another source; largest region per this source",
       "source": {
-        "label": "IBEF",
-        "url": "https://www.ibef.org/industry/steel",
-        "snippet": "Share of Secondary steel plants including MSMEs in crude steel capacity in FY25 stood at 47%"
+        "label": "MarkNtel Advisors",
+        "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html",
+        "snippet": "North India holds the largest share of about 31.78%"
       }
     }
   ],
   "growth_drivers": [
     {
-      "title": "Infrastructure and government capex",
-      "detail": "FY2026-27 capital expenditure budget of ₹12.2 lakh crore, more than 3x FY2019-20 levels, funding highways (Bharatmala), metro rail (24 cities, 1,036+ km), PM Gati Shakti and housing schemes (PMAY sanctioning 4+ crore houses)",
+      "title": "Government capex and infrastructure pipeline",
+      "detail": "FY2026-27 capital expenditure budget of Rs 12.2 lakh crore (over 3x FY2019-20 levels) is fuelling highways, railways, metros and industrial corridors including Bharatmala, PM Gati Shakti and the Delhi-Mumbai Industrial Corridor.",
       "source": {
         "label": "IMARC Group",
         "url": "https://www.imarcgroup.com/india-steel-market",
-        "snippet": "Government spending of ₹12.2 lakh crore on capital expenditure for FY 2026-27"
-      }
-    },
-    {
-      "title": "National Steel Policy 2030-31 targets",
-      "detail": "Targets crude steel capacity of 300 MTPA, production of 255 MT, finished steel production of 230 MT, and per-capita consumption of 158-160 kg by 2030-31, with a longer-term goal of 500 MT capacity by 2047",
-      "source": {
-        "label": "Ministry of Steel",
-        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
-        "snippet": "envisions expanding crude steel capacity to 300 MTPA and production to 255 MTPA by 2030–31"
+        "snippet": "This is over three times the amount spent on infrastructure development during FY 2019-20"
       }
     },
     {
       "title": "PLI Scheme for Specialty Steel",
-      "detail": "₹6,322 crore outlay across three rounds (PLI 1.0/1.1/1.2) has attracted ₹23,022+ crore in realised investment, created ~24 MT of specialty steel capacity and generated 13,000+ direct jobs; specialty steel output targeted to reach 42 MT by 2026-27",
+      "detail": "Three rounds of the Production Linked Incentive scheme (outlay Rs 6,322 crore base, plus PLI 1.1 and 1.2 rounds) have realised over Rs 23,000 crore of investment and created 24 MT of specialty steel capacity, pushing India toward higher value-added coated, electrical and alloy steel.",
       "source": {
-        "label": "PIB / Ministry of Steel",
+        "label": "PIB",
         "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
         "snippet": "₹23,022 crore investment supported specialty steel production... resulted in 2.4 million tonnes of output and over 13,000 new jobs"
       }
     },
     {
-      "title": "Automotive sector growth",
-      "detail": "India produced 28.4 million vehicles in FY2024-25 with record passenger car sales of 4.3 million units; automobile steel consumption share expected to rise to 12-13% by FY30 as India becomes a top global auto hub, driving demand for AHSS/EV-grade steel",
+      "title": "Rising urbanisation and housing demand",
+      "detail": "India's urban population is projected to reach 600-630 million by 2030, with PMAY sanctioning over 4 crore houses, directly boosting construction steel demand.",
       "source": {
         "label": "IMARC Group",
         "url": "https://www.imarcgroup.com/india-steel-market",
-        "snippet": "automobile sector in India produced 28.4 million vehicles in FY 2024-25"
+        "snippet": "urbanization in India that is expected to touch 600 million by 2030"
       }
     },
     {
-      "title": "Urbanisation",
-      "detail": "India's urban population is expected to reach 600-630 million by 2030, driving structural steel demand for housing and urban infrastructure",
+      "title": "Automotive sector growth and EV shift",
+      "detail": "India's automotive sector produced over 28 million vehicles in FY2024-25; the shift toward EVs and AHSS/electrical steel grades is expected to lift automobile steel consumption share to 12-13% by FY30.",
       "source": {
-        "label": "IMARC Group",
-        "url": "https://www.imarcgroup.com/india-steel-market",
-        "snippet": "urban population in India is growing and is expected to reach 630 million by 2030"
+        "label": "Anand Rathi",
+        "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf",
+        "snippet": "As India becomes the third largest auto hub by FY30, demand is expected to increase to ~12%"
+      }
+    },
+    {
+      "title": "Capacity expansion by major producers",
+      "detail": "JSW Steel is targeting 50 MTPA capacity by 2030 (over Rs 2 lakh crore investment), Tata Steel plans to double domestic capacity from 21 MT to 40 MT by FY30, and SAIL is expanding from ~20 MT toward 35 MT by FY31.",
+      "source": {
+        "label": "Anand Rathi",
+        "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf",
+        "snippet": "double domestic capacity from 21m tonnes to 40m by FY30"
       }
     }
   ],
   "tailwinds": [
     {
-      "point": "India is the only top-10 global steel producer with double-digit volume growth while China, Japan and the EU stagnate or decline",
+      "point": "India is the only top-10 steel producer to post double-digit volume growth in 2025, while China, Japan and the EU stagnated or declined",
       "source": {
         "label": "Mordor Intelligence",
         "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market",
@@ -591,35 +771,35 @@
       }
     },
     {
-      "point": "India turned a net exporter of finished steel in FY2025-26 (net exports of 0.08 MT) with exports up 35.8% and imports down 46.5% YoY",
+      "point": "National Steel Policy targets 300 MT capacity by 2030-31 and 500 MT by 2047, backing a multi-year capex cycle",
       "source": {
-        "label": "IBEF",
-        "url": "https://www.ibef.org/industry/steel-presentation",
-        "snippet": "India emerging as a net exporter of finished steel, recording a trade surplus of 0.08 MT, compared with a net import position in FY25"
+        "label": "PIB",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
+        "snippet": "India is working towards achieving 500 MT of steel production capacity by 2047"
       }
     },
     {
-      "point": "Domestic iron ore self-sufficiency across Odisha, Chhattisgarh and Karnataka gives Indian crude-steel producers a raw-material cost edge over regional peers",
+      "point": "Steel exports rose 29.1% YoY in March 2026 while imports fell 9.5%, reflecting improving self-reliance",
       "source": {
-        "label": "GII Research",
-        "url": "https://www.giiresearch.com/report/moi1911741-india-steel-market-share-analysis-industry-trends.html",
-        "snippet": "Iron-ore self-sufficiency across Odisha, Chhattisgarh, and Karnataka grants crude-steel producers a sustained raw-material edge"
+        "label": "PIB",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258028&reg=3&lang=1",
+        "snippet": "Exports of steel rose by 29.1% in March 2026 (year-on-year), while imports declined sharply by 9.5%"
       }
     },
     {
-      "point": "Government imposed a 12% safeguard duty on select flat steel products in April 2025 (tapering over three years) to protect domestic mills from import surges",
+      "point": "12% safeguard duty on flat steel imports (April 2025, tapering over three years) protects domestic producers from cheap/dumped imports",
       "source": {
-        "label": "PIB / Ministry of Steel",
+        "label": "PIB",
         "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
         "snippet": "the Government imposed a 12% safeguard duty on select non-alloy and alloy steel flat products"
       }
     },
     {
-      "point": "India's steel demand grew at 6.4-11.6% CAGR over various windows versus flat-to-declining global demand, making it the world's fastest-growing major steel market",
+      "point": "India's abundant iron ore reserves (potential to produce 700 MT/year) give integrated players a raw-material cost edge over many global peers",
       "source": {
-        "label": "HDFC Securities",
-        "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf",
-        "snippet": "steel demand in India grew at 6.4/6.8/7.5% CAGRs, much ahead of global demand growth of 2.8/1.2/-0.3% CAGRs"
+        "label": "IBEF",
+        "url": "https://www.ibef.org/industry/steel",
+        "snippet": "India has huge iron ore reserves and can produce 700 MT per year and has the potential to be the second largest producer of iron ore globally"
       }
     }
   ],
@@ -675,29 +855,29 @@
   ],
   "value_chain": [
     {
-      "stage": "Raw material sourcing (iron ore, coking coal)",
-      "description": "Iron ore concentrated in Odisha, Jharkhand, Chhattisgarh, Karnataka and Goa; India has captive reserves supporting up to 700 MT/year production potential. Coking coal is heavily import-dependent (80-90%), sourced mainly from Australia, also Russia, US and Mozambique",
-      "margin_note": "Producers with 100% captive iron ore (e.g. Tata Steel) enjoy the highest EBITDA/tonne in the industry; coking coal import dependence is the key cost-volatility risk",
+      "stage": "Raw material sourcing (iron ore, coal)",
+      "description": "Iron ore is largely sourced captively from mines in Odisha, Jharkhand, Chhattisgarh and Karnataka; coking coal is 55-90% imported, mainly from Australia (via SIMS-monitored imports)",
+      "margin_note": "Captive iron-ore access (Tata Steel ~100%, SAIL ~100%) drives cost advantage; coking coal import dependence exposes margins to global price swings",
       "source": {
-        "label": "Mordor Intelligence",
-        "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market",
-        "snippet": "raw materials concentrated in iron ore belts across Odisha, Jharkhand, Chhattisgarh, and Goa"
+        "label": "HDFC Securities",
+        "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf",
+        "snippet": "80% of India's coking coal requirements are met through imports, with Australia... accounting for more than half of its imports"
       }
     },
     {
-      "stage": "Crude steel production (BF-BOF / DRI-EAF / Scrap-EAF)",
-      "description": "Steel plants concentrated in Odisha, Jharkhand, Chhattisgarh (over half of national crude steel output), converting iron ore/coke or DRI/scrap into crude steel via blast furnace-BOF (~44-46% share) or electric arc furnace routes",
-      "margin_note": "BF-BOF integrated players generally have lower unit costs at scale versus secondary/EAF producers",
+      "stage": "Primary production (BF-BOF / EAF-DRI)",
+      "description": "Crude steel is produced via BF-BOF (integrated mills, ~44-46% of output) or EAF/induction furnace routes using scrap and DRI (sponge iron); India is the world's largest DRI producer at ~60+ MT capacity",
+      "margin_note": "BF-BOF favors large integrated players with captive raw materials; EAF/IF route dominates secondary/MSME segment with thinner margins",
       "source": {
-        "label": "Verified Market Research",
-        "url": "https://www.verifiedmarketresearch.com/product/india-steel-market/",
-        "snippet": "This region accounts for over 50% of India's total crude steel output"
+        "label": "Anand Rathi",
+        "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf",
+        "snippet": "India, the largest DRI (sponge iron) manufacturer with ~63m tonnes capacity, is mostly self-sufficient"
       }
     },
     {
-      "stage": "Midstream processing (hot rolling, cold rolling, coating)",
-      "description": "Conversion of crude steel into finished flat and long products, including hot-rolled coils, cold-rolled sheets, galvanised/coated products and specialty steels",
-      "margin_note": "Value-added and coated/specialty products carry higher margins than commodity long products",
+      "stage": "Rolling & downstream processing",
+      "description": "Hot rolling, cold rolling and coating convert crude/semi-finished steel into finished flat and long products; specialty lines (CRGO electrical steel, tinplate, galvanized coils) are being expanded under PLI incentives",
+      "margin_note": "Higher-value coated/specialty and value-added products carry better margins than commodity long products",
       "source": {
         "label": "Mordor Intelligence",
         "url": "https://www.mordorintelligence.com/industry-reports/india-steel-market",
@@ -705,13 +885,13 @@
       }
     },
     {
-      "stage": "Distribution and downstream fabrication",
-      "description": "Finished steel reaches end-users via direct sales, steel service centres, distributors/dealers and increasingly online channels; secondary producers process and fabricate steel into finished goods",
-      "margin_note": "A robust network of traders, stockists and service centres ensures last-mile availability",
+      "stage": "Distribution and sales",
+      "description": "Finished steel reaches end-users via direct sales, steel service centers, and a network of distributors/dealers (e.g. SAIL's 2,300+ dealer network, JSW's 9,500+ retail outlets)",
+      "margin_note": "Retailer margins are typically capped by MoU (e.g. SAIL limits dealer margins to about Rs 1,200/tonne over procurement price)",
       "source": {
-        "label": "Verified Market Research",
-        "url": "https://www.verifiedmarketresearch.com/product/india-steel-market/",
-        "snippet": "a robust distribution network of traders, stockists, and service centres that ensure the availability of steel to end-users"
+        "label": "SAIL",
+        "url": "https://www.sail.co.in/en/dealer-network",
+        "snippet": "SAIL has set up a countrywide network of over 2,300 Dealers who ensure availability of quality steel"
       }
     }
   ],
@@ -719,33 +899,33 @@
     {
       "channel": "Direct sales",
       "source": {
-        "label": "DataInsights Market",
+        "label": "Data Insights Market",
         "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
         "snippet": "Distribution Channel (Direct Sales, Steel Service Centers, Distributors & Dealers, Online, Others)"
       }
     },
     {
-      "channel": "Steel service centres",
+      "channel": "Steel service centers",
       "source": {
-        "label": "DataInsights Market",
+        "label": "Data Insights Market",
         "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
-        "snippet": "5.1. Direct Sales 5.2. Steel Service Centers 5.3. Distributors & Dealers 5.4. Online"
+        "snippet": "Distribution Channel (Direct Sales, Steel Service Centers, Distributors & Dealers, Online, Others)"
       }
     },
     {
-      "channel": "Distributors and dealers",
+      "channel": "Distributors & dealers",
       "source": {
-        "label": "SAIL",
-        "url": "https://www.sail.co.in/en/dealer-network",
-        "snippet": "SAIL has set up a countrywide network of over 2,300 Dealers who ensure availability of quality steel in virtually all the districts of the country"
+        "label": "Data Insights Market",
+        "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
+        "snippet": "Distribution Channel (Direct Sales, Steel Service Centers, Distributors & Dealers, Online, Others)"
       }
     },
     {
-      "channel": "Exports (retail outlets and international markets)",
+      "channel": "Online",
       "source": {
-        "label": "HDFC Securities",
-        "url": "https://www.hdfcsec.com/hsl.research.pdf/JSW%20Steel%20Ltd.%20-%20Initiating%20Coverage%20-%2019102020.pdf",
-        "snippet": "steel retailed in over 9500 outlets in India and exported to over a hundred countries worldwide"
+        "label": "Data Insights Market",
+        "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
+        "snippet": "Distribution Channel (Direct Sales, Steel Service Centers, Distributors & Dealers, Online, Others)"
       }
     }
   ],
@@ -754,47 +934,47 @@
       "name": "Tata Steel",
       "listed": true,
       "ticker": "TATASTEEL",
-      "segment": "Integrated steel (flat and long products)",
-      "market_share_pct": 11.9,
-      "note": "One of India's most diversified steel producers (India, Europe, Thailand); India operations have industry-leading EBITDA/tonne due to 100% captive iron ore; plans to double domestic capacity from 21 MT to 40 MT by FY30",
+      "segment": "Integrated flat/long steel",
+      "market_share_pct": null,
+      "note": "Among the top three players (with JSW and SAIL) holding ~45% combined India market share; largest India producer with international operations (Europe, Thailand); plans to double domestic capacity from 21 MT to 40 MT by FY30",
       "source": {
-        "label": "RBSA / HDFC Securities",
-        "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf",
-        "snippet": "Tata Steel 11.9%"
+        "label": "MarkNtel Advisors",
+        "url": "https://www.marknteladvisors.com/research-library/india-steel-market-report.html",
+        "snippet": "the top three players, Tata Steel, JSW Steel, and Steel Authority of India Limited, collectively account for approximately 45% share"
       }
     },
     {
       "name": "JSW Steel",
       "listed": true,
       "ticker": "JSWSTEEL",
-      "segment": "Integrated steel (flat and long products)",
-      "market_share_pct": 16.9,
-      "note": "India's largest private-sector steel producer by capacity (~28-30 MT, targeting 50 MT by 2030); fastest-growing among tier-I mills; largest exporter of coated products from India",
+      "segment": "Integrated flat/long steel",
+      "market_share_pct": null,
+      "note": "India's largest private-sector steel producer, capacity approaching 28-37.7 MT and targeting 50 MTPA by 2030; among top three India players",
       "source": {
-        "label": "RBSA / IMARC Group",
-        "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf",
-        "snippet": "JSW Steel 16.9%"
+        "label": "IMARC Group",
+        "url": "https://www.imarcgroup.com/india-steel-market",
+        "snippet": "India's largest private sector steel producer with total capacity approaching 28 million tonnes per annum"
       }
     },
     {
-      "name": "Steel Authority of India Limited (SAIL)",
+      "name": "Steel Authority of India (SAIL)",
       "listed": true,
       "ticker": "SAIL",
-      "segment": "Integrated steel (largest state-owned producer)",
-      "market_share_pct": 14.8,
-      "note": "India's largest state-owned integrated producer (~19-21 MT capacity, expanding to 35 MT by 2031); lags private peers on EBITDA/tonne and growth; government holds ~65% stake",
+      "segment": "Integrated steel, PSU",
+      "market_share_pct": null,
+      "note": "India's largest state-owned integrated producer, crude steel capacity ~19-21.4 MT across five integrated plants; among top three India players",
       "source": {
-        "label": "RBSA / HDFC Securities",
-        "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf",
-        "snippet": "SAIL 14.8%"
+        "label": "IMARC Group",
+        "url": "https://www.imarcgroup.com/india-steel-market",
+        "snippet": "India's largest state-owned integrated producer with a total crude steel capacity of approximately 19.17 million tonnes per annum across five integrated plants"
       }
     },
     {
       "name": "Jindal Steel & Power (JSPL)",
       "listed": true,
       "ticker": "JINDALSTEL",
-      "segment": "Integrated steel, largely long products",
-      "note": "Expanding capacity by 65% via Angul (Odisha) to 15.9 MT by FY26-27; on completion will become the fourth-largest steel manufacturer in India; consistently leads peers on EBITDA margin and least leverage",
+      "segment": "Long steel, power, mining",
+      "note": "Expected to become the fourth-largest steel manufacturer in India by FY26 on completion of Angul capex; among the fastest-growing peers with least leverage",
       "source": {
         "label": "Anand Rathi",
         "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf",
@@ -804,20 +984,19 @@
     {
       "name": "AM/NS India (ArcelorMittal Nippon Steel India)",
       "listed": false,
-      "segment": "Integrated flat steel (JV of ArcelorMittal and Nippon Steel)",
-      "market_share_pct": 5.2,
-      "note": "Major integrated flat steel producer, strong in automotive and white goods; securing new 7 MTPA plant in Andhra Pradesh (Rs 1.5 lakh crore complex)",
+      "segment": "Integrated flat steel, JV",
+      "note": "JV between ArcelorMittal and Nippon Steel; strong in automotive and white-goods flat steel; building a new 7 MTPA integrated mill in Andhra Pradesh (secured 890 hectares in March 2025)",
       "source": {
-        "label": "Anand Rathi / DataInsights Market",
-        "url": "https://images.assettype.com/bloombergquint/2024-09-19/bm2bzcx1/Anand_Rathi_Metal_Sector_Thematic_Initiating_Coverage_Note.pdf",
-        "snippet": "AM/NS 5.2%"
+        "label": "IBEF",
+        "url": "https://www.ibef.org/industry/steel",
+        "snippet": "AM/NS India has secured 890 hectares of land... for a new integrated steel mill with planned capacity of about 7 MTPA of crude steel"
       }
     },
     {
-      "name": "Rashtriya Ispat Nigam Limited (RINL)",
+      "name": "Rashtriya Ispat Nigam (RINL/Vizag Steel)",
       "listed": false,
-      "segment": "Integrated steel, public sector",
-      "note": "Second-largest public-sector steelmaker in India, largest supplier of rails, crude steel capacity ~6.3 MT",
+      "segment": "Integrated long steel, PSU",
+      "note": "Second-largest steel manufacturing PSU with crude steel capacity of 6.3 MT; largest supplier of rails in India",
       "source": {
         "label": "RBSA",
         "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf",
@@ -825,22 +1004,23 @@
       }
     },
     {
-      "name": "NMDC Steel Limited",
+      "name": "Jindal Stainless",
       "listed": true,
-      "segment": "Integrated steel (newly demerged)",
-      "note": "Recently demerged from NMDC Limited, building a new greenfield plant at Nagarnar; NMDC (parent) is a leading iron ore miner",
+      "ticker": "JSL",
+      "segment": "Stainless steel",
+      "note": "Leading manufacturer of stainless steel in India and globally",
       "source": {
-        "label": "DataInsights Market",
+        "label": "Data Insights Market",
         "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
-        "snippet": "Recently demerged from NMDC Limited, NMDC Steel focuses on steel production...new greenfield plant in Nagarnar"
+        "snippet": "Jindal Stainless is critical to the Stainless Steel Market... a leading manufacturer of stainless steel in India and globally"
       }
     },
     {
       "name": "APL Apollo Tubes",
       "listed": true,
       "ticker": "APLAPOLLO",
-      "segment": "Downstream steel tubes/pipes",
-      "note": "Leading manufacturer of structural steel tubes and pipes; TTM sales of Rs 17,933 crore, significantly larger than smaller listed peers like JTL Industries",
+      "segment": "Steel tubes and pipes (downstream)",
+      "note": "Leading manufacturer of structural steel tubes and pipes for construction; TTM sales of Rs 17,933 crore, significantly larger than smaller peers such as JTL Industries",
       "source": {
         "label": "HDFC Securities",
         "url": "https://www.hdfcsec.com/hsl.research.pdf/JTL%20Industries%20-IC_11.01.2024_Singed.pdf",
@@ -848,134 +1028,140 @@
       }
     },
     {
-      "name": "Jindal Stainless Limited",
-      "listed": true,
-      "ticker": "JSL",
-      "segment": "Stainless steel",
-      "note": "Leading manufacturer of stainless steel in India and globally",
+      "name": "Bhushan Power & Steel",
+      "listed": false,
+      "segment": "Integrated steel",
+      "note": "Acquired by JSW Steel via NCLT/IBC process for Rs 19,700 crore; steelmaking capacity of 2.75 MTPA",
       "source": {
-        "label": "DataInsights Market",
+        "label": "HDFC Securities",
+        "url": "https://www.hdfcsec.com/hsl.research.pdf/JSW%20Steel%20Ltd.%20-%20Initiating%20Coverage%20-%2019102020.pdf",
+        "snippet": "allowed JSW Steel to acquire Bhushan Power & Steel (BPSL) for Rs. 19,700 crore"
+      }
+    },
+    {
+      "name": "NMDC / NMDC Steel",
+      "listed": true,
+      "ticker": "NMDC / NMDCSTEEL",
+      "segment": "Iron ore mining / integrated steel",
+      "note": "Leading merchant iron-ore miner in India (production target 100 MT); NMDC Steel recently demerged, building a new greenfield plant at Nagarnar",
+      "source": {
+        "label": "Data Insights Market",
         "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
-        "snippet": "Jindal Stainless is critical to the Stainless Steel Market...leading manufacturer of stainless steel in India and globally"
+        "snippet": "Recently demerged from NMDC Limited, NMDC Steel focuses on steel production... with its new greenfield plant in Nagarnar"
       }
     },
     {
       "name": "JTL Industries",
       "listed": true,
       "ticker": "JTLIND",
-      "segment": "Downstream steel tubes/pipes",
-      "note": "Fast-growing steel tube maker with 586,000 MTPA capacity across four plants, expanding to 1 MTPA by FY25; exports to 20+ countries",
+      "segment": "Steel tubes and pipes (downstream)",
+      "note": "Smaller structural-steel-tube maker expanding capacity from 0.6 to 1 MTPA; among the highest EBITDA (8%) and PAT margins (6%) versus peers",
       "source": {
         "label": "HDFC Securities",
         "url": "https://www.hdfcsec.com/hsl.research.pdf/JTL%20Industries%20-IC_11.01.2024_Singed.pdf",
-        "snippet": "aggregate installed capacity of 586,000 MTPA and one recently added in Chhattisgarh"
+        "snippet": "strong EBITDA margin (operating profit margin) of 8% and PAT margins of 6% as compared to its peers having 7% and 4%"
       }
     },
     {
-      "name": "Bhushan Power & Steel (part of JSW Steel)",
-      "listed": false,
-      "segment": "Integrated steel",
-      "note": "Acquired by JSW Steel via NCLT process for Rs 19,700 crore; formerly one of India's largest secondary steelmakers and largest manufacturer of auto-grade steel",
+      "name": "Vedanta Limited (Electrosteel)",
+      "listed": true,
+      "ticker": "VEDL",
+      "segment": "Steel, mining conglomerate",
+      "note": "Presence in the steel sector through its electrosteel business",
       "source": {
-        "label": "HDFC Securities / RBSA",
-        "url": "https://www.hdfcsec.com/hsl.research.pdf/JSW%20Steel%20Ltd.%20-%20Initiating%20Coverage%20-%2019102020.pdf",
-        "snippet": "allowed JSW Steel to acquire Bhushan Power & Steel (BPSL) for Rs. 19,700 crore"
+        "label": "Data Insights Market",
+        "url": "https://www.datainsightsmarket.com/reports/india-steel-market-1527",
+        "snippet": "Vedanta also has a presence in the steel sector through its electrosteel business"
       }
     },
     {
-      "name": "Essar Steel India",
+      "name": "Essar Steel",
       "listed": false,
-      "segment": "Integrated steel",
-      "note": "One of the large historic integrated steel players in India, with major capacity in the western region (~10 MT); went through insolvency proceedings",
+      "segment": "Integrated flat steel",
+      "note": "Acquired by ArcelorMittal and Nippon Steel (as AM/NS India) via IBC process; formerly among largest western-region steel manufacturers",
       "source": {
         "label": "RBSA",
         "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf",
-        "snippet": "Essar Steel has the largest steel manufacturing facility in the western region of India at 10.0 MT"
-      }
-    },
-    {
-      "name": "China Baowu Group / ArcelorMittal / Ansteel Group",
-      "listed": false,
-      "segment": "Global integrated steel majors",
-      "note": "Top three global steel producers by market share (7%/4%/3% respectively in 2023); global-only context, no India-specific market share data given",
-      "source": {
-        "label": "HDFC Securities",
-        "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf",
-        "snippet": "China Baowu Group/ArcelorMittal/Ansteel Group were the top three steel producing companies globally, with 7/4/3% market share"
+        "snippet": "ArcelorMittal and JSW Steel are in contention to acquire the Company under the IBC"
       }
     }
   ],
   "margins": {
-    "notes": "Industry EBITDA margins peaked around FY22 on strong post-COVID realisations, then fell sharply through FY23-25 on soft prices and high coking coal costs. Among listed peers, JSPL consistently leads on EBITDA margin (20-23% FY25E-27E) and lowest leverage; JSW Steel is second (13-19%); Tata Steel is mid-pack (12-16%); SAIL lags with the weakest margins (7-12%) and highest leverage among tier-I mills.",
+    "notes": "EBITDA margins across major listed players declined from FY22 peaks (Tata Steel EBITDA margin fell from ~26% in FY22 to single digits in FY23-24) due to weak steel pricing and high coking coal costs, with recovery expected from FY26 onward; JSPL has consistently posted the best margins among peers, while SAIL has the lowest EBITDA/tonne owing to a higher share of low-value semis.",
     "source": {
       "label": "HDFC Securities",
       "url": "https://www.hdfcsec.com/hsl.docs/Metals%20-%20Thematic%20-%20Feb25%20-%20HSIE-202502101430377529628.pdf",
-      "snippet": "JSPL's margin remains the best among the four companies"
+      "snippet": "we estimate that steel pricing recovery FY26 onwards, rising share of value-added products and cost reduction efforts will help the margin rebound to 10% and above FY26 onwards"
     }
   },
   "quant": {
     "capacity": [
       {
-        "player": "India (total)",
+        "player": "India (national)",
         "region": "India",
         "capacity": 220.4,
-        "unit": "MT",
+        "unit": "MT crude steel",
         "year": 2026
       },
       {
         "player": "JSW Steel",
-        "region": "India",
-        "capacity": 29.7,
-        "unit": "MT (FY24, growing to 51.5 MT by FY30-31)",
-        "year": 2024
+        "region": "India (domestic)",
+        "capacity": 37.7,
+        "unit": "MT (planned by FY26)",
+        "year": 2026
       },
       {
         "player": "Tata Steel",
-        "region": "India",
+        "region": "India (domestic)",
         "capacity": 35.3,
-        "unit": "MT (domestic+international, FY24)",
+        "unit": "MT",
         "year": 2024
       },
       {
         "player": "SAIL",
         "region": "India",
         "capacity": 21.4,
-        "unit": "MT (FY24, expanding to 35 MT by FY31)",
+        "unit": "MT",
         "year": 2024
       },
       {
         "player": "JSPL",
         "region": "India",
-        "capacity": 9.6,
-        "unit": "MT (FY24, expanding to 15.9 MT by FY26-27)",
-        "year": 2024
+        "capacity": 15.9,
+        "unit": "MT (planned by FY26)",
+        "year": 2026
       }
     ],
     "utilisation_pct": 80,
     "imports": [
       {
         "year": 2024,
-        "volume": 9.55,
-        "unit": "million tonnes (finished steel)"
+        "volume": 9532,
+        "unit": "thousand tonnes finished steel"
       },
       {
         "year": 2025,
-        "volume": 6.52,
-        "unit": "million tonnes (finished steel)"
+        "volume": 9551,
+        "unit": "thousand tonnes finished steel"
+      },
+      {
+        "year": 2026,
+        "volume": 6524,
+        "unit": "thousand tonnes finished steel"
       }
     ],
     "duty": [
       {
-        "country": "China / Vietnam / other Asian exporters",
-        "note": "12% provisional safeguard duty imposed April 2025 on select non-alloy and alloy steel flat products (tapering to 11% over 3 years); historical anti-dumping duties targeted China, Russia and Ukraine"
+        "country": "China / others (flat steel)",
+        "note": "12% provisional safeguard duty imposed April 2025 on select non-alloy and alloy flat steel products, later made a 3-year duty tapering from 12% to 11%"
       },
       {
-        "country": "Domestic policy",
-        "note": "Steel Quality Control Orders (143+ covering 723 products) require BIS conformity for both domestic and imported steel; 'melt and pour' rule mandates full domestic manufacturing to qualify for government procurement preference under DMI&SP policy"
+        "country": "General imports (coking coal & inputs)",
+        "note": "Various customs duty reductions on ferro nickel, molybdenum ores and scrap to support steel producers; QCOs (143 covering 723 products) mandate BIS-compliant steel for domestic sale and imports"
       }
     ],
     "source": {
-      "label": "Ministry of Steel / PIB",
+      "label": "PIB / Ministry of Steel",
       "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
       "snippet": "the Government imposed a 12% safeguard duty on select non-alloy and alloy steel flat products"
     }
@@ -985,68 +1171,66 @@
       {
         "title": "An overview of the Steel Industry in India",
         "url": "https://www.youtube.com/watch?v=AER8afw7ArA",
-        "why_relevant": "General industry primer covering the value chain and major segments",
+        "why_relevant": "Broad overview of the industry, its structure, and key trends for someone new to the sector",
         "thumbnail": "https://img.youtube.com/vi/AER8afw7ArA/hqdefault.jpg"
       },
       {
         "title": "Iron and Steel Industry in India | India Steel Sector analysis",
         "url": "https://www.youtube.com/watch?v=URwkCbaC0Qo",
-        "why_relevant": "Overview of the industry structure, key players and market dynamics for viewers new to the sector",
+        "why_relevant": "Sector analysis covering demand drivers, key companies and competitive dynamics",
         "thumbnail": "https://img.youtube.com/vi/URwkCbaC0Qo/hqdefault.jpg"
       },
       {
-        "title": "Indian Steel Industry in the World - Comparision with Global Peers",
+        "title": "Indian Steel Industry in the World - Comparison with Global Peers",
         "url": "https://www.youtube.com/watch?v=FhhItSvfVHg",
-        "why_relevant": "Explains how India's steel industry stacks up against global producers like China, giving context on competitive dynamics and market position",
+        "why_relevant": "Positions India's steel industry against China, Japan and other global producers — useful for understanding relative competitiveness",
         "thumbnail": "https://img.youtube.com/vi/FhhItSvfVHg/hqdefault.jpg"
       },
       {
         "title": "10 Challenges Faced by the Iron and Steel Industry in India",
         "url": "https://www.youtube.com/watch?v=oVaD0BR70Kw",
-        "why_relevant": "Covers the industry's structural headwinds (import dependence, cost disadvantages, competition) useful for understanding risks facing Indian steelmakers",
+        "why_relevant": "Covers headwinds like import dependence, raw material costs and environmental compliance",
         "thumbnail": "https://img.youtube.com/vi/oVaD0BR70Kw/hqdefault.jpg"
       },
       {
-        "title": "The Indian steel market outlook – H1 FY'23",
+        "title": "The Indian steel market outlook – H1 FY'23 | ENGAGE 2.0",
         "url": "https://www.youtube.com/watch?v=hAmBnp_6EUk",
-        "why_relevant": "Market and outlook briefing useful for understanding demand-supply trends and pricing dynamics",
+        "why_relevant": "Industry outlook and market dynamics discussion useful for understanding cyclicality",
         "thumbnail": "https://img.youtube.com/vi/hAmBnp_6EUk/hqdefault.jpg"
       },
       {
         "title": "How India Founded a Steel Industry",
         "url": "https://www.youtube.com/watch?v=uOAJ9sjtAFc",
-        "why_relevant": "Historical origin story of the Indian steel industry (Tata Steel founding); background context, kept last as it is history-focused rather than market-analysis",
+        "why_relevant": "Historical/how-it-was-built perspective on India's steel industry origins (Tata Steel, Bhilai, Rourkela etc.)",
         "thumbnail": "https://img.youtube.com/vi/uOAJ9sjtAFc/hqdefault.jpg"
       },
       {
         "title": "The Rise of Steel Industry in India: 5 Reasons Behind Its Growth",
         "url": "https://www.youtube.com/watch?v=SfIkGxGW154",
-        "why_relevant": "Explains the demand drivers (infrastructure, autos, policy) behind India's steel growth story and outlook",
+        "why_relevant": "Explains the structural growth drivers behind India's steel demand story",
         "thumbnail": "https://img.youtube.com/vi/SfIkGxGW154/hqdefault.jpg"
       },
       {
         "title": "Evolving with Steel: Insights from Our Latest Report on the Indian Steel Industry with Rajat Gupta",
         "url": "https://www.youtube.com/watch?v=jS9gD70u-co",
-        "why_relevant": "Expert discussion on the industry's market outlook, competitive landscape and key companies",
+        "why_relevant": "Expert insight discussion on the industry's outlook, key players and competitive landscape",
         "thumbnail": "https://img.youtube.com/vi/jS9gD70u-co/hqdefault.jpg"
       }
     ],
     "reports": [
       {
-        "title": "An Overview of Steel Sector",
-        "publisher": "Ministry of Steel, Government of India",
-        "date": "2025",
+        "title": "1 | P a g e AN OVERVIEW OF STEEL SECTOR1 1. Introduction Global Scenario",
         "url": "https://steel.gov.in/sites/default/files/2025-04/An-Overview-of-Steel-Sector.pdf",
         "type": "government",
-        "summary": "Official government overview of production, consumption, capacity, trade and policy for India's steel sector"
+        "summary": "India’s crude steel capacity was 179.5 mt in 2023-24."
       },
       {
         "title": "Indian Steel Industry Analysis",
         "publisher": "RBSA Advisors",
-        "date": "2018",
+        "date": "2018-06",
         "url": "https://rbsa.in/wp-content/uploads/reports/archive-of-research-reports/RBSA_Indian_Steel_Industry_Analysis.pdf",
-        "type": "other",
-        "summary": "Deep historical industry analysis covering production, capacity, trade, player market shares and policy context"
+        "type": "advisory report",
+        "summary": "Historical industry structure, capacity data, company profiles and global comparisons"
       },
       {
         "title": "Final Annual Report 2025-26 (English Version).pdf",
@@ -1055,16 +1239,16 @@
         "summary": "Active role in pan-India field level collection during Segment Surveys. ... Market Studies to understand emerging trends in the steel industry. ... Organizational support for exhibitions to the Minis…"
       },
       {
-        "title": "Monthly Economic report January 2025_0.pdf",
-        "url": "https://steel.gov.in/sites/default/files/2025-04/Monthly%20Economic%20report%20January%202025_0.pdf",
-        "type": "government",
-        "summary": "In alignment with the announcement ... technological and process-oriented solutions. Towards this, Ministry has published a comprehensive report titled “Greening ......"
-      },
-      {
         "title": "Rise of Indian Steel Sector",
         "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024813374701.pdf",
         "type": "government",
         "summary": "Press Information Bureau · My Home Page URL is https://static.pib.gov.in"
+      },
+      {
+        "title": "Monthly Economic report January 2025_0.pdf",
+        "url": "https://steel.gov.in/sites/default/files/2025-04/Monthly%20Economic%20report%20January%202025_0.pdf",
+        "type": "government",
+        "summary": "In alignment with the announcement ... technological and process-oriented solutions. Towards this, Ministry has published a comprehensive report titled “Greening ......"
       },
       {
         "title": "Indian Steel Industry: August 2024 – A Trend Report",
@@ -1085,24 +1269,26 @@
         "summary": "Indian Steel Industry: January 2024 – A Trend Report"
       },
       {
-        "title": "India's Steel Sector Advances Towards Self-Reliance",
-        "publisher": "PIB / Ministry of Steel",
-        "date": "2026",
-        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
-        "type": "government",
-        "summary": "Latest government press note on FY2025-26 production, trade, PLI scheme progress and decarbonisation initiatives"
-      },
-      {
         "title": "Annual Report 2013-14",
         "url": "https://steel.gov.in/sites/default/files/Annual%20Report%20(English)%20(3).pdf",
         "type": "government",
         "summary": "Lal Bahadur Shastri (former Prime Minister) & Mr. D.J. Bell ... 3.1.1 The large-scale capacity creation in the public sector during these years contributed to making · India the 10th largest steel pr…"
       },
       {
-        "title": "1 | P a g e AN OVERVIEW OF STEEL SECTOR1 1. Introduction Global Scenario",
+        "title": "India's Steel Sector Advances Towards Self-Reliance",
+        "publisher": "PIB / Ministry of Steel",
+        "date": "2026-05",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202655864101.pdf",
+        "type": "government",
+        "summary": "Latest government summary of production, consumption, capacity, PLI scheme progress, trade and decarbonisation targets"
+      },
+      {
+        "title": "Overview of Steel Sector, March 2025",
+        "publisher": "Ministry of Steel",
+        "date": "2025-05",
         "url": "https://steel.gov.in/sites/default/files/2025-05/Overview%20of%20Steel%20sector%20March%2025[1].pdf",
         "type": "government",
-        "summary": "India is the second largest producer of crude steel."
+        "summary": "Detailed monthly government report on production, trade, capacity and pricing trends"
       },
       {
         "title": "Indian Steel Industry: March 2025 – A Trend Report",
@@ -1113,342 +1299,329 @@
     ],
     "news": [
       {
-        "title": "Indian steel mills face margin squeeze as global coking coal prices rise - BusinessLine",
-        "publisher": "BusinessLine",
-        "date": "Wed, 19 Aug 2026 09:36:27 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVUt4dUZ0dEtZMi1lMEFmZ3hLZUlmd09VU2tVT1JXaEVKdWpKbTVjVGh6alJLTEJqVk00WmpwMVRXNHEyWGI2SFJHSGFtckZRVEVrLTZZTk9jZ1J5MGJqUHRwRUt4d2pVc0ZvVDlCcTVad0huV1o5ME10WmRGZnVMdUpoSUx1T01BMmRIbC1ha2JJbThlSHF6cW4tTjNEWUUySWhNbnMxTWF6SnpZRGhTQWVhRk5nTjJMLUIyWjdnbXBjbEFmQzNqVlpXWHBDMWExRW1SR2xqNkMyVkhkX3ZXWHBmd9IB6gFBVV95cUxPT3I5X2JXRjAwcS1RODBubERKNkFnd2xITk82WjNja1AtbWppWTFFQnE2aVc5QUNKaWM2eWVCOHF1T18zejFRUXpQTDh0TlcxN19aODM3MERhb3FrWHV4b3hWcHEwaGhwZ1Y0V29zMjJPVGYzR0l5MER2RE8wMXpYczhJVGRSRGtEdnltbFFkdjRtNUFxYzdlTmdPeVRueGlqVy1GcUJhNmpsaE1QZDZobUF5dVZKcm1NQXRXQmhNVkxiajRUc2x1RXJDcjBEYkZjdjFSbHM4T2RYeGVUaktIeFM5bDZtSWp2SFE?oc=5",
-        "snippet": "Indian steel mills face margin squeeze as global coking coal prices rise &nbsp;&nbsp; BusinessLine"
+        "title": "India’s Steel Output Sustains Growth in May 2026 - India's Top Construction magazine | construction industry magazines",
+        "publisher": "",
+        "date": "June 5, 2026",
+        "url": "https://www.epcworld.in/indias-steel-output-sustains-growth-in-may-2026/",
+        "snippet": "India’s steel industry maintained strong momentum in May 2026, driven by rising production, robust demand, capacity expansion, and infrastructure-led growth"
       },
       {
-        "title": "Blue Energy Motors LNG Trucks Deployed for JSW Steel Operations - Maritime Gateway",
-        "publisher": "Maritime Gateway",
-        "date": "Wed, 19 Aug 2026 02:48:46 GMT",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMZHVSUFplLUY1N3o2OUx1TzlIcWlMbGRTUGdqSVg5b2IwUkE1bjc3TE9kaGltV1pCb210TlZBc3ZKZFR4bEd1R3JJS2o2WEtnVjZJM2VaT0w2S0hTY0tIb0VUaHZYNVhVd3FJdnBPTmxRRTRWUDlqSmVpa2Q?oc=5",
-        "snippet": "Blue Energy Motors LNG Trucks Deployed for JSW Steel Operations &nbsp;&nbsp; Maritime Gateway"
+        "title": "India's Steel Sector Records Growth (Apr-Jul 2026)—What It Means for Chhattisgarh's Construction Industry - BSSTMX",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://bsstmx.com/2026/08/18/indias-steel-sector-records-growth-apr-jul-2026-what-it-means-for-chhattisgarhs-construction-industry",
+        "snippet": "India’s Steel Sector Records Growth: What It Means for Chhattisgarh’s Construction Industry India’s steel sector recorded strong growth between April and July 2026, according to the latest data released by the Ministry of Steel. Crude steel production touched 56.3 million tonnes, up 2.6% ..."
       },
       {
-        "title": "Bombay Logistics Deploys Blue Energy Motors’ LNG Trucks for JSW Steel Operations in Karnataka - Motorindia",
-        "publisher": "Motorindia",
-        "date": "Wed, 19 Aug 2026 07:33:45 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOGJ0Y3BmLWxxVXg5cVBXZW1oRWk2NVNBQTVSTWx2dEN1U2IxdHptaFN2NFhlNUhsRGZxb19xdnhJcmtuNnhSUElYZnRSaW9ackwxaUxaWEpWVkJEVGQ4dU56WDlMbERQYnBNX3V0Yl9zajliNUdtOE14dThSa3lsckpQd3h0Y2dqOFVaQ2xIbjE0Z0JfeFJXRlZPdXpITWo3alA3eUVJR1hzV1BBdWVLeEc0WVVZZ1dLWXlhWUlOZF9kNlE?oc=5",
-        "snippet": "Bombay Logistics Deploys Blue Energy Motors’ LNG Trucks for JSW Steel Operations in Karnataka &nbsp;&nbsp; Motorindia"
+        "title": "India’s Steel Market Set for Expansion as Consumption Targets 192 MT by 2030 | Business News This Week",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://businessnewsthisweek.com/business/indias-steel-market-set-for-expansion-as-consumption-targets-192-mt-by-2030/",
+        "snippet": "During April-May 2026, finished steel consumption stood at 27.36 MT, up 8.7 per cent compared with the corresponding period of the previous year. The Ministry of Steel attributed the growth to sustained demand from construction, infrastructure and manufacturing sectors. India’s total crude steelmaking capacity ..."
       },
       {
-        "title": "Bombay Logistics flags off Blue Energy Motors LNG Trucks for JSW Steel operations - India Shipping News",
-        "publisher": "India Shipping News",
-        "date": "Wed, 19 Aug 2026 03:58:14 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVFZfbHpZWEpmTGo2SnVoLTc2R2ZhbGxLclFUaU1xTmFtOVFMMVV6NUdKM1RHSkg0ZWRkd21mdm03Mi1yZ2FrVEtFZHZhVmxpaE5CcHZjODJrT1BVWk5WeGlGVTdxV3dEYXpJeEdJel91d3F3QW1veC1wWlFYcmFhaFBjNTl6eHVtM0FRUWZCNEFfSmRmOG1nTk0zTEFpOEJfcG9MX2Vfa1ZNeDNDS1QyMHVNamE4ZzZFQ25TbEZRcw?oc=5",
-        "snippet": "Bombay Logistics flags off Blue Energy Motors LNG Trucks for JSW Steel operations &nbsp;&nbsp; India Shipping News"
+        "title": "Metal",
+        "publisher": "",
+        "date": "1 month ago",
+        "url": "https://news.metal.com/en/newscontent/104021134-smm-analysis-jsw-steels-expansion-pipeline-gathers-pace-as-india-demand-offsets-import-pressures",
+        "snippet": "Higher raw material costs, softer long steel prices and rising imports created near-term headwinds, yet the company remained confident that India's structural steel demand will continue to support growth, backed by capacity expansion, improved raw material security and a richer product mix."
       },
       {
-        "title": "JSW Steel to Lenskart: 5 Nifty 500 stocks near 52-week highs with increasing FII interest - Upstox",
-        "publisher": "Upstox",
-        "date": "Wed, 19 Aug 2026 08:15:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbUs0QVA3Z05fLTBvSlJQYUprUUJ5ZVdBcHFCTkZUSGcyTDV4Z2Q0dzVqRGRRVzRLZDB5WXRtUk8yeVFQTF85YkRoeDJNbE9pYXBqMmQzNzlaTlk2bHdEdlplUlRsSVJBNzdyQVVaX05ZZmpNSnpSSFpkTm9BU2h6alFBSGszX1ZqOXQ5NTZKWTFlQWVPYzg3cmtBRFV6SmNtYi16RUdMN21aWEdIemNzaUtTMEZHX2hkQl9GSEVQSkhnLWtDaUMzUDVmUVdrTDlMUWVQTU9KR1hxS1hBd0dYU0lkcnpwUFdISzZaLWRUeHZoYW1xZUlaUWhSTHFXTG5oLUdCdG9uRXA?oc=5",
-        "snippet": "JSW Steel to Lenskart: 5 Nifty 500 stocks near 52-week highs with increasing FII interest &nbsp;&nbsp; Upstox"
+        "title": "India’s steel consumption to touch 192 MT by 2030",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://thehansindia.com/amp/business/indias-steel-consumption-to-touch-192-mt-by-2030-1110329",
+        "snippet": "The next phase of growth will be driven not only by infrastructure but also by higher-value steel, cleaner production and better management of price risks, according to the Multi Commodity Exchange of India Limited (MCX) report."
       },
       {
-        "title": "SEPC wins ₹854.57 crore order from SAIL for pellet plant package at Burnpur - smallcapspotlight.in",
-        "publisher": "smallcapspotlight.in",
-        "date": "Wed, 19 Aug 2026 04:59:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT0dJTFk1bUcxeWZBcnFxeUF2a3RhVFkyTUJENlIyd1ctZXVlSUZZQ05aSEh1Y09yUVF5dEVlb1RyVEh4dlRLUE1iZUpFSkdpRFJ4dUdYemdWX2ZWN0FIMUthYy16eGRfN0szVUJ5WVBSQ2FVSWZHMDJrdE1OUTJBOUNOMEZLTmcxbVBRR19mSXlyVmhrMXAxOHB4Z202anEzUHhYcU5pQXgyS3M3VEdSVnhEMTVPUkUyUHc?oc=5",
-        "snippet": "SEPC wins ₹854.57 crore order from SAIL for pellet plant package at Burnpur &nbsp;&nbsp; smallcapspotlight.in"
+        "title": "Indian steelmakers ramp up capacity as strong domestic demand drives investments: Moody’s, ETManufacturing",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://manufacturing.economictimes.indiatimes.com/news/industry/indian-steelmakers-ramp-up-capacity-as-strong-domestic-demand-drives-investments-moodys/133212094",
+        "snippet": "Growth-led expansion could raise execution and financial risks for Tata Steel, JSW Steel and other Asian producers, ratings agency says."
       },
       {
-        "title": "Steel Authority of India Shares Gain Over 2% in Today's Trade; Bullish Sentiment Prevails - Moneycontrol.com",
-        "publisher": "Moneycontrol.com",
-        "date": "Wed, 19 Aug 2026 08:53:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUE9fdmtCU1RUQWNUa3lLTDk1UzM5SnVIRFctVjhVdVN3aDltdlJ5Mk5hbk8wZDZJM05hcjhnWGxySmdlWUMyUF9Oa0lzZTROb196bjhHOVQtdkhuLTlGSHk4THhsR2swRURpM2JYMUpIS1YzdVhrbjZ6dmhKelF4QUhIcFVwd0V2eUN6R0xzemNLWTQybzMxSDh6TnU0RzFpZUdIWlQ0NExJeEFDWnZOZTdhRHBoNjVXZl9fQ2RhTlI4VHM2eWpQckUxalVrdktGbjE4V081bmFmMnBwUHdYR3NLWG9QQXc3T3lid1I2NFg3TUN2cHMxRFFCNGhIQdIB_gFBVV95cUxNUE9fdmtCU1RUQWNUa3lLTDk1UzM5SnVIRFctVjhVdVN3aDltdlJ5Mk5hbk8wZDZJM05hcjhnWGxySmdlWUMyUF9Oa0lzZTROb196bjhHOVQtdkhuLTlGSHk4THhsR2swRURpM2JYMUpIS1YzdVhrbjZ6dmhKelF4QUhIcFVwd0V2eUN6R0xzemNLWTQybzMxSDh6TnU0RzFpZUdIWlQ0NExJeEFDWnZOZTdhRHBoNjVXZl9fQ2RhTlI4VHM2eWpQckUxalVrdktGbjE4V081bmFmMnBwUHdYR3NLWG9QQXc3T3lid1I2NFg3TUN2cHMxRFFCNGhIQQ?oc=5",
-        "snippet": "Steel Authority of India Shares Gain Over 2% in Today's Trade; Bullish Sentiment Prevails &nbsp;&nbsp; Moneycontrol.com"
+        "title": "India Steel Market Outlook 2026-2034: Size, Industry Share, Growth Trends & Forecast Report",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://openpr.com/news/4603251/india-steel-market-outlook-2026-2034-size-industry-share",
+        "snippet": "In January 2026, JSW Steel announced plans to accelerate capacity expansion to 50 million tonnes annually by 2030, with an estimated investment of over ₹2 lakh crore across its Dolvi plant in Maharashtra and a new greenfield project in Odisha - among the largest single investments in India's ..."
+      },
+      {
+        "title": "April–July 2026: India’s Steel Sector Exhibits Growth Trend | IBEF",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://ibef.org/news/april-july-2026-india-s-steel-sector-exhibits-growth-trend",
+        "snippet": "India's steel sector maintained steady growth during April–July FY27, with higher production, domestic consumption, exports and sustainability initiatives strengthening the country's steel manufacturing ecosystem."
+      },
+      {
+        "title": "India Steel Production Rises in July 2026; April–July FY27 Growth Remains Strong",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://chartforest.com/india-steel-production-july-2026/",
+        "snippet": "India Steel Production July 2026 increased as consumption and exports remained strong. Explore July performance and April–July FY27 steel production trends."
+      },
+      {
+        "title": "India's steelmaking capacity reaches 222 MTPA, moves closer to 300 MTPA target by 2030",
+        "publisher": "",
+        "date": "1 month ago",
+        "url": "https://infra.economictimes.indiatimes.com/amp/news/construction/indias-steelmaking-capacity-reaches-222-mtpa-nears-300-mtpa-target/132602720",
+        "snippet": "India's crude steelmaking capacity has hit 222 MTPA as of June 2026, progressing toward a target of 300 MTPA by 2030, driven by investments and infrastructure improvements in the steel sector."
+      },
+      {
+        "title": "Tata Steel approves $4bn capacity expansion at subsidiary By Investing.com",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.investing.com/news/company-news/tata-steel-approves-4bn-capacity-expansion-at-subsidiary-93CH-4825098",
+        "snippet": "The expansion will increase the company’s long products portfolio, particularly in the retail segment. Neelachal Ispat Nigam Limited is currently undergoing amalgamation with Tata Steel Limited. The board also approved the audited standalone and unaudited consolidated financial results for the quarter ended June 30, 2026. The financial information was provided in accordance with Securities and Exchange Board of India ..."
+      },
+      {
+        "title": "India increased steel exports by 27% y/y in 1H2026",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://gmk.center/en/news/india-increased-steel-exports-by-27-y-y-in-1h2026/amp",
+        "snippet": "The country’s steelmakers are expanding their export markets amid protective measures by the EU and the US"
       },
       {
         "title": "Indian steel mills face margin squeeze as global coking coal prices rise - The Economic Times",
-        "publisher": "The Economic Times",
-        "date": "Wed, 19 Aug 2026 07:40:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVWhlWWNLdzlhTTBobnR3TVFSNkpUTGpxWnNXc1hqN2R5ZmpxOWFkTUZoYWFCWHR1WHhIbXdRNjV6dDhYQ2ZVOHU3UVJ1WnVDdE53aGJIR2VibC1mbjdDNWk4WENfWkk1ajgyaXRzWU8yWm9jejBhNExPbUNvc3ltNlJRWDdNOG5TdVotT3UyY1JlRUZubFZIN08yV0prWEtSYU04T0lnLVdmdEhYYUk0TXowdUlhS1hfNEo5RjZHNW9UODNXd0hyVVJrbUtNZGxUcTEwZTNXeV9oMWtWVWg5SHFKTDdscWVuVGN4OFpyOWdCUdIB8gFBVV95cUxNVWhlWWNLdzlhTTBobnR3TVFSNkpUTGpxWnNXc1hqN2R5ZmpxOWFkTUZoYWFCWHR1WHhIbXdRNjV6dDhYQ2ZVOHU3UVJ1WnVDdE53aGJIR2VibC1mbjdDNWk4WENfWkk1ajgyaXRzWU8yWm9jejBhNExPbUNvc3ltNlJRWDdNOG5TdVotT3UyY1JlRUZubFZIN08yV0prWEtSYU04T0lnLVdmdEhYYUk0TXowdUlhS1hfNEo5RjZHNW9UODNXd0hyVVJrbUtNZGxUcTEwZTNXeV9oMWtWVWg5SHFKTDdscWVuVGN4OFpyOWdCUQ?oc=5",
-        "snippet": "Indian steel mills face margin squeeze as global coking coal prices rise &nbsp;&nbsp; The Economic Times"
-      },
-      {
-        "title": "SAIL Shares Rise 2% as Profit Soars; Company Eyes FPO/QIP Plan - Whalesbook",
-        "publisher": "Whalesbook",
-        "date": "Wed, 19 Aug 2026 09:11:49 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQWpnb0o2UU91d1p2ZEp6WmcwZFRGU0pRWS1pTjFES0xSMTg0YWF5NnRHTTZmNERXSG96TlZEYkNwcFhQejNDR1Q0aE1YQld4Qk5vM1BMcWdQNS1yTGxHbHNJRUFrQmxPMU5qdm5zRVVTT2xKck9Nb25XQTZCeWYtNWNQQ1BYcmZyd3I2eEpLaDBxcG4ydkdoM1JBRXFaS013Z1VZaGdsMkFjb3N6Nng4dEJtazZFenhubWc5eDM0b25fNWpUWFNGUWtKdE5TeGQtSmZKenhXV1VoT0xHV3pvN1RnVWRVcUdNd0x5Sg?oc=5",
-        "snippet": "SAIL Shares Rise 2% as Profit Soars; Company Eyes FPO/QIP Plan &nbsp;&nbsp; Whalesbook"
-      },
-      {
-        "title": "Metal sector stocks fall today, August 19: Coal India declines 1.89%, NALCO down 1.66%, NALCO falls 1.66% - Business Upturn",
-        "publisher": "Business Upturn",
-        "date": "Wed, 19 Aug 2026 04:59:13 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcXduYUlheVFfcS10YVVyYS1EYzJYZUJWc0M5Tjh0ejZsNkxPdnhMenZKZUx4b3RIVzRzbEZJbnBmY1ZZSGxGUDFPSEhtNkpqU1lmMzdKZkN1cWdyMFVHY0FHUFhuV092V29DOE1wcEZxTkl0dzJMR21lZW9PcEd3Q3ZyVndrZjdoa0hmYllZRTVLSlYydEdaRm96cklObjhYWE5vbmZoeklqa0Q5ZmhXcUlUNk1QcTJqZW9YX2NJYnlDYzBqb0dhZFNEaGdZcXFuRzBOSUVBQ1lLMlg3LUJUbEpneEVIUQ?oc=5",
-        "snippet": "Metal sector stocks fall today, August 19: Coal India declines 1.89%, NALCO down 1.66%, NALCO falls 1.66% &nbsp;&nbsp; Business Upturn"
-      },
-      {
-        "title": "India's July crude oil imports rise over 9% month-on-month",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Wed, 19 Aug 2026 15:57:37 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indias-july-crude-oil-imports-rise-over-9-month-on-month/articleshow/133344744.cms",
-        "snippet": "India crude imports: On an annual basis, crude oil imports were up 13%, from 18.89 million tons in July last ‌year, data ⁠from ⁠the Petroleum Planning and Analysis Cell showed."
-      },
-      {
-        "title": "Indian steel mills face margin squeeze as global coking coal prices rise",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Wed, 19 Aug 2026 13:10:26 +0530",
+        "publisher": "",
+        "date": "8 hours ago",
         "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/indian-steel-mills-face-margin-squeeze-as-global-coking-coal-prices-rise/articleshow/133341259.cms",
-        "snippet": "Indian steelmakers face margin pressure from higher coking coal prices. Supply disruptions in Australia and China raise steelmaking costs significantly. These increased costs could delay capacity expansion plans for mills. Higher import demand also contributes to rising transport and freight expense"
+        "snippet": "Indian steel mills face margin ... Aug 19, 2026, 01:10:00 PM IST ... Indian steelmakers face margin pressure from higher coking coal prices. Supply disruptions in Australia and China raise steelmaking costs significantly. These increased costs could delay capacity expansion plans for ..."
       },
       {
-        "title": "Indian steel mills face margin squeeze as global coking coal prices rise - Reuters",
-        "publisher": "Reuters",
-        "date": "Wed, 19 Aug 2026 07:25:45 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZWZBZEdfTUhtUGtsMUxVNDBycnZ0SzczRThRSU9TOEk2SzQ5MFRYU0wzX1BMWnJ2U18zUHF5RW52RTY0dXpfSldYU1BTbjRoM2d4dDgyVHRNZGxPX0NyR19BazBvMkVHU3gwYTdkLVJjV2dXQ0hYeTBYMWJaemViODJqcEY1NW5TQ216M0gxdklJemNoY090QkVzbFBLQlhJMkFSbl90cDhuczE5d0tvMkxQUVdYa0Jp?oc=5",
-        "snippet": "Indian steel mills face margin squeeze as global coking coal prices rise &nbsp;&nbsp; Reuters"
+        "title": "Tata Steel's $3.5 Billion India Expansion: 2026 Strategy Explained",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://discoveryalert.com.au/tata-steel-india-expansion-kalinganagar-odisha-2026/",
+        "snippet": "Tata Steel's $3.5B India expansion adds 4.8 MTPA at Kalinganagar, targeting 35–40 MTPA by 2030."
       },
       {
-        "title": "The Libyan steel market: a temporary improvement - GMK Center",
-        "publisher": "GMK Center",
-        "date": "Wed, 19 Aug 2026 06:20:20 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORXRfSkdUWU50WF9tbmk3Q0RFWVZ6S2tySDctY3JDTnBuZlZqM2FlNmtJMk5nWUM0Uy1mQjBKRk5makRkRmJZN1BrNTYyM1V1aklMakZ6d29Lc1E1TUFtY0daNkpHTTNvRlU5LWRFaHNkSEtOaXYwdkNOZGVsYVJpVk1n0gGHAUFVX3lxTE00SkVBOXV0SDRkOHlSYlpRMTM0Q1JKSmRGV2hqVlRMRjZ3UWRNVUFjTXdlXy1EQjRTb3drcFJld0tXVnZSU0ZfZFlRQ1RUb0sxdmdHZ2xMYmo3TXZPY3NvWnVfV2V6YndJeTVIOFpjMndIeFhaWDNyMVZTMV9LNGl5cEcwclJIRQ?oc=5",
-        "snippet": "The Libyan steel market: a temporary improvement &nbsp;&nbsp; GMK Center"
+        "title": "India's Steel Industry Maintains Growth Momentum During April–July 2026 - IBG News",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://ibgnews.com/2026/08/06/indias-steel-industry-maintains-growth-momentum-during-april-july-2026",
+        "snippet": "India's Steel Industry Maintains Growth Momentum During April–July 2026 By Suman MunshiChief Editor, IBG NEWS New Delhi, August 6, 2026: India's steel sector continued to demonstrate steady growth during the first four months of the financial year 2026–27, with higher production, stronger ..."
       },
       {
-        "title": "CCI approves Tata Steel's proposal to acquire additional 23 pc stake in TMILL - legal.economictimes.indiatimes.com",
-        "publisher": "legal.economictimes.indiatimes.com",
-        "date": "Tue, 18 Aug 2026 17:40:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMk96RmV4T2UzZW5QMUxaZk5HMnRhdnpVMkstQ3NaS2pFWl9TbUFiMUtNSGc0RWdESU1HZEZrZ3dtTVZJYk1XdWszWHNTR241US1ucHYyc0ZsUWVZR1ItMUh2REI0a1kwYkpGWVVMTVVHYTVQQ1F1dU5KcjRhZ3BLbERrS3VsczJIVE1Qd1E3bnFjaXVfbnh1UnAxT2lJWHB4RzhCQTJ0SU5zVVE5N1VDNnVORkttaFZhMW1PVXVISllVc3J0YV9YYTg3OXZWeDdNcmg1cWhJTzFkSHVaQ1BhczVTeEhneHhv0gHuAUFVX3lxTFBIbmRXN2NiVlBoVHg4cERUUzVsMmpDdzBpTFRJa0NmUkc2RjVwQkFKc0JXdEF6UzkwaGtxQ1p1ak1ud29Zc0NTR0MtNElmQUxjUEs2by10V1B5SEZRRHdZeHdiazNGeTFISFQxa2o5UDhoWGI5d2VHdnh5dWh1cm52dTJya0s3eXBtZEZGTTBZWG9DdlNObmxzS3MxYUJEakVtN1JfeGY1Z0lpQXIzb3pickdvc2ZYZ3ppdG10T2U5NXM3WnVQX0pXWDFRMmREVDhZU203a3BSQ19UbTNsWERlTHlLYU9TYUxWWWFDV0E?oc=5",
-        "snippet": "CCI approves Tata Steel's proposal to acquire additional 23 pc stake in TMILL &nbsp;&nbsp; legal.economictimes.indiatimes.com"
+        "title": "India Steel Market to Reach 273.88 Million Tons by 2031, Driven by Infrastructure Spending, Capacity Expansion, and Demand for Advanced Steel Grades",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.barchart.com/story/news/3791349/india-steel-market-to-reach-273-88-million-tons-by-2031-driven-by-infrastructure-spending-capacity-expansion-and-demand-for-advanced-steel-grades",
+        "snippet": "\"India Steel Market\"Mordor Intelligence has published a new report on the “India Steel Market,” offering a comprehensive analysis of trends, growth drivers, and future projections.The India steel market size is projected to grow from 177.03 million tons in 2026 to 273.88 million tons by ..."
       },
       {
-        "title": "Interarch Secures ₹128 Crore Order For Pre-engineered Steel Building Project From FMCG Major - Sahi",
-        "publisher": "Sahi",
-        "date": "Wed, 19 Aug 2026 00:52:34 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdkQtRndMTUhKUTRNLXZINEZZd2RzN2EzbFh1NVZYbVgxUUluZ1BTRzFqcWhxV3ZzeFhCTzNHVlB6NEZjemM0Zjd3aU9fSXdjSGdHSndxQVpaUGZ5NGZVSzFOU3JSMEVjOG43ZzF2QmZtZ1VvbkhQbzRfU0RsQ3JHeVJnZTgwOGttekxEbGx5TVB1dVdDZjU2SGlJOTVGdHVQSGdZRENsTms1c3l6UzBpazB0M19VMERibUgzWHU5T011SG8tOFIyb1F3?oc=5",
-        "snippet": "Interarch Secures ₹128 Crore Order For Pre-engineered Steel Building Project From FMCG Major &nbsp;&nbsp; Sahi"
+        "title": "Tata Steel Bets Big on India Growth with ₹33,873 Crore NINL Expansion to 6.2 MTPA Steelmaking Capacity Near Kalinganagar",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://fortuneindia.com/business-news/tata-steel-to-invest-33873-crore-to-expand-neelachal-ispat-nigam-into-a-62-mtpa-steel-hub/151270",
+        "snippet": "Tata Steel will invest ₹33,873 crore to expand Neelachal Ispat Nigam Ltd in Odisha into a 6.2 MTPA steel hub, strengthening its long products strategy. Learn how the NINL expansion, strong EBITDA margins, and planned merger with Tata Steel support growth, efficiency and sustainable steelmaking ..."
       },
       {
-        "title": "G Parameshwara writes to CM, seeks rollback of Mines Bill - newindianexpress.com",
-        "publisher": "newindianexpress.com",
-        "date": "Wed, 19 Aug 2026 02:07:10 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2xMbW0zOWdENFVGQ2xPNDZfb09pbDkwY3Zic3Z2amtab1EzMExDTXBrWHo4R255WmVmZ0V0Y2s3ZDVqc0JveHIzLV84THQxWWhXXy1xS3RJTG8xbE56Zl9XR21GSEZyQlkzZjJJOVdWU1NqOWV3TDFRRU5KaWh1RlBBenBJZGx2cHRjdmtfRy1HTUFMd05WTUtWdmdyUXg4UllOOUhJVlRubHQ1VWlaTUNMcXp5QWlqTFHSAccBQVVfeXFMTUVVTmJtMlIyNjljdC1rb01oREpLeGFzN1BuWTZuWk40YzdmYWRIanpqN2RuMDA2ZnoxZFRYM1RzM0VlcV9VclRZNURGQXIxMm81cHRIaDZsX3lLeEZvNFA0QVRmZUdGX242Q1daRTdlN2pVdzJFUWtSd3ZSalQ0NnRKdC11WFdVNHJZb2tFRVRnNkZ4NEs1b25tYjZzR2NkX3pQbE1LMHRrZWkyTnp0QUtiWUdUSGd2VnRTeWtsRXZtcHBFSDAwWQ?oc=5",
-        "snippet": "G Parameshwara writes to CM, seeks rollback of Mines Bill &nbsp;&nbsp; newindianexpress.com"
+        "title": "India's Steel Expansion Could Strengthen Long-Term Met Coal Demand",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://metcoalproducers.com/post/india-steel-expansion-could-strengthen-long-term-met-coal-demand",
+        "snippet": "Attribution: Steel Authority of India Limited (GODL-India)India continues to emerge as one of the most important long-term markets to watch for metallurgical coal producers as the country expands steelmaking capacity and domestic steel consumption.India's Ministry of Steel reported that finished ..."
       },
       {
-        "title": "Indian refiners face crude cost surge as Gulf premiums rise, Russian oil discounts vanish",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Wed, 19 Aug 2026 05:30:00 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-refiners-face-crude-cost-surge-as-gulf-premiums-rise-russian-oil-discounts-vanish/articleshow/133330603.cms",
-        "snippet": "Indian refiners are facing a sharp rise in crude procurement costs as tightening physical supplies push Gulf and West African grades to higher premiums. Russian oil discounts have largely disappeared, while Venezuelan discounts have narrowed. Refiners are turning to costlier spot markets and distant"
+        "title": "JSW Steel’s July crude steel output rises 3% YoY; India capacity utilisation at 87% - Shanghai Metals Market (SMM)",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://news.metal.com/newscontent/104051939-jsw-steel%E2%80%99s-july-crude-steel-output-rises-3-yoy-india-capacity-utilisation-at-87",
+        "snippet": "JSW Steel’s consolidated crude steel production rose 3% year on year to 2.402 million tonnes in July 2026, while output from its Indian operations increased 4% to 2.339 million tonnes. Capacity utilisation at its Indian operations stood at 87%. The company said the upgraded Blast Furnace No."
       },
       {
-        "title": "Interarch Building Solutions Secures ₹128 Crore Pre-Engineered Steel Building Contract From FMCG Major - Sahi",
-        "publisher": "Sahi",
-        "date": "Tue, 18 Aug 2026 14:34:32 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPel9CbUItZThZRHNFT1l1RGRHT09oYW5RcWtJU2RuUDBlaW93bDJrWXZYRnB3SE9nMnFSUlVGN3oxV19nc0szUjZERTZ4V3BOSTcxSFJZcDNDZmZSTWdhaDZCSlhVdDdjMHNkQVNaX1JIWkJhUjc3d3g4V1RFTGtmalJvcnJ4QkJrOVAtdHdlV3NfLTNrT0dIWnlfZ2pTekt3YW9XeEN5YXRsZkEzNUJULTFHenRXVnhYZlBfUmlZeUlGUHFjUW85SDd6amhkY2hEd2hYSGpfNA?oc=5",
-        "snippet": "Interarch Building Solutions Secures ₹128 Crore Pre-Engineered Steel Building Contract From FMCG Major &nbsp;&nbsp; Sahi"
+        "title": "India's steel industry continues expanding toward its 300 million ton capacity target",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.steelradar.com/en/haber/indias-steel-industry-continues-expanding-toward-its-300-million-ton-capacity-target/",
+        "snippet": "Overall, we expect both finished ... year 2026. However, steel prices have not been reflective of the high sustained steel demand, and which have been growing every year by 12-15 million tons. This is because capacity addition and production (or supply) have also increased simultaneously and continuously. So, the demand-supply balance has never titled towards excess demand. Moreover, supply is usually lumped, as capacity expansion is also ..."
       },
       {
-        "title": "CCI approves Tata Steel's proposal to acquire additional 23 pc stake in TMILL - ETLegalWorld.com",
-        "publisher": "ETLegalWorld.com",
-        "date": "Tue, 18 Aug 2026 17:40:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSG5kVzdjYlZQaFR4OHBEVFM1bDJqQ3cwaUxUSWtDZlJHNkY1cEJBSnNCV3RBelM5MGhrcUNadWpNbndvWXNDU0dDLTRJZkFMY1BLNm8tdFdQeUhGUUR3WXh3YmszRnkxSEhUMWtqOVA4aFhiOXdlR3Z4eXVodXJudnUycmtLN3lwbWRGRk0wWVhvQ3ZTTm5sc0tzMWFCRGpFbTdSX3hmNWdJaUFyM296YnJHb3NmWGd6aXRtdE9lOTVzN1p1UF9KV1gxUTJkRFQ4WVNtN2twUkNfVG0zbFhEZUx5S2FPU2FMVllhQ1dB0gHuAUFVX3lxTFBIbmRXN2NiVlBoVHg4cERUUzVsMmpDdzBpTFRJa0NmUkc2RjVwQkFKc0JXdEF6UzkwaGtxQ1p1ak1ud29Zc0NTR0MtNElmQUxjUEs2by10V1B5SEZRRHdZeHdiazNGeTFISFQxa2o5UDhoWGI5d2VHdnh5dWh1cm52dTJya0s3eXBtZEZGTTBZWG9DdlNObmxzS3MxYUJEakVtN1JfeGY1Z0lpQXIzb3pickdvc2ZYZ3ppdG10T2U5NXM3WnVQX0pXWDFRMmREVDhZU203a3BSQ19UbTNsWERlTHlLYU9TYUxWWWFDV0E?oc=5",
-        "snippet": "CCI approves Tata Steel's proposal to acquire additional 23 pc stake in TMILL &nbsp;&nbsp; ETLegalWorld.com"
+        "title": "Tata Steel Share Price, Tata Steel Stock Price, Tata Steel Ltd. Stock Price, Share Price, Live BSE/NSE, Tata Steel Ltd. Bids Offers. Buy/Sell Tata Steel Ltd. news & tips, & F&O Quotes, NSE/BSE Forecast News and Live Quotes - Moneycontrol.com",
+        "publisher": "",
+        "date": "20 hours ago",
+        "url": "https://www.moneycontrol.com/india/stockpricequote/ironsteel/tatasteel/TIS",
+        "snippet": "Experts & Broker view also get the Tata Steel Ltd. buy/sell tips detailed news, announcements, Forecasts, Analysts, Valuation, Earning forecasts, Estimates, Recommendations, Analysts Ratings, financial report, company information, annual report, balance sheet, profit & loss account, results and ..."
       },
       {
-        "title": "CCI approves Tata Steel's proposal to acquire additional 23% stake in TMILL - BusinessLine",
-        "publisher": "BusinessLine",
-        "date": "Tue, 18 Aug 2026 16:17:39 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR3lfZkhXTFVEajZ2XzJPdXprN3JZd25EOU5QT3Q3ZmNXT1hFNEROTThfZWozWHVTeEJKVlgtNWk4OG0xa1pGNWFuRE9PQ0c4SWNOQjFiVFM5cnpSZ2RWc3ZRYkFMdGlQZU9PR1pvaDd3QUtOaENGZVpmaDJkSktRVWd5NW9nN3lveUkxNzBna2ZfTlB3aVhjeXBGUnF2aWhRLUUwcWowZkZBa043Um1KdjE0dXpzVXZ0NlVVUGVaMEtOOXphcGVpeWNiNGNBVUg3MEVfUTNLUdIB3gFBVV95cUxNX29WdWJYTUNMT1Y0cU5SSThUV05Tb2ZqMnNLbEVDNmRVNHpNYlNjMG9fdm1jMHlUSHg1QzdhVFFHTjd6WFRMWWtuejRBRWdVV1dsQWg5cjVESDhFYWV4X25qd3A1S3QzR21tTHdSVmRFdi04cnRGUUVSdTdySGo1RzNlOTdIaXNUUkJVSlQ4Qlp0U2dQYTBSQURsYWU5VDhmREw1T0Q2Y21yS1dLQXBac2RrUnF6VHVkNjBqVW01NjR0MFdlMjZnbF84UW9QdDF6NzNZTjRsT2laT1l5aEE?oc=5",
-        "snippet": "CCI approves Tata Steel's proposal to acquire additional 23% stake in TMILL &nbsp;&nbsp; BusinessLine"
+        "title": "Tata Steel's Q1 net profit jumps 12% to Rs 2,318 crore, revenue up 14% on strong steel prices- Moneycontrol.com",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.moneycontrol.com/news/business/earnings/tata-steel-s-q1-net-profit-jumps-12-to-rs-2-318-crore-revenue-up-14-13989276.html",
+        "snippet": "The company's board also approved a 4.8 MTPA expansion of steelmaking capacity at Neelachal Ispat Nigam Ltd, involving an estimated capital expenditure of Rs 33,873 crore"
       },
       {
-        "title": "Bombay Logistics flags off Blue Energy Motors LNG Trucks for JSW Steel operations - motownindia.com",
-        "publisher": "motownindia.com",
-        "date": "Tue, 18 Aug 2026 16:34:37 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeDhUNlMzWDZranNRUGRuOFNZNk9vbUFkMmxtejc0bXRXdlpoaVR1RUgxdXVmYzgtZlhpM0dSU2xCUERiMUJHM3lCR2xQelRSTWxPUmNPQm5uME1BQ19XMmc2VXNpenpmZXYwLTlPQUZUclhueGFtMUM5YVhwdkxTQ3g2c0lGMkROWG9ZcV9oVzRvcExtcDE4eDFhZ0xETWYtWlZwb3A1NmV5ME4tSGw2b0tYVjJ1Y3JfbHRyX2tNbWF6THhQOXEtOXdBM0RwOWRmdWpDN2EwdEQyaERHdmRpU0c5d09KcF95a2Jxa1Q4RFJCU1k?oc=5",
-        "snippet": "Bombay Logistics flags off Blue Energy Motors LNG Trucks for JSW Steel operations &nbsp;&nbsp; motownindia.com"
+        "title": "Tata Steel shares rise 1.6% as Q1 results beat estimates - The HinduBusinessLine",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.thehindubusinessline.com/markets/stock-markets/tata-steel-shares-rise-16-as-q1-results-beat-india-estimates-analysts-split-on-outlook/article71289940.ece",
+        "snippet": "Tata Steel shares rise 1.6% post Q1 results, exceeding estimates amid mixed analyst outlook on European operations."
       },
       {
-        "title": "Bombay Logistics deploys Blue Energy Motors LNG trucks at JSW Steel operations - BusinessLine",
-        "publisher": "BusinessLine",
-        "date": "Tue, 18 Aug 2026 15:36:41 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQN0dJM0Y5Q0pfWFJTazM1dWd5dTVnMzI2WDBSOGxWRVhuX0xPUk00N1FjdXB1dm5aZjFqOEtrcDRJT0FmVUt1VFVqZjNaS3owTTEycFMyeGhKOTdMQkQ0SjY2VDVuZTRFU2pIcHFlbkNHaVVyZTRGbHhlXzZwZGhQUzJvVzMza05NNnJIc081d3VXTVBsMmdVUjJ6RGFFV0Zpc2w2ekJuLUk5eDdZVG12Z2Fnd1M2X05VZWRnemQtR3R6RlVqRkNRa2FZUEpMdlFacFV0Wk83Y3NNbl9ubUY5aWJ6QnR5RHZK0gHvAUFVX3lxTE1PMVR2THZ3ZlBGb0lVaGdCNXhBVDJZdDQyOGpRMWtwMjRTbHlWNGJjaWVLSndsa3Q3b1VKeEJHUk1uOS1qTl81SlM1MW9KRjZ0emIyQk1jellhQ2hGUE5Tam9JUjIxeUR1QjNveDFJZzJZRURReWUzaDM4Q1dqY21FUm8zajNuVE1HUm5QNXZEX3FpYzVwNVEtTGJvd0ZjME9Ec1liVC1Xb1pzQVE4bzRXRnNoQ256bE51ZTJZUUlJaXBYTDVaTU1VZ1FsWHNaemlCN0JVMzhULVJIcWtxRkl1ek0tek1rWThCWXJIMkZN?oc=5",
-        "snippet": "Bombay Logistics deploys Blue Energy Motors LNG trucks at JSW Steel operations &nbsp;&nbsp; BusinessLine"
+        "title": "Tata Steel Q1 Results Today: Time, Dividend, Earnings Call, Key Expectations, Share Price Performance",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.ndtvprofit.com/markets/tata-steel-q1-results-today-time-dividend-earnings-call-key-expectations-share-price-performance-11837182",
+        "snippet": "Tata Steel will announce its Q1 FY27 results today. Here's the results time, dividend outlook, key expectations, earnings call schedule and more."
       },
       {
-        "title": "Bombay Logistics deploys Blue Energy Motors LNG trucks for JSW steel operations - ET Auto",
-        "publisher": "ET Auto",
-        "date": "Tue, 18 Aug 2026 12:15:47 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOa29xNmRrRERlbkZ4Z1F6RHM1SFZvWHMyd29KSFM0cjcyMzdzMmdnVEE4SmladVFZbGV0MDVXRnI3bkhSeUJNa283czZscGZ3VHFxcGFLU0VHOWFkcEZKaTJaMjBEOUh4VDUwLVo3M1BuWG9BNE8wX0c5RGZMX09qWTBLelhnZzlfSkNXR1hqY0stMjhKOTJVekdWSEFLRW54TjYzRkdaTnlCUVZUNnJpV2VMYnRwNXJNYkdXZzZxNEI3MnN3cTVHTDRIdy1MelA5Wm1YNzI0Zkd1UEQ0SDVCdlM3RTRHM05lUTBV0gHwAUFVX3lxTE9fSk5aSEtkbnd6VTdzU0pFMGVOV213UEx4SnIydnFNWXJlSm9ZTm03YWV3OTFaUGMyYmRMa0dkaFZGSDVzenFXSk5QbTB1eDJxejV2UzRVdTRER1ZzV3ZkRFc5Q01mVXhVdGk3SU5QSXpkSWhEa2cxSDR6eGVfZHFjUE5mNExFdlV3SGhEcklxUDBUV0IxWWlFTUsxTGRxSWRucktCTXF6Rm5Sd09pQjhfcG5vSFBlY05WRzA1WXhvQTdBVnRLdGtYckhiaWgtZUJVRE80U1lCTnRCSTNrMWFnNUlPYzhtQXdGVHY0WW0tZw?oc=5",
-        "snippet": "Bombay Logistics deploys Blue Energy Motors LNG trucks for JSW steel operations &nbsp;&nbsp; ET Auto"
+        "title": "Tata Steel Q1 Results: Profit Slumps 21% As One-Time Loss Weighs; Revenue Down 4%",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.ndtvprofit.com/business/tata-steel-q1-results-profit-slumps-21-as-one-time-loss-weighs-revenue-down-4-11844160",
+        "snippet": "Consolidated profit misses estimates as a one-time loss dents earnings, though revenue and operating profit beat Street expectations."
       },
       {
-        "title": "5 Best Steel Stocks in India to Watch in 2026 - Univest",
-        "publisher": "Univest",
-        "date": "Tue, 18 Aug 2026 11:38:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGtNYmtkMWlWUU9UQWJFOGhRS3hrdHo1MlpnUG14TWtmLTVQOEItemc1akFNbFE3OXAyTkxHZGs1c3EteDN0bDJWcFZBcVRUc0xsVUc1RDlSNktUbU1SRlVibHlkZw?oc=5",
-        "snippet": "5 Best Steel Stocks in India to Watch in 2026 &nbsp;&nbsp; Univest"
+        "title": "Tata Steel Share Price Highlights: Tata Steel Stock Price History - The Economic Times",
+        "publisher": "",
+        "date": "6 days ago",
+        "url": "https://m.economictimes.com/markets/stocks/stock-liveblog/tata-steel-share-price-today-live-updates-14-aug-2026/liveblog/133227656.cms",
+        "snippet": "Discover the Tata Steel Stock Liveblog, your ultimate resource for real-time updates and insightful analysis on a prominent stock. Keep track of Tata Steel with the latest details, including: Last traded price 183.5, Market capitalization: 229072.8, Volume: 16131505, Price-to-earnings ratio ..."
       },
       {
-        "title": "NMDC shares decline for 2nd day post weak earnings; is recovery possible in Q2? - Dailyhunt",
-        "publisher": "Dailyhunt",
-        "date": "Tue, 18 Aug 2026 12:13:16 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMkRzXzB3YkVwOEl4U3pHaTRPMjdtS2xDSjljczBMd2NzaktiejBEMUEyRWNHNktlLVo4UnQwejRVenhVZHZRX3Q0ZnNNc1lNOV9rdXN2Zkp5UE9Pc1VqVHZSZXpVaFVDZEY0cG5CdXJXeXAxQTdfTUw4ODdoLUhVT05lalJOa3lyNFduN1J5UTdxU3BrcVQ2OFhDUlBFNWtmVEhmbTRJWXRKUUNGbDVBa1RrdEpGTTdSYzl5TEZGa0p0QkZJTmluTlFRLTVjSUVCZ25XbW1qU0VIcnh6VmRmNFVRUVV3dms1aU5VYmw2bw?oc=5",
-        "snippet": "NMDC shares decline for 2nd day post weak earnings; is recovery possible in Q2? &nbsp;&nbsp; Dailyhunt"
+        "title": "Q1 Results Update: NSE Profit Up 9%, Tata Steel Revenue Dips, NSDL Margins Contract",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-bajaj-finance-vedanta-tata-steel-swiggy-mahindra-mahindra-among-firms-to-announce-earnings-today-july-30-11841612",
+        "snippet": "Q1 Results Live: Track Q1 FY27 earnings live as Bajaj Finance, Vedanta, Tata Steel, Swiggy, Mahindra & Mahindra, IRFC, Mazagon Dock Shipbuilders and 100+ firms announce June quarter results, guidance and key updates."
       },
       {
-        "title": "Tata Steel gets CCI nod to acquire additional 23% stake in TM International Logistics",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Tue, 18 Aug 2026 18:52:26 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/tata-steel-gets-cci-nod-to-acquire-additional-23-stake-in-tm-international-logistics/articleshow/133323860.cms",
-        "snippet": "The Competition Commission of India has approved Tata Steel’s acquisition of an additional 23% stake in TM International Logistics from IQ Martrade. The transaction will raise Tata Steel’s holding to 74%, making it the majority shareholder, while NYK Europe will retain 26%. IQ Martrade will exit the"
+        "title": "Tata Steel Ltd Downgraded to Sell Amid Mixed Financial and Technical Signals",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.marketsmojo.com/news/stock-recommendation/tata-steel-ltd-downgraded-to-sell-amid-mixed-financial-and-technical-signals-4151190",
+        "snippet": "Despite these encouraging short-term results, the company’s long-term growth outlook remains subdued. Operating profit has declined at an annualised rate of -8.63% over the past five years, signalling challenges in sustaining growth momentum. This negative trend weighs heavily on the financial grade and contributes to the cautious investment stance. The return on equity (ROE) is 11.26%, which is respectable but not exceptional for a large-cap steel company. ... Tata ..."
       },
       {
-        "title": "The impact of the CBAM on the Indian steel industry may be less than expected – study - GMK Center",
-        "publisher": "GMK Center",
-        "date": "Tue, 18 Aug 2026 08:31:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYU1mb0YtYnp0OW5xWk8tNlBsc1BONTBHTTZJbmI5akJmb3JwQVhBNERPdlJQa0hxSnVteHltd1EwbjJLSXNOVHk4Qkh0YmZLUTN0UFFHdHdVZ3JTM0JEMERtYnFXbnRKVGprVTR0bGVMVlBYV0JfR2pmd1hFblhYOU8zR1Iyc0Z6MmJCNEluWU51OE00d3lYTWNfYjE1YWdTUTZvZEdFc0hjc1RNUE5TSNIBtgFBVV95cUxNdVhhMDdPWFFaSDAtcWwtcWpuT2Y3VHl2SHYta1NiRm5mcF9jWXh2SzJBY1RTb29YVTEtYVVlM19temJNbWhTWEN6WkdxUzdQLXFsZlVZanBGYW40VlBscWVwVDRidmZMM05PbkQyQTJUV1czZVNqam55RGdwZ2tkOXFLOUtpY1l6WnVMM01McWc3aXBPenJ2ZlVIOFZweFg2c0F5YmFGMEFwTGxJN1gwZWVscHowZw?oc=5",
-        "snippet": "The impact of the CBAM on the Indian steel industry may be less than expected – study &nbsp;&nbsp; GMK Center"
+        "title": "Tata Steel shares rise over 2% as firm's Q1 results beat estimates on improved steel prices- Moneycontrol.com",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.moneycontrol.com/news/business/markets/tata-steel-shares-rise-over-2-as-firm-s-q1-results-beat-estimates-on-improved-steel-prices-13990156.html",
+        "snippet": "The Tata Group company's consolidated net profit rose 11.6% from a year earlier to Rs 2,318 crore in the quarter ended June 30"
       },
       {
-        "title": "Uzbekistan keen to import steel from India to cut logistics costs - BusinessLine",
-        "publisher": "BusinessLine",
-        "date": "Tue, 18 Aug 2026 11:51:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ0RON3RKMjhuZWEtVmU2Y0hhTmFvV0pXZDZ0LWNOQ1I5RVJlY19yWGJadVlSc1VQRDAtRmNfdWs2R01XWTdBd0xCU3lzQmRiRmNiZk5jMHBJWTNWbEk0eGxCWUcxZlJDSjFBYnFhNWZWOVZFS05yV3VOR2FQRm16dXlCLVlRcGgwaW5SMExLX0tvMVNsWWR6eE5TQzZmT3cybUJKdEZSYlpZZThmVEg1dEtzTnBFcHo0YkFKcW93SlRWQ2hyVkxHYXJ1bi1OVXB0VmMwekV3d014d9IB4AFBVV95cUxPM2VPZkt6dG5xMG1uWFpoNEQtWWFHNndiVmx3Y3hzdlVSdjN5WEgxN21uelVacmJzQ2NYTS1GWDRwUVctVzdoNkZKTFdlcjY5Tkh6LWlFMnRZQmRSV1VsVnVNQkV4NmhlWW5oOVhSbllicEVRWDc0ZkJPc2owcVdiRWMzYVFKQ21GOWh5U2V5a3lsOEVBdXRzM2VCbldMcTBxSVdfdWVzTldYdjFxRUY5TkpvMUIxR3pRZWZKS050VHlPMWN3N1lFekd4RjNsTjZZRnl2TUNmcXMxMnpvcW5ybg?oc=5",
-        "snippet": "Uzbekistan keen to import steel from India to cut logistics costs &nbsp;&nbsp; BusinessLine"
-      },
-      {
-        "title": "Taiwan launches anti-dumping investigation into stainless steel imports from Vietnam - steelradar.com",
-        "publisher": "steelradar.com",
-        "date": "Tue, 18 Aug 2026 12:15:19 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVmUyWFVGUnY0dHMwVUZzR2hLZkNaX01kaV82ZEpZZFQ5S1dvNTBCbGIxNzg1ckl4X3ROdXJiVHZuWDV4NTF3dF9qTWtpZmZKT0d6MjR1VnJLUF9tRVRmWHdoSmYxNmdlcW0taDFzckNlOHpTVFM1c1RGVVBjQVZKZVNPak42eTBjM2xvZFJZaHRDQ2xSZmFXZ3hoNXNVUWRhdlB5M3o5VE5vRFVZQWdFVXVKdDhzSWthU0VnMUpR?oc=5",
-        "snippet": "Taiwan launches anti-dumping investigation into stainless steel imports from Vietnam &nbsp;&nbsp; steelradar.com"
+        "title": "Tata Steel, JSW Steel, Jindal Steel share price targets: 3 metal stocks to buy - BusinessToday",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://businesstoday.in/markets/stocks/story/tata-steel-jsw-steel-jindal-steel-share-price-targets-3-metal-stocks-to-buy-549782-2026-08-18",
+        "snippet": "Nomura suggested a target of Rs 1,300 on Jindal Steel, Rs 1,400 on JSW Steel and Rs 240 on Tata Steel."
       }
     ]
   },
   "benchmarking": {
-    "generated_at": "2026-08-17",
+    "generated_at": "2026-08-19",
     "peers": [
       {
         "name": "Tata Steel",
         "listed": true,
         "ticker": "TATASTEEL",
-        "segment": "Integrated steel (flat and long products)",
+        "segment": "Integrated flat/long steel",
         "status": "listed",
         "pending": false,
+        "revenue": 218543,
+        "revenue_unit": "₹ Crore",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": -3.62,
+        "ebitda_pct": 12,
+        "pat_pct": 1.45,
         "roce_pct": 12.5,
         "roe_pct": 11.7,
-        "fin_content_hash": "906702e8ae8756d9d7cc16cc163a3eee94bb53274c16e5171da81f36c67076bc",
+        "fin_content_hash": "e22bcac8532d09c5fc346046572f094876919f766074beb39c8a5c324cef3782",
         "source": {
-          "label": "screener.in (combined financials)",
+          "label": "screener.in",
           "url": "https://www.screener.in/company/TATASTEEL/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-08-17",
-        "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|------------|---------------------------------|--------|----------|----…"
+        "updated_at": "2026-08-19"
       },
       {
         "name": "JSW Steel",
         "listed": true,
         "ticker": "JSWSTEEL",
-        "segment": "Integrated steel (flat and long products)",
+        "segment": "Integrated flat/long steel",
         "status": "listed",
         "pending": false,
-        "roce_pct": 11,
+        "revenue": 168824,
+        "revenue_unit": "₹ Crore",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 1.72,
+        "ebitda_pct": 13,
+        "pat_pct": 2.07,
+        "roce_pct": 8,
         "roe_pct": 10.2,
-        "fin_content_hash": "c078bff4a95796402daa0a74a48a9e7f57f8d90e62e6a28b54106b5a6b44cac5",
+        "fin_content_hash": "8920e7a5b337d8f3071b196ff8a596e4b68c443fa35e2293be99dae3fd34d0df",
         "source": {
-          "label": "screener.in (combined financials)",
+          "label": "screener.in",
           "url": "https://www.screener.in/company/JSWSTEEL/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-08-17",
-        "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|-----------|---------------------------------|---------|----------|----…"
+        "updated_at": "2026-08-19"
       },
       {
-        "name": "Steel Authority of India Limited (SAIL)",
+        "name": "Steel Authority of India (SAIL)",
         "listed": true,
         "ticker": "SAIL",
-        "segment": "Integrated steel (largest state-owned producer)",
+        "segment": "Integrated steel, PSU",
         "status": "listed",
         "pending": false,
+        "revenue": 102479,
+        "revenue_unit": "₹ Crore",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": -0.32,
+        "ebitda_pct": 10,
+        "pat_pct": 2.31,
         "roce_pct": 7.79,
         "roe_pct": 6.43,
-        "fin_content_hash": "f61c9bd2ec61ff2e75a080a4e5a064f42a28cf2f37b473e69b20c854bab07fed",
+        "fin_content_hash": "a5d23f04a2e0c60135e566532ea3116e8b39e0ad98b6eb8a6f1fdc8835350eec",
         "source": {
-          "label": "screener.in (combined financials)",
+          "label": "screener.in",
           "url": "https://www.screener.in/company/SAIL/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-08-17",
-        "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|---------|--------------------------------------|--------|----------|--…"
+        "updated_at": "2026-08-19"
       },
       {
         "name": "Jindal Steel & Power (JSPL)",
         "listed": true,
         "ticker": "JINDALSTEL",
-        "segment": "Integrated steel, largely long products",
+        "segment": "Long steel, power, mining",
         "status": "listed",
         "pending": false,
+        "revenue": 50129,
+        "revenue_unit": "₹ Crore",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": -0.68,
+        "ebitda_pct": 19,
+        "pat_pct": 5.68,
         "roce_pct": 9.7,
         "roe_pct": 8.22,
-        "fin_content_hash": "9d6c86ceace4be7ffdf6968382d2a7c5141e3c45b01fbe85e0cf661399938592",
+        "fin_content_hash": "582fe4b4330b4b12f09d671c8c434bdf876859bcbf6716a063777d17c16a3830",
         "source": {
-          "label": "screener.in (combined financials)",
+          "label": "screener.in",
           "url": "https://www.screener.in/company/JINDALSTEL/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-08-17",
-        "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|--------------|---------------------------------|---------|----------|-…"
+        "updated_at": "2026-08-19"
       },
       {
         "name": "AM/NS India (ArcelorMittal Nippon Steel India)",
         "listed": false,
-        "segment": "Integrated flat steel (JV of ArcelorMittal and Nippon Steel)",
+        "segment": "Integrated flat steel, JV",
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "updated_at": "2026-08-19"
       },
       {
-        "name": "Rashtriya Ispat Nigam Limited (RINL)",
+        "name": "Rashtriya Ispat Nigam (RINL/Vizag Steel)",
         "listed": false,
-        "segment": "Integrated steel, public sector",
+        "segment": "Integrated long steel, PSU",
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
-      },
-      {
-        "name": "NMDC Steel Limited",
-        "listed": true,
-        "segment": "Integrated steel (newly demerged)",
-        "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
-      },
-      {
-        "name": "APL Apollo Tubes",
-        "listed": true,
-        "ticker": "APLAPOLLO",
-        "segment": "Downstream steel tubes/pipes",
-        "status": "listed",
-        "pending": false,
-        "revenue": 20690,
-        "revenue_unit": "Rs Cr",
-        "revenue_year": 2025,
-        "revenue_cagr_3y_pct": 8.62,
-        "ebitda_pct": 6,
-        "pat_pct": 3.66,
-        "roce_pct": 31.6,
-        "roe_pct": 25.3,
-        "fin_content_hash": "48379b99f43717cb8c3c8aaa59f8faf97f85f0dc6fa89de7c5e3416093d79a8c",
-        "source": {
-          "label": "screener.in (combined financials)",
-          "url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
-          "snippet": ""
-        },
-        "updated_at": "2026-08-17",
-        "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|------------------|------------------------------|---------|----------|…"
+        "updated_at": "2026-08-19"
       },
       {
         "name": "Jindal Stainless Limited",
@@ -1475,6 +1648,49 @@
         "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|------------------|---------------------------------|--------|---------…"
       },
       {
+        "name": "APL Apollo Tubes",
+        "listed": true,
+        "ticker": "APLAPOLLO",
+        "segment": "Downstream steel tubes/pipes",
+        "status": "listed",
+        "pending": false,
+        "revenue": 20690,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 8.62,
+        "ebitda_pct": 6,
+        "pat_pct": 3.66,
+        "roce_pct": 31.6,
+        "roe_pct": 25.3,
+        "fin_content_hash": "48379b99f43717cb8c3c8aaa59f8faf97f85f0dc6fa89de7c5e3416093d79a8c",
+        "source": {
+          "label": "screener.in (combined financials)",
+          "url": "https://www.screener.in/company/APLAPOLLO/consolidated/",
+          "snippet": ""
+        },
+        "updated_at": "2026-08-17",
+        "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|------------------|------------------------------|---------|----------|…"
+      },
+      {
+        "name": "Bhushan Power & Steel",
+        "listed": false,
+        "segment": "Integrated steel",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-08-19"
+      },
+      {
+        "name": "NMDC / NMDC Steel",
+        "listed": true,
+        "ticker": "NMDC / NMDCSTEEL",
+        "segment": "Iron ore mining / integrated steel",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-08-19"
+      },
+      {
         "name": "JTL Industries",
         "listed": true,
         "ticker": "JTLIND",
@@ -1499,31 +1715,36 @@
         "forward_note": "| Summary | Date | Stock | Author | LTP | Target | Price at reco (Change since reco%) | Upside(%) | Type | Unnamed: 10 | |-----------|-------------|----------------|------------------------------|-------|----------|----…"
       },
       {
-        "name": "Bhushan Power & Steel (part of JSW Steel)",
-        "listed": false,
-        "segment": "Integrated steel",
-        "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "name": "Vedanta Limited (Electrosteel)",
+        "listed": true,
+        "ticker": "VEDL",
+        "segment": "Steel, mining conglomerate",
+        "status": "listed",
+        "pending": false,
+        "revenue": 62717,
+        "revenue_unit": "₹ Crore",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": -21.53,
+        "ebitda_pct": 30,
+        "pat_pct": 32.76,
+        "roce_pct": 16.1,
+        "roe_pct": 38.2,
+        "fin_content_hash": "f79c1df77cabce7a3aabd75113f35f6e18ca7e4c0acbedc1e74cb6d0dcd23670",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/VEDL/consolidated/",
+          "snippet": ""
+        },
+        "updated_at": "2026-08-19"
       },
       {
-        "name": "Essar Steel India",
+        "name": "Essar Steel",
         "listed": false,
-        "segment": "Integrated steel",
+        "segment": "Integrated flat steel",
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
-      },
-      {
-        "name": "China Baowu Group / ArcelorMittal / Ansteel Group",
-        "listed": false,
-        "segment": "Global integrated steel majors",
-        "status": "unlisted",
-        "pending": true,
-        "pending_reason": "Private Circle",
-        "updated_at": "2026-08-17"
+        "updated_at": "2026-08-19"
       }
     ]
   }
