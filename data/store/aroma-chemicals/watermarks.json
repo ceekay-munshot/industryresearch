@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-20T08:25:18.054Z",
+      "last_fetched": "2026-08-20T16:22:37.673Z",
       "last_epoch": 1787209183000,
       "etag": null,
       "last_modified": null,
@@ -22,15 +22,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-20T08:25:23.258Z",
+      "last_fetched": "2026-08-20T16:22:39.470Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-20T08:25:24.384Z",
-      "last_epoch": 1787209940000,
+      "last_fetched": "2026-08-20T16:22:40.840Z",
+      "last_epoch": 1787225306000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -100,32 +100,35 @@
         "CBMi4wFBVV95cUxPMFlvNElsOG1vODVDVWlzOWtMZnl6MTVmQkh2LTJvaUFGTV95eTI3NEE5OVAwNDV4TWpLNC1TS0tfOUx0TDdJT1ZraWhsWUwwczZ3YVJqNl9xSnBuT0txWUdQM1RtYzRkY0UxRHNQdnktQ1FnS2lkTkNuWkppYzFNVE1mSjhVcTBNdkZFd0lLUzlSM1R2MGxiakIxOTh1UzNraXRKSXJoWE5lR1BZejRlQkhvMTB0SXVQR2o2c0s3MVE2N0U3Ym9iMzRPYlF5aUxFMEUxbXhXVEZ5dnJJNThqVXNwd9IB6AFBVV95cUxPYnBXMU5kTEFrYkMtWnVDbkRWZXNKak1zNl9nbFJZT0RfVTlRdDdYRnVmRGJQa0NlVS1XNWYxYUVuQVJiTWs4VmwxSDhxWmRLU0JMYWZNUnY0djVRdmo1UzlVQkN4dHBiOEs4VWpOY01RWk52d25NdXFkQzhrVTE2ZmZSb3lSNVRHZ1kzZk5JVnFzVkRBTHBjQmNmbFRQWEx4c21HU3d0RzM3dDdUZS1ZMElNaEdTVVVlaTFHb1Z5YjcxZXU5RG9OVFNIWlJuTkZuYmZsaEJyTlFyWlluYkdNRnotSVE2UTZO",
         "CBMib0FVX3lxTE9RdS1zVlgyRkxpMmdXdzJaQWpVM0VwODc5SlkzOFFJZzRVM294c2pxWXlYcW5BMkN4ampjbmN4M2dkTVFSTUhJMS1JOFZpSkJRQUFQRzNUSW52Wi1pUEg2RXlLelFqLXlJT2xrQ0ZJYw",
         "CBMikwJBVV95cUxONjY2dl9HZldqT2lNSlR0cDVlOHdQaDJLX0FyLXZFQVhKaUloN0s3RjZzaWg1RVM1aEJPRDJSaTdfLXZJcmxRSTZFdUFFdExKV3hVNU82cDR2WTFRZkhhYWcyRW92ZDQwQ3lmclh6d2VnMkVQS3FrR0lzb2kzMm1XcXZOYmk1VzBTVkRuU1NfbllQVDJIZmNEOHk5bmZGS09ULW4ydzdCY2sxVG54X01MSk5uTE43ZFpacHB3WnkxcXlaZjQ0dEQzZWxsTzFid29VTy1nclRRVm1SZlVYVDNUNzZ4LUItejR6eDdaRlB1TG82d3Q1YWJORnF1S1FOQ1JxdUJJelFhT2oyY3ZXTnFDSURaNNIB4gFBVV95cUxNYnZQcnhvcl9zOUxodFM0NGQxVmVDUjRpeE1FSzVpc3ZiT2RLSVRDNlV0dENISzFqRFRrZ25DUmV0b0N4d2trWmdaTEt3VnZmY2dNTEdIbTJGWFotZm1xT09zM3ZLS0FqNkhONGl3OTFXZS1BZjBhVmFZMFlyU0NySnVCblJaMmk1S2tmQWY1TVNSQXZpaVUyaWRWV3lfUDUyX2Z6OEU5RUtwU0wtejJWMkxUZ1VMbTFfUGh1cXdCdDhoSHhyRmZWcmo0V3BjSHJzOFJPUzZ4NGhqQ2NSQXo0VDhn",
-        "CBMipgJBVV95cUxNZUVFel9XS1dyZjFfMWFwMzJ5Ym9xZWk4RjN3dTJ0VVpKd045M1BNLWpfNVA2bmtkdUV5LU5BNWdxUlk4Tkg1ZmVmSFVhQTd6bGVpdkwtU01xZEVQY2ZyTFZxb2NCNWQyNU5FN2JTM2t6NUtScVo1TldBa0xmWXlzcHNOc2xYalQ1ei1iakdqUTJjMU9EdjV5OUw1YXR1SmpRVWhsWTkzejlDX3U0TXFpNXVuUlFtSDJNU25ubVRZbHRfVHIwNExEdmp1U1d6S05FdFpZZkNDcU50bmZFbjI4M3NvUEpSSENUQ0NMM2RyamlHVnNsSUdOelZjaG00VVFwMGQ5ZWdsYVFwWG1OX3RJelk1WHgtR3FlMmJLd1d4WTVqZThyWlHSAfQBQVVfeXFMUExWN09EcUhnTWlWMVFSSndRdkFUZURQcW45a2NvVnhrcUpLM19GSWtvaDRpdXVmak9XemV0Z2VMM2Yyek5iSnAwcW5iTXM1a3NXZFJTX1I1U3pQQkktMEs5elZmd0V2WTVhdW1ZRE50R1F5TE1nekFQS3hVVkFXSU05Ty1vaF9rellaM0JXZ3V5dUQxQjZfM2J4d29ORFk1Y0wyS2VRTXBSRE1LUlUtMVB5andqVFViaHNXSU1LR1oxZTRsS25CcDBvRDFhbEdnbDU0WGpMUU5icFd4MTFvTThiWFlUdzZ3TnNCWGl4dTBtakxReA"
+        "CBMipgJBVV95cUxNZUVFel9XS1dyZjFfMWFwMzJ5Ym9xZWk4RjN3dTJ0VVpKd045M1BNLWpfNVA2bmtkdUV5LU5BNWdxUlk4Tkg1ZmVmSFVhQTd6bGVpdkwtU01xZEVQY2ZyTFZxb2NCNWQyNU5FN2JTM2t6NUtScVo1TldBa0xmWXlzcHNOc2xYalQ1ei1iakdqUTJjMU9EdjV5OUw1YXR1SmpRVWhsWTkzejlDX3U0TXFpNXVuUlFtSDJNU25ubVRZbHRfVHIwNExEdmp1U1d6S05FdFpZZkNDcU50bmZFbjI4M3NvUEpSSENUQ0NMM2RyamlHVnNsSUdOelZjaG00VVFwMGQ5ZWdsYVFwWG1OX3RJelk1WHgtR3FlMmJLd1d4WTVqZThyWlHSAfQBQVVfeXFMUExWN09EcUhnTWlWMVFSSndRdkFUZURQcW45a2NvVnhrcUpLM19GSWtvaDRpdXVmak9XemV0Z2VMM2Yyek5iSnAwcW5iTXM1a3NXZFJTX1I1U3pQQkktMEs5elZmd0V2WTVhdW1ZRE50R1F5TE1nekFQS3hVVkFXSU05Ty1vaF9rellaM0JXZ3V5dUQxQjZfM2J4d29ORFk1Y0wyS2VRTXBSRE1LUlUtMVB5andqVFViaHNXSU1LR1oxZTRsS25CcDBvRDFhbEdnbDU0WGpMUU5icFd4MTFvTThiWFlUdzZ3TnNCWGl4dTBtakxReA",
+        "CBMic0FVX3lxTE01SW9FUTlraVRJQU8yc1Y4VW40UUNEdllDcDJwQ3JZUWZuaVQ0Zm5XOGdVSU82dWlYOFp0T2VmQ1lwQ1pQdjdwYTNqZmg0WXJxc1E2cnJQcWNwTlliVlptWTN0T0U4TlZvRGpIT0tyLWZUQms",
+        "CBMipwFBVV95cUxNczlFdjdISE9VUHNTVjBfd0hteGpHQXJVQnNSWjdQQ0gtN1dLTnkwdXM4MHBnMDdaUUpDbkNZelZta0MzblE0RTZCdVpVdHNBT3dubDZ6UWQtclVjdzJxanoxQlI2WUtaMExBR0doNC1Qc3NKakRKRENJZFZhQnF6dER4b1h5Vnc4WjdPMDFCVld0ZlVHbV9WY3RpNVBmVW1EUWNHZm5RTQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-20T08:25:24.411Z",
-      "last_epoch": 1787159771000,
-      "etag": "\"022cdf403cf9cb9eae5c07b1118a53ab4-gzip\"",
-      "last_modified": "Thu, 20 Aug 2026 08:19:07 GMT",
+      "last_fetched": "2026-08-20T16:22:40.863Z",
+      "last_epoch": 1787222715000,
+      "etag": "\"00d0918dcac92477bebd93d657f7f2ad2-gzip\"",
+      "last_modified": "Thu, 20 Aug 2026 16:04:24 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/indias-agro-chemical-companies-seek-data-protection-law-to-expedite-farm-innovation/articleshow/133346686.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/war-driven-windfall-gains-for-chemical-makers-likely-to-fade-in-q2-demand-remains-key-risk-kotak-institutional-equities/articleshow/133343461.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/liquor/fssai-revokes-order-against-usls-flavoured-spirit-produced-at-baramati-plant/articleshow/133354763.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/liquor/fssai-revokes-order-against-usls-flavoured-spirit-produced-at-baramati-plant/articleshow/133354763.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/discovery-india-presents-p-c-chandra-group-more-than-gold/articleshow/133374175.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-20T08:25:24.442Z",
+      "last_fetched": "2026-08-20T16:22:40.879Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-08-19T12:27:57.673Z",
+      "last_fetched": "2026-08-20T16:22:41.359Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

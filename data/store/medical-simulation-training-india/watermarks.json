@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-20T08:25:14.677Z",
+      "last_fetched": "2026-08-20T16:22:31.747Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-20T08:25:16.859Z",
+      "last_fetched": "2026-08-20T16:22:35.985Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-20T08:25:17.725Z",
-      "last_epoch": 1787203635000,
+      "last_fetched": "2026-08-20T16:22:37.295Z",
+      "last_epoch": 1787219488000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -63,14 +63,16 @@
         "CBMitgFBVV95cUxQZkp0UUZncDdKSjlzaEFidFNmNW43MVpEMDlXaVpnTUM3MDY2U0pEOGpuUEZOd1NuZ09HVTQySGpwVjIxZEk3UnpIcVNSNHB3cEFFUDI3STZ1Y2sxUWJ4TklTOTFfRjdUYzQ0U0QxTmpvaW5TSE9yclQ1d3BUVnExNTlmRjFQMjFSdlVvMm1BbHVmd2trVHRRVDVqcDctTVE0TW5wTnBUbVB3ajRxelc3ajhwMWVadw",
         "CBMirgFBVV95cUxNQVB0UkN3VEg4R0lhdG16eXVhenl4Mkl1R1dKUnBVUFpNME5pUHQwQlUxd0VaRUk4ODhyeUxwVFoxbWRYQTBWWHpOazk0c1BwaTM5UDNSS2hPU0dBZWZKVlRVbmRzX2JyOUZCWG85Z21JTktHZG8yRWVwTEpfdGI3a1Ywdy1ZaUZ1WG9maVAxNHpacGpMMkhJdHQxY3haX1BnQ2U1Rk1BOWZvUVZVamc",
         "CBMi3wFBVV95cUxNUm93NWlOUzl4UkRLUGdwTEN2aS1URlFQSlpMaFdwcmliNmgxbjJGVmtnbXRlTjlLX0pWSmp6OXJlZUJuazNndUZ2T2JSdUNiSWNQNVl3VEd0VUJKc3VUajZvYWttMlFGQUQxalFwamctVnpRUk0tZURGMFVJRWtNcGRGZ19vN0FKUElpSXRXQngyUTY1TjNtVTd4cFhkZFFtTHBiMTZqc3VJdm02VDNVOWlvdXRPdmcxcGJxT2JlZWJnZ2M2UUpDb2J3ODVpblRyb1VxNk9qeUI4eWZMMjE4",
-        "CBMi1AFBVV95cUxNaWlvc0FnaUgySXV4T0Fkd0NTTG84UGx4MU5tV3l5TkZoUmhzTkxaN21nMUtTUHdSLThKNnRjdi1EREp1bmdmdGFFN1BFV0pMd0hhMWJYUm9CbDU4c3RyZWllYzhWVmNiQ2hsSkg0ekJkb2YyNmx6ZUNNa003bzhDYldnQWFjMFREVkwyUXA5bGpDcTdLVGhHMHFWRVp1ZHpLV3d2YzJmekdYM2YzUko3RU53NHlfcUo3VmI0eHhKb1pzVFZiWXVOWUt1LVZqeWNJa3lVSA"
+        "CBMi1AFBVV95cUxNaWlvc0FnaUgySXV4T0Fkd0NTTG84UGx4MU5tV3l5TkZoUmhzTkxaN21nMUtTUHdSLThKNnRjdi1EREp1bmdmdGFFN1BFV0pMd0hhMWJYUm9CbDU4c3RyZWllYzhWVmNiQ2hsSkg0ekJkb2YyNmx6ZUNNa003bzhDYldnQWFjMFREVkwyUXA5bGpDcTdLVGhHMHFWRVp1ZHpLV3d2YzJmekdYM2YzUko3RU53NHlfcUo3VmI0eHhKb1pzVFZiWXVOWUt1LVZqeWNJa3lVSA",
+        "CBMiwwFBVV95cUxNZ3ZncDVSWlRJSEtMamRXRTF2VmdJVTI0N1VoSW1obTlMRnlMdDZvWUNtYzJNMW5JcDAyTGtrNHNSeU9pZDh5Z0tsdDJ1OFQwNkY1MFNLcTRzLVBLOXNKclNuVFFZSHMxblU0dlNqVkd0ZVBWZmxBNjBUNmdPdG9DYi03ZkFBb1JiejBSVm9sVUZiR2RJN28tWGF5OUNseXFEbnJfZ2RuUmJ3VWhDQVBhWmpqcHFlMzJaOGIxakwtWUpzSTg",
+        "CBMi-wFBVV95cUxObWptLTFrUU1tbG9PX2Q0U0FySHduQ1A4dXQ2WjZiNm1IOHBkSnBaY0Z5UTM0SURQNVZWU2s0LVlhVERMSzJmWFhFajVHNUhzLUFRb0pYbEhKUExLa091dzhsclFMNklmazZ2X0k1WndyZ05GaGpLNWRLNkNYZGE5OVN5YmNodFFwZEdQYmJSckdpbzA0U2YzUFVjWXkybmdUV0htR0h1dXNNdG1NdTljRmdNT0lRbXNLbmJxRERfLXdVLUsxSS1pYWt2VWIzak1ycGw4SC1hVzgwYXBjbGliS1BpWmlhSW1vdVlCVjFwOS1kUmcwMW12V05Ycw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-20T08:25:17.770Z",
+      "last_fetched": "2026-08-20T16:22:37.317Z",
       "last_epoch": 1787213516000,
-      "etag": "\"022cdf403cf9cb9eae5c07b1118a53ab4-gzip\"",
-      "last_modified": "Thu, 20 Aug 2026 08:19:07 GMT",
+      "etag": "\"00d0918dcac92477bebd93d657f7f2ad2-gzip\"",
+      "last_modified": "Thu, 20 Aug 2026 16:04:24 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -84,14 +86,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-20T08:25:17.844Z",
+      "last_fetched": "2026-08-20T16:22:37.338Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-08-19T12:27:57.322Z",
+      "last_fetched": "2026-08-20T16:22:37.354Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
