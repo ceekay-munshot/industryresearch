@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-20T00:36:36.171Z",
+      "last_fetched": "2026-08-20T08:25:14.677Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-20T00:36:42.827Z",
+      "last_fetched": "2026-08-20T08:25:16.859Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-20T00:36:44.019Z",
-      "last_epoch": 1787184723000,
+      "last_fetched": "2026-08-20T08:25:17.725Z",
+      "last_epoch": 1787203635000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -61,14 +61,16 @@
         "CBMihAJBVV95cUxPNUR2bXdISnVGci10TzBxMU9JZVZGWE5GMXI5amJQR0ZHZHhzUWMzemhBV0ZFdGl0bzVKZ0w4MGZDYkpuT1liTWVxU0VqQzlhSVlEdE9BcjF6Y0o1SHZqclBPRkwwNFpFaTV6QUVDY1cwdnE4dHloYzFFUWY2R3hTbk1aZFhhbUJSWlEzdU45OVR4RjhGeVFCMWJseXlkWW9tNXl1N0NHc1VwVnVMdl9kNUk1OW4zTGJULWFyUVRETUlfQ0xBNWtVSGdnU2FmLVZYTXRaYjBBeUpmMUo3T3ZVTXpENHVVTU16Y2xQS01oWElObU1vQ1duOVgzNDdGeWJXTl9ZNg",
         "CBMiggJBVV95cUxNU3hURm4wekhRZGhLVmNHQUd0dzRFQ3ZrS3hrQVNLVFQ4WnBEaUJ0QUlxa3puQmlIRDNrdDZZQTZMSFVKWVhWYWJKZ3BXYkh6UlJzM2lKTTZDOE1FeUFyT3V3ejNJcWgwRHB3cHVNdENLbkhhRFVINU9uQjJ1dlNZM3FGTzF2LXNid1Z3LUIxbTFnQ3BzYmEtWTNmQmJ2WGhnN1ZBUW1RQjd5Rm9nZTBSWXI0UUpyTEJtM2FWNExNOXN4LVlrU0FzOW5nTlFSUURIUEh1ZFV0Q2JqU1lxM0NKcWlTV3JkTlE4YW84QVVrYmpoVXhUekpoQUxzMG43WmI3NHc",
         "CBMitgFBVV95cUxQZkp0UUZncDdKSjlzaEFidFNmNW43MVpEMDlXaVpnTUM3MDY2U0pEOGpuUEZOd1NuZ09HVTQySGpwVjIxZEk3UnpIcVNSNHB3cEFFUDI3STZ1Y2sxUWJ4TklTOTFfRjdUYzQ0U0QxTmpvaW5TSE9yclQ1d3BUVnExNTlmRjFQMjFSdlVvMm1BbHVmd2trVHRRVDVqcDctTVE0TW5wTnBUbVB3ajRxelc3ajhwMWVadw",
-        "CBMirgFBVV95cUxNQVB0UkN3VEg4R0lhdG16eXVhenl4Mkl1R1dKUnBVUFpNME5pUHQwQlUxd0VaRUk4ODhyeUxwVFoxbWRYQTBWWHpOazk0c1BwaTM5UDNSS2hPU0dBZWZKVlRVbmRzX2JyOUZCWG85Z21JTktHZG8yRWVwTEpfdGI3a1Ywdy1ZaUZ1WG9maVAxNHpacGpMMkhJdHQxY3haX1BnQ2U1Rk1BOWZvUVZVamc"
+        "CBMirgFBVV95cUxNQVB0UkN3VEg4R0lhdG16eXVhenl4Mkl1R1dKUnBVUFpNME5pUHQwQlUxd0VaRUk4ODhyeUxwVFoxbWRYQTBWWHpOazk0c1BwaTM5UDNSS2hPU0dBZWZKVlRVbmRzX2JyOUZCWG85Z21JTktHZG8yRWVwTEpfdGI3a1Ywdy1ZaUZ1WG9maVAxNHpacGpMMkhJdHQxY3haX1BnQ2U1Rk1BOWZvUVZVamc",
+        "CBMi3wFBVV95cUxNUm93NWlOUzl4UkRLUGdwTEN2aS1URlFQSlpMaFdwcmliNmgxbjJGVmtnbXRlTjlLX0pWSmp6OXJlZUJuazNndUZ2T2JSdUNiSWNQNVl3VEd0VUJKc3VUajZvYWttMlFGQUQxalFwamctVnpRUk0tZURGMFVJRWtNcGRGZ19vN0FKUElpSXRXQngyUTY1TjNtVTd4cFhkZFFtTHBiMTZqc3VJdm02VDNVOWlvdXRPdmcxcGJxT2JlZWJnZ2M2UUpDb2J3ODVpblRyb1VxNk9qeUI4eWZMMjE4",
+        "CBMi1AFBVV95cUxNaWlvc0FnaUgySXV4T0Fkd0NTTG84UGx4MU5tV3l5TkZoUmhzTkxaN21nMUtTUHdSLThKNnRjdi1EREp1bmdmdGFFN1BFV0pMd0hhMWJYUm9CbDU4c3RyZWllYzhWVmNiQ2hsSkg0ekJkb2YyNmx6ZUNNa003bzhDYldnQWFjMFREVkwyUXA5bGpDcTdLVGhHMHFWRVp1ZHpLV3d2YzJmekdYM2YzUko3RU53NHlfcUo3VmI0eHhKb1pzVFZiWXVOWUt1LVZqeWNJa3lVSA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-20T00:36:44.087Z",
-      "last_epoch": 1787152824000,
-      "etag": "\"03ace57810dcde901149dac0d9a996d19-gzip\"",
-      "last_modified": "Thu, 20 Aug 2026 00:27:46 GMT",
+      "last_fetched": "2026-08-20T08:25:17.770Z",
+      "last_epoch": 1787213516000,
+      "etag": "\"022cdf403cf9cb9eae5c07b1118a53ab4-gzip\"",
+      "last_modified": "Thu, 20 Aug 2026 08:19:07 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -76,11 +78,13 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/healthcare-delivery-capital-intensive-hospital-tariffs-only-tip-of-iceberg-nathealth/articleshow/133318022.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/apollo-hospitals-extends-services-to-all-seven-days-of-week/articleshow/133329855.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-deputy-governor-murmu-calls-for-focus-on-meaningful-financial-inclusion/articleshow/133352186.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/the-architecture-trap-why-better-algorithms-wont-fix-healthcare/articleshow/133342475.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/the-architecture-trap-why-better-algorithms-wont-fix-healthcare/articleshow/133342475.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-outlines-strategic-expansion-across-global-healthcare-advanced-diagnostics-oncology-targets-1550-crore-revenue-in-fy2027/articleshow/133370082.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/uttar-pradesh-bhu-secures-6-major-research-grants-under-icmr-scheme-for-high-impact-biomedical-innovation/articleshow/133363879.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-20T00:36:44.156Z",
+      "last_fetched": "2026-08-20T08:25:17.844Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
