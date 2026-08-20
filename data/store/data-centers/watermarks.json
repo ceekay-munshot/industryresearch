@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-19T20:15:01.692Z",
-      "last_epoch": 1787160743000,
+      "last_fetched": "2026-08-20T00:35:12.388Z",
+      "last_epoch": 1787180461000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -87,19 +87,20 @@
         "CBMidEFVX3lxTE4teEJkRklqaHFoUnU0NzFTNk5CQ0hxS1hvT25ocVR0UW8tSEt3UTZGZXRHNjNzZ0ZnVk9rOGdXZGJ0bGsxb25PYTR5RlRTUVBVb0x3VENKU3RIU2drVXI0Z1JJelVQNXEyWnRlUnk4QXlCTlpW0gF6QVVfeXFMTTRWbmNYcnlQMVNoZF9sWjBLOHVSTTdOcGx4Nl9tT2ZTS055SXRVaVNaSjFlNUlITHJZRlNnY01GNk40XzR3Z0YwQmNEN0R6QVhnQkhGcXljTXJySFRWYVgyUHZzTGU4RlNiaHh6ZlNBM0ZLRXNSMUtsT2c",
         "CBMivAFBVV95cUxNM01wN1BGTXZidVR6em9lOFdySzRHdlpvZXJDVjAxcEdrSF90cEsxM3BzblBkRXctSVNNVElNeW9fX2tNTEtZdzdVT2NPT0lTNE5XY09Kc1RHeUxWZGwzWGJlMEw4U2xCUmY0dUIza1NxMzQyZkgyakVPY21XT3FzWk5IWVg0bWtYdEFleUlUa1F6RFFXNVBpNkVNMGhvbDZmY2pSa0dJOWxJRVVGRGxkUExjR0NnZExDWGdjUw",
         "CBMisAFBVV95cUxNZFNEQ0dvb0VSM3lPbWdrelkzOHpsWGJ4NWlqRG5WTGlCMXVKN19hU2VTZk5heXNJekFPQ2w4WFZybHBvaVpsTHN3bVE5U0g1bGI1LXNpWXdnX1JPbC1tcnA0Q20wZ2p0VGs2cno4SVNBdnV1SWJmOUltN3gwRnBfWmw5US01N3pVcDRHT1J0Z0hETlZaam54ZUZxYXJfQWNtZVc3ZFpUa2tFdWJQdmRvSg",
-        "CBMihgFBVV95cUxNa0hpMHpFN0tNbmtyM0tISUV4Z0JwS2wtYlBVRklZRUdfbUp4UVpwTmFWOWZrRklZc1VUOWRCX2JwWFN1RUdTTFY2Y05xS3ZkNnhNNUpzUWExcDl5QXRkSE1NVmFReHc4M2dSYmZKbFprdThYZ0hMUGhob1k4cWo2di14SGswdw"
+        "CBMihgFBVV95cUxNa0hpMHpFN0tNbmtyM0tISUV4Z0JwS2wtYlBVRklZRUdfbUp4UVpwTmFWOWZrRklZc1VUOWRCX2JwWFN1RUdTTFY2Y05xS3ZkNnhNNUpzUWExcDl5QXRkSE1NVmFReHc4M2dSYmZKbFprdThYZ0hMUGhob1k4cWo2di14SGswdw",
+        "CBMikgJBVV95cUxOTGNYcDUzZklPaTBSM1piNmZvV2c1ajdPck1QeHJsQmMzNHBIblRXZE5YWjU0d2liam43akMzeGVlTkhNS3BpRTNxNXMyaWQzWEl2dzBKNjZjWjBDenFJVi04OHZUTGQyX3MyY21XMzl6X090WHR2SGcxeHVfMkpUSkt6amdKcjVDNTEyX1JTdXBTYk1nNjBSWjVmemZ5OFhMTFYxeUE0eC02TFM4V3JTMVVuaWRFamdvOGRhS0JpVEFRd2VZTVRLT1FyaEQyVHFmTVVhQVV1dE85ZWNkeTg3blBrbENHUHRrTHJ4MENVUGJhRTRvTlNsOVYzc3JxVi00NWsxWW5uQWhkNGdjYngzeEVB"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-19T20:15:36.171Z",
+      "last_fetched": "2026-08-20T00:35:50.577Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-19T16:18:17.083Z",
-      "last_epoch": 1787153724000,
+      "last_fetched": "2026-08-20T00:35:52.971Z",
+      "last_epoch": 1787173916000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -349,14 +350,16 @@
         "CBMiwgFBVV95cUxOWFotTGZPUzBmUktzN0NYV0JYU2w1WjNWZG93YktkT3VVNTRCMWtDRUJ5c21sUkNFMWUxVWkzak5hV2Z5d1BXbXpFdlQxYlNpZ2RvZkxERC1mTnFGQWlsX0ZFQjBNY0tDR1FhdDJVU2ZpVlhta1Z6b2pSQ2pvcWxYWHVKcHJzWjBIenFwTFBJb2ZIUWY4enVaeUFFYXBRY3I5NlFsZnAxVmVsQ0d2YjV6UGNGZjUwTFU3TzJSeFJ6eXJ6dw",
         "CBMi4AFBVV95cUxNWG8xWmlhZmJObURaUkdhTWpFc0NSVE9LYVh4bld6STlsYjBINmV6OExPZHBQMnZUU3NpMkh4djZqb2RRRnQ2aFdPUWZJQUQtUjJnWHNibFE5ZXYxUklmaFFnMkRBdmdfLWRaWHAtNXBjTTJXRDhVOUNEY1R1RHlWdmdJdTg1cklFTnNDWVBmaEhIRXRVMDVQR04wY0ZiYWZjTktMT3d4YXBlYlp1NXFJVlpLTnpwUGljSnZZMEZiMWV3U01KRVNSWlgyNTAzQWZnYlExRHFzWFZfVExmTkZxbQ",
         "CBMiggFBVV95cUxQVnpVZ0RKd2QybFFqNzV5dGdFWVVlbTlhSmJXMURucU45VUtqUDJISjBzWnV2M2JENXNHLVo3UzVfNG5hUUlYa0RESmZ3NlNLSjhfVlVpSnpIM1BObW56cDBQWkdyOVVQeU9FZlFQM1FVQkx4T1NVeV81MUJ4aHR2NVN3",
-        "CBMiiwFBVV95cUxNMGljZVl2V0hFdVp6b1ZKZVc4NXQyZFRybkFkNEd5OWFaQ3dLem1VcWR2ZG8wNDgwSFJEM2NibzctUGVzVktIQmhtTG8yMmUtYzRTSi1Ebml2YU5wdElXS2c4MWhocUFJU3RWbGxMSmZ5UF9GN2ZhNmxxNHVkUm1keFFKYmlJWjliZWdv"
+        "CBMiiwFBVV95cUxNMGljZVl2V0hFdVp6b1ZKZVc4NXQyZFRybkFkNEd5OWFaQ3dLem1VcWR2ZG8wNDgwSFJEM2NibzctUGVzVktIQmhtTG8yMmUtYzRTSi1Ebml2YU5wdElXS2c4MWhocUFJU3RWbGxMSmZ5UF9GN2ZhNmxxNHVkUm1keFFKYmlJWjliZWdv",
+        "CBMi5AFBVV95cUxPaElrZHU4SllfUkFSYW84cXBRNHNHeUdWbUV1bVZ0RllyYkJrY1h3cWdYZVl1d2tsTWl1d0N4VlNybjE3ejAtblVxdDd1eVNCeVppSjNoRnFmZTExdVRkM2l4TlZ4Sld4bWpQdk84LTNrUU5kZWRyN2pUWC1pQ0h0WWlwc0VEbGFxMkVJcmsyeFBTV05sYkJNSUxPa2w2d3dLRFVsVEo2SkNuMzRPZ050Uy1ROThCOE9Nc1otNGdtNl9haG43V0FITFpZdkRTT1cwSkl3R2dCdnFQdVI4SlFvRmpqV2nSAeQBQVVfeXFMT2hJa2R1OEpZX1JBUmFvOHFwUTRzR3lHVm1FdW1WdEZZcmJCa2NYd3FnWGVZdXdrbE1pdXdDeFZTcm4xN3owLW5VcXQ3dXlTQnlaaUozaEZxZmUxMXVUZDNpeE5WeEpXeG1qUHZPOC0za1FOZGVkcjdqVFgtaUNIdFlpcHNFRGxhcTJFSXJrMnhQU1dObGJCTUlMT2tsNnd3S0RVbFRKNkpDbjM0T2dOdFMtUTk4QjhPTXNaLTRnbTZfYWhuN1dBSExaWXZEU09XMEpJd0dnQnZxUHVSOEpRb0Zqaldp",
+        "CBMipAFBVV95cUxQb3k4UjhScEIzUWc0WUhYV2x6WVpSMXJyYzVJb3dpNjlBM2dYVENOZ3BERzFUZWkxVW5tU1hWTDlWa205VVpMQUpxMjA1RFFGWlRERTJlQXVUYWNzdlFOcXVIakprRGZtdkExcFRISE95eGp1VUlnc0RpTi1XNTdCa2p6YlZJQmRMbUFRM1dWblUtY3ptRDJUOWljRTQ1UHlQUGpZNw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-19T16:18:17.161Z",
-      "last_epoch": 1787154129000,
-      "etag": "\"0a54525631bb9bbb919c924d326593eb9-gzip\"",
-      "last_modified": "Wed, 19 Aug 2026 16:07:12 GMT",
+      "last_fetched": "2026-08-20T00:35:53.125Z",
+      "last_epoch": 1787166166000,
+      "etag": "\"03ace57810dcde901149dac0d9a996d19-gzip\"",
+      "last_modified": "Thu, 20 Aug 2026 00:27:46 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/sc-slaps-rs-10-lakh-fine-on-reliance-industries-for-delaying-ntpc-gas-supply-suit/articleshow/133249366.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-directs-all-vishakhapatnam-flights-to-alluri-sitarama-raju-international-airport/articleshow/133239974.cms",
@@ -384,11 +387,12 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mumbais-prime-residential-markets-capital-values-increased-1-4/articleshow/133347699.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/cabinet-approves-one-highway-and-four-railway-multi-tracking-projects/articleshow/133346848.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/cabinet-clears-rs-13041-crore-rail-road-projects-howrah-chennai-line-to-be-quadrupled/articleshow/133343759.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/the-architecture-trap-why-better-algorithms-wont-fix-healthcare/articleshow/133342475.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/the-architecture-trap-why-better-algorithms-wont-fix-healthcare/articleshow/133342475.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/reliance-industries-proposes-rs-2-73-lakh-crore-investment-for-indias-first-integrated-underground-coal-gasification-complex-in-andhra/articleshow/133357924.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-19T16:18:17.199Z",
+      "last_fetched": "2026-08-20T00:35:53.244Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
