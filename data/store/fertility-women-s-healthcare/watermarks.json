@@ -15,8 +15,8 @@
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-21T04:27:30.066Z",
-      "last_epoch": 1787256058000,
+      "last_fetched": "2026-08-21T12:22:44.623Z",
+      "last_epoch": 1787310122000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -134,14 +134,18 @@
         "CBMi8wFBVV95cUxPUnJKcjcxYzhUclZDaExBZk95QlBuTHVRUVpkY3JlQ2wyYk5makZtWGlwTHVpZ3pQbTh4N2lldzhDc1hkZHlrMEgwQ3BucGUxbFctVmtfVHMzcExmdTBTM2owdEZmMVkxcnhKMGhmNTI2aDlweFhOX09tcnVPVVRHRHdkVFRNZTUxMUVMSUNRc09ITnNTTkJEYzJ5WnJiNnVwVXBqTXdhdmlzTF9RVXI5ME5YUFlpeWU5X2RBU3NlUWg0MzJvVC1nUUFGUEl1TnJ2VE5ld3FXbkdESmtCRkgwSHRjeldCLVlqMi0ybkpteS00Sk0",
         "CBMi-gFBVV95cUxQd1VWYjBkV014ekQ3RlRkUldmYXl6N2RYdFFxYmZqRWFUWGtUWmRJeURQSjNVWkE2cWh3YWstaHpSR2JwcWJtMXVmeVVKanNvZ3IxemtwOXpBT3g2RVUtRG5nMlRvcm5ucWQ2bERxX3dkQ3NFRVBQRTNXN3M4ZVhfTVZJSmt1Z3FlQmtDWU1jczJQQUtHak5ycjlzYnZldnA5YmxDSENrbWlGU0Z0dEtuTmJnM2hUNWsyQmtzV0NVeWV0V3VHa0V1emlNYXdFanAzc3BNVzB1VXJtOGtONFZTczJlRHZqSG9kUFg3TzhTS01oZWhRM1RFdmFn",
         "CBMirgFBVV95cUxPUC1qYk9FOThSSVNCUjdjM2tYSmNTTHQ1UzFsMDlLeWZhaEZwRDJYZ2JnNUxmcmI4TVpzaVVPQlIzdjlGYjkxTWw2TlNpNWo3YnJNY1N1OXVTRHBxeTJGdEdZcndRQV91OFNNd01ObHNpTW5IaU5hd1BidHN0cnF0UGdEZE5FSDNYT2ZPY0hMQzlYUFczSkJ4Z2VfdjNJaTFYTTFPSUhicUpQX1VaaVE",
-        "CBMib0FVX3lxTE9CZUJXNEMtX0dwcW56X2xuOVZud3RBUmtscWVZUWpFVEZST1RPaXpGdExWV0xkVHN0V2FXSUU0RjBSRXNzdWdVbDlkdE81NUF2T09seF94RFdWS0xpZUZ3Qm5FUTlFWF9kTlBYZUFMaw"
+        "CBMib0FVX3lxTE9CZUJXNEMtX0dwcW56X2xuOVZud3RBUmtscWVZUWpFVEZST1RPaXpGdExWV0xkVHN0V2FXSUU0RjBSRXNzdWdVbDlkdE81NUF2T09seF94RFdWS0xpZUZ3Qm5FUTlFWF9kTlBYZUFMaw",
+        "CBMizwFBVV95cUxNNHgtUlBnUnQtaEFLUEktSF85VkoyRV9PMXJ5TURHN2VpWDA4eThIMGVhS010WGhqZG9hdmItTW16NGQ2QXQyN0kyamd0M2xEeTNmaG93MUVYSWV3UTRjLS1IRy0xbU5WR2NUaXc3bjNLTmxFWW5jZ1paNXRuQTAxSkJ2M3JLQjJ5SmszLTdxWDFSaTNZVFVYcFRrUFA5MG9GXzZjYzlPLUNtWnEzWXhodHRmZWhNNFZlXzNJWlh0cEtILURBR1dpZklpck83LVU",
+        "CBMi8wFBVV95cUxOSmdKZGZsMklIa3VJb1dxcUZSOXhqQXNPUVROYXBGeUg1Yk9DT3VPdjVXY04ydWZEM3Awbk1FNjBlVnpJeXp5ekRJckdqRmpBUkgzYjBQSFBkcDFZYng0NjFsejlObkk2ZEdxYmVKakY0MTE3d1VQV1FiWFhVY29CbklVMkk4RE1qV3E3SndTcUdsRWwtS0FWc0FFRGQ0cG9ha2QybXVfMWR3cUdiQzczMWpwLWl2SHlKWDd6dEdvc1U3WGU4Q1N0UHlNRC1LQjI4OTV1VGdtT3NMYXBMeUpmR0F2dUhmaXJHOUtRNS1KeUZ5bGM",
+        "CBMixgFBVV95cUxQQWlEUy1uSWtuZENuazUxR05rZnBodEpEc1djNDNLbjF1V25WT2Y1UTlfY19lN1VfTWRuQjVfa3k4NURyNlFfbDJyVC1nNVZNU1h6bnkzbWJ6U01sMmJGTUZjNENQVFhVSHBFRExiQnBoemlaeGM3OU92UzBFQTRmcUhnM2M3SUl4ckpCR0I5bzVpTlF4NWNrN2Rrb0pVR0tRMEpqYUtpZXgxdEQ3Q0FpZ09WVXlZbGNoTVpKbXdKVHJFUVdvZlHSAc4BQVVfeXFMTTEweHVzQzZFcTR6bERzcWhUV25QYktGVlphOXFxUUUzQmk4NHVMSVlLbDRtV2pwNFZTM0EySWNKMDdOQUFUek9KMVN3NG14Y0lJc3lGRXVqcGN3aDJIekI1RWNHbm5Ga3ZoeVBlR2xTaXpORjh1VG45MW54anRhX3ZxbnBhdGJ2UjBUU25HdTBrOFZvZjhKYnctQUFoTGhlb1Z3UmNfb09Ia1pOeGlfUE5QNkxLN1dCREs1cTZwT1dNX09GYjFXcmR4MGJxeGc",
+        "CBMirAFBVV95cUxQbV83emdZaTJ4SnpSeHBscXJrUFRMVFhuSzRTY1hIeUYwR1ZCQXU1cDR2Tmh1WGd1TkVLR2lLLVlWQmtzNUxIeXVMam5ieWswRXdEVG1rVjI3TVFqNWZ4MUF6NVJjdnJvU2k4b3ZSMGk3N3g2RFEtQ0x5cW14OFdlbVd6bTZXMTZTS3dyQnFld2dlQmZxQXc4al94VDNPWG43Q3BrM3JybmtvUG5V0gGyAUFVX3lxTE1nc084ZEFiemt3elB5Rk1IaS0wVU05RFd1ZHJmT19hNnNCRm8wV003WVE1Y1ZqV2o5SEZxOHFiR0xUUjFBQzRLM0F3THRLR1FtV3hlMkpQRW4tZGMtdU1QMWpVRlEzSnNzNFItZHhtZ2xQMjZiLXFQLTZBWGFvV0Q5bVAxYlpSTnZEeXdEY0JYX2RWbk9JczVSYUZIS05sbEpHNWYtby1PcUJTLXdtRVJyTXc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-21T04:27:30.087Z",
-      "last_epoch": 1787278019000,
-      "etag": "\"0c5049c64074075f697347998f881e910-gzip\"",
-      "last_modified": "Fri, 21 Aug 2026 04:03:52 GMT",
+      "last_fetched": "2026-08-21T12:22:44.649Z",
+      "last_epoch": 1787311717000,
+      "etag": "\"0e3c56247974fc7244d0bb094c6b65bd2-gzip\"",
+      "last_modified": "Fri, 21 Aug 2026 12:05:34 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -161,11 +165,15 @@
         "https://economictimes.indiatimes.com/industry/services/education/uttar-pradesh-bhu-secures-6-major-research-grants-under-icmr-scheme-for-high-impact-biomedical-innovation/articleshow/133363879.cms",
         "https://economictimes.indiatimes.com/industry/auto/cars-uvs/volkswagen-cars-eyes-mass-growth-in-india-with-compact-suv/articleshow/133385682.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/small-urban-co-operative-banks-face-risks-bigger-than-their-size-due-to-cyber-threats-rbi-dy-governor/articleshow/133381947.cms",
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/starlink-would-help-the-least-served-in-india-rural-areas-elon-musk/articleshow/133390803.cms"
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/starlink-would-help-the-least-served-in-india-rural-areas-elon-musk/articleshow/133390803.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/mobile-phone-makers-with-turnover-of-rs-10000-cr-in-fy26-eligible-for-mpms-govt/articleshow/133402733.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/zydus-lifesciences-gets-usfda-nod-for-generic-ascorbic-acid-injection/articleshow/133402397.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-website-hit-by-second-disruption-in-a-week/articleshow/133395241.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/india-private-equity-investment-2026-geopolitical-risks-gulf-war-pe-deals-investment-strategy-resilience-deloitte-report-bain-capital-limited-partners/articleshow/133393403.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-21T04:27:30.105Z",
+      "last_fetched": "2026-08-21T12:22:44.671Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
