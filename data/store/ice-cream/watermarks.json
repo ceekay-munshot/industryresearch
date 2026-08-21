@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-20T16:22:19.303Z",
-      "last_epoch": 1787234555000,
+      "last_fetched": "2026-08-21T00:38:43.706Z",
+      "last_epoch": 1787260392000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -103,18 +103,23 @@
         "CBMi1AFBVV95cUxOY3ZhLVFRWEl4MlBfWGRSZUluLUNjZDA3aFF4ZlhYaHBrYUhnRWhxOEdiUXZ0NEJFUkZBSndLaXpNVHY0VGNDUUJpSFhFa1FWNTBaSGpablo1Z0ZaVnI2eW5kTzVjZ3VJdFVsSU5uZjVEWDBQT1hQaUhrRGFnMklnRHdOdTh6UDMtTEF1SS1sN3lFWElORXJ4RUtaU2cwRHllcm9ZV3M4dWVwR09OaU1qZXN5RWhUNEVYQ3k4MTlmcXpfMTlXMHQzbFJaNnZOOWM2X2tmbg",
         "CBMiyAFBVV95cUxOd1hDM1ZFdk1ka3c3QTB5TmRuOU5HVWdRclVSdGJ6Z0V5TmhZcFIzbUMwbmdDTUt6MWY1aTQwSW1iamlZNHlWMHg2RWJCaU9IOHR3bnA0eC1zT1h3TXFqbHFyTTAwajVkMFJWZ3NleDg5elVlbVY0YW9RYWxINUxBelU3dFpXYlpEeW5oQnVlX3FUNm5VMjNuWWNCelg2ZjFnOHg5dWdMd1NYVGc4S3gyUWkzb3ZqOWNrbGlDbVVQTzlsMjlLLTQ5Ug",
         "CBMiiwFBVV95cUxOVXF6ZHhNRGlYY0EyMUI1RzI2LXI5bUZrRndTaXVZeFM4b3dRMHlJdEV6emI5RUhMQ2NzSVg3dndhM1FMUHNxbWg5VV9uc3h4cHdxWHJVWnFhal90OVh4eE5tTlRWcHhoOTVaRVlvS0FpYWRISmNTOWFNUEphdWNBdGZJcUkwZTdBWk1v",
-        "CBMikwFBVV95cUxQQ3NUVXFYQV9LTmcyRmJtWnZKSkVLYldabDZTNl9QSzZ3dS1KNUZGM0NNNnFOTjY1VjJBWFhBR2dSMVlqc3NBRFVFVXh4TzVEQWxRNEpTWm9EeS1TQUEwOHRSVmozYUdEMVZqTlZzWVR3Y05xNTJtOTdwR0ZZUHdIQWpGcGZCMWU0d0toRHd3TzZnbGM"
+        "CBMikwFBVV95cUxQQ3NUVXFYQV9LTmcyRmJtWnZKSkVLYldabDZTNl9QSzZ3dS1KNUZGM0NNNnFOTjY1VjJBWFhBR2dSMVlqc3NBRFVFVXh4TzVEQWxRNEpTWm9EeS1TQUEwOHRSVmozYUdEMVZqTlZzWVR3Y05xNTJtOTdwR0ZZUHdIQWpGcGZCMWU0d0toRHd3TzZnbGM",
+        "CBMiiAFBVV95cUxQNDlUODNUWXlJVUt4aTBDNnpsclZYbFZKWU5ieGFHQWx4dDR4c3RhdlAxMlhLYW03cDlIb254TnU4ejJ1d2NvRnJYMXhSc1FxVm1YNFo3a3cwN0w2d09rdFVHWUNwWVBrdkltR01RcHFXdENLLUIwS05tbVJfQWRPWktITGgtbENG",
+        "CBMiuwFBVV95cUxPeUdJRjkxV3F6YmRVWnFkalhPMTlPT0V0cm10a19nVGIybGpmUXJ4bC10T1VUV2FTeDhCTVlJZzJsdWhPRWFiLUpGU2F6Unc5YVlid0RsQXJKR0RYTW1uNHFYREYyTVJNWXpLTDA5dnJWblB0QUhrX21obV9lTW5UYU13ejJDbU1mWm1BV2xreHI1U1RJTkw1NXlWX0R5NzFJOUt0NEtvcEhjSXQtbjc3aVh0VHdBUC1JakQ40gHAAUFVX3lxTE83blEydGEyWkxZMUxxeDB5ekFmd3hXRk5Kb1VSVEVVdE9MNFdLY1laazlPWWdrUnhwSE9ieUQ4NGc0bTJrUzFtTGE3aWpjN01kSTQxLWVVM3U4ODkwRHFMaDVPSHZyNTFPSElQMHhWVGpzZnptR0xfMlBOQXFFbnZjMDlncEJuRDdWSmgzOS1ZOHdjTGhvTHJaVW1NSEpoSzM4Z1l2ZV9zS3JzSkdPMHJDTW9VREVXMl8tWjREWTFrcw",
+        "CBMixgFBVV95cUxOc1N5ZnNzUlFOMUg1M0IxVkM3cG40VUpsREF0Wm9OS3g3VjB4d2JlVHpMQTJFWHA2SzNwV3F6MGw4THdleW1OY3NreXdvWWdjMk9GRDVMQU5KbTFkaE93LTFLczR3TEM1UE9XZUltRG96SkE4N25aakh2b1c4VmNfWmpMcVcxWjJvbmh0RjJrbm5XaC1xQW84eXB3cEx1Tm03bjA2aW9OcEdfWC1RZTZWRkg3WTg0WVk5Z2dESjVmbl91TE10cVE",
+        "CBMib0FVX3lxTE9QZlEtR21jRnNiV0d5WDJKOWVHY1FJSFhyNm5LZGJQZUFOTGo3YlNPM2NFNGt3WE9xUHlkcjM4dEJWYVh5TUZ2NUVtNjIxazdKa3NKSmdWdU9tVGt1dFAxWEE1b19scmJvWXNIRkRLMA",
+        "CBMiuAFBVV95cUxOOHJMRTcxcE1QRmtUeFlxNU1MZDVmc0ZSb1k2bWJGdHEwbjdUa3Bfd3JyS1NTaVR4NGpKRFFGSkJsbURRbHdmbmFwT2x6VUxFX0p6a1doY2pGU3pOYlhPQk9rT0ZCSWpCcWV3SHczZ2x0T1N5bi1UYUVGa3MyeVhUWlZtNHNTeXRJZmkzaWp4dlZrNDVBcGNSYklSVTEweUduaWRSOFBwa1RVcU5jQ2JSMDUtQkFnQlZT"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-20T16:22:27.718Z",
+      "last_fetched": "2026-08-21T00:39:22.689Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-20T16:22:29.005Z",
+      "last_fetched": "2026-08-21T00:39:23.964Z",
       "last_epoch": 1787230063000,
       "etag": null,
       "last_modified": null,
@@ -205,16 +210,16 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-20T16:22:29.029Z",
+      "last_fetched": "2026-08-21T00:39:24.091Z",
       "last_epoch": 1787109781000,
-      "etag": "\"00d0918dcac92477bebd93d657f7f2ad2-gzip\"",
-      "last_modified": "Thu, 20 Aug 2026 16:04:24 GMT",
+      "etag": "\"0d85bcef9ae17e0d30fe4350857d20c02-gzip\"",
+      "last_modified": "Fri, 21 Aug 2026 00:31:57 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-20T16:22:29.053Z",
+      "last_fetched": "2026-08-21T00:39:24.395Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
