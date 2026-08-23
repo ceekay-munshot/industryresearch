@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-23T00:38:11.013Z",
+      "last_fetched": "2026-08-23T08:17:21.171Z",
       "last_epoch": 1787391180000,
       "etag": null,
       "last_modified": null,
@@ -114,15 +114,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-23T00:38:45.664Z",
+      "last_fetched": "2026-08-23T08:17:29.595Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-23T00:38:47.488Z",
-      "last_epoch": 1787441812000,
+      "last_fetched": "2026-08-23T08:17:31.502Z",
+      "last_epoch": 1787468446000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -414,14 +414,17 @@
         "CBMi5AFBVV95cUxOc3BYWnZNT210cTg0cXB0V21tWHlPWGpZQmlaSXAtbnhXU1dPOXI2aEh3c1ZPUVRwM3ZfY0VhXzc0bXFpcDl0OFZxUldjSGVwRU5mME1YbXVWLXprd0kyUjRzYnNTVjY0a0cxcW5MbDVuaGQyVXoyVi0wUFlVN0xzd1U5cXlWbFJLcGowV2RMWGctQXBTZ3lud3FBNGpMQVBWcmNlVVl3WjVBMk5yYjhJUnd6a3FkZkVIbGVKZ2ZGSHpScjZEQlVhX0JRSkZNSUxIUVgyT3hnY2xOXzBKeW0wVVg5OGnSAeQBQVVfeXFMTnNwWFp2TU9tdHE4NHFwdFdtbVh5T1hqWUJpWklwLW54V1NXTzlyNmhId3NWT1FUcDN2X2NFYV83NG1xaXA5dDhWcVJXY0hlcEVOZjBNWG11Vi16a3dJMlI0c2JzU1Y2NGtHMXFuTGw1bmhkMlV6MlYtMFBZVTdMc3dVOXF5VmxSS3BqMFdkTFhnLUFwU2d5bndxQTRqTEFQVnJjZVVZd1o1QTJOcmI4SVJ3emtxZGZFSGxlSmdmRkh6UnI2REJVYV9CUUpGTUlMSFFYMk94Z2NsTl8wSnltMFVYOThp",
         "CBMiswFBVV95cUxQZmVMbEV3emR6amVpdmh2RDdMY1dCdjdReDZJQ3JBdldMZjdhdVRGeDh6dUJxNXYxdFVJMThSdmdrOVVSeEdjVGJ2X19nVDd4Y1NRcmpYd3QtWUVUWWd3Tkt2S29OUGNpTXAxVVVBMkN3YzJIcWJoVXctV3kxdWZnc19LS1ZwTmE4cHROSGxsaExhMDBFLWFIUFZGQ3BqZ3gwZUtPSFJ2azdoRDVhTmFJWnpQMA",
         "CBMiZkFVX3lxTFBrSWRPSVU1SUotMWM2MW1ZYnFoaDFOb3RNRlhoa01RT3prdGtoMldZY2xyWjJMU3h2YmRTMHpkdWhINWFNOFNNaWtCQ1FnbEpKYnU3STlpM1N1bDRubDJMM29qd2xNUQ",
-        "CBMizgFBVV95cUxOYzVTNUJ5Sk1Tb3l6MHBkYzdON0pTbFd4am9ad3lYTDFzWkxvem1mMUZsQWY1NmZvbmZ4YXhfQ3VzMGhaQ1dRaUN3ekdkTXpkU0M2NkhTWHFMMW00TVU4MXFDTWJleFlTUVRCdlNoUWNjU0ZDdFIxQnVQWkZOcjluSGgtTW9ndHl2WWdWNkhPYUtYcV95Wl9YVGlrQlJoQXBBRGJSdG94Mm5mMkh5S1ozWHJhc254RnRPSXBiRkY2VW5TM2hZT2dBeGdDdHpYQdIB0wFBVV95cUxNN3VwUW9PODRObUxScEt1Vng2YkU5SW4tUVN4ZFd4cUtoWlhxTzI1cXF3X003c25pak5jMjYwbXFTcWIwVHZYRTlpTEM0TWZ5aEZWVUNCN3Q0eWp5TmVfbG5rZ245dG9RTjlXaG91QlF1Qy1oWThFaE5seFBtRmRNOFo5bi0tUl9Ra3k3OE03Ml9xX0czQVBTSHFULTNYMmxHVGVlNkZNVmhnUkhiTEptR21jQjB0T3NwTkZCV2FhNUlxRXV1OXFheVV3MU4xMTlaU19V"
+        "CBMizgFBVV95cUxOYzVTNUJ5Sk1Tb3l6MHBkYzdON0pTbFd4am9ad3lYTDFzWkxvem1mMUZsQWY1NmZvbmZ4YXhfQ3VzMGhaQ1dRaUN3ekdkTXpkU0M2NkhTWHFMMW00TVU4MXFDTWJleFlTUVRCdlNoUWNjU0ZDdFIxQnVQWkZOcjluSGgtTW9ndHl2WWdWNkhPYUtYcV95Wl9YVGlrQlJoQXBBRGJSdG94Mm5mMkh5S1ozWHJhc254RnRPSXBiRkY2VW5TM2hZT2dBeGdDdHpYQdIB0wFBVV95cUxNN3VwUW9PODRObUxScEt1Vng2YkU5SW4tUVN4ZFd4cUtoWlhxTzI1cXF3X003c25pak5jMjYwbXFTcWIwVHZYRTlpTEM0TWZ5aEZWVUNCN3Q0eWp5TmVfbG5rZ245dG9RTjlXaG91QlF1Qy1oWThFaE5seFBtRmRNOFo5bi0tUl9Ra3k3OE03Ml9xX0czQVBTSHFULTNYMmxHVGVlNkZNVmhnUkhiTEptR21jQjB0T3NwTkZCV2FhNUlxRXV1OXFheVV3MU4xMTlaU19V",
+        "CBMi4gFBVV95cUxNemZYUlUtbUJBOVRpT0I3NjdqNzdTODQxVnZkcVUxanotMHVBeDlwVVp0NDUwVmFhbWtxU2oyejJYWjZxZVlkZ0s5dTJTNDBrS2wwSXhONUpmOHRPblhMbWtsaHZsRzNiWGVxUk5ZNWg0VVV1RHdCZ0ZQTzRTV3lxdDBPS2F2MVh3eUU1UlRUc092ZF9tSWdsc1lHNVBzbFc3d2l5TDVpZEo3V1BMZjF2d0tiQWYwZEhLZnZhMGt2RldrX2hYTGplOGFtOVpYZlh0MFljbFhESEpMWHFtV01BUU9R0gHiAUFVX3lxTE16ZlhSVS1tQkE5VGlPQjc2N2o3N1M4NDFWdmRxVTFqei0wdUF4OXBVWnQ0NTBWYWFta3FTajJ6MlhaNnFlWWRnSzl1MlM0MGtLbDBJeE41SmY4dE9uWExta2xodmxHM2JYZXFSTlk1aDRVVXVEd0JnRlBPNFNXeXF0ME9LYXYxWHd5RTVSVFRzT3ZkX21JZ2xzWUc1UHNsVzd3aXlMNWlkSjdXUExmMXZ3S2JBZjBkSEtmdmEwa3ZGV2tfaFhMamU4YW05WlhmWHQwWWNsWERISkxYcW1XTUFRT1E",
+        "CBMirAFBVV95cUxQVVFMTVNCUF9vTEU2Rm1ySDJuSGRFUnVZWEI3WEN0M3hCOHRQQ05XamE3dXF0YVFyRlpoN3FjazlfblZKamQ0Qm1oOFdzazNvLUN4V3czVHlRMEhBQk9BaGdOWXFDZ1RKLWRxU0RxZHMyMk1jZl9QMExURm9uY2FPQlVSQlBWaEpSUTBGeG9RdXQ3UEJhU3F1cndjMUJDVjA2UzM2XzVqMUhvUlc10gGyAUFVX3lxTFBXSWR3c2ZKTU5MXzlxaGVLRWxhWHA4c0lPbG5lQ2dHc2IzaW9kR1BRclBIbi1kd2FFTmtscjNWSFRNMzNCYU9mdVlGS282WUxhUUFsbWI4NUh5eC15ak1UR1NZeXpfeHBwYkYwRHFoQUQ1S1JNbGJNMWZCaFR2RXgtal9DaEl3VnU0TnYzWUdfT01KRFVIQURndmNXMDdGOGlHektKZFh0aUVpc25DTFBOOHc",
+        "CBMi-AFBVV95cUxPMTNpVk9lMGdTbnBXOGN3bWRYbC1PTjlZQ0hDYlpPRVBGNTNOemJ4WHB6bHdPbC1QM1pzRW9XUThXdUZfZzdTSHVjTThwaVlsRTMyRHNwQzBMNlA0eXBycDNHbk8zYUFxZzZkcmJJemxlZXJVMDBiU3N1cUJ3dTktWkdITVQwVXA1TUlCY2ZsQmlYNkQ3aUJwbDdVOHJFWUtTZUY4YXlCTWJBY2p3UEdpU0hFdUdPQkVmWjIzOVM2RFp1OFhUUW9HOVNicW1BbFJlNTF4VVZxVG4wTlhmRWpkMmdnVnZRUWZBT1QwbnBXeWY3MjNjNExqOA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-23T00:38:48.080Z",
-      "last_epoch": 1787386784000,
-      "etag": "\"0bbaabb89fa8ceeb7bac383b27f5a7c38-gzip\"",
-      "last_modified": "Sun, 23 Aug 2026 00:30:38 GMT",
+      "last_fetched": "2026-08-23T08:17:31.827Z",
+      "last_epoch": 1787469634000,
+      "etag": "\"0edc0e0d0880f66f38275a89b95189d58-gzip\"",
+      "last_modified": "Sun, 23 Aug 2026 08:07:28 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/sc-slaps-rs-10-lakh-fine-on-reliance-industries-for-delaying-ntpc-gas-supply-suit/articleshow/133249366.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-directs-all-vishakhapatnam-flights-to-alluri-sitarama-raju-international-airport/articleshow/133239974.cms",
@@ -463,11 +466,12 @@
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/sarbananda-sonowal-inaugurates-rs-428-cr-projects-at-paradip-port-signs-rs-1580-cr-mechanisation-pacts/articleshow/133404098.cms",
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/the-human-advantage-behind-hurons-growth-in-india/articleshow/133402891.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/centre-okays-aviation-varsitys-expansion-plan-directs-up-govt-to-make-land-available/articleshow/133418544.cms",
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-clears-7000-crore-lpg-pipeline-expansion-across-6-states/articleshow/133420439.cms"
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-clears-7000-crore-lpg-pipeline-expansion-across-6-states/articleshow/133420439.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/centre-pushes-states-to-speed-up-png-adoption-seeks-district-level-officers-to-drive-lpg-to-gas-transition/articleshow/133436060.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-23T00:38:48.157Z",
+      "last_fetched": "2026-08-23T08:17:31.867Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
