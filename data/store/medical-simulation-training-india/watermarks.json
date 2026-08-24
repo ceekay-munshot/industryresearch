@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-24T08:37:26.641Z",
+      "last_fetched": "2026-08-24T16:25:26.893Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-24T08:37:40.270Z",
+      "last_fetched": "2026-08-24T16:26:05.008Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-24T08:37:41.277Z",
-      "last_epoch": 1787404473000,
+      "last_fetched": "2026-08-24T16:26:06.180Z",
+      "last_epoch": 1787572508000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -75,14 +75,16 @@
         "CBMiY0FVX3lxTFBlMGs1S3otbXZlR2FTOF95eThpUGRaUWktamR3emhZQWthVmlPQTNlRFFzOTdEazk1TzlwWkNQN3BsQWFQWUNxVXMtekVNYXp6Smk2MDQwOTVnTmVvaHFUYzFpRdIBY0FVX3lxTFBlMGs1S3otbXZlR2FTOF95eThpUGRaUWktamR3emhZQWthVmlPQTNlRFFzOTdEazk1TzlwWkNQN3BsQWFQWUNxVXMtekVNYXp6Smk2MDQwOTVnTmVvaHFUYzFpRQ",
         "CBMiqgFBVV95cUxNX3pnYkl0X2N0c0tMRXVKRGlrVEFnOFl6YndNR2tuRVpxQnpZUzFOTXR3YXR2MXZJNlRCOWhlWEhFak9jdmhLNnMzSHJRUURmRy0xQ1ZLem5lUDFUbmJQMER1Zm0taUxFYzNiS19WRnpGbktFTFpGOUZzZ2hoLXhFQkpXM3RaN1NLdTJ1ek5hbGMyZmRKNVNGQTBLbjE1TnhzNkpMUnJ5WVp0Zw",
         "CBMi3AFBVV95cUxOa2RWTmRPS0M5eTRiZW1rWVJCVHE0aTg0QUNNTG9zUTltZThRVmZIUkdpYUpCaV91b2ZCeE9laTI1dWNJd0FCVHgxaUtNOExxOUlkMEhCUDVlak9OWktFNFpoRTNvWHVqSlVENWJLU3NxbzMtTVBfa0FNRTBtOHBfMXZXcU8zdEZETEs2YWZvRVQyVXVMYlhzN2M3S05PYnJSRlRTeGFSbUstOXVQSldHNVFZanVwc1lidllCWENUbHJ5eWF4QkZJU1FZZFJKNEhEZFdzY3BMM2ZzR1FO",
-        "CBMiowFBVV95cUxORjE2UjZPYU53VE5XcVQwZWI0TkYxZFNJQjcwRUxKZ1BRbHNrWDFGVC01dUE5aGJkTE96aExGMWZ2S3cwd0lvRFRlS3BTQTd1S095RS1wMDdmSFhoVE1wWjRMUmp2dUdHY2pmc2lpSGFYNGNwMzlWbDBDQVZjaW5CTzRfaUxwUldUeXBwQ2h4dGdPMW52YVE0S2kxcGF3X2VIeEdN"
+        "CBMiowFBVV95cUxORjE2UjZPYU53VE5XcVQwZWI0TkYxZFNJQjcwRUxKZ1BRbHNrWDFGVC01dUE5aGJkTE96aExGMWZ2S3cwd0lvRFRlS3BTQTd1S095RS1wMDdmSFhoVE1wWjRMUmp2dUdHY2pmc2lpSGFYNGNwMzlWbDBDQVZjaW5CTzRfaUxwUldUeXBwQ2h4dGdPMW52YVE0S2kxcGF3X2VIeEdN",
+        "CBMivAFBVV95cUxNVFduRzFHX05GVTliaXNBekNLSGpYbzk3VVBOdlhhWENMTTBIUGFQeFNJNDRBNEVzWTNlRkFKeVBMLUR5a0RSb1RBVnV0VjRyYzNTNEZVQm53VXNPSjEyOFVHams4S3d2Ny1Ed0VUWm9vNWY2dlRITEhsOExyV1k0ckRGUk5EMGFMdUZTc0EzTUVzX1g2Y29vZWhvTmR4ZVlnNXdxaWNYd2U2QW1oY1B3d2Ixbk9laThsTENyddIBvAFBVV95cUxNVFduRzFHX05GVTliaXNBekNLSGpYbzk3VVBOdlhhWENMTTBIUGFQeFNJNDRBNEVzWTNlRkFKeVBMLUR5a0RSb1RBVnV0VjRyYzNTNEZVQm53VXNPSjEyOFVHams4S3d2Ny1Ed0VUWm9vNWY2dlRITEhsOExyV1k0ckRGUk5EMGFMdUZTc0EzTUVzX1g2Y29vZWhvTmR4ZVlnNXdxaWNYd2U2QW1oY1B3d2Ixbk9laThsTENydQ",
+        "CBMipgFBVV95cUxNWkVOZFdZVVo4RU1rVEFicW9ZQnZYcENNSzVPSC0zdzNuMzZvOFNZdThNRmJZVHM3dFJKM2I3U19HT2pGSmpaVXlRc3R3Ykw5MzM4QURFU2p2a01RbVpMbWtfM2pCZDR5cFplOW41ZTZsN3d0c2JsblI3RUk1NW53ZU1KNEI2b1RDTE1zN0dKM1J5TEk2akVKZVU3dmI3X3BDZkV5QjRB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-24T08:37:41.428Z",
-      "last_epoch": 1787539131000,
-      "etag": "\"0b4648623d61dc790c0c659a4c6cdeb97-gzip\"",
-      "last_modified": "Mon, 24 Aug 2026 08:31:40 GMT",
+      "last_fetched": "2026-08-24T16:26:06.352Z",
+      "last_epoch": 1787570403000,
+      "etag": "\"0e88c09df1298b45d4cde62539f89e700-gzip\"",
+      "last_modified": "Mon, 24 Aug 2026 16:15:48 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -94,11 +96,14 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-outlines-strategic-expansion-across-global-healthcare-advanced-diagnostics-oncology-targets-1550-crore-revenue-in-fy2027/articleshow/133370082.cms",
         "https://economictimes.indiatimes.com/industry/services/education/uttar-pradesh-bhu-secures-6-major-research-grants-under-icmr-scheme-for-high-impact-biomedical-innovation/articleshow/133363879.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/medical-devices-industry-needs-to-focus-more-on-local-value-addition-pharma-secy/articleshow/133398765.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharma-has-little-reason-to-fear-trump/articleshow/133449610.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharma-has-little-reason-to-fear-trump/articleshow/133449610.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-co-founder-rakesh-gangwal-pledges-rs-300-crore-more-to-iit-kanpur/articleshow/133463489.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/indigo-co-founder-gangwal-commits-rs-300-cr-more-to-iit-kanpur-medical-sciences-school/articleshow/133459866.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-announces-medical-device-regulatory-reforms-for-ease-of-doing-business/articleshow/133458124.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-24T08:37:41.541Z",
+      "last_fetched": "2026-08-24T16:26:06.399Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
