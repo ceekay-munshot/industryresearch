@@ -495,6 +495,14 @@
     "api": "report",
     "status": 200
   },
+  "screener://financials/516003?c=consolidated": {
+    "content_hash": "1f914f64adc43823fa6f2b472aecac494f5248b245e6f0785375a51989cd9647",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/516003?c=standalone": {
     "content_hash": "367f52c14565baa69724ae058e849c0a78bbdb08c9dd8a9ecfcb80ec101ccc97",
     "etag": null,
@@ -519,6 +527,14 @@
     "api": "screener",
     "status": 200
   },
+  "screener://financials/GREENPANEL?c=consolidated": {
+    "content_hash": "dd19d4b589235abc78a5cfac5921751903e81774ceeac6d01a8e683b553fa8d2",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/GREENPANEL?c=standalone": {
     "content_hash": "f6b2e0470a944de841750840f183397a765815d3cc89c04a7b02777312125c7a",
     "etag": null,
@@ -535,11 +551,27 @@
     "api": "screener",
     "status": 200
   },
+  "screener://financials/MANGTIMBER?c=consolidated": {
+    "content_hash": "ec20650b38e68e2f4ead6b707a325d74625c61cd109005c250a1bab6aecf5ce4",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/MANGTIMBER?c=standalone": {
     "content_hash": "921293f6cbc43bbc49312b8a6df3374069e69a7054ec3f6efbeb2dface2d1283",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/NCLIND?c=consolidated": {
+    "content_hash": "71bcb6d42039ed47a50c87037b89dbf6d3becde0564f121dc288b2a814e6da97",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
     "api": "screener",
     "status": 200
   },
@@ -551,6 +583,14 @@
     "api": "screener",
     "status": 200
   },
+  "screener://financials/NUCHEM?c=consolidated": {
+    "content_hash": "a5f212baca425f2b6597e60679f057c38d0d58b1d1d4a4878bd9d16d529d4a09",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/NUCHEM?c=standalone": {
     "content_hash": "7b1894689f42cfb3ccd630def6019096980b75e16c640850abc899d53ff64dcb",
     "etag": null,
@@ -559,11 +599,27 @@
     "api": "screener",
     "status": 200
   },
+  "screener://financials/RUSHIL?c=consolidated": {
+    "content_hash": "45b2499779e1123ec8f7f0b95cbee539ce2e3e74d05c51a1fcf43768f8f1554a",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/RUSHIL?c=standalone": {
     "content_hash": "591a55481ec6a6c2b765c4a0d0a8f06201a655f82655e02bd6c6a5854f4a0d0b",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-18",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/SHIVATEX?c=consolidated": {
+    "content_hash": "9e41ca9b4eb9256bae33500dd827f6be1b84017c5844e61fb40c8fff4b1936ec",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-08-24",
     "api": "screener",
     "status": 200
   },
