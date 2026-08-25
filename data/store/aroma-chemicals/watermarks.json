@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-25T00:38:29.909Z",
+      "last_fetched": "2026-08-25T08:32:23.754Z",
       "last_epoch": 1787513401000,
       "etag": null,
       "last_modified": null,
@@ -24,15 +24,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-25T00:39:08.217Z",
+      "last_fetched": "2026-08-25T08:32:59.596Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-25T00:39:09.313Z",
-      "last_epoch": 1787550608000,
+      "last_fetched": "2026-08-25T08:33:00.676Z",
+      "last_epoch": 1787586098000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -115,14 +115,15 @@
         "CBMi6gFBVV95cUxOY2lReU5MNlkyRGdFRzk4UU81aUFTeWdrcTJpWUpNbWlFelhRcGFhMjhWUnNYdFNxaDRpNWJIZFhiRXlPLUFvR1duTkZlT1U5bFBOVEJEaUNGUWlERkVVSTJqNFpPS19vcjBhalk5SnZGV0Vxamp5T3ZZOEg4ZzNlVjN3dEMtRDBUakNtdHN2VmZHekVfUzdsV0JSc3EwUHgtUGlHNy1SRmZIRWtkdkxoRERGamhYeGxxRUpWa1E3MkhUajF5VzRHelFpNzFVZHNGal9uMU9TVkhsSm5WVXdlWDlUQ05TblFPYnc",
         "CBMi7wFBVV95cUxQeXp4SkhpemZqT1FfTUFHSlJsajRvQkFmWTEtWGI0RkRkV2dDeVlpaXJSYzlBS2NUM3pra1NiU0dWTWJHQmRqc1FuRVp5VmhDblY5Q3M4YkFSekR0aFVNMDV2TUNuSDNTbm94bk0tZmpiVVVfX05YZXZ3XzY5SkhPQmU3RGdla183dG9udFlhMTMzRDlWN1NERTlWWUNjUTNOX3g5ZDVkX2ZxajN3TzNTSDQ1UkhVNFBwTG5kdWRCa0g3eWU4ak8wc1h2WHJHX3RNVVk2ek1vTWU4ZjlBUHI5YXk1c1RVRVU2dHR6eXM5TdIB7wFBVV95cUxQeXp4SkhpemZqT1FfTUFHSlJsajRvQkFmWTEtWGI0RkRkV2dDeVlpaXJSYzlBS2NUM3pra1NiU0dWTWJHQmRqc1FuRVp5VmhDblY5Q3M4YkFSekR0aFVNMDV2TUNuSDNTbm94bk0tZmpiVVVfX05YZXZ3XzY5SkhPQmU3RGdla183dG9udFlhMTMzRDlWN1NERTlWWUNjUTNOX3g5ZDVkX2ZxajN3TzNTSDQ1UkhVNFBwTG5kdWRCa0g3eWU4ak8wc1h2WHJHX3RNVVk2ek1vTWU4ZjlBUHI5YXk1c1RVRVU2dHR6eXM5TQ",
         "CBMiggFBVV95cUxObHNHUFdCc1c4TjlhaXV5M0JwWVlRaFRjSnUwQ3FuT2w0SEFyRVdTcTlxTmFYNlRfM3JXU1pieEdNb1NnMl9HN1N1NF9PeElPNzAzWWpFMTNRSjk5TlV2ZFUxYmxsYjZqOWZJLWxob1ZwR1hCQnRQT3NjYWp1bDJpVFh3",
-        "CBMi1gFBVV95cUxOeGd5U3FWSFV2S0NLLUUxd3BDdjBoYWpkbGRpbWNtUEI1bXItX2twVm96cEt4ZHFEV2doTFJsVFI2UUZMVE96YUpmWFJSNlAxbnhYQkJhaWNYQTNiNHN5U0wwU085Zm1TbnF3aWNBTlVpaFQ2M19odkJkMUpvelZic3hZNlgzaXVxcVlCaDlVWENZVjZIT1VjSk9NZlFNZ1FSeXdBM1hhS05xNENDRVB1TFQ5MFc4azZud0RMM0Jna2dwRXBZbHdrTDB6MTdrRUxFR0ZzRzB3"
+        "CBMi1gFBVV95cUxOeGd5U3FWSFV2S0NLLUUxd3BDdjBoYWpkbGRpbWNtUEI1bXItX2twVm96cEt4ZHFEV2doTFJsVFI2UUZMVE96YUpmWFJSNlAxbnhYQkJhaWNYQTNiNHN5U0wwU085Zm1TbnF3aWNBTlVpaFQ2M19odkJkMUpvelZic3hZNlgzaXVxcVlCaDlVWENZVjZIT1VjSk9NZlFNZ1FSeXdBM1hhS05xNENDRVB1TFQ5MFc4azZud0RMM0Jna2dwRXBZbHdrTDB6MTdrRUxFR0ZzRzB3",
+        "CBMinAJBVV95cUxQQVFJb3ZIVkF0ZXJoR25KVEx3ZWdBX2FfbHRQZzVVRmxDNmpOZFIxc283OFRiajViWEVXZi1mSGV1dGVpZmF2cks0VHloSmkxVUtHUFptSm9Tcm1ENnFtOVA3bHJsbWZieFBVOS1feW5hS2F2UnUyODdJbEJuWUtEZ3k3dF9MLUVmR2JTdTc1dHZ2Nl82SU4ydzI0RlU1S2N0RWF6ay1VZGI4OTNsclVkTnJSNlhJa3l4ZVJBVHRaZ0haZjBoRWZxcWstR0JDeGx4VWZQZnB4ZllvSDJWcDEzV2RvQ0hidjBGdzNFbWdiT05QR3JuZU9JNmR2U2d5UHlnSHdpSXBSa002cjVxNXhzV0o5T28yM2VEVV92bA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-25T00:39:09.385Z",
+      "last_fetched": "2026-08-25T08:33:00.721Z",
       "last_epoch": 1787401809000,
-      "etag": "\"0ad5744bf33a4c7dd0bdb79ffc060e0b4-gzip\"",
-      "last_modified": "Tue, 25 Aug 2026 00:24:02 GMT",
+      "etag": "\"0f4f2c6eae71eff752c2dc249a4b21236-gzip\"",
+      "last_modified": "Tue, 25 Aug 2026 08:15:37 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -136,14 +137,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-25T00:39:09.968Z",
+      "last_fetched": "2026-08-25T08:33:01.000Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-08-24T04:35:36.747Z",
+      "last_fetched": "2026-08-25T08:33:06.301Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
