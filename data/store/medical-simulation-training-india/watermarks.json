@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-25T08:31:47.585Z",
+      "last_fetched": "2026-08-25T16:25:57.192Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-25T08:32:21.922Z",
+      "last_fetched": "2026-08-25T16:26:31.500Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-25T08:32:22.863Z",
-      "last_epoch": 1787621460000,
+      "last_fetched": "2026-08-25T16:26:32.465Z",
+      "last_epoch": 1787674260000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -79,14 +79,15 @@
         "CBMivAFBVV95cUxNVFduRzFHX05GVTliaXNBekNLSGpYbzk3VVBOdlhhWENMTTBIUGFQeFNJNDRBNEVzWTNlRkFKeVBMLUR5a0RSb1RBVnV0VjRyYzNTNEZVQm53VXNPSjEyOFVHams4S3d2Ny1Ed0VUWm9vNWY2dlRITEhsOExyV1k0ckRGUk5EMGFMdUZTc0EzTUVzX1g2Y29vZWhvTmR4ZVlnNXdxaWNYd2U2QW1oY1B3d2Ixbk9laThsTENyddIBvAFBVV95cUxNVFduRzFHX05GVTliaXNBekNLSGpYbzk3VVBOdlhhWENMTTBIUGFQeFNJNDRBNEVzWTNlRkFKeVBMLUR5a0RSb1RBVnV0VjRyYzNTNEZVQm53VXNPSjEyOFVHams4S3d2Ny1Ed0VUWm9vNWY2dlRITEhsOExyV1k0ckRGUk5EMGFMdUZTc0EzTUVzX1g2Y29vZWhvTmR4ZVlnNXdxaWNYd2U2QW1oY1B3d2Ixbk9laThsTENydQ",
         "CBMipgFBVV95cUxNWkVOZFdZVVo4RU1rVEFicW9ZQnZYcENNSzVPSC0zdzNuMzZvOFNZdThNRmJZVHM3dFJKM2I3U19HT2pGSmpaVXlRc3R3Ykw5MzM4QURFU2p2a01RbVpMbWtfM2pCZDR5cFplOW41ZTZsN3d0c2JsblI3RUk1NW53ZU1KNEI2b1RDTE1zN0dKM1J5TEk2akVKZVU3dmI3X3BDZkV5QjRB",
         "CBMi5gFBVV95cUxNLUpPUDFjbFdMLVFSbWd0Ykk5VzRnd08ybUNaTXZjY1dSY3hNT0JvbjBsZU9VNExTekNEcXZfRWtRZElOMk1NSzRiQVFNelVtbEQydXctdFZETjJpb1JLWmM4M1lKekRKcmVlNTVodzhiZnJhLVl6bFVHODlRNy1aQ0EyYTBDQWNXUk5qUF8yeGZMMUVHMGIzR3RUVmtmekpyVzQtdnhUX1NpUGNXTUR3cEVlcVdVZHplYWl6TXhkNndzSDFhZGhtc1dBZUNUTGhCZUxBZDRTeXJjYWc1ckhSUWRUTlBuZw",
-        "CBMi9wFBVV95cUxOVG9HMm9fNVhlV2U2MzhDLXJPTTFYejdOUjQ1OFNVYUh2MnVDRTExYlIxcXh1WTFWcjNMOVdCdENMcGhKdm9mT3ZYNGlOYUoyUUlfcTdPUGFtenZ4aDFwLTh4amdYWDl4Zm1sbzFRX2t1dzJXQ0tickR6cFFEOHdBd1NNYzB2Q0dSeEdhdDdzVUs5bGdxRkVnQUR0Qmp3THZ5MGFqc3VBLW5EZ0tqa2owNWZWZ0Z1MmZmUmVpOWNXQ1NqdDJNQ3loSEp0MC1FMlhtaE9fcElncjZSRkMxY3lCQXAzQndDaEs1V2RtX3N5RmN2d010dHBJ"
+        "CBMi9wFBVV95cUxOVG9HMm9fNVhlV2U2MzhDLXJPTTFYejdOUjQ1OFNVYUh2MnVDRTExYlIxcXh1WTFWcjNMOVdCdENMcGhKdm9mT3ZYNGlOYUoyUUlfcTdPUGFtenZ4aDFwLTh4amdYWDl4Zm1sbzFRX2t1dzJXQ0tickR6cFFEOHdBd1NNYzB2Q0dSeEdhdDdzVUs5bGdxRkVnQUR0Qmp3THZ5MGFqc3VBLW5EZ0tqa2owNWZWZ0Z1MmZmUmVpOWNXQ1NqdDJNQ3loSEp0MC1FMlhtaE9fcElncjZSRkMxY3lCQXAzQndDaEs1V2RtX3N5RmN2d010dHBJ",
+        "CBMirAFBVV95cUxNeEw2R3V0ZEVzbVFsVFZueXhZX0d2V3d0dVoyelpGLU5BMC1oRllOelVUazhnN3VMRnFJWlJFMmJjdi02Z0NrSTNMd05GYnVNanBUTV9Vc3RNQTFTUkVMRGZGZkxDc1VvVWJ6Q0JZSnNuUzY2akhkTlhGdVZPNnZCdURFaWlnV1dRXzdOQ0M1cTBRVDJFUlVSQmF6V1A1U2xHakF1WHRBUWJ1RnBs"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-25T08:32:22.996Z",
-      "last_epoch": 1787638116000,
-      "etag": "\"0f4f2c6eae71eff752c2dc249a4b21236-gzip\"",
-      "last_modified": "Tue, 25 Aug 2026 08:15:37 GMT",
+      "last_fetched": "2026-08-25T16:26:32.505Z",
+      "last_epoch": 1787660617000,
+      "etag": "\"021bcf22d9051692646586681bc779b63-gzip\"",
+      "last_modified": "Tue, 25 Aug 2026 15:59:39 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -104,11 +105,13 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-announces-medical-device-regulatory-reforms-for-ease-of-doing-business/articleshow/133458124.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/govt-eases-loan-licence-requirement-for-outsourced-sterilisation-of-medical-gear/articleshow/133476869.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/lenacapavir-drl-emcure-get-approval-to-make-breakthrough-hiv-drug/articleshow/133476844.cms",
-        "https://economictimes.indiatimes.com/industry/services/education/why-experience-alone-is-not-enough-for-the-next-level-of-leadership/articleshow/133495947.cms"
+        "https://economictimes.indiatimes.com/industry/services/education/why-experience-alone-is-not-enough-for-the-next-level-of-leadership/articleshow/133495947.cms",
+        "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/three-from-assam-among-seven-in-first-batch-of-first-of-its-kind-ncvet-approved-tea-sommelier-course/articleshow/133510394.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/kedaara-capital-bets-on-indias-orthopaedic-market-with-200-million-tynor-deal/articleshow/133501939.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-25T08:32:23.215Z",
+      "last_fetched": "2026-08-25T16:26:33.131Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

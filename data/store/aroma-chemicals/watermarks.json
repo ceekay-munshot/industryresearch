@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-25T08:32:23.754Z",
+      "last_fetched": "2026-08-25T16:26:33.392Z",
       "last_epoch": 1787513401000,
       "etag": null,
       "last_modified": null,
@@ -24,15 +24,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-25T08:32:59.596Z",
+      "last_fetched": "2026-08-25T16:27:07.613Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-25T08:33:00.676Z",
-      "last_epoch": 1787586098000,
+      "last_fetched": "2026-08-25T16:27:08.758Z",
+      "last_epoch": 1787646960000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -116,14 +116,18 @@
         "CBMi7wFBVV95cUxQeXp4SkhpemZqT1FfTUFHSlJsajRvQkFmWTEtWGI0RkRkV2dDeVlpaXJSYzlBS2NUM3pra1NiU0dWTWJHQmRqc1FuRVp5VmhDblY5Q3M4YkFSekR0aFVNMDV2TUNuSDNTbm94bk0tZmpiVVVfX05YZXZ3XzY5SkhPQmU3RGdla183dG9udFlhMTMzRDlWN1NERTlWWUNjUTNOX3g5ZDVkX2ZxajN3TzNTSDQ1UkhVNFBwTG5kdWRCa0g3eWU4ak8wc1h2WHJHX3RNVVk2ek1vTWU4ZjlBUHI5YXk1c1RVRVU2dHR6eXM5TdIB7wFBVV95cUxQeXp4SkhpemZqT1FfTUFHSlJsajRvQkFmWTEtWGI0RkRkV2dDeVlpaXJSYzlBS2NUM3pra1NiU0dWTWJHQmRqc1FuRVp5VmhDblY5Q3M4YkFSekR0aFVNMDV2TUNuSDNTbm94bk0tZmpiVVVfX05YZXZ3XzY5SkhPQmU3RGdla183dG9udFlhMTMzRDlWN1NERTlWWUNjUTNOX3g5ZDVkX2ZxajN3TzNTSDQ1UkhVNFBwTG5kdWRCa0g3eWU4ak8wc1h2WHJHX3RNVVk2ek1vTWU4ZjlBUHI5YXk1c1RVRVU2dHR6eXM5TQ",
         "CBMiggFBVV95cUxObHNHUFdCc1c4TjlhaXV5M0JwWVlRaFRjSnUwQ3FuT2w0SEFyRVdTcTlxTmFYNlRfM3JXU1pieEdNb1NnMl9HN1N1NF9PeElPNzAzWWpFMTNRSjk5TlV2ZFUxYmxsYjZqOWZJLWxob1ZwR1hCQnRQT3NjYWp1bDJpVFh3",
         "CBMi1gFBVV95cUxOeGd5U3FWSFV2S0NLLUUxd3BDdjBoYWpkbGRpbWNtUEI1bXItX2twVm96cEt4ZHFEV2doTFJsVFI2UUZMVE96YUpmWFJSNlAxbnhYQkJhaWNYQTNiNHN5U0wwU085Zm1TbnF3aWNBTlVpaFQ2M19odkJkMUpvelZic3hZNlgzaXVxcVlCaDlVWENZVjZIT1VjSk9NZlFNZ1FSeXdBM1hhS05xNENDRVB1TFQ5MFc4azZud0RMM0Jna2dwRXBZbHdrTDB6MTdrRUxFR0ZzRzB3",
-        "CBMinAJBVV95cUxQQVFJb3ZIVkF0ZXJoR25KVEx3ZWdBX2FfbHRQZzVVRmxDNmpOZFIxc283OFRiajViWEVXZi1mSGV1dGVpZmF2cks0VHloSmkxVUtHUFptSm9Tcm1ENnFtOVA3bHJsbWZieFBVOS1feW5hS2F2UnUyODdJbEJuWUtEZ3k3dF9MLUVmR2JTdTc1dHZ2Nl82SU4ydzI0RlU1S2N0RWF6ay1VZGI4OTNsclVkTnJSNlhJa3l4ZVJBVHRaZ0haZjBoRWZxcWstR0JDeGx4VWZQZnB4ZllvSDJWcDEzV2RvQ0hidjBGdzNFbWdiT05QR3JuZU9JNmR2U2d5UHlnSHdpSXBSa002cjVxNXhzV0o5T28yM2VEVV92bA"
+        "CBMinAJBVV95cUxQQVFJb3ZIVkF0ZXJoR25KVEx3ZWdBX2FfbHRQZzVVRmxDNmpOZFIxc283OFRiajViWEVXZi1mSGV1dGVpZmF2cks0VHloSmkxVUtHUFptSm9Tcm1ENnFtOVA3bHJsbWZieFBVOS1feW5hS2F2UnUyODdJbEJuWUtEZ3k3dF9MLUVmR2JTdTc1dHZ2Nl82SU4ydzI0RlU1S2N0RWF6ay1VZGI4OTNsclVkTnJSNlhJa3l4ZVJBVHRaZ0haZjBoRWZxcWstR0JDeGx4VWZQZnB4ZllvSDJWcDEzV2RvQ0hidjBGdzNFbWdiT05QR3JuZU9JNmR2U2d5UHlnSHdpSXBSa002cjVxNXhzV0o5T28yM2VEVV92bA",
+        "CBMipwJBVV95cUxOM05xZGhNUWRmSjNxQWlsMGhEdjVCN2pZT0RLYzFwTGN2cVFqUHdITnFweFMxRWRlZHJwdUlMY1MyN3lSUXFrN1EwcjJ6ZW9TVUtabEdaeW1XaFFlRVJuc3NRNG5peXFrNkJ3RXZaZWIydG40UDdkVHlqN1AwOHB6VHhlNU0zS3RBZUdjbjdtWkstdVNSZGJWUW1qUjY2QWFWS1F5aWpyeHRGMUhPeWF2cE9lQW9vMHhXcm9KRlExVHlwMHZwRHhvNzVEYXlqS28yYW44RFd4SFdaR2RqYXRpNEYzZ3BucndHUC1tcDZzbDZ5eFI3aWJJUVliMUhISTBHbllKdS12elh6XzBlXzVIU21NdmR0TTZlZ29LWHJkQmxnMHI4c0VV",
+        "CBMiowFBVV95cUxOMDJIZ1U0S2JGbXhwU1dJWVdyek42bE5HNld0N2ZjLWcxQXlvd2gtakRwU2ZyaVhadTBZbXdCVmVKT2NkdFFCQTBHeTFwWi1WTFlvc2NUR1BndVI2YTBmSmtmT1RfQk1xVXZ5SlM2ZUREdVJXUHU2eC0zdTRnaE5INDFjVDZ5VFFnMHpZbXA5eVpscWRuZVgybFpEOU5rc0FNM1ZF",
+        "CBMinAFBVV95cUxOQTFfVXVac01EemI2MG9mR0EzV3UzRXRXM2NLb1BiSkU1emRvV09uT1J6RG1vQUJKUVhPbVZxaHJ6UEhUUkNnMmkyWDg4YzZFNVdBZkpyMDJ2YzhhMEM4WlFpVlZrWEplTEZ2T0J3N1hrdjMzcGwxazB5Wl9YY3Z4NzN3dzFoRmdpeC1nU3cwSzc1OUtfZDFKNjhKa2g",
+        "CBMizgFBVV95cUxObFJ3d19nWV82bFRVaW5waWx2azhWcXo1NkkwR0lsRzBxUjI3Rl9NZVY1dmZBay1KSkNyV3JmN2puWkR2RzkxU2hfdkZobnJnOVVfRmdfSS00NnBsOE9hUzl6RFZQaU4tZ3ZRVERILThDS09jZ2ltQ1M0ZFBBYnRMekF2YktPLTJkZVJwT1c3RE9kMXJ6UkpIczhTc3lGTkVRbS1sRlZQaUVCbEY3dmVwMzQxa2VKVlRJdy0zSUpNTHhRZlVPYk9IRHJXYnhoZ9IB0wFBVV95cUxOakZIdDBtZG90UVFtQ1pRcUk4TmQwdDdYTl9obzNFS2pvR3ByVGFrdkxyWFhPbUN4R05Xa05NZE9NV1hQbnFYRW1OOUNRZnBlVTk2ZWo0Wi1sSW1zVXY1UkhDaUdTRXpGNEdzeC1qUlFadHhzLVJ3d19vWG5Nb2lkSGFrUzgtdVVCdTlwX01lTEJhLTZhZUhsSTN4OFVoQTdoZ3p1UDdWQ0dmY01mUThVWm9oQk1LRVlQMFpqZk5lbEdCTDRnTjBnMTRpclIyRTNJSzR3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-25T08:33:00.721Z",
-      "last_epoch": 1787401809000,
-      "etag": "\"0f4f2c6eae71eff752c2dc249a4b21236-gzip\"",
-      "last_modified": "Tue, 25 Aug 2026 08:15:37 GMT",
+      "last_fetched": "2026-08-25T16:27:08.863Z",
+      "last_epoch": 1787662338000,
+      "etag": "\"021bcf22d9051692646586681bc779b63-gzip\"",
+      "last_modified": "Tue, 25 Aug 2026 15:59:39 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -133,11 +137,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/fssai-revokes-order-against-usls-flavoured-spirit-produced-at-baramati-plant/articleshow/133354763.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/discovery-india-presents-p-c-chandra-group-more-than-gold/articleshow/133374175.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/sabyasachi-to-enter-fragrances-footwear-and-small-leather-goods-categories/articleshow/133412301.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/government-restricts-fixed-dose-combinations-of-chlorpheniramine-maleate-and-phenylephrine-hydrochloride-for-children-under-four/articleshow/133424446.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/government-restricts-fixed-dose-combinations-of-chlorpheniramine-maleate-and-phenylephrine-hydrochloride-for-children-under-four/articleshow/133424446.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/india-investigates-fragrance-giants-over-price-collusion-document-shows/articleshow/133511445.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-25T08:33:01.000Z",
+      "last_fetched": "2026-08-25T16:27:09.155Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
