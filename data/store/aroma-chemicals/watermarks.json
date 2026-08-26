@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-26T08:32:42.908Z",
+      "last_fetched": "2026-08-26T16:44:23.345Z",
       "last_epoch": 1787513401000,
       "etag": null,
       "last_modified": null,
@@ -24,15 +24,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-26T08:33:17.077Z",
+      "last_fetched": "2026-08-26T16:44:57.825Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-26T08:33:18.169Z",
-      "last_epoch": 1787729208000,
+      "last_fetched": "2026-08-26T16:44:59.210Z",
+      "last_epoch": 1787746608000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -121,14 +121,18 @@
         "CBMiowFBVV95cUxOMDJIZ1U0S2JGbXhwU1dJWVdyek42bE5HNld0N2ZjLWcxQXlvd2gtakRwU2ZyaVhadTBZbXdCVmVKT2NkdFFCQTBHeTFwWi1WTFlvc2NUR1BndVI2YTBmSmtmT1RfQk1xVXZ5SlM2ZUREdVJXUHU2eC0zdTRnaE5INDFjVDZ5VFFnMHpZbXA5eVpscWRuZVgybFpEOU5rc0FNM1ZF",
         "CBMinAFBVV95cUxOQTFfVXVac01EemI2MG9mR0EzV3UzRXRXM2NLb1BiSkU1emRvV09uT1J6RG1vQUJKUVhPbVZxaHJ6UEhUUkNnMmkyWDg4YzZFNVdBZkpyMDJ2YzhhMEM4WlFpVlZrWEplTEZ2T0J3N1hrdjMzcGwxazB5Wl9YY3Z4NzN3dzFoRmdpeC1nU3cwSzc1OUtfZDFKNjhKa2g",
         "CBMizgFBVV95cUxObFJ3d19nWV82bFRVaW5waWx2azhWcXo1NkkwR0lsRzBxUjI3Rl9NZVY1dmZBay1KSkNyV3JmN2puWkR2RzkxU2hfdkZobnJnOVVfRmdfSS00NnBsOE9hUzl6RFZQaU4tZ3ZRVERILThDS09jZ2ltQ1M0ZFBBYnRMekF2YktPLTJkZVJwT1c3RE9kMXJ6UkpIczhTc3lGTkVRbS1sRlZQaUVCbEY3dmVwMzQxa2VKVlRJdy0zSUpNTHhRZlVPYk9IRHJXYnhoZ9IB0wFBVV95cUxOakZIdDBtZG90UVFtQ1pRcUk4TmQwdDdYTl9obzNFS2pvR3ByVGFrdkxyWFhPbUN4R05Xa05NZE9NV1hQbnFYRW1OOUNRZnBlVTk2ZWo0Wi1sSW1zVXY1UkhDaUdTRXpGNEdzeC1qUlFadHhzLVJ3d19vWG5Nb2lkSGFrUzgtdVVCdTlwX01lTEJhLTZhZUhsSTN4OFVoQTdoZ3p1UDdWQ0dmY01mUThVWm9oQk1LRVlQMFpqZk5lbEdCTDRnTjBnMTRpclIyRTNJSzR3",
-        "CBMixAFBVV95cUxQVmJmQzlxNE42cDlxWFdvNFVUTlNnY3h5UEpkaUNLUl9ONGtyWF9Sbk1POUtqMnlsdHF1VmU4Ukp0ZFZ6M3ltSHpSMkdJSVRYTXJYVm9WSHZtdk5HRzBxVE5PVnAyNUtEeU9seHlINHBJVERTdzUtcjc4YXg4LVF1OVM1d3V2N1hqajBJOGwydHJWRzFmOUg5N1BWU1I1N2ZnZ29held0R0xHN2xLVmhzT0pheV9KYmc1V0VtMUc2RTdJbzVJ"
+        "CBMixAFBVV95cUxQVmJmQzlxNE42cDlxWFdvNFVUTlNnY3h5UEpkaUNLUl9ONGtyWF9Sbk1POUtqMnlsdHF1VmU4Ukp0ZFZ6M3ltSHpSMkdJSVRYTXJYVm9WSHZtdk5HRzBxVE5PVnAyNUtEeU9seHlINHBJVERTdzUtcjc4YXg4LVF1OVM1d3V2N1hqajBJOGwydHJWRzFmOUg5N1BWU1I1N2ZnZ29held0R0xHN2xLVmhzT0pheV9KYmc1V0VtMUc2RTdJbzVJ",
+        "CBMirAFBVV95cUxOeEpjZTFSbHFHb2ZSUmpsazU2d0VLaXZwc2xYUTA4VkIwS19GVnExMEZOMXdOSk1rNjdrSF9oM1hESUdKczZTMTBtcG11LUhQWFVtdExycXgydkZIN0dSb1BDTkxIQ1NzeHhNZzE5OHhzeXA0NE1vSVJVYnB4NUJIampNT0ZnODQzRTViVWNPTUdzYXBkVlVxalAzS2taLWJJNmx6TjlzUlcxblhy",
+        "CBMiowFBVV95cUxPTXJtTXdHamdIN1ZzcFVKMzBtWE9BY1dlc01Oa2F6d3Q3STlhOWlSQ1oxdjlrSVBna3FuRkJmbEZtekoxQ2o2TUIyVm5tOU1NNUJyZW95Ykotd1BablNXb2t2U0FoR25JSG9BS09FdV9pT2IwdV90R1NnakVubDJwa0l0RV9Hb2I5YWRWTTVyTHN5Y3hINkQ4ZnFpTHhHclZPNGFj",
+        "CBMimgFBVV95cUxNeXVrSHdjcFpOWnZORkdHMzZDNWNIYUJJY3BJQWR1ZFp2U2c0eGdGbXRqNEZCZ3E4LThXOHRQS2x3SGp5dEV3NmdQZ24xbjhRbU5RVVBjazBqY1VyVzlIa25QM04ybHIzc3BfRlhIVXhWZGdQaHpOTThHQkhFTG0wQXlvaWNOdmxWSHVUcTF3RmpJV3JCUkF2TTRB",
+        "CBMizgFBVV95cUxQaHRQMWVnTERxNjgtZ0hFbUtfQnBLNDZvdEV5MXd2MWNqOFJXZ0xEQXhuM1Q1ZzZuTUt6REdEZGRKQ0djU294U2hhVXFQQnpuTkJGZDJHNXo0bU04b0N2Ym10R3VkM2x5WGFyTjdwaEFNSU10aGp6X2JaQjFiRFVCZEo2bDFKUE5TdzlockRMOXBob09OT2RWQmd5MGJXYjFLd3Rmb1ZkOHhKQkRqZ3hZeFFIUHdXejJxdzRzR3JLVkpQRUFva1BUcXNhelFiQdIB0wFBVV95cUxNOGtfekd2a2tHZ3I1T2h5YjFsQ2d0V053Z0Z6b2ZFM0JEejdlTi1SWUtUZ0laZXB0ZksySGJzcDVoX0dwOV9UdHdSUFVRRFdsNjg3ajh2dUlKRTYyMTAzdDl4aTVTSVFWLXVhbTJnRHFIVkRuYnk5SFZPNm9Udk5MZ2tRVXZHU2xaRkp2ZG5oejdZUUlOTkZLVmtWZ0FhVnNZaFNrX3ZXZFNqbUs0am9sUXdjcldUcEVfcHBaTHZJbThyaVFIMXp4anM5Rm9jVDJxeEdZ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-26T08:33:18.274Z",
-      "last_epoch": 1787662338000,
-      "etag": "\"00fe7e376de2793b1d1674f625bafacb1-gzip\"",
-      "last_modified": "Wed, 26 Aug 2026 08:19:23 GMT",
+      "last_fetched": "2026-08-26T16:44:59.295Z",
+      "last_epoch": 1787742687000,
+      "etag": "\"01d477b2ba7476b42f391a54f8cc568a0-gzip\"",
+      "last_modified": "Wed, 26 Aug 2026 16:23:32 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -139,11 +143,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/discovery-india-presents-p-c-chandra-group-more-than-gold/articleshow/133374175.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/sabyasachi-to-enter-fragrances-footwear-and-small-leather-goods-categories/articleshow/133412301.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/government-restricts-fixed-dose-combinations-of-chlorpheniramine-maleate-and-phenylephrine-hydrochloride-for-children-under-four/articleshow/133424446.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/india-investigates-fragrance-giants-over-price-collusion-document-shows/articleshow/133511445.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/india-investigates-fragrance-giants-over-price-collusion-document-shows/articleshow/133511445.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/wipro-consumer-care-enters-pet-food-market-with-launch-of-snuggles/articleshow/133538822.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-26T08:33:18.374Z",
+      "last_fetched": "2026-08-26T16:44:59.364Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
