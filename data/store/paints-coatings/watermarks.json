@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-28T03:54:31.042Z",
+      "last_fetched": "2026-08-28T15:45:40.875Z",
       "last_epoch": 1787685980000,
       "etag": null,
       "last_modified": null,
@@ -41,15 +41,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-28T03:55:05.525Z",
+      "last_fetched": "2026-08-28T15:46:04.687Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-28T03:55:06.816Z",
-      "last_epoch": 1787854527000,
+      "last_fetched": "2026-08-28T15:46:06.134Z",
+      "last_epoch": 1787913120000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -294,14 +294,17 @@
         "CBMi-wFBVV95cUxPaWRSZXlOQVRRTUQ4eW9DYjN4SzBiU0Ytd1FNZm51WjFGRUJKQkRfT1pWOFRwOFhGUnJfMmZRM2JJWExUNXQ5enAxTUJQbC1Rdm91ajBYa0gzeFI0WVhBRldtSXZJZWpDN0xzeVJwMGtpMk5tdzk2RTBRdGZCM19CeFQyMFhDd2hOREpubWtlNzlpVV9vMExJc0h5WDJ1aXhWb2dFN2k3aGRtRHFnVExLVDBXeS1KWGtyZ2EtRWU4cDNoZWxUQ1lWeHR3a2l2STFZZmVmbmRhd1MzMFloMXY5QVdabWl2X0wyS1c0ektlOGpMbWpnYXRhSmNBb9IBgAJBVV95cUxPR3NiV19VeDRxcGNKX2Vib0ZaWE01UkktZjZCTk44c1RtRWtXbzVOQkpJdnR0OHNLOVA5OFZ4dktIcEljOE5xSElxdnE1bnFpb21tREwxUnp5UTlVMjRkTV9NTzlSbTgzTzIyZ1QtNTFoNXFZVEFpc0pHRzZFZE15TGp0b1JlZU4weUYxdHBjdXo2LU5kNEVaRXlGQ2x0UTk0dVZfU1JCTFBBakRFODRaSmlBQU9zLU02eWwwZS0tU0ZhYlp1Nl92ZWJDbWlBcUVCdjBFaVRxakNUcTdBMXN4RVBKQ3BZdUVxOEdyd0xRNmlGdDNzV1IzcGpoM2hvMzV3",
         "CBMi1wFBVV95cUxOWVYzNHpsblRLeldlVWxlY2FDR0dlQU15SE5zdlRQUzFlcXNOZmlVb3I2cTZ1UmxRd3ZhYlRISGV6ZlBkZUxmWXYyOHhwTHJxY0FVTVUySmRSdXl6emQ2OHloR3Nuam1kMF9XWnBMV2pmdGZadTlkeXNCOG9pektUdlhGTkI4NS1uYzBSRldGUnU2dFlIeGxMajFPaHZjSkJNbUstdVBRZHRhVW9IcDRVdTB2R2otZ1poZGxNa2VUS082eW9PWEVmd0Yta2llRjM0dFlCNGxEZw",
         "CBMi2AFBVV95cUxPaVNuZk95U3dsWEJfcEZxeDBLZXhGMzBFSmFDekdIX0pwQ19pWnhMS0RpTXZGYi1LYlJPSU1BY0JySmF4YlBYQ3Zib3RKWjdsalhEb3RlVkdja3hYVXpEeGNyYWp3UHAzYXY4enhQOHJDMENBTmlXQnc2clFSSW9xY2hDa0pHaUF0MXV3angzLVc3dEpHLWY0ei1ObDJwTXdzbzIydkFZNFgzZ3l0cGd0UDhYaDV0MEJ1d2w4aXZuWGtkOEJ3TlB2ZEFJZThQUG9Ha0V0U2R1bUg",
-        "CBMijwFBVV95cUxQb0pUdFhIRnE4LVJZR2puTV90cnJZM3dRWDZsZDA1bHJJTV9tenBUb1ItM1MtUVBtazdLNmQ2ZGZJamlIajdGZi1mU3VCQ19hcGVuVnRnNDUwS3huSWdxREwta0twZUtvQThpOXk3Y1Z1MmlmVFFkNUNHZ2JNUFM4dnR0NnJUem1XTVM5STBOVQ"
+        "CBMijwFBVV95cUxQb0pUdFhIRnE4LVJZR2puTV90cnJZM3dRWDZsZDA1bHJJTV9tenBUb1ItM1MtUVBtazdLNmQ2ZGZJamlIajdGZi1mU3VCQ19hcGVuVnRnNDUwS3huSWdxREwta0twZUtvQThpOXk3Y1Z1MmlmVFFkNUNHZ2JNUFM4dnR0NnJUem1XTVM5STBOVQ",
+        "CBMisAFBVV95cUxObDJqSXk1ZGNoSTZLZ0RKTmx6eEhtcmZNaU5ZeVFTUFNfNVA3M1hWNV90d2ZRWV9laGhiaFN0eXlwelNGSDBsLVhJd0dzQ2ZTSmNwemtNOFJ2SE1RSE5KMmc1REJpd2FkRlh4ejFGLWtaeXpzMktza2pEMlh1Z0JIeGRXN2g2YnJ3eTNraExiZGVEQWJwblJYenNPeHRJbC03eEdsYWlXSVJjNDBmV053NA",
+        "CBMi3gFBVV95cUxOMW5taHJWTmRGek1sTnlHQVg1dkVPRkN5UjRhWHA5Z2tJZnhjRU9LdW9abUpjN3c5V0F3SFVkVlRxa1JGc05tdWtLTjBiTndqc3hhLVNMenIyNnJnb2NlREphSThpY2Y5NXhRc2NMU0REUVdKWExKT2p6N1p3MzRDeW51RUZIQVE3OEYydjhzRmxCdDNMM0kyTE5FTU5XbmNSTGtvQldvRXAxY0FlU2cyTE16cE94ZFJ1dVNyVXZDdmIzTG9ITm51bmxCVnZnNHJIUkJ5RWJuOHVUWXBPLWc",
+        "CBMipAFBVV95cUxOSFI3N3lKWE9PYURadUNwUFlZVDNEbWZZUkV6UXVhSXVVQnpBTjhoZjhQeW5fbGUzZ3p0YXp4dy1HTnV3YXFrWE5wc0d6YnlBajhiYWMtNDAxN1ExSGxGeFM0aG5uTjhxcHpCTUpOOTdrYWpZUGM0V2l5NEFteG95U1k5cmpHbVpyUHJKOG8xUzh2QkpoNnFZUi1sN1BkRlRvYWMwcA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-28T03:55:06.853Z",
+      "last_fetched": "2026-08-28T15:46:06.278Z",
       "last_epoch": 1787832111000,
-      "etag": "\"03d565f67f3082fe73476a1a66d95d8f1-gzip\"",
-      "last_modified": "Fri, 28 Aug 2026 03:46:05 GMT",
+      "etag": "\"06fb8307c0c7c580897ab2e381010f326-gzip\"",
+      "last_modified": "Fri, 28 Aug 2026 15:17:43 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -315,7 +318,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-28T03:55:06.890Z",
+      "last_fetched": "2026-08-28T15:46:06.311Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

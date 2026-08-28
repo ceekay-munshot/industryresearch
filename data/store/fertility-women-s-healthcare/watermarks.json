@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-28T03:57:48.477Z",
+      "last_fetched": "2026-08-28T15:48:40.254Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-28T03:58:14.784Z",
+      "last_fetched": "2026-08-28T15:49:08.369Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-28T03:58:15.889Z",
-      "last_epoch": 1787865126000,
+      "last_fetched": "2026-08-28T15:49:09.808Z",
+      "last_epoch": 1787913120000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -174,14 +174,16 @@
         "CBMi1wFBVV95cUxNalhBa2pzUWxIdWd4ZHVJNGpKYTNVMXlzT0Z4ZVI5clRTbDlOU3p3b0NlMGpKbmgyb3VKOVdGYlJqblMtbk1vVEZRVlVoSjJXYUVYSTAzTU1qMnFLd3B4bnhTbFpIeFRtYm1vS3FoM1ZKVy1lckQwS0JMYjZRUVNjU3ZZMmdQYzJOYzJab2hXUVdDWTh5R3BQOUFZNlkyd0dPMDVqMV91QlNVMTFfcTRJTloxU05JV3EtbGFkcnhaVnhKMzNBMWZfNWJYSXo4Vnk5c2JweUowb9IB3AFBVV95cUxNM1EtQzBnUTlnTmZydmZudGYwbDJJaTE5dndaRDktY2l2RDJvek9zXzJwNUxRN2JLMlJLLXNJMHZHZURXUGNXa3NLX29OZXBuNjFZbjUwX1FoUWZZYjJlVlVUMU5sVkVrS3A2TXJCckwzTmpBV3phZkFfaTk0aWh3dXAxaG9LMkt1c2o4TTJZZEk5bjBTeFBSM1REVzNGS1FKVlVTQ01neVR0eUxzTGZvWU5wZkthSV9LYXc2QTA1a0NfbHJEY1hyaWtrWGhUWE9xSGNYVXJjRnhhcjNI",
         "CBMicEFVX3lxTE1GMG9iN185VDd1T1JocEFuazROanE1OC15bnQ2Q3FTZUJ0R25tVHFoVjZWZ1AxYnd4M2VrX3ZsblpMMHM3SVltdGd2MXBZOEdQdjUwQkJmbmI5VnRFa2ZUQ3VqSnA0NF9hbm1rWFFGaVc",
         "CBMiswFBVV95cUxNbFY5d3ptSTZGUGVRRjJkSlVlR25pbXVHQUE1cDUtUGVzREp1NEd3bUNUeG1GOTFXeU54OHA2X3pmRE5vYzFyaHJZRHQyME11SEdtNnlwNXNzWUotYzZNYUJFNmgyRVV1TWYwc04yY01UV1Uya0dIVF85OGZLRWQyNUVtNEpnSktRWWFRZHdMUlBOUjF4LWZnNTMyYkJuM1hlMmN4T1dXS2lmWDltazNGYmlnaw",
-        "CBMilgFBVV95cUxOenFEb190TGt6SzBGQjg3Y3RHRF8tcm53ZEt1dm5QWDRPYmZpMWRjWmpBNHZCeEI3ckowQ2I3MHdJd0loRVVvZzZsX0ZURjR4NGlPLVN1eHQwUTNJMDI0eGRTR1cwbDF3SE9KMTBjeTNZTzNXX2didVdxOFF1bDJtNXdINHYzOWJ1YlNjY190UGdEMUQ5Wnc"
+        "CBMilgFBVV95cUxOenFEb190TGt6SzBGQjg3Y3RHRF8tcm53ZEt1dm5QWDRPYmZpMWRjWmpBNHZCeEI3ckowQ2I3MHdJd0loRVVvZzZsX0ZURjR4NGlPLVN1eHQwUTNJMDI0eGRTR1cwbDF3SE9KMTBjeTNZTzNXX2didVdxOFF1bDJtNXdINHYzOWJ1YlNjY190UGdEMUQ5Wnc",
+        "CBMi3wFBVV95cUxPVVZxY1l6YVZNM1I3SjBkQW1vR3ZRUVNKVHRub0dTZmFIWUdRU1MzV2xzTHB2VkxWRmYwWkVObUQ2MjV2bi1PdkJYcG1SV3c1Q3NNQ0EyUkpwRmZFVWJVam1UdF9OekJnVHYzR0Y4UFhqV3F1dGZvVGYzQUNnalVZWnEzakhCU0JTTzUwT1dRbl93RWtUYmVrYk9PNDZ5dkx4UkdHS3c3Q1czdnQ0V2RidklDa1JoUEFnVEtJMjJFSTd3ejNZMndPQTFESDV0WThpanJ6TlZsUXQ0bC1jVjA0",
+        "CBMiwAFBVV95cUxOcXc1Y2tTNmFKOHFKSDVxZUJ4b3l6V01YTHVVTHZBQlJpMW5TT0xzRGE1T1dPRURqeXRXME9kM21UaVdUazdjSDRmNlJqMkJPX0NnUTR2d0lGOU04LUVzcUJ5QzgxSGRCRWZZOXgtYUZaZGZGM3J3YXZJU2xEazZJQVQwQmhvR1hhSGRxWlhKOExUSHl2WmJQVUp0ZTliTjQ4REFLQzgtZnBjdXJUX0l6UUFBWEpja3l3X2ZvSjVBQXg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-28T03:58:15.918Z",
-      "last_epoch": 1787875200000,
-      "etag": "\"03d565f67f3082fe73476a1a66d95d8f1-gzip\"",
-      "last_modified": "Fri, 28 Aug 2026 03:46:05 GMT",
+      "last_fetched": "2026-08-28T15:49:09.847Z",
+      "last_epoch": 1787926967000,
+      "etag": "\"00157385618cc694f9b565fc9b7845049-gzip\"",
+      "last_modified": "Fri, 28 Aug 2026 15:36:45 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -252,11 +254,18 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/ltm-makes-fresh-tech-push-from-kolkata-with-global-delivery-ai-competency-centre/articleshow/133563878.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/nestle-wants-india-to-consult-on-food-labelling-rules-amid-debate-on-packaging-warnings/articleshow/133562006.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/yatharth-hospitals-draws-interest-from-aster-advent-as-healthcare-consolidation-heats-up/articleshow/133577494.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/demand-for-vaccines-surges-as-h1n1-other-influenza-cases-see-a-sharp-rise-tata-1mg-pharmeasy/articleshow/133577722.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/demand-for-vaccines-surges-as-h1n1-other-influenza-cases-see-a-sharp-rise-tata-1mg-pharmeasy/articleshow/133577722.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-to-operate-direct-flight-from-guwahati-to-bangkok-from-oct-27-himanta/articleshow/133593780.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/ola-electric-gets-rs-95-81-crore-pli-incentive-for-second-straight-year/articleshow/133593599.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/mahindra-group-expands-battery-as-a-service-model-to-entire-esuv-portfolio/articleshow/133593059.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/eesl-pngrb-ink-pact-to-deploy-smart-domestic-png-meters/articleshow/133591269.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/itat-rejects-tax-departments-fts-royalty-claims-on-spencer-stuarts-executive-search-fees/articleshow/133590140.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/punjab-government-imposes-one-year-ban-on-manufacture-sale-and-storage-of-analogue-paneer/articleshow/133587203.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/ola-electric-brings-indigenous-bharat-cell-lfp-tech-to-mass-market-with-all-new-s1z/articleshow/133585566.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-28T03:58:15.986Z",
+      "last_fetched": "2026-08-28T15:49:10.157Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
