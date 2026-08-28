@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-27T18:29:07.893Z",
+      "last_fetched": "2026-08-28T03:54:31.042Z",
       "last_epoch": 1787685980000,
       "etag": null,
       "last_modified": null,
@@ -41,15 +41,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-27T18:29:33.092Z",
+      "last_fetched": "2026-08-28T03:55:05.525Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-27T18:29:34.733Z",
-      "last_epoch": 1787830219000,
+      "last_fetched": "2026-08-28T03:55:06.816Z",
+      "last_epoch": 1787854527000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -292,14 +292,16 @@
         "CBMiXEFVX3lxTE1TZzFHWW5DM3d6TXV6UEY4bFFEXzhER21OMlBCOGRDeWx4azlNQ2ltekhVSVl6MndtYzVrdkduUjdySVgxVm54bGZOQV94OFlKNVIxYXRMbHllb2ZP0gFcQVVfeXFMTVNnMUdZbkMzd3pNdXpQRjhsUURfOERHbU4yUEI4ZEN5bHhrOU1DaW16SFVJWXoyd21jNWt2R25SN3JJWDFWbnhsZk5BX3g4WUo1UjFhdExseWVvZk8",
         "CBMiowFBVV95cUxNdG5IZy1ScHBhTDl5MThTMWRyTFEwT0FJQXVSUUtVRmFSRHJyMXAzb3p1enktQlViODdWb3ctM0NiQVF1cE16UWwzRmJHbkZoSkxFMGtrNlp0cGRYa0w0NWtkVjUyd1hiOU9oQk5WY18yLXpvRWlPTUsxNF9WQVRYWWY5OXlTZUk4LU1BVnFPRDBpSUcxQlBTNk1ja2g2aWJTbG9F",
         "CBMi-wFBVV95cUxPaWRSZXlOQVRRTUQ4eW9DYjN4SzBiU0Ytd1FNZm51WjFGRUJKQkRfT1pWOFRwOFhGUnJfMmZRM2JJWExUNXQ5enAxTUJQbC1Rdm91ajBYa0gzeFI0WVhBRldtSXZJZWpDN0xzeVJwMGtpMk5tdzk2RTBRdGZCM19CeFQyMFhDd2hOREpubWtlNzlpVV9vMExJc0h5WDJ1aXhWb2dFN2k3aGRtRHFnVExLVDBXeS1KWGtyZ2EtRWU4cDNoZWxUQ1lWeHR3a2l2STFZZmVmbmRhd1MzMFloMXY5QVdabWl2X0wyS1c0ektlOGpMbWpnYXRhSmNBb9IBgAJBVV95cUxPR3NiV19VeDRxcGNKX2Vib0ZaWE01UkktZjZCTk44c1RtRWtXbzVOQkpJdnR0OHNLOVA5OFZ4dktIcEljOE5xSElxdnE1bnFpb21tREwxUnp5UTlVMjRkTV9NTzlSbTgzTzIyZ1QtNTFoNXFZVEFpc0pHRzZFZE15TGp0b1JlZU4weUYxdHBjdXo2LU5kNEVaRXlGQ2x0UTk0dVZfU1JCTFBBakRFODRaSmlBQU9zLU02eWwwZS0tU0ZhYlp1Nl92ZWJDbWlBcUVCdjBFaVRxakNUcTdBMXN4RVBKQ3BZdUVxOEdyd0xRNmlGdDNzV1IzcGpoM2hvMzV3",
-        "CBMi1wFBVV95cUxOWVYzNHpsblRLeldlVWxlY2FDR0dlQU15SE5zdlRQUzFlcXNOZmlVb3I2cTZ1UmxRd3ZhYlRISGV6ZlBkZUxmWXYyOHhwTHJxY0FVTVUySmRSdXl6emQ2OHloR3Nuam1kMF9XWnBMV2pmdGZadTlkeXNCOG9pektUdlhGTkI4NS1uYzBSRldGUnU2dFlIeGxMajFPaHZjSkJNbUstdVBRZHRhVW9IcDRVdTB2R2otZ1poZGxNa2VUS082eW9PWEVmd0Yta2llRjM0dFlCNGxEZw"
+        "CBMi1wFBVV95cUxOWVYzNHpsblRLeldlVWxlY2FDR0dlQU15SE5zdlRQUzFlcXNOZmlVb3I2cTZ1UmxRd3ZhYlRISGV6ZlBkZUxmWXYyOHhwTHJxY0FVTVUySmRSdXl6emQ2OHloR3Nuam1kMF9XWnBMV2pmdGZadTlkeXNCOG9pektUdlhGTkI4NS1uYzBSRldGUnU2dFlIeGxMajFPaHZjSkJNbUstdVBRZHRhVW9IcDRVdTB2R2otZ1poZGxNa2VUS082eW9PWEVmd0Yta2llRjM0dFlCNGxEZw",
+        "CBMi2AFBVV95cUxPaVNuZk95U3dsWEJfcEZxeDBLZXhGMzBFSmFDekdIX0pwQ19pWnhMS0RpTXZGYi1LYlJPSU1BY0JySmF4YlBYQ3Zib3RKWjdsalhEb3RlVkdja3hYVXpEeGNyYWp3UHAzYXY4enhQOHJDMENBTmlXQnc2clFSSW9xY2hDa0pHaUF0MXV3angzLVc3dEpHLWY0ei1ObDJwTXdzbzIydkFZNFgzZ3l0cGd0UDhYaDV0MEJ1d2w4aXZuWGtkOEJ3TlB2ZEFJZThQUG9Ha0V0U2R1bUg",
+        "CBMijwFBVV95cUxQb0pUdFhIRnE4LVJZR2puTV90cnJZM3dRWDZsZDA1bHJJTV9tenBUb1ItM1MtUVBtazdLNmQ2ZGZJamlIajdGZi1mU3VCQ19hcGVuVnRnNDUwS3huSWdxREwta0twZUtvQThpOXk3Y1Z1MmlmVFFkNUNHZ2JNUFM4dnR0NnJUem1XTVM5STBOVQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-27T18:29:35.440Z",
+      "last_fetched": "2026-08-28T03:55:06.853Z",
       "last_epoch": 1787832111000,
-      "etag": "\"055d9beb874dbc5085c8b6555723e860b-gzip\"",
-      "last_modified": "Thu, 27 Aug 2026 18:24:14 GMT",
+      "etag": "\"03d565f67f3082fe73476a1a66d95d8f1-gzip\"",
+      "last_modified": "Fri, 28 Aug 2026 03:46:05 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -313,7 +315,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-27T18:29:35.591Z",
+      "last_fetched": "2026-08-28T03:55:06.890Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
