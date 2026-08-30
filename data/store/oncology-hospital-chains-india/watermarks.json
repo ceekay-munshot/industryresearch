@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-30T15:43:05.004Z",
+      "last_fetched": "2026-08-30T22:16:23.272Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-30T15:43:19.767Z",
+      "last_fetched": "2026-08-30T22:16:57.387Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-30T15:43:21.445Z",
-      "last_epoch": 1788061711000,
+      "last_fetched": "2026-08-30T22:16:59.165Z",
+      "last_epoch": 1788104109000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -309,14 +309,16 @@
         "CBMivgFBVV95cUxPWENYalRua2huR09fTnlmdmRnNUMxX0gwcUIzVWhtbkpYMG4xTkkzblZjbmNIaFpqSGhWNE5Rc24ySHFEaW1HckdfMmxtTmFkZ0JOSFZJMW41aU5vQ2xlbGFHaEk3bWxrd0E1eUxHRkxyZWZvamMyMUVaZkktOHREZWNsZ0ZCQ1BKX2didktZZWp1QlVyRVpMUnlreUpfb1p0RlU2ZEFCUE55dHhIS2NYdno0UWlUdzJ5LUJya29n0gHDAUFVX3lxTE9XRW9HcXhqTjBrZ1RpNGplWVdxc0h6MHllbE5ybGIyQVgyUlVCTmlZVVBKRmViQ2xSbVR3WXo3S3BhS2JoQnJFUDc2Q3oxWW9NQldpYmFBbU4yU3BlVDJmMkVDMENpZW45c1VyQ01TRzZubFJCMEI4UnZMY2ZDcDNCQ2J3TnJPQVBNbHdaRkRFRmxVcnlUU3p2ZFF6Y0JzdGZ4UXBReExPdDQ2YmZERlVMckp2VWlvYnJCdDRIbDFWUl9NMA",
         "CBMi3AFBVV95cUxQRnBjYzVTak04TUFNMzFjLS1ZbzhieGx4UFpnbDc3S1JPSkduTkRVUGZIeEhHYUJvRjVEZllWellPOGpfbElCZkxTanJLYVgyNDJva2tUUW1pOVQybEx4WGZKeThRY3pLUjhTUkdxZU83ZDJ1cXFIV0FnUFF2RE5pbktxOWN4d05DWE1XR0J6M1ZOb1V4QWFIZ3l2V3o2Wjk5d25OUXZaaXRYSHRBb19Yd3lkVGFwRFJWd2tRWFUyd3BacVZycVVnVGZDSlRmamF2c215aVJiN2NIb0Zy0gHiAUFVX3lxTE1zVVEtQUJTZjByLWlrVXByajFtMC1rQjFrWTN6SFFwRkNJejJjNUVSdkcxWnRocFBnbUxtNjdZWGl6Z3czWTB5VWx0WmhhanJEU1lUTHpfWFlSWVk5WlpDb1U2X0FzVmhrclkwWlZWX1pXZFlzOC1obFVuVzVBalQxaDN0TkVIbFVHcHFuV192R0w3Wl83RmhGV1YtZG51c3VPMU11eElCUy15ZE5hXy15ZklJMmtuYUhfbkl3ZS1nLWlhWHAtVkJhX1ZWYVBnSDhLaWxpWUZqV2FPdnNBU0dQdUE",
         "CBMizwFBVV95cUxPdWRCWTJHVktIRWpzY29tamJFMHFaMXFDdEVoWFZpdUpUWHJuUmhLb3ZWMF9rUExPbVMtNXZ4ZFVCWjN3QWNPYkdhZ3ZIRVp1cjNSaTJfWVk3RU5iMEg4NmlmVWFPMWtsdVdxMnh3SXdEa2pHRHV2MUZrVFFUMTZyZVFDa2hQSWVPeDhaZFlLR3ZMV0VxbEREdWVsZVEtSTNqUzV5TjlUWDQ0ekpHZ3A1bThXdEZhNlVUTU5TTmk5cFpYWF9BX1UxZGY4ODJuN2PSAdQBQVVfeXFMTWNhNXVJR1E5ODZyQVA1aVRwOXpjUGM2Z0I0SDIxSHl6aUtPN043LWVhTngxbkxEOUR2YWpFaHZfSUZNU29meFdxMlV5ejNDalZNRkxfS3hiV1otRmN6VFppSHdGcmlRY05PNzdYaEZEblJCNXZWZUd6aF9EYXZIU0tHTDM3OF9nTEFpRTFuUGc2SVJQOElZb0Q3NThtYmNnMjBhcWdOSzZqVkJqdjU0ZjVjQTNEQUN1OGl4UmpqSmVKcm5IbFhiMTRwTlItMTllNmlqRXc",
-        "CBMi_AFBVV95cUxNMGcyZ3NfdnhDcWhNdHBtdl91YXpiY1pZLUd3NGt2QnpEdXFzTDVKaTRyeUx5Mk1VY0ZxV3Jpbmt0cEZUZDhYRWp0c1VZSUNQVWF4clQyZF9LeHNJcUttbThJdDNCMUlfeEVpSEZpd29zV2kxb09EbmluLW9LZTYzeVItVlJfeDl2OGdyM3oyMHplYXhid2hxM05xNXR1bXhiZzZOZm9LdmhOMHc0a0RUZU05Vi1WVEVlQy1QeEdKY2tQTWlwdVNhd25qMmx6cmktbE1TaVFSWnFMa1d4RzR0Qkdyc3NoS3lobS05NGJqcDhWbHdxUk5ieHJ4QU_SAYQCQVVfeXFMTlFIZ1hoS2lSbGNHRURFU01zNlV3bkdycWsxZ2o2aVJSU0ptanpXdWtXUk9PTlphNXc0TEVycmFlb1Z5Njd4YkcwNENUVTJUUklCSU9MTWk3OVBuN0paSkctNS15QnlfUlVSN3FfWGVxMHRSTWxHQTFmQmsyX05ERW5JazgwTWFVOTBEVTZtLUlHdzhjTlNCSmNKTk5lNGkzcHM2R2w5YlE1QktCNXZqamtfZDZuQkRNemV0eVR2ZDdfd05ZMlUwUFJRSVBJTlN3dnFJcmNwZlpqSWg5YWE2eG9GUERQd0psZkdnamtsSkdYYno0SEU2bGFVR1ZaV3VNOHFSdEg"
+        "CBMi_AFBVV95cUxNMGcyZ3NfdnhDcWhNdHBtdl91YXpiY1pZLUd3NGt2QnpEdXFzTDVKaTRyeUx5Mk1VY0ZxV3Jpbmt0cEZUZDhYRWp0c1VZSUNQVWF4clQyZF9LeHNJcUttbThJdDNCMUlfeEVpSEZpd29zV2kxb09EbmluLW9LZTYzeVItVlJfeDl2OGdyM3oyMHplYXhid2hxM05xNXR1bXhiZzZOZm9LdmhOMHc0a0RUZU05Vi1WVEVlQy1QeEdKY2tQTWlwdVNhd25qMmx6cmktbE1TaVFSWnFMa1d4RzR0Qkdyc3NoS3lobS05NGJqcDhWbHdxUk5ieHJ4QU_SAYQCQVVfeXFMTlFIZ1hoS2lSbGNHRURFU01zNlV3bkdycWsxZ2o2aVJSU0ptanpXdWtXUk9PTlphNXc0TEVycmFlb1Z5Njd4YkcwNENUVTJUUklCSU9MTWk3OVBuN0paSkctNS15QnlfUlVSN3FfWGVxMHRSTWxHQTFmQmsyX05ERW5JazgwTWFVOTBEVTZtLUlHdzhjTlNCSmNKTk5lNGkzcHM2R2w5YlE1QktCNXZqamtfZDZuQkRNemV0eVR2ZDdfd05ZMlUwUFJRSVBJTlN3dnFJcmNwZlpqSWg5YWE2eG9GUERQd0psZkdnamtsSkdYYno0SEU2bGFVR1ZaV3VNOHFSdEg",
+        "CBMitAFBVV95cUxNLUdXYlo0Zk1DdUhZWWpncTdaOXNyOFVHSjV6b3hGUDRvaFRYY085VW1JWWVCSmJkbkJSS3JROTVzdDFsNWUxR2Y3VjE5cFU2MmhRZHBzXzBmZVZXUnMzX0V4N3pFMGxEUU9SUU54cWgxRS12ZW5YRUxwbE5GTWdreDBNYlh1QUVvaUVDeFZySXVUTVhJOVltNHlfZXc5eUd4anFjVUVNaEtCQVhlc0k1WHBWZHA",
+        "CBMi8wFBVV95cUxPUThRYWxKQTQ4RXEwcEphWHZaOE5OOXB4bl9Pc0FuUlRnSUwzam0zQl9QTTRpRmpYTWJYT2tsODdNTWV4YnVfNTBNMzQ3TjlILXFRT1MtQmM2eTZueWlCRTFrR0Z5TVJrdmVaOHZoZXZOZnZRWDFKVlFOQlhlQ1ExMS1IMFdrd2NLZGlVYk15VVVybjloLUl0SWdSWEkxdmlPTnRPdFFNV2x0dVRKOFVmelhhMHZYSi1TQnRyT1lkRkR2M2h5REVUaEwyWVZtRmMyWEVkRkY4dWI0SEhYakhmY1BYbl9sS0FZNU1CU2lrNEJjbHc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-30T15:43:21.476Z",
-      "last_epoch": 1788094621000,
-      "etag": "\"026c899dd136f95b7e69e10b2c0d4e462-gzip\"",
-      "last_modified": "Sun, 30 Aug 2026 15:16:04 GMT",
+      "last_fetched": "2026-08-30T22:16:59.245Z",
+      "last_epoch": 1788118364000,
+      "etag": "\"000506b71c5e8d8408b0ba873adc9bdc3-gzip\"",
+      "last_modified": "Sun, 30 Aug 2026 22:02:33 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms",
@@ -371,11 +373,13 @@
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/brics-effect-delhi-luxury-hotels-sell-out-room-rates-surge-ahead-of-summit/articleshow/133625594.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/park-medi-world-to-expand-hospital-network-across-north-india-add-1450-beds-by-fy28/articleshow/133624070.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-b787-engine-shutdown-ge-expanded-inspections-after-2023-incident-dgca-tells-cic/articleshow/133629863.cms",
-        "https://economictimes.indiatimes.com/industry/services/education/neet-pg-2026-over-263-lakh-candidates-take-exam-jaipur-re-test-scheduled-due-to-power-failure/articleshow/133627766.cms"
+        "https://economictimes.indiatimes.com/industry/services/education/neet-pg-2026-over-263-lakh-candidates-take-exam-jaipur-re-test-scheduled-due-to-power-failure/articleshow/133627766.cms",
+        "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/maharashtra-effect-hotels-eateries-in-delhi-push-for-stricter-audits/articleshow/133636576.cms",
+        "https://economictimes.indiatimes.com/industry/services/retail/for-retailers-ecommerce-highs-come-with-headaches/articleshow/133636321.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-30T15:43:21.501Z",
+      "last_fetched": "2026-08-30T22:16:59.286Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-30T15:39:54.699Z",
+      "last_fetched": "2026-08-30T22:13:24.412Z",
       "last_epoch": 1788076860000,
       "etag": null,
       "last_modified": null,
@@ -168,20 +168,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-30T15:40:22.038Z",
+      "last_fetched": "2026-08-30T22:13:50.943Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-30T15:40:23.953Z",
-      "last_epoch": 1788088892000,
+      "last_fetched": "2026-08-30T22:13:52.885Z",
+      "last_epoch": 1788114767000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi7gFBVV95cUxNZ2Q0NTJ5R2RnWVdYQnQzQ0xXX0lBaWtwWVk4bk55V0FueGZsWlJ6S25meTBCdEJ3Q1l4blJtZ1Uyc0hVOFhiendrX0FqZ19MczV6b0s3SWp5Y3UzcTNiemgzdE9OM2o2WGZMTmlyX09nZDFwX0FFX3hZNmRRWmU5SU1lNDQzc25zLWEzS1hudTJqbTVBU0FUWXJKZ1BiVzRacGZLRG1yOXpJdVVFUjZ4VGZYUTVXczJLWVB6b0ZETTljeHpkam5UUjNMbzU4bW42NmxYVjFvRk84MU5MS0RqV05IQVdUeEE0UzJjNml30gHzAUFVX3lxTFB3eWN0NmJOcWhRVWVBSUJwd1NzaHB4aGo4WFNuVE9KOG5sRl9ZMWt6ZjM1dUQyUWlKX2MycjlNNy05ZE9EeGRLWlRGY3l6dGZzOWhlOEhsbWNERTFZMVB1MkVIOGJxVi14bnAwYTMzY3lSTkx5MXphMktvMS1VNUtxZTJDYXdBbHJrOC02NmxCNTRjbExhcG4ybTI5V2RpR1dkRXJfRXhlX3I1SENMdFlDdWthaGQ5OVVoZnlIZ05SMmhTZko0bVNxdGNJYURwQWZFbkg0Qk9GR21OSzhGNzl0YzBXT2V4dWlqY3MxMHlvSGRjUQ",
-        "CBMi2wFBVV95cUxOVUpPeFhlZWU1TmFYQ2p1V1RxbnhTUzNtdFBjTVZrSk9ZRENwdnhEb2prdXU5Q21zVUNiajRNSWtybHRJZjUzZS10ZFpuLVFiTmkwQzhXc3RuSldjMjM4blAwZjhxeU55OVZqY2haalNXaHZlNWI1R1dfa3pPTVI4VDB3SUNZajJEZEh2QWQ3UDB4aWNIMloteXdrdUFaUVgtN0s4eDFyOFZyMDdWTnp1Q2tFTlY1eGFoSHdjX2JHZXdKYTBzNHNBWEM1YzdRM3lzcktFc1I1QW5Jb00",
         "CBMiuwFBVV95cUxNZU9VQXE3NDh3R0tOMTBrV2hZMElYYlhhOEtIUnJvWWlDQ0FMbTdXZUhDdTBvbG9wSDZXU3B5eVFLWkdPWFczZ0Jsd2RTOXlUTnhOVXlCMDZCLXN4dU5ITjlIZFFiN1o2WWZra1dJM2ZLeDZmOHRSYk02NzFPZC1IT1lxeHY2XzJ3LWpIb0JsZDRQTk5OOEZkX2VESElqVmtoVkZnaU5LR1NFRHkyNHVrTGtoblA5ZmtGYkxV",
         "CBMitAFBVV95cUxPdTdOdUcxQndRMW9VaVZZNUhldVd3ejltckpqX0Y4ckREV1hqZk9nWG04dlBDeWxtQjJZVk5xNzJlYXl0SFk5RmhDTkc1RWxraVIwTXlraEUtWGxzV09DdWJJOTdlN1JrZ1lYd0JVY2JRdEZQcDVySDdlZDRkdndHaUI5TmNSTUJWVzMyV0x3ME91YnNVenM3UTdKRVRSUEpTUjVlMHIxMmNCeWxocU1UbzUxcXnSAbQBQVVfeXFMT3U3TnVHMUJ3UTFvVWlWWTVIZXVXd3o5bXJKal9GOHJERFdYamZPZ1htOHZQQ3lsbUIyWVZOcTcyZWF5dEhZOUZoQ05HNUVsa2lSME15a2hFLVhsc1dPQ3ViSTk3ZTdSa2dZWHdCVWNiUXRGUHA1ckg3ZWQ0ZHZ3R2lCOU5jUk1CVlczMldMdzBPdWJzVXpzN1E3SkVUUlBKU1I1ZTByMTJjQnlsaHFNVG81MXF5",
         "CBMi8wFBVV95cUxQYzNBaERiY3ktQlpONVZpcjU1allWclVVQXpuak9wN0RmRzJteThFXzdfMVZhRUlQZS05ZWM4SEhTLXN5RjBCbk51LTR5aUYtUXNXMVdpeVFzNnFwNGY4aGlRLWw5UGRBTkxHajJBdTUwZGNTR0pucXE1bDVjLWZxWXl5YzR0ZUdrTkozYzAzSnlXY1JjdXQtZkNNVWhRNmZXbU92MlhubFJ1MWpyNWpuZjhneHllWEU0aDBLaFhKNU5qY2JLQnBMamRZeHJNRHl4aUt5M1Z4VGdOZDBybXdyTlc5Vnh4bnFtU2g4MlR3UDF3ZGfSAfoBQVVfeXFMTUowOExWcFp1cmZZc1FHQzQxdWM3S2YtanFsN1dMaFd4R051TVR5QlZXYlA2dVlBQ0FlY3lNNzFKb0c1cDBNdURaYlQ3YmxGbE1JaXE2a3VvbGxRaFhtbUZPM0s2R3pUTTJ4dHFIenU2WjRpX2RHcXo3UE53bnotWXlZQnVKNHN3a3NIUkpBTWZ4ZXNqOGNIbkE3V3FhTGtuSmNQcDQyd2h3cjRMNEYxQlFiSm9CdHFSNzB6eHFCY1Q4cTV6eUN2bnJ2QW1ERG1YOGdCR3BBRTBBb2NuRWkteWxyQm5KZ1ZvYklKRWtzUUN4aGo3ekhBdWNSUQ",
@@ -479,14 +477,16 @@
         "CBMi4AFBVV95cUxPc0VORlF3dG1HcGZxSm1sX2YtVjhQTGgyMDJmZ2pUa2drU1R0TEdXcFdERll2T3dJMU93TTVycjRaTHZ5bDF4dE50MGZGWUstZmJraVFkeTBpSDJMc3JKZjB5c2RMYVJaQzNTd2FySTlIZ1BXVDdTb3EtOElVdHdmSC1jeWpOdTFJZk9PdUJXb1RoYUxsODhkTUlOSktVOTVWdzBtVndCaFJ2X2laUHQySERib0gxNFhreTRkS0xXLThjS3pXQTU3OUFpZXl3QWpzcEltQ0xLLVZfbmhHZ2xRZtIB5wFBVV95cUxOWVZEZWtPTzc0Q0d1X3V6cFNtbzE2OXBoeHU0TWZvMkI2c0lmaVNrMVp1eGN5MVU1MklJbm91Y2RnM1J3blQtakdSZFhXZENxU1FRUV9GMENKanNjQ2dwQjFBQ3Q3Qm1xWk9EcllCNTFwcXNqSVh2MW1SV0lWUkRHb3ZOZGpUTDd4RE82Z05qNzJtdmJnaFVEZTJIekNhZ3BfXzBWZEtISHV6c19CSjJnYWtRbkdoY2V0MlVoNTZjWDJKSk96Y25lbVdQTERSS0ZpcDVMQVVnek9FUGVzRFl3VGd0NEx1Nkk",
         "CBMiwgFBVV95cUxNcl8tcG0tcS1pNVZBMmxQNV9sdGdVaHlaeGFSaG5sRVhYdmF6V0k5Z0pDS1VWdXBwelctd0xIUGZ6RnU3c1hPbGZsNjJWNm5pY3JSRno4TlE5WnhlSEIzTkxuLVpLeTZvenB5eGxEcTI0c0pfcHUwOHdLdHRXWEhpX2ZLem5zWElUbXhQMzVUaFdSaW9TbmFZUWlrc3ZDTlRTYkZkREJCNFRIZUY5dU5PMTFxTGZza29Iemo5bXg0dVk5Zw",
         "CBMi3wFBVV95cUxOU01lWHJXdlFRbjQ4YzIzUk04WGxiODk3cGZWc0lEUVBjN1ZlZHpmWk45VzJpdll1UHdraDRVb09JRWtHNmxQN2ZXN0s0T05wVnpMLTNTTXl0SEdORVBPTFJrN2ZrTnhxbGw4WUxlN3ptVjFMRTcteWhzTFRobXd5dEZyc3dQWVpCbE5PSHo1aHdUWVlJakJCbk5tdzZHTVM2cjNqSFRSQVFsMUpDS2x5bDhibTJJS3RlNWczdWtPQmRDYUhsQ1c4QW11bmRJMlY5MFBYMTNBZXU0ODNEbWEw0gHkAUFVX3lxTFAtbjZWTlZtQmJuU0RHa0lGTzJVUENnVG1DR2t6TWhYOXE4U1hJcTIyTzlpR2pmZnRIdFpoOWtsMWYyVDZSLTVJaDZPR3pOeUNzYlFzRWR2aDhGQWp5a25KVmlYcm82Zl9zTmZCcU5HYV9Iam9sOURlQnk0OHBycEhOeEkyUmdHLUNESFNIcTJKanJlQ1NLNW9jWVFkTlhGeHZfZS03TmdkbG1GTmUzX3dUenJYclk1SGk3X2NidkdxWHQ5dzQzaWxPWVJzM3U3eTJFMlpHeXRzZ0dhbzFQSmN3RXBTNw",
-        "CBMi7gFBVV95cUxOZm1tV1dGcWt0LVlGWmpLSEhIRjNZOUtTZnlOQWR3MDU5MXRfa2FuQzdoZE1XQ2toR1JZbld4V29leXBEWVVnaE1PLXM4Z2xKN193UXFyTHdsREc4TjJVQ19BVkNOQ3hFTGNXTk9BRjFtWjFobVBLVlVvU3NHVVFaTWxGb0JsYkp5ckhLTEVSeW9LVjd6MmtCT05UOHlHZHhhLUJjVU1tcTE4Z2E0NkhPYnVxNXNCbGJaT2dVSGxHR0l3NUh4RnNybVJSM0Z2UnJINFhIaEJQNjB2RW11aXJlbEJmM1VWRlVaQTFOZkd3"
+        "CBMi7gFBVV95cUxOZm1tV1dGcWt0LVlGWmpLSEhIRjNZOUtTZnlOQWR3MDU5MXRfa2FuQzdoZE1XQ2toR1JZbld4V29leXBEWVVnaE1PLXM4Z2xKN193UXFyTHdsREc4TjJVQ19BVkNOQ3hFTGNXTk9BRjFtWjFobVBLVlVvU3NHVVFaTWxGb0JsYkp5ckhLTEVSeW9LVjd6MmtCT05UOHlHZHhhLUJjVU1tcTE4Z2E0NkhPYnVxNXNCbGJaT2dVSGxHR0l3NUh4RnNybVJSM0Z2UnJINFhIaEJQNjB2RW11aXJlbEJmM1VWRlVaQTFOZkd3",
+        "CBMiiwFBVV95cUxPQ3EwVmUwWnliS1hWajRydEZOMW1XVWVhQjNNVDBJNzRrbVdiLUpoXzNMU0ItRHJBSjNGTnc5WGdaS1JsQWgwYU1MMWd5MDR0eFRIVHJOb3I0RWF5Q19tdkMtRDAwd3RqcS1KYklrTng5ZVExNFFJaEFITndtM0k4WTVManhwN3Y1Z0xn",
+        "CBMi-AFBVV95cUxPa09KQU9iVlgyUHZncjMtbjhMdVBMQTJxX2UtalNuOHU3YzBKVDFRWng5R2dxa0EwMHV6RS16OTNzVjNtWmM4eENfa3ZZTENSR0xVN1VRb1V0LTE1S2FZeW9LVXpjRGhkWlk1b21yeDVGaEZPeHlmOG10bUEzOGdEUUQ4X1MyZ1RuUk9YNV9qS1A2RVVmc2VrRk5Za3I3NnJuaUNqRjRzLTBlQThJRGpxLXdKWXYybVR1Ml9oRGwtb0ZGbzI5TkIwY0xYbW1jdFlxWGp0S18yQ3RlRlZjcG0xamZjQWNwaHVFd1BrMDlnRE5TRkdvNlZKYtIB_gFBVV95cUxQVXBSelJ6ZDRvT0RQQjV5VHZsUmI0UXl3SzNSZHVqd18tdnJZZEdSbVkxdzhvOVpsaEcyOFRiVXc4cW9tZUUzcUN3NDA4ak1YNUJaUzIwanhqRGxieS1qV3dkYTR6NzZnU3lPVWswWWxMQXVTS1Y3LURDdmc2MlFIQnNKYzU4Rm15M1BYUVRIeWVlWk5uclg3WG1TX3RlUmxOajdJQU16dFpjUmZqZlZ0RlVTejdwQlFBODU5U2VhWEozUFhHSHZWb09ZV0NXWk9HQnl3c05PUHhZbnV4WllJY1RaaENsWTBBSklKUFF1WGdjQXZsVGhJMWo3dklHdw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-30T15:40:24.014Z",
-      "last_epoch": 1788087658000,
-      "etag": "\"026c899dd136f95b7e69e10b2c0d4e462-gzip\"",
-      "last_modified": "Sun, 30 Aug 2026 15:16:04 GMT",
+      "last_fetched": "2026-08-30T22:13:53.031Z",
+      "last_epoch": 1788115672000,
+      "etag": "\"000506b71c5e8d8408b0ba873adc9bdc3-gzip\"",
+      "last_modified": "Sun, 30 Aug 2026 22:02:33 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/sc-slaps-rs-10-lakh-fine-on-reliance-industries-for-delaying-ntpc-gas-supply-suit/articleshow/133249366.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-directs-all-vishakhapatnam-flights-to-alluri-sitarama-raju-international-airport/articleshow/133239974.cms",
@@ -561,11 +561,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/steel-demand-outruns-capacity-as-prices-stage-comeback-from-monsoon-slump-kotak/articleshow/133606922.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/foreign-bfsi-firms-setting-up-more-gccs-rent-highest-7-32-million-sq-ft-office-space-in-h1-knight-frank/articleshow/133611351.cms",
         "https://economictimes.indiatimes.com/industry/services/education/technical-glitches-cause-chaos-in-neet-pg-2026-examination-in-jaipur-student-protests-erupt/articleshow/133626368.cms",
-        "https://economictimes.indiatimes.com/industry/services/education/neet-pg-2026-over-263-lakh-candidates-take-exam-jaipur-re-test-scheduled-due-to-power-failure/articleshow/133627766.cms"
+        "https://economictimes.indiatimes.com/industry/services/education/neet-pg-2026-over-263-lakh-candidates-take-exam-jaipur-re-test-scheduled-due-to-power-failure/articleshow/133627766.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/neet-pg-exam-in-jaipur-rescheduled-to-september-5-after-power-outage/articleshow/133636038.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-30T15:40:24.316Z",
+      "last_fetched": "2026-08-30T22:13:53.095Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

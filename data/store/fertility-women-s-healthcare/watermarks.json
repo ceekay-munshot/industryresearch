@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-30T15:42:28.928Z",
+      "last_fetched": "2026-08-30T22:15:57.789Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-30T15:43:03.408Z",
+      "last_fetched": "2026-08-30T22:16:21.466Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-08-30T15:43:04.666Z",
-      "last_epoch": 1787988653000,
+      "last_fetched": "2026-08-30T22:16:22.908Z",
+      "last_epoch": 1788104678000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -177,14 +177,20 @@
         "CBMilgFBVV95cUxOenFEb190TGt6SzBGQjg3Y3RHRF8tcm53ZEt1dm5QWDRPYmZpMWRjWmpBNHZCeEI3ckowQ2I3MHdJd0loRVVvZzZsX0ZURjR4NGlPLVN1eHQwUTNJMDI0eGRTR1cwbDF3SE9KMTBjeTNZTzNXX2didVdxOFF1bDJtNXdINHYzOWJ1YlNjY190UGdEMUQ5Wnc",
         "CBMi3wFBVV95cUxPVVZxY1l6YVZNM1I3SjBkQW1vR3ZRUVNKVHRub0dTZmFIWUdRU1MzV2xzTHB2VkxWRmYwWkVObUQ2MjV2bi1PdkJYcG1SV3c1Q3NNQ0EyUkpwRmZFVWJVam1UdF9OekJnVHYzR0Y4UFhqV3F1dGZvVGYzQUNnalVZWnEzakhCU0JTTzUwT1dRbl93RWtUYmVrYk9PNDZ5dkx4UkdHS3c3Q1czdnQ0V2RidklDa1JoUEFnVEtJMjJFSTd3ejNZMndPQTFESDV0WThpanJ6TlZsUXQ0bC1jVjA0",
         "CBMiwAFBVV95cUxOcXc1Y2tTNmFKOHFKSDVxZUJ4b3l6V01YTHVVTHZBQlJpMW5TT0xzRGE1T1dPRURqeXRXME9kM21UaVdUazdjSDRmNlJqMkJPX0NnUTR2d0lGOU04LUVzcUJ5QzgxSGRCRWZZOXgtYUZaZGZGM3J3YXZJU2xEazZJQVQwQmhvR1hhSGRxWlhKOExUSHl2WmJQVUp0ZTliTjQ4REFLQzgtZnBjdXJUX0l6UUFBWEpja3l3X2ZvSjVBQXg",
-        "CBMikwFBVV95cUxOekh1VFJpVkRpTXJ4QUo1clZ2RENOZ0p5dk1XRmxhdXJsaDFXUURkS3pjaVRVQVRFcW1wRHg1dEtreGRXNlJhVkZkT0p4SXlWa0pScFJ0YzgxenJWSjdyQXFaX1FFRmhTSjZTbEpLOHJwUno3Y2xpNEZIVjlldGVkcTNwRDBvQTZRLUhCc0pRaUhTeWc"
+        "CBMikwFBVV95cUxOekh1VFJpVkRpTXJ4QUo1clZ2RENOZ0p5dk1XRmxhdXJsaDFXUURkS3pjaVRVQVRFcW1wRHg1dEtreGRXNlJhVkZkT0p4SXlWa0pScFJ0YzgxenJWSjdyQXFaX1FFRmhTSjZTbEpLOHJwUno3Y2xpNEZIVjlldGVkcTNwRDBvQTZRLUhCc0pRaUhTeWc",
+        "CBMixgFBVV95cUxNN2I2dll3SktqUDRzVDM3aVRtMERXTFAtdzFXZE5NX09uT2ZHbE1NMFFlT3RmeUVHYWRTY0t4YlR1Z3pyRGFSUlZQUUtpYUxlSnIxSnlSd3pBbnhkNFNQeVhaX2M5M0pPeG1iUmVpckpBZTJpNnVfcUJTblZVTDF1dm1xVGlZREx0ZTJjRDJ3WE5wRXhuSkxCMUY3dmMzRnpmU2x1NlhyT1g3ZS1NVV8yN0VOWXIzRG9kWkc2TFdmMlFlaDg3M3c",
+        "CBMiwgFBVV95cUxNM0JzU2Z5TElpM3lfZUUyd0hrSU4tUUJTREN6Z29RY1ctNHF0am1sYl9VYnZCZnBFVGREWHBkRkc2RE9KV3lubk0xZWdVTVV5Y2U2RXdnSUVoSDd6S1V1cGhja0FPdDI5UC1TeGIwdXZWbHBVaVNhZEFtdXJyYkNnNENNZXBpVnp5UmdQR3BndG4wMHRzT1VaTmtnUFlyUTdQTzA1LWY0OXZJUW1FZ2RVSl9NeC1HcTVqNE51cUkzdGFMZw",
+        "CBMi2AFBVV95cUxPSU1PX3B2U0htb3B4NXRmTy1JS1Z1dUdOQmgyT1BWd3ZTTzdkanJaWlFDeHNZQ09uY013SUNjdVk0RjlaeEROdjZJR0hPNk5jYUVsOFVGRVNrT1RaZXRPWlZuR0llRERqYUVZbUhWd3ZWXzlHMkxVUWo4aGd2YzBlWTZYRUZTRmYteVBkTjNFWl9PY0xZRjVaSmFraFA3dEY3cXJCLWdfSUh6WGU5eXNvWlZxSWtqdk9FRlZFblRSU3Q3Y2JCYXI4YllDVXlzTG0zZzFMRUIyUlk",
+        "CBMi4wFBVV95cUxPcl9NY1hfRUZnenFGU3h6Y3pTTlRXTUMwaHFPellJZVNuclNJYU9HUmdySXhDbVhnNVJDajVHYzNCZmN6NVlsbDlaeGpVTzlaQWZxV0FIbDdOXzZLaU9TeEItVDNtNmdBYXV0U05HZGpEU3dXcHhCZk81WFRmeWZPSm43cmF2NmtNYzV4RkVPb21BdHkzTTBDX1dxNzB4eGZIQVlJQ0ZEd0tEbEY0cXdJSmp1ZEdjMHF6NUpWeFVQS3N2RzV4cDg2MXZwWXg0NUY5bXRkTlZCZzR6cHNpZHZhQVp3dw",
+        "CBMi4AFBVV95cUxOTm11Qm50YjdweXZMQVZob0JZeFZrRFd5WDBfNGpUN3hKSVYyVFh1ZWlnVGw5cU4xWjNMMi00T1dUNmI5SFdUZ0tuNE12cGhfREhtc0RCWnpSRzR0VnBWMjIxS1dkMWJwOFNxd3dzRGkxd0xnVlF2MXhqLXNCM09RX1lvZzVxRm9aN2xVT3hGYU5EaWFxZXJPbnlvN0ppeUdrMExEVFNkTlAydlUzeTJLNkR2SXRiZkpkLUsxeklBNU11b1BXTU0xVkpXN2F5aFk0STVESnFKaTRMT05SVUFxcQ",
+        "CBMi4gFBVV95cUxPZGp3Y2hFVkFXTm42Y0N3OENVZFE0TnlZOUE5RmJSWHhHREtTSVVRLXFSeW1mTW9GcXd0Y1BqdkJRZjhIRGY4NkdOVURMakdfcDUxb0dSc1Q3dkE0RXFkazdqLXU3OUZxRDg3U2tUNGcwdV9ET1FWXzZtY0llVjRqNjJMOTVTaVphOFhVc19aT3dyMm1qU1NaQ1BzNGRTMGtOeXQ3T1A5b3l3VkIzZ2dfcFBtWk44NUJidG95RGoyRnFzdms5SEJ3ZWxhamJxTE04ZmhhRXh2MTFzbTlzWXJPbmh3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-08-30T15:43:04.702Z",
-      "last_epoch": 1788078335000,
-      "etag": "\"026c899dd136f95b7e69e10b2c0d4e462-gzip\"",
-      "last_modified": "Sun, 30 Aug 2026 15:16:04 GMT",
+      "last_fetched": "2026-08-30T22:16:22.961Z",
+      "last_epoch": 1788118255000,
+      "etag": "\"000506b71c5e8d8408b0ba873adc9bdc3-gzip\"",
+      "last_modified": "Sun, 30 Aug 2026 22:02:33 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -273,11 +279,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/jharkhand-on-high-alert-over-swine-flu-health-minister-directs-hospitals-to-reserve-beds-ramp-up-surveillance/articleshow/133626123.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/amrutanjan-health-plans-to-set-up-1-lakh-direct-chemist-outlets-in-fy27/articleshow/133623517.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/is-longevity-the-new-flex-why-the-new-wellness-status-game-is-all-about-health-data/articleshow/133622565.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/liquor/storm-in-a-wine-glass-as-climate-change-and-young-consumers-reshape-the-wine-world-can-india-take-advantage/articleshow/133622448.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/liquor/storm-in-a-wine-glass-as-climate-change-and-young-consumers-reshape-the-wine-world-can-india-take-advantage/articleshow/133622448.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/many-deals-over-10b-amid-conflicts-this-is-astonishing-jpmorgan-anu-aiyengar-private-equity-ai-investment-trends-india/articleshow/133636559.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-08-30T15:43:04.804Z",
+      "last_fetched": "2026-08-30T22:16:23.090Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
