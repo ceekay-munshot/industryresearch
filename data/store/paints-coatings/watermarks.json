@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-08-31T23:29:27.899Z",
+      "last_fetched": "2026-09-01T08:59:17.145Z",
       "last_epoch": 1788173015000,
       "etag": null,
       "last_modified": null,
@@ -44,15 +44,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-08-31T23:29:52.856Z",
+      "last_fetched": "2026-09-01T08:59:42.119Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-01T02:27:08.465Z",
-      "last_epoch": 1788201939000,
+      "last_fetched": "2026-09-01T08:59:43.214Z",
+      "last_epoch": 1788245369000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -313,14 +313,17 @@
         "CBMitgFBVV95cUxQVS1Mb05qNEUwLWJVMVlRclpmYktpaTRYcjU4NmhxeFhCU3g0NXA3aXdjaER6T19QeWJjTmtIVkFleW9vTWRveFY1UzZ6dUdRUHo4NEIza0tIdWxqYURod25ET05Xd3gxZjFPWkxQVG9MM1h6UVVBWG80ZlJvck9rTmllZnBlZXhlWmNqdFAwWUxIUEprbkRKUlVKMy1UUjJPcGhua0d3aEZnNk1lQkRLd1dwVWh0UQ",
         "CBMijgFBVV95cUxQVXBkbkdsRHN1UXZaSktLQ19rWTBfSEtvMkU2RzRBRVhMYjd6eUtNblV6V0cwZTZnMDNXRTdaUFlvNFpJY2hmdldBZGJ5czFvQV9DSmFiUk15WXRJY3FyeVRNdXdHZHZ6eHpERDdIcVNmbFowbTJzQzNwNi1PdzlEN3g3bXZveDh3NGRJV21R",
         "CBMihwFBVV95cUxNXzJCQ0JTQ3l0RWFBVXFiOE9PRHBNaVJ6dHcxdUZYWmtLNkZnWGJheUVRNG9ZWHJGZURrQ21PTHZfZUYzWjY1Z1hnd3NmTXRPbXB1c2htQ3lwV1ZITG9lQkdhWkRlNDRRUkdYVlRsWjRqekt4MjlTSmdTcl9NMEZhWS10Rzl3cEk",
-        "CBMiygFBVV95cUxQSkIzYnF2U3hPbXZiSkZYQ3h3VkZaSHp3V2JOZjFXYTlnZzZWNnkwbmJ3Tlc2YWZjWFJuek1xRm13N3pzVjY4Yk8tRUU1ZmNLOW5jWldhX0t3a0NfYm1DLUZweXE3aWhJSlA5MUlHaW5VUUZ2TkxuNXFTWFRfRUZha2lCUXdDTGY3QVBKMk1pa0s2WENLX0Z0VFI5ZDNkaE44UDRZR25kWG1ZcHl0cEk3Skw0eTdqSGtZeFF0Nlg5OFB0bzR5QXRVcmZ3"
+        "CBMiygFBVV95cUxQSkIzYnF2U3hPbXZiSkZYQ3h3VkZaSHp3V2JOZjFXYTlnZzZWNnkwbmJ3Tlc2YWZjWFJuek1xRm13N3pzVjY4Yk8tRUU1ZmNLOW5jWldhX0t3a0NfYm1DLUZweXE3aWhJSlA5MUlHaW5VUUZ2TkxuNXFTWFRfRUZha2lCUXdDTGY3QVBKMk1pa0s2WENLX0Z0VFI5ZDNkaE44UDRZR25kWG1ZcHl0cEk3Skw0eTdqSGtZeFF0Nlg5OFB0bzR5QXRVcmZ3",
+        "CBMigwJBVV95cUxPWVBkMl9uRjR1SGd1NUNCcDgyOW8zR0xiMTJZUlRYRUphZHI0RjR1cEJGY1ZDTWw2NHVlal9GX2pkRWdZTVZVX0lEdEJBQlJJcjN1eVlfX21zdG1OZk5KNWdfSGY1SnNyc1VFM290V1hKYzNiLUM4cWw2aVlsZ2JkSzM1YmJpandHLUNmMEMtVGFtNmhJdnJ1eW9QLTNIb2VOc2ZvclRJYmRoWVE5UldIb1JtRmJUZ2t1WE5mV3l4RTFlSWN2V00zNUxqaVpHLVJnRFJ0N2laVjhaUy1Xd1FQbVRMTVRwNldfV2hxUEdyaHExZklrUjZkQjV3eGJmWnVNMzBN",
+        "CBMiqwFBVV95cUxQMGJKUmR4c0VyLUE3UEVzWFJWQ1JhUlNjc2toUk5LaF8wOFlMYnotWkJheW9FcHlUeUNHRVhJYW9pdUN2ZVotLTA2RWNla2MxTXdvS0Y2YTAxbVVVRDJ1amdmRW5iTGt1SDJOR1VRWTNlcVdyTGRlenp6d3JIZnhhQ2drZGtJbERYWHF2VzR0TjVvRzZOb3dzR3B4b3FFY1RVMnZ1MDMxSmEyS3PSAbgBQVVfeXFMUEVjMWRWaXNsbGJ3aGZrOUlaWnZHMEg5Tm5YWkxIZ3FieUpwcEIzNjVfc2o5cTdxVmV0MnpmWXBqZnBlYjhjblEtZEJDZW5Zbi00U1k3WGNEeWZHMFBPOHhYYVFFRWUzbGE4U2Nkc1NSME8yZHJ4OWk1cUY4MzdQQmRCLWRhV3duOFZQaFFTWHZJLXBIVi13c1dZcVpzUTdoWVlvVmp3LWZ5dl9oSXJ0RllWOWtZenFRaQ",
+        "CBMiywFBVV95cUxNNDhEZVlocENTSWZXSGV1cmNTT0dfUXhtTmNINXdjZ0M1TTRvYXhZUGhoQWNwRy00UzFiMkxuOVpyZkZiVk1QWEtvejdJSDJXMmw4S3k0cktPNzJ2WGdpa3ZWSUVWdDU1eXVrUUN0WFh4NHpWV0U4VHdDSThOX3NPa1dOZWYzdmlkUUM4VFJBZjRLM3hNSkdfbjNRN1oxLVBqWm5vODBncENGYjVYNURxZG04eGF3Yi1NLXFJbFF4YXhtN3ZZRGV6ZUVWQQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-01T02:27:08.494Z",
-      "last_epoch": 1788166927000,
-      "etag": "\"0af8e60d5e114400389f0872e7f70f540-gzip\"",
-      "last_modified": "Tue, 01 Sep 2026 02:11:53 GMT",
+      "last_fetched": "2026-09-01T08:59:43.279Z",
+      "last_epoch": 1788246441000,
+      "etag": "\"00a5e54a64c4306e958d37b6cb3f4d697-gzip\"",
+      "last_modified": "Tue, 01 Sep 2026 08:46:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -332,11 +335,12 @@
         "https://economictimes.indiatimes.com/industry/renewables/chinas-bold-bet-on-green-hydrogen-could-determine-fuels-future/articleshow/133556081.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/former-nomura-banker-mangesh-ghogre-joins-btig/articleshow/133567779.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/steel-demand-outruns-capacity-as-prices-stage-comeback-from-monsoon-slump-kotak/articleshow/133606922.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/gopalpur-industrial-park-set-to-drive-odishas-green-push-with-rs-65k-cr-investment-pipeline/articleshow/133647640.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/gopalpur-industrial-park-set-to-drive-odishas-green-push-with-rs-65k-cr-investment-pipeline/articleshow/133647640.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/dee-development-engineers-eyes-global-partner-for-nuclear-piping-space-jv-chairman/articleshow/133671736.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-01T02:27:08.570Z",
+      "last_fetched": "2026-09-01T08:59:43.317Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
