@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "contract-development-and-manufacturing-cdmo",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -93,6 +93,18 @@
         "India oncology hospitals"
       ],
       "is_manufacturing": false,
+      "mock": false
+    },
+    {
+      "slug": "contract-development-and-manufacturing-cdmo",
+      "name": "Contract Development and Manufacturing (CDMO)",
+      "aliases": [
+        "CDMO",
+        "CRDMO",
+        "Pharma Contract Manufacturing",
+        "CMO"
+      ],
+      "is_manufacturing": true,
       "mock": false
     }
   ]
