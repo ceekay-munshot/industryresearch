@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-02T15:33:21.038Z",
+      "last_fetched": "2026-09-02T22:07:44.918Z",
       "last_epoch": 1788348596000,
       "etag": null,
       "last_modified": null,
@@ -195,19 +195,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-02T15:33:35.999Z",
+      "last_fetched": "2026-09-02T22:08:19.396Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-02T15:33:37.901Z",
-      "last_epoch": 1788361727000,
+      "last_fetched": "2026-09-02T22:08:21.126Z",
+      "last_epoch": 1788382008000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMilwFBVV95cUxNWkluMHZhWjRlMjVqVkRTWkVUREdWcWkyYkdvMkQxNEFOdHhTNEUyLUtibml1N1U3dXh6MDM2RGt6XzZZRlFaMm04RmN3eE5PdXFTZzU3a1VaMUsxNVJNb2JfdVFvM0VZY2I0LUJVY0hnc2l3UC1RNTBLdFpkOUY3UTVKTzhBbm9Jd3pSbC0xWkFMYlM4QW9j0gGcAUFVX3lxTE9sQnhaOG4zcHlCU25sdjlmRVpHNkJaLTBuN3pRblBxSkJ1YWJkdU1FN1FQWW9ZVzVybEZxeFZzdUdCcjNNTXA1TkpUaG5Ic1VfeEc1VXc0alVhaUd1WU5mQUJfZjZtM0tWZ2d6bEFhVDVxYnZJZlNySUczd0JvdXdNVE5seTc0WERwMjZZbi12QWs5dU0wNHJDNm5oMQ",
         "CBMi7AFBVV95cUxPYm56ZGgwbG1hUWlKZ3RBdExZS2tMZ3o3WUIyUi1DZmR6ay1vZUVZTmVNMl9VR2dEZ1E1eGZsNmhnSkFVYkdOamNhTWpvTDRXRmxsQ29idUJrRGZPeC12aVFfYzJwNlk1bUZHazJNQzg1WEI4bldkVURHcnM2MVdvV09HRFN2YkFBRFBIbFNsRTNVbzEyY2dRWTNQalp4clM0ZDlsRmFfZUp4SVVPNUpZUGQ5RnFaRlVOZVlvWUd0Ni1OUWIyZG5qSjNXWEt3aDZwODZDbDc4NmN6eGtKTk1mUGN2QTQ0MWhzVWRXaw",
         "CBMi1wFBVV95cUxOb0FtWk1qM1ZZaU1iSVNHZ0V4UGxsclR3NGdsOUx3ZExTbUxiQWR3QWU0WUxrRTB0WVNfcHI3Y3hDQk83bDVCalBKZjdWaHhfcWVOclZwYTBsMGVNNnBKQ2xKcnBFQ1FiMW9HeE9Zb0lkelNkXzJxbmV6eHE0cjBmSDB3RjVwd0xOVWgwMEJjYWplODl2dDNWX2RIaVl3b2FTZUhpbkFZVHY1eHc1NlRnTncyWnVhZUtXdWJ4MjlUdFdGZWtOZHZ0T1hjUkxVZU0yQ3M0MW9FQQ",
         "CBMi8gFBVV95cUxPamYzNi1nUVNwa0M4SFdGSGNqNFNrQUE0dHBKOW1NQzFQNzY5Vk4zd3JSRWtyZk9WaFFmZURPWVprTWhPSEdsalhBbU91MkFjc19sZEQtR0JXWWl2d0JsQkU2eDNEaHRfZU5kN2VlZThaWi1vSkxYYmNhakZfS29ZNTF1TDFoOFFTeUJrbUppdWdmV3JEOU1UVGxyZjR3RFVWRjRqTHRvN3hXWHJDYUFZSzB2Z1MtVHFqZTFydFhHeEJaUGRzZDN0MXFJZlpPaDlLdkpfSG1DMm5BeWVBWk9taHY5bE13dUY0Xzk5Mk1hZ1ZJUQ",
@@ -506,14 +505,15 @@
         "CBMi5gFBVV95cUxNcndubUNNWGgzb2RIRnhJaGdZaWJQRkNYR05rVWRPMFU4M05KcnljblM1ZC1tU1ZKWnRpSmdEN1duSXJSY3Z6QlJvZmlvNmpYSzlQeDRpR3Y1UURCbzFkSlpyQ2x3WEU2ZVpmVGVWaG1VY2J4ejNsaW9iMnE1YnQzV2RtZTlrM2xqNEZfdVBVWHM0N21ybG5nNzI5T21QTmZsazJwMnlwU3BRVDBTWG9MZFV0LU0wNGhGZGMwWkpPa2Fjam44Vkx1WElaWFRYSVYtcUZ1eUVPQW4xY3F1SmVZalZMOHVpQQ",
         "CBMi5gFBVV95cUxORHFHbDRscW9ncVg1emgtMS03cldHZHRlbzR3LVkyWFI0ejFWUmFDY3kzV09YSGNmVDh5SmhhTlZuUHB6bFJyeEJ5cThJZjN4bmJHbC1EZmRta09Id3dTZlQ2Z2FNTHdEQm0xSW5aSzZ0WUVuSlpuNWppLW9DTy1iRjZRb2FxdmFQWTR2XzlXTi1fSEZFYmhaSjVSMjRVejdxbV93QkE4RmhETEw4MlBDc2JxNVU0T3RXNm5vdW96U1NROGdtWEVVT3UxN1FNQlFydTRVYlAzd2ZFUUgyNGJ3N0QtQUpWUQ",
         "CBMitgFBVV95cUxPYWlvR1lZVGRqd055dGJBdjd4ZVlPbDYxVkdhaFlBWDVRS1VqeTJ6S2psd29aOWoxbVBrbjVDeE5IZjdScGZJV28zOUtqMWpLVkhRaDdRMTg4eWp2eWZiekFZaUFoQWt1TFZUTUNFUElQZ2x2T01BckdRcGc0Z29NMTAtcGh6OTBJakFpVHg3MnRjOXhSNGIwaFdNM3V5UDBzLXF6Z2VaQ2hucHZWcEpqUnNXWXI4Z9IBuwFBVV95cUxPLWVWZzEybTZhN2w0WVctcmxiTWlVQnhCRkpDcHRsUkZOLXpJNnloVXJpb2R6dkRxeGFxOU9NOU5XOTR2X1VhVXFyRXFjRW5IQ20xR3pFODFiT2JHalpQV2Y0WFJJU0xDeXB0MFpRcnBiU0NKSXYwcktpcTRIWVJPQUozcFFBT3psZVRHTzluS0UwZGNmTU1PWGNsV0V3a3ZLd3hIRkJFLXhwMjItb1FiUnFTSzZDb3psVUVv",
-        "CBMiuwFBVV95cUxQX2RsdndFNDJ6c1ZlQ1NMNGFzMzRFeHEzTWF4TTM0bDJKajV2RFN3SHlQaEIyeUFHUVphbEpZQ0FHcXdFTm5GUXJuRWxDeFZzUzlKMFFmc0pZRlNZTm5uMEQ0eEZINFlPVVl2Y2dJaktXQ2JZdmZENzY1eG81bGprTjRzTENhS1Nad3gyd3RLWm1iZVhlbUdWd09FeHF3VHpJNjh6WU9meXZvNEFBcjZZNDNGdFE5d0p0dlg0"
+        "CBMiuwFBVV95cUxQX2RsdndFNDJ6c1ZlQ1NMNGFzMzRFeHEzTWF4TTM0bDJKajV2RFN3SHlQaEIyeUFHUVphbEpZQ0FHcXdFTm5GUXJuRWxDeFZzUzlKMFFmc0pZRlNZTm5uMEQ0eEZINFlPVVl2Y2dJaktXQ2JZdmZENzY1eG81bGprTjRzTENhS1Nad3gyd3RLWm1iZVhlbUdWd09FeHF3VHpJNjh6WU9meXZvNEFBcjZZNDNGdFE5d0p0dlg0",
+        "CBMiygFBVV95cUxNSGE0WmZ6U1lQeXV2dXdhNk9KLU1qTHRoRVdZMjN3TnMzVEtPOXplZGp0dkJ6X3ZCMlRkSGhjVlpvZ0tuLU5iY1ZwT0llVHJEelZVVld1NU5VVTR0N0JtRFhuNGg3czdVd3duMnp3S1U2T1pxV1pmMUl0Y0NNTE5MSFFLVTk2UzNCV2RmbXJYeV9GLVQ5bHozdzVkeWo0Q0ZMSXpCZHVIUFY1NUpMVmRJWkJMa0ZlelJ4WDc4Rm13Ukw5YlljTHV6QVNR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-02T15:33:37.941Z",
+      "last_fetched": "2026-09-02T22:08:21.314Z",
       "last_epoch": 1788246441000,
-      "etag": "\"07a6ff66fe463f9416896001950035240-gzip\"",
-      "last_modified": "Wed, 02 Sep 2026 15:26:20 GMT",
+      "etag": "\"04c6283c9dd1d8fba5320b3ba36b53ee3-gzip\"",
+      "last_modified": "Wed, 02 Sep 2026 21:51:13 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/steel-ministry-mandates-melt-and-pour-to-tighten-domestic-procurement-policy/articleshow/133321002.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/tata-steel-gets-cci-nod-to-acquire-additional-23-stake-in-tm-international-logistics/articleshow/133323860.cms",
@@ -534,7 +534,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-02T15:33:37.984Z",
+      "last_fetched": "2026-09-02T22:08:21.381Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
