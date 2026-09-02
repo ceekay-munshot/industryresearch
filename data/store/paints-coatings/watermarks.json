@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-02T08:12:57.660Z",
+      "last_fetched": "2026-09-02T15:31:45.865Z",
       "last_epoch": 1788329550000,
       "etag": null,
       "last_modified": null,
@@ -45,15 +45,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-02T08:13:29.360Z",
+      "last_fetched": "2026-09-02T15:32:04.352Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-02T08:13:30.598Z",
-      "last_epoch": 1788329883000,
+      "last_fetched": "2026-09-02T15:32:05.683Z",
+      "last_epoch": 1788351141000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -323,14 +323,20 @@
         "CBMixAFBVV95cUxQaWtlUnBXOWJPT2c4aG5GWGpPZmpDbERaTDBwR20xaUtkSVpySVZvcmh0aTBlWTZIazl2S1J5NVNCTXhSakF6MU1lNDcwQi1Hb3kzODNEdTh6QVdHcFNONC1obFoyOWd4WVlGTVlnUHg5VUMwdlpNUHR5OWhUUVZldE5pbjZfYl84c1FjdmlBVkVMQUUtUFU2Y0p4Z1p4Q0c3TXFkSk81aFdSS1NnTkdYSEZxVVg3NENVd1g4cWpNZWxsMGVq0gHEAUFVX3lxTFBpa2VScFc5Yk9PZzhobkZYak9makNsRFpMMHBHbTFpS2RJWnJJVm9yaHRpMGVZNkhrOXZLUnk1U0JNeFJqQXoxTWU0NzBCLUdveTM4M0R1OHpBV0dwU040LWhsWjI5Z3hZWUZNWWdQeDlVQzB2Wk1QdHk5aFRRVmV0TmluNl9iXzhzUWN2aUFWRUxBRS1QVTZjSnhnWnhDRzdNcWRKTzVoV1JLU2dOR1hIRnFVWDc0Q1V3WDhxak1lbGwwZWo",
         "CBMid0FVX3lxTE9sMHllcnB5NTVHdko3QWt3WDlXbEJXRGR4ZmduczdLVXM4dDVmWkxpb1dDU0xTaFdOSzNpNnlKb0ZZbmhQSzNnQzhOV3ZKRzVsS05lYllVajc3RlgyYWF6QmVpTDZKaEVldGRPaDB2TFkyejZ6Ny1J",
         "CBMiogFBVV95cUxNY194OE5zUlJkZkRMaTJuODhOS0hpc2EyWjFSMGVRblp5c2dZZkJJT05XWC1yTy1wRXIzOHIyLWhOdUZWWWpiYUQ1Z1V2TmpibFotWXBFMnlZc2pIa0NONmFHdGtqdWpWOUZUYmp5NHowUDZITVdpdktoSFFFUzF2TnlMaS1KUy14NnI0em80VzNWb1BmeldqdG51NkFMTHhleEE",
-        "CBMiqwFBVV95cUxPUGVaLVRILV9yM1pjN2tERWtBSUhkX0JVSkVzQW02eExSaDR0UkxCdXd0NWl5OGUzM3RaaHhLbGZ4cm5HR3FFQ3pISmNsMTZ2T1dHOVBQR0ZteHpPWEFhLW9uVTg4SUNrN1BPdTl0OHZTaWxmWU1JQm1KU255aVYxTFBJcEpXXzRXVmd6b1F5TkVJWmE1UmZJVW1IR3NYM3RxRFpodkNfMEZrTlk"
+        "CBMiqwFBVV95cUxPUGVaLVRILV9yM1pjN2tERWtBSUhkX0JVSkVzQW02eExSaDR0UkxCdXd0NWl5OGUzM3RaaHhLbGZ4cm5HR3FFQ3pISmNsMTZ2T1dHOVBQR0ZteHpPWEFhLW9uVTg4SUNrN1BPdTl0OHZTaWxmWU1JQm1KU255aVYxTFBJcEpXXzRXVmd6b1F5TkVJWmE1UmZJVW1IR3NYM3RxRFpodkNfMEZrTlk",
+        "CBMi8wFBVV95cUxOb2lBeF9lc0UwdWVpTXRyYVJtbXl0c2k4UWZFaGFDSldwRExsMlpVQ3BVVUE0U0ZoSFVBWXBKbmhhYW5VR1JtTjVYXzhhTFpzNm9zVFJKNVhvUU1xVlV0dFkzZk9fRmtYa1hJVThMWWtFSXFJSmhKZldjVUllNWdJaGpyRFdTRUJycFhQVndscTlxQ056ODh4b2UtbnVkWFUtTUVxcm5FaTlwVHZKYUVyaWhWRXlGZHBUUWRqU1NhSHJpMDkzSmVXajU2Y19tQ0hLX0w1WV84Wm9WSnFRUlltQjFDZ2w5OWg1VXpqLUl3WGx4aWPSAfMBQVVfeXFMTm9pQXhfZXNFMHVlaU10cmFSbW15dHNpOFFmRWhhQ0pXcERMbDJaVUNwVVVBNFNGaEhVQVlwSm5oYWFuVUdSbU41WF84YUxaczZvc1RSSjVYb1FNcVZVdHRZM2ZPX0ZrWGtYSVU4TFlrRUlxSUpoSmZXY1VJZTVnSWhqckRXU0VCcnBYUFZ3bHE5cUNOejg4eG9lLW51ZFhVLU1FcXJuRWk5cFR2SmFFcmloVkV5RmRwVFFkalNTYUhyaTA5M0plV2o1NmNfbUNIS19MNVlfOFpvVkpxUVJZbUIxQ2dsOTloNVV6ai1Jd1hseGlj",
+        "CBMiywFBVV95cUxQSWFrWE1rSVYzRmZrWDFTQkFoLVhxLVRFT1RIcUc2RUR4cncyNmd0Q2pJMHZHR1RxclkxTldpMzJVVUNMbm0xRXl0aW50Tng5emtVbGZXMTVKTE9CMDRXQkV6LURQQTZ4bnNUN1JlUVJFM3RNV3BNVFkteFh2UlNNa3ZxZ3hVajVsWTlmWGQ1bWhJaElCTUVaZzdIY1R1R3N5TC1iNFJWSWhOeExsaExfQWUwUlNzbjg0S0dhZ2xhTVdNLU9LRGFrclhoVdIBzgFBVV95cUxQTUxHZEpIbnVSSWxaa3NNYWhkZmlWRWtLbnR3QU1jaUdRUFZYcU5ZNjVNcVZkSWJ3ekdERVFjVDZySEZQMzFoVnNkcFNpdVc5ejVETURrZUV4RUJhZDZnRlliQi1tR0VmVU5VWlJtR3Y1VlhaVE0zSkZNb2IxU0NZNlB1R2g0NDFGaVE5S3FILWpIT2ZNUHc4UGxqOG1EVFM2ZVMxZDVhYjZldUZyRmZXNWE2dzUtUXZLRGI3M0trbWJGWFNqUlIxR19Pbi1kUQ",
+        "CBMixAFBVV95cUxQLTNLTlhPQWtiMVJiaWJzNVVFWTNIbVFRYVlCUjZ0YnNuUFQ1SDRid2tsNVAySUVneEdsOFNfQkJlQUtFTWttOG9NSWVZQ2JWYjdobGV6ZFJwMW1hdFNoY08yanhnUkZLTUlnNDVvaUxNYW5VX2cySGRCRVZrOG1WYko3Qmk4M19nMDgtSTF0aWtxMEVkLUxaTElYUnhkd2hvZGtENzVVbHRZX3JlNWduS2dTZXJTTG8zZmFZMGl3Vlhfd2M40gHEAUFVX3lxTFAtM0tOWE9Ba2IxUmJpYnM1VUVZM0htUVFhWUJSNnRic25QVDVINGJ3a2w1UDJJRWd4R2w4U19CQmVBS0VNa204b01JZVlDYlZiN2hsZXpkUnAxbWF0U2hjTzJqeGdSRktNSWc0NW9pTE1hblVfZzJIZEJFVms4bVZiSjdCaTgzX2cwOC1JMXRpa3EwRWQtTFpMSVhSeGR3aG9ka0Q3NVVsdFlfcmU1Z25LZ1NlclNMbzNmYVkwaXdWWF93Yzg",
+        "CBMitwFBVV95cUxQZE1Wd09iRlAwQTZiNTFjT2ZMZF9MWmZDUkk1Rk55UVVRNzdXaWdfMU9yME5fb0NMUE5VWGZheGUtMDM5U19QMEFpU0Zvd3J6UjNkdDBrN3Bvc3FfZEpPTml0OThiLXR2YjJtWUVNSHJjQWhnSVRKLWRnbXR1amxNNm41eHY5SW5WLWVxYml4cTgzOU8xZ3VaTzZBNXNjMGNRY0VJbTdCRDNlZGk3MkhMalMxZzBDam8",
+        "CBMi3gFBVV95cUxOcXQ0YjJqQmVJWDVkZUZ6THF2bmFyaVNWMEdSZm50eWxxUEYxY0dyM0gtLTc3Y1E4WUM1STZ1VUVWT3RGN2xINXJTc1ZWNGp5R21FX2poUEtRUVFsQXhtSjNMdTF3eldrUG5TNXlyV3R5ejBtWklGTnZCSDVHOEZuckpMNlRIVzBNSVRqdzZlakY0SEhYWlk4dVRySDhlX24xemlTTjlIR0ZkWVVEU3dsMnhodkdOX2t3V0lSRDc2UThyNGh5Tlo1QVRDWHFuSFQ2OXl3NWJ3RWVHWjV3OWc",
+        "CBMi4AFBVV95cUxQSlA1bU16VGR0VUgyYnVjWUw0ZHhaSHFlbXNmLVFFc2ptWi1pWFRZV3FadlQzYXJ4OFdra0NwalRoaVRyNGNpSmVXUWVNX0hqTzJPaG9ZbEtSc21iQlJ2SHY0TTN4VEpld21tY3JUUEZFNzh3Q1VBaUJHWDZSNEpuWEZvNnJGQzRTZTRKYzlMYXBFdEdNUjZWNThPSWtraUN0cGR2NlFSTTJVNUV6UTFxWVZiN0g4dk5mUWRCaE1ONGFFYkhmVGc2Q3g3YXZ0NHk5QkVjVWI5QkdESjRGTmNoWA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-02T08:13:30.758Z",
-      "last_epoch": 1788253345000,
-      "etag": "\"0bc0e8abeb642801c0e4d7437e73af130-gzip\"",
-      "last_modified": "Wed, 02 Sep 2026 07:55:54 GMT",
+      "last_fetched": "2026-09-02T15:32:06.057Z",
+      "last_epoch": 1788362695000,
+      "etag": "\"07a6ff66fe463f9416896001950035240-gzip\"",
+      "last_modified": "Wed, 02 Sep 2026 15:26:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -344,11 +350,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/steel-demand-outruns-capacity-as-prices-stage-comeback-from-monsoon-slump-kotak/articleshow/133606922.cms",
         "https://economictimes.indiatimes.com/industry/renewables/gopalpur-industrial-park-set-to-drive-odishas-green-push-with-rs-65k-cr-investment-pipeline/articleshow/133647640.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/dee-development-engineers-eyes-global-partner-for-nuclear-piping-space-jv-chairman/articleshow/133671736.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/sumadhura-group-to-develop-1-2-million-sq-ft-of-warehousing-space-in-chennai/articleshow/133674743.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/sumadhura-group-to-develop-1-2-million-sq-ft-of-warehousing-space-in-chennai/articleshow/133674743.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/india-soon-to-be-3rd-largest-wind-energy-player-govt-official/articleshow/133714437.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-02T08:13:30.792Z",
+      "last_fetched": "2026-09-02T15:32:06.423Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
