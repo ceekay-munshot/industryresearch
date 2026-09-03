@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-02T22:06:07.219Z",
+      "last_fetched": "2026-09-03T08:22:05.453Z",
       "last_epoch": 1788329550000,
       "etag": null,
       "last_modified": null,
@@ -45,15 +45,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-02T22:06:41.507Z",
+      "last_fetched": "2026-09-03T08:22:39.640Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-02T22:06:42.837Z",
-      "last_epoch": 1788351141000,
+      "last_fetched": "2026-09-03T08:22:40.793Z",
+      "last_epoch": 1788397553000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -329,14 +329,16 @@
         "CBMixAFBVV95cUxQLTNLTlhPQWtiMVJiaWJzNVVFWTNIbVFRYVlCUjZ0YnNuUFQ1SDRid2tsNVAySUVneEdsOFNfQkJlQUtFTWttOG9NSWVZQ2JWYjdobGV6ZFJwMW1hdFNoY08yanhnUkZLTUlnNDVvaUxNYW5VX2cySGRCRVZrOG1WYko3Qmk4M19nMDgtSTF0aWtxMEVkLUxaTElYUnhkd2hvZGtENzVVbHRZX3JlNWduS2dTZXJTTG8zZmFZMGl3Vlhfd2M40gHEAUFVX3lxTFAtM0tOWE9Ba2IxUmJpYnM1VUVZM0htUVFhWUJSNnRic25QVDVINGJ3a2w1UDJJRWd4R2w4U19CQmVBS0VNa204b01JZVlDYlZiN2hsZXpkUnAxbWF0U2hjTzJqeGdSRktNSWc0NW9pTE1hblVfZzJIZEJFVms4bVZiSjdCaTgzX2cwOC1JMXRpa3EwRWQtTFpMSVhSeGR3aG9ka0Q3NVVsdFlfcmU1Z25LZ1NlclNMbzNmYVkwaXdWWF93Yzg",
         "CBMitwFBVV95cUxQZE1Wd09iRlAwQTZiNTFjT2ZMZF9MWmZDUkk1Rk55UVVRNzdXaWdfMU9yME5fb0NMUE5VWGZheGUtMDM5U19QMEFpU0Zvd3J6UjNkdDBrN3Bvc3FfZEpPTml0OThiLXR2YjJtWUVNSHJjQWhnSVRKLWRnbXR1amxNNm41eHY5SW5WLWVxYml4cTgzOU8xZ3VaTzZBNXNjMGNRY0VJbTdCRDNlZGk3MkhMalMxZzBDam8",
         "CBMi3gFBVV95cUxOcXQ0YjJqQmVJWDVkZUZ6THF2bmFyaVNWMEdSZm50eWxxUEYxY0dyM0gtLTc3Y1E4WUM1STZ1VUVWT3RGN2xINXJTc1ZWNGp5R21FX2poUEtRUVFsQXhtSjNMdTF3eldrUG5TNXlyV3R5ejBtWklGTnZCSDVHOEZuckpMNlRIVzBNSVRqdzZlakY0SEhYWlk4dVRySDhlX24xemlTTjlIR0ZkWVVEU3dsMnhodkdOX2t3V0lSRDc2UThyNGh5Tlo1QVRDWHFuSFQ2OXl3NWJ3RWVHWjV3OWc",
-        "CBMi4AFBVV95cUxQSlA1bU16VGR0VUgyYnVjWUw0ZHhaSHFlbXNmLVFFc2ptWi1pWFRZV3FadlQzYXJ4OFdra0NwalRoaVRyNGNpSmVXUWVNX0hqTzJPaG9ZbEtSc21iQlJ2SHY0TTN4VEpld21tY3JUUEZFNzh3Q1VBaUJHWDZSNEpuWEZvNnJGQzRTZTRKYzlMYXBFdEdNUjZWNThPSWtraUN0cGR2NlFSTTJVNUV6UTFxWVZiN0g4dk5mUWRCaE1ONGFFYkhmVGc2Q3g3YXZ0NHk5QkVjVWI5QkdESjRGTmNoWA"
+        "CBMi4AFBVV95cUxQSlA1bU16VGR0VUgyYnVjWUw0ZHhaSHFlbXNmLVFFc2ptWi1pWFRZV3FadlQzYXJ4OFdra0NwalRoaVRyNGNpSmVXUWVNX0hqTzJPaG9ZbEtSc21iQlJ2SHY0TTN4VEpld21tY3JUUEZFNzh3Q1VBaUJHWDZSNEpuWEZvNnJGQzRTZTRKYzlMYXBFdEdNUjZWNThPSWtraUN0cGR2NlFSTTJVNUV6UTFxWVZiN0g4dk5mUWRCaE1ONGFFYkhmVGc2Q3g3YXZ0NHk5QkVjVWI5QkdESjRGTmNoWA",
+        "CBMirgFBVV95cUxNOEprZ1NjcDJuY1Ywa1pyMkk2QzhaUWNvczdNWHdOckplTlRRN0pvWjBSVFlkd1JRRTgwY0ZsQ2FqUkZ1c29IRDNzeXlONm1nQ083UlpVeklrUkJwV3dtUTZ1NGlNX3JIM3BzMkhFbjJvUnFmM3duRVoxc0Y5UG9wSENsNjNNTUFNN05yRTFqekppYWVnbG5fUldldlN1V3lLLUZTTF9ZeTZjVm5sUEE",
+        "CBMiiAFBVV95cUxPT2ZpcXlhV2pPMGd0WVkzbUVETlV4cHc5QmNLYjJMUkF6c1VlOThQWENuQnVoaGNrRlhxcUFoaTdUeExpbE4tT2tWNEdxQWVvR0FQZ3Rtb2FTSTRIR0l5Z3A1cFY5NVV6LUh6bHNmUzVFSVlZenRaZW55NEZLUnNTN25ZNWpvTDlW"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-02T22:06:43.007Z",
+      "last_fetched": "2026-09-03T08:22:40.871Z",
       "last_epoch": 1788362695000,
-      "etag": "\"04c6283c9dd1d8fba5320b3ba36b53ee3-gzip\"",
-      "last_modified": "Wed, 02 Sep 2026 21:51:13 GMT",
+      "etag": "\"0261cced0ef3bd2f4396e6cf443fcbc0b-gzip\"",
+      "last_modified": "Thu, 03 Sep 2026 08:01:31 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -355,7 +357,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-02T22:06:43.295Z",
+      "last_fetched": "2026-09-03T08:22:40.933Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

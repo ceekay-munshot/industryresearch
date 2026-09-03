@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-02T22:10:29.925Z",
-      "last_epoch": 1788328440000,
+      "last_fetched": "2026-09-03T08:26:17.704Z",
+      "last_epoch": 1788414900000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -13,19 +13,20 @@
         "CBMiZEFVX3lxTFBzVzZldGVfUkRXVlNOTnZlWTNZamRBNlJJcER1ZGlSdE1FT1h4cUczdEROcXd5QXJaOWdZMm5YRHl5dFA0ZUhoaFRFREVPTm5wc2pMMmlUazVSN1ZKd2xZaEtIeEM",
         "CBMiZEFVX3lxTE02YjBtQTZOTlIwV0JfWEhKS05CM3JTeE5obXRqT0RaTmdsbnFOclp1RngxbUZKaGEycGNCSnM3RE5HTzJ1OWx2ZUFUdF9heHFDVGVsM2Jybk8zSWkxZk1fMHNkTmQ",
         "CBMic0FVX3lxTFBPSnpobnU5Q0tZRXZYT29vSDJ3cEdoQldaWHdmUk1EalczdU5QTVhXdG1tWmtSSGM1VmRqUEQ2WFBkRnJQOWFBa1dZcmVhX3RwNHBzRmdHamVBRUdHLUR2cHNIVkZaZ0JCRkJBX0dUUGxWMEU",
-        "CBMiZEFVX3lxTE50TDhOY2RSbGJBLU1UOUk1VlNlYXVIZnY5T1VLOWxRRVJpbFhvY1FsWHZ2cWJ6dm5KRVdYdV91ek9MSnNrU1BuWXl2MkN3dHJnUElBVFZPbGRnVTE4RmpheFN5M3c"
+        "CBMiZEFVX3lxTE50TDhOY2RSbGJBLU1UOUk1VlNlYXVIZnY5T1VLOWxRRVJpbFhvY1FsWHZ2cWJ6dm5KRVdYdV91ek9MSnNrU1BuWXl2MkN3dHJnUElBVFZPbGRnVTE4RmpheFN5M3c",
+        "CBMigAFBVV95cUxNZU1za0x6Rmk3SGEwZE9nY0pfRVNVTUJJeUZoWXFBdFpvYjJSeHJDempvcjFsRDRQZkRTRl9sME1QaU13eGVHSkNrSkhuMWxSWUVjSHZyODdaWXJaLUg4MV9yeFUzRldhZFp6b1NGNW0yUDIzb3NmMDdKZ1RFWld6edIBlAFBVV95cUxQOHFPWGZvcWlCVGJxUHJJUjQ5R0xManhuZlpCY1FaTHprWGZUTFRaOEt0d1FfSXJSR0RpNFg5b3BfS2VRRUxnemFFaDhHQ05PUG9lbEVMUDk3Vm0tdkwxbEVlb0MzT0lRM1BsOFdBVjZlVVRVRkd2TDF5LVY4WHNXemVab0djUi1WNUdiVjBobndwekZN"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-02T22:11:01.406Z",
+      "last_fetched": "2026-09-03T08:26:45.251Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-02T22:11:02.632Z",
-      "last_epoch": 1788345900000,
+      "last_fetched": "2026-09-03T08:26:46.265Z",
+      "last_epoch": 1788413592000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -117,24 +118,31 @@
         "CBMiowFBVV95cUxPMkJ0WUQ0X3VuVTFyNHRmRHNQYzVTbzR0OFJnMHU4LVBYSFpsQXFLTVBKcHNLbjJlLS1NQUItampaWnFKRkZOT3NKYzNBX3ppNjNzRmJZTkpoNTJqbDlEcU82UGcxdkliVW9uVWJpVTJSc1c4Z3NpeGZaT2lXYU1pSF9FY04wUVFOX3c3Z2E2Y0JnZWJUajFaUkhwdS1XR0NiM2V3",
         "CBMilAFBVV95cUxOQ1VRbTA1bFAxa2dQQjFMV21lSzAyXzFYVTJRQ2VMVTZER3ZmQ2FEQ3NnWWd5S0VrNGZwakRoSGFkSENySm5Hb0tuUkk4Y2c3Z1cySFhiOU9PcDBaNjM1bU85OUlzdlF5ZG1YNDk0ZnlLWXVZYUNEU05OVzZraV9Vd0Jla2t3N2VDY2RQel9mMEJoUnli",
         "CBMimwFBVV95cUxNYUNhYWxEaWk0ekhnU3NuSG5GNW5TQVdBcmVnTUhGQ0dzU3gzU1F0VDFveXpfNVBhX1ZLRkl0TGIxNWdkdXhhQU52QnpTT2pYb3A1TlVmbXRvanZ3TXNXUzhKZWNzSG1jVTQ0MnNUUVBrazJGT1ZEaWNyaXo2SFBEM3RMU3l2dGg0cmdQNUJ1bkFGXy1XcXVBYlo3TQ",
-        "CBMiqwFBVV95cUxOTTNvcmlMeVBXQWhXWEtfMDJRajUwcHBIaFRwQU1XbE44Q1dUS0dKTmI4MDlwTEh6dU5kZ0dLZEZuUThCOEd6cnVPWUFSaS1TaGdqTmFvNFNxQlc2VnZBNzJGZV9HWkxGN0t0VmI2aGpOLTFzQTEtMjByLUVBUm1HZzhReDJLbGV6Vzd5czNGdHljTkVnR3UyTVNMWnBscmdKWkJBeGVTbGJoYTA"
+        "CBMiqwFBVV95cUxOTTNvcmlMeVBXQWhXWEtfMDJRajUwcHBIaFRwQU1XbE44Q1dUS0dKTmI4MDlwTEh6dU5kZ0dLZEZuUThCOEd6cnVPWUFSaS1TaGdqTmFvNFNxQlc2VnZBNzJGZV9HWkxGN0t0VmI2aGpOLTFzQTEtMjByLUVBUm1HZzhReDJLbGV6Vzd5czNGdHljTkVnR3UyTVNMWnBscmdKWkJBeGVTbGJoYTA",
+        "CBMiwgFBVV95cUxNWmNCaUYzdGJzUWxJbWJkQ0pQdjRhaXltcjUzbmFnUGtFamdPWFVUem9RLW45RjdvRGlSNnFTdDE0dnc2Wmlkc21EMzA2Zy1yanh2OW83OE9IY0JrUU1uNkF0LUduTEx5SnE5S21DNTVhdDZudC1OTGdoN3BOVFVKdTZCUUNHWks1akFuVE96TmdmemRwOG8tN2dKTGNhNkZfOFZGMmlEVjNJVndNT2dLU1ZsTFowOXNBVVptajhyVXB1Zw",
+        "CBMi9gFBVV95cUxQOVl4VzBHaUZzVE1aSFBlZDJHeFBsS09rUkd1eUlaLWFUUXJUQkg0aXdxUzd1T1VtRWotUDRJUUUxNmo5eXRnRUlZdFY0bUM4RUhUS0RkVk00bXF1WExsYjlaU0tOejl3UG0xZUp0aFZTei1LT3BfdVhGMTE3V3dSb25sTFVXMkxuVEM0ZklsRGtVVV9odGtkcnhXLXIxbjhoNC1sQjJaRDgxOUJUX0paZWZuNEFlTkQxdFNsNU81RmlsZjl1QlJqTXEyMDZzcVpGUEJzWlBsdnNFbTQybU9uZEl5cXBKbVZHbWl2WlB4ZTV3SUlIVEE",
+        "CBMi0AFBVV95cUxPaE1MN3lrcWk3VGVFNFAtT1BCZTJHMEZ3T3J4YnR3TlBvd3BJYkE4azJIbWdlMlVDZGxhVEdjYXA5ZkxOa0E1WUVmTnd4Y3ZHN3NCaGdqWUZYSjRSTmFWYUl3WjF1NlZlYkJPaVdXMFRBUGpLRmp1Rlc2SW04NXcyY2JYZ2NzaXJKSVBObU9Ya0M2OXpEM1FYMWozZzlFTTdFYWpqbFVUanRnYThDNkFsQ3ZmTHZXR3hxX3UzYVBCRGxPblpKNmlYLVdxUmh1MEli",
+        "CBMimAFBVV95cUxNWml1TTcwdXNxNW5DV3JkUHJ1OFRxaDhhVHhZSF9BdV9jSGltQmM5UDZ2dmM0Nzd3djVRSDV6Z3hBRFRGSHdwbVhiQ1gyRGpoYnA0bldiQk9RYkRqTVdhblMwdTMwQ1Q1ZzBEX3d3SS1abGdjbFhyQldfQVI4a1g1RThxMjRtNFg5Z3ZHeG1ITVc3RktNalNfTg",
+        "CBMi0wFBVV95cUxOTi1rOVJObnhRazRra280a1pGaVI5M3VTX3YzRjI4WDdiUENTMXJIRGxQTzE4Z0xHbVJZNmRCbnlCY1hRYVRqbXVhbDJmWUZDZ3ZxUzBlakNMTGNCOXdRVjliWjRURi13aTJtcWlaMi1PeEI3ZllvZ0NBOThxY1FtSlZua2FLeGlIalg5V0N4Q3M5YThiYWFUWGZ3WkJrT1pjdkRpZFBVbjd1U1lQQ1lmbGxnbVJSZ2xzcmRqUmdJQUo4bTBYbUVzUU9uazhNN200NVB3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-02T22:11:02.716Z",
-      "last_epoch": 1788356099000,
-      "etag": "\"04c6283c9dd1d8fba5320b3ba36b53ee3-gzip\"",
-      "last_modified": "Wed, 02 Sep 2026 21:51:13 GMT",
+      "last_fetched": "2026-09-03T08:26:46.400Z",
+      "last_epoch": 1788420152000,
+      "etag": "\"0261cced0ef3bd2f4396e6cf443fcbc0b-gzip\"",
+      "last_modified": "Thu, 03 Sep 2026 08:01:31 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/india-needs-to-build-advanced-tech-capabilities-reduce-import-dependence-hyundai-ceo-tarun-garg/articleshow/133703447.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/engineering-the-future-of-global-pipeline-infrastructure-how-indias-ssegpl-is-powering-the-next-generation-of-energy-projects/articleshow/133702016.cms",
-        "https://economictimes.indiatimes.com/industry/auto/auto-news/auto-industry-must-turn-disruption-into-strength-says-maruti-suzuki-ceo/articleshow/133701798.cms"
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/auto-industry-must-turn-disruption-into-strength-says-maruti-suzuki-ceo/articleshow/133701798.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/dharavi-not-a-blank-canvas-redevelopment-aims-to-preserve-livelihoods-pranav-adani/articleshow/133728876.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/blackstone-backed-ask-property-fund-commits-rs-300-crore-to-ghaziabad-housing-projects/articleshow/133727430.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-02T22:11:02.767Z",
+      "last_fetched": "2026-09-03T08:26:46.432Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:35:34 GMT",
