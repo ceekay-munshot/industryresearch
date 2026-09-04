@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-03T22:01:51.114Z",
+      "last_fetched": "2026-09-04T08:20:03.927Z",
       "last_epoch": 1788305047000,
       "etag": null,
       "last_modified": null,
@@ -30,15 +30,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-03T22:02:25.314Z",
+      "last_fetched": "2026-09-04T08:20:39.219Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-03T22:02:26.374Z",
-      "last_epoch": 1788432037000,
+      "last_fetched": "2026-09-04T08:20:40.270Z",
+      "last_epoch": 1788501748000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -161,14 +161,18 @@
         "CBMijgJBVV95cUxNbFVTUzJ6TkFBM0poOVFxSTQ5VkE0SC1YbktKMDRIM0VqOHl0TUd0Snp1Sms1bXBLcTg5el9Pcmh4R2VMTFlzUUxuUW9MSHlJM0VUOEJoZW1OWlhaYUU2Z2JJenBTWmRhcVJuWUpaaHF5cVlwbWRRRzdCUmdRckoyX252Uk1JRlpMUXEtaTFNTE1neVJEU0I4Z1dtSTBDeGZNMkgtZW92UXRFS19KX2JmWnVILVRQUzB6bjh6ZEs4Qm5GN2M2MW5VZ3RpUExZcDJRR09DeDlxZnpzQlpYdGdhN1ZPaVRxX0FFLUtqaVI5MnJVYzhmNUpwQzRzbERmNUxBeFZlM0N2QV8zQ3pLRUHSAZMCQVVfeXFMTkdaUDlJYkJ0cm5FU29jUnl3LUlqWm1XUHN2NUREdGticmVwV2g0MjBTa3dRZ0NOR1JVbFFYd3MwQTZPc1VhNy1aUTNvaU9sSnhiRTVuRVRXd1ladDJZeUYzdFZfX1ZjOVJ0QnQzVnhYWXdrZ2NkY3o5QXR6RFhzVnMzZlQzNkhoWHgySTMyTW16RmV5eFRVb0NyWGxlcXFOQlZtd0pPOVFSOGFHc0thOWJNcl9kNWxsT2RRLUl5MGZqYlNnY29acUF6cF9hRHpmS1k4Qkp6OHBWQkhod3hXbHRHZ25ObkVGOW5rQkZ5N0todUFoVWtkVEJsZUd0ZFlabXJjcjNueHh3SHd2aGp1LXRWajA",
         "CBMihgFBVV95cUxOR19CQ0gyV0ptWDlyZ21nYmFHZDhpRVhkcm44Tk91SENLOG5hcmlaRWRyUmNqZ1FmZnNuYWRGMEhPX09sUHFNZDFiSWItdDlMRFQzdU9fYkZsVC05bGM1ZWNrNFdRT3VNWXowbTRNbE80OWFlR09rdmNwQU9reGg1YkpXWHNrQQ",
         "CBMiygFBVV95cUxNZ0swLW5oUXp2UVdaYWhfYlNTYUZYUDVWeWNRVlZrUWUtV0FMeENSc0Rld0s5eXlfUUlMTWRtbXJna2FhdWVoVl9TN1QyQW1GVjBwb3UxWFJibGRGX2NCa1dKWUFfekRENGY2WTBPdEJnUDBwWHZ6M1R6NkxmMTh6d2RkNU1JYzRDLUhLZlpNSEhpZ3g4WGZWREJXeGNkOXlQVUtjMzl1SlJsOUZiMVpFWHJERDY1aWQ0MHcyWURaaE00UHJSaEdYb3N3",
-        "CBMizwFBVV95cUxPNWFiVG9oZjdDNmI5dE0wYU90emk0ajBDMWVob3BLSXJJNXpqa29XZm51TWJDVjBicEZUVjljb0haR3U4SlBvRkszVnpsVmFnLXFVZDB6N09JWFROZHJLX2M3d0JWaGI2d183NWlUZUZfVkNJWFhCenJtYzJOOVRoY2E3dXRVVFp1dW5GbUhiNk11YjUwODhrNDJMWjdPVGRtbHVMV0t5TFR1VHBqYnVKcWVqUzY3S0lFczZWNFlCTHd4NzhsalcxY2ZzLXNvUDg"
+        "CBMizwFBVV95cUxPNWFiVG9oZjdDNmI5dE0wYU90emk0ajBDMWVob3BLSXJJNXpqa29XZm51TWJDVjBicEZUVjljb0haR3U4SlBvRkszVnpsVmFnLXFVZDB6N09JWFROZHJLX2M3d0JWaGI2d183NWlUZUZfVkNJWFhCenJtYzJOOVRoY2E3dXRVVFp1dW5GbUhiNk11YjUwODhrNDJMWjdPVGRtbHVMV0t5TFR1VHBqYnVKcWVqUzY3S0lFczZWNFlCTHd4NzhsalcxY2ZzLXNvUDg",
+        "CBMixwFBVV95cUxQUUxOM1F6ZzNyQkFWMXVqc2FzZm53UDFvenc4dU1JWnRsYjRyMHU4bmwwZkFoeFNtTXhUUXA3Z2lfZ0NLQTF5UWZ2T3I5MDlrOXgyYVMtT1REUGlKYngwemZYbjFpVUg3LW9hYldoMG5oY0dHaUgzcEF1bnlHU2RBQURGTHN5MnRqRVlHOWcwLTctbUZ0NXRUa3dlMElTOTdQX2thQnFxZHFhMm4yUGJQUGg2R0lNR0s2Tkp3NHVEUDI5WnVNX1Y0",
+        "CBMi6wFBVV95cUxQM3YydHhMVXhWQzZXcllVOU91MDRVeTZRQzFSdnZ6MlNNMm9DeFJ1aUx0NlNEazUyYmU4NEVxVFg3U2Vydm9pNmxvdTBtZHNKVFVjVHJsblNhaUNBc0U2NzVXX2loQlUzLWIwTHh2NDRLUkNLWHBSSWtrVVJCcmdTYTZucnR4R0huWV9EeEZDZ2tIbUx1VlVMR3BIU2J1eWJsa05wWmN4RUU2eW1LUHA0QllDLWNUUU9zYTJ3YXdQMkNSaXp3TXd3enFWRnJ4Qkh5X2duNUpocXhNZ29ZNG02UzlZaHAyUk5wU2VR",
+        "CBMixgJBVV95cUxPa2lSNzFlMWNFd01Yc1doY0xlLVdBelJKaUg1a3VralM2M0FiY1FFZU5DMXFEQjIzRE1LOE5pLWdrT3Z3anJ0TWJhUjJVak1nbC1GVjc1eFRzUU9XS1pjZkRqWjR6b1U4NTNfNExQZ3ltLTFKd2FsdHo3M2Z4TWRzWU1yUW1qQnp0SnNmNzlxMXhmcXVyVUc5clhNN1gwU3BRcDFGTFkwSnhPSGN2S1FPV2xOdTZJeW5DNlNXanZVTi0zUU9jUVE4VGtlcjdVZDFUTF9kX04tTml4cllOT3U0WmI3Vzg4Q1dEV1pVb3J3MTVuMmdsT3BfeEgtaVducWJKY1ZJUjVmenQ1YVllandpM05nNXlUUmI2b0lFQ3Flb2duRURlVTVBMGZxMnBoUlZWR2J4bldacHFlQVdCVDJUelh1TlZjQdIBywJBVV95cUxQZXJjejRQVUdOSVJMZVFWN2NBNGdwUFZZek1xT2NxVkExMXFLMmxEcGkxUVR0YUdTTGxuRzRJRng5cktCSXM5SERaTHN2LW9ZLUhwMkNUelI5MFRELTczVXU0dTZTSUNPbVVnT3pSam9pcUJwdmRKTEVQQl9lMjVjRk0tSnBFNnFEekV6RUM1M2NNdUxMQ0ZMSHR5NTVpT3licHZoUGJzNnl2NUprd1V2bWtpS3hLT29nV3BUOVgwTER6R1pFR0RobmJYYlI4UzVDWlFULXRYSkRDLVlZR051emVsbTdINmU5SEo1VWtxSzhkSklBS0JaQlNXOUY0UWhuOXJKWmdfLU96UHY3MjlqQzZxYmoxUWplaEpEMTZrZEFuRFlHQno0a3BON2Vod1ZzYnBLTlgwcVJVeGtOMHFTQzVHQWF3RlNxT2JF",
+        "CBMi7gFBVV95cUxNLXF1UFVZdmE5YVUtejVJSUlFUko2Vlo0WC1PU1BPLXAzR2pRVGhWVDQwcDM5b3NrV0ltakVBQkhQMWJZWmgxM3JlUWJuOTVoUFB1RXppQ0xINTZGWmNGNmFVaEtjXzRfbEE4akZNVXpsWmZWRjdCMFdJUUFhN1BfbGJOR0xaOVNXYk9NRDVFT1QxUHJVY2g0bTI4b3VSSlgxS3czUzB2OV9RZGhEaGIyZThkVHNqcUVVbmNoaktqVVp2ZEI2MGhTSTBCLW1lTUlMQWV3cUtSLTdlYlVJUzRfUWQxUnJMUDVaSHR0SVVn0gHzAUFVX3lxTFBxN0NUZ3MtYjVpR1RrSU1Ga2I2Wl9KXzFWdXN5dWUxOHNwRDlqWmQzcUs2Zjh5N09fWUJGQVV3MFpaZExiMHJmbDdOd0tpeklKdzhxU3ZyM0E1TUROY3BLRnJjSnphVmlvWWpnRXl6LUYwYnNSd1RPd3hTQ29sangtY1ltd004U0hjZmE3cXVOcDVjX2ZJdXoweUdUNzZKZElER1BUQlJPZVk3dXFlb3pVOHpCcDU1enlhREk3NGxMdUtDYnRKcUN1NFNSNHJUaVFrRXU5aTJsV0hhV2ctOFctRXdGOWdVMFB4dGlIU29UUFlraw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-03T22:02:26.408Z",
-      "last_epoch": 1788448384000,
-      "etag": "\"06444e7ee156a01ff6fd65f475e030334-gzip\"",
-      "last_modified": "Thu, 03 Sep 2026 21:43:39 GMT",
+      "last_fetched": "2026-09-04T08:20:40.351Z",
+      "last_epoch": 1788497178000,
+      "etag": "\"0cd8cd826f2fb8c12fe266ba48fcb5797-gzip\"",
+      "last_modified": "Fri, 04 Sep 2026 08:09:31 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -187,11 +191,12 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/indian-railways-is-planting-an-aromatic-rooted-grass-in-lonavala-ghats-to-prevent-landslides-and-avert-a-nepal-like-flash-flood-situation/articleshow/133627273.cms",
         "https://economictimes.indiatimes.com/industry/renewables/gopalpur-industrial-park-set-to-drive-odishas-green-push-with-rs-65k-cr-investment-pipeline/articleshow/133647640.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/ambanis-reliance-enters-ice-cream-market-with-launch-of-bombay-creamery/articleshow/133678139.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/are-we-slaves-to-others-kenyan-president-ruto-orders-tata-chemicals-to-halt-operations/articleshow/133739920.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/are-we-slaves-to-others-kenyan-president-ruto-orders-tata-chemicals-to-halt-operations/articleshow/133739920.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/tata-chemicals-issues-statement-after-kenya-orders-suspension-of-operations/articleshow/133752090.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-03T22:02:26.998Z",
+      "last_fetched": "2026-09-04T08:20:40.463Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
