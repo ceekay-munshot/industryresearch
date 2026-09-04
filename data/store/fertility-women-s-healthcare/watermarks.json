@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-04T08:20:40.663Z",
+      "last_fetched": "2026-09-04T15:23:38.534Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-04T08:21:14.831Z",
+      "last_fetched": "2026-09-04T15:23:42.056Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-04T08:21:15.966Z",
-      "last_epoch": 1788497243000,
+      "last_fetched": "2026-09-04T15:23:43.423Z",
+      "last_epoch": 1788517500000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -238,14 +238,15 @@
         "CBMisAFBVV95cUxOQzY2aUIycWtuMEpnSEVVanQ3ZmZJall5WEZZWFU5dkgyZUFrajlncEFuVmdWc3ZGcEd6U3BrRFQtcGZOUEI1N1NzZXZOaWpjLXJRUjQ5WF9jT0lhbkpud2RJRWl1S0pZa1NrZ3M2RXZ3N1g0aTNFQXpRSEY5VmlwUEZaUXRaVWhnOHhqYndoa2pDNThheEJfQ3RaTC00R0VVVWtXT2NfN3ZZUEpWck1tNg",
         "CBMitAFBVV95cUxQRm9PeXg3bGNrdFZwWGk0OVRHUHVRNS1Tb1o2UDFhLW5EUTAzZjlPRTEyTm1HTlFUZGY2M1NCUW5Sc3B1TzhsMDQ0bXBVOE1zalc4c2IyUVdaUE5qcmJDSHBqSjdraW1nT1pWVzlMaE93aU9WWE13SlNqU3JSNTg2OXdxNTdyYUhqMTFWNVlVeWt5TlZ2NWhtUWVoZ29uSmozUFVXWThLOXZ1VXpqOGY0amZmZEPSAbsBQVVfeXFMT28zTjNvU0U0VWQ5OG85ZVNuTFZWbkxtbGxDOURLUmtWbDZ1WGNNMHZRZkt4MnBFaDFpM2ZFbmJGb3lOMGhqMVNVVlFsUmtUSzFLUkExZGlHRkdZX2FleDQyUmZDV1h4bTFPXzFDNVBVMTVJT1RhWGdaYThLdjU1X1RzNHF0UkZ4MHpfaENPeW1aV1BGcjJUNk1fMnlEcC03WU1Wc2MtVU14ZDRKekFjV2FCNUF3TXpVY012WQ",
         "CBMi7gFBVV95cUxQSWtDMS1OYWtVX2I4dzhqdXM4clVxcTJJUmc0UVZ5LTRwM29fV2ZuX1NoSWo1bDI4dnlPZ29VUlBPRWY3ZjlWX2RfMlFmWTJORmtWTkRDek04ZUJwYTVrRl9MN0N0MWNGMFBTOWIxMUt1LXZZMU5uUndkdTlyZmNuSTljdWdmdU8zNkhvdEEtODFZVTBOX3d2MUZJb2RNQ0dTNkJIeVVjNzJhUElpQ3dOS3V0YTdpbUFCU1k5dnNtNGlNcDZoQjZYMWNhZXVXbDVwNDAyWkxtUkVwTmhrRmRwR3VUYWp6VXpvOEt0alZ3",
-        "CBMi0AFBVV95cUxNM2g4SnRma1dtTjFRa0VlT090TGFWM1d0MzhKZXJLdUhLVzhGakROWXpOQkF4VXRsTzNpREI1bWpFMkFFQW0wUThIX1NNU0hVYlRXblZwYVh3UElweU1YVzJVaTI1ZjVFS1dlQnhOSEFMdGlnZjYwajBhTllHaFZTS3FaT3NJeHl4SlRseUJuMGhQTkU0MlVraUVNRUpodlNiUkEzRTE0QkNPaHhWR21WWlRaOURwTzNBa3VTUEFtRlVLUW9OTVVhUDlPa1Z1RHU2"
+        "CBMi0AFBVV95cUxNM2g4SnRma1dtTjFRa0VlT090TGFWM1d0MzhKZXJLdUhLVzhGakROWXpOQkF4VXRsTzNpREI1bWpFMkFFQW0wUThIX1NNU0hVYlRXblZwYVh3UElweU1YVzJVaTI1ZjVFS1dlQnhOSEFMdGlnZjYwajBhTllHaFZTS3FaT3NJeHl4SlRseUJuMGhQTkU0MlVraUVNRUpodlNiUkEzRTE0QkNPaHhWR21WWlRaOURwTzNBa3VTUEFtRlVLUW9OTVVhUDlPa1Z1RHU2",
+        "CBMi8wFBVV95cUxPUWdTNTF4THNQUnJQTlBxSlFwTC1sLU54UlQzc1NKOGxGWUZhaE9VUG1qWnR0OXprOW96SDhTQS11Z0pUNjY3d1BrVmpEREE2c0hCMDhvQ1ZDQnV6NWNyU2RwdGJaZWJSYm9xanM3cktoV19HQ1U4M1NRWWNmTGZPNDZtNml1bWVFX3JBX21vcDRacDMwV2k4QTJMSjFYbmlVd1RCeWJQWWZuY0tSal83U0x5THk4em5sT1VwbE9rRzVxdENMZkdKWncxM0stdXdqWGNOOHdGLUQ2Ym5wdEpLMjgzSTNFZmlpMi1wdUxkajhTM3c"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-04T08:21:16.024Z",
-      "last_epoch": 1788502220000,
-      "etag": "\"0cd8cd826f2fb8c12fe266ba48fcb5797-gzip\"",
-      "last_modified": "Fri, 04 Sep 2026 08:09:31 GMT",
+      "last_fetched": "2026-09-04T15:23:43.453Z",
+      "last_epoch": 1788532379000,
+      "etag": "\"0a130fb83b47d3ef40b5c108845654d48-gzip\"",
+      "last_modified": "Fri, 04 Sep 2026 15:06:47 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -379,11 +380,14 @@
         "https://economictimes.indiatimes.com/industry/cons-products/food/fssai-eyes-central-ban-on-non-dairy-paneer-as-india-aims-for-healthier-food-standards/articleshow/133745245.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/shivraj-singh-chouhan-seeks-faster-credit-for-women-meets-banks/articleshow/133741923.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/india-snacks-market-three-meal-day-changing-consumer-habits-trends-health-protein-food-quick-commerce-1-lakh-crore-opportunity/articleshow/133753022.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/adani-ports-to-launch-dedicated-empty-container-yard-operations-at-mundra/articleshow/133751392.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/adani-ports-to-launch-dedicated-empty-container-yard-operations-at-mundra/articleshow/133751392.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/bsnls-homegrown-4g-network-carries-6-pb-data-per-day-c-dot/articleshow/133767038.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/kia-builds-e20-readiness-into-india-strategy-as-it-expands-powertrain-options/articleshow/133757533.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/when-engineering-productivity-becomes-a-business-priority-what-the-atlassian-et-conversation-reveals/articleshow/133756676.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-04T08:21:16.346Z",
+      "last_fetched": "2026-09-04T15:23:43.809Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
