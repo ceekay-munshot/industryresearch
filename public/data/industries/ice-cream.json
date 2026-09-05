@@ -11,7 +11,7 @@
     "generated_at": "2026-08-17",
     "mock": false,
     "query": "Ice Cream",
-    "updated_at": "2026-09-04",
+    "updated_at": "2026-09-05",
     "coverage": {
       "sections": {
         "size": {
@@ -62,7 +62,7 @@
         "news": {
           "sources": 1,
           "confidence": 0.6,
-          "as_of": "2026-09-04"
+          "as_of": "2026-09-05"
         }
       }
     }
@@ -1282,6 +1282,34 @@
     ],
     "news": [
       {
+        "title": "Welcome to the ice-cream renaissance - The Observer",
+        "publisher": "The Observer",
+        "date": "Sat, 05 Sep 2026 04:32:01 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbkdfVmFsS3hNN1hhNVNLWUV2LTF4eEQ3RDhGR1FiV1QwNllZQ1M0RWhnamh4MkRkZWd3N2N5aGxiZDdFdVctT25maGQ2VWNLN3R4NElPcG9NaW9WTmtiVVRuZlBOQm1hcTlISTBNZFVhamEyeHo1Y1M3OWtKTEhKQzNFZjY?oc=5",
+        "snippet": "Welcome to the ice-cream renaissance &nbsp;&nbsp; The Observer"
+      },
+      {
+        "title": "Vadilal Dairy AGM: ਕੰਪਨੀ ਦੀ ਕਮਾਈ ਘਟ ਕੇ **₹24.17 ਕਰੋੜ** ਰਹਿ ਗਈ, ਪ੍ਰਸ਼ਾਸਨਿਕ ਕਮੀਆਂ ਨੇ ਵਧਾਈ ਚਿੰਤਾ - Whalesbook",
+        "publisher": "Whalesbook",
+        "date": "Fri, 04 Sep 2026 12:46:27 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWTBKUUZYbFA4UlFZS1FyQXJXSEIxamN4WVE0ZC1jOEZLLV9Cckd2azEyeFZ2OWUtMTNXZnZPUlRxeHV2MC11b1IwMFFnSExEb0FDV2VaTTN5UDBlcnZmT0ljVWdxR3lNQzJ6TVFtTFJkY0s4eWlieC1rREhzbkozN2Q1TzEyekFPS2o1cWtMWnBxVHd4a29RVWJrdkRkS3FRdFFHU2FmYWJZYWExcHk3aEdnUHI0TnVEOUMxNXZxRlphR3VFNnUwckVmdTg0eGpxZ3Z6dDJoY0h4amstTEdOc0c0ekdHeFIxOUVaa3oxbGx1NGNia0MtQXhfZw?oc=5",
+        "snippet": "Vadilal Dairy AGM: ਕੰਪਨੀ ਦੀ ਕਮਾਈ ਘਟ ਕੇ **₹24.17 ਕਰੋੜ** ਰਹਿ ਗਈ, ਪ੍ਰਸ਼ਾਸਨਿਕ ਕਮੀਆਂ ਨੇ ਵਧਾਈ ਚਿੰਤਾ &nbsp;&nbsp; Whalesbook"
+      },
+      {
+        "title": "Hatsun Agro Product Share Price: Good Buy After Q1 FY27 Results? - Univest",
+        "publisher": "Univest",
+        "date": "Fri, 04 Sep 2026 06:13:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUEtSVGNqb3Y3TnV5Y2FEbHFtVlQ4aWhaRnctZHlFRWN3Z2NpbV9WZXZtNGZjV1otSVNnQ1oxVUotOUVEaUVyMjlMRjlwTXRBWWxSOEpEcUZsbGs1Nk1UajJnb1FfTDNTemlQRVAzVU1GeWdLZG1DQ3FMVjZtQjY5eHpOQzNYbmc?oc=5",
+        "snippet": "Hatsun Agro Product Share Price: Good Buy After Q1 FY27 Results? &nbsp;&nbsp; Univest"
+      },
+      {
+        "title": "BAMBINO Share Price Rise: Price Action and Fundamentals - Univest",
+        "publisher": "Univest",
+        "date": "Fri, 04 Sep 2026 09:51:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0hyZ2xjRTFWdXYwUG85VXo5Zm01UjQ4dVdFdWcyZTlvaUZsQ0xJMGNVTG1BeFFvTVpDQ1FZZEVGcFluVE9nZUxLdE94M1hFTXpxbDNRTGlxUkxuZ3YxUjRjQzZBOVlUYkZIRVpNMFhHdlFmZTI3NEx2OURGMExqTFVSUklDSnYwZnhMRA?oc=5",
+        "snippet": "BAMBINO Share Price Rise: Price Action and Fundamentals &nbsp;&nbsp; Univest"
+      },
+      {
         "title": "Jaipur kulfi seller makes special ice-cream for dogs, internet calls him 'cutie uncle' - indiatoday.in",
         "publisher": "indiatoday.in",
         "date": "Fri, 04 Sep 2026 08:30:51 GMT",
@@ -1462,34 +1490,6 @@
         "date": "Wed, 02 Sep 2026 10:53:27 GMT",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUkxVTzdINTFFODNoTjZ3cjdNN3Rha01zaUVFYno4Mm1FQkdNYjcyaF9CYnJackh3TnkzdTR5aVoxVE4xeGJKYXhnZ3lsdVp1M2JmRFdEN180Y3JDdFZUQ1MxdGVoaXlUS0Z6RHJnTzFzNW1JeDFXbnZpYWVxVlp5N3NQZ0IyU0JuNFVjZkUwejZMWWtaNzF1a2ppM0lvU3ZSdGV6SzI0YjZST3hpMmdjZHhEd09Jb0VBR3NqYVFEQmI3QQ?oc=5",
         "snippet": "Billionaire Mukesh Ambani is taking on India's ice cream giants at 11 cents a cup &nbsp;&nbsp; Billionaires.Africa"
-      },
-      {
-        "title": "10 New Restaurants In Bengaluru For Moon-Inspired Cocktails & Craft Ice Cream In September - curlytales.com",
-        "publisher": "curlytales.com",
-        "date": "Wed, 02 Sep 2026 13:52:01 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOG16cGlONUxQdGNEbWQ4THptX2Vhal9Mc0lacVVCOHBTQlpTYzZRYXJId1JfeVRYMlk5RGRXRk1hMWJWV3NxbUx5bmNrNFcyNWtnQmlVVDZyTVlTQnRoY2NRVlpBdXpLbzhPX3dZaWZmZEhsdERwTjgzVW5TeGZNWWxXMlBYRl9MYUVuRW9Qb2xNaDBIX3Uza2hVc2RLdDlQX1dEMUI3YU9VMGFMYTB1T3lzQXkwYkk2eWNZTdIBwgFBVV95cUxNVlR2V0ROUkhUYzV5ZTVFeDNOUFVXRUdaaTBvaDliTTNSRWxPU25POVk3SkdEYi1oS3NKanBqU3U4ZkpQZjUydE9tTUUtUndYVnlXRVctQV9HbHNWOUx2Ui1yZzczMFV3dm9HUUloSGo2cTVIOThWR2gzZUtCaUJ4dTcyUmVnQWdUUFN5dUNWS09LTzBCMUlYM0ZFNDFNbUxrNktmV0phY2hELXRlY093b2JSOFBJbjBMOFBPUndkWHp1UQ?oc=5",
-        "snippet": "10 New Restaurants In Bengaluru For Moon-Inspired Cocktails & Craft Ice Cream In September &nbsp;&nbsp; curlytales.com"
-      },
-      {
-        "title": "Pregnant woman killed after speeding car rams into crowd on Raksha Bandhan in UP - indiatoday.in",
-        "publisher": "indiatoday.in",
-        "date": "Wed, 02 Sep 2026 11:29:46 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSFVjY1RJbVdXMlhScU9MbXBvRUhYSG5KNU1BM3pSRF9KS3RMa3laRWFFUnRab1UzaVlRRUQ4clJlRXhoRm5ieEFUUzllREtJR1VJMUZ4dHF3ZFBxMFNTTWl4eWU0QjFiQkNhSEVfYm9NU3pBUV9JOW1heG5hdW1vaTNnZE1LX1NVRFAyaFphN1ROaG1QRlNoZkUwYmowVkpfd2xVZjQ0NG1kckV2bXdjOHBIT0ZaazdWWTBIeWhaN295MVV5aDhwR3NoX3VQT3BSRmliakpFNmRxYms1LUZMblhneHZ4VW01bHYwUtIB8gFBVV95cUxOYmVscnAyTmhRRl9mNWNabzFhOFV1eTZvaWV1c2pDNXVhWUoxZG5yNGFNTGlMNlM0ZWZtRnlIWnlJTnprSV9iWUJwWi12aC0yOTE5eTRqTjY4cmw2U0E0RG5DQnpSaWJDdVRYeUZhWGVrakItVm1YY1A1dmhGU3Raa0RrMDlvSXdHVG9RSmkzMjd3MnNMaGV2NEdYRlVaWGNWOUpYMXhBcFVGMGtPZm5TeUFaa3Nla1FFazY5b3hiUmdYSDRoaDdTYWotMFRJSEZsd3hoVUlxR0FBcmRHOHRicGVIUXNMQlBLLWpOZ1VVdlg0UQ?oc=5",
-        "snippet": "Pregnant woman killed after speeding car rams into crowd on Raksha Bandhan in UP &nbsp;&nbsp; indiatoday.in"
-      },
-      {
-        "title": "Vadilal, Nirlon, Action Construction Equipment, Birla Precision Technologies among 12 stocks to turn ex-dividend tomorrow - Business Today",
-        "publisher": "Business Today",
-        "date": "Wed, 02 Sep 2026 08:39:05 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQa2VTaFpNeW9ZdER2U2ZOdGlDUV9hbndqWF9OVi1JeS1hUGFuZGpkYWV3MFh2Y1pDYlQtQnJTY0VqTHJQaWh0SmlzUEV4bXV4OFpjN2JzOFF5V1JpZGoxczVnVnpMWUt6OU9TZ2txUTl1U3VjVVlMMWN6VTJ2OVYyeEtyY0RtMGI0UElkbk10Q25VRjZfcS14S1Y2U3NFMXhYcEYyb21mNWVtOGVuUnNMMkt3Nmo1QUpjMFZsQnlmaks3NlBSVHFyNzQ3TFNxYkQ0Y2FQb093dVBldmVkMm5meWxYQTdYZUl2aFJDY1pSNTVSTFh2YTRfUHY2M3V2NkpyWmE1azJDS1dSZ2xUTkpySEFIYlBUNjNGVmfSAZoCQVVfeXFMUGtlU2haTXlvWXREdlNmTnRpQ1FfYW53alhfTlYtSXktYVBhbmRqZGFldzBYdmNaQ2JULUJyU2NFakxyUGlodEppc1BFeG11eDhaYzdiczhReVdSaWRqMXM1Z1Z6TFlLejlPU2drcVE5dVN1Y1VZTDFjelUydjlWMnhLcmNEbTBiNFBJZG5NdENuVUY2X3EteEtWNlNzRTF4WHBGMm9tZjVlbThlblJzTDJLdzZqNUFKYzBWbEJ5ZmpLNzZQUlRxcjc0N0xTcWJENGNhUG9Pd3VQZXZlZDJuZnlsWEE3WGVJdmhSQ2NaUjU1UkxYdmE0X1B2NjN1djZKclphNWsyQ0tXUmdsVE5KckhBSGJQVDYzRlZn?oc=5",
-        "snippet": "Vadilal, Nirlon, Action Construction Equipment, Birla Precision Technologies among 12 stocks to turn ex-dividend tomorrow &nbsp;&nbsp; Business Today"
-      },
-      {
-        "title": "Stocks making the big moves midday: Coal India, Vodafone Idea, IndiGo and more - financialexpress.com",
-        "publisher": "financialexpress.com",
-        "date": "Wed, 02 Sep 2026 07:54:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNWw0Mmk0MGtickxMdWdqTHpIVFZ2bGZUdDFnMi11S1BaX3ZaZDlkOWUwVl81LXhPNFBNRDVRdTYxOVJkd0NPblkxNlpITkxqRjhBd3dVLW8wd05MTFlSYmpYZlZWX3F2cFVTM3Ewb3F6ZUFVMjYtamVRS3R5LWkycWpYN2cyNUg3YTVvU2lVcWpDNzI1SUNqcVA4NmtmR1JDZDg4NVQ3My1la1J6V09yWFhVa3E0b0llN0dYYURLeUFwQdIByAFBVV95cUxOaGdQR0l6VGdHNWxzTy1hNWd3RUJaR2YyZlQyRDdlVFlkang4WE5IanFRRzIyLTFMOVQyMnNHMzQzcVQ1ZFRacjZyLTNITXhSMFczYllnZ2wzNW5WUEhLQjlJdGcwS2N1ZzNmc2RKVFJLSVlWZXpGRldZS3ZydXVHMVFzWXlMbjJua1h4am8yZmF5Y0J4WHRNVzNlM3BUZHdkU3dGb1g2ajVSdWZCcnh6TDlSVnFVeDlFODlwcFJBbk1WaTdVSVQwWQ?oc=5",
-        "snippet": "Stocks making the big moves midday: Coal India, Vodafone Idea, IndiGo and more &nbsp;&nbsp; financialexpress.com"
       }
     ]
   },

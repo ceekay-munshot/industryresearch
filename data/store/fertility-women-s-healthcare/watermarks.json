@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-04T21:57:26.328Z",
+      "last_fetched": "2026-09-05T07:58:05.525Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-04T21:57:59.443Z",
+      "last_fetched": "2026-09-05T07:58:13.955Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-04T21:58:00.625Z",
-      "last_epoch": 1788517500000,
+      "last_fetched": "2026-09-05T07:58:15.060Z",
+      "last_epoch": 1788550560000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -239,14 +239,16 @@
         "CBMitAFBVV95cUxQRm9PeXg3bGNrdFZwWGk0OVRHUHVRNS1Tb1o2UDFhLW5EUTAzZjlPRTEyTm1HTlFUZGY2M1NCUW5Sc3B1TzhsMDQ0bXBVOE1zalc4c2IyUVdaUE5qcmJDSHBqSjdraW1nT1pWVzlMaE93aU9WWE13SlNqU3JSNTg2OXdxNTdyYUhqMTFWNVlVeWt5TlZ2NWhtUWVoZ29uSmozUFVXWThLOXZ1VXpqOGY0amZmZEPSAbsBQVVfeXFMT28zTjNvU0U0VWQ5OG85ZVNuTFZWbkxtbGxDOURLUmtWbDZ1WGNNMHZRZkt4MnBFaDFpM2ZFbmJGb3lOMGhqMVNVVlFsUmtUSzFLUkExZGlHRkdZX2FleDQyUmZDV1h4bTFPXzFDNVBVMTVJT1RhWGdaYThLdjU1X1RzNHF0UkZ4MHpfaENPeW1aV1BGcjJUNk1fMnlEcC03WU1Wc2MtVU14ZDRKekFjV2FCNUF3TXpVY012WQ",
         "CBMi7gFBVV95cUxQSWtDMS1OYWtVX2I4dzhqdXM4clVxcTJJUmc0UVZ5LTRwM29fV2ZuX1NoSWo1bDI4dnlPZ29VUlBPRWY3ZjlWX2RfMlFmWTJORmtWTkRDek04ZUJwYTVrRl9MN0N0MWNGMFBTOWIxMUt1LXZZMU5uUndkdTlyZmNuSTljdWdmdU8zNkhvdEEtODFZVTBOX3d2MUZJb2RNQ0dTNkJIeVVjNzJhUElpQ3dOS3V0YTdpbUFCU1k5dnNtNGlNcDZoQjZYMWNhZXVXbDVwNDAyWkxtUkVwTmhrRmRwR3VUYWp6VXpvOEt0alZ3",
         "CBMi0AFBVV95cUxNM2g4SnRma1dtTjFRa0VlT090TGFWM1d0MzhKZXJLdUhLVzhGakROWXpOQkF4VXRsTzNpREI1bWpFMkFFQW0wUThIX1NNU0hVYlRXblZwYVh3UElweU1YVzJVaTI1ZjVFS1dlQnhOSEFMdGlnZjYwajBhTllHaFZTS3FaT3NJeHl4SlRseUJuMGhQTkU0MlVraUVNRUpodlNiUkEzRTE0QkNPaHhWR21WWlRaOURwTzNBa3VTUEFtRlVLUW9OTVVhUDlPa1Z1RHU2",
-        "CBMi8wFBVV95cUxPUWdTNTF4THNQUnJQTlBxSlFwTC1sLU54UlQzc1NKOGxGWUZhaE9VUG1qWnR0OXprOW96SDhTQS11Z0pUNjY3d1BrVmpEREE2c0hCMDhvQ1ZDQnV6NWNyU2RwdGJaZWJSYm9xanM3cktoV19HQ1U4M1NRWWNmTGZPNDZtNml1bWVFX3JBX21vcDRacDMwV2k4QTJMSjFYbmlVd1RCeWJQWWZuY0tSal83U0x5THk4em5sT1VwbE9rRzVxdENMZkdKWncxM0stdXdqWGNOOHdGLUQ2Ym5wdEpLMjgzSTNFZmlpMi1wdUxkajhTM3c"
+        "CBMi8wFBVV95cUxPUWdTNTF4THNQUnJQTlBxSlFwTC1sLU54UlQzc1NKOGxGWUZhaE9VUG1qWnR0OXprOW96SDhTQS11Z0pUNjY3d1BrVmpEREE2c0hCMDhvQ1ZDQnV6NWNyU2RwdGJaZWJSYm9xanM3cktoV19HQ1U4M1NRWWNmTGZPNDZtNml1bWVFX3JBX21vcDRacDMwV2k4QTJMSjFYbmlVd1RCeWJQWWZuY0tSal83U0x5THk4em5sT1VwbE9rRzVxdENMZkdKWncxM0stdXdqWGNOOHdGLUQ2Ym5wdEpLMjgzSTNFZmlpMi1wdUxkajhTM3c",
+        "CBMiwAFBVV95cUxNZXhIbzQ4Y08xMGxyOWM4SnhGSmp1c3JIT2FIVWp5ZU9FRkNxajBUQVp5ckYzeExoVGkyRDY0dkZnRkprQ0RNTEFHZ0EwYUpyYWxNSWVXTUxMSTJsTFhuS1FGSC1qZy02X2FBLUU5V1FtYVF0bDAyWGNyNHNYS0FpR25iajFqeFlaNnVyVGFOV3hoMEdvazVhTXJaVGpzcXJhRENTRk0tVWF0MXhIdUgtaHd3dTl5aE9JX1I0QlBRTm8",
+        "CBMivAFBVV95cUxPaHp5eGl2cjlvRWRpZWpXMmkxWHZyN2p0eF84YlJORkd1MnUtUlRqaDFGTEhiZlFsWGU3cV9fTDQxbFFBU1BTVDFtOG1pOWNJdTZvM3UtQS1UeEFnR2djUG1NaWJKMG5LNk45WEdfRU1MUDNiLVpLZ2hhNzU4MWF0NWVzTm93dC1aMjcwbWNSbnZ0aHpSNmpiNEREWjlkVmc5TlZ2OFBqeDRPWGNpT3Y4S3RPTy1xcGtReG1TbQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-04T21:58:00.817Z",
+      "last_fetched": "2026-09-05T07:58:15.116Z",
       "last_epoch": 1788550724000,
-      "etag": "\"0a3a58d80debd9777ed4405ddbe13a90d-gzip\"",
-      "last_modified": "Fri, 04 Sep 2026 21:47:42 GMT",
+      "etag": "\"02a9b000a9879e377391011d5f51dabf0-gzip\"",
+      "last_modified": "Sat, 05 Sep 2026 07:41:49 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -389,7 +391,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-04T21:58:00.912Z",
+      "last_fetched": "2026-09-05T07:58:15.151Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
