@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-06T14:37:33.292Z",
+      "last_fetched": "2026-09-06T21:53:35.635Z",
       "last_epoch": 1788585778000,
       "etag": null,
       "last_modified": null,
@@ -22,15 +22,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-06T14:37:43.613Z",
+      "last_fetched": "2026-09-06T21:54:10.257Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-06T14:37:45.019Z",
-      "last_epoch": 1788650622000,
+      "last_fetched": "2026-09-06T21:54:11.349Z",
+      "last_epoch": 1788689404000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -145,14 +145,15 @@
         "CBMixwFBVV95cUxQeFF3ckVWN2Z5Nzg1QzlWd2l0c3h3by1haEhIYXBWano5RC0yTXZidGNaZFRPSnRwZlRtUGdxRkMtMjdMOVZqOHAySVlfUVplM21EMldCX2I0Q242WDN1RHFrN1dDTTFnd2lQNUtuZjJnOFhqM28yMVZLZVNwbjRUZEJzY3Jna253YmhyLW9PWHBpaGM4NnJUU001TFBqRlFqcl8tdDVORDhmZWE1NzZQQTZtalF6am5xc0RUaXE4SVd6QUJlZ2NV",
         "CBMiugFBVV95cUxPaWViYm0wVVZlamtDV0ptVzlMX2draE9EdHBpRHZRZUc3aWh4TV9ETnNrTzQ0VDZZX3lORmR1Xzl3ZUszb1RPaHVVUHVYbkZ6YkFYN1dFWk9JNk01R2padlR4clI5Y2VOOGNXeWd3OGRUVEhIbFVOZHBQVmJxQmJjNlh1MGxKNWJkWG1DdnAybTlVMTRvVzJuSEJtZHJETHBEOE0zS3Zhazh4bl85NjNCeFdZNzZzWWJBRWfSAboBQVVfeXFMT2llYmJtMFVWZWprQ1dKbVc5TF9na2hPRHRwaUR2UWVHN2loeE1fRE5za080NFQ2WV95TkZkdV85d2VLM29UT2h1VVB1WG5GemJBWDdXRVpPSTZNNUdqWnZUeHJSOWNlTjhjV3lndzhkVFRISGxVTmRwUFZicUJiYzZYdTBsSjViZFhtQ3ZwMm05VTE0b1cybkhCbWRyRExwRDhNM0t2YWs4eG5fOTYzQnhXWTc2c1liQUVn",
         "CBMiqgFBVV95cUxNc0Q0NWs5b04zbFpyb0tsYW5fSlVxTTRUeTRzZXd3dDNvRmtuMnFZUl9JaVFDM1hrR1RjZS1ReTE0UEp4MFNxcDlIYVB2eTFWQnFTQTdJVTZsdEZoYUthZzJEQWw5empYLUtJMHA4QWRCbm5vd3EyME1fcFptR2FnaldWOG1ZclAxbnltcTE0RWhyUlNjN2FHZFl2b1p6WTJDc1g5U2VhZDZTUQ",
-        "CBMi-gFBVV95cUxObEdlZ185cGR1TjBRYTVrZW95bjNKU2hmZmQ4NHc0bVZCUWltRXdKb0ZzSk1GaXltYUNkRy1yRUplS1JVOEtiV3NRYk5nZ0JReGUtZ3RWdTNGb0hVS0kyWUxrLURQM0pZUXdhX3JpV1dBblQ3Yk1JYThGZHljZmF1LVpyemJtRTEwRnZLYVRUUGZMd2RTSVdfSDEzZ0E5ZEZ3dThVOE1xb1hDVGxxMHVSWnpCRm9BZWthZnVORWRpV3Fwc0hwaVdBQkdVcTJ3MHM3ZnJHMUhBbUVHVVB5RXYyUUhabFZMQmt2dm9rMGo4aFNTQ3V1bGN5d1Jn"
+        "CBMi-gFBVV95cUxObEdlZ185cGR1TjBRYTVrZW95bjNKU2hmZmQ4NHc0bVZCUWltRXdKb0ZzSk1GaXltYUNkRy1yRUplS1JVOEtiV3NRYk5nZ0JReGUtZ3RWdTNGb0hVS0kyWUxrLURQM0pZUXdhX3JpV1dBblQ3Yk1JYThGZHljZmF1LVpyemJtRTEwRnZLYVRUUGZMd2RTSVdfSDEzZ0E5ZEZ3dThVOE1xb1hDVGxxMHVSWnpCRm9BZWthZnVORWRpV3Fwc0hwaVdBQkdVcTJ3MHM3ZnJHMUhBbUVHVVB5RXYyUUhabFZMQmt2dm9rMGo4aFNTQ3V1bGN5d1Jn",
+        "CBMivgFBVV95cUxPRy1XTU4tYUFkT3pLVmlPZV9nVDFJSS1wcEw5S0FmOG5BWXdoT184SFdHZThmOHNscm54eERYU29sNkgyZ1FpSUhTc0xXX3NfRmFJRmVXakotT3Nrb3liSGhjS21MQlpzM0lrT3FkWldUeENoUUhUTXN6SXg1RW8zSkVOekltdnZvdEUyUUJMWVdqS0xaZ0RRWDJrVWRqbTZfbTkzemhrUmVKY3BNSVRvN05HNi1xUHNBSXgwYkNR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-06T14:37:45.072Z",
-      "last_epoch": 1788672178000,
-      "etag": "\"0e88eb824b76b86aa215366f0efb5a026-gzip\"",
-      "last_modified": "Sun, 06 Sep 2026 14:12:40 GMT",
+      "last_fetched": "2026-09-06T21:54:11.418Z",
+      "last_epoch": 1788720029000,
+      "etag": "\"03fb6fb86693dde64e2efa94d4ce02125-gzip\"",
+      "last_modified": "Sun, 06 Sep 2026 21:46:13 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -178,11 +179,14 @@
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/comet-the-homegrown-sneaker-brand-raises-rs-100-crore-in-series-b-round-led-by-verlinvest/articleshow/133759874.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/stellantis-in-talks-with-huawei-and-jac-group-for-maseratis-future-sources-say/articleshow/133777396.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/rabies-vaccine-abhayrab-row-indian-immunologicals-says-ke25012-vials-not-its-product-asks-authorities-to-trace-source/articleshow/133803164.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/rpg-life-sciences-to-deploy-rs-500-cr-in-next-12-months-to-bolster-manufacturing-api-capabilities/articleshow/133826655.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/rpg-life-sciences-to-deploy-rs-500-cr-in-next-12-months-to-bolster-manufacturing-api-capabilities/articleshow/133826655.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/weak-green-hydrogen-demand-puts-lts-1-gw-plan-on-ice/articleshow/133848709.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-sector-must-attract-more-investment-in-clinical-trials-rd-piyush-goyal/articleshow/133847053.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/gurugram-luxury-housing-lines-up-rs-1-lakh-crore-festive-launch-pipeline/articleshow/133842698.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-06T14:37:45.123Z",
+      "last_fetched": "2026-09-06T21:54:11.485Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
