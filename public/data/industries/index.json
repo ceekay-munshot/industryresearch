@@ -1,11 +1,15 @@
 {
-  "default": "contract-development-and-manufacturing-cdmo",
+  "default": "mdf-boards-india",
   "industries": [
     {
       "slug": "mdf-boards-india",
-      "name": "MDF boards, India",
-      "aliases": [],
-      "is_manufacturing": false,
+      "name": "MDF Boards",
+      "aliases": [
+        "Medium Density Fibreboard",
+        "MDF panels",
+        "Medium Density Fiberboard India"
+      ],
+      "is_manufacturing": true,
       "mock": false
     },
     {
