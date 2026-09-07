@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-07T08:47:05.338Z",
+      "last_fetched": "2026-09-07T16:51:09.771Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-07T08:47:39.755Z",
+      "last_fetched": "2026-09-07T16:51:43.855Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-07T08:47:41.075Z",
-      "last_epoch": 1788687743000,
+      "last_fetched": "2026-09-07T16:51:45.181Z",
+      "last_epoch": 1788763788000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -245,14 +245,15 @@
         "CBMi2gFBVV95cUxNWGNIOHEwWDlFWXRMMG9WRVA4QkExQllNNFBmMFJaZHNrU2tPclJGam9VQkRIUlF6UzQwbzFuMUhFM01YMXlWa0xvaFc3SWdUb3VYSDNEeFJ1Nl9CeExSUW5BYlpJWGhjclQ5TERlaGxoWGduZkxqV0Z2ZFRac2xqU1VuN2FHbDBqZ19uejQ2cTl0Vk9rT1R6ODFaR3VpZkRFaXo1bGlFXzVVdEJpM0h5SEZjOEIwTHI2Umx0RHkzVG9VUXRfYmQxQjVCOW5INjd2aUxFZGFRVVhhZw",
         "CBMiggFBVV95cUxNN2JvSW9mU1pTLW1DOUtZUG4zcWlWSmtqWUNaZ21pby1wTUhOWi1WREg3VFU1S3BBOTZuNExCUUdBMWpaWmJNOTdSMERJbVMyUGNPWUl2Z1pNVHhIUGNzQlF0MnZwcVYyWVpCQk1oSXVWcklrLTFRaWdMRmtQVE1fWWNR",
         "CBMihwFBVV95cUxOcFFROGlsMTV5LS1id2VrbmJZSEJqTGVycGNEM0hMZHFPT1ZSOE9SUHo3dlAxUFhNTjE3OGlmSVRibE1ITTFPajhtVTBNSWFhT1B2TTdkeTBjVjRqekVOZTZMM1lYOVdvaEFlOXpESllzWWNoV3kzeWdYblJySnZkRC1aV2c0S0k",
-        "CBMivAFBVV95cUxObFN6VXlkS1UxU0pIVkwtczdpRHo1Wm1DWnFNNjZSRDNyUUVyZm10NkRKOENYMGwySE5ObFE3MWluelhycl9YSGNSOEY3b0lmYVowSXhKSUNQZVRKSmY1bENMaTRKMHZOZTlrWlRMRm9jdXdkNEhKV3M5WDVrVldkZ1hybVNZNnh6MU1FRXhtNXZRd3Q0cTJvdmFtVEUxVU56S3Rlc0pBSGlEdnRmRHNtNkVYcl90WHQzR29iONIBwwFBVV95cUxOaURMcE9hanpBX3lyamJQUUlrUl8ySDd0N0xjbC1jeWt6MWJ6OG0xWXlpWi1GLTZjTFJoREE4UnZKaUpyT2xheGg0ci1MQkxtM3hKRTFhaTBzYUVfcWF0aVlmSzdURzdpV3I0bU9wRkR6LXRHX3VfRjNXY0lDaVVyQjFlVDFqamFnR3QyVTRDMkM0QzhWU2wwcXlibW41LU5Ib25nTzZlanRyMWE2M2FpLXZ6dWN0cThpX0ZWcElfVkJaOE0"
+        "CBMivAFBVV95cUxObFN6VXlkS1UxU0pIVkwtczdpRHo1Wm1DWnFNNjZSRDNyUUVyZm10NkRKOENYMGwySE5ObFE3MWluelhycl9YSGNSOEY3b0lmYVowSXhKSUNQZVRKSmY1bENMaTRKMHZOZTlrWlRMRm9jdXdkNEhKV3M5WDVrVldkZ1hybVNZNnh6MU1FRXhtNXZRd3Q0cTJvdmFtVEUxVU56S3Rlc0pBSGlEdnRmRHNtNkVYcl90WHQzR29iONIBwwFBVV95cUxOaURMcE9hanpBX3lyamJQUUlrUl8ySDd0N0xjbC1jeWt6MWJ6OG0xWXlpWi1GLTZjTFJoREE4UnZKaUpyT2xheGg0ci1MQkxtM3hKRTFhaTBzYUVfcWF0aVlmSzdURzdpV3I0bU9wRkR6LXRHX3VfRjNXY0lDaVVyQjFlVDFqamFnR3QyVTRDMkM0QzhWU2wwcXlibW41LU5Ib25nTzZlanRyMWE2M2FpLXZ6dWN0cThpX0ZWcElfVkJaOE0",
+        "CBMiuwFBVV95cUxPaDhqRTF4WDhGSlNnajIyS0ktdUtPUHhBVWttSklhamI5Vkw2Y2lOWFdPM0pQQ3J6THhlTWZWMDJWcXg5YXBCbGRfSVhTdmt5RFlJLVJCU0JFUm53cEZKdVVGQVBvMEVkZU9peVhCVW5nMFdCck9HV01GZGpzNEZMRkdfbDNLeHhybUR0MHRKMDZHYmZmd2d0ZEVabEQwWG5iVGpKU0piRTNFbU5RR2g2Y3h3U19OUkhSdEJZ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-07T08:47:41.285Z",
-      "last_epoch": 1788720742000,
-      "etag": "\"0fa7a831b0439b7ddade73756e9f31af9-gzip\"",
-      "last_modified": "Mon, 07 Sep 2026 08:28:23 GMT",
+      "last_fetched": "2026-09-07T16:51:45.366Z",
+      "last_epoch": 1788797564000,
+      "etag": "\"0b4916f8cce705c071e7252a5c8505a0b-gzip\"",
+      "last_modified": "Mon, 07 Sep 2026 16:45:30 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -397,11 +398,17 @@
         "https://economictimes.indiatimes.com/industry/cons-products/paints/paint-makers-expect-healthy-fy27-demand-amid-price-hikes-competition-intensity-remains-high/articleshow/133837223.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/growing-peptide-trend-raises-safety-concerns-among-doctors/articleshow/133837070.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/indias-festive-season-promises-strong-show-as-quick-commerce-reshapes-online-shopping-battle/articleshow/133832061.cms",
-        "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-explores-pe-funding-for-consultancy-accounting/articleshow/133849142.cms"
+        "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-explores-pe-funding-for-consultancy-accounting/articleshow/133849142.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/nalco-partners-with-ega-for-advanced-dx-ultra-aluminium-smelting-technology-in-odisha-expansion/articleshow/133888872.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/siemens-energy-india-advances-cleaner-high-voltage-grid-infrastructure-with-its-blue-portfolio/articleshow/133884380.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/rnfi-services-gets-rbi-in-principle-nod-to-operate-as-payment-aggregator/articleshow/133881781.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/7-career-lessons-nobody-teaches-you-in-college-but-every-professional-learns-the-hard-way/articleshow/133876362.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/axis-bank-launches-arise-homecoming-to-hire-foreign-educated-talent/articleshow/133875951.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/bharat-health-expo-expected-to-be-four-times-bigger-in-2027-participation-to-rise-six-fold-piyush-goyal/articleshow/133873133.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-07T08:47:41.843Z",
+      "last_fetched": "2026-09-07T16:51:45.634Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
