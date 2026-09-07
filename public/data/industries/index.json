@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "gpu-graphics-processors",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -107,6 +107,18 @@
         "CRDMO",
         "Pharma Contract Manufacturing",
         "CMO"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "gpu-graphics-processors",
+      "name": "GPU / Graphics Processors",
+      "aliases": [
+        "Graphics Processing Units",
+        "Graphics Cards",
+        "AI Accelerators",
+        "Discrete GPUs"
       ],
       "is_manufacturing": true,
       "mock": false

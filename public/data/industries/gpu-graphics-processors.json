@@ -1,0 +1,1686 @@
+{
+  "meta": {
+    "slug": "gpu-graphics-processors",
+    "name": "GPU / Graphics Processors",
+    "aliases": [
+      "Graphics Processing Units",
+      "Graphics Cards",
+      "AI Accelerators",
+      "Discrete GPUs"
+    ],
+    "definition": "GPUs are specialized parallel-processing chips originally built for rendering graphics, now central to gaming, professional visualization, data-center AI training/inference, autonomous vehicles and high-performance computing.",
+    "is_manufacturing": true,
+    "generated_at": "2026-09-07",
+    "mock": false,
+    "query": "GPU / Graphics Processors",
+    "updated_at": "2026-09-07",
+    "coverage": {
+      "sections": {
+        "size": {
+          "sources": 24,
+          "confidence": 1,
+          "as_of": "2026-01-01"
+        },
+        "growth_drivers": {
+          "sources": 24,
+          "confidence": 1,
+          "as_of": "2026-01-01"
+        },
+        "players": {
+          "sources": 26,
+          "confidence": 1,
+          "as_of": "2026-01-01"
+        },
+        "other": {
+          "sources": 27,
+          "confidence": 1,
+          "as_of": null
+        },
+        "channels": {
+          "sources": 6,
+          "confidence": 0.9989,
+          "as_of": "2026-01-01"
+        },
+        "quant": {
+          "sources": 23,
+          "confidence": 1,
+          "as_of": "2028-01-01"
+        },
+        "value_chain": {
+          "sources": 10,
+          "confidence": 1,
+          "as_of": "2026-01-01"
+        },
+        "segments": {
+          "sources": 25,
+          "confidence": 1,
+          "as_of": "2026-01-01"
+        },
+        "margins": {
+          "sources": 3,
+          "confidence": 0.9155,
+          "as_of": "2026-01-01"
+        }
+      }
+    }
+  },
+  "summary": {
+    "headline": "India's GPU market is valued at roughly USD 5.7-6.0 billion in 2026 (Mordor Intelligence/Ken Research), growing at a India-leading 18-32% CAGR, as AI compute demand, the IndiaAI Mission's 34,000+ empanelled GPUs, and gaming/enterprise adoption outpace global growth of ~15%, even as India remains almost entirely import-dependent on NVIDIA, AMD and Intel silicon.",
+    "key_takeaways": [
+      "India's GPU market size is estimated between USD 5.72 billion (Research & Markets, 2026) and USD 5,980 million (Ken Research, 2025), with forecasts to reach USD 13.97-31.3 billion by 2031, growing 18-32% CAGR - the fastest among Asian peers including China (22.4% CAGR) and Japan (17.8% CAGR).",
+      "India is 90-95% import-dependent for semiconductors including GPUs, spending near USD 150 billion cumulatively on imports FY17-FY25; discrete GPU boards attract 7.5-15% customs duty plus 18% GST, pushing retail prices 15-20% above global MSRPs.",
+      "The IndiaAI Mission has empanelled over 38,000 GPUs (targeting 63,000 by 2027 and up to 200,000 eventually) at subsidized rates as low as ₹65-115 per hour, with NVIDIA H100/H200 and AMD MI300-series as approved architectures, run through 14 empanelled providers including Yotta, CyFuture, Netmagic and Sify.",
+      "NVIDIA dominates India's discrete/AI GPU landscape with a leading position and holds ~92% of the global AI/data-center and AIB GPU market; AMD has lifted its India datacenter footprint to roughly 20-25% of deployments, while Intel's Gaudi 3 is signing India customers like Airtel, Infosys and Ola Krutrim.",
+      "Data center/AI/HPC use is fast overtaking gaming as the growth engine - enterprise-grade GPUs are expected to exceed half of India's GPU revenue by 2030 (up from 35-40% in 2026), even though gaming still leads unit shipments and India has 560-591 million gamers, the world's largest base."
+    ],
+    "report_markdown": "## Market Size & Growth\nIndia's GPU market is sized between **USD 5.72 billion (2026, Research & Markets)** and **USD 5,980 million (2025, Ken Research)**, having grown from just USD 1,130 million in 2018 and USD 2,032 million in 2020. Forecasts diverge but agree on rapid expansion: Research & Markets projects USD 13.97 billion by 2031 (19.6% CAGR), Ken Research projects USD 31,276 million by 2031 (31.75% CAGR - the highest among Asia-Pacific peers versus China's 22.4% and Japan's 17.8%), and Credence Research projects USD 10.4 billion by 2032 (18.58% CAGR). The India discrete GPU sub-segment alone is pegged at USD 3.73 billion in 2026, rising to USD 9.33 billion by 2031 (20.15% CAGR). Globally the GPU market is estimated at USD 128-145 billion in 2025-26, on track toward USD 237-1,712 billion by the early-to-mid 2030s depending on the source, with Asia-Pacific holding 43% of global revenue.\n\n## Segments\nBy **product form**, discrete GPUs hold 63.84-66.18% of India's GPU market versus 33.82% for integrated GPUs (2025); servers/data-center accelerators lead device application with 38.6% share, reflecting the AI-driven shift. By **application**, gaming leads India's application mix (largest single category) followed by data centers, AI/ML, video editing and visualization, though enterprise AI compute already contributes over 38% of India GPU revenue in 2026. By **region**, North India leads with 30% share (Delhi NCR data centers), South India follows at 28% (Bengaluru/Hyderabad tech investment), West India at 25% and East India at 17%; separately, five metro clusters (Mumbai, Bengaluru, Hyderabad, Chennai, Pune) account for ~60% of GPU sales.\n\n## Value Chain & Import Dependence\nIndia has **no sub-28nm fabrication capability**, so all advanced datacenter GPUs (4nm and below) must be imported; GPUs represent roughly 90% of an AI server's bill of materials. Over 85% of India's GPU unit supply is sourced from overseas assembly hubs in China (55-65% of import value), Taiwan (15-20%) and Vietnam (5-10%). Nearly 90-95% of India's total semiconductor demand is met via imports, with India spending ~USD 150 billion cumulatively on semiconductor imports FY17-FY25 (23% CAGR) - a trajectory that could reach USD 240 billion/year by 2035 if unchecked. Global upstream chokepoints matter directly to India: TSMC controls 60-65% of leading-edge foundry capacity, Samsung and SK Hynix supply the HBM stacks used in AI GPUs, and ASML is the sole supplier of the most advanced lithography tools. Domestic GPU board assembly (Noida, Bengaluru, Chennai, Pune) exists but adds only 15-25% value to the finished board, covering an estimated 40-55% of domestic unit demand; Tata Electronics' USD 11 billion Dholera fab (targeting 50,000 wafer starts/month) is India's first attempt at building fab capacity, expected online around 2028.\n\n## Duties, Tariffs & Trade Policy\nFinished GPU boards (HS 8473.30/85439000) attract 7.5-15% basic customs duty, 18% IGST and a 10% social welfare surcharge, pushing landed cost premiums of 25-35% and retail prices 15-20% above global MSRP. BIS registration and end-user certification (aligned with the Wassenaar Arrangement for dual-use high-compute GPUs) add 4-12 weeks to procurement cycles and cost INR 1-3 lakh per SKU. Geopolitically, India is treated as a 'Tier 2' country under US AI Diffusion export-control rules and has historically faced a roughly 50,000-GPU cap on high-end chip imports from the US, a constraint reportedly being eased as part of ongoing India-US trade talks; the broader US-China tariff war (peaking near 145% on Chinese goods in April 2025) and US export controls on China have redirected global chip-industry attention and created both risk and opportunity for India as an alternative sourcing/assembly base.\n\n## Government Push: IndiaAI Mission\nApproved in March 2024 with a ₹10,372 crore (~USD 1.21-1.36 billion) outlay, the IndiaAI Mission has built a national GPU compute pool that crossed **34,333 GPUs** in mid-2025 and **38,000+ GPUs** by end-2025, with government targets of 63,000 GPUs by 2027 and ambitions floated for 100,000-200,000 GPUs. Seven empanelled bidders (CyFuture, Yotta, Locuz, Sify, Netmagic, Vensysco, Ishan Infotech) supply subsidized on-demand GPU access (NVIDIA H100/H200/B200, AMD MI300X/MI325X) at rates as low as ₹65-115/hour versus a global benchmark of ₹213-256/hour, with a further 40% discount for startups, academia and students. Domestically, India is targeting \"tech-demo-ready\" indigenous GPUs by end-2025 and production by 2029.\n\n## Players\nGlobally the industry is an oligopoly - NVIDIA, AMD and Intel dominate, with NVIDIA holding ~92% of the discrete/AIB and AI/data-center GPU market. In India, NVIDIA, AMD, Intel, Qualcomm and AWS are named as the top five players, with NVIDIA holding clear market leadership across gaming, AI and data center. Domestic cloud/compute providers (Yotta Data Services, NxtGen, E2E Networks, CyFuture, Netmagic, Sify) build India-based GPU infrastructure atop imported silicon; AIB partners (ASUS, Gigabyte, MSI, Zotac, Sapphire, Palit) compete on service and warranty in the India retail channel, while distributors Ingram Micro India, Redington, Savex and Rashi Peripherals control 55-65% of organized GPU imports. Grey-market/parallel imports still account for an estimated 15-20% of India's consumer GPU sales.\n\n## Headwinds & Tailwinds\nTailwinds include AI/data-center demand (enterprise GPU CAGR of 18-22% vs 8-12% for consumer), a huge 560-591 million-strong gaming base, government subsidy/PLI support, and hyperscaler capex (Microsoft USD 17.5bn, Google USD 15bn pledged for India 2026-2030). Headwinds include near-total import dependence, 25-35% landed-cost duty premiums, INR depreciation (INR 82 to 85/USD) adding 3-4% to invoices, US export-control uncertainty, global DRAM/HBM price spikes (DRAM up 171.8% YoY) squeezing GPU supply and pricing, and power infrastructure deficits in tier-2/3 cities limiting high-end GPU deployment.",
+    "report": {
+      "kind": "llm",
+      "generated_at": "2026-09-07",
+      "hash": "823db71ab286280da74eee6f77a6dec0",
+      "sections": [
+        {
+          "heading": "Executive summary",
+          "prose": [
+            "India's GPU market is valued at roughly USD 5.72 billion in 2026, according to Research & Markets, up from USD 4.93 billion in 2025 and just USD 1.13 billion in 2018. Ken Research puts 2025 value even higher, near USD 5,980 million. Either way, the market is growing fast, forecast to reach USD 13.97 billion by 2031 on a 19.55% CAGR (Research & Markets) or as high as 31.75% CAGR (Ken Research) - a pace that outstrips China (22.4%) and Japan (17.8%).",
+            "Growth is driven by two forces: a surging domestic AI compute build-out anchored by the government's IndiaAI Mission, and a gaming/consumer base that is the largest in the world by user count. At the same time, India remains almost entirely dependent on imported silicon from NVIDIA, AMD, Intel and others, since it has no domestic fabrication below 28nm. This import dependence, combined with duties and a weakening rupee, keeps retail GPU prices well above global levels."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Market size & growth",
+          "prose": [
+            "India's GPU market stood at USD 5.72 billion in 2026, per Research & Markets, following USD 4.93 billion in 2025 and USD 4.5 billion in 2024. The market has grown steadily from USD 1.13 billion in 2018, through USD 2.032 billion (2020), USD 2.401 billion (2021), USD 2.868 billion (2022) and USD 3.503 billion (2023). Forecasts point to USD 13.97 billion by 2031, implying a CAGR of about 19.55% for 2026-2031. Ken Research's separate estimate is more aggressive, projecting a 31.75% CAGR to 2031.",
+            "This growth rate places India ahead of other major Asian GPU markets, with China growing at 22.4% CAGR and Japan at 17.8% CAGR over similar forecast periods."
+          ],
+          "key_numbers": [
+            {
+              "label": "Market size 2026",
+              "value": "USD 5.72 billion"
+            },
+            {
+              "label": "Market size 2025",
+              "value": "USD 4.93 billion"
+            },
+            {
+              "label": "Forecast market size 2031",
+              "value": "USD 13.97 billion"
+            },
+            {
+              "label": "CAGR 2026-2031 (Research & Markets)",
+              "value": "19.55%"
+            },
+            {
+              "label": "CAGR to 2031 (Ken Research)",
+              "value": "31.75%"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Segments",
+          "prose": [
+            "Discrete GPUs made up 66.18% of India's GPU market in 2025, favored for their superior gaming, AI and data-center performance. Integrated GPUs held the remaining 33.82% but dominate unit shipments in mainstream laptops and smartphones. Within the discrete GPU market, servers and data-center accelerators are the leading application, accounting for 38.62% of the segment in 2025 - ahead of gaming, which still leads the overall India GPU market by application when measured across all device categories.",
+            "Regionally, North India leads with 30% market share, driven by Delhi NCR's data-center growth and IT hubs. South India follows with 28%, powered by tech investment in Bengaluru and Hyderabad. West India holds 25%, supported by financial services and smart-city initiatives, while East India accounts for 17%, showing steady growth in digital infrastructure and cloud adoption."
+          ],
+          "key_numbers": [
+            {
+              "label": "Discrete GPU share (2025)",
+              "value": "66.18%"
+            },
+            {
+              "label": "Integrated GPU share (2025)",
+              "value": "33.82%"
+            },
+            {
+              "label": "Servers/datacenter accelerators share o…",
+              "value": "38.62%"
+            },
+            {
+              "label": "North India regional share",
+              "value": "30%"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Value chain",
+          "prose": [
+            "The value chain starts with wafer fabrication, concentrated with TSMC, Samsung and Intel; TSMC alone commands 60-65% of leading-edge foundry capacity, and India has no domestic capability at these nodes. Memory supply - HBM and GDDR - comes from Samsung, SK Hynix and Micron, who allocate early HBM volumes to the largest cloud buyers first, constraining supply for smaller India-based firms. GDDR remains attractive for mid-tier cards due to a cost gap of USD 500-1,000 per GPU versus HBM.",
+            "NVIDIA and AMD operate as fabless designers, outsourcing manufacturing to TSMC and Samsung, while Intel is vertically integrated. Domestic assembly in India - centered in Noida, Bengaluru, Chennai and Pune, led by EMS players Dixon Technologies, VVDN and Syrma SGS under the PLI scheme - adds only 15-25% of the finished board's value, since dies and key components are imported.",
+            "Distribution runs through top-tier importers like Ingram Micro India, Redington, Savex and Rashi Peripherals, who together control 55-65% of organized GPU imports; import duty and GST add 25-35% to landed cost before distributor margins. On the deployment side, cloud providers such as Yotta, NxtGen, E2E Networks, Jio and AdaniConneX install imported GPUs in India data centers, where power-related expenses eat up nearly 75% of operating costs."
+          ],
+          "key_numbers": [
+            {
+              "label": "TSMC leading-edge foundry share",
+              "value": "60-65%"
+            },
+            {
+              "label": "Domestic assembly value-add",
+              "value": "15-25% of board cost"
+            },
+            {
+              "label": "Power cost share of data-center opex",
+              "value": "~75%"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Distribution & channels",
+          "prose": [
+            "Top-tier authorized distributors - Ingram Micro India, Redington, Savex Technologies and Rashi Peripherals - control an estimated 60% of organized GPU imports into India. E-commerce platforms including Amazon India, Flipkart, and specialized retailers like MD Computers and Vedant Computers serve consumer and prosumer buyers.",
+            "Grey-market and parallel-import channels remain significant, accounting for an estimated 17.5% (range 15-20%) of consumer GPU sales, which undermines organized retail and warranty support."
+          ],
+          "key_numbers": [
+            {
+              "label": "Top distributor import share",
+              "value": "60%"
+            },
+            {
+              "label": "Grey-market share of consumer sales",
+              "value": "17.5%"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Key players & positioning",
+          "prose": [
+            "NVIDIA is the dominant force in India's discrete and AI GPU market, holding about 92% of the global discrete/AIB and AI/data-center GPU market as of Q3 2025. AMD has raised its India data-center footprint to roughly 20-25% of deployments in 2025 as it targets emerging markets. Intel's Gaudi 3 accelerator, which claims 50% better throughput than NVIDIA's H100 on some benchmarks, has signed India customers including Airtel, Infosys and Ola Krutrim. Qualcomm and Amazon Web Services round out the top five players, with Qualcomm's Snapdragon 8 Elite Gen 5 delivering a 23% graphics uplift for on-device generative AI.",
+            "India's IndiaAI Mission has empanelled 14 compute providers, including Yotta Data Services, CyFuture, Netmagic, Sify, Locuz, Vensysco and Ishan Infotech, who won competitive bids (L1 status) across NVIDIA A100/H100/H200, AMD MI300X and AWS Inferentia2/Trainium categories. Yotta operates the largest known India GPU fleet, deploying over 16,384 NVIDIA H100 GPUs at its Navi Mumbai NM1 facility and placing a USD 2 billion order for 20,736 NVIDIA Blackwell Ultra modules.",
+            "Other notable participants include E2E Networks, which supplies NVIDIA Hopper GPUs to clients like AI4Bharat and has commissioned H200 clusters in Delhi NCR and Chennai; NxtGen, which is expanding with liquid-cooled H200, MI325x and B300 GPUs in Karnataka; and Jio Platforms and Tata Communications, both active in India's GPU procurement tenders. In add-in-board retail, ASUS is seen as the 'gold standard' for build quality and repair service, Zotac is the 'value king' due to its five-year warranty, Gigabyte is improving its reputation with a dedicated India engineering team, and MSI is favored for design but criticized for weak post-warranty support. Netweb Technologies has partnered with NVIDIA to manufacture AI/HPC servers in India, including Grace CPU and GH200 Superchip designs."
+          ],
+          "key_numbers": [
+            {
+              "label": "NVIDIA global discrete/AIB share (Q3 20…",
+              "value": "~92%"
+            },
+            {
+              "label": "AMD India datacenter deployment share (…",
+              "value": "20-25%"
+            },
+            {
+              "label": "Yotta NM1 GPU deployment",
+              "value": "16,384+ NVIDIA H100 GPUs"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Supply & capacity",
+          "prose": [
+            "India's national GPU compute pool under the IndiaAI Mission has reached 38,000 GPUs, up from an initial target of just 10,000, with plans to expand to 63,000 by 2027 and potentially 200,000 eventually. Yotta Data Services is scaling its Navi Mumbai facilities toward a roadmap of 32,768 NVIDIA H100 GPUs by end-2025. On the manufacturing side, Tata Electronics is building a fab in Dholera, Gujarat targeting 50,000 wafer starts per month by 2028, though this does not yet address leading-edge GPU nodes.",
+            "Annual GPU import value into India is estimated at USD 1.8-2.5 billion in 2026, growing 12-16% per year, underscoring the country's continued reliance on external supply even as domestic compute deployment scales up."
+          ],
+          "key_numbers": [
+            {
+              "label": "IndiaAI Mission GPU pool",
+              "value": "38,000 GPUs (2025)"
+            },
+            {
+              "label": "IndiaAI Mission target (2027)",
+              "value": "63,000 GPUs"
+            },
+            {
+              "label": "Tata Electronics Dholera fab capacity (…",
+              "value": "50,000 wafer starts/month"
+            },
+            {
+              "label": "Annual GPU import value (2026)",
+              "value": "USD 1.8-2.5 billion"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Tailwinds vs headwinds",
+          "prose": [
+            "India's growth tailwinds include rising internet penetration - 50%, over 700 million users in 2024 - and a GPU market CAGR forecast (31.75%) that outpaces China (22.4%) and Japan (17.8%). US-India trade talks reportedly include easing the roughly 50,000-unit GPU import cap that had constrained access to top-end NVIDIA and AMD chips. Notebook shipments climbed 8.1% year-over-year in Q1 2025, led by gaming laptops, supporting discrete-GPU demand.",
+            "Headwinds are substantial. India lacks sub-28nm fabrication, so all advanced datacenter GPUs (4nm and below) must be imported, exposing the market to overseas foundry allocation decisions. Currency depreciation from INR 82 to INR 85 per USD by early 2026 adds another 3-4% to import invoices, on top of import duty structures that already add 20-35% to landed costs, with BIS/end-user-certification compliance adding 4-12 weeks to procurement. Power infrastructure deficits, especially in tier-2/3 grids, are estimated to drag India's discrete GPU CAGR forecast by -2.8%. Globally, DRAM prices are up 171.8% year-over-year, and HBM allocation bias toward AI hyperscalers is constraining supply and raising prices for India buyers. Grey-market and parallel-import channels account for an estimated 15-20% of consumer GPU sales, undermining organized retail."
+          ],
+          "key_numbers": [
+            {
+              "label": "Internet users (2024)",
+              "value": "700 million+ (50% penetration)"
+            },
+            {
+              "label": "Currency drift impact by 2026",
+              "value": "+3-4% to invoices"
+            },
+            {
+              "label": "Import duty impact on landed cost",
+              "value": "20-35%"
+            },
+            {
+              "label": "DRAM price increase YoY",
+              "value": "171.8%"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Outlook",
+          "prose": [
+            "India's GPU market is set to keep growing faster than most of the world, with forecasts ranging from a 19.55% CAGR (Research & Markets, to USD 13.97 billion by 2031) to a steeper 31.75% CAGR (Ken Research). This growth will be increasingly driven by enterprise and data-center demand, which is expanding at 18-22% CAGR through 2030, versus 8-12% for the consumer segment - enterprise GPUs are expected to exceed half of India's GPU revenue by 2030, up from 35-40% in 2026.",
+            "Government programs will remain central: the IndiaAI Mission's push toward 63,000 empanelled GPUs by 2027, Semicon India 2.0's INR 76,000 crore (USD 9.1 billion) in incentives, and hyperscaler capital commitments - Microsoft's USD 17.5 billion and Google's USD 15 billion through 2026-2030 - will keep lifting domestic GPU deployment. But structural headwinds - import dependence for leading-edge silicon, currency depreciation, duty structures, power infrastructure gaps, and global memory price pressure - mean India's growth will continue to run on imported technology rather than domestic manufacturing for the foreseeable future."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Sources",
+          "prose": [
+            "This report draws on market sizing and segment data from Research & Markets, Ken Research, Credence Research, Mordor Intelligence and Coherent Market Insights, government data from the Press Information Bureau (PIB) on the IndiaAI Mission, and supply-chain and channel analysis from IndexBox, GMInsights, MarknTel Advisors, Precedence Research and other industry sources listed below."
+          ],
+          "key_numbers": [],
+          "source_refs": [
+            {
+              "label": "Research and Markets - India GPU Market",
+              "url": "https://www.researchandmarkets.com/report/india-gpu-market"
+            },
+            {
+              "label": "Credence Research - India GPU Market",
+              "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market"
+            },
+            {
+              "label": "Mordor Intelligence - India Discrete GPU Market",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market"
+            },
+            {
+              "label": "PIB - Transforming India with AI",
+              "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=156786&lang=1&reg=3"
+            },
+            {
+              "label": "IndexBox - India GPU Market Analysis",
+              "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/"
+            },
+            {
+              "label": "GMInsights - GPU Market",
+              "url": "https://www.gminsights.com/industry-analysis/gpu-market"
+            },
+            {
+              "label": "MarknTel Advisors - India Data Center GPU Market",
+              "url": "https://www.marknteladvisors.com/research-library/data-center-gpu-market-india.html"
+            },
+            {
+              "label": "Research and Markets - GPU Market",
+              "url": "https://www.researchandmarkets.com/report/gpu"
+            },
+            {
+              "label": "Ken Research - India GPU Market",
+              "url": "https://www.kenresearch.com/industry-reports/india-graphics-processing-unit-market"
+            },
+            {
+              "label": "IBEF - India-made GPUs",
+              "url": "https://www.ibef.org/news/india-made-graphics-processing-units-gpus-to-be-tech-demo-ready-by-2025-production-by-2029"
+            },
+            {
+              "label": "Accio - Graphics Card Price Trends 2026",
+              "url": "https://www.accio.com/business/graphics-card-price-trends-2026"
+            },
+            {
+              "label": "Precedence Research - GPU Market",
+              "url": "https://www.precedenceresearch.com/graphic-processing-unit-market"
+            },
+            {
+              "label": "Henry Fund - Graphics Processing Units",
+              "url": "https://www.biz.uiowa.edu/henry/download/Graphics_Processing_Units.pdf"
+            },
+            {
+              "label": "Coherent Market Insights",
+              "url": "https://www.coherentmarketinsights.com/market-insight/graphic-processing-unit-market-5875"
+            },
+            {
+              "label": "PIB - India's Common Compute Capacity",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2"
+            },
+            {
+              "label": "Alibaba - Graphic Cards India",
+              "url": "https://electronics.alibaba.com/product/graphic-cards-india"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "highlights": [
+    {
+      "label": "India GPU market size (2026)",
+      "value": "5.72",
+      "unit": "USD billion",
+      "year": 2026,
+      "trend": "up",
+      "series": [
+        {
+          "year": 2020,
+          "value": 2.032
+        },
+        {
+          "year": 2022,
+          "value": 2.868
+        },
+        {
+          "year": 2024,
+          "value": 4.5
+        },
+        {
+          "year": 2025,
+          "value": 4.93
+        },
+        {
+          "year": 2026,
+          "value": 5.72
+        }
+      ],
+      "note": "Research & Markets estimate; Ken Research puts 2025 at USD 5.98bn",
+      "source": {
+        "label": "Research and Markets - India GPU Market",
+        "url": "https://www.researchandmarkets.com/report/india-gpu-market",
+        "snippet": "expected to increase from USD 4.93 billion in 2025 to USD 5.72 billion in 2026"
+      }
+    },
+    {
+      "label": "Global GPU market size (2026)",
+      "value": "144.83",
+      "unit": "USD billion",
+      "year": 2026,
+      "trend": "up",
+      "source": {
+        "label": "Mordor Intelligence",
+        "url": "https://www.mordorintelligence.com/industry-reports/graphics-processing-unit-market",
+        "snippet": "expected to increase from USD 128.17 billion in 2025 to USD 144.83 billion in 2026"
+      }
+    },
+    {
+      "label": "India semiconductor import dependence",
+      "value": "90-95",
+      "unit": "%",
+      "year": 2026,
+      "trend": "flat",
+      "note": "Nearly all of India's semiconductor/GPU demand met via imports",
+      "source": {
+        "label": "NITI Aayog - Future of India Semiconductor Industry",
+        "url": "https://www.niti.gov.in/sites/default/files/2026-05/Future-of-India-Semiconductor-Industry.pdf",
+        "snippet": "nearly 90-95 per cent of this demand is currently met through imports"
+      }
+    },
+    {
+      "label": "IndiaAI Mission empanelled GPUs",
+      "value": "38,000+",
+      "unit": "GPUs",
+      "year": 2025,
+      "trend": "up",
+      "series": [
+        {
+          "year": 2025,
+          "value": 18693
+        },
+        {
+          "year": 2025,
+          "value": 34333
+        },
+        {
+          "year": 2025,
+          "value": 38000
+        }
+      ],
+      "note": "Target 63,000 GPUs by 2027; ambitions floated up to 200,000",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity Crosses 34,000 GPUs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "additional 15,916 GPUs to the existing 18,417 empanelled GPUs creating a total of 34,333 GPUs"
+      }
+    },
+    {
+      "label": "NVIDIA share of AI/data-center & AIB GPU market",
+      "value": "92",
+      "unit": "%",
+      "year": 2025,
+      "trend": "flat",
+      "source": {
+        "label": "Coherent Market Insights",
+        "url": "https://www.coherentmarketinsights.com/market-insight/graphic-processing-unit-market-5875",
+        "snippet": "Market concentration remains high, with Nvidia holding about 92% of the discrete/AIB market in Q3 2025"
+      }
+    },
+    {
+      "label": "India GPU import duty/tax landed-cost premium",
+      "value": "25-35",
+      "unit": "%",
+      "year": 2026,
+      "trend": "flat",
+      "note": "Basic customs duty 10-15% + 18% IGST + 10% social welfare surcharge",
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "attracting a basic customs duty of 10-15%, plus integrated GST of 18%, social welfare surcharge of 10%, and other cesses, resulting in a total landed cost premium of 25-35%"
+      }
+    },
+    {
+      "label": "India gaming population",
+      "value": "591",
+      "unit": "million users",
+      "year": 2025,
+      "trend": "up",
+      "note": "World's largest gaming market by user base",
+      "source": {
+        "label": "Ken Research - India GPU Market",
+        "url": "https://www.kenresearch.com/industry-reports/india-graphics-processing-unit-market",
+        "snippet": "gaming population exceeding 591 million users"
+      }
+    },
+    {
+      "label": "India GPU-hour subsidized rate vs global benchmark",
+      "value": "65-115.85 vs 213-256",
+      "unit": "INR per hour",
+      "year": 2025,
+      "trend": "flat",
+      "note": "IndiaAI subsidized compute rate well below global benchmark",
+      "source": {
+        "label": "IBEF - India-made GPUs",
+        "url": "https://www.ibef.org/news/india-made-graphics-processing-units-gpus-to-be-tech-demo-ready-by-2025-production-by-2029",
+        "snippet": "The average GPU compute unit rate was found to be ~Rs. 115.85 (US$ 1.36) per hour (low-end) compared to the global benchmark of Rs. 213.44 - 256.12 (US$ 2.5-3) per hour"
+      }
+    }
+  ],
+  "size": {
+    "current": {
+      "value": 5.72,
+      "unit": "USD billion",
+      "year": 2026
+    },
+    "cagr_pct": 19.55,
+    "cagr_note": "2026-2031 CAGR per Research & Markets; Ken Research estimates a steeper 31.75% CAGR to 2031",
+    "history": [
+      {
+        "year": 2018,
+        "value": 1.13
+      },
+      {
+        "year": 2020,
+        "value": 2.032
+      },
+      {
+        "year": 2021,
+        "value": 2.401
+      },
+      {
+        "year": 2022,
+        "value": 2.868
+      },
+      {
+        "year": 2023,
+        "value": 3.503
+      },
+      {
+        "year": 2024,
+        "value": 4.5
+      },
+      {
+        "year": 2025,
+        "value": 4.93
+      },
+      {
+        "year": 2026,
+        "value": 5.72
+      }
+    ],
+    "source": {
+      "label": "Research and Markets - India GPU Market",
+      "url": "https://www.researchandmarkets.com/report/india-gpu-market",
+      "snippet": "expected to increase from USD 4.93 billion in 2025 to USD 5.72 billion in 2026 and reach USD 13.97 billion by 2031"
+    }
+  },
+  "segments": [
+    {
+      "name": "Discrete GPUs",
+      "share_pct": 66.18,
+      "dimension": "product",
+      "note": "Dominates due to superior gaming/AI/data-center performance",
+      "source": {
+        "label": "Research and Markets - India GPU Market",
+        "url": "https://www.researchandmarkets.com/report/india-gpu-market",
+        "snippet": "Discrete GPUs accounted for 66.18% of the India GPU market share in 2025"
+      }
+    },
+    {
+      "name": "Integrated GPUs",
+      "share_pct": 33.82,
+      "dimension": "product",
+      "note": "Dominates unit shipments in mainstream laptops and smartphones",
+      "source": {
+        "label": "Research and Markets - India GPU Market",
+        "url": "https://www.researchandmarkets.com/report/india-gpu-market",
+        "snippet": "Integrated GPUs, holding the remaining 33.82%, dominate unit shipments in mainstream laptops and smartphones"
+      }
+    },
+    {
+      "name": "North India",
+      "share_pct": 30,
+      "dimension": "region",
+      "note": "Led by Delhi NCR data center growth and IT hubs",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "North India leads with a 30% market share, driven by robust data center growth"
+      }
+    },
+    {
+      "name": "South India",
+      "share_pct": 28,
+      "dimension": "region",
+      "note": "Fueled by tech investment in Bengaluru and Hyderabad",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "South India follows closely with a 28% share, fueled by technological investments in Bengaluru and Hyderabad"
+      }
+    },
+    {
+      "name": "West India",
+      "share_pct": 25,
+      "dimension": "region",
+      "note": "Supported by financial services and smart city initiatives",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "West India accounts for 25%, supported by financial services and smart city initiatives"
+      }
+    },
+    {
+      "name": "East India",
+      "share_pct": 17,
+      "dimension": "region",
+      "note": "Steady growth in digital infrastructure and cloud adoption",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "East India holds 17%, showing steady growth in digital infrastructure and cloud adoption"
+      }
+    },
+    {
+      "name": "Servers & Datacenter Accelerators",
+      "share_pct": 38.62,
+      "dimension": "application",
+      "note": "Leading device-application segment in India's discrete GPU market",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "servers and datacenter accelerators led with 38.62% of India's discrete GPU market share in 2025"
+      }
+    },
+    {
+      "name": "Gaming",
+      "share_pct": null,
+      "dimension": "application",
+      "note": "Leads India GPU market by application category (largest share, no exact % given)",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "The gaming segment leads the India GPU market, holding the largest share among the application categories"
+      }
+    }
+  ],
+  "growth_drivers": [
+    {
+      "title": "AI compute build-out and IndiaAI Mission",
+      "detail": "Government-backed compute pool crossed 38,000 GPUs with a target of 63,000 by 2027; subsidized rates as low as ₹65-115/hour are driving startup, academic and enterprise adoption of GPU compute in India.",
+      "source": {
+        "label": "PIB - Transforming India with AI",
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=156786&lang=1&reg=3",
+        "snippet": "From an initial target of 10,000 GPUs, India has now achieved 38,000 GPUs"
+      }
+    },
+    {
+      "title": "Enterprise AI/data-center demand outpacing consumer",
+      "detail": "Enterprise GPU-accelerated computing is expanding at 18-22% CAGR through 2030 versus 8-12% for consumer; enterprise/data-center GPUs are expected to exceed half of India's GPU revenue by 2030-2035.",
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "expanding at an estimated 18-22% compound annual growth rate (CAGR) through 2030, outpacing the consumer segment which is growing at 8-12% CAGR"
+      }
+    },
+    {
+      "title": "World's largest gaming population",
+      "detail": "India's gaming population exceeds 560-591 million users, driving demand for gaming GPUs and entry-level workstations, especially in tier-2/3 cities growing 15-20% annually.",
+      "source": {
+        "label": "GMInsights - GPU Market",
+        "url": "https://www.gminsights.com/industry-analysis/gpu-market",
+        "snippet": "India has the largest gaming market in the world with user base of over 560 million gamers"
+      }
+    },
+    {
+      "title": "Government manufacturing incentives (Semicon India, PLI)",
+      "detail": "Semicon India 2.0 raised incentives to INR 76,000 crore (USD 9.1 billion); EMS players Dixon, VVDN, and Syrma SGS have set up GPU board assembly lines under PLI, and Tata Electronics is building an USD 11 billion fab in Dholera, Gujarat.",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "Semicon India 2.0 raised incentives to INR 76,000 crore (USD 9.1 billion)"
+      }
+    },
+    {
+      "title": "Hyperscaler capex flowing into India data centers",
+      "detail": "Microsoft has committed USD 17.5 billion and Google USD 15 billion for AI/cloud infrastructure expansion in India between 2026-2030, directly lifting GPU deployment.",
+      "source": {
+        "label": "MarknTel Advisors - India Data Center GPU Market",
+        "url": "https://www.marknteladvisors.com/research-library/data-center-gpu-market-india.html",
+        "snippet": "Microsoft has announced USD17.5 billion (2026-2029) to expand AI and cloud infrastructure across the country"
+      }
+    }
+  ],
+  "tailwinds": [
+    {
+      "point": "Internet penetration in India reached 50% with over 700 million users in 2024, indirectly boosting consumer GPU demand.",
+      "source": {
+        "label": "Research and Markets - GPU Market",
+        "url": "https://www.researchandmarkets.com/report/gpu",
+        "snippet": "In developed countries like India, the internet penetration rate has reached 50%, with over 700 million internet users in 2024"
+      }
+    },
+    {
+      "point": "India's 31.75% forecast GPU market CAGR (2026-2031) exceeds China's 22.4% and Japan's 17.8%, making it the fastest-growing large Asian GPU market.",
+      "source": {
+        "label": "Ken Research - India GPU Market",
+        "url": "https://www.kenresearch.com/industry-reports/india-graphics-processing-unit-market",
+        "snippet": "India's 31.75% forecast CAGR exceeds China's 22.40% and Japan's 17.80%"
+      }
+    },
+    {
+      "point": "US-India trade talks reportedly include easing the ~50,000 GPU import cap that had constrained India's access to top-end NVIDIA/AMD chips.",
+      "source": {
+        "label": "IBEF - India-made GPUs",
+        "url": "https://www.ibef.org/news/india-made-graphics-processing-units-gpus-to-be-tech-demo-ready-by-2025-production-by-2029",
+        "snippet": "India is nearing the 50,000 GPU limit set by the United States (US), and discussions to ease this cap are reportedly part of ongoing India-US trade negotiations"
+      }
+    },
+    {
+      "point": "Notebook shipments in India climbed 8.1% YoY in Q1 2025, led by gaming laptops, supporting discrete-GPU demand.",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "Notebook shipments climbed 8.1% year over year in Q1 2025 as gaming laptops outpaced mainstream models"
+      }
+    }
+  ],
+  "headwinds": [
+    {
+      "point": "India lacks sub-28nm fabrication, forcing all advanced datacenter GPUs (4nm and below) to be imported, exposing the market to overseas foundry allocation decisions.",
+      "source": {
+        "label": "Research and Markets - India GPU Market",
+        "url": "https://www.researchandmarkets.com/report/india-gpu-market",
+        "snippet": "India lacks sub-28 nm fabrication, so datacenter GPUs manufactured on 4 nm and below must be imported"
+      }
+    },
+    {
+      "point": "Currency depreciation from INR 82 to INR 85 per USD by early 2026 adds another 3-4% to GPU import invoices.",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "Currency drift from INR 82 to INR 85 per USD by early 2026 adds another 3-4% to invoices"
+      }
+    },
+    {
+      "point": "Import duty structures add 20-35% to landed GPU costs in India, and BIS/end-user-certification compliance adds 4-12 weeks to procurement cycles.",
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "import duty structures that add 20-30% to landed costs"
+      }
+    },
+    {
+      "point": "Power infrastructure deficits, especially in tier-2/3 grids, limit high-end GPU deployment, an estimated -2.8% drag on India's discrete GPU CAGR forecast.",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "Power infrastructure deficits limiting high-end GPU deployment -2.8%"
+      }
+    },
+    {
+      "point": "Global DRAM/memory price spikes (DRAM up 171.8% YoY) and HBM allocation bias toward AI hyperscalers are driving up GPU prices and constraining supply for India buyers.",
+      "source": {
+        "label": "Accio - Graphics Card Price Trends 2026",
+        "url": "https://www.accio.com/business/graphics-card-price-trends-2026",
+        "snippet": "significant increase in DRAM prices, up 171.8% year-over-year"
+      }
+    },
+    {
+      "point": "Grey-market and parallel-import channels account for an estimated 15-20% of consumer GPU sales in India, undermining organized retail and warranty support.",
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "Grey-market and parallel-import channels remain active, accounting for an estimated 15-20% of consumer GPU sales"
+      }
+    }
+  ],
+  "value_chain": [
+    {
+      "stage": "Raw material & wafer fabrication",
+      "description": "Silicon wafers and specialty gases procured globally; leading-edge wafer fabrication concentrated with TSMC, Samsung and Intel.",
+      "margin_note": "TSMC commands 60-65% of leading-edge foundry share; India has no domestic capability at these nodes",
+      "source": {
+        "label": "Precedence Research - GPU Market",
+        "url": "https://www.precedenceresearch.com/graphic-processing-unit-market",
+        "snippet": "Wafer Fabrication (Front-End)... Key Players: Intel, Samsung, and TSMC"
+      }
+    },
+    {
+      "stage": "Memory (HBM/GDDR) supply",
+      "description": "Samsung, SK Hynix and Micron supply HBM stacks that underpin leading-edge AI accelerator performance; early-run HBM volumes are allocated to the largest cloud buyers, constraining supply for smaller India firms.",
+      "margin_note": "Cost deltas of USD 500-1,000 per GPU keep GDDR compelling for mid-tier cards versus HBM",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "SK Hynix, Samsung, and Micron allocate early-run volumes to the largest cloud buyers"
+      }
+    },
+    {
+      "stage": "GPU design (fabless) / vertical integration",
+      "description": "NVIDIA and AMD are fabless, outsourcing manufacturing to TSMC/Samsung; Intel vertically integrates design and manufacture.",
+      "margin_note": "Fabless model dominant; India has limited domestic IP-design talent pool",
+      "source": {
+        "label": "Henry Fund - Graphics Processing Units",
+        "url": "https://www.biz.uiowa.edu/henry/download/Graphics_Processing_Units.pdf",
+        "snippet": "firms adopt one of two business models: fab or fabless"
+      }
+    },
+    {
+      "stage": "Domestic board assembly (India)",
+      "description": "GPU board assembly concentrated in Noida, Bengaluru, Chennai and Pune, using imported dies/components; EMS players Dixon Technologies, VVDN and Syrma SGS operate under PLI.",
+      "margin_note": "Value addition from domestic assembly is only 15-25% of the finished board cost",
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "the value addition from domestic assembly is relatively low-typically 15-25% of the finished board cost"
+      }
+    },
+    {
+      "stage": "Import & distribution",
+      "description": "Top-tier distributors (Ingram Micro India, Redington, Savex, Rashi Peripherals) control 55-65% of organized GPU imports; e-commerce (Amazon India, Flipkart, MD Computers, Vedant Computers) serves consumer segments.",
+      "margin_note": "Import duty + GST add 25-35% to landed cost before distributor/retailer margin",
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "top five distributors controlling an estimated 55-65% of organized GPU imports"
+      }
+    },
+    {
+      "stage": "Cloud/data-center deployment",
+      "description": "Cloud service providers (Yotta, NxtGen, E2E Networks, Reliance Jio, NTT, AdaniConneX) deploy imported GPUs in India data centers, often under IndiaAI Mission or hyperscaler partnership.",
+      "margin_note": "Power-related expenses account for nearly 75% of a data center's operating cost in India",
+      "source": {
+        "label": "MarknTel Advisors - India Data Center GPU Market",
+        "url": "https://www.marknteladvisors.com/research-library/data-center-gpu-market-india.html",
+        "snippet": "power-related expenses account for nearly 75% of a data center's operating cost in India"
+      }
+    }
+  ],
+  "channels": [
+    {
+      "channel": "Top-tier authorized distributors (Ingram Micro India, Redington, Savex Technologies, Rashi Peripherals)",
+      "share_pct": 60,
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "top five distributors controlling an estimated 55-65% of organized GPU imports"
+      }
+    },
+    {
+      "channel": "Grey-market / parallel imports",
+      "share_pct": 17.5,
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "Grey-market and parallel-import channels remain active, accounting for an estimated 15-20% of consumer GPU sales"
+      }
+    },
+    {
+      "channel": "E-commerce (Amazon India, Flipkart, MD Computers, Vedant Computers)",
+      "share_pct": null,
+      "source": {
+        "label": "IndexBox - India GPU Market Analysis",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "snippet": "E-commerce platforms, including Amazon India, Flipkart, and specialized electronics retailers like MD Computers and Vedant Computers, serve the consumer and prosumer segments"
+      }
+    }
+  ],
+  "players": [
+    {
+      "name": "NVIDIA",
+      "listed": true,
+      "ticker": "NVDA",
+      "segment": "Discrete GPU, AI accelerator, gaming GPU",
+      "market_share_pct": 92,
+      "note": "Market leader in India across gaming, AI and data center; holds ~92% of global AI/data-center and AIB GPU share",
+      "source": {
+        "label": "Coherent Market Insights",
+        "url": "https://www.coherentmarketinsights.com/market-insight/graphic-processing-unit-market-5875",
+        "snippet": "Market concentration remains high, with Nvidia holding about 92% of the discrete/AIB market in Q3 2025"
+      }
+    },
+    {
+      "name": "AMD",
+      "listed": true,
+      "ticker": "AMD",
+      "segment": "Discrete GPU, integrated processors, data center accelerators",
+      "market_share_pct": 22.5,
+      "note": "Lifted India datacenter GPU footprint to roughly 20-25% of deployments in 2025; focusing on emerging markets like India",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "AMD lifted its India footprint to roughly 20-25% of deployments in 2025"
+      }
+    },
+    {
+      "name": "Intel",
+      "listed": true,
+      "ticker": "INTC",
+      "segment": "Integrated GPU, AI accelerators (Gaudi 3)",
+      "note": "Gaudi 3 targets parity with NVIDIA on training/inference; has signed India customers Airtel, Infosys, and Ola Krutrim",
+      "source": {
+        "label": "Mordor Intelligence - India Discrete GPU Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-discrete-gpu-market",
+        "snippet": "Intel's Gaudi 3 claims 50% better throughput than Nvidia H100 and has already signed Airtel, Infosys, and Ola Krutrim"
+      }
+    },
+    {
+      "name": "Qualcomm",
+      "listed": true,
+      "ticker": "QCOM",
+      "segment": "Mobile/edge GPU (Adreno)",
+      "note": "Top-5 India GPU market player; Snapdragon 8 Elite Gen 5 delivers 23% graphics uplift for on-device generative AI",
+      "source": {
+        "label": "Research and Markets - India GPU Market",
+        "url": "https://www.researchandmarkets.com/report/india-gpu-market",
+        "snippet": "Qualcomm's Snapdragon 8 Elite Gen 5 delivers a 23% graphics uplift"
+      }
+    },
+    {
+      "name": "Amazon Web Services",
+      "listed": true,
+      "ticker": "AMZN",
+      "segment": "Cloud GPU instances, custom AI chips (Trainium/Inferentia)",
+      "note": "Top-5 player in India GPU market via cloud GPU instances and AI infrastructure",
+      "source": {
+        "label": "Ken Research - India GPU Market",
+        "url": "https://www.kenresearch.com/industry-reports/india-graphics-processing-unit-market",
+        "snippet": "NVIDIA, Advanced Micro Devices, Intel, Qualcomm and Amazon Web Services are the major companies"
+      }
+    },
+    {
+      "name": "Yotta Data Services",
+      "listed": false,
+      "segment": "Cloud/data-center GPU infrastructure",
+      "note": "Deployed 16,384+ NVIDIA H100 GPUs at Navi Mumbai NM1; placed a USD 2 billion order for 20,736 Nvidia Blackwell Ultra modules; empanelled IndiaAI compute provider",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "Yotta Data Services' Navi Mumbai data center utilizes NVIDIA A100 Tensor Core GPUs"
+      }
+    },
+    {
+      "name": "CyFuture India Pvt. Ltd.",
+      "listed": false,
+      "segment": "GPU cloud compute provider",
+      "note": "Empanelled IndiaAI Mission bidder; L1 lowest bidder for AMD MI300X and NVIDIA A100 80GB categories",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "NVIDIA A100 80GB (1X) | 135.900 | CyFuture India Pvt. Ltd."
+      }
+    },
+    {
+      "name": "Netmagic IT Services",
+      "listed": false,
+      "segment": "GPU cloud compute provider",
+      "note": "Empanelled IndiaAI Mission bidder; L1 for NVIDIA H100 NVL and H200 SXM categories",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "NVIDIA H100 NVL (1X) | 168.74 | Netmagic IT Services Pvt. Ltd"
+      }
+    },
+    {
+      "name": "Sify Digital Services",
+      "listed": true,
+      "segment": "GPU cloud compute provider",
+      "note": "Empanelled IndiaAI Mission bidder; L1 for NVIDIA L4 categories",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "NVIDIA L4 (1X) | 45.07 | Sify Digital Services Limited"
+      }
+    },
+    {
+      "name": "Locuz Enterprise Solutions",
+      "listed": false,
+      "segment": "GPU cloud compute provider",
+      "note": "Empanelled IndiaAI Mission bidder; L1 for NVIDIA H200 PCIe categories",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "NVIDIA H200 PCIe (8X) | 3236.80 | Locuz Enterprise Solutions Limited"
+      }
+    },
+    {
+      "name": "Vensysco Technologies",
+      "listed": false,
+      "segment": "GPU cloud compute provider",
+      "note": "Empanelled IndiaAI Mission bidder; L1 for AWS Inferentia2/Trainium and NVIDIA A100/H100 categories",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "AWS Inferentia2 (1X) (32GB Memory; Inf2.xlarge) | 79.60 | Vensysco Technologies Limited"
+      }
+    },
+    {
+      "name": "Ishan Infotech",
+      "listed": false,
+      "segment": "GPU cloud compute provider",
+      "note": "Empanelled IndiaAI Mission bidder",
+      "source": {
+        "label": "PIB - India's Common Compute Capacity",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132817&reg=3&lang=2",
+        "snippet": "Ishan Infotech Ltd."
+      }
+    },
+    {
+      "name": "E2E Networks",
+      "listed": true,
+      "segment": "GPU cloud/AI infrastructure",
+      "note": "Supplier of NVIDIA Hopper GPUs supporting India AI clients like AI4Bharat; commissioned H200 clusters in Delhi NCR and Chennai",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "E2E Networks announced as a supplier of NVIDIA Hopper GPUs to boost AI infrastructure"
+      }
+    },
+    {
+      "name": "NxtGen Datacenter & Cloud Technologies",
+      "listed": false,
+      "segment": "GPU-powered data centers",
+      "note": "Announced major GPU expansion (H200, MI325x, B300) with liquid cooling in Karnataka data center",
+      "source": {
+        "label": "Credence Research - India GPU Market",
+        "url": "https://www.credenceresearch.com/report/india-graphics-processing-unit-gpu-market",
+        "snippet": "NxtGen Datacenter & Cloud Technologies announced major expansion with advanced liquid-cooled GPUs"
+      }
+    },
+    {
+      "name": "Reliance Jio / Jio Platforms",
+      "listed": false,
+      "segment": "Cloud/AI data center GPU procurement",
+      "note": "Notable participant in India's GPU procurement, bulk buys via competitive tenders",
+      "source": {
+        "label": "IBEF - India-made GPUs",
+        "url": "https://www.ibef.org/news/india-made-graphics-processing-units-gpus-to-be-tech-demo-ready-by-2025-production-by-2029",
+        "snippet": "Notable participants include Jio Platforms, Tata Communications, and Yotta Data Services"
+      }
+    },
+    {
+      "name": "Tata Communications",
+      "listed": true,
+      "segment": "Cloud/AI infrastructure",
+      "note": "Notable participant in India's GPU procurement",
+      "source": {
+        "label": "IBEF - India-made GPUs",
+        "url": "https://www.ibef.org/news/india-made-graphics-processing-units-gpus-to-be-tech-demo-ready-by-2025-production-by-2029",
+        "snippet": "Notable participants include Jio Platforms, Tata Communications, and Yotta Data Services"
+      }
+    },
+    {
+      "name": "ASUS",
+      "listed": true,
+      "segment": "Add-in-board GPU vendor",
+      "note": "'Gold Standard' brand reputation for build quality and post-warranty repair service in India",
+      "source": {
+        "label": "Alibaba - Graphic Cards India",
+        "url": "https://electronics.alibaba.com/product/graphic-cards-india",
+        "snippet": "ASUS leads for its post-warranty repair services"
+      }
+    },
+    {
+      "name": "Zotac",
+      "listed": false,
+      "segment": "Add-in-board GPU vendor",
+      "note": "Positioned as India's 'value king' due to 5-year extended warranty",
+      "source": {
+        "label": "Alibaba - Graphic Cards India",
+        "url": "https://electronics.alibaba.com/product/graphic-cards-india",
+        "snippet": "ZOTAC remains the 'value king' with its 5-year extended warranty"
+      }
+    },
+    {
+      "name": "Gigabyte Technology",
+      "listed": true,
+      "segment": "Add-in-board GPU vendor",
+      "note": "Improving India reputation with dedicated Indian engineering team",
+      "source": {
+        "label": "Alibaba - Graphic Cards India",
+        "url": "https://electronics.alibaba.com/product/graphic-cards-india",
+        "snippet": "Gigabyte: Improving reputation with a dedicated Indian engineering team"
+      }
+    },
+    {
+      "name": "MSI (Micro-Star International)",
+      "listed": true,
+      "segment": "Add-in-board GPU vendor",
+      "note": "Favored for design/aesthetics but criticized for lacking post-warranty support in India",
+      "source": {
+        "label": "Alibaba - Graphic Cards India",
+        "url": "https://electronics.alibaba.com/product/graphic-cards-india",
+        "snippet": "MSI: Favored for quiet aesthetics ... but criticized for lack of post-warranty support options"
+      }
+    },
+    {
+      "name": "Netweb Technologies",
+      "listed": true,
+      "segment": "Server/AI system integrator",
+      "note": "Partnered with NVIDIA to manufacture AI/HPC servers including Grace CPU and GH200 Superchip designs in India",
+      "source": {
+        "label": "GMInsights - GPU Market",
+        "url": "https://www.gminsights.com/industry-analysis/gpu-market",
+        "snippet": "Indian server maker Netweb Technologies partnered with Nvidia to produce servers for AI and high-end computing"
+      }
+    }
+  ],
+  "margins": {
+    "manufacturer_pct": null,
+    "retailer_pct": null,
+    "notes": "Domestic GPU board assembly in India adds only 15-25% value to the finished board cost, while industrial/ruggedized GPUs carry a 30-50% premium over commercial equivalents; power costs alone consume nearly 75% of a data center's India operating cost.",
+    "source": {
+      "label": "IndexBox - India GPU Market Analysis",
+      "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+      "snippet": "the value addition from domestic assembly is relatively low-typically 15-25% of the finished board cost"
+    }
+  },
+  "quant": {
+    "capacity": [
+      {
+        "player": "IndiaAI Mission (national pool)",
+        "region": "India",
+        "capacity": 38000,
+        "unit": "GPUs",
+        "year": 2025
+      },
+      {
+        "player": "Yotta Data Services (NM1/NM2, Navi Mumbai)",
+        "region": "India",
+        "capacity": 32768,
+        "unit": "NVIDIA H100 GPUs (roadmap by end-2025)",
+        "year": 2025
+      },
+      {
+        "player": "Tata Electronics (Dholera fab)",
+        "region": "Gujarat, India",
+        "capacity": 50000,
+        "unit": "wafer starts per month",
+        "year": 2028
+      }
+    ],
+    "utilisation_pct": null,
+    "imports": [
+      {
+        "year": 2026,
+        "volume": 2.5,
+        "unit": "USD billion (annual GPU import value, upper estimate)"
+      }
+    ],
+    "duty": [
+      {
+        "country": "India",
+        "note": "Basic customs duty 7.5-15% + 18% IGST + 10% social welfare surcharge on GPU boards (HS 8473.30 / 85439000); total landed-cost premium of 25-35% over ex-factory price"
+      },
+      {
+        "country": "United States (export controls affecting India access)",
+        "note": "India historically capped near 50,000 high-end GPU imports under US export-control tiering; easing reportedly under discussion in India-US trade talks"
+      }
+    ],
+    "source": {
+      "label": "IndexBox / Mordor Intelligence - India GPU Market",
+      "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+      "snippet": "Total annual GPU import value is estimated in the range of USD 1.8-2.5 billion in 2026, growing at 12-16% annually"
+    }
+  },
+  "sources": {
+    "youtube": [
+      {
+        "title": "India's AI Power Play: 25,000 New GPUs to Create 65,000-Strong Supercluster",
+        "url": "https://www.youtube.com/watch?v=1fz4724awws",
+        "why_relevant": "Explains the scale and strategic intent of India's national GPU compute expansion",
+        "thumbnail": "https://img.youtube.com/vi/1fz4724awws/hqdefault.jpg"
+      },
+      {
+        "title": "India Is Building Its Own GPUs?! C-DAC Just Confirmed Everything…",
+        "url": "https://www.youtube.com/watch?v=4dcTLliXBXU",
+        "why_relevant": "Covers India's push for indigenous GPU design and manufacturing timelines",
+        "thumbnail": "https://img.youtube.com/vi/4dcTLliXBXU/hqdefault.jpg"
+      },
+      {
+        "title": "India is Building Its Own GPUs – Challenging NVIDIA & AMD! | FrontPage",
+        "url": "https://www.youtube.com/watch?v=2rxhwih5Poc",
+        "why_relevant": "Discusses competitive dynamics between India's nascent GPU ambitions and incumbents NVIDIA/AMD",
+        "thumbnail": "https://img.youtube.com/vi/2rxhwih5Poc/hqdefault.jpg"
+      },
+      {
+        "title": "India Tenders 15,000 New NVIDIA GPUs | Inside India's Massive Push for Public AI Infrastructure",
+        "url": "https://www.youtube.com/watch?v=8Mm8Hrt8Fpo",
+        "why_relevant": "Details government procurement mechanics and scale of India's public AI compute infrastructure",
+        "thumbnail": "https://img.youtube.com/vi/8Mm8Hrt8Fpo/hqdefault.jpg"
+      },
+      {
+        "title": "Graphics Processing Unit Explained | Latest Update | Drishti IAS English",
+        "url": "https://www.youtube.com/watch?v=2Zf735jGr0w",
+        "why_relevant": "Explains GPU fundamentals and current relevance for a general/policy audience",
+        "thumbnail": "https://img.youtube.com/vi/2Zf735jGr0w/hqdefault.jpg"
+      },
+      {
+        "title": "GPU Explained. Basics of The Graphics Processing Unit",
+        "url": "https://www.youtube.com/watch?v=LVlhneiaoSY",
+        "why_relevant": "Beginner-friendly primer on how GPUs work and why they matter beyond gaming",
+        "thumbnail": "https://img.youtube.com/vi/LVlhneiaoSY/hqdefault.jpg"
+      },
+      {
+        "title": "The GPU Explained Simply! (Graphics Processing Unit)",
+        "url": "https://www.youtube.com/watch?v=tH5ZANelCJc",
+        "why_relevant": "Simple explainer useful for understanding GPU vs CPU roles and use cases",
+        "thumbnail": "https://img.youtube.com/vi/tH5ZANelCJc/hqdefault.jpg"
+      },
+      {
+        "title": "Every GPU Feature Explained in 9 Minutes",
+        "url": "https://www.youtube.com/watch?v=AltyB2aaYeE",
+        "why_relevant": "Compact technical overview of GPU features relevant to buyers and industry watchers",
+        "thumbnail": "https://img.youtube.com/vi/AltyB2aaYeE/hqdefault.jpg"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Graphics Processing Unit (GPU) Market Revenues to ...",
+        "url": "https://ml.globenewswire.com/Resource/Download/56fb4fbe-f4ae-44df-97ef-085d2b3e04b9",
+        "type": "other",
+        "summary": "According to a new market research report titled “Graphics Processing Unit (GPU) Market Report (2023-"
+      },
+      {
+        "title": "Investing in GPUs - Key demand drivers and market trends",
+        "publisher": "KPMG",
+        "date": "2025",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/ie/pdf/insights/strategy/ie-investing-in-gpus-3.pdf.coredownload.inline.pdf",
+        "type": "other",
+        "summary": "Investor-focused view of GPU/data-center market drivers, supply constraints, and investment vehicles."
+      },
+      {
+        "title": "India's Common Compute Capacity Crosses 34,000 GPUs",
+        "publisher": "Ministry of Electronics & IT / PSA",
+        "date": "2025",
+        "url": "https://psa.gov.in/CMS/web/sites/default/files/publication/India%E2%80%99s%20Common%20Compute%20Capacity%20Crosses%2034,000%20GPUs.pdf",
+        "type": "government",
+        "summary": "Official update on IndiaAI Mission GPU empanelment, bidder pricing, and national compute capacity expansion."
+      },
+      {
+        "title": "Future of India's Semiconductor Industry",
+        "publisher": "NITI Aayog",
+        "date": "2026-05",
+        "url": "https://www.niti.gov.in/sites/default/files/2026-05/Future-of-India-Semiconductor-Industry.pdf",
+        "type": "government",
+        "summary": "Government roadmap covering India's semiconductor import dependence, value-chain strategy, and targets for chip self-sufficiency including GPU-relevant AI accelerator demand."
+      },
+      {
+        "title": "Graphics Processing Units",
+        "publisher": "Henry Fund (University of Iowa)",
+        "date": "2025",
+        "url": "https://www.biz.uiowa.edu/henry/download/Graphics_Processing_Units.pdf",
+        "type": "other",
+        "summary": "Equity-research style deep dive into NVIDIA, AMD and Intel financials, market structure and export-control impact."
+      },
+      {
+        "title": "India Graphics Processing Unit (GPU) Market Report",
+        "publisher": "Nexdigm",
+        "date": "2025",
+        "url": "https://www.nexdigm.com/market-research/report-store/india-graphics-processing-unit-gpu-market-research-report/",
+        "type": "industry",
+        "summary": "India-focused GPU market segmentation by product type, application, channel, region and technology."
+      },
+      {
+        "title": "India Graphics Processing Unit (GPU) Market Outlook",
+        "publisher": "Ken Research",
+        "date": "2025",
+        "url": "https://www.kenresearch.com/industry-reports/india-graphics-processing-unit-market",
+        "type": "other",
+        "summary": "India GPU market sizing, historical growth, regional comparisons and forecast to 2031."
+      },
+      {
+        "title": "Microprocessor and Graphics Processing Unit (GPU) Market Size, Share and Trends Analysis",
+        "publisher": "Data Bridge Market Research",
+        "date": "2025",
+        "url": "https://www.databridgemarketresearch.com/reports/global-microprocessor-gpu-market",
+        "type": "other",
+        "summary": "Global microprocessor/GPU market with regional splits, supply-chain risk analysis and named players."
+      },
+      {
+        "title": "Graphics Processing Unit Market Size, Industry Forecasts",
+        "publisher": "GMInsights",
+        "date": "2025",
+        "url": "https://www.gminsights.com/industry-analysis/gpu-market",
+        "type": "other",
+        "summary": "Global GPU market segmentation, India gaming market context and named player profiles."
+      },
+      {
+        "title": "India GPU as a Service Market (2025-2031) | Trends, Outlook & Forecast",
+        "url": "https://www.6wresearch.com/industry-report/india-gpu-as-a-service-market",
+        "type": "other",
+        "summary": "India GPU as a Service Market is expected to grow during 2025-2031"
+      },
+      {
+        "title": "Graphics Processing Unit (GPU) Market - Share Analysis",
+        "publisher": "Research and Markets",
+        "date": "2026",
+        "url": "https://www.researchandmarkets.com/reports/4897209/graphics-processing-unit-gpu-market-share",
+        "type": "other",
+        "summary": "Global GPU market share analysis with hyperscaler capex, tariff/export-control impact and China dynamics."
+      },
+      {
+        "title": "Graphics Cards (GPU) Market in India",
+        "publisher": "IndexBox",
+        "date": "2026",
+        "url": "https://www.indexbox.io/store/india-graphics-cards-gpu-market-analysis-forecast-size-trends-and-insights/",
+        "type": "other",
+        "summary": "India GPU import/export dynamics, duty structures, distribution channels and pricing bands."
+      }
+    ],
+    "news": [
+      {
+        "title": "Nvidia Skips 2026 Gaming GPUs: 30-Year Streak Ends",
+        "publisher": "",
+        "date": "July 12, 2026",
+        "url": "https://tech-insider.org/nvidia-skips-2026-gaming-gpus",
+        "snippet": "Nvidia is skipping new gaming GPUs in 2026, breaking a 30-year streak. As of September 2026, the RTX 60-series remains on track for 2028 amid an AI memory shortage."
+      },
+      {
+        "title": "Best processor phones in India (2026): top picks for performance, gaming, and efficiency | 91mobiles.com",
+        "publisher": "",
+        "date": "June 29, 2026",
+        "url": "https://91mobiles.com/reviews/best-processor-phones-in-india-2026",
+        "snippet": "Here are our top five smartphone picks with the best processors you can currently get."
+      },
+      {
+        "title": "Get Gpus At Best Prices In India | Uniq InfoTech",
+        "publisher": "",
+        "date": "June 2, 2026",
+        "url": "https://uniqinfotech.in/best-gpus-for-1080p-gaming-in-2026",
+        "snippet": "The 1080p resolution remains the sweet spot for PC gaming in 2026. With a massive library of games optimized for this resolution and a huge range of monitors"
+      },
+      {
+        "title": "Best graphics cards in 2026: These are the GPUs worth spending money in right now | PC Gamer",
+        "publisher": "",
+        "date": "April 23, 2026",
+        "url": "https://www.pcgamer.com/the-best-graphics-cards/",
+        "snippet": "I've made a career out of prodding graphics cards and this has been the toughest set of recommendations I can remember."
+      },
+      {
+        "title": "India’s GPU capacity may triple to 100,000 by 2026-end: IndiaAI Mission CEO | Business News - The Indian Express",
+        "publisher": "",
+        "date": "February 7, 2026",
+        "url": "https://indianexpress.com/article/business/indiaai-mission-ceo-gpu-capacity-triple-100000-2026-end-10519763",
+        "snippet": "Explaining the government’s focus on developing AI-led solutions to on-ground problems, Singh said, “Our pitch is: build AI in India, for India\"."
+      },
+      {
+        "title": "GPU price tracking 2026 — Lowest price on every graphics card from Nvidia, AMD, and Intel today | Tom's Hardware",
+        "publisher": "",
+        "date": "January 23, 2026",
+        "url": "https://www.tomshardware.com/pc-components/gpus/lowest-gpu-prices-tracking",
+        "snippet": "Weather the AI-driven price hikes with the best deals around."
+      },
+      {
+        "title": "India-made graphics processing units (GPUs) to be tech demo-ready by 2025, production by 2029 | IBEF",
+        "publisher": "",
+        "date": "May 15, 2025",
+        "url": "https://ibef.org/news/india-made-graphics-processing-units-gpus-to-be-tech-demo-ready-by-2025-production-by-2029",
+        "snippet": "India’s first Indigenous graphics processing units (GPUs) are set for tech demos by the end of 2025 under the US$ 1.21 billion IndiaAI Mission, targeting Artificial Intelligence and high-performance computing, with production readiness expected by 2029."
+      },
+      {
+        "title": "India to roll out prototype of indigenous GPU by end of 2025- Moneycontrol.com",
+        "publisher": "",
+        "date": "May 14, 2025",
+        "url": "https://moneycontrol.com/technology/india-to-roll-out-prototype-of-indigenous-gpu-by-end-of-2025-article-13024511.html",
+        "snippet": "India expects that by 2030 prototypes of its indigenous graphics processing unit will transition into fully scalable products"
+      },
+      {
+        "title": "Graphics Card Prices Are Rising Fast (Again), and GeForce Is Taking the Biggest Hit | TechSpot",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.techspot.com/article/3167-gpu-pricing-q3-2026/",
+        "snippet": "GPU prices are rising sharply again, with GeForce cards taking the biggest hit. We tracked prices across 10 countries to see which GPUs are getting more expensive..."
+      },
+      {
+        "title": "India’s PC market grew by 12% in 2026, but commercial sales are leaving consumers behind | 91mobiles.com",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://91mobiles.com/hub/india-pc-market-growth-q2-2026-idc-report/amp",
+        "snippet": "India's PC market grew 12.1% in Q2 2026, but commercial demand is outpacing consumers as rising RAM and storage costs put pressure on prices."
+      },
+      {
+        "title": "High-End Gaming Graphics Card Market: Next-Generation Performance, AI-Enhanced Gaming, and Immersive Visual Experiences",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://openpr.com/news/4622364/high-end-gaming-graphics-card-market-next-generation",
+        "snippet": "Press release - HTF Market Intelligence Consulting Pvt. Ltd - High-End Gaming Graphics Card Market: Next-Generation Performance, AI-Enhanced Gaming, and Immersive Visual Experiences - published on openPR.com"
+      },
+      {
+        "title": "GPU as a Service for Indian Startups: 2026 Guide",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://cloudminister.com/blog/gpu-as-a-service-for-indian-startups",
+        "snippet": "GPU as a Service explained for Indian startups in 2026, benefits, cost models, on-premise vs cloud, use cases, DPDPA compliance, and India GPU infrastructure."
+      },
+      {
+        "title": "Inside India’s quest to build a sovereign AI chip | Mint",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://livemint.com/technology/india-first-ai-chip-cdac-11788173944541.html",
+        "snippet": "A US chip restriction jolted India into developing an AI chip that could give the country a sovereign alternative to Nvidia. But can a government-funded effort help India catch up with the world’s best?"
+      },
+      {
+        "title": "India roundup: India expands chip ambitions with full Semicon 2.0 notification",
+        "publisher": "",
+        "date": "8 hours ago",
+        "url": "https://digitimes.com/news/a20260906VL200/semicon-technology-manufacturing-market-demand.html",
+        "snippet": "India's technology sector is gaining momentum across semiconductors, connectivity, AI payments, PCs, tablets and refurbished smartphones, as policy support and local manufacturing attract investment. However, supply-chain diversification, margin pressure, cautious demand and VinFast's manufacturing ..."
+      },
+      {
+        "title": "Indian Tech Companies Working With NVIDIA in 2026: 6 Leaders",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://businessoutreach.in/ndian-tech-companies-working-with-nvidia",
+        "snippet": "The latest collaborations cover ... and GPU arrangements. Indian IT companies are now using NVIDIA models, development frameworks, simulation platforms and robotics tools to create systems for specific industries. Read also: AI Agents: Everything You Need To Know In 2026 ... Indian technology companies are widening their work with NVIDIA in 2026, moving beyond access to graphics processors and into the ..."
+      },
+      {
+        "title": "Entry-Level GPUs and Monitors Face Price Hikes in H2 2026 | TechPowerUp",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://www.techpowerup.com/351670/entry-level-gpus-and-monitors-face-price-hikes-in-h2-2026",
+        "snippet": "According to VideoCardz, both entry-level graphics cards and PC monitors are heading for price increases in the second half of 2026. PC Partner Group, the company behind ZOTAC, Inno3D, and Manli, outlined the situation in its financial results published August 14. The company describes the PC..."
+      },
+      {
+        "title": "IndiaAI Crosses 45,000 GPUs: What It Means for India’s AI and Edge AI Future - CSEE",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://cselectricalandelectronics.com/indiaai-crosses-45000-gpus-what-it-means-for-indias-ai-and-edge-ai-future",
+        "snippet": "Artificial intelligence is becoming one of the most important technologies in the world, and access to computing power is becoming just as."
+      },
+      {
+        "title": "Dell Launches Commercial Portfolio in India: Pro PCs, Precision Blackwell Workstations & QD-OLED Monitor",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://paidfreedroid.com/2026/09/dell-pro-laptops-precision-blackwell-workstations-qdoled-india-launch.html",
+        "snippet": "Dell has launched its next-gen commercial lineup in India, including Dell Pro 7/5/3 laptops, Precision 9 Blackwell workstations, and a 4K QD-OLED monitor. View detailed specs and prices."
+      },
+      {
+        "title": "AMD RDNA 5 Leak: 3.5 GHz GPU Clocks Targeted [2026]",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://tech-insider.org/amd-rdna-5-leak-3-5-ghz-gpu-clocks-2026/",
+        "snippet": "A new leak claims AMD RDNA 5 GPUs target 3.1-3.5 GHz clocks, up 14% over the RX 9070 XT. Here is what TechPowerUp, Wccftech and others report."
+      },
+      {
+        "title": "Qualcomm Adreno GPU driver 2026.08.2 improves 27 games on Snapdragon X and X2 - VideoCardz.com",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://videocardz.com/newz/qualcomm-adreno-gpu-driver-2026-08-2-improves-27-games-on-snapdragon-x-and-x2",
+        "snippet": "Qualcomm has released Adreno GPU driver 2026.08.2 for Snapdragon X and X2 PCs. The update lists stability and image quality improvements for 27 game entries."
+      },
+      {
+        "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 | NVIDIA Newsroom",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+        "snippet": "NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 26, 2026, of $96.2 billion, up 18% from the previous quarter and up 106% from a year ago."
+      },
+      {
+        "title": "Nvidia earnings takeaways: Huang forecasts 70% fiscal 2028 revenue growth, far above estimates",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html",
+        "snippet": "Nvidia reported better-than-expected results and issued guidance that sailed past analyst estimates."
+      },
+      {
+        "title": "What Nvidia's Q2 results mean for global AI rally and Indian IT stocks- Moneycontrol.com",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://www.moneycontrol.com/news/business/markets/what-nvidia-s-q2-results-mean-for-global-ai-rally-and-indian-it-stocks-14016512.html",
+        "snippet": "Nvidia's blowout results have strengthened the global AI trade, but could also slow the rotation into Indian IT stocks as investors turn back towards AI hardware and infrastructure"
+      },
+      {
+        "title": "US Stocks Rise as Nvidia Results Boost Tech — TradingView News",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.tradingview.com/news/te_news:578799:0-us-stocks-rise-as-nvidia-results-boost-tech/",
+        "snippet": "US equity indices closed higher on Thursday as strong results from Nvidia supported the technology sector.The S&P 500 rose 0.7%, the Nasdaq advanced 1.4% and the Dow added 105 points.Nvidia surged 8.7% after strong demand for AI computing drove the world’s largest company to forecast a 70% ..."
+      },
+      {
+        "title": "Intellectia",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://intellectia.ai/blog/nvidia-q2-earnings-2026",
+        "snippet": "Nvidia has once again demonstrated why it remains the undisputed leader in the artificial intelligence revolution, delivering Q2 fiscal 2027 results that surpassed even the most optimistic Wall Street projections. The chip giant reported adjusted earnings of $2.22 per share, comfortably beating ..."
+      },
+      {
+        "title": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+        "snippet": "Nvidia's earnings results \"tell you that the valuation today is cheap,\" Siddy Jobe, senior portfolio manager, Exponential Technologies Fund at Econopolis Wealth Management, told CNBC's \"Squawk Box Europe\" on Thursday."
+      },
+      {
+        "title": "Nvidia doubles Q2 revenue to $96 billion and crushes estimates, as CEO Jensen Huang says demand is accelerating | Fortune",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://fortune.com/2026/08/26/nvidia-results-q2-earnings/",
+        "snippet": "Nvidia's second quarter fiscal 2027 earnings results were released after the market closed on Wednesday."
+      },
+      {
+        "title": "Nvidia's Toughest Competition in 2028 May Be the Chips It Already Sold | The Motley Fool",
+        "publisher": "",
+        "date": "41 minutes ago",
+        "url": "https://fool.com/investing/2026/09/07/nvidia-s-toughest-competition-in-2028-may-be-the-chips-it-already-sold",
+        "snippet": "Of course, that market is only starting to form (a marketplace for used Nvidia chips opened this summer). And Nvidia's results suggest why. Kress said in August that Nvidia's computing capacity is fully utilized across every cloud it serves. Supply should remain a bottleneck at least through ..."
+      },
+      {
+        "title": "Nvidia results highlight 30% gap in order fulfilment | Computer Weekly",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://www.computerweekly.com/news/366649661/Nvidia-results-highlight-30-gap-in-order-fulfilment",
+        "snippet": "While the chipmaker posts record-breaking revenue for the quarter, its CEO admits it can only meet 70% of the supply it needs."
+      },
+      {
+        "title": "Stock Market Today, Aug. 27: Nvidia Surges on Blowout Results and Surprising Guidance | The Motley Fool",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-nvidia-surges-on-blowout-results-and-surprising-guidance/",
+        "snippet": "On Aug. 27, 2026, the tech giant reported $96.2 billion in quarterly revenue, up 106% year over year, resetting expectations for AI spending power."
+      }
+    ]
+  },
+  "benchmarking": {
+    "generated_at": "2026-09-07",
+    "peers": [
+      {
+        "name": "NVIDIA",
+        "listed": true,
+        "ticker": "NVDA",
+        "segment": "Discrete GPU, AI accelerator, gaming GPU",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "AMD",
+        "listed": true,
+        "ticker": "AMD",
+        "segment": "Discrete GPU, integrated processors, data center accelerators",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Intel",
+        "listed": true,
+        "ticker": "INTC",
+        "segment": "Integrated GPU, AI accelerators (Gaudi 3)",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Qualcomm",
+        "listed": true,
+        "ticker": "QCOM",
+        "segment": "Mobile/edge GPU (Adreno)",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Amazon Web Services",
+        "listed": true,
+        "ticker": "AMZN",
+        "segment": "Cloud GPU instances, custom AI chips (Trainium/Inferentia)",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Yotta Data Services",
+        "listed": false,
+        "segment": "Cloud/data-center GPU infrastructure",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "CyFuture India Pvt. Ltd.",
+        "listed": false,
+        "segment": "GPU cloud compute provider",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Netmagic IT Services",
+        "listed": false,
+        "segment": "GPU cloud compute provider",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Sify Digital Services",
+        "listed": true,
+        "segment": "GPU cloud compute provider",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Locuz Enterprise Solutions",
+        "listed": false,
+        "segment": "GPU cloud compute provider",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Vensysco Technologies",
+        "listed": false,
+        "segment": "GPU cloud compute provider",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Ishan Infotech",
+        "listed": false,
+        "segment": "GPU cloud compute provider",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "E2E Networks",
+        "listed": true,
+        "ticker": "E2E",
+        "segment": "GPU cloud/AI infrastructure",
+        "status": "listed",
+        "pending": false,
+        "revenue": 164,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 46.6,
+        "ebitda_pct": 59,
+        "pat_pct": 28.66,
+        "roce_pct": -0.51,
+        "roe_pct": -0.95,
+        "fin_content_hash": "ebde7cdd0d5dcbe7ad418a56fddb960b0bac6e3d24f3a95a4b5a70d16f689e3d",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/E2E/",
+          "snippet": ""
+        },
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "NxtGen Datacenter & Cloud Technologies",
+        "listed": false,
+        "segment": "GPU-powered data centers",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Reliance Jio / Jio Platforms",
+        "listed": false,
+        "segment": "Cloud/AI data center GPU procurement",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-09-07"
+      },
+      {
+        "name": "Tata Communications",
+        "listed": true,
+        "ticker": "TATACOMM",
+        "segment": "Cloud/AI infrastructure",
+        "status": "listed",
+        "pending": false,
+        "revenue": 23109,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 8.02,
+        "ebitda_pct": 20,
+        "pat_pct": 7.95,
+        "roce_pct": 14.6,
+        "roe_pct": 32.6,
+        "fin_content_hash": "cb783aef85c66358b15ee6f6c92d675e7ac54101f42b7e988601e0ac8aa5bfde",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/TATACOMM/consolidated/",
+          "snippet": ""
+        },
+        "updated_at": "2026-09-07"
+      }
+    ]
+  }
+}
