@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-06T21:53:35.635Z",
+      "last_fetched": "2026-09-07T08:47:54.888Z",
       "last_epoch": 1788585778000,
       "etag": null,
       "last_modified": null,
@@ -22,15 +22,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-06T21:54:10.257Z",
+      "last_fetched": "2026-09-07T08:48:06.412Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-06T21:54:11.349Z",
-      "last_epoch": 1788689404000,
+      "last_fetched": "2026-09-07T08:48:07.828Z",
+      "last_epoch": 1788757361000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -146,14 +146,16 @@
         "CBMiugFBVV95cUxPaWViYm0wVVZlamtDV0ptVzlMX2draE9EdHBpRHZRZUc3aWh4TV9ETnNrTzQ0VDZZX3lORmR1Xzl3ZUszb1RPaHVVUHVYbkZ6YkFYN1dFWk9JNk01R2padlR4clI5Y2VOOGNXeWd3OGRUVEhIbFVOZHBQVmJxQmJjNlh1MGxKNWJkWG1DdnAybTlVMTRvVzJuSEJtZHJETHBEOE0zS3Zhazh4bl85NjNCeFdZNzZzWWJBRWfSAboBQVVfeXFMT2llYmJtMFVWZWprQ1dKbVc5TF9na2hPRHRwaUR2UWVHN2loeE1fRE5za080NFQ2WV95TkZkdV85d2VLM29UT2h1VVB1WG5GemJBWDdXRVpPSTZNNUdqWnZUeHJSOWNlTjhjV3lndzhkVFRISGxVTmRwUFZicUJiYzZYdTBsSjViZFhtQ3ZwMm05VTE0b1cybkhCbWRyRExwRDhNM0t2YWs4eG5fOTYzQnhXWTc2c1liQUVn",
         "CBMiqgFBVV95cUxNc0Q0NWs5b04zbFpyb0tsYW5fSlVxTTRUeTRzZXd3dDNvRmtuMnFZUl9JaVFDM1hrR1RjZS1ReTE0UEp4MFNxcDlIYVB2eTFWQnFTQTdJVTZsdEZoYUthZzJEQWw5empYLUtJMHA4QWRCbm5vd3EyME1fcFptR2FnaldWOG1ZclAxbnltcTE0RWhyUlNjN2FHZFl2b1p6WTJDc1g5U2VhZDZTUQ",
         "CBMi-gFBVV95cUxObEdlZ185cGR1TjBRYTVrZW95bjNKU2hmZmQ4NHc0bVZCUWltRXdKb0ZzSk1GaXltYUNkRy1yRUplS1JVOEtiV3NRYk5nZ0JReGUtZ3RWdTNGb0hVS0kyWUxrLURQM0pZUXdhX3JpV1dBblQ3Yk1JYThGZHljZmF1LVpyemJtRTEwRnZLYVRUUGZMd2RTSVdfSDEzZ0E5ZEZ3dThVOE1xb1hDVGxxMHVSWnpCRm9BZWthZnVORWRpV3Fwc0hwaVdBQkdVcTJ3MHM3ZnJHMUhBbUVHVVB5RXYyUUhabFZMQmt2dm9rMGo4aFNTQ3V1bGN5d1Jn",
-        "CBMivgFBVV95cUxPRy1XTU4tYUFkT3pLVmlPZV9nVDFJSS1wcEw5S0FmOG5BWXdoT184SFdHZThmOHNscm54eERYU29sNkgyZ1FpSUhTc0xXX3NfRmFJRmVXakotT3Nrb3liSGhjS21MQlpzM0lrT3FkWldUeENoUUhUTXN6SXg1RW8zSkVOekltdnZvdEUyUUJMWVdqS0xaZ0RRWDJrVWRqbTZfbTkzemhrUmVKY3BNSVRvN05HNi1xUHNBSXgwYkNR"
+        "CBMivgFBVV95cUxPRy1XTU4tYUFkT3pLVmlPZV9nVDFJSS1wcEw5S0FmOG5BWXdoT184SFdHZThmOHNscm54eERYU29sNkgyZ1FpSUhTc0xXX3NfRmFJRmVXakotT3Nrb3liSGhjS21MQlpzM0lrT3FkWldUeENoUUhUTXN6SXg1RW8zSkVOekltdnZvdEUyUUJMWVdqS0xaZ0RRWDJrVWRqbTZfbTkzemhrUmVKY3BNSVRvN05HNi1xUHNBSXgwYkNR",
+        "CBMizwFBVV95cUxORm5CZGtFVkxza2QwU0h3b1BvLWlEQWtwR2gza3p2YVRzNWlHYlZEeWRGeWpUVk9QOTczeFcycDBHODE1LU1BN0YtNnhTYTBxWVlRdFdhT1ZBOWlKODI2TWRiMmRUNTZOSkE1TzNTakF5TS1UbUFONllWSUQ4VkdZZTVfWHNpaXVaM1pkTllyUlh5S3NNbzRqUzZVUlQ5OHExUEZYVlNtTklucDBELXQ4YUdrVmlWc0NCeVdBQ1ZEYUpxTTFqeXI2Q3JuWGsxSHfSAc8BQVVfeXFMTkZuQmRrRVZMc2tkMFNId29Qby1pREFrcEdoM2t6dmFUczVpR2JWRHlkRnlqVFZPUDk3M3hXMnAwRzgxNS1NQTdGLTZ4U2EwcVlZUXRXYU9WQTlpSjgyNk1kYjJkVDU2TkpBNU8zU2pBeU0tVG1BTjZZVklEOFZHWWU1X1hzaWl1WjNaZE5ZclJYeUtzTW80alM2VVJUOThxMVBGWFZTbU5JbnAwRC10OGFHa1ZpVnNDQnlXQUNWRGFKcU0xanlyNkNyblhrMUh3",
+        "CBMi5wFBVV95cUxOTjlIbHg3QnFFWHZXRmpVR1VFMkkzSTd3eWE3LVFzYmUteFluNlZPaHkzaVlHVjM5dkF6d0U4TWdxemE1bzFmTWViUUtiVVU3dGVHejZDQlZ2cEdxcUk4RjNuS190OXREaWdzdGU4UnUwVlBwa3pZSjRGV0ZhZm0yeGotNFNDSlppMWZxWlFhWkdOQUJCVXRYbnZvQlhVaFNZbDlETWN6SUVPUjJzLWY0U0cxYWFWNkt4XzRnZDJVNmo3MWJ1clpWTGtxTGhXcHFJMlFMdWlST3FHdkRVRFhYVWQzUG5rM3M"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-06T21:54:11.418Z",
+      "last_fetched": "2026-09-07T08:48:07.910Z",
       "last_epoch": 1788720029000,
-      "etag": "\"03fb6fb86693dde64e2efa94d4ce02125-gzip\"",
-      "last_modified": "Sun, 06 Sep 2026 21:46:13 GMT",
+      "etag": "\"0fa7a831b0439b7ddade73756e9f31af9-gzip\"",
+      "last_modified": "Mon, 07 Sep 2026 08:28:23 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -186,14 +188,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-06T21:54:11.485Z",
+      "last_fetched": "2026-09-07T08:48:08.020Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-06T01:43:58.432Z",
+      "last_fetched": "2026-09-07T08:48:08.657Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
