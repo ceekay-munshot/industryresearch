@@ -34,12 +34,15 @@ Confirm these findings back to me in a few lines before you build.
 ========================================================
 STEP 1 — WHAT TO BUILD
 ========================================================
-A chat panel where a user asks questions in plain English about the CURRENTLY
-OPEN dashboard, and gets answers built ONLY from that dashboard's own data, with
-clickable source links. Plus a "Search the web" toggle (OFF by default) that,
-when ON, blends a few live web results as a SUPPLEMENT (the dashboard data still
-leads). Two parts: one backend endpoint + one frontend panel. It must be generic
-— work for ANY dashboard in this repo, nothing hard-coded to one.
+A chatbot the user opens from a small FLOATING ICON BUTTON (like an Intercom /
+chat bubble) in a corner of every dashboard view — NOT a separate nav tab.
+Clicking the icon opens a compact chat popup to ask questions in plain English
+about the CURRENTLY OPEN dashboard, and get answers built ONLY from that
+dashboard's own data, with clickable source links. Plus a "Search the web" toggle
+(OFF by default) that, when ON, blends a few live web results as a SUPPLEMENT (the
+dashboard data still leads). Two parts: one backend endpoint + one floating chat
+widget (launcher icon + popup). It must be generic — work for ANY dashboard in
+this repo, nothing hard-coded to one.
 
 ========================================================
 STEP 2 — BACKEND: one endpoint, e.g. POST /api/chat
@@ -89,11 +92,15 @@ Tell the model, in words like these:
   isn't available, set in_data=false and sources=[]."
 
 ========================================================
-STEP 4 — FRONTEND: a Chat panel in this repo's existing UI style
+STEP 4 — FRONTEND: a floating chat widget (a launcher icon, NOT a tab)
 ========================================================
 Match how this repo builds UI (its components, its CSS). Add:
-- A chat log with a friendly welcome bubble that says it answers from THIS
-  dashboard's data and cites sources, and that "Search the web" adds live results.
+- A small circular CHAT LAUNCHER ICON fixed in a corner (e.g. bottom-right),
+  present on every dashboard view. Clicking it toggles a compact chat POPUP open/
+  closed (with a close X). Do NOT add a nav tab or a separate page.
+- Inside the popup: a chat log with a friendly welcome bubble that says it answers
+  from THIS dashboard's data and cites sources, and that "Search the web" adds live
+  results.
 - An input + Send; posts { id/slug, question, history, web } to the endpoint.
 - 3-4 SUGGESTED STARTER questions derived from what data the current dashboard
   actually has (hide them after the first question).
@@ -103,6 +110,8 @@ Match how this repo builds UI (its components, its CSS). Add:
   label/publisher, open in a new tab).
 - Keep conversation history in memory and send prior turns each time (follow-ups).
 - If the endpoint is unreachable, show a calm inline message, never a crash.
+- Float above the content (high z-index) without blocking it; on mobile open the
+  popup as a full-width bottom sheet. Remember open/closed state during the session.
 
 ========================================================
 STEP 5 — HARD GUARANTEES (treat as acceptance criteria)
