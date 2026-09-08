@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-07T22:26:35.708Z",
+      "last_fetched": "2026-09-08T08:30:01.499Z",
       "last_epoch": 1788706832000,
       "etag": null,
       "last_modified": null,
@@ -10,15 +10,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-07T22:27:09.318Z",
+      "last_fetched": "2026-09-08T08:30:35.619Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-08T01:52:42.235Z",
-      "last_epoch": 1788790951000,
+      "last_fetched": "2026-09-08T08:30:38.005Z",
+      "last_epoch": 1788850898000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -219,14 +219,16 @@
         "CBMidkFVX3lxTE41UUxtMFFRLWxiNzJmR0FXeFdUOXBlRmphRlRwY3hnR0l6b3ZvZWI4bTFJaXU5TFJZaVlxMDZsc2FLQ3V2UlFLV1lrNWlKNnJiTU15UTZwMm80dnhmdktaWERxUE9kcDR4XzJ1bm9oSW9jUXRPZXc",
         "CBMi3gFBVV95cUxNRHh6TFRoZ3U0Z3BCSlVZeTViUnZDenhkaEhHcjhhWEsyNWllNmlVeWlKdFlIdkFnTVZQZkZ4UHNNNmxvZFNoYi1yVEhuNFJfckRUNnhET2p0YmxpYjFweDAzZ25raE84RG1LX2dIQWhDcVpRRHNKdGp6eFRSLVlYazFnQ2R0dE5QZXNTUjV5ekJ2MGk1amVreGZYNWRBMEtRQTN4NENDSW9vdVEzUlR0ZmMyb0habS1VQ3NhVGlYOHBLQm1naEUxVVozY1FkWmp3RGMtbzRnM29HUGt1R1E",
         "CBMikAFBVV95cUxPU2lScnJmeXlyZEJaSWhqTTFscjNuRXFBTG5XLVlBRTlpaEhSZHJhT1RrZF9VNHJZMUNNcllWV2owaFJWYXUtckdOMUo3WUpuQ2lLMVdqTVVTcDF3ckN0dm85dWJxVHRCVDR4YjV3UVBQR3hja19CYjhEdklpWk5IQnBVRzNuek92VmZsVzVLaWfSAZYBQVVfeXFMTVlwcE9vSkRwRlRDNDBfRlhlMzdCXzZ3NFJ5TndyYzliT0tBOXJ0dlozdWd4OU90X0lGQXNNc2dqSlM2MkdOdTdpclYybmlGTnloNmktMl80SUx5MUw1VTRYRzM1aERkdy04dERGVkxNWnhuUTdPYXRGOWN0OVVhMURIbmgyRUFNWDJTVW9FYnhmVWJmSXd3",
-        "CBMi6wFBVV95cUxQYnJiMk9xRC1MdDIxUUVQY3V6MlB4bHhmdFNMS19VSGhaWHQ5TW8xQ0VoZ0p2eHBGMjN1ZFNLc2U0enJwUTJXRWFsaHpyUzBRbkVIeGVGLWdNQURoVU53cHNtNFZKcXRZU2RhWGpyRjVvellkZkJyLUREVXJzME5LM1BMdk8xLVZiQm1iREY0VGFXckYzVElKaUhNYkhnbm5VNmdfZGZEc0N3V25DVUs4clRob1pFaVpHN3IzcVVZSGJKQzN0Z2lnb3RGYV9TVS0wSzdvNlhmRk1kelUtWHRTVHB6b1VIT0k5bk400gHwAUFVX3lxTE81dWl4MVMyXzlCQkVtdjdJSV91Q3BWeVotSDFLUVU2eTNHSWhxakdmYzVxeHRIcVplSUZHUHNsOHBTa0hWNjRWdTMzYWxPemFLZlZWdlEyYzhTZURIOWVUTktZWE9mX0s0MmVMVUdQZGY5UkZ1THdqbzgzNDN6dUhEVzZkNnZ3emI2VkU5VDFBa2Y2MWJ3SjJxUnFyYUdnX1gzSmhMZFVXYVN0NzhFNE9PRlRLYzR5SmJRaWlFLWV1OWp6S2ZZZGdTelljdUUtTmJZMnJzVmZabVExMUtaenZPWGZfbGZucTdDamtkbmFLYg"
+        "CBMi6wFBVV95cUxQYnJiMk9xRC1MdDIxUUVQY3V6MlB4bHhmdFNMS19VSGhaWHQ5TW8xQ0VoZ0p2eHBGMjN1ZFNLc2U0enJwUTJXRWFsaHpyUzBRbkVIeGVGLWdNQURoVU53cHNtNFZKcXRZU2RhWGpyRjVvellkZkJyLUREVXJzME5LM1BMdk8xLVZiQm1iREY0VGFXckYzVElKaUhNYkhnbm5VNmdfZGZEc0N3V25DVUs4clRob1pFaVpHN3IzcVVZSGJKQzN0Z2lnb3RGYV9TVS0wSzdvNlhmRk1kelUtWHRTVHB6b1VIT0k5bk400gHwAUFVX3lxTE81dWl4MVMyXzlCQkVtdjdJSV91Q3BWeVotSDFLUVU2eTNHSWhxakdmYzVxeHRIcVplSUZHUHNsOHBTa0hWNjRWdTMzYWxPemFLZlZWdlEyYzhTZURIOWVUTktZWE9mX0s0MmVMVUdQZGY5UkZ1THdqbzgzNDN6dUhEVzZkNnZ3emI2VkU5VDFBa2Y2MWJ3SjJxUnFyYUdnX1gzSmhMZFVXYVN0NzhFNE9PRlRLYzR5SmJRaWlFLWV1OWp6S2ZZZGdTelljdUUtTmJZMnJzVmZabVExMUtaenZPWGZfbGZucTdDamtkbmFLYg",
+        "CBMia0FVX3lxTE1DYW5GdmRUWko2ZUpSRjM0alV1RlVGVVpEOFJ5bW5DUzkyMWs1SDZVdVQzU0pkMjEwb3hIaWVwTkJybkN5ZXFQdUpEVlFOLXg4ZjVmWWUtTmpLQTg0Q2RxYlVCaVkwdVlidjlB",
+        "CBMikwFBVV95cUxOZnFWRm43UUkyVkpkZWJpUkd3M0tHemJQVGpYVHpwZW9LVnFHcmhjYzh0eHFnVUZuVmk3MTVsVE1xNVNnc0Y0Y3ZEM3QtREU1SmptNllEV1NVMmoydGRlVnJYbVdPNHFvNWc1aE91OGFBRmx6bVE3Rll2c1ZwS283WFJLek1WZlljcHdwNjRwNktjTlnSAZgBQVVfeXFMTWd3NTVqYXBKZEZFMl80c01EU0RwWmZMaUFPQWZTZXFaZWtWOXRwRU90U1hVTktqYTNLbm9JNk00TXVLQWZob2Z1SHBrX1BENWYyMlprc3hvT011cDVOcnF2STNVWWFyZXdYdzRkdEZxelctLTZycmFoZ3pmQW93Ml9rSUNQb0F3VzQwdEIzQURVVHFmZmhQM3o"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-08T01:52:42.257Z",
+      "last_fetched": "2026-09-08T08:30:38.105Z",
       "last_epoch": 1788767149000,
-      "etag": "\"03670b0491556164a4227eadab96870e0-gzip\"",
-      "last_modified": "Tue, 08 Sep 2026 01:35:19 GMT",
+      "etag": "\"0ec8c30df12d95ad701b766d4d4ff8d8f-gzip\"",
+      "last_modified": "Tue, 08 Sep 2026 08:16:39 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -234,7 +236,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-08T01:52:42.482Z",
+      "last_fetched": "2026-09-08T08:30:38.189Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
