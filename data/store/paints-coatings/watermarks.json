@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-09T08:27:21.203Z",
+      "last_fetched": "2026-09-09T15:29:42.077Z",
       "last_epoch": 1788931333000,
       "etag": null,
       "last_modified": null,
@@ -61,19 +61,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-09T08:27:56.022Z",
+      "last_fetched": "2026-09-09T15:30:16.905Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-09T08:27:57.381Z",
-      "last_epoch": 1788935379000,
+      "last_fetched": "2026-09-09T15:30:18.484Z",
+      "last_epoch": 1788945050000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi9AFBVV95cUxPN091b0V6VkpDOWgyeDZHdHEyQ0dpQlR2UlFoSnFJM3NqSzVNbWNSTkpJdGFrczNTaEhUenRsRmtQbEdsSmRoQkR4ZUlONVl6NnI3a2VtNE5UNGdQTEtOdzRvVW9iZkZESlJKS3hta2U0RmYyVlhXa1FXOWdoc1RvMU43VmxGdkwtRGhIc2lLQUxWS2FOeDRCS2N3di1CemRFV1hicEZBSjR3WFpaY0dRSkNMbnVRaWNwb1BNOFUyamdBSXQ0WGhrdjdjNUxBcTRzYktFM1hrNWUxbHdmX1VCMVZBMGVpaUtwRVVSSklPM3BaTXBD0gH6AUFVX3lxTE41N0pOWHZDdlpOMWJvVkZ3M3p2Ylp0SzlhRDIwQjUwMTMxbHFtbXNVWm9DTkFkMWRucm1LVGdsYktsV1luWWRvVjE2c01ORkhEeXptX1F5OWlfbm0tZUZrR3QzRnozV2hLRE5Ia0tNMTRPTFFncVdsTFlXaU0yQ2g0dHlkVTgxeTlHdWd0UzFSeFJCaEZBdWdDRnZIMlBYWHdGT3dET2NmOGZVYXNGZGx6TXh2TDMzVnBqUElwZEhSV2pzRDB4dndBNFFRZUk3VGhlZGVFb0hvWkpsZGFqd1lMa2M5dHpxRXFILXM3N2tmSFc5SzU5U1V2Y2c",
         "CBMiuwFBVV95cUxNSEY5RXVaSExDTlh6eWdBa0Q5eW8wY2I2WGYxZG5zYlpCc0xwTU9nMktsQkVoaFdEM2VNNXlraEx0Nk1PYS1FMTc5R3hfVWMwaE5DYXNwLWNfYUl5M3lKamhyZ3lpYTZhN0VMT053WlkxaHFVYnBPcXNfRllvdm1qM0p2bVRQS1BlOGVDV2MtejlEak82WndPcEtpSkZYXzktSTBlY0tXTDdFcFpJYjBaQ1U3a1RzWXhDcXpj",
         "CBMiswFBVV95cUxPVVpnd1NwY3JLNHNzSE5qY0tXbVVudVlhcHdnTzNiYlh5RUkyM3Rwc3pibU4ybFR5U1VCS19BSG9DRTFRWmlySVBMODJnVDNrUnRzbnlvaGZ6enZuOG9fcVc3dFQ3eWRGVTMtNlF0Mm8zTnJobU5Jd0JTbzhXalBfWXc4SlFOcjV5VW9lMDMtR2tKTXZRMmhsNENGMTNRSEdpYjZrb2M0REVhYTNrQ2Vrd0tWVQ",
         "CBMiwgFBVV95cUxNNHVnT3JBblNYVVFmUW5USE1yOVpiRW5iQWdncWxhV0lEMUV5WDRGSDVUcGhuZG5QVXZSa2FRa2RON1JzMmdPX1BHUFZKNXBKYUIzS0RyODVpN3B3S254b0tNMkVlcnp6UnJGVk83LWx3R01aUzFMRHgtUzdwbzlfSllfVHg4M1Y2aWtYdjJPWktMamFyQ0s3MkVhVi1HSnl6emZoR0xXUHYwUmtXSXVmdC1XbnlBUDdMck0zMVR2alJKQdIBxwFBVV95cUxOMlNFbWk4eVVnWHR4WHlDZ1A0MVhrc3ZZUl9hVUo5Nk5mNFVCaHZMUlZ0ZlJsbE9hdjg1ZU82WGdvRWNPWlRrZHpHNjJhdEpKME5XY0M0VkdGUW5QWWJIS1JnNjJNTno0a2U3OEs3SS1HYlRYeU90ZDhyOEtWODFEd0lFekloWVpOZExYcDNlMnZLY0g2NFJ6UjFwTTY3a3NfTzMtMG9zZXhUMzAtd2RwckRsMDQteGhZQ1dYckRfZ0VYVHBXU0Jj",
@@ -372,14 +371,15 @@
         "CBMivwFBVV95cUxQNnRqWWxuRTN5alprN05pV0RpOUtvSkF4ZTFZMjd4QTVRWXhUMlFBdjhiTmJYekNfRlA5OWRGckJRVTFacEZxajlPLWVPVXJjVFNKdjIwaU1sZ2N1YUFtYWZIaHFhS0U5di1OSHROSFBGYnkxQUJMOEl2WEhTNnVyWlRmUF95MzVNTERoeUgxVWM2eDJtMllDajFiYkYtWGkyaWJUdTRYTXg3OUZka281dUozdFI4TnMwLTdIdjlUONIBxAFBVV95cUxQZzQ2amhQTllWMFBCY3dadFA1dWZzLS0tdXlUbUFQM0UtU0VEcnVVMkNmTmk0UGZ0Qkw0Ty05WkZRbmsxbXhoRlJkalh4NE4yS1poajZXdFpMRXB6Y3NkcldqRThpOFA0UE0zakxEa2l6d3ZidkxxYnBWQ3F1eXFrWVMwWUNmQmFuWURBWmlyRzA3RG5hYmF6UG1zVU5aM1NvNzFKUDlWV2o2M3lqUkJnbUhHeWhxYlVKT0tBUmhGR1lGZFl1",
         "CBMitgFBVV95cUxQMVJ2M3RIOElCYU0ybTJoNHd0ZVZIem1DUXpIRVZqNmExcVNsTzA5TmZYWVZFbnRqaXd2cXNFVWhvRE9EaHlBWENtcWRnczZNR2laX01FY1p6OWg0UWRmQXpfVlNxVG8yTXlIa2xvOGpkS09UWDBFNUREcTZxNHI2WkwwWE5IZGhyZTJIanNPZzZOX0RMSWtSdHBWTUVLZjU4MWs4WmRGZ1J2SzFlZEFLWmpiZXJsdw",
         "CBMi9AFBVV95cUxPZ3JQRHFXa2gyZmV4VEVPeUJlOVhBVmJ6NEYtTFhMN0ZDM0ZQRkQtZ0wwTlI5VzFQNG81N0NCSkd0TDJNeXlheF90dFhDdnc5VXBST25qanR3TVBscXZHRUU2YnFVRzBVY1BhTlJ0b2RFZFA5S1dUWWxDeG5xdEhOZklpNE14aHROT1cyVEtVcEpiSWF5STZtb2ZiTTVma3RpYUpObjZMZFhSUWNjM0gzVE1jLWZEanVQOVVMazFwZExlOW5lU0lYcGtfMTJwNzdSTzRWN0ljVzZYOVo1dEhuNGp5RVRRZ25MTGZNYnNrWlJTdEZ50gH7AUFVX3lxTE8yQ2l4bDNXTjBtaVBjMXE5ckVISmsyVG9YQ21rTkk3LXZaRWE4VUo2Zk05NUo1Q3A0UkdleWRjd2NBM21seXUzbndLQ05QVGY0MWRJT1AwWGs0bE5nS1RySlh2MkxMUjVCbWRQaXVMa0FMU2xXQ0tNa295b3hlZUZId3haM0d5VU5nT2RVeWNhX2F1Smw0MkIzMXM3ZzBfRGRkNEl0ZXNnczgtakV0RlJxa3ZpUE5WWHVIQnBzTEJWZGR6Q0s4VV9KNFVabWFiVm5JRm1FeVJTOUFPZWJhVGlxMFlvMXBGRUtzQnBjZlFNWTYxYWVxejZqLVVR",
-        "CBMiugFBVV95cUxQSWlyYm9sLUZpSUdtLUI5S0ZwcEhjTlhaMEJCd0ZQZ2lrdWpxWmstOU5iRWk0bDc1YkNCdTQtVHZTejV3V0xpUzVBeTdCcEpKVTJHbDRxZ210LTBaRllqWDctcEpsVW9nMkwyc1FmSUkxM2wwTnN5ajA3U0J0MHNSRm9iQ2p1QzhzVGpSZVpsVjl6TVpSWjZINldDVDVKREVVN1JZRHVRaFBJbGhhVWR4TTNDLXZ4c2xCMXc"
+        "CBMiugFBVV95cUxQSWlyYm9sLUZpSUdtLUI5S0ZwcEhjTlhaMEJCd0ZQZ2lrdWpxWmstOU5iRWk0bDc1YkNCdTQtVHZTejV3V0xpUzVBeTdCcEpKVTJHbDRxZ210LTBaRllqWDctcEpsVW9nMkwyc1FmSUkxM2wwTnN5ajA3U0J0MHNSRm9iQ2p1QzhzVGpSZVpsVjl6TVpSWjZINldDVDVKREVVN1JZRHVRaFBJbGhhVWR4TTNDLXZ4c2xCMXc",
+        "CBMinAFBVV95cUxOQWxCMlEzYTJYODUyS25zd3hoZDN6a0JvNzYxNUp5M2lmTldFQWRqUnJOMUd1aDVaU0R6V2wyNGl1SjIxdHdRRTBZVktPQVhhT19CUlJzVWF3S1dfbGRPb2t5QURvazNLZjI5b2dyX1IyUkNtb2wtQ1AwQXhQbVpFNXBxeE9YczZkRUxvSlN2TzRNdzZfY1EyVEs4Vkg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-09T08:27:57.659Z",
-      "last_epoch": 1788924851000,
-      "etag": "\"0b546951ac4c23b638ebba5ed537df40e-gzip\"",
-      "last_modified": "Wed, 09 Sep 2026 08:04:55 GMT",
+      "last_fetched": "2026-09-09T15:30:19.417Z",
+      "last_epoch": 1788952066000,
+      "etag": "\"036b146148c1ecc1636c8fa78ace00a2f-gzip\"",
+      "last_modified": "Wed, 09 Sep 2026 15:18:06 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -403,11 +403,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/coal-ministry-opens-second-round-of-gasification-scheme/articleshow/133938222.cms",
         "https://economictimes.indiatimes.com/industry/renewables/govt-offers-50-funding-capped-at-rs-2-crore-to-replace-fossil-fuels-with-solar-heat-in-industry/articleshow/133937506.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/castrols-growth-potential-expanding-beyond-lubricants-amid-indias-infrastructure-boom/articleshow/133950970.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/manufacturing-firms-factory-leasing-seen-rising-to-30-32-million-sq-ft-annually-by-2030-report/articleshow/133949943.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/manufacturing-firms-factory-leasing-seen-rising-to-30-32-million-sq-ft-annually-by-2030-report/articleshow/133949943.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/land-acquired-in-last-five-years-offer-1400-million-sq-ft-of-potential-development/articleshow/133965909.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-09T08:27:57.774Z",
+      "last_fetched": "2026-09-09T15:30:19.792Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
