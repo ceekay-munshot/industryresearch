@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-08T22:10:43.249Z",
+      "last_fetched": "2026-09-09T08:29:42.661Z",
       "last_epoch": 1788778500000,
       "etag": null,
       "last_modified": null,
@@ -33,15 +33,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-08T22:11:18.680Z",
+      "last_fetched": "2026-09-09T08:29:49.829Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-08T22:11:19.911Z",
-      "last_epoch": 1788843441000,
+      "last_fetched": "2026-09-09T08:29:50.954Z",
+      "last_epoch": 1788941340000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -175,14 +175,15 @@
         "CBMi3AFBVV95cUxORlNWWmtwcjMzbUYzemo3eHUyVFZoSWplc0hEUDJHQWZNckR6M1dISkxOS084MWhsQnZGaU10d3N5UWJ6VzNsNVFJSXdDWWJFZG5zUGN1TmN4cUhENjJQd2huSjhSekhiTjAzUE1mVF9BdEc2Qy1IYmd1dVg4WnhJcGUzQ3hwS1ZKbEZNd3pZdXZ2NXBkNEI5ZlRBVTloalJ3VWZnb3lSMXRYYVRDcUpRT0ZfZ2xfM2tGTkxOcEhIUXdlbDZXdGk4eGRjSkpkYzZwQXd5SlVya2pnVkli",
         "CBMi0gFBVV95cUxQV29LTVRVY21oX2N1b1E2VjhTR0xtcDZGeWRqZHlXQklPTnlGLWp2dXB2VkZMQWNSUEIxRWJMZ2FVdnY0VXItSERkelNUZnNyNUZKb3I3dDlzMUJObEhBZUpvYXllRllHRkR4LVpsLU5zSG9BTHZZTnhBRWlGaFI4LXM5dU8zYUhYaEFHM1FaeF82NVFBOGZ4bWh4bFN0V0t5VmU1RXk4RW5tLWFwWnBkdDhGVlU1dHRnODVoTlZjZW5sMThuZlVOdFlwRk56YmN2NkE",
         "CBMi5AFBVV95cUxOWm1saDVjZk1vZDQtUFU3ZlJqUmNtbk9aZHdUWW11M3BwTC1TN1FiaXZsQ0ZUVkhOa2h0WWRmZkpYNUZYQWhPbGF6MHZMZ00zZTFRb3EzR0tubmJuSGgxMF9iakg1cDZzWXlZMVlNWHhFVFFuSk83c1BqMWZJdFN4cWN4VmdtUjk4LU9wMWFIaUFuMVFpZkl4UExPV3QzTURLX2lERWpSOExPenVMUWx4SmxKbzRJdGJuYlJXaG5Na2NnYWEyU0R3bmFhZ2JpRGpReHpGZXB6dmFrRTRHZUFWUGFzVDTSAeQBQVVfeXFMTlptbGg1Y2ZNb2Q0LVBVN2ZSalJjbW5PWmR3VFltdTNwcEwtUzdRYml2bENGVFZITmtodFlkZmZKWDVGWEFoT2xhejB2TGdNM2UxUW9xM0dLbm5ibkhoMTBfYmpINXA2c1l5WTFZTVh4RVRRbkpPN3NQajFmSXRTeHFjeFZnbVI5OC1PcDFhSGlBbjFRaWZJeFBMT1d0M01ES19pREVqUjhMT3p1TFFseEpsSm80SXRibmJSV2huTWtjZ2FhMlNEd25hYWdiaURqUXh6RmVwenZha0U0R2VBVlBhc1Q0",
-        "CBMiwgFBVV95cUxPRE9Wazd6OW13czR0NjRkWlVub1dnWGh2anZNN3VYbGJieXdNYms3UGhmV1JOeEFfVU5pUkpMQUNIaGFJSkVUbGFxLTF1SzJzOXphRmU2M1JreHBwSDhHbERhZS1kMlFwQjkxZ0Ywb1B2dU9QejN3VUEwUDNCNVdYVmdtOC1idG8tbHgwdlgzQi1fNzVRdnNCMEZCMUExa1k4N25rbTRVMWpvdzNHR3RNRjl4clMtS094MHlLNFRBRTFxdw"
+        "CBMiwgFBVV95cUxPRE9Wazd6OW13czR0NjRkWlVub1dnWGh2anZNN3VYbGJieXdNYms3UGhmV1JOeEFfVU5pUkpMQUNIaGFJSkVUbGFxLTF1SzJzOXphRmU2M1JreHBwSDhHbERhZS1kMlFwQjkxZ0Ywb1B2dU9QejN3VUEwUDNCNVdYVmdtOC1idG8tbHgwdlgzQi1fNzVRdnNCMEZCMUExa1k4N25rbTRVMWpvdzNHR3RNRjl4clMtS094MHlLNFRBRTFxdw",
+        "CBMiU0FVX3lxTFBOdjUybDZ6bUhYNVJMQnd1WEpMSEVMdWE4b3RUeUVKLUpNUFBIUndfaVVjd0l6NXlOamtFZmRVSnM0VGs1SW9lTUZ4dXdjVWhLOFg4"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-08T22:11:20.035Z",
-      "last_epoch": 1788835937000,
-      "etag": "\"05c1e0e39efed0b3a128027452abf127b-gzip\"",
-      "last_modified": "Tue, 08 Sep 2026 21:54:58 GMT",
+      "last_fetched": "2026-09-09T08:29:51.012Z",
+      "last_epoch": 1788932079000,
+      "etag": "\"0708f3bd9939e83f074681ae8405a62ee-gzip\"",
+      "last_modified": "Wed, 09 Sep 2026 08:20:56 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -205,11 +206,13 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/tata-chemicals-issues-statement-after-kenya-orders-suspension-of-operations/articleshow/133752090.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/warning-needed-for-even-single-excess-ingredient-plea-in-sc-seeks-changes-to-fssai-rules/articleshow/133811567.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/delhi-destroys-over-2800-kg-of-unsafe-food-ahead-of-festive-season/articleshow/133902470.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/china-imposes-anti-dumping-fees-on-japanese-chipmaking-chemical-heightening-tensions/articleshow/133904264.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/china-imposes-anti-dumping-fees-on-japanese-chipmaking-chemical-heightening-tensions/articleshow/133904264.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/indias-refineries-operating-at-105-to-108-of-capacity-mrpl-official-says/articleshow/133954441.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/tata-chemicals-sets-up-high-level-committee-to-decide-on-kenya-operations/articleshow/133953376.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-08T22:11:20.070Z",
+      "last_fetched": "2026-09-09T08:29:51.065Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
