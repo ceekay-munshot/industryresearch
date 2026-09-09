@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-09T15:34:57.021Z",
+      "last_fetched": "2026-09-09T22:10:45.370Z",
       "last_epoch": 1788706832000,
       "etag": null,
       "last_modified": null,
@@ -10,15 +10,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-09T15:35:31.087Z",
+      "last_fetched": "2026-09-09T22:11:19.656Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-09T15:35:33.615Z",
-      "last_epoch": 1788959330000,
+      "last_fetched": "2026-09-09T22:11:22.207Z",
+      "last_epoch": 1788982388000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -283,23 +283,36 @@
         "CBMiekFVX3lxTFBFZjFGSGlkcVI2RGpWVmp6ZFpIWUwyamlGaURJdzhRN0ZQbDc0YzVmYWJmb1hGYi1XT1F6MWN1M3UtWERsY0JGVTR6UlFucTV3Nkl5M2w4d2M5V0VnZ2hkaEg1VURpSkw4eDViSHl1c3h3UkpZZ2VWYXVR",
         "CBMinwFBVV95cUxOVlRZOUs0MHQ4WHBZT0I4QVJSdXkzRVNYcU10V2I2N3k3X0xycG1DUGo0OUtQYzR1YVp0a0tTM3FNYk9NMjIyckhVYVdjUlFGTHpFTlFnMWpDWUQxNWZvLThWYmJ1YXZsYjBNQmstbWx5ZjJkbUZwclQzR3QwMVQtVU9vOE5PVS1zUkFXYVFqNGRPdy1YWkloQkJ4OXFkTm8",
         "CBMiogFBVV95cUxOREFWT2RPcXl1NkJwbi1wNmhhV2N1dmg1UF9fcUdsUEJuSXBqT0NDSW9wbm9uZnpyNXc3dFBaM3dvVWNaVUF5QVJyeVRqaUJxOFBZUmhaTkpDUHphZUF3TlhTN3NJdTZhaHBSNHZGUVNLaHVIM1F4REtWb3JldndlbmFWSGtZYjQ5QkVfMlN6dUZVRGNLLUFSWGNOSUtIOThoaVE",
-        "CBMi0AFBVV95cUxPVklaekUxWnFlZWRtVzd3OGhzWEpVOFFuYzZZb2xmZkJjUEdJNGdYNU9EMDhUVHl1RW93ZXowRnkxS19HX2lJOUQwNlF3anFoNGZiQjdYVkdvYWhLOGdVbmNRRkQ3NE5yQ3hGdks3SnFjTkotUjQzbzRCYWpUc0d6LW5kTk42VUJoWVRpVU1fU0t0M283MmdMeGU1ZmVHMExZTG1FbXB5UElZT2gtOXVzZ0tVODFrNXdfa084SGRMTXNyc0ZZY1JrWUtBdHcycVhS"
+        "CBMi0AFBVV95cUxPVklaekUxWnFlZWRtVzd3OGhzWEpVOFFuYzZZb2xmZkJjUEdJNGdYNU9EMDhUVHl1RW93ZXowRnkxS19HX2lJOUQwNlF3anFoNGZiQjdYVkdvYWhLOGdVbmNRRkQ3NE5yQ3hGdks3SnFjTkotUjQzbzRCYWpUc0d6LW5kTk42VUJoWVRpVU1fU0t0M283MmdMeGU1ZmVHMExZTG1FbXB5UElZT2gtOXVzZ0tVODFrNXdfa084SGRMTXNyc0ZZY1JrWUtBdHcycVhS",
+        "CBMiV0FVX3lxTE92eWRMcC1CeW9EaWhETkFvcVp3ZHBHNUEtdU1STEUwNldJUDkwR2tKYUdZeUF5RkEyNDFlcGxZTzRUNDJWVGNuTFROTWV0LTgyel9sdVFmaw",
+        "CBMiuAFBVV95cUxQODYzUEpXa1VKaE9HWkhMN05oWnVTcXhrejc4UG9Eb1NhM011dUVXT3ptVGhGNlJZcGJUNmRfV3pGZ1dLLXMxd3NjbjB2TlNhWWhHeU9uRnJFQmJRajdIWHk1Z0dYSHViZkt1VjkyRTkzdG1JS2NjeDRyZUl5TGRkWmNXb3l6UzJfblFwUVBzek5nelFiLWtmUE9VdFNpTDdsLVVBa1dQVDQta0JOM1A2TjhnamxXYVd4",
+        "CBMiuwFBVV95cUxNYmI0TWg1RHhHcDBucmpraUpKX09XV3FLd3E4STZwWHV1S2pTOGFmMmtmanhTUjhldEh0bnB0czdKR2lyRkw4Z2EtVWxHVW1pRU5VbVNURzVLZEhsMEtnakxTMU54Ry1qM2R1TjJfMXI4LV9DZHk3LTJnU1hqVUNMUm5LZDYxOWpvZTMwTzlRZDE0SWRZMDVCc1FjSzhma25PNE5WVkxyb3dINW51U2d1dF9VcUJyT1BNMjVZ",
+        "CBMizwFBVV95cUxOZWRuTmt0UmVoWGF1d2VBcXZ1VTNFOFUxUTVlazd5RGJpOUZaMUk5TlVVTG1wNzVORFpqclc2WnN4RzRtdWd3bkphb2V6cUFLQk4xOWVXRVdZbHA5c3VDU2FQSGRHYnoyZnR4ZHVjaVlsYnBUbjFRTjZ1MEVKN0NKZWJGMDFmd2YtOGRRNHllYUpQM2pIVDdmQ0FqdjByM25iVkdOM045WW5EZ212Z3ExajU2UXhMenZ4MzFXSllaOVpoQU9sSzQ1NEw2YWwwWTg",
+        "CBMilAFBVV95cUxQUFphaFA1V0ZOUV94SE8wSG5XQkFvQXBNdWl3VFB5SkVyVDlSU3FHd2pRQW5WR2VZRDk3QVlDX2xTSThweS1iSm01a0RnQ0daZmFMZzRoRnExWmpFcG8waWFaRzlCSjdmT3cwTjhSQ2gxdHNZOEg4WVM4Tmdnbk5INy1rYTZGZEFEdEZ1ejdjM1VYSkFs",
+        "CBMixAFBVV95cUxPdFMzT1NiNWpCbkVZdVlYN0FULWJLVUNaZVp4N2NxMkFoWkRHdHhnczh2c0JpNGhtSkt1WmtLSmRMVDBoeE16QmlQTkFLU0tSMVVHWEpyaUF5ODlSdHZLM2VacGlWaWUwTXV0dmRxZXk2Y1hmYWxuVkF2N1Eyelk5TWZKTDhmVWx1Tk10ODlXTzNlNEhMZ3N4VmduMTlZMWFXZUFGZWJ1OGNLcVc1VUlyN20tY1FUUkEyaHN4S3RZTEtIa3R2",
+        "CBMiaEFVX3lxTE4wcGU5b1R4VTV0d2FLeEowYm9ydG1lWU1mbTdWUEpFcUl0WHpjLWVydXpFZUZ4dXBzVTlmMk4xeEVPUndYRGgzNzlaOGxzWEZ6a3ZkV2lLY0dwQXo1WkV6aWxkZXZ0cXBM",
+        "CBMitgFBVV95cUxORG9UM0lMZDVhRkFvZ19RdnEtMjBXZ3dUV0RIRWwtQWNQXzEtVEVTMFdvUDg5d25Bd3ZYcFJhQ0pEQkR1TzQtS2d2cFU4R3N6MExKMGVfWm5sVlVpQURpczBseWZrWEpJNm9kb19QUEVwTVYwV0N5dGx6MEs5YjhoaTRBR2QyLU1LS0FHOS1oSVhmT2FFb041V184OVVoeHhkczgyb0Z1eHAyelRZeDBQcVAzU3hGdw",
+        "CBMimAFBVV95cUxNS0F3MThXSjYtbmRqZVlJdnQ5OGxYMDM2dlN6YWtvdThyZFR3TDdHYUh1MWFGYlpQaThfNjN0ZUVwc1E3UXVuWTFyYkxyVDNlVGVtZ3VTclU1YU1sWE5WeDBnWU9VVFpFMGVReUZuQ0RqY2dQWXJMUUlkMnhacmhLRkQ3UlVXLW5MSmg2X2lYTWhSVzJJMERzaw",
+        "CBMihAJBVV95cUxOaDFqVkpENVJTV0E4dVJYaDlCaWhWbkpQZnJhTkMxQ1hZRkxWQ0ViMlh4ZWM3aUZXMkdHdk4wM0R1V1c3VGtnUGE5WXM5YXhtckMtVFZOSmFzclJiRDVkQTVPMlRVb1ZHSmpLZjE1V2t5dDJ4QUM2NVR5S2tUQUYweUZ2MkJlMVpQSW9WLU5udjN2Wk5QZU5aaFRydnBxWS1VUExqRnViRTlFcDdKMGlyUTBZTHNpLWd3Um8wZmZBekpjREljODhkTW04MGh3OUwtZXNlU0syakxRamNJUzFOMVk3QTZHRmY5NXNOaUZjRE1NQXAyZVZDdFIxaXU4X0tWR2FzWQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-09T15:35:33.807Z",
-      "last_epoch": 1788944842000,
-      "etag": "\"036b146148c1ecc1636c8fa78ace00a2f-gzip\"",
-      "last_modified": "Wed, 09 Sep 2026 15:18:06 GMT",
+      "last_fetched": "2026-09-09T22:11:22.373Z",
+      "last_epoch": 1788982780000,
+      "etag": "\"09c10b0d838ad8a013ad736b53f8ba920-gzip\"",
+      "last_modified": "Wed, 09 Sep 2026 21:59:03 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/dp-abhushan-targets-51-stores-rs-15000-crore-revenue-by-fy30/articleshow/133832916.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/paytm-bets-on-workplace-ai-agents-in-pivot-beyond-payments/articleshow/133961335.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/paytm-bets-on-workplace-ai-agents-in-pivot-beyond-payments/articleshow/133961335.cms",
+        "https://economictimes.indiatimes.com/industry/services/retail/french-food-giant-danone-eyes-india-growth-without-burning-its-wings/articleshow/133982342.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/front-of-pack-labels-food-inc-bats-for-per-serving-benchmark-in-sc-not-fssais-per-100-gm-plan/articleshow/133981453.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/indias-fiu-ind-cracks-down-on-15-crypto-platforms-over-money-laundering-rules/articleshow/133980447.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-09T15:35:33.988Z",
+      "last_fetched": "2026-09-09T22:11:22.599Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

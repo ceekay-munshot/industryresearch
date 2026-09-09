@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-09T15:34:05.978Z",
+      "last_fetched": "2026-09-09T22:09:27.787Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-09T15:34:40.062Z",
+      "last_fetched": "2026-09-09T22:10:05.089Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-09T15:34:42.096Z",
-      "last_epoch": 1788967255000,
+      "last_fetched": "2026-09-09T22:10:06.790Z",
+      "last_epoch": 1788981989000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi0AFBVV95cUxQZGJwVnBLem8xWFhINDNUTFFzQXJ2RWVNU3lGRkNmMnJLbzlvMUhXZmtjN2lRY1RVclZHcHkwbzB1Mk9nTTNBckZ2bi1MUjVMWUpsX21vU2QxRzRqRHUtaUhZWjBjeG5OMndhS0hCb19oR0pqUy1iNjEyeFJNTmJUcnRKVmJ0NEtKR1dyTFN4X0Jlc0NKb3pXdWJWSGlJOGVvOWZXTEhvUXoyc21iY1hwSmdJUUtFT1NPLXl3Y2ZJclVTaWVZWi1fbG9ad1RYNWFB0gHWAUFVX3lxTE1GcGtxU01YUDZXM2VVZklMaEo0cVVlVDMtWlNiQ2tSSGczb2FQYUZVY0k1VTE1SlR1M2pnUndDMEp4RjFpY1hGMmpKTFlkZERCc25uUGY1SUloNDNBYXIzZ1JCaTZqeHJ0bFJBdklTOHBHWlVrOVVUWWprQ2FNSW56UkdIbVV3azJ6anFETXR0RUlTdDlleGw0WVI1X3pNRU1NRU9oczJpNjZyXzg2SmdOam93aWlkc3FwTklEQ09iSTVKYzBlOVoyTlNpaWlkOVZIak9SLWc",
-        "CBMioAFBVV95cUxPTjI5d29wWmZEdmRrRHZSZk53WHBsSmZ4ZXdoUFZkSDFaLWxEeTFPZXBfT3lNbDNNZnlpc1NLVVNTR08yQld5dHRNeWFsX1FqTHpLNEVxNXZDSFFZdTg0ai0tSERtSVpCUnRsanlpOHZPTmFUVWNpVGY0M1RBS1k3dG1HMWNpNnBELV9NMnZXZjdNT2tpTEx3dFVncGs1OVJW",
-        "CBMi3AFBVV95cUxOSWdjdmh6c29XMzVzUTB0SHBOU1JJVmZTNzd4b3FoV0pUZl9Ed0p0RHNvM2tXcWxCS1pFNjQ3bHA5bjRUWGR1NDB4U0w1Q0ZIX2l5U1VJNTBXMnV3b1JsbEZLTVhNdlh5VTE5aHA3ejRXLUMxd2ZwbXdSbmhhUkVTQWxDSFVOeGhhR1RLbVIxVUJ4Nk4wTTFuOGNFRDdPRmZ5dG0tSzZKMjdBQ1pmX0tTUTJrRnkyM0Z4NVE5OGwyNklFM1FsNEVSRURtQl9uVl82bDRrRFVPY1lIOVZX",
         "CBMi5AFBVV95cUxPUmtPc25aUTdWbzVMaDNraVVlbmwyY2ROclBEQldnY2Y2SjdUOElZdFh6RnZ5RU9taDRfMnRVLVJ3dFM3VjVtb2ZWUHVaRmxxeDY4SWRzLXRKRVNFYk9hSTNPWEp2ZXJNMWZIbmpDaEhEZHdTWGdIc3hMNFZCUDJDVVBla0xOOGhadXNWRmR6c0VNU1lzdldFUVFCTkRWYU5BQnctNWhra3ZkLXpOcGRjRm55NGh6Z3QxRTFJRjI0M01ibVI2QUJmMEh6NmtQaFdEa1ZYdWJfWXVidGZtV0h0a1RyMXM",
         "CBMimAJBVV95cUxPakEwbVJiOXBuYzlXS2FxX2JtSFhHbzNtaHdmV0xhWVZ5QkRfOVNxb2JZTUhlUXJRTTk5dlhwQTh5azBsUHlac0FOOGhrSnQ1b2otcnRqdXY1a09xVi1FQkxkRlRpTVJuMDBWeHdHUldSZzZLdmsyTUk0MjVDS180eTlUT1VLTkJYeFpsajdWZHFTMHFpWFVJdVdSLUNzdUhHcThwUFNuTndmZU5seUtsc0tXU3dqZlJaMXpmZlRqZUxyVEFsV1AtWnk2dldGdzhjb1J1M0JxQVdyTnlaTjdDTUtPQ2ZJN1hib0dCVHJOd2FWaHVlTWkxdjhrVVhwQnhSb2dWSWg3aWZKbzlhWkdhNlZQLWltSFdK",
         "CBMixwFBVV95cUxQMzgwRVZIdWFFZmZFYUlSblI5UEEwWks1TW8wZ3BkUXZLS09OLXVBRlF6V2hrNmxiMWIxX3dDVGtyaGd1aGhjbzVUTXRTSGVOXzZGa0o5bzVCV3QxYzFDNVB5enZ3U29WOTU3ZHIweDJHZGlfYVlTU2pIdU9VZHF0ZkNRWkpvbTBOUWlRNkpkOGRlZjE3dlhlLV8xRjlRU1B0NzJpMTBXYTlsN2Z1R0o2dlZqRDhFMlFzQUVVamY0VjJ6ODR0S3RR",
@@ -319,14 +316,17 @@
         "CBMia0FVX3lxTFBKUGo3RlZxSzh4cW5qaTBsVU85eXpxNHdtQU5ITTBHTERySWlGVGZZdlFIZXBhUEhuZm5uMF9icm5zQlZZQUdoa3RUVXNOcWQ3YTFUVTRvQ0FVT2pMZVRkMGhtQWIzd0lvcktz",
         "CBMioAFBVV95cUxPTHR5R0dtM2gwOEZNaXY0Q2lUMWR1b3VPRWNjcndCaHlzQnFoVHQyVW1RdGZDeGhPYjQ2WDlSU1NKRjNFR3FXQ0N2TmFvMWVVZm52NUlsbllqcWQ3V0Q2dm9EV2xvSWkwdVpnTmJKLTdocHpwSnRta0c3ZjZxVUdncEVKMmEtMHU3YmtLc3ZRUi1UU09qOTlVYWJsVmJDQ3l30gGuAUFVX3lxTE9XMEdHZ1lnTHFRTVlVNUpSSEdaX1dWR1pydWM2ZkNEcDBueGJvWndLNW0tOFFKYzhDNDNPQUlhbXRtaDQxaFNETG12ZE5yT2FydkRJUEM2LWVzTTlNSjN5OEpJcUlZc2JGM1ItSnJtNUZvZXBhbUJhR0FKRHpkLUszcnd1VHBvbjJGNk5KX0FiMWozdERzQ0Q0VW5xcW4yY3NQbnR5eVoxWFZpeUg4dw",
         "CBMimgJBVV95cUxQNHJEN1hjaHdKMEdaUjUtbW93Rkg5ZVVfWGw2YXktMUVkVzg5N3hfa21MQU1EMUYxdDE1Q1JGVUNMNFczZmlNVXZzVkNhQjMydFRBODUtWGpzemJlWXJPeTJGRmdhakpwemdwOXpBbjJCU044ck50emU5LWRtNURyOXZOMWxoRE1Ic3ZKVlk0SUlhZjBfSTQ4djBBSEsxcFF5bWRyWk5EV1dQTGlmSFZfRW9GSXR0WXVPdkxvOXBEeVFHRFotTDhIMWlvQlZ0ZTBqR1FINE9CRTBwT3dHQnZQUzRodHE0cjJmVExfTHR4dFE0LWoyWWJCaHM2RURlNWJkcGdIbjJPcGRBd3VTaFlCWXhJYlItc2lvcmfSAZ8CQVVfeXFMUDE0UnplZUZfNlF6a1lPNlVSY3RqWFZHZldTampScUk5RFdDSDByWUdNLTV4Y3A0RnhENGtNU180TUVrQ1o1eENmRzRpcjkySVRGcTdiMjQ3SlRBQzVxVjZKaEtoV0MzTzAtUE13RGVVbmFReUoxU1VpRVNVZm9raUsyQzFpSzZxSkFaWVdub2hSa3hEN0pLMV8ydmlndnJ6ZUEwVEVDdXhySU15MXE1aGh2SlN2N3JZY2N4dmh2MHpaRkRYVzh0WjVTUFZXMnhjaHliWEhtUHJTcm9fd0g1cVVsbEp1XzJRVzViUXg0WGFOOTdMR3E1U1pFUE9CWU1ZcE5xN0ItNXozVTJ0MUJpaUpXbGFJbjBNVGFFVllpczg",
-        "CBMiuAFBVV95cUxQa3J6dFJqSFItUEZtRzhudDh2bzFyRm5SVm50NkZnVE9xOEI0WUdzQzZVYzBtSjJXSk1CUHFva1JfRk9zSnZINVdVWnFyWk9Ia2duU3NpcmFaNkI4ODRhNHdzcW5jNTUwOG9vbzZtRGMzOFJyXzVDOEg4SllkR3BCVHZtLTJMQW5zSEc5Q2RQR0s5WkszbjdDTjA1X2ZORERpN3RXWlg5U0U5TWRxWkFKYy1HMWxIenFt"
+        "CBMiuAFBVV95cUxQa3J6dFJqSFItUEZtRzhudDh2bzFyRm5SVm50NkZnVE9xOEI0WUdzQzZVYzBtSjJXSk1CUHFva1JfRk9zSnZINVdVWnFyWk9Ia2duU3NpcmFaNkI4ODRhNHdzcW5jNTUwOG9vbzZtRGMzOFJyXzVDOEg4SllkR3BCVHZtLTJMQW5zSEc5Q2RQR0s5WkszbjdDTjA1X2ZORERpN3RXWlg5U0U5TWRxWkFKYy1HMWxIenFt",
+        "CBMixwFBVV95cUxOYTJvNXV0NUFVWnBMLUZDelhpMU81NGlJNHNTWUhFSVh2OHpRVWJQRVNESGJzMUFjdlZMS1lxdUEzSTZUTDdDaU1SWldFcGlDUEZoTTZ4djBqYUh4U05aWTRZTDFZdkc1X0dqYlctVm1mWnVHXzVtVUJXOUNOTTZRUXA4dnEwc3gzalh4Rm0wQloxVFlDc0VJWVQ1ckpIUDV0WUtHY3UyWHp6NGc2bEloc0FwNUxuOU56eFUzSm02YXd0WVBWRVhR0gHPAUFVX3lxTE8tbEhIZ0FxNWJqNkFNZmVVV0tJTXo0RGpWUG5BbGxjaW9oS2JJaTR3a0FIdnRxRnl4Q0daWnEzc2t2ZVhKb3h0RkQteW5zb0Y4OWFkclQ4bWRWSHdmME9YN0owX01TRkg2cFBrYk44V0NDN2pPT3dCbWtXdE1yOXFHcUFpbC1RMGlCSld0M1VZS1NPRmlHZFdmRXdTQTdfWThiZFZlRkNGUDNfcVRsNWs3cFdGN1ZtOGtGZVRwRU9lZThfS3d0a3BZWkxsNkE1RQ",
+        "CBMi8wFBVV95cUxQdGhrdmNTUzBmdEZ6V2luSS1HVGtxVFl5LWx3QVh1aTRqWFF3ZjRsUktSbk50aXI5T1JiVVBUMnhqS1RoSkZYYnlJRXBtUmVyR29YdlNIcm9NZEkwdzNvc0laYl9JYVVNSDViYWdiU2FXVS1PejNvejBKMEtNVWQyeWpsWlI5dE5LNE95dzJxRk1leWJ4dncwbnM0ZGYwWUZiTnd2VXhoR2JMQmVIQ2tyb2RVVUstemVYT2xNYXBYS0lma3NUd3FoVEdyOXYxb052MzJ3Z2F3STlQUHFIaVdVQXdPOHNsSVg1OWc2RnYxRmd0azg",
+        "CBMixgFBVV95cUxPWTRELXFqQlN5NUxqWXVlQTU1cDZZczlyeVFOcHdHejkwQTVpbFp2RW16Z3UtMXV0Ylo3cFFvNk53NjhiSmo3T2J1eG4wQTRncTA3aHRiV0dXNjJqQUJhLVFncy14OWctbEJWSFhCRHdrYmY0aGh4dkd1TUlLdDIzOUt6R29velY3Um9ITU5DN1NrdkJqR2MwSVk5OWcyaU02ejF6TmdPRndHRjlGZEZpeERBeVQtd3o4ZzlBRTFfRjdERzJvTUHSAcYBQVVfeXFMT1k0RC1xakJTeTVMall1ZUE1NXA2WXM5cnlRTnB3R3o5MEE1aWxadkVtemd1LTF1dGJaN3BRbzZOdzY4YkpqN09idXhuMEE0Z3EwN2h0YldHVzYyakFCYS1RZ3MteDlnLWxCVkhYQkR3a2JmNGhoeHZHdU1JS3QyMzlLekdvb3pWN1JvSE1OQzdTa3ZCakdjMElZOTlnMmlNNnoxek5nT0Z3R0Y5RmRGaXhEQXlULXd6OGc5QUUxX0Y3REcyb01B"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-09T15:34:42.192Z",
-      "last_epoch": 1788965452000,
-      "etag": "\"036b146148c1ecc1636c8fa78ace00a2f-gzip\"",
-      "last_modified": "Wed, 09 Sep 2026 15:18:06 GMT",
+      "last_fetched": "2026-09-09T22:10:06.840Z",
+      "last_epoch": 1788980580000,
+      "etag": "\"09c10b0d838ad8a013ad736b53f8ba920-gzip\"",
+      "last_modified": "Wed, 09 Sep 2026 21:59:03 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms",
@@ -449,11 +449,12 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/railways-clears-rs-10021-crore-for-540-km-of-new-lines-in-southern-states/articleshow/133972422.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sun-pharma-incorporates-global-treasury-arm-at-ifsc-gift-city/articleshow/133970040.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/zee5-revamps-streaming-platform-with-ai-led-discovery-expands-free-and-premium-content/articleshow/133967758.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mumbai-to-dominate-indias-data-centre-landscape-with-68-capacity-by-2030/articleshow/133961003.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mumbai-to-dominate-indias-data-centre-landscape-with-68-capacity-by-2030/articleshow/133961003.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/northern-coalfields-ramps-up-coal-production-after-rains-ease/articleshow/133981726.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-09T15:34:42.589Z",
+      "last_fetched": "2026-09-09T22:10:08.070Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
