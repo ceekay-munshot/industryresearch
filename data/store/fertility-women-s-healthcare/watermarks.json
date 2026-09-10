@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-10T08:32:38.470Z",
+      "last_fetched": "2026-09-10T15:28:12.764Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-10T08:33:12.776Z",
+      "last_fetched": "2026-09-10T15:28:46.875Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-10T08:33:13.875Z",
-      "last_epoch": 1789022852000,
+      "last_fetched": "2026-09-10T15:28:48.515Z",
+      "last_epoch": 1789034659000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -272,14 +272,16 @@
         "CBMivAFBVV95cUxNc01uX1RhMFJpcHBra3RXNHJCNDQ4Qi1FODBEOW5fZVFwUWhKZmRiQ3RBdWtOb05nZkR0WDBMOGlmOE11MlpubEpCeVotSl9wRmJET0ZEeURrV3FtbWxEaTNvMVpmWVRjeWxFd0NUb21lLXRkUDNXSnZUVWZTcUNTN1I3VDVfZE11M3hvN3JSd0oyelNBRkJCTTJScEFUaG5yOV9VMTJkb0d5clBHVDREdW9SUG9IakZ3cE42VA",
         "CBMijwFBVV95cUxQWXpXZjN0MTFGaVl3TGhsQWJQTHdMd01LckY2NmMzREhKZy1xZ2NLbURCY193ZlY2OVBDdWUwYndmT1FoNG1RR191TWpJbnRTOUJQMHNiZFBkUVlsOGNEU0pSeWZDekh0aXIwbGd4Mmtyb2Vrdk5MRV9BYmZDcW53Q090Ulh0b05JTk1MU1o0TQ",
         "CBMi2AFBVV95cUxNdjB2MzI5SmdWb0QxZlVId1pKWVdTNjdmUnpTY29YTGIzYWs0U1NCUndKcFo2VUZWenNnWHR5WnpLSDRoVjF5c2JGb20xTG9mdGdRZ2E2MFlBU3Nodks0dEs0b0k0NTlLamJ4TFVQVWNQQnBRQi1XY3lTZjNlQmZLYTFaalhVNEFma3ZfeDItNFR5WkpfLTRWZ3puTHpYN05jcXZ2b0pNSVZSVFJNUl9vY2hBcDJ3YnJMdHU4SGFjemtiT0o5TFgtaWE2dlZmRldoOHN1WUlyQ2_SAd4BQVVfeXFMTS0yazVJWTVmbHV0MDc4dkpRV3otb3JicmU2eVc5RU9veTcxbzFWTkpCM3lkVEFlbGJ1MWNVZWJRNDlpc1Nrc1hnOUhyYVBfd3NKRHJpWGlrSnplSE5uOFcwLU9yNHk4MlFBSUREbUNQNGNkMDlsNUJsOGRHdEItYlhSV0NOU1JHXzRGODZnaUdkNjdZeEhWcnNYb2dQSFpid1hKamJER2g5dk1nZ09SbHFRY1Jab2FpU2JtYzNFVkhUSDZ3NFlLZDN6R2lWd1VwNjZPWGtJQ0dDYlF5aFNn",
-        "CBMi4gFBVV95cUxNbV9XU2FrdFJ3akhaaF94bWg5TFI4QksxMkdPVnFzanJTSEZscjhHc0k0RzNfclVsVjRHRWtoYUxWbHpPSUZLRkZ0ZjJLZE42RWJEa2lMQzNBRkExTWFmOFEtMDc5SVdvamVuMkJYb0lqaXJMdmh3TnNMSGp3Zk1uaGljQTFsLXpVTHB4bG52WmFjSFhKd3NBeEZVUU9LWFZTRm5ZQWFwZU1rUjN0bVVsdFNqVjc5NUcyOHN1cjBlMG9Sd3FEQ0NoVEtYSU9XUFp4N0pJaG9vN2RXS2xsNXhhX1dR0gHnAUFVX3lxTE1xNThzbWZjMGNmYWEteUwzZzdBTzV0RzdlUHpRbnRuZEk3b0pxQXU5UzYwZFBTS0J1SmlUN1ZpekxtX1lhU2pyQ3MxeEtCT2tyaDZmdnBNRVE5WnFBbUtjQ0JEUTJ1NVJKNDBFRnhfa0hzZUZsM2Q5WTRPOFVUZjJaYnpOQ1pHNldPc28wNXdUazYxQzRwNld3YlJxSUJaaWxiR2tORXlST3RkeWFPNEw1QjQzMHdjaVZBLUFLVVVxWVFSc0pMcHQ0OXVoYzNLZUZyd2VscTRmc0oyUVVuOG9aak4tT3lJbw"
+        "CBMi4gFBVV95cUxNbV9XU2FrdFJ3akhaaF94bWg5TFI4QksxMkdPVnFzanJTSEZscjhHc0k0RzNfclVsVjRHRWtoYUxWbHpPSUZLRkZ0ZjJLZE42RWJEa2lMQzNBRkExTWFmOFEtMDc5SVdvamVuMkJYb0lqaXJMdmh3TnNMSGp3Zk1uaGljQTFsLXpVTHB4bG52WmFjSFhKd3NBeEZVUU9LWFZTRm5ZQWFwZU1rUjN0bVVsdFNqVjc5NUcyOHN1cjBlMG9Sd3FEQ0NoVEtYSU9XUFp4N0pJaG9vN2RXS2xsNXhhX1dR0gHnAUFVX3lxTE1xNThzbWZjMGNmYWEteUwzZzdBTzV0RzdlUHpRbnRuZEk3b0pxQXU5UzYwZFBTS0J1SmlUN1ZpekxtX1lhU2pyQ3MxeEtCT2tyaDZmdnBNRVE5WnFBbUtjQ0JEUTJ1NVJKNDBFRnhfa0hzZUZsM2Q5WTRPOFVUZjJaYnpOQ1pHNldPc28wNXdUazYxQzRwNld3YlJxSUJaaWxiR2tORXlST3RkeWFPNEw1QjQzMHdjaVZBLUFLVVVxWVFSc0pMcHQ0OXVoYzNLZUZyd2VscTRmc0oyUVVuOG9aak4tT3lJbw",
+        "CBMikAFBVV95cUxQcHBFLXhzeExRNk9GSFVfeS1JeHp1ODctRUpReURNeTNnNFJFeFpaQ3FxYm44SmUwSG5DLVlQbTdNSnJldHIyV3VtSlcyUEZsakgxNlNHUHpMdWZHRUZxNkRMbnREZzFQSnkycF9IN25wVHZDLWM0dExrSFdUQTVkdU1uVmxOaGpBdWlBM0ctZEw",
+        "CBMirAFBVV95cUxOTmVGUnJRX0JRR25DTnp6TVhPenBjS2JXa0ZSejg1cVpQS2E5S0NDZC0yZVdNb2wtMmZOT3VOZHJ3akI1ajhOSEFaUXVoNTVtZGZfSlBSRDhOYVJ3aTA1LXBIQ1VhSjV0bVVBUE92TlpOREs1UmxEMWM3VXZwWE1FX2ZhZWxhaXlvZy1jYTJoUk02OERCblJvNVRCYVN3c0ZxdDhsZzI0TlNrMkIz0gGsAUFVX3lxTE5OZUZSclFfQlFHbkNOenpNWE96cGNLYldrRlJ6ODVxWlBLYTlLQ0NkLTJlV01vbC0yZk5PdU5kcndqQjVqOE5IQVpRdWg1NW1kZl9KUFJEOE5hUndpMDUtcEhDVWFKNXRtVUFQT3ZOWk5ESzVSbEQxYzdVdnBYTUVfZmFlbGFpeW9nLWNhMmhSTTY4REJuUm81VEJhU3dzRnF0OGxnMjROU2syQjM"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-10T08:33:13.957Z",
-      "last_epoch": 1789028873000,
-      "etag": "\"01a1b251ee2965f6e975e437f043d7166-gzip\"",
-      "last_modified": "Thu, 10 Sep 2026 08:25:23 GMT",
+      "last_fetched": "2026-09-10T15:28:48.988Z",
+      "last_epoch": 1789053795000,
+      "etag": "\"08a6aa795e09b3c88cfeb6b629547d0b6-gzip\"",
+      "last_modified": "Thu, 10 Sep 2026 15:22:21 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -466,11 +468,20 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-watch-series-12s-health-age-takes-on-whoops-health-tracking/articleshow/133994844.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/regional-healthcare-hubs-emerge-as-new-investment-hotspots/articleshow/133993549.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/who-chief-praises-indias-health-advances-during-meeting-with-jp-nadda-a-spotlight-on-maternal-care-tb-initiatives-and-more/articleshow/133992253.cms",
-        "https://economictimes.indiatimes.com/industry/media/entertainment/business-outlook-2027-7-growth-opportunities-indian-cxos-should-watch/articleshow/133968981.cms"
+        "https://economictimes.indiatimes.com/industry/media/entertainment/business-outlook-2027-7-growth-opportunities-indian-cxos-should-watch/articleshow/133968981.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/global-fintech-fest-kisshts-next-phase-of-growth-means-becoming-a-broader-financial-services-company-not-just-a-lender/articleshow/134014209.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/kisshts-next-phase-of-growth-from-lender-to-financial-services-company/videoshow/134017113.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-issues-travel-advisory-for-delhi-airport-passengers-ahead-of-brics-summit-2026-amid-traffic-diversions/articleshow/134016953.cms",
+        "https://economictimes.indiatimes.com/industry/auto/cars-uvs/kia-opens-bookings-for-3-new-cars-carens-cng-carens-clavis-cng-and-carnival-hybrid/articleshow/134016225.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-bank-launches-ai-tara-voice-banking-smart-wealth-and-ind-cash-optima-at-global-fintech-fest-2026/articleshow/134013578.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/passengers-robbed-at-gunpoint-in-reserved-sleeper-coach-ncdrc-holds-railways-responsible-for-safety-lapse-orders-rs-20000-compensation/articleshow/134009007.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/govt-dgca-keeping-close-watch-on-financials-operations-of-spicejet-civil-aviation-minister-naidu/articleshow/134007721.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-launches-daily-direct-flights-from-mumbai-to-dar-es-salaam-from-november-20/articleshow/134007018.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/fly91-launches-direct-flights-from-tirupati-to-vijayawada-hyderabad-rajahmundry/articleshow/134005559.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-10T08:33:14.028Z",
+      "last_fetched": "2026-09-10T15:28:49.437Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
