@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-09T22:10:08.274Z",
+      "last_fetched": "2026-09-10T08:33:50.419Z",
       "last_epoch": 1788921000000,
       "etag": null,
       "last_modified": null,
@@ -25,15 +25,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-09T22:10:43.500Z",
+      "last_fetched": "2026-09-10T08:34:02.184Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-09T22:10:44.821Z",
-      "last_epoch": 1788928535000,
+      "last_fetched": "2026-09-10T08:34:03.262Z",
+      "last_epoch": 1789015861000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -166,14 +166,18 @@
         "CBMi5wFBVV95cUxObDRhTXdxZDJhblpiWkdPTGxueGxSNWk5MEJPSV8zd2E1OS10QlIyaDhEazJBeEQ4ZTFSTjEwQlBpUG9RT2JaRlpBLXVMdHVOcEJTUnJQNkxvbmhlM3R2UU5IdXlYVzMtaDN0S3lCazBiSE9xSWpaTl9FWk0xME50MUx6X29OM01oLXZSeHBPdzBIRE9ZdzMtOFVsTnVLUFMyUDVMX0toaVhidWE5bzYzVktYdlVhOGpyekM1Y01ZTVZ4bTl2Q1FKc0t4ZkNNeURzMXExNGx0Z3NNNjFRMGRHYURGMmlEYUk",
         "CBMioAFBVV95cUxQVFNmYUxWaEJjX3Y4NzgtZmNmcFRjenBaU1BHMTM3WVBTeVlJZE1hbzJVaEE2aG9TVVcxSHNqcDdsdDVPSHROUmE5Y2JYS3RqSFgzNVlqN282YTVzZjBXQnNkS2RuaWpHZlNDT2xJR25jdFgydnVrZmZkZVV0NDQ1MXRITkNFUFBlMS1ZdHozYlBPeFRMMkdEYVVYVUVXRko1",
         "CBMizwFBVV95cUxOWXV3Wnh1Vk50eHAyQlM5RG91cjdORHl0OWc4RE4xS2xseUFqc2NHQ1dtUC1JUEozZXk1aFBrbUVibjhEQlhCQVBIZ1hwNEN6TTY0aDduU1ZBeEtPY0p0VmF0aXpMMmpFWHFaLUxxa2dfdDBnUU16eko5eG9vMkZNa0hkOUFqYkZBb1UtVkxzSDdYQ2t0dE42U3RRQ0l3OHkxNmFSMHR6dU95RHRWSmNOWXJ2Qk9VQnpfQTM5NHl1d3Y2NHlIRlFUQktMd1dJc0U",
-        "CBMi6gFBVV95cUxPRkJXaTN3amtfenBJeWVCcWl1UjR4RlhTZHd4MVZ4LU1DcVRoYUNFanpralh6ZHdxbmhTSUF3S2ZqaWsycElTVERSMVA4Wm04N25QRzhGNXFsUVN6MS1PLXFSTkt1a1BXak1mSVRCM0FKSFU0SUFQUlp4OFZqTnZlSlFGU2VPOHA5S0FVQnFab1M5bE05LXl1ckhCMHZ1Zk1EcC1lZkVmSkVVdDVYQzdMM2hBLVM0RUJiQ1pWNk1XR3ZmNVF1TUpIR1ZDbWNPeVBtNXBRWVFyZ3hkQXVCbkpmUU94b28teVBCLUE"
+        "CBMi6gFBVV95cUxPRkJXaTN3amtfenBJeWVCcWl1UjR4RlhTZHd4MVZ4LU1DcVRoYUNFanpralh6ZHdxbmhTSUF3S2ZqaWsycElTVERSMVA4Wm04N25QRzhGNXFsUVN6MS1PLXFSTkt1a1BXak1mSVRCM0FKSFU0SUFQUlp4OFZqTnZlSlFGU2VPOHA5S0FVQnFab1M5bE05LXl1ckhCMHZ1Zk1EcC1lZkVmSkVVdDVYQzdMM2hBLVM0RUJiQ1pWNk1XR3ZmNVF1TUpIR1ZDbWNPeVBtNXBRWVFyZ3hkQXVCbkpmUU94b28teVBCLUE",
+        "CBMi8AFBVV95cUxNalhJZGpWbGR4WGZoMDVvVlIyLXFlMGF0N0E4NENzYUtCUXFMaWU5QzJ0d21reWtYcDRPc0NPU2lGbm5zN1VRMU9IdXpwNGpzZjR1NXdkdjVlWnR4OS1acFFycDA5TGhnUU5hWTdzcTBjS0Jtb2F5Vk1RRmZLdVhDRXgxYmh3QUl1Y1JkZ2VJMTF0LXNmb1lOOHM2WThMbnJzRzFZcXp6WklMWUxiTVFBX1dtVVA5TUxPbUZoYUNVOFc3MVE4NkhVaWN0dHhYcEg5YVh5bXozZkx3eDE2Yl8xTW5qaG5teG1pNVNDUnFPZV8",
+        "CBMikwFBVV95cUxPLUN3MHVDMGMza0ZHOWZmZWdIaE9mYzBiZk5Ubl9iSWZ3ZlFoaU05cTBBWkRheWN5R19xTmhNM0lZNFU5aE1MUTRtVkxJa0lKUEVMMVgyUWFoenZ1UGFzUHphMUJTbGJpQVNsY2cyb2lvRDZyZjRPRGxhakhrUEw1a0tDZW9xa1lzZ0RsR2J0SHk5X2M",
+        "CBMiuAFBVV95cUxPX0c4aVk3SXpNWkxUYWJxandtQ25uOGFLTWNxbzJZTC1tcFNBZDZfT1hfckIzc3FwejJRYjU1V0NtZFRUekcwOTY0b19vTl90OHZKdnBPSWRibHg0OUprY2g5Ul9oSUQ3VWlnZjF2V3dvci00UG9aVmVEaGVnNTdRY3pzd2MtMFR4Y3g5TkgzUmtFbEp0Njd2cHVHdGw2M1NYdnYwQUwtY3JBcmtIeHZTak4zamk1U3hq",
+        "CBMi7AFBVV95cUxQRTFkVVRyTHE0blJWb0RLNVRXT3RlMldCeUlrdWF2QkRzQ09mVWlKNXJ3bjBhajlOcDBQSEJ4d2hKZml1SGVCYXQ0cDZGQlRWMTVyXzVCMl9KV2gtTW4yalhwQjJsLWUzQzlYZHVndDZZdGdCamVhbWY0cHRfOEdyeFNEWXFGRm9LNDZ1XzdIWFUxVFNpb2hZdWJSLWtxTV9ZMUdVLXZYdVhFcEl0TU1kM29JVkRUSng2ZDRKVWYyakVDazhYTlFHRktQQ21scjZXUWxaY2RteDJFeDdrVHhHTUljS2I5M3VqS01BV9IB8gFBVV95cUxPQTFEMGs0Mi1XZGdCMW1ZSVJmV3pwN1RHQlptcHlOcVpvMWdBcEdSMmlYSlg5NF9tYmlXakdJZFlqaHdpYl9UTVlDa1dLMEVGZEtDeWVBTzQ0MGxaNFoxX0liSlBrYzIxUWhLZ3dpa2dPRXdHUGdiN2pZMXNzUG1RdVA0Ym8yYXBaTkJVQlJDdEk3NzEzQ1FLMDhaczdyRU5kVzBsSHNxbEg4cExuOGRsQTZqT01Fd2YzMjc4ak5YUHB3WTBGRWI4UG1JQ1duNXUyY1A3RW9HZkxDRjlzVmtyYWV3R3JmSmZuSWRaMXA2S2F4dw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-09T22:10:44.850Z",
-      "last_epoch": 1788984233000,
-      "etag": "\"09c10b0d838ad8a013ad736b53f8ba920-gzip\"",
-      "last_modified": "Wed, 09 Sep 2026 21:59:03 GMT",
+      "last_fetched": "2026-09-10T08:34:03.290Z",
+      "last_epoch": 1789028319000,
+      "etag": "\"01a1b251ee2965f6e975e437f043d7166-gzip\"",
+      "last_modified": "Thu, 10 Sep 2026 08:25:23 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -229,11 +233,14 @@
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/adani-ports-wins-paradip-berth-project-adds-18-mmt-capacity-apsez-share-price-gautam-adani/articleshow/133961594.cms",
         "https://economictimes.indiatimes.com/industry/renewables/ather-ola-electric-a-tale-of-two-contrasting-rides/articleshow/133982975.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/embassy-developments-appoints-neel-virwani-as-chief-business-officer/articleshow/133982002.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/illegal-gold-imports-surge-in-india-smuggled-gold-selling-up-to-rs-8000-cheaper-is-distorting-bullion-market-hurting-legitimate-dealers/articleshow/133979394.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/illegal-gold-imports-surge-in-india-smuggled-gold-selling-up-to-rs-8000-cheaper-is-distorting-bullion-market-hurting-legitimate-dealers/articleshow/133979394.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/embraer-eyes-bigger-manufacturing-footprint-in-india-looks-to-deepen-local-sourcing/articleshow/133999745.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/msd-inaugurates-2-5-lakh-sq-ft-tech-centre-in-hyderabad/articleshow/133999213.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/business-outlook-2027-7-growth-opportunities-indian-cxos-should-watch/articleshow/133968981.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-09T22:10:45.172Z",
+      "last_fetched": "2026-09-10T08:34:03.309Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
