@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-10T15:29:10.197Z",
+      "last_fetched": "2026-09-10T22:07:34.891Z",
       "last_epoch": 1789033048000,
       "etag": null,
       "last_modified": null,
@@ -26,15 +26,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-10T15:29:20.126Z",
+      "last_fetched": "2026-09-10T22:08:09.375Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-10T15:29:21.597Z",
-      "last_epoch": 1789043691000,
+      "last_fetched": "2026-09-10T22:08:10.811Z",
+      "last_epoch": 1789071092000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -175,14 +175,16 @@
         "CBMi1AFBVV95cUxOcnFqV01JLXBwUUhMUWlJaDVxYVJfQmJpaUM5OUNoSFFZSFJ1UUp1V2xLeU5jTkhkVk9CV2RGLURCbHplMXJ0TU43aUJxLW5Fa2g1OE5MTWZUTU1jZ1lPSnNuQ0wwSzV5Q1dibUZ3SndjQVFEM3B0aTlPWndRejg0SGNkdXF2ZEljYVRVeHk2UUp6TzJBQmpFQXcyUUd4WFppSGpJQVQ0T2Q4T0xKRE45NzhfY2l5MnJsLXAybnFhRTVQLWJDU1hQUjRfUW1SYTFfckNzag",
         "CBMivAFBVV95cUxNS2ozUV84WnA5ZjI1NDRNVDNiX0NHbktPZHcxWHBOdmZaNFUwclFDVkZPamdQZXVJMF9LOWJaR0h4R2tURTFxZkcwLWJmLUFpcXFXZkFWdWFMQmxKdjVJRHlySllFUS0wWE43Nlk4Wm1nd1JQYzJlaUl3LTFEQ1dmdjNCSkt5eEVHaGpGMUVkODFfa3prWTZ6TGN0dThNd1NQcjd1cDhVSFVFQ2k1elZpeEh5NTY3TG1nbEZ1YQ",
         "CBMikgFBVV95cUxPaDJ0WFozQzRWZElMRFIyOWl5XzhZeDJBQ0JITTA3b01zclkzZGdZdGFaTWg4TW9TbXhjSEk1cXBnUEdOWlhQSFhBMGptUjFXYS1nb2ZBM0pacjNGMGQzTlNfUmpfRjJjSlZGZWU4Z3dHZGlGeUZmRnQ0YTh5cDBENWlWSmwyUEV6Mk1sa3ZaSXpEUQ",
-        "CBMiiAJBVV95cUxQb1d6dWxIelhiamxDLVM1dDdQRFZpRVJLeGdkczJkY2s0RER6NmEwbHp3ZmV3NjBtSEpCX1dFSFNoa0NKWHdZdDVlZkVkRDE3V1hrLTR6QUtIeUpHajZjYm9sbGJSSkhEeTE0RE8wYVlSUUhZY0VaNjI5dmRteHJ1Rm50VXhIUW5MZlFjbFBJRG9BaDV2QjN4SHl5eklrUVNOd1FvcUdEajhjN1JRNU45dFN3WndEWHNPbllPRU9FaGpsU2JoREl3eFVuSXNkRlZZcVlSWUl3YmRFUmRfWlprcWpfamY1ZU9aUkZCNUVPWks5QURfT04xM3Y1djJtbW1WS3BKT1Z4Vzk"
+        "CBMiiAJBVV95cUxQb1d6dWxIelhiamxDLVM1dDdQRFZpRVJLeGdkczJkY2s0RER6NmEwbHp3ZmV3NjBtSEpCX1dFSFNoa0NKWHdZdDVlZkVkRDE3V1hrLTR6QUtIeUpHajZjYm9sbGJSSkhEeTE0RE8wYVlSUUhZY0VaNjI5dmRteHJ1Rm50VXhIUW5MZlFjbFBJRG9BaDV2QjN4SHl5eklrUVNOd1FvcUdEajhjN1JRNU45dFN3WndEWHNPbllPRU9FaGpsU2JoREl3eFVuSXNkRlZZcVlSWUl3YmRFUmRfWlprcWpfamY1ZU9aUkZCNUVPWks5QURfT04xM3Y1djJtbW1WS3BKT1Z4Vzk",
+        "CBMiuwFBVV95cUxPRFlNWjdGNGx6N0tLaE0xaUlfdzlBQnd0dXhabHNuUXZVVmJlLW9zNjVGakl2YkNpMzhadGM2NUVVQ3JsVm5ycHBVVVdiOVJMSjN5UDlINDQxZjA0dmIzWEFTNHU0amY1RGwxNUNyUnBoRXlGaEZIWXlsclRhUWdURmw4VkltbVNsVm84V05sZEtmejF5Nkc0NTZ2NHBZMEE5YnFUSDJVTWJhelE4Vk5FN0lZYVc0VHltTG9v",
+        "CBMigAFBVV95cUxQc0ZBWF9fRWhvVEk5OUp3NXdlRWV2bjBUMHRaOTN4Z3gxcHgwYllIclFGd0M2ejl5SkN5WXRBQ1ZiLUVCbnlSUjJSSXNTNVJqbnFMeEZtNjVDYVJRZXpVemhJTXFFTEw5Q2NPUGVUTFhtQTFGcjJQQktmY1pHT0xHdA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-10T15:29:21.718Z",
-      "last_epoch": 1789048136000,
-      "etag": "\"08a6aa795e09b3c88cfeb6b629547d0b6-gzip\"",
-      "last_modified": "Thu, 10 Sep 2026 15:22:21 GMT",
+      "last_fetched": "2026-09-10T22:08:11.043Z",
+      "last_epoch": 1789069363000,
+      "etag": "\"046ad463386c98443d50308659976dc06-gzip\"",
+      "last_modified": "Thu, 10 Sep 2026 22:03:18 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -246,18 +248,20 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-md-amitabh-dube-appointed-as-oppi-president/articleshow/134011575.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-india-inaugurates-state-of-the-art-foods-manufacturing-facility-in-nalbari/articleshow/134009552.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hiranandani-communities-enters-goa-property-market-through-two-partnerships/articleshow/134007959.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/electric-two-wheeler-maker-ultraviolette-to-invest-rs-779-crore-in-new-manafacturing-facility-in-tn-over-next-5-years-ceo-narayan-subramaniam/articleshow/134000918.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/electric-two-wheeler-maker-ultraviolette-to-invest-rs-779-crore-in-new-manafacturing-facility-in-tn-over-next-5-years-ceo-narayan-subramaniam/articleshow/134000918.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/media/international-film-festival-in-kashmir-ends-on-usha-uthup-note-films-makers-want-more-local-participation/articleshow/134028049.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/french-aerospace-firm-safran-urged-to-invest-in-avionics-space-electronics-in-karnataka-mb-patil/articleshow/134020312.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-10T15:29:21.823Z",
+      "last_fetched": "2026-09-10T22:08:11.079Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-09T18:54:35.929Z",
+      "last_fetched": "2026-09-10T22:08:11.573Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
