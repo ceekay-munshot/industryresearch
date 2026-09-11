@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-11T15:28:08.389Z",
+      "last_fetched": "2026-09-11T22:10:11.679Z",
       "last_epoch": 1788706832000,
       "etag": null,
       "last_modified": null,
@@ -10,23 +10,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-11T15:28:12.714Z",
+      "last_fetched": "2026-09-11T22:10:46.163Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-11T15:28:15.244Z",
-      "last_epoch": 1789137168000,
+      "last_fetched": "2026-09-11T22:10:48.465Z",
+      "last_epoch": 1789159725000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiuwFBVV95cUxQM0FtcjkyUWhUaW5OQ3IzVFc0elRBSUUzakwwdnhJRndGLTVKT0YtaTNhMURwanRiVFQtNEhybHpzMDg5c1VUX2dfc0xxMEJLUGpJSTVnZDdmNTJTMzg0LUxWdDFheGkwNU5xVVBTb0NNT2dveUliMmRsSWxQQXpKRGVsZFY4cm1jT0RhNmpvdGY3OTJVN0ZpMWczQ3NOR2ZDbFhCc1JsM0ExUjlyRlhUVTgxMXltQkhvdVJv",
-        "CBMihgFBVV95cUxPM1pRSmtuWGd4ZW1YWTJOc3RUUWxNRmp6T0RCMmEwMGNNWDZCaWk0djVHTnkyUW5fZEZ5Q3VGalc0ZHhTYlBWYUt2V0RwcXlIMXJOWXVuOGxwdnFDb0ZDZDdKNlcxWGFsMXZmZGZBdjBJMjZNVjhNN3AxQTNxcFl4TVA4M1duZw",
-        "CBMigwFBVV95cUxOc19tWkhaOGg5NWFFWGN5R0dnVkctSk1OTlQzdlJFeGxyOFdpcDl2VllVZTU3Vl9CeWZLTEkxZ3MtUG9Xam4yeVlvU0wtZTdaWmtUOFppY0ZDdVFWczNNWWVQd1FVM05XS09NZ3diemlBYlNoc0RCcUttaTB4VUozci1qbw",
-        "CBMivAFBVV95cUxQMTVNSHhYUjJUaGJPbEdBZXBvdlRWN0lYZnU1aVJGZWlEOG9Uc2c2cFZqV2NhN0EwNUlPWDdraC1mWVItZmZCMjM3dldaeTdBNGJqMXN2WV9OV0FOSTlubzVRMGJLcDI4STdRZ2pwU0NkTmUtaXl4QVctclF2V29MUGNneGpzbkNLbGlSaldDS213SHU3S3VHdVBfT0RDXzAzY0x1SHphUVIxM1p3aGV1Rm10NFVNYTA4Tk1Zcg",
-        "CBMiY0FVX3lxTE5vM2wzV1pSQUZuQTBGa1ZsTFB2UlZaRnpsRDZNNlJ2OXRvTlRrYWNodUxIc0tyMEtvNERNYlpSVmVpVmJ5cW1FRFBQWWNLczlBcHN5QWNsc1pzZXpOc2FIYlh5bw",
         "CBMieEFVX3lxTFBHZ0ZkUHpmYnVQTi0yM0ZVRzNwV2hTdG1sOHREVnNJdnRzcW5VY3pSYl9Vc1Q1Uk5URXdXTmtxZ1hKX2M2WGl5QWFQejd4VEJTcWlhT0pocVJGR3dtS2dQYl9ERWhnU1oya1JpWFpvZTJZWjRYdHhYVg",
         "CBMib0FVX3lxTFBFT2J4czliTUlxb1RWc3cwc3NXWDZ2dWF5aUcwcDZzazJUelROdlBSLWpZUWltLXNaLTB5WW02UFZUeldiYUtFbW5pU0tkTjhXYzBYUG5SZUkzdGlOM0RqbUtHODNuNlRiS3dRVm9SQQ",
         "CBMiY0FVX3lxTE5IX1lvZGNiMnNKQkk5dzZ1X2g5Y2xnbjgzQU56cnlNcHhMM3V4Szdncl9MVUVEVmtaZzJXUXBxNGtUQ2lBZlNWeXhIWVBad0xVeW8tTWFxQkRmbjFtRHJMdkJETQ",
@@ -321,14 +316,19 @@
         "CBMib0FVX3lxTE9ydnJnUnRiSkVUbTFkYVBkXzJRdkJCMk0yWlc1YWlOODNaZ2p2NDRnb3BtZlhzRUFsVG15MHhoYjlvSW13VlBUY0FtUUFPOU41ZThnU1ZfbTl2N0ZiMkk5YlZ0N05WYW9NdWwyaVo2QdIBdEFVX3lxTE9GR0hDTDdoRU1PN0JxWHQ4LU5xTDdvdDFkMVg0RjUzSU9jdF9wUk14bXBRQmN2YWl1eHVVSV9UQ1R0anhEc2g2YlcxT2tJRms1Z3o2NFhSRmhvMFRzV3MtQ09xdUM1V1RVeGhjeFdUVDhock41",
         "CBMiwAFBVV95cUxQWVJlNEU3VkN4bjlYTjNQYlQ3NnVwY2hmOFBXQmNVNjhTbW5KSVJEOXZILXNydG01S2tRQXRHeERRU3A4Sk8wQVpUNFE2N21XOEtsenpmSzBIMGFKYVpFSWRGSEVJc3h0REZLaklodktwdlJMcnNhR1lvVjVZelQzQ19kS2FieEJjbWhNakpaUFdzdGZiczFqczJOR0ZmWVRTZlowMF9VUG8zQnhsdVBwamhucVdTZjdVTmFVWmZRSHfSAcYBQVVfeXFMTUliQW1fTUZpRWVuc0Q0b1hZckhad3BkNG1FTFdYUEdTclYzTmktUkJNYzk0NEhpaTI1bWdKbmVRUXp6aXI0Ri1oNl80LUZvU1VNcFA4WWxjU1V5Q2JQSkVUVmtuUk5LV0RibHlTNTR3dHRlcjlmeFRKTmhObG94a0dMTG9CUVozaUI5Z3F5ejctLWFFX3NoVmtNWXA0VEM1WVNuUTBkRHJuakcxaHRSUUdDSnlkYU5jZWRhSEpTZnc2SUJYd01R",
         "CBMivwFBVV95cUxQWmhDZTlEUjNWcW5aWldhUVlSeFJ5Rmt0VUJ1X0lVaXZUNDhmVHRkMl9VcXg5WnA2UThCTnlMNzlyX01TTmx4VU1HZGowMmxrOXU5T0lMSEtOYzlGNHBULWdYTHFlWXppZzBWRktEUlV0cWNRZUVza0U5aElNUFExZGtCdjhkbndVWlktd0otZWlpTHZpT21jV2xwak5LZjNhSkp2S1phb1RfMWp4Vk43aVo5bkdlZXFyWVlEaWU1QQ",
-        "CBMiogFBVV95cUxNZzJlU1ItbW9GZnlxZi0xMnNGTmJnSVdhXzE2bWhGNW5KOTA1S2E3a3hkM2Viend5X0JIQ3JNRFY3bldTOG9yTVlsaFFBZzBSdlFGTFBvdFp5NGRlNUJneXV5WHFlbHdydTdOZHFjM0oyWS1hUjVNei1WNkRhMGRfVXZXYlJuZUUzR0xrd3pTQS16VGpOZldQVEhJV2Y5LXpCMWc"
+        "CBMiogFBVV95cUxNZzJlU1ItbW9GZnlxZi0xMnNGTmJnSVdhXzE2bWhGNW5KOTA1S2E3a3hkM2Viend5X0JIQ3JNRFY3bldTOG9yTVlsaFFBZzBSdlFGTFBvdFp5NGRlNUJneXV5WHFlbHdydTdOZHFjM0oyWS1hUjVNei1WNkRhMGRfVXZXYlJuZUUzR0xrd3pTQS16VGpOZldQVEhJV2Y5LXpCMWc",
+        "CBMigwFBVV95cUxQblZJeGc5OGNEZWNOaDZ6NVhsakR4SU9WLTc2cGJnQ0JudzFIcG1kdUpPVkpyR3VEZzhYaTBBLXZxNXJXOGFPV0ZwNWZUYkNfMWFFcGY5ZTdQQ2U1Mms0RjhLTzhGbmE5RWlheUoxbFp6Vmx5RnI4ckZHNFVLX3k3Z1dqYw",
+        "CBMiP0FVX3lxTFBLM2hTWm5JYldTTUgtajhTNUtjMEo4bGRyZm8wWXJRNERqVkpqMDd6MDAtT2lIYjRSczZwbGxaNA",
+        "CBMiY0FVX3lxTE43WlhOMktiVEhzakRybEh6VFdwYU5hS0N1Z21ENEc3S0NhY0pRaUxjNXprX2lsc3o2ckV0dnlETkF5NGpGMW5CX3Utd3pnWmF0UFdfSFc5dkhCOElUbVhua3pUWQ",
+        "CBMiQkFVX3lxTE5VbmhEekE3WDRyWlF1R3pwR1JONVJDUi1UM0R4dVlORkF3SlB0Y3RFVi1aMHVuWXNsbTBnWXFpY2NCZw",
+        "CBMiywFBVV95cUxNNVg3VEQxY2ZmdWg0Rlh3dnVrWEtPbkRzNXdFcDNhRGVLbjVLSVZfZExNdkp1aERDcEh2dUt1SlhFbUlmaXJIQXhYUmpLZ1NuQjlLMVo2cTU2Y3BNcGRwRjhJOHhNT19vdkpjTVpWWVdjUDI5QXpjYkxwSTVTczdLaVVvdlJmM1VraVA5MGhINzk1MmxiU0YxTTF3aWRGT01Kc0lwTEhMWDI1VUstaENIU0ZSLUJEb2hLZ3dXV1V0OFliNDlia2pScnVDMA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-11T15:28:15.503Z",
+      "last_fetched": "2026-09-11T22:10:48.515Z",
       "last_epoch": 1789135441000,
-      "etag": "\"0078aab3a78d5572031cd71cff39739d3-gzip\"",
-      "last_modified": "Fri, 11 Sep 2026 15:10:23 GMT",
+      "etag": "\"05343704f36c2736587d8bace223fac5d-gzip\"",
+      "last_modified": "Fri, 11 Sep 2026 21:51:18 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -345,14 +345,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-11T15:28:15.541Z",
+      "last_fetched": "2026-09-11T22:10:48.588Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-10T22:08:50.147Z",
+      "last_fetched": "2026-09-11T22:10:48.772Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
