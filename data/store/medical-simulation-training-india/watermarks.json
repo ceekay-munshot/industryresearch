@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-10T22:05:08.985Z",
+      "last_fetched": "2026-09-11T08:24:57.074Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-10T22:05:43.467Z",
+      "last_fetched": "2026-09-11T08:24:57.190Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-10T22:05:44.559Z",
-      "last_epoch": 1789074236000,
+      "last_fetched": "2026-09-11T08:24:58.120Z",
+      "last_epoch": 1789110077000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -120,14 +120,17 @@
         "CBMirAFBVV95cUxPT1FzTW9pZ2VNQXFrVFRGMEFtQTRiWDc4NnJ4OUpPdncxOHJwSngzZVpjU2xsSFBZSTl0SHN6U2p6MmxyQnZzNEMxdzhHaWdmcVJyZk9INS1RQ0IzUGFIUG1mYkgyZHpGTFZnZjc1TUtldnpsTXNZTDFHOWFjWFdhMHdkSDFZMEJ6RjRiOW5ScHYyMWRTN0pHcnNmeFo0RkNZcTVrYmdWdlNfQWFl",
         "CBMirAFBVV95cUxOaDhIWjhXbkNwaDVTaEJRN3VCU0REX0xPejdHVFN2OVBnd0w0SnpxNHpLaTk5VW1YZ2xibFNhRWN5WFhBVnJ1aThtQTJKcWZ4U0VaMFBHNlNKUkRTRVpxMGFnV2FfZmRqc3Zadm93R2xBVUhnQnVuWTdRTGk0MVdvZThISFAyQWs3R2hlZEdhZ2NjaUxUVHc2TERySjVVaFJ5RGIwVTFyQjlvRHFH",
         "CBMirAFBVV95cUxORGxBMVo4dGtpSFg1ZWJCRWpvMTZWWmdwcWkxZ3RyXzFBWW9oTGw3MmU5c0FHVk56akhxaVZpRTEwME1Ocm0wNklKMElpUlZGT281aVYzdy1uMnowXzR4b2ZBYV9zVWhMRnZ4LVN0ZmVsd3ZkZU00bmw1N2JsY0NYb3hRVkh5YWpGZHNzUGhDaUxxRi1Vakd2dEJKaC1DektnVTRMQUJXZEZxTG12",
-        "CBMimwFBVV95cUxQNGJIdkhtUmFSNndPY2haaHZWSkl4blRhWUdWRmoySDBwZm85aTJLVk5FM1lzU3pyZHdMS3hwX19iaTJSTDRnMUhDTk80V005bFZ1c3UwdWk4Zm1nTTNiMUM5cVRPVnFmaEVnVzF6VlI1VTFrTXRmc0pHRTdCMnJGVE9OQmx5c3BzNkV0ckZxSDdtc25OSGpfNDhsVQ"
+        "CBMimwFBVV95cUxQNGJIdkhtUmFSNndPY2haaHZWSkl4blRhWUdWRmoySDBwZm85aTJLVk5FM1lzU3pyZHdMS3hwX19iaTJSTDRnMUhDTk80V005bFZ1c3UwdWk4Zm1nTTNiMUM5cVRPVnFmaEVnVzF6VlI1VTFrTXRmc0pHRTdCMnJGVE9OQmx5c3BzNkV0ckZxSDdtc25OSGpfNDhsVQ",
+        "CBMiqAFBVV95cUxOdnJpdnFIQ3FFb2ZlX1dPZnNYQXMyY3hjTEl4Ny1qRXU5TzF2OXRIVHdXV0Z1bUJoSXp1a3dMSXRNVnN0bVg1YjNBVVo3eTYzVlZFVlF5dHdkWEIwV2ZiSlBHaWNyOENwNExIcVVoZTRkX05raHJuNS00ZmxMcEQ5UXR5M0tSS2ZydC1scVFBU1B5eHptTHpaYmNQZG84YnpFQzdkd1RwM0k",
+        "CBMiwgFBVV95cUxNRnAxNmZ2Mm9jS0FzWWRZdl9aQVRVVFZXbjZrMHpYd09za1k4emk4Z1YySTZ4NHF1Z3Bkdmp4NnVmazY3WmVFRWNaTkhpSjNPRzVxdi1EcFZpMzNQejlEZ0hOenl6d0dGeFUyb1A0NTgwY3RPM1ZOa2lYNGJqY1oyS1hqLU9WWXVtX3NzS1VYdjJ3ajR0N2dfM0tGYjF1Vk5Oanhfd0VIOWxqQUNkNUJsU0RwelNBSDZfQ21tMjVHU3kwZw",
+        "CBMiqAFBVV95cUxQZWRNTnVqU0plZjB4VnVDbE5KTTJsZUhUaEU4aXJzcWgwaS1lMUNFUi1NSUlLRU5YZE9oVjhpdE5nMFMtTVFjZUV5NTZCd1V5MlFBak5VRWl6WU5nRFFPR3Z1VWc1M1dSbFl0TTl0TTZKaktIbkZ5b3hkbnlhaHlIY2xVUE96Wm5aYk5wd3RsRTRuelNZbHpyQzFfNUdnc0sxLUdZQTd1T2k"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-10T22:05:44.595Z",
-      "last_epoch": 1789069363000,
-      "etag": "\"009f2c3535a66f5f8d84618d53193d159-gzip\"",
-      "last_modified": "Thu, 10 Sep 2026 21:47:12 GMT",
+      "last_fetched": "2026-09-11T08:24:58.134Z",
+      "last_epoch": 1789109532000,
+      "etag": "\"0ccf4cf21df4cd13e5b95704533ad9b98-gzip\"",
+      "last_modified": "Fri, 11 Sep 2026 07:56:58 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -183,11 +186,13 @@
         "https://economictimes.indiatimes.com/industry/services/education/et-masterclass-why-ai-skills-and-financial-literacy-are-becoming-essential-for-the-next-generation/articleshow/133959663.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ikure-bags-usd-1-8-million-from-global-investors-to-expand-primary-healthcare-in-india/articleshow/133998168.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/regional-healthcare-hubs-emerge-as-new-investment-hotspots/articleshow/133993549.cms",
-        "https://economictimes.indiatimes.com/industry/media/entertainment/media/international-film-festival-in-kashmir-ends-on-usha-uthup-note-films-makers-want-more-local-participation/articleshow/134028049.cms"
+        "https://economictimes.indiatimes.com/industry/media/entertainment/media/international-film-festival-in-kashmir-ends-on-usha-uthup-note-films-makers-want-more-local-participation/articleshow/134028049.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/india-crosses-80-lakh-hpv-vaccinations-in-nationwide-cervical-cancer-prevention-drive/articleshow/134051118.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/japan-court-dismisses-ihh-subsidiary-northern-tk-ventures-damage-claims-against-daiichi-sankyo/articleshow/134048690.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-10T22:05:44.664Z",
+      "last_fetched": "2026-09-11T08:24:58.148Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

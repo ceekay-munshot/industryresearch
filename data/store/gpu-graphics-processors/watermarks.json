@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-10T22:08:11.784Z",
+      "last_fetched": "2026-09-11T08:25:08.095Z",
       "last_epoch": 1788706832000,
       "etag": null,
       "last_modified": null,
@@ -10,23 +10,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-10T22:08:46.553Z",
+      "last_fetched": "2026-09-11T08:25:12.577Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-10T22:08:49.137Z",
-      "last_epoch": 1789070517000,
+      "last_fetched": "2026-09-11T08:25:14.660Z",
+      "last_epoch": 1789105916000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiggFBVV95cUxOUzBhSWZmTEhwa1NDNkgxN2NpWkpoSE5uN2pvNmdnMkl1Q2dxUFZvRW5VWXcwZmxNVUs1V0w2QTN4MzhEVUtma2d4dUhUTjJNdmloM1BzQ2xPVjZZQ3otVU1tdFFPY2NtQjZGMVMxNU9faDdNWlRGUFVYT2VveG5hbmpn",
-        "CBMipwFBVV95cUxNOC12cUNTSGEwQW56a09pUEFFbTdQZDYyOHFwSzlNMFNxQ19oUllSc3g1LXd6ekd3b3p4MmNFYUU0VU9QRVhKMEprQU5iVDE5am9YUzZfbDF0TGZUZ19OT0hMSVZIeEZmUjR1OXVkV0ZtaTNINU5xaUJwZnNyaW9GR3FBQkVpcEQ0MW9FRDh4UnJfSWtvNkFtUXhvSnFncktUUk90VXJCcw",
-        "CBMid0FVX3lxTE1veHl1U0IwU0pDR1ZTd19KdHJEYUNOWG50OVY4SG10VGpzVkh3MG54ZUoxS2FrcFZ5Q0gta05PaWxubV9VM1ZTam4xRGpIMDVrTlZFSEgzeTRvVE1RRGZQeEVEaTFqNnpSeldPS05UWmJIWXFSVldN0gF8QVVfeXFMUDhKY3RqLVcxMHFWOXVsQkRTVEJ6VXh0MzdLN3VuVXl3ZUVyNWRzd1pxVDNESTd4MHhydmhnWUdpZ2VKaHRDUWwzREttekN6dUdhNFRlZmNvM282U2YwZWlyRzgtVnAxd2FCWTllN3E1ZjRJWUN4eFFVa0Z6OQ",
-        "CBMihgFBVV95cUxPYzVrYWFJSldGNkxRaTBicmg5M2lZYkJSWFhPeDNwT2w3NnYtcE5BSXJLOF9tUXE0aDdfTWltZmdOLTJqU3AtUTlGbXFxcG5rdEh6UkZjSV9iX2Y3X2hXQ1BjejY1NmI5RkdqQ2RUN01ZWFgySWJDVkc4WEtGa05WOVNyeTg4UQ",
-        "CBMimAFBVV95cUxNYlMycHNtbklRdFFPaXNoeHlmVzF1dHJYU042Z0xMRFdXdE45V1ZFek1wOGdVUjg2WHVxc3NBdjdXQnJibnlLUTVLb0Zya1A4czhaQkMxNTlFbVBBZ0RtTTduY0VydW51RF94dTRyaXExZ25ReUU0OG9BX3lUWUZqVHlLQjNjUm1RdWlKclJScXlHWlUxRlBtNw",
         "CBMirAFBVV95cUxOenN1MUh5d2V6Q24yVGsybVl0V2tXUWpiRW9kWDN6R0I1ZU9ISmtHa2NhcUtlZTlqeXJ3aUlpZ1A3cTJLV2R3V2lsZDBRUmx2X0hlUGYwR1IybmdwQlk2bXpIOG1Ga2hOalV4enJxbEViZ0x3WXVWMFVlZmVKMlZvcllDaHg1dURabURUUDB4ZXRuUXRITmFUTTRocVo4YlNYbmdWME1ITDBJU2Q5",
         "CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc",
         "CBMi4wFBVV95cUxNZUNocGNzT2FJb01QNmVWTHpoSXkxUUNVdlRDTVZET3hZZVBDN0JGTVBTUFF5aEdERTJOcU9LeV9VMW12ZlZSck5uQ194MjFmYVlMWGt1SzdVODFjY2hkV2RFamlFdzVaWkNYNUdnbXcxbF9rTGJwY005LTlwN1BtUDdTWDVaMk1kejdPRzJKaVRTUVB4X3FWVnVlNnNPcUxUZGNHSzNTV0liVVJaNTMwdEdYcENaOFVtZVc5TXFIY0xsUlZJZUg2bkJKVnJ2OUhqSVg3bDZrQTd3eWdTVmNvMlJkcw",
@@ -321,14 +316,19 @@
         "CBMikgFBVV95cUxPVWluOXZXOE9qdmRaSVREOTEzM3Y1cG0tcVc0T21vREpleU1LM3JqVUxSWUR5ZklTQXlKdHltOTUwTEdaZlZSNzdwMDJTdzFpMlFlT09KYWdoN2JuM291S21VQklMZlhfbHVEY2ZsR0ZCQ3p6TGN6MkdfazBDeWlna1JSeDNVWEZqR1NlNmp1MERfQQ",
         "CBMijAFBVV95cUxOeDRoaFJyQ2h0VW9qMGg1Z3NydmpFTUF3QUdwRDltb1VGZFJXbzI4bTlIOXFuTm41QXlvWDdlSl96bG1mN3ZnMnZjczY3V21RcGdWVkFUXzByNFBnaFljQS1nY2I0UW9JWTRQRjVnUjQ2Wjl6OHlMNV9pZ3NLNnBXVFp2Q1R6eV8xMHNYRA",
         "CBMimgFBVV95cUxQQTdIVnk5cFdkWkctblYzM3N4VXQxV3dfUU4tUVdPM2hQTm5FUGJCOUt4S0NVU0VZQ0dVR2RZa05KZXZsb3hhQTNIZ0ExaTV5Y3l5MS1KU2h6aDRzT09iRkpoel9vWTBkVllpcDY4NzBuUzY3WGpBZVl2aXpiR3BTbTlzYUozcWQzV2kxS3VzMjZkZ1lEaVFFaTlB",
-        "CBMiugFBVV95cUxPWlhfdjkzd3dXZ3dqYVIxSW5HemVEb0EwdGUzWFBIUGJmWHpUN1dVWXBPeUJpQXh1SzJnQzhkbDJLSklhNlFZV1pZZFNPLXNMWVRXN0ZJeEF3eEw3ZnBDa0NHY3R3V1F2bTM0QU54TVFLMHZWdUo1WFNRMHg1NWJYbnFvMzlVODlndUhLcFR3X2c4WXNRdHRRbUowdEczWjl4Z0t0VDROWkl3TmdwdDNmNk1mRzlRWk9fbXc"
+        "CBMiugFBVV95cUxPWlhfdjkzd3dXZ3dqYVIxSW5HemVEb0EwdGUzWFBIUGJmWHpUN1dVWXBPeUJpQXh1SzJnQzhkbDJLSklhNlFZV1pZZFNPLXNMWVRXN0ZJeEF3eEw3ZnBDa0NHY3R3V1F2bTM0QU54TVFLMHZWdUo1WFNRMHg1NWJYbnFvMzlVODlndUhLcFR3X2c4WXNRdHRRbUowdEczWjl4Z0t0VDROWkl3TmdwdDNmNk1mRzlRWk9fbXc",
+        "CBMijwFBVV95cUxPaWlnbGFnTlYxdzlFU1RidmVPQ0twUC1BTVVVWUpVbU9KSkxTZWdveXVwMk92UEF6RzgxbGs4dktwc0wyc1N4VFI5eUNZWEE2TXFlSkRvNnhxcTJGdFFSQi1hZ2UzaXNNOFpHbzluUlZfalZ3NXB4YWxYeEhzV0pNN1E5blR0OGZrX3JpcVJ5Y9IBlAFBVV95cUxNd2hWbDhieFdzZUpnU3M4MW5rMU5WaEpwbzJJcU1RWGR0UVVQY0VfRG44UklMbXIxRmxueWw4Vklpd0RLdG1BN3Z0UjFrWENzS0l0RWIwOWtTTV9ZY0FPMHhoSThhLXdlSENvVXRMb1FsOERHVG14YWxqNThEZVBJNi1uUW9icnQ5M2xHSXpsY1hrNG00",
+        "CBMi8wFBVV95cUxPZWRYbVV1TFlTc2JMYmxsbTZOaUtDSVRRVVJSa2dmTjBTTWRVYkhrSGhaejJiY1JMM2lZUlpkWURsc3YySnB6emNSdzBPRmpORHRtNE5FY09UdXdNTk9pREpVYlBqVGotbDdvNjFSbWRET2dSbFpzUmZrR3JPZTNUUlBwZ3BteThjNkNsYl90ek0xV3pnbHZ5RmNmYk90UnhJdENIbHNKV3Ewb2ZYUWljSmJzUFJxekNVMVlDdGIwM3dDS1ZtdDVnLVhVZkM0U1FteENUQzJWbTdudHVxaFYtNTRNRnRuNFRoUXRmUEUzdjNNLW_SAfcBQVVfeXFMUHNrY0g2ckJaVTVyT01ZdnprUjh1eHJCd2tNMzVuVU5TU0h4TzEzaTRFS0pubHBFSUphb2xsclNIYW1kZlJTT0F4dWRHdXVyTHVhdUp5a0VJS25fejVFZ19RZWtwZ0RKWDVVN3Q2WDV5TmhEYVVjUFo5RlVDM1BEN3Uyb2pkaEpMOW1vSHQ0TDQ2MS1sUU5Xek5ET1N5V3NmbGgyQzZJZC1MZ0ppakxrcDh4MGFZTnBWUzRqdk9kWE9WZlY4TWU2ZE56ZlRORG8xSERFRmpTekd2UmxIRDlBZFdKOEp1QWhKcERVLVJrRkFNV19UMU5Paw",
+        "CBMihgJBVV95cUxNZ2s0Y0VCUTZGdThrbHVnSVU4LU5HWHFBZWJjZzVOR20ydTRjSTRXRVZCSW9YZTZLVkpxTl9jdWF2X3NKRlFCYnJqaWVPb05iRWNNWlZMd0NYX0ZLS1UyYV9oRlRfc2pMYzBxYzJLRWgyTGgyV1pVd094TUtyNzd4MEJBS2kxNER4cUUwSU9sTGJMb2dkWUxTcFFaOWMwUy1lSDA3VjMwbFl0YWdJQ28zUExYUG9WYmlsWmxCUXRlTktkQmktV3hxLW1RdGc5MmRDZ0hzdThncGZ5Ym54SHVKc0tGanpIdE02QXMxaFQ3Q0VSMERqSmRoajByMUFOR3F5SkN3RW5n",
+        "CBMihwFBVV95cUxNbHE2WGxfclM0VU8tVFV3cDJ6enRkWFphSEtwQTNqcWNvbFdpeEp3VFBlQ2dSZENLVFhPWjF5ZjBMejZXSFAxaWp5WEpxNHo5SlVMNjYxV0k4b19EdTd0VnFoSHQ3SVFpamJuenYwLTdzc2d5X19WTlF1UEx2dW1xV0c2dFhaeWM",
+        "CBMiuwFBVV95cUxOUDg1TE1QYnpvOTRUQnlpSUlsR1RxZUJlVWZDTjZjS1ZFQklRVGk0VXZfMlc2NDVSc1MycjJwUHZrTTRPREl4YUdVNkF1Q1BQYmdqZXNfMjBBanU5cXNqQTNYQjZPc29RNWgta19yRHpVSmdxVmdQRElERGZMdk5HQXlneGdsWUhnbVJ2Y0pMMkVWY1pPSXpQLXE4ZWdabWU0N2lHdlpMWFVHMXVOQ0hwNUt1VVVoZlBOSDk00gG3AUFVX3lxTFBEc2J5c3Q3VklQSXdVc1A1ZlBPdUZvODJGY284LTFEMU12TGhsenZkeWhhZTYwWTEyZnVPeEtHalUwaVQxOEtCaFNKYlpLeTJvbkRlMk9HSmZsazZrVXZSNFZCRTVlbGd6WlRvaUVaWDVYUHZlcTQ2a3B4ZGFwR3ZLVmFLVmYyOTF6dXJuUW9DcTRweE9JSHBXbU1hVkotb1J1eVhZM2dQcFI4NUtTakgxbkdwZzRNOA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-10T22:08:49.184Z",
-      "last_epoch": 1789028873000,
-      "etag": "\"046ad463386c98443d50308659976dc06-gzip\"",
-      "last_modified": "Thu, 10 Sep 2026 22:03:18 GMT",
+      "last_fetched": "2026-09-11T08:25:14.677Z",
+      "last_epoch": 1789108741000,
+      "etag": "\"0ccf4cf21df4cd13e5b95704533ad9b98-gzip\"",
+      "last_modified": "Fri, 11 Sep 2026 07:56:58 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -338,11 +338,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/food/front-of-pack-labels-food-inc-bats-for-per-serving-benchmark-in-sc-not-fssais-per-100-gm-plan/articleshow/133981453.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/indias-fiu-ind-cracks-down-on-15-crypto-platforms-over-money-laundering-rules/articleshow/133980447.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/gff-2026-sbi-sees-fcnr-liquidity-deployment-taking-3-4-months-eyes-agentic-ai-for-banking/articleshow/134000172.cms",
-        "https://economictimes.indiatimes.com/industry/services/retail/indias-organised-apparel-retail-revenue-to-grow-12-13-in-fy27-margins-may-shrink-crisil/articleshow/133997479.cms"
+        "https://economictimes.indiatimes.com/industry/services/retail/indias-organised-apparel-retail-revenue-to-grow-12-13-in-fy27-margins-may-shrink-crisil/articleshow/133997479.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/ai-assisted-microdrama-content-share-could-rise-to-about-80-in-18-months-experts/articleshow/134050600.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-10T22:08:49.650Z",
+      "last_fetched": "2026-09-11T08:25:14.696Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
