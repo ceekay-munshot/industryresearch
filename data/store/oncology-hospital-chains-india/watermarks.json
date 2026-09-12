@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-12T14:35:11.474Z",
+      "last_fetched": "2026-09-12T21:49:26.952Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-12T14:35:46.999Z",
+      "last_fetched": "2026-09-12T21:49:29.499Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-12T14:35:48.755Z",
-      "last_epoch": 1789166821000,
+      "last_fetched": "2026-09-12T21:49:31.152Z",
+      "last_epoch": 1789227000000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMivAFBVV95cUxNQ2lZUGVtMkc2ZlZWRjBnZUpVQktHNUVLSEJKOFZtc1JfQ0lTcUt6WmJTRUhOYXU5Qno2LS1ZUTVxclJkTTg4MUNNLUZxcTN6ZFV1dUdHblVKX2xEMG5JZVdBbFVENTZkbXdJSDFJaHFVZ0x5ZDd5bXloRGotNi01cU1yclJ2X0tWSVJWZWx5TFVVU0o4dkpkT3pFWGVZVGstemRydkhiOFNmbkdhMnRMbjRqU3QtR0FWWEprQg",
         "CBMizAFBVV95cUxPdEg3LTVlMUNDY0FXOXRoU0hJcE9iVDExNWowSlNMNU1leTRtRmtPbG96ZVlRU2ZFX0hjZDhKaXdldWo5clZJUVVqYk51eFppQ2REYWFvS2RPeFlVazNkMWxGbjZOZjJBVEF6VlJONEVyVkZzVkhvREVlVmd0eTA1Z0dHLWpfNDlFOHY1OGxtdVFTTUY0N3I5LUs0aE5ZOHY0QzFOUm9yWjNublBZTkJheG54WkJpSm5lMDBqbnc3UFUydnNUTzZkM1IwWTnSAdIBQVVfeXFMTzloNXplZlU2b21TdmtEZUxIcE5kNVliNzVYWmEzMjJKQm4zTHg0bDlSN3JaQ0FGUm9rOGgzUlJMMDBKNmsxU1RXQU9LU010b2s4NUlBOHIyOWxGaE4xUFNFSkNLOTF0dVFMMTBoeWZwS0VMV1ZrU25KV1g2U0hfcFd6ZXZfWDY2UDlRckl0Q1RsaWtLVFhoeHowbm1OYkl0TlVRQWdqbHY4akhIR2VEa1dDMkFwenZ5T3F6dmE3VVV3c1hyc1A2WG1YUU9hLXRocHBB",
         "CBMie0FVX3lxTE5DTkU2b1lKOXl3ckdrWmVVVkhIaGFuaDNuUk5oel9VU2hJdXNOeEhXX25nSHQtMF83SGc1VlJTemxUZDU3akNvOEhOYnFkZC0xT1dBV0YyTkFjWVFVbnZTTW9wWUN1aHNTanNJY0pXejRidEV2bmxsbVExZw",
         "CBMiwAFBVV95cUxNVEd4WWVqQlVPTTI5bm1nZEtxMTZvMUtRTEl1WDBSVGJsY3ltb3J2ME5CRVYyUVhFa1RoaldkRW9SbThQT3c4NWVrM2NEYzBjVVp4UHUybFFLUDc0eUl6REYySGVfQnBNaEJCY19MLTlaMmxYVlM1eVhVT0hPTnkyZlRCRGl6M24wUDlvcmpTVlRCYWVQeWEwSWxFckdpcmpEQ1ZQVThJSjhQcnduWU9LYmk3S1R4NlQ5bEM0aS1STTI",
@@ -319,14 +318,15 @@
         "CBMiXkFVX3lxTFBCV3NmVXU1bEFrQVFHWXltQ2hnLVl0V0JES3VKX0Z3a2ZSak5LWTlJMGdiWGJFQUY0ajA3MVBPQ2dFdGRqZnhoM2c5SVV6VVBKZW5WeVdXemZNaDRxeWc",
         "CBMixAFBVV95cUxPcGpyX3Y4TWl4TnJ4SmpzUTAtT056ZDRMcmNVTDVnU3JFYnBiV0hYaUVVNUNWbkZ6cERhR0phZ3pCMVZJOTRqNUFVSWMxb25LbWVscWRyVzRPQW5YVGQ3VngxRGEwdUZhM2FJRHJoRmt4RWxSR0NWbEZDWnpyNDBuaDZtM0FpUzFnZ0NDX3NLejE5Z0tjZGNITl84eUdrTS1tS0Y2ZEktRWpQNDBiLU1hb3NHSWFyR0xyTDZpOXFTc3V2aFpm",
         "CBMirAFBVV95cUxPb3NsNTZaeWZRT0w2b1ZNTGw2WW1HT3dkRHpxSUhxTGJkQ1FKWkxoTGZRSGptMXYyN2RUQUJUa09ER2h1YXFaRENOeFZIdlBmcU1CdlF2SFJ2TW05a0Z3YzdIbnpWaElNdzZPWk15cnBSWDRudXpmYUdUSTlnWjYtaGx3Ym44U0VNRXZUN0twWWlzWEtFUzVyc1BiVmtHTGE3NlhXdFBDX1R5X21L",
-        "CBMi8wFBVV95cUxQVm9FaENGWjdrVnNyODE5UE9BbnRldWVBdFBmWDd5bS12cHBFZE0xTk5Lbnh4UG5haGhTZUFKRjA0WFdaZUZVU1IxNGJhbDVfcEs2YmVHYXptX0RKQmpmMVlqZi1LN3JlZVhWeWF0ZFc4TmVBSU5IVFBvOEQ3UVJwU2RkTmV5eHdLcW9TaEdfWnd5bmpxMXdzS05zS2Yxbmk5NTJtNTB2QlpsUnk4NGQwaWdYUGpweFFyVU5vQkRHYmRoWjQtem9yVE5UQzc0VWp1enFsc1JZZ1lnQVRyN3hRbllUa1BEOGdmeGVzUEk0NURUX3c"
+        "CBMi8wFBVV95cUxQVm9FaENGWjdrVnNyODE5UE9BbnRldWVBdFBmWDd5bS12cHBFZE0xTk5Lbnh4UG5haGhTZUFKRjA0WFdaZUZVU1IxNGJhbDVfcEs2YmVHYXptX0RKQmpmMVlqZi1LN3JlZVhWeWF0ZFc4TmVBSU5IVFBvOEQ3UVJwU2RkTmV5eHdLcW9TaEdfWnd5bmpxMXdzS05zS2Yxbmk5NTJtNTB2QlpsUnk4NGQwaWdYUGpweFFyVU5vQkRHYmRoWjQtem9yVE5UQzc0VWp1enFsc1JZZ1lnQVRyN3hRbllUa1BEOGdmeGVzUEk0NURUX3c",
+        "CBMi3gFBVV95cUxNa2g4azBJUk4zX20wci03LXEzODVkT2xfQzZFWkE2bkxMZDZhWnBTVnIwZ0o5ZFk4aEsyTGRCd1l6aFdiaUZnM0VpdzZ1M0Y0bnBPLVNVRlpsTHlJandVeU00ZF8wS1o1WXhGcGJvMWktVFVrYU11eUdKbzhVeDluWkktMTZ1Rjh2dDhIVnJ6T2lILUd5SDR3eTFoV0VNTDBLRkpTSVdyT0NUaDJvR1plTVI3T3h2cThwT2lNZFBIU0cyQ1FUcDJ6U252RjZqWTBvV0dyTUkxVXp3QUE0RWc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-12T14:35:48.787Z",
+      "last_fetched": "2026-09-12T21:49:31.308Z",
       "last_epoch": 1789210466000,
-      "etag": "\"05764c50dc545b3b9992ebd1cb9718804-gzip\"",
-      "last_modified": "Sat, 12 Sep 2026 14:11:07 GMT",
+      "etag": "\"0e6616578deebe5cccff340b593ccabcc-gzip\"",
+      "last_modified": "Sat, 12 Sep 2026 21:41:01 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms",
@@ -469,7 +469,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-12T14:35:48.827Z",
+      "last_fetched": "2026-09-12T21:49:31.380Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

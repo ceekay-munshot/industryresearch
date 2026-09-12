@@ -1,12 +1,11 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-12T14:34:22.406Z",
-      "last_epoch": 1789222572000,
+      "last_fetched": "2026-09-12T21:48:26.626Z",
+      "last_epoch": 1789232426000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizAFBVV95cUxQc3F1TW5UM3VBLVh3TE1YSnNFMUYzVU9NYlpMRXpnNmZtUTBCRXFEMTVtaHFPUy1IQzEzaVZwamJWeFE1S3kySHh3WUZXM2R5Y0U4SnV2THRibTFrM2k1WUhiWUtwcWtZZm95eDBmSDhMTy1aNVFkTTlqeWJtdEpEV2lmOUUzOW1ydGdOZUZ6TFl3WTVqWXBxaVVnWFpHVURHV29iekVVNl8wd1dsVjZJTUswSDBwYXJhemc4S2p3b0FwZ2dHUzZ2ZzdNR0U",
         "CBMikwFBVV95cUxOVzMwdGtBNlIwT2NKWlJZcFNGd19oaUJnSmNvd2c1TDlCMzR0dDJCZlZhWnBLeDVyWkw2R3pHVmxhdEVZUDh0cHRyS3pZclNFc1hjRVhoVHYyanl1Q3FUQkpFRllhSGhXeXhUcm5YTS1hMmZvU3BrMVFoUTBqYlRock42bHFLbFI4WEhGaklTTHpIVkE",
         "CBMiZ0FVX3lxTE5QMllNTnA1dUJHbHZaRVBvdjI3OHVwM2RmOWZ5TmJqMnA2WmhaTU5sblZoT0JyREwxaTg1Y2k1SjRfU2NJV040SnY4dVpPeHRhWHAzaG56eUtUcXl0eHBCQm9NbmRLWTA",
         "CBMihAFBVV95cUxPRDROTDVYUHBVTW9FWHRXbFFPUDk3bk84N25MTnhzUzNwYmQ1QlFVTXBhdzhxSlB6YmNEUjRPbTdhZDVOSTRzMllSNWpUakFENFZMRnNFT1ZaYl9hQ01EYmhXaTJqUWhNRTF0Y096TmlGWjNZNWQ0QS02T3NEcEhERk5vU0HSAYoBQVVfeXFMTU0waUdtaXNCeHh3SXhXYi1fZkliSkNnaFJ4cEZfNzgtRlEtUW1HbzZZWHZkMFVSamlXM0FEUjMzckZoenlVamIyR2wwcmQ5bDVMSWVleTI5RGJ1LTBPR2YwOGkxcnNXM0c0NmRjMEc4WnRsOVFrX2FrM1htYVJnR1lTSm02ZzlWc2dR",
@@ -305,18 +304,19 @@
         "CBMihwFBVV95cUxQdTdLVUE5aFB5aElqZWgwbld5R1pLNTlMc2dVSXpwSjFqb3R6dW0yZE9HclV4cXBxLUJfRjJxbjloZHB4c0VfaDRJcFJLQzlld1pGNFFyWFB1eUY2eXNFR3ROWmVFYzNNNUl4YVlEZXJYUXBVcDdwNS1PU1Z1UHlLX251T1VPSU0",
         "CBMicEFVX3lxTFBsaHZScjNDUGlrMzcyRHVkQTJQeUhKaE9MSnNESVBiX3hSN21za1F2UmVpTThUbzdCQzhGd01haUZ1RTJrNUFOYVFGdmxpTkZXZlp0M3ZaeW5yUDVfMUZmX1NUMklSSTg3ejR6OGNsLW8",
         "CBMikAFBVV95cUxNNjlJb3hlNmhCWHIwS09lMlh2b2k5dW1XOGVfVE1sVVB4ZmFjUFdWeE9OaU1WbmdMX2NZUDdSMzBkOWVjV3QwRGg5Z1NVYlVxSmF2THQ3MkcxM29HT2ZNeFNzM3paTEprZml2M2hJamRrMHdaOEVFdkUwd1BKeGRmZEpKYXVxXzFpUnJ4Mm9CREM",
-        "CBMigwFBVV95cUxOSi1lcnFTMGxRRXNMa2g5blI0TFg5bC16RzJmeXZvTFZYeEQwTTJvUm5yRVdDNUFwRHBUMEtWTlhacDBURk5NeVdiM3RZTXVZS0ZDNDBMZVEwRkxsMXFaM190N2pPei1BcFZEWUxIYkVmOHdzTXdEMEMwRlVFdW9PSGNvTQ"
+        "CBMigwFBVV95cUxOSi1lcnFTMGxRRXNMa2g5blI0TFg5bC16RzJmeXZvTFZYeEQwTTJvUm5yRVdDNUFwRHBUMEtWTlhacDBURk5NeVdiM3RZTXVZS0ZDNDBMZVEwRkxsMXFaM190N2pPei1BcFZEWUxIYkVmOHdzTXdEMEMwRlVFdW9PSGNvTQ",
+        "CBMiigFBVV95cUxNcjFpMXEyMHFqMDRNRTNfMHI4RUJQSmp5SXFaU3lQQ1dwUGJKNU5yWkhPVGEyak43Qndic1o3NFlodVoxNzhmc1FYb1RMTThNdFV3YlRkZ2MxV01tWm8xNEMwTlhHeG02SVRxTzMwWkdLbmFpX09kVXF3djY4dGluUEZCX0w2RUVOT1E"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-12T14:34:31.107Z",
+      "last_fetched": "2026-09-12T21:48:52.830Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-12T14:34:32.179Z",
+      "last_fetched": "2026-09-12T21:48:54.055Z",
       "last_epoch": 1789128780000,
       "etag": null,
       "last_modified": null,
@@ -477,10 +477,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-12T14:34:32.219Z",
+      "last_fetched": "2026-09-12T21:48:54.158Z",
       "last_epoch": 1789126306000,
-      "etag": "\"05764c50dc545b3b9992ebd1cb9718804-gzip\"",
-      "last_modified": "Sat, 12 Sep 2026 14:11:07 GMT",
+      "etag": "\"0e6616578deebe5cccff340b593ccabcc-gzip\"",
+      "last_modified": "Sat, 12 Sep 2026 21:41:01 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/ambanis-reliance-enters-ice-cream-market-with-launch-of-bombay-creamery/articleshow/133678139.cms",
@@ -492,7 +492,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-12T14:34:32.571Z",
+      "last_fetched": "2026-09-12T21:48:54.592Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

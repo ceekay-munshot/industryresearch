@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-12T14:35:49.028Z",
+      "last_fetched": "2026-09-12T21:49:31.567Z",
       "last_epoch": 1789077665000,
       "etag": null,
       "last_modified": null,
@@ -27,15 +27,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-12T14:36:13.701Z",
+      "last_fetched": "2026-09-12T21:49:34.267Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-12T14:36:14.928Z",
-      "last_epoch": 1789200430000,
+      "last_fetched": "2026-09-12T21:49:35.481Z",
+      "last_epoch": 1789233684000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -189,14 +189,16 @@
         "CBMitwFBVV95cUxQaFZIVUlaV084OHQwLWs4d2s3SkZqVlVVbW01SzBUaUl0Tm0xeUZtWVBFSkRBWGE1bkRqWVFHV3dwbUNkUjRRcEtuSDBuUG4tS3RfcjhYUks3OUt4SGZUcmJVMlAxcHU1dno3TmtDSUpTSFNISHMxb2VJTWhzdDVXUnFqU0JGcWpma2dLSGZpVms1b0RxLV9NbnBXTmpFUktISUhQN2VmVFhPclpwZldjR2Utd1VNQWs",
         "CBMisgFBVV95cUxPeUN5WlkxN2o3NEZZR0g1TDc2Um1Ra0I4OWItTFBGZEE4RnBrdlFVQmg2ZksxZTMyTDkyM3l0UHg2OXZ6aWVsM2V2N2I2TWdCYkt0a3hlLUtkZUNyV281VHh1OG5RVjE1LU5Wa3ZSdFhYZ1ZITW40RmdqOVN0a3hTemJtdFZMM0hoRzh5RWhPb0N1OXJxN3ZhZ3ltdHM4TlJVcVY5YkVCMlowaGJFYXJjOWhR",
         "CBMi0AFBVV95cUxOMHVaRDU3R2g0NmF3UDYtYWMzQlZoank4VzVqRkpOVmFfQmprOEdGeW9HUzBPRnlybnBualVYMFJlMHdXai1mWkdRV3NLUXRkaGxGTkZScThpclU2MGVybVFYeUEtRnVPQTBucjdxX3lBOUV6d2VYQzRvSVdUS1l4b3VaOUFiVjhWMEl4V25zXzU2LWNYWHU1aHB4QnFSU2YzaVNHaFhNVUFUbDUtbFNnSGhnc3dYQkJMU2YySWNJblJQVl9EVF9RbUJUNG1HWlJa",
-        "CBMi3wFBVV95cUxOeklwa19rQVk3bEdiaUdsRHk5Z3ZtV3NCZ1hvc202VUttY0JZWmZ1Y2R4M3RQOVM4Zkp5QzdnSnFHa1k3ckV3YU91ZTBWRmVnLWk1V0hIMG9KUjZUQWRpeG91MC0xS2RMR2xzTHRGbzNMSHc2Yl9ncFd4c0JmLWd5SktwLU9GM1RVeGkxQjVtTHlQa1lTZF9OWnVwbzlZVVhUNDNCaVpoeVBMM1l4YXBEZlp2ekZoNGVGYmV1UlFvRGs5SFBVMHprcGxtMFFQdUNycjl0Smc5N3lhZlRMMzhz"
+        "CBMi3wFBVV95cUxOeklwa19rQVk3bEdiaUdsRHk5Z3ZtV3NCZ1hvc202VUttY0JZWmZ1Y2R4M3RQOVM4Zkp5QzdnSnFHa1k3ckV3YU91ZTBWRmVnLWk1V0hIMG9KUjZUQWRpeG91MC0xS2RMR2xzTHRGbzNMSHc2Yl9ncFd4c0JmLWd5SktwLU9GM1RVeGkxQjVtTHlQa1lTZF9OWnVwbzlZVVhUNDNCaVpoeVBMM1l4YXBEZlp2ekZoNGVGYmV1UlFvRGs5SFBVMHprcGxtMFFQdUNycjl0Smc5N3lhZlRMMzhz",
+        "CBMi1gFBVV95cUxOR21vTGlILVlURVl5dm1Ud3pTTVhNdjUwU1RIRkZ3RWdwRkZncTlzTDZxbWRuejRmR1JOcUF3cjBhRTBmblJHdHVXOGViMTcwZUh6U0xpX0p3c0xFUHBfYlc2R2FPM2pMcFhPcVhyam9pSDRKcWZPTjRhc0oyajk0YktXQUZNc1N2OUNENTV4MjByUkFOOVpndEw2QzZmWkZYQ05uaUVEeV9UbkhhTm5XZ282SEcyckFxVXA2Z1JvcjhtZ1VCOGhRQ1dFdks2NzhYZEJXVzZ3",
+        "CBMiswFBVV95cUxQYW5rNnFnWmVWb0pqckxkQThlSUlHcmxYQUw1NlBnMmdJX3BUd0RCWDJJczdrZm5tMkxlajcyVjJodl9jZ0xJNjk1SDhuX1IyaVJNaTBEb2tFSHRGVVJ2Y2h3RlljYTBGcTV4dmY3WU4zUzBOUWswSDJSLW9PdTRZTWVoemlfcElLdmVvNWNDNEY5ZlptSXNzV3BxUzM4NFo2RmhIc1VPT2czczkwUXpQMGtwbw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-12T14:36:15.067Z",
-      "last_epoch": 1789197497000,
-      "etag": "\"05764c50dc545b3b9992ebd1cb9718804-gzip\"",
-      "last_modified": "Sat, 12 Sep 2026 14:11:07 GMT",
+      "last_fetched": "2026-09-12T21:49:35.575Z",
+      "last_epoch": 1789232728000,
+      "etag": "\"0e6616578deebe5cccff340b593ccabcc-gzip\"",
+      "last_modified": "Sat, 12 Sep 2026 21:41:01 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -274,11 +276,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/imported-dialysis-solution-fails-endotoxin-test-in-himachal-lab-flags-nine-regulatory-violations/articleshow/134085795.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/amid-us-iran-war-and-rising-lng-rates-gail-gas-turns-to-blended-pricing-to-keep-industrial-gas-affordable/articleshow/134084975.cms",
         "https://economictimes.indiatimes.com/industry/services/education/jamia-hostel-protest-aisa-claims-students-assaulted-university-refutes-charge/articleshow/134115027.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/houthis-seize-strategic-red-sea-island-raising-fresh-threat-to-saudi-oil-exports/articleshow/134087216.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/houthis-seize-strategic-red-sea-island-raising-fresh-threat-to-saudi-oil-exports/articleshow/134087216.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/jk-bank-receives-best-csr-overall-practices-award-in-bengaluru-md-ceo-reiterates-commitment-for-inclusive-and-sustainable-development/articleshow/134146160.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-12T14:36:15.467Z",
+      "last_fetched": "2026-09-12T21:49:35.655Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
