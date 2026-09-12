@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-11T22:10:11.679Z",
+      "last_fetched": "2026-09-12T08:13:39.480Z",
       "last_epoch": 1788706832000,
       "etag": null,
       "last_modified": null,
@@ -10,20 +10,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-11T22:10:46.163Z",
+      "last_fetched": "2026-09-12T08:13:50.127Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-11T22:10:48.465Z",
-      "last_epoch": 1789159725000,
+      "last_fetched": "2026-09-12T08:13:52.431Z",
+      "last_epoch": 1789174569000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMieEFVX3lxTFBHZ0ZkUHpmYnVQTi0yM0ZVRzNwV2hTdG1sOHREVnNJdnRzcW5VY3pSYl9Vc1Q1Uk5URXdXTmtxZ1hKX2M2WGl5QWFQejd4VEJTcWlhT0pocVJGR3dtS2dQYl9ERWhnU1oya1JpWFpvZTJZWjRYdHhYVg",
-        "CBMib0FVX3lxTFBFT2J4czliTUlxb1RWc3cwc3NXWDZ2dWF5aUcwcDZzazJUelROdlBSLWpZUWltLXNaLTB5WW02UFZUeldiYUtFbW5pU0tkTjhXYzBYUG5SZUkzdGlOM0RqbUtHODNuNlRiS3dRVm9SQQ",
         "CBMiY0FVX3lxTE5IX1lvZGNiMnNKQkk5dzZ1X2g5Y2xnbjgzQU56cnlNcHhMM3V4Szdncl9MVUVEVmtaZzJXUXBxNGtUQ2lBZlNWeXhIWVBad0xVeW8tTWFxQkRmbjFtRHJMdkJETQ",
         "CBMiqAFBVV95cUxPYUlvQ0hSbzJEQnFkTjFBTGFOMVRUSVY0TVhnZXE3WXRkMDUtU3VkcjJaSnhGTlZ1NUZ1b0JyT01VVUhtMFpUOFZ2dWVlNGJEQ0hYcENQVm1WWmpqTUtkbDh3c0hrNDZTUnZLcVM5b3RhQWtyZWtsQVR6TEE4MXZYMXdOV3ZsclNpaWVrSFRkSkxsT2paT1FOV1ZlZmlnVThXZG5yc1VKT2Q",
         "CBMirwFBVV95cUxNbTBGQUpGeFlsVXJxVmR2VHJpWWNUdFNNWW4tYU1ibGdzUllKMEMxXy1EbkcxMXQ4ZTF5UENwT24tZzJBLUJBamZpd20wYVVXUkxNX1R0VlQxblVkQUZtR09YQVlHVUxXemVWNHM3MUEwSWExNEFSQVR5UmtNZkJrQkJiT0ZQeXM5UjlBUGhDVEpFWS1kSWRtYk92eGJ1R1YwNzUwampEZTdieFpQVW9B",
@@ -321,14 +319,16 @@
         "CBMiP0FVX3lxTFBLM2hTWm5JYldTTUgtajhTNUtjMEo4bGRyZm8wWXJRNERqVkpqMDd6MDAtT2lIYjRSczZwbGxaNA",
         "CBMiY0FVX3lxTE43WlhOMktiVEhzakRybEh6VFdwYU5hS0N1Z21ENEc3S0NhY0pRaUxjNXprX2lsc3o2ckV0dnlETkF5NGpGMW5CX3Utd3pnWmF0UFdfSFc5dkhCOElUbVhua3pUWQ",
         "CBMiQkFVX3lxTE5VbmhEekE3WDRyWlF1R3pwR1JONVJDUi1UM0R4dVlORkF3SlB0Y3RFVi1aMHVuWXNsbTBnWXFpY2NCZw",
-        "CBMiywFBVV95cUxNNVg3VEQxY2ZmdWg0Rlh3dnVrWEtPbkRzNXdFcDNhRGVLbjVLSVZfZExNdkp1aERDcEh2dUt1SlhFbUlmaXJIQXhYUmpLZ1NuQjlLMVo2cTU2Y3BNcGRwRjhJOHhNT19vdkpjTVpWWVdjUDI5QXpjYkxwSTVTczdLaVVvdlJmM1VraVA5MGhINzk1MmxiU0YxTTF3aWRGT01Kc0lwTEhMWDI1VUstaENIU0ZSLUJEb2hLZ3dXV1V0OFliNDlia2pScnVDMA"
+        "CBMiywFBVV95cUxNNVg3VEQxY2ZmdWg0Rlh3dnVrWEtPbkRzNXdFcDNhRGVLbjVLSVZfZExNdkp1aERDcEh2dUt1SlhFbUlmaXJIQXhYUmpLZ1NuQjlLMVo2cTU2Y3BNcGRwRjhJOHhNT19vdkpjTVpWWVdjUDI5QXpjYkxwSTVTczdLaVVvdlJmM1VraVA5MGhINzk1MmxiU0YxTTF3aWRGT01Kc0lwTEhMWDI1VUstaENIU0ZSLUJEb2hLZ3dXV1V0OFliNDlia2pScnVDMA",
+        "CBMirAFBVV95cUxQZ0RZWFhqLW1ka01qa3hPVHRJNGFNcFZqeG9EanIwUDhMR1FwUnFYMXlOdTNTdFo1Q3JPXzNkSWRiTWhtaWx3RlJrOFFSN1JQRi1UMVNmOHBMS3NtYWtISWdER3VvZEYxbldZRDBiMmVoNm00ZXo2RXZqZWN0MEQ4MlZZSGNHTFNIbHpnZnlXUHlKdmtjbDFmYndINnRZSmVZSUp2WnlTUzA5VEs10gG0AUFVX3lxTE1QM3JMU1VteVd0Rk9DLWVSWElLUUlrRHJRSU9oYWZ1MHRNcXQtb3lFRmZCSDUzQ0pITFRyQlRfNEozMFg2akROVDA0cHBiZVhqdmhVM3l3TkJPcmJEb0szQzJnTldmU0dhNkZHN0pkZGlNVHowSkczQ2ZOSGJNLWdMZDRXYnM3MHBrM2RXbXZoRmI3Z0ZYWXFJR2pib3A4VG9adW5sWHZNX1NCNEJEdmlSWnB2Zw",
+        "CBMidEFVX3lxTE43N0YyZVQtanppUGJvYzhSN1ZjYUszX0RmUFBYOEFwMFVNbkkzWHVKYWRVWVRTVkdNU3NqWXgtRC0taC1hY1ZKQXlhU3pBRUFjOTBleUNOVFROVHZRc3FkVGFOQWdCeENDNmFJamxHUzN0dkU2"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-11T22:10:48.515Z",
+      "last_fetched": "2026-09-12T08:13:52.600Z",
       "last_epoch": 1789135441000,
-      "etag": "\"05343704f36c2736587d8bace223fac5d-gzip\"",
-      "last_modified": "Fri, 11 Sep 2026 21:51:18 GMT",
+      "etag": "\"0191160f05f830bd05b45bff5f86fcda6-gzip\"",
+      "last_modified": "Sat, 12 Sep 2026 08:01:39 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -345,7 +345,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-11T22:10:48.588Z",
+      "last_fetched": "2026-09-12T08:13:52.764Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

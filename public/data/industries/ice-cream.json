@@ -11,7 +11,7 @@
     "generated_at": "2026-08-17",
     "mock": false,
     "query": "Ice Cream",
-    "updated_at": "2026-09-11",
+    "updated_at": "2026-09-12",
     "coverage": {
       "sections": {
         "size": {
@@ -60,9 +60,9 @@
           "as_of": "2026-01-01"
         },
         "news": {
-          "sources": 2,
-          "confidence": 0.84,
-          "as_of": "2026-09-11"
+          "sources": 1,
+          "confidence": 0.6,
+          "as_of": "2026-09-12"
         }
       }
     }
@@ -1282,6 +1282,27 @@
     ],
     "news": [
       {
+        "title": "Ice cream to defence: How Canada’s tariff war with US is boosting local businesses - The Times of India",
+        "publisher": "The Times of India",
+        "date": "Sat, 12 Sep 2026 03:45:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLS1FRzFMcVJoOHowRkFxZGxPeDZvMEhMa0xzNUdUcjhBNFpCakV4VEVCVW44bWhYWHZGeVA0RzJaa1lHUkFVSDRwNmVOUFdaZXpfdVh4a3FDLWd1a2E4bjFxMU5vY044aU00RmlsTTJJLXdlR2lrRmxCZkpURUJvc09jM2lqUnotNldvcHZsdGhCZ19Ld3FOTUlFTV9hS1dCY1p4REstTHhRSk1YVVlTNXd3Y0VGeUozeEFhSG81XzVzT2o5SlBEX0oxTVM4Z09OVHR5c0RCRE5Fd0V1clBWZHduVGtJRll5NDF4OU5lUHctTkNfb3FaZklwWS1jQ3RGbzJSQ9IBigJBVV95cUxPN012VHN4Y1hTSE5jdXdpNU92UmVLM3RRYi1obk1Td0FKanVEM0Q1VkZJbWxUQUdpOTdkSXRpTVd1czI3clFQakk2ZkFGcnhEZTV0ck9ocE1TNmlCMmx2bnVyVE4zdi01ZXBPVGl6amxhOUxHb2tadDVHTkppWEZocVpuSEhFMUctME5WdExfWUthekdDelB5QUV3UE5xd0xKRjA0NGhXclJENGtiRnRHcFdBUm13YVhQTzRMcFFMQlZHaWJxdExTbVNneXhvQ2RKRGs2VHBqemh5YnlKMUNtN1YzTGtPdTdGWVlRaFVTVDBhd2d6M2VOSnhCcUVxVEtoaWpIWnRKM2Rwdw?oc=5",
+        "snippet": "Ice cream to defence: How Canada’s tariff war with US is boosting local businesses &nbsp;&nbsp; The Times of India"
+      },
+      {
+        "title": "It tastes like melted ice cream, somewhere between dessert and a boozy cocktail. https://nyti.ms/4gOKxz8 - facebook.com",
+        "publisher": "facebook.com",
+        "date": "Fri, 11 Sep 2026 23:10:04 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaDdxUHd4WDdPOUJ1Y2R4MjQ5RjdEOC1kek96V3JNMjJydVF4VGxEcVhsNmpKalRtNFItNS1wdm5YaE5qeWp0VndMVDJ5UjIzVjJmUkdKQVdwN0UwNlBCZUQtd0hmOTVYYmM2cjNJeUNVYUY1Rm9vR0lMbHRhOE1KMGFiWjZwUjJGMnNDdU9zNXVqRndFWENGczlyNjNMYmhjazh3RjhmakJuQllsLXJEVHhfX0M1YmJ1a3Fiay1wS2RBQTcxUEJUbHdhd2xwUUJz?oc=5",
+        "snippet": "It tastes like melted ice cream, somewhere between dessert and a boozy cocktail. https://nyti.ms/4gOKxz8 &nbsp;&nbsp; facebook.com"
+      },
+      {
+        "title": "Nubia Ice Cream Cooler Brings Sub-Zero Smartphone Cooling - hi-Tech.ua",
+        "publisher": "hi-Tech.ua",
+        "date": "Sat, 12 Sep 2026 06:25:30 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdTdLVUE5aFB5aElqZWgwbld5R1pLNTlMc2dVSXpwSjFqb3R6dW0yZE9HclV4cXBxLUJfRjJxbjloZHB4c0VfaDRJcFJLQzlld1pGNFFyWFB1eUY2eXNFR3ROWmVFYzNNNUl4YVlEZXJYUXBVcDdwNS1PU1Z1UHlLX251T1VPSU0?oc=5",
+        "snippet": "Nubia Ice Cream Cooler Brings Sub-Zero Smartphone Cooling &nbsp;&nbsp; hi-Tech.ua"
+      },
+      {
         "title": "This new Chennai ice cream spot turns thayir sadam, filter coffee, Milo and more into unexpected gelato flavours - IndulgExpress",
         "publisher": "IndulgExpress",
         "date": "Fri, 11 Sep 2026 18:03:57 GMT",
@@ -1469,27 +1490,6 @@
         "date": "Fri, 11 Sep 2026 11:06:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVW1lbm1OZWVyc0k4azRHS01IMWo3Y3FVWFFWY2dIYl9lbjNwbllOY0pwYTdiNkdsT0huS0xUbkk3QXBwblNLdkdXcTVDSHNyaHNlM3JDejZOV1M2SXNnWFR0TFROYjNmTmtlYUQ1VFBGR242dXhTUzl1dGlCeHZfTWViQ2pNazJReW5xVnlRLTR6Vm9sdG52V1pUTDJRRVdkeWFpN2U2a2tOVk5YUldRVG1pRzlLSEZzeDhz?oc=5",
         "snippet": "Hatsun Agro Product (NSE:HATSUN): What Does Its CRISIL ESG Score of 58 Mean? &nbsp;&nbsp; Kalkine India"
-      },
-      {
-        "title": "Vadilal Enterprises blocks renewal of key 10-year pact with ice cream maker Vadilal Industries",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Fri, 11 Sep 2026 17:01:46 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/vadilal-enterprises-blocks-renewal-of-key-10-year-pact-with-ice-cream-maker-vadilal-industries/articleshow/134063363.cms",
-        "snippet": "Vadilal Industries' domestic distribution faces change as an agreement expires soon. Vadilal Enterprises cannot renew the sales and distribution pact on current terms. This development arises from a lack of required approvals from its public shareholders. Vadilal Industries is now evaluating next st"
-      },
-      {
-        "title": "Ice cream stocks scoop up 85% gains from 2026 lows; can RIL roil the party? - Business Standard",
-        "publisher": "Business Standard",
-        "date": "Fri, 11 Sep 2026 01:27:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMnRGcF9RaFJpUFQwMUFmLTgybTNfVDg5T2tZZ3E4cVYyNE94NG5oanZiSzdkRk5zdTFRMkM3WGlqcFlGZHVfMzNNUkZUdUt3WTl3aTgyNVNTMU1LOTdRQWx6cm0wY1BhWm0yTl9XNC1QaGxha3U0allRMmZ3QUNveFpkdUZTVERoc0NscERSVW82VUZQd3NCZTk4YjZPdGExMkdjbnVRd2FlUUw5dnlmZ3ZRZ0NmeFNmakRzYzVWdlZTUXctR21ab21yazQzMTRXYzM5Sm5HZHNOai1MbFdwaHQxZ1dESU1MWTRiWFdlY28wSmfSAfgBQVVfeXFMUGtPTXd1Q0lCVEkyZ2plWXZPVkRBY1pfSVhleGJESV9Mb25kQVZYR28zTl82VWhwel9aYm1GdnA2VXd0X2pobkFPSDdPM0xoWC1oR0czb2w2UVlZbUYzc0lpT0pIQXdrNmkyRnVxQjhvVEJadWdOWnJhOW1pLWZHZmprZ3Q5NFJjMlg1UmNyd0tpMTZaelFRWkgtRHh1VEY3aXQ2am1nVzl3UUxkeEg5OERXcTF6azg4ZEFSMlBJOExtZkFMVkcyUXd4NGhXeGVkWTZMVnhSbDNjcXBRTVhOdUdWWE1zQ013UEFpTHhjNF9aSHNxZmhkaWI?oc=5",
-        "snippet": "Ice cream stocks scoop up 85% gains from 2026 lows; can RIL roil the party? &nbsp;&nbsp; Business Standard"
-      },
-      {
-        "title": "New Protein Watch: Dairy-free ice cream, China plans and EU ‘meaty’ ban - FoodNavigator.com",
-        "publisher": "FoodNavigator.com",
-        "date": "Fri, 11 Sep 2026 06:35:15 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTV5M2JYUmlnbkdvdDZ0ZDZYN0VpT1UyN1RJSy15NVYwY2pIaVF4ZHZIT0ZVNWdZVTZ4SXZOYW43Z1F3X29ueUkzQlV4aXJQWndUNFktUEhyWGQ3M3pxZVMzOWItWWdySENXdTVBX2k1X2hjM05vcWI2UVZ0amtFMXhubEpJV3p0MmMtRHl3anFXcllWM2lPUVVzTnlGN0picUUzbWxtNlpmUmJrMmR3MklwODY3YmdS?oc=5",
-        "snippet": "New Protein Watch: Dairy-free ice cream, China plans and EU ‘meaty’ ban &nbsp;&nbsp; FoodNavigator.com"
       }
     ]
   },
