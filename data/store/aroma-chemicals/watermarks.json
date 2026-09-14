@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-14T09:23:08.512Z",
+      "last_fetched": "2026-09-14T17:14:19.810Z",
       "last_epoch": 1789147641000,
       "etag": null,
       "last_modified": null,
@@ -37,15 +37,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-14T09:23:42.782Z",
+      "last_fetched": "2026-09-14T17:14:53.935Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-14T09:23:43.974Z",
-      "last_epoch": 1789376505000,
+      "last_fetched": "2026-09-14T17:14:55.270Z",
+      "last_epoch": 1789396333000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -196,14 +196,15 @@
         "CBMipwFBVV95cUxNSDktR1JUVnhyeUJaRjhoUmM1eGRJUlpJdVdDTFVlZDlOYU1feWpQQnpmcmxPV2x6bHBpN2t4V2tSLW1TZWRJa1pqM2Yza2tDVm5Na2NvZDd3b05jTFY5N2JLN2FzczR1dWVwc2sxNjVSWDVzNWQyZ0NEbGpDeTNzbFQtcy1haHlTb3AzdklfaXBYcnNnZ0lxN05YVk9Wd1VJX0E2UVBqbw",
         "CBMimwFBVV95cUxNeUQ3Ti05OWxVaVBNblNfZFFQdlA0RnVCUlAxYnplTmJvdzMyN2txYnFXaFQ1QVFTTGQxQ1JzNVNZNmVKR0ZjWjFQQTZfZlN1cjU1OGZEQ0gwb3VZWVhVREc3elJiaFo3ZXpUMnVkYkhwLU50Y2ttS0Z4VmlCU1k0eEZoUnpOdld1SXk4UUdOakU1cnV6d1dmbmROdw",
         "CBMitAFBVV95cUxNaGZTVDhwQXpUMEYybEhNbVY0dG5yeDJjcW5CRDhvdC1Hak93ZUpVX29xcWpuNlJ4MkJiWUVQdUFPUXZJSmFyZ2RjRjZ0cUFhS1JxUEY2SW93NndNSHFuOEw2bU15WlF1ZDZ3VDdxQmpFTE5UdjcxX3gxOGZ3VklpSXNZdExUVUxsS20tQVdDUkVVaEthejBYYnFRd3d6UmQ5OWg0cFR4bkFrUXdMWjF3WklQTUPSAbQBQVVfeXFMTWhmU1Q4cEF6VDBGMmxITW1WNHRucngyY3FuQkQ4b3QtR2pPd2VKVV9vcXFqbjZSeDJCYllFUHVBT1F2SUphcmdkY0Y2dHFBYUtScVBGNklvdzZ3TUhxbjhMNm1NeVpRdWQ2d1Q3cUJqRUxOVHY3MV94MThmd1ZJaUlzWXRMVFVMbEttLUFXQ1JFVWhLYXowWGJxUXd3elJkOTloNHBUeG5Ba1F3TFoxd1pJUE1D",
-        "CBMiqwFBVV95cUxPNE9acDRqLS1LOUhqbjRWMENTTjIzZzBISVN0bklWbDBORGl4NVFGZkFtbGhzU0ZVLV83alhYend5Sy1MOGo3VUxQNVZ4OWJMYjdFM01fSXBFWVNzbVJ6VTBseUFQSWtBSWdnQTZZVkJvcy1jeUFBMHN2N0lkSnRmNjRvY25mcHA0SVpZZ2VvM0htVGdudUJQbHp0WkdlZEdfMEV3bno5bGgyRW8"
+        "CBMiqwFBVV95cUxPNE9acDRqLS1LOUhqbjRWMENTTjIzZzBISVN0bklWbDBORGl4NVFGZkFtbGhzU0ZVLV83alhYend5Sy1MOGo3VUxQNVZ4OWJMYjdFM01fSXBFWVNzbVJ6VTBseUFQSWtBSWdnQTZZVkJvcy1jeUFBMHN2N0lkSnRmNjRvY25mcHA0SVpZZ2VvM0htVGdudUJQbHp0WkdlZEdfMEV3bno5bGgyRW8",
+        "CBMijAJBVV95cUxOY0N5RGtjaDJPV2NFS3NnVVh5SlZjNTVuemkweEZteUlVZzdwY0dIeU5zR1h1RTNJbDBDUGRDcDVFX3JoZkZ5SW80cEVkSVdNLVdyQVhMVFEwWkJxLVBmMjFITDR0X2tNa21aX18tSnNqTVFDbS1LT0RycEZ2TW5LLVJoTUZ2QmhzMVlVN1ZiUFphVnpxUVNCOFptdW51azFBbTJ3Yy1rVmhha0NCVmF1cTVKN1E2OGRuSTAtR2c3QjRzcjhiVWFEaXJqXy1LbVVTQVFURHo1aDF5NnVaVy1qODJ4VlVtN3RMVUZkb2hMb2Y5elZaLWlKMTBsR1p2bFk5NlphUkNnbkdaSVJa0gGSAkFVX3lxTE8zd2NaMXI5ZzJ3dXJOSnIzNmhYSVFlWlFBNEkxbXJxZFF4SG8tUUxlT2RfQy1ybnYwV09sLXB1ZjdvZEJHclE4QXo5bGZTTmZtR25WRlR0UEtyRHpmRmNnYUJtZUhESDBfZGtKM201dWZkaTFIZ1NYeGlPUEk4R2duSTlYcEpEcUtsS3J5V0twSjJmSUhJWXBrbHpUVWtlSUFGTkdzRzNad2pRM01IT0FhVG15bmVYREhkcElqN3dKN084eDFkN1JBS2NTWkUxRmV1X2pkUTc5ZUNueS1PT2J6VFItMUYwUmVtWmhWMHpZdzdTZmlDc2NfRldoZG9PVGYtQXRJQ1EzTVlTb1UwbFdOdUE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-14T09:23:44.105Z",
+      "last_fetched": "2026-09-14T17:14:55.412Z",
       "last_epoch": 1789370805000,
-      "etag": "\"0f543f35c8572409237a7065e51c31957-gzip\"",
-      "last_modified": "Mon, 14 Sep 2026 09:02:03 GMT",
+      "etag": "\"00ea45548aed3d1e66a9f1996f8a447f4-gzip\"",
+      "last_modified": "Mon, 14 Sep 2026 17:03:03 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -236,7 +237,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-14T09:23:44.251Z",
+      "last_fetched": "2026-09-14T17:14:55.534Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
