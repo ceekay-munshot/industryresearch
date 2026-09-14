@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-14T02:12:56.773Z",
+      "last_fetched": "2026-09-14T09:23:08.512Z",
       "last_epoch": 1789147641000,
       "etag": null,
       "last_modified": null,
@@ -37,15 +37,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-14T02:13:30.498Z",
+      "last_fetched": "2026-09-14T09:23:42.782Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-13T21:54:50.603Z",
-      "last_epoch": 1789274463000,
+      "last_fetched": "2026-09-14T09:23:43.974Z",
+      "last_epoch": 1789376505000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -195,14 +195,15 @@
         "CBMi5gFBVV95cUxPWHlpVVBxWUVYeG1MOW5Ob0U5eWxKNzgwemwtQkRiY0cyN2RlYzBXcThrSlVwUGx0bVBvNm9EelV6WGtOR2p6eHItZlB6d2tzRmpyWE1NNEI0T2pqbUU4aVYxRFh2Qy10NDliQ3BLdUtoQU9lVHlwS04wal9rU2QtYnd0Tnpuc1JRclpYZHdPZ20xMGtqLW5qT0JIMHFUUXNVb2VoTVMtMlFrMDRzYnFncFZBdHBZcEE0NDVKWXVsZnROU0l0MVZTdm5BbkpDNER6NDQ2amw4bm5PTEFzQkZxTUx2azd3UQ",
         "CBMipwFBVV95cUxNSDktR1JUVnhyeUJaRjhoUmM1eGRJUlpJdVdDTFVlZDlOYU1feWpQQnpmcmxPV2x6bHBpN2t4V2tSLW1TZWRJa1pqM2Yza2tDVm5Na2NvZDd3b05jTFY5N2JLN2FzczR1dWVwc2sxNjVSWDVzNWQyZ0NEbGpDeTNzbFQtcy1haHlTb3AzdklfaXBYcnNnZ0lxN05YVk9Wd1VJX0E2UVBqbw",
         "CBMimwFBVV95cUxNeUQ3Ti05OWxVaVBNblNfZFFQdlA0RnVCUlAxYnplTmJvdzMyN2txYnFXaFQ1QVFTTGQxQ1JzNVNZNmVKR0ZjWjFQQTZfZlN1cjU1OGZEQ0gwb3VZWVhVREc3elJiaFo3ZXpUMnVkYkhwLU50Y2ttS0Z4VmlCU1k0eEZoUnpOdld1SXk4UUdOakU1cnV6d1dmbmROdw",
-        "CBMitAFBVV95cUxNaGZTVDhwQXpUMEYybEhNbVY0dG5yeDJjcW5CRDhvdC1Hak93ZUpVX29xcWpuNlJ4MkJiWUVQdUFPUXZJSmFyZ2RjRjZ0cUFhS1JxUEY2SW93NndNSHFuOEw2bU15WlF1ZDZ3VDdxQmpFTE5UdjcxX3gxOGZ3VklpSXNZdExUVUxsS20tQVdDUkVVaEthejBYYnFRd3d6UmQ5OWg0cFR4bkFrUXdMWjF3WklQTUPSAbQBQVVfeXFMTWhmU1Q4cEF6VDBGMmxITW1WNHRucngyY3FuQkQ4b3QtR2pPd2VKVV9vcXFqbjZSeDJCYllFUHVBT1F2SUphcmdkY0Y2dHFBYUtScVBGNklvdzZ3TUhxbjhMNm1NeVpRdWQ2d1Q3cUJqRUxOVHY3MV94MThmd1ZJaUlzWXRMVFVMbEttLUFXQ1JFVWhLYXowWGJxUXd3elJkOTloNHBUeG5Ba1F3TFoxd1pJUE1D"
+        "CBMitAFBVV95cUxNaGZTVDhwQXpUMEYybEhNbVY0dG5yeDJjcW5CRDhvdC1Hak93ZUpVX29xcWpuNlJ4MkJiWUVQdUFPUXZJSmFyZ2RjRjZ0cUFhS1JxUEY2SW93NndNSHFuOEw2bU15WlF1ZDZ3VDdxQmpFTE5UdjcxX3gxOGZ3VklpSXNZdExUVUxsS20tQVdDUkVVaEthejBYYnFRd3d6UmQ5OWg0cFR4bkFrUXdMWjF3WklQTUPSAbQBQVVfeXFMTWhmU1Q4cEF6VDBGMmxITW1WNHRucngyY3FuQkQ4b3QtR2pPd2VKVV9vcXFqbjZSeDJCYllFUHVBT1F2SUphcmdkY0Y2dHFBYUtScVBGNklvdzZ3TUhxbjhMNm1NeVpRdWQ2d1Q3cUJqRUxOVHY3MV94MThmd1ZJaUlzWXRMVFVMbEttLUFXQ1JFVWhLYXowWGJxUXd3elJkOTloNHBUeG5Ba1F3TFoxd1pJUE1D",
+        "CBMiqwFBVV95cUxPNE9acDRqLS1LOUhqbjRWMENTTjIzZzBISVN0bklWbDBORGl4NVFGZkFtbGhzU0ZVLV83alhYend5Sy1MOGo3VUxQNVZ4OWJMYjdFM01fSXBFWVNzbVJ6VTBseUFQSWtBSWdnQTZZVkJvcy1jeUFBMHN2N0lkSnRmNjRvY25mcHA0SVpZZ2VvM0htVGdudUJQbHp0WkdlZEdfMEV3bno5bGgyRW8"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-13T21:54:50.680Z",
-      "last_epoch": 1789324207000,
-      "etag": "\"00bef3573f57e466e51121528d9343c15-gzip\"",
-      "last_modified": "Sun, 13 Sep 2026 21:47:04 GMT",
+      "last_fetched": "2026-09-14T09:23:44.105Z",
+      "last_epoch": 1789370805000,
+      "etag": "\"0f543f35c8572409237a7065e51c31957-gzip\"",
+      "last_modified": "Mon, 14 Sep 2026 09:02:03 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -230,11 +231,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/tata-chemicals-sets-up-high-level-committee-to-decide-on-kenya-operations/articleshow/133953376.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/delhi-hc-directs-beco-to-pull-down-ad-campaign-against-huls-surf-excel-vim/articleshow/134019673.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/indian-agrochemical-firms-may-benefit-from-volume-recovery-but-weak-pricing-competition-could-pressure-margins-report/articleshow/134108652.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/after-missteps-thermax-puts-energy-back-on-growth-path-ashish-bhandari-md-ceo/articleshow/134217754.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/after-missteps-thermax-puts-energy-back-on-growth-path-ashish-bhandari-md-ceo/articleshow/134217754.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/solar-industries-to-acquire-south-africas-omnia-for-rs-12951-crore-in-biggest-global-expansion-push/articleshow/134235620.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-13T21:54:50.700Z",
+      "last_fetched": "2026-09-14T09:23:44.251Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
