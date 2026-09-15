@@ -18,17 +18,11 @@
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-14T17:17:29.036Z",
-      "last_epoch": 1789396208000,
+      "last_fetched": "2026-09-15T02:16:13.685Z",
+      "last_epoch": 1789421181000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiygFBVV95cUxNQ29wLWtnX2ZHYk1YSVpvaFhmZENJTTM1QXAtYmpSV0t4UGczQkMtQXBEcFhCU2ZCQ0YyUVphZEt3cWF2UElQSkxKRWVGcnlYOE94OW5uQlcxZU02all2T3JvdzdDS0lhdERXZlpSYWczdTR6eElZM2NyNEJGQzNZRzNIU2Zzdlg4OVlWa3JGYWJiemUtVXdsSlZqTGpueFBmSUExd05KVmxBZ1dkV1hiR2JySEYtdDNlYlRNMThuM1VuakNGWG5Gd3ZR0gHPAUFVX3lxTFBNbElLUDdieXF1WW5jbl94R3RJOXlDX3c3VkNKRlJzLWQwdDQyMTRpaXBuaUJVWjFFUzdXNGRaSTJzS0tYVl81M25hTFhsUmF6d1JwVm1Cc0hUdTJwOUU4UllKdHU1eTVINUZtdUVRdTczYWdZZ0tjSG15d0FyckstbFRfVDUzYmh2bFNZU2VxMnhmWW5JR1JlaHdqLTZJVGRsSDFuaXMtYm1veUlVblFXemNpNVVjdUtnT2VNVDVVRnIyalhTSWg2QjVHTENzOA",
-        "CBMiggFBVV95cUxQdl9XV0ZOa3VDelZVWV9yY0RwXzNFZmRBc0FYSDk3d0pWbmFJMG5JTDZEUE1UY05WanRSdWUwV0FfdW0yb2N4dGV2cUR1NUtFaEhoY2dmR3NzNTVIcWYzN0k0Y2FsT2xWaW52MzlnVGQydEh3RzZZRHRUNkNsQkptV2ln",
-        "CBMinwFBVV95cUxPTTRLREg3ZjFqd24wbWdxd2VsNm4tano5Y0g0SmxoUU1kTGJnUGVaMXFKQ0lMN1dUcXIxRUlZRlRIY1NBUkxsdjI1ZThwenlZSFNXRU5pdDRPQktxUmdpSGRwMUcwdWVQdUljQW8wVGdDOGFCUXBlQnhqMmN0Q0JURThvNTloZ2d6STA3YWk0YlNQY2pKNTM0bno5VEtCQlE",
-        "CBMivgFBVV95cUxPTlNfcGJjekJhNTRRQUExN20zMDhiMUhtVzJ6OTgzcm1uMnZsSzhqT01ON1lza1o4VVM1WlU3QU5MdWhhWHFaOXZ0TmtHNlZERkJYUWdRN1JudnBXOHAtX2VvbmxTUUZuZ0JhZTBpenNRM0VydnJmalJSMVZRdUUtTE1CS2xCTFFmQTNqSUJkMDdzQWJfZFpaeTh3UTVDQmhYS0ZIMDlBWE81NFQyTTlBc25PZ0Z2ejctb2lvSGRR",
-        "CBMilwFBVV95cUxNUEEyRXRmOEVOeFdfNGl4d0tfdC1wN2k4Q3JrYXh1Tk10eVdIQ29fZXNKTnNNWVpCZFNsWHQ0MEh6VkpnZG12bWpNREFHV3RCUFpGQmlUSUdVbzcyNG5peEtKOWtiNUQ1T1phWm0xR1AxaVN2bHZjMXBEa1BxWGZwYmJRa2k5bGlsRUJPQTV4OThUX3pDVlhZ",
-        "CBMinwFBVV95cUxPWHFsNWNyaFF6dlV2MW9SeUUydVVQLXpIQ3ROa0Jjd25JbV9JYlBCNUVJSzlMVDB4TUJyck1Pc2lubkFXOXZqc1kyaXk0Mml0WVR5QS1NaDdjQXprY29OVHBQUi1YbkR1QUlNOE5ua09VUkhtQW8tanVVcGptN2YzeDI5RkdGZDBsak5KOHRNZV9feTJIeEV0RU1hZE54TEU",
         "CBMirAFBVV95cUxOcG43c1lDT3J4UEhMbHJvSThCMGQ0TnZRR0t2b2huSGJrNi0tQ2VHOHVWMExySzgtcUlrSThDUVdILUhISk53eHFIN3VzYjkyc0VkZnRuYzFkYjJmNk45M21xZzRtZ0wzTmdpS3pxZHlyUFE0Qlg3cmFJeDF5cVo3dm1NNGtHc1hzd0xYRG1PX2JzVVRCZU1UUzNtWVdtODV3dGN3bTZRRDIyNXhu",
         "CBMiqAFBVV95cUxPRW1XcTMxY0xmWUZJMHk5d3ZYczVhb3NzZjFVM29QRXhRQlY0a1ZUVGJBUWdsLTdOb0d3ODA2Ums5VERiOV9Sd0FmVk5TOWQ5ZkhlclRhNmc1TGdXVkJ4WDJoLUhFZ0N6OERsTlRiNUZhVGd3dUJ3a2tUbXZBd0JwY3JaaEJLLUxGSm5zV25KMjlsY2tqcVFwY0xjOW5wejZZSVJ1d3pmbXE",
         "CBMikAFBVV95cUxPSlNhRjJ3NjMweW5Ia1FNMkJKYXhBZFJmQkV0aDBlQjVOa3Q5RnNGaDdsSXU5ZHVIQ3ZNckxIdnlwM2puU3lOeEVWWHZMalZWZ29hVDQ3NE1CVTBVb08yVk9NMmhCcWE5eUNMR3pTclFoWTh2SEFfZElCUUtoUFFzQUt4VldhcUhTUEJsWDdkN2k",
@@ -322,14 +316,20 @@
         "CBMimgFBVV95cUxQSGtPRGNFM2M3WG50Q0lLcF9XVXNJWlZiTTNDcXgwdGFDdkN4S1hPMlFSZEdSYVNveDVGX2UzOTBGZl9NM1RJTEh1eXJMMTRuWFR2Sld6QXhwQTFSWFU5dDBZMFVOQUxfWTB2ZE53bThYWlBOcGlzWE1SOFVzSjBzOURuT2FmNXhXYUR6Y2szMlpER3RmYjlwSFhn",
         "CBMi8AFBVV95cUxPV0dqNXFJTXBKUXhWVGNmNnZsVjNTczlJZWllM1c5U3BfOEk1NWpHMHhBZ0xtV0l2V09YM0gtVHZuemRSa2c4ak9abXJIcU00bUFGSE1PUzJiQVQ3Nkc4QllSUmg4N3g4THZac043ZFdVWkRoVWk3bThBdHFUckV4c0RycjdCaVNOR1F0VGRWb2NSX0pYRDQzVFNDaElBN1pYZzloODB4aEhJaEJ0bHBoSThLbFYzeFEzTEJ6UUd1SmpSdld0WFBtS1dhajU4Z3dHTld4VVo5dmJDUmhpel9ERE5ITC1uRm9CVkl2aEtlNVDSAfYBQVVfeXFMTjd3MzFWUEx1WE1OSmgzVHEyQjU4QVFUNm5sQzRuSnZ0TG9fYlA3aE92NWVZVXZxblE1QTJPUUxSQW8wMkk3TUNLbFVFM0ZFTU8xaVIta3pkUnJuWDRISzk0cW9iUGtIRlgzWTJhUkwxdllua1czSE5aOWFkamkzZDk3WGxPYnNQN1JGSllqVFozYmdCZ1VRR2NRbElCemloNTRyYU8xR083am8wZkNYRjZWUF8tQVI4ZHMtdTJjMmhNdWdRRHJXQV9CQ1NrSVB1VWFLUmpOc1RleEgwZnhuZXVJUjBjRDl2OThRbUoyeGFla095VWl3",
         "CBMikwFBVV95cUxNeEg2ajJkZ0xYRUN1YS1RMVBSZGVGR3BBVFJjay01SmdBRFdlSnB6SXRobnZVdVp2RWdTNkRzMHM5TFA4dHI3UnBZZzFFMHRjc3BBNVFZdnVOaHdrTm5yWC1GSUpLdVhnVk13dzNySnZyRVlFcHhNaTE5cmNfQUJLVUs4OGlkR3BGbHY2dHI5T2pYOEE",
-        "CBMizAFBVV95cUxPSTBaZ1ptbUNjakJfOG1lZl9lNk9icnQyVk8yLXIxVXp6WDFvdlg1aWFyTDdZQW5nd3poNmtGYnpsNDIyMmI4SnBSenNYUVk0a1REVzdLOXhSNHBiSXFpc1ZlYi1NSFQwZkptbVJUSE9jQUxmZHdreE96ZWVRZnJvRW5kNWdCZEluaGdBQ1RZdGg3RlR6ZTdxR2NkX1FucERyTWZHTFViTTJNSXpDZnh4NlN5bVBVQ292UEx2Mmdvd29RTG1ZX1hyblVHTXM"
+        "CBMizAFBVV95cUxPSTBaZ1ptbUNjakJfOG1lZl9lNk9icnQyVk8yLXIxVXp6WDFvdlg1aWFyTDdZQW5nd3poNmtGYnpsNDIyMmI4SnBSenNYUVk0a1REVzdLOXhSNHBiSXFpc1ZlYi1NSFQwZkptbVJUSE9jQUxmZHdreE96ZWVRZnJvRW5kNWdCZEluaGdBQ1RZdGg3RlR6ZTdxR2NkX1FucERyTWZHTFViTTJNSXpDZnh4NlN5bVBVQ292UEx2Mmdvd29RTG1ZX1hyblVHTXM",
+        "CBMickFVX3lxTE9QX2ZJMjJLZmd3MUtnQXBDbmFuUUJ4S0JvQkZ1bXRBY0RFbUF6eUs1dTFaLW1tQ3gzdE9UdVREdkd6TTM1NllvWFhtQ0pLWXRxTG1XbXJVWXZqQmpSdW1BTUhUNTEzTWdhOUhCMDdQa0t1dw",
+        "CBMipgFBVV95cUxQRW4yR0xHdW04SS1fQzA2WG14dkRkQ1VMRmJORW02WHZHeFlxLXRBUzVCbW1mV2RpcHdhd3Npa1ZJeGJveUptZXMyRGpfQV9peUk4WklnQTBZaHdwcnpzMjRJLVNvaDlpRzV0TkZQU1k4cFdiNFJYVndlRkk0T2V0WXFRVE1CTTlabmJNRDQwU2hlc1RlY290V3dSeDNNQ2hrU2pBU2p30gGrAUFVX3lxTFBwZHdyMWRHcDFvZnQ1ZDlPbklQYjFxNzljSC1JQUpOdFd2RG9zQXdSaTNuMXlvUWhlb3duUEU2dEZXTmgyUFd6LXZsbTQ2N3Z1bEJnRlo4QUFJWlktWEdwY2Z2djdHT3JVV1hhYmc0Nk5RMFcxMC01eldLMFhJZC1DVWNTaUVtb2taYmdmdE5wX1JaTEJlb1dlWWM5ZjJTVUY0SFdibkhKdUlkTQ",
+        "CBMickFVX3lxTE56TnJveDVJUnczUUFlMWMtaER1bl9JbTZ4dW1nNTJTUEFINWRaT1FnSzF6SkhXd1VpTEYzU0JUbWxoWnAtVEdmZndpR2w4czR4UjFQUXY1a1NaT01Ja2h6UnctVlhaTERLdUVsbi1maU5mdw",
+        "CBMie0FVX3lxTE8wMWRYUTY4UERuQmU0Q2drdlBUOGFLei1oUzhlYnQ5aURGSWFpWnQ2dkF1OUFqWm9JVW1aemM1V3loNC1WX3ZBczZXNlhveU8yM2lTdS13YWdTUm1DUS1xYnhKVldtM3lfU3dKc1VrRFR3RWxWcm9KdFluVdIBgwFBVV95cUxNSzlGcVFZZjYxMkppeWxncUd0LTMyYUV4LW5QamREVGJYdUZURnVXRjN5N2k5c0ZxUzFGdjRZdXdxallXNlpfNElkeDQ3VHdsSWxTUkh3UUpsdFZubEc2VG91OVJXR1Y5RUxjajBEajlDYjg3MzRoVFFwZTRmVUgxdTh3cw",
+        "CBMiygFBVV95cUxNNUtOWGp3X3pjR3V6NUpfenVPLTNBNklqQ3ZYcWJBOTI4WGFtcU4tVG1XVTc1Q1AwcFRrTW1BTm9TVkUyby1GTGNGY2xLRkRmUUVMckx1VGNzbUNqXzlJX1FuNHJmZ0kzQ1lHRk9rNnVLX3laMEs4Wmd6a1N6QU5iWWxZT0tUZHF0VWx0VHdBc0U5UG1uRmRvZmNFcC05LVRDWm5JQmJUX0ZBaWNZTGFLa0pJN2NUWGI5RGI2azMxbUFNZWhJbDRXWGxR",
+        "CBMivAFBVV95cUxOOGJURFl6aV9uTTl5M0dWeXJXUkU4MEZZaGRwSzZKSzU4Q2FWNGdseGtySlpwUmhHU1g5eE5ESWRDNENUaENaREltcFpCRlM1T2VPZjlGNF8tQm1yaGxHVTVKQWZUNlowMXBNMm80RlZfR1pGenhYbXNzNUpsQm9pRDBsNXRMbDR5M29OSmt4cWF3SEVRenRiSkNIc1RNLUpPZkZMdFZ5UHo4SmdzUWF3RjNHd29TMC0tZVNhcg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-14T17:17:29.241Z",
-      "last_epoch": 1789392195000,
-      "etag": "\"00ea45548aed3d1e66a9f1996f8a447f4-gzip\"",
-      "last_modified": "Mon, 14 Sep 2026 17:03:03 GMT",
+      "last_fetched": "2026-09-15T02:16:13.732Z",
+      "last_epoch": 1789415114000,
+      "etag": "\"091f2d7f5528aea2baff14da7e34b7dc2-gzip\"",
+      "last_modified": "Tue, 15 Sep 2026 02:08:50 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -347,18 +347,19 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/manipal-hospitals-scouts-for-acquisitions-in-andhra-keralam-delhi-ncr-bets-on-ai-led-healthcare/articleshow/134179222.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/coai-british-high-commission-ink-mou-for-cooperation-on-ai-digital-trust-intelligent-connectivity/articleshow/134236761.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/solar-industries-to-acquire-south-africas-omnia-for-rs-12951-crore-in-biggest-global-expansion-push/articleshow/134235620.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/roadways/if-your-car-breaks-down-on-a-highway-help-could-reach-you-faster-how-nhai-is-upgrading-its-helpline-to-quickly-dispatch-ambulances-cranes-and-patrol-vehicles/articleshow/134241960.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/if-your-car-breaks-down-on-a-highway-help-could-reach-you-faster-how-nhai-is-upgrading-its-helpline-to-quickly-dispatch-ambulances-cranes-and-patrol-vehicles/articleshow/134241960.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/centre-proposes-easier-norms-for-faster-drug-rollout/articleshow/134247112.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-14T17:17:29.349Z",
+      "last_fetched": "2026-09-15T02:16:13.747Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-14T02:15:39.411Z",
+      "last_fetched": "2026-09-15T02:16:13.764Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
