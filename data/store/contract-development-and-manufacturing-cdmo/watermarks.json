@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-15T15:55:24.300Z",
+      "last_fetched": "2026-09-15T22:36:10.032Z",
       "last_epoch": 1789384651000,
       "etag": null,
       "last_modified": null,
@@ -30,15 +30,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-15T15:55:48.955Z",
+      "last_fetched": "2026-09-15T22:36:33.067Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-15T15:55:50.390Z",
-      "last_epoch": 1789477299000,
+      "last_fetched": "2026-09-15T22:36:34.381Z",
+      "last_epoch": 1789491597000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -205,14 +205,16 @@
         "CBMi-wFBVV95cUxPdS1wajhuRlVIOXNMY1JmWW1TMHNkOTkySDJlcHhSTFZYQzVpTUFCZURWV2RtNDNMcVVYWmxjZVR4SnBZZi04Yjd6Y1ZxOTdPdXFLUjc0bk9EVlVvakFCMlFNUGwyd0dYWWYzYkNRUzlDWVlmTDZwY1lPMXlseFV0T3BVYkhrVkdXaWx4blBWRndrMzVCREs5eFpONjFSY3hBQjhWRjdNbXd1THRjbTJIdDBmeDB4QlJEeHY2LUpDMHAxZUx6eURKNkgwNzE2a082RkZHbW4tOEMxWGJ0clNxRi1QSzZjQVJ1ZFB3eS10aFQ0bXFoRTZHbERmbw",
         "CBMihwFBVV95cUxNOVFCb1B1SWx3Tm56dUx4UjFMT3dLajdPNWFGVXBqNkc2aGktUjA4YkFxc3NwT2ZMOHRuZlNkZ29mWG16SVRha0VmRmEyYk9wN1dQN2JlQjlSUHJLd0Q3ZjkzenZkbGltTlZyMTd2YXRaRTJRODc0UzVHSmdtS1Q5QkZDMjRDejQ",
         "CBMijgFBVV95cUxQX2YxdEpRb3V2YnFYR1QtZVlJZ0QyZlpleGdObzNaNXp3d0p6T0lHUndFQXFrSEctU19ZRzlPay1jU0hHN1F4T1loY0ZuZmo2aHRtSk40aWFkaUJQdDhXS1liY0pGdGd3N1lzQV94WjNyUDJjaXFaM2RtRzM5V3NjNzFFTnJpcWgyb3N1ME1B",
-        "CBMioAFBVV95cUxON1hzT290WmJhZTZXR3hCa1RieFAwaE9YZWh2YlJvZlE5ejRIUjJQaE9VcE5EbmNvUkNpbXBZNFdUVlhhT0tsaTRic2ZnVkdBVFlXTEJZVFUwekktNmVzRlppVmdvSS0tUzloTnZ6aGZCWjVTem9jN3FOeGoxYzdDamg1RjJNZXRWaVFOdUtlYVdjLU15Q1BTRzdXaGw2SzFT"
+        "CBMioAFBVV95cUxON1hzT290WmJhZTZXR3hCa1RieFAwaE9YZWh2YlJvZlE5ejRIUjJQaE9VcE5EbmNvUkNpbXBZNFdUVlhhT0tsaTRic2ZnVkdBVFlXTEJZVFUwekktNmVzRlppVmdvSS0tUzloTnZ6aGZCWjVTem9jN3FOeGoxYzdDamg1RjJNZXRWaVFOdUtlYVdjLU15Q1BTRzdXaGw2SzFT",
+        "CBMiswFBVV95cUxQWGtEREVib1lxZGd4YnllUTJXbDRIZDVCekpRN0VpYURpdkhoVzNOWlg0YU5uNTJqazBhWFlzYUVIQnFmS2lhdUpxOHc5V0FsNXBKc3RFcXZab3hKME9HQzBJal9xVGpVZ1c1LVFoeXBMeG9jSlB1S2V1SzZ5MjNjbU8zWlp3QmMwUjhNVWtXaXBFdm82ZGZWZHc4eVhmeThCV1lxeEpzOEZfMmhXMkJZODRhUdIBuAFBVV95cUxNeGVuOVhzSXZwUkhua0pHVFd6ZFoybU80d0pmRlAzYTdNUlY4QnFwblhFNGw5ZElBYUVGTTEzSnB6V0w4cHhTd2NHcUVRMTVDdTVMM3FqRndXQzhlaEQ1RXhLeE12d0I0Z3hxbHFSLTlxNXh0YTJoRHBmSExnbHluWGsyRTZCT2Rjd2tVU2JCMlE2cUJMbWFDOUVoM2RPeFRZWTdGOWRmTnNLMl8xLUNpenlxNHlvQlVD",
+        "CBMipgFBVV95cUxQa3pCMGRaenI2U1ltTUNVTDNPd3lQVlhJZlZ5TEwxZnA5QTUzNkJfUktQY3oybTIxZFdCRlFSVW1HX3gtdDVOb08wYmx1MnR1cHBRQ3VBSTBxYlNmaEl1MHVIVlExWnRRR1kzX0V1N1IydE1CMzd1UXZ2N1M1Mm9uZDhPRGlIbDlUR24xazFvUzBtTUdtcXQwcDRlWUpQV1ZFNG13dXBB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-15T15:55:50.449Z",
-      "last_epoch": 1789485243000,
-      "etag": "\"07793f6d680b2ab91ba4ccf7766687f76-gzip\"",
-      "last_modified": "Tue, 15 Sep 2026 15:47:33 GMT",
+      "last_fetched": "2026-09-15T22:36:34.520Z",
+      "last_epoch": 1789498916000,
+      "etag": "\"08ccfcc7bc5f959519222fdb75670ba99-gzip\"",
+      "last_modified": "Tue, 15 Sep 2026 22:28:40 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -303,11 +305,13 @@
         "https://economictimes.indiatimes.com/industry/auto/auto-components/uno-minda-plans-rs-1415-crore-investment-to-expand-auto-component-manufacturing/articleshow/134256626.cms",
         "https://economictimes.indiatimes.com/industry/renewables/saatvik-green-energy-bags-order-worth-rs-1042-crore-from-seci/articleshow/134267699.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/embassy-developments-to-invest-rs-2000-cr-in-85-acre-bengaluru-project-phase-1/articleshow/134263134.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/train-journey-from-jammu-tawi-railway-station-new-entry-exit-arrangements-start-tomorrow-heres-where-passengers-must-go-from-september-16/articleshow/134261069.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/railways/train-journey-from-jammu-tawi-railway-station-new-entry-exit-arrangements-start-tomorrow-heres-where-passengers-must-go-from-september-16/articleshow/134261069.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/hindustan-coca-cola-beverages-lines-up-1127-crore-for-new-unit-expansion-in-andhra-pradesh/articleshow/134272247.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/customs-duty-hike-impact-gold-imports-contract-to-usd-2-3-billion-in-august/articleshow/134268881.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-15T15:55:50.563Z",
+      "last_fetched": "2026-09-15T22:36:34.811Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
