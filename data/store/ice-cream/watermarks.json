@@ -1,12 +1,11 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-14T22:51:40.411Z",
-      "last_epoch": 1789420976000,
+      "last_fetched": "2026-09-15T09:04:01.801Z",
+      "last_epoch": 1789422185000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi3wFBVV95cUxQc1hZSGJiUVVVa1dVdEdobzc5ZVFCdlA3VnBuNE5QVjhJZkVfYUxDSENhNEtWcU9scUo2ZF9WNWxyTzcxT0pJTE9VSzV4UmJic19ISU5TbE5EbkxhTnJ3cnhaU2NBSnR1cXBuSEJ4aG5Jazk5ZkM1aW5LQUthNFVVODRFOFpZS2hXcDZqeHpQSGxKRzh0c0o3X2JWWWF3MW5vLXRsWkdGYVlBOWN6Tk9hdE40SmFya3ZkZmRQVzlfeWJibUh1X1p6aGZwWDB6OXN2V0V1NVVYekZZNkJyWUNR",
         "CBMikgJBVV95cUxNSGxuVGEzMlBTZkxLT1dqOWtpY1BEZWNOdzFaTnJscUNadVVLSTZRR2dNLTNIb2xicElFUHphT2llQm5nVTlUVW9Wd3VSaUp1d1VJN2Jyb2gtTW5mX0tJdk9NZElyR1ppX0dSX21QaHFhNHhIRzlQbTd6UWZraWQ2NFo1eXhzVV94Q3JVQjFBakJxMWVqSl9FU1Bad29FanVHT3B3aW1HNnNySnFVNjJRZkZzRDVWbXh5UEFQUFlRb01PbGR1MlJYSzY3ODBzdnFZUzBKckRZckV2bzcwbk54RFN5QlZxQXZrell6WHdRYW5xakhYNWd1WWhCdXRCWEN4VW42b2xzUzQzVVRHUGNJT0t3",
         "CBMirAFBVV95cUxPU2VFTzlrUnFkQTdxR1RyWUtEcGtqVXhRcC1oYVVzZzBjbzBDdFIwM0l0YXlhZmhibmExdV9XTUJ2Nmlibi05ZXp5UklEZWtZX05ReHJ6VEwtdVdYUC01Tkg3MFNfSkZQdjhyenViTDk5ZkdaUmh5bUN6M3lDN2xmNUdsLTB6NS1NZTRQZWdNUEdOZDJhZUNYc3FMRWRFVGdDV2oyZEcxcDI3dm1o",
         "CBMidkFVX3lxTE92SnJyU0lCTm9OWFZONVNtaWhGWUpSZ1ZOdVNtLWFpSVlCcEtLODBzN3NxMm9LSWRWUm9ndTJnTEtDay1wUExXaXRKR3JSdkRPc2RZcWRxN2tCeFBSNmN5RHVZNVFPUnhsVGF6dXRmNUhTUVNwNWfSAXZBVV95cUxPdkpyclNJQk5vTlhWTjVTbWloRllKUmdWTnVTbS1haUlZQnBLSzgwczdzcTJvS0lkVlJvZ3UyZ0xLQ2stcFBMV2l0SkdyUnZET3NkWXFkcTdrQnhQUjZjeUR1WTVRT1J4bFRhenV0ZjVIU1FTcDVn",
@@ -305,18 +304,19 @@
         "CBMisgFBVV95cUxQYW0xZFhFNlh2TjZGUU1nVFozbThSaVNNVTAyLWQ2M2RsbVk3UUY3Z1BlckFSbEtjbnR1SmFxUXdHNzZfdFVUb3Y5OHAtUnM0TXR5NVoyaE9oSE9IRm9ZcHpFWkM5amtCM3RSRmRHb1UzWVZMUkFQdUJoS0JvOWNWMlVlbEhIN2U2SmhSYlNkdWVoM3RKYUlpYlNXYTRvcFFZbDY4S2xUQkh2U1FWOFYyRktB",
         "CBMi9wFBVV95cUxORC1fMmdwdEV5bEZRLTg1cnl5aDNJZEstM0dScl8xeFJWc3FuZWozVWxIM1dRMGItVEVzM3lDNF9vOURqNGxlZkdncmZVZ0l3SmZaWl9Xb01zeXg3ZThqdjZCTFhaUDhHUjlZb3czdWFoWlk3REdyc1gycV9oVUZJU1VsN0hPOFgwQUxqUHZtOFNIams3TEJkb0xnV0YxcjlYUmViWGhjdTFJT0pXelNTNTJrQ08yam41eURuamZETjBXa2lXdi1OcGQ1bF84STlJY25JSElzMzJYQlJFdGlEOUNhV0tHTU45OFNaQmVuZ3V5c3VNRG4w0gH8AUFVX3lxTE12ZXVybjQyNmZaUjA0bXFLS3RoT2c4YlhYUDlycmphbnBPR0ZYNERqZUtLUUlmX1pmM3pWVW5EYjROZVJZRDBjd19hSDdueFU3ODZJV2I0WmxuZ1RRZHIwTHJ5RWs2V0xZdkRhNGh5Wkg5aFZYeDk1WWpRX1A0NDdOZVlRRkZ2VDF6S0d4N3UtUm9hVjJKM1RMUXdheERqSnNwWFVBcEFtdXFTUE1vQkZKWlVwUXdtMWZHODZlaVlaX2dwaHZOU1Q4Q1VoZnpfOHRLRVE1Z3hMY1RLVldHRlhlcG5WbmQ0Zmt2emdJbGtuTG93ZjFRRjVocWpQUw",
         "CBMijAFBVV95cUxNTFdKRjdOdE5IQTlqUHlVekhPcU53UzlRbzRVeV9lOFdRUEY2QjZ0anQ1NERCR1l5TEVRTmZ5NjI2MGt6QnByZl9nanZVVDBOTWdZWU1kVV9rRk5zYjRiYndnSXFtbmhqOFc4cGtWNlI4R0pVUDhBallBZWMzckFaNHBFYm9vYlBaNzlwZg",
-        "CBMitgFBVV95cUxPREhHMWNDR3MyMXh4WHp6Znp4ZlBBdjFNZkVsRGlOc1c2XzZzSUo4M3dMT3B4UVc5djRSQk55NnRVOG01ZTNJUFQyY1NyU2ZiY3lPZ0tTY0JBQmtIMDJYcjRuU1lxVXU4NDVmR2hrQ0hNOGwweFo2aVpMV1RIdV9ZMi1DTHNKOFYwM0ZtVGZrVlppRUtya1ZSaHBIUnYxaGNPNFY3TVlqZ25FVXYtcWV3bE1wX2RPQQ"
+        "CBMitgFBVV95cUxPREhHMWNDR3MyMXh4WHp6Znp4ZlBBdjFNZkVsRGlOc1c2XzZzSUo4M3dMT3B4UVc5djRSQk55NnRVOG01ZTNJUFQyY1NyU2ZiY3lPZ0tTY0JBQmtIMDJYcjRuU1lxVXU4NDVmR2hrQ0hNOGwweFo2aVpMV1RIdV9ZMi1DTHNKOFYwM0ZtVGZrVlppRUtya1ZSaHBIUnYxaGNPNFY3TVlqZ25FVXYtcWV3bE1wX2RPQQ",
+        "CBMiXEFVX3lxTE1UbTFvVHYwOUN3REFrM3U0Und3amE2TGdQMThiSDdWRUZfZFRLLUp5eE5FXzVCbUlYaENxLXVPVWpaalJidnV4WDBiRExGeTAweU0tNFhiNEVscWo1"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-14T22:52:14.324Z",
+      "last_fetched": "2026-09-15T09:04:38.962Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-15T02:16:02.828Z",
+      "last_fetched": "2026-09-15T09:04:39.956Z",
       "last_epoch": 1789385405000,
       "etag": null,
       "last_modified": null,
@@ -481,10 +481,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-15T02:16:02.926Z",
+      "last_fetched": "2026-09-15T09:04:40.032Z",
       "last_epoch": 1789126306000,
-      "etag": "\"091f2d7f5528aea2baff14da7e34b7dc2-gzip\"",
-      "last_modified": "Tue, 15 Sep 2026 02:08:50 GMT",
+      "etag": "\"0526bc6a4aaad4a061d4d923c08e4434c-gzip\"",
+      "last_modified": "Tue, 15 Sep 2026 08:34:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/ambanis-reliance-enters-ice-cream-market-with-launch-of-bombay-creamery/articleshow/133678139.cms",
@@ -496,7 +496,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-15T02:16:02.947Z",
+      "last_fetched": "2026-09-15T09:04:40.080Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
