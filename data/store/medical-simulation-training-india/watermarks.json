@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-17T15:51:28.983Z",
+      "last_fetched": "2026-09-17T22:33:01.475Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-17T15:51:39.793Z",
+      "last_fetched": "2026-09-17T22:33:11.231Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-17T15:51:40.661Z",
-      "last_epoch": 1789640950000,
+      "last_fetched": "2026-09-17T22:33:12.399Z",
+      "last_epoch": 1789673765000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -127,14 +127,17 @@
         "CBMijwFBVV95cUxOaElxNVQwb1RyR2ZJamtWck9fU2ZrUkdsX0Q1TlpOeGg4czNMR0NEODlSRXUxUmViNTRKdG9kREs5aEhyMklTcUFiU2RtN0pyb1RmdzMxc1VaSWdicjJPR3lfR2RRZ3d2RlpvOThhX3hRU2ZxU3NOUTVTTGVmYm5zTzZCWGFvS0M5OHNMa1NwMA",
         "CBMimAFBVV95cUxNZF9kbnJrODdmU1I3ZlgzbE5FWDVpR2xrUExOV05WYnpFdmxKaG55dFVlRFFpLVhaeGdmSm16U0dwMlRlcUs4NjluSmVpeTI3eEp5Zzg0bGgwWFdZTE1WLWhGenZQMWFVWG16OThqeTlmdHlGZHMwQkY0WmpxWEJVQUs2YzFVaE9kQ0c0akxVVHl3Q2tndzVZVA",
         "CBMipAFBVV95cUxPTmNKWVg5QVl0U2VydnBZVHZCcmJSYW9CLVo4M1JWdE5Rd3A5eXJsWHd4cGxxUFNfMjZ1ZmxnVFV0ZHlJaG9ZNVdLOFBhT1NGQW1GbEJ4VlF2RUZCbGJOZFVVMTJlVnJKdTUxV3h0Rmd3MGJZa3l5ME1BaUJoaElMSmRVbU1oMVBrM0g5akQ5TGhzVHJTdGE5RDJtZ05CMkRUakU4cA",
-        "CBMi4AFBVV95cUxNcEduMHppSEhQdmhpRFFpdGx6RTZDZVZzRnZ4MUN4MXhmVTFDaWt6VWZ1cS1BUjdoek0zNF9WMXlWQUpmR1dZeFFCOE84bkttYjBTRks1ZGJWOHBrUzAteWNVQnhiOFlQTW92XzZOU29EU0pINDlIOW1xb3hncmRNTE1aekhYeWNvbDRWR2JnZmdlMno0LVJBNFIxdnlNRnFHb3lFeThjTm1TV0pIQmpudHNHX1d3bmlwQmY4Z3NrOEwxZnkzMEd6NFFfU1QzcDRINC1CWDY5WV91S0s3TzIzYg"
+        "CBMi4AFBVV95cUxNcEduMHppSEhQdmhpRFFpdGx6RTZDZVZzRnZ4MUN4MXhmVTFDaWt6VWZ1cS1BUjdoek0zNF9WMXlWQUpmR1dZeFFCOE84bkttYjBTRks1ZGJWOHBrUzAteWNVQnhiOFlQTW92XzZOU29EU0pINDlIOW1xb3hncmRNTE1aekhYeWNvbDRWR2JnZmdlMno0LVJBNFIxdnlNRnFHb3lFeThjTm1TV0pIQmpudHNHX1d3bmlwQmY4Z3NrOEwxZnkzMEd6NFFfU1QzcDRINC1CWDY5WV91S0s3TzIzYg",
+        "CBMilgFBVV95cUxPNVRjYVl6LWVxSkNVcGJOMER2RUV3VjRzRTBOcFpIeXY4UGh0aE1RZ3BmM2RRTGtUOWRuZ1J6OFhtVzEtQ1dxT3Z2c0xHZ25ZMklNMDZSLWhpWTFJTzczbW90bUdlNEI0d3I4dE5CaWctNFN0R2JuSUthRGhYcmt6R1pGMThXbWNOMlprTnRKXy1Dc2Q1cHc",
+        "CBMilgFBVV95cUxQbjFHcDgzWWdTOGNpdEgzYXZSQ2F0S3hVWng3enlfM3lQWDJFemoyOEUzQnV2clBFZkR6V1U3WkxaQVpmUk80TFRvd2ROZlpCYTFIckZOOXFVUTRfTlh2djdjdnExSHN2b0JIem9wWkpzNWp4ejFJczBqS25sUUswUHpuN3J5Zk5UMWJCSmNETmFNbEpjbHc",
+        "CBMipwFBVV95cUxOdDY0MmRTQ2hGVXYwZURZQkZBRWlWMk55eHJNbmxBMGVRVTk3emNabFBHd2EyUlBTekNZSUo3RVFIX3BxVGI4MEo2S0NaX2VpR3h2Ym9TQXhTb244UkJiVzMwTmVtTUQtNF81dS1QOWxNaUlHZ1lBVDBqbVlsWnZhUUVFbVRDbDVkZW1KdFd0Z281WHQ2dnZiMWpfaHRtSnVadllDc09lSQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-17T15:51:40.812Z",
-      "last_epoch": 1789637226000,
-      "etag": "\"0be7521319de2469a914c7fceac716903-gzip\"",
-      "last_modified": "Thu, 17 Sep 2026 15:39:46 GMT",
+      "last_fetched": "2026-09-17T22:33:12.592Z",
+      "last_epoch": 1789669758000,
+      "etag": "\"064831906f93721bb9cf93b4468f19608-gzip\"",
+      "last_modified": "Thu, 17 Sep 2026 22:20:58 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -204,11 +207,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/advent-international-to-invest-rs-3150-crore-in-yatharth-hospitals-for-24-9-stake/articleshow/134305169.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hospitals-seek-new-pricing-rules-as-maharashtra-fda-flags-high-markups/articleshow/134302712.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/can-wearable-tech-ease-period-pain-curapod-launches-new-device/articleshow/134300089.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-proposes-cctv-surveillance-at-medical-stores-selling-prescription-drugs/articleshow/134307348.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-proposes-cctv-surveillance-at-medical-stores-selling-prescription-drugs/articleshow/134307348.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-issues-advisory-against-unregulated-stem-cell-therapies-restricts-autism-treatment-to-approved-clinical-trials/articleshow/134319742.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-17T15:51:41.210Z",
+      "last_fetched": "2026-09-17T22:33:12.996Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
