@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-17T09:01:40.185Z",
+      "last_fetched": "2026-09-17T15:52:18.394Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-17T09:02:14.443Z",
+      "last_fetched": "2026-09-17T15:52:41.932Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-17T09:02:15.632Z",
-      "last_epoch": 1789614285000,
+      "last_fetched": "2026-09-17T15:52:43.022Z",
+      "last_epoch": 1789656755000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -293,14 +293,20 @@
         "CBMiqAFBVV95cUxNbTBwdFdFOUU2bllLZ1QwNnB6M2pQX213RmVaMnItNF9xVkpiQzhGRFIzazB1N2Y4U2lxcUlHcUlleW10dkczSGZEYTkwV091SEVRVG9yYWdpVmx4dm5HWXBsalhqT3BsbWhJcTNETkxCX3lnazVIOEtuWENjSXhFT1BqU29NOWdaazhSblNhZVUwUmZvWDNRUm9tcVNzRTJDck51Vm1IVlA",
         "CBMioAFBVV95cUxNTWR0SzlGQmJibzRrNVE0aGNXUjJEdnRISWJUcGtrTlBjVUFJU2g5ZU1vb28xdnB1VGxuenY4SkhWMmtIbkdSVGFSMXBaa2R2Vk1YdWhuSUhCUFEzRFpsSVpnZHpDQm5ycVVwajF6ZTJoenlwMndWNG1ydTYtU3M0M1BGcUNsa0lNSjZCQTFKQzJWYVdRczV0QzN2cDYydXg0",
         "CBMipwFBVV95cUxPVUYwNlNKeXphcHhmbktVSW1FRlZZV3lQNkZZNEpTNERDcjRfSXhNMEVmRERpSnRrNDRRMUhCS0RMcFRTa1VlY1d4VGpWWnp0cmJfOWF1SUJCTDJRcXpBbG5kay1zcWhrWmw3OXFyVTI1WW15MU5JekVtS3F1SDhGVGZmQXNrRDhBcVVyYkxIVWk5VU40WS0taXZsTDE0azdVby04VzF0MA",
-        "CBMiggFBVV95cUxPREtMRHlZeF9uRzB3am84QmNfTzR3TnRnMEhnaTZEeEdIa05SNlhMUV9iNmxTNVlUYk5PbVZkcVhNZkRDVGhQVnNXLVdpVGhRd3otNnUtLXhJc2lROVhsVzlnUEF3VlNheHNYeWt5MHd1Z19TQ2pNWDVmWGtuS21Pd0tn"
+        "CBMiggFBVV95cUxPREtMRHlZeF9uRzB3am84QmNfTzR3TnRnMEhnaTZEeEdIa05SNlhMUV9iNmxTNVlUYk5PbVZkcVhNZkRDVGhQVnNXLVdpVGhRd3otNnUtLXhJc2lROVhsVzlnUEF3VlNheHNYeWt5MHd1Z19TQ2pNWDVmWGtuS21Pd0tn",
+        "CBMimwFBVV95cUxQdWlwZ0NEYTFEeHlFdHZGcXpDdGtULW5hazJtNWRQNktUYUtEQ2V0NW10Q2J6Z2lpZlEwUHBMU0ZST2pKOFo0TU4wU1QwUUxlRTdQWFQyMWtoVHBRck5id0dEbjNhVGM0a2V4cDRUNGZkcGxuT0tGMktNNVprVXBaLW1WY3ZjMWtsR1NNS205S0hiNmNLTUxYQ2E3cw",
+        "CBMirAFBVV95cUxOM3d6MjlCRnBYMkY2dG14VkVpcF95ZUE0Rkc3TGFPS19hLUg2OTF0R0hKRzgyaVhwVWlEQV9uTzAtd01iRFZGZ01WSElaVlExUUlRSE00dXZwc0UtNHdNUFhYRVlOdWx5T2s2T2FuTGQzajR4TjRCVWtHZ2ZaY0JrbTRSQ1JQdmc1bGxtSTdheDdPeWVkRGRrblJwbzFOVEN5b2pEbk9wSGdVaFZo",
+        "CBMihwFBVV95cUxPeU1RdllOZmZrR1BxMEY5Z1pSR05XNUVhRlAzQVJSSjRob2NGbWY2QkxSbTNJMWV3cmNFWTlRMHBWTjlUZkNWWXpvTXYzZHl1ZWJYUG9neHdXSXhwS1JFRkNDUVZ2MTBXWWxNN1oxckMzOHJpTUNzNXUxcE1EUm56ajdROUFnYzg",
+        "CBMilgFBVV95cUxOdE1jbnlJQjB5YWk5Z3Q1NmJEZWFWQy02TUN0Wm12RWVtZFJRb0p0T0xGS1p1bkJsdEJMWXZMcUYzSXIxU0drdThtMmxtOU5mQXF5TUdLaFBZZHpkTlRIZEZHRVdnS3JlTUd0QTVhQ0UzTzFpam5STHM1dzFsTGVyUHNZejBhTUx4OEY5RGMyY0trbDNiMnc",
+        "CBMizgFBVV95cUxPcXpLV2tpZnVKQ2Q1VTJPVjZ5YVdHejhPdENmTG9OcUxUU2E0bFNKN2tpbmFHTzFvZkhHVWtUalBlX0NZQl91MW96cnlETUZmMGY2MzY4MDRBY2U2RE9heHBqZ1dmUnhJcXFfOUdzNk1JUzJ4MTNid0RRWjNreDQxS3Z0OFYzQURwU0FzdjdEdXJPZFVyVWhLYURYWXlaTDJDZERTYm5YVE5LcnZIMl9QYXNpM053R3BRWVNxbU1ITzZmX2Rram1RN3hWVkpPQQ",
+        "CBMimAFBVV95cUxORHlKaHNvZjJjWVZjRTduX2c0Wno1X0FQTXlBa3cxeXZjbG8yVURNeWFxQ1BSTjgwSktJZGFSMC1GZVoyX1ZyLVQ0aEJXblN4TWNxMTdEcWtxV19YWE1aX0NpcllHQ3V6QnJxSjRyRmMwcERFSEVTb1RXT0RJYld1MGFjQkpyRjNpdXk2OVlaWHBsWk93OG1sUA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-17T09:02:15.675Z",
-      "last_epoch": 1789630886000,
-      "etag": "\"0b7beb6b7a5ac2d643781ece87a6d88dc-gzip\"",
-      "last_modified": "Thu, 17 Sep 2026 08:42:46 GMT",
+      "last_fetched": "2026-09-17T15:52:43.116Z",
+      "last_epoch": 1789656322000,
+      "etag": "\"0be7521319de2469a914c7fceac716903-gzip\"",
+      "last_modified": "Thu, 17 Sep 2026 15:39:46 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -542,11 +548,15 @@
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/nfra-to-release-second-staff-series-on-technology-in-audit/articleshow/134295321.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/advent-international-to-invest-rs-3150-crore-in-yatharth-hospitals-for-24-9-stake/articleshow/134305169.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hospitals-seek-new-pricing-rules-as-maharashtra-fda-flags-high-markups/articleshow/134302712.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-issues-advisory-clamping-down-on-unregulated-use-of-stem-cell-therapies/articleshow/134301683.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-issues-advisory-clamping-down-on-unregulated-use-of-stem-cell-therapies/articleshow/134301683.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/indias-mining-metals-sector-needs-technology-shift-to-strengthen-supply-chains-report/articleshow/134315146.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/ndude-labs-invests-in-nutraceutical-ingredients-firm-nutriventia/articleshow/134313661.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/6-business-frameworks-every-entrepreneur-should-know-before-scaling/articleshow/134312292.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-proposes-cctv-surveillance-at-medical-stores-selling-prescription-drugs/articleshow/134307348.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-17T09:02:16.030Z",
+      "last_fetched": "2026-09-17T15:52:43.187Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

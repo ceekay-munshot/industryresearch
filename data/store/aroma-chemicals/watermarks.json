@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-17T09:01:04.874Z",
+      "last_fetched": "2026-09-17T15:51:41.380Z",
       "last_epoch": 1789618767000,
       "etag": null,
       "last_modified": null,
@@ -38,15 +38,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-17T09:01:38.860Z",
+      "last_fetched": "2026-09-17T15:52:16.872Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-17T09:01:39.864Z",
-      "last_epoch": 1789629904000,
+      "last_fetched": "2026-09-17T15:52:18.052Z",
+      "last_epoch": 1789638606000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -208,14 +208,16 @@
         "CBMi6gFBVV95cUxOdy1wT20tN21CRXdBRUhFa2k0dDRGUGVoQkhPOFFOZU9TX2YwN0xIdDJyZ1gtQU10SVp2Y0F6amg4TW9lZjBnUzF0UEczc3NzZDlFLXIydFhhSm01c3dOZFNLNzR3WmkzdGdqRm1oaE01YXdPN19jVFA2eTNHOHRKVWZDeUJLN3g1MG44TWtub3VsRnE4STZxZVNZcjlGNjBhWm5qbU15aGcxS25xaEhST2lkU0FwNFEzcC1iZTY0SV9nWDlHb3JLUFRidnZrVjA5akJOX1RTMGlUMW4xbGZZWEgwRjdyVWVEekE",
         "CBMihAFBVV95cUxOd0pYbGdSYlFJckNqbjl3TlVQT3ZOaUpYTHBrVkFiS3J5NjR6aERjblBMbkt4a0hMOG1TeEpTMUpxU3MyeUVibXZlSXdiakJFblVsUHM0R0pOc1dBUVhWMVdzR0E3MnBHRHltdVpvdjJwWEwyWGFla0tKbi1KMGJjdVJwNTg",
         "CBMi4wFBVV95cUxNanMxUk93NjZ0X3QyX0xMM1VYcnlyX1c2LUJYUWk2Zi1HeU9jVWxpdlh2T3pFY1ZmWkZzZjVUSmsxUmM1N3NCN3dHVmk4UWR5TFE3ZHlEVl9JWTVhSGxSdHZhSGJIbFlnT0JTLVdVU1VjMXhWdVlSXzEzXzN3SWVZbV9heDZhanJ1aTQ0N3hwanBXeWViU0NlaHhFTTU4YWhPMXg2Tlc3X0N0aHRYSU0xVjlqMlhNSWh3U3FnZmNXQTBzdmRQbkxObmFZNEh3a0RhcTBrb2tlZmNYVnhMUkNfWlVucw",
-        "CBMi0gFBVV95cUxPRmpFSnkwVUo5RFhPOE5feGtHZU40blNVNm8zQ2I0Z1llVkpTNnRGV2VRYWVtbmkwRmVWWUNtcWZHdVZNVkxLLWdZWTM2NEpvLW5CYUo1eGlwT0taU0tpN3pwTHR5Z0Z1MHNsNy1TQmpNVURVR2llOERoSVJUM19BeXVyWE9ZMVZOQXBmdkt1TWxWa0tMbnhzemJZX2hxVGFReDFSV09ENlJXSDhxTzJDTFpnVkNyUDEyN3puTjFpcTZsd0RKTnQ2NXFrUjhyUkFiZGc"
+        "CBMi0gFBVV95cUxPRmpFSnkwVUo5RFhPOE5feGtHZU40blNVNm8zQ2I0Z1llVkpTNnRGV2VRYWVtbmkwRmVWWUNtcWZHdVZNVkxLLWdZWTM2NEpvLW5CYUo1eGlwT0taU0tpN3pwTHR5Z0Z1MHNsNy1TQmpNVURVR2llOERoSVJUM19BeXVyWE9ZMVZOQXBmdkt1TWxWa0tMbnhzemJZX2hxVGFReDFSV09ENlJXSDhxTzJDTFpnVkNyUDEyN3puTjFpcTZsd0RKTnQ2NXFrUjhyUkFiZGc",
+        "CBMirgFBVV95cUxNcl9KOGFlbjc2dUVFZEpYRVFabjBXaVFsUTNlazl2bnRBN0V3djJBME5hUXVJeEh3NjZNdm0yUENPTGp3czVHYnVJOHdnOE5McmYyX2N5bXJCYU94Z3V5WDI0NWtKOHZ3MHBvMGhhYmRnQ1FGN0gyeWFIb01XS085cWNRWWlxM2prVEZIdkN1clJJeDk0dmxZT0JiVURZT3ZaM25hMWFsckp5WjBBVnc",
+        "CBMiwAFBVV95cUxOSWJBdTVsMDhIZnkxczVZYk14cmVBS3lGUzAwSXlEbmM5WmxZaGZpWlNiTG1wcWlHeDJfZXllTWtJblRPaEU5dkpHQmVQRmdWWnZhVWZZWU9wbkQ1MXRDcU1SX2E2U2JCb1NoUlZ5U1JVaXJmVmJHNTZPTFBRWmFBMHp5a1R2cXFiT3dkdjB6ZHo4OEtXZ0gxYmNobUxlVkNOdElQaVY1LV95S1NqcU9TMzAtQ2ZkeTUzMGJuQkx4U0Q"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-17T09:01:39.896Z",
-      "last_epoch": 1789587130000,
-      "etag": "\"0b7beb6b7a5ac2d643781ece87a6d88dc-gzip\"",
-      "last_modified": "Thu, 17 Sep 2026 08:42:46 GMT",
+      "last_fetched": "2026-09-17T15:52:18.188Z",
+      "last_epoch": 1789652277000,
+      "etag": "\"0be7521319de2469a914c7fceac716903-gzip\"",
+      "last_modified": "Thu, 17 Sep 2026 15:39:46 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -247,11 +249,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/solar-industries-to-acquire-south-africas-omnia-for-rs-12951-crore-in-biggest-global-expansion-push/articleshow/134235620.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/centre-rap-pushes-bhel-to-diversify-beyond-thermal/articleshow/134272029.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/hormuz-crisis-lifts-ongc-oil-business-squeezes-petrochemical-unit-as-feedstock-costs-surge/articleshow/134296070.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/fujifilm-to-invest-rs-800-cr-in-semiconductor-materials-manufacturing-facility-in-india/articleshow/134292306.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/fujifilm-to-invest-rs-800-cr-in-semiconductor-materials-manufacturing-facility-in-india/articleshow/134292306.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/ndude-labs-invests-in-nutraceutical-ingredients-firm-nutriventia/articleshow/134313661.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-17T09:01:39.989Z",
+      "last_fetched": "2026-09-17T15:52:18.259Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

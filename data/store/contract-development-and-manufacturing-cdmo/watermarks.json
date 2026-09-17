@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-17T09:02:55.125Z",
+      "last_fetched": "2026-09-17T15:52:55.390Z",
       "last_epoch": 1789513519000,
       "etag": null,
       "last_modified": null,
@@ -31,15 +31,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-17T09:03:20.053Z",
+      "last_fetched": "2026-09-17T15:53:28.916Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-17T09:03:21.301Z",
-      "last_epoch": 1789634430000,
+      "last_fetched": "2026-09-17T15:53:30.207Z",
+      "last_epoch": 1789657875000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -224,14 +224,19 @@
         "CBMi_AFBVV95cUxON1QtTDdTUWhHM2I5c0pjRGcxTEF6OXdOS3JOVG52aUprQ0ZZSFFFU05OMUpZU1NBdnMxeXFJNk1qVWI4M0tWVlBpcTNicURpRlVYYzY3WDV1SWVRMDNDU3FkRGdKUkZuUFdHVGlKaXlGbGhJYnRxRUpseWhKVmpnalloVGdHY1ZuNDZldV9MbVd1VGxPY2hvbkpmeXpRYUgybnkwcnNUOGVYbmFVelc5eU9EX0xLSFZRc05Ca0hXZnljbW5ieTlLenN3XzNULTNNaHdvMzN1U2RLanhfZUFPNVVuRGFqNnlhYUE3N3pxdjg5RXkxN0p5eUg5SU0",
         "CBMipwFBVV95cUxPVWpnLWI3RDRkSUI4cHNBV01HYkl0cVlsVlhJb3dtbWtzQkdxMHZnb2xLeEFGRTN0cHJ3SWhEXy1PcV9lOEhKay1GZzY0cmRfbG1sdVJOWUR4U2xzX1ZtQUQ4V3lWb0oxZnh5ejJFc181aktMNmFyY0FNWG9DdUYzS2tOSUE0UG1yM2dTb0dkVVJ6Vm55LWo0OUNfWmFYVnRma2RGcHNkZw",
         "CBMi8wFBVV95cUxPNE5UVXRITnBzN0kweDIxMjBCbHpfTEtOWEx3bE9hVUh4ZGlidE1aY3ZmQzZra1phV1ozX295dFJvT1M1aHotQjZtWlRhVnlVWno0ZURrU3JKMnRKYVJ4SmdtYnplb3cwUUpmcUtrcmxnVk1BTXU0bnZJc3pfUkdiS2dzSFhGSU9SNlBTLW45QVJBR1hmdDJIUkxiVnBsNVE2YXo1ZGxweXllXzloOU1YeDRPX216a2tjSnc5UzN5czdFUldEbXNtT0xCWUVHR0RhNmlVcmpRWDMtWVFLcFJrZXRNTlVUU2FQT08wd1FEXy1FcFk",
-        "CBMipgFBVV95cUxPMGlLb0JkWXVLZ0Y1MUltQThGaUtyY3VkYVZVbFlWaTZhNEduRzlyOVYxNUFJTnpaN2hVZXh5QlpPMXdGalRGQkRRQzNHLWlXNnRQMjVMUWxhWkpHSW9qRmVfR3lZRGtfRUpfSloyRFBtMTUyc1hnYVJ3bjJPa1dNQ0lhRDl2bEcwZHdqREg0SGo2TW43d01uaEJSTXpabHF2SERfYWhR"
+        "CBMipgFBVV95cUxPMGlLb0JkWXVLZ0Y1MUltQThGaUtyY3VkYVZVbFlWaTZhNEduRzlyOVYxNUFJTnpaN2hVZXh5QlpPMXdGalRGQkRRQzNHLWlXNnRQMjVMUWxhWkpHSW9qRmVfR3lZRGtfRUpfSloyRFBtMTUyc1hnYVJ3bjJPa1dNQ0lhRDl2bEcwZHdqREg0SGo2TW43d01uaEJSTXpabHF2SERfYWhR",
+        "CBMilgFBVV95cUxOQml1WWxHSDFjWnNrRGMzdHN4WlR3a01WVWItSXQ3cFFsY3RscWVTYmJ5YW14WEhJNDdkeXh5bTNVV2VMcHpQTG5ZQU1tUFZ4dG5iYndJbXJtUUVnckg2cnN0bkltTDBTbWlieTduQVRFY01NcjROd29kS2FGRFBSUWtTNzZHbEpWeUlmZVg0NkNUZ2V1X1E",
+        "CBMi1wFBVV95cUxNdEtHdEpqZ0pYdl9EajVzTThFa3hUa19OTkd3LWlMYVdBMTVHV0hlaDBRMVdUTllHck5Wd21HMlZwbEpEMXFyWHNSUEp2OHNodmV4UWp5RFBxMXV2TDZmTDhwVm9rak9jbDZXcTVzS1E2NTY2cXRDX052MnlWTnpfNFl6MEpnSzAxb3NMUVo2Ylk2Z2tHbVFTbUw2Q0JPU0tGSmxlNFhFdzJmbWx0dUJKb2s2anFZSi0wLVN0OTlfX2FUSjZVbVdzTVlCdkdjaXJDUDdOSERsRQ",
+        "CBMiswFBVV95cUxNV3A5STZlc3RmS0lnWW5kQmg3Nko3R0RsUzJXN3Z0N0tHMklTaTJ0b0h5LWhWNXRKSThaTmtFNlhNblh1cXRXQ2tGaHBmUGZzTEVURllkYVp6REFfZkQwalp4dnlTTkVUcTVuMEtnN3F4ZDgxSzZhQ0pYdWFidGNYNWw4b0dXak1yZHpYeUp4eGJRMFo2c3UxOGM1cm5IY2VFZjEyd3FpWG5VaF9NazVsSzlzVQ",
+        "CBMitwFBVV95cUxQU0Fxc0dyX2RaUy1XalZ5a283bUsyRjhuektySjFGc2dkZFl5UFJzdmpITTE2LTFGeEFoNE80SER4M3dRZmp4cFllQThPMDhpQUpLZzlJVndYNUVSZEdEWUE1ODdWdWlvdGlfTjBzMmZoVVZudE56NVMtTWpDRmQ0TEd6QnBteEpqeHBBelhsNGhrSzFVM2NqVWpNeFZNcWtwRG42cHg4X1dGUmdhTmZXNnhBUGJobzA",
+        "CBMihAFBVV95cUxNRnpma1c0YUdjR2FYNTNPTjlPLURqUElJY0JWOFNLc0pOS2MxQXhIVzk1Umo3QzNpak1LMEZNY0JiYlN1MkdEUTN6dFlNZlFoSjRJN0JiRmJOQjhMZ0FtWTdzMHN3LVA1LVdjRE11Z05PYXRNcUt1TWhXcTlBNnExV1M5aWs"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-17T09:03:21.389Z",
-      "last_epoch": 1789628957000,
-      "etag": "\"0b7beb6b7a5ac2d643781ece87a6d88dc-gzip\"",
-      "last_modified": "Thu, 17 Sep 2026 08:42:46 GMT",
+      "last_fetched": "2026-09-17T15:53:30.355Z",
+      "last_epoch": 1789658784000,
+      "etag": "\"0be7521319de2469a914c7fceac716903-gzip\"",
+      "last_modified": "Thu, 17 Sep 2026 15:39:46 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -333,11 +338,20 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2-0-infineon-ceo-calls-india-key-semiconductor-market-expands-workforce-by-28/articleshow/134304509.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2026-indias-chip-story-has-moved-from-files-to-factories-says-pm-modi/articleshow/134303425.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/applied-materials-announces-5-billion-india-investment-under-vision-2035-for-semiconductor-ecosystem/articleshow/134303422.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-2026-from-phones-to-fabs-how-india-is-building-its-semiconductor-muscle/articleshow/134302289.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-2026-from-phones-to-fabs-how-india-is-building-its-semiconductor-muscle/articleshow/134302289.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/auto-pli-investments-have-crossed-rs-45000-crore-h-d-kumaraswamy/articleshow/134315716.cms",
+        "https://economictimes.indiatimes.com/industry/energy/power/india-calls-for-secure-affordable-and-reliable-energy-for-development/articleshow/134314618.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/india-launches-16th-round-of-commercial-coal-mine-auctions-offering-25-blocks-for-investment/articleshow/134314148.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/ndude-labs-invests-in-nutraceutical-ingredients-firm-nutriventia/articleshow/134313661.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hiranandanis-greenbase-to-invest-rs-2000-cr-to-develop-5-million-sq-ft-in-tamil-nadu/articleshow/134312408.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-wants-india-to-be-its-biggest-market-and-factory-floor-ceo-kenneth-benaim-campbell/articleshow/134307340.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-proposes-cctv-surveillance-at-medical-stores-selling-prescription-drugs/articleshow/134307348.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-components/tariffs-supply-risks-push-indian-auto-parts-makers-to-build-beyond-china/articleshow/134306479.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/dr-reddys-inks-pact-with-gilead-for-once-yearly-hiv-prevention-drug-lenacapavir/articleshow/134306473.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-17T09:03:21.468Z",
+      "last_fetched": "2026-09-17T15:53:30.459Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
