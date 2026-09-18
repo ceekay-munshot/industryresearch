@@ -11,7 +11,7 @@
     "generated_at": "2026-08-17",
     "mock": false,
     "query": "Ice Cream",
-    "updated_at": "2026-09-17",
+    "updated_at": "2026-09-18",
     "coverage": {
       "sections": {
         "size": {
@@ -62,7 +62,7 @@
         "news": {
           "sources": 1,
           "confidence": 0.6,
-          "as_of": "2026-09-17"
+          "as_of": "2026-09-18"
         }
       }
     }
@@ -1282,6 +1282,41 @@
     ],
     "news": [
       {
+        "title": "Check Your Freezer: So Delicious Ice Cream Recalled - WIBX 950",
+        "publisher": "WIBX 950",
+        "date": "Fri, 18 Sep 2026 08:22:17 GMT",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DQk1pLWpXZ2NmRU45VDQ4dkRiS1ZGckhNelIwNjJZaXdBay1nbFIyUkxQUGUzX1QtS1BfRDE2SGVJXzlFWHEtanR3QUZvYktycWhPcjZUVVBaSXR0cWJyNzBwb042SXYwcXZkcG13?oc=5",
+        "snippet": "Check Your Freezer: So Delicious Ice Cream Recalled &nbsp;&nbsp; WIBX 950"
+      },
+      {
+        "title": "Mr. Wild Man Hits 3 Billion Yuan in Annual Sales, Siphoning Revenue That Originally Belonged to Haagen-Dazs - 36 Kr",
+        "publisher": "36 Kr",
+        "date": "Fri, 18 Sep 2026 02:54:05 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16Mll2UzgzYVNnbnZkaEtiMzdpSHVmMXFzZW9hTnladlVkZnNCaWpmMTU3X0JZSlhQYWlfd1ZkcFFpOExoSlJmWVRNdDFMaEdIekxn?oc=5",
+        "snippet": "Mr. Wild Man Hits 3 Billion Yuan in Annual Sales, Siphoning Revenue That Originally Belonged to Haagen-Dazs &nbsp;&nbsp; 36 Kr"
+      },
+      {
+        "title": "Nestle India slips Thursday, underperforms competitors - MarketWatch",
+        "publisher": "MarketWatch",
+        "date": "Thu, 17 Sep 2026 10:32:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOTB2c1ZBRVl5VGRVbDJkLVdTR085RzVOSFVMUEx4emNycTdKVUlNeTl2S1FadjdoWkZMb19YOEFJZktwSWd6SFd0RFY0SmdjeUdtay1wbk5Kb1RjU3B2RWJiaUxsS1o4ZXpXRndZbEtJa0F1UkNRTndEdTktak9Hejc1NFhrRmh3WGszZGljYlJvWldnMFFxaEphZ0dvWm54dXl5dEtyNHQ4SkI4QnptUmdPblNmSldISjhPQWJaeUMwY2dMVnc?oc=5",
+        "snippet": "Nestle India slips Thursday, underperforms competitors &nbsp;&nbsp; MarketWatch"
+      },
+      {
+        "title": "Hatsun Agro Product Share Price Today: Price Action Review - Univest",
+        "publisher": "Univest",
+        "date": "Thu, 17 Sep 2026 09:19:05 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOFduOEtVOS1vTGh5U1dmdFhNbjRjVFAyVG1iZWV0UG1JT1l0c3hHb1ItZEI0V3Q2LVNpanNnY2ttV040NC1zVXEtcjJEbW9fbWZnNXlhWXFnNG40RzBNSFNLMXVCN05pbXgwbGlJbXJnTVpGMXExN3FVT2k0c2dnc0IzWEN1ZV9xNUE?oc=5",
+        "snippet": "Hatsun Agro Product Share Price Today: Price Action Review &nbsp;&nbsp; Univest"
+      },
+      {
+        "title": "Varun Beverages Share Price Today: price rise and valuation - Univest",
+        "publisher": "Univest",
+        "date": "Thu, 17 Sep 2026 07:18:27 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWV96X3d5a2t2a2pOMllnM0RXNmpjbDk5ei0yVjNCVkNZWHFIVjQxbkFDWDFxV1J4eU93M2dGa1VJdGs3b3BOYWRydWplS2FnTl9kWlZGeG1aR0h0aXMwWVJSSmdFMTAzVndMWHRKek5WNzdmcmFWbm5sOFh3ZHdVRFp6V3RGZHRjM0E?oc=5",
+        "snippet": "Varun Beverages Share Price Today: price rise and valuation &nbsp;&nbsp; Univest"
+      },
+      {
         "title": "PV Sindhu wishes PM Modi on 76th b'day, recalls sharing ice cream with him | Sindhu wrote a special piece for PM Modi | Inshorts - Inshorts",
         "publisher": "Inshorts",
         "date": "Thu, 17 Sep 2026 12:45:32 GMT",
@@ -1455,41 +1490,6 @@
         "date": "Mon, 14 Sep 2026 15:01:11 GMT",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNQzh3OWp2R0JkRUdKekh2TzFCeUFROUVSVUxYUXlmZW9NdF92ci11QUZrM1ExSWxLbXR4aHhUcEtOcjV3cFd3VnZKQ0tWNEhtbGtyelRPMlNfVkdhcHQyaEFHWkRFRWxvaGQxTW43OW5DWDVqQ3AzYUNvaU9tYUVxblBfNVVxQUhfNzRzQ3lsNGF0TWNPWmRIZl9zQ1d1dThJVl9yd1VOSXVQVXo4dEJxNHFLVXJtc01NTV90TzFxVlI4NGR3WE1rcEJoWEdOa3lJSGRmb1AzZGFUOTBUTVpyTVZ2TTF3MWZ2dGtN?oc=5",
         "snippet": "Vadilal Industries Ltd Downgraded to Buy Amid Technical Softening Despite Strong Fundamentals &nbsp;&nbsp; MarketsMojo"
-      },
-      {
-        "title": "Delhi HC quashes seven ITAT orders in Patanjali case, flags 'shocking' procedural lapses and undue haste - The Economic Times",
-        "publisher": "The Economic Times",
-        "date": "Tue, 15 Sep 2026 11:25:19 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVlY5ZFZuTTRUOGdHb25EQmFBejJTWkdBNjI0ZWUxVU1wNkZJSnJlbTVKbWpGYVdReTIzd0VraElKOU1oSVRuOW1PQVp4VEtvWXF1and1TGRmeUxUYWh1ei1NV1hfR0JEX1ZGd2p2SE9DUEp2U0w5YzlrSmtod0FidHc3WFM4RUtlV3N6V1Y1XzJmZDVOd29aVUZWbU1RT0R3Y3dkWFF2eUFnR2lBR1pkbWNvbXBIdHQtTmtHZTlIbEV1OFQ1WmRJbS0wZWYzS3l6UlJlVHRjdmRMa0cwNnBTMWlabEhPUE03R1hrcEZRRlpfY1FEV3pTazV30gGCAkFVX3lxTE13VW9PN2wtT0JwbzJ6QllCR1lTVl8wTDByWk9SbDFLekZkb2gyLTFmQmVERWdQd3NSblQ3d19lNEI5bWt1RktDQVFFQTZTWG5yZWJPZTVFRkRndzJnQko4cVNzOFZHQWJDdndGTUZkdVBrUmJBblFIdlk5QlRqcEsyNk1IeXp0dG9jbGlqdWpKYXloeFNKOTdzT0RueGw0WWhzR25ETU9jUXJXczFwQWkzSlM2blQyZXEzMlJtSk9HWjlQWnBFaUlMZWJvcnhBNndEdndwbGJlNzZGMHFxQU9HQUdrS3NzQm9LX1B1TXJrQ0wyX2lqUVVFRnRUV0xtWkFrdw?oc=5",
-        "snippet": "Delhi HC quashes seven ITAT orders in Patanjali case, flags 'shocking' procedural lapses and undue haste &nbsp;&nbsp; The Economic Times"
-      },
-      {
-        "title": "Mrs. Bectors Food Share Price Fall: Price and Valuation - Univest",
-        "publisher": "Univest",
-        "date": "Tue, 15 Sep 2026 04:35:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQmJpWjE4M1dnNTVmZFRRb1FTRG04QVIzUFFUTVR5emRwYW9xWGo3MHVBck1pU0dmQ1NoQWRnZllpbGs4aHA5UTItQjJDbjRuNVJYalBrUjdQMmplVXJXZUY1cVZWcDUtZVd1UlVCTDNWOHNWV3BYcUNLcW55NmtyWHB6RkNjbVh3NjZ6VU1qbw?oc=5",
-        "snippet": "Mrs. Bectors Food Share Price Fall: Price and Valuation &nbsp;&nbsp; Univest"
-      },
-      {
-        "title": "HMA Agro Industries Share Price Today: price rise explained - Univest",
-        "publisher": "Univest",
-        "date": "Tue, 15 Sep 2026 07:57:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSkFtVW83UGExQ2s4dGFVaDFFX294cHdlcE0wUEdyZlBUZVFjMEtJVjAyUUlsbW5TdVJJVW5TVjhYUi1aZ1NaV3g3RXFiRVhGRFc4SUtpcFpCeGo2dkNPRDA4LTd2NXJXbmQ2Skk4Y1BkQm5nQTdOY2ZGUnN6TEgtTVJFZmU0d0E?oc=5",
-        "snippet": "HMA Agro Industries Share Price Today: price rise explained &nbsp;&nbsp; Univest"
-      },
-      {
-        "title": "5 Longevity Lessons From Eat Your Ice Cream - The Chalkboard Mag",
-        "publisher": "The Chalkboard Mag",
-        "date": "Mon, 14 Sep 2026 21:43:05 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UbTFvVHYwOUN3REFrM3U0Und3amE2TGdQMThiSDdWRUZfZFRLLUp5eE5FXzVCbUlYaENxLXVPVWpaalJidnV4WDBiRExGeTAweU0tNFhiNEVscWo1?oc=5",
-        "snippet": "5 Longevity Lessons From Eat Your Ice Cream &nbsp;&nbsp; The Chalkboard Mag"
-      },
-      {
-        "title": "Fire Breaks Out At Ice Cream Factory in Nandanvan, Operation In Residential Area Under Lens - The Times of India",
-        "publisher": "The Times of India",
-        "date": "Mon, 14 Sep 2026 18:54:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxORC1fMmdwdEV5bEZRLTg1cnl5aDNJZEstM0dScl8xeFJWc3FuZWozVWxIM1dRMGItVEVzM3lDNF9vOURqNGxlZkdncmZVZ0l3SmZaWl9Xb01zeXg3ZThqdjZCTFhaUDhHUjlZb3czdWFoWlk3REdyc1gycV9oVUZJU1VsN0hPOFgwQUxqUHZtOFNIams3TEJkb0xnV0YxcjlYUmViWGhjdTFJT0pXelNTNTJrQ08yam41eURuamZETjBXa2lXdi1OcGQ1bF84STlJY25JSElzMzJYQlJFdGlEOUNhV0tHTU45OFNaQmVuZ3V5c3VNRG4w0gH8AUFVX3lxTE12ZXVybjQyNmZaUjA0bXFLS3RoT2c4YlhYUDlycmphbnBPR0ZYNERqZUtLUUlmX1pmM3pWVW5EYjROZVJZRDBjd19hSDdueFU3ODZJV2I0WmxuZ1RRZHIwTHJ5RWs2V0xZdkRhNGh5Wkg5aFZYeDk1WWpRX1A0NDdOZVlRRkZ2VDF6S0d4N3UtUm9hVjJKM1RMUXdheERqSnNwWFVBcEFtdXFTUE1vQkZKWlVwUXdtMWZHODZlaVlaX2dwaHZOU1Q4Q1VoZnpfOHRLRVE1Z3hMY1RLVldHRlhlcG5WbmQ0Zmt2emdJbGtuTG93ZjFRRjVocWpQUw?oc=5",
-        "snippet": "Fire Breaks Out At Ice Cream Factory in Nandanvan, Operation In Residential Area Under Lens &nbsp;&nbsp; The Times of India"
       }
     ]
   },
