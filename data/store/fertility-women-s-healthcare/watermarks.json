@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-18T08:37:57.983Z",
+      "last_fetched": "2026-09-18T15:22:55.048Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-18T08:38:29.666Z",
+      "last_fetched": "2026-09-18T15:23:02.361Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-18T08:38:30.914Z",
-      "last_epoch": 1789714998000,
+      "last_fetched": "2026-09-18T15:23:03.620Z",
+      "last_epoch": 1789735270000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -303,14 +303,17 @@
         "CBMiqwFBVV95cUxOYVB6N2R2OUd5NmVEU0VBZlVlNWNCOGozTFZQM3Q4cktFNVdybVJmSHd4NVFVSjB3dWN3clQ2dC1ib0x5a1VBaHRUZXhpTkxhRE1jaE0xUXNIYjAtblJJSGEtcVNnVDNwN3VsbzJFZ3VLanphOXprLUx5alBNSVpPOTczdkpGMjM0clAtRDNxeUpfU0dHeHNZMzMzUzBlWVl2OU5yQm9OcTJ6Y1E",
         "CBMi0gFBVV95cUxQRjlVMDU4S3p5TG5nWS1FNzRwUjRWZ2lDelI5Z0hxOXl6M2ZIMUFIamxGR1pOVWc0TVpyS1VJNE4ybFNmZkM4bWFoci1Sd0E0Y01yVzdIc0ZiSG1xWm9ReGlxRDBqWERMLTdUWUFBdGJTWllhc0ZCaE92azZMOFZoRTUtb2Q1REhUNXloQzJkTlF6ajgxSnE0VkhUUy1kZkJPRXhYYzBFcVlac0dveExMVXZjMjVPdTl6X09vaTRxU2RJbDB3bXR3c016Y1N1NEJCeGfSAdcBQVVfeXFMTWRIbUxPOE85QUxrX0dhNkU1M3VkaUF0R3NZUEpqSFVydHJlMUVpVTFJZThBOVFsY3d5NmlHaC1JUlMxNWc1bmhfQjdPZW1fSTVzeE1TdW5LTV9fcU1lNTVVTkhUcURnRU5CbjFnTUF1Ml9TSXlLVm1GWFBUMUM3V0VMS003SUJCUEloV3JHSXBWN2x0SjJ5QWJLeVRRa0J5VmloQy1wRXE1Wk1SbDdoRFVJbmwxTzdqOFNEMmNpeVpCa29TT0xjMkl5NUl2ZWVacGdfRHowZ1U",
         "CBMivAFBVV95cUxQSUpzVEZlRlVzUk1uR0F2ZmlVLUExUDJUV3RjNElKRGZkUkdiRnNvb2pBZ2dTbk9ZSjF5clBkOFJ2ZTBtTXI0YWkxZ1VBVmx5WnhVWDVZbjhKaXZGbXFGXzhmNzAtc3E3ZUJRQXNOUENmZm55R1g1TF9JaWo1MlJvVnB3ZnJ3dEZZWktjUHltZU4ycjltSmgxM2x0dEk0M1VEUG8tRk9LeHNPRXR6Y05QdFQyWk01b1N1cmhkTg",
-        "CBMi9AFBVV95cUxObUtDZHkzR0tSTTF3TmFBMXBrc0plRWk2OWJOcVNJYV9WV2l4b05JWW52NXlMWnB2SjlOT1Zfa1dnX0NJVzJ4NE52WmoyYS1RRXJMeWtibkhwUEZUM1JoTzM3dldWZWtwMnR0RmpxSGd1M0xaMWNRd01sWWZ3TkN0VVNGaW00Q2F5ZEo2TWhIN2FlQU1GR1NvdXF6TThUbHBNSnBKYllOSWlRWFBrN052OVFaSm9BaDRzeUxrV0JaS0EzNHcwWEhDWW80U3BETWJ3cDFOY2xQa2NIcEM3aHg2T3dCUzVVeFRWZWt1UlN6NUx1ZUhT"
+        "CBMi9AFBVV95cUxObUtDZHkzR0tSTTF3TmFBMXBrc0plRWk2OWJOcVNJYV9WV2l4b05JWW52NXlMWnB2SjlOT1Zfa1dnX0NJVzJ4NE52WmoyYS1RRXJMeWtibkhwUEZUM1JoTzM3dldWZWtwMnR0RmpxSGd1M0xaMWNRd01sWWZ3TkN0VVNGaW00Q2F5ZEo2TWhIN2FlQU1GR1NvdXF6TThUbHBNSnBKYllOSWlRWFBrN052OVFaSm9BaDRzeUxrV0JaS0EzNHcwWEhDWW80U3BETWJ3cDFOY2xQa2NIcEM3aHg2T3dCUzVVeFRWZWt1UlN6NUx1ZUhT",
+        "CBMihgFBVV95cUxPMDlQV1dNVEYwYUpfRjcwaXE1bWExN0xjbUlnV0ZNLUc1TXFpdVFYSzVuU1p0UzkzNEZ5X0NSaXRMNFJZbEFhRFcxcFk1bkF0Ykp3eGdEYWItVDg1Uzc2YjhPRzRPMWdKWk4zb2pGT29mMGlJbndzMFdIeExTYVdFLTl3dXlGUQ",
+        "CBMi_gFBVV95cUxONjEyZGhDUk40VE1jcnkxNGpELURTODBqOWJudFU4MWl1NzEzV2VLYUxhbGdic3lPYlBZZHNtY2VZdHpLM1ZEUXhSNWJVbmFGVjVUODR1ZVNZb1FueXVtYWtwY1UzU0VoeUZ6U0p5TmEwQW00dWdaV2Z5bG52b2NuUUE0cXBiVUJIT1RtWDNVSUxzSUdQcXJuM0l4dmlTZ3VkZ1hvWDE0RzNXQTJmb182WUtPVXFhelotdzNtS01KZnRwMmRDWkxHbkFOVGlFNjNiaXdITWdNWUdMWmdMaXBjVks4SkxlZmRrdm5CZTJXYWNlc2hFSTRFWjVyMnk5dw",
+        "CBMizgFBVV95cUxOMG9BZWpSU2ptSkxCZlJtN1o4V1hEME1UVTNVZlZ6V2p1WkU3S1g2S3dxZE1NeV95WlE3WlVqRzh0SGRoM2QtQWc0bjBEVTg5alJTRHNzeUtxRzJZTGowM0VKVDJyV28zSDlkTVlETmk2cTh3Z3FTeU1teDBnWXp3cFplSlctdk42M0tCWGRINlY1RTRhSl95V2pfQ0x5X3piVS11djVSUDBNdmp5T19rZEZER250WmtGeTcycHlZakxfWDBlQnd1MGZOWlNQQQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-18T08:38:30.965Z",
-      "last_epoch": 1789707699000,
-      "etag": "\"0560b6f06ef8177e03013c2c16a1aa76d-gzip\"",
-      "last_modified": "Fri, 18 Sep 2026 08:15:12 GMT",
+      "last_fetched": "2026-09-18T15:23:03.641Z",
+      "last_epoch": 1789742676000,
+      "etag": "\"042977a2127a24e7eb27cc2106500ee85-gzip\"",
+      "last_modified": "Fri, 18 Sep 2026 15:12:27 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -561,18 +564,21 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-issues-advisory-against-unregulated-stem-cell-therapies-restricts-autism-treatment-to-approved-clinical-trials/articleshow/134319742.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/mdr-rollout-will-be-monitored-to-protect-users/articleshow/134319433.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/apple-pay-set-for-india-launch-next-month-with-axis-bank-credit-cards-sources/articleshow/134326330.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-must-move-beyond-semiconductor-engineering-to-own-products-capture-innovation-value-infosys-vikram-meghal/articleshow/134326203.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-must-move-beyond-semiconductor-engineering-to-own-products-capture-innovation-value-infosys-vikram-meghal/articleshow/134326203.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/sleeper-vande-bharat-express-for-delhi-varanasi-passengers-new-overnight-service-may-launch-around-diwali-with-prayagraj-kanpur-stops-heres-what-travellers-need-to-know/articleshow/134338093.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/indias-first-hydrogen-train-has-room-for-2600-passengers-but-only-40-60-are-riding-it-two-months-after-launch-heres-why-railways-is-planning-to-extend-it-to-delhi/articleshow/134334083.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/cash-flow-based-lending-to-become-important-for-new-age-sectors-sbi-md/articleshow/134331125.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-18T08:38:31.010Z",
+      "last_fetched": "2026-09-18T15:23:03.669Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-17T09:02:16.345Z",
+      "last_fetched": "2026-09-18T15:23:03.686Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

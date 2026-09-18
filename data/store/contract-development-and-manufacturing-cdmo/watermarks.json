@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-18T08:38:54.078Z",
+      "last_fetched": "2026-09-18T15:23:21.147Z",
       "last_epoch": 1789513519000,
       "etag": null,
       "last_modified": null,
@@ -31,15 +31,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-18T08:39:03.047Z",
+      "last_fetched": "2026-09-18T15:23:35.457Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-18T08:39:04.203Z",
-      "last_epoch": 1789715624000,
+      "last_fetched": "2026-09-18T15:23:36.745Z",
+      "last_epoch": 1789717680000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -232,14 +232,17 @@
         "CBMihAFBVV95cUxNRnpma1c0YUdjR2FYNTNPTjlPLURqUElJY0JWOFNLc0pOS2MxQXhIVzk1Umo3QzNpak1LMEZNY0JiYlN1MkdEUTN6dFlNZlFoSjRJN0JiRmJOQjhMZ0FtWTdzMHN3LVA1LVdjRE11Z05PYXRNcUt1TWhXcTlBNnExV1M5aWs",
         "CBMi7AFBVV95cUxQeDRLbm5wbVpvekJobXpKR1RqYThHbDc3U0hmQTA4Sk9TMlJsb2swU082Q0RqLVU1c1lmWWE1OVRZSklBRDdld2tZM1BvSHFybU9TZjFHZmJYRTl0bVlPRnN6Z2hoMWFZYlRsTzhxUHIxMk0wNHFDUnZPQ0d5LVRNMEljT3FlbUFlOXhVMjNoVjI3VVpkQjg2S1gyODdWYXBKaE5rYS1UcFgwVTl6eWpfWkRYYlpjY0V5SkpLVUxfSjBtbzNhY3R6QmxDSkhNMW11VUdyMzlWN0czZ3VNaUhOME50VWxUUFdjQ044Q9IB8gFBVV95cUxQQUNfV0tFVlpodzNhajF4UlVCUmMwZHZhZEc2dTlHZEZBek5CUlFrWXlfUnM3ejlxeEhQQVd4QnJUUDh0Q0N0ZUVIUHA3bVRBS2ViTEVSSkVMYVBabWtyZi1jMjdPNnR3YTNPT0p3ZHBzN3VIdFNVU3lDbEhhQks4ZGJBVGdnUVhJUEY4WWl4NlhiNTJuRzJHM1VpQzVFazhld1ljU2pIZU1Qdk9oazJ1ekk0RGkzMHlrNElyZFlVMHNNSDk4NFVVb2VDOEdESWJ4aXc5Ql9mWWFPRGk1RGp6TVZrOXZINmhQQVRnLVNKOWRadw",
         "CBMi-gFBVV95cUxQbklwQmZ5ck5QalNKaVRzM252bEdLQm1RRW1Ld3hwRXZ3Smxmd3U4MFkwYWNndURBVmRNbm9TcEFsdjl5RTNZb0FVa0x6OVA2MDAwaE9kS0NzWERMaVZfeWkyRXd3ZlVqelRRMDBLQWNXZ01PVmhTVHNtbWVrSU1zeFhEU0ZYalI1T2wtU0dES0llbVBCVnNwOENHcFpIQV9uZGhYRGJKLUNxR0NOQmcwaEFNTW5sRmN6SkdWREpNd041djFVa1hIZkdhUkp6OHM0RGlvX3dhb3E2alJpdU9KdHRaR1FmRTVZMktLZ1ZTMHV4eUlyRy1CcldR",
-        "CBMivgFBVV95cUxOMU1PVnY0UUxCSGVreEo1SlNHTVFFVVhZZWx0aFlWaWZReEhZRFdGbVRzQnFVM1dhY204NDgyXzhGY2k3MWVrUTZzN0VrdFRYelJ5UXVVVWpwX1RuVS0ydWNjM2d5bVdNb0J5b3BHOGhmSEgwT3drUlctcUJxbnRlMTVOcXo5cGt2OEpTQXZybGc1Y1dfaXBzdnRkdElLZ0dETTZkRzdYRlJCYjBHcFZ4OElOUVYyMnNXOTU3M0Zn"
+        "CBMivgFBVV95cUxOMU1PVnY0UUxCSGVreEo1SlNHTVFFVVhZZWx0aFlWaWZReEhZRFdGbVRzQnFVM1dhY204NDgyXzhGY2k3MWVrUTZzN0VrdFRYelJ5UXVVVWpwX1RuVS0ydWNjM2d5bVdNb0J5b3BHOGhmSEgwT3drUlctcUJxbnRlMTVOcXo5cGt2OEpTQXZybGc1Y1dfaXBzdnRkdElLZ0dETTZkRzdYRlJCYjBHcFZ4OElOUVYyMnNXOTU3M0Zn",
+        "CBMikgJBVV95cUxPd253VVJqVllWSzUzRDR1UThldFpvN21pSXVDZVNqUDdqLVFzZzFHQVpPZ2JtbFE5MlFtVm5rU0RmNThORlB4T0oyYUMtaUlqLTNuSFFHSGxHb3UwSVVMazV2TDI3NHJqcVV5eHQtZzhPUGFRN2kySDZvRnVFQUhOMS1DQXhBTTA5RzNQdHU0Xy1vWWhvY2N3ajlzVHZaVUE1QVYwMWpRNmZqX18zTGtSTTJ3OGgybFNZRXR0ZFBRU1hFcldyekdUT3FZbkYzVkxmWlU0N1hIbk01enE4Q3RNdjFhbnZraWctUk00SFF2R2xibGQ1YW5pRE5ScFdjbnAwLUhtcFVZNHZxVm1hcE9RNDdR0gGSAkFVX3lxTE93bndVUmpWWVZLNTNENHVROGV0Wm83bWlJdUNlU2pQN2otUXNnMUdBWk9nYm1sUTkyUW1WbmtTRGY1OE5GUHhPSjJhQy1pSWotM25IUUdIbEdvdTBJVUxrNXZMMjc0cmpxVXl4dC1nOE9QYVE3aTJINm9GdUVBSE4xLUNBeEFNMDlHM1B0dTRfLW9ZaG9jY3dqOXNUdlpVQTVBVjAxalE2ZmpfXzNMa1JNMnc4aDJsU1lFdHRkUFFTWEVyV3J6R1RPcVluRjNWTGZaVTQ3WEhuTTV6cThDdE12MWFudmtpZy1STTRIUXZHbGJsZDVhbmlETlJwV2NucDAtSG1wVVk0dnFWbWFwT1E0N1E",
+        "CBMi9AFBVV95cUxPZV9RYzVrMDV6TGJUaDYwQU5Fb0dnY1VaNDZQV3BadFlDcGR1VXFGc2tubXNqUEFBaFlHY3BhVGt1XzRELU9sMi02blNVRThHQmUxSFpMbEgwXy1UanBTVlFmN0xLakpna09pUnVybC1rSXZaWXBCaUN2WDR0M0RIM29YbXQxREhkNnJuMGpPSzB2RkgwX1ZTM1RQbGlpc0p4dzNUazNlcW5UYnQ2dmduYl9ReFpkRGJpWkJWQWhmSnVtbEJfVU5MWlY2aEVhS0stQmZ4dExzYklfbnh3RWJLSmpxaGxqT3BtYWU1SFZUR1hpTGRX0gH0AUFVX3lxTE9lX1FjNWswNXpMYlRoNjBBTkVvR2djVVo0NlBXcFp0WUNwZHVVcUZza25tc2pQQUFoWUdjcGFUa3VfNEQtT2wyLTZuU1VFOEdCZTFIWkxsSDBfLVRqcFNWUWY3TEtqSmdrT2lSdXJsLWtJdlpZcEJpQ3ZYNHQzREgzb1htdDFESGQ2cm4wak9LMHZGSDBfVlMzVFBsaWlzSnh3M1RrM2VxblRidDZ2Z25iX1F4WmREYmlaQlZBaGZKdW1sQl9VTkxaVjZoRWFLSy1CZnh0THNiSV9ueHdFYktKanFobGpPcG1hZTVIVlRHWGlMZFc",
+        "CBMiggJBVV95cUxQMk1yYmE0Qk1pdWF6NW01TVF1QldNOXdJVE50TjJQSGI2NmNseGJRVzhWVjJGRGZ3Zjlmb2xwR2Vfak81bnkyUHc5MmJIRDVMM0FmWThvN1lLblZNeTRvRGRObkpqYlVVcDJKYS10SmZ6ZDNYOGtmeU1YaExLM2JLXzZJdTZLS0JmZE5iVmVZczdwNUtqdTJURE1CZkNUVk8zTi1NVktJM3JwY19xZUR4UU1IdTlBVkJTTUNrX085UTNxMVkyYS1TTUVSb3c1WjJkZk1EenE0ZVhNM3cxZUpMcHo0R1VhSmRhZmtQdF9ySGRIV3pyWktUa1Q4RlpubHF4emc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-18T08:39:04.243Z",
-      "last_epoch": 1789716167000,
-      "etag": "\"0560b6f06ef8177e03013c2c16a1aa76d-gzip\"",
-      "last_modified": "Fri, 18 Sep 2026 08:15:12 GMT",
+      "last_fetched": "2026-09-18T15:23:36.770Z",
+      "last_epoch": 1789729461000,
+      "etag": "\"042977a2127a24e7eb27cc2106500ee85-gzip\"",
+      "last_modified": "Fri, 18 Sep 2026 15:12:27 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -353,18 +356,20 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/dr-reddys-inks-pact-with-gilead-for-once-yearly-hiv-prevention-drug-lenacapavir/articleshow/134306473.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-will-stick-to-direct-selling-sees-india-as-top-market-in-4-years-global-ceo-kenneth-benaim-campbell/articleshow/134318025.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/indias-chip-strategy-build-sovereign-strengths-partner-globally-says-vikram-misri-at-semicon-2026/articleshow/134328912.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-must-move-beyond-semiconductor-engineering-to-own-products-capture-innovation-value-infosys-vikram-meghal/articleshow/134326203.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-must-move-beyond-semiconductor-engineering-to-own-products-capture-innovation-value-infosys-vikram-meghal/articleshow/134326203.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/tata-electronics-lt-semiconductor-partner-to-manufacture-chips-in-india/articleshow/134333298.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/iphone-18-pro-sales-begin-indias-apple-obsession-grows-and-grows-manufacturing-exports/articleshow/134330426.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-18T08:39:04.276Z",
+      "last_fetched": "2026-09-18T15:23:36.796Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-17T09:03:21.792Z",
+      "last_fetched": "2026-09-18T15:23:36.813Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
