@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "refractory-materials",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -119,6 +119,17 @@
         "Graphics Cards",
         "AI Accelerators",
         "Discrete GPUs"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "refractory-materials",
+      "name": "Refractory Materials",
+      "aliases": [
+        "Refractories",
+        "Refractory Products",
+        "Fire Bricks and Monolithics"
       ],
       "is_manufacturing": true,
       "mock": false
