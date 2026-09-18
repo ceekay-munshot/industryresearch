@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-18T15:22:55.048Z",
+      "last_fetched": "2026-09-18T22:04:41.278Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-18T15:23:02.361Z",
+      "last_fetched": "2026-09-18T22:05:16.295Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-18T15:23:03.620Z",
-      "last_epoch": 1789735270000,
+      "last_fetched": "2026-09-18T22:05:17.545Z",
+      "last_epoch": 1789761041000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -306,14 +306,16 @@
         "CBMi9AFBVV95cUxObUtDZHkzR0tSTTF3TmFBMXBrc0plRWk2OWJOcVNJYV9WV2l4b05JWW52NXlMWnB2SjlOT1Zfa1dnX0NJVzJ4NE52WmoyYS1RRXJMeWtibkhwUEZUM1JoTzM3dldWZWtwMnR0RmpxSGd1M0xaMWNRd01sWWZ3TkN0VVNGaW00Q2F5ZEo2TWhIN2FlQU1GR1NvdXF6TThUbHBNSnBKYllOSWlRWFBrN052OVFaSm9BaDRzeUxrV0JaS0EzNHcwWEhDWW80U3BETWJ3cDFOY2xQa2NIcEM3aHg2T3dCUzVVeFRWZWt1UlN6NUx1ZUhT",
         "CBMihgFBVV95cUxPMDlQV1dNVEYwYUpfRjcwaXE1bWExN0xjbUlnV0ZNLUc1TXFpdVFYSzVuU1p0UzkzNEZ5X0NSaXRMNFJZbEFhRFcxcFk1bkF0Ykp3eGdEYWItVDg1Uzc2YjhPRzRPMWdKWk4zb2pGT29mMGlJbndzMFdIeExTYVdFLTl3dXlGUQ",
         "CBMi_gFBVV95cUxONjEyZGhDUk40VE1jcnkxNGpELURTODBqOWJudFU4MWl1NzEzV2VLYUxhbGdic3lPYlBZZHNtY2VZdHpLM1ZEUXhSNWJVbmFGVjVUODR1ZVNZb1FueXVtYWtwY1UzU0VoeUZ6U0p5TmEwQW00dWdaV2Z5bG52b2NuUUE0cXBiVUJIT1RtWDNVSUxzSUdQcXJuM0l4dmlTZ3VkZ1hvWDE0RzNXQTJmb182WUtPVXFhelotdzNtS01KZnRwMmRDWkxHbkFOVGlFNjNiaXdITWdNWUdMWmdMaXBjVks4SkxlZmRrdm5CZTJXYWNlc2hFSTRFWjVyMnk5dw",
-        "CBMizgFBVV95cUxOMG9BZWpSU2ptSkxCZlJtN1o4V1hEME1UVTNVZlZ6V2p1WkU3S1g2S3dxZE1NeV95WlE3WlVqRzh0SGRoM2QtQWc0bjBEVTg5alJTRHNzeUtxRzJZTGowM0VKVDJyV28zSDlkTVlETmk2cTh3Z3FTeU1teDBnWXp3cFplSlctdk42M0tCWGRINlY1RTRhSl95V2pfQ0x5X3piVS11djVSUDBNdmp5T19rZEZER250WmtGeTcycHlZakxfWDBlQnd1MGZOWlNQQQ"
+        "CBMizgFBVV95cUxOMG9BZWpSU2ptSkxCZlJtN1o4V1hEME1UVTNVZlZ6V2p1WkU3S1g2S3dxZE1NeV95WlE3WlVqRzh0SGRoM2QtQWc0bjBEVTg5alJTRHNzeUtxRzJZTGowM0VKVDJyV28zSDlkTVlETmk2cTh3Z3FTeU1teDBnWXp3cFplSlctdk42M0tCWGRINlY1RTRhSl95V2pfQ0x5X3piVS11djVSUDBNdmp5T19rZEZER250WmtGeTcycHlZakxfWDBlQnd1MGZOWlNQQQ",
+        "CBMivgFBVV95cUxQa1BZSS13Z1pNUGI0S0RyRTJkYjBjV2QtbTJOeVBMdm45djBQRXBkSS1GX2JnQ2lNUGlFdzhOc0R3Q2p3NW4zZTlvNDJtMjRKZ3VuWEJ5VUJ5SW53ZmtVRkdyMmF2NzQ0UnVGOFRLcmg5Zm5Mc01kUWktQlg3WVZuWVRTLV90VU90UHN1YXhhTGhKeW1UZnRoTTA0bGt4TDQyQWk4eGlHVzh2VDFKdXNLcjctVVlBWUNLTjJJUHB3",
+        "CBMisAFBVV95cUxNZjBHRWZEaEYtU0xPdkFOTE9wT2ppREoyX0pBNUlSTmpaRjR3N2otcUtsWUt5aG9oWm5sYkJKc09CcVA5TXF2NUFWcERwYUwzR083WFgycXc2akg4aV81ZVZhN1BBdVZsVFNISHNjYUN1XzJaYVFLcGExUlNXZy1YRGEyTzQ4US1Paklsb3I5LS11ajV0QUNOTVNYNnRHdHFnekZJOXNyOHhTN0VvZURuOQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-18T15:23:03.641Z",
-      "last_epoch": 1789742676000,
-      "etag": "\"042977a2127a24e7eb27cc2106500ee85-gzip\"",
-      "last_modified": "Fri, 18 Sep 2026 15:12:27 GMT",
+      "last_fetched": "2026-09-18T22:05:17.618Z",
+      "last_epoch": 1789757967000,
+      "etag": "\"097dc4fe1a91c49f2d4f6913864dedf47-gzip\"",
+      "last_modified": "Fri, 18 Sep 2026 21:37:22 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -567,11 +569,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-must-move-beyond-semiconductor-engineering-to-own-products-capture-innovation-value-infosys-vikram-meghal/articleshow/134326203.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/sleeper-vande-bharat-express-for-delhi-varanasi-passengers-new-overnight-service-may-launch-around-diwali-with-prayagraj-kanpur-stops-heres-what-travellers-need-to-know/articleshow/134338093.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/indias-first-hydrogen-train-has-room-for-2600-passengers-but-only-40-60-are-riding-it-two-months-after-launch-heres-why-railways-is-planning-to-extend-it-to-delhi/articleshow/134334083.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/cash-flow-based-lending-to-become-important-for-new-age-sectors-sbi-md/articleshow/134331125.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/cash-flow-based-lending-to-become-important-for-new-age-sectors-sbi-md/articleshow/134331125.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/cough-syrup-bottles-may-soon-carry-a-warning-label-in-red/articleshow/134342947.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-18T15:23:03.669Z",
+      "last_fetched": "2026-09-18T22:05:17.742Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
