@@ -1,5 +1,5 @@
 {
-  "default": "refractory-materials",
+  "default": "laminates-manufacturing",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -130,6 +130,18 @@
         "Refractories",
         "Refractory Products",
         "Fire Bricks and Monolithics"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "laminates-manufacturing",
+      "name": "Laminates Manufacturing",
+      "aliases": [
+        "Decorative Laminates",
+        "High Pressure Laminates (HPL)",
+        "Sunmica Industry",
+        "Laminate Sheets Industry"
       ],
       "is_manufacturing": true,
       "mock": false
