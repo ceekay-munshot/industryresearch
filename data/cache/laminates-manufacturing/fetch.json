@@ -1,6 +1,6 @@
 {
   "http://5.imimg.com/data5/SELLER/Doc/2023/4/302946356/ON/SC/NM/187887214/wooden-sunmica-sheet.pdf": {
-    "content_hash": "a045f6568e49c188dbecf3e41b79253e3f3afdc8e3693296ab0dc91e05a686b1",
+    "content_hash": "b2fc1eebcbec4470a5c5af0905b845593a4270c85e45c84dffe2d0ced95f56c6",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
@@ -24,7 +24,7 @@
     "status": 200
   },
   "https://indextb.com/files/2024/2/a1fe7154-3cf6-47a0-964d-4c3b1faed472_Manufacturing%20of%20Material%20Handling%20Equipments.pdf": {
-    "content_hash": "dc7afa580ef8da6a7e2b7cab7d53bb6545a52f1cbec96a6a94f8a895ad3963d8",
+    "content_hash": "344c0117640d335c8c2f1baf0c30d35d2895656dae1f4e083edd68fc338aecd2",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
@@ -136,7 +136,7 @@
     "status": 200
   },
   "https://www.hdfcsec.com/hsl.docs/Stylam%20--%20IC%20-%20HSIE-202310091037354423905.pdf": {
-    "content_hash": "39e5b85927438fc122dde38d0bc08fd1788474f2fe12f605abc34f9b8e5cc289",
+    "content_hash": "4c12917356d9c18eb4ad01dbdaad358e8ed0498b72c2c504afc88e80ed052aec",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
@@ -144,7 +144,7 @@
     "status": 200
   },
   "https://www.ibef.org/download/Indian-Manufacturing-110512.pdf": {
-    "content_hash": "bb33e18d07fe62cf1cee7b0c3e18bdc81a60aa4f08a811f601aa885ace007239",
+    "content_hash": "af67a3f27290a5322adc5794017216f82a9745b9b26dd6cde866154e26634265",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
@@ -224,7 +224,7 @@
     "status": 200
   },
   "https://www.plindia.com/ResReport/GRLM-14-8-25-PL.pdf": {
-    "content_hash": "7bb9f073597a44b1d9bf21906b4228f0a67222652a1d62117beb6a1f29f9ec8a",
+    "content_hash": "6fc2ab4084a6d3ef5c68a04dbe19b04f57826d0c555801098a517f38a434a5be",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
@@ -272,7 +272,7 @@
     "status": 200
   },
   "https://www.unido.org/sites/default/files/2009-04/Indian_manufacturing_industry_technology_status_and_prospects_0.pdf": {
-    "content_hash": "c54478081bee893a2292d6a52a712066fd8028947eab075dc89afc70553d9e02",
+    "content_hash": "c1a443f34d0bb27284997c29aab29e028808098153656c6c29718538db4d4396",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
@@ -287,8 +287,24 @@
     "api": "muns-reader",
     "status": 200
   },
+  "screener://financials/516062?c=consolidated": {
+    "content_hash": "1c39dd2d3177b91daac25c6279d8e0475b816459039ae5369e12e64e7266ce76",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-09-19",
+    "api": "screener",
+    "status": 200
+  },
   "screener://financials/516062?c=standalone": {
     "content_hash": "91eeac882868c29571305efc1ecc8b5c108752a13db88b3852fde7bd0735b86a",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-09-19",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/526225?c=consolidated": {
+    "content_hash": "ef2c831ba242a92eb70cf4e57596cd841c3749698a3d6fffb6e30c26580e408a",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-09-19",
