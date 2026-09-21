@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-21T02:11:51.255Z",
+      "last_fetched": "2026-09-21T17:26:49.134Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-21T02:11:56.381Z",
+      "last_fetched": "2026-09-21T17:27:21.593Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-20T22:05:01.485Z",
-      "last_epoch": 1789783267000,
+      "last_fetched": "2026-09-21T17:27:22.891Z",
+      "last_epoch": 1790001011000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -67,23 +67,27 @@
         "CBMisAFBVV95cUxNUHR4d01sZ1lJNThOenpRMFBBcXRVUTRoa3NRaVh3LWh2RFNaMFIxOGY4eVQwYm1Ia254aVFwRm5Wc3N4d0xtWVU5cldZUms5bDc2Y1R5N0cyZ1ZXWWJ6Z09nOWNDNVRadHBEbVZpU2VyU1NFcjRqY3lXQ2pOSTExVGU2RXQwd0FtS090LUFNSHdRWjVlcmxhbmNiY2RGZ3BsX3hlVzdDSEFRVHhPOGItMA",
         "CBMiigJBVV95cUxPdVVyTDhERVZOeDhDU3ZrNmQxRTdYU0pOVktqQ3hLaWhXWkd1N0c5STYxTVhMMThtRDFKb0FDT0xSSWtaUlhZMG9xQ0d5SWJpajVfckxEdTFZbE5KdTR4TVFVU0JwT3JRME40OEdQX1RlS0Z0bElYMV9Yam54bTVSb1JEX2d0WkxCMTFiOXZBZGtYZG9YeW5pVGpZY1lFZ2pTdFZKcDNWYlZBemYzclVjU3I1Mldla0ptcG40RVMxQ3hiSDBiZktVVGVrdVJuQUUyVG5qR2liME85RExVNUtSLXRFZ21xVDJUcUpvSFFISUdPd1NBM3pSbXRkN09Da1BKZHRWY2lBbEFKdw",
         "CBMi3gFBVV95cUxPb25sSXRGYjBuZ0syUHp0NlV2X0c3cVp0TjU0UWYxZ0E2WEFqZ2Y4Y25FWFFDYkszTFg3U25wcXpYM3AtVW54U29jclc0c2VFbUdzdy1CWFBBdWhxT2Vscm0xa3JKaS0weTZTZnkzRmZZei01elB0aW1ieEdZUGFpaktfa2VfWG5SLW9FY3hOVm5NZkRFUHdHLXBuVUtnbW94cHhEVHNyRmJpbXZqaURaODdsRUFmbmd4TWFGcTZSVkdWaWdoRjh4OHotM2xmdW5qbzc3cHd0UngzbnIwQVE",
-        "CBMizwFBVV95cUxQSTF5RjZMR0QtZVVJdDVDTGRqSG1QN0lqUzliNzRlMndRYkZ3SDIxeU1tLXpFSm9RNzZVSERmaTk4ajUxbGFIMkZwLXhEN1NaRWJqWlluNm5MeFBLdTF2MDdYeGUwcUQ1MDNfRjVGbnVLdmNWc0ZmbUtzQ09haVBoQmcxcGhqaUlubk5oeDJmVDlqSFN1RWJ0RUNuNWxuV3FXdnZwN01sUmZqU0RrbzUtZGg2dEZOWFhwZW5hRDR0eXI4UTUyT2lhMDF5QjdqMW8"
+        "CBMizwFBVV95cUxQSTF5RjZMR0QtZVVJdDVDTGRqSG1QN0lqUzliNzRlMndRYkZ3SDIxeU1tLXpFSm9RNzZVSERmaTk4ajUxbGFIMkZwLXhEN1NaRWJqWlluNm5MeFBLdTF2MDdYeGUwcUQ1MDNfRjVGbnVLdmNWc0ZmbUtzQ09haVBoQmcxcGhqaUlubk5oeDJmVDlqSFN1RWJ0RUNuNWxuV3FXdnZwN01sUmZqU0RrbzUtZGg2dEZOWFhwZW5hRDR0eXI4UTUyT2lhMDF5QjdqMW8",
+        "CBMif0FVX3lxTFBjbEdKZXduVU9DRDF1VHpGSy1XV2E4R1RmZk1US3lYQ1VLZGhoM0xWenpKRVc3NmFUeHFlb1ZVTDZQRHhaV19UTW5qb0NVQ2x5LW8xcmx0UnVuckhLSDMteGxST1l1VWpHSVRZY25TTDdwai01N3RsZk9NeURGcVE",
+        "CBMi1gFBVV95cUxQc3lJc1NydGV5Q3lVaWxDMmpoYjBnZE00dk9qd1ktZmlETHhMRDgzQW41OEp5SF9wYzI4ZEFzTTRVRlN6b2RQRm5iMkV0eDBWQWtGMVU0enV6cHU2cF9ZS2pQZ1hkOHJhQmhES3ZubllHdVVvV2RVZWFDendvNE9VNVhtYWFIRzZqdFJ6ZWtSbllPX3ZwazY2Z2hwZWl2T3c1MEFWRUxnLTJoUE83WVRTVWZtTnNRWjd0YW1SaUtZRkk0a0Foekt1dnFIQVZkb1NNcllObUJB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-20T22:05:01.617Z",
-      "last_epoch": 1789932022000,
-      "etag": "\"02745c59e3d57c5cdbf5070f3607748b0-gzip\"",
-      "last_modified": "Sun, 20 Sep 2026 21:49:26 GMT",
+      "last_fetched": "2026-09-21T17:27:23.037Z",
+      "last_epoch": 1789988323000,
+      "etag": "\"0cb05a75e4c7ba538ba211905477dc421-gzip\"",
+      "last_modified": "Mon, 21 Sep 2026 17:04:59 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/aragen-steps-up-investment-in-complex-drug-modalities-plans-500-kl-new-cdmo-capacity/articleshow/134374360.cms",
-        "https://economictimes.indiatimes.com/industry/telecom/india-unveils-rs-5500-crore-telecom-manufacturing-zone-24-companies-join-investment-drive-in-gwalior/articleshow/134370681.cms"
+        "https://economictimes.indiatimes.com/industry/telecom/india-unveils-rs-5500-crore-telecom-manufacturing-zone-24-companies-join-investment-drive-in-gwalior/articleshow/134370681.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/maruti-suzuki-targets-30-female-intake-at-manesar-manufacturing-institute-by-fy29/articleshow/134387599.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/japan-korea-china-had-their-turn-india-is-now-inevitable-nothings-carl-pei-bets-on-the-next-global-tech-wave/articleshow/134384105.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-20T22:05:01.932Z",
+      "last_fetched": "2026-09-21T17:27:23.100Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

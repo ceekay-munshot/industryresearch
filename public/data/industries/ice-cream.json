@@ -11,7 +11,7 @@
     "generated_at": "2026-08-17",
     "mock": false,
     "query": "Ice Cream",
-    "updated_at": "2026-09-20",
+    "updated_at": "2026-09-21",
     "coverage": {
       "sections": {
         "size": {
@@ -62,7 +62,7 @@
         "news": {
           "sources": 1,
           "confidence": 0.6,
-          "as_of": "2026-09-20"
+          "as_of": "2026-09-21"
         }
       }
     }
@@ -1282,6 +1282,34 @@
     ],
     "news": [
       {
+        "title": "Britannia and Havmor team up for limited-edition ice cream sandwich - IMPACT Magazine",
+        "publisher": "IMPACT Magazine",
+        "date": "Mon, 21 Sep 2026 14:55:54 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPanJ6cEJKOGdjUENuT25EUVhEalNEc0hlcXp5TnFwa3oydlJHNk4wUlZjMjhhUWdCeUQzYldKTGZ1YWptclc5Nl8wUWI1dTlKVFFhVHNtQXBZbmh2bWRETUx0ZUhneDRZc2VMX3lxZW1tNW1pcW5zZlEtTnIzZVVydVFuWFVGclNXQ1B1V05YVEJaWmg5bDVkX09ZQl9yWkkybFV3NTdYWjU0dWtGUUFOdkJSUF9ORkxOYmNSTFphTFM?oc=5",
+        "snippet": "Britannia and Havmor team up for limited-edition ice cream sandwich &nbsp;&nbsp; IMPACT Magazine"
+      },
+      {
+        "title": "Berkey Creamery revives historic ice cream flavors through ‘Throwback Scoops’ - The Pennsylvania State University",
+        "publisher": "The Pennsylvania State University",
+        "date": "Mon, 21 Sep 2026 12:05:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeEwxYlRZTkZ0OXFlcFVjdUFyd0YyRG16a3hUbUtKLURiaUlyaDQyVnN1eHNkd2RXbDZhZmZZN3Bma1FPYl85UGM5bDZfODEyY2gwTnhOT1VONmhVbXJpV2ZFelZwZlJkRlNBQmN6X2k0RGtjeUxXX3A1cEk1VlFGbGNEOGtBZ2ZldVU0Snl1dU90clZqM19zdGdJVnZzN0lOQVBwckVrWGZ2UmNrNEM4bDM0bnJUVFBVQmlRXzNB?oc=5",
+        "snippet": "Berkey Creamery revives historic ice cream flavors through ‘Throwback Scoops’ &nbsp;&nbsp; The Pennsylvania State University"
+      },
+      {
+        "title": "Britannia Treat Croissant and Havmor Blockbuster come together - Exchange4Media",
+        "publisher": "Exchange4Media",
+        "date": "Mon, 21 Sep 2026 13:33:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVk9GMmFPMVNWR3cyZm0zSnVFc1NlV0xBekFIbHNDTHZweVJkc0Q4SzN5VGlpeWNsUzhFcVhBRVpaeUdnTFFVS0Q0aEZMZ2UtUHpkYVk3NXNaT01pdnhaeVZyMURoY2dIa191ZXVqekJJQnRBRzBQTzVrUkJfNEFMMktBS0RfM2VfSWJpb1lPMS10Q0lIM3ptS3d0NEZMNlVoUmRKRlpJdnRCeWNad0U0MXhKU1BCVXpvamxTdGw1SUFlUl84TFo4?oc=5",
+        "snippet": "Britannia Treat Croissant and Havmor Blockbuster come together &nbsp;&nbsp; Exchange4Media"
+      },
+      {
+        "title": "Vadilal Industries Ltd Technical Momentum Shifts Signal Bullish Outlook - MarketsMojo",
+        "publisher": "MarketsMojo",
+        "date": "Mon, 21 Sep 2026 05:16:56 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGJ4V2ZvNjlIaS1SUHVBRWNUaksxdjdwLVhPQkJJbEU2dFNDZmRqY1oxSkE2UXNmWW02Qjc3ZlRLTlg1bkpBWEJPZG5od2FKMVVsa1BYN290LVdLVlE0YzB6NS1QX0tIYzRJTG4tVUFIOTYzUG1DTFhZa01UWTh3aEYtTTVvZmN2NmZlQ19xMHFSZFRRQUMzQzgxc3J6dWJndTJOLWJaaU1ycHNSU3I0S1Rzb0hpakJQU3p5NEpSRW9zSkhkOTFQWg?oc=5",
+        "snippet": "Vadilal Industries Ltd Technical Momentum Shifts Signal Bullish Outlook &nbsp;&nbsp; MarketsMojo"
+      },
+      {
         "title": "Magnum wants to turn Diwali into an ice-cream festival as GLP-1 drugs reshape food demand and India could - The Economic Times",
         "publisher": "The Economic Times",
         "date": "Sun, 20 Sep 2026 19:14:30 GMT",
@@ -1462,34 +1490,6 @@
         "date": "Thu, 17 Sep 2026 10:32:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOTB2c1ZBRVl5VGRVbDJkLVdTR085RzVOSFVMUEx4emNycTdKVUlNeTl2S1FadjdoWkZMb19YOEFJZktwSWd6SFd0RFY0SmdjeUdtay1wbk5Kb1RjU3B2RWJiaUxsS1o4ZXpXRndZbEtJa0F1UkNRTndEdTktak9Hejc1NFhrRmh3WGszZGljYlJvWldnMFFxaEphZ0dvWm54dXl5dEtyNHQ4SkI4QnptUmdPblNmSldISjhPQWJaeUMwY2dMVnc?oc=5",
         "snippet": "Nestle India slips Thursday, underperforms competitors &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Hatsun Agro Product Share Price Today: Price Action Review - Univest",
-        "publisher": "Univest",
-        "date": "Thu, 17 Sep 2026 09:19:05 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOFduOEtVOS1vTGh5U1dmdFhNbjRjVFAyVG1iZWV0UG1JT1l0c3hHb1ItZEI0V3Q2LVNpanNnY2ttV040NC1zVXEtcjJEbW9fbWZnNXlhWXFnNG40RzBNSFNLMXVCN05pbXgwbGlJbXJnTVpGMXExN3FVT2k0c2dnc0IzWEN1ZV9xNUE?oc=5",
-        "snippet": "Hatsun Agro Product Share Price Today: Price Action Review &nbsp;&nbsp; Univest"
-      },
-      {
-        "title": "Varun Beverages Share Price Today: price rise and valuation - Univest",
-        "publisher": "Univest",
-        "date": "Thu, 17 Sep 2026 07:18:27 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWV96X3d5a2t2a2pOMllnM0RXNmpjbDk5ei0yVjNCVkNZWHFIVjQxbkFDWDFxV1J4eU93M2dGa1VJdGs3b3BOYWRydWplS2FnTl9kWlZGeG1aR0h0aXMwWVJSSmdFMTAzVndMWHRKek5WNzdmcmFWbm5sOFh3ZHdVRFp6V3RGZHRjM0E?oc=5",
-        "snippet": "Varun Beverages Share Price Today: price rise and valuation &nbsp;&nbsp; Univest"
-      },
-      {
-        "title": "PV Sindhu wishes PM Modi on 76th b'day, recalls sharing ice cream with him | Sindhu wrote a special piece for PM Modi | Inshorts - Inshorts",
-        "publisher": "Inshorts",
-        "date": "Thu, 17 Sep 2026 12:45:32 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdFlmX1RnaEtaREdNNE9STTVlV1pyQTZzb1JUYjdJWXg2d3ZEaHVyc2MzTE9QamZyU3V5cnZSR0luenlUVmZpT094OFhNSkxUYWpuTkFfc0tMbnhoa3M5b24wWWE4T0hTNmdBR2wwaWhSQktmdEd5TWxsLU4tRkpzRmNlWXRsaUF0dUdrT0QzSTZSVzV2cGxIZkVKOTFSRTVCckhsYUpXWG5vQ0QtY1NVUDdudmtiamlIVTBuZV930gG-AUFVX3lxTE90WWZfVGdoS1pER000T1JNNWVXWnJBNnNvUlRiN0lZeDZ3dkRodXJzYzNMT1BqZnJTdXlydlJHSW56eVRWZmlPT3g4WE1KTFRham5OQV9zS0xueGhrczlvbjBZYThPSFM2Z0FHbDBpaFJCS2Z0R3lNbGwtTi1GSnNGY2VZdGxpQXR1R2tPRDNJNlJXNXZwbEhmRUo5MVJFNUJySGxhSldYbm9DRC1jU1VQN252a2JqaUhVMG5lX3c?oc=5",
-        "snippet": "PV Sindhu wishes PM Modi on 76th b'day, recalls sharing ice cream with him | Sindhu wrote a special piece for PM Modi | Inshorts &nbsp;&nbsp; Inshorts"
-      },
-      {
-        "title": "Clementine’s Ice Cream Launches Franchise Opportunity - Yahoo Finance",
-        "publisher": "Yahoo Finance",
-        "date": "Thu, 17 Sep 2026 14:33:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOHkzaDdZbjk1NWxMMU01YmVxaGs2SWF1bFBNNF9idmh5T0w4dlZqUWFwbi1qaUVGZnByX3dqTWVyR0ZmeXMwb2ZDSDhJUnZwbmVQMmM2c0x5T2JmYXZrMHFIdmJvdnJ6b2VGQmF6TFM4dUtMa21LWmtnMFlTLUpBbVhNZEVqczVfdWNuRkUtcDVOLXFTZFBCWE4yaDU4enQ3anA1ZDBtUQ?oc=5",
-        "snippet": "Clementine’s Ice Cream Launches Franchise Opportunity &nbsp;&nbsp; Yahoo Finance"
       }
     ]
   },

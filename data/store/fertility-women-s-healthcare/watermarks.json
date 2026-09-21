@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-21T02:10:32.167Z",
+      "last_fetched": "2026-09-21T17:23:43.043Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-21T02:10:40.800Z",
+      "last_fetched": "2026-09-21T17:24:18.362Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-20T22:04:05.827Z",
-      "last_epoch": 1789908630000,
+      "last_fetched": "2026-09-21T17:24:20.786Z",
+      "last_epoch": 1789992000000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -311,14 +311,20 @@
         "CBMisAFBVV95cUxNZjBHRWZEaEYtU0xPdkFOTE9wT2ppREoyX0pBNUlSTmpaRjR3N2otcUtsWUt5aG9oWm5sYkJKc09CcVA5TXF2NUFWcERwYUwzR083WFgycXc2akg4aV81ZVZhN1BBdVZsVFNISHNjYUN1XzJaYVFLcGExUlNXZy1YRGEyTzQ4US1Paklsb3I5LS11ajV0QUNOTVNYNnRHdHFnekZJOXNyOHhTN0VvZURuOQ",
         "CBMib0FVX3lxTE9ZdnFmeFRUWFRpNkNWdWk5Q0NjcTg4WGFfX2tBU3dsQWJOdlVzbXg0M0tManZYYlpHQWI3OHc5UEFxcVhVTVlkSzctLWl0VE9qcUtQaVVRSjVHNjZ0NzdyWE54V2xTQXlWNUxwYTJHRQ",
         "CBMiakFVX3lxTE1qUzBSdnVNMUpxMEFMSHU5YXpsRllETkN1S1dER0dQU0tuZDZjUksxTTlyN3RZQ09WYUhTNzdMUnNBb0xabGw4cGQ0UlVzRjJNMG9QY2JZS0RyZFNxdUxwSFJIN3dkRlJJUlE",
-        "CBMi1wFBVV95cUxNbUFXTDdYZHNHallkdHFIeW12Q29GbjJ2VWZZUldOOHhvTm9FenRJbmQtcllIV3RSTS1iVWpSU2FicF82MjJjeE91aXpZTGpNZ2lUNW5rTE9VVjFfeTRNbjVRcUtUS0p1elV4dUMtcUhpbGJqWGJzQk9ZVjNpcTNHd2RHTVRZUDNheTlLZ2hlVV9NRjBuLWw1ckZkRTBCV29mUVVtSTZBRXFKWEtSY3FwUjdyUGJscjJQeGVMOFNqbFVZUlhiNDEyOWZ6WDFURzVoZ2k2Qi1yc9IB1wFBVV95cUxNbUFXTDdYZHNHallkdHFIeW12Q29GbjJ2VWZZUldOOHhvTm9FenRJbmQtcllIV3RSTS1iVWpSU2FicF82MjJjeE91aXpZTGpNZ2lUNW5rTE9VVjFfeTRNbjVRcUtUS0p1elV4dUMtcUhpbGJqWGJzQk9ZVjNpcTNHd2RHTVRZUDNheTlLZ2hlVV9NRjBuLWw1ckZkRTBCV29mUVVtSTZBRXFKWEtSY3FwUjdyUGJscjJQeGVMOFNqbFVZUlhiNDEyOWZ6WDFURzVoZ2k2Qi1ycw"
+        "CBMi1wFBVV95cUxNbUFXTDdYZHNHallkdHFIeW12Q29GbjJ2VWZZUldOOHhvTm9FenRJbmQtcllIV3RSTS1iVWpSU2FicF82MjJjeE91aXpZTGpNZ2lUNW5rTE9VVjFfeTRNbjVRcUtUS0p1elV4dUMtcUhpbGJqWGJzQk9ZVjNpcTNHd2RHTVRZUDNheTlLZ2hlVV9NRjBuLWw1ckZkRTBCV29mUVVtSTZBRXFKWEtSY3FwUjdyUGJscjJQeGVMOFNqbFVZUlhiNDEyOWZ6WDFURzVoZ2k2Qi1yc9IB1wFBVV95cUxNbUFXTDdYZHNHallkdHFIeW12Q29GbjJ2VWZZUldOOHhvTm9FenRJbmQtcllIV3RSTS1iVWpSU2FicF82MjJjeE91aXpZTGpNZ2lUNW5rTE9VVjFfeTRNbjVRcUtUS0p1elV4dUMtcUhpbGJqWGJzQk9ZVjNpcTNHd2RHTVRZUDNheTlLZ2hlVV9NRjBuLWw1ckZkRTBCV29mUVVtSTZBRXFKWEtSY3FwUjdyUGJscjJQeGVMOFNqbFVZUlhiNDEyOWZ6WDFURzVoZ2k2Qi1ycw",
+        "CBMigAJBVV95cUxPOHk5WjF6Z3o1RTRhcFcxd2dDZDRvbTNyeDUzb2phZDVTZE5TTENnSmdUaENQTGt5S3luTkUtZDNmUlNLWnhCUzR4MVdLSjcwdXNTaXhCempHTWlIRGZrcG1uNG1ZUjdfb192a1ZRRm5PVnJoTkhrVVNYcXVXX0RSSEdGSGNzYnpJTktFekYxaGZXdWRvV2U3ZHp0Y25MYm56a2NvN0paWjFVSVZ6MUtjOVFTdkVuVGU2bDBjS1hMTGZic09iRTBud3R4QnVmZnZ3Tlg3TW55a0F4a3JUa25XM3FxbDBvME43VEs3blJCRFhpTmp3d1RIWHl3ZFc0ZTI4",
+        "CBMi3gFBVV95cUxOZnhVZUw4bVh4UkZmdnBTQmRsWUhUekJZZkR3Q011N3d2Q3I3alFwM2g1SHBYMjluMEVGYVpvUmE3MzlMM0l1U21oZ21TaWIxLW1JM3EtWklpaENyVm5YYUluNTdWeGdsQWp0TnVwdEMtTFNscU5CdmctRXM0MDYwR1kzcFY5RVVSLTI0N3FackR5OTgtcnNqTFdBMm5JSzdBLVBrYjhWVEF3NnF1TVUwSDhxWmJXRENNTW11VnN3czJReHBiRXFfVzFVY01XeGpHYWg2QUNqbW54TWpobVHSAd4BQVVfeXFMTmZ4VWVMOG1YeFJGZnZwU0JkbFlIVHpCWWZEd0NNdTd3dkNyN2pRcDNoNUhwWDI5bjBFRmFab1JhNzM5TDNJdVNtaGdtU2liMS1tSTNxLVpJaWhDclZuWGFJbjU3VnhnbEFqdE51cHRDLUxTbHFOQnZnLUVzNDA2MEdZM3BWOUVVUi0yNDdxWnJEeTk4LXJzakxXQTJuSUs3QS1Qa2I4VlRBdzZxdU1VMEg4cVpiV0RDTU1tdVZzd3MyUXhwYkVxX1cxVWNNV3hqR2FoNkFDam1ueE1qaG1R",
+        "CBMizwFBVV95cUxQV24zU1padE5vclh2RGYyZi01bTNQcThXOWhjN0tRWGxnVWw4U3JocDZieXllX3hJbmtSMVpZRWJsU2RZQ2trRkM1MnIwQ3hwaF9aaGRfb19CUjdwcFRES1pRMk5FQUhTSDdTMHF1azUwMEpNWlR1RGtNVWFCUVNaZk5ZYzgzRGotcWM2YlpkUFVwVnBKaS1ONHFjOV9XN0l6aEd5X3RJbTZNM1VjX2N0Q29ORXJnZFh0U2Y1VDF1T3Jab1ZJV1ZiOUlSN1F3UnPSAc8BQVVfeXFMUFduM1NaWnROb3JYdkRmMmYtNW0zUHE4VzloYzdLUVhsZ1VsOFNyaHA2Ynl5ZV94SW5rUjFaWUVibFNkWUNra0ZDNTJyMEN4cGhfWmhkX29fQlI3cHBUREtaUTJORUFIU0g3UzBxdWs1MDBKTVpUdURrTVVhQlFTWmZOWWM4M0RqLXFjNmJaZFBVcFZwSmktTjRxYzlfVzdJemhHeV90SW02TTNVY19jdENvTkVyZ2RYdFNmNVQxdU9yWm9WSVdWYjlJUjdRd1Jz",
+        "CBMi4wFBVV95cUxOZ0JnWDNQbi1jNVNWMUxWUEl5U3NiTTdmSXJBMnBMLUo4NXRHMlhzTzViRXhqcDgwYkswZDVORV9LOXJjbHlpOTFaanZkNTBKa3BETkFid3ZwTXRJUjVvT1Y2OHFpcFVMbWpNU0ZrTjRhOVBkWWNDUW9BcFZYaVRWR09MZXktTjVqbV90UFYtYWxMLXZDbXV5VlFiY3gxdWY0U1pMMXRrMEd3RW1EbGNJVHpPRGgzQmdsUFlwemdDLWp5RFZXS09GZlRPdzFTRWFxSnhlZWNzZlBLYmhyXzR5V0tFOA",
+        "CBMi4AFBVV95cUxNTklTSlpRUnFtNXZWQU9ELUtOWEN0ZG5EakZNU3h0dnZMY0NCdVM2eFc5RnFybEdKTkFBbm10VVNkSy1OVnBmRUR4S2Rac3Yyd1RsVWN6dEJibklqeURQY1ZqMzV4Y2ZVaU4wNm15NDk2UUFGU2l0a1JzUnBYODZHNFkyZ0tTS0ZrNzVGNHAyZU1CNldEdklaZVhlcWpqcVoyNDlRRjJvMkJQTHBGOUdXcVdNQm5fR0V1YkxWWnBvSC1YalJ0ZWQxUW5PUDhwVUpmUW5PdGprVzV3ZnYtbUEyN9IB5wFBVV95cUxQOFZoVW15Tmt3bXBIeFdJdlJvNXhYT3BKalE1cXFyR3p3S0hhWTlkTDBIOUs4TnJoai1kMnFSd05UMTdIT2ZMU04yNHVwS29jYnJKVFJoVnVwX3hRZGhydFJjQWFSd0R0bVhaNjdudXU5UEd1MnpOWEY4MUdFT056MS1kaFh4Y1paXzFWTnlEbVFTczMwU2dIUm42OE5kZ1NKbEJiYjB3R1VSWU5VTElkdGZCNTdabkd2emZRRGdWUWt6akVBQjFVVkdHQlNSdmxnZndqcU9tQnFJZnN0ZjNhWUlGTThRQ2M",
+        "CBMi0wFBVV95cUxOTFNzRG5fUmtlYURtd3R2NzdxWDE2OWplT1VfYzlvR3VxN2FVaWxkbzlTNm55ckotSjViSm1jX1NDSkdLWnBtT2xXM2t2bzhNcWhpeDgtZldEN1kyT3ZLbWZ4NThPenpsUWwzc3pWbkxib1haeEs0QTlGUkczSzU2SjZ3VDBLeFhqNnkyTGFrMVFQckNhNEcyb3RkcW1hXzkzS2QzbTR2NVJUc3JNY3d5UjJDSXRBa2VacDdwZW12QklMOTNYVXUtdTNlNmswa2k0eXBJ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-20T22:04:05.984Z",
-      "last_epoch": 1789931514000,
-      "etag": "\"02745c59e3d57c5cdbf5070f3607748b0-gzip\"",
-      "last_modified": "Sun, 20 Sep 2026 21:49:26 GMT",
+      "last_fetched": "2026-09-21T17:24:20.939Z",
+      "last_epoch": 1790006255000,
+      "etag": "\"0cb05a75e4c7ba538ba211905477dc421-gzip\"",
+      "last_modified": "Mon, 21 Sep 2026 17:04:59 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/3pl-firms-emerge-as-largest-occupiers-of-indias-warehousing-space/articleshow/133346291.cms",
@@ -583,14 +589,21 @@
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-prepares-reforms-for-creating-larger-accounting-firm-networks-proposals-expected-in-two-months/articleshow/134364704.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/free-cancer-immunotherapy-karnatakas-new-medical-institute-revolutionizes-healthcare-access/articleshow/134369510.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/titan-open-to-acquiring-smaller-watch-brands-sees-strong-growth-in-premium-segment/articleshow/134365750.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/fcnr-haul-to-power-hsbcs-india-wealth-retail-banking-push/articleshow/134374668.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/fcnr-haul-to-power-hsbcs-india-wealth-retail-banking-push/articleshow/134374668.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/t-mobile-jio-achieve-worlds-first-5g-standalone-roaming-connection-with-syniverse/articleshow/134393077.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/rnfi-money-gets-rbi-approval-to-undertake-cross-border-trade-remittances/articleshow/134392464.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/maruti-suzuki-targets-30-female-intake-at-manesar-manufacturing-institute-by-fy29/articleshow/134387599.cms",
+        "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/can-india-build-its-own-big-four-the-battle-moves-to-the-rulebook-deloitte-pwc-icai-rules-chartered-accountants-act/articleshow/134386317.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/unify-group-marks-ten-years-of-success-with-the-grand-gala/articleshow/134385625.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/paper-/-wood-/-glass/-plastic/-marbles/from-homes-to-high-rise-buildings-vectus-approach-to-water-storage/articleshow/134384901.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/the-rise-of-asset-backed-borrowing-in-indias-credit-ecosystem/articleshow/134380943.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-20T22:04:06.037Z",
+      "last_fetched": "2026-09-21T17:24:21.062Z",
       "last_epoch": 0,
       "etag": null,
-      "last_modified": "Mon, 03 Jun 2024 17:35:34 GMT",
+      "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
