@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "specialty-chemicals",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -142,6 +142,17 @@
         "HPL Industry",
         "Sunmica Industry",
         "Laminate Sheets Manufacturing"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "specialty-chemicals",
+      "name": "Specialty Chemicals",
+      "aliases": [
+        "Speciality Chemicals",
+        "Performance Chemicals",
+        "Fine Chemicals"
       ],
       "is_manufacturing": true,
       "mock": false
