@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-23T22:34:30.517Z",
+      "last_fetched": "2026-09-24T08:56:22.495Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-23T22:35:05.153Z",
+      "last_fetched": "2026-09-24T08:56:53.758Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-23T22:35:06.436Z",
-      "last_epoch": 1790161805000,
+      "last_fetched": "2026-09-24T08:56:54.703Z",
+      "last_epoch": 1790233230000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -92,14 +92,16 @@
         "CBMiowFBVV95cUxNOG14aENrcTVEa0ZoTHk0ZEpBYXpGWkRuZVgxdWlRWGRNQXdWRDY1Ym54RjdLa0tNTl9PY0ZPa053NmdmZy1uT1NjRXhieWpEV3pFQmtxZldteG1aVk80dUZSVmdJaFRyQUJyOFpWNElSdUw4RXg3N2tOU2tCN3hhSUpqekIxQ3FXa2NQZnVmQy1QbDN6aTFyQVZJNjJNMG1vcFZJ",
         "CBMi6gFBVV95cUxPZVZZbGV1dEVsSnhsNTBvSHc3b0t6cFJWQWVnSFloUGVGS2ttTjRPT1JCSmMxeXBROEFPaHl6V2ljeFlGWFNVSkF3RU9sM3BReng2Uk9YOVNhSGNKLUNHTUdSU21tZkNsMzEtZWtJck9WaFp4T3RWN2xRalhBWjQtN3R0dFoteHlMekh0RlQ5aUxtVl81RzlVb0h3YWhPVWRKdEVRU3BhVnlROUhlQUh5Y1BxVHZDRFBJNGU5YXRhWVlzZUNaZC1HQ2k0TnEwbm12MDlhV1Vick9uODZLTVc0VGJCeHB5VXNCdHfSAe8BQVVfeXFMTV9mb3g3OVl4eHBtb3lTRENJbjNXMlRDOUZkNWZFSGpQU1h0LXY2RlN2MjFLZ2h6WTE5RkNBVEw0RjM1UVpZU3laWGQ3SE5sdEtEMTY3cWdKTFhxNG1CMmVCVXRnMFlCcDdBSjdXVS1LazIyMno1RW1rVDZiR3RJR0F1YmtMX0xoUGZmTFZOUU04QWFPZW83aW9fMUZrUjBJTWUyU210OEFTZm9wY2gxMXFfeUp3clp0bmtvX29HODFscFNwM3pOR3lPa3I1d0E4bEtxT3RYdzkzcWVVTzJxdWZVWkoxU3lTb0lqRzZiX1E",
         "CBMitAFBVV95cUxOclpkVGxSYkhGbm44ako3a1lubngtclBwNXZBaDFNSXNmQktMYi1LTXdVV1pzZExsdGhqSmtsdW9fSkJMVldZdnJmaWszWnBrM1FXS0phZzJqMVl6UmZObG1sMUQ4RHdxb2VieDJEQzBPbmxESEk5eGZUMmhEOVlkWnJ4bmREVkV1NmJDYm54MkpfQ0pGOHBhLXIyVGc2cF9TVDEweDRXcmxfcDVSM0lPcnhWZmLSAbQBQVVfeXFMTnJaZFRsUmJIRm5uOGpKN2tZbm54LXJQcDV2QWgxTUlzZkJLTGItS013VVdac2RMbHRoakprbHVvX0pCTFZXWXZyZmlrM1pwazNRV0tKYWcyajFZelJmTmxtbDFEOER3cW9lYngyREMwT25sREhJOXhmVDJoRDlZZFpyeG5kRFZFdTZiQ2JueDJKX0NKRjhwYS1yMlRnNnBfU1QxMHg0V3JsX3A1UjNJT3J4VmZi",
-        "CBMijAJBVV95cUxPM29sQ1lIcmlPbnU3MGpwMHJuXzRrZEZuZDlFaERlTUNYY2c4cm1JVGVHQk1FMm1fSmZTWWZKUUhocXlaS1MzR3ZQd0pfbE1OeXNEQUhZU3ZiV0F1ZmlKSVJNZ3NXUW5JWldFemRudVFBT0NyYURjSWxyQ3JSMWJrSTd5OURTdTVfMVJOeEd0WXdJSS1QQmVQMVBJWHpKdTlBMFNmd0tEcGt3LXAyZlBsSTI4eHdiLWtyWURYNVJVN3JyVjlZcUFyZHhtZEhMWmtTalZDVzBfRWlVSng0SVNoaDFCRDNBbGM2WXJEbjZEaTJsNUhUZDJLdVpNUmNzeHRKWFNndFZNeW5IMk5n0gGMAkFVX3lxTE8zb2xDWUhyaU9udTcwanAwcm5fNGtkRm5kOUVoRGVNQ1hjZzhybUlUZUdCTUUybV9KZlNZZkpRSGhxeVpLUzNHdlB3Sl9sTU55c0RBSFlTdmJXQXVmaUpJUk1nc1dRbklaV0V6ZG51UUFPQ3JhRGNJbHJDclIxYmtJN3k5RFN1NV8xUk54R3RZd0lJLVBCZVAxUElYekp1OUEwU2Z3S0Rwa3ctcDJmUGxJMjh4d2Ita3JZRFg1UlU3cnJWOVlxQXJkeG1kSExaa1NqVkNXMF9FaVVKeDRJU2hoMUJEM0FsYzZZckRuNkRpMmw1SFRkMkt1Wk1SY3N4dEpYU2d0Vk15bkgyTmc"
+        "CBMijAJBVV95cUxPM29sQ1lIcmlPbnU3MGpwMHJuXzRrZEZuZDlFaERlTUNYY2c4cm1JVGVHQk1FMm1fSmZTWWZKUUhocXlaS1MzR3ZQd0pfbE1OeXNEQUhZU3ZiV0F1ZmlKSVJNZ3NXUW5JWldFemRudVFBT0NyYURjSWxyQ3JSMWJrSTd5OURTdTVfMVJOeEd0WXdJSS1QQmVQMVBJWHpKdTlBMFNmd0tEcGt3LXAyZlBsSTI4eHdiLWtyWURYNVJVN3JyVjlZcUFyZHhtZEhMWmtTalZDVzBfRWlVSng0SVNoaDFCRDNBbGM2WXJEbjZEaTJsNUhUZDJLdVpNUmNzeHRKWFNndFZNeW5IMk5n0gGMAkFVX3lxTE8zb2xDWUhyaU9udTcwanAwcm5fNGtkRm5kOUVoRGVNQ1hjZzhybUlUZUdCTUUybV9KZlNZZkpRSGhxeVpLUzNHdlB3Sl9sTU55c0RBSFlTdmJXQXVmaUpJUk1nc1dRbklaV0V6ZG51UUFPQ3JhRGNJbHJDclIxYmtJN3k5RFN1NV8xUk54R3RZd0lJLVBCZVAxUElYekp1OUEwU2Z3S0Rwa3ctcDJmUGxJMjh4d2Ita3JZRFg1UlU3cnJWOVlxQXJkeG1kSExaa1NqVkNXMF9FaVVKeDRJU2hoMUJEM0FsYzZZckRuNkRpMmw1SFRkMkt1Wk1SY3N4dEpYU2d0Vk15bkgyTmc",
+        "CBMie0FVX3lxTE15aThSNjZxbU83ZUJPak0tbDVzaGstMnl6WWVyLVdDS3FBY1FudjZWS3NPNW5MWHdwaTFic19TendTNGlBenNHLXZVcVZmTmFiVndkbnFSclg5d1k2WkJUYlZnVHhndlczX1E0a29ZT2NNN0ptNmU1OFBPTQ",
+        "CBMijAJBVV95cUxOZlpUZU55UFlyU2Zrckg4bTE1NlVfek1qMFIzYWFwLVA1M0RKUVZhbDVHaDdZTmFhYUI2eFdXTDY2TkhVYkphLUUwbzQ0LWs5dGxwSV9aVHlkU3B1QTVPSU1admJIS3RyTzJxd2lYRVBtdWNZc0VVMG05OXppRGFyYjEyb2hiZE9CT0xHNXZKOFlYOHhYRFM1NmYyelhfa0dRRDhwRXpLdUZRcmNsSk54bWpVZ3pGTXkyUV8xbDNIWDBwR2s4WVQtbUE4WVJKVWxNWmpsY2FUWGQyQnhXenl2cHEyRlQ2eU5BcGhNSy1HeFVBWjVpdjNyWUJLX2JKSllzNlFBMmdKbFpwbURm0gGSAkFVX3lxTE9TVDBTb2V3UXY3OEJlYlNPQTdsZHI2MGp2bTJvX2R4RjhmWTZLcGg2Ti1KOFJqTjc4NzFyY3hLalRZYnJnZjBqTDdYaXAybzJYdUVyZWtRMVZ1NjNsUFhHOF90N1R4bnBiUTRreko0OHU1N1hmSzZQOWItVVNKa2sxa1RPUHJKOWJ2a19MREdCbVk5VkxyNnczMk1TZDk2V2JZZ3J5ZGZSZHR4ZkdNWGlCY2Z5eG1hNzhNeEtOSWFxWnktbzA1MHo5LTJrdjBUbXNhMVdPSk96ZU9ZUktlMzlCeUNpV3pWaGtBNkkzcTdVQkh4MjFqMFEzejE1cnBIbVNoTjcwYmZFV0dzQ2oxSUp6RXc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-23T22:35:06.483Z",
-      "last_epoch": 1790176988000,
-      "etag": "\"02bfd2c09fe60872bd5ce4816979261bf-gzip\"",
-      "last_modified": "Wed, 23 Sep 2026 22:17:25 GMT",
+      "last_fetched": "2026-09-24T08:56:54.727Z",
+      "last_epoch": 1790233558000,
+      "etag": "\"0b6859d9964bf9a7a39bf2f97fd92d67e-gzip\"",
+      "last_modified": "Thu, 24 Sep 2026 08:37:00 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -111,18 +113,19 @@
         "https://economictimes.indiatimes.com/industry/cons-products/paints/indias-no-2-paintmaker-berger-paints-plans-expansion-to-fend-off-birla-jsw/articleshow/134401375.cms",
         "https://economictimes.indiatimes.com/industry/renewables/solex-energy-targets-over-rs-4500-cr-revenue-by-fy28-bets-on-solar-expansion/articleshow/134409804.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/garware-hi-tech-films-partners-with-lubrizol-to-innovate-tpu-technology-in-india/articleshow/134441472.cms",
-        "https://economictimes.indiatimes.com/industry/auto/auto-news/automovers-group-outlines-rs-500-crore-expansion-plan-amid-rising-demand/articleshow/134430065.cms"
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/automovers-group-outlines-rs-500-crore-expansion-plan-amid-rising-demand/articleshow/134430065.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/shivtek-spechemi-industries-to-expand-manufacturing-capabilities-through-new-land-acquisition/articleshow/134454279.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-23T22:35:06.541Z",
+      "last_fetched": "2026-09-24T08:56:54.804Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-23T02:14:46.297Z",
+      "last_fetched": "2026-09-24T08:56:55.083Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
