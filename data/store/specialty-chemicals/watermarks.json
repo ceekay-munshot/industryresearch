@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-25T16:09:07.021Z",
+      "last_fetched": "2026-09-25T23:01:51.590Z",
       "last_epoch": 1790347258000,
       "etag": null,
       "last_modified": null,
@@ -75,15 +75,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-25T16:09:10.986Z",
+      "last_fetched": "2026-09-25T23:02:26.072Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-25T16:09:12.741Z",
-      "last_epoch": 1790331660000,
+      "last_fetched": "2026-09-25T23:02:27.954Z",
+      "last_epoch": 1790366461000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -303,14 +303,18 @@
         "CBMizAFBVV95cUxPNzFZR2gtekhta3BSODlJRUx1by1XS0JMM19VZUJvbTRvemR5TTFIMEY0ZjRmM2tLRGpqSGFVOHBIWi12SWhKZjNRTzU2VmJhRkw5ODJPWS1UeTRmcVN5dzh3NXZlQTRLQUZQRWVpT3VRbGF5emN6TVVVQzZjSnc3eUlPTTJaVERPX1JEeEN2WDJiampJNkJRSTRDMlU3N1VXTnp3Q0VNTlVTWEhGa3dNMG11RWs5OFZsMkNqQlBNeURIQjNOV1EySEk1SmU",
         "CBMisgFBVV95cUxPRENmNlVCQ1dHRDBZUmdlZFo4VDE4UVRTb0ZVRGxhd0tWUFZaRnZjODNULWQ3V2tIVkNrTW82SDV5T0hpVE1LWkRwakZlOHQwdjFlUDkzQ1g5ZWdLRVNrbXptNnk5YVh6NmxnQ0hYRGpPdmh6RlBkVEZSWWd6a2kwdGxwal9yQTJYTUcyQXJncnk0MVc5MWM4NGRrLWFScjNnYTlQbUlsOExncGN3MUtkZ2hB",
         "CBMi1AFBVV95cUxNa25ia0J2WVRiRXVEcWNMWmRuMFRBMHdiYXQ5Wm1HTll4Tko2SEpPRU1DRmhIZ2Y1cDJnZl9IMnQ1eGFydC1sZGtzQ3Z0Uk01WVRaazBGOGtOQ3Z4NGlIUVVwT2ljTExncGhvd2VxZ1Z4QjJTQkFGYTRROEpHaEZkWk8tQl9YckhSTjRLQnBBbkJpbzRLa1FFTWo0ajVXUkMxTURBVlFOa3dXWTVFYXBhdkg1c2J5YUJHZkxLeTV1bm9YOFA2dHk3MGNDUjVwdUx6ZnVRTA",
-        "CBMimAFBVV95cUxOeHk5R3Qzd1VUWlcwOUlYR0FpVDNfSDFvU3p1bjBPVW15c0RVVFR3VXQwVTVSeXF1QXJVRVkxTFVudXpuSWlIU0xBQjdidGtqLVZvLUVseHJTdXFYWWxVUEFoU0ZYUF9jU1g5TmM5VDFHTzNaY2NyRy1kaUtLSHk3YWo2VjJhdEJmNW00Z3ZGN3ZGclNtelFvTw"
+        "CBMimAFBVV95cUxOeHk5R3Qzd1VUWlcwOUlYR0FpVDNfSDFvU3p1bjBPVW15c0RVVFR3VXQwVTVSeXF1QXJVRVkxTFVudXpuSWlIU0xBQjdidGtqLVZvLUVseHJTdXFYWWxVUEFoU0ZYUF9jU1g5TmM5VDFHTzNaY2NyRy1kaUtLSHk3YWo2VjJhdEJmNW00Z3ZGN3ZGclNtelFvTw",
+        "CBMirgFBVV95cUxNU2tCeVMwTHNRaHNzSEo4cWZQS0NQZ0o3bGJTUkpHbGpqbzZPcHcwNGY3OEFCX1hPMHRQaFVaY2pQYjFBbm9kOFQ0V2R0MVRyWnl5THRnaWt1UFFPV214aWszc29yajVyU1VLQmEzSUt3RUJlLXBONHkyR0hPT2s4cmtpajhVM3BqUW5iSEN1Q3ZoZllBVzhZX2Uyb0w4THJIS3BIaUV1M2RfQUhDX2c",
+        "CBMingFBVV95cUxOalBUQjd6akVJYnE4aEV6X1d6VF9uaGV2UF9RV2VjSzJHZkFFQzFXb0paYUd0cDFtOWJZbGRRY0J0eHRFTE9IY3F2a05DNURtY01nUnEtTHQ0SlZYaTVaYmIyRm1JY3hFclQ4NUNyQV9TMHM2cnBuRWt3U1F5YUdLVXNJaFowNlA3WjY4YVRtd2g2dDRIU0RsVVBmR096UQ",
+        "CBMi1gFBVV95cUxQVEhoQWJYamR3WEM0QTJrSWhRSktvWEFoSGdTZXFXemxWcGVJeFJIY3ByczdCLUUtdklDeXZ1VTU4QXZtenFabDI2ZUZKX1hlelZGNzdCVHVad1BMdUVrZkZpQ2dodjM4Ri11SW9lbEo1MUpMWDVwRXBhX0RyckJ4U3k3MW9kVUdBR0JoOUFnVnRuUXJWOEhxdGNFSkZXajNkM2hhdTlxaDNhbF9IQmNSdEVydkxDUzZUQ3RqZ0x1RE9aZDd3YThOc1hFXy1ISnJwSTN1N1ZR",
+        "CBMiuAFBVV95cUxQaExvdWRtS0FfTHZxbzdUS3Ytdy1ycUVnWW8zRjRFQWNVSG5fTWp1QWljN0JPM2psZlhBZHZsR3hjMWRDV25YaFpWTlVyczkzY2Jhc3NRRVY4c0x0VHZDYTBSaDE5czV0TXNqQ1ZhaU5WbF9wQXFkVUdDX1NIaDVneF8wNUUySEN2UjU3SWthalRuY29wdXJuNk1LV0xRM2hUQnRYWm1yRW9hbC1fTXhna3FFTHhYZElR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-25T16:09:12.794Z",
+      "last_fetched": "2026-09-25T23:02:28.044Z",
       "last_epoch": 1790276713000,
-      "etag": "\"0746cbad66db6ea8686c913c7164904ff-gzip\"",
-      "last_modified": "Fri, 25 Sep 2026 15:50:12 GMT",
+      "etag": "\"0aee9f945599cbd9b2e44cb431318eb0a-gzip\"",
+      "last_modified": "Fri, 25 Sep 2026 22:50:07 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/media/entertainment/anymind-group-launches-anycreator-stream-in-india-to-help-creators-monetise-live-audiences/articleshow/134408355.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/reliance-consumer-products-quadruples-authorised-capital-to-40000-crore-as-fmcg-business-scales-up/articleshow/134445016.cms",
@@ -320,14 +324,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-25T16:09:12.837Z",
+      "last_fetched": "2026-09-25T23:02:28.178Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-24T22:56:19.469Z",
+      "last_fetched": "2026-09-25T23:02:28.838Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
