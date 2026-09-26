@@ -1,5 +1,5 @@
 {
-  "default": "plastic-films-manufacturing",
+  "default": "dielectric-films",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -175,6 +175,18 @@
         "Flexible Packaging Films",
         "BOPP/BOPET/LDPE Films",
         "Plastic Films & Sheets"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "dielectric-films",
+      "name": "Dielectric Films",
+      "aliases": [
+        "Plastic Dielectric Films",
+        "BOPP Dielectric Films",
+        "Capacitor Films",
+        "Dielectric Material Films"
       ],
       "is_manufacturing": true,
       "mock": false
