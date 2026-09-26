@@ -1,5 +1,5 @@
 {
-  "default": "plastic-packaging-films",
+  "default": "plastic-films-manufacturing",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -164,6 +164,17 @@
         "Flexible Packaging Films",
         "BOPP/BOPET/PE Films",
         "Plastic Film Packaging"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "plastic-films-manufacturing",
+      "name": "Plastic Films Manufacturing",
+      "aliases": [
+        "Flexible Packaging Films",
+        "BOPP/BOPET/LDPE Films",
+        "Plastic Films & Sheets"
       ],
       "is_manufacturing": true,
       "mock": false
