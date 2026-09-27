@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-27T09:45:44.797Z",
+      "last_fetched": "2026-09-27T16:04:22.587Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-27T09:46:20.354Z",
+      "last_fetched": "2026-09-27T16:04:25.051Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-27T09:46:20.801Z",
-      "last_epoch": 1790448664000,
+      "last_fetched": "2026-09-27T16:04:25.309Z",
+      "last_epoch": 1790521863000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -121,29 +121,33 @@
         "CBMizgFBVV95cUxNU3BqS2pDMHNpVURwQms2TllFV0hiWTV4c25zZzJrRndTRC02amo5VmduWF9oV0o3QmJIcmpxbElyT2dHZkh0VWd3ZENZSWVSYS1ZQ3hET3BLazQ2ZVZjZjh0dGVFTUNHRW96Ukd3ejlhQ2pjeDJHb2dkcm02SERxUVk4VkFudVZYZGRGck9GdF81R29tWEJDeVNkaHMtS3l4MHp1THBscVI5LV96d1hhRjhOOGhLeVpNbUNTdVM5SmloYmVCOHY2cE5IZEdlUQ",
         "CBMimgFBVV95cUxQbFBueVR1aHIwQWRlVnJXU2d4dDVZOEd0TkgzV1d5N3pBbkpfQlhSMGhTYjFsR0hmWHowU2VOX1AzSDRFX0lvdzl0OE1RYnl3QlJNZVFGZzdZQm0tNEVDT2xxcjE1WmRTQnhueC04OVIyQ3pSWWt6OHNRWHZHMWlsNGNoMlNpVzB0a0pGWGltVVFCWHh6TjJQazFB",
         "CBMiogFBVV95cUxOd29SZVh4dGduQ3JvdHlvV1NMVWhyZXRuQW5yc1NPamxRZmJfcWdCOTNKYVNfbFdGMEtmdHpRUzNyQWpTUzhpTGgyUGhWb25Pb2FZazBxTFlDWUNRajM4c0J3cmY1em5DcjdCcjM5SWU1NVVGWVdGLXJvWjcwYVZYbE5TMk1McUliMFAxYmRPNHlyVEwxX0dCUG5XQlVxOTRJMEE",
-        "CBMitAFBVV95cUxQS0RwU1pNSkNGVzZFYWZPRVJBSmE1eWpYQjVPdEU1dTZEbkxnakZaWUtYVld5bUR3dWh1ZUVPWlBnZEl6WGhuWnR5bXEtbWV3eG4yY29NX19XOEQ4bEdObDQweUpZSTlGZEtIWDlnMmMxdTA2YnRHYURTN2dpUmo1UnFUdE5TQXhhSTItVUJCU0xpVkNLUVFmSHFudE1EeU5pc0RNMmsyTVpycEF2ZkpZMXF6WDk"
+        "CBMitAFBVV95cUxQS0RwU1pNSkNGVzZFYWZPRVJBSmE1eWpYQjVPdEU1dTZEbkxnakZaWUtYVld5bUR3dWh1ZUVPWlBnZEl6WGhuWnR5bXEtbWV3eG4yY29NX19XOEQ4bEdObDQweUpZSTlGZEtIWDlnMmMxdTA2YnRHYURTN2dpUmo1UnFUdE5TQXhhSTItVUJCU0xpVkNLUVFmSHFudE1EeU5pc0RNMmsyTVpycEF2ZkpZMXF6WDk",
+        "CBMi2gFBVV95cUxNSzc4YnJYeHo2eVdNQkl6aDRiN1YzTklDVF81TmMzLXdJQ2RMYnVkTVhZRGEzcHJOT1pFVE9iWi1IbHNHWHRtME1TZGh3d0NkRUhCZHZBZHZtc2g3Yk42b2VTMWg5d0MwLTBiRktKa0NFaW9pUHN4elNwRW1Vdnp1a2VhTHowRk1ETjBhcVZrMXpwRXpRREhxUEEwNjFEX1RUWmk4XzJvWjNwZEtTTGNTeW1OSzZfcnJVcFJYUzdMT2VSa1V6eHlta2podlpVZ0ZXbGJQX3FlRWp1Zw",
+        "CBMitwFBVV95cUxQZ0c0bGdxX3B6czh2RThQdGdpeE5hdm0yNWFJY0JId2NkczR5QTFxUzI1REd0M1JDZWlObEowQUVRNm5JTzdMVkQyd0NiS3Vfd3B5OHN3RlFxdTlqa3dqZ1MycENxSVFOVWJvU3ZKMzk2SUlKWlYxZElCb0E4Z2dXMHlZNGJNdmNwM0FnYVRXOTVEcjR1RF9YZGZzNXVDZTNxNVUxbjBibTZlZ1g3SVZjcUhVSW5zVzA",
+        "CBMibkFVX3lxTE5FUU85UGxCRzdvTFZZSWthWS1kY1hXSmp6MFhlbm9hN1pOZ1RfQjNSM192RGxQRG1VZXVQanlCdXRUMUpQNWhRYjdHV2c5ekxoZnktWHI2WEVsQlc5WTFaOVVuamp2WC1JZElBbWpn"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-27T09:46:20.958Z",
-      "last_epoch": 1790437273000,
-      "etag": "\"0c0a71cdbcd0fa8df6410bdb4336f5234-gzip\"",
-      "last_modified": "Sun, 27 Sep 2026 09:24:14 GMT",
+      "last_fetched": "2026-09-27T16:04:25.326Z",
+      "last_epoch": 1790521672000,
+      "etag": "\"014e485debcb3dc01508d59d11b62febd-gzip\"",
+      "last_modified": "Sun, 27 Sep 2026 15:49:31 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/websol-energy-secures-54-acre-land-in-west-bengal-for-4gw-solar-manufacturing-plant/articleshow/134507097.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/websol-energy-secures-54-acre-land-in-west-bengal-for-4gw-solar-manufacturing-plant/articleshow/134507097.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-electronics-firms-get-rs-19091-crore-pli-incentives-investments-cross-rs-20580-crore/articleshow/134522033.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-27T09:46:21.041Z",
+      "last_fetched": "2026-09-27T16:04:25.358Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-26T15:26:59.631Z",
+      "last_fetched": "2026-09-27T16:04:25.844Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
