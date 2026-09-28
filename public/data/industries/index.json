@@ -1,13 +1,14 @@
 {
-  "default": "dielectric-films",
+  "default": "mdf-boards-india",
   "industries": [
     {
       "slug": "mdf-boards-india",
-      "name": "MDF Boards",
+      "name": "MDF Boards (Medium Density Fibreboard)",
       "aliases": [
+        "MDF",
         "Medium Density Fiberboard",
-        "MDF panels",
-        "MDF sheets"
+        "Medium Density Fibreboard",
+        "MDF panels"
       ],
       "is_manufacturing": true,
       "mock": false
