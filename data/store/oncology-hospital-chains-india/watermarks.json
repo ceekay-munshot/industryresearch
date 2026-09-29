@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T17:15:55.835Z",
+      "last_fetched": "2026-09-29T23:19:47.311Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T17:16:18.126Z",
+      "last_fetched": "2026-09-29T23:20:10.718Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-29T17:16:20.479Z",
-      "last_epoch": 1790698142000,
+      "last_fetched": "2026-09-29T23:20:12.632Z",
+      "last_epoch": 1790722952000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMipgFBVV95cUxQNm50TVhubXZROHNRQUdxRnc1TFo1cGZrZVNtRU5INmtDN19ubDRJbm5yRlc5Qm92dExkR0FybnA1RGkyWl9lQTlQOUh5M0xCY1dwLUp2cm11elB5UzZja2NxOGx5Umh3VnlvZzJJRnVFTjBuSDNtc2dCN295TTh4YUthVjBVeEZmNHdyRnoxZGR1YkttcnFmN3hYU3FXTDBhSEN3d2hn",
-        "CBMipAFBVV95cUxNRHlkRUtDUjBGUW9SNWhXN0JHUE0wRkl4R1ktRHNtMERGblYxQ05qZ2xTVGotOXk1cEx5c0trbC0yczh4UzBPX2dVb01sM0w5anVjTE9vVEJvbmNMSTBwTFJaWlJ2blhibm5OVFBJN2cwRjRkcHczcS1SazVhNlpBTmZfdmlERFZoNk5CR1lxVWRvT2VoQUtOT1BXQWZzY214NWN5Rw",
         "CBMigwFBVV95cUxNaWVSd0J1UVFNanRpVmx3LWRkcGhSUnFLX2JqQzZnTHpQYlgxWlRBNF9ZZFJHN1M4UDRlSjk2eUlNUXdnNDRxUENaN1Z4WEpPMWRmUkw0TkVlNFhONHk5UmM1dFFTeUtMOFg1b1VOTUJmT0RhbDh2eEQ1WmhkVFFTdHdHaw",
         "CBMi2AFBVV95cUxPMGF2OXRkakZvMW8tTnNkc1AxWUpfT0RDWVNEdm5mbWtmdktheFIzU0pkMXpxcFIwcGtUdXFlYlBuY1JVUXIwTXRMMmphVlM2SndIWjZuWDY4V2lpeEdyd2JyX0pEdWdLMV9OSlpJUThBYVB1YWV0UURXZDRoYUdWWk9DY0hKNm5yQURQdjkzLUtPLTNxQTRsZVJJUlNJN3BKbXl2Y1oyaHgtSGpPNjY3WUZrc2FoSUxpQ21vaXVCSnRvQkhVQW0xbjFVYVVrZUtnalFZa0kyR08",
         "CBMilwFBVV95cUxOcDQ0SVVYaFcwTFhmTGw2cFpTTHc0Q2F2S0RRcHI5TFB5enhLVjlqRmswS3gydy1aZm1xWnlmTlBNQnJQYTNkQ25ZOWFBOEwzNEFTcmw3QWxPYW1HR2FWMk9mbDBEaUJ0TWFDNkZHNkp4SXo1VnZZTzBGb0lkeS1KOXBOSUpxc0dCQ0g3VU9aaXZDa0VLTk8w",
@@ -319,14 +317,16 @@
         "CBMiygFBVV95cUxQVWdjNlRMRjBkUmFtakR3QXc5TjBZZ29tbWNkX3lUbDQ4WDh0WENRRUVhczFMaFoxSkloWDdhdHhXZG1aX1RidFhhaXRvUUJldjh0bHZkQnFkVHpQYTlZR216S1lLUWVIZ3d5UjNiNW56TDV1Tm1QX2QzWTdFWHJjVUtJWklxN2RPbTZUeWdXR1JBYWV6elY5SjY3VXQtUkFTN3FVcU1MdXhnZUNnYTdkM293X01xbWtRNWpEaUdTRndYamt4c2diOVdB",
         "CBMi8gFBVV95cUxQSlJzcXFGR3JrQ2U2ZDVXQXZUeDRBS2ZTWGRFM3dMaDlsMmsteVpuWTI0bXMyZVpMMWtzQ0R1UTlqWUdmNlo5M2xPZ1h6enBkSFFRTlZtWlNpUm1ZM0NyZUtRT1UySkdZS28wb3ZHNHFHQWJ0aG1SUUdqeTJ0Y1gzYjZCRTdBcUo0R0p4UnZwY3UwbkdBaHRPNm9jQXlfQnotXzRYcDNad2haOXF1Q25QbS0xRHBfNThDYWN2NUd0VWt6R1l1WURMbTkwcExqU3h4RW9PWGV1cVJPUkJEQ1pKd3N5THRDZkwzaDI3RVBwdzF2QdIB8gFBVV95cUxQSlJzcXFGR3JrQ2U2ZDVXQXZUeDRBS2ZTWGRFM3dMaDlsMmsteVpuWTI0bXMyZVpMMWtzQ0R1UTlqWUdmNlo5M2xPZ1h6enBkSFFRTlZtWlNpUm1ZM0NyZUtRT1UySkdZS28wb3ZHNHFHQWJ0aG1SUUdqeTJ0Y1gzYjZCRTdBcUo0R0p4UnZwY3UwbkdBaHRPNm9jQXlfQnotXzRYcDNad2haOXF1Q25QbS0xRHBfNThDYWN2NUd0VWt6R1l1WURMbTkwcExqU3h4RW9PWGV1cVJPUkJEQ1pKd3N5THRDZkwzaDI3RVBwdzF2QQ",
         "CBMiogFBVV95cUxPSm1sZHlZUEtxczcteG9uUldsMUtSc3M2cFdPRGVtRkxrZ3d5ZVJDNVBoVW1yb0tMQTU4ZjN1SmdTUjYyVlZqSkhoeWIyblY0aWlkVHZOeXh4R2Q4Mno2Qy00UXZzVTNwWXBrQm1QXzVseFhGM3BWZVZ3dmtLdWJMNTRnTTE2eGVJMU9fRmhqa0RPUnZRd3FNUHo1QWJibWctRXc",
-        "CBMilgFBVV95cUxOWFFiMEprZ3ZKUF9TUTVQNksta1NDa0Nna3RuQnBHZHVhQVV2djFMdVhWRmZmTUU4X1pUOFhRaHJHVGFrR0JyV0daZFgyR2U5SUNFWDFNR1ZzWl82UndHM05iZlJ3NkFRTHhaTjBqNHZZRlFReWM1bmdaUWtnQVEweEg1R19qeG9Pck5mUGZzd2VLeXlNb2c"
+        "CBMilgFBVV95cUxOWFFiMEprZ3ZKUF9TUTVQNksta1NDa0Nna3RuQnBHZHVhQVV2djFMdVhWRmZmTUU4X1pUOFhRaHJHVGFrR0JyV0daZFgyR2U5SUNFWDFNR1ZzWl82UndHM05iZlJ3NkFRTHhaTjBqNHZZRlFReWM1bmdaUWtnQVEweEg1R19qeG9Pck5mUGZzd2VLeXlNb2c",
+        "CBMirwFBVV95cUxPbU82TDIzOGI2SFh1N1p0alA0VDZ1bFZXTU1CbnMxVkpHVG5kM1hXYWUybzAxNjdscUItMVlFbzlEUkktamgtVXFLRzB1Z3pTejlwMVR2S2l5WjNEZVVGWjc4NDEtbW9naHg0cHkwbjEwb2ladXh4VmVKYko2aXRUb3NnMHA1bGJnZkttLU5DdGl3dkI0Mk91eklBOF9CbWxzcTJwV1hIcXFLWEJOWHhz",
+        "CBMiwwFBVV95cUxPQkZscnZWaG1zVFJMWVR2ZmVwbEstTzVwMFd4OWZtNk1FTkw2QzFISU1UVG5HZWtDVVdPWWd5MS1YcHlvOUQzYWNER0p1bEozM01LaDRRN0M0eEVrUkhnNmhQd0JPWl9QWkQxQVlQSTd4cXJ6RlE3d2xYZ2ViQS1YOTRHeS11M3YtcUFva29YZU1aSlVVLU9ta1k0VXRkWnMzM0F4TG5XWk5mT0pJUWFVOGE0a1dwd1h6c3JFLVNBSjVaZWc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-29T17:16:20.686Z",
-      "last_epoch": 1790699922000,
-      "etag": "\"0b14c0538eb23a4b17cd5b924e20f652a-gzip\"",
-      "last_modified": "Tue, 29 Sep 2026 16:56:09 GMT",
+      "last_fetched": "2026-09-29T23:20:12.668Z",
+      "last_epoch": 1790712920000,
+      "etag": "\"014f83cf3011927bb3435c320f3ef0d89-gzip\"",
+      "last_modified": "Tue, 29 Sep 2026 23:05:07 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms",
@@ -563,18 +563,22 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ihh-plans-to-raise-fortis-stake-to-51-expand-capacity-to-10000-beds-by-2031/articleshow/134570690.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/advent-international-seeks-cci-green-channel-clearances-for-yatharth-hospital-stake-buy/articleshow/134570563.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/beyond-the-sim-inside-jio-and-airtels-high-stakes-ai-pivot/articleshow/134565496.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/medanta-operator-global-health-buys-ghaziabad-land-for-rs-166-cr-to-build-350-bed-hospital/articleshow/134564180.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/medanta-operator-global-health-buys-ghaziabad-land-for-rs-166-cr-to-build-350-bed-hospital/articleshow/134564180.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/sc-seeks-16-mrp-cap-on-medicines-flags-huge-cancer-drug-markups/articleshow/134573710.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/sc-upholds-hc-order-clarifies-scope-of-fortis-forensic-audit/articleshow/134573627.cms",
+        "https://economictimes.indiatimes.com/industry/energy/power/data-centre-surge-triggers-cea-study-on-grid-stability/articleshow/134572985.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/cpp-investments-makes-india-hospitality-debut-with-rs-3000-cr-prestige-deal/articleshow/134570965.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-29T17:16:20.775Z",
+      "last_fetched": "2026-09-29T23:20:12.750Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-28T18:57:50.032Z",
+      "last_fetched": "2026-09-29T23:20:12.769Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

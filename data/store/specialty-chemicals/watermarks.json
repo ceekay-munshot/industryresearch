@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T17:18:30.377Z",
+      "last_fetched": "2026-09-29T23:21:49.005Z",
       "last_epoch": 1790691111000,
       "etag": null,
       "last_modified": null,
@@ -100,15 +100,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T17:19:06.629Z",
+      "last_fetched": "2026-09-29T23:21:52.955Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-29T17:19:08.534Z",
-      "last_epoch": 1790694373000,
+      "last_fetched": "2026-09-29T23:21:54.889Z",
+      "last_epoch": 1790718028000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -388,14 +388,21 @@
         "CBMijwFBVV95cUxPbklNdE9JbkpDRW1yWDl3NVBEOHh4VUQ1MUJGUWJpOFlFWlFheFFRbmtEMHNLT1k4NkRPRFNmcnpyd19wZ0lFTjNFZFptaWpRMDkwUDh0QWRWa1VVRUt3T0RUUUF0d1NGYlo3SEJNbUR6Sy04TE1CSjBwbXlsb3NTS1FUcXBsTUU5b193dmdycw",
         "CBMiowFBVV95cUxONFdOS2tQVlQ5UTBRZmstMEJrYmh5a1Y4NmwzOUNXaGVJdzdPTkxMZkp0LVR4VEdhZUlHTnlZMlBITlB4blB2VTduX0xSZDFmLW1naXRBamhtUU5KemJDQVQ5d0xBQnVnSXVQNGh4bDctelJDNU9EV1pzVW5zRTIxQ09lcVcyLTZjb21pWHkxQmlLaXlUemJ2ZU1QeG5aZWNDR2JN0gGjAUFVX3lxTE40V05La1BWVDlRMFFmay0wQmtiaHlrVjg2bDM5Q1doZUl3N09OTExmSnQtVHhUR2FlSUdOeVkyUEhOUHhuUHZVN25fTFJkMWYtbWdpdEFqaG1RTkp6YkNBVDl3TEFCdWdJdVA0aHhsNy16UkM1T0RXWnNVbnNFMjFDT2VxVzItNmNvbWlYeTFCaUtpeVR6YnZlTVB4blplY0NHYk0",
         "CBMijwFBVV95cUxNMklyS0h2TlBSVkdQMXBrUl80N3NjaGJEMmJuakVKd21PMXRYYVZub0QwWEF6SXA5VlRfSHlnYjBrRU9IbVB0RVY2VTM4SGtfZ3Z5MFlqOUVQclExejhLbUd2U0UzRUdGb0c0dlRRY21VVHBQOC1XWTJoZWk0WVh0QlE3d1doQnN1LWI3WVRnMA",
-        "CBMisgFBVV95cUxPOW1qWWk2X00yOUlDd1ZybUotVEg2eG1EbTZ5dll1UE5SRGdPYTAwa1ZPWW1XZ3B2RmVPQng2bzF0b2oxcTVJeHlJZjU2YjhWZVBxNFBCODFXVzlreTAyRVJ3S3A0Ukhzc1NNMlMyUEduUUZPdWZHeUthMGREc25iNWRJX2tzUWhDdGoxS0l0Z1lyUTJnVFM3M0hXWGlpcFJ6ZzcydFFfOUtmWHprOTZWbDZn"
+        "CBMisgFBVV95cUxPOW1qWWk2X00yOUlDd1ZybUotVEg2eG1EbTZ5dll1UE5SRGdPYTAwa1ZPWW1XZ3B2RmVPQng2bzF0b2oxcTVJeHlJZjU2YjhWZVBxNFBCODFXVzlreTAyRVJ3S3A0Ukhzc1NNMlMyUEduUUZPdWZHeUthMGREc25iNWRJX2tzUWhDdGoxS0l0Z1lyUTJnVFM3M0hXWGlpcFJ6ZzcydFFfOUtmWHprOTZWbDZn",
+        "CBMivwFBVV95cUxQcElTNUt4RWJYdmJ6QXotakllb21adWpiYW9qcXBhZUliY0tfekRUMGtkd2pSb0VvdGRhQ0c4MENiZk1mbm9uakxtVVpfQzkyUl80LThtb2g1bmF0Ujd3THVYZTI5dVVXSlQyU1RhUG5DcU1KM3NER1M3Sk9YVVRKR2t5VjQwOGNJeHcwcmdXZ0M5dmZfc0NIR3BBU1lFNUJ1V1FweXFhNUpnNTJtWEhJeWhCTklWemtrNmhRUXhxOA",
+        "CBMitwFBVV95cUxNWlg2U09TY0ZCdDZXakdBWFJ5eGhqeFRmYURJcXh6U1ZlMGZCUVRXa2hwMjlqSk5IMnR3NTdPTFRuODhGdWlkYTNsVDB5YU90NFUyelBadXZfTkxqRVJCY29sb1JOM1VGaUdBNjI5R3BGbXJDd2lhdk1pekwyNEhqWlZ6VVVHVGlPenlfamJTc1ZZbWlrbmJnTEZZeGtfWHR0RVpqLXVtcHNxakhnZ2hGS0p5eVg1SXM",
+        "CBMisAFBVV95cUxOODRPRXZrb0JHdDRjYXMtY2puNnRNUDdNeEx1blp1N01DamdvQ2s4bkVFN0U0eFl2NGxKcnFDNDRvVmVIUHdTUngyMVBwSEhXMlNXLWxJU3ZNdEt3SDladFB3WUpHRkVlakJ5RS1jejlvZy0xWFdIaUVEY1F3UEdUQlNtWmd2Z1AycjdvNFZVdnBNNm1oUjZKNmJBLUhLV1FtQXdQSTVidVA4M29YWGdEcQ",
+        "CBMipgFBVV95cUxNYUR6VlBnMnVqOXRQdHBDUkdEQmVYTEVpOU5LYmx5UThDeGhrUVFqSlR2eDFPc3dTNmVpM2ZJaUhNbTBXWk0tRzhBVjZIZzdPc3JONnQwbWs4cEQ1NDB5R2N6YVg5aGF4M0VhMkhDcS1idjF6Z0dGam1VbXZJc0lRSlVfc3dUYVFHX3owQ1owampmXzZXMDlmc291amIzMW1ubTBUaEFn",
+        "CBMiywFBVV95cUxOY1lNSVpmZmRGekxiNUx6N3FLUDYtSDRua2Y5Qzl3RjA1VHBzcTc4NGFOUjN6QzE2T2JheEZWc0o3bU4ySmhucVQ2NEJXQnBJNWZGX2xaNW1JaVpSd3IyN19tQTUyaDVQdFFRZldxWDhMc3NVTHE0RHN2R1h6Rkhxb09zRDVpQTVETlRmWjdNQ3ByXzNxZHRSRnlQVWRTYWR0bTA0SHo4MWcwOEFnY09Xd0JSUmZOTGVLbDBYUjd1T29kYTZJU3BPUmRNNA",
+        "CBMiqgFBVV95cUxPRUpvbXM4b3RfZVlhOUxNUmEzeE4zcVpXbm1LZkZGd0VKWnpjRW5fQS1JRnFNTFlSQUJDc2tlaDNmeTNObGp2M20ydmszT1VZVGxjcG9CQ0g3ZE9rVlh0ZWthSnMxc1VjRTBDN3VSNHJoRnVlVVk5SkxuMmluV0hhRDZXRzRNcE1TWktWczBmc2VublFtZUxmODc0ZjFmazg5N1VFcWdYcVJ1dw",
+        "CBMimgFBVV95cUxONzRhMHFpSllCVjRGRTBjZUFPcFNNQlR3ZUZEUG5VVlZxemlLa3V6UDFTTkVOZUZoQW1kR0dUS2k2UmQ3anBpUGQyU2x2N19vRDBaeXBYSnU5X3R1LUJJS2VVeEhpNFdnczNtU3J1Zk1GTVN1MVNRRklZOEZDdkNpVEdqRFQ3cVZETklBUExBOFhjQVlmVXhpQlZn"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-29T17:19:08.820Z",
+      "last_fetched": "2026-09-29T23:21:54.958Z",
       "last_epoch": 1790699837000,
-      "etag": "\"0f5729c6906b867ae82e98a7b49f67398-gzip\"",
-      "last_modified": "Tue, 29 Sep 2026 17:12:11 GMT",
+      "etag": "\"014f83cf3011927bb3435c320f3ef0d89-gzip\"",
+      "last_modified": "Tue, 29 Sep 2026 23:05:07 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/media/entertainment/anymind-group-launches-anycreator-stream-in-india-to-help-creators-monetise-live-audiences/articleshow/134408355.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/reliance-consumer-products-quadruples-authorised-capital-to-40000-crore-as-fmcg-business-scales-up/articleshow/134445016.cms",
@@ -414,7 +421,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-29T17:19:10.397Z",
+      "last_fetched": "2026-09-29T23:21:55.023Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
