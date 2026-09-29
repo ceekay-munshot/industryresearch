@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T00:05:34.892Z",
+      "last_fetched": "2026-09-29T10:15:25.097Z",
       "last_epoch": 1790512865000,
       "etag": null,
       "last_modified": null,
@@ -49,15 +49,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T00:06:10.780Z",
+      "last_fetched": "2026-09-29T10:15:59.579Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-28T18:57:11.045Z",
-      "last_epoch": 1790612773000,
+      "last_fetched": "2026-09-29T10:16:00.704Z",
+      "last_epoch": 1790670180000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -259,14 +259,16 @@
         "CBMinAFBVV95cUxOSkZ6TndmX1VsTEdXQTYwS2NqV2xuSXRXRS1ndEVFaWRVeEoyazRUUC00MXZHRXFiZy1mZ3dpVFRxbzkyTGdIX0UxVm9FSTI3T3lQVTkxZVhaRDFTVW15LV9lRjdxQkJBYjk2LW9LVmh3YXNOVDZEMGh0TjhKMEhtUlFKWG12N0xkdy15cHhmV29SajRDNU4xc2J6ZDM",
         "CBMisAFBVV95cUxQR0dTRzl1cDdqemVXQjhsbVBobDBHNUVVQUNrS2NBb0ctQ0w0aFphcHEtekRMMVo3bjlOLWdUTWRReFlkWVRUVFJoenhGOHJ5UmJ2NnR5SGJDejY3WUZXSXgtMGtjTkFoUWs0QWMzWEU5T19VTk5PdjlLNl9qWnF3bHpIX3hyOWF6T3FIdFM4ME40V2ZYZENwQnZOcmliSjdfSm1pa1V4T2V0aGltMU1iUA",
         "CBMivwJBVV95cUxNMHhaYmN6NHV1RW95WnlpaEx2OVlFRS16eEwzSkNEYkhacDk1RndMaE5oU25OZTllcWNNVlBzSEJadWtuYi1FQWs3aHl6M3RZQk1GZDczWFF4LTVNY05WZWNnVXZ6Z0M1dVJhZ0lwbmtIUVhYUmVaZk01ZEdfcWhRbDFndTZYa1ZXMzFFUDJieS16VkxqWXp3amhmU1FxMXl1VWhOUHJpN214RnRzR2ZPRXI1bktOTFdBMmNILUtHWDFfMXYyZnhNdDM4cUh2V2pCTzFGRXRwQzVqbk5Bdkl0VkhtWUthRFNNbDlXZl9TcV9TcllYMi02ZmxnS2RGSmpiN1lXdFZQbmtUSFZjQjlQbTZkTkU1bnFGVUgxRUNudUxxUUJyTHFyR2VvV1I2UjZKbjZ0TGFsLUZJbThOdlZJ0gHEAkFVX3lxTE01LVh5SE5FS3hVNW9oVlVrWEdrVTJzZzVpV2NtX3R1TWlTY2hrUDBhbXd4dDAzU2J5RVgydDkwWW1FemVwbDhPTUMxMlM5SVNKOGRwcVF6YnZ2Szd3LWRKdHFiM1l4VW5MS2RqbzBZLTh1Z1FOM19SZzFDaUpDVmRqZFpoOWJZOF9DZFdlTGRaUHh2ZGYwTmhsNGNydTBIQ1BERnQ3ZUVOYnl6VTNUTWRiSFlHUHJ0cmxLZHUtZHRtZTQ1aS1uS01vQ2E5bjczNzdwX2xqeERNU2tWbWdUSmVzSlR0ckNSVkM3OGsydXNFU3ltaXliRDlQQm5waEptVkpzb2VGcl91Q19FMFMtV2x4OVRtNURRdUtwZ1dyN3R0Mmk5STJ0SHhGSG93aDV2aU8yd2hsMy1DenhvRVRyanpDSGlabA",
-        "CBMiqgFBVV95cUxQUEpON2otMlNLeEgtNTRMMFpTRS1ZNlo1a2hjMHZsNW5vcjVmckJja2RJS2t3R0VtWmtlRkhxTnU0SXgtYzlKS05NZk1pUkJ2eWhwZ1Z5T1VXbFVaZEVTOVZnM1pEYmJTOWFjdndNTTJacHJ3b1MwVTd1RHp5eExkSkxCb1lkSEFNUFhUR0RSSXFwTkpnMVJMTnM4d0RSSkswZHZOTkhEbVN2QQ"
+        "CBMiqgFBVV95cUxQUEpON2otMlNLeEgtNTRMMFpTRS1ZNlo1a2hjMHZsNW5vcjVmckJja2RJS2t3R0VtWmtlRkhxTnU0SXgtYzlKS05NZk1pUkJ2eWhwZ1Z5T1VXbFVaZEVTOVZnM1pEYmJTOWFjdndNTTJacHJ3b1MwVTd1RHp5eExkSkxCb1lkSEFNUFhUR0RSSXFwTkpnMVJMTnM4d0RSSkswZHZOTkhEbVN2QQ",
+        "CBMinwFBVV95cUxOR2FMWGpGQXROZWU1WXozd1RrQkQzQXhlVzJwTXpnN0pyaHkxWTg5S2NzR3BfYlBGZ0xWZ093N2hGQnNGZ1pWQVc0RWVBS19ueFJUMGxTOHJVc1haWERQVERMN1R2N2JtX3cwZ0NNeVlJZjdhUkQxUHA4NHF5eUltWmV6cG5jRkxMTTRfTkljX2p1U21HYVVud01SdWJBbm8",
+        "CBMijwFBVV95cUxNR21GR2pXcjdydUdSd3EzX1A4bFpiVDUzcVBiX0daZVhoaE9QMmstQ2ZuMWplOWVmQmdHUnFRTUh2aGFDLTlfbDc0dUZBTklWNTdyel9GZkhJMW5saV9yT1owMkFFR19aSERCRUpqRFBDb1hZak5tZHlYZkE2OVFGQXFpY3J6aHN2c3FfX0MxOA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-28T18:57:11.077Z",
-      "last_epoch": 1790572311000,
-      "etag": "\"021aa1426016254c381d2cad27bc1e77e-gzip\"",
-      "last_modified": "Mon, 28 Sep 2026 18:28:22 GMT",
+      "last_fetched": "2026-09-29T10:16:00.800Z",
+      "last_epoch": 1790662355000,
+      "etag": "\"073fe7f9d7f53c0899effd6791b41c665-gzip\"",
+      "last_modified": "Tue, 29 Sep 2026 09:59:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -305,11 +307,13 @@
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/transparency-packs-the-punch-sales-of-packaged-health-foods-with-clean-ingredients-surge-60-in-2-months/articleshow/134467879.cms",
         "https://economictimes.indiatimes.com/industry/renewables/india-to-set-up-first-port-based-e-methanol-facility-at-kandla-for-rs-2300-cr/articleshow/134506894.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/indias-first-port-based-e-methanol-production-facility-to-produce-and-supply-green-fuel-to-ships/articleshow/134516338.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/food/food-giants-oppose-red-warning-labels-for-high-salt-sugar-and-fat-cite-non-veg-confusion/articleshow/134532605.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/food/food-giants-oppose-red-warning-labels-for-high-salt-sugar-and-fat-cite-non-veg-confusion/articleshow/134532605.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/west-bengal-cm-pledges-land-for-indian-oils-ambitious-haldia-expansion-project/articleshow/134558262.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/milind-deora-backs-fssai-crackdown-says-one-year-is-fair-for-food-cos-to-shift-to-new-labelling/articleshow/134549153.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-28T18:57:11.432Z",
+      "last_fetched": "2026-09-29T10:16:01.348Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

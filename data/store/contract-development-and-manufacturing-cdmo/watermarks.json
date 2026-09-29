@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T00:07:24.172Z",
+      "last_fetched": "2026-09-29T10:17:13.442Z",
       "last_epoch": 1790610103000,
       "etag": null,
       "last_modified": null,
@@ -49,15 +49,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T00:07:50.027Z",
+      "last_fetched": "2026-09-29T10:17:49.174Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-28T18:58:26.464Z",
-      "last_epoch": 1790589209000,
+      "last_fetched": "2026-09-29T10:17:50.230Z",
+      "last_epoch": 1790674149000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -333,14 +333,16 @@
         "CBMi3gFBVV95cUxPMmhkRFQzVUhNbzZrZWRNeGlGcFhjREFLMEJhTHB1U0VlOHNnRXhRZXlXVHBrQmhjZFo5Yk5Ua3BiaVFkaXFlejNZRktxRWZzTVFyVU5IUFczWmkwOG1EZ0VIcW5XVUF2dzRCRHdMWTVzU2pRdWpyb1AtQzhEX19PTFoweWJtWGxUMEUwX0hvWmtYSHZNS3JTaDNnRmRwODRyQk9xWFZHeUxzOW00bVNoTDM2N20tSVVSV1RobnVQTjZlcU0wakM0ZVpnYjBmelBVeURaVjRTTFdsQ1lfd1HSAd4BQVVfeXFMTzJoZERUM1VITW82a2VkTXhpRnBYY0RBSzBCYUxwdVNFZThzZ0V4UWV5V1Rwa0JoY2RaOWJOVGtwYmlRZGlxZXozWUZLcUVmc01RclVOSFBXM1ppMDhtRGdFSHFuV1VBdnc0QkR3TFk1c1NqUXVqcm9QLUM4RF9fT0xaMHlibVhsVDBFMF9Ib1prWEh2TUtyU2gzZ0ZkcDg0ckJPcVhWR3lMczltNG1TaEwzNjdtLUlVUldUaG51UE42ZXFNMGpDNGVaZ2IwZnpQVXlEWlY0U0xXbENZX3dR",
         "CBMijwJBVV95cUxNOVJldUx0RjRtakZlUHhfWTB2Q0ltaF95bTJ0Ukk5Y3RBNUhNMnlBZkNobzNrQW5kUmxiYk4xMDZXVER0TDZjdU9Ta0VhTzhXZVM2YjZoQVgwaC1UT2VQNW9qMnV1X0J2Z2FtOWlQNko4QjVWZFh5QkRlOUZteXpfTkNpRTB1Q2RLZGw5WnY1ak5JdjJibHo5RjM1MWg1djQ3VFNMeGhVbVcxSlYxRjJ4cUJLN1QyZFgxSXJjbzZPbmsxUVgwZkstcmxuY1VHc09ab0xwWkpKY1dWWTNyZ2I2UTVZR3ZGR0lUSFdUMklMbkZpNzV6ODRiZUM5OUFhdmxqTndMdzloeTN1cEhaWmVv",
         "CBMiuAFBVV95cUxPaDRfaENNa2xjcW1VQ3kxM2NnQnRoWDYwSElzTEIwX1dHbC1RaHk4X0Riam5rLWpzQ3J3TGFXUU03SUd3Q1QyY0I4ajZVYUl1OGNZWktGSjk3WFp6Tmk2NkJRN2lnWVdiMlpOeXpQeWYwcjk3TUtKcjYyZXFCbzllRVBsMUdJR3FzZDZRS29RZ3lLbjFJMmVhWkRXZFBuQks3bGx5cjY4VkU3dkVpZk1GaGphS2xVM0lm",
-        "CBMiiAFBVV95cUxNVXpvWTlJOGplQTRqUUNvaDIxcmhUcENCWXd6UWpRNkpBSWFOYVFaaWpyaHQ0UmVWSkVGZ1hxTW8xQ2dHckFEbUVuUV9LSFdYcXYyVXg2M2JzN2kwakpxNkdhTzNqQndrTGJ2aWN4UktuZ0F2Mk9ZQldwR05malpvemJRTi1PTk16"
+        "CBMiiAFBVV95cUxNVXpvWTlJOGplQTRqUUNvaDIxcmhUcENCWXd6UWpRNkpBSWFOYVFaaWpyaHQ0UmVWSkVGZ1hxTW8xQ2dHckFEbUVuUV9LSFdYcXYyVXg2M2JzN2kwakpxNkdhTzNqQndrTGJ2aWN4UktuZ0F2Mk9ZQldwR05malpvemJRTi1PTk16",
+        "CBMi6AFBVV95cUxQQ3BzazdicTdtTll0UmVIMkVEeTZ2UVNTQnJLRTFHc1JESjhNb2dpLXdXM2VqQzdieGV0a0FpMWNSd0RqN3lHMllJZ2QxcGVqbWJ2ajU4RWFlX0E3dDlwZXhjLVpyOVFRTGRnaGNCejJpUzVTb3RvbmVhbF9FdXNuMzNyU1NkLUQzanlZclI2T3I4aGVCdUVveWV5VUhyTEFvYi1vbzBESi1CRGlfVnVhZ21uMXVINWxMUHF1bzlxVURCNUdXMFFJZkRLS0NTZmJ1Ym9Gdk9CUS1CR2VCa2czekg1TlhaOUo10gH2AUFVX3lxTE54aHBLa0hzNlpiNGNianJTcnd4UXJEQW5uQXRlUlJIV0pUZUR1c01LQXZMY2dxZXRIX0VXU0tXOGpDSHY1R1dNNkJYY2FqUVQ2UExJMFR2MkIzOGZEUFF2djhLM2YtZUVzRV9NYkhGbFQxeVkyTDJ0SGZGUDJ0X054d1NITlZmWS1qblJkWnY2UjZPTkFtT3ZmR0pJZUdBSi1JUGxSaTJUSndvaVVfY1hMcXdKOWp3aUx5WE5KZUpGdzFFcjF1cnlYajQtXzhaTVpnX2V3WlJhdmlacWdmV3NGUGpWa1RoQlk1MGR1aHZfQ2JfenZzZw",
+        "CBMisgFBVV95cUxPdGR1bjRaOWxRdldXbkRJMTlYWGZVSDdyOGVBNXNaRlRNbTFDV1hCUHRYQk5GS2pHSFE5T0szNm5Ia3c2cmoyNEJSM1JoWEdxQnlocDR4Yl9tT3BvSGxkRTI2elU4YTJEQWtlNjhMM2FPSjMyRmVCSDhlNW9nMy1sUWotTlpvUXRjZ05pVGJZTXZFYVA1VG1fU2lwQUM4bG5MN0pRR3RSTTg4Yjl2NXNnazJn"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-28T18:58:26.643Z",
-      "last_epoch": 1790606861000,
-      "etag": "\"021aa1426016254c381d2cad27bc1e77e-gzip\"",
-      "last_modified": "Mon, 28 Sep 2026 18:28:22 GMT",
+      "last_fetched": "2026-09-29T10:17:50.323Z",
+      "last_epoch": 1790675251000,
+      "etag": "\"073fe7f9d7f53c0899effd6791b41c665-gzip\"",
+      "last_modified": "Tue, 29 Sep 2026 09:59:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -516,11 +518,14 @@
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/tata-projects-and-mds-aero-join-forces-to-revolutionize-aero-engine-testing-infrastructure-in-india/articleshow/134537318.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sun-pharma-signs-major-deal-with-lib-therapeutics-of-us-gains-access-to-3-7-bn-global-market-for-bad-cholesterol-inhibitor-pcsk9/articleshow/134533716.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/coep-tech-jsw-to-invest-over-rs-800-crore-in-battery-rd-centre-in-pune/articleshow/134545418.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/vikram-solar-secures-400-mw-module-supply-order-for-agri-solar-projects-in-maharashtra/articleshow/134541902.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/vikram-solar-secures-400-mw-module-supply-order-for-agri-solar-projects-in-maharashtra/articleshow/134541902.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/66-airports-under-development-india-seeks-connectivity-opportunities-with-115-airlines-55-countries-civil-aviation-minister-ram-mohan-naidu/articleshow/134561838.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/west-bengal-cm-pledges-land-for-indian-oils-ambitious-haldia-expansion-project/articleshow/134558262.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/tata-electronics-triples-equity-investment-as-iphone-chip-plans-expand/articleshow/134549126.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-28T18:58:26.746Z",
+      "last_fetched": "2026-09-29T10:17:50.393Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
