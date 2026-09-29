@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T10:19:03.452Z",
+      "last_fetched": "2026-09-29T17:18:04.274Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T10:19:37.572Z",
+      "last_fetched": "2026-09-29T17:18:28.063Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-29T10:19:38.578Z",
-      "last_epoch": 1790661192000,
+      "last_fetched": "2026-09-29T17:18:29.369Z",
+      "last_epoch": 1790670103000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -111,14 +111,16 @@
         "CBMi1wFBVV95cUxQZHZNS0dxM2hUWWw5aTlRQ05NWmk0aGhXT0l0TUFiOGROS1hxMkduUmZ6UXJ0NHB0Y2pBUGQ3bUM1R0NtYWxoRHR0anBvczJhTXRXM2gxN01OcGpnR0VLS3F4T0RDYkZVTWJVMDRNRFBkUUhkdVdENzJsVk9WRVVxLW9XWVRFUEhxdG9BbktVMExtRDh0ZlhGNGlJUHgyaGg5ODl2c1ozMk5iMGlJS2l2SmNUTXg2WmJCMmp5UzFDclVsc0Jna0wtZU1ucUJwLU4wOVhMVEtXQQ",
         "CBMitwFBVV95cUxNU25pRGJ3WDh2dXhBVEJWNUFrUzNjd0ZHM3NzYWw5VXUyX1k1M0NRMEU4Q2xybENOd1NsNHlpQ3BCYzFvYVc1clIzc2Mzb0paX202RzJCS1RuZ3FpeU5JdnAzdndFUUNyMzBzcEozZzgwY3phcnlFYTVqc20xWE0xcmRjMGJzLWxPdnpWUFBvQWNxZVVvd0dOWDlxZURTYmI2eVB0ZXFCRV9BSGhUUUxtUklFM3Z2UE0",
         "CBMiwAFBVV95cUxQSDRxZy1pQzJINUoxanZvQV9TTXFmZHpnYlVzdXQwaVhETFJaNlBrRERhXzhlNmt4ZlpiVWF1czV3UVByRXlEREFNSUFWVXJBSG5tcWdNMWt6T0tyZHR2V2hVS0pzTjBBV3VrSU1oeWdQNUpTbUZDeW1GVFp6ZUxBYXhuek9xMnRTWHV3WEd2Y09Yc2VzaXVYeHZXTHljN1NweVR3UVhNTl8yV2xZdU4tMmwteE00NE9QNVZGOEdzZEE",
-        "CBMikgFBVV95cUxNUmk4QXp6VUlhdVNyTHNucy1VNkE2YndFRlZ6QW5tRC1EMTlTek5vOEIxQ1FWM3RIb3pnYzVjemlYbmxOY1g0MkhTZnlSZVBBSDdYVzBfNVlfUFdqRzVLQzdFbklLeFVWLXBUNXJ4b21RcGo0XzZoY3A3RG12V3Q2aFRsN1AyMWkySDZlRWY1YzNOZw"
+        "CBMikgFBVV95cUxNUmk4QXp6VUlhdVNyTHNucy1VNkE2YndFRlZ6QW5tRC1EMTlTek5vOEIxQ1FWM3RIb3pnYzVjemlYbmxOY1g0MkhTZnlSZVBBSDdYVzBfNVlfUFdqRzVLQzdFbklLeFVWLXBUNXJ4b21RcGo0XzZoY3A3RG12V3Q2aFRsN1AyMWkySDZlRWY1YzNOZw",
+        "CBMitgFBVV95cUxNQVBXZEtoMzZkZkFNNlRIaFJTWVl3M3dZMW10MnFUZkk0NWE2N1VDWS13YVBzMFNjZmZ5Z2p4VXJxd09kakhSMWRnSUhQNndMdEFMakF3VXYwdjM5U3AzVVpqLUo2ZGtqZk0wZU9ZUzVQRHJMMk1fYVlRUjdhSWRaaExDdjdGR1dyOGdUd00wcDcyUjNEblNoVUl5Z3IxeFRoMU43SkxIYWNlOVJkeEJWZk1mMzFfQdIBtgFBVV95cUxNQVBXZEtoMzZkZkFNNlRIaFJTWVl3M3dZMW10MnFUZkk0NWE2N1VDWS13YVBzMFNjZmZ5Z2p4VXJxd09kakhSMWRnSUhQNndMdEFMakF3VXYwdjM5U3AzVVpqLUo2ZGtqZk0wZU9ZUzVQRHJMMk1fYVlRUjdhSWRaaExDdjdGR1dyOGdUd00wcDcyUjNEblNoVUl5Z3IxeFRoMU43SkxIYWNlOVJkeEJWZk1mMzFfQQ",
+        "CBMiywJBVV95cUxQYkIwVVY5cmg1M1FhZURMVGowUURHNzFqLUxQUVFia1Q1NGV4THB5dkxsUFlaQm8yY0JhVTRZZjg3TmozbEsyMUtwNXFIbUR3cm9EVEY0cmZycEowbV80Wk53dmdhYk8tUnlQY1U1Tl9CaThCck9ScHZPMzh2Z3pjU0o2UEE3X20zcjNScUJKaExnRlNaaU96Z0E4elRvZ3l4M0JJdXVlMWFTMkx6WnI4c1hJY3NaZFNrem5GOW50U3VteHBiUnRWWHRKSEZVTU1DSFVvdWhkekppWDhReFdCai15NVJTNHN6aVF3SmFWbXkwWml2NVR6clp2eVktaThWQ1BRTXlid1BEaXdsdnNKUVNnblAxekdObTJUQ2R1M0lyMmFka2VEYW5HVjA5bHZuWDgtbHY2UHE4NEx1T2ctMHFSaml2OS1hRzlZ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-29T10:19:38.946Z",
+      "last_fetched": "2026-09-29T17:18:29.546Z",
       "last_epoch": 1790621110000,
-      "etag": "\"0137ad89c08d444886e05a3cc07c0662c-gzip\"",
-      "last_modified": "Tue, 29 Sep 2026 10:15:22 GMT",
+      "etag": "\"0f5729c6906b867ae82e98a7b49f67398-gzip\"",
+      "last_modified": "Tue, 29 Sep 2026 17:12:11 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -147,7 +149,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-29T10:19:39.020Z",
+      "last_fetched": "2026-09-29T17:18:29.972Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
