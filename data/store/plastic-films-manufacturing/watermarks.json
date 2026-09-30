@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-30T10:13:09.784Z",
+      "last_fetched": "2026-09-30T17:18:10.097Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-30T10:13:40.618Z",
+      "last_fetched": "2026-09-30T17:18:22.850Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-30T10:13:40.901Z",
-      "last_epoch": 1790760502000,
+      "last_fetched": "2026-09-30T17:18:23.138Z",
+      "last_epoch": 1790766720000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -155,14 +155,17 @@
         "CBMilgFBVV95cUxOT0YtUWRUNGw4UXB1VGhzTktPUnFrcTdhd1hBbVEwQXlhYVRfcUZaX3c5S3JXa3Bzd0xEYlRtbDlUeXhaMEZuNEN0OGp6VjhWOFp6VThkM0xFUEZWZ3N5cVFROVBRMnoweG14UUs2UWZfZjlweWY3OE5BcEw0anAzVmhLS0RNQV85Y3JfYjdxZ29GelhWZVE",
         "CBMickFVX3lxTE9JTWlVODFPcjdkQy1GWk5xY2FZbk50aTZHTmVpdDM0ZHdPR1NFd1hEUEpISVI3UkFCcUR2UE1QNzlkUE51QUZqQTB3TWhybTB2RWpnSTdFWF9OejREY0VqYUhKdjVOakV3LU1YQUZZYlZsdw",
         "CBMi6AFBVV95cUxNek9HeEI0UldQSkVEMmlQb1cxSkM5NWZFV2FZSERKY3RKOUdvZEZUcWg3MU5adW1Xc2c2dXNsUkpIZXMzTUNxRm9fRkxoZkg2c1FxRy1VeWZZT1FMNzVwOF9wZzBMSVFZckNHbmZrS1hsRlpqd3dSaUpIbTYyYmhsR2JUblZkRnhTaUI0bWtFM29ZYTNMYjZLMjJLTF93d2ZreWRTRkdhZmdrXzF0dFZUZThpSE9XcXpKLU1nOHZTczBndk80cnBYS1U1WkxBeE1obXJ5RGhEZDBnZ2VZakUwQzdLRnVfVTFE0gHwAUFVX3lxTE1ZalppbGV3ejYxQ2ZualNiS05lNzlnMUpVOWJhcU9LLW45VHRnWXh3d08tQnVaajBVeXg2bjhic2JqU0ZNZDlRbmg1R2phTXNvVmhKWDQxMVBSMzFhMWQ1MWF5MEVLWUFudGNwM3NHWFc1N2hLWGtlS3lXSDNlV1YxWkJZbGkyc1g5LVdnUS02X29uaHExT09TNzI5VHMyZUlpN3F6MXpkNHZiVmZRWGc1ZjlpeDlFVHB6UXEzTEVFR2lRRmdTWERwZldFTjF2R0xPdnQyT0xkaU82NjlOSmZQSV9DajFwbkxza29nWkFtZA",
-        "CBMimwFBVV95cUxPYUxXSFdTQ0VyYVVMcHJpZlNlcjNjdV9ZMnpFMmlVQ3lIMVZYTmxlWFlYam1LV2o4bmtscU9YZDQxQkZaNTI2TG1WcEF2UjlJTEpuZElKdG5WdnNhYzMtRGJOU0paN0xMbm1RX0RRWDAtVlE0WmlxaXM4NnNTbGFZMF9GNVd1czBaS0pBeFBaREdFWjkwZXh2UUZmVQ"
+        "CBMimwFBVV95cUxPYUxXSFdTQ0VyYVVMcHJpZlNlcjNjdV9ZMnpFMmlVQ3lIMVZYTmxlWFlYam1LV2o4bmtscU9YZDQxQkZaNTI2TG1WcEF2UjlJTEpuZElKdG5WdnNhYzMtRGJOU0paN0xMbm1RX0RRWDAtVlE0WmlxaXM4NnNTbGFZMF9GNVd1czBaS0pBeFBaREdFWjkwZXh2UUZmVQ",
+        "CBMizAFBVV95cUxNSmkxZl9XNUFGenJGbmhOeVRwRTB4UXFrakF1ODZfTDJ5amp0WXRnUXhaR055SmRTX29wQUdqa3pJQXVJamMyTWNSbVpUTVJDT0dldl94ZVNHeS1MMDlhUEtLMktLaDRwVzFHVkliTFRiV1FtZ1lwbGtkb0pWRmFsc3FQdEpudFZPYktkSmZWWU1FdkRGcW5TZkdDSlNuYnRaVWNIc2pZRmlSVEJ5YklJT1dnTWliWmJRQ0tkWlVDX01KVUpqUlN4LVk1TmE",
+        "CBMilgFBVV95cUxOMUVyb1BxOFlna1F4dFM5ZlZtOW96WjJRaGRDSEFjeEd5S3FHUV9adFhMSk1HUTljcWFFUW1sR1R1dEw5cVNhaTE5N0E5THA4NnZXakxYT1dXLXBwb2Ytd3lvYWpnWHZTRjFaa1ZYSDE5S2E5YnRfek52MDBncVRxN3FkWklpSmZVRDhqaDlhcGlLU2NsZnc",
+        "CBMiwAFBVV95cUxNdk82WkVTSk5uMkMzZy1reTdBNWg2aVJubVA3UWhDWE9SSGxhbU1qQVI3MWExNkFTMElMWk5LcGRBNGFseTBCU0I3T0tCZzEzcENfNTRWNmlqM0FYV3I2OEFFLVRjSDRtMHY1a1lGNGYtbFdldGxSbkxmRjIwbkFLMDJtWWFNQWhpazRTVTZXck9LSDVZdFB4NkQ5b2w2dWxhSkxrdXFMSHJvLTBYSk5iaXhNY2lLVzExMnJFalEyNTM"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-30T10:13:40.952Z",
+      "last_fetched": "2026-09-30T17:18:23.175Z",
       "last_epoch": 1790731800000,
-      "etag": "\"0d9b59a056daa8c4110fb7328a6755a3d-gzip\"",
-      "last_modified": "Wed, 30 Sep 2026 09:47:19 GMT",
+      "etag": "\"009f24b641bd1f55d900c30769c96619b-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 16:44:13 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -175,7 +178,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-30T10:13:40.981Z",
+      "last_fetched": "2026-09-30T17:18:23.224Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-30T10:09:46.393Z",
+      "last_fetched": "2026-09-30T17:14:52.145Z",
       "last_epoch": 1790757000000,
       "etag": null,
       "last_modified": null,
@@ -53,15 +53,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-30T10:10:07.703Z",
+      "last_fetched": "2026-09-30T17:15:25.940Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-30T10:10:08.846Z",
-      "last_epoch": 1790754579000,
+      "last_fetched": "2026-09-30T17:15:27.055Z",
+      "last_epoch": 1790775821000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -347,14 +347,17 @@
         "CBMi4wFBVV95cUxQV0hwQWxmeWRuek9XZnkyZW1QSllySkNEZ0Vid1EweDdtU290U21WamQtd0RpQnBLYVBjT25oTGRoWTl6a095RUNKWEZhZG1TRDdlTHF2ckc1VzVPR3lGZGgwRXhnTnVKN1FQdDFTNEl1bnFldldXSmwzemdHRVVpRGo2NUhVb0Vtd05BeTJSVkQwV0VWcXBHcG1fTTB1c2FJLTZyTGVFWkZDcnZSWGMxSkhYSjduRE5IcWhQYXZOV1MyRlpfb005MkdWY1JwVTloWjJIalRKVVhNYWJZZmVaeFdpZ9IB6AFBVV95cUxQOGN4dVJMMTVWWmd5NG1GMDBCNDRXTy00ZDNZSllTeXY0TTRfTHlaT1V2UjNmajh6SEhnNlZzWWdBQ1c5aWxhcGtpZGttWmlwYVI0LTNXSW8zV1AzbktQZW5xM252YlV0WWJXalF1VjdPc3VSblgyY2xmWTdsV01Sb2hBeEFMODRlUmpRSV90Nnl6WFNVMlFad2xoWVA4WFh1NG0yOWJfNVRfU3RkbXB4cWYwZkJWbEZZMGtPdXpVRnczVFl4Z3NQRWNCMk4wRTgzQ0pCaHZkaDRVY2J1cWk0ZGtpSXhhRTct",
         "CBMi7wFBVV95cUxPeTVTS003SU51dzYtZDVrVEF1a2M3U3g1Z2pkQjd6TW1IOU14YmRHNUVIZVBMWk53WlZ1Z0VDZ250OGVsUzhvREJGWXZ0TTM1Y0NEankzeTVuVlcyYS13ZHNvUlhFaDFkYUNobWF6TkJKU3RHUGJCejNRV3AyaERoWVBKTlUzX2JpellWSXpiQmZLVW54RjJBZl9HamxPMnFkY3Q0ODN0Z01QN2xfd0Y5dENSR1JFaUtFRDQyZUpHMlAzR25KOFg5VC1zNTM2ejdlZDB4UV83bjI0X3NxS2MwaHhpWDhHcWtIN01Qay1LOA",
         "CBMingFBVV95cUxPcThTN1NBV1MtYjgxN1ZDUmhiZGFxQ0FDUE9MdGRpRUkyQ21YV2VBanZVeW9MQjFFSXZYNXo3TGxwaXpYb1FIRndkWTJBb05xbENPMXZqNkpXSVNaM3ZnSWRRMzhyZ2FpTU4wd2lyUzhkWjQ5RUxLSzBXRXZIOFNzLWUxWHVFdGxuYWE0TXJuRXh2elJoNUNfb3JfTDBQUQ",
-        "CBMivwFBVV95cUxPdjE0Q29UYjQyOTk0Q2d0RkR1bjMzRWFkWHBCZXlxM0p6eUxIeVJGVWVodnU4LXZnaGxqWHVVa1JrUXBKWmcxdE9MZ1NMM3JHeXJ6N0J5aEZXZlRDOTlXcF90c013alhVVlliOFJFWVlobGJ6alFPVV9PeGx6bGVHLTRDZnBkQmxybXN2MWZMMi1GZmtHMFdJZEMzbzNSRHcwRjlYRDh6TzdKMlAzdG5hbEpMWjVsa2h1U2xmTTI5RdIBvwFBVV95cUxPdjE0Q29UYjQyOTk0Q2d0RkR1bjMzRWFkWHBCZXlxM0p6eUxIeVJGVWVodnU4LXZnaGxqWHVVa1JrUXBKWmcxdE9MZ1NMM3JHeXJ6N0J5aEZXZlRDOTlXcF90c013alhVVlliOFJFWVlobGJ6alFPVV9PeGx6bGVHLTRDZnBkQmxybXN2MWZMMi1GZmtHMFdJZEMzbzNSRHcwRjlYRDh6TzdKMlAzdG5hbEpMWjVsa2h1U2xmTTI5RQ"
+        "CBMivwFBVV95cUxPdjE0Q29UYjQyOTk0Q2d0RkR1bjMzRWFkWHBCZXlxM0p6eUxIeVJGVWVodnU4LXZnaGxqWHVVa1JrUXBKWmcxdE9MZ1NMM3JHeXJ6N0J5aEZXZlRDOTlXcF90c013alhVVlliOFJFWVlobGJ6alFPVV9PeGx6bGVHLTRDZnBkQmxybXN2MWZMMi1GZmtHMFdJZEMzbzNSRHcwRjlYRDh6TzdKMlAzdG5hbEpMWjVsa2h1U2xmTTI5RdIBvwFBVV95cUxPdjE0Q29UYjQyOTk0Q2d0RkR1bjMzRWFkWHBCZXlxM0p6eUxIeVJGVWVodnU4LXZnaGxqWHVVa1JrUXBKWmcxdE9MZ1NMM3JHeXJ6N0J5aEZXZlRDOTlXcF90c013alhVVlliOFJFWVlobGJ6alFPVV9PeGx6bGVHLTRDZnBkQmxybXN2MWZMMi1GZmtHMFdJZEMzbzNSRHcwRjlYRDh6TzdKMlAzdG5hbEpMWjVsa2h1U2xmTTI5RQ",
+        "CBMi3wFBVV95cUxNZFMzYUZvV1FPTlp3bkxwM2Q3a2h4TS02SzBQSkh0VEtPcTJRd01MQzVwclVxTkJtT1lTWm5vRUo3QmZXdGtkTGpkanJGSmFMLWJZV25tckpnSmxhSjJPVFlOMmt4ZVdLS3drRzZRVjFGemlURVc2bFNsX29zaDFKWDBIM1FKTktrakE0czhCWk1XNjRUZjlfTmZFT1g5WnRzSkhFT29XSVh3ZWxkeUVtd0o3QV9JNHpHZlM2TUF0T0E0dGZjcDVXWjBXeWpScElUMGJtMWxBR0JwaE9BSXl3",
+        "CBMinwFBVV95cUxQV0ozbjFTN21aWm5vRHY5djM1aTlvcWpzZmVLVXVTNjJERnZ2SURHb0NNZ3lxSXJyUF95WkhPMl9uQm5BNTQyWHloTGNIMHc5MVc4Qk1Bc0JObWhJQnIxNzlOeVNkd2E3LW8xb2M0dzFwV2dESWpwR0JKYVZqeWV2c3VLdUJFYlNWNkZfeTZLVXhDczZGU0xOLXZMel82SjA",
+        "CBMihAJBVV95cUxNSDNaR1dRM3JzWi1Xc2l2SUZvenlPNDlxSzduNUlYY3puMWtnNXJCMFRCcWI1d2UxMXVzWXg0ODRTaF9zeE9iTnhRTllwZ2Fycjk2LWxlZ08wb0tJR3RYNFZQNm9QeWRHTDQxRl91alRWMGRhT1FFcnhscTFLX1h3bVlxWnlhWnFtclhiVFFYNHA5aGptNVFfd1k3R0RjSDJOSHBQU2Z4VTh5VzlGeDFYbFBwWlVEZWd5ckZzOEtwZ3Y2TmM2U1YtTGVBQm9HQTY4eXpUbWdObm5FWFpEazRrU0lrZUdWam5CUnlLdkFLbDNLRnpSLTBWUWU3c0tNQTc2VU9sMA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-30T10:10:08.937Z",
-      "last_epoch": 1790755329000,
-      "etag": "\"0d9b59a056daa8c4110fb7328a6755a3d-gzip\"",
-      "last_modified": "Wed, 30 Sep 2026 09:47:19 GMT",
+      "last_fetched": "2026-09-30T17:15:27.107Z",
+      "last_epoch": 1790784706000,
+      "etag": "\"07bd4aba9c5c0f1a5b479239b583a02d1-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 17:00:14 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -541,11 +544,13 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/shalimar-corp-creates-rs-750-crore-platform-with-hdfc-capital/articleshow/134586214.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/larsen-toubro-arm-secures-twin-contracts-in-dubai-transport-infrastructure-lt-share-price-today-al-qudra-jumeirah-latifa-bint-hamdan-corridor/articleshow/134584749.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/75-day-traffic-power-block-from-october-1-8-mumbai-bound-trains-to-be-short-terminated-as-csmt-redevelopment-resumes/articleshow/134582131.cms",
-        "https://economictimes.indiatimes.com/industry/media/entertainment/indias-decisive-decade-7-business-trends-every-ceo-should-watch/articleshow/134573545.cms"
+        "https://economictimes.indiatimes.com/industry/media/entertainment/indias-decisive-decade-7-business-trends-every-ceo-should-watch/articleshow/134573545.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indias-domestic-air-traffic-falls-7-5-in-august-worst-among-major-markets/articleshow/134598554.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/govt-extends-import-price-curbs-on-two-pharma-raw-materials/articleshow/134597668.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-30T10:10:09.045Z",
+      "last_fetched": "2026-09-30T17:15:27.234Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

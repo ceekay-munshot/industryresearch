@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-30T10:08:56.787Z",
+      "last_fetched": "2026-09-30T17:13:39.847Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-30T10:09:08.272Z",
+      "last_fetched": "2026-09-30T17:14:14.406Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-30T10:09:09.440Z",
-      "last_epoch": 1790762070000,
+      "last_fetched": "2026-09-30T17:14:15.770Z",
+      "last_epoch": 1790775546000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMirgFBVV95cUxNS1IydFBrVFlCOTZNSVloLW01RExmcHpUN3g3cVQzYkc4Nlk4VHR0NkJUaUo0WDhUdlhnazdrOFFOa3dYUDNPSTQ2RUplWl9pd09WTmtxVE10Mm9BTUZBbGVsazJYakpNcFgyTUxoU2c3VDVpNE9oYWFNbzEwdG1qSTUwb01mRUxUTkQxN2tfYXVIWEV2ZzlvSmhqeXllcXdtN1d4SHNPRnZNeUxFdlE",
-        "CBMihwFBVV95cUxNV2lTNm5rX19EdnlPcEhYNDIyZG53TnJoaXA2UVNEUlQ3bEZpM3dXQ3J2YkVoTEkzakFrSHNVMWFqRk5sRmJSYkdPVmFIdFdldGFJQ3pjMjJnSHZfNk51dmNER253cnhka0RGR3VTU1Zad1IwT0M4TWU1cVhzdERFRGhxcWppd3c",
-        "CBMixgFBVV95cUxPb0VSSWEwbGhfdjBPbTZlbXF0LXpDQ3RWdWdJYThLaC1IQTB0dU9SbklaWEUzMTc3X3MycGdJaUxORXRDeUhxcnFDYU0wb2ZUSzYxaFVnQi14UEM4RjRlV1d0bVV2MUZMci1fdDB2bFVJeS0xbTcwY3ZycUNucDhTZWc5MXI4MmFmZTVpaXBwU0E3UXFaSXVjczd4YUxBTEJkTV9VdVhYT05TVmg0aGxKbUlPZFZZSG85U2tPWjEzRDNJMlowWVE",
         "CBMibEFVX3lxTE9ETjNTOEFacHpneU1FLTZraGM5aWxwWl92MWF0Zm85YXdYbzZSTllZVmtkRXVaa281ZU5vSlZtTHZjRzRtVGN1SnNFWF9BN1FHSXlrWW15ZFBIY3p2em16Ul83YTNOMUE3MVlsZQ",
         "CBMizAFBVV95cUxNQmV5c1hfZ2VzUmxEcWJZaGwxNnRWVzRWTEZKa09EdlZJNE9iOUpnUjlyc1dmNlBaNVl6Y214R1c3RmlCRWxHamtHbkZQbGpucWlHWTl5bGU0RE93WjVZS1R1UDBSV21XdkdIcVdEby1IYU9JUy1DQ1pKU1RDN24zSVJMTzd3TE8zSHFWcmlxQkhfYlR0NTZuYlEzZkpLMTJZNXkwLTdZRldSLXZQRjQ3SDJfQVNZWGNReUo3a2F1T1FlOGIzeDBVblF1NnbSAcwBQVVfeXFMTUJleXNYX2dlc1JsRHFiWWhsMTZ0Vlc0VkxGSmtPRHZWSTRPYjlKZ1I5cnNXZjZQWjVZemNteEdXN0ZpQkVsR2prR25GUGxqbnFpR1k5eWxlNERPd1o1WUtUdVAwUldtV3ZHSHFXRG8tSGFPSVMtQ0NaSlNUQzduM0lSTE83d0xPM0hxVnJpcUJIX2JUdDU2bmJRM2ZKSzEyWTV5MC03WUZXUi12UEY0N0gyX0FTWVhjUXlKN2thdU9RZThiM3gwVW5RdTZ2",
         "CBMibEFVX3lxTE1XcWRKczgtWDBSdWxtanBhRlozNmQ5QWpPSXFaRVd2cVpsQmx2OWxzRXpFT19fN2JDQmZOeHBiSXVMR3BXTjJVQWxnUU80cW03UTdaOVl4Q3A2M0I1bDRianlXZ1MxeHBlNF95Mw",
@@ -319,22 +316,18 @@
         "CBMiigJBVV95cUxOLWdXQjdBT19HY1dHYm5VMDMtUElsN0d4blBFU1JPVFlPRTdNVEZoTlJ5dndJTVpVZGlKNzVCczNjc3Awa0syZ2N5RS1jWUM5Q1BSM0trQkZWZFcwb2hFcVNBV0JlSjQxWjBzOHBWZk02a3ZDaHFSSTVBb181aVRQUXJBdW5uek1JZWdjekdyY2c0Rzh1bk1nRmhWNUExRzc2WFJMRXpaSkpUaUhXN2REZjBFM3g2SVNtdmdaajNmU0k4a1hMdWM0V09ETEUtQVZzeVVIQ1ppdkN6b05wb29Gc0RjN25mNVNkdU1HMTBoWWZqQUFhTmcybVAyNHkxRTdlcWhCQkpuNVhHQdIBigJBVV95cUxOLWdXQjdBT19HY1dHYm5VMDMtUElsN0d4blBFU1JPVFlPRTdNVEZoTlJ5dndJTVpVZGlKNzVCczNjc3Awa0syZ2N5RS1jWUM5Q1BSM0trQkZWZFcwb2hFcVNBV0JlSjQxWjBzOHBWZk02a3ZDaHFSSTVBb181aVRQUXJBdW5uek1JZWdjekdyY2c0Rzh1bk1nRmhWNUExRzc2WFJMRXpaSkpUaUhXN2REZjBFM3g2SVNtdmdaajNmU0k4a1hMdWM0V09ETEUtQVZzeVVIQ1ppdkN6b05wb29Gc0RjN25mNVNkdU1HMTBoWWZqQUFhTmcybVAyNHkxRTdlcWhCQkpuNVhHQQ",
         "CBMirgFBVV95cUxQbkd3OU1hVUhMU3lGdFVmRUVXVnhyTzIzZjgydENmUXFfeHp4Uk1LN20yemFrbDJfZW8weHJOa09ZbWxPbko2WUwwVVVUdmwwZFp6NFRETjA1NzcyRXRMYUx5bDJYbzJOa3J5UlNudF8tR1BEeFN5QXNOZTBONEw4TjZTcU80WFI4Rjk0M3VPclhqSTNSWjc4ak1qZmU3ajNLQ0RsTVJLM2c3QjJjbmc",
         "CBMigAJBVV95cUxOSjBnNGt1LXNLd3FoWUxBT0RyR0hSYzdOTGNMUzlCUEJtbjJvcGJiSExkRDVyVHRmck9xajIzSUliaHg3Q2hJa21BNXJkMkdKZGUya0hQNmh5cDIya0xZUV8tRFhRNUdpTENMalppWVVZQ1A4MVRMQzdHY0JrTU1KTXlUOWJ2UGFRakV5X3VjVTZ2TTVjNnZjUG5vYXRJT2U3TngzbWUwZnlUXzMyTmw3aXNoeVJzclNiOTlvTm8zNXE4MW5mTlRVNGtNRGRJOE9tMkZjeWJfbUVwOFQ0WnU3SzgwMkZPc3ZzNTBDeTFvZHBVWi1oTXZZeWNmMlVXUUc20gGGAkFVX3lxTE1QOWxVZEtHbkdqZzBDZ0psMGlYS3gxemV2ZEVndHdEVHFMc1JWYXZHV1hZbFExZXI5aFlpb2lXWXpXMkVLUnNyeTRqc0puYTNtM3ltbTBOZDVidzJ5RWRpN2ZGZy1sdUtpLW4yZWg0aU5XVG1ZUFNiNFU0MV9nSzRaUUZqRXAyclZKMnZXdm9JYkFuSmxvNVdpV25sc2VreHpEZEp3Qm1GekdnV3dfNU1sY3MzYVNvc2ZtUXZFR1daT1RYWmlvTVc4S01zZmtYeURhSXhuTXk0bzYtUUo0aU43ZXkxN0drMGZIOE9mZThGWEMtWVp3M1lCXzkxMjZQV1JWNW5XTmc",
-        "CBMiXEFVX3lxTFA0SFg1cUYzVVBWT19FYVBESDBQTkc1UmdzZkhjeDlFUkRZV0ZRYWpHc2hsQ20xdzhyZjBFY0pxRHZJckN2ckxJMUxfZ1JPdHR4R1l0TFJ6N1I3SHhm"
+        "CBMiXEFVX3lxTFA0SFg1cUYzVVBWT19FYVBESDBQTkc1UmdzZkhjeDlFUkRZV0ZRYWpHc2hsQ20xdzhyZjBFY0pxRHZJckN2ckxJMUxfZ1JPdHR4R1l0TFJ6N1I3SHhm",
+        "CBMivAFBVV95cUxPb1piWkdQaGdrWDNTYmRRQ2dkXzV6NW1jODJCakRhRFJKUkNtZVpjb2JaRmUyZHZvMHMtMEpJMnozUGtRaE5qazZxb1dyMUtrOVJjTW5LRURtMnVTTk5vZmZJOGV6MUVEbmQzaGotMTkyTWtEemluamtxb3VsbEtUQWgtUEVUdExBWmFfYjV6VHd5YWZqcHFhZlZsT3dDbHJSZFpMZU04SWwteFZtT0l0cjJtekZMNFZ1WGpBUA",
+        "CBMi9gFBVV95cUxNbHo3X3ZCb1FxZS1JUzc1WUhSdWY0YWlwOFpiUmlRSUQ5eE9HdkxCVWtYdHo0am5VbkdhWWEzX3p5TlpiSUEwNVRJVk5abkh2R3QxZE1QY2J5YThBUWNNc1AySTJuMGNLSWw5cmNaeWNTdmFNT1BpdXlvb2FGMHVyX3ktWFdwYllnY1F5Uk5ranVCTDZKRDZ0Y1BTRl84WDNKdTZ6d1Nybm9URENDMGxrOGd2Z3JpdXZrcHg0YlQtZ3JULXBaREVkUGVzaXNiNUppUzIxc1FZM0Fxa29laUdyWlhHRzM5YV9Sc1FjQ0ZzM1pVRWpPYlHSAfYBQVVfeXFMTWx6N192Qm9RcWUtSVM3NVlIUnVmNGFpcDhaYlJpUUlEOXhPR3ZMQlVrWHR6NGpuVW5HYVlhM196eU5aYklBMDVUSVZOWm5Idkd0MWRNUGNieWE4QVFjTXNQMkkybjBjS0lsOXJjWnljU3ZhTU9QaXV5b29hRjB1cl95LVhXcGJZZ2NReVJOa2p1Qkw2SkQ2dGNQU0ZfOFgzSnU2endTcm5vVERDQzBsazhndmdyaXV2a3B4NGJULWdyVC1wWkRFZFBlc2lzYjVKaVMyMXNRWTNBcWtvZWlHclpYR0czOWFfUnNRY0NGczNaVUVqT2JR",
+        "CBMitgFBVV95cUxOSVVTQU5XdXNHUnpfQ045SDZnb0hCNTBuN0M5SDhQSDZ1U01lUWEyN2NmQ01QYXd0MTBvT2lCZUcxZGh1amdRcllVRFVuSkJIc1NLRTBXS2J5MGkzWnBNMk90R3VNX0I3clFVV004WlVrSk5vVEZVdjdob1R0ZDgwVXJ6MEs0RXZYd2s5UlNRRnZpZG5KS0JkbF9qV3BQLVZJUlNXQ29fdWdGb05BY0Fva3NDQ3hmZ9IBuwFBVV95cUxOenVaUElVTFBuMkx6SDRpT0N5UU1HdFVGUFV2Z3JjLWdBTTF0Q3VYZUg4c3JKZTNUWFFFak5kNTlBTXk1NDdEMEFGbktDdWpFa1lxeWpsWm9JcG5UU0xpNHNJUGFZSEp3dU4wSjk0cmhXdGVmdGszUkJjMHNIRFpmam5NRXloMGlaUXNrS245dThhdkREbHl2MVpBVHZjdmFNbGRUbm5qV2MyQ0Fab3hJaTZXc0dURmdVZ3Ew"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-30T10:09:09.490Z",
-      "last_epoch": 1790753057000,
-      "etag": "\"0d9b59a056daa8c4110fb7328a6755a3d-gzip\"",
-      "last_modified": "Wed, 30 Sep 2026 09:47:19 GMT",
+      "last_fetched": "2026-09-30T17:14:15.876Z",
+      "last_epoch": 1790783179000,
+      "etag": "\"07bd4aba9c5c0f1a5b479239b583a02d1-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 17:00:14 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/demand-for-vaccines-surges-as-h1n1-other-influenza-cases-see-a-sharp-rise-tata-1mg-pharmeasy/articleshow/133577722.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-to-operate-direct-flight-from-guwahati-to-bangkok-from-oct-27-himanta/articleshow/133593780.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/ola-electric-gets-rs-95-81-crore-pli-incentive-for-second-straight-year/articleshow/133593599.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/mahindra-group-expands-battery-as-a-service-model-to-entire-esuv-portfolio/articleshow/133593059.cms",
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/eesl-pngrb-ink-pact-to-deploy-smart-domestic-png-meters/articleshow/133591269.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/itat-rejects-tax-departments-fts-royalty-claims-on-spencer-stuarts-executive-search-fees/articleshow/133590140.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/food/punjab-government-imposes-one-year-ban-on-manufacture-sale-and-storage-of-analogue-paneer/articleshow/133587203.cms",
         "https://economictimes.indiatimes.com/industry/renewables/ola-electric-brings-indigenous-bharat-cell-lfp-tech-to-mass-market-with-all-new-s1z/articleshow/133585566.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/peg-by-peg-vodkas-share-is-rising-in-india/articleshow/133598495.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/fda-buckles-under-hc-heat-revives-mumbai-cricket-associations-suspended-eateries-after-fresh-inspection/articleshow/133607742.cms",
@@ -627,11 +620,18 @@
         "https://economictimes.indiatimes.com/industry/cons-products/food/doordash-to-create-3000-jobs-at-global-tech-centre-in-india/articleshow/134584947.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/astana-international-financial-centre-explores-to-partner-with-indias-gift-city/articleshow/134582312.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/apple-pay-comes-to-india-with-axis-bank-visa-mastercard-credit-cards/articleshow/134578396.cms",
-        "https://economictimes.indiatimes.com/industry/media/entertainment/indias-decisive-decade-7-business-trends-every-ceo-should-watch/articleshow/134573545.cms"
+        "https://economictimes.indiatimes.com/industry/media/entertainment/indias-decisive-decade-7-business-trends-every-ceo-should-watch/articleshow/134573545.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/insure/jio-financial-allianz-pump-rs-640-crore-into-general-insurance-jv-via-rights-issue/articleshow/134598065.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-appoints-gaurav-hazrati-as-business-head-bluchip-loyalty-programme/articleshow/134597691.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/the-future-of-payments-will-be-shaped-not-just-by-what-technology-can-do/videoshow/134595489.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-secures-mhra-registration-for-dialysis-device-plans-uk-expansion/articleshow/134593962.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/srishti-architecting-the-digital-tomorrow-at-india-mobile-congress-2026/articleshow/134592954.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/cafe-iii-gives-auto-industry-investment-clarity-supports-cleaner-technology-adoption-industry-experts/articleshow/134591473.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/delhi-itms-approved-how-centres-rs-1789-crore-plan-aims-to-cut-congestion-across-delhi-noida-gurgaon-other-neighbouring-regions/articleshow/134590251.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-30T10:09:09.600Z",
+      "last_fetched": "2026-09-30T17:14:16.225Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
