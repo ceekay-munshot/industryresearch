@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T23:21:55.238Z",
+      "last_fetched": "2026-09-30T10:12:34.767Z",
       "last_epoch": 1790707262000,
       "etag": null,
       "last_modified": null,
@@ -11,15 +11,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T23:22:05.999Z",
+      "last_fetched": "2026-09-30T10:13:08.366Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-29T23:22:07.320Z",
-      "last_epoch": 1790723338000,
+      "last_fetched": "2026-09-30T10:13:09.520Z",
+      "last_epoch": 1790742906000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -136,20 +136,26 @@
         "CBMihAFBVV95cUxOSFgtX1M1aGptUWh0c1BKc2diMV9BX25YeFJ4SjdNOWhrREhEQUF1dndObnpoNjRTUWFtdk9BTlZmRklwVm04VXRSbjFIbVRMR0lGZUdpVmM3NWdteGM5a0VtbmYtQ3RYUnRkSmQzTC1QTUFIdmpueG1hWTZhTnIwQmM1QU8",
         "CBMijwFBVV95cUxONTB3c1N6SW5mUVZqc2ZGWnFVblpoN2tobEo4dmM0ZmM1QXZ6b25uOWxXM3E5UHhiSVBmYnJQcWZrRHYyNTNUdEV6TlZtUDhRaDdTQmUwY1F2Tnl1V3NRd2pXdUluaUUwNDlRNjZWR3BOTVlCUmJwN3Bxa2UyUDdyOFlDSnU5Z0F5ckFmdUMzTQ",
         "CBMiugFBVV95cUxQVUpMNmxoTDduVjI1X2xfSG1vYldOa1V2VG03c1Jib3NNT2JQaURFWDE5eDR0V21ueWY3U3R1OUdCZ3NtMzFDTU43NFN4YWlQSjZ2aGlyanBiM1laQWRfS285d3pEZGdPajZvcjRzSFI0cmRhM2VWVno3dDRZenQ2SHE1R1NUbVNxRUNJRE96TDhwLWVSWmlFa21EQWVETERfOThEZ1R4M3dnTXp0QXVmTmFUdktGV09BU3c",
-        "CBMisAFBVV95cUxNbFN5NzNuSy1pV0dDUDB2OTdiLWJkZDBrdlRLNS1nbkFvSmtqNWlhWXNSMDlLcmgtWEhYMWxvazN2c0pyZWtKM1BLVUhXdWV1dnV0WWh2U2dtWUFCUDl2UEI2MzNhd05RQzc3U2gwM2NOdGE0WVJUZ0tUb183dEVsT2FRc3lhQ3FIT2s2eEFHNEpJcjJ2Tkh6UC1nTm0xcUszUGk1MmktYmhjUGhhVmNGYg"
+        "CBMisAFBVV95cUxNbFN5NzNuSy1pV0dDUDB2OTdiLWJkZDBrdlRLNS1nbkFvSmtqNWlhWXNSMDlLcmgtWEhYMWxvazN2c0pyZWtKM1BLVUhXdWV1dnV0WWh2U2dtWUFCUDl2UEI2MzNhd05RQzc3U2gwM2NOdGE0WVJUZ0tUb183dEVsT2FRc3lhQ3FIT2s2eEFHNEpJcjJ2Tkh6UC1nTm0xcUszUGk1MmktYmhjUGhhVmNGYg",
+        "CBMi7wFBVV95cUxPNmMwamZXWEN3R2R4TlBOY1Y4Ml92YzRTNUltZmZBdWI2eHNDaHp3ckZFTTlWNl9rR05UUElLMTlpMDI1Qm1hbkhabDc0Mm5UYzZBRTFoTFZYN0ZMZGtHUHdjQThfUWNKemE0X1UtSTFpMXJhUGphRFRSS19aSC1JZUlxdTFieUh6b3l6UTc3MHdVc2ljdnRrSjhKLVc4SDRuYmFHSjFnWjhXakdKUTlkd1ZRMGluT1RnRjFNQW5jdmt4T3AzMlRNQlhXZ2FBa0RJRWZXSGRrVE90N0VEUWVtLUd1TWVPbHFnSWl5LTJfRQ",
+        "CBMilAFBVV95cUxOOExaV2VLVDNROG1Zc1UyYkkzVi1ibHFPQkxyVVhoR2FGUnlBTVRtMnZ2WUR3d3pEZnNham5TLWNrY20zZ0d1Sk10VVNsdTQ3N0dHUUhkNVlyRFc2bFZDNl9TaWh0SVhyWXFNUkppWk9STGMwV1cwR0hLSGFEdFVhTXFnX2tXekpVcDJLUU5jQXNmbHcz",
+        "CBMipAFBVV95cUxQbHBxQ1lza2RoNFNhdFM1cGtRNVRxUzVpYWIzRnY0Q1lMM1piV1l0YXFuTDdrZmF5WVd1NUFDM0s3RjlKX3JBYzI1eHJZZUNxRXhBT0UxMXFkcUNydHZ1SW8zLTdyVmZ3SnZxZnZOejdkZ0xOLVlmcHE2aXlPYnJrQWFhN0IyMlU5b1VZUENfNjZldC1uMnN3Z1VhR1RoZ0UtUmtXOA",
+        "CBMi0wFBVV95cUxQdmhDTkZfY1NmcHUzMXg1Q0dYaGxLNThULVQ1N2t3TmJrWTZLMDUxZVlyUG1pcHFuMkptNGpiX2ZnZlAyanEwNU5wdjBrcmE5ejVmdFVZeWJZR0NGdzVnNTVESi1rVFcyeU5QU3V5blc3V20yckxKOER3ZVpEMkV0dlBSaTRfcFVYbmYxTnluVW5kR1AzS2VTYUlXekNMeEVjUXR3NTMxSXBBWUNlRU5XOUdMbEtITTBGN0prRElaMnMwdzdEallVckJKaVhtOHBrLVVz",
+        "CBMivgFBVV95cUxOek5pV0o1MEFscFVIb2Y4dlFDc1NYdW5peklLdUtQWk1ka09HMFRkTHJicDlPMnJCMmJDOHVtRURTNGxMS01udkFMUFphb3VBc0NoRThCdERpNjFWUE0zYWlRdmhRcGdFZnNNN1RYTU10TW0zSjhvbEdfTnBUODkwX2Fia215SWRXSFRpRmM1UUZadmVRczlpR05IS0NjWHJOUW1nUTFVZnBzLWRhVFM0eUphTEVKSEcySER6dld3",
+        "CBMirwFBVV95cUxOanVhQ2ZGVjBmUE9mc2Y3YnB5YXZQaFd1M1IxQ09VVXctQk5CbW1FdGZhU1d5LUtBSVJDajZJQkk2a0lUM1hyMnIxYjJiTjJKOHhkZWxWekpDYVVYalRPVmg5RUQtSWZHZGFQXzJhemVWaWk2QVhtMWw5aVFOMDFHczV0RkdGVE5oVUh3VDd0ZERFeTJVdGt5ZlRud0M3dmFnSTFOZzFDOHhlbTZaeUJz"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-29T23:22:07.345Z",
+      "last_fetched": "2026-09-30T10:13:09.613Z",
       "last_epoch": 1790713680000,
-      "etag": "\"014f83cf3011927bb3435c320f3ef0d89-gzip\"",
-      "last_modified": "Tue, 29 Sep 2026 23:05:07 GMT",
+      "etag": "\"0685df12ffac8331cd4d379d940c8a8f8-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 10:03:26 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-29T23:22:07.367Z",
+      "last_fetched": "2026-09-30T10:13:09.647Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

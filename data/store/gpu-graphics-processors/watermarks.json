@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T23:20:42.291Z",
+      "last_fetched": "2026-09-30T10:10:09.199Z",
       "last_epoch": 1790090494000,
       "etag": null,
       "last_modified": null,
@@ -14,23 +14,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T23:20:49.281Z",
+      "last_fetched": "2026-09-30T10:10:43.816Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-29T23:20:51.798Z",
-      "last_epoch": 1790705207000,
+      "last_fetched": "2026-09-30T10:10:46.221Z",
+      "last_epoch": 1790743436000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi0AFBVV95cUxNNnh4bTRmQlpMMzN3cHRXb09UT2dsS1ZtaUV5eEg5T1AtdTB4Tml3ME45X20zVThtakpROU9yZWNndXpTYUdpM2pxV0ZUWFRueGJKSl9mNHU3SlhTY3plaGNLUU9wN0tiWHZfdjdMUmtKTnd0MGpONEYyU0RjbTZJNk0zcnpYdy1YVTdKVEs2MkdVSVRJRzBPdzc5c0EzQnQzZUVpYjJseVFWLWUwdEpINGNObGN6dHhOaW91ODF1ZUt1RTZBdkp0Wk1CWDNTTlRX0gHQAUFVX3lxTE02eHhtNGZCWkwzM3dwdFdvT1RPZ2xLVm1pRXl4SDlPUC11MHhOaXcwTjlfbTNVOG1qSlE5T3JlY2d1elNhR2kzanFXRlRYVG54YkpKX2Y0dTdKWFNjemVoY0tRT3A3S2JYdl92N0xSa0pOd3Qwak40RjJTRGNtNkk2TTNyelh3LVhVN0pUSzYyR1VJVElHME93NzlzQTNCdDNlRWliMmx5UVYtZTB0Skg0Y05sY3p0eE5pb3U4MXVlS3VFNkF2SnRaTUJYM1NOVFc",
-        "CBMiiAFBVV95cUxPeFhQUkM1b3VZa25GNE9KNi1MN1ZVeDVWUFpBejlTR296bmd3UDRFYlhiQzQyQmpkV2ZPRGEwVkwzMWdBZ3RrczFlZFQ1eHZMcFdiSzNsNWd0Rl8wSkh5eWV5S2s4cDB1cmVQTTBFb0RzeklpVm84QW5TTGRzWkhrdEFkWU9FTHFU",
-        "CBMi-AFBVV95cUxOR0tkZUhoenVOeHVub1NibHJqTEpsM004Sk1jWENHdVRpdjNFRERJdE5iWE1CQmxJRFBJSFlhd0VpLVZzbFh6OGRPcFJTYnBYRXhPWjE4UlVJZGFueEVHWnNQQ2hfelhvc3lXOXJIbEhGQThscVlFRzdwQ3oydEJkMXd5U2VZRWJRZ09hR0hiR1dtWHFOa2Q1RHp4VjRha2plOU9LRVZJWVdsMjN1QmlyM1o3bnBkWkVJMlNuMUR3NnhpaUZ4TDRicHdyUXpoVTR3Q1dZUkIzOTJpaVRNZzV1MjlrU1dLbXZkVHV0Ukl0RXM2MV8waFdFb9IB-AFBVV95cUxOR0tkZUhoenVOeHVub1NibHJqTEpsM004Sk1jWENHdVRpdjNFRERJdE5iWE1CQmxJRFBJSFlhd0VpLVZzbFh6OGRPcFJTYnBYRXhPWjE4UlVJZGFueEVHWnNQQ2hfelhvc3lXOXJIbEhGQThscVlFRzdwQ3oydEJkMXd5U2VZRWJRZ09hR0hiR1dtWHFOa2Q1RHp4VjRha2plOU9LRVZJWVdsMjN1QmlyM1o3bnBkWkVJMlNuMUR3NnhpaUZ4TDRicHdyUXpoVTR3Q1dZUkIzOTJpaVRNZzV1MjlrU1dLbXZkVHV0Ukl0RXM2MV8waFdFbw",
-        "CBMimAFBVV95cUxORTVJV2FEcUVjUGtvT0YydkVCVzQta19Vemhmd0RhUzMySzBFeGh0RXpPdko5NXJoVW9idmdkeXg0NTk1WUh6d1RRc0dIaWVpSXFkQUVRX1VYSE9TQ2RlN2lzbnNLQmtVYXRXb0VFaUNfZnBLMzRHRExkSl9PdnVOVEljMGZ1MU13aldFSzNYc1Q4STM0U3hyUQ",
-        "CBMitAFBVV95cUxPT1BsMFFldU14NGVpNnhud2ZtWmx2Q2hxeThLTUNrU2NhYjNxSFFUWnN0cFQxVlJoTXpnd25aUXRhT0pxNnNydGk2ZDBhdFF6elZEZW1aSkg3U2E4QWJESXBFNlBQdW9sbDBLY2ViaHk0Yld4Y0xySnVUa1ZiLUwwSi1KbThPb2xObTVuMk1DSEdnLWtWX1NGU3BEQTg0d3IzS2l2bTk3d2Z3T3pRb21XcWpIXzA",
         "CBMipgFBVV95cUxPM1JxZG4xVW9GenBnT0x1UkxBRGRDNlhQTDhfQVMtaVVKOXp0NUx4TURxcmw3cUwxWmVLQmJvTDlHTjdqVUFaTzh2OVVNR1dGc29CVENldHVlMTZjNnNqWk1WTDZ5c3drLTIxV2laTDNvZUR3dlZKZmV5SDN1SnljMUhoQ0JoV1Y0WUlNTFJvd3NZQ1drUGg5OGRvQTlmSU5TRkJHWHVR",
         "CBMijwFBVV95cUxPNTJDNnpRVVlYOEVmUlZNM29FTlNReGlTQ0MwU0N1LW9iU3BTZDZzX3Z4WFhQRkJaYU9NSW1nNG1PYlI4Rk9zeHEzR2xUN3NhVTdQZl84ZHVqcnNqamxXSHoyWHVRYzZ1RmROTkptcl8yOC1aYm9OQ2lyelQzUm1nUnVFSFlYWENZQVNhQzJfaw",
         "CBMivwFBVV95cUxPWVFER1AySFVfZ29mcFRaQ1BmdmpySFV0cG1nWGIyNGl0X1p1SURfZnExT3JQdTlDNkhkQ3l4MWdRTU9COEZkZEt2YUFCWFFhcXd0ZzY5cE0zcWdXODYzcDdpZ0pjRTB3aFZxVVEwTEJ6VFRaMUp0ZWdtTWdvUDUzZUV4LXotYXhxSUVCNlA1T3kzQkF3YkVJc1lhOGVFVEd2ZlNqLXFhUjY2VmRTWGVqTVIxVUttdlhENWhDQ2lkcw",
@@ -325,14 +320,19 @@
         "CBMi4wFBVV95cUxNQXF1c3d2NnRXazZaT1I0dFF3Ykh5N1VmVWZOdTZ0OXg5cU9ZQmVCRlJ6VnZ1UFJQbEQ0MmtydWtjYU1vTkRxRm9zWHY2N29DbjFKNWtFSTdLa0Y5SW9vek9kSEpRQUlEMUdZeFY2ak9KdzFuLW9PZHgtSnE5NEhIRGYxZ1gwMi1VZ0JacVl5ZHFWaG8yQjgwb1dUTkhFOE9iNEt3MU9jNVVHWXl5S1Q5UGpBcVgzNTN5WS1fUWNvNzR3OFBKODl2SUNuVmNPZFAwbW9SSzE2RWJsUkp3dFAzZ0lTRQ",
         "CBMivwFBVV95cUxPZUJJNlppQXBzYUkySjA4RUJSS3hpMEw4QkYtekIta3J1N0dpZDR6cUNacnplb2NvM3Zfc1gzU0Q2UUp0VmliZ3pXYmlRUjkxdHFSbDl0cHowNndPYnJpNG1fS2FramRUUF9wUlFEM3dFWVFMRWVpQl96bTBlNlBDVkFfS0tJQlhQc1Vlb1pyczlWdFJTcHhtR1RRTnl6ZmVTWTdnM21vb0FUSEZSM1hyaXFwN2hIRHFPTnlkS3RHMA",
         "CBMijwFBVV95cUxNQ3ZLLTdXdkVLeE9ZMnRRckR1SmJJUkotazRISElONktWbGdoTmlhR01faktSemtXeDFrNE9zTTdNS0VTcnpzVXpyQ2NEdU0yN2VaT091eHhNZWdxVmRpYW9SbUQ5V0pnWDdyQllSZTYzbVV2TU5OZVFMaUc0YnBDTVphcGZyTU5YM1lReV9qRdIBlAFBVV95cUxOLXFmT0dKdWxqVVpMU0t0MERUZXdmamRLSTVOZGM5bmwzNVlMbURqRmpxTzVxeFJzdGZPMkdkMVBMOXhpSVVLNk1Tb2pCa08xNFVCUWJLMzNIYXNXNWs0MkJTQjZkbGJCTGhVbjNEMktkRXo1N1lKSWU0OFhFTXo1LVRwVk9RcVA4WjNiREs5eWNEZExH",
-        "CBMid0FVX3lxTE9zd0tvdHRNcmx1TDhvdk5KdnBiOXhueUt6ME1LNHlpQWpUaWc0ZDV4d3ZPMngwend4SzFLM3dRNmlpWnVtUUNuWmZiazZWdHI0S2NVSVMzZUFaNUEwYlk3MEFfdUNBcUdfZTdGczdfZmdDUHNFSjlj"
+        "CBMid0FVX3lxTE9zd0tvdHRNcmx1TDhvdk5KdnBiOXhueUt6ME1LNHlpQWpUaWc0ZDV4d3ZPMngwend4SzFLM3dRNmlpWnVtUUNuWmZiazZWdHI0S2NVSVMzZUFaNUEwYlk3MEFfdUNBcUdfZTdGczdfZmdDUHNFSjlj",
+        "CBMidEFVX3lxTE4yMDJKTGZ4MHlGSmtSN0FwOXE0Yy02V19PNjNhRlhKeUZ5MzlkSkVEclhDaXhtWHR0aXpjS09oOERMQTR4MWh3T0lRUkFtWnhTQXc2dGFkeE1XaFRBRjV3TUt2VXJEMmpTRk1JMXRKbE5HVVNs",
+        "CBMirAFBVV95cUxONUtvWHRMZXZzLXRJUnJ4VkZUSlU5SVprRGlvM0ZSSWJ2OHd3Tm0zWTl3bHh4WUV0QlNITjhyT0tfX1Ric3ZrR3A1QUN3cm9WeW9ZQkc5cTk5NTd2Ynpodk1wTDFyU2FLMFhBRkdTcko1eGVZWEV6ajNuR2pEb3pQeU1fa3JFNWg3OE9McTVoZjh3cThfYm9pZWtuYlRJNkt6WXh3RFVwVGN6VlY4",
+        "CBMi0gFBVV95cUxOaGs1dS1nbGtMLWJ3eU1zREkxdnpVRUVHalpUSlJrVnUtZDI2Nk9uSmJpb3MtS0pua1NiUUJRb1VfNG82RUEyajR6X05XSzVrVHhEMklWZUR0WjFmSVhoNEF5c01xb1lOQWlOako0SFg0djVBYmFpUzRBUTJxSzNtY3JNampRaENqbExfTVZ1VHFCUzFpbHZ5UHQ5cjFEdmhUa2lCVVJpS0JPR1h3Skx3M1RnQ202cHBPeWhkYXc2OUlqcVpzZFRtSXpGRWU0TDlHOWfSAd8BQVVfeXFMTjRoLWtXbWEySmgyc0M0aDM4TjNQamdBbVRiY2tXdEx2cmpIaHlDbm53WGVROWhVT3BSQzRjWUN5SnROM1FYMGdMT2trdVo5N1oyQlh4WjNHQWxkeldFWFJNakM4YUI1WVNUcDNNWG04U1pkbXExalk4di1YNnBEZ0hITzJwaXB4a3F4SzJhQlltc1lfV1hEMHRCRDRTMTZPQmJMTlpza01kbHpIMkQ1S2JEYjRSUWVUcjRfck1LbHpqSmlCSHVlLUl3RThNekM2TjlhZkhua2lCZmRQWURnaw",
+        "CBMinwJBVV95cUxOdnplSVpVS0hocXV0X3VYVVBOUFRWT3BGNXFLV1ZMc1FYOHRJRzNpVXNNeThHTm5qQWMyTHIwUEtjX0pxeFVFMVl6ODNhTmV5Q2N4RUhqejRBWEVMeVlUSnVsZkdLZkpuT1dPaXlsU1U1ZnBWRW9EYUc4RE0tZkVLSDVPYVdsNEU0QXJtZ01JWV9IWkcwSVF6OHg5c1ZsQWpMa2JkUnB6OURNcjRRQXJDWjlNMk83SGFZdExCT3VkdDlraHUzUVNrbmlfQWU2aExQMm9LVjNQZ0gwb2tDOENnSEpPSlhseHMxV09vWEVhUm9UYnpVSlI0d292MG5EOS1zTVFSWGtwWllTUGVWZEs2Qkl4UG9sdHpaRjI2UEZPTdIB7gFBVV95cUxPQ1NsYkJPb0ZnR3RBa2lhNFhHVS1JZ1FHODNOOVN3MWNkaERrU2ppYXlLQ1FTYjFfdUctQm5hb0xFUkxZOE92YkFEMUJkZ1hHaHN0QTV5eExLSGVtekhURHpZNDZQS2RZbzIzSmxVQjAydE8wTXN0dTIwaWJKUE1ETS1SRUZGbHZXMUNVblRoNDB2UmloMHp1YUFVZ0FSM1ZqRHNmWE9GUUNJalpfd3BibEtXQ19XdWM1WFozYmVpZnFpRzVKTVZkLXhGR3VIeDRUUE84WHJ3RzBuV3BMcEdpTmREdUo4ampKUXprX0N3",
+        "CBMid0FVX3lxTE55Ui1pNzg3VE1HYUtsMDgzaEM1UWhVUXJqTGQzZlFEUXZGXzdDTEhaaGJ1eHRrVkpDMVh5aGFrR0xVUFhBaGdWSER1TFQweElBenhxajFoYVlsdmJFaHFGdUpWZWIxOGtPTmJvVmtQWGZ4RVlEblJv"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-29T23:20:51.844Z",
-      "last_epoch": 1790701817000,
-      "etag": "\"014f83cf3011927bb3435c320f3ef0d89-gzip\"",
-      "last_modified": "Tue, 29 Sep 2026 23:05:07 GMT",
+      "last_fetched": "2026-09-30T10:10:46.342Z",
+      "last_epoch": 1790754252000,
+      "etag": "\"0d9b59a056daa8c4110fb7328a6755a3d-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 09:47:19 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -371,11 +371,12 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/india-mobile-congress-2026-launches-viksit-tech-47-platform-to-build-indian-technology-brands-for-global-markets/articleshow/134560795.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/10-terms-to-know-ahead-of-india-mobile-congress-2026-as-ai-led-evolution-of-telecom-networks-continues/articleshow/134565416.cms",
         "https://economictimes.indiatimes.com/industry/services/education/ai-is-making-employees-faster-but-why-isnt-it-making-companies-much-more-productive/articleshow/134564645.cms",
-        "https://economictimes.indiatimes.com/industry/media/entertainment/media/indias-media-industry-needs-to-move-from-scale-to-value-prabhat/articleshow/134571074.cms"
+        "https://economictimes.indiatimes.com/industry/media/entertainment/media/indias-media-industry-needs-to-move-from-scale-to-value-prabhat/articleshow/134571074.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/larsen-toubro-arm-secures-twin-contracts-in-dubai-transport-infrastructure-lt-share-price-today-al-qudra-jumeirah-latifa-bint-hamdan-corridor/articleshow/134584749.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-29T23:20:52.114Z",
+      "last_fetched": "2026-09-30T10:10:46.406Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

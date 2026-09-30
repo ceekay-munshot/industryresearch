@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-29T23:22:07.823Z",
+      "last_fetched": "2026-09-30T10:13:09.784Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-29T23:22:31.514Z",
+      "last_fetched": "2026-09-30T10:13:40.618Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-29T23:22:31.948Z",
-      "last_epoch": 1790710832000,
+      "last_fetched": "2026-09-30T10:13:40.901Z",
+      "last_epoch": 1790760502000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -148,14 +148,21 @@
         "CBMirAFBVV95cUxQZ3RSSnVjalgwY3kzeW9XdkpfN1NfMXBxc01icUxvT0dfQjI0Z0ZNN2RQS2swY2NEZ2hLYldKdzZSWE1jLTdJMzVNRHN1R3hXckFYdUo2TTd2WkJtWUJYSUZhWmNScVRwY1Y4X1BlakR2aEdmZHFsQnZJZVoxVFE4SVZKTkExeVJvYXRWOGlBX3huVlVzVWI3bTV0Y0VjMDh5bng1LVhxZnU4Zm1U",
         "CBMitwFBVV95cUxNWlg2U09TY0ZCdDZXakdBWFJ5eGhqeFRmYURJcXh6U1ZlMGZCUVRXa2hwMjlqSk5IMnR3NTdPTFRuODhGdWlkYTNsVDB5YU90NFUyelBadXZfTkxqRVJCY29sb1JOM1VGaUdBNjI5R3BGbXJDd2lhdk1pekwyNEhqWlZ6VVVHVGlPenlfamJTc1ZZbWlrbmJnTEZZeGtfWHR0RVpqLXVtcHNxakhnZ2hGS0p5eVg1SXM",
         "CBMisAFBVV95cUxOODRPRXZrb0JHdDRjYXMtY2puNnRNUDdNeEx1blp1N01DamdvQ2s4bkVFN0U0eFl2NGxKcnFDNDRvVmVIUHdTUngyMVBwSEhXMlNXLWxJU3ZNdEt3SDladFB3WUpHRkVlakJ5RS1jejlvZy0xWFdIaUVEY1F3UEdUQlNtWmd2Z1AycjdvNFZVdnBNNm1oUjZKNmJBLUhLV1FtQXdQSTVidVA4M29YWGdEcQ",
-        "CBMipgFBVV95cUxNYUR6VlBnMnVqOXRQdHBDUkdEQmVYTEVpOU5LYmx5UThDeGhrUVFqSlR2eDFPc3dTNmVpM2ZJaUhNbTBXWk0tRzhBVjZIZzdPc3JONnQwbWs4cEQ1NDB5R2N6YVg5aGF4M0VhMkhDcS1idjF6Z0dGam1VbXZJc0lRSlVfc3dUYVFHX3owQ1owampmXzZXMDlmc291amIzMW1ubTBUaEFn"
+        "CBMipgFBVV95cUxNYUR6VlBnMnVqOXRQdHBDUkdEQmVYTEVpOU5LYmx5UThDeGhrUVFqSlR2eDFPc3dTNmVpM2ZJaUhNbTBXWk0tRzhBVjZIZzdPc3JONnQwbWs4cEQ1NDB5R2N6YVg5aGF4M0VhMkhDcS1idjF6Z0dGam1VbXZJc0lRSlVfc3dUYVFHX3owQ1owampmXzZXMDlmc291amIzMW1ubTBUaEFn",
+        "CBMi7wFBVV95cUxPNmMwamZXWEN3R2R4TlBOY1Y4Ml92YzRTNUltZmZBdWI2eHNDaHp3ckZFTTlWNl9rR05UUElLMTlpMDI1Qm1hbkhabDc0Mm5UYzZBRTFoTFZYN0ZMZGtHUHdjQThfUWNKemE0X1UtSTFpMXJhUGphRFRSS19aSC1JZUlxdTFieUh6b3l6UTc3MHdVc2ljdnRrSjhKLVc4SDRuYmFHSjFnWjhXakdKUTlkd1ZRMGluT1RnRjFNQW5jdmt4T3AzMlRNQlhXZ2FBa0RJRWZXSGRrVE90N0VEUWVtLUd1TWVPbHFnSWl5LTJfRQ",
+        "CBMitwFBVV95cUxQbkdZcXgwS2NRSHpCZHpiVXJqZGdFaUNzSkh2eTN6YmdKNXhjdWtKd2J2VC10SjliektPTUhDbTFENHFPU2tNcWNGV1MtMTBqclkwRkllTkR0SE9vY1ZoTW4tbWptcHZOQzBKaE9lNlRjeHAyZlZ5WHUtUGxtTXprSXdQdGdaSGVZSXA2Nm9IaGhBNnJ0dkVZOHA3Q255X3JWcXlpVkFOTGdlYWxKLU5oR2FGZmRNLTQ",
+        "CBMi5gFBVV95cUxPdWpad0ltZVhOVkpxNlozX2lob05Mc0F4bXJKaGJnRTgzTHI1aXA3bmY2eDEyX1BNTXFDWDk3MDZNcXEyejhlLXdSQXNjaG1sVjFRa2JaUTNlWGRWZDcxeGlvYURxQkZ2aWFIb3p6V3FaWXpVTXFraUJwT0gyTzc3ZHUwMW1JUkxQYy1IM0FocjVsaVR5NmtlZEpJcldKbWItN201QTg2bTFWRFpOajZiMURWaENMWHVEMDRucUNZc1J3MmdfdmswU0RYZXRUWElwMGo4MGpSWnRpRlVrZHZabWJMSl8zd9IB7AFBVV95cUxNdDlSTFhKQWItenhBUW1VWk04RXJRVzQzR2ljcVJqaHBGWWxkV0ZCNExEWUg3ZGFpcDBZVjkwbDRCVlMyd2xmUFdUbWdvay0wTzdIY210UzVhNFBvdk05cFN5NTJucHpoWER2TzhCTVotWVlhUGhNeXJ4Z3ZSZHZCYXJwa0Q0aTFZSEtFMXNTVFVtM2lpLUxFYnBoc3RwMURnVEJ6VS13a2paQ1JubnB2ZUdsQmZZQThrVFZ6TXJVN1RHa21iNlBmLXh2UGxVR2lRODdncm1HQUJDci1pb1R6WnhmSk5zX3h3LXlKdQ",
+        "CBMilgFBVV95cUxOT0YtUWRUNGw4UXB1VGhzTktPUnFrcTdhd1hBbVEwQXlhYVRfcUZaX3c5S3JXa3Bzd0xEYlRtbDlUeXhaMEZuNEN0OGp6VjhWOFp6VThkM0xFUEZWZ3N5cVFROVBRMnoweG14UUs2UWZfZjlweWY3OE5BcEw0anAzVmhLS0RNQV85Y3JfYjdxZ29GelhWZVE",
+        "CBMickFVX3lxTE9JTWlVODFPcjdkQy1GWk5xY2FZbk50aTZHTmVpdDM0ZHdPR1NFd1hEUEpISVI3UkFCcUR2UE1QNzlkUE51QUZqQTB3TWhybTB2RWpnSTdFWF9OejREY0VqYUhKdjVOakV3LU1YQUZZYlZsdw",
+        "CBMi6AFBVV95cUxNek9HeEI0UldQSkVEMmlQb1cxSkM5NWZFV2FZSERKY3RKOUdvZEZUcWg3MU5adW1Xc2c2dXNsUkpIZXMzTUNxRm9fRkxoZkg2c1FxRy1VeWZZT1FMNzVwOF9wZzBMSVFZckNHbmZrS1hsRlpqd3dSaUpIbTYyYmhsR2JUblZkRnhTaUI0bWtFM29ZYTNMYjZLMjJLTF93d2ZreWRTRkdhZmdrXzF0dFZUZThpSE9XcXpKLU1nOHZTczBndk80cnBYS1U1WkxBeE1obXJ5RGhEZDBnZ2VZakUwQzdLRnVfVTFE0gHwAUFVX3lxTE1ZalppbGV3ejYxQ2ZualNiS05lNzlnMUpVOWJhcU9LLW45VHRnWXh3d08tQnVaajBVeXg2bjhic2JqU0ZNZDlRbmg1R2phTXNvVmhKWDQxMVBSMzFhMWQ1MWF5MEVLWUFudGNwM3NHWFc1N2hLWGtlS3lXSDNlV1YxWkJZbGkyc1g5LVdnUS02X29uaHExT09TNzI5VHMyZUlpN3F6MXpkNHZiVmZRWGc1ZjlpeDlFVHB6UXEzTEVFR2lRRmdTWERwZldFTjF2R0xPdnQyT0xkaU82NjlOSmZQSV9DajFwbkxza29nWkFtZA",
+        "CBMimwFBVV95cUxPYUxXSFdTQ0VyYVVMcHJpZlNlcjNjdV9ZMnpFMmlVQ3lIMVZYTmxlWFlYam1LV2o4bmtscU9YZDQxQkZaNTI2TG1WcEF2UjlJTEpuZElKdG5WdnNhYzMtRGJOU0paN0xMbm1RX0RRWDAtVlE0WmlxaXM4NnNTbGFZMF9GNVd1czBaS0pBeFBaREdFWjkwZXh2UUZmVQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-29T23:22:32.040Z",
-      "last_epoch": 1790713680000,
-      "etag": "\"014f83cf3011927bb3435c320f3ef0d89-gzip\"",
-      "last_modified": "Tue, 29 Sep 2026 23:05:07 GMT",
+      "last_fetched": "2026-09-30T10:13:40.952Z",
+      "last_epoch": 1790731800000,
+      "etag": "\"0d9b59a056daa8c4110fb7328a6755a3d-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 09:47:19 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -163,11 +170,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-electronics-firms-get-rs-19091-crore-pli-incentives-investments-cross-rs-20580-crore/articleshow/134522033.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/holding-companies-nbfcs-rejig-assets-income-to-escape-rbi-scrutiny/articleshow/134525412.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/tata-electronics-triples-equity-investment-as-iphone-chip-plans-expand/articleshow/134549126.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/indias-decisive-decade-7-business-trends-every-ceo-should-watch/articleshow/134573545.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-29T23:22:32.326Z",
+      "last_fetched": "2026-09-30T10:13:40.981Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
