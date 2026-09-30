@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-30T17:14:52.145Z",
-      "last_epoch": 1790757000000,
+      "last_fetched": "2026-09-30T23:22:19.165Z",
+      "last_epoch": 1790786877000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -49,18 +49,19 @@
         "CBMixgFBVV95cUxOYXlIYkwySzhLUDdNS2FtRGsxRkgwME9xaVBBWlIzZV9rX1dqSkZSWlhzNFV3N2U2dGxBNGJDbzRtVEp1Y0lTYXZwQzhiQWd5ZDJwNUx6QS1qTml3dDhTbmp1MUZEeGFqNFRxVGEwS0hZRzdQZjF5bGdhdjZBWFFIQ1NIV0hyOUpsNWVRNEt3ZUtTZzFWdTNUUmRVVTNjOXZ3WWd1Y1d5c0FBR2dyTFdTSDUzWnR4NGZibG1Qd2VZcW9VRnlzU3c",
         "CBMiowFBVV95cUxOQTlPZFNsMEhFWDV3ZE1xZTBmSVBKVVltV3NYM1dGdUY4YzFScDJJejFHeGU4SDgzTk9FM29ydXFQQjlxS1pmTU5QWGJnTTE3b3Rkdjl1ZmdkYXE5Z0JUcnNDWnl5aVBsZDBDcW52aDI2RVhqYzlscTkyQnhpcl9uU2oyZ0I5aHk2cnpDYlNraGg1Umg3c2xaX3MxNWI1Mk52Y0tn",
         "CBMixwFBVV95cUxOUmhvTlVUSFRkUHFaVWNzQkI1cXNuM3V0eV9sblctZk5SdVhCNG9OaVExWFowb3pNNnVjY3lvLU40eXd1OGRoRkY4YVhucGZNVmVNX3F3RVA4UWNOVENpQ09wczFMa2cwNUVKN3Z1SlF3SmtuMnE2QUMtRGpUdFp0NWt5VGZvaFYxSTczUG43S2poY2lQaWZkazB3enBLalo3b0E5SVprYk9LNC1QTzczVmNSV0lmRzl5dTNYM2JlVEVCVkdmazd30gHMAUFVX3lxTE1ocVpVTVV5UncxUm5VcnkxczBDWjJzajZNYWMyQVNKN19MODJFenZCQXFYSmdZOXhrbk1VUXBFVVdUTjNTYkRkUTVIU2lNTTdxQjRZUUtWQ0hyUTFtOXVLWlJQQWlQV29GS0s3U05hWmJQMDF2OTBJWGg2ZzRqRGphdGV1TGtDc0Noako3Z09UOXk0V2FvN1R0U0g1TEQxd2RMZ2lCZmZxMXdmVjBGdzQzS0x5M29vUUxvOGVqbWgzd3ZqaWJrMFV4dFQwLQ",
-        "CBMikwFBVV95cUxONVk3OU9rZ19vYzgtdlVXa1MzOFNYbWg2azRSNW1uSldkQkdoUldWai05dEVlYmo3Wk1ENXl6YVlLcDdiYXBjaC1vOE5DU0hEcF80dVh0S2Jua2t3bERjUXpTQVhRa3RtVEpqVG9uWV9Ka1U1cHhHd2pVTl94bW0xNHA0N3Rfem9veFpGcnYtN2VHaTTSAZMBQVVfeXFMTjVZNzlPa2dfb2M4LXZVV2tTMzhTWG1oNms0UjVtbkpXZEJHaFJXVmotOXRFZWJqN1pNRDV5emFZS3A3YmFwY2gtbzhOQ1NIRHBfNHVYdEtibmtrd2xEY1F6U0FYUWt0bVRKalRvbllfSmtVNXB4R3dqVU5feG1tMTRwNDd0X3pvb3haRnJ2LTdlR2k0"
+        "CBMikwFBVV95cUxONVk3OU9rZ19vYzgtdlVXa1MzOFNYbWg2azRSNW1uSldkQkdoUldWai05dEVlYmo3Wk1ENXl6YVlLcDdiYXBjaC1vOE5DU0hEcF80dVh0S2Jua2t3bERjUXpTQVhRa3RtVEpqVG9uWV9Ka1U1cHhHd2pVTl94bW0xNHA0N3Rfem9veFpGcnYtN2VHaTTSAZMBQVVfeXFMTjVZNzlPa2dfb2M4LXZVV2tTMzhTWG1oNms0UjVtbkpXZEJHaFJXVmotOXRFZWJqN1pNRDV5emFZS3A3YmFwY2gtbzhOQ1NIRHBfNHVYdEtibmtrd2xEY1F6U0FYUWt0bVRKalRvbllfSmtVNXB4R3dqVU5feG1tMTRwNDd0X3pvb3haRnJ2LTdlR2k0",
+        "CBMi2wFBVV95cUxOb0lMVVNZT3FPajNJczdkeV9sN25WdkJJNXF0TVNUU2lCTTVFSEpGZWVTY0NETWx2b1NYMnpBVmZWc0hqN3JGdXZQbkFma0UyYXI2OHFvQUhFRnd5enRrSXdQNE9PRktmcEdWczlZeHI3YmMxdU5LSm9kY2FuZFZCRl9vQy0teXVUd3lIcGNkc1RQTlhtYklMWklHOUZ0MGxLVURTRndRQmxNZFJzNExlMUs3QWlTSVN2SzZiaEdFbmZsNmhRYnhyNS1MZ3FSZkw3R0N5YzdVOHhxYWM"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-30T17:15:25.940Z",
+      "last_fetched": "2026-09-30T23:22:22.227Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-30T17:15:27.055Z",
+      "last_fetched": "2026-09-30T23:22:23.435Z",
       "last_epoch": 1790775821000,
       "etag": null,
       "last_modified": null,
@@ -354,10 +355,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-30T17:15:27.107Z",
-      "last_epoch": 1790784706000,
-      "etag": "\"07bd4aba9c5c0f1a5b479239b583a02d1-gzip\"",
-      "last_modified": "Wed, 30 Sep 2026 17:00:14 GMT",
+      "last_fetched": "2026-09-30T23:22:23.461Z",
+      "last_epoch": 1790796129000,
+      "etag": "\"096fc4d595798108e7431c15cc4068dad-gzip\"",
+      "last_modified": "Wed, 30 Sep 2026 23:09:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -546,18 +547,20 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/75-day-traffic-power-block-from-october-1-8-mumbai-bound-trains-to-be-short-terminated-as-csmt-redevelopment-resumes/articleshow/134582131.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/indias-decisive-decade-7-business-trends-every-ceo-should-watch/articleshow/134573545.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indias-domestic-air-traffic-falls-7-5-in-august-worst-among-major-markets/articleshow/134598554.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/govt-extends-import-price-curbs-on-two-pharma-raw-materials/articleshow/134597668.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/govt-extends-import-price-curbs-on-two-pharma-raw-materials/articleshow/134597668.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/naveen-jindal-weighs-bid-for-eu-firm-celsa/articleshow/134601730.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/hdfc-capital-shalimar-create-rs-750-crore-platform-for-up-real-estate/articleshow/134601749.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-30T17:15:27.234Z",
+      "last_fetched": "2026-09-30T23:22:23.522Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-09-29T23:20:42.109Z",
+      "last_fetched": "2026-09-30T23:22:23.561Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
