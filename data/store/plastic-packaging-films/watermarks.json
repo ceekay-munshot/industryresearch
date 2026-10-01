@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-01T10:40:15.286Z",
+      "last_fetched": "2026-10-01T17:46:19.318Z",
       "last_epoch": 1790707262000,
       "etag": null,
       "last_modified": null,
@@ -11,15 +11,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-01T10:40:26.441Z",
+      "last_fetched": "2026-10-01T17:46:53.761Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-01T10:40:27.793Z",
-      "last_epoch": 1790825700000,
+      "last_fetched": "2026-10-01T17:46:55.071Z",
+      "last_epoch": 1790867283000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -145,20 +145,25 @@
         "CBMirwFBVV95cUxOanVhQ2ZGVjBmUE9mc2Y3YnB5YXZQaFd1M1IxQ09VVXctQk5CbW1FdGZhU1d5LUtBSVJDajZJQkk2a0lUM1hyMnIxYjJiTjJKOHhkZWxWekpDYVVYalRPVmg5RUQtSWZHZGFQXzJhemVWaWk2QVhtMWw5aVFOMDFHczV0RkdGVE5oVUh3VDd0ZERFeTJVdGt5ZlRud0M3dmFnSTFOZzFDOHhlbTZaeUJz",
         "CBMizAFBVV95cUxNSmkxZl9XNUFGenJGbmhOeVRwRTB4UXFrakF1ODZfTDJ5amp0WXRnUXhaR055SmRTX29wQUdqa3pJQXVJamMyTWNSbVpUTVJDT0dldl94ZVNHeS1MMDlhUEtLMktLaDRwVzFHVkliTFRiV1FtZ1lwbGtkb0pWRmFsc3FQdEpudFZPYktkSmZWWU1FdkRGcW5TZkdDSlNuYnRaVWNIc2pZRmlSVEJ5YklJT1dnTWliWmJRQ0tkWlVDX01KVUpqUlN4LVk1TmE",
         "CBMiuAFBVV95cUxOeGF5NWh2WVlYS3JjTlg3SFpGWWtBSUFjWE4td0I2cmM2M1NoZmJ5UWoxc3VaNVRPcklnem5TclI2WTQtdng0ZjlpcXhlUkFCUTJmc0phM1RSOUxyXy03ZVNSTTBQbktvbFVjdk4wV2xNLXBBT2I3WEVCV1VGdG9ocC15WTFSeHJHSlQ1UzhObFk5Z050dF9xVGJtVmNtN3VBT1lHcFdKeVg0bFpzbGQ0THA4S2ZWLXJw",
-        "CBMingFBVV95cUxOYkVVSXhVM2tkVFFyTXlZb1BSV3FyUjlRNE84aGFZWHRubXJOQ09BdVllT2ZLQ1ctMDlRNzJONXE0S1NLVERWR2VXRGlkTDN5WGQzMkNyN0tJNXpsLUJhQk5SSzFRRmpRa2FyX3JsYUdJRkpWcHB4U1N4NkFKblJjbmZmMlVGZHl3c0wzNUxhdk9tQk5mbzZxUUtvNWhmUQ"
+        "CBMingFBVV95cUxOYkVVSXhVM2tkVFFyTXlZb1BSV3FyUjlRNE84aGFZWHRubXJOQ09BdVllT2ZLQ1ctMDlRNzJONXE0S1NLVERWR2VXRGlkTDN5WGQzMkNyN0tJNXpsLUJhQk5SSzFRRmpRa2FyX3JsYUdJRkpWcHB4U1N4NkFKblJjbmZmMlVGZHl3c0wzNUxhdk9tQk5mbzZxUUtvNWhmUQ",
+        "CBMivAFBVV95cUxPR0padGt6cHltRDFjX0d5Z1ZhTjNIRlk1ekFfVVZlNVpHR3ZZeHpsVmdrQjlPZE5adGVUN3Ffbjc0MWV0ZHVjSzVNODBDdjFfSUMzNTIyLU9iVUZIdHhWV0piZHZPaFBwVFF3dnVQOWJvV2VaNEtySTByaGZISzdyVDQxNzV3Rm1fWHNNUzB0Nk0xV2wta0pjZGN1VHRNRDM1RU5Idmx6ek52RGZ3OERheHBNTVExRUVLQ1UtMg",
+        "CBMitwFBVV95cUxOTGowbzRkUU1Pc0pScFkxZzhsRng4NE5teEhIc3dqME9sdzg2M1hheW91VWd5X3JXRFNFNGQwcVBESldNZy1NaFZpRDBObnJ5QlZoRDNCSE53b254T2lCaHZaTndjT0pKYkU1bmU5VDJLOTg4R2gyYXJwSWRvTkZ3ZTlpYUMzM1NkMUFuaXFISEcxNTFXcHBtNzRxWElQOUhNQWtRWG5Tc2UyVHAtU2JENGJ2VzNpQWM",
+        "CBMiuwFBVV95cUxNSjlzbEUzMFJkQVV4ZWVHN19wMmp6dDR5czdEaHFKMkZGTWZlVncxb04xNUtfckJrc3VRekMtVWlnNGxRZGxzczJGV213RW42UjgtSXlLTnZFeVktRlV2LU44c2Zlek9SUjEzVVcyY0dpc3BnMlJkVjB2QU1DeDZraktRLWlfYXNfRW02NU1pMnByZnJSemRISFNINmMzSWxfVkxHekJZczNraHdWMHFsSy1lWm5ZMjBBb09V",
+        "CBMiwwFBVV95cUxNZmhDTTVXNzVSd0dfUFhEczZwblMwVUZMN3E2WkZ3VzFpckdReDdQVl9MVWFwak1IZ1l5bDVIMGdLUkcxTkJuZGRGZmxCUHBHeklOT1piQkxscHFWRGJ1UUJoRzUtNTI4czZhSjl6WEJxUDUxazNBOVNUd2lyc3lmTGE1VEFCZUNTN3dEdVdnTXdCNVRwTG9ORHRHNVhCTnJTNEVIbFhqbmstcVR4VVk3enZybWVkanhaM1doU2UzSXZ4UUU",
+        "CBMiVEFVX3lxTE82SnNEaFhJc0hKNVl2d0lzRWhCa19rYmY4SGxyR1FIR00yTnVicU5LT2tOSHpOd3lITFhiMnB3Z1lrcFI0b191RlZjSFVfanhJeWtMSQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-01T10:40:27.847Z",
+      "last_fetched": "2026-10-01T17:46:55.119Z",
       "last_epoch": 1790713680000,
-      "etag": "\"0cda502c1ac5feacea49eabdff3a36a7f-gzip\"",
-      "last_modified": "Thu, 01 Oct 2026 10:23:47 GMT",
+      "etag": "\"0c0404374cd526f74f296785984fc4b48-gzip\"",
+      "last_modified": "Thu, 01 Oct 2026 17:20:42 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-01T10:40:27.907Z",
+      "last_fetched": "2026-10-01T17:46:55.159Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

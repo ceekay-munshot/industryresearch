@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-01T10:36:30.679Z",
+      "last_fetched": "2026-10-01T17:42:40.207Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-01T10:37:03.600Z",
+      "last_fetched": "2026-10-01T17:43:13.070Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-01T10:37:05.013Z",
-      "last_epoch": 1790775546000,
+      "last_fetched": "2026-10-01T17:43:14.432Z",
+      "last_epoch": 1790865857000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMibEFVX3lxTE9ETjNTOEFacHpneU1FLTZraGM5aWxwWl92MWF0Zm85YXdYbzZSTllZVmtkRXVaa281ZU5vSlZtTHZjRzRtVGN1SnNFWF9BN1FHSXlrWW15ZFBIY3p2em16Ul83YTNOMUE3MVlsZQ",
-        "CBMizAFBVV95cUxNQmV5c1hfZ2VzUmxEcWJZaGwxNnRWVzRWTEZKa09EdlZJNE9iOUpnUjlyc1dmNlBaNVl6Y214R1c3RmlCRWxHamtHbkZQbGpucWlHWTl5bGU0RE93WjVZS1R1UDBSV21XdkdIcVdEby1IYU9JUy1DQ1pKU1RDN24zSVJMTzd3TE8zSHFWcmlxQkhfYlR0NTZuYlEzZkpLMTJZNXkwLTdZRldSLXZQRjQ3SDJfQVNZWGNReUo3a2F1T1FlOGIzeDBVblF1NnbSAcwBQVVfeXFMTUJleXNYX2dlc1JsRHFiWWhsMTZ0Vlc0VkxGSmtPRHZWSTRPYjlKZ1I5cnNXZjZQWjVZemNteEdXN0ZpQkVsR2prR25GUGxqbnFpR1k5eWxlNERPd1o1WUtUdVAwUldtV3ZHSHFXRG8tSGFPSVMtQ0NaSlNUQzduM0lSTE83d0xPM0hxVnJpcUJIX2JUdDU2bmJRM2ZKSzEyWTV5MC03WUZXUi12UEY0N0gyX0FTWVhjUXlKN2thdU9RZThiM3gwVW5RdTZ2",
-        "CBMibEFVX3lxTE1XcWRKczgtWDBSdWxtanBhRlozNmQ5QWpPSXFaRVd2cVpsQmx2OWxzRXpFT19fN2JDQmZOeHBiSXVMR3BXTjJVQWxnUU80cW03UTdaOVl4Q3A2M0I1bDRianlXZ1MxeHBlNF95Mw",
         "CBMiwgFBVV95cUxOVERJNFhnY0pwSHpMT0pQczhjTkF0czRXMWhTYklfLUFJWUwxM1lXbm9jRTc0YnY3d2N5R09zMTBpOGZ2N2F4OThJV3JmWXU3T2U0TUJpczJud2RvS2xwQXE2dzNwWEtGN3lrOVFoZ2pmSFllcUU1UkhBM2JrWm9JaFVLMktIZWpHNENaSzhyMW1QREJhQXpRQld6c2xGOWs1NjV5R1RzcTdPMkxKY2pxelZVZWlXSHFpLUFyTFNPQjRjUQ",
         "CBMivwFBVV95cUxNNnBENXNheXRwNkpucjJHNnRVNnBZMEw3MVE2c1Y4aGlWdjQ2dWJYdnVRWTVaMHF6SEFoekY5Wl9qWHdWZzdRM1Roc255QWdJa3h6Z00zcXFxMHJ6QlBoMDM0ZHQ3Uy1nSDhVbmkzN3Q3VGt5MWZOUmpOVmFpTzMtNW5zV2hxS1M1cDZJV19XUHBORUVzLXQzbkFGOWxvSzV0RDBhUDRfS3p1bmhxb1JMSU5Xc0UwT2JDLXFTeHE2TQ",
         "CBMiwgFBVV95cUxPRnR0ZHlGX0JjUEVrQ19pU0FmSkpFZU5vTDRQcDRBeXpIZU5pTm42M1NXcXo2MFhzUWptNmhFVHNmbGpqNnU1Y09oUGJ3VUJFaW00Q2JFeFB2VkE5MG5IeXpkTmxyRThId2Fmd29SdFVQa2dmdEU1aHF6MzhDYTRocmlGeERiUUs4S1g0dnFRSm5ycU9OcndYRGNmc1EwMnZCQ0R3NWxFZkFTTjJlanFZTS1COFNMWjF1d0ZrYVNOV1ZXdw",
@@ -319,19 +316,18 @@
         "CBMiXEFVX3lxTFA0SFg1cUYzVVBWT19FYVBESDBQTkc1UmdzZkhjeDlFUkRZV0ZRYWpHc2hsQ20xdzhyZjBFY0pxRHZJckN2ckxJMUxfZ1JPdHR4R1l0TFJ6N1I3SHhm",
         "CBMivAFBVV95cUxPb1piWkdQaGdrWDNTYmRRQ2dkXzV6NW1jODJCakRhRFJKUkNtZVpjb2JaRmUyZHZvMHMtMEpJMnozUGtRaE5qazZxb1dyMUtrOVJjTW5LRURtMnVTTk5vZmZJOGV6MUVEbmQzaGotMTkyTWtEemluamtxb3VsbEtUQWgtUEVUdExBWmFfYjV6VHd5YWZqcHFhZlZsT3dDbHJSZFpMZU04SWwteFZtT0l0cjJtekZMNFZ1WGpBUA",
         "CBMi9gFBVV95cUxNbHo3X3ZCb1FxZS1JUzc1WUhSdWY0YWlwOFpiUmlRSUQ5eE9HdkxCVWtYdHo0am5VbkdhWWEzX3p5TlpiSUEwNVRJVk5abkh2R3QxZE1QY2J5YThBUWNNc1AySTJuMGNLSWw5cmNaeWNTdmFNT1BpdXlvb2FGMHVyX3ktWFdwYllnY1F5Uk5ranVCTDZKRDZ0Y1BTRl84WDNKdTZ6d1Nybm9URENDMGxrOGd2Z3JpdXZrcHg0YlQtZ3JULXBaREVkUGVzaXNiNUppUzIxc1FZM0Fxa29laUdyWlhHRzM5YV9Sc1FjQ0ZzM1pVRWpPYlHSAfYBQVVfeXFMTWx6N192Qm9RcWUtSVM3NVlIUnVmNGFpcDhaYlJpUUlEOXhPR3ZMQlVrWHR6NGpuVW5HYVlhM196eU5aYklBMDVUSVZOWm5Idkd0MWRNUGNieWE4QVFjTXNQMkkybjBjS0lsOXJjWnljU3ZhTU9QaXV5b29hRjB1cl95LVhXcGJZZ2NReVJOa2p1Qkw2SkQ2dGNQU0ZfOFgzSnU2endTcm5vVERDQzBsazhndmdyaXV2a3B4NGJULWdyVC1wWkRFZFBlc2lzYjVKaVMyMXNRWTNBcWtvZWlHclpYR0czOWFfUnNRY0NGczNaVUVqT2JR",
-        "CBMitgFBVV95cUxOSVVTQU5XdXNHUnpfQ045SDZnb0hCNTBuN0M5SDhQSDZ1U01lUWEyN2NmQ01QYXd0MTBvT2lCZUcxZGh1amdRcllVRFVuSkJIc1NLRTBXS2J5MGkzWnBNMk90R3VNX0I3clFVV004WlVrSk5vVEZVdjdob1R0ZDgwVXJ6MEs0RXZYd2s5UlNRRnZpZG5KS0JkbF9qV3BQLVZJUlNXQ29fdWdGb05BY0Fva3NDQ3hmZ9IBuwFBVV95cUxOenVaUElVTFBuMkx6SDRpT0N5UU1HdFVGUFV2Z3JjLWdBTTF0Q3VYZUg4c3JKZTNUWFFFak5kNTlBTXk1NDdEMEFGbktDdWpFa1lxeWpsWm9JcG5UU0xpNHNJUGFZSEp3dU4wSjk0cmhXdGVmdGszUkJjMHNIRFpmam5NRXloMGlaUXNrS245dThhdkREbHl2MVpBVHZjdmFNbGRUbm5qV2MyQ0Fab3hJaTZXc0dURmdVZ3Ew"
+        "CBMitgFBVV95cUxOSVVTQU5XdXNHUnpfQ045SDZnb0hCNTBuN0M5SDhQSDZ1U01lUWEyN2NmQ01QYXd0MTBvT2lCZUcxZGh1amdRcllVRFVuSkJIc1NLRTBXS2J5MGkzWnBNMk90R3VNX0I3clFVV004WlVrSk5vVEZVdjdob1R0ZDgwVXJ6MEs0RXZYd2s5UlNRRnZpZG5KS0JkbF9qV3BQLVZJUlNXQ29fdWdGb05BY0Fva3NDQ3hmZ9IBuwFBVV95cUxOenVaUElVTFBuMkx6SDRpT0N5UU1HdFVGUFV2Z3JjLWdBTTF0Q3VYZUg4c3JKZTNUWFFFak5kNTlBTXk1NDdEMEFGbktDdWpFa1lxeWpsWm9JcG5UU0xpNHNJUGFZSEp3dU4wSjk0cmhXdGVmdGszUkJjMHNIRFpmam5NRXloMGlaUXNrS245dThhdkREbHl2MVpBVHZjdmFNbGRUbm5qV2MyQ0Fab3hJaTZXc0dURmdVZ3Ew",
+        "CBMiiAFBVV95cUxQT2FuZThRcmw5RkN4N2t5T3pxeGFFVVBrSThIU3R6QmZRdmYwbWlTVGNHT0hlMTRoS1JXS05QbGlaS3R2TWpfczJQMkhXUkVoNnFiT3UyUjNCYkQ3RHdWMTNJaXJNbS1uVU9kTDY0NG1fdTFqMUk0NW1KZFNKQlhXQ0NrcmcwMndT",
+        "CBMivAFBVV95cUxNeDFPX1I5OVlIaHVGX091eWJ4b1A1ZGR4UzUyUHZPSVF2OFZNU19veEtObFBuT1ZtVHk0OXYzakZfbWVPQmtyUlNYbF9hM1JSR3F1S0ZrSGFpZ2QwQ2RsNHM4XzNSTHpwTVcxM3FwZmR0WXpqQWVLM3BfWmhnOWtXeW9mZmkxRHM1QkI5N2lzam0tNE5jTnRUTnF2a08zeGZPc2xjMy01aVd4Q3d5YTh4SWFlczhKb3VNQWxYag",
+        "CBMixgFBVV95cUxNeWJuQWlvejY1TXVRSUFCWXl2Y1VtUGhYZ2JUaUNLYjA2ckJoTzdCaVB4NGFmZ2RfRmZZSFp5RWdTcDdJaVdpNHdCYjZiSFVVRUItbVlIVkJfLVA0OUxra0pjXzh4dVZHaThfZGRTWEw4OXA2ZmhoRlQyTWZPemU5NDVVMUNiMnBVaXI3dHNHeGpkXzhsSXdvbV85b19WUWc0YmU0WXdOakNkWkFITFhSc2I1bmtyZ3kxNGhVZ0lVQ3JTRTVnSmc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-01T10:37:05.174Z",
-      "last_epoch": 1790846371000,
-      "etag": "\"0cda502c1ac5feacea49eabdff3a36a7f-gzip\"",
-      "last_modified": "Thu, 01 Oct 2026 10:23:47 GMT",
+      "last_fetched": "2026-10-01T17:43:14.561Z",
+      "last_epoch": 1790867383000,
+      "etag": "\"0c0404374cd526f74f296785984fc4b48-gzip\"",
+      "last_modified": "Thu, 01 Oct 2026 17:20:42 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/hdfc-bank-ceo-sashidhar-jagdishan-to-retire-in-october-will-not-seek-reappointment/articleshow/133612014.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/foreign-bfsi-firms-setting-up-more-gccs-rent-highest-7-32-million-sq-ft-office-space-in-h1-knight-frank/articleshow/133611351.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/three-south-indian-medtech-startups-win-healthsprint-2026/articleshow/133610275.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/gst-councils-57th-meeting-to-be-held-on-september-12-officers-meeting-on-september-11/articleshow/133609785.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/jharkhand-on-high-alert-over-swine-flu-health-minister-directs-hospitals-to-reserve-beds-ramp-up-surveillance/articleshow/133626123.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/amrutanjan-health-plans-to-set-up-1-lakh-direct-chemist-outlets-in-fy27/articleshow/133623517.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/is-longevity-the-new-flex-why-the-new-wellness-status-game-is-all-about-health-data/articleshow/133622565.cms",
@@ -627,11 +623,15 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/telcos-consumer-groups-clash-over-trais-5g-slicing-coverage-map-and-service-quality-rules/articleshow/134601188.cms",
         "https://economictimes.indiatimes.com/industry/services/education/how-25-students-of-gurgaon-based-college-raised-rs-60-crore-funding-in-deep-tech-and-space-ventures-in-a-day/articleshow/134599531.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/the-future-of-payments-will-be-shaped-not-just-by-what-technology-can-do-but-by-how-confidently-people-can-use-it-/videoshow/134614209.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/spicejet-hails-captain-smit-machchhars-heroism-wishes-swift-recovery-after-flydubai-flight-incident/articleshow/134611601.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/spicejet-hails-captain-smit-machchhars-heroism-wishes-swift-recovery-after-flydubai-flight-incident/articleshow/134611601.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-monster-challenge-india-energy-drink-label-ban-citing-business-impact/articleshow/134622448.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/insure/acko-launches-three-products-across-motor-health-and-travel/articleshow/134620933.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/icici-bank-recieves-rs-229-crore-gst-demand-over-minimum-balance-services/articleshow/134617764.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/bengaluru-gets-direct-vande-bharat-connectivity-to-goa-via-mangaluru-udupi-karwar/articleshow/134616663.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-01T10:37:05.595Z",
+      "last_fetched": "2026-10-01T17:43:15.006Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
