@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-09-30T23:18:37.284Z",
+      "last_fetched": "2026-10-01T10:32:12.005Z",
       "last_epoch": 1790250749000,
       "etag": null,
       "last_modified": null,
@@ -22,15 +22,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-09-30T23:19:14.882Z",
+      "last_fetched": "2026-10-01T10:32:46.234Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-09-30T23:19:15.967Z",
-      "last_epoch": 1790788240000,
+      "last_fetched": "2026-10-01T10:32:47.460Z",
+      "last_epoch": 1790845802000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -312,21 +312,23 @@
         "CBMiyAFBVV95cUxNYTZ3MHNlcFpfcnJadWozV0NHSDVmM1BYRHhYQzgxMF9FdUhrMnE0T05YNU5ZTVNSb3dGU1JRNEJQMm05YW1kS25qamhab1NnX2NmTXFwVmdDVEhfamMtenFMaGZhdFo0a2xnMVlsVVp4OXR4dWxFQ3F4Z1l3U2tLeUpEeWQxeGtUMHJjODA3RlFLTVRnR1cteTJKS1lxYWdRVFZkbTRuSTFrQzdEb25CSWJTZGV4R2dqRERFNEM0cFkxT0dJemV3ONIByAFBVV95cUxNYTZ3MHNlcFpfcnJadWozV0NHSDVmM1BYRHhYQzgxMF9FdUhrMnE0T05YNU5ZTVNSb3dGU1JRNEJQMm05YW1kS25qamhab1NnX2NmTXFwVmdDVEhfamMtenFMaGZhdFo0a2xnMVlsVVp4OXR4dWxFQ3F4Z1l3U2tLeUpEeWQxeGtUMHJjODA3RlFLTVRnR1cteTJKS1lxYWdRVFZkbTRuSTFrQzdEb25CSWJTZGV4R2dqRERFNEM0cFkxT0dJemV3OA",
         "CBMie0FVX3lxTE1FUUNHN01pSDc3ek1admJTcmoxRk1rSTgyaVU5VkhUaU1GUU1BNWFpNkgzTzQ3TlNmcnJCcTRyNml5MlBHZEJIY3NOT0k1bVJnYUtSU2RiZXVHNkx5R0tORVp2ZFVxZjJpMFhNaDBUclFhOHRKWmZWWGtSaw",
         "CBMivAFBVV95cUxONjlYci0wbWFPVkVaOGl6NlhCWl9EY2NhUmVNV3NPa0Y3TFVXLVhmNkJpYmw5RmN4eUNuRldyLTR1WU5ZR2dBRFdXX1ZVbUJJM05NT0FkV25fdVVxdUJ4S29XR2VHSW5rdWI2ZHBLeU50ZlBZRU1zYWVjLU5saWlTejBtbXBvRjhuWWU4eXVub1BYeWRyVVhJVXhOMjJIVXdFV1NmSUw3ZHBKN3ZleDdQVFFqZjJuMDBtM0NmdQ",
-        "CBMigAJBVV95cUxNMHJldTF1eUs3M3g3d3diY3dsczV1QnhscUhZZzVUcWdXdEswWE1LNV9zS2FCV3BHcDNLSF9uNXJsNkloNHlsUzB4aFJJN0YyRXRuaUJEZVdtWkNXbzQxaXN6M282aDVOamt0MTNDLVZYRTVCTXViVk1BQkpFX01NU2VlUVJmSW1saHVxZjVpckNqSEZhdWJZRlRRVno5VGo1WEZFcWVYZmpWZVl0RmNHVTN6U1VFdzhHRHVEMGd5QjdUWjFDSjJDNk5uTzh5NTF3NHZOendSSWI5Zk5iX2JZNW5jbjM3WFc4VVFXTWlQTmY0aS1FNlRTZ05URlN6MGRN0gGGAkFVX3lxTFBtdTNMOFNVQ3FfOFh5dkZVNlAzNlM5V09pY19Va1ZWcWFUSURCNEcwTkI3MDk2a3NsZDlQM0FVZ0hnRnEzY0FITnZhdUtPSlpSU05DRThaRkltYjRlZ3ZkMGVhSTdDczB2Q196eUFIWER3dThsT3hrQ0tia1V2dzY1ZHVoam5jaHVkVkxhVnlMdzBRVFhUMnYybnA1cDFVcUY3V2VzTFhJXzJkRmk4ajlQWlhxaFJVZ3FaQm5oR255aS1UTkRLM0t2Wmd0bWxCUGhfT1NrcHo3WE1VZUdsRmNWU0cxMkdNZlNlRkpPbHhuU1RraHRyck83ZzRTN2traW5kUmtmUHc"
+        "CBMigAJBVV95cUxNMHJldTF1eUs3M3g3d3diY3dsczV1QnhscUhZZzVUcWdXdEswWE1LNV9zS2FCV3BHcDNLSF9uNXJsNkloNHlsUzB4aFJJN0YyRXRuaUJEZVdtWkNXbzQxaXN6M282aDVOamt0MTNDLVZYRTVCTXViVk1BQkpFX01NU2VlUVJmSW1saHVxZjVpckNqSEZhdWJZRlRRVno5VGo1WEZFcWVYZmpWZVl0RmNHVTN6U1VFdzhHRHVEMGd5QjdUWjFDSjJDNk5uTzh5NTF3NHZOendSSWI5Zk5iX2JZNW5jbjM3WFc4VVFXTWlQTmY0aS1FNlRTZ05URlN6MGRN0gGGAkFVX3lxTFBtdTNMOFNVQ3FfOFh5dkZVNlAzNlM5V09pY19Va1ZWcWFUSURCNEcwTkI3MDk2a3NsZDlQM0FVZ0hnRnEzY0FITnZhdUtPSlpSU05DRThaRkltYjRlZ3ZkMGVhSTdDczB2Q196eUFIWER3dThsT3hrQ0tia1V2dzY1ZHVoam5jaHVkVkxhVnlMdzBRVFhUMnYybnA1cDFVcUY3V2VzTFhJXzJkRmk4ajlQWlhxaFJVZ3FaQm5oR255aS1UTkRLM0t2Wmd0bWxCUGhfT1NrcHo3WE1VZUdsRmNWU0cxMkdNZlNlRkpPbHhuU1RraHRyck83ZzRTN2traW5kUmtmUHc",
+        "CBMiswFBVV95cUxPQlZ3UVozTnEwYnhLNDRhekM0X1pMVjE1eDVlTVdBYjNNVW9IT3Nvb0gxaDdlcEpZWUdwaXZZME5idzE1S1pEd1RwdFNEMHBMUkIwWnF0VFUzbDEtWWlRd29nNEJVeTZaeWIwaUZ6eDV5WHBvZzJLQ0MzTUpsS0YtTlc5OU04c19wWGNKUTNfZU1EMXRXc1NPbml0UDhZNmRvUUJZMWRyRmVYUFpGSzRWQTFlZw",
+        "CBMilwFBVV95cUxPYUpoRmlaVUpRLVVxU19zenVKellpTHhiNFotTWpzM2lIdjh0RVdxanNtMGNST0JrbnN5cEFJWnY5bWpmTWVuMnQ3S1Q1aHh4RVRYSXl1NG9oRzZldVc1Y3g1Q01QSE5idGhaYWltc0ZkNk5TclB2d2F5YTVJMk9hNFdZV3VibjhYQW9TTW9oaW5BTDBGMHNV"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-09-30T23:19:16.391Z",
+      "last_fetched": "2026-10-01T10:32:47.602Z",
       "last_epoch": 1790535394000,
-      "etag": "\"096fc4d595798108e7431c15cc4068dad-gzip\"",
-      "last_modified": "Wed, 30 Sep 2026 23:09:08 GMT",
+      "etag": "\"0cda502c1ac5feacea49eabdff3a36a7f-gzip\"",
+      "last_modified": "Thu, 01 Oct 2026 10:23:47 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-sector-revenue-to-grow-11-13-pc-in-fy27-on-strong-exports-domestic-demand-crisil/articleshow/134460174.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/holding-companies-nbfcs-rejig-assets-income-to-escape-rbi-scrutiny/articleshow/134525412.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-09-30T23:19:17.316Z",
+      "last_fetched": "2026-10-01T10:32:47.739Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
