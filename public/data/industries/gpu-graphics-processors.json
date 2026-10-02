@@ -62,8 +62,8 @@
           "as_of": "2026-01-01"
         },
         "news": {
-          "sources": 2,
-          "confidence": 0.84,
+          "sources": 1,
+          "confidence": 0.6,
           "as_of": "2026-10-02"
         }
       }
@@ -1295,6 +1295,41 @@
     ],
     "news": [
       {
+        "title": "AAO 2026 Preview: Emerging Therapies for Wet AMD - Medscape",
+        "publisher": "Medscape",
+        "date": "Fri, 02 Oct 2026 16:56:46 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNHF6NlFkX1ZyT3Y5Um94ek5UZWRTS19xTThpbVRoMFY3Q1JEbk5Zd0ZLbEcyYVdpOGJtU19zc3FpcnN0bU1xTEtzTnJpRzZCb1hFbkhKd0xkYW5pN2gxclROYVQzQ1FJYXIwVzRVcmtKdFB4bXpNUDZGdHRzZlZFdmhjMkhpQ2tXVVpaZi02Wmc?oc=5",
+        "snippet": "AAO 2026 Preview: Emerging Therapies for Wet AMD &nbsp;&nbsp; Medscape"
+      },
+      {
+        "title": "Amazon Web Services ends data center NDAs - WNDU",
+        "publisher": "WNDU",
+        "date": "Fri, 02 Oct 2026 22:16:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZnFjcl9VZmF3akQzR3pDbEVLV3hXa1RvRmNKaVFuZXA3dEtvWGJLWlNUQ25XWkxGaXI3Y29PUlRudmk0TEtacHNkRlFkUEpPRGNGZGdPVFV3b2NEWDZpd2VKWnR1MVZ1b2VZTTJVRjBkb2dGdW9KQjVRNDJ1dFYtVVNDMTB6NFE?oc=5",
+        "snippet": "Amazon Web Services ends data center NDAs &nbsp;&nbsp; WNDU"
+      },
+      {
+        "title": "Amazon Is Making Concessions to Data Center Critics—and Warning Them Not to Get in the Way - Gizmodo",
+        "publisher": "Gizmodo",
+        "date": "Fri, 02 Oct 2026 16:40:13 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON2xkd0hKc3ppYXpNZ29mb3RuSVN0VDhxYktPajZ6VGk2VWM3NWRfaVY5dmhtaF9YU1E4a1FFX3hibDJ0NS1YNTdYOHFVMVVsMElxWWtaZC1IOXRtNmduTjVKLXBTVWdoTFM4NnVhNlk4WDVFRW5rMTRSWDJOR21oYVpOMkhodTFqUURNeVgwcEpJYXdhakE1VU5WTl9weVlCZDVBM2JxWjdmcFRzWnhRRjNwUnpzd3ZkdDA3Nmpn?oc=5",
+        "snippet": "Amazon Is Making Concessions to Data Center Critics—and Warning Them Not to Get in the Way &nbsp;&nbsp; Gizmodo"
+      },
+      {
+        "title": "Amazon ends data center NDAs with local governments - WNDU",
+        "publisher": "WNDU",
+        "date": "Fri, 02 Oct 2026 22:29:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcVVWd2hkUW85WENNRmtTUnh4MDlsMGlVMDF0b1B4S0pEZl92UFQ4ano4N0NWbTlGNjV6cVQ1Q2I5VHZqV01mZnF4elVxYVpFa2g5RzE4TE95Q1dnMllGV3pZY0FNU1FlUzQtNVhIR2lfM0k4bUdONHZxVWJtYnZpOG43UExadjVxR2JZV29ncTFPVnlk?oc=5",
+        "snippet": "Amazon ends data center NDAs with local governments &nbsp;&nbsp; WNDU"
+      },
+      {
+        "title": "Amazon Web Services CEO Matt Garman Promises More Than $1 Billion For Data Center Communities - NewsCord",
+        "publisher": "NewsCord",
+        "date": "Fri, 02 Oct 2026 21:53:58 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQjVxQTdFM2xaSmVhandQc1QxdkEyRGp4Ri1ubmlCczZseHdNbE9xc1ZlV0hYREx3aS12d3UyRERGVkp5UmYzLTFkaEZhR0JNbW52ekplcC13U0lTdHM4Z0U2SUhkc2Z0bUgxVnZsUjZBT2RVS2xEVnR1b0MxNm0tRkFrc0tNYUF4eVpwZFM4N0VNSTYzcldOVmRVVlhXLWdEandzRWR1OWVWVU8tQ213THZsbzdMRnlYS0Z1MElPZDNkZVcwMnh4VzdLdmozem9TYUFNVlhGLTR4UW0tU0YtVXlKMHBGQmp6RVE?oc=5",
+        "snippet": "Amazon Web Services CEO Matt Garman Promises More Than $1 Billion For Data Center Communities &nbsp;&nbsp; NewsCord"
+      },
+      {
         "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI - NVIDIA Blog",
         "publisher": "NVIDIA Blog",
         "date": "Fri, 02 Oct 2026 13:04:34 GMT",
@@ -1468,41 +1503,6 @@
         "date": "Thu, 01 Oct 2026 13:40:25 GMT",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVWJ2Ml80TXhxZGV5Um85OFk5QlNiZzBmcEJtenZ5c0FEa09TSFlqRGk4bUpkVVdHWE92ZzFrOEdpdnR2RWNobUM3MTlYVXAyTDk2R1V5Zkd0bF9BcW5HdWdKMjF2UHdNNC1HQnZEVFREdl9Hd2JYV3F5RUsweElJRUo0S0RReXJFX1VrcDhneHR5Z1Z0QU9zcHUycFVDZ2lqMi0zRTRrM0xORVRkVkhDV2tGREVIUDQxREpqTm40TWNKS2p0by1oaA?oc=5",
         "snippet": "Kodiak AI Will Use Amazon Web Services for AI Development, Safety Simulations &nbsp;&nbsp; marketscreener.com"
-      },
-      {
-        "title": "Amazon Web Services launches Strands Decider 2B... - Pluang",
-        "publisher": "Pluang",
-        "date": "Thu, 01 Oct 2026 17:05:04 GMT",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdTM2eXQ0WXJZT1M0ajlBb2JZdXRiRzVQS3p5Nmp2V3U0VG5TUFFSYUd5SEdkT2prSUVfUWZsUmFkQjF1ZU00WlFSVzM3V2dSQl81UlNiUG9OTDE4U19jSFFHLUtOZnREZldoN0xRLTBxN0RSTGZCOTNPcWNpaFluSUwxQQ?oc=5",
-        "snippet": "Amazon Web Services launches Strands Decider 2B... &nbsp;&nbsp; Pluang"
-      },
-      {
-        "title": "Adani Green Energy expands BESS capacity to 6.63 GWh; achieves 70% FY27 target",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Thu, 01 Oct 2026 14:30:51 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/renewables/adani-green-energy-expands-bess-capacity-to-6-63-gwh-achieves-70-fy27-target/articleshow/134613669.cms",
-        "snippet": "Adani Green Energy Ltd has increased its battery energy storage system to a total of 6.63 GWh. This capacity can power around two million homes daily, supporting cities like Nagpur and Patna. Achieving this milestone took just 14 months, marking significant progress towards their FY27 target. The co"
-      },
-      {
-        "title": "Axis Bank wants to double its Rs 8,688 crore data centre exposure",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Thu, 01 Oct 2026 12:55:27 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/axis-bank-wants-to-double-its-rs-8688-crore-data-centre-exposure/articleshow/134611024.cms",
-        "snippet": "India's rising interest in artificial intelligence is prompting Axis Bank to expand its lending to data centres. With demand for large-scale computing infrastructure surging, banks are exploring new financing opportunities. Axis Bank's exposure to the data centre sector is expected to double within "
-      },
-      {
-        "title": "Hewlett Packard Stock Just Got a Big Boost Powered by AMD - Barchart.com",
-        "publisher": "Barchart.com",
-        "date": "Wed, 30 Sep 2026 19:03:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMXhNY0pkbVNVZVZXQnkwb3F4UHpzRGctX1Z6bmhFYTR3VWp6QmNQU1VfOFd2OW9vX3ZoZjY4R0hOWXdQNkZsbkJ4dE9wUGFwV2VCSkZMVTRMbGxjQU1PWW1yREtnUmsxMDNtTWY3S1VFZEtGN1VYMnZlMW5FSHp3QlhQdDNKc1EtUkFYTEpha2kzMVRmS183b3lycTIyQlNPUVY4?oc=5",
-        "snippet": "Hewlett Packard Stock Just Got a Big Boost Powered by AMD &nbsp;&nbsp; Barchart.com"
-      },
-      {
-        "title": "Intel Stocks Jump as OpenShell Adds Agent Policy Enforcement - TradingView",
-        "publisher": "TradingView",
-        "date": "Wed, 30 Sep 2026 17:27:33 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTkN3RUVwb3BXU2Z1clVMMXJJbU1aMWJ1dnRMcTdTU09SNjJXQV9haGRMTkVkTk9wUDRjQjZaZUpiUEhYWEhkN0VCWHRmYW9UNVpKV0Ffc2R5ZjNiUkM0Q1ZQUy0xYjgwaF9QS056c0I4QlEyaTZFVl9MS0VUZmdCNVBGR2VZS2YxR25tS0lZbkZvVFl6aEhicmZHb3BsSDBEMkxQSHhKdkhwSnFjcXg5dDlwOVJSRElORXhjMQ?oc=5",
-        "snippet": "Intel Stocks Jump as OpenShell Adds Agent Policy Enforcement &nbsp;&nbsp; TradingView"
       }
     ]
   },

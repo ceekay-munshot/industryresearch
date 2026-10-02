@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-02T17:02:14.362Z",
+      "last_fetched": "2026-10-02T23:27:24.041Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-02T17:02:48.807Z",
+      "last_fetched": "2026-10-02T23:27:42.055Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-02T17:02:50.444Z",
-      "last_epoch": 1790958637000,
+      "last_fetched": "2026-10-02T23:27:43.373Z",
+      "last_epoch": 1790961600000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMijwFBVV95cUxPLWcxVjR1NkMxNjdhT1FzU1ZueDRJenYzRTh4emhTamo3eG1BUzNlM1FfdTg1M1ZSZEwwS0dXb3dKR1RPc1lTb2tXeU5oVFJaeUtrNHRqT01WTHYyTGRZd3N1dkI2WFVLTnJNb0JBNEl2ZXQtQTJWV1g2Rl9wQVkxeFRsakwycGd1VGhTLUdEcw",
         "CBMizwFBVV95cUxOdDdKSGk3Umd4NDczVWhOZzRMNkJ0UHA1czhzeWtBZ29TMnlZcnNYNngwd2NLZVlQaHAxVGM1cU1ac190NnhaQ2JfdkV0dUwzbnloeVg3OHFQeXYtVmMzWW4xTk1GZE5YSkFIeXpWQkZYN0MtaDNJQ19rbHBFQ0huX3hKaWpMU3V2Uk9zZGtYckVDQ3Nqd2c0SnNVQ3d3Sm9GM0pJLUhYdk1sSFlVYmZlcmx4Q1BwRmtLRmNmWHpkUlhiaFZuRzFrVlMxd3VPdmc",
         "CBMiswFBVV95cUxOYnFJR2ZyZE5LVUF1VnhBRlQ4VGtJZVJFMndidzRKazJQSDAwVXM2ak45Nzc3eFU2LWxCWEt6akNJTmM5ay1pb0JUNVRRNXVYVjgxVGFPNThoVml6Z2tJSERWNkc2aDFkNmJ0OHo3YVRCcktWNklOZ2dqei1pcnVwaGhkWkI4Um9JbWRVUk5PYlFWWkcyV2xOZll2T2xnb2RockVKVkZQUEhGbkRpc09Gc3k0UQ",
         "CBMiuAFBVV95cUxPUW5lVWRnZWhUTE4tS2MwMHE5em5pTUh1QmkxeU9sVFIxajl6LWY4dFBXX3dJMGtSc3ZjSFdRY1dMSzF1ZjVja190aUtGbmRuSWRBV0t2YmZVNEV3V0V2SnJqSUZFUlQwbXItdnk5Zk9tbUJVMFpERU5MWnpfV2I4VGJLQTZWLUh5YjBzbE82dGNNNjhIYXdPd1ZJWmx5UzlHdnU4SUtKdlFFcGF1eE9lcDJsQ09xSVdS",
@@ -319,17 +318,16 @@
         "CBMibEFVX3lxTE1DUk5wXzJvYzViRTNCZ1piOVpuWkc1VjdBQ0FEOHNWNzltVkk2WnVQRkhtSGVrdmw5NGZRQUE5LWtXR3dILVBiT0xaRnRwOWd5M0hJWGwtZlV1WHdQd2tNS053ZGNYTFVJZ085Tw",
         "CBMizgFBVV95cUxOSmI5ZVAtN1BROFFUMlVWTEJuSVh6eVB1eW4tYmFIZk1UYkJmZm9FOTVfSHVCTUM1LWVHZ3B6d0lFcTMtb2RFT3ZhVjBpY214ZUk0Z3NoU1F1d29fMHVodUNZdHhaWE1vazluWjIxTlBRVTFiQVY2MmpyRkdFWS1ObHpQcUZicTFoNm1JNHFPSWtieW52d2prNnh5MzJhQjlTUWE2QjRTM0M1NWlDVzRtZHJlTDhwLXJIWEJZRlFkcWFNLVlsY0tHdzAwa2tTUdIBzgFBVV95cUxOSmI5ZVAtN1BROFFUMlVWTEJuSVh6eVB1eW4tYmFIZk1UYkJmZm9FOTVfSHVCTUM1LWVHZ3B6d0lFcTMtb2RFT3ZhVjBpY214ZUk0Z3NoU1F1d29fMHVodUNZdHhaWE1vazluWjIxTlBRVTFiQVY2MmpyRkdFWS1ObHpQcUZicTFoNm1JNHFPSWtieW52d2prNnh5MzJhQjlTUWE2QjRTM0M1NWlDVzRtZHJlTDhwLXJIWEJZRlFkcWFNLVlsY0tHdzAwa2tTUQ",
         "CBMizwFBVV95cUxOd1pnUzBMdnF1U0RPRHByVXdaTEVKTTA3Z0s2YURJcVEyNXgwSEtvSEFsTzJsMEZaa2ljeUYxdDN1X1NmVDR0SDJjaTVFdXA1amhwNVdZdF80MFZuaV9aQ3BQRTUtQlV6Z1FjMlo5dFkySzFOakFBeGNKYjBoV1VyU0dGVUhxd1cycTZYUlJzOVBEUV9yd2hSSWluZEgwQnV6OUhjcGd5MF9Hd21hNnJHNlJsUkJuLUU4SjdkTjlnWE5nV3NZbWd6Wi02WlIwbTg",
-        "CBMiuwFBVV95cUxNSXhTNTVUWlppRDVjcGFVM0ZVdlExdHRsV0ttRk5kSmJycGNnNmVEbGt5RFl3VTZzQ19iSVBxZTZ1VkFrRDNxTFJxTWJHazNPaWJ0SFl0MzljMmtoakQ0V3BCLUFzRVU4TzctTXUyXzFJX3J0WTVadFU3dzktdmlJMG5rUENCczY1VV9IVVJualVKdDZHME5Ia3JGblJrejFVMmU0THN6Y3FuOEFWeTdJWXBsakxIYU1ic1Jn"
+        "CBMiuwFBVV95cUxNSXhTNTVUWlppRDVjcGFVM0ZVdlExdHRsV0ttRk5kSmJycGNnNmVEbGt5RFl3VTZzQ19iSVBxZTZ1VkFrRDNxTFJxTWJHazNPaWJ0SFl0MzljMmtoakQ0V3BCLUFzRVU4TzctTXUyXzFJX3J0WTVadFU3dzktdmlJMG5rUENCczY1VV9IVVJualVKdDZHME5Ia3JGblJrejFVMmU0THN6Y3FuOEFWeTdJWXBsakxIYU1ic1Jn",
+        "CBMitAFBVV95cUxNZ2N2eU43Wk80WG9uN05SbkgyTWtvSENaTDF2N0VyYkhXSEw2Ti1Oa2JwZkFMLXJFbjhka3VLNFdXZjczQ1ZvT1pYa2x3bWJudWNlMUNNUEJSb3FkTERFWnBXTXZPdEN3Z0puVl96dFlfVXpSM0luTHJ1SVBkT3FUeUdrbVcyakgtcjJWdklOQ1pacjRfYW5zMU5feWJWZnVVRlM2QkpDZVlkbEFuTFpla05JMEY"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-02T17:02:50.545Z",
-      "last_epoch": 1790937407000,
-      "etag": "\"03862d7f2fc4617f72091bc2ab67f044c-gzip\"",
-      "last_modified": "Fri, 02 Oct 2026 16:36:35 GMT",
+      "last_fetched": "2026-10-02T23:27:43.456Z",
+      "last_epoch": 1790968393000,
+      "etag": "\"0e2db47ea0babf1e60423fbf9bb5faf38-gzip\"",
+      "last_modified": "Fri, 02 Oct 2026 23:17:37 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/cons-products/liquor/storm-in-a-wine-glass-as-climate-change-and-young-consumers-reshape-the-wine-world-can-india-take-advantage/articleshow/133622448.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/many-deals-over-10b-amid-conflicts-this-is-astonishing-jpmorgan-anu-aiyengar-private-equity-ai-investment-trends-india/articleshow/133636559.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/mahajan-imaging-and-neuberg-diagnostics-strategic-joint-venture-to-transform-pathology-and-genomics-services-in-north-india/articleshow/133648890.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/zydus-saroglitazar-meets-primary-goal-in-global-phase-iib-mash-trial/articleshow/133646000.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/delhi-hc-orders-forensic-audit-of-fortis-ihh-and-rht-transactions-in-daiichi-singh-case/articleshow/133643629.cms",
@@ -627,11 +625,13 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/bengaluru-gets-direct-vande-bharat-connectivity-to-goa-via-mangaluru-udupi-karwar/articleshow/134616663.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/amazon-now-doubles-footprint-to-120-cities-ahead-of-festive-season/articleshow/134635735.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/mangaluru-railway-region-now-under-mysuru-what-changes-for-passengers-trains-and-vande-bharat-services/articleshow/134631849.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbc-hires-cantors-paras-jain-to-lead-global-tmt-banking-sources-say/articleshow/134636975.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbc-hires-cantors-paras-jain-to-lead-global-tmt-banking-sources-say/articleshow/134636975.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/singhania-familys-jkc-sports-plans-150-crore-sports-infrastructure-expansion/articleshow/134645540.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/deepinder-goyal-teases-six-colours-for-temple-pre-orders-may-open-next-week/articleshow/134644429.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-02T17:02:50.607Z",
+      "last_fetched": "2026-10-02T23:27:43.594Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
