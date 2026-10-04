@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-04T03:16:07.305Z",
+      "last_fetched": "2026-10-04T10:18:55.320Z",
       "last_epoch": 1791025860000,
       "etag": null,
       "last_modified": null,
@@ -309,19 +309,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-04T03:16:42.229Z",
+      "last_fetched": "2026-10-04T10:19:31.084Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-04T03:16:44.030Z",
-      "last_epoch": 1791051859000,
+      "last_fetched": "2026-10-04T10:19:32.870Z",
+      "last_epoch": 1791077357000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMimAFBVV95cUxPZ3FpaVJPU213N3VMWXRtbHlsV2s2SVM1bEJsRWh3OUFyNzNuMlJyWGFfM0tjOFpMc1BWNHhCTnhNRThDX3pfaDIxY2RXQlZHVjFNREFlNEFzWHZIaU5LZUpReFBqY3p0a2Y1bktXQWVaUVFjMnJ2NXdUX0NiYmVnQ3lOai1HMEpSS0tBelo2NkNaa2lobzdOYg",
         "CBMiowFBVV95cUxOZVZsaExWU0pMUG42S1YybFFIUG9Ia2RjU25fZ2JWVzdyci0zRTE5cUlCLUo5eEtWaUduUVNXVFZ3VmM4ZTNZMDhlNnV1WEs5S2hpeGcwRnRkakFLaUJPT0Fsd3MtYS1CZ0pxVl9HcmJUMjM1OFNWM0xNY0ZCdEpwZEFSSWM1bkVJSEhfSjZ1OFlCN0x4Q0tLM0NVMk1saWhaTlVB",
         "CBMijgFBVV95cUxQRnpPVVNGZGZZdEJkbUVDaTB2WmhZWGhQcUUyZUZvYzhScTZDRkg4emkwTVY4WkhpQnZudXVobkRHVTd6S25QQWlERWxfLTZNbmp3Y0tWQnYwWTlyeGVEcC1sdWVvcXpNZGZQOGhBQ25uaUYxOHRnSm5SN0duWkRkUGFZUVNpeVV6TFNNNEtR",
         "CBMiwAFBVV95cUxNNndqZzJaaEFTaXNQUVZWemF0VzRQX2VNOTNWTnhjZzZKclFpWnd4RUM4bnluUkxENVY1UVl3X3o2Ym96SUNSR010WU5NOUM1cGs1OFBTRUgwbXdNLWFuX3kyYXM0eUdWNFdkZURid0F3RmVNZG9za2FsdXhNRHRvdU5UU1VGd2lTQ1lzY1hubmZIRXR2cHRabTdBdFFULWY5cEZIcTQwVElmM0NFcGJfZ3FybUVoNVg2eEdSeHpsdmw",
@@ -620,14 +619,15 @@
         "CBMiqAFBVV95cUxOWXJmQzBIaVJ5c2lvVnBtY1N2WFFRX1VaSDhuNU1rUW9PWkFTR2FlMlFSMUlQUzRYUk5CaEVkcVF0djhkSl9rZkhUc0tpeWhvQmpTZ1UyWUppRVB2NVREQS1kdlp3blQ0eXBub2dyXzZUeHJmRHYwUWdvVFg4V1FnSDJDWTAweklIYXBRaFRsdXREMklmaGtOSWpsd2REVE5LUVJkU19tc3jSAbYBQVVfeXFMUG9MQ2JUZDNmSEFTSjlHY2JBcXI2NktlYWc0TXFrR2lTS2VaNmtoWUhOaDhrVVB3ZTBlZ2dIYWp3MUZ0Q1RBSDJjUW81aEJHN1hMLXRwMllscHBtcmJPY3F1ZGxjcXlkLVNVQkZTQ1czLWJWTGM0XzJHOVdUYUU4T3Vtd19Sem93NnVLOS1ZU3F2U3FGUlVPWWpnUG9ON3dDVW9BRUtnYlJ5bEFLRkVzVFlMOWt1RHc",
         "CBMitwFBVV95cUxPNEY2aUttNmQzZk1uU1dHLUlCTzdFRmNWWlF2SlViTjZPT2xSZHFrWG5DQ0djbnpxT0M5bzNCU080TUE4ODFZWWxROUtDdmFBak9oOWJTVkFlSTFFR3FPandQaHdWbWc3MUpQckVobVhyVHliZzRiMXU3LTZkVGgyZEVJdUUtcVRnOEZHdTBkOWhUNEJELU1IZ0kwZi03SFhFeUVkZFBpT3BNek43QmtQd1VzVnFxZVU",
         "CBMi3gFBVV95cUxPbEN6V2pFeUNHRlJKdXMybWRCOGtDMHpQUkI4cEtiVEhpbThFdWtLRFN3aFZMV0YzN0I4YlBrNGVyamVQRnlDWndGNzRfSUxHYUxQckt3T3R2T0psR3BwakNxYXlBVXRtU2pJX1Z3dTBxamF1T3A2NkFCTWVTdWhqaEVKWEdpbGhOR2N2TkY5M1M4Y0c0ME5uOHJQYVFmdjFydkR2RGhodUdsWlpXcXZ5MFl4aVRPTzBscW9sVXdlM1VoQVFrWk1ucW5iZmt6bFhGYXN5enM0dC0wck5acWc",
-        "CBMiiwFBVV95cUxNYmh3ck5OZWNLWmFEc3VueklNTTBOeFdwME1IenA3VkhxSjFQZk1wbUt2czVOT1FyRjg1SFpjZVpBTUVyOFhwOGh6TVNsMkJHSDJzcjhsVDlKWndYVW9SN2ktLWVUNnZET3AtMTNWQk93dmpwSXdSY3FfalJLTEJha2ZmMjFvS0dzSGYw"
+        "CBMiiwFBVV95cUxNYmh3ck5OZWNLWmFEc3VueklNTTBOeFdwME1IenA3VkhxSjFQZk1wbUt2czVOT1FyRjg1SFpjZVpBTUVyOFhwOGh6TVNsMkJHSDJzcjhsVDlKWndYVW9SN2ktLWVUNnZET3AtMTNWQk93dmpwSXdSY3FfalJLTEJha2ZmMjFvS0dzSGYw",
+        "CBMiggFBVV95cUxQMUZyMEFDbnJpS19tQ2xoTDVrQk5Ebk52NktMRkl2Z3hRei1JUUNHamF4a09GY3lVT2FYRkpnMlBOYnpZZFVyMnFNVVY4TVp1amxvcHFycTV2am5RVWJNQ2JiVDhibGRHOTZDT2xnckJVMlEtWXhtbkd1TzJVc1JfeXpR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-04T03:16:44.069Z",
-      "last_epoch": 1791049332000,
-      "etag": "\"0c387be621e4069dbfa68de04cfd8916c-gzip\"",
-      "last_modified": "Sun, 04 Oct 2026 02:53:10 GMT",
+      "last_fetched": "2026-10-04T10:19:33.008Z",
+      "last_epoch": 1791093180000,
+      "etag": "\"0d6785ecdf7781ae59faf1e8c350d6f89-gzip\"",
+      "last_modified": "Sun, 04 Oct 2026 10:07:15 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/sc-slaps-rs-10-lakh-fine-on-reliance-industries-for-delaying-ntpc-gas-supply-suit/articleshow/133249366.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-directs-all-vishakhapatnam-flights-to-alluri-sitarama-raju-international-airport/articleshow/133239974.cms",
@@ -859,11 +859,13 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/singhania-familys-jkc-sports-plans-150-crore-sports-infrastructure-expansion/articleshow/134645540.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/navigating-the-future-of-connectivity-and-security-a-guide-to-the-suraksha-pillar-at-imc-2026/articleshow/134654894.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/adani-to-begin-mumbai-airport-terminal-1-demolition-in-january-5-million-passengers-to-be-affected/articleshow/134664077.cms",
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/gails-sanjay-kumar-named-next-petronet-lng-ceo/articleshow/134660552.cms"
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/gails-sanjay-kumar-named-next-petronet-lng-ceo/articleshow/134660552.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/canon-in-talks-with-those-engaged-in-key-chip-projects-in-india-plans-local-service-centres/articleshow/134670273.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/gurgaon-office-goers-may-soon-stop-dreading-shankar-chowk-dlf-gets-nhai-nod-for-two-new-road-structures-that-could-change-traffic-movement-around-cyber-city/articleshow/134669864.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-04T03:16:44.176Z",
+      "last_fetched": "2026-10-04T10:19:33.148Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
