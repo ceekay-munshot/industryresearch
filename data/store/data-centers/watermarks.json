@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-03T22:31:39.204Z",
+      "last_fetched": "2026-10-04T03:16:07.305Z",
       "last_epoch": 1791025860000,
       "etag": null,
       "last_modified": null,
@@ -309,19 +309,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-03T22:32:03.233Z",
+      "last_fetched": "2026-10-04T03:16:42.229Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-03T18:52:22.995Z",
-      "last_epoch": 1791044418000,
+      "last_fetched": "2026-10-04T03:16:44.030Z",
+      "last_epoch": 1791051859000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi5AFBVV95cUxOQ2hQVDFaUFJmc2FCWGtJZnZJUXF5bXV2cG9tR0w0aE9HMXhzX3FKRGlsMS00RW5salhqX1AyTnJ4cmU0QUp6S3l3M010YmpDMVotSktEM2lGYS1TLXVXODUyekx6aVdoOGg5VWRqS3hFNHNaVmxTMHFCX2dpQ2xmelk4UzZTNGFQSUdlcVZTSG04bEZCb3Z3YkxRSTdLZjBOVVdkWVR1LUdZSE9kZmUzNmVEbldpZTNMcmF6RXJ5M2F6YzRlNTR1SGdQQVFUS1V4YmNpVDRNUkwtUXhyX3pKMWNxcGw",
         "CBMimAFBVV95cUxPZ3FpaVJPU213N3VMWXRtbHlsV2s2SVM1bEJsRWh3OUFyNzNuMlJyWGFfM0tjOFpMc1BWNHhCTnhNRThDX3pfaDIxY2RXQlZHVjFNREFlNEFzWHZIaU5LZUpReFBqY3p0a2Y1bktXQWVaUVFjMnJ2NXdUX0NiYmVnQ3lOai1HMEpSS0tBelo2NkNaa2lobzdOYg",
         "CBMiowFBVV95cUxOZVZsaExWU0pMUG42S1YybFFIUG9Ia2RjU25fZ2JWVzdyci0zRTE5cUlCLUo5eEtWaUduUVNXVFZ3VmM4ZTNZMDhlNnV1WEs5S2hpeGcwRnRkakFLaUJPT0Fsd3MtYS1CZ0pxVl9HcmJUMjM1OFNWM0xNY0ZCdEpwZEFSSWM1bkVJSEhfSjZ1OFlCN0x4Q0tLM0NVMk1saWhaTlVB",
         "CBMijgFBVV95cUxQRnpPVVNGZGZZdEJkbUVDaTB2WmhZWGhQcUUyZUZvYzhScTZDRkg4emkwTVY4WkhpQnZudXVobkRHVTd6S25QQWlERWxfLTZNbmp3Y0tWQnYwWTlyeGVEcC1sdWVvcXpNZGZQOGhBQ25uaUYxOHRnSm5SN0duWkRkUGFZUVNpeVV6TFNNNEtR",
@@ -620,14 +619,15 @@
         "CBMiwwFBVV95cUxPcFFDNnhNaU52N1hNamxKQVR1ZFZ5VXZtU0lvTW5XdGFFYVRfODVJNkZkZ1dhZU5JT3VNV2dYZmUtcWlTYjBUN1RrZkRldnZBem54dllXX19ZTGtxSnU4Nm5XVllYVURqX1hWTHVFeFBqX0JUdW53S3FoY0pEbTdzeVM1aTJ2UnBNVUhuaUlnaTg0QW5MUDRNdVVlTGowc1l5MUcwcTNocktzU1U1c1NDaGRlNWhueWNXUVBCNHdfR29CM3c",
         "CBMiqAFBVV95cUxOWXJmQzBIaVJ5c2lvVnBtY1N2WFFRX1VaSDhuNU1rUW9PWkFTR2FlMlFSMUlQUzRYUk5CaEVkcVF0djhkSl9rZkhUc0tpeWhvQmpTZ1UyWUppRVB2NVREQS1kdlp3blQ0eXBub2dyXzZUeHJmRHYwUWdvVFg4V1FnSDJDWTAweklIYXBRaFRsdXREMklmaGtOSWpsd2REVE5LUVJkU19tc3jSAbYBQVVfeXFMUG9MQ2JUZDNmSEFTSjlHY2JBcXI2NktlYWc0TXFrR2lTS2VaNmtoWUhOaDhrVVB3ZTBlZ2dIYWp3MUZ0Q1RBSDJjUW81aEJHN1hMLXRwMllscHBtcmJPY3F1ZGxjcXlkLVNVQkZTQ1czLWJWTGM0XzJHOVdUYUU4T3Vtd19Sem93NnVLOS1ZU3F2U3FGUlVPWWpnUG9ON3dDVW9BRUtnYlJ5bEFLRkVzVFlMOWt1RHc",
         "CBMitwFBVV95cUxPNEY2aUttNmQzZk1uU1dHLUlCTzdFRmNWWlF2SlViTjZPT2xSZHFrWG5DQ0djbnpxT0M5bzNCU080TUE4ODFZWWxROUtDdmFBak9oOWJTVkFlSTFFR3FPandQaHdWbWc3MUpQckVobVhyVHliZzRiMXU3LTZkVGgyZEVJdUUtcVRnOEZHdTBkOWhUNEJELU1IZ0kwZi03SFhFeUVkZFBpT3BNek43QmtQd1VzVnFxZVU",
-        "CBMi3gFBVV95cUxPbEN6V2pFeUNHRlJKdXMybWRCOGtDMHpQUkI4cEtiVEhpbThFdWtLRFN3aFZMV0YzN0I4YlBrNGVyamVQRnlDWndGNzRfSUxHYUxQckt3T3R2T0psR3BwakNxYXlBVXRtU2pJX1Z3dTBxamF1T3A2NkFCTWVTdWhqaEVKWEdpbGhOR2N2TkY5M1M4Y0c0ME5uOHJQYVFmdjFydkR2RGhodUdsWlpXcXZ5MFl4aVRPTzBscW9sVXdlM1VoQVFrWk1ucW5iZmt6bFhGYXN5enM0dC0wck5acWc"
+        "CBMi3gFBVV95cUxPbEN6V2pFeUNHRlJKdXMybWRCOGtDMHpQUkI4cEtiVEhpbThFdWtLRFN3aFZMV0YzN0I4YlBrNGVyamVQRnlDWndGNzRfSUxHYUxQckt3T3R2T0psR3BwakNxYXlBVXRtU2pJX1Z3dTBxamF1T3A2NkFCTWVTdWhqaEVKWEdpbGhOR2N2TkY5M1M4Y0c0ME5uOHJQYVFmdjFydkR2RGhodUdsWlpXcXZ5MFl4aVRPTzBscW9sVXdlM1VoQVFrWk1ucW5iZmt6bFhGYXN5enM0dC0wck5acWc",
+        "CBMiiwFBVV95cUxNYmh3ck5OZWNLWmFEc3VueklNTTBOeFdwME1IenA3VkhxSjFQZk1wbUt2czVOT1FyRjg1SFpjZVpBTUVyOFhwOGh6TVNsMkJHSDJzcjhsVDlKWndYVW9SN2ktLWVUNnZET3AtMTNWQk93dmpwSXdSY3FfalJLTEJha2ZmMjFvS0dzSGYw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-03T18:52:23.024Z",
+      "last_fetched": "2026-10-04T03:16:44.069Z",
       "last_epoch": 1791049332000,
-      "etag": "\"0749bc9810c8bea7aa8939bc3879641b0-gzip\"",
-      "last_modified": "Sat, 03 Oct 2026 18:34:00 GMT",
+      "etag": "\"0c387be621e4069dbfa68de04cfd8916c-gzip\"",
+      "last_modified": "Sun, 04 Oct 2026 02:53:10 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/sc-slaps-rs-10-lakh-fine-on-reliance-industries-for-delaying-ntpc-gas-supply-suit/articleshow/133249366.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-directs-all-vishakhapatnam-flights-to-alluri-sitarama-raju-international-airport/articleshow/133239974.cms",
@@ -863,14 +863,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-03T18:52:23.101Z",
+      "last_fetched": "2026-10-04T03:16:44.176Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-03T02:43:18.954Z",
+      "last_fetched": "2026-10-04T03:16:44.641Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
