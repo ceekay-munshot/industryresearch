@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-05T11:01:35.571Z",
+      "last_fetched": "2026-10-05T20:03:09.711Z",
       "last_epoch": 1791166260000,
       "etag": null,
       "last_modified": null,
@@ -58,19 +58,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-05T11:02:10.051Z",
+      "last_fetched": "2026-10-05T20:03:46.622Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-05T11:02:11.395Z",
-      "last_epoch": 1791188459000,
+      "last_fetched": "2026-10-05T20:03:47.936Z",
+      "last_epoch": 1791200414000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiYEFVX3lxTE1HUTNNcE4wX1ByOTZiV1Vvdkg4OEs2cl9GaFU0cGl1NDV6U2xPQy1FR1pKajVkcG90ZklVbGFxbmZWOEZuUVl5aDJKZkxWdU5lajZoSVlkYmFaX0h3SER1cw",
         "CBMic0FVX3lxTE5NVng4cjVrRzZiSTRETnUxam1NSlVGM3lNZEZOa2JyOTcxRXZSMFlNZnUwTlNpYk9zRDRBQjJKb2pKZVRuNkFDTWhPVGF6WVZtN2pOOWhoVVdiMktpYUtCNE9rVXBXVHcweEVWbUxpR2Etc3M",
         "CBMifkFVX3lxTE5jc2VmcG1FUFI1akFOYTlRaGpVN2dxNVQ5cVhIR3JwX1BERFBvZXJDcWl4WWZxUUtSVkF2TTFIUjdaY2Q4dVJTdUczUUNEZkpQZndVTU9pbG8xbVVwSEZUQ1ZuaWU3WVVsbmRnUXRwVHRJbGZFTHhmUUkzbHlXUQ",
         "CBMie0FVX3lxTE83ajljTXdxeEtyM0lQMHV2N1RIdzMxX29qQW9YTTUyaTNwOEdmMklnYlFtbllMM3VTQ2E5WWR0a3QxSVd2amE4elFYdWN5RWtLUWFwLUotWk5hLWEtN01zWGtsM0VybUwybnR2ak9BTTRRYzNEcFNpY1JnQQ",
@@ -369,14 +368,15 @@
         "CBMi7wFBVV95cUxNNVh0ZF94dW9DZUNtQmJfem1hd3ZBZWV0UTBFM0JfblM5aEc5U0VBZUc5NEotWWc5cHdmcDV6SjZTaGI4S3NKZ1ZHaVd5MmFUc2xobkFhOUljQ0pvU2R5U0NvdURoLXlaQ3lCX3BvUVNpdHB5QWtkRWdBMGtyN0JjYXVzMHF4ZzEtdjVpdnJMbnVHMlAxVW9sN0hJMV9qdlVtNjFqUllWZHdTNk9EQUlKdXhaNkRRaGtKWk5EMFZaZ0djejRiYVhtYnJCdk1BUTUtdzY2WnlZR1NIT2lobGhHdmlIdW9MbWNZb1pVa3RaNNIB9AFBVV95cUxPQzhTcmE4WTBFM0thOW9mWmQ2WXVDY0FmSVNBOEREZjVQeHo5ME5idGQ2TExLb0tZU1RudkxBQXdaMHRydVZ6elNOYV9SOGRuanlhOE83aVpFcnlNZlJjb2NJemhEMGFSN2JERjBoRGlFSkl5ZmdQc3Q0RVBuT3ZwYzROY2pKcDBOQy0xYWs5Z0xSOGZxZkdRMGc5MnRWcWpFa1RvcVhJRldLd190dUlqcTc4ZVZSRlpFNXM1SjJ0Q0ptZnlpVWlFcUtQU0RBOVRnMnVtYlprNnNyelJWZkZDb0dVNGVtcVBfcWc4d1RIU1NTR205",
         "CBMiwwFBVV95cUxQY3hHdEpfQWZzand0QkRBWHpxNUFPdEhUWUh4VFNrSmdQNnlIY3gxN3ctSHNxT0NodWgzUmVxNXBKajNNRkpib1JzeVI4QllkM2Foa19pbXBwY1g1enNUV0FIZGxjblFZbDViLV9ZcTNSQ3NNODZaSXFIclpZZDdqTVcyREpmME1CVFNpd3hfZjFXSzJnUVJjcXdNdTV2cHZmTFpmOFk0WHdWT21yWnRBZm5ob0F2czVhVDFyRTBwazRqMzQ",
         "CBMixwFBVV95cUxPd3o5TEhEME1ocWpIYnQ4cm10bVdzdGM5YzVtb2RaOHVXX3ltbEQ0dE1Id0RNTklKOW9kc1c4ZzRNNEpwVG51VlZSUUJYQ2ZPMkc1aEY4SXNDUzRUNmdaRWFwRl9YU0t5ZGhaRGh6SzlGdWd3MVUyVG9QTmZwNkdrSGxrZXBRdnpkbzhEeTM1Rm5XcVdhY0dZT3pSODliOWhDMUtfZEU3UWxwaVJ6azU0dlZmQVRvQS1NbjBLOUlIZGdwWElLSDJJ",
-        "CBMihwJBVV95cUxNY1NsTlc3am5hVTg3a2dYZTdVSjVNN0p2WXhlNWRQaUtsS1BScHZXVk44c3BMb0c0dlZHTnhQbUJORnhUTzJYTUtsLVJIYXYyMHEyVC03UzhEdWN5TTRPTVBGcEctQTF1YXZDQWVnYi1fUjBHS3NTV0YteEpRa2xyZUFWVWR0TUxuWmd4RTNtUFRSVTY0OEc4dFRjUzdFcGd4QkQxYU51SGNlVGpwWXpTcUhkN0FJcHhIQzR2V2drNzd4SnI3U2NYOTlzX0VPSlh6Zk5Pbzh2Rm4ybkNUWHNlUFh0Y21xcUVFbUQ4S055SXN0SUV1SmZ5QU8zaERIbHk1TzVvckVabw"
+        "CBMihwJBVV95cUxNY1NsTlc3am5hVTg3a2dYZTdVSjVNN0p2WXhlNWRQaUtsS1BScHZXVk44c3BMb0c0dlZHTnhQbUJORnhUTzJYTUtsLVJIYXYyMHEyVC03UzhEdWN5TTRPTVBGcEctQTF1YXZDQWVnYi1fUjBHS3NTV0YteEpRa2xyZUFWVWR0TUxuWmd4RTNtUFRSVTY0OEc4dFRjUzdFcGd4QkQxYU51SGNlVGpwWXpTcUhkN0FJcHhIQzR2V2drNzd4SnI3U2NYOTlzX0VPSlh6Zk5Pbzh2Rm4ybkNUWHNlUFh0Y21xcUVFbUQ4S055SXN0SUV1SmZ5QU8zaERIbHk1TzVvckVabw",
+        "CBMiakFVX3lxTE5ScDdYSVVjemR5NGtnWlpxVTRMYjRZd09icTNVOVNlcjFFa1E5WVZrTHF6ZzNMMUZCS2MyZ00wUnR6ZlNYSlU5M2tUQk1pcDZyQ3VlWEhPbHhVUnppeHNISTNPWmhQT2dJc2c"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-05T11:02:11.445Z",
-      "last_epoch": 1791192267000,
-      "etag": "\"052d55389a0e6591a475ee963d7509d55-gzip\"",
-      "last_modified": "Mon, 05 Oct 2026 10:45:05 GMT",
+      "last_fetched": "2026-10-05T20:03:47.970Z",
+      "last_epoch": 1791227882000,
+      "etag": "\"09d0dd56d982b1f7cc3078d1cff43cbd4-gzip\"",
+      "last_modified": "Mon, 05 Oct 2026 19:50:56 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -587,11 +587,16 @@
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/four-new-airports-to-come-up-in-west-bengal-in-two-years-k-rammohan-naidu/articleshow/134695701.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/bharat-forge-secures-contract-from-pratt-whitney-canada-for-aerospace-engine-components/articleshow/134692869.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/honda-targets-20-cost-cuts-faster-car-development-in-india-with-tata-technologies-report/articleshow/134688084.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/embassy-developments-sells-477-homes-for-rs-1800-cr-in-township-project-at-bengaluru/articleshow/134687328.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/embassy-developments-sells-477-homes-for-rs-1800-cr-in-township-project-at-bengaluru/articleshow/134687328.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/gadkari-calls-for-better-highway-planning-safety/articleshow/134716366.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-ministry-plans-centralised-rd-mechanism-to-steer-projects-funding-in-oil-and-gas-sector/articleshow/134715545.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/explainer-why-are-airlines-and-adani-airports-at-odds/articleshow/134712522.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-operations-evolved-from-manufacturing-base-to-global-innovation-hub-samsung/articleshow/134710489.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharma-industry-urged-to-shift-from-generics-to-innovation-led-growth-key-insights-from-industry-leaders/articleshow/134704527.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-05T11:02:11.490Z",
+      "last_fetched": "2026-10-05T20:03:48.113Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,29 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-05T11:00:23.442Z",
+      "last_fetched": "2026-10-05T20:02:08.705Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-05T11:00:57.556Z",
+      "last_fetched": "2026-10-05T20:02:42.832Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-05T11:00:58.721Z",
-      "last_epoch": 1791170265000,
+      "last_fetched": "2026-10-05T20:02:44.082Z",
+      "last_epoch": 1791219880000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi4AFBVV95cUxOMlJFZmRpWkc3UWdRRnhkQ3RMa2NYbkZSbjRqRm83WVlLZ21KYkJiekh4aXA1Q1JrMmhaRThobThEMFZmNjQ2QllXUHN0UnlEbC1TaEsxUVRtNVF6aUVza0l0OEdxWmVDSkVaelFVNEx5Z25vQnVUT0lqTjM5RVZxcjFxMXlncEE2R1JLTEpHeE9wUVo5dWlrenprSm55bTUwbHBzeU9KVy1XX0liWE9Ib1VaZzhta3JFMUJlc3d0amE1TDNZOS1sWEsxWjZGUmZDaE9IQnRzd3FEV1BmbkM1Qg",
-        "CBMi2AFBVV95cUxQel9ZbmpuNW16S052d1dTT1h2UkxpTUNPWEVBX25NQVhZU3ppa0wxRUgzelFEemFSeHBnUFZReEE2djFRaVNBLWQtWVJWbjdkWGxOUUhzM0xTbHd0YzQyRzRVS2M5NHhVYm5Ja3l4U3duaGoxLU1VSzVoMGdRbHI1eFFXSlZVdUc1NDllaG02NWFfV2lmNF9JWFJBQmJCTGlyUzNDXzdBdjNBUFljN1FtSHFpVW0ydndFTGlZZmpTZjZPTEQxVGlfa3ItdG5TOTFfRmhLXzhEN1E",
-        "CBMi8gFBVV95cUxNVWhiZHlTSDNPWU9uTUstQmxEODVsRlhQeEQzZElrMDY1Q1hhZjNZWk54UmNrUFIyWDZYb2ZjTElpVUtvQnRaT1d3YWE4VjJhTGlpeTNpNEQ2eWFPZHk1RTNtTHppODcyQm14ZE15NWRnNTdJekN0Z0g4dlpBeENYdHJjcnc5R24tOEVDNlRBWWFHbjAyZ1Bvb1NqQnliUHJJb3ZKRkNIMTVEd0Q3dFpKWUtVMzZjcXlzdTc3UjJ3RjdrcEVOM2FNYkpYeUZtdnJwMUJoMEFqaUNydVd6MnVZbFZRYzhJaVMwX1RYaDczdXVCQQ",
-        "CBMipgFBVV95cUxNOXI5SXVXX1V4NW9ybmFfaUlWLWhXakhTWmJ6TnJpU0RCUEVVLXZvVTRxVDJNTUlXZ0VUc0JOMW9JX3ZmM3RYWTBMc2NTdjFZWWdxNkJSWDlUck92WF9ySWx6YXVIbTM4azN3ZGNLdnh2NXQteFFTNHl2Xy14aGRnenZhWGQ4NUI1aGxwQ2hRVDdVdzNuLTZzLVZYX0V5YmFoSHZVVkZR",
         "CBMixwFBVV95cUxOdWJ0OUt5VzdhMmFMcnI0ME5jQ2NyUjZPT21DY3BJT0R3TkR5ZTVEaVFOWnZUT3ctbkhWOElvaXp5bzMtVXYyU3RVd1JCVzd3LUF2ckY1ZW5pVmF4OUNlSlhQWVppSWR4VmNjT0ljRzVpRG1DZU9GWE4tTU5pZ2tRMWRBdmVSRkd0bGRFZWNLclBjbHJtWnZESjlGZ3ZBaGZHdERZNnZZaVJPQl9BdG5pd3RYOUtwdUNHTnRKVnhjbEtlZGk1bHRB",
         "CBMi8wFBVV95cUxPUnJKcjcxYzhUclZDaExBZk95QlBuTHVRUVpkY3JlQ2wyYk5makZtWGlwTHVpZ3pQbTh4N2lldzhDc1hkZHlrMEgwQ3BucGUxbFctVmtfVHMzcExmdTBTM2owdEZmMVkxcnhKMGhmNTI2aDlweFhOX09tcnVPVVRHRHdkVFRNZTUxMUVMSUNRc09ITnNTTkJEYzJ5WnJiNnVwVXBqTXdhdmlzTF9RVXI5ME5YUFlpeWU5X2RBU3NlUWg0MzJvVC1nUUFGUEl1TnJ2VE5ld3FXbkdESmtCRkgwSHRjeldCLVlqMi0ybkpteS00Sk0",
         "CBMi-gFBVV95cUxQd1VWYjBkV014ekQ3RlRkUldmYXl6N2RYdFFxYmZqRWFUWGtUWmRJeURQSjNVWkE2cWh3YWstaHpSR2JwcWJtMXVmeVVKanNvZ3IxemtwOXpBT3g2RVUtRG5nMlRvcm5ucWQ2bERxX3dkQ3NFRVBQRTNXN3M4ZVhfTVZJSmt1Z3FlQmtDWU1jczJQQUtHak5ycjlzYnZldnA5YmxDSENrbWlGU0Z0dEtuTmJnM2hUNWsyQmtzV0NVeWV0V3VHa0V1emlNYXdFanAzc3BNVzB1VXJtOGtONFZTczJlRHZqSG9kUFg3TzhTS01oZWhRM1RFdmFn",
@@ -319,22 +315,19 @@
         "CBMiggJBVV95cUxOOGNzVk5vSWJiWk13V0I4MmR3SU41ZkdHNkJ5Yk9IZnJRQXo4bnhUVHlnM3JkUUwxQWxOMFBhQ0l0NmNLOEt6TExYVW1qSmp1V09KYkpCdjFqSlBkRjlGeU5KaFpiREdIOF9lZzNjN1BmdFhIQld2SkNJX2xqbGdkTFBsa2FGWEFzTGhBV1ZxclNzTkdUQVBJUjFBZkJ4c2E1c0tmb3VrdlVqSGJkeTZvN0RhYlVpN0N5LXN2TDBOMXJXM1N4UGJOdjJJejV6NGdVVE94elhyV2QzLWRHVTA4ejloVHdEakdwUi1LS19Fb1pOdk5nb0stQW00M00wUm1PVGc",
         "CBMizgFBVV95cUxOLUJLejQ5Vm5NUnFpMXFsV3VmajVod1NXRlVRempYbHhtN09PX2RMSzNfcGJ5ZWU5akR0aUtQclNQV3p4TVZicDFLTFFaZFpYQmVCY0lhZkNienFPam52ZW92SGY3bTZSTml4QmJFc2ctZnZ6QnJ3TktyTGFLRFZEQTZEdmpMMVFLaUdnT3lSa2hzZEt4MXVjQVp1OGlPbFhDckN1d3REM3YybE4waDB6RnUyX1FNcDJhU2RuRDVsMmZrVXZmN1N3MTBxS1RMUQ",
         "CBMi1wFBVV95cUxQZHpZeGdVUDJhLTVUUFdNWlpJbEFWS0F2WUdqVmhmY2NfSWxDX055WktpZGhfLVpDaHp2SVFwWmVVekQzQVM4amZLdXU5ZkF3N3JsYzdlUEZZS0Z5b2FjeEpRZ09rV3lDUF9sU1FXWWxLbWp1dEcwQmFuLXNUVzZQS1FJVTZrWDJjeUhtRTZ3SW9iSG5VNTE4dmMydXRJMERldk9tRENRUVQ4dlVQVFUzVmlrVnRVM243YXlWWmRBWjVxdEZkRXQ4SHMxQlZKSHY5T21mNzFlUdIB1wFBVV95cUxQZHpZeGdVUDJhLTVUUFdNWlpJbEFWS0F2WUdqVmhmY2NfSWxDX055WktpZGhfLVpDaHp2SVFwWmVVekQzQVM4amZLdXU5ZkF3N3JsYzdlUEZZS0Z5b2FjeEpRZ09rV3lDUF9sU1FXWWxLbWp1dEcwQmFuLXNUVzZQS1FJVTZrWDJjeUhtRTZ3SW9iSG5VNTE4dmMydXRJMERldk9tRENRUVQ4dlVQVFUzVmlrVnRVM243YXlWWmRBWjVxdEZkRXQ4SHMxQlZKSHY5T21mNzFlUQ",
-        "CBMi_wFBVV95cUxNcTJwbFA3dHh3cFRiZGdrTzBjM0NPbUM2anJScFhBRDY4Y0JDdUJoZk1BWGZrQktLZjZQUjlmSk8zbUgxbXE3U0kzZ1dlMjd3UGR3ZHEtOHJ2U3hKdlljSVZGbkVNSGtsX1E5VmhWQnhyal8weXJONUtJRDgyWWlOU3FnREI3Mm9pbUdmTllKMW4xRndYSG5CSU1fbTkzbjJDU3JPVkhiYmZ6QWJWODFONXZPbGRrV05WWHEtR2hNQUFlMUplMXRKNk4zZXZqZ3NrUjBFRmQtZFFjVzdjWjFpSU42eGxaNGtWblF3N09MOEZac2EyR1kwbkxfWGhjX1k"
+        "CBMi_wFBVV95cUxNcTJwbFA3dHh3cFRiZGdrTzBjM0NPbUM2anJScFhBRDY4Y0JDdUJoZk1BWGZrQktLZjZQUjlmSk8zbUgxbXE3U0kzZ1dlMjd3UGR3ZHEtOHJ2U3hKdlljSVZGbkVNSGtsX1E5VmhWQnhyal8weXJONUtJRDgyWWlOU3FnREI3Mm9pbUdmTllKMW4xRndYSG5CSU1fbTkzbjJDU3JPVkhiYmZ6QWJWODFONXZPbGRrV05WWHEtR2hNQUFlMUplMXRKNk4zZXZqZ3NrUjBFRmQtZFFjVzdjWjFpSU42eGxaNGtWblF3N09MOEZac2EyR1kwbkxfWGhjX1k",
+        "CBMiX0FVX3lxTE9jeWtRYzZZSzhZZ3hwUUlCc0htYk5la0xDY1dyUzNGOGliVW0wTnlBS0Q4ZTB5bTRtWjVfWlVoRTVTaHZCaWZVRnhKdFJFclgxMVFySkIwNzZNOG9GbHpZ",
+        "CBMipgFBVV95cUxNaWJWbGtjVy1IR2xuYW5ES3RDWVpWdHNYY1NvNmhFdGdwT1JuOXJabEtUV2NwT1d0N2RoQzJqX1l5OUZaY1RQNE10RHFzT0ZKeHpyM2RpZS1TSF9NVG40and4cEc3bHlyR3NTQUZ3MUtyaHhEdlJ4V3RJTDVWdllyTnRsUkJoYVVMN2FycVE2NU80ZnJUUHQxZl92cjc3QkwtUDJWeFJ3",
+        "CBMiuwFBVV95cUxONk1mSjB0REhKZV9hdHFJLUxDeC1SRVV5M1JEUVhKVWFWNVU0cHVoTzdDT2dCRU1oODE4bU82RG1OaVlNWWRvQU9DUENraUtTX1FOUGFVSnRUb2VROHJmMjl6YUU0ZmN6eEd1djVRRGY1bmpuZkxqbjRxS1ZUb1F3a1labmF2RWtQVEthdjdGV0xGeWFhVW5EZ29aaDJUZFJOcW51azkxa2hQRlRqUUJ6ZFdVdkt6Q1JfZTRB",
+        "CBMizwFBVV95cUxQNW5aZXRQTUV6WjlWSlRzc3RnZjg3cEo5U1djOHBrVVFlMGxiZ1JOYU1nU1czNzRuLWdJSHhMek5mYkpqRVQ5VVNUdmo1WFZfSWFwS05Tanp2UFVyaHB3OGJPUF9oSDVXc2ZyZF9iNEJNY0ZTT1ZzUW9SemhJVXVQMDBFSzFlaTdvWEpRUG1xVzgwOUItXzFvZ3E3UVZqVW5fTTAtckhWN1VpOE1yQ0M4eGlWUEVHOEVsbGNhN2kySDZiTzlmMER1ejlNQmhuY2s"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-05T11:00:58.756Z",
-      "last_epoch": 1791193751000,
-      "etag": "\"052d55389a0e6591a475ee963d7509d55-gzip\"",
-      "last_modified": "Mon, 05 Oct 2026 10:45:05 GMT",
+      "last_fetched": "2026-10-05T20:02:44.195Z",
+      "last_epoch": 1791227341000,
+      "etag": "\"09d0dd56d982b1f7cc3078d1cff43cbd4-gzip\"",
+      "last_modified": "Mon, 05 Oct 2026 19:50:56 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/banking/finance/phonepe-upi-123pay-no-smartphone-no-internet-no-problem-phonepe-launches-upi-123pay-to-let-200-million-feature-phone-users-make-digital-payments-heres-how-it-works/articleshow/133649534.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/delhi-hc-orders-forensic-audit-of-fortis-singh-brothers-rs-4666-crore-trail/articleshow/133665931.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/hsbc-joins-pes-in-race-for-nuvama-wealth/articleshow/133662421.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/new-trade-rules-raise-compliance-worries-for-banks-over-cross-border-payments/articleshow/133662591.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-pitches-public-insurance-registry-to-reshape-industry/articleshow/133672342.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/ujjivan-small-finance-bank-ceo-md-sanjeev-nautiyal-steps-down-on-health-grounds/articleshow/133680623.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/insure/huge-growth-opportunity-as-rising-incomes-longevity-fuel-insurance-demand-lic-ceo/articleshow/133680656.cms",
         "https://economictimes.indiatimes.com/industry/renewables/tesla-installs-20-superchargers-in-india-expands-service-network-to-ahmedabad/articleshow/133680532.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-secures-all-regulatory-approvals-for-3-8-billion-iveco-group-acquisition/articleshow/133691453.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/fortis-healthcare-reviews-delhi-hc-ruling-in-daiichi-sankyo-case-may-approach-supreme-court/articleshow/133691233.cms",
@@ -627,11 +620,18 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/want-the-latest-iphone-without-buying-it-indias-smartphone-subscription-bet-grows/articleshow/134672481.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/canon-in-talks-with-those-engaged-in-key-chip-projects-in-india-plans-local-service-centres/articleshow/134670273.cms",
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/audit-rotation-boom-puts-big-four-under-sharper-scrutiny/articleshow/134679581.cms",
-        "https://economictimes.indiatimes.com/industry/auto/two-wheelers-three-wheelers/tvs-motors-venu-srinivasan-says-evs-not-sole-answer-to-cutting-emissions/articleshow/134697092.cms"
+        "https://economictimes.indiatimes.com/industry/auto/two-wheelers-three-wheelers/tvs-motors-venu-srinivasan-says-evs-not-sole-answer-to-cutting-emissions/articleshow/134697092.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/highway-engineers-to-face-rating-cuts-for-failures/articleshow/134716159.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hospital-pricing-part-of-wider-value-chain-max-md/articleshow/134715798.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-ministry-plans-centralised-rd-mechanism-to-steer-projects-funding-in-oil-and-gas-sector/articleshow/134715545.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/german-mittelstand-expands-engineering-and-technology-operations-in-india/articleshow/134711843.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/57th-gst-council-meeting-rescheduled-for-october-8-from-october-7-to-be-held-at-bharat-mandapam-in-new-delhi/articleshow/134711439.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/navi-mumbai-international-airport-rolls-out-multimodal-connectivity-ahead-of-winter-schedule/articleshow/134711265.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maa-acorn-unveils-ayana-woods-bengalurus-first-longevity-and-wellness-anchored-villa-community-with-the-largest-resort-style-club-spread-across-8-acres/articleshow/134706742.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-05T11:00:58.799Z",
+      "last_fetched": "2026-10-05T20:02:44.330Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
