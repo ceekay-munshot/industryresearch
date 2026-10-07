@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-06T23:28:54.055Z",
+      "last_fetched": "2026-10-07T10:43:56.612Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-06T23:29:27.098Z",
+      "last_fetched": "2026-10-07T10:44:30.906Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-07T03:07:55.014Z",
-      "last_epoch": 1791319792000,
+      "last_fetched": "2026-10-07T10:44:32.620Z",
+      "last_epoch": 1791361885000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizAFBVV95cUxQTmY5bUdreHdrSU5ja3JzdFl2YWFVR0xrOU1YSGNpNDBrUzMtZlNQdlJWdW5QTFlOeUNwRGlnMXVXR0VZUUhIMzRhakZCal9fblg3VmVGQklCYU1QbHZBS0tNZS1JVjVGY1J2bDZSdEZsTHF4X2NVYnVDQlhTMFpaWHBMbHVBa1E5V1NaN0R0dGh2MUFSZFVqeFM3VXJqLTFXaHJCY2tGcDA4cTJ5dFRhUlVTVW9Cd1dFNmR5MnBqTk0zTERrMEY2bHJsb0k",
-        "CBMizwFBVV95cUxNdGhZNUJNWmFMSDJGWkM5c1B6OXJkUE4tTU40MlpIbWJwUmNzcFhXaS1LNGUtaDhxVXVFMUxsUWJzOEl2T1ZJWnp1Z2dIVGd4WF9CbUxrb05LODJFcXZBZlJjZm9aWjl0aG5RekxKa2RrSzJIcUxmX0pLQzZVUXpBU1U3RkRaVWllTlpfbTRJV1hZc1UtSkI3N2I0OWhnMFNJQ0FJbFZWdGVKVDgyX3BUZERiSHllRlBIZEktQ2xmZEVuQWk5TEVsYk8ydEpxVG8",
-        "CBMi-AFBVV95cUxQZzhQWDVuS1FfeGFSUGtXQzNHMDRvdTIwbnNNRlptb19XUV91SVlvNm93blIxM0VvaXI0MHVwR0lwS05EWUhlYTdtdS1BNlRjRmRzVGV3c3dCU1dFTzI4VGk0UU1KeHdwbkVlZlR6dDM4Vm9xVHpOb05tdmVwSENFX05hUnlkNGhTUzFXZ1JsSEZKamZiSVg1UlN2UVF3Y3hnMXI5Z011NFl3UUx3blVIR041dTVSd1I5bmd0RktoZENDcFZCSnoxbV91S1VSZWpjZ29iMDJ0TDNwcEdHeGdOdFFuYWdYQVdaRmlwaFdXUzZZTHAxMHM0UdIB-AFBVV95cUxQZzhQWDVuS1FfeGFSUGtXQzNHMDRvdTIwbnNNRlptb19XUV91SVlvNm93blIxM0VvaXI0MHVwR0lwS05EWUhlYTdtdS1BNlRjRmRzVGV3c3dCU1dFTzI4VGk0UU1KeHdwbkVlZlR6dDM4Vm9xVHpOb05tdmVwSENFX05hUnlkNGhTUzFXZ1JsSEZKamZiSVg1UlN2UVF3Y3hnMXI5Z011NFl3UUx3blVIR041dTVSd1I5bmd0RktoZENDcFZCSnoxbV91S1VSZWpjZ29iMDJ0TDNwcEdHeGdOdFFuYWdYQVdaRmlwaFdXUzZZTHAxMHM0UQ",
         "CBMiywFBVV95cUxQRm8xWDA1VUQ3eHBxQjlkbVkyRkNybWo0UzVGZ2EtZFJYSTFHU1Z2UW0yVzk2SXFLYlRxQXNmLUZQTjVJYkdBc01xMXEzQWYtcnkzblZiXzltMTN1T3dkdVdiWDlHT3VGMF9ZTU1laFBrVVdZT3BiMXQwR2U3cUY0RFdDTzB3NWM1MzM4WTR3U2tMb0hRa19WdU1ZZW5uQjNFOHBId0tpcmZ4bDBxX2VxaEcxVFhuMDJaSzdYQ0JZUlROMlJXRmJ1XzZ2bw",
         "CBMiywFBVV95cUxONHRTbTlwYVNYMjBNOU1RSkhUMGVZNGVUOWNHRV9hWXNubjVidW4tM2hfUF9HS2tMbktqUnJqZmFWV0tCOGtSRXZGeFhrT0o5c25sVnR2akM0N1V3ZlVKX2xnWklRZkR2MnctekZRLUl1XzA5SEhrY1dPNDVHVXFhU0dsTUhxdGY0OXEzVU5mM1dTQlEzVlJNTFR0R0E1TWpkQWQ0YjRNYnhjUmZnOGM1UHhqeGIwbEdlTF9PekprNXJacWdZWEE5NTBMb9IB0wFBVV95cUxPOUIwUUZIRC1NQ2VWdXNENG9qeVRlVGU2WHpSUXg0eWlPamFSaTRuVUhoclVLdWNranpXeTZSVUNzUElKUFgzNHVadG5kbkVFWl9zaG84VldBQTZKZE1BdVE2V2FmS1ZRYXpSUF9MOHk2VS1MWDdMelRrZ3JkMDZYTU13a2FtdV9NS2ZfbEo5WEVJQl95SG9NQ2MwZ1BsMTlORHo3bjhPOTZ4SWdTZ1RkY28yM21tWWdsd0hEck1hV0tfX05VQUtlOHpuYkFaRGxDRGQ4",
         "CBMiXkFVX3lxTFBCV3NmVXU1bEFrQVFHWXltQ2hnLVl0V0JES3VKX0Z3a2ZSak5LWTlJMGdiWGJFQUY0ajA3MVBPQ2dFdGRqZnhoM2c5SVV6VVBKZW5WeVdXemZNaDRxeWc",
@@ -319,14 +316,17 @@
         "CBMirgFBVV95cUxPQUdnZEYtaE0tODAwTmthY0Q2eTNuZTNGbjNkcFd4MGsxUmxmZlJpS2NJOU5Fd3BJMUhleUFBYlRJTExRbXhSV2t1MWVZRlozbmlGVGE3S3pqcUd3MnByMkdVLS1fVWJhR3dhekcwZHJHUTlnT29KMnQzbDhOZ1pMUkowbWoxX1M1LTY0X1dZSlQ2bS1xcHpaTmFHQ3gwNmxQZHRsalMyajF3U2Q2b3fSAa4BQVVfeXFMT0FHZ2RGLWhNLTgwME5rYWNENnkzbmUzRm4zZHBXeDBrMVJsZmZSaUtjSTlORXdwSTFIZXlBQWJUSUxMUW14UldrdTFlWUZaM25pRlRhN0t6anFHdzJwcjJHVS0tX1ViYUd3YXpHMGRyR1E5Z09vSjJ0M2w4TmdaTFJKMG1qMV9TNS02NF9XWUpUNm0tcXB6Wk5hR0N4MDZsUGR0bGpTMmoxd1NkNm93",
         "CBMiY0FVX3lxTFBqN1lRTjRweGRBY2RJcGlVWXNxV3d3VU5aXzZ0QVBWa1YySnNmclNHVTVHSWZTZ3pGa284RFM3cVRza21xTG1UTklyS2R5Z0g5WFZvRWFMaWFlR0hoSjU3RDZ3MA",
         "CBMiggFBVV95cUxNaHowUE95YkctSGt3NERxQjI0QjRUQU5rX3NyaGNlek1tOTduSnZ6eTF2YUlRYTdFbEVVMG55aUQtS3l0TWZicXFLcFZKRU9JMTZ4UVMybzd6Y1ViSklXZ3FsRVpSX2lOWGYwQzVFODI4cnRqRmRtQzRjYm5tRWtHVUlB",
-        "CBMijAFBVV95cUxOREFSeF8xbVZkdnVlUjhyTkpvQzJ0Vi1mMU15a0EwSFdlZjdLZHZuWjN2d3VTN2wwNWlpcVJCMkRsRWVVZThfeEhqNDRETW9LdVM2cngySnMwaFlnOFhUamlhVU1QdjhrWXhnZFJ0WndmZHYyQWgwS3VmQWhiYlQ2M2kzMlRpS0ZxNDNpZg"
+        "CBMijAFBVV95cUxOREFSeF8xbVZkdnVlUjhyTkpvQzJ0Vi1mMU15a0EwSFdlZjdLZHZuWjN2d3VTN2wwNWlpcVJCMkRsRWVVZThfeEhqNDRETW9LdVM2cngySnMwaFlnOFhUamlhVU1QdjhrWXhnZFJ0WndmZHYyQWgwS3VmQWhiYlQ2M2kzMlRpS0ZxNDNpZg",
+        "CBMilwFBVV95cUxNOFNkNFEwS2pMV3MycDk3TzNOZ3R0S29BX2FQNGg5V3ZNV2NPZ0NseW5KcFhtX2FWS1FzQUlnQ0JId0o1bkpNN2lUMmpSWWFjVjR1WEJ5ZU1YaFhtSFFoYldJMnVZaFJrRlhlVzhvcG9QZDU5TEo0NXktb1o5dVd4bTV5SWN2bjJFSVhPM0xLRVYtbnlMSmhB",
+        "CBMiwAFBVV95cUxQSThGV3pOWkRGNXVpaE02N000eXVfU01qSXExYTFyYVRLbWcxNEhpZDFOUHRkR2owcnRYdGhGUURfX3JVSzNKR1FzclNRSEpQeFc2OGVuUTd5Z1YwOUtBVmw1a3hYdU1DRWVMQmsxOVZhSEx5dE1kTkdxVDhDcTJuWVhNVnI2Tm1EQmI4VzJnblpYdUl1YTRxc2dxM2R1SmlLQWtwMTg2UUhITXgyOVZsd3BKSENtcW9XM2hGY191dHE",
+        "CBMilAFBVV95cUxPMHcwWHBFQmNab3c3LTBRaVJxd0lHcEI2clhvTFdqZjFtYkpZdFBYSUhNNXpjV0pDSnkxd1NIb05EX1BKZmtZbVBNSTJQMVd2bzhjLVB2ZmxZa0RCMDdpZzhaUFlWZnFtYlJSektPVkhlMkRFNmZlUmxDZFY4NUxvcExpX2gyb3ZsTGMzN25qeFhZSW5L"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-07T03:07:55.085Z",
-      "last_epoch": 1791305943000,
-      "etag": "\"0c3e777494e93c5e8faa0a0b7f935aefb-gzip\"",
-      "last_modified": "Wed, 07 Oct 2026 02:40:59 GMT",
+      "last_fetched": "2026-10-07T10:44:32.698Z",
+      "last_epoch": 1791358586000,
+      "etag": "\"0e0078d73302484cfa6bf15be7a55c299-gzip\"",
+      "last_modified": "Wed, 07 Oct 2026 10:10:25 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-giant-cipla-completes-merger-with-wholly-owned-subsidiary-inzpera-health-sciences/articleshow/133348005.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-wing-secures-75-million-deal-for-ei-services-from-international-entity/articleshow/133338269.cms",
@@ -602,11 +602,12 @@
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/ihg-signs-deal-for-130-key-voco-hotel-in-vrindavan-opening-planned-for-2031/articleshow/134733487.cms",
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/pwcs-new-india-consulting-jv-signals-bigger-global-role-for-india/articleshow/134728535.cms",
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/how-ai-is-transforming-indias-bpm-industry/articleshow/134728282.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/neuberg-diagnostics-consolidates-its-maharashtra-operations-with-nm-medical/articleshow/134743483.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/neuberg-diagnostics-consolidates-its-maharashtra-operations-with-nm-medical/articleshow/134743483.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/isprava-group-appoints-former-chalet-hotels-chief-sanjay-sethi-as-strategic-advisor/articleshow/134759652.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-07T03:07:55.101Z",
+      "last_fetched": "2026-10-07T10:44:32.764Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
