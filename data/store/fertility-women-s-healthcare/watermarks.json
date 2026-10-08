@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-08T11:04:31.933Z",
+      "last_fetched": "2026-10-08T18:10:34.729Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-08T11:04:43.339Z",
+      "last_fetched": "2026-10-08T18:10:46.452Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-08T11:04:44.432Z",
-      "last_epoch": 1791438923000,
+      "last_fetched": "2026-10-08T18:10:47.881Z",
+      "last_epoch": 1791473460000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMie0FVX3lxTE14R0xMZDBKeWVLRmZmSVF5dFZCTzBYWV95bFJsX3hCa21ldEdHYXpYOEF4NHktcDJ5SzVqU1NzcFhmdHdSOGtQR001TDlMMEpKcGZfQmhiWmxWVGxoZjJmcDNUZ1V0anB2TC1yX2NXZ3l6WndRSXdDWDZVMA",
-        "CBMi5gFBVV95cUxQaG9JemRGaUFFamRTWXlXbzdQUUpsSXd3a0VwTkZTcWNwNWMwbHVVXy1JRktkUWFtN0tjYUxfMGVhcl8zbGtSY0xqcWRyUUU1WGhHTk1QZjJDdXJfZnVSVXBveWl5clpDSWxTcmtfdWlsVFA5NnBlN1JyX0R0X0xxQWpSY1JMLXZfQUNaRXNsaEJWN2xseXJzN05vMzJUM2tGSU9SOTkyQm9wM19rZkdDYmtvbGlUMnRkdnJKeW5XMnVqYjVHR0VTTGJVaE52bWN1Wk9CUzJBM2JxWFJYTTZkLV9xSXMwZw",
         "CBMi1wFBVV95cUxNZUxGTmxUZG4wUlpUd2Qtc3cxd2F0WjZxOEVEdFRDWEVNVVl4X0trQVBENW1HZjJnLVZWYm00Z0RzZGlrSzlxLWgzLW43RHlVdE45SDBKQWZqejBua2Y2ckgtb0M2MEl6d2tIUHJQTFNaODQ0V1pKWG9YSG04SUNSTFVoVnhsTlB1RnFBemlkRUZXVnRxVE1LRUZ4RVpkYnRHRVEyY19TX01TaVpBMWNoWWtwRUdIbm96blY5TldmMU8tVUdvNUtCbVpaN3FJOHlveVB6SXptb9IB1wFBVV95cUxNZUxGTmxUZG4wUlpUd2Qtc3cxd2F0WjZxOEVEdFRDWEVNVVl4X0trQVBENW1HZjJnLVZWYm00Z0RzZGlrSzlxLWgzLW43RHlVdE45SDBKQWZqejBua2Y2ckgtb0M2MEl6d2tIUHJQTFNaODQ0V1pKWG9YSG04SUNSTFVoVnhsTlB1RnFBemlkRUZXVnRxVE1LRUZ4RVpkYnRHRVEyY19TX01TaVpBMWNoWWtwRUdIbm96blY5TldmMU8tVUdvNUtCbVpaN3FJOHlveVB6SXptbw",
         "CBMimAFBVV95cUxQUWtxbFAyQXFaN1ZBelM1YjE3eUw2VWFpMU5HLW1RaFA4eU5haVEtNzFfemwtSERRQmpKc3REUFZoUi1mX0p6MURGUTB2cUhCd3V3eVN1cXJkLXFwZVlUYUtZWDNiT0VCQUVxMV81ZnVKeEZBam1vSDdIZFd6QmExZXl3WUJTcDZMbl9BdzZOUFI4THlqR1dZTw",
         "CBMi4wFBVV95cUxNQUFVN0NUTk05V3hOVlgzQmFmWEphTU8tTTV1V2V1T3NUUDNGTmFyRG9kb2F3NlpOa19qcW5rX0s4NEIxWHZRUGlqMW5WWl9XNTBrVjNURDEwY2U0aldoc3BLUm1ZT3ZhSWRabVltMklTVmlWX3dDUVFPbE5kZVpHSFEzQnBGZjlfU0xQazI2NGMwRWRFLVZPNVdWT2ltRjRTY25iS0tYZGZwWmxFV1d4Wk1YS1cyZzdSLVpoYXBYckM2TE80cVBHYk1YREZVTkFjcm9ZOXhCQVFvbnRDcEhlVWN2bw",
@@ -319,19 +317,17 @@
         "CBMi3wFBVV95cUxNaDNYLUctdnJvdnVZbWZSUmc1XzNiRi1UUXN0enV3aHhrMkJpY3BkTzJpNk1sb3dkN21saWthdUlieWNZMHF1aXZ4dXp3M3dLY2gzVkk1X2ktWE1GT3A2Wk1rUVpVWEJvTWFDT1Vhc3h0NkZZMkw1YW1DOEFLekVJY1RyN2ZMZzI2a0RzcFJTcTh1Rnh6MzFjQnV3eGRjWXV5YkR5d1QyaHJMNnNubW0tOXVyTzJYbk51czZLNk56WnhCcTR5Y0xqTU84UEVobzJXUUNULVlSQV9DOThXckRn0gHkAUFVX3lxTE1rb0ZOZjJob0lRbkZWSk03YUdPSjFQWnZvU2wtV3JyNVVOMEl2UXJKU0VFcXVyRGs2WDUxR3JnbE1ab0FDNkMwU01JVUtLSWo5Tm0xRDAyRm9XMDFERzVKb0dUYUpzNjU5NTJsMXhsZXFuTlByTC1TYUdLbjBVTmljeTkxbDJUelV6by15eHlXOGxQc2oxeTA1WWZIN2hqQWNhc3lLVE1CU2tOUzR2YlRkXzVnRFE1ZEJycUhNYUczYjFpbE9fRktZWjVLalYyOXd2a2xONkxFTkZrUkI5U3BDLVdFNA",
         "CBMixgFBVV95cUxQVVNlanFZZlJhWjlGOUlzX1BhNTYxRmVUcC1qQjdrRWs2cVRZTXBtZzlEU1hiT0lRZVQwN1Y1VXctNlNYZHJFdWxVcG1VSHo2WFZwLV9hNXpvOTZhNkVicFNDQ2tSX0VkbEJHeHhOVlpTWnhrLTRGQi1mUFY1bXJDQWhqRFhQLTBNdTVZUlNtbzFUY0NRRmV2QmZzMkZxb0dudnc5RzRIOTYwdGhzOWtaYnFNeGtZcUlld2NlXzkzYzZpa05lYXc",
         "CBMiiAFBVV95cUxNRk9WeHh5S3hjeUcwNWszSDNiTFFFWEhkeW5POURtXy1xV1RDazhYMjhfZkhqaGdXdVBaZURQWkpwaVNNNEMybzJ6X0ZmSE1pdG9QRU42SDhSekhSeE03NGFTYjVCak43Ri1VazdiUjFIcW1vTmN4c3NBVTdUNWw5OGJTa2t3SC1j",
-        "CBMigAJBVV95cUxNdnJzRXo5NzdwTlhDS2N3cWxkakllRE5xZUJ5MzJ3bjVOUkF1MExqZUdXSV9FeF9Od2hkV09OMjNxSDVUMDR1anZ1Yzc5WVNSel9rVk51V2ZpTEl1aTdXNXdmaEtDamVWOFlMblFjYklLWE51ajFNUm9ycklVR2QyQUU3RWk5V3czam1rYkxIYjRodlRIRTA2bVFmLW5kVl81X0ltZ0lyamZoUkNwc2JfcVA5OFdzN0k3RzVrQk5fM3F3UU03ekVDUFM0SGd6RElYTWhPMGZYdmpUQi1rcmItYVM0dnljOFIyR0JhVVNGMkFIcTgzcWdSQmhWTGJUNFA00gGGAkFVX3lxTE9fUzNvMm5ORE5HQXQ4N08yenBmbHpxS2k3UkRNSzZoZWFHenZZWlFKS3VpenhqOTJtbUNZUEZrejl3RU1WYVVkcElIaFJTejhrTzNqbjJGUTl4R3VpcTczY0xrQWZaU3B0b0tVS0pjYXlKTDJlWDNUeUtkOTN5WUFmOXZFTGhFUGQzNmlxNXJ6QUdMVjdtM3YtMXpTanJGeUo5RHJvc2dkN3k2SzlpeF9YTUoxV1JhaTN4dnZUWnFJQTlrWDBIVmpSblB1NENjOUEzb3FEV0lMRVpyczZSMmNfS1B4aGZNVDczak5Lc0pZcVNGSm9CNFNJSFRaOHFPbEZ1cndrZGc"
+        "CBMigAJBVV95cUxNdnJzRXo5NzdwTlhDS2N3cWxkakllRE5xZUJ5MzJ3bjVOUkF1MExqZUdXSV9FeF9Od2hkV09OMjNxSDVUMDR1anZ1Yzc5WVNSel9rVk51V2ZpTEl1aTdXNXdmaEtDamVWOFlMblFjYklLWE51ajFNUm9ycklVR2QyQUU3RWk5V3czam1rYkxIYjRodlRIRTA2bVFmLW5kVl81X0ltZ0lyamZoUkNwc2JfcVA5OFdzN0k3RzVrQk5fM3F3UU03ekVDUFM0SGd6RElYTWhPMGZYdmpUQi1rcmItYVM0dnljOFIyR0JhVVNGMkFIcTgzcWdSQmhWTGJUNFA00gGGAkFVX3lxTE9fUzNvMm5ORE5HQXQ4N08yenBmbHpxS2k3UkRNSzZoZWFHenZZWlFKS3VpenhqOTJtbUNZUEZrejl3RU1WYVVkcElIaFJTejhrTzNqbjJGUTl4R3VpcTczY0xrQWZaU3B0b0tVS0pjYXlKTDJlWDNUeUtkOTN5WUFmOXZFTGhFUGQzNmlxNXJ6QUdMVjdtM3YtMXpTanJGeUo5RHJvc2dkN3k2SzlpeF9YTUoxV1JhaTN4dnZUWnFJQTlrWDBIVmpSblB1NENjOUEzb3FEV0lMRVpyczZSMmNfS1B4aGZNVDczak5Lc0pZcVNGSm9CNFNJSFRaOHFPbEZ1cndrZGc",
+        "CBMiwwFBVV95cUxNUXpOVTZBMmFkWG5UNkN3eGtrcUJKLUZ1d3E3Z0V0LWxqbVp2MzVCazA0UWRaMHBFZFppTFg2MGJ1STBHZVhObk44anJtUnJSUUhCczRhVlEzeVlLb1N6S2R3dU1oWEJxdnh1b2RGQmdNdlAwNmZLS3hwNjhkb0NwRnJUT3ZTRHpSWEMwYzJXaW9fYW0yY0RtRmI5U2JpNU1QQXczX0RaTnlWQ29EeGlsZDRaUU1OQzVnZzRPV1JiQjA1R2c",
+        "CBMivAFBVV95cUxPWnk4cEpwODc1MF9PZ1dwYTJaNDZMNTE3eHFkR2ZpMVNwYkhHRXFUSWlGTGdWYjEya3BNUFl1SGJheWVSRlFiY0J6VGF0OWp1NjRYQV9VbS1zQmNsSWw3bTNDeE5VUmVmZXp2YWo4WDJsNGcxdzktYVFfcW1vSzJuVFlvOUFnOTRJTjlVcjYwUTdkd2xRSEEzNXFiYmIyQVpXN0NXZ2hvd21ndmdkWUZRaFBybDNNcERud0FpRA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-08T11:04:44.489Z",
-      "last_epoch": 1791455188000,
-      "etag": "\"0b8dea4cf0da56cceb51c9b254118972f-gzip\"",
-      "last_modified": "Thu, 08 Oct 2026 10:48:06 GMT",
+      "last_fetched": "2026-10-08T18:10:48.043Z",
+      "last_epoch": 1791481137000,
+      "etag": "\"045087b867f9cf584558ab80d2c780a6c-gzip\"",
+      "last_modified": "Thu, 08 Oct 2026 18:01:13 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/transportation/railways/whitefield-tughlakabad-container-train-to-cut-freight-transit-time-by-30/articleshow/133795734.cms",
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/after-10-years-of-india-feat-jio-sets-its-sights-on-global-market/articleshow/133808067.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/paints/paint-makers-expect-healthy-fy27-demand-amid-price-hikes-competition-intensity-remains-high/articleshow/133837223.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/growing-peptide-trend-raises-safety-concerns-among-doctors/articleshow/133837070.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/indias-festive-season-promises-strong-show-as-quick-commerce-reshapes-online-shopping-battle/articleshow/133832061.cms",
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-explores-pe-funding-for-consultancy-accounting/articleshow/133849142.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/nalco-partners-with-ega-for-advanced-dx-ultra-aluminium-smelting-technology-in-odisha-expansion/articleshow/133888872.cms",
@@ -627,11 +623,15 @@
         "https://economictimes.indiatimes.com/industry/telecom/india-targets-1-billion-5g-users-by-2030-and-aims-to-dominate-6g-technology-says-minister-scindia-at-imc-2026/articleshow/134781395.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/supreme-court-seeks-committee-to-curb-pharma-firms-unethical-marketing-practices/articleshow/134781122.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/railways-targets-11-trains-with-40-hour-journeys-passengers-may-soon-see-a-big-change-in-how-coaches-are-cleaned-en-route/articleshow/134781222.cms",
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/oligarchs-india-responds-after-musks-allegations-of-bias-in-satellite-service-approvals/articleshow/134779423.cms"
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/oligarchs-india-responds-after-musks-allegations-of-bias-in-satellite-service-approvals/articleshow/134779423.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ai-native-networks-6g-to-shape-next-phase-of-telecom-global-leaders-say-at-imc-2026/articleshow/134797217.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ai-native-networks-6g-to-shape-next-phase-of-telecom-global-leaders-say-at-imc-2026/articleshow/134796979.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/fssai-issues-notices-to-dr-reddys-nestle-health-science-amazon-flipkart-over-misleading-protein-claims/articleshow/134794830.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/jio-to-always-stand-for-affordability-akash-ambani-on-tariff-hike-by-competitors/articleshow/134794832.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-08T11:04:44.551Z",
+      "last_fetched": "2026-10-08T18:10:48.068Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

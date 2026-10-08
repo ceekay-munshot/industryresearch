@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-08T11:05:36.565Z",
+      "last_fetched": "2026-10-08T18:12:04.726Z",
       "last_epoch": 1790090494000,
       "etag": null,
       "last_modified": null,
@@ -14,26 +14,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-08T11:06:12.500Z",
+      "last_fetched": "2026-10-08T18:12:16.282Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-08T11:06:14.948Z",
-      "last_epoch": 1791447330000,
+      "last_fetched": "2026-10-08T18:12:19.033Z",
+      "last_epoch": 1791479075000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMinAFBVV95cUxNOS1JMUx3RnFXWDRYMnRsbXVic0ZjYjZzWUI3bi1ueGRxNHUwR1BhN3dNRVE1M2IwaXg1SUxiaDhOWEtYQXdTWG93RnRDRDNqMGU4eGV5NXBSSV9wN2R5cks3WUtyUzdfdzhMWnp0WjNBZ2JrVVJTLWc2RzN4elNSQVpocGE5Q09pVEJqRHNpN3g0WkZTTWRFeUQ3LVU",
-        "CBMipAFBVV95cUxOekNhSXNHaEludnFVTUxVZzdndEU2cDFJX1hLamR5WnVHZjE1VUVIR3JzMzcyUGowOHdQRndSUzZnWm1Ydnp4T1hJaFBmQW1VQzhwa2QtNjlkSC1oMDZfbnlkRFZVTWdwekMyd01yNUM3aDMwMUFkVEI0OEhvdnVVNndzUFU0aWRMV0w5Q3VfRG8zR3BiOU9mTWtXa0JMMnBqWjc5Rw",
-        "CBMiwwFBVV95cUxPNXM0bG1yb2JZM3RJZmZydmE1a1JTR3RPX0ctMHRBbWhlMXgyNkpfZ2t1SURpNzJudVU1d0NuVW9za1RQWjR3ejVxQnA3UFF3c3liTDREU0Z0QkpyRmUxQXVkWktkekIyTlVBNWZiTUVGZmdmMzdaNGtkLWtyd0EtR0FzYUljWVg4Tk1yZGZaZVFtWWxhWXZUYnp3MUxzZjNWN216UGx0QmdIRkc1S0hrdEYxNmJvX2pfVUFGcGt6VThybWM",
-        "CBMiqwFBVV95cUxOZGJZd1VXLXlOMnk1amFoUEVMNjBrV3QwMU04ZDBqTzNVYzZBTVFDREFfdHdMQnQxcDE1NXNLMGZBVm1ULXNhR0R6N2dGQUlEQ1ZJWDZ3WEVqM3hmc3dvMV9Ma2QyWkNWSTBZdnhSTWkyVEVFeDI0eWx5ZjY5TlpObVdUbURGcnNYTnhNMlAyU2lCd1F4dTB5OEY2SDNFWGRZVlNTdnBKb085cFU",
-        "CBMiwgFBVV95cUxPVTZoVzdaVHhDbG5idzhOUGFNUEVrb0Y5dVlqek9fZUNHTEc2Vl9BblFtSGVSWlhwNUZRdXdYeUZDRkY3Y3hOVTdXd0tZeE1XZkM1WTZQVVFRbVBOOXdESElFLXdoWDRDQm1lSkd0ZWF2eHhzVlFST0stcnYxeTdWNURRYzlyaTlIZWpqRUZvN3RUZTA5MmU2Z1pnZjNHMlNMcl9wQThZeUQ0bzJlNGFQWFg1QlRWSS1XTFVvOGlhQk1EQQ",
-        "CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ",
-        "CBMiqgFBVV95cUxPcXplM0xpbjRzYjhBdUtDekJhd0d2TmhPc29VY1lwWUhzYWdna3ZiM25VSkFZdUhuMEhSSnktR3BnZ2NQTXBsekVoOGhmZnRuSkoweW1Ta2RNTXY2VXZUQnJURW9ZeFRib2tJcDZZNS1DaDYwUWtmWUJfS1lJblhtRlFEU19ScW40eXJobW5QQU1DQXRIaHVnYlRZdUpjM1ZVYnZzVmgyUDNMdw",
-        "CBMinwFBVV95cUxNOTE4Q1hOd05wS1B5S3NiWVMyNjRmMnBTZ3EydFNxakhKYzI5dEI1eW1HWmNOd3hlSFJCSWlNRUZNWVNYU3JtNnpwN29oRWlWQmZ6QmRnSGVJX2xtbXkwSVc1SjFJdUFueWFzcklqSlJCckFKSlhjMlh1NEh4TC1WZ2UwT0QwdXhpRDRmUjl5UDlrNmIyRWJTRER6eUxhOWfSAaQBQVVfeXFMTTl4aG5ySURaWXZqNHJjZDdJY1ZucEpRUE82LUVVcmxRQ1ppTUxNZDhFYUF4SU5TaU5OdW5ZTFFnM3FHZ1hPQTVweklOaHJ3b1pVZlFnWnR4X1V6RTI1UUlnNGRCV1F3SGMzUkVVanJCbm9OWGhUTnRKbFVyRWRCR3JHS2twMkVZTzZudGxRS2pLRlFyZ1RWekRPdUVxc2Rtb0ZQX2k",
         "CBMidkFVX3lxTE1GRnV4OW9vM1I1cDRTNnJOMzVhMnBaWGtXNVV1V0wyM2VxNzBid3JFbjI3NUgyUDFLX1NYTm14ZVRrUnpZSlZlQkYxWmxWOEFOdkotZU5jSlJ5Q2xaaDVsdE5rWU9LbkhzbmRDVnZmTGQ3QUg4Q3c",
         "CBMiwAFBVV95cUxNbGhSS3ppY3VLbEZhRE0yTnVfUTBFNk1ncjI4YmRUd25MV2lzZWVoOFdzT3ZyaG5Td2hWbDZPU0FVSkdEcGR3dlBkX1FvNFpjMjVTblFSaWhIbVRRdXU4bFRPcV9QZXA1d2U4N0RkQ1pKVmk1RkozdjVLdG5uaVZaUUdkS3JvMDZYemRmMkJQTG9RckdEMDBJdWlZQ1VGT1Q5eE9BTGdzX2pFVndMaE1HWkg5LWV1czFXeTk4aXI3NEk",
         "CBMimgFBVV95cUxPZ01GX1huVnRwQ3NvYjBUOEwwbUFZUEdLeFVFajJiNW9OMTdMMGhkQ3RVRVk1cUFrQkN0b3ZHMHFCSjBkNnFCZWFtQXBIQjVqUGdqbXVpTFBFRmpFZXc5UV9EakU0RWRZYlpjOVJ2cVEwSTlfZHdLYk5saTVLcFFqNHpxel8tMlBMWGZBTkZiSDZxMDMyU19xSlNn",
@@ -325,14 +317,22 @@
         "CBMivAFBVV95cUxPZWZZcWFvTkduTmVodU9OSjJ3emFEOExRaEI0Y3ZENjMwSm54aVFQRjZKMFVzMkstYUhma0V1S3Z6eE9aLTdsN0pBcWpxWFA1WTN1V3ExM0lWNFpZQ3YyT3hpT0xIbjl6dllWWmRINl9xdnRiQXZzOTdUbnR2LWZERU5RVmw0N0F6aG1feTVjaWJDNkRjUjd0a1FsUm9zME45XzFEbjZUVWJGMzRPRkE1Zm9tTi1MMVVrQWhRMA",
         "CBMiuwFBVV95cUxQRmdQTDN4LURuNnhTQjlvRkliTFBXMVhuTnA4RWlyRjd1cVFQTmlTcldPWmx5UExqYmIyNE5TT1gxNTlpQ0JLSzlmZ2xaZFluamZpYmRDNzhaV0VkYUJfQnFId0FJbmpmZlJOZlRlckZ1d2dLVFpXVE5zODdpV0wyNmtONlNWWDVYcm53NG9XR2tBQ3FXTWFSQk4xcnZLNUVtU3ZmV3Bxdl9HV0hIN1MwM0F5YVl5ZGk0REx3",
         "CBMixAFBVV95cUxNeVhhVmpESkN1dU9ocXVpTk9mN28tREhjSzFtQ29RX1BIbjhweGFQd0F2WnY3SkRtMzBEc25iUHlwMEpQdzlYRlpEYUZFRnU2OThwOHF0VTRLd0dudkJZb0NkRGlZdGdFcHRjeFhJbnRJeXlnbldhOUM1T2xEMDJ3ZDhWanBPc0pSUXl2OEpaQjRyaXp1UEpHMHRLZjN1Q1M3NU5LZjJYNGZQNUxUY2hBcUt0dUpoV3pIY0JTeUZCQjk5aXJV",
-        "CBMiogFBVV95cUxQYW1rbkp3SHdObXk2eEJScW1ZWklTT1JKSlRGZHJId3Z1aFdDc3pnZUNGZ2xGSkNfVUVnQUtiaU5SWWFqNUJORmJsTzBlcVphTnQ4cTdUU0VnMW1OUGxSZktBNkJpV2pyaW1ORXF3Qmp4Tk9LVnZxY1p2UVdGbG5GY3lGdEVrMVlEenpDZ2tPN3dUdXJTbFJkdm5Tb0RVd1RKRXc"
+        "CBMiogFBVV95cUxQYW1rbkp3SHdObXk2eEJScW1ZWklTT1JKSlRGZHJId3Z1aFdDc3pnZUNGZ2xGSkNfVUVnQUtiaU5SWWFqNUJORmJsTzBlcVphTnQ4cTdUU0VnMW1OUGxSZktBNkJpV2pyaW1ORXF3Qmp4Tk9LVnZxY1p2UVdGbG5GY3lGdEVrMVlEenpDZ2tPN3dUdXJTbFJkdm5Tb0RVd1RKRXc",
+        "CBMitgFBVV95cUxNY1Bic0VhVWU5NVVMNWxfTzl3WTJPenlXS0JGVzl1cW1NUVlzWHhhcDBteV9nUUJrTFlmVG9DZFpnUGF2N1A5amJoeTItX2pGUnVDaUFjb1UtRGNyZ0N4UzdKeHR4RkYzTkxnX0VSV3V3ODlWMFJiYVN6QkhGU2IyYVh6QmZFQ1dWSmVFalpqX0IwcS03TklBazZFcU1wX19qSmdSNHlLVUdiMzZpRDNVczFkTmNYUQ",
+        "CBMibkFVX3lxTE9qYnhQam5ib3RlV2dqV2JGVTJpR1pVdS1FQl9PRTRrRXNRS1dBTlE1OWlReGtCYVpyd2RwNTBXNVVRVDNvNXhvRmpsNDFzM085eE40LWlQVnczNk1TRlo4TlZwc2VwSUpiUjRpSlVn",
+        "CBMiqwFBVV95cUxNd0xSeUJMN1Z5WTVsa1dlQzBETmdtYVhnV1VkbXVxVjFNMVVCWXlkd25CaTJYRDhJUWRhUkJVMFc0WlhWQ2Q2VW1wSnRNbm9jQ3ZMcTBnbWJSamgwU05UY1AzbDM0U0xtRXQycnZ3TG03TEtTa1RNa1h2TUlVQzlzODFPbVRkZkpTTWhkRmU1a1RZMnNlTmRRMU9yQ1dVMDhmbU92QmQ3WHBoWTQ",
+        "CBMiqgFBVV95cUxQcUQ4VTRuTnExalpwWkw5RGp1SzZQaGxWRjJ5Wm1kTThSUnVNNDFwX0FNcjJ2Mnh5MW5zcGJxTWpxTUstT0VQQlFlRnhXNDd3WGNkX185b1VuUEJoYVpUWmdqZm1nbVZOdF8yLTJOeTRLY2wwRXRZVVQ1R081LVRVTG9jOVlmWkp3OGtEM1FobGFmNFlVTUpDOWtPVnYzaUdnWXNxb2x0eWJyZw",
+        "CBMimAFBVV95cUxOTGhrM1FseTJnT1R5bkctdkJ5TEFFVGFORmoyQnNFdzI0am9zMVRhVndSS0RwSzBGVDFaWjVJcHhtVkRpenAxT1RhMnhPWDJydFVtQUhIcHZFTXhqTmk0OElCNExDNk0wR25hQTA4WEJDUUhrc1R2VVgyTlY5STAxejV1ZGR3SkZoY3g4RzZTTUlZdkFDWDFRNw",
+        "CBMidkFVX3lxTE9HeWJ0MzBWR2V3WlFoN2xlOU9IQWVNLTE4UFN4cmxadFF5OTNGSWxCNzZFODRHd3JjaGZSRUJfSDY5N09jZTV2bW45RjJDb05PYm5KMUZVdXpZUk94dkpCVUFNWGRHbS00QmwzSC1LNW9zb0IzdkE",
+        "CBMi4AFBVV95cUxNaG1QZFB3dWtybVpCa1Z6U3NLc1FWY3B3ZkdZS2tmRTRNZDVxTDhNbUVlcDJQY29qTUZhSGIwb2Y2Yk4wX1BocTN2SWdyNXZ5ZlRqOWh0c3hOVmdpcWR2UHZwMGJQZm9RS2F4MG03SDRaYWxVb2xLY1ZQUlRTNkNRWThnWko4NDh0WTd4bWlqTTZldFRObW8xNW9vbU1Tb3otM2pITTdrSGxKMWlWY0dCX05xdGFUbTU0TEgwZTBseWZnTlA0a1VVSnpqVllYQ0JPOVBZeS14ekZzWS1SMFV1QdIB6AFBVV95cUxOd29nbDlETExjTFFNTG1uWFBsWGR1OHlRNHRWZGRCSm5OM18ycUZ4T09RWno3THBzSjVpRlk4NDkxcExTVW5XbXcyRjJHbVNiRWtFM3hFd3BnbTRwTW9ldmpRTE5QM1Jkd01mTElQTU96VWJHVVNnSVFRbUI2THA3STM4cFJ1d0xqeXgzTTlrcUhFZXlPNXVRNEgtZXUxcDVjU1pCT3NMRjd2LVQ3LWpnYzVJRlVSanBmbzNyZGNZQnFTZFI1dDN1Q3JOWXJRd2k5UlhRQUt4bEdlNHZTNE5ZOElWSDF2bXN1",
+        "CBMi4wFBVV95cUxObW5rZkxWTHctcG1QTVd2ZjJ0NjVuN2JON1gxWUYzaThRNDB3aUpKc0RVLXB4ZC02VmUyeUE5Z241UHhfUTBqMGJIdEwtWjBWeUlEVlVmaTVabXN0QmVKYlpVOGpGQ0MzVUZKZ1F5eEg2QjlHYV9DNkxYM2ppZk90LXdLdE83VmFHcG9FRVAzM2Z1cDJMRkhEMTBlRW5URmM0dEE2eU9kUEl0MEI4LWFPRUlZT3JPWGZYVS1JOHRUVHZhODBnaGJ1ZTdnTzYtQVh1dUp0NmU0MEx6bm9sVDVZUFBKSdIB9wFBVV95cUxNbzdDbEthclFvYW1mY1NyS1M1Zi11c3JjVnczSlZ6UmhwU0pqd3RBVjZjU1hfWGhiMk5hRnUzZjEyN1I0UWxGYWNlSEtMQzNVVFJ3S0dOVzFtY3RVWXZqR1NwLUtSRjZJZmpCc2VNcHBnRzlFWkNVYlJjVjJLVEdXNkp0Yi16ZWhQS0FrN0Q1WmxVQWljS2h5MWpXWkN0X2RTNG9xUjBFdVZDWDJoWXBMMVNlN1h0TXM2NkRIUHdGZjlwLUM1QktGRGdabC1MY0VOY2QyRVZndF9zSFlSQmZ2Wjh6SFdOQ3ZOdUI2aldRZEpkbDhLTl9F"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-08T11:06:15.116Z",
-      "last_epoch": 1791445912000,
-      "etag": "\"0b8dea4cf0da56cceb51c9b254118972f-gzip\"",
-      "last_modified": "Thu, 08 Oct 2026 10:48:06 GMT",
+      "last_fetched": "2026-10-08T18:12:19.066Z",
+      "last_epoch": 1791481137000,
+      "etag": "\"0674c5fae4ee7e594ebfeedb7802f3cb8-gzip\"",
+      "last_modified": "Thu, 08 Oct 2026 17:45:12 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -386,11 +386,14 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/finmin-asks-pvt-banks-to-increase-participation-in-govts-financial-inclusion-schemes/articleshow/134741794.cms",
         "https://economictimes.indiatimes.com/industry/services/education/agentic-ai-in-financial-services-how-banks-are-rethinking-lending-risk-and-decision-making/articleshow/134759034.cms",
         "https://economictimes.indiatimes.com/industry/services/what-happens-when-ai-starts-fighting-cyber-threats-on-its-own-heres-how-agentic-security-works/articleshow/134759049.cms",
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/pm-modi-urges-global-telecom-industry-to-build-system-to-stop-cyber-fraud-before-it-reaches-users/articleshow/134783836.cms"
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/pm-modi-urges-global-telecom-industry-to-build-system-to-stop-cyber-fraud-before-it-reaches-users/articleshow/134783836.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ai-native-networks-6g-to-shape-next-phase-of-telecom-global-leaders-say-at-imc-2026/articleshow/134797217.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ai-native-networks-6g-to-shape-next-phase-of-telecom-global-leaders-say-at-imc-2026/articleshow/134796979.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/national-medical-commission-bans-doctors-hospitals-from-using-ai-generated-patient-testimonials-fake-cure-claims-in-medical-ads/articleshow/134790519.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-08T11:06:15.247Z",
+      "last_fetched": "2026-10-08T18:12:20.704Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
