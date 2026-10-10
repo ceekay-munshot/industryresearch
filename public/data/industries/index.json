@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "e-waste-recycling-management",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -187,6 +187,17 @@
         "BOPP Dielectric Films",
         "Capacitor Films",
         "Dielectric Material Films"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "e-waste-recycling-management",
+      "name": "E-Waste Recycling & Management",
+      "aliases": [
+        "Electronic Waste Recycling",
+        "WEEE Management",
+        "E-Scrap Recycling"
       ],
       "is_manufacturing": true,
       "mock": false
