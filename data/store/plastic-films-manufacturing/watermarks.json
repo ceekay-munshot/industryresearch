@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-09T23:44:13.120Z",
+      "last_fetched": "2026-10-10T10:19:01.721Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-09T23:44:35.556Z",
+      "last_fetched": "2026-10-10T10:19:32.740Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-10T03:09:27.303Z",
-      "last_epoch": 1791568309000,
+      "last_fetched": "2026-10-10T10:19:33.113Z",
+      "last_epoch": 1791621954000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -194,14 +194,16 @@
         "CBMi1AFBVV95cUxNYWVTSGJPb2hFVWdhczZ0LW1NS2hfbUtPd2JoRUlDZ3hQM2p0MFhkcUJfU2F6eFQxWkFYck5GZWtsWlJ4TW9KS1B4RHFhRTZjaUI4TGU3ZHhsaW9TRkJMZTBnWXNicGx4UzJ3ZTR5WlVSSExTb0pVcFF1UTgzZHo2dlhjcVd1Ql9NVkJIN3NIRzZpdUdfRkFnajM4U3lRNUo0ZjZmX196ZHh3SjRaYklLcEhNWUY1N0ZLMDNDeklDTUZ4Z0NCOGkzRFZiMHNueGRJNHVEbw",
         "CBMiowFBVV95cUxNYlpVZnlXTUJvNGVGNmpvQ3BDdkVCVlp1U2JHZk9uZHVPY3AtbWV5TmczY0lMSFdWVG1zYUlSNFppc28tZ0NQRlE4bUlEUUlEX2o2R3Y2ZzFsMlpDb09FYzIyRXc5eXphcHFCeVNBUzcyT0U2dkZkZ0RaeDlRb3AtOG10R0h3WnAyRFFUeDFsR1hiUXRKcW5ZSkFNVVNsekY4MVFB",
         "CBMikgJBVV95cUxNcnFMdC1UczdKeEJfamRZMnFRVHI1VGJibHM3X1lRRHo2SFQyaEFkbTJVWGpmbnlEZ1JkR2NvbTlZODk4czNVVFJKMUxvc0NmMVZqQWFHUU11bS0wRks1YW54dkdNbUFmdjdIdWJPRnJ5VmRIZENkZzVzdEN6Z3NOM3owT2VuLXBpSXJ6Tzd2eXNsLTd1emxEVjU0azdVRVA3U3FjMWMtSDdvSk9XME1ENVVmalh2eXhvR3g0VVFobnhzSmc2Zlk5bW5LbS1mTC1UUWxkcm8tM3BYSjFVMjJlQXZWZHJoRnU2b2ZfXzFvRllTSEFjdUdLOW5PTllVZEw4Y2ZYd2tsMW94UmFuTExFZXJn0gGSAkFVX3lxTE1ycUx0LVRzN0p4Ql9qZFkycVFUcjVUYmJsczdfWVFEejZIVDJoQWRtMlVYamZueURnUmRHY29tOVk4OThzM1VUUkoxTG9zQ2YxVmpBYUdRTXVtLTBGSzVhbnh2R01tQWZ2N0h1Yk9GcnlWZEhkQ2RnNXN0Q3pnc04zejBPZW4tcGlJcnpPN3Z5c2wtN3V6bERWNTRrN1VFUDdTcWMxYy1IN29KT1cwTUQ1VWZqWHZ5eG9HeDRVUWhueHNKZzZmWTltbkttLWZMLVRRbGRyby0zcFhKMVUyMmVBdlZkcmhGdTZvZl9fMW9GWVNIQWN1R0s5bk9OWVVkTDhjZlh3a2wxb3hSYW5MTEVlcmc",
-        "CBMiogJBVV95cUxNTlpLcEZRRzZTSlJET05id25RZXBBWlN0ZTdFUWRPZkgzc0hNbVZBd2lOVTdITHlqX01ibXZkckZTcF9DQV9uOWhaSmVRaFotUFJuNnJmbVpfSFBLdXJMbEFodzRUa0Z0dm9UbkFaQVFZOWg4VnRaNm9UMk9JNWpZUjN6Q0FWV2V4elVZSGpMeVduVnpXUGJKYVNlMTZKVk0weW13NHhqZ0VvMHgtMVRfc1dKUXJZR1ZfdnNmYm1oTEV1ZkpkYnN2eWlUT0lxbXVyUTBsd09NUENxU0M5WklwUlE4djBkUEZJSnhfMmJJTks2Wk1nR1ZBTkM2cVFQazNCTk01UjMxemlQOWFoX2cyRkZIWE5MRHFpTnVpWER2Zktmd9IBmwJBVV95cUxPM3NIVkhrSDVfdTIyS3E0X1FDVXpXMUZFMXVOZ2UyUVB3RUdJdloyUWxFd0NTSXNwYUF2eEFzTXJPV2lLYUQzR0JvQThlR3pILXd0YUN1WmxkZVJGTnVzZm1iR2NRQXE4aGJQT21Pb05pUm1GZWpiYkR6ZG9yTm5oY1dIUGpHZGdpT0pPNWdaQzZvZXVRQkUzUXhKT0xHN2UxWlpaSnBoaHUyenBEUjNZOWFFajdva3hscUxTdU5pcFhEa0xnMDdvUElBNEIxOUhIRGdPbnd0N3JPQUtLcWRmcWRhOXdlbjdlMHJHZnpNLUNDbHpGc19zTzg0aVl1Mm5yN2VfUjNqTW9vYkV0alhrVUZ0QXN4WnFPUVhr"
+        "CBMiogJBVV95cUxNTlpLcEZRRzZTSlJET05id25RZXBBWlN0ZTdFUWRPZkgzc0hNbVZBd2lOVTdITHlqX01ibXZkckZTcF9DQV9uOWhaSmVRaFotUFJuNnJmbVpfSFBLdXJMbEFodzRUa0Z0dm9UbkFaQVFZOWg4VnRaNm9UMk9JNWpZUjN6Q0FWV2V4elVZSGpMeVduVnpXUGJKYVNlMTZKVk0weW13NHhqZ0VvMHgtMVRfc1dKUXJZR1ZfdnNmYm1oTEV1ZkpkYnN2eWlUT0lxbXVyUTBsd09NUENxU0M5WklwUlE4djBkUEZJSnhfMmJJTks2Wk1nR1ZBTkM2cVFQazNCTk01UjMxemlQOWFoX2cyRkZIWE5MRHFpTnVpWER2Zktmd9IBmwJBVV95cUxPM3NIVkhrSDVfdTIyS3E0X1FDVXpXMUZFMXVOZ2UyUVB3RUdJdloyUWxFd0NTSXNwYUF2eEFzTXJPV2lLYUQzR0JvQThlR3pILXd0YUN1WmxkZVJGTnVzZm1iR2NRQXE4aGJQT21Pb05pUm1GZWpiYkR6ZG9yTm5oY1dIUGpHZGdpT0pPNWdaQzZvZXVRQkUzUXhKT0xHN2UxWlpaSnBoaHUyenBEUjNZOWFFajdva3hscUxTdU5pcFhEa0xnMDdvUElBNEIxOUhIRGdPbnd0N3JPQUtLcWRmcWRhOXdlbjdlMHJHZnpNLUNDbHpGc19zTzg0aVl1Mm5yN2VfUjNqTW9vYkV0alhrVUZ0QXN4WnFPUVhr",
+        "CBMiwwFBVV95cUxPdU9LZ19XVlFBZUNpMTdxbWRNNWFNdGowaktkMDBYQzJDdHM0bFRlRU9JYW0zeWRkZ1BaRm4tSkp3NWtiX2c3ck45QzZiQ2g3NFlRaUk0Z3ByaTlNQXpiTHJjY3NxV2RRWjBKeTlkcWpmdVI4SWdWc29XWENFMm12aFQ0eXZrQXc1ZEQ1S0FGV1U1UDdhblRZT1dkMHR6RG5idE42Y0lwMXRSN0hKdXBuSFE1aVBEQXhLOUVualdZWm5HNjQ",
+        "CBMioAFBVV95cUxPSnpSRGYtLXF1MG9GbldCWUxoc2xFc1o5Q2pHWFJJM1o5T1BiZ3NzNi1MRHNaUXo4UnJva2NpUThaNmh4WjJNaDZsU1MtV0xIeExsTE92Q3BJTHhkSkY5UFM5dGYxaG1oXzk3RGxGdkVsbjhvZzdqSnQtR3ZGRHQ0T01qZ2MyVjh1RmhMQkdNdHJMMHMxNmRwYTY2TDJ4aE5X"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-10T03:09:27.343Z",
-      "last_epoch": 1791520146000,
-      "etag": "\"05bf7701eda16b993870dd93be0cd4775-gzip\"",
-      "last_modified": "Sat, 10 Oct 2026 02:56:16 GMT",
+      "last_fetched": "2026-10-10T10:19:33.215Z",
+      "last_epoch": 1791608090000,
+      "etag": "\"0a273a44d7eda2fa0ff7ae40a9df771a4-gzip\"",
+      "last_modified": "Sat, 10 Oct 2026 09:53:27 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -227,11 +229,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/aragen-life-sciences-begins-operations-at-high-potency-platform-in-hyderabad/articleshow/134764668.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/gujarat-to-turn-ocean-into-next-big-industry-rs-100-crore-marine-biotech-corridor-planned-in-porbandar-seaweed-algae-microbes-could-soon-fuel-new-business-boom/articleshow/134784698.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hdfc-capital-godwitt-group-to-develop-100000-bed-workforce-housing-platform/articleshow/134782904.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/food/karnataka-food-safety-officials-inspect-45-ice-cream-units-seize-expired-products/articleshow/134806862.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/food/karnataka-food-safety-officials-inspect-45-ice-cream-units-seize-expired-products/articleshow/134806862.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ericsson-india-md-nitin-bansal-on-ai-native-networks-6g-and-indias-manufacturing-push/videoshow/134847568.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-10T03:09:27.361Z",
+      "last_fetched": "2026-10-10T10:19:33.258Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

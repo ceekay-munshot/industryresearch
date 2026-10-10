@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-09T23:39:17.783Z",
+      "last_fetched": "2026-10-10T10:11:45.704Z",
       "last_epoch": 1790250749000,
       "etag": null,
       "last_modified": null,
@@ -22,15 +22,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-09T23:39:45.994Z",
+      "last_fetched": "2026-10-10T10:12:15.142Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-10T03:09:06.812Z",
-      "last_epoch": 1791569596000,
+      "last_fetched": "2026-10-10T10:12:16.412Z",
+      "last_epoch": 1791607117000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -330,21 +330,23 @@
         "CBMiakFVX3lxTE1JWFhwMEJkN3BrRU5WMDJCdWYyNnBtd0VUWnMyUmtOcmxGQ25fYVBWUHJhZjJwRVVkVTVfUE9mU0xfVVBwSXkxanM3VTN4b1RnZVN3V2VLb2Nvd01KYllfdzlCVncyNC1Fc0E",
         "CBMiZ0FVX3lxTE1VdHFGUlBNWTZBdjJjVGcydy1HanRuWjcxZWkyRXZ3R25QV1Y5OW5sQVV3M0tSV2FNOXVXcHZtdjFka0lDMDlZeVVsSHNNc0lXYmdPVmQ1V0NDTDA1TTViNk92SDM2SFE",
         "CBMi4AFBVV95cUxPX282UnB4RmpWdzBuazZhQ29ZbXJidVg0eV9aclFqV1NEbmVIeW9veFJ6VHU5enpnUGNXeDlmTjg0cF9heWJQWmN3bG9vdTZZS1JibzJMeF9hYkd4ZlFlb0VoUHpOcDJMeVNCeFBVVm85akNPMnNRSzV2M1J5MHMwYmFRUUlqS2x4RlhMS2xlVU5WX1VLaVNIR0tCZS15eDBDR2dOMmwyaU9MVVVYTnEwR3FyX3pQZTFXWVRRZGIybkpFb0tEb1VfUk16UTVyQW5yYkJ6amNTNTFXYTUtdnVxRtIB4AFBVV95cUxPX282UnB4RmpWdzBuazZhQ29ZbXJidVg0eV9aclFqV1NEbmVIeW9veFJ6VHU5enpnUGNXeDlmTjg0cF9heWJQWmN3bG9vdTZZS1JibzJMeF9hYkd4ZlFlb0VoUHpOcDJMeVNCeFBVVm85akNPMnNRSzV2M1J5MHMwYmFRUUlqS2x4RlhMS2xlVU5WX1VLaVNIR0tCZS15eDBDR2dOMmwyaU9MVVVYTnEwR3FyX3pQZTFXWVRRZGIybkpFb0tEb1VfUk16UTVyQW5yYkJ6amNTNTFXYTUtdnVxRg",
-        "CBMiwgFBVV95cUxQTTlLbGF5akVuaUFtVWUxdW43bkZxb280VmMyT0RJeEpIaUJxYUdDbTNoNnVwd3dIZVdlTnZiSXU1R05KOGEwVUNIbExIVHFrUTI5bmVxQTBGbG1Qa0pra01abjBFRmpjak91TnowcFU1NG1PWlVZZkI0cjA2VEpuT3NtWGV0alVIRGk4RV90OUJCYTBCUzFpc3c5RU02LUxPOEN5RTd3d2VjazlKb3pLOVBpTkw0b2dQejM5YkY1bXFjdw"
+        "CBMiwgFBVV95cUxQTTlLbGF5akVuaUFtVWUxdW43bkZxb280VmMyT0RJeEpIaUJxYUdDbTNoNnVwd3dIZVdlTnZiSXU1R05KOGEwVUNIbExIVHFrUTI5bmVxQTBGbG1Qa0pra01abjBFRmpjak91TnowcFU1NG1PWlVZZkI0cjA2VEpuT3NtWGV0alVIRGk4RV90OUJCYTBCUzFpc3c5RU02LUxPOEN5RTd3d2VjazlKb3pLOVBpTkw0b2dQejM5YkY1bXFjdw",
+        "CBMirwFBVV95cUxOeVZaZjlpSG13ZkN5SjhtNnRQUTRhT3AxU0xReGJFaUM0M2J1MGo4NzFPWXUxX3JGeDdvdUhieXVWcDNXS0RrX1RPMEIzeTBMMU94cGtjT1I2YVljR2pWbUxTa3NUZU85S0JrLW82aHNid3d4TWh5aWZaUGRQQnlYRXItYjBnWTdnRDJ3TTlncnU3dG9uTmtlV3dJaFdtbXo4ZU1sRkxHMjdPdlpoOF9V",
+        "CBMivwFBVV95cUxQb2thNUJ1ZWZBVlRJX0hvWUNmRW1hc0lwZW9BdmNFSXdyNXhEM1JtaWVhLW1YTVhQMkM5cm9qZFpQeU43ZnhlWU04R0hLUFBHV2swdG1HU2E0bGZ4M002WjlHNGRuc3JSSUJ0OXZDVWlRMW9HdnBCMzh2cjR1NUpqZmpibDM3M1JGU2hMTGRfbEZyNWQxLXlaMDQ5U1NvdkJXQ0Q5b2haZzJHODdkMUxwYmVManNsMTNMTVBOQmdYa9IBvwFBVV95cUxQb2thNUJ1ZWZBVlRJX0hvWUNmRW1hc0lwZW9BdmNFSXdyNXhEM1JtaWVhLW1YTVhQMkM5cm9qZFpQeU43ZnhlWU04R0hLUFBHV2swdG1HU2E0bGZ4M002WjlHNGRuc3JSSUJ0OXZDVWlRMW9HdnBCMzh2cjR1NUpqZmpibDM3M1JGU2hMTGRfbEZyNWQxLXlaMDQ5U1NvdkJXQ0Q5b2haZzJHODdkMUxwYmVManNsMTNMTVBOQmdYaw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-10T03:09:06.851Z",
+      "last_fetched": "2026-10-10T10:12:16.453Z",
       "last_epoch": 1790535394000,
-      "etag": "\"05bf7701eda16b993870dd93be0cd4775-gzip\"",
-      "last_modified": "Sat, 10 Oct 2026 02:56:16 GMT",
+      "etag": "\"0a273a44d7eda2fa0ff7ae40a9df771a4-gzip\"",
+      "last_modified": "Sat, 10 Oct 2026 09:53:27 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-sector-revenue-to-grow-11-13-pc-in-fy27-on-strong-exports-domestic-demand-crisil/articleshow/134460174.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/holding-companies-nbfcs-rejig-assets-income-to-escape-rbi-scrutiny/articleshow/134525412.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-10T03:09:07.237Z",
+      "last_fetched": "2026-10-10T10:12:16.722Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

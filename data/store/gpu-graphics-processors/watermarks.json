@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-09T23:42:36.036Z",
+      "last_fetched": "2026-10-10T10:15:57.264Z",
       "last_epoch": 1790090494000,
       "etag": null,
       "last_modified": null,
@@ -14,20 +14,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-09T23:42:55.936Z",
+      "last_fetched": "2026-10-10T10:16:31.585Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-10T03:09:22.252Z",
-      "last_epoch": 1791573618000,
+      "last_fetched": "2026-10-10T10:16:34.074Z",
+      "last_epoch": 1791615543000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMingFBVV95cUxNNHQybjc4UXF1MmR5X2kzZVZiT0g3R1J0NEl2Q1FTUW1PM3hkZjE3cUhtTVhrY1dOX2dyR25WMUxuV1B2S09kZnQtSTF5VjFMVGtla1RmNEhrcGs2YlBCTXAyLVZ5bGxITnJuLTlyT0tWalUzMnhkSTB0bHhDNEY0M3VYYUJNSTdMeTN5UF9yTVR3aTdtRUsybHFfM0VHQQ",
-        "CBMieEFVX3lxTE1YSzhTODJsRWFTX2dfeG9ldzYycFp1MW1wMjl5dlJPV0VVVUVRcTFZLVBSRHNyQkZWa3Yya0JLOVhGRnhRTGkwOWUxM2V6WHBxYlNpSGVjSkppcHcxWEFYbzA1R0QxOGQ1NDNwZnlNRmxtVVVvQmR3Ng",
         "CBMi8wFBVV95cUxOZGVFLThMNHlUUGZ5VC1ZWFlUcjYxRlhLTG9KNE11QjJqZ0UtUGUxMENUR2pBNnBoLVB1eGphWXEzVjBNX1Y3WXpRd0ZSVXBLN0Ywd29UMlJXbWN6N1dhbmY1SGJUQ0I0SjJra1hQY0FHUXVybGlPRUF5QlVzeGUwQzdkd0NjTExtdmhUTklsQ01ucWNodmZIZDVuaDg0b3BnbTlVdUxhOU5aVFRNTXpYcGUxcm85aFpDZm56RlpJaUdSZ1dsSHg0d0p0TUJOT1BGbnRFV3pPc2ttYVhxN3hsdzR3NUpaSHBZWmJIX2RWWXBucG8",
         "CBMimwFBVV95cUxNM2J1bWJKYTRQeFl6OVdMc2h6clVPaXN6QmZ4Yk9mcFluZ2VFcWpLbFhxMzBteUVQSlcxbGRIWjJYclpzeWlvZTZkYmlZd3psMDJqWG9LbWRub2tuVEw2QmNfSHZNVW5XLV9vTmV4TTY5d21vdDE0c2NUREJnV3NDTnk4UzBKVnFQU0NTc0w4TWMtNGxkQ0hWM1dlRdIBoAFBVV95cUxNYXJQVXFjb2ZRWEVUYVZkSDgxc19vT1NKMG1iUE41eXd4b1E1S3FkSTdkVGVlWGlWQ2dZWFJYdWFzSW9KMGpRMmM2TjBBWlB2cFJybVdzTjZyQW84MkViQmpwakd5SHdISUwza2xEbjNERmdtbGpncmFLamotaGlaMHFYTk1LNE9kbXFMREdoeXhHWGJrT3BYYk92eWRVb0NF",
         "CBMia0FVX3lxTE1OSmhfdGxRRmQxM1B3Ymw3UFNnb2ZaLXhZd1FNdWNpUHpJaDRmOXh2MUVrazk1MDYzcmVvbVdRSm95OThmTVQ3ZWxCaHBrWUN2SjNlNmZDLU16U1NnaFZWSVJnMzNHVXRTckNr",
@@ -325,14 +323,16 @@
         "CBMisgFBVV95cUxPVUJtdHBJZmlQYWZzRVR0ZV9hSkNJNjVrSGNFWjJXcFBNZGs5WXhadU9CMXBPYS1xbDM5VUJHcThGZXo2V1UxNHhDcGFXVFU2YWNPdXRqM3NyWTRCT05HVlpkRjdUU21RX0MxZ1F0ZWFCa3Y2SlNvMElUUVBoeHpoTjRsUGt3OEs3aUZjWHdQS1VUVVQ5T0VzbE55VDhBY05PWUVaUlVocWM0SWxBdTJkTnVR",
         "CBMiuAFBVV95cUxPa3JheXVKaGZrSnJyOXlHbkxUZUc0NTNQWG1TWGpEWllXYjVRa2ZlSFc5WjZpLWlRRVhJcGpUal8ySGJndUFtdE13UGNzeWh0MVQ4TW1LRUUya0FiSEd5QXpycUh5V1BTN3FVOWVIU205ZkZDeTlNaWhTVkNZbW0yYWQybk5oVF9wOElEbHVVQ1VPaHotUDdZb3ltVVR2bUh4U0FXZW96QmNFZEZKcmFWem0xbmo2ZkR3",
         "CBMivwFBVV95cUxPUVpSUC1PY0NUb0t3NHpBTmhMR09QN0ZtWVZTZHhhU21XemhyZERaRzU2N2pxT1ZZRUN3NGxqWmFoR3lKei1jclBsMDlZYU9RdDNLbklJVy15bml6S0R0MzNZSmRrakxQT3BYbUFVeWVKYldsQmR2Sm5fbHdqd0xDaVNCOTctdkxDeGg3czFEaDlKcTJIUm92RTN4RWpmSFhnNDZUcVZWYUNobGxENkNWc0FfRk1ZS2ZTZ0RYNTVRaw",
-        "CBMic0FVX3lxTE81UzhOWlhmOW1MS2tqdHBmcGZwYWNNOXk3Wm5IWkhCaTNnQ095UXNQRjJPQUJKTGRITVNmS2FCMUJQRjZ2TXR5RlVZc05lLXloV1J0ZDg0RDdWcFUzSWRVWFhYRVJxVVVoTDRtR3VtU2tPQzA"
+        "CBMic0FVX3lxTE81UzhOWlhmOW1MS2tqdHBmcGZwYWNNOXk3Wm5IWkhCaTNnQ095UXNQRjJPQUJKTGRITVNmS2FCMUJQRjZ2TXR5RlVZc05lLXloV1J0ZDg0RDdWcFUzSWRVWFhYRVJxVVVoTDRtR3VtU2tPQzA",
+        "CBMivgFBVV95cUxQdFBvRjNuV096OVh2M2ppRUk2alZ1RGdrbVN6MXByeGtESkpyakRiUHpHcENnUlM5VERVTDI0SkUxdHZKTkNRcFRUbHVGWmxJY1BtTlI2UW1HRzgzSXZDNzMtQmdxQXhYcW9EZnEycVVUam5Sb192WnJqMXh6cmF5M0poVzNmVE56Q05GTXYyTzdzN2tGU1duVER2UTlNQlVxaEVQMUlQai05SXZsOUpQai0zNG5KYmJrSFd0RFdB0gHLAUFVX3lxTE1zQUNkaENROTRTZ2dwc3hlN2FJNUR2WHVueUVaRDRmMkxHSUYwSlA0M3MzS3R5a2dXa0N3eGw0Q0JTRW1jSkVYS0w1dDZIN3B6T3FjZnZDTTFTRzVjMEFGN0hqOXJtZm1qRTJVUnRoM0ZmY2tHb3A4YjJkOXRDSHpRZ3RfT0lyQWpYXzV4dkxNQUk5WjNSNktDYnRnWmFMVEtNMWRyYk5oVHZ1WlNuYVFBSms2eXd1czBIMHhmMnFBLVlaV2RTbTRjcTcw",
+        "CBMi2wFBVV95cUxNX3lYSjNBMnNraEp6akd0emZwQ1ZYU1U0Q0NveXhneWliTEFnNDRwbmJSZjFvbjVFMzRJRGtnZEN1MG1XN2cwWXhOaTdVcWJvQ09uQVB2dU93WWZOVU80UmRjbGRQTkRoZENaVUlEM1RoRzlYcTBtTUdOSjMtaldGY2VZMVZBSllLazZhQlRMVUdMSzRjVEFUY3pfMVVlUFhhWlU4V3ZSVVlwOW5MbU5Tdk5pWDJmdVlKNmRTalhiNDJFSTNzcUZQUTNlaEtEYVBnSF8wVlNubFEtSVU"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-10T03:09:22.281Z",
+      "last_fetched": "2026-10-10T10:16:34.216Z",
       "last_epoch": 1791556095000,
-      "etag": "\"05bf7701eda16b993870dd93be0cd4775-gzip\"",
-      "last_modified": "Sat, 10 Oct 2026 02:56:16 GMT",
+      "etag": "\"0a273a44d7eda2fa0ff7ae40a9df771a4-gzip\"",
+      "last_modified": "Sat, 10 Oct 2026 09:53:27 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -397,7 +397,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-10T03:09:22.300Z",
+      "last_fetched": "2026-10-10T10:16:34.342Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
