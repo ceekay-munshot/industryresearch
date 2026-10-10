@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-10T10:12:16.959Z",
+      "last_fetched": "2026-10-10T16:33:29.895Z",
       "last_epoch": 1791609965000,
       "etag": null,
       "last_modified": null,
@@ -115,19 +115,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-10T10:12:46.885Z",
+      "last_fetched": "2026-10-10T16:34:01.993Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-10T10:12:48.336Z",
-      "last_epoch": 1791560853000,
+      "last_fetched": "2026-10-10T16:34:03.549Z",
+      "last_epoch": 1791627158000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMitgFBVV95cUxPYV8tTUdDTHBRNkY0RUFiQkp5c21DRjZQLWoxVnFoeTVLOG1JajM3NWU3X3FneHdiaXAtTy00QnRGaEZRdlBZV1dEOTdyVTFlc2Y2dkJaeVNQb0tVcXRkOFJOZzRrQTBIOTU1c21BS2xYYmpGS0dqR21XT1BmMDRGVFpueWJtel9LcHlFN1lEVmhNd1NwOGcwU3Y3RTQ0TkpDcWVQSy1RQlRYOHBJSTNIWjQtdUx6UQ",
         "CBMiywFBVV95cUxNZ1p0Ri03Q0hHZEJWTnludlMtaHBCQTU5MVhLc2xZQTFySnZnODdVLTItQ0JGcnFmcHpWejJ6d2tyUmVIYmwtNmcyNFo0UjdncVFkQzU5cER0S0xTckFpSktzVDh2bjFyakduQTVGRDIwTzV4WVFOODBFaUJMck0zNHJ0TGJGX0hXLWNHRlNPYmNuMUxOZGR2MzRyMFFHUnJLOFd5U0hBNlF5R1RyMi14ZDJqOXV4YUV5TzI1emNlclhWMzhlcTBSU094WQ",
         "CBMi2AFBVV95cUxQRlFkSUxZMFNUNVlVT1pXTHM0SjZtMmlXZnlObGhCRll6clJXakZrWnpoS3NFZ0VOSk12Z1RfMlpvSmJncDBTNjZoNG5MRzZ2UUl2eXpaQkNVVGJyR2xJTHMtSHVZQXRsdlBQcHc3blBFY180NEJOcmw0NUNJdUdXT2NQUVlGRDhNRzlfcm5OQzZxUEFOd0xqbnZTWEhNdm96TTRsOVJEYlVqMHhHVk9lanE3SWplV1JLNXltcXR2UTFXekY3bUxWZXU0SGRUWVFOZTVZX3RKTG8",
         "CBMizAFBVV95cUxNMXFlcXlFQTRpZXBKamhJRGs3d3pCc09raGdOMGs5LThkUGpRTVh1S0sxaGVQNi13bVVrb29NdXNJVjc5ckJZTnM5UFFlX29iU3VBSmYtbnRKa2xjUXJEdF90ZVQ0aTdJZ2J4QUZFZDFBSlRBTkVkeXJlQXdNZW1IXzAtWllMbUZ5bjNXWmgyMUx4U2NpUEVWOFdlQ1B5b0tzYkJiejQweXhEaUZkcTFxcmhnUnNha0ltVjJObnhoVXkzN3k2NkJmMlliTHM",
@@ -426,14 +425,15 @@
         "CBMiwgFBVV95cUxNaUpsM05BZkF1TFFwREN6X0VkUG1ocVNyN0VWdWhfb2hwdUZmaUZCY0w1LVB2cERXS2Yxbkt1TW03Vm9uYXFVR0hLZ0RvcXRDd0pqVFZYNlRhNGZqdUZKVERIM2RrQkJLMzNvU2o5aWpzZWZLcXJpNVBXd1RvSHpxbFFqanNtMUY1NDJrZFpXZnNuSzJoYkFvZEQ3NklkNS1sUWNURjRsQV9oSkIyLTJQRkFCXzlCZlB6bjNWNEMwb25odw",
         "CBMizAFBVV95cUxQQUVyUkQ4aFpqUkd3VUF4b0NSdWtTWi12QjIxX1ZjbWllLWJoNzAxTXZxTDlWUDEtcm5DWmptcVlxSjNSbEJxY0VucVRRUXNvRHcwYlRKamhmYlpOOEpmOHhCbk5GaDcxRGl1Q1IzZHc4VU5vU0xkU0wwSlpydXprbXdHNmh1MFR1WXphRmtaMVlPWi1Iemp3ZkJGSjVpSGhHMmdQcUVVeFFJNGZ3NFRiWHZpV2hoMGNoSUVYMkU3MnFTT2tocVo4MFl6ZzQ",
         "CBMizgFBVV95cUxQWjJIbmxWLVRjREltY2c4Y1pINVBqOG9wU2Vqa0pIdWp4YVY1cTU2WXZ3WWtRalMxbDdhTld3VXFxNWluOEV5WVV0cjlybHBvMWVKWi1wTjk0NHBBS3M1OFpFekVnT1prQzJwQ3hyb1VjM2QtaEJwQ0ExTkpmb095enBLVE9QX1BGR281dUNMM084MFMxbWlBV0F2NnQtVHotZVducl9qSWtDWDBWQ19EUkNWV1dDV1duYWtzOThNajJiT3JFTWNKWDlyRGhyUQ",
-        "CBMimgFBVV95cUxPMzVfazZKN25NYU82ZE42Y1pUUy1sR0kzVnlhWUgtUEdLbDJWVkxnY1FBbUxSMFZUM0RUTkUzTEtib3JnQll1Y3piRVZCZFZpS0d1a3ZwUGVCQXhXZllyYy1CbDU0Rl9nQUpON181VE1aTUU0QXQxVVh1VWJkWHJ6Y0tBZjJTU1kyeHpJUjE0d0JScEEzUHpwNTdB"
+        "CBMimgFBVV95cUxPMzVfazZKN25NYU82ZE42Y1pUUy1sR0kzVnlhWUgtUEdLbDJWVkxnY1FBbUxSMFZUM0RUTkUzTEtib3JnQll1Y3piRVZCZFZpS0d1a3ZwUGVCQXhXZllyYy1CbDU0Rl9nQUpON181VE1aTUU0QXQxVVh1VWJkWHJ6Y0tBZjJTU1kyeHpJUjE0d0JScEEzUHpwNTdB",
+        "CBMiygFBVV95cUxQUXNKcy12R1BGZWlHdjN4bVlMX1poUS1IWVd2WWh2Qm1HZGVKNXNySWRCMWctN1NJZ3NodUEzdUViakxEWW41MmJYbnBLSG9wc2g2Z1djQUJPLTlGcWNwVVJacUc5NUpBdUtSVzNtdkM4U1B3eE14MF9tbE5DTVhORTVQcUN0QW11MmdhYTRfenBrQWlUaDRyTGRlcE1DUjdQSkt5ZllGMTVtYkVlTFQxT1BZejJHb3loVDQ5cUJ1dkU2TDluX0ZyLU1B"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-10T10:12:48.408Z",
+      "last_fetched": "2026-10-10T16:34:03.878Z",
       "last_epoch": 1791443230000,
-      "etag": "\"0a273a44d7eda2fa0ff7ae40a9df771a4-gzip\"",
-      "last_modified": "Sat, 10 Oct 2026 09:53:27 GMT",
+      "etag": "\"03d06e90e1871321eed7642ca76d26ae2-gzip\"",
+      "last_modified": "Sat, 10 Oct 2026 16:02:34 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -483,7 +483,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-10T10:12:48.446Z",
+      "last_fetched": "2026-10-10T16:34:04.303Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
