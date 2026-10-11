@@ -1,5 +1,5 @@
 {
-  "default": "e-waste-recycling-management",
+  "default": "precision-engineering",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -198,6 +198,17 @@
         "Electronic Waste Recycling",
         "WEEE Management",
         "E-Scrap Recycling"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "precision-engineering",
+      "name": "Precision Engineering",
+      "aliases": [
+        "Precision Manufacturing",
+        "Precision Machining",
+        "Precision Components"
       ],
       "is_manufacturing": true,
       "mock": false
