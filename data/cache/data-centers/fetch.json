@@ -1,4 +1,12 @@
 {
+  "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf": {
+    "content_hash": "a5eafeee74460e54805fab562114af28521e887d1b0918db2fc14afbcc6a4019",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
   "https://brightlio.com/data-center-stats": {
     "content_hash": "a38b7c76839f2914ac872bbfc5c309cf40ed50f7b3541b129803560cfe2b24a7",
     "etag": null,
@@ -7,12 +15,36 @@
     "api": "muns-reader",
     "status": 200
   },
-  "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf": {
-    "content_hash": "ac7992c4170b5d68a19f830f2e11e0093812cb4af379d9a8e897efa77705b968",
+  "https://datacenters.lbl.gov/sites/default/files/CII%20Energy%20Efficieny%20in%20Indian%20Data%20Centers-%20Present%20Trends%20and%20Future%20Opportunities.pdf": {
+    "content_hash": "cae307ec41291179bb0f569cefbc39e6d5a2e6f461550bef1f65c8b3aef3c49d",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-15",
+    "fetched_at": "2026-10-11",
     "api": "report",
+    "status": 200
+  },
+  "https://en.wikipedia.org/wiki/Data_centre_industry_in_India": {
+    "content_hash": "8c35cface130a2d16e0766e4808fb9f028733fb9022dd385ad965de6ab2426ea",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf": {
+    "content_hash": "8600bc0387927888cf57c8362c8fb4e36e621c765071a7fefb42dbea651501ae",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://eninrac.com/horizon/the-c-suite-intelligence/india-data-center-market-2026-2030-23-trillion-capex-boom-hyperscale-growth-investment-outlook": {
+    "content_hash": "51036b0e31b9a1f36b570814c117ec0a11ab4d950556ab0e26a07bedf2a9febd",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
     "status": 200
   },
   "https://iot-analytics.com/product/data-center-equipment-infrastructure-market-report-2025-2030": {
@@ -21,6 +53,22 @@
     "last_modified": null,
     "fetched_at": "2026-08-15",
     "api": "report",
+    "status": 200
+  },
+  "https://jmflresearch.com/JMnew/JMCRM/analystreports/pdf/Data-Centre-101_27Mar25.pdf": {
+    "content_hash": "c288bc783a15febdedd7f31d35be0a6b4d8c0ccec3dedc2e806025eaf6a186e4",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://kpmg.com/in/en/blogs/2025/11/indias-data-center-revolution-powering-the-trillion-dollar-digital-dream.html": {
+    "content_hash": "faeca0a11b3fa02c4b39304a49d97e7ed79f05908ed29f440809c02d5c67ea1a",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
     "status": 200
   },
   "https://metastatinsight.com/report/data-center-market": {
@@ -39,20 +87,52 @@
     "api": "report",
     "status": 200
   },
-  "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf": {
-    "content_hash": "8275bd03159a238ad559fb3659d477bd435ed6381e371b8142c57019c02c6602",
+  "https://sbi.bank.in/documents/57189647/58231607/Sector+Report+DataCentre.pdf/f1919592-ee66-b50b-ea20-75fbb27c9bb5?t=1779885206866": {
+    "content_hash": "ed8bdea7a54b0062c3bda4570b926d2c48d74ec6489ead8f76a6f381ca2b278d",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-15",
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022128141601.pdf": {
+    "content_hash": "de829bac1a9eb067b0768e24b8bd860ad751639ef88683898e3b89aabafa23c5",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/sep/doc_9859_20260914_10550401.pdf": {
+    "content_hash": "3b7d88103bfbac223e03dd675cc40f7a19195d61d2f8199be0bf0874da58b4f9",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf": {
+    "content_hash": "e02ea585817a99188980b37302da68502c97818e9857c3002c1cce23efecf93d",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
     "api": "report",
     "status": 200
   },
   "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf": {
-    "content_hash": "6f8f2b8b8d34e1bb006f687e1de091fb42a3bc1ae0bd92c82ebca480c64756ba",
+    "content_hash": "14c0937e55174ad50e47a74a002321f70c8a5a750df8bc5a9997a502c26914e4",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-15",
+    "fetched_at": "2026-10-11",
     "api": "report",
+    "status": 200
+  },
+  "https://www.6wresearch.com/industry-report/india-data-center-market": {
+    "content_hash": "a09ce43ff43176d3ec434b938f9fe0757bf88964e7fef971f3d27b0b482fb701",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
     "status": 200
   },
   "https://www.accenture.com/us-en/insights/infrastructure-capital-projects/data-centre-trends-2026-shifting-up-gear": {
@@ -71,12 +151,84 @@
     "api": "report",
     "status": 200
   },
-  "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf": {
-    "content_hash": "30afc3f891edb3d6d006119b1225b9a27f6509878e18d119f1d7c2216451e53d",
+  "https://www.akgec.ac.in/wp-content/uploads/2021/08/10-Dr_Ranjit_Singh.pdf": {
+    "content_hash": "a719b619be59dd30bb7fee45e731afc8716856fc7dc6ed386d4eba6a596b8f8c",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-15",
+    "fetched_at": "2026-10-11",
     "api": "report",
+    "status": 200
+  },
+  "https://www.arizton.com/market-reports/data-center-market-in-india-2026": {
+    "content_hash": "43d4c32431ee58c60462f0478c80195ff544765dd235e7b475e59546ebee47ec",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.arizton.com/market-reports/india-data-center-portfolio": {
+    "content_hash": "01edf1a3f62734c317dca50a68361a75d5cc8d3857aa05c023171995b86ccf8c",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.assocham.org/uploads/files/Print%20Ready-Assocham%20Data%20Center%20PwC%20Report-Final.pdf": {
+    "content_hash": "d096ad4fce896da158199c143c12ff9a52679797315928c98afe7faf13abae17",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.astuteanalytica.com/industry-report/india-data-center-market": {
+    "content_hash": "874e5253f67cc7ce48802e7577890d3ddef2148d2ac3ed106c70fd2abf99c225",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf": {
+    "content_hash": "32b68b2aa184667285fcc43c158142a5cb62fabd31f7258fd9dba69650a19d69",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.careratings.com/uploads/newsfiles/1774529784_India's%20Data%20Center%20Capacity.pdf": {
+    "content_hash": "2c407a2d215d4f2ac9df661633b32f5e221812a513dd7c6495db87828ea00c82",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.cbre.com/-/media/project/cbre/shared-site/insights/articles/apac/india/2022/data-centers-the-next-charged-up-wave/india_major-report_data-centers_the-next-charged-up-wave_september-2020.pdf": {
+    "content_hash": "da16f0332dd5c3f367f0ab6540ff8b1f8594b89c0741b5801d741c32b8a2e074",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.ceew.in/sites/default/files/ceew-data-centre-study-web-ready-final.pdf": {
+    "content_hash": "e69538b35e3f7d1745d08a91094e9fbaee4dbc4d70b8bb9b98d5e08ba9db9898",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.cervicornconsulting.com/india-data-centre-market": {
+    "content_hash": "c3de8018d2a5cef35034e1086033fd33617723fc5de00c27f35e7613c93b6abd",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
     "status": 200
   },
   "https://www.coherentmarketinsights.com/industry-reports/data-center-infrastructure-market": {
@@ -95,6 +247,14 @@
     "api": "muns-reader",
     "status": 200
   },
+  "https://www.convergence-now.com/explainers/india-data-centre-market-2026-ai-demand-hyperscale-investment-and-6-gw-growth": {
+    "content_hash": "74f6c47a80f9fedc19645a812ae482d6309eafd208a36c2a3f512c29d6c19209",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
   "https://www.cov.com/en/news-and-insights/insights/2025/10/data-centers-emerging-risks-and-insurance-coverage-considerations": {
     "content_hash": "2663c0df9bbb9a3c4cffe1042d54add0cd2dee56d9a77586369a0b9b438cabe2",
     "etag": null,
@@ -103,11 +263,35 @@
     "api": "report",
     "status": 200
   },
+  "https://www.cushmanwakefield.com/en/india/insights/india-data-centre-update": {
+    "content_hash": "97b74375e592cd69f701d1c35704b1f209bccce7a0024cbe80e302889283f17c",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.data.gov.in/sites/default/files/general-files/Imports-and-Exports.pdf": {
+    "content_hash": "e18ca27dd95d7bdb8e41480b3bc91c0df7ffa5482cf7f001f6754b57b84226f4",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
   "https://www.datacenterdynamics.com/en/opinions/data-centers-the-ten-main-trends-for-2026": {
     "content_hash": "a57205305152c7a37fd30575aa892d34d9283859f22c3ae244bbf8797ec69b17",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-15",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.datamintelligence.com/blogs/india-data-center-sector-outlook": {
+    "content_hash": "6f6bfdb21125ad8a56f80b42dbad022feedd5c956e6b40a9cfaf18c6fef1b6b3",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
     "api": "muns-reader",
     "status": 200
   },
@@ -135,6 +319,30 @@
     "api": "muns-reader",
     "status": 200
   },
+  "https://www.grantthornton.in/globalassets/1.-member-firms/india/assets/pdfs/realty-bytes-data-centres-indian-real-estate-and-regulatory-dimensions.pdf": {
+    "content_hash": "fc1bc7e28799f6f9c7e249f4d05374bae670aa6770df51fcf4d10d97411b548a",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.imarcgroup.com/india-data-center-market": {
+    "content_hash": "e32011dd4bf2999e9b0119d42d4ea0b773326fe5ff5c3e699659689e1343a0cb",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.imarcgroup.com/insight/data-center-market-growth-across-india": {
+    "content_hash": "f4d7869e5220e18e9cc46535ed1f03bf2788cff395331732b745ee068ba97233",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
   "https://www.industryarc.com/report/19401/data-center-market": {
     "content_hash": "873e4103b07d8e2377db0efe9a90bb270f05e9b5ded9c67aca128abb43413de5",
     "etag": null,
@@ -148,6 +356,14 @@
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-15",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.jll.com/en-in/insights/market-dynamics/india-data-centers": {
+    "content_hash": "e5d0fa1dc17750f677bd33e4aa18465fc1690f37652c05a2c8a6ca9d85964eee",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
     "api": "muns-reader",
     "status": 200
   },
@@ -175,11 +391,43 @@
     "api": "report",
     "status": 200
   },
+  "https://www.marknteladvisors.com/research-library/india-data-center-market.html": {
+    "content_hash": "eaf5110413426881299c459d29be8b5284f642481538ba51a14d9876e95cc008",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.mordorintelligence.com/industry-reports/india-data-center-market": {
+    "content_hash": "6b07d5202318c1e3f788c2a03da2a62405bde0478b68ba9896a6b62d5cc10f53",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.mordorintelligence.com/industry-reports/india-data-center-server-market": {
+    "content_hash": "43f7a1b27c82a2308154ce36388a5dc053c20621da734624050e0282864d7e79",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
   "https://www.mordorintelligence.com/industry-reports/service-market-for-data-center": {
     "content_hash": "3d275b8e7ec3821f81fcdd5edb6c25e20a70c9f62d8d2b0981d60593fa56af01",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-15",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.multibagg.ai/market-pulse/articles/india-data-centre-capacity-2026-cmol9sv5vrwolpg0juf7wfqhu": {
+    "content_hash": "e2d67433a2b90aaa9d234d11099db34bd0537e9962c01fd1db1157d4a6ec31ec",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
     "api": "muns-reader",
     "status": 200
   },
@@ -195,8 +443,24 @@
     "content_hash": "36e227c0a64262dac0c5f28fa1db4358fcedfcaed7731a43859c1bb35c7b75d8",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-15",
+    "fetched_at": "2026-10-11",
     "api": "report",
+    "status": 200
+  },
+  "https://www.openpr.com/news/4457699/india-data-center-market-size-trends-growth-drivers-future": {
+    "content_hash": "1a5d0aeeedc8e483f54421270d85542914162eb6185841756c2da78647b51913",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.persistencemarketresearch.com/market-research/india-data-center-market.asp": {
+    "content_hash": "973d5b6cd1bca38f6caeb99272a03d509d43c896276cdce30e84f1d343d3f5f6",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "muns-reader",
     "status": 200
   },
   "https://www.polarismarketresearch.com/industry-analysis/data-center-market": {
@@ -215,12 +479,36 @@
     "api": "report",
     "status": 200
   },
+  "https://www.pwc.in/assets/pdfs/the-strategic-role-of-data-centres-in-empowering-indias-digital-revolution.pdf": {
+    "content_hash": "12b0a6cfab0afdcbee2eb835259cd61583bf3aa92af066802456b61110d18699",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.pwc.in/assets/pdfs/the-strategic-role-of-data-centres-in-empowering-indias-digital-revolution.pdf?src_trk=em67ca342db54c72.15698313311664397": {
+    "content_hash": "12b0a6cfab0afdcbee2eb835259cd61583bf3aa92af066802456b61110d18699",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
   "https://www.researchandmarkets.com/report/data-center-software": {
     "content_hash": "c31c67f11e3dad86c85407f2cc0bd5d33fe476200818c67e2fbf64afa73be6cf",
     "etag": null,
     "last_modified": null,
     "fetched_at": "2026-08-15",
     "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.researchandmarkets.com/report/india-data-centers-market": {
+    "content_hash": "da191451090798a54732dbcaccd34aa8d2bbc26da14cfe9b8a455a5360b3210c",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "report",
     "status": 200
   },
   "https://www.researchandmarkets.com/reports/6083085/data-centers-market-global-forecast": {
@@ -264,10 +552,18 @@
     "status": 200
   },
   "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf": {
-    "content_hash": "1007b83d7d825512f0aca7c3ecc660d7570456dd8108d45540524fbe7d909af7",
+    "content_hash": "a95d9133a60528b6e8205d2d5690d442653fa63a21802e7f4c1d472b925e0ed4",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-15",
+    "fetched_at": "2026-10-11",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.varindia.com/pdf/2021/march/Data-Centre.pdf": {
+    "content_hash": "0ad882ff8d8b865733efb1de93e160ad45edc86c6fdcb3384a96a43d67958657",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
     "api": "report",
     "status": 200
   },
@@ -277,6 +573,46 @@
     "last_modified": null,
     "fetched_at": "2026-08-15",
     "api": "report",
+    "status": 200
+  },
+  "screener://financials/BHARTIARTL?c=consolidated": {
+    "content_hash": "84e9e54e196c988eb0ec8d65f1b25c616e37bc9a3640e24d3703412374f6b84b",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/NETWEB?c=standalone": {
+    "content_hash": "ee20a77e86f86fd0f417554e37bd7efb33e3468e553d6b099111e423c2e24002",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/RELIANCE?c=consolidated": {
+    "content_hash": "87d5bdcff7141ff74963e1d95d99baee936c16942964d1c441c5f9d80604b9a7",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/TATACOMM?c=consolidated": {
+    "content_hash": "7ec423d9e74f4244f942dbfed7c674470f2a2a9629776726c5aa5255c80b04cb",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "screener",
+    "status": 200
+  },
+  "screener://financials/TECHNOE?c=standalone": {
+    "content_hash": "0d663cace16ee5e2e837f55f86abf0c544f056026b10343416f51da1f7b08ee2",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-10-11",
+    "api": "screener",
     "status": 200
   }
 }

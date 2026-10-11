@@ -4,210 +4,208 @@
     "name": "Data Centers",
     "aliases": [
       "Data Centre Industry",
-      "DC Industry",
-      "Colocation & Cloud Infrastructure"
+      "Colocation Market",
+      "Hyperscale Data Centers",
+      "Cloud Infrastructure"
     ],
-    "definition": "Facilities housing servers, storage and networking equipment that power cloud computing, AI workloads, digital services and enterprise IT, spanning hyperscale, colocation, enterprise and edge formats.",
+    "definition": "The data center industry comprises facilities (hyperscale, colocation, enterprise and edge) that house servers, storage, networking and power/cooling infrastructure to run cloud, AI, telecom and enterprise computing workloads, including the construction, equipment and operating ecosystem around them.",
     "is_manufacturing": false,
-    "generated_at": "2026-08-15",
+    "generated_at": "2026-10-11",
     "mock": false,
     "query": "Data Centers",
     "updated_at": "2026-10-11",
     "coverage": {
       "sections": {
         "size": {
-          "sources": 23,
+          "sources": 44,
           "confidence": 1,
-          "as_of": "2024-01-01"
+          "as_of": "2025-01-01"
         },
         "players": {
-          "sources": 25,
+          "sources": 47,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "margins": {
-          "sources": 6,
-          "confidence": 0.9826,
+          "sources": 12,
+          "confidence": 0.9996,
           "as_of": "2026-01-01"
         },
         "growth_drivers": {
-          "sources": 25,
+          "sources": 49,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "other": {
-          "sources": 27,
+          "sources": 49,
           "confidence": 1,
           "as_of": null
         },
         "segments": {
-          "sources": 22,
+          "sources": 44,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "quant": {
-          "sources": 14,
+          "sources": 37,
+          "confidence": 1,
+          "as_of": "2030-01-01"
+        },
+        "value_chain": {
+          "sources": 16,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
-        "value_chain": {
-          "sources": 7,
-          "confidence": 0.9998,
-          "as_of": "2026-01-01"
-        },
         "channels": {
-          "sources": 1,
-          "confidence": 0.9,
+          "sources": 5,
+          "confidence": 0.9821,
           "as_of": "2026-01-01"
-        },
-        "news": {
-          "sources": 2,
-          "confidence": 0.84,
-          "as_of": "2026-10-11"
         }
       }
     }
   },
   "summary": {
-    "headline": "India's data centre industry, worth about USD 10 billion by EBITDA-based valuation and USD 1.2 billion in annual revenue as of March 2024, is capacity-constrained at just ~1.2-1.8 GW (1% of global capacity) but is racing toward 5-17 GW by 2030 on the back of AI, cloud and data-localisation demand, with USD 20-100 billion of fresh investment forecast this decade.",
+    "headline": "India's data centre market is valued at roughly USD 9.8 billion in 2025 and capacity has crossed about 1.6-1.9 GW by mid-2026, but India still holds only ~2-5% of global capacity despite generating ~20% of the world's data - setting up a multi-decade build-out toward 6-9 GW by 2029-30 backed by over USD 120 billion of hyperscaler and conglomerate commitments.",
     "key_takeaways": [
-      "India has only ~1.2-1.8 GW of data centre capacity (about 1% of global capacity of ~114 GW) despite generating ~20% of the world's data, leaving a large latent gap versus China, the US and the EU.",
-      "Multiple forecasts converge on India capacity reaching 5-17 GW by 2030, backed by USD 20-100 billion of prospective investment, with H1 2026 additions already up 59% YoY to 258 MW.",
-      "The India data centre co-location market is highly concentrated: 4-5 pioneer operators control over 90% share and 4 operators earn 78% of industry revenue, though new entrants from real estate, power and PE are expected to erode this to ~70-75%.",
-      "Power is the dominant cost and constraint: it is ~65% of operating cost, India's cost-per-MW to build is among the world's lowest (~US$7/W vs US$10/W in the US), but grid T&D losses (16.64%) and water stress in key clusters (Maharashtra, Telangana, Tamil Nadu) are rising bottlenecks.",
-      "Global players (AWS, Microsoft Azure, Google Cloud - 87% of India's IaaS market) coexist with local operators (Nxtra/Airtel, CtrlS, STT GDC, Yotta, Netmagic/NTT, Sify) and system integrators like Netweb Technologies, India's largest supercomputing systems maker and NVIDIA's only Elite OEM partner in the country."
+      "India's installed data centre IT capacity roughly tripled from ~520 MW (2020) to ~1.5-1.9 GW by FY26, and multiple trackers (JLL, CBRE, Jefferies) project 4-9+ GW by 2029-30 on the back of AI, cloud and data-localisation demand.",
+      "Mumbai (and Navi Mumbai) dominates with roughly half of India's capacity, followed by Chennai, Hyderabad, Bengaluru and Delhi-NCR; the top 5-6 colocation operators (CtrlS, NTT, STT GDC, Nxtra, Sify, Adani Connex) control ~65-90% of installed capacity.",
+      "India is heavily import-dependent for servers, GPUs, storage and power/cooling equipment (60-70% of high-value components imported), and the rupee, global chip supply and US-China tech tensions directly affect project costs and timelines.",
+      "Government policy is now a major tailwind: infrastructure status for 5MW+ data centres, a 20-year tax holiday for foreign cloud providers (Budget 2026-27, valid till 2047), the IndiaAI Mission's subsidised GPU access, and state-level land/power incentives (Maharashtra, Telangana, Tamil Nadu, UP, Karnataka, Gujarat, Rajasthan) are accelerating investment.",
+      "Despite the boom, India's power costs, grid-connection delays, water stress in cluster states, and reliance on diesel/import-heavy equipment remain key constraints; EBITDA margins for established operators are a healthy 40-55% but capex per MW (~Rs 50-70 crore) keeps the business capital-intensive and debt-heavy (D/E often ~1.0)."
     ],
-    "report_markdown": "## Overview\nIndia's data centre industry sits at an inflection point: EBITDA-implied industry value is about USD 10 billion (using a 20x EV/EBITDA multiple) with annual revenue of roughly USD 1.2 billion as of 31 March 2024, according to ANAROCK. Yet India has only ~1.2-1.8 GW of installed data centre capacity versus a global total of ~114 GW - about 1% of global capacity despite India generating close to 20% of the world's data (CareEdge, Takshashila).\n\n## Size and growth trajectory\nEstimates of India's near-term market size vary by methodology: Fortune Business Insights pegs India's data centre market at USD 11.49 billion by 2026; Eninrac put India's market at USD 4-5 billion by 2025. Capacity forecasts for 2030 range widely - from 5 GW (Takshashila's conservative scenario) up to 17 GW (Jefferies, cited by Takshashila), with intermediate estimates of ~4,500 MW (CareEdge) and 6.69 GW (Brightlio). CareEdge Ratings estimates capex of Rs.50,000 crore over the three years to 2026, while Takshashila cites forecasts of USD 20-25 billion and even USD 100 billion (CBRE, AI-powered boom, by 2027) in future investment. Historically, revenue for Data Centre operators grew at ~24% CAGR from FY17-FY23, and CareEdge forecasts a 32% CAGR during FY24-FY26. Between 2019 and 2024, the market attracted around US$60 billion in cumulative investment at a 24% CAGR (Takshashila). Capacity growth accelerated over time: 12 MW/year average (2000-2010), 32 MW/year (2010-2020), 100-150 MW/year (2020-2023); H1 2026 additions alone were 258 MW, up 59% YoY (Savills India).\n\n## Structure and concentration\nThe Indian co-location segment is unusually concentrated: 4-5 pioneer/early-entrant operators hold more than 90% share (CareEdge), and just 4 DC operators earn 78% of total industry revenue (ANAROCK). This is expected to moderate to ~70-75% as new entrants from construction, power, real estate and global PE/funds enter. MMR (Mumbai) and Chennai together account for 70% of India's current DC stock. Colocation's share of all Indian data centres rose from 20% in 2010 to nearly 45% today (Eninrac). On the cloud side, AWS, Microsoft Azure and Google Cloud together hold 87% of India's IaaS cloud market (Takshashila).\n\n## Economics\nPower is the single largest operating cost line at 65% of total opex, and IT equipment plus its cooling draws ~75% of total power intake. EBITDA margins for Data Centre operators have stabilised at ~43% during FY22-23 (CareEdge). India's construction cost advantage is notable: capex is roughly 45% lower than the world average, with historical costs of Rs.40-45 crore/MW rising to Rs.60-70 crore/MW for new capacity; globally comparable studies put India's build cost at ~US$7/Watt versus US$10/W (US) and US$11/W (UK). Debt funds about 48% (USD 2.4bn) and equity 52% (USD 2.6bn) of total capital deployed in the industry to date, and ~70% of future capex is expected to be debt-funded.\n\n## Demand drivers\nInternet penetration is expected to rise from ~63% (FY23) to 87% (FY29), tripling data consumption; India already has the world's highest mobile data traffic per smartphone, and UPI transactions reached USD 2.88 trillion in 2024. AI/generative AI is a fast-emerging vertical - India's GenAI market is pegged at USD 1.1 billion in 2025E, growing at a 42% CAGR to 2030E. Data localisation under the Digital Personal Data Protection Act (2023) is also structurally driving demand for domestic capacity.\n\n## Constraints\nApprovals are a major friction point: 40-50 approvals are typically required end-to-end, stretching launch timelines from an achievable 15-18 months to 24-30 months. Grid T&D losses in India (16.64% in FY23-24) are more than double the 6-8% global average, and water-stressed states (Maharashtra, Telangana, Tamil Nadu) host major emerging DC clusters, raising sustainability concerns. India's average data centre size (largest facility just 5.845 MW as of June 2025) remains far smaller than the US average of 20.5 MW, limiting scale economics.\n\n## Players\nThe field spans global hyperscalers/cloud providers (AWS, Microsoft, Google, Oracle), global colocation specialists (Equinix, Digital Realty, NTT, STT GDC), Indian telecom-linked operators (Bharti Airtel's Nxtra, Tata Communications, Netmagic/NTT), pure-play Indian colocation firms (CtrlS, Yotta, Sify), and domestic IT-hardware/system-integration players such as Netweb Technologies - India's largest supercomputing systems manufacturer and NVIDIA's only Elite OEM partner, competing against global OEMs like HPE, IBM, Dell and NVIDIA on locations and manufacturing presence.",
+    "report_markdown": "## Market size and trajectory\nIndia's data centre market is valued at roughly **USD 9.79 billion in 2025** (Arizton/MarkNtel), though estimates vary widely by scope - from USD 4-10 billion depending on whether construction, IT hardware, colocation revenue or EBITDA-based valuation is used. ANAROCK estimates the industry's EBITDA-based enterprise value at **USD 10 billion** (31 March 2024, 20x EV/EBITDA), with FY24 industry revenue of USD 2.4 billion and debt of USD 1.2 billion. KPMG (July 2026) pegs India's market at **~USD1.7 billion in FY26 rising to ~USD6.8 billion by FY30** (INR14k crore to INR61k crore), implying India's share of the global data-centre market doubling from 2-3% to ~5% over that period.\n\nOn capacity, trackers disagree on the exact number but agree on direction: CEEW/PIB cite installed capacity growing from **~375-520 MW in 2020 to ~1.5-1.9 GW by 2025-26**; JLL puts India at **1.6 GW in mid-2026**, tripling to **6 GW by 2029**; Jefferies is more bullish at **~8-9.2 GW by 2030**; CareEdge projects **~4 GW by FY30** needing ~Rs 1.5 lakh crore of capex (plus Rs 3-4 lakh crore more if tenant IT-equipment spend is included).\n\n## Growth drivers\n- **AI and hyperscale build-out**: AI/ML workloads are 5-10x more power-intensive than traditional cloud; rack densities are rising from 8-12 kW to 40-150 kW, pushing capex and liquid-cooling adoption.\n- **Data localisation**: The Digital Personal Data Protection Act (DPDP) 2023, RBI payment-data rules and sector mandates are driving on-shoring of data that was previously hosted offshore (Singapore/Ireland), expected to add 1,800-2,000 MW of demand by 2027.\n- **Cloud, 5G and digital payments**: India's internet base crossed ~1 billion, UPI processes 18-20+ billion transactions/month, and 5G subscriptions are set to rise ~8x by 2030 - all compounding data creation and compute demand.\n- **Policy support**: Infrastructure status (2022), a 20-year tax holiday for foreign cloud providers (Budget 2026-27, to 2047), IndiaAI Mission's subsidised GPU access (34,000+ GPUs onboarded), and state-level incentives (land subsidies, stamp-duty and electricity-duty exemptions) in Maharashtra, Telangana, Tamil Nadu, UP, Karnataka, Gujarat, Rajasthan, Odisha, Haryana and Andhra Pradesh.\n- **Lower build costs**: Mumbai is rated the world's 2nd-cheapest data-centre construction location (~US$7/watt vs US$10/W in the US), and India's capex is ~30-45% cheaper than China/US, though still requiring large upfront investment.\n\n## Headwinds and risks for an India investor\n- **Import dependence**: 60-70% of high-value DC components (servers, GPUs, storage, cooling, transformers) are imported; a 2% INR depreciation can lift landed server costs by ~1.6% given an ~80% import share of server bill-of-materials. India also lacks domestic HDD, NAND flash and liquid-cooling manufacturing.\n- **Power and grid constraints**: Power is 65-75% of operating cost; India's T&D losses (16.6%) are more than double the global average, grid-connection queues run 18-36 months in Mumbai/Maharashtra, and per-million-internet-user DC capacity (~1 MW) lags China (4 MW), EU (12 MW) and the US (51 MW).\n- **Water stress**: Clusters are concentrated in Maharashtra, Telangana and Tamil Nadu - states already under severe water stress; a 100 MW hyperscale facility can use ~2 million litres/day.\n- **Geopolitical/China dumping risk is limited here but global chip supply (HBM, GPUs) remains concentrated with a handful of makers, and US export controls on advanced AI chips affect India's AI-DC buildout timelines.\n- **Capital intensity and leverage**: Capex of Rs 50-70 crore/MW, 70-80% debt funding typical, and interest-cover of only 2-3x for the sector, though infrastructure-status financing (15-20 year tenor, 8.5-10.5%) is improving terms.\n\n## Competitive landscape\nThe market is moderately concentrated: the top 5 colocation operators (CtrlS, NTT, STT GDC, Nxtra by Airtel, Sify, Adani Connex) together hold roughly 65-90% of installed capacity depending on the measure used, though new entrants (Reliance, AirTrunk, CapitaLand, Equinix, hyperscalers self-building) are expected to dilute this to ~70-75% by FY31. Mumbai/Navi Mumbai and Chennai together account for 70-80% of capacity; emerging hubs include Hyderabad, Delhi-NCR, Pune, Bengaluru and newer locations like Visakhapatnam, Kolkata and GIFT City.\n\n## Outlook\nIndia is positioned to be one of APAC's fastest-growing DC markets (CAGR estimates 13.6-24.6% depending on scope) through 2030-35, but remains a demand-led, capital-import-heavy build-out story rather than a domestic-manufacturing-led one - making policy execution (grid upgrades, PLI-driven local hardware assembly, water-sensitive siting) central to whether India can move from ~2-5% of global capacity today toward the 10-12 GW target floated for 2030.",
     "report": {
       "kind": "llm",
-      "generated_at": "2026-08-15",
-      "hash": "9b6f22f2dbd6f4f6a711ddbaaaf70ce4",
+      "generated_at": "2026-10-11",
+      "hash": "db95ca2fc6c24e391dc96d6f52763f1d",
       "sections": [
         {
           "heading": "Executive summary",
           "prose": [
-            "India's data centre industry stood at about USD 10 billion in EBITDA-implied value and USD 1.2 billion in annual revenue as of March 2024. The sector has grown fast from a small base - revenue was just USD 0.658 billion in 2015 and USD 4.5 billion in 2020 on the same basis - but India still has only about 1.2-1.8 GW of operating capacity, roughly 1% of world capacity, even though the country generates around a fifth of the world's data.",
-            "The gap between demand and supply is the industry's defining feature. Multiple forecasts point to capacity reaching 5-17 GW by 2030, backed by USD 20-100 billion of prospective investment, and new supply additions in H1 2026 were already up 59% year-on-year to 258 MW. Growth is being driven by AI compute demand, data-localisation rules, rising internet use, and India's low build cost relative to other countries.",
-            "The market is concentrated among a handful of colocation pioneers and three global cloud giants, but new entrants from real estate, power and private equity are starting to chip away at that concentration. Power supply, grid losses, water stress and slow regulatory approvals are the main constraints on how fast India can build."
+            "India's data centre market is valued at roughly USD 9.8 billion in 2025, up from about USD 4 billion in 2024 and just USD 1.2 billion in 2021. Installed IT capacity has crossed roughly 1.6-1.9 GW by mid-2026, tripling from around 520 MW in 2020.",
+            "Even so, India holds only about 2-5% of global data centre capacity while generating roughly 20% of the world's data, pointing to a long runway for growth. Over USD 120 billion of hyperscaler and conglomerate commitments are backing a build-out toward 6-9 GW by 2029-30.",
+            "Growth is being driven by AI workloads, data-localisation rules, new tax and infrastructure-status incentives, and cheaper construction costs than global peers. At the same time, India remains heavily import-dependent for servers, GPUs and power/cooling equipment, and faces grid, water and regulatory constraints that could slow the pace of expansion."
           ],
           "key_numbers": [
             {
-              "label": "Industry value (EBITDA-based, FY24)",
-              "value": "USD 10 BN (as of 31 March 2024)"
+              "label": "Market size 2025",
+              "value": "USD 9.79 billion (2025)"
             },
             {
-              "label": "Annual revenue (FY24)",
-              "value": "USD 1.2 BN"
+              "label": "Market size 2024",
+              "value": "USD 4 billion (2024)"
             },
             {
-              "label": "Current capacity",
-              "value": "~1.2-1.8 GW (~1% of global capacity)"
+              "label": "Installed capacity",
+              "value": "~1.6-1.9 GW (mid-2026)"
             },
             {
-              "label": "2030 capacity forecast",
-              "value": "5-17 GW"
-            },
-            {
-              "label": "Prospective investment this decade",
-              "value": "USD 20-100 BN"
+              "label": "Committed investment",
+              "value": "USD 120+ billion (hyperscaler & conglomerate commitments)"
             }
           ],
           "source_refs": [
             {
-              "label": "ANAROCK",
-              "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf"
+              "label": "Arizton / Mordor Intelligence",
+              "url": "https://www.arizton.com/market-reports/data-center-market-in-india-2026"
             },
             {
-              "label": "Takshashila Institution",
-              "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf"
+              "label": "KPMG",
+              "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf"
             }
           ]
         },
         {
           "heading": "Market size & growth",
           "prose": [
-            "By EBITDA-implied valuation (assuming a 20x EV/EBITDA multiple), India's data centre industry was worth about USD 10 billion as of 31 March 2024, with annual revenue of USD 1.2 billion in the same year. This marks a sharp rise from USD 4.5 billion in 2020 and just USD 0.658 billion in 2015, showing the industry has grown roughly fifteen-fold in less than a decade.",
-            "Growth is set to keep accelerating. India's capacity additions in H1 2026 were up 59% year-on-year to 258 MW, and forecasts converge on total capacity reaching 5-17 GW by 2030, up from today's 1.2-1.8 GW. This build-out is expected to require USD 20-100 billion of fresh investment this decade, drawing in hyperscalers, telecom groups, real estate developers and private equity."
+            "India's data centre market was valued at USD 9.79 billion in 2025, having grown from USD 4 billion in 2024 and just USD 1.2 billion in 2021. The market is expected to grow at a CAGR of roughly 13.59% through 2031, though different trackers put the range as wide as 13.5-24.6% depending on scope.",
+            "Installed IT capacity has tripled from around 520 MW in 2020 to roughly 1.5-1.9 GW by FY26. Multiple trackers project this will reach 4-9+ GW by 2029-30, driven by AI, cloud computing and data-localisation requirements."
           ],
           "key_numbers": [
             {
-              "label": "Industry value (2024)",
-              "value": "USD 10 BN"
+              "label": "Market size 2025",
+              "value": "USD 9.79 billion (2025)"
             },
             {
-              "label": "Revenue (2024)",
-              "value": "USD 1.2 BN"
+              "label": "Market size 2024",
+              "value": "USD 4 billion (2024)"
             },
             {
-              "label": "Revenue (2020)",
-              "value": "USD 4.5 BN"
+              "label": "Market size 2021",
+              "value": "USD 1.2 billion (2021)"
             },
             {
-              "label": "Revenue (2015)",
-              "value": "USD 0.658 BN"
-            },
-            {
-              "label": "H1 2026 capacity additions growth",
-              "value": "+59% YoY to 258 MW"
+              "label": "CAGR",
+              "value": "~13.59% (2025-2031)"
             }
           ],
           "source_refs": [
             {
-              "label": "ANAROCK",
-              "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf"
+              "label": "Arizton / Mordor Intelligence",
+              "url": "https://www.arizton.com/market-reports/data-center-market-in-india-2026"
             }
           ]
         },
         {
           "heading": "Segments",
           "prose": [
-            "Colocation is the largest and fastest-growing segment, rising from a 20% share of Indian data centres in 2010 to nearly 45% today, as enterprises increasingly outsource their infrastructure rather than run their own facilities. Mega data centres now account for 42% of India's market by capacity, with about 836 MW of IT load concentrated in large-scale sites.",
-            "Geographically, the market is highly concentrated: Mumbai Metropolitan Region and Chennai together account for 70% of India's total data centre stock, making them the primary hubs for operators. Tier 2 cities remain a small but emerging part of the market, holding just 5% of current area and 6% of IT power capacity."
+            "Colocation is the dominant deployment model, capturing 84.45% share in 2025 as enterprises choose to outsource rather than self-build. By value, however, hyperscale facilities account for an estimated 56% of 2026 market value as large self-build campuses from cloud providers scale up.",
+            "On the component side, hardware - servers, storage, networking and cooling equipment - dominates with over 55% market share in 2026, valued at more than USD 8.63 billion. By end-use, IT and ITES is the largest vertical at 45.96% of the market, followed by BFSI at 18%, which is also the fastest-growing vertical due to uptime mandates.",
+            "Tier 3 facilities, offering N+1 redundancy and 99.98% uptime, are the dominant facility standard, holding 49.15% share in 2025. Geographically, Mumbai and Navi Mumbai dominate with over 52% of installed capacity, followed by Chennai at nearly 20%, which is rising fast due to submarine cable connectivity. At the state level, Maharashtra leads with 26% share."
           ],
           "key_numbers": [
             {
               "label": "Colocation share",
-              "value": "45% (up from 20% in 2010)"
+              "value": "84.45% (2025)"
             },
             {
-              "label": "Mega data centre share",
-              "value": "42% (~836 MW IT load)"
+              "label": "Hardware share",
+              "value": ">55% (2026), USD 8.63B+"
             },
             {
-              "label": "MMR + Chennai share of stock",
-              "value": "70%"
+              "label": "Mumbai/Navi Mumbai share",
+              "value": ">52% of installed capacity"
             },
             {
-              "label": "Tier 2 cities share",
-              "value": "5% of area, 6% of IT power"
+              "label": "IT/ITES end-use share",
+              "value": "45.96% (2025)"
             }
           ],
           "source_refs": [
             {
-              "label": "Eninrac Consulting",
-              "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf"
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-data-center-market"
             },
             {
-              "label": "Brightlio",
-              "url": "https://brightlio.com/data-center-stats/"
+              "label": "MarkNtel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/india-data-center-market.html"
             },
             {
-              "label": "ANAROCK",
-              "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf"
+              "label": "Persistence Market Research",
+              "url": "https://www.persistencemarketresearch.com/market-research/india-data-center-market.asp"
+            },
+            {
+              "label": "Astute Analytica",
+              "url": "https://www.astuteanalytica.com/industry-report/india-data-center-market"
+            },
+            {
+              "label": "IMARC Group",
+              "url": "https://www.imarcgroup.com/india-data-center-market"
+            },
+            {
+              "label": "Eninrac",
+              "url": "https://eninrac.com/horizon/the-c-suite-intelligence/india-data-center-market-2026-2030-23-trillion-capex-boom-hyperscale-growth-investment-outlook/"
             }
           ]
         },
         {
           "heading": "Value chain",
           "prose": [
-            "Building a data centre starts with site selection and construction - hyperscale projects need 10-50 acres of land - with costs split roughly 40% land and building, 40% electrical systems, and 20% heating, ventilation and cooling. Operators then must procure and import critical equipment including electrical systems, cooling systems, backup generators, servers, network gear and racks.",
-            "IT infrastructure comes from a mix of domestic manufacturers, such as Netweb's ISO-certified Faridabad facility, and global OEMs like Dell, HPE and IBM. Servers alone make up about 80% of a data centre's initial setup cost. Once built, facilities are run through colocation leasing and power/cooling operations, where power is 65% of operating cost and efficiency (PUE) ranges from 1.3 in green data centres to 1.9 in conventional ones. Sitting atop this physical layer, global hyperscalers - AWS, Azure and Google Cloud, together 87% of India's IaaS market - and networking OEMs like Cisco, Juniper and Huawei deliver the actual cloud and compute services."
+            "The chain starts with site selection and construction, where hyperscale facilities need 10-50 acres of land. Cost allocation runs roughly 40% to hard costs (land and building), 40% to electrical systems, and 20% to HVAC cooling systems.",
+            "Equipment procurement is a critical and import-heavy stage, covering electrical systems, cooling, backup generators, servers and networking gear. Servers alone make up roughly 80% of a data centre's initial setup cost, with equipment sourced from both domestic manufacturers like Netweb and global OEMs such as Dell, HPE and IBM.",
+            "Once built, operations and colocation leasing follow, with power making up 65% of operating costs and PUE (power usage effectiveness) ranging from 1.3 in green data centres to 1.9 in conventional ones. On top of the physical layer sits cloud and compute service delivery, dominated by hyperscalers AWS, Azure and Google Cloud, which together hold 87% of India's IaaS market, alongside networking OEMs like Cisco, Juniper and Huawei."
           ],
           "key_numbers": [
-            {
-              "label": "Cost split",
-              "value": "~40% land/building, ~40% electrical, ~20% HVAC"
-            },
             {
               "label": "Server share of setup cost",
               "value": "~80%"
@@ -222,7 +220,7 @@
             },
             {
               "label": "Hyperscaler IaaS share",
-              "value": "87% (AWS, Azure, GCP)"
+              "value": "87% (AWS, Azure, GCP combined)"
             }
           ],
           "source_refs": [
@@ -231,12 +229,12 @@
               "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf"
             },
             {
-              "label": "IIFL / Netweb Technologies coverage",
-              "url": "https://www.netwebindia.com/investors/IIFL-Netweb-Technologies-Initiating-Coverage.pdf"
-            },
-            {
               "label": "Yotta Infrastructure (TRAI submission)",
               "url": "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf"
+            },
+            {
+              "label": "IIFL / Netweb Technologies coverage",
+              "url": "https://www.netwebindia.com/investors/IIFL-Netweb-Technologies-Initiating-Coverage.pdf"
             },
             {
               "label": "Takshashila Institution",
@@ -247,12 +245,13 @@
         {
           "heading": "Distribution & channels",
           "prose": [
-            "Colocation and third-party data centre providers are the main distribution channel, holding nearly 45% of the market as enterprises shift from owning infrastructure to leasing it. Content delivery network (CDN) players form a smaller, dependent channel: India lacks a dedicated regulatory or licensing framework for CDNs, so they rely on telecom service providers for point-to-point connectivity and internet transit."
+            "Colocation and third-party data centre providers hold nearly 45% of overall data centres in India, as businesses rent space, power and cooling rather than build and operate their own facilities.",
+            "Content delivery network (CDN) players operate without a dedicated regulatory or licensing framework in India, making them dependent on telecom service providers for point-to-point connectivity and internet transit."
           ],
           "key_numbers": [
             {
-              "label": "Colocation share",
-              "value": "45%"
+              "label": "Colocation/third-party share",
+              "value": "~45%"
             }
           ],
           "source_refs": [
@@ -269,31 +268,27 @@
         {
           "heading": "Key players & positioning",
           "prose": [
-            "India's colocation market is led by a small group of pioneers: Bharti Airtel's Nxtra Data (10 large and 120+ edge data centres, with Carlyle Group holding a 25% stake bought for USD 235 million), CtrlS, Netmagic (NTT Communications), ST Telemedia Global Data Centres (70 MW across 2.14 million sq ft, targeting 200 MW), and Yotta Infrastructure, which operates India's largest single facility (5.845 MW, Shakti Cloud NM1 Phase 1) and is investing over $2 billion to deploy 20,000 Nvidia Blackwell Ultra chips.",
-            "Large Indian conglomerates are entering with big capital commitments: Reliance Industries and Adani Group (up to INR 70,000 crore for solar-powered data parks in Andhra Pradesh) are both building new capacity, alongside Tata Communications, Techno Electric & Engineering (USD 1 billion planned), and Hiranandani Group (INR 14,000 crore).",
-            "On the cloud services layer, AWS, Microsoft Azure and Google Cloud together hold 87% of India's IaaS market, with Oracle also active via its Mumbai Gen 2 Cloud region. Global colocation and infrastructure players are also circling India: Equinix has a USD 15 billion global expansion plan and NTT has committed USD 1.5 billion to Indian expansion.",
-            "On the hardware side, Netweb Technologies is India's largest supercomputing systems manufacturer and NVIDIA's only Elite OEM partner in the country, having installed over 300 supercomputing systems and 4,000+ AI systems/workstations. It competes with global OEMs HPE (19 locations in India), IBM (20 locations) and Dell (8 locations)."
+            "CtrlS, NTT (Netmagic), STT GDC, Sify, Nxtra (Bharti Airtel) and Adani Connex are the top colocation operators, together accounting for a majority of operational capacity. STT GDC runs 70 MW across 2.14 million sq ft with plans to expand to 200 MW. Nxtra has 10 large and 120+ edge data centres nationwide; Carlyle Group bought a 25% stake in Nxtra for USD 235 million.",
+            "Yotta Infrastructure operates India's largest single data centre (5.845 MW, Navi Mumbai) and is investing over USD 2 billion to deploy 20,000 Nvidia Blackwell Ultra chips, alongside plans for 100 edge data centres. Adani Group has announced plans to invest up to INR 70,000 crore in solar-powered data parks in Andhra Pradesh, while Hiranandani Group (linked to Yotta) has committed INR 14,000 crore, and Techno Electric & Engineering plans USD 1 billion across major Indian cities.",
+            "Global hyperscalers AWS, Microsoft Azure and Google Cloud dominate cloud infrastructure with 87% of India's IaaS market. Oracle has launched a Gen 2 Cloud region in Mumbai with another planned in Hyderabad. Google has secured approval for a 600-acre data centre in Vizag via its subsidiary Raiden Infotech India, and Reliance Industries is partnering with Microsoft for SME cloud services.",
+            "On hardware, Netweb Technologies is NVIDIA's only Elite OEM partner in India, having installed over 300 supercomputing systems and 4,000+ AI systems. Global OEMs HPE, IBM and Dell maintain extensive India footprints (19, 20 and 8 locations respectively) in servers and storage. Global colocation operator Equinix has announced a USD 15 billion global expansion plan, and NTT has committed USD 1.5 billion to its India expansion."
           ],
           "key_numbers": [
             {
-              "label": "IaaS market share (AWS/Azure/GCP)",
-              "value": "87%"
-            },
-            {
-              "label": "Nxtra Data footprint",
-              "value": "10 large + 120+ edge DCs"
-            },
-            {
               "label": "STT GDC capacity",
-              "value": "70 MW (target 200 MW)"
+              "value": "70 MW (expanding to 200 MW)"
             },
             {
-              "label": "Largest single India DC",
-              "value": "5.845 MW (Yotta Shakti Cloud NM1 Phase 1)"
+              "label": "Carlyle stake in Nxtra",
+              "value": "25% stake, USD 235 million"
             },
             {
-              "label": "Equinix global expansion plan",
-              "value": "USD 15 BN"
+              "label": "Adani solar data parks",
+              "value": "up to INR 70,000 crore"
+            },
+            {
+              "label": "NTT India expansion",
+              "value": "USD 1.5 billion"
             }
           ],
           "source_refs": [
@@ -312,114 +307,103 @@
             {
               "label": "Mordor Intelligence",
               "url": "https://www.mordorintelligence.com/industry-reports/service-market-for-data-center"
+            },
+            {
+              "label": "Accenture",
+              "url": "https://www.accenture.com/us-en/insights/infrastructure-capital-projects/data-centre-trends-2026-shifting-up-gear"
             }
           ]
         },
         {
           "heading": "Margins",
           "prose": [
-            "Data centre operators in India have seen EBITDA margins stabilise at around 43% during FY22-23. Power dominates the cost base at 65% of operating expenses, which is why cheap electricity and efficient cooling are central to profitability. Construction margins on the building side are much thinner - around 2-6% by industry benchmarks - while development and asset-level profits can exceed 50%, reflecting the gap between contracting margins and the value created by owning finished, leased capacity."
+            "EBITDA margins for established India colocation operators have stayed stable at around 40-43% between FY22 and FY25, and can scale toward 50-55% at steady-state utilisation. Power costs are the biggest drag on profitability, making up 65-75% of operating expenses.",
+            "Global listed peers Equinix and Digital Realty report comparable EBITDA margins of 37-48%, suggesting India's colocation economics are broadly in line with international benchmarks once scale is reached."
           ],
           "key_numbers": [
             {
-              "label": "Operator EBITDA margin (FY22-23)",
-              "value": "~43%"
+              "label": "EBITDA margin (FY22-25)",
+              "value": "40-43%"
             },
             {
-              "label": "Power share of opex",
-              "value": "65%"
-            },
-            {
-              "label": "Construction margin",
-              "value": "2-6%"
-            },
-            {
-              "label": "Development/asset-level margin",
-              "value": ">50%"
+              "label": "Power cost share of opex",
+              "value": "65-75%"
             }
           ],
           "source_refs": [
             {
               "label": "CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf"
+              "url": "https://www.careratings.com/uploads/newsfiles/1774529784_India's%20Data%20Center%20Capacity.pdf"
             }
           ]
         },
         {
           "heading": "Supply & capacity",
           "prose": [
-            "India's total data centre capacity was 877 MW in 2024, rising to about 1,200 MW in 2025 and forecast to reach 2,000 MW in 2026. This is tiny next to other major markets: China had 3,800 MW, the EU 8,300 MW and the US 15,930 MW in 2024 - India holds roughly 1% of global capacity despite generating a fifth of the world's data.",
-            "Individual facility scale in India also lags the rest of the world. STT GDC's flagship site is 70 MW, and Yotta's Shakti Cloud NM1 Phase 1, India's largest single data centre as of June 2025, is only 5.845 MW - a fraction of the US average facility size. Utilisation of existing capacity is high, at around 93%, underscoring how tight supply already is relative to demand."
+            "The top five to six colocation operators control the majority of India's installed capacity. CtrlS leads with 248 MW across Mumbai, Chennai, Hyderabad and Telangana, followed by STT GDC (202 MW, Mumbai and Chennai-led), NTT (196 MW, Mumbai-led with Bengaluru), Nxtra by Airtel (137 MW, pan-India with 120+ edge sites), Sify (115 MW, Mumbai-Rabale across 12 live facilities), Adani Connex (117 MW, Chennai, Hyderabad, Pune, Vizag) and Yotta (81 MW, Navi Mumbai NM1 campus). The top 5 players account for 66% of total operational capacity.",
+            "Capacity utilisation across the industry runs at around 93%, reflecting tight supply relative to demand. India is heavily reliant on imports for high-value components, with about 60% of such equipment imported in 2024; cumulative data centre component imports are projected to reach USD 17 billion between FY26 and FY30."
           ],
           "key_numbers": [
             {
-              "label": "India capacity (2024)",
-              "value": "877 MW"
+              "label": "CtrlS capacity",
+              "value": "248 MW (2024)"
             },
             {
-              "label": "India capacity (2025)",
-              "value": "1,200 MW"
-            },
-            {
-              "label": "India capacity (2026F)",
-              "value": "2,000 MW"
-            },
-            {
-              "label": "China / USA / EU capacity (2024)",
-              "value": "3,800 MW / 15,930 MW / 8,300 MW"
+              "label": "Top 5 player share",
+              "value": "66% of operational capacity"
             },
             {
               "label": "Capacity utilisation",
               "value": "~93%"
+            },
+            {
+              "label": "High-value component imports",
+              "value": "60% (2024)"
+            },
+            {
+              "label": "Projected cumulative imports FY26-30",
+              "value": "USD 17 billion"
             }
           ],
           "source_refs": [
             {
-              "label": "CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf"
-            },
-            {
-              "label": "Takshashila Institution",
-              "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf"
+              "label": "JM Financial / KPMG / CareEdge",
+              "url": "https://jmflresearch.com/JMnew/JMCRM/analystreports/pdf/Data-Centre-101_27Mar25.pdf"
             }
           ]
         },
         {
           "heading": "Tailwinds vs headwinds",
           "prose": [
-            "Several tailwinds support growth. State governments in Maharashtra, Uttar Pradesh, Tamil Nadu, Telangana and Karnataka offer electricity duty exemptions, stamp duty waivers, land-value rebates up to 50% and training subsidies. Infrastructure status granted in the Union Budget 2022-23 improves access to long-tenor, lower-cost financing, and PLI 2.0 for IT hardware has raised server manufacturing incentives to 5-8% (from 1-4%) with a longer six-year claim window. Operators also carry strong balance sheets, with interest coverage above 4x during FY17-FY23, supporting further debt-funded expansion.",
-            "Headwinds are significant. Regulatory friction requires 40-50 approvals, stretching project timelines to 24-30 months versus an achievable 15-18 months elsewhere. Grid transmission and distribution losses of 16.64% in FY23-24 are more than double the global average of 6-8%, raising effective power costs. Water stress is rising in key clusters - Maharashtra, Telangana and Tamil Nadu are already under severe water stress, and a 100 MW hyperscale centre can consume up to 730 million litres of water a year for cooling. India's facilities are also small by global standards - its largest data centre (5.845 MW) is a fraction of the US average of 20.5 MW - and imported equipment like high-voltage transformers and switchgear can face lead times of 80-160+ weeks. Even the government's own AI compute push is underused: the IndiaAI Compute Portal had just 144 users as of September 2025 despite 34,000+ GPUs on offer."
+            "Tailwinds include surging AI and hyperscale demand (AI workloads are 5-10x more power-intensive than traditional cloud), data-localisation mandates under the DPDP Act and RBI rules expected to add 1,800-2,000 MW of demand by 2027, and new government incentives including infrastructure status for 5MW+ facilities and a 20-year tax holiday for foreign cloud providers through 2047. The IndiaAI Mission has committed Rs 10,372 crore and onboarded 34,000+ GPUs at subsidised rates of USD 0.76/hr versus USD 3-5/hr internationally. State-level incentives across 15 states, over USD 120 billion in committed investment, and construction costs around USD 7/watt - cheaper than the US (USD 10/W) and UK (USD 11/W) - all support continued buildout.",
+            "Headwinds are significant. Regulatory approval processes requiring 40-50 clearances stretch project timelines to 24-30 months versus an achievable 15-18 months elsewhere. Grid transmission and distribution losses of 16.64% are more than double the global average of 6-8%, raising power costs and reliability risk. Major data centre clusters in Maharashtra, Telangana and Tamil Nadu are emerging in states already under severe water stress, with a 100 MW hyperscale facility consuming up to 730 million litres of water annually. India's facilities also remain small by global standards - its largest data centre (5.845 MW) is a fraction of the US average of 20.5 MW - while long lead times of 80-160+ weeks for imported transformers and switchgear risk delaying buildouts. Despite 34,000+ subsidised GPUs available, the national AI Compute Portal had just 144 users as of September 2025, pointing to underutilisation of national compute infrastructure."
           ],
           "key_numbers": [
             {
-              "label": "Approvals required",
-              "value": "40-50 (24-30 month timelines)"
+              "label": "GPU rate (India vs international)",
+              "value": "USD 0.76/hr vs USD 3-5/hr"
             },
             {
-              "label": "Grid T&D losses (FY23-24)",
-              "value": "16.64%"
+              "label": "T&D losses",
+              "value": "16.64% (FY23-24) vs 6-8% global average"
             },
             {
-              "label": "Cooling water use (100 MW DC)",
-              "value": "up to 730 million litres/year"
+              "label": "Approval timeline",
+              "value": "24-30 months (40-50 approvals)"
             },
             {
-              "label": "India largest DC vs US average",
-              "value": "5.845 MW vs 20.5 MW"
-            },
-            {
-              "label": "IndiaAI Compute Portal users",
-              "value": "144 (Sept 2025) vs 34,000+ GPUs"
+              "label": "Equipment lead times",
+              "value": "80-160+ weeks"
             }
           ],
           "source_refs": [
             {
-              "label": "Takshashila Institution",
-              "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf"
+              "label": "KPMG",
+              "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf"
             },
             {
-              "label": "CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf"
+              "label": "Takshashila Institution",
+              "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf"
             },
             {
               "label": "Yotta Infrastructure (TRAI submission)",
@@ -430,100 +414,55 @@
               "url": "https://www.mordorintelligence.com/industry-reports/service-market-for-data-center"
             },
             {
-              "label": "IIFL / Netweb Technologies coverage",
-              "url": "https://www.netwebindia.com/investors/IIFL-Netweb-Technologies-Initiating-Coverage.pdf"
+              "label": "CEEW / KPMG",
+              "url": "https://www.ceew.in/sites/default/files/ceew-data-centre-study-web-ready-final.pdf"
             }
           ]
         },
         {
           "heading": "Outlook",
           "prose": [
-            "India's data centre industry is on track for rapid expansion, with capacity forecast to grow from 1.2-1.8 GW today to 5-17 GW by 2030, backed by USD 20-100 billion in fresh investment. Momentum is already visible in H1 2026 capacity additions, up 59% year-on-year. Growth will be powered by AI and generative AI demand - India's GenAI market alone is projected to grow at a 42% CAGR from 2025 to 2030 - alongside data-localisation rules, rising internet penetration (projected to hit 87% by FY29) and India's cost advantage in construction (~US$7/W versus US$10/W in the US).",
-            "The main risks to this trajectory are structural: slow regulatory approvals, high grid losses, water stress in key clusters, small average facility size, and long import lead times for critical equipment. If these bottlenecks ease alongside continued state-level policy support and infrastructure financing status, India is positioned to close a large part of its capacity gap with China, the US and the EU over the coming decade."
+            "India's data centre market is set to keep growing fast, from USD 9.79 billion in 2025 at a CAGR of roughly 13.59% through 2031, with installed capacity projected to climb from 1.5-1.9 GW today to 4-9+ GW by 2029-30. This growth is anchored by over USD 120 billion in committed hyperscaler and conglomerate investment, continued AI and cloud demand, data-localisation rules, and supportive government policy including tax holidays and infrastructure status.",
+            "The pace of this build-out will depend on how quickly India resolves structural constraints: lengthy regulatory approvals, grid losses well above global norms, water stress in key clusters, undersized facilities relative to global peers, and long import lead times for critical equipment. Addressing these bottlenecks - alongside building out domestic manufacturing in fibre, networking ASICs and transport equipment - will determine whether India can close the gap between its 2-5% share of global capacity and its 20% share of global data generation."
           ],
-          "key_numbers": [
-            {
-              "label": "2030 capacity target",
-              "value": "5-17 GW"
-            },
-            {
-              "label": "GenAI market CAGR (2025E-2030E)",
-              "value": "42%"
-            },
-            {
-              "label": "Internet penetration target (FY29)",
-              "value": "87%"
-            },
-            {
-              "label": "India build cost vs US",
-              "value": "~US$7/W vs US$10/W"
-            }
-          ],
+          "key_numbers": [],
           "source_refs": [
             {
-              "label": "ANAROCK",
-              "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf"
+              "label": "KPMG",
+              "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf"
             },
             {
               "label": "Takshashila Institution",
               "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf"
-            },
-            {
-              "label": "CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf"
             }
           ]
         },
         {
           "heading": "Sources",
           "prose": [
-            "This report draws on industry reports from ANAROCK, CareEdge Ratings, Takshashila Institution, Eninrac Consulting, Brightlio, Mordor Intelligence, MarketResearchFuture, Research and Markets and Accenture, plus company filings and a regulatory submission from Yotta Infrastructure to TRAI, and IIFL's initiating coverage report on Netweb Technologies."
+            "This report draws on market research and industry data from Arizton, Mordor Intelligence, MarkNtel Advisors, Persistence Market Research, Eninrac, Astute Analytica, IMARC Group, KPMG, CEEW, Takshashila Institution, TRAI, CareEdge Ratings, IIFL/Netweb Technologies, Research and Markets, Accenture, and JM Financial."
           ],
           "key_numbers": [],
           "source_refs": [
             {
-              "label": "ANAROCK",
-              "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf"
+              "label": "Arizton / Mordor Intelligence",
+              "url": "https://www.arizton.com/market-reports/data-center-market-in-india-2026"
             },
             {
-              "label": "Eninrac Consulting",
-              "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf"
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-data-center-market"
             },
             {
-              "label": "Brightlio",
-              "url": "https://brightlio.com/data-center-stats/"
-            },
-            {
-              "label": "MarketResearchFuture",
-              "url": "https://www.marketresearchfuture.com/reports/data-centre-market-4721"
-            },
-            {
-              "label": "CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf"
+              "label": "KPMG",
+              "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf"
             },
             {
               "label": "Takshashila Institution",
               "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf"
             },
             {
-              "label": "IIFL / Netweb Technologies coverage",
-              "url": "https://www.netwebindia.com/investors/IIFL-Netweb-Technologies-Initiating-Coverage.pdf"
-            },
-            {
-              "label": "Yotta Infrastructure (TRAI submission)",
-              "url": "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf"
-            },
-            {
-              "label": "Mordor Intelligence",
-              "url": "https://www.mordorintelligence.com/industry-reports/service-market-for-data-center"
-            },
-            {
-              "label": "Research and Markets",
-              "url": "https://www.researchandmarkets.com/report/data-center-software"
-            },
-            {
-              "label": "Accenture",
-              "url": "https://www.accenture.com/us-en/insights/infrastructure-capital-projects/data-centre-trends-2026-shifting-up-gear"
+              "label": "JM Financial / KPMG / CareEdge",
+              "url": "https://jmflresearch.com/JMnew/JMCRM/analystreports/pdf/Data-Centre-101_27Mar25.pdf"
             }
           ]
         }
@@ -665,151 +604,212 @@
   ],
   "size": {
     "current": {
-      "value": 10,
-      "unit": "USD billion (EBITDA-implied industry value)",
-      "year": 2024
+      "value": 9.79,
+      "unit": "USD billion",
+      "year": 2025
     },
-    "cagr_note": "India DC operator revenue grew at ~24% CAGR FY17-FY23; CareEdge forecasts 32% CAGR FY24-FY26; India DC market attracted ~US$60bn investment at 24% CAGR 2019-2024",
+    "cagr_pct": 13.59,
+    "cagr_note": "Mordor/6Wresearch India DC market CAGR 2025-2031 (varies 13.5-24.6% across trackers depending on scope)",
     "history": [
       {
-        "year": 2015,
-        "value": 0.658
-      },
-      {
-        "year": 2020,
-        "value": 4.5
+        "year": 2021,
+        "value": 1.2
       },
       {
         "year": 2024,
-        "value": 1.2
+        "value": 4
+      },
+      {
+        "year": 2025,
+        "value": 9.79
       }
     ],
     "source": {
-      "label": "ANAROCK",
-      "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf",
-      "snippet": "USD 10 BN Size of DC industry in India (Based on EBITDA as of 31st March 2024) (Assuming a 20x EV/EBITDA multiple)"
+      "label": "Arizton / Mordor Intelligence",
+      "url": "https://www.arizton.com/market-reports/data-center-market-in-india-2026",
+      "snippet": "THE INDIA DATA CENTER MARKET SIZE WAS VALUED AT USD 9.79 BILLION IN 2025"
     }
   },
   "segments": [
     {
       "name": "Colocation",
-      "share_pct": 45,
-      "note": "Rose from 20% share in 2010 to nearly 45% of all Indian data centres today",
+      "share_pct": 84.45,
+      "dimension": "product",
+      "note": "Colocation dominates deployment type in India as enterprises outsource vs self-build",
       "source": {
-        "label": "Eninrac Consulting",
-        "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf",
-        "snippet": "From a share of 20% observed in 2010, Colocation data centers presently hold nearly 45% of over all data centers"
+        "label": "Mordor Intelligence",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-data-center-market",
+        "snippet": "colocation captured 84.45% share in 2025"
       }
     },
     {
-      "name": "Mega data centres (India)",
-      "share_pct": 42,
-      "note": "~836 MW of IT load; largest single category by capacity share",
+      "name": "Hyperscale",
+      "share_pct": 56,
+      "dimension": "product",
+      "note": "Alternate tracker shows hyperscale as largest type segment by 2026 value as self-build campuses scale",
       "source": {
-        "label": "Brightlio",
-        "url": "https://brightlio.com/data-center-stats/",
-        "snippet": "Mega data centres already make up 42% of India's market, with about 836 MW of IT load"
+        "label": "MarkNtel Advisors",
+        "url": "https://www.marknteladvisors.com/research-library/india-data-center-market.html",
+        "snippet": "Hyperscale data centers account for an estimated 56% of 2026 market value"
+      },
+      "share_pct_note": "different source/cut than colocation share; shown for context"
+    },
+    {
+      "name": "Hardware",
+      "share_pct": 55,
+      "dimension": "product",
+      "note": "Hardware (servers, storage, networking, cooling) dominates component split",
+      "source": {
+        "label": "Persistence Market Research",
+        "url": "https://www.persistencemarketresearch.com/market-research/india-data-center-market.asp",
+        "snippet": "Hardware dominates the market with over 55% market share in 2026, valued at more than US$ 8.63 Billion"
       }
     },
     {
-      "name": "Tier 2 cities",
-      "share_pct": 5,
-      "note": "5% of current area (sq ft) and 6% of IT power (MW) supply - still nascent vs metro hubs",
+      "name": "IT and ITES",
+      "share_pct": 45.96,
+      "dimension": "application",
+      "note": "Largest end-use vertical in India's DC market",
       "source": {
-        "label": "Eninrac Consulting",
-        "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf",
-        "snippet": "Current Supply for Tier 2 Cities: 5% of Area (sf) & 6% of IT Power (MW)"
+        "label": "Mordor Intelligence",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-data-center-market",
+        "snippet": "IT and ITES accounted for 45.96% of the India data center market size in 2025"
       }
     },
     {
-      "name": "MMR + Chennai",
-      "share_pct": 70,
-      "note": "Together contribute 70% of India's total current DC stock - key operator hotspots",
+      "name": "BFSI",
+      "share_pct": 18,
+      "dimension": "application",
+      "note": "Second-largest end-use after IT/ITES; growing fastest among applications (24.6% CAGR to 2031) on uptime mandates",
       "source": {
-        "label": "ANAROCK",
-        "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf",
-        "snippet": "MMR & Chennai continue to be hotspots for DC operators, together they contribute to 70% of the total DC stock in India"
+        "label": "Eninrac",
+        "url": "https://eninrac.com/horizon/the-c-suite-intelligence/india-data-center-market-2026-2030-23-trillion-capex-boom-hyperscale-growth-investment-outlook/",
+        "snippet": "Hyperscalers accounts to 54% of the datacenter usage in the country followed by BFSI at 18% and tech industry at 12%"
+      }
+    },
+    {
+      "name": "Tier 3",
+      "share_pct": 49.15,
+      "dimension": "process",
+      "note": "Tier 3 (N+1 redundancy, 99.98% uptime) is the dominant facility standard in India",
+      "source": {
+        "label": "Mordor Intelligence",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-data-center-market",
+        "snippet": "Tier 3 secured 49.15% of the India data center market share in 2025"
+      }
+    },
+    {
+      "name": "Mumbai/Navi Mumbai",
+      "share_pct": 52,
+      "dimension": "region",
+      "note": "Largest single hub; share expected to moderate as Chennai, Hyderabad gain",
+      "source": {
+        "label": "Astute Analytica",
+        "url": "https://www.astuteanalytica.com/industry-report/india-data-center-market",
+        "snippet": "Mumbai continues to reign supreme, commanding over 52% of the total installed capacity"
+      }
+    },
+    {
+      "name": "Chennai",
+      "share_pct": 20,
+      "dimension": "region",
+      "note": "Second-largest and fastest-rising hub on submarine cable connectivity",
+      "source": {
+        "label": "Astute Analytica",
+        "url": "https://www.astuteanalytica.com/industry-report/india-data-center-market",
+        "snippet": "Chennai is cementing its position as the second-largest hub with nearly 20% market share"
+      }
+    },
+    {
+      "name": "Maharashtra",
+      "share_pct": 26,
+      "dimension": "region",
+      "note": "Largest state by capacity share in a state-level cut (distinct basis from city-level cut above)",
+      "source": {
+        "label": "IMARC Group",
+        "url": "https://www.imarcgroup.com/india-data-center-market",
+        "snippet": "Maharashtra commands the largest regional share at 26.0% in 2025"
       }
     }
   ],
   "growth_drivers": [
     {
-      "title": "AI and generative AI adoption",
-      "detail": "India's GenAI market sized at USD 1.1 billion in 2025E is expected to grow at a 42% CAGR to 2030E, driving demand for high-density, GPU-equipped data centre capacity.",
+      "title": "AI and hyperscale demand",
+      "detail": "AI/ML workloads are 5-10x more power-intensive than conventional cloud; dedicated GenAI DC capacity could exceed 1.1 GW by 2030, driving rack densities from 8-12 kW to 40-150 kW and large hyperscaler capex commitments (Microsoft, Google, AWS, Meta, Reliance).",
       "source": {
-        "label": "ANAROCK",
-        "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf",
-        "snippet": "Expected Market Size USD 1.1 BN 2025E ... 42% CAGR (2025E - 2030E)"
+        "label": "KPMG",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf",
+        "snippet": "An exponential surge in AI and high-performance computing workloads, which are 5-10x more power-intensive than traditional cloud use cases"
       }
     },
     {
-      "title": "Data localisation regulation",
-      "detail": "India's Digital Personal Data Protection Act (2023) establishes residency requirements that are driving domestic capacity commitments and on-shoring of data from offshore centres.",
+      "title": "Data localisation and sovereignty mandates",
+      "detail": "The DPDP Act 2023, RBI payment-data storage rules, and sector-specific (SEBI, RBI) mandates compel in-country hosting, expected to add 1,800-2,000 MW of demand by 2027 and end routing of Indian data through Singapore/Ireland.",
       "source": {
-        "label": "MarketResearchFuture",
-        "url": "https://www.marketresearchfuture.com/reports/data-centre-market-4721",
-        "snippet": "India's growth rests on two legs: localisation mandates under the DPDP Act, and a cable landing build-out that now gives Mumbai more international capacity than any other South Asian gateway"
+        "label": "Mordor Intelligence",
+        "url": "https://www.mordorintelligence.com/industry-reports/india-data-center-market",
+        "snippet": "compels global enterprises to host production databases inside India, eliminating previous routes through Singapore or Ireland"
       }
     },
     {
-      "title": "Rising internet penetration and data consumption",
-      "detail": "Internet penetration is projected to climb from ~63% (FY23) to 87% (FY29), and data consumption is projected to triple, driven by cheap data, UPI adoption and smartphone growth.",
+      "title": "Government infrastructure status and tax incentives",
+      "detail": "5MW+ data centres were granted infrastructure status in Budget 2022-23 (enabling cheaper, longer-tenor debt); Budget 2026-27 introduced a 20-year tax holiday (to 2047) for foreign cloud providers operating via Indian data centres.",
       "source": {
-        "label": "CareEdge Ratings",
-        "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf",
-        "snippet": "boost internet penetration (internet users as a % of population) from approximately 63% in FY23 ... to 87% by FY29"
+        "label": "KPMG",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf",
+        "snippet": "A tax holiday until 2047 has been announced for qualifying foreign cloud service providers (CSP) operating via data centre infrastructure located in India"
       }
     },
     {
-      "title": "Lower construction cost advantage",
-      "detail": "India's build cost of ~US$7/Watt is well below the US (US$10/W) and UK (US$11/W), making it an attractive destination for global capacity expansion, aided by Singapore's building moratorium pushing customers toward India.",
+      "title": "Rising internet, mobile data and digital payments usage",
+      "detail": "India's internet subscribers crossed ~1 billion (2025), average mobile data usage is ~25-31 GB/month and rising 18-20% annually, and UPI processes 18-20+ billion transactions a month - all compounding data creation and storage/compute needs.",
+      "source": {
+        "label": "CEEW / KPMG",
+        "url": "https://www.ceew.in/sites/default/files/ceew-data-centre-study-web-ready-final.pdf",
+        "snippet": "number of internet subscribers has increased by ~30 per cent over the last 5 years ~0.8 bn in 2020 to ~1.02 bn in 2025"
+      }
+    },
+    {
+      "title": "Lower construction costs vs global peers",
+      "detail": "Mumbai is rated the world's second most cost-effective data-centre construction location (~US$7/watt vs US$10/W US, US$11/W UK), and India capex is roughly 30-45% lower than China and the US, improving project economics for global and domestic developers.",
       "source": {
         "label": "Takshashila Institution",
         "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf",
-        "snippet": "building a data centre in India averaged US$7 per watt"
-      }
-    },
-    {
-      "title": "Hyperscale and government AI compute investment",
-      "detail": "Large committed projects from Google, Reliance and Adani, plus the IndiaAI Compute Portal (34,000+ GPUs as of May 2025) via providers like Yotta, E2E and CtrlS, are expanding the capacity pipeline.",
-      "source": {
-        "label": "Takshashila Institution",
-        "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf",
-        "snippet": "there are some prominent medium-to-large data centre projects by Google, Reliance Industries, and Adani in the planning phase"
+        "snippet": "building a data centre in India averaged US$7 per watt, which is significantly cheaper than the US (US$10/W) and UK (US$11/W), and nearly matches China (US$6/W)"
       }
     }
   ],
   "tailwinds": [
     {
-      "point": "State-level policy incentives - Maharashtra, Uttar Pradesh, Tamil Nadu and West Bengal offer electricity duty exemptions, stamp duty waivers, land-value rebates up to 50% and training subsidies for data centre projects.",
+      "point": "Government has committed Rs 10,372 crore under the IndiaAI Mission and onboarded 34,000+ GPUs at subsidised rates (~USD0.76-0.8/hr vs USD3-5/hr internationally), lowering the cost of AI compute for domestic startups and lifting DC demand.",
+      "source": {
+        "label": "KPMG",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf",
+        "snippet": "IndiaAI Mission's GPU Access rate : USD0.76/hr v/s International rate: USD3 -5/hr"
+      }
+    },
+    {
+      "point": "State-level incentives (Maharashtra, Telangana, Tamil Nadu, UP, Karnataka, Gujarat, Rajasthan, Odisha, Haryana, Andhra Pradesh) offer land subsidies, stamp-duty and electricity-duty exemptions, and dual power grids, lowering project costs and timelines.",
+      "source": {
+        "label": "CEEW / Wikipedia",
+        "url": "https://www.ceew.in/sites/default/files/ceew-data-centre-study-web-ready-final.pdf",
+        "snippet": "Currently, 15 states support data centres through dedicated policies or through IT/TeS and industrial policies"
+      }
+    },
+    {
+      "point": "Over USD120 billion of investments have been committed by hyperscalers and global/Indian operators for the India market, with annual capacity additions growing ~2.4x from ~778 MW (FY23) to ~1,900 MW (FY26).",
+      "source": {
+        "label": "KPMG",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf",
+        "snippet": "Investments of over USD120 billion have been committed by hyperscalers and global and Indian data centre operators for the India market"
+      }
+    },
+    {
+      "point": "India's growing optical-fibre manufacturing base (top-3 global producer) and emerging indigenous players in networking ASICs (VerveSemiconductors, Cyient) and transport networks (HFCL, Tejas Networks) offer a partial hedge against import dependence.",
       "source": {
         "label": "Takshashila Institution",
         "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf",
-        "snippet": "Several state governments including Maharashtra, Tamil Nadu, Telangana, Uttar Pradesh, and Karnataka have adopted dedicated data centre policies"
-      }
-    },
-    {
-      "point": "Infrastructure status accorded to the sector in Union Budget 2022-23 improves access to long-tenor, lower-cost financing.",
-      "source": {
-        "label": "CareEdge Ratings",
-        "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf",
-        "snippet": "according infrastructure status to the sector in the Union budget 2022-23"
-      }
-    },
-    {
-      "point": "PLI 2.0 for IT hardware raises server manufacturing incentives to 5-8% (from 1-4%) with a longer six-year claim window, supporting domestic server ecosystem players like Netweb.",
-      "source": {
-        "label": "IIFL / Netweb Technologies coverage",
-        "url": "https://www.netwebindia.com/investors/IIFL-Netweb-Technologies-Initiating-Coverage.pdf",
-        "snippet": "increasing the same to 5-8% (vs earlier 1-4%)... increasing the term for claiming benefits to six years (vs four years earlier)"
-      }
-    },
-    {
-      "point": "Strong interest coverage (above 4x during FY17-FY23) across major operators signals a healthy credit profile supporting further debt-funded capacity expansion.",
-      "source": {
-        "label": "CareEdge Ratings",
-        "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf",
-        "snippet": "an interest coverage ratio above 4x during the period FY17 to FY23"
+        "snippet": "India is among the top 3 producers of optical fibre cable in the world"
       }
     }
   ],
@@ -908,26 +908,6 @@
         "label": "Takshashila Institution",
         "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf",
         "snippet": "AWS, Microsoft Azure, and Google Cloud Platform collectively accounting for 87 percent of the Infrastructure-as-a-Service (IaaS) cloud market"
-      }
-    }
-  ],
-  "channels": [
-    {
-      "channel": "Colocation / third-party DC providers",
-      "share_pct": 45,
-      "source": {
-        "label": "Eninrac Consulting",
-        "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf",
-        "snippet": "Colocation data centers presently hold nearly 45% of over all data centers"
-      }
-    },
-    {
-      "channel": "CDN players (dependent on telecom operators)",
-      "note": "CDN players in India lack a dedicated regulatory framework and depend on telecom service providers for point-to-point connectivity and internet transit",
-      "source": {
-        "label": "Yotta Infrastructure (TRAI submission)",
-        "url": "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf",
-        "snippet": "absence of a regulatory framework / licensing framework for CDN players makes them dependent on telecom service providers for all the resources"
       }
     }
   ],
@@ -1189,426 +1169,705 @@
     }
   ],
   "margins": {
-    "manufacturer_pct": 43,
-    "notes": "DC operator EBITDA margins stabilised at ~43% during FY22-23 (India); power is 65% of opex; construction margins for data centre building projects are much thinner (2-6% per industry benchmarks), while development/asset-level profit margins can exceed 50%.",
+    "manufacturer_pct": 40,
+    "notes": "EBITDA margins for established India colocation operators are stable around 40-43% (FY22-25) and can scale toward 50-55% at steady-state utilisation; power costs are 65-75% of opex. Global listed peers (Equinix, Digital Realty) report similar 37-48% EBITDA margins.",
     "source": {
       "label": "CareEdge Ratings",
-      "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf",
-      "snippet": "stabilising at ~43% during FY22-23"
+      "url": "https://www.careratings.com/uploads/newsfiles/1774529784_India's%20Data%20Center%20Capacity.pdf",
+      "snippet": "EBITDA margins have remained relatively stable at 40-43% during FY22-FY25"
     }
   },
   "quant": {
     "capacity": [
       {
-        "player": "India (total)",
-        "region": "India",
-        "capacity": 877,
+        "player": "CtrlS",
+        "region": "India (Mumbai, Chennai, Hyderabad, Telangana)",
+        "capacity": 248,
         "unit": "MW",
         "year": 2024
       },
       {
-        "player": "India (total)",
-        "region": "India",
-        "capacity": 1200,
-        "unit": "MW",
-        "year": 2025
-      },
-      {
-        "player": "India (total, forecast)",
-        "region": "India",
-        "capacity": 2000,
-        "unit": "MW",
-        "year": 2026
-      },
-      {
-        "player": "China (total)",
-        "region": "China",
-        "capacity": 3800,
-        "unit": "MW",
-        "year": 2024
-      },
-      {
-        "player": "USA (total)",
-        "region": "USA",
-        "capacity": 15930,
-        "unit": "MW",
-        "year": 2024
-      },
-      {
-        "player": "EU (total)",
-        "region": "EU",
-        "capacity": 8300,
+        "player": "NTT",
+        "region": "India (Mumbai-led, with Bengaluru)",
+        "capacity": 196,
         "unit": "MW",
         "year": 2024
       },
       {
         "player": "STT GDC",
-        "region": "India",
-        "capacity": 70,
+        "region": "India (Mumbai, Chennai-led)",
+        "capacity": 202,
         "unit": "MW",
-        "year": 2021
+        "year": 2024
       },
       {
-        "player": "Yotta Shakti Cloud NM1 Phase 1",
-        "region": "India",
-        "capacity": 5.845,
+        "player": "Sify",
+        "region": "India (Mumbai-Rabale, 12 live facilities)",
+        "capacity": 115,
         "unit": "MW",
-        "year": 2025
+        "year": 2024
+      },
+      {
+        "player": "Nxtra by Airtel",
+        "region": "India (pan-India, 120+ edge sites)",
+        "capacity": 137,
+        "unit": "MW",
+        "year": 2024
+      },
+      {
+        "player": "Adani Connex",
+        "region": "India (Chennai, Hyderabad, Pune, Vizag)",
+        "capacity": 117,
+        "unit": "MW",
+        "year": 2024
+      },
+      {
+        "player": "Yotta",
+        "region": "India (Navi Mumbai NM1 campus)",
+        "capacity": 81,
+        "unit": "MW",
+        "year": 2024
       }
     ],
     "utilisation_pct": 93,
+    "imports": [
+      {
+        "year": 2024,
+        "volume": 60,
+        "unit": "% of high-value DC components imported"
+      },
+      {
+        "year": 2030,
+        "volume": 17,
+        "unit": "USD billion cumulative DC component imports FY26-30 (projected)"
+      }
+    ],
+    "duty": [
+      {
+        "country": "India",
+        "note": "20-year tax holiday for foreign cloud service providers operating via Indian data centres, announced Budget 2026-27, valid till 2047"
+      },
+      {
+        "country": "India",
+        "note": "Data centres above 5 MW IT load accorded 'infrastructure status' (Union Budget 2022-23), enabling access to longer-tenor (15-20 year) infrastructure debt at lower rates (8.5-10.5% vs 11-13% earlier)"
+      },
+      {
+        "country": "India (states)",
+        "note": "Maharashtra, Telangana, Tamil Nadu, Karnataka, Uttar Pradesh, Gujarat, Rajasthan, Odisha, Haryana and Andhra Pradesh each offer state-level incentives (land subsidies up to 50%, 100% stamp-duty exemption, electricity-duty waivers up to 20 years)"
+      },
+      {
+        "country": "India",
+        "note": "Safe-harbour transfer-pricing margin of 15% on cost applies where an Indian DC operates as a related entity of a foreign cloud service provider on a cost-plus basis"
+      }
+    ],
     "source": {
-      "label": "CareEdge Ratings",
-      "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf",
-      "snippet": "Data Center Capacity (MW) | 877 | 3800 | 15,930 | 8300"
+      "label": "JM Financial / KPMG / CareEdge",
+      "url": "https://jmflresearch.com/JMnew/JMCRM/analystreports/pdf/Data-Centre-101_27Mar25.pdf",
+      "snippet": "NTT, STT, Sify and CtrlS are the top players; Top 5 players account for 66% of total operational capacity"
     }
   },
   "sources": {
     "youtube": [
       {
-        "title": "How data centers work and why AI is driving their growth",
-        "url": "https://www.youtube.com/watch?v=3Yh9OddmgS0",
-        "why_relevant": "Explains the AI-driven demand surge reshaping the global data centre market, relevant context for understanding why capacity forecasts for India have risen sharply.",
-        "thumbnail": "https://img.youtube.com/vi/3Yh9OddmgS0/hqdefault.jpg"
+        "title": "Rise With India: India's Data Center Industry Set To Double Capacity By 2026, Attracting Investments",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=x3OQZ7xJqyY",
+        "why_relevant": "Discusses capacity doubling and the scale of investment flowing into India's data centre industry",
+        "thumbnail": "https://img.youtube.com/vi/x3OQZ7xJqyY/hqdefault.jpg"
       },
       {
-        "title": "Inside Modern Data Centres | How They Work? Why They Power the Digital World? What are Data Centres?",
-        "url": "https://www.youtube.com/watch?v=hVFyj9JbDDw",
-        "why_relevant": "One factory/facility-tour style video included to show what a modern data centre physically looks like and how it operates.",
-        "thumbnail": "https://img.youtube.com/vi/hVFyj9JbDDw/hqdefault.jpg"
+        "title": "The inner workings of Asia's largest data centre, in Navi Mumbai",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=0NyGSJUUlI4",
+        "why_relevant": "A how-it's-made style tour of one of India's flagship hyperscale facilities (keep to one such video per the brief)",
+        "thumbnail": "https://img.youtube.com/vi/0NyGSJUUlI4/hqdefault.jpg"
       },
       {
-        "title": "How Data Centers Actually Work - YouTube",
-        "url": "https://www.youtube.com/watch?v=cTwvUqLNQrM",
-        "why_relevant": "Data centers power the internet, cloud computing, AI, and nearly every digital service we use daily — but how do data centers actually work? In this video, w...",
-        "thumbnail": "https://img.youtube.com/vi/cTwvUqLNQrM/hqdefault.jpg"
+        "title": "Data Centre Theme in India | Data Center Stocks in Value Chain",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=X1z3jixk0sM",
+        "why_relevant": "Maps the India data centre value chain to listed stocks - useful for understanding competitive and investment positioning",
+        "thumbnail": "https://img.youtube.com/vi/X1z3jixk0sM/hqdefault.jpg"
       },
       {
-        "title": "What is a Data Center? – Data Center Fundamentals - YouTube",
-        "url": "https://www.youtube.com/watch?v=wZzQBI628Hs",
-        "why_relevant": "Interested in Hyperscale data centers? Sign up for our free hyperscale data center course:https://lp.datacenterhawk.com/hyperscale-business-development-funda...",
-        "thumbnail": "https://img.youtube.com/vi/wZzQBI628Hs/hqdefault.jpg"
+        "title": "Setting Up Data Centers In India: Assessing The Systemic Tailwinds & Possible Beneficiaries",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=hpY0FYy4WbY",
+        "why_relevant": "Explains the structural tailwinds driving India's data centre boom and which companies/sectors stand to benefit across the value chain",
+        "thumbnail": "https://img.youtube.com/vi/hpY0FYy4WbY/hqdefault.jpg"
       },
       {
-        "title": "Everything you've been wondering about data centers, explained",
-        "url": "https://www.youtube.com/watch?v=l3hqZxkpHrI",
-        "why_relevant": "Broad explainer covering how the data centre industry works, why AI is driving demand, and the economics behind the buildout - good for building overall understanding before diving into India specifi…",
-        "thumbnail": "https://img.youtube.com/vi/l3hqZxkpHrI/hqdefault.jpg"
+        "title": "The Future of India's Data Centres: Speed, Scale & Innovation",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=tenez2vs51E",
+        "why_relevant": "Covers the outlook for India's data centre market, including scale-up pace and emerging technology trends",
+        "thumbnail": "https://img.youtube.com/vi/tenez2vs51E/hqdefault.jpg"
       },
       {
-        "title": "What Is a Data Center? Types, Site Selection, and Infrastructure Explained",
-        "url": "https://www.youtube.com/watch?v=tnOaXwDxSY4",
-        "why_relevant": "Covers the different types of data centres (hyperscale, colocation, edge, enterprise) and site-selection factors, useful for understanding segment definitions used throughout industry reports.",
-        "thumbnail": "https://img.youtube.com/vi/tnOaXwDxSY4/hqdefault.jpg"
+        "title": "India's Data Centres are SCALING FAST",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=u4FPC4cBiP0",
+        "why_relevant": "Overview of the pace of India's data centre capacity scale-up and key growth catalysts",
+        "thumbnail": "https://img.youtube.com/vi/u4FPC4cBiP0/hqdefault.jpg"
       },
       {
-        "title": "Data Center Equipment Explained - Enterprise Hardware Industry - YouTube",
-        "url": "https://www.youtube.com/watch?v=tcZ73WRjTHk",
-        "why_relevant": "Modern enterprises rely on two broad categories of IT hardware: data center equipment for storing and computing data, and end-user devices like laptops. In t...",
-        "thumbnail": "https://img.youtube.com/vi/tcZ73WRjTHk/hqdefault.jpg"
+        "title": "India's data centre market size to double to $22 billion by 2030: Report",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=3K0CnSjTRw4",
+        "why_relevant": "Summarises market-size growth projections and the AI/cloud demand drivers behind them",
+        "thumbnail": "https://img.youtube.com/vi/3K0CnSjTRw4/hqdefault.jpg"
       },
       {
-        "title": "Exploring 2025 U.S. Data Center Trends",
-        "url": "https://www.youtube.com/watch?v=ue4bNFvKx2g",
-        "why_relevant": "Gives insight into the world's largest data centre market (the US) and its trends, useful as a comparison benchmark for India's much smaller and earlier-stage market.",
-        "thumbnail": "https://img.youtube.com/vi/ue4bNFvKx2g/hqdefault.jpg"
+        "title": "Why DATA CENTRES are GOOD for India? - Indian Startup News 292",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=5U4DmidRBao",
+        "why_relevant": "Gives a plain-English overview of why data centres matter for India's economy and digital ambitions",
+        "thumbnail": "https://img.youtube.com/vi/5U4DmidRBao/hqdefault.jpg"
       }
     ],
     "reports": [
       {
+        "title": "Data Centres in India Sector report",
+        "publisher": "SBI (State Bank of India)",
+        "date": "2026-04",
+        "url": "https://sbi.bank.in/documents/57189647/58231607/Sector+Report+DataCentre.pdf/f1919592-ee66-b50b-ea20-75fbb27c9bb5?t=1779885206866",
+        "type": "bank sector research",
+        "summary": "Banking-sector view of India's data centre capacity growth, operator landscape, policy support and financing considerations."
+      },
+      {
         "title": "India Data Centre Market: Growth, Trends & Outlook",
         "publisher": "ANAROCK",
+        "date": "2024",
         "url": "https://websitemedia.anarock.com/media/ANAROCK_IB_Data_Centre_Report_4c85df2ddb.pdf",
-        "type": "industry report",
-        "summary": "Detailed valuation, revenue, capital deployment (debt/equity split) and market concentration data for India's data centre industry as of FY24."
+        "type": "industry/real estate research",
+        "summary": "Real-estate-focused view of India's DC industry sizing, investment flows, city-wise occupancy and capital structure."
+      },
+      {
+        "title": "Scaling India's Data Centre Ecosystem",
+        "publisher": "CEEW (Council on Energy, Environment and Water)",
+        "date": "2025",
+        "url": "https://www.ceew.in/sites/default/files/ceew-data-centre-study-web-ready-final.pdf",
+        "type": "policy research",
+        "summary": "Examines India's data centre growth through an energy, water and sustainability lens, including state-level policy comparisons and climate-risk exposure."
       },
       {
         "title": "Data Center Capacity to Hit ~2000 MW by 2026",
-        "publisher": "CareEdge Ratings (CARE Ratings)",
+        "publisher": "CareEdge Ratings",
+        "date": "2024",
         "url": "https://www.careratings.com/uploads/newsfiles/1715156271_Data%20Center_CareEdge%20Report.pdf",
-        "type": "rating agency report",
-        "summary": "Comprehensive credit-focused analysis of India's DC capacity growth, utilisation, EBITDA margins, cost structure and capacity vs global peers."
+        "type": "ratings/credit research",
+        "summary": "Deep dive into India's data centre capacity trajectory, operator concentration, utilisation trends and capex economics."
       },
       {
-        "title": "Recommendation and inputs on data centre growth prospects in India",
-        "publisher": "Yotta Infrastructure (submission to TRAI)",
-        "url": "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf",
-        "type": "government/regulatory submission",
-        "summary": "Industry player's perspective on regulatory bottlenecks, approvals needed, state policy incentives and edge data centre rollout plans in India."
-      },
-      {
-        "title": "Data Centre Trends Report 2026: Shifting up a gear",
-        "publisher": "Accenture / Soben",
-        "url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-4/Data-Centre-Trends-2026-Soben-Part-of-Accenture.pdf",
-        "type": "industry report",
-        "summary": "Global trend report on AI-driven data centre demand, capacity doubling forecasts, and sustainability/emissions pressures shaping the sector."
-      },
-      {
-        "title": "Data Centre Market in India",
-        "publisher": "Eninrac Consulting",
+        "title": "© eninrac consulting private limited 2021 Data Centre Market in India and",
         "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf",
-        "type": "industry flyer/report",
-        "summary": "Historical data on India's internet/mobile/social media user growth, data centre footprint, market dominance and investment activity."
+        "type": "other",
+        "summary": "Some of the recent trends in India’s data center · market by the seasoned players and new entrants are as follows – ... ST Telemedia Global Data Centres (STT GDC), which currently has a capacity of 7…"
       },
       {
-        "title": "Data Centres in India Sector report",
-        "publisher": "State Bank of India (SBI)",
-        "url": "https://sbi.bank.in/documents/57189647/58231607/Sector+Report+DataCentre.pdf/f1919592-ee66-b50b-ea20-75fbb27c9bb5?t=1779885206866",
-        "type": "bank sector report",
-        "summary": "Sector overview report from India's largest bank on the data centre industry, relevant for lending and credit perspective."
+        "title": "Q.1: What are the growth prospects for Data Centres in India? What are the",
+        "url": "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf",
+        "type": "government",
+        "summary": "India’s is looking at becoming a global data center hub. Furthermore, with the pace of · digitisation being witnessed in the country along with massive strides being taken to · become a trillion-doll…"
       },
       {
-        "title": "Data Center Market Growth Analysis - Size and Forecast 2026-2030",
-        "publisher": "Technavio",
-        "url": "https://www.technavio.com/report/data-center-market-industry-analysis",
-        "type": "market research report",
-        "summary": "Global market sizing, segmentation (component, end-user, type) and regional growth analysis including APAC and India coverage."
+        "title": "The strategic role of data centres in empowering India's digital revolution",
+        "publisher": "PwC / ASSOCHAM",
+        "date": "2024-06",
+        "url": "https://www.pwc.in/assets/pdfs/the-strategic-role-of-data-centres-in-empowering-indias-digital-revolution.pdf",
+        "type": "industry report",
+        "summary": "Explores data centres' role in India's digital economy, tier classification standards, sustainability certification and regulatory landscape."
       },
       {
-        "title": "Data Center Market Size to Hit USD 1,103.70 Billion by 2035",
-        "publisher": "Precedence Research",
-        "url": "https://www.precedenceresearch.com/data-center-market",
-        "type": "market research report",
-        "summary": "Global data centre market sizing and CAGR forecasts through 2035, with country-level data centre counts and segment breakdowns."
+        "title": "India's Data Centre Capacity to Grow 4x to ~4 GW by 2030",
+        "publisher": "CareEdge Ratings",
+        "date": "2025",
+        "url": "https://www.careratings.com/uploads/newsfiles/1774529784_India's%20Data%20Center%20Capacity.pdf",
+        "type": "ratings/credit research",
+        "summary": "Credit-focused assessment of India's DC capacity growth, capex requirements, financing structure and EBITDA margin trends."
       },
       {
-        "title": "Data Center Equipment & Infrastructure Market Report 2025-2030",
-        "publisher": "IoT Analytics",
-        "url": "https://iot-analytics.com/product/data-center-equipment-infrastructure-market-report-2025-2030/",
-        "type": "market research report",
-        "summary": "Equipment and infrastructure market sizing with vendor market share data for Foxconn, Schneider Electric, Dell and 50+ other suppliers."
+        "title": "• The strategic role of data centres in empowering India’s digital revolution",
+        "url": "https://www.assocham.org/uploads/files/Print%20Ready-Assocham%20Data%20Center%20PwC%20Report-Final.pdf",
+        "type": "other",
+        "summary": "The report highlights the strategic role of data centres in · empowering India’s digital revolution and how data centres are helping in driving India’s economic and technological · advancements. It b…"
       },
       {
         "title": "Building India's Data Centres",
         "publisher": "Takshashila Institution",
+        "date": "2025-10-29",
         "url": "https://takshashila.org.in/content/publications/assets/20251029-Building-Indias-Data-Centres.pdf",
-        "type": "policy research report",
-        "summary": "In-depth policy analysis of India's data centre capacity gap, power/water constraints, state policies, ESO mandates and capacity forecasts to 2030."
+        "type": "policy research",
+        "summary": "Analyses India's strategic case for domestic data centre infrastructure, covering capacity gaps, import dependence, water/power constraints and policy recommendations."
       },
       {
-        "title": "Netweb Technologies - ADD: Shovel seller in the age of AI",
-        "publisher": "IIFL Securities",
-        "url": "https://www.netwebindia.com/investors/IIFL-Netweb-Technologies-Initiating-Coverage.pdf",
-        "type": "equity research initiating coverage",
-        "summary": "Detailed financial and competitive analysis of Netweb Technologies, India's leading domestic HPC/server/AI systems provider, with segment growth forecasts and peer benchmarking."
-      },
-      {
-        "title": "redington-ltd-initiating-coverage.pdf",
-        "url": "https://www.mnclgroup.com/storage/redington-ltd-initiating-coverage.pdf",
+        "title": "Data localization brings huge investment into data center ...",
+        "url": "https://www.varindia.com/pdf/2021/march/Data-Centre.pdf",
         "type": "other",
-        "summary": "Initiating coverage · Redington Ltd · TSG to grow on the back data center demand · Redington’s Technology Solutions Group (TSG) is emerging as a key growth driver supported by rising · enterprise IT…"
+        "summary": "Latest technology news, AI, cybersecurity, cloud, enterprise IT and digital transformation."
+      },
+      {
+        "title": "India data centre opportunity - From emerging demand hub to integrated data centre powerhouse",
+        "publisher": "KPMG",
+        "date": "2026-07",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/07/india-data-centre-opportunity-from-emerging-demand-hub-to-integrated-data-centre-powerhouse.pdf",
+        "type": "industry report",
+        "summary": "Comprehensive sizing and value-chain analysis of India's data centre opportunity, covering market size, investment pipeline, import substitution potential and tax/policy incentives."
       }
     ],
     "news": [
       {
-        "title": "Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani - Al Jazeera",
-        "publisher": "Al Jazeera",
-        "date": "Sun, 11 Oct 2026 08:05:46 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRnJVM3psSzBHOWs1QlRRVGpvODluNjdJMVdGVzQtUF94WEQ0OVBhcDhLMlBUenMtQ3B3anJIUFlvTWI0Vm9vV1VTNjV2Vk9KWVJpNFp1YWFOd1VfNld6bVRGLWU1Yl9zNC1HeXFlMTlQaWxHd2liaGFtR2l5M0NmTktLMWhXOXRqRWt3UkZ2OUl1M085RlFIdG1zbkxfN0hWd2UzMjNUNmQwVUNzektlWVQzVm4yT2vSAbwBQVVfeXFMTW1sM29RT2tlTFdIaVgzY3ZPc0Vkak4taG5PQl83UjJpaDh6SGFBbExyZ1BFMktYOUJhQmhiZDBJanhxQVNZZnZzMDFlU0xhdnY2aTBtVGdHallTUEhZaEJSejItOFBndFNXSkV2cUxQNEI5ZjFDLTRoNFFBTWhNNGFkV2UtVU5pWm9KSzBNMU1rWnhYMW5VdEdINjg4REFxYjlDcGFVeWNsOGtSZ1Z2TERSbVcwOGNPSFFUNXY?oc=5",
-        "snippet": "Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani &nbsp;&nbsp; Al Jazeera"
+        "title": "Sify Technologies Limited (SIFY) Q1 2025 Earnings Report - Results, Call & Slides - TipRanks.com",
+        "publisher": "",
+        "date": "July 26, 2026",
+        "url": "https://www.tipranks.com/stocks/sify/earnings/q1-2025-report",
+        "snippet": "Sify Technologies Limited (SIFY) Q1 2025 earnings report: EPS and revenue results vs. estimates, earnings call summary, audio and slide deck."
       },
       {
-        "title": "Musk steps up Starlink push, says \"competition would benefit Indians\", hits out at \"army of Internet shills\"",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Sun, 11 Oct 2026 06:48:39 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/musk-steps-up-starlink-push-says-competition-would-benefit-indians-hits-out-at-army-of-internet-shills/articleshow/134863903.cms",
-        "snippet": "SpaceX CEO Elon Musk renewed his push for Starlink's entry into India, accusing Mukesh Ambani's supporters of hypocrisy and arguing that competition would expand consumer choice. Musk said Starlink would need affordable pricing to attract customers. The Centre said three operators, including Starlin"
+        "title": "Sify Technologies Limited (SIFY) Reports Q1 results",
+        "publisher": "",
+        "date": "July 15, 2026",
+        "url": "https://www.streetinsider.com/Earnings/Sify+Technologies+Limited+%28SIFY%29+Reports+Q1+results/26771586.html",
+        "snippet": "Sify Technologies Limited (NASDAQ: SIFY) reported Q1 Revenue for the quarter came in at INR12.35 billion. Adjusted EBITDA was INR 3,005 Million, an increase of 42% over the..."
       },
       {
-        "title": "Petra Power looks to modernize energy for data centers and defense vehicles - TechCrunch",
-        "publisher": "TechCrunch",
-        "date": "Sat, 10 Oct 2026 17:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3dmZjFQeWVNQ0M4blZYaHJuNFUycV9ianoxMTBZMWQ5bEJzVnZMU2RzN1MydU0xLUJVcExHR0drZXVSa0tYZTZpYUxWaTMzdkZVdjNMYXhEb2huN2dndWd2cjBwT01vblloTXV3MExlM2ZGMWlZWUFhemZ2NmQ2MlRaWVNJQjNENTJsc2RnS1ROeElveEhxOVppQzJNU21YVElCYy03QVhudGRsTmtJ?oc=5",
-        "snippet": "Petra Power looks to modernize energy for data centers and defense vehicles &nbsp;&nbsp; TechCrunch"
+        "title": "Sify Technologies revenue rises 15%, led by data center demand",
+        "publisher": "",
+        "date": "July 15, 2026",
+        "url": "https://scanx.trade/stock-market-news/companies/sify-technologies-revenue-rises-15-led-by-data-center-demand/45679925",
+        "snippet": "Sify Technologies reported a 15% YoY revenue increase to INR 12,352 million for Q1 FY26-27, with adjusted EBITDA up 42% to INR 3,005 million. Capex was INR 6,708 million as the company expands data center capacity and modernizes its network. The firm is preparing for the IPO of Sify Infinite ..."
       },
       {
-        "title": "Microchip, Navitas partner on 800V DC power for AI data centers - ET Datacenters",
-        "publisher": "ET Datacenters",
-        "date": "Sat, 10 Oct 2026 12:02:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVGNrSGxDVmt0b2kwMnV4Z0hhWE5kQTNYSTVHc3VKZWszU19QY3M2ZEttVDFkVnhyT2hwTXFHNERlU0hXM3NGMnhZYmhrczVXVnY5U01jeENjWXRpS3RVR3FQSFFGZHJVQXpXamlrZHFUQm5qZWsxVklaNm5zeG5Xdi1hdHVZZEVZVndwNDhma0ZJM3FTNDcyVkNlYlp4Yk81TnBjY0t2ZUFHRjhtbzZ4MEVvZzdIWUdCamMzZHdlYkdUZWhzVDJ6TG1uSXFaQU5HRE5yd3VoVTFFc1di0gHgAUFVX3lxTE5xdmtFdlZmVGNZREROeE50TWY5cU5ZSHVNWWFMYzdISFN1VG84TWhjUEpPZXRRNXViNENjeVpWLUhabXBoQ2JTNEVKNUNXVjNraUlFdEtIRTdNRVN4RlgxNDd5WFdBSDdiM3I4QllBX1pKSFFxbi1wbDV5UlFNWWFoS3dCaFZrLUM4NFIyVllBZlNmQnVDS0FEdHphRXVENzYyQmRzNTBZTHpqRGVhOGN3MU10TThpaGZYVHZxYkxRZEw4Ykx2dHNiaENKQUF1TU9peExScjNiZVc4a1dRZklX?oc=5",
-        "snippet": "Microchip, Navitas partner on 800V DC power for AI data centers &nbsp;&nbsp; ET Datacenters"
+        "title": "Earnings call transcript: Sify Technologies misses revenue forecast in Q1 2026 By Investing.com",
+        "publisher": "",
+        "date": "July 15, 2026",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sify-technologies-misses-revenue-forecast-in-q1-2026-93CH-4793485",
+        "snippet": "Sify Technologies said it delivered solid operating performance in Q1 FY2026-27, supported by its data center colocation, network services and IT digital services businesses. Revenue rose 15% year over year, while adjusted EBITDA grew faster, at 42%, reflecting better cost control and operating efficiency. The company’s results ..."
       },
       {
-        "title": "How Data Centers Are Pushing Up US Power Costs - Bloomberg.com",
-        "publisher": "Bloomberg.com",
-        "date": "Sat, 10 Oct 2026 14:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaUJIS21IU3NScXNGc3llSVpWd1VYeG1FZFR4WjIzdldoalpsQ2hzUWVaWWRYQVplUDNkb1lpd1VBY0d6TENSaHRScWJPaDQyQ3VlUkpia2tyWG13STVfQnlVaF9EWnhOdGhxbmMyMk12UTZYWjRGWWtjaThBSzBndVcwY1BKNV9RbUdwXzgwc3pRYXVwRXhkdmQ3ZE56MkZYamx6RFFlOA?oc=5",
-        "snippet": "How Data Centers Are Pushing Up US Power Costs &nbsp;&nbsp; Bloomberg.com"
+        "title": "Sify Technologies Ltd expected to post breakeven results a share - Earnings Preview — TradingView News",
+        "publisher": "",
+        "date": "July 13, 2026",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N43F0ZU:0-sify-technologies-ltd-expected-to-post-breakeven-results-a-share-earnings-preview/",
+        "snippet": "Search · Get started · Sify Technologies Ltd expected to post breakeven results a share - Earnings Preview · Refinitiv · Start a free trial to read this news · 30-day free trial · SIFY chart · Analyze on Supercharts · Latest news · More news from Reuters"
       },
       {
-        "title": "AI can enhance 5G network performance by 30%: Ericsson",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Sun, 11 Oct 2026 00:06:04 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/ai-can-enhance-5g-network-performance-by-30-ericsson/articleshow/134860148.cms",
-        "snippet": "Telecom giants, including Reliance Jio and Bharti Airtel, are set to harness AI technology to enhance their 5G networks, potentially boosting performance by up to 30 percent using current hardware. According to Ericsson, these software upgrades could roll out without needing to wait for 6G infrastru"
+        "title": "Sify Technologies Q1 FY27 results due July 15 | SIFY Stock News",
+        "publisher": "",
+        "date": "July 8, 2026",
+        "url": "https://www.stocktitan.net/news/SIFY/sify-technologies-to-announce-financial-results-for-first-quarter-fy-f468pyimgmoh.html",
+        "snippet": "Unaudited IFRS results for the quarter ended June 30, 2026 will be followed by an 8:30 a.m. ET call with Chairman Raju Vegesna and CFO M P Vijay Kumar."
       },
       {
-        "title": "\"No other connectivity issues\": India on West Asia air traffic amid attacks in Saudi",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Sat, 10 Oct 2026 16:58:07 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/no-other-connectivity-issues-india-on-west-asia-air-traffic-amid-attacks-in-saudi/articleshow/134853122.cms",
-        "snippet": "The Ministry of External Affairs reports disruptions in Saudi Arabia following recent attacks on civilian infrastructure. Three Saudi citizens were killed and others injured as a result of the violence at King Khalid International Airport. Despite the incidents, air traffic across West Asia continue"
+        "title": "Sify Technologies (SIFY) Q4 2026 Earnings Results & Call Transcript",
+        "publisher": "",
+        "date": "April 14, 2026",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-4-14-sify-technologies-limited-stock/",
+        "snippet": "Sify Technologies announced their Q4 2026 earnings on April 14, 2026. See the results and press release for SIFY at MarketBeat."
       },
       {
-        "title": "Netweb Technologies Q1 FY27: PAT Surges 179.94%, AI Segment Drives Record Revenue - scanx.trade",
-        "publisher": "scanx.trade",
-        "date": "Sat, 10 Oct 2026 07:17:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZllVeHdXSGJLWDg5QmlBc3FOazVGdlB5RlpvbTFmc2ZtRjgyejRUNmtBeUV2aUo1WWJpVm9rNzJvREVTWFk5a0N0aVc0ZkQtbkhpeV9MQ1VneHRyT0RsQUxwbk5KLTNtdGt5T0g0WmdfZGZLMTNMZGdEOEpqQkNDRnFPVFhGV1NpRnQ1bUxXNlc1dGk0b3B6YW5XZnRpRTdFRHdMdDViUEROREJQYUxka0Q5UEJQWnh5TG9IMHBB?oc=5",
-        "snippet": "Netweb Technologies Q1 FY27: PAT Surges 179.94%, AI Segment Drives Record Revenue &nbsp;&nbsp; scanx.trade"
+        "title": "Resources - Sify Technologies",
+        "publisher": "",
+        "date": "December 10, 2025",
+        "url": "https://sifytechnologies.com/us/digital-services/digital-learning/resources",
+        "snippet": "An ardent technology adopter who ... that has resulted in a significant uptick in ROI per employee. His skills were honed at his previous management roles at Delta Tubes Pvt Ltd and Bobba Aviation Services – GSA Lufthansa Cargo engagement. He holds graduate degrees in law, commerce and Business Administration from Osmania University. ... A Chartered Accountant, Cost Accountant and Company Secretary by training, M P Vijay Kumar ( MPV), is the Executive Director and Group CFO of Sify ..."
       },
       {
-        "title": "How AI can cut factory costs and boost output | Tata communications’ Praveen Arora - The Economic Times",
-        "publisher": "The Economic Times",
-        "date": "Sat, 10 Oct 2026 04:43:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVi1WdTk5el9nam1lRmdPYzh3NnFlSnQzaXlxXzZ1NW4wZXhubUgzVEFOX0k3eWNRVUxKUm1aVkhuRmlWU2d1ZGJpRzZQMEtvbUtKS1d3a3ZLS3ZpODVqRmZydEdPZjg4MGIyWGkxQVhoVVNUbkhEOGhNN1JzQUN4bGVtUTVOMTl6Vmhhc1NTWTFCVVpobGFiV2tRVVBQWi1zXzlvazhFVm1SUGFhbU1fS2dGZXVIV2N4SmdkSkVLY2VDWllncUEwNnJSMkdWX2tHdjJKakJBTkQ0M3RNeUx1MUJqZDNhMWNiODZzbTJwajVxOHhESWRKVVpQS3AwdHfSAfgBQVVfeXFMTS14RERKVW94WlNkQ2xLOFg2TzY2OTlxcnh3WXVKNEJIWWtpbVdnMS11QlprUFI0NkxaSGwxT1hyek9kVlctQ3FyaXRXRFhTSURuaGhVdi00Mm5rR2hxVU45ZzZOQVM3UVJwQkZrSVJ5clNLdjgzUDFVdzFPd2s5M2ttZlZBN0RXbEtGWW1mdnFOX1JBdWs5Rzhhcy1WQU1nRHFyUFhiU3p2YWp6Qzc4dlZBRFkwTFhJUk51OXhleWhkUEJyQ2tvYmkySXZCNmhYZG5SU3o4SHl4dWxnTXVmN2NhbWZJeDJFN1FTTXJhQm1EUURUOG44RGE?oc=5",
-        "snippet": "How AI can cut factory costs and boost output | Tata communications’ Praveen Arora &nbsp;&nbsp; The Economic Times"
+        "title": "Sify Technologies to Announce Q2 FY26 Results on October 25, 2025",
+        "publisher": "",
+        "date": "October 23, 2025",
+        "url": "https://smestreet.in/infocus/sify-technologies-to-announce-q2-fy26-results-on-october-25-2025-10587271",
+        "snippet": "Sify Technologies will announce its Q2 FY26 financial results on Oct 25, 2025, followed by an investor conference call on Oct 27, 2025. InFocus | Banking & Finance"
       },
       {
-        "title": "Well-being looks different for everyone. It starts with recognising what you need and making room for it. This #WorldMentalHealthDay, take a moment to check in with yourself and choose what feels right for you. #RSwasthya #MentalWellbeing #WellbeingAtWo - Facebook",
-        "publisher": "Facebook",
-        "date": "Sat, 10 Oct 2026 03:30:44 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOVgxQ3lwalJXY0VLeGV2Q2lWZHd5WDVPeXd3RlFqdU9RWm1uLTA1VlZCSUlyS1VSNUdCV2o4cDNEMkxzeW5mYnFObUlmb0NpeXFuNmh6WG1Fa2Y2NjB4OWVNOVl5eE1rSlBTbWhzYzI1LW5ZMFNabWIybTZmOTBxbV9WNUhIUTBfQ2JWaXBFQ29ZRnhlOVIzQXFtSVZ0Q0p5Zm9OcjQxbTBaYUpPdVU0UkY2TGU3c3E5cXlGN2RyeTB5TlV1cUxZNjZlNkxuUmFyYTJ3RXh1YV9yakphb0RlTTh1N1FmN1RWdk44?oc=5",
-        "snippet": "Well-being looks different for everyone. It starts with recognising what you need and making room for it. This #WorldMentalHealthDay, take a moment to check in with yourself and choose what feels right for you. #RSwasthya #MentalWellbeing #WellbeingAtWo &nbsp;&nbsp; Facebook"
+        "title": "Sify Technologies to announce Financial Results for Second Quarter FY 2025-26 on Saturday, October 25, 2025",
+        "publisher": "",
+        "date": "October 18, 2025",
+        "url": "https://www.globenewswire.com/news-release/2025/10/18/3168994/29606/en/Sify-Technologies-to-announce-Financial-Results-for-Second-Quarter-FY-2025-26-on-Saturday-October-25-2025.html",
+        "snippet": "CHENNAI, India, Oct. 18, 2025 (GLOBE NEWSWIRE) -- Sify Technologies Limited (NASDAQ: SIFY), India’s leading Digital ICT solutions provider with global..."
       },
       {
-        "title": "Jio Platforms IPO: What does listing of Reliance Industries' company mean for Airtel, Vodafone, Indus Towers shares? - Livemint",
-        "publisher": "Livemint",
-        "date": "Sat, 10 Oct 2026 06:20:15 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPNmxDYzF5bTV2RVpUUEJDdFVicWZuS1E5UDVqMkZUU1I2b01GdEdkUVhBSDRTdnJycUVtbGVXSWp4UlJJbFROSmpIaHdkaE9tcHpMZGw3d19YSUZBTDFwcTE0VDFHak8wYTlDSWZvc2Etc2dLTG1WbWZBcF92RHRpYXl1RVZhNmhXNElVdGtLSnZQbEhWbmlOaVFERFNPUUdYOV9sdXJWQ1BvVFRXR3NXcWZkTlhFSFdyT1RLZk1NLUpzNER4blBmalo3YjYyOHVxSV92YkhwRkkyRjRoaWNhdnFjeGlaSGg2WXhLRGZPSzFYUkdZMFBNa1Awb3AzeGd5VkduVTVDeEROc0E1MnJvZzFtbDHSAZoCQVVfeXFMTWFrSWY5VGdOVjVXdG9Uc2dwQW1HS0RwNUtyZ0diQWh3M2IyaUNmRkdzLWJqdDhIeDI3cl91dHRVbDl2N0JXdVVMQ1FHWGxpRWZ6RkVyWndYQ3ZMWENCZ3ptVmhCemNWODZkSG1TdzRlTndBZVBjNXY4U0RZeTJrWkNJcDZiMDVsNnhucUZjVHRwX0dsc01XZnE0Q1g0TXdXMGdyby1PUUsxTkVFQ3Y4cGF5bW1tajJjOXdMUFZGTlRwa0h5MmduMDlpVUtLaDVaOEhXX2FNamFWazhjX2RPcm5hWEQzNFJubmcydkpJRFlxYmVNYm5JVC1xZXprT0lHWmk0a2MxMTlwaGc1U2RmYVk5YThnOFYwY1Fn?oc=5",
-        "snippet": "Jio Platforms IPO: What does listing of Reliance Industries' company mean for Airtel, Vodafone, Indus Towers shares? &nbsp;&nbsp; Livemint"
+        "title": "India's data centre capacity to hit 2 GW by 2026-end: CBRE, ETTelecom",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://telecom.economictimes.indiatimes.com/amp/news/internet/indias-data-centre-capacity-to-hit-2-gw-by-2026-end-cbre/134729285",
+        "snippet": "India Data Centers: India's data centre market is projected to reach 2 GW of operational capacity by the end of 2026, driven by an expected addition of over 200 MW in the second half of the year. This follows an infusion of approximately 130 MW in the first six months of 2026."
       },
       {
-        "title": "Centre denies requesting land acquisition from states for 3 high-speed rail corridors",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Sat, 10 Oct 2026 13:14:01 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/transportation/railways/centre-denies-requesting-land-acquisition-from-states-for-3-high-speed-rail-corridors/articleshow/134849886.cms",
-        "snippet": "Union Coal Minister G Kishan Reddy announced the ongoing alignment studies for three high-speed rail corridors linked to Hyderabad. He clarified that no land acquisition requests have been sent to state governments at this time. The Telangana government is currently facing resistance from farmers re"
+        "title": "AI data-centre boom puts India’s power grid under pressure, drives up upgrade costs - The Hindu",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://www.thehindu.com/business/Economy/ai-data-centre-boom-puts-indias-power-grid-under-pressure-drives-up-upgrade-costs/article71555736.ece/amp/",
+        "snippet": "India’s AI data-centre boom strains power grids, raising SCADA/EMS upgrade costs and prompting regional planning for faster, targeted transmission capacity."
       },
       {
-        "title": "How AI can cut factory costs and boost output | Tata Communications’ Praveen Arora",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Sat, 10 Oct 2026 10:13:16 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/how-ai-can-cut-factory-costs-and-boost-output-tata-communications-praveen-arora/videoshow/134847466.cms",
-        "snippet": ""
+        "title": "Data centers drive India's H1FY27 investment surge, ETDatacenters",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://datacenters.economictimes.indiatimes.com/news/investments-deals/data-centers-drive-indias-h1fy27-investment-surge/134777844",
+        "snippet": "India's total investment announcements rose 34.7 per cent to ₹30.38 trillion in H1FY27, driven by a surge in data centre projects. Investments outside the information technology (IT) sector, however, declined by about 4 per cent to ₹20.92 trillion."
       },
       {
-        "title": "Black Box vs Netweb Technologies: Which is the Better Data Center Stock? - Equitymaster",
-        "publisher": "Equitymaster",
-        "date": "Sat, 10 Oct 2026 01:30:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxObXQ1V1hKX051WGhEVXZvOFV4Tmpza0tCOHlnTE9ReUJKNmFwTDJQZEZXYm8wSUJkWlVTNGNFQ1lVcjFNSkM5M24yVnlYTTFuekFkMmZvUENoS2JMVjIyLWluUEtPYWUxYWhRTGNkZlkwcXBQRC1RUTNXVmJVZktFenR0RWI0eDNFUFVyMm5MNy1vZUhjc1pfR01LbVpoNWhtY2FYd0laczFDOERCMVFrbUVUemp2RUthN2RZZnVnXy1fUlNGa3NId3puTU5tNXJwU3AtU0dhbkRJbHVwejBDbzdGR0FyNlgydERpWnhNcElNWTZ6YWc3WnJKeTlTRFpLMDJvbmhWcDkyQmMxTDNINlVQX25kZXloekZnMU81N0RPVWJCQ2NfeTVLbnVieTFCTlktbVBha3ZfZzY2UVNZT21Kc3k?oc=5",
-        "snippet": "Black Box vs Netweb Technologies: Which is the Better Data Center Stock? &nbsp;&nbsp; Equitymaster"
+        "title": "CoreWeave Tees Up First India Data Centers With AdaniConneX Deal - Bloomberg",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-07/coreweave-tees-up-first-india-data-centers-with-adaniconnex-deal",
+        "snippet": "AI cloud-computing provider CoreWeave Inc. is continuing an expansion in Asia with its first data centers in India, part of a venture involving conglomerate Adani Group."
       },
       {
-        "title": "IMC 2026: Apply same rules on satcom players intending to use spectrum being used by mobile players, says Ai.. - ET Telecom",
-        "publisher": "ET Telecom",
-        "date": "Sat, 10 Oct 2026 01:50:10 GMT",
-        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNYWxaMWw1U05lUHhfTVNvYTNwWEV3Q2NWOU83czZQR0I4XzN2Z0tFREdVaVJMbnFzU2t4V0VzTU5SS2JGUTd5cG5uQ2lyUDJ0QzdEb21vQkk2cGN2STB3THZPRVJHMXN1WnByazMyNDJmRTVZN2luYlNMVFdSVkF5Z25MUm54UXJ0Qy1OMlNhcEkySHBGRTFlNGhvLXpsNXZJUjdZWlVsQmdSNzBELVpCbW85bGdpXzBFN2k1OE82R1RFakVSZGtxX3NGcnZDVlR1RllIcjZQR2VBMElTbUp6ZDVGWHRzbV9qWENXQTNBbW5uYXdmQS1JeHpnMERIWEJVbGRCM1c3MWtqNnZTQjJaVGRuT05rTzY1WElVTmV5ONIBpAJBVV95cUxNLXRlWVVaa0lYR3BlWGROUkJoLTd4N1FUQTBEQUVCOTlPd0ZEM1dmX09OaFg1YndhLW5NbkVxbHREUDMtM0JqQk5icjdFc2N1VnlfM2RMaUlTdzhYQXd0NWw5NFRSa3pXandIdjNPbVRUY3c3OVNpTXhPMUY0TEVvVlRYUWZ2TjFpVFNNSHliUjI2bUt4c3VtUEJnOXZGWWFnOHJ6a25hM1NuMXVic2xGeG5PdmlMbWlieVRWVEFyR1B5Q1JleEpJWnhCT19YTjhDQkRZM0FrMjVwelg5UDZoUmVrUlAyazdmeC1ER2VteFp2MDB2cVAwVHNxNWdUSllLMnppRjYtX1lybk5uS19jdUlOT1hMQzkwMmRvSlNXRXhTOHFl?oc=5",
-        "snippet": "IMC 2026: Apply same rules on satcom players intending to use spectrum being used by mobile players, says Ai.. &nbsp;&nbsp; ET Telecom"
+        "title": "India's data centre sector attracted USD 173 bn since 2021, capacity seen 2 GW by year-end: CBRE - The Economic Times",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://m.economictimes.com/markets/digital-real-estate/realty-news/indias-data-centre-sector-attracted-usd-173-bn-since-2021-capacity-seen-2-gw-by-year-end-cbre/articleshow/134741362.cms",
+        "snippet": "India's data centre industry has garnered impressive investments amounting to USD 173 billion since 2021, showcasing a strong upward trajectory. In just the first half of 2026, this sector saw the addition of around 130 MW of new capacity, with expectations of more than 200 MW to launch in ..."
       },
       {
-        "title": "Airtel ARPU will cross Rs 300 very soon, need to upgrade customers, says CEO Shashwat Sharma",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Fri, 09 Oct 2026 23:56:18 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/airtel-arpu-will-cross-rs-300-very-soon-need-to-upgrade-customers-says-ceo-shashwat-sharma/articleshow/134841193.cms",
-        "snippet": "Bharti Airtel plans to raise its average revenue per user through an increase in postpaid subscriptions. The company aims to grow postpaid customers from 8% to around 20% over the long term. Recent tariff hikes and the introduction of new service packages are strategies to encourage upgrades. Airtel"
+        "title": "India Data Centre Capacity to Reach 2 GW by 2026: CBRE | IBEF",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://ibef.org/news/india-likely-to-add-more-than-200-mw-of-new-data-centre-capacity-in-h2-2026-pushing-total-capacity-to-2-gw-cbre",
+        "snippet": "India is expected to add over 200 MW of data centre capacity in H2 2026, taking total operational capacity to 2 GW, driven by AI and cloud demand."
       },
       {
-        "title": "Beyond Data Centers: Growing Out of the Middle-Tech Trap - Asia Society",
-        "publisher": "Asia Society",
-        "date": "Fri, 09 Oct 2026 19:26:36 GMT",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE5ITEJJMjdmUGt5SkZBYWxhNzE0SkJVMW5DYk1wQktTWFBGaXFoY2toRHFWaUZJZTlUVmJwMzdzR21pZE94TzB4eEdSckk3cmVxYmdJSUhDckVlc25xRDFpb21wTmhpYWVsQWNlWE9VZ2lOM0xGWDlhQU9UOUhKTnotMmtDcHkyYzFhRUZNYkwtVDQ?oc=5",
-        "snippet": "Beyond Data Centers: Growing Out of the Middle-Tech Trap &nbsp;&nbsp; Asia Society"
+        "title": "Minus data centres, India's new investment plans shrank in H1FY27: Report | Industry News - Business Standard",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://www.business-standard.com/amp/industry/news/minus-data-centres-india-s-new-investment-plans-shrank-in-h1fy27-report-126100701246_1.html",
+        "snippet": "Investment announcements rose 34.7 per cent to ₹30.38 trillion in H1FY27, driven by data centres, while plans outside IT fell about 4 per cent to ₹20.92 trillion"
       },
       {
-        "title": "Batteries are now cheaper than natural gas turbines used at many data centers - TechCrunch",
-        "publisher": "TechCrunch",
-        "date": "Fri, 09 Oct 2026 18:57:58 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWjJrYnpZT1hrTTRhWlA5Rko4RnVHRTJ3YXJraUhtSG50SDFKcGZfYW1zbVpMUVIwSWhXc3R0aFpzcllLcWR6cHhVT1lLN3ZPX3N1bG9HUm9aTldjTzVPUzI3VjV0NjNVNEtLb3g4QURyTUktVy15QTRRV1pkNlk0MmlFVDB2Z2Vnd2JEY0ZhQlV4R1E3OEQ3S3Q0VGpZMndtNUtjY0pMalB6WlYtUFU4SWJn?oc=5",
-        "snippet": "Batteries are now cheaper than natural gas turbines used at many data centers &nbsp;&nbsp; TechCrunch"
+        "title": "India's data centers add 130MW, set for 2GW $38B commitments",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://newsbytesapp.com/news/science/indias-data-centers-add-130mw-set-for-2gw-38b-commitments/tldr",
+        "snippet": "The sector also pulled in approximately ... in H1 2026, with cumulative commitments since 2021 now at approximately $173 billion. What's driving all this? A huge appetite for AI services and cloud means more hyperscale and colocation centers are popping up, with Indian developers ..."
       },
       {
-        "title": "Ukraine intensifies drone strikes on data centers of Russia's Yandex - Daily Sabah",
-        "publisher": "Daily Sabah",
-        "date": "Fri, 09 Oct 2026 09:10:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnBCZ0Vsa2hkVXNvcDlOZnM5bkM4RHJYQWxQLWJfeUROcGdPQ0h4QkxDbkNhQXF3eElFWHIwT05FbzczWHdjWEVpN2R3WEdJa2l0Q3JTREhNa1lld3ZSX0ZNNWg3aDNUUEs4ajdGRjdsckU3d190ejdUUTZ5cUlnZTNGaTNtT240eS1ZRG1lWTMzc21oQndiODRFTC1pSkgwdzBDWTJaR2xzcnRjUlprZA?oc=5",
-        "snippet": "Ukraine intensifies drone strikes on data centers of Russia's Yandex &nbsp;&nbsp; Daily Sabah"
+        "title": "AI Data Centres in India: The Race for Energy, Land, and Water - Frontline",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://frontline.thehindu.com/the-nation/ai-data-centres-india-regulations-environment/article71532615.ece",
+        "snippet": "Under the Viksit Gujarat Data Center Policy 2026-29, launched on July 9, only projects of 150 MW or more qualify, and the floor is a condition for State incentives. No operating facility in India reportedly meets the requirement, and because compliance data is proprietary, little is likely ..."
       },
       {
-        "title": "Mark Zuckerberg tells investors Meta’s AI investments are accelerating every part of the business; and to - The Times of India",
-        "publisher": "The Times of India",
-        "date": "Fri, 09 Oct 2026 09:25:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOOG1VNUR2blZsamh4RUU4MXR2eUUzTTFEaS1SLXFQNTRoSVB0SmkwMFlScUlVZU9qNzRJMG9XbFdRZzRCdWFGR3JXZkdlc2J0UV9aZUd4dnc2R1NxUmY0Z2Z6Mlhrc2s1dzczVjhScXo3Um9YSEtwMEZUd0hIRWtGYVlvOGJpZERDaXMxQ3didWxudkhxVy1GSFhrRUMtQURDLXAzZ1lxajM1NDZON0hqXzZINGtXaEFHX25BRGM4eFg0NVJwUW5lS2JoYm9qQW9GWEFlM2VKOUdtRTVsNng4dUltY2lTX0VEdk9GVmxaSmxXb2M1ampuV3V1bXNhY0dZZnd6SGdtNHM1Tm91cHJaQnpzR3ltRXpkdkI1Um1XamtJS2puWlJqS3JEM180RzNBNXB5ekt4eDh4S3V5RjBwNjdpcE0wT3l6dHdKMG5jaVo2d2hiUlFrU0l4enZHNzhBaUlwc2dFYUtqRHA3U2RZ0gH0AkFVX3lxTE52V3E1ZUdGMkt0bmdOSC1NZGtMT1R0ZmZTQjNVbnFxRkR6OHRDWTRvaGVhRjdZRzRoMzVIMF9vX2xHWWhSaXpVVjRUemg5VWk2LW9DYXZ3dm9BQ2o5U0JzaTRGZWF1V0ZYNDBoekNpLThMNXdKRjYwaGR4a3B2MTc2aTFYbmVLMjJja0pEMG9NYVd3bEZwcHJYMFdGZUhQQlRQSTBWNUhEc2t1aTBMbm9haF9wSVQtNktiY2VEeDJBaUhIdDVhdHd5aVhId0tuME5nY19yaUtlcldqbVVLQ2JDTkN0NWN2QzE5MFpEMVg5aTdrc0N2Y0l1RUQ3Nk9vaHg3MVloTzB0NGZJZG1aUGF5TTRiRkotejVKUFRJQUt3bTVCc2o3c1UwdUZVZTRvNGZMbk9QOTJlUnNyNXBLX2d1akpnRHFXaE0wOVVyaDc0MWhxbUFNYW1GamVNcG5uVVR0eUFGTFdxQVFPN2RrdXc3S0IyUQ?oc=5",
-        "snippet": "Mark Zuckerberg tells investors Meta’s AI investments are accelerating every part of the business; and to &nbsp;&nbsp; The Times of India"
+        "title": "India's data centre capacity grows 5x in 10 years, reaches 1.6 GW, ETDatacenters",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://datacenters.economictimes.indiatimes.com/amp/news/market-insights-analysis/indias-data-centre-capacity-grows-5x-in-10-years-reaches-1-6-gw/134529972",
+        "snippet": "India's data centre capacity has expanded more than fivefold over the past decade, projected to reach 1.6 GW by 2025. This rapid growth is driven by increasing demand for cloud computing, digital services, and AI infrastructure across key cities."
       },
       {
-        "title": "Ukraine Targets Yandex Data Centers in Second Day of Strikes, Hitting Service - Bloomberg.com",
-        "publisher": "Bloomberg.com",
-        "date": "Fri, 09 Oct 2026 09:33:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeTdOMmZHUUVNdlRtYlhxODdSSGwtYV9YcEpJSnRtNVZVbmVCLW5BREpaOS1aTzhfUDE0TVRzSldKWEN2Z3l1R2ZOS1EwWkc5LWtKTldWRDBsbTFjLWxnYlNiRWFTb1FZZWprU2Fmd2N1QWJ1WXhkV2VYcDVkLWVqeTBfeXN0SDNVcUZGVnRfUjFrLTU1VEgwMklyek5fN3dkVUYzT0hzN1JjUGw4YWRLSjVnZ2g2ampGOFFzSHY4Sm0zT3d0WXc?oc=5",
-        "snippet": "Ukraine Targets Yandex Data Centers in Second Day of Strikes, Hitting Service &nbsp;&nbsp; Bloomberg.com"
+        "title": "'Fibre Is The New Currency' As AI Data Centres Drive Network Demand: Ciena India — TradingView News",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://www.tradingview.com/news/moodys:5e6a8e7597238:0-fibre-is-the-new-currency-as-ai-data-centres-drive-network-demand-ciena-india/",
+        "snippet": "India’s installed data center capacity stood at 1.57 GW in August 2026, according to government figures cited in recent updates, compared with around 375 megawatts (MW) in 2020. The government has projected capacity to reach nearly 8 GW by 2030."
       },
       {
-        "title": "Backlash as American tech giants look to build data centers in Australia - NPR",
-        "publisher": "NPR",
-        "date": "Thu, 08 Oct 2026 22:20:37 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXhZOUs1RzRCMW81TXFialBPUXROSzdHYlNvenhlU19aVDZVSXZpX2NhdDN5c2F4MzZCMW5rUzBCNHQwZldpMnJXVDBmbHpTZHlQM2FqalphRUwyd0JwQmxYYmxjbFdRajFsUWFHcWRLbmEzaEp0UnF2Ul9fU0gwSGgwS2pFSDlRZkwwU0U5UWZhU3M3MTF5MGpVNXBBMklYSE1fM3lEUTFoenJEcjQwLXFnaUIxaHJR?oc=5",
-        "snippet": "Backlash as American tech giants look to build data centers in Australia &nbsp;&nbsp; NPR"
+        "title": "India’s operational data centre capacity on track to reach 2 GW by the end of the year - The Economic Times",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indias-data-centre-market-surges-to-2-gw-capacity-by-2026-driven-by-38-billion-investments-and-ai-demand/articleshow/134736886.cms",
+        "snippet": "India's data centre market added about 130 MW of new capacity in H1 2026 and expects more growth. The total operational capacity is projected to reach 2 GW by the end of the year. Mumbai continues to dominate this expansion and accounts for almost all new supply added."
       },
       {
-        "title": "Communities Should Capture the Benefits of AI Data Centers - ProMarket",
-        "publisher": "ProMarket",
-        "date": "Fri, 09 Oct 2026 10:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHNCSVJjTUJPdEljenJ5d2IxWU9OWnNlOGFxMThSaXhLQzdRV2c2NUVLV0ZSU1p1TjUyeWxtYW1GRHVTU2VBSkp1THBTU2FITmJUcjBSSTlpaDhvejVodlp0SjloeTZQeHQySjF3dWswSWw2TE9xUkRWS1FuRGp1Z3pjVEFFamVNS3c2WnNmSjJzbVVqeWlhREVkRW0?oc=5",
-        "snippet": "Communities Should Capture the Benefits of AI Data Centers &nbsp;&nbsp; ProMarket"
+        "title": "India's data centre capacity to reach 2 GW by end of 2026, says CBRE report",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://tele.net.in/national-news/indias-data-centre-capacity-to-reach-2-gw-by-end-of-2026-says-cbre-report-12632578",
+        "snippet": "According to a report by CBRE, India's data centre market is expected to reach 2 gigawatts (GW) of total operational capacity by the end of 2026. Approximately 130 megawatts (MW) of new capacity was added in the first half of 2026, with over 200 MW anticipated to go live in the second half."
       },
       {
-        "title": "The AI election: Wall Street braces for midterms amid mounting opposition to data centers - CNBC",
-        "publisher": "CNBC",
-        "date": "Fri, 09 Oct 2026 15:00:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkpqWlpDdC0yYnRTajI1UTlrZzk5LUlCZE53YXFRTG5ucHZrSE5WdHpGYzFNeXlkaWUza24yWTdNNVdyN3JMX1o5bEhvaWtDd2RfY3dYdmljV2NGT191SklKRS1nbkNDVTNwSFd2R3BRZklEWnBKOFBybXZCQmpjcGpuNE9iVVFqU2RZa1hLb3R4UU5JRnNGeHFnSFd6Z1VvcW5MTUVlb0RsTms?oc=5",
-        "snippet": "The AI election: Wall Street braces for midterms amid mounting opposition to data centers &nbsp;&nbsp; CNBC"
+        "title": "India likely to add more than 200 MW of new data centre capacity in H2 2026, pushing total capacity to 2 GW",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://expresscomputer.in/news/india-likely-to-add-more-than-200-mw-of-new-data-centre-capacity-in-h2-2026-pushing-total-capacity-to-2-gw-cbre/139487",
+        "snippet": "India’s data centre (DC) market added approximately 130 MW of new capacity in the first six months of 2026 (H1 2026), while more than 200 MW is expected to go […]"
       },
       {
-        "title": "The Future of Data Centers: How AI Is Reshaping Digital Infrastructure - ET Datacenters",
-        "publisher": "ET Datacenters",
-        "date": "Fri, 09 Oct 2026 05:38:44 GMT",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOenJyelphUElLcGM1MnB0QUt3aWtnNlhPb2ZBSUNlLV9oc0NNczBlUXh0Um1KekY3Wks1ZHg5Z2RsbHlOeW50ak5QWXI4dnd4T0E2bWtFN2t0Z0JUc0hDTGdlNUdnNE8xV295VTE2dGc4YU5VRGxvaGxOOWh3RURURjQ3U0ktelVtZDFzTE1wMXR2Rk1DYXE1emljel9GZTJndUMzcUQ5ZUtMdGxhbXcyYW5fV1FXZWZGM2ltOEl5OUU3X0xCa3NTV2c2Z3d1TXAzZHlVWnU1UFdUTDFkTVY5VHc2N1NBRlBLNmJRMGUtZmlSMmR5TF9uX0JwYVFuWkItcXNn?oc=5",
-        "snippet": "The Future of Data Centers: How AI Is Reshaping Digital Infrastructure &nbsp;&nbsp; ET Datacenters"
+        "title": "India Nears 2 GW of Data Centers, But AI Needs New Racks",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://cloudnews.tech/india-nears-2-gw-of-data-center-capacity-but-ai-is-forcing-a-rack-redesign",
+        "snippet": "India is set to hit 2 GW of data center capacity by end-2026, but AI workloads are forcing operators to redesign power, cooling, and rack density nationwide."
       },
       {
-        "title": "Can salty, dirty water cool data centers? Research points to desalination as a cooling option - Tech Xplore",
-        "publisher": "Tech Xplore",
-        "date": "Fri, 09 Oct 2026 17:20:06 GMT",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYm04SF9sejhQRTljQjBDTkVoMHFuVXE5dVNwdU5QN3U1QVd1X2dJVEhsRmVQMnpBeHFkd0NwZHBOZnlzaXRuWS1pSTBYWmZhOUo3TDRfVlFVSzJHQUJkY0hfUExtY2xWRWxkZkQ5cE9JeFJRd1FiMTlxWjQzSUF2MzduZTY?oc=5",
-        "snippet": "Can salty, dirty water cool data centers? Research points to desalination as a cooling option &nbsp;&nbsp; Tech Xplore"
+        "title": "Telecom AI Infrastructure Investment in 2026: Data Centers, GPU Clouds and Fiber - TelecomLead",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://telecomlead.com/telecom-services/telecom-ai-infrastructure-investment-in-2026-data-centers-gpu-clouds-and-fiber-128049",
+        "snippet": "India provides a major example of an operator expanding its data-center subsidiary with external capital. Airtel’s March 2026 announcement outlined a $1 billion investment round for Nxtra."
       },
       {
-        "title": "Kioxia Introduces E1.L QLC-based SSDs for Hyperscale Data Centers | KIOXIA - Japan (English) - KIOXIA Corporation",
-        "publisher": "KIOXIA Corporation",
-        "date": "Fri, 09 Oct 2026 03:04:57 GMT",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15alFvekpxSTBKTlBGOXhtYTVYYWNWY0RtOTBtbURYVW5DWDZmMUJhamdqRmMtdjFkLWREUW5nTzg2a1hma2hFMjFRZ2I5dzZGWjRpUWVIUTZ6ZTh3NVRzeFg2WWNZRXNzZUtvSEh3Zk0?oc=5",
-        "snippet": "Kioxia Introduces E1.L QLC-based SSDs for Hyperscale Data Centers | KIOXIA - Japan (English) &nbsp;&nbsp; KIOXIA Corporation"
+        "title": "India set for major data centre push in 5-6 years: Microsoft's Chandok | People - Business Standard",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://business-standard.com/amp/companies/people/india-s-data-centre-buildout-set-for-a-major-5-6-year-push-puneet-chandok-126092101179_1.html",
+        "snippet": "India is set to build over 70% of its data centre capacity in the next five to six years, driven by AI workloads, data localisation and rising enterprise demand"
       },
       {
-        "title": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027 - CNBC",
-        "publisher": "CNBC",
-        "date": "Fri, 09 Oct 2026 11:54:04 GMT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSjNJWVNMZGtiVHEyQTZXVFcwaHFWcXVGRGxoQmF1dmVVeW1EelFyRDFYalJXZDRzemE3VW9FOGxLaDhMbnZBRFhQZVVYbVF6ZEpNRTN1YzBLaC1IUUx3Vm1TNW5aWDkwRTYzYUJmcTl0T3VHa0hsQUtUUHZVMUFBSUhnQi1XVHZGYjRHZklYNGxXZnJua0VNb0U1MmJaNmdV0gGmAUFVX3lxTFBKZGpaMkZDcWFobGVRMUhpa0FIMk5lcFVITkEyNmd4cHZKQnpCNjZDd3F1bFc3bGNYWmpVemNVdE9FelY0S2FMMU1FNE1HUjNTREQ4QzRYTE5fRTVHY2h4QkNGVzNFVzNnQ0NUNVdWdzh0UVo2MzdXNFV5YTZNSUhIalJJNjc5Wkk5QUJYTy0tZmdBQWh1OWdLVkZLbHMyc0JTVzhYa0E?oc=5",
-        "snippet": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027 &nbsp;&nbsp; CNBC"
+        "title": "India - DCD",
+        "publisher": "",
+        "date": "1 month ago",
+        "url": "https://www.datacenterdynamics.com/en/regions/asia-pacific/india/",
+        "snippet": "DatacenterDynamics is the world's largest data center publication. We publish news, magazine features, and podcasts about the hyperscale & cloud, colocation & wholesale, generative artificial intelligence (AI), semiconductors, Edge computing, investment and REITs, data center companies, and more."
       },
       {
-        "title": "Data centers face a sweeping new power regime - Axios",
-        "publisher": "Axios",
-        "date": "Fri, 09 Oct 2026 01:18:54 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50WDFEa1VCdlF6Ni1RRVpvNWRyQnNBVFRfZnZVSjNlZkNzVDc5UTZ2alZvS2hxOVlEb05TSWJnUllLRTNIQ21nOFJTeGlNOWt5ejdyOV9LejJyTFdnc2loSUdHTENWTzRKLXc?oc=5",
-        "snippet": "Data centers face a sweeping new power regime &nbsp;&nbsp; Axios"
+        "title": "India Data Centre Market to Hit 2 GW as AI, Cloud Drive $173 Billion Investment Boom - InfotechLead",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://infotechlead.com/data-center/india-data-centre-market-to-hit-2-gw-as-ai-cloud-drive-173-billion-investment-boom-98649",
+        "snippet": "Memory prices are surging in 2026 as the global... ... AI data centers are creating an unprecedented electricity challenge... ... AI data centers are creating a new infrastructure challenge... ... News website for Camera, AI, CIO, Cloud, Devices, Digital, Gaming, Network, Software, and Security. ... ASUS has announced major festive-season discounts in India..."
       },
       {
-        "title": "Data centers make heat all year long – here’s how the ground can hold onto it until winter - The Conversation",
-        "publisher": "The Conversation",
-        "date": "Fri, 09 Oct 2026 12:06:21 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQWhyU3pVdW1nZmVjSUtZWTJvVzhlOGdLd3ROOVdwVEZMNTFvc1NtTVlZRUZsREVvbzc5bklaaU9leXNSUVprSDhtTFlTaGMxbTZHS0F6ZzdrRnZ2SUMxYnNCdHFvVUpOWG1QOVJqN3FzTy1rN3ZHeXpsRTJqbEM3anZ0R2xZdzV0c3k5TXRlYkZMNDU3VTBWelIwVG5qQ2JjcTJPVHdTWnNMbHZtbmtrcEswblRBbGhIMV92cGdibw?oc=5",
-        "snippet": "Data centers make heat all year long – here’s how the ground can hold onto it until winter &nbsp;&nbsp; The Conversation"
+        "title": "Axis Bank to double data center loans, riding on India’s AI push",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.moneycontrol.com/news/business/banks/axis-bank-to-double-data-center-loans-riding-on-india-s-ai-push-14042774.html/amp",
+        "snippet": "India’s AI and data center push is opening up a new pool of lending opportunities for banks as developers turn to debt alongside equity to fund capital-intensive projects. Copper heads for weekly loss as high energy costs limit demand · Electric vs conventional vehicle insurance: What are the differences? Fuel subsidies could top $1 trillion in 2026 ..."
+      }
+    ]
+  },
+  "channels": [
+    {
+      "channel": "Colocation / third-party DC providers",
+      "share_pct": 45,
+      "source": {
+        "label": "Eninrac Consulting",
+        "url": "https://eninrac.com/assets/upload/Flyer___Datacenter_Market_in_India.pdf",
+        "snippet": "Colocation data centers presently hold nearly 45% of over all data centers"
+      }
+    },
+    {
+      "channel": "CDN players (dependent on telecom operators)",
+      "note": "CDN players in India lack a dedicated regulatory framework and depend on telecom service providers for point-to-point connectivity and internet transit",
+      "source": {
+        "label": "Yotta Infrastructure (TRAI submission)",
+        "url": "https://www.trai.gov.in/sites/default/files/2024-11/YOTTA_14022022.pdf",
+        "snippet": "absence of a regulatory framework / licensing framework for CDN players makes them dependent on telecom service providers for all the resources"
+      }
+    }
+  ],
+  "benchmarking": {
+    "generated_at": "2026-10-11",
+    "peers": [
+      {
+        "name": "Netweb Technologies",
+        "listed": true,
+        "ticker": "NETWEB",
+        "segment": "High-end computing solutions, servers, HPC/AI systems, storage",
+        "status": "listed",
+        "pending": false,
+        "revenue": 2184,
+        "revenue_unit": "₹ Crore",
+        "revenue_year": 2026,
+        "revenue_cagr_3y_pct": 70.1,
+        "ebitda_pct": 13,
+        "pat_pct": 9.43,
+        "roce_pct": 37.5,
+        "roe_pct": 32.8,
+        "fin_content_hash": "ee20a77e86f86fd0f417554e37bd7efb33e3468e553d6b099111e423c2e24002",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/NETWEB/",
+          "snippet": ""
+        },
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Bharti Airtel (Nxtra Data)",
+        "listed": true,
+        "ticker": "BHARTIARTL",
+        "segment": "Colocation / telecom-linked data centres",
+        "status": "listed",
+        "pending": false,
+        "revenue": 172985,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 14.1,
+        "ebitda_pct": 49,
+        "pat_pct": 21.7,
+        "roce_pct": 13,
+        "roe_pct": 20.3,
+        "fin_content_hash": "84e9e54e196c988eb0ec8d65f1b25c616e37bc9a3640e24d3703412374f6b84b",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
+          "snippet": ""
+        },
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "CtrlS",
+        "listed": false,
+        "segment": "Colocation",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Netmagic (NTT Communications)",
+        "listed": false,
+        "segment": "Colocation",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "ST Telemedia Global Data Centres (STT GDC)",
+        "listed": false,
+        "segment": "Colocation",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Yotta Infrastructure",
+        "listed": false,
+        "segment": "Colocation, edge data centres",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Tata Communications",
+        "listed": true,
+        "ticker": "TATACOMM",
+        "segment": "Telecom-linked data centres",
+        "status": "listed",
+        "pending": false,
+        "revenue": 23109,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 11.4,
+        "ebitda_pct": 20,
+        "pat_pct": 7.95,
+        "roce_pct": 15,
+        "roe_pct": 32.6,
+        "fin_content_hash": "7ec423d9e74f4244f942dbfed7c674470f2a2a9629776726c5aa5255c80b04cb",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/TATACOMM/consolidated/",
+          "snippet": ""
+        },
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Reliance Industries",
+        "listed": true,
+        "ticker": "RELIANCE",
+        "segment": "Data centres / cloud partnership",
+        "status": "listed",
+        "pending": false,
+        "revenue": 962820,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 11.5,
+        "ebitda_pct": 17,
+        "pat_pct": 8.45,
+        "roce_pct": 10.3,
+        "roe_pct": 8.91,
+        "fin_content_hash": "87d5bdcff7141ff74963e1d95d99baee936c16942964d1c441c5f9d80604b9a7",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/RELIANCE/consolidated/",
+          "snippet": ""
+        },
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Adani Group",
+        "listed": true,
+        "segment": "Data centre parks (solar-powered)",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Sify Technologies",
+        "listed": true,
+        "segment": "Data centre solutions",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Techno Electric & Engineering Company",
+        "listed": true,
+        "ticker": "TECHNOE",
+        "segment": "Data centre development",
+        "status": "listed",
+        "pending": false,
+        "revenue": 2402,
+        "revenue_unit": "Rs Cr",
+        "revenue_year": 2025,
+        "revenue_cagr_3y_pct": 35.1,
+        "ebitda_pct": 14,
+        "pat_pct": 17.8,
+        "roce_pct": 14,
+        "roe_pct": 12.6,
+        "fin_content_hash": "0d663cace16ee5e2e837f55f86abf0c544f056026b10343416f51da1f7b08ee2",
+        "source": {
+          "label": "screener.in",
+          "url": "https://www.screener.in/company/TECHNOE/",
+          "snippet": ""
+        },
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Hiranandani Group (Yotta)",
+        "listed": false,
+        "segment": "Data centre parks",
+        "status": "unlisted",
+        "pending": true,
+        "pending_reason": "Private Circle",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "listed": true,
+        "ticker": "AMZN",
+        "segment": "Hyperscale cloud",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Microsoft (Azure)",
+        "listed": true,
+        "ticker": "MSFT",
+        "segment": "Hyperscale cloud",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Google (Google Cloud)",
+        "listed": true,
+        "ticker": "GOOGL",
+        "segment": "Hyperscale cloud",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-10-11"
+      },
+      {
+        "name": "Oracle",
+        "listed": true,
+        "ticker": "ORCL",
+        "segment": "Cloud regions",
+        "status": "listed-pending",
+        "pending": true,
+        "pending_reason": "Financials pending — from screener.in",
+        "updated_at": "2026-10-11"
       }
     ]
   }
