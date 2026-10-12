@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-12T11:35:10.375Z",
+      "last_fetched": "2026-10-12T20:39:55.937Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-12T11:35:21.988Z",
+      "last_fetched": "2026-10-12T20:40:32.253Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-12T11:35:22.491Z",
-      "last_epoch": 1791803649000,
+      "last_fetched": "2026-10-12T20:40:32.815Z",
+      "last_epoch": 1791810497000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -201,14 +201,17 @@
         "CBMi6gFBVV95cUxPcXNFMWxLNTBleUcxbDFWcEJ5MWU5ajlzZ0FfVXVDT09adTdPcURwS3g1NzdERzR2WmNfWHZSRXY5Q3lpanZzdndVc3ZpTjVZTE82YkVSdkhzOEk4c1FpY1hadW5fNmNPVmI1Q3dfOXJTVG14cUNwcUh1SlFLdkpwNjAzSGdJNWpja3JZSzRhT2U1SGFudXpkSlkwWkdCaG5sa2c2S012TVRmSFJZc0djb3NjZV8tcFZ3bnA2TS1rTGxZWk1EUjl6WGliUWR6ZjJkMkluZFB4Ri1YWHRFajc2dFJTRW10YWd5cVE",
         "CBMivgFBVV95cUxNaWNBVVZPV2RBd2luSGQxanJfTS1ib3lhbU4xLWVKMmJURW9lNTV4QmpDZnhzSGJsdHFuQjZ1c1hrWkxUU1phNmpYOTdJRGpkNkFOaXdPd3lyYnk3QmhzdmZLVDhMYTlIMFBsbTBSWVlKVW1fLUlheFN0SUFhTU1lR1dqRW81WU02dEZIS3NJc0VLRVB2dUpJQnpPT3RjdWVtRkZPNWRtOHF5UHN1R3ktU1g4aUNpQUdrQzNsemxR",
         "CBMizwFBVV95cUxPbnB6RllFVVVNY3hsZTZDN3BhTUR5ckgyYU4zT3o2Y04yc1NrU254SzdHR1dYTWw0ZFpSdUlnZlRiLWJjVF92ek9FQUp3ZVBoZmF6cWJfUEMwTzl1dkdaRDdzVWFocDdpOUE5Z2dXb29Idm5iNTZYT1luOHFsSzcydkZyTS1jMmpIY01JUUZrWnJJLVRtdDlLQ0ZGNUZhYkI4MWhPeEhqTzdjc1ROdXg4M0JrN0J2R0lkTkUtOWxCcWpLQlVZTk96d1dYcFJWTUU",
-        "CBMitAFBVV95cUxQYUt4Y1NQeWdZSVgtdFdiQmlKOXM3WmhLdl9GcWVvWF9pdXJOZE5FRDZydlR4cF9lMmpNb3NNc1BIa2dDUmRvYmViaGhqTnFDVGt2RUwxOVFXbWFxbFFDZ3Y5UldNZUc0UWkwYnF5ZldXdkxJOF9KMVBMV2RLN0xMVmpUNnhIYnF2SUo1dGtWN1g1Z2dwdlJycjFnVXkxWVl2c3hEc2NabEQ3dUMzQVNFdVdZb1k"
+        "CBMitAFBVV95cUxQYUt4Y1NQeWdZSVgtdFdiQmlKOXM3WmhLdl9GcWVvWF9pdXJOZE5FRDZydlR4cF9lMmpNb3NNc1BIa2dDUmRvYmViaGhqTnFDVGt2RUwxOVFXbWFxbFFDZ3Y5UldNZUc0UWkwYnF5ZldXdkxJOF9KMVBMV2RLN0xMVmpUNnhIYnF2SUo1dGtWN1g1Z2dwdlJycjFnVXkxWVl2c3hEc2NabEQ3dUMzQVNFdVdZb1k",
+        "CBMiowFBVV95cUxQT0ZQTXdZZ0RGaVk4VHJyQS1OSkE4UVM3OEpFMUlYekJCb1hTMUpSanhsMWMwX3dKM2U1YTlFOGhiTURIUndTQU9KNHRmblItd3otS2RCYURseVJQNDYxX0d5N0pLNEkwcWkwSlNxdEFJamY0dGVGTmJyUVYtLWJBdlJHMXIwbmlqbURYSWl2NmRyVWVsemg1Xy1JbXdDZ1BIN240",
+        "CBMilwFBVV95cUxPemhvT1ZCNjY3V01nUWc2cG9LS0lSTHJXUzFqU3dDOFExWndMd3psSkhPMnAwOHJHQUpKNzBQcVVCbUdDSG1iT0lJNzc3c2RmSklYSzVhOHgtdTZRaG8ydmxOQ0kwYlVnY3VFeU5WdEdGMG40emRaZmI3aUNVUS1saF95REc1RTNaR21GcGUwN1d5dzJkMnVR",
+        "CBMic0FVX3lxTFA1RHlKamJUa1NnX09Lbjg2T3dldUI3aGFEQ3Z1SmM2TVlObkJYT1B3dkRhNHI5cnNEbldZMlA5aFlrNFdydHdoQ095NW5Ba3VvWTJaOHFTNjhCdlVTdV92ckpDVVFNTk5vRFVfMnNlWEJBTEk"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-12T11:35:22.536Z",
-      "last_epoch": 1791799251000,
-      "etag": "\"0b50bff4d8917e0d051162c98c33651bc-gzip\"",
-      "last_modified": "Mon, 12 Oct 2026 11:13:02 GMT",
+      "last_fetched": "2026-10-12T20:40:32.860Z",
+      "last_epoch": 1791834047000,
+      "etag": "\"0ecf11fffb64866e3b58f9bfa012cc923-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 20:19:33 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -241,11 +244,17 @@
         "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/new-bigger-vande-bharat-coming-soon-forget-16-coach-version-railways-eyes-24-coach-sleeper-train-with-features-that-could-give-rajdhani-express-tough-competition/articleshow/134888621.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-sees-india-becoming-global-car-hub-as-europes-regulations-hurt-competitiveness/articleshow/134887770.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/india-fastest-growing-major-steel-market-demand-to-grow-7-9-in-2026-world-steel-association/articleshow/134887693.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/india-fastest-growing-major-steel-market-demand-to-grow-7-9-in-2026-world-steel-association/articleshow/134887693.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/aditya-birla-sun-life-amc-bgo-target-1-billion-real-estate-portfolio/articleshow/134901884.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/stellantis-tata-motors-ink-passenger-vehicle-manufacturing-pact-for-global-markets/articleshow/134897144.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/aequs-signs-long-term-supply-agreements-with-safran-for-aircraft-components/articleshow/134895745.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/delhi-high-court-denies-pepsico-energy-drink-label-for-manufacturing-amidst-controversy/articleshow/134894479.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/ge-aerospace-to-nearly-double-supplier-spend-in-india-by-2030-eyes-growing-aviation-demand/articleshow/134894449.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-stellantis-to-develop-vehicles-in-india-for-50-plus-global-markets/articleshow/134892965.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-12T11:35:22.566Z",
+      "last_fetched": "2026-10-12T20:40:33.000Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

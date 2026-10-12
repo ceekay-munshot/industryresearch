@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-12T11:36:34.271Z",
-      "last_epoch": 1791803632000,
+      "last_fetched": "2026-10-12T20:41:46.816Z",
+      "last_epoch": 1791826907000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -53,19 +53,23 @@
         "CBMi4gFBVV95cUxNZ2g4ZU53U2xQMElSWGhaZHRTTWFheFFndmN4LXd3YzVFb0ZuUXVlSldjTVZZRVRNdU1McHBuRVZHX2V4UXpmVy1iblJ0cXdQZHozV1lMNFdkSXRaUUNPVXM0NXhzVzA2TGgwcmUxbm1QT0NhYnphaDRvRE5SUU56TmNJdk9lUkVrVkhHOVlzSEFaaVFYM1JacjJlaDNQcUZrVmgxNGVySEdLcUk1RnZDS1NwWW5uNmR3N3h1MEdDUW9XWmNkV3R0VmVjVHRJekV6LU9KWnJOY0ZEa1pRVXgyRVln",
         "CBMizwFBVV95cUxPcnhWVjZDd2xRT2dXRS1mRjhrNjZnbFBpaGZmcHN5Q0R0NFY1b01tVWRULW15Z2h1THktTXFYZmJzZnJnZURxOWRuUjlKZlpOaWZocW84U1VaeVNtNjVFYk03TENtV1BkWllzdnpiWS1nejVPOTJXRVpMOVhucko3dXBqdmR3cmxVVjVhMENHazZLWm5RYy1aZWs2NVdXUXNIc0ZmNV91SjYwaUtUOFVyMlc2QWsxX3p1TmJlVUtzYUJpRWpnM0V4ZUVOXzMtdXPSAdQBQVVfeXFMTVVkMjJ2SV9wR1lrV3ZwM0VfZUlhOVBIMUVOWnRncXZPbEdnWDZOdF9HQnJNajVJX2pDWGRwRlFoVjZ4RnlyUGR2Rk56Rk0yUHJhZ3ExeHV3ZFpoQm5WT1VIN2NTdkF5X3g4MjRUdmVWTXhSMmlpZkFWWnFqVW1sVmhHa1RVMW9GZjQ2c1JOUi1ZWjhmcFh0MFc4U2YyYTEtZ3lZVG9PRjNrYmFCODAybURXMkxjOHBWWVFYMFkwWEFXOXB4SGdNaU4wLWtoVjJYSjlydkU",
         "CBMikAFBVV95cUxOUnh6Z21vVllmaTdpbGQ1QkJzYXBnM3FGdllzcWpvY2ZCbk1NNDhYdWN6SGY2N2ZuUU9mamxsYlJXOFB5ZmdfRHM0cmlnS0hoYlFBUHNaTlNoY01iRGhkOUtqQnU0WkhRQkhBZkN5NEtfNlcxUGxOZlVVekw4QnF4Tm9QaHNXTWg2NzVNUDd4eC0",
-        "CBMiwgFBVV95cUxOcThTZ05jbEJxSFBlX3RjM3VGdk9LX0F2Q0FSanhrS0kxX0p6UkJXZnV2UWdXbWNKQklfbUkyX2NnVnZYbFpRSk0xY3FwUGlydHJaN1lCV2VIZ2ZHeHJKeHFJbm1JbExYVG1pc1FOZGhneDFGRUd1blhKeG9sWVl3MWtCSkFxN2lkbWlQcS14RWJYQmpxT010UjZLUU9aVG1LWVlBbFB4VHo1Q3dPSTJGajJaTGVlSW81TnNZLXNkOExjQQ"
+        "CBMiwgFBVV95cUxOcThTZ05jbEJxSFBlX3RjM3VGdk9LX0F2Q0FSanhrS0kxX0p6UkJXZnV2UWdXbWNKQklfbUkyX2NnVnZYbFpRSk0xY3FwUGlydHJaN1lCV2VIZ2ZHeHJKeHFJbm1JbExYVG1pc1FOZGhneDFGRUd1blhKeG9sWVl3MWtCSkFxN2lkbWlQcS14RWJYQmpxT010UjZLUU9aVG1LWVlBbFB4VHo1Q3dPSTJGajJaTGVlSW81TnNZLXNkOExjQQ",
+        "CBMioAFBVV95cUxOZVNPYXFtVkZJTVQyVlZob2NDSnVnaWNQbWx0alVSb21obHdTNnFhMTJXQ1A3MGxHc01JdDkwZENTeklSYlVQT2tRQUxHOE1XcnQwT0MxbTVsZzQwN2QyTlVubFRSMmxvbzlHVU9mcHlEcXd4ZWZxTHJPVXlKOHdRLUhrVTliQlliQkdvZHprQW5DRnJLNVVQVDdvSVBqUWVy",
+        "CBMirgFBVV95cUxQVkc3MWdYLVo3VWp3MnZ3WjRpOW9sWXN4TklXNG5OYXBjNENHcXVicUlYRWh5dFpRX2JaX19mM2tPOHhudl9xdmhzd2txN2Y3UmVBY1VwaV8xSHJhUUpCWXVQbFlKMlI3NnEwWGpHQmw5aFF2VXR6NXBJaTRSZ3dKSzRELTd5d0RHTFlsdlR3UTAzNG5ZLW10NzJuaXluNDQydmJYSkpZMW9JNE43dFHSAa4BQVVfeXFMUFZHNzFnWC1aN1VqdzJ2d1o0aTlvbFlzeE5JVzRuTmFwYzRDR3F1YnFJWEVoeXRaUV9iWl9fZjNrTzh4bnZfcXZoc3drcTdmN1JlQWNVcGlfMUhyYVFKQll1UGxZSjJSNzZxMFhqR0JsOWhRdlV0ejVwSWk0Umd3Sks0RC03eXdER0xZbHZUd1EwMzRuWS1tdDcybml5bjQ0MnZiWEpKWTFvSTRON3RR",
+        "CBMirAFBVV95cUxQZHFOQWJSU190d3BJNHNPWWFVWFFRXzhDNEtkUXZYcV9VcFg1eHRYZzRjWVpBUUdqbVBvcVE2UWswNWkzZzZocklaVmVLQzc3RGdkWV8xOGMzdjcwRlV0OHhxNk43QTNMQ1E3bFRidnZ2eFZrTy1OVEoxUHlDUWtSTkxmVi1ESWRoazdEZk5QdnUxNkpqMFozcHpkYk9TSWhHbjlPbUZjeDZCdEds",
+        "CBMimAFBVV95cUxPdEdxM2JkODRfbzllanA3dElZOWZEOTZURE9ETFpVMmVjcW02Z1lUS1hKSmNKTVZ0NFBaQjh3a0I3QUY2R09PTzd1OHM4WDlWOFZpRGRaVFI1TWhpVERQbnppM0FTeEJFSmplMlJNNDVHeXM1TXNMOHBqM0htalEyOWNhVGM5Yk9CWmxZcTc2WnhVTXh4R19pUg"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-12T11:37:06.627Z",
+      "last_fetched": "2026-10-12T20:42:21.872Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-12T11:37:07.814Z",
-      "last_epoch": 1791803632000,
+      "last_fetched": "2026-10-12T20:42:23.306Z",
+      "last_epoch": 1791813924000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -185,25 +189,35 @@
         "CBMi9gFBVV95cUxPc1Bmc2g3U2VENjFXSEJQcFJkRnI3VnhCTkJTbjMzZV9tSkZDTTJkZkF5NGVuTXlJVVN2eTUyaEdPR0FpNW5NY0JDLWZ3QVY3b0RPdTJkUVNna2lVS3NkZ1dUSnFCZ2hMb20waF9MYXhueml0VXlYb08xXzNKYWduQ1dhdTk0WjBhSWpNLVdRTV9nUDNVNG5KWlRMN2dxRTdGazY3ampkTkFrOHpiSDhpMEpLdEpST1pSdWJPR09GNXNDbW9MX2VucE1lSHN2NDlBVDQyQ01vTXFsdnpGZ0R1M2ZQZ1NuUDE0UW5VSTNuSHhmNnpuTGc",
         "CBMikwFBVV95cUxOYUlOMUxXXzkwUnVLTW9mQlI1R0tJY2FWZlZUZGJhZE04V0l3WFBXQWM3SzNMbkVHeFFlTktDSUJEdFh6elk5MjFlOUQxM2Y5SVBQdUI1NThNZG9leG5obTdNVjlRanliWU9UUnh3cFQtNDU5Ym5OVC1ieTFkVS0yNW9pQUQ0M3dhNmhKN0ozOERlOU0",
         "CBMizwFBVV95cUxPcnhWVjZDd2xRT2dXRS1mRjhrNjZnbFBpaGZmcHN5Q0R0NFY1b01tVWRULW15Z2h1THktTXFYZmJzZnJnZURxOWRuUjlKZlpOaWZocW84U1VaeVNtNjVFYk03TENtV1BkWllzdnpiWS1nejVPOTJXRVpMOVhucko3dXBqdmR3cmxVVjVhMENHazZLWm5RYy1aZWs2NVdXUXNIc0ZmNV91SjYwaUtUOFVyMlc2QWsxX3p1TmJlVUtzYUJpRWpnM0V4ZUVOXzMtdXPSAdQBQVVfeXFMTVVkMjJ2SV9wR1lrV3ZwM0VfZUlhOVBIMUVOWnRncXZPbEdnWDZOdF9HQnJNajVJX2pDWGRwRlFoVjZ4RnlyUGR2Rk56Rk0yUHJhZ3ExeHV3ZFpoQm5WT1VIN2NTdkF5X3g4MjRUdmVWTXhSMmlpZkFWWnFqVW1sVmhHa1RVMW9GZjQ2c1JOUi1ZWjhmcFh0MFc4U2YyYTEtZ3lZVG9PRjNrYmFCODAybURXMkxjOHBWWVFYMFkwWEFXOXB4SGdNaU4wLWtoVjJYSjlydkU",
-        "CBMizgFBVV95cUxPMlgxNTdzcTVhUDFDMEtTSE5Qd2xRM0RRVHBISzhpWlpNU19ZREdEY3M3ZDFFZVNsUGpRQi14bHdUeEZ5OUtRZTZQbFNJU2M5Q29xdFpORGNscFNYX01nZkVKYzhDVE82N2NZYkswYS1TSHpMRy05NmNxT2RHUWIxR25mck5TYS1mYTRkNTBSUzhzZEZYLV84dVYya3dSWk90bWNYY3JGdmgzdV9IZ3dnT1lSTm96QVpLLUFYdG5ndzFGUENER2dVNmxIQ0prZ9IBzgFBVV95cUxPMlgxNTdzcTVhUDFDMEtTSE5Qd2xRM0RRVHBISzhpWlpNU19ZREdEY3M3ZDFFZVNsUGpRQi14bHdUeEZ5OUtRZTZQbFNJU2M5Q29xdFpORGNscFNYX01nZkVKYzhDVE82N2NZYkswYS1TSHpMRy05NmNxT2RHUWIxR25mck5TYS1mYTRkNTBSUzhzZEZYLV84dVYya3dSWk90bWNYY3JGdmgzdV9IZ3dnT1lSTm96QVpLLUFYdG5ndzFGUENER2dVNmxIQ0prZw"
+        "CBMizgFBVV95cUxPMlgxNTdzcTVhUDFDMEtTSE5Qd2xRM0RRVHBISzhpWlpNU19ZREdEY3M3ZDFFZVNsUGpRQi14bHdUeEZ5OUtRZTZQbFNJU2M5Q29xdFpORGNscFNYX01nZkVKYzhDVE82N2NZYkswYS1TSHpMRy05NmNxT2RHUWIxR25mck5TYS1mYTRkNTBSUzhzZEZYLV84dVYya3dSWk90bWNYY3JGdmgzdV9IZ3dnT1lSTm96QVpLLUFYdG5ndzFGUENER2dVNmxIQ0prZ9IBzgFBVV95cUxPMlgxNTdzcTVhUDFDMEtTSE5Qd2xRM0RRVHBISzhpWlpNU19ZREdEY3M3ZDFFZVNsUGpRQi14bHdUeEZ5OUtRZTZQbFNJU2M5Q29xdFpORGNscFNYX01nZkVKYzhDVE82N2NZYkswYS1TSHpMRy05NmNxT2RHUWIxR25mck5TYS1mYTRkNTBSUzhzZEZYLV84dVYya3dSWk90bWNYY3JGdmgzdV9IZ3dnT1lSTm96QVpLLUFYdG5ndzFGUENER2dVNmxIQ0prZw",
+        "CBMikwFBVV95cUxNLWhvX3NtckQ1QlQtYVVCdTlMTDZWa25WeEhOLUtpSVkxUEd1OC1UQjdfV0NqektXN1hwbC03TnhiYWlBQjBlQ1dEUTZDSVJEcXV6RlhiZE1ZeG1ILThhZF9uMlUtMlBKdGM5OVM2QkJXMzZ3Q3pQWnVUV1oyQ0pfTU5GNUFsTWIzZVdaYXR1TllNdDg",
+        "CBMiwAFBVV95cUxNaGRDZ0JMa2VIektfSEVvcW5PNTR5XzRFQ1VLZGhvQ0o3ZjU3VkQzUS1jTC0xM2o0TXdlZkl3X185ZUNtWjZGdzNGbFo1ejl2OEFnVldqMUJwU0taTDQ4YlNqUmNkT2JYLWF4MTM3Y1Rka0d6U3hhVmJXbGx4VlA5X1lzbkpCNDR6SkJTOTVCZzc1dmZlMGFFcXVfakg2d29yckNvQkdjdWhtWDhnTkZuOXM3djFHTFRfemJjWjYxblM",
+        "CBMikgJBVV95cUxOWTUtUTZxTURFN2JoLURDb3NBTm9SNE9mLV9ub3NCRDU1UXY5SG9TOTd1ZmpXOG5UeUFMZjlWbW9hOF9NLU5JWTM5X2FodHpDMUNMeWNibEo1X0tOc2tONWN4eHNPd3dEdVEtWmR1aVFjVFVDRkx1UUo0bDRyS0JGNzZzQUUta0NFZ1ZadmNYTnFWVHhNMHpfNlgtUVY5VFVuTVlNMXJrU1VMa1djVGxIajFYaV9qYVFZM2pjODd0TnhkNThNMDZjaFhDY0FscFlsMFhOUjVORXVWdE9qY1JlV2wzNE9uTmRKWDhqRnViZTBRQXVpR1VlMHRrUGNhMnJIR3pEeHNBcE9KSXpSc21hbEVR0gGXAkFVX3lxTE9VemszUHFYZXk0UEpkMG8wd01rdzJ1bDhBLTZxRWxsTkRxVXdJbXJjSWtrRC1sb19CMk5KTWRGQ21VTVk1Z1JFQzR3alhSRVRZUHg4ZlRaWkNjQjFubFU5MEEwdll5aG5DdGNUTDFEd1RZMVBma3ZKREN0WVVzeU1UTTdBVkplbmc0WFZuWDYyVjlVb1NEOExCb1plN3liQ200RWszaXJDZUxuZlJoQjNqWTZsekhiQVVFMnc3ck1OZkh4R3pnRUQ3RmYzWVdoZkJtY0t0Rm9meGxKN1BxOGE5RllMX1pmVllLcjB6ZTBQTkZSR3JKc1pIY091RUpCa1FfbGM3NTBEV09PdzdjdjQzRlFqMGFsOA",
+        "CBMiX0FVX3lxTE0xeUpuRGRUaVljVTdyTE93MXZBT0Z3WElsbEVnM3FVbjlGMHZHdm04c2k0Z0NnbTFmTjlpOU1NRUtkeTItSm54LVVTQ2lMS2VaakhyMUFYb042Tm51Sk1j"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-12T11:37:07.924Z",
-      "last_epoch": 1791800507000,
-      "etag": "\"0ad2a12009967a754144eaf7c4d0f74fe-gzip\"",
-      "last_modified": "Mon, 12 Oct 2026 11:29:04 GMT",
+      "last_fetched": "2026-10-12T20:42:23.395Z",
+      "last_epoch": 1791831299000,
+      "etag": "\"03839c3f5faadf6881bf1d44dcc509b55-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 20:35:36 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/andhra-factory-makes-3-million-tea-bags-daily-for-global-giants-walmart-aldi-and-carrefour/articleshow/134859981.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/ge-aerospace-to-boost-india-supply-chain-spending-to-400-million-by-2030-eyes-more-sourcing-of-components/articleshow/134889755.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/new-bigger-vande-bharat-coming-soon-forget-16-coach-version-railways-eyes-24-coach-sleeper-train-with-features-that-could-give-rajdhani-express-tough-competition/articleshow/134888621.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-sees-india-becoming-global-car-hub-as-europes-regulations-hurt-competitiveness/articleshow/134887770.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/india-fastest-growing-major-steel-market-demand-to-grow-7-9-in-2026-world-steel-association/articleshow/134887693.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/india-fastest-growing-major-steel-market-demand-to-grow-7-9-in-2026-world-steel-association/articleshow/134887693.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/ge-aerospace-aims-to-double-india-sourcing-to-400-million-in-four-years/articleshow/134901467.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/stellantis-tata-motors-ink-passenger-vehicle-manufacturing-pact-for-global-markets/articleshow/134897144.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/aequs-signs-long-term-supply-agreements-with-safran-for-aircraft-components/articleshow/134895745.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/delhi-high-court-denies-pepsico-energy-drink-label-for-manufacturing-amidst-controversy/articleshow/134894479.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/ge-aerospace-to-nearly-double-supplier-spend-in-india-by-2030-eyes-growing-aviation-demand/articleshow/134894449.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-stellantis-to-develop-vehicles-in-india-for-50-plus-global-markets/articleshow/134892965.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-12T11:37:08.050Z",
+      "last_fetched": "2026-10-12T20:42:23.461Z",
       "last_epoch": 1713863838000,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
@@ -212,7 +226,7 @@
       ]
     },
     "pib-releases": {
-      "last_fetched": "2026-10-11T17:05:23.414Z",
+      "last_fetched": "2026-10-12T20:42:23.823Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
