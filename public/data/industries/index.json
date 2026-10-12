@@ -1,13 +1,14 @@
 {
-  "default": "data-centers",
+  "default": "mdf-boards-india",
   "industries": [
     {
       "slug": "mdf-boards-india",
-      "name": "MDF Boards (Medium Density Fibreboard) - India",
+      "name": "MDF Boards (Medium Density Fibreboard)",
       "aliases": [
+        "MDF",
         "Medium Density Fiberboard",
         "MDF panels",
-        "MDF sheets"
+        "wood panel - MDF segment"
       ],
       "is_manufacturing": true,
       "mock": false
