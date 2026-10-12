@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-11T23:25:30.382Z",
+      "last_fetched": "2026-10-12T11:35:59.062Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-11T23:26:03.111Z",
+      "last_fetched": "2026-10-12T11:36:32.696Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-11T23:26:04.266Z",
-      "last_epoch": 1791620418000,
+      "last_fetched": "2026-10-12T11:36:33.704Z",
+      "last_epoch": 1791761180000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -39,21 +39,26 @@
         "CBMiiAFBVV95cUxPWlhkckYwRW50eXF3Vk9VeXlWTXRRV09EYVBRVTl6TXI3eXRPYWhmQ0FGczNJRGwtek9nMjd6MlpkNmlYNkFOSTA0UTVQRlRMZVc3TGo0NVBjcjV4M2wyc2lyMmdqSzZseTl6UDdibXdyN3RrNUZuSGhjbUVKNHpkcnk3cmVaT0k1",
         "CBMi8AFBVV95cUxPQWRET0xYcmVKeE9jZC01Y2s4bnYyWVhCbmFKRTN0T0dGZ3dZY2lOQnFoVExhZDY5cXFnN3diejlXM3ctMExXY01jS3FQZndSdXNqc0xZbThGQkZ1dXZRdjhCa25WckRWU21GSXJfeVYyb1hLUy0weWtBTm9aM1gzc0wwYWR0Q01OZE92bDVWdG5Ga3BYVkROU1lmMy1mNVJsNi1fdG1XQWdSZjBCUXFZZWZ3TnI3d29fZW5yNG9QMVJadVFOWXNKSm5EZVRxbjZ0NGwwYTAyT1JlcGIwNUctQ0dKOW1yT1ZscjFQVjJXT07SAfgBQVVfeXFMT255Vl93Mm93QlBoZGJ0cVlhejhnWDczZlg0WjQ2N09HX0pSdG5zTWhRVlVOVmxxUkpqenlkRXdnbW9jeWRCWW92SlN0RlVralQ0Q2RaUGM1Ti1zMC1Jd1ZoQWQ2ZkJPRTlfZTJNeGp5cFZTTElzWmxVSU1VWTdOdXFlYWlxY1FvVkRMMGhkcUNxTVR6cmNodU5YQndwT3ZXc2xxcS01N08yQVpDWkVxaTQwaTNNLUE5X05DUENJN0tORWRXa1JRS3BCT1JsZktaWE8taUdRb2pLQ1RlVDVVanVZSzQwR3E5eUlBWGpMV19WczlDYlFpQ3c",
         "CBMingFBVV95cUxNc3dCU1BEdlliQktZeWhUSUU1aVJDeWhmR0gwc2lKSy1obzNUbW9KWlk3cElNU1lqUlpnNURoallHU3FqV05ITFhqWTM1eFh3R3ppVFJjYVZmNzE4RTFQRW8wMlpsVWpGdWlEckpXUHo2ZF9WdWxpaVlJaHJzVjVXdzR1OTJkcU5OT1FJc25WTFEyRE1GNUdfWVU3aUN2UQ",
-        "CBMiqgFBVV95cUxPLWFDbFJfaFMtbUc5WEJ3MlFuSUowaUhPcGNBMWQxWWpFSllUOVNGVE9WSTlzdjVWTFVNcEVxOUcyVV9FSE1wcWtZczAxRXN0VkFSLWtqNUctMzdfRVRVSm85dXEzbzBCc3BQOGJDRzJwbk5GVkctVFNUMTRBQV95NENucE5IemM1emw4Sm1tTGl5Zk84MkdXdXVxaG9TZXRkQk9QeG9XdGhIUQ"
+        "CBMiqgFBVV95cUxPLWFDbFJfaFMtbUc5WEJ3MlFuSUowaUhPcGNBMWQxWWpFSllUOVNGVE9WSTlzdjVWTFVNcEVxOUcyVV9FSE1wcWtZczAxRXN0VkFSLWtqNUctMzdfRVRVSm85dXEzbzBCc3BQOGJDRzJwbk5GVkctVFNUMTRBQV95NENucE5IemM1emw4Sm1tTGl5Zk84MkdXdXVxaG9TZXRkQk9QeG9XdGhIUQ",
+        "CBMivwFBVV95cUxNMThBOGRfNmFJS3NCYmJVbHFkbnVyT3NlNUVNOFRRd05jUEV3cWQxcVhzeHZoVmhIOGlDcTNYeUNnWVJpamI5OEJZYjRRYjhrZVpnb2lKaDNnNzVmTk1RUHBDUE5xU3c4UTRzRjZndUpEbW9DWnRzeVB4WDBHZ1poVFl4SWhNOXc2RGdtSXNXV3gwWmpYZHdIdmJkMkRrVDA2OWxIN1FXN3JjUjFrd3pOd0gxcXUtTGdVdnFsZExLSQ",
+        "CBMiwwFBVV95cUxNLWpJM0Jtb3Mtbjh1MWU3VUROVVE0bEVaWkxhd3ZQU01GMDJoRHVwOVMxQ2NvR2xabG12LWVldktxbEZOamxfSWlLV0V1aUhoTVFjTUIwbTVhWlhPRDhCUHVqY3gxVWpwZ282NllhcURGVEluODktUW1zVFhvS2V5RGNPOUZBQzhYUXMzMHFXZnRPNVFmUkZINi1RZDQyWUFXMEpveU5hR3pURmN5am9vbkg2VFlzUU5TVldWeWl3NjgwdmM"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-11T23:26:04.366Z",
-      "last_epoch": 1791713351000,
-      "etag": "\"0f3894b059512d89ca8e15767478191d5-gzip\"",
-      "last_modified": "Sun, 11 Oct 2026 23:10:27 GMT",
+      "last_fetched": "2026-10-12T11:36:33.809Z",
+      "last_epoch": 1791802828000,
+      "etag": "\"0ad2a12009967a754144eaf7c4d0f74fe-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 11:29:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-issues-draft-audit-manual-for-drm-based-digital-addressable-systems-seeks-comments-by-october-30/articleshow/134840672.cms",
-        "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms"
+        "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/two-wheeler-loan-interest-rates-what-can-affect-your-financing-cost/articleshow/134890477.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/india-wastes-1-8-billion-units-of-renewable-power-amid-shortages-and-dwindling-coal-stocks-report/articleshow/134886692.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/bajaj-alts-raises-rs-950-crore-in-initial-close-of-maiden-real-estate-fund/articleshow/134885460.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-11T23:26:05.000Z",
+      "last_fetched": "2026-10-12T11:36:33.914Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

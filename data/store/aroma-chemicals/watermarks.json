@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-11T23:20:43.078Z",
+      "last_fetched": "2026-10-12T11:29:32.729Z",
       "last_epoch": 1791607585000,
       "etag": null,
       "last_modified": null,
@@ -64,15 +64,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-11T23:21:17.050Z",
+      "last_fetched": "2026-10-12T11:30:04.722Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-11T23:21:18.360Z",
-      "last_epoch": 1791609391000,
+      "last_fetched": "2026-10-12T11:30:05.918Z",
+      "last_epoch": 1791798235000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -309,14 +309,16 @@
         "CBMiX0FVX3lxTFAyeldMbXlWWTVpbXVIY0ZWbkJ1djlqUlY0YXRVc2VQdzQ0YWJ4UHJDeWxNSzNfWXM4eXU5bXdSelhvT2VCbHVHdVl0NDAtSmNOdkdDcnUwWUFUZXNuOWNN",
         "CBMirwFBVV95cUxQSWIzNGtNRjRFTTlfVmRFZnFwOGNZcmJ1R082TU5vazRHdkxPV2M5VU9GRjhOeWtsVE15OUM5QWsyVm4wZWZPai15VnQyYTRQQ2t2Tkw5RjNLT00taEtnbWtfT2h3VUJaWUZzRXNqYjk4RU1XcmgxaTZQV0dYVHBhYll0eXZDU284LW1QcF9ySVpHUjNKSHhfYlJwc29sdFJQRExqaU5yRXl2bTNDcTE0",
         "CBMi6wFBVV95cUxOSmZxMUQxMDY3MUI2V2lNdjltZ2VsbEprcm9SX2w2OFJFNzZobU1wSXgtclZMcUxKLTNHMENSb2FZWmVHZ0VDbXo4NnhiWXJPdXI2UFd6RVcwel9jM1htbHJfQVM0N0M2NGc4Ui1uT1ZjSF9rbEN3LTZkWFl2cVExRjVYeEktMm05QXdJWWpxdVhGU3htelFGZldVTmdUWGphQVVBZVpQQ1NMNk1PMzQ5V3FqMjhPQVp2LVAxQnY4eGFnS3pNQ01xS2wxS1F1T3RJZlN4ZGpNRnkzTVBIRzZoV0pVU00wMm1JdWJJ0gHrAUFVX3lxTE5KZnExRDEwNjcxQjZXaU12OW1nZWxsSmtyb1JfbDY4UkU3NmhtTXBJeC1yVkxxTEotM0cwQ1JvYVlaZUdnRUNtejg2eGJZck91cjZQV3pFVzB6X2MzWG1scl9BUzQ3QzY0ZzhSLW5PVmNIX2tsQ3ctNmRYWXZxUTFGNVh4SS0ybTlBd0lZanF1WEZTeG16UUZmV1VOZ1RYamFBVUFlWlBDU0w2TU8zNDlXcWoyOE9BWnYtUDFCdjh4YWdLek1DTXFLbDFLUXVPdElmU3hkak1GeTNNUEhHNmhXSlVTTTAybUl1Ykk",
-        "CBMiswFBVV95cUxNazFKNG5QTnQ2ZHNRSGNXdFBqVUV1WkY3cjFfdTNmUkRnVGdlSnVJVkpvRE9fRWRHZkJNUE9qOEFHajF5VkZadnVpS2FhTGRaMDB4YjI3U2dTbjhUZHRieGM4ekVWTnZHMk5oRDljdFF6RTUzcTc3LVJzYUlPazlUcHpiYnU1NWJLVnNoYUt6ZjlYVU9hMDZ2dnd4S0p4dVRCRkxrUEpNcm1ZR1c1MUdvcG9Gbw"
+        "CBMiswFBVV95cUxNazFKNG5QTnQ2ZHNRSGNXdFBqVUV1WkY3cjFfdTNmUkRnVGdlSnVJVkpvRE9fRWRHZkJNUE9qOEFHajF5VkZadnVpS2FhTGRaMDB4YjI3U2dTbjhUZHRieGM4ekVWTnZHMk5oRDljdFF6RTUzcTc3LVJzYUlPazlUcHpiYnU1NWJLVnNoYUt6ZjlYVU9hMDZ2dnd4S0p4dVRCRkxrUEpNcm1ZR1c1MUdvcG9Gbw",
+        "CBMi7gFBVV95cUxNVHJOci1BdEQ2RXM2WkJFVzNVVG9CY2tYVWpKdE1CdXlaZnJhaU0xZTZFd2RjcTJRRFFfaWxtQ3BNNHVYRVV1UXkzWVRibmZ6SkJRZW9YR2h0VUlCSW1URDlMQmFBMUJKUENLRU9vS0UyRC1MVjF3a1VObnZ0eDlUQWVVV1JPcGZoampSOXJxaVNONFpUNWx2OWtJMjkycHpaNGtKRDVoV0NldGtFelBsRGxGcms4WE9WVTR2TDYzMFFveGVNSDBLNjZUMlpoeUFFYjVHLWMtVHFTY1FfYm9oLVRWXzZiY1c4Y1diNHdB0gHzAUFVX3lxTFBTWTJLOWhZN0hvS3B0Y3JtNl8zeXEyeTNUUWJ3T3JmRWZ3NTZRa1lxLTZCclF5OVdMLXdJNFVON0c4TUx6c2E4LXBSbFdGbUx3MmVBbERzUUgya3U3Y21aRXhERV9sQjByQlYwYVdiSWx4YmFjZHdaSVp2ZjZZcjJLQ0Uxa1BKNVNWa3FYTjdHZDF0Q0UzVUxjTDZMZWVPQWFDZjhRem92em1jRGhtWUFKOS1iU3hKZ2t1SHViXzU1UE42M0dXWUFuSU9YSDRRMVpzRTFVVFhhWUlXdzNzN1Z5dm5UdFBDanJvTVdLOHRoRnI1QQ",
+        "CBMi1AFBVV95cUxOT3I3T05wMWZhVFQtWFN5QlNDSkJKVFBlVWFXVUF1NFRTT25zY2V2VW04cVNlM19lLXR5ejA5QjM1bm1WczNUUERVa1RZR2ZtOVZxSzFvQm1kbGJkZlVCWE5ielpjLWNjcjVtLVhQVEFWalByUDNaVnM2OHlWTjhtNDFLMGlXd0NPMTlnM1BvaHdKV2c2Y0JfdHJKUDU4T2VQVGJwVHdwelZLYWJkRnBycVNLYXJHTHRfRTdMN0I5YTUyQ212MmJyQVB3V2J1bjVBVDRaVQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-11T23:21:18.546Z",
+      "last_fetched": "2026-10-12T11:30:06.021Z",
       "last_epoch": 1791568309000,
-      "etag": "\"0f3894b059512d89ca8e15767478191d5-gzip\"",
-      "last_modified": "Sun, 11 Oct 2026 23:10:27 GMT",
+      "etag": "\"0b50bff4d8917e0d051162c98c33651bc-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 11:13:02 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -372,14 +374,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-11T23:21:18.623Z",
+      "last_fetched": "2026-10-12T11:30:06.124Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-11T10:27:25.298Z",
+      "last_fetched": "2026-10-12T11:30:06.169Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

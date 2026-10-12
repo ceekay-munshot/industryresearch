@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-11T23:22:05.532Z",
+      "last_fetched": "2026-10-12T11:31:19.541Z",
       "last_epoch": 1791563994000,
       "etag": null,
       "last_modified": null,
@@ -69,20 +69,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-11T23:22:27.663Z",
+      "last_fetched": "2026-10-12T11:31:54.460Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-11T23:22:28.980Z",
-      "last_epoch": 1791731653000,
+      "last_fetched": "2026-10-12T11:31:55.620Z",
+      "last_epoch": 1791795406000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMipwFBVV95cUxPMkUyQ09rRUFJTkRLUkEzMVpRX2g5ZURXS3NzVzFWS1hKYWpDejJMY0RaZW9Na3ZpLUhTcGMya3l2eXg5S1ZlYVBpUGFDRDJaUm5Eb1RzbU4zS3AzdmxST2NUc3NJdGhFMFhCcXEybkZGQ1IwREVLYVpmWlJlZlYtdE5fclJrS3VPdUFDVTY0Zi1BN0c0bnY5SWVadnpoSXJLSklDNnZYWQ",
-        "CBMingFBVV95cUxQQjdjV1NQZnFya2g1SENZQ2RKQ1pHLWtIa1pSam5wSzB2dmdvZEROMk9Ca1RxeThBSTF5Ym5KX3VmenZYYnRpSG02TTNyTjVmWHl2TkZpdC1mLTVVV09BY1Q3NXItLUFMYm9kWTZLaV9WLWxDY1F1bVlOU3N6U1B1Qjh3M25Rd3NYOW5Fc1BqQUlacDZVNXc3RUdtMW14dw",
         "CBMirwFBVV95cUxQdTY2aWtMZng5bGlpRXFfNlI5Uy1Fc1NZSmh0a2dTb3RBRnBkOHFPMXlVcWRVOVVOcTNVRm44NDJDZ1U0Z0NmamtOU1dzcWszRTUzdlVKa0cwVlF2eUNmbFU3SW9hN2s5bDRxZ2hva1hNZFllVEM3ZGVJTF9lOHp0NVpUSGlDdDNBaW5DdllZeEFhd2hGR0xqLWdqS1FiamI2UGZxUTRCckNLX2FGV1Iw",
         "CBMikAFBVV95cUxOZ3NlMThIYWhNTWFlQnE1SVNicE1Ca0prSzd1OHF4c2RxQmRFZkZTdThvNmlqZjR3eGZoUGZjV3BGOE1IaG1SdmdOdUg5eE9KLTI2X1E0MVFsSVdNcml4WG84RkhzZXY5R1JGMWxKMjh3MFZGOUVIN2UtOGlqUW5NSzNQNVpPSk1IVS12YzlTYi0",
         "CBMilwFBVV95cUxQaVc4YkJuT2VETVZ6eTNXbDQ1TFR6eEVzbXlFUFR0dHpaRDR3NVlQQ0NVYmg3Zmg1elJUbEg0bDBfMGM3RGNXWXBkT1luazJtelV6XzhTcWdDWGRhckU1R0lRTVZ6MzdHajVDZlVhSV9JR010a3MwWUtSbldtUDR2YjNLQXZKVjB3U01pQXFIekZPblVmTnVn",
@@ -380,14 +378,16 @@
         "CBMia0FVX3lxTE13b1lURE1Gbl9OU1V6Z1RTNm1RYlVaWUN4NmFCd2lLUGV6VUM3d01LYVdiSk9DYnMzMGVaMGJqZm1wNjBZN0ZGT1BQWXpiVHkyVlh6NDhaLVUzM2xGXzJ0WW9FYVEwOGhmRndF",
         "CBMinwFBVV95cUxQa1pySmozZTFWMlVNZjJPS3dsMkpaNFc1bDA1S1Ezb0ZQZHpKNkhqYklrX2dGbTBUTVR5WTdlS0psaERDYnRFS1laSHp4OVA5enJHNlhfajBSbXhRMkVrcEowV0M5SWlCOXVzV2tCT3RHMF9YbE5lbTk1bnJEZHllQ3otVFVHcGI3YzR1ZlVyUHZubW00YUF0VkR1ZHFLWTA",
         "CBMi6AFBVV95cUxPR1ZTTDQ1eDdULW4zcDhLQUNqZjhMTkZMSkNhdjlTZHJ6TV9Bc1Z0YUYxdVpNckVoaVNwZHZZeFd0YkZnWHBIdHI4SjBYS1BQZ1JITGluUWotR3JKWnM0dTdJVGNJbFRva2htZUZnWFcydUdqREhRZTluN3ZzOGgwOHdWTFhIRnNFZ2NfR29GS3RDOGJSdDBrNUVqbjFlUUp3anZGSnZUQWMzendCRkt5QXM1d3F4MHkxNTFibDlsNFM2NmZEWFlvdTN2UU0wNnF1V3RsMmNXVWlxZHdRUWlFXzhpeWREa21T",
-        "CBMi4AFBVV95cUxNMXRvY01oR3c2cGJ0UnBsN1Q4amVseEZqcm55elE1ekFFMVZxSjluMU9rbHpwNDdSQzVINHhQS05nRGlZNWFoZEk3MncyZmc5UXhhLWhQTHNCMmgyYjJoVzVRLXF1bUk5eFEwY3gwZEhzbFV0TTBmV2o4V0xmeG5NZFdZRllhZ2JneE92dlJ4NXBkUHlDMjl1c0wyNzd4VzNDSm0tS3ZmXzhuaGhKbjBOaEE0LVA3NXlTVHU5clRyVVBrS0lKWXJzempJSldDbWRsaENSeHFVMmw4NkFZUGNBOdIB4AFBVV95cUxNMXRvY01oR3c2cGJ0UnBsN1Q4amVseEZqcm55elE1ekFFMVZxSjluMU9rbHpwNDdSQzVINHhQS05nRGlZNWFoZEk3MncyZmc5UXhhLWhQTHNCMmgyYjJoVzVRLXF1bUk5eFEwY3gwZEhzbFV0TTBmV2o4V0xmeG5NZFdZRllhZ2JneE92dlJ4NXBkUHlDMjl1c0wyNzd4VzNDSm0tS3ZmXzhuaGhKbjBOaEE0LVA3NXlTVHU5clRyVVBrS0lKWXJzempJSldDbWRsaENSeHFVMmw4NkFZUGNBOQ"
+        "CBMi4AFBVV95cUxNMXRvY01oR3c2cGJ0UnBsN1Q4amVseEZqcm55elE1ekFFMVZxSjluMU9rbHpwNDdSQzVINHhQS05nRGlZNWFoZEk3MncyZmc5UXhhLWhQTHNCMmgyYjJoVzVRLXF1bUk5eFEwY3gwZEhzbFV0TTBmV2o4V0xmeG5NZFdZRllhZ2JneE92dlJ4NXBkUHlDMjl1c0wyNzd4VzNDSm0tS3ZmXzhuaGhKbjBOaEE0LVA3NXlTVHU5clRyVVBrS0lKWXJzempJSldDbWRsaENSeHFVMmw4NkFZUGNBOdIB4AFBVV95cUxNMXRvY01oR3c2cGJ0UnBsN1Q4amVseEZqcm55elE1ekFFMVZxSjluMU9rbHpwNDdSQzVINHhQS05nRGlZNWFoZEk3MncyZmc5UXhhLWhQTHNCMmgyYjJoVzVRLXF1bUk5eFEwY3gwZEhzbFV0TTBmV2o4V0xmeG5NZFdZRllhZ2JneE92dlJ4NXBkUHlDMjl1c0wyNzd4VzNDSm0tS3ZmXzhuaGhKbjBOaEE0LVA3NXlTVHU5clRyVVBrS0lKWXJzempJSldDbWRsaENSeHFVMmw4NkFZUGNBOQ",
+        "CBMiggJBVV95cUxQYzgyR3pKZkZZS1BucHlzcUZKbkJIWEVrN1FfUDdEWnlVQ3U4bk8xQm5rcExWTnM1UlJRUHM3VDhISGZYZ3hwc3dHWk5MblB1ZjNMZWNLLUZUUEcyVmZRMkJObWVXRURseWMxMFdMOXVRMzZqaW1QNnlKUFlJeXFIbWZvcHpqSHc2QTNNVU9UdHVYVzBrREEyX0lGU3ZnX1BTdF9nWGRUWEY5dG0ybUVCdjVsd2VicnBaSHRfckgzVXBmajFPWWpIWGp2anFZTnJZai1GV1NQdTFEVEluYzFSWXQ4ZG4yRUNtb1ppc2dDVXhRTDNwd2h0eHE0Nno2Yi1kTnc",
+        "CBMi9gFBVV95cUxOaHBGSW5WbWJkcXI0YklWbFJkRDNDM3VDeUVtTW4tOHBjbzktYWpsXzNlUkZLVXdGSVFYVWUtZXJ2RmtxMDJZZUR0SGhTV0pFaXdwWUpGbmlZaGF6b0pyTXhJcW5KM2RvaTlQNkZfTGI2QzFDT1NpWFN0YTYtVjAySmRPRV9lU3ptek1hNUItWTlDTmh1T2h6TmxEUEVFUmV6VFR5empsa0tFc2xqNWZLVUsxMGdDTTlZOC03MTkxN2hnbV85NnhpUXhhbjQtSFA3RlFIbzZpQVNaNXpfNnpMRWp1OUtTUTNEZHlhVk4wMXlRWU5SeFE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-11T23:22:29.211Z",
-      "last_epoch": 1791716504000,
-      "etag": "\"0f3894b059512d89ca8e15767478191d5-gzip\"",
-      "last_modified": "Sun, 11 Oct 2026 23:10:27 GMT",
+      "last_fetched": "2026-10-12T11:31:55.731Z",
+      "last_epoch": 1791799251000,
+      "etag": "\"0b50bff4d8917e0d051162c98c33651bc-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 11:13:02 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -633,18 +633,24 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ericsson-india-md-nitin-bansal-on-ai-native-networks-6g-and-indias-manufacturing-push/videoshow/134847568.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharmas-risk-aversion-holding-back-innovation-kiran-mazumdar-shaw/articleshow/134860200.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/andhra-factory-makes-3-million-tea-bags-daily-for-global-giants-walmart-aldi-and-carrefour/articleshow/134859981.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/new-bigger-vande-bharat-coming-soon-forget-16-coach-version-railways-eyes-24-coach-sleeper-train-with-features-that-could-give-rajdhani-express-tough-competition/articleshow/134888621.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/puravankara-inks-pact-to-jointly-develop-12-76-acre-land-in-bengalurus-sathanur/articleshow/134888344.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-sees-india-becoming-global-car-hub-as-europes-regulations-hurt-competitiveness/articleshow/134887770.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/india-fastest-growing-major-steel-market-demand-to-grow-7-9-in-2026-world-steel-association/articleshow/134887693.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indias-office-hubs-turn-into-retail-hotspots-as-developers-tap-captive-shoppers/articleshow/134886622.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/bajaj-alts-raises-rs-950-crore-in-initial-close-of-maiden-real-estate-fund/articleshow/134885460.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-11T23:22:29.432Z",
+      "last_fetched": "2026-10-12T11:31:55.802Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-11T10:28:41.779Z",
+      "last_fetched": "2026-10-12T11:31:55.840Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-11T23:18:09.483Z",
+      "last_fetched": "2026-10-12T11:26:17.305Z",
       "last_epoch": 1791609965000,
       "etag": null,
       "last_modified": null,
@@ -115,19 +115,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-11T23:18:45.512Z",
+      "last_fetched": "2026-10-12T11:26:51.616Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-11T23:18:47.179Z",
-      "last_epoch": 1791712610000,
+      "last_fetched": "2026-10-12T11:27:11.348Z",
+      "last_epoch": 1791798523000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizAFBVV95cUxNMXFlcXlFQTRpZXBKamhJRGs3d3pCc09raGdOMGs5LThkUGpRTVh1S0sxaGVQNi13bVVrb29NdXNJVjc5ckJZTnM5UFFlX29iU3VBSmYtbnRKa2xjUXJEdF90ZVQ0aTdJZ2J4QUZFZDFBSlRBTkVkeXJlQXdNZW1IXzAtWllMbUZ5bjNXWmgyMUx4U2NpUEVWOFdlQ1B5b0tzYkJiejQweXhEaUZkcTFxcmhnUnNha0ltVjJObnhoVXkzN3k2NkJmMlliTHM",
         "CBMitgFBVV95cUxPWnd0cDlMV0dRbG52SG9UbHhXRGlTb3BuU2tfelQ2ajFMY1J0NnUzZmtoQV91MEhlMzBoTmpYRWp6dEV0WmptYlo4YVdFN3Y4ZjN4V2lJbkJZWFFPYnpOY2J3STk4R2ZyUG9ralBQNXFvUjBYMV9SWU5FTDBYTVBFYWk5cWVTYmZ3NzVvbXBaem5mMUZ6eVZYWlFXTVYxWDVQM1U3S25GZTFJYzlqcWJfbDBaQ3Jkdw",
         "CBMigwFBVV95cUxQYlhnMHNTeW41NklnVWZlUXRjNkQ2WkZPMTFieXpnVmYwZzNjYy1VQ1M4M2IwX1pOa3ZiN1pwcFFjRVpBN2ktMmtrV00zOTdHekxrVUF2NzREUGs0dnNoMGVhX2ZraThOUVVnYWZvdWlaYy00MW5pUmE0c0NZdVQ3ODFadw",
         "CBMioAFBVV95cUxQdGJXbmFmQ0N0RmNsSDNXcWM5Q0pDdWZtN0RLeGZpYnNjYUlCREF3SGpwa0kyei01djNNUVo0bGxHQlFQbVBJYldHcHJHSXRENHJZdHVPRkxqdGozTUk1QS1MZXR6My14UWRjNkFHbmVmT001OTI5RnVBNVhGX0dDQ2ZfLWpnWjJwRWREcXpESWVkNE80Q1NRSmhRUWVVTGlX",
@@ -426,14 +425,15 @@
         "CBMimgFBVV95cUxPMzVfazZKN25NYU82ZE42Y1pUUy1sR0kzVnlhWUgtUEdLbDJWVkxnY1FBbUxSMFZUM0RUTkUzTEtib3JnQll1Y3piRVZCZFZpS0d1a3ZwUGVCQXhXZllyYy1CbDU0Rl9nQUpON181VE1aTUU0QXQxVVh1VWJkWHJ6Y0tBZjJTU1kyeHpJUjE0d0JScEEzUHpwNTdB",
         "CBMiygFBVV95cUxQUXNKcy12R1BGZWlHdjN4bVlMX1poUS1IWVd2WWh2Qm1HZGVKNXNySWRCMWctN1NJZ3NodUEzdUViakxEWW41MmJYbnBLSG9wc2g2Z1djQUJPLTlGcWNwVVJacUc5NUpBdUtSVzNtdkM4U1B3eE14MF9tbE5DTVhORTVQcUN0QW11MmdhYTRfenBrQWlUaDRyTGRlcE1DUjdQSkt5ZllGMTVtYkVlTFQxT1BZejJHb3loVDQ5cUJ1dkU2TDluX0ZyLU1B",
         "CBMitwFBVV95cUxPY0FjaWRwa0VlaXA2R0pfRVpJaVZsRkRKMVNiZDNtSUV6VjBLTGhyQi04SlQ1TFRfekhEWDZBNGg3N0JWNFJ3bUhyNlU3VTViWWVhT0FoaXI0d0JnNFR0YTlSLUZVdkNjTHc3VmNFbDl2b1p1eGstOHZpSDdpeXFsODdmMS04UmoyeHV2QnAxOHJjazJGeko2bDhuRWhLQU03UUYydjhlS05VaG1oNXZzUWU3VXliV3M",
-        "CBMiggJBVV95cUxOX085R0NFQjVUN2VNdXpXWGE4dG1BU1hER3BhN3NYcnZPYjFuQml2R2lCTm9WazY5RWFWQmNpRDRQWC0wY0t1YTJ3TE05MXlLczlrbjdsQ3BWQWxzZmR5eFRQOTU0Y29xSF9ScHZIem1NWEZNTm9SV0xFSFRRSGRSd1haZy1xcTlyWm5QUFRBYlJxQ2dNMXc0My16NmcwSzVVOWFYUGFBNDR5VWpRa04tbXZTeTJ4Mk5zM3lRVFpwUks4dGNJbWRwZG94OHFXeUlYYmR0YVNvdld1YVM3c194WVV3QjFkZkMwR1RkaVpXRnVBLS13eWVLZXB4Y29VWmZiZ3fSAYcCQVVfeXFMUHR6eVcwSXJGeEZMVVpUZVBCV1BkdC1zdXNiaHV1Y1NJb2JOS0YzUTdJSmNjbWhPVndiZWdUajN2TGN2Y2FqVTd0VThFNzNwN2dqY1pLVjVPd2NCRVdNM292RXNOTGFkVUh4Y0hjc3JVTHFoeFRPUFlEeUxYbkhDQXNHbndSa0FTU1VSbTBzNWtTOU1PZUF0dFFqV1BFT3N3dzBjMENhMENOeGlZREV2YUlhaWFFX01FV0xEd0RCNlN4ZVBvUThEMEQyRlUxNFhoMlZJancwRUEwN2RvVFRIYzdhaGh3NDNCNi1aM0hJeFBibGJOQlJzc3puSmpyTUNhNmlpOXN0ajg"
+        "CBMiggJBVV95cUxOX085R0NFQjVUN2VNdXpXWGE4dG1BU1hER3BhN3NYcnZPYjFuQml2R2lCTm9WazY5RWFWQmNpRDRQWC0wY0t1YTJ3TE05MXlLczlrbjdsQ3BWQWxzZmR5eFRQOTU0Y29xSF9ScHZIem1NWEZNTm9SV0xFSFRRSGRSd1haZy1xcTlyWm5QUFRBYlJxQ2dNMXc0My16NmcwSzVVOWFYUGFBNDR5VWpRa04tbXZTeTJ4Mk5zM3lRVFpwUks4dGNJbWRwZG94OHFXeUlYYmR0YVNvdld1YVM3c194WVV3QjFkZkMwR1RkaVpXRnVBLS13eWVLZXB4Y29VWmZiZ3fSAYcCQVVfeXFMUHR6eVcwSXJGeEZMVVpUZVBCV1BkdC1zdXNiaHV1Y1NJb2JOS0YzUTdJSmNjbWhPVndiZWdUajN2TGN2Y2FqVTd0VThFNzNwN2dqY1pLVjVPd2NCRVdNM292RXNOTGFkVUh4Y0hjc3JVTHFoeFRPUFlEeUxYbkhDQXNHbndSa0FTU1VSbTBzNWtTOU1PZUF0dFFqV1BFT3N3dzBjMENhMENOeGlZREV2YUlhaWFFX01FV0xEd0RCNlN4ZVBvUThEMEQyRlUxNFhoMlZJancwRUEwN2RvVFRIYzdhaGh3NDNCNi1aM0hJeFBibGJOQlJzc3puSmpyTUNhNmlpOXN0ajg",
+        "CBMixAFBVV95cUxQNE1RZWZ0WFBBZGd0VXJFM0NSQ0s0SXpUbURQalBKai1JRDdDTC1XaGxIVWoxR3BxREJEbUdVdXBWTWF4S1B0cXF5bVJzalRNeUF3QW5tdllod2g1ZUlod080X2ZiYjhOdk53bFB3T2lFNmdZZmoyVEE2SWp2dks5UmFlWlpNQ0xCa3VIbHI0UnJoVnNUbko5TThuR3hSdmhPTGtSekp5ME9sTVkzNDlVdHlKOU1NS09aN1dtQVpkeldzOTU3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-11T23:18:47.312Z",
-      "last_epoch": 1791443230000,
-      "etag": "\"0f3894b059512d89ca8e15767478191d5-gzip\"",
-      "last_modified": "Sun, 11 Oct 2026 23:10:27 GMT",
+      "last_fetched": "2026-10-12T11:27:11.501Z",
+      "last_epoch": 1791801772000,
+      "etag": "\"0b50bff4d8917e0d051162c98c33651bc-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 11:13:02 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -479,18 +479,20 @@
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airbus-delivered-around-72-aircraft-in-september-sources-say/articleshow/134635280.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/brookfield-enters-india-logistics-realty-market-with-rs-4300-cr-esr-portfolio-deal/articleshow/134764839.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hdfc-capital-godwitt-group-to-develop-100000-bed-workforce-housing-platform/articleshow/134782904.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/institutional-investment-in-housing-dips-in-january-september-to-695-mnoffice-assets-inflow-up-at-2-16-billion-colliers/articleshow/134780134.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/institutional-investment-in-housing-dips-in-january-september-to-695-mnoffice-assets-inflow-up-at-2-16-billion-colliers/articleshow/134780134.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-shields-city-gas-users-as-hormuz-crisis-threatens-south-asias-lng-demand/articleshow/134890394.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/andhra-govt-centre-am/ns-india-sign-pact-to-upgrade-four-itis/articleshow/134888252.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-11T23:18:47.464Z",
+      "last_fetched": "2026-10-12T11:27:11.625Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-11T10:24:41.350Z",
+      "last_fetched": "2026-10-12T11:27:12.127Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

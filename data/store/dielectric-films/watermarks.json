@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-11T23:25:18.775Z",
+      "last_fetched": "2026-10-12T11:35:22.786Z",
       "last_epoch": 1791624201000,
       "etag": null,
       "last_modified": null,
@@ -21,15 +21,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-11T23:25:29.258Z",
+      "last_fetched": "2026-10-12T11:35:57.839Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-11T23:25:30.065Z",
-      "last_epoch": 1791587886000,
+      "last_fetched": "2026-10-12T11:35:58.441Z",
+      "last_epoch": 1791803649000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -156,27 +156,31 @@
         "CBMisAFBVV95cUxNWUV3RXBSZkxaUU5PeFhNeVpGcXN3eTlxUHMtbzJvVFNoc2ZaM1BfVXBpa0VxR3NYQ2RyZ2lZUGNGTVA2NjZJMWhZSF9qSE43QVk0SS1BU0RyZTZHbTlFSHF6RmRWRUtuQzd3bGVjWlNfRnVveW51Y3o5bnBweGszWDBsNGYxMUt2SW9VcUZsLWI2dUp2UlVhc1NBNDFDakFvaG1VZXh2OHlhaVY2QUJQUw",
         "CBMiowFBVV95cUxNYlpVZnlXTUJvNGVGNmpvQ3BDdkVCVlp1U2JHZk9uZHVPY3AtbWV5TmczY0lMSFdWVG1zYUlSNFppc28tZ0NQRlE4bUlEUUlEX2o2R3Y2ZzFsMlpDb09FYzIyRXc5eXphcHFCeVNBUzcyT0U2dkZkZ0RaeDlRb3AtOG10R0h3WnAyRFFUeDFsR1hiUXRKcW5ZSkFNVVNsekY4MVFB",
         "CBMikgJBVV95cUxNcnFMdC1UczdKeEJfamRZMnFRVHI1VGJibHM3X1lRRHo2SFQyaEFkbTJVWGpmbnlEZ1JkR2NvbTlZODk4czNVVFJKMUxvc0NmMVZqQWFHUU11bS0wRks1YW54dkdNbUFmdjdIdWJPRnJ5VmRIZENkZzVzdEN6Z3NOM3owT2VuLXBpSXJ6Tzd2eXNsLTd1emxEVjU0azdVRVA3U3FjMWMtSDdvSk9XME1ENVVmalh2eXhvR3g0VVFobnhzSmc2Zlk5bW5LbS1mTC1UUWxkcm8tM3BYSjFVMjJlQXZWZHJoRnU2b2ZfXzFvRllTSEFjdUdLOW5PTllVZEw4Y2ZYd2tsMW94UmFuTExFZXJn0gGSAkFVX3lxTE1ycUx0LVRzN0p4Ql9qZFkycVFUcjVUYmJsczdfWVFEejZIVDJoQWRtMlVYamZueURnUmRHY29tOVk4OThzM1VUUkoxTG9zQ2YxVmpBYUdRTXVtLTBGSzVhbnh2R01tQWZ2N0h1Yk9GcnlWZEhkQ2RnNXN0Q3pnc04zejBPZW4tcGlJcnpPN3Z5c2wtN3V6bERWNTRrN1VFUDdTcWMxYy1IN29KT1cwTUQ1VWZqWHZ5eG9HeDRVUWhueHNKZzZmWTltbkttLWZMLVRRbGRyby0zcFhKMVUyMmVBdlZkcmhGdTZvZl9fMW9GWVNIQWN1R0s5bk9OWVVkTDhjZlh3a2wxb3hSYW5MTEVlcmc",
-        "CBMioAFBVV95cUxPSnpSRGYtLXF1MG9GbldCWUxoc2xFc1o5Q2pHWFJJM1o5T1BiZ3NzNi1MRHNaUXo4UnJva2NpUThaNmh4WjJNaDZsU1MtV0xIeExsTE92Q3BJTHhkSkY5UFM5dGYxaG1oXzk3RGxGdkVsbjhvZzdqSnQtR3ZGRHQ0T01qZ2MyVjh1RmhMQkdNdHJMMHMxNmRwYTY2TDJ4aE5X"
+        "CBMioAFBVV95cUxPSnpSRGYtLXF1MG9GbldCWUxoc2xFc1o5Q2pHWFJJM1o5T1BiZ3NzNi1MRHNaUXo4UnJva2NpUThaNmh4WjJNaDZsU1MtV0xIeExsTE92Q3BJTHhkSkY5UFM5dGYxaG1oXzk3RGxGdkVsbjhvZzdqSnQtR3ZGRHQ0T01qZ2MyVjh1RmhMQkdNdHJMMHMxNmRwYTY2TDJ4aE5X",
+        "CBMitAFBVV95cUxQYUt4Y1NQeWdZSVgtdFdiQmlKOXM3WmhLdl9GcWVvWF9pdXJOZE5FRDZydlR4cF9lMmpNb3NNc1BIa2dDUmRvYmViaGhqTnFDVGt2RUwxOVFXbWFxbFFDZ3Y5UldNZUc0UWkwYnF5ZldXdkxJOF9KMVBMV2RLN0xMVmpUNnhIYnF2SUo1dGtWN1g1Z2dwdlJycjFnVXkxWVl2c3hEc2NabEQ3dUMzQVNFdVdZb1k",
+        "CBMivgFBVV95cUxNaWNBVVZPV2RBd2luSGQxanJfTS1ib3lhbU4xLWVKMmJURW9lNTV4QmpDZnhzSGJsdHFuQjZ1c1hrWkxUU1phNmpYOTdJRGpkNkFOaXdPd3lyYnk3QmhzdmZLVDhMYTlIMFBsbTBSWVlKVW1fLUlheFN0SUFhTU1lR1dqRW81WU02dEZIS3NJc0VLRVB2dUpJQnpPT3RjdWVtRkZPNWRtOHF5UHN1R3ktU1g4aUNpQUdrQzNsemxR",
+        "CBMiTkFVX3lxTE5ma1duNmF3Y0pFQWNjZ0lkZWFxSWtOZE9CZ3pZaGNmOWRKdmg3SnRILTRaYzhYWDJESWc4ZGNoeGZCcTd6dHRtQnBlcTVTUQ",
+        "CBMizwFBVV95cUxPbnB6RllFVVVNY3hsZTZDN3BhTUR5ckgyYU4zT3o2Y04yc1NrU254SzdHR1dYTWw0ZFpSdUlnZlRiLWJjVF92ek9FQUp3ZVBoZmF6cWJfUEMwTzl1dkdaRDdzVWFocDdpOUE5Z2dXb29Idm5iNTZYT1luOHFsSzcydkZyTS1jMmpIY01JUUZrWnJJLVRtdDlLQ0ZGNUZhYkI4MWhPeEhqTzdjc1ROdXg4M0JrN0J2R0lkTkUtOWxCcWpLQlVZTk96d1dYcFJWTUU"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-11T23:25:30.154Z",
+      "last_fetched": "2026-10-12T11:35:58.486Z",
       "last_epoch": 1791110970000,
-      "etag": "\"0f3894b059512d89ca8e15767478191d5-gzip\"",
-      "last_modified": "Sun, 11 Oct 2026 23:10:27 GMT",
+      "etag": "\"0b50bff4d8917e0d051162c98c33651bc-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 11:13:02 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-11T23:25:30.204Z",
+      "last_fetched": "2026-10-12T11:35:58.635Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-11T10:32:26.943Z",
+      "last_fetched": "2026-10-12T11:35:58.905Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
