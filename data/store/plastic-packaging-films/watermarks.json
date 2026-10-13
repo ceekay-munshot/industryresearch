@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-13T04:25:05.731Z",
+      "last_fetched": "2026-10-13T15:29:42.112Z",
       "last_epoch": 1791540670000,
       "etag": null,
       "last_modified": null,
@@ -13,15 +13,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-13T04:25:40.678Z",
+      "last_fetched": "2026-10-13T15:29:52.250Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-13T04:25:41.875Z",
-      "last_epoch": 1791858600000,
+      "last_fetched": "2026-10-13T15:29:53.839Z",
+      "last_epoch": 1791883898000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -203,30 +203,34 @@
         "CBMixAFBVV95cUxQZm1DeTI5VUdyRW5WVG9TbDhwZk1tVjJyMUZhMENRZHpielJZMHdjZkZESjVHNGJ4eVlvN2I2UlRuaTNBeE00SDRlMmtLNmZUcXktM3JDTHF4ZTNnOUpyS3JBMGdqM1kxVkJKTVd6a0NxOFQ0Zjg2d2l3NEVIdmVOaWdrWThMYWVDdWlLVk5FTFdpeF9kTUhtSDFMOWdnTGFVNlN2Tnh5aWMxRVpGMHRMMU1tVU81bU5Wc0RCTnlXemRYMjc0",
         "CBMiowFBVV95cUxQT0ZQTXdZZ0RGaVk4VHJyQS1OSkE4UVM3OEpFMUlYekJCb1hTMUpSanhsMWMwX3dKM2U1YTlFOGhiTURIUndTQU9KNHRmblItd3otS2RCYURseVJQNDYxX0d5N0pLNEkwcWkwSlNxdEFJamY0dGVGTmJyUVYtLWJBdlJHMXIwbmlqbURYSWl2NmRyVWVsemg1Xy1JbXdDZ1BIN240",
         "CBMilwFBVV95cUxPemhvT1ZCNjY3V01nUWc2cG9LS0lSTHJXUzFqU3dDOFExWndMd3psSkhPMnAwOHJHQUpKNzBQcVVCbUdDSG1iT0lJNzc3c2RmSklYSzVhOHgtdTZRaG8ydmxOQ0kwYlVnY3VFeU5WdEdGMG40emRaZmI3aUNVUS1saF95REc1RTNaR21GcGUwN1d5dzJkMnVR",
-        "CBMivgFBVV95cUxNUjRrUm5uakI5bDRjdWh6S3pGc29wZlliUk0wY0Yzc0k0TTNhTm1Vc01EdnBGdHNxZ3d3dFhjeWRrNWVxT1pfSDZPaWZqQWxXaUppMDRleThuS2JTX05PcTZMVTN6NmpZTGlmcjRISVVxaXYzWm9Vei14ZDdPdlBucEVGMFlLdWxFMzViVFZWV1p2N0xrdXVrYjgxRTNBN0JRUEdELUxzQWtXT3RDcHdBSnc0SDl2VFVyajUzWHNn"
+        "CBMivgFBVV95cUxNUjRrUm5uakI5bDRjdWh6S3pGc29wZlliUk0wY0Yzc0k0TTNhTm1Vc01EdnBGdHNxZ3d3dFhjeWRrNWVxT1pfSDZPaWZqQWxXaUppMDRleThuS2JTX05PcTZMVTN6NmpZTGlmcjRISVVxaXYzWm9Vei14ZDdPdlBucEVGMFlLdWxFMzViVFZWV1p2N0xrdXVrYjgxRTNBN0JRUEdELUxzQWtXT3RDcHdBSnc0SDl2VFVyajUzWHNn",
+        "CBMinAFBVV95cUxQcVQwZFdTSF9rdnNTYWkwazJicGpzYWtCVk9UbVlOYVpFSENLYjlvQ3gwOFVBaGJleDJEWEhxamtrNVg5WDBLQy0tWDJoVWJSNDhfWmM3bHJoOWl1SlpKSkNqUUt3NGxLTzZ4NmI5WXdxR19za1pGRVN3Rm9IR25FeXNtZlFpd21pTlhjajZqWExJYmRzYV9BV2pSbzY",
+        "CBMi2gFBVV95cUxQcnFZd1lxRlZrZWRsU0RVTDl4bWRyLTkzUWpoSm9SMTVUeDExcUQ1cnFEZmx4VkxBMDVhVzh3MTBtSEpNSG1ycnNxZnI5U1RKNVU2UEtoYTlXS3RSdjhCei1QYkpNRTVhTVRLeW4zVWpaRDhlNmRHVnY3VHdtNjdDTVU2a0IzQ0pDSzJiM3hraHI3WmZzSTRuNDdiLUFfdk1xWHVSanZGeWJKbWt6bVV1ZURERC1YUHFTSnd2Tl9aRnhQVV9oSjE1bF9hckRRc1NNbllzSVZNbktXQdIB3wFBVV95cUxNNm56d1JMNmlSbW5qSU1Jb3ZBMDBlLWhaOTV6M1lmYzNjVGF0Wk4wd1l3LWlHbVFfeERPcUV2X19qUkJKcE9mZWdOVGppYk9qMWhOVGE5bTk4WWs5WHl2c2VjQ1YwVmdTWFZqRUNDUWpZaTEzcmY3U3lVSkZCVnhyNVJqOVJpZTF6MTY4eFpoTGtfYjRteG5zVzN0U3daTmVUazVOV3F6TmIzNHhUM1pNSG1pR2xRazhRNW4xRGxwUUJLWUtlcGVOaUhVNVF2MVJ3QzNQTnlCUHNGTm9zdExV",
+        "CBMiowFBVV95cUxPN3NhQXpFM1owQnBPd0EwN25uc0F2cmwyN084Z0NOVG9KemNpNkJIT0FKTFpiTUcyLUVqTkdZQ2lOOWx3MVVLdzFUdjl3UG9WZWRfaVV6bDVUOGFyVnhHMEVEektDWnFHNjhidVNQNE54WW10TDZSR3pBT0MwX1ZMRkRzckQzeFhVc18wc1BLbUdMVFVWN0hhNmtyRGhaWXp2dkxN"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-13T04:25:42.027Z",
-      "last_epoch": 1791694262000,
-      "etag": "\"00efbac245e2d9eb22c315820badcc180-gzip\"",
-      "last_modified": "Tue, 13 Oct 2026 04:05:04 GMT",
+      "last_fetched": "2026-10-13T15:29:53.899Z",
+      "last_epoch": 1791873134000,
+      "etag": "\"0ae820e760816307865709900c4dd36d0-gzip\"",
+      "last_modified": "Tue, 13 Oct 2026 15:03:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-companies-face-a-q2-margin-squeeze-rising-crude-oil-palm-oil-and-packaging-costs-threaten-profits-despite-demand-recovery/articleshow/134865034.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-companies-face-a-q2-margin-squeeze-rising-crude-oil-palm-oil-and-packaging-costs-threaten-profits-despite-demand-recovery/articleshow/134865034.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/india-retains-its-position-as-the-worlds-most-mature-flexible-office-market/articleshow/134910108.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-13T04:25:42.198Z",
+      "last_fetched": "2026-10-13T15:29:53.935Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-12T11:35:10.224Z",
+      "last_fetched": "2026-10-13T15:29:53.968Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
