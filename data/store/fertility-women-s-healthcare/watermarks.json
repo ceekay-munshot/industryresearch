@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-14T09:11:26.422Z",
+      "last_fetched": "2026-10-14T16:10:26.685Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-14T09:12:00.049Z",
+      "last_fetched": "2026-10-14T16:11:01.434Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-14T09:12:01.309Z",
-      "last_epoch": 1791966526000,
+      "last_fetched": "2026-10-14T16:11:02.748Z",
+      "last_epoch": 1791970556000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi2gFBVV95cUxPdTBPb3hrbXhBTVczcmRZOHk5Y3BEY0txaktYOVpSd0RFN0Z0alBEQ3NZLV9OV3NXRzY3dS0zeVc4VXpCdlFmQTdSVEwwSWtUOUd5NHdXdTB4cm9ZcFVVTnpuM0ZVZ1FlV1U5YWdpTV8zamw0SnhLM0ExcFA1c1YtcVlQenZxQWpkanc0MThsR3FiRmJoRTA2bkdBNXlGOXZ1X21BeDJSdi1pcmFCN3lPeURzQXVzNkxaTloyRjMtaldtbE1jcVdRQVZBRk10Q3FIVmFUeEh1ZmlSZw",
         "CBMi9wFBVV95cUxPZVIzVVZGM0M2MTcxdnh4allzdWpTQXNKdjRKTU9oT1BfdTlRdG0zang2cDhvemtsNDZnbzBmbVNuYkNiX0VBQ29mcFEyd2liVWNjRGpGR2dvalNWRzk4Qmp4b0J0QVBHRVg3UUNXdmFtLVVJZk11R0JyUjFqYVhRN3VKUUhydHB0NDh5cUJhRHVNRzFtRVV4cDZFMS1PMnZiRmlTY0NJY1poWHc5WEViWkxEMlUyVU5RcUx6VFVMbVdNeWRVQVZnQTEzMXpzRDBFajJocmxTaTVSTlBaVWN6Q20tYlNHR042dDhGSkdaUGhmOU1yNVBZ",
         "CBMiuAFBVV95cUxQOF8wRlRELUk2R0xXWkM3ODhDM2E1S3Fkbkh1WDVHMHR5Rk9nYW8yU3JkdTdLdlJsWUFZVExMRlBYenNjbUZkVVYxXzROMDdXdlcwaXRPVjJRSUlsbTVLQ0JoTjAxWWY5eXlBSnlhTEtwb0tGa3dQdEdwNXlVcjFkZ3N1MDBYR2dDQmNlOVRRTUhGa2tHS01icW5iM1JCRXVfTnVVNk11Q1VhNU44NXdJTklYczkyX3lk",
         "CBMiqAFBVV95cUxQeHFJUlFnVzQ1TUJtYWFjZVpramY1X1JmaVc5SW92ZVRJVXRXRU9hekNZN202dHJqa0V1WmU4NUNFT0I0YUdzZGdod2V0cFNwNjV0LXRJa1I0SkxYejg1a3cyN2hXcVVJMUNRcHNuTDJLOEJJU1NWYnJrU2hXR0JMbWJGYUZkWDRybmpQdDhFNW1FVWhRbkFjV0NqLVpnOFJFZlZjU0xFMGs",
@@ -319,18 +318,16 @@
         "CBMilAFBVV95cUxOYTctV1RUYUlacmQ4WElFSGg3SE5fSjZNZUV2c3E2cmw0X19yVzkteGIwUzNmTWhDQnpIQjhhS2pPbnBWa2hJVVA1WGpVMW9oZ3JrMFluelMzUmpaZ2FUdzJhenBxOUZkLXUzcGlBc2hMTUd6WExHSFZPWTNzOE1DVFRDbmpWRVJ3eDR4SVgya2oyYkY3",
         "CBMicEFVX3lxTE1IaUZXcWZnaUpueFdIMlRkR0V3ZjljOU96ZDROWHhRUHZQbXowWkdxZlpwcGE0RkdHT2xkR3JSaFM0Z2RhZmQtMVpFVUJZY1FIWWJFOWNPZ1hjZTVqdWlyeUVtTWlxbjFrNHJzOVU4NmXSAXZBVV95cUxPalJHalpaVDNMY3U3TnU3ZlpKY2pvbmpQU1Z5R0JJZnE1TmlHVEdYOU9XbkgwLXprNE5FaDgyTW42S1JLdll3SHkxckV5UU84N2pBc1o1MXM1cE1qS1IwWVd0M0cyYlpHd0J0ZVF5NHh4MVB6VnlR",
         "CBMiwgFBVV95cUxQTmsydlBsMW41bTAwbEY5eUFCb2N0bjB2V3BxSWttRExCWjJfN0dhN0FUSElid1VfTTZWTEVScVJ4Zk0xOG5DRDBNN0RnRG5qc01MRUxUTm9LYjJSX1RPSnZfVzVxRU11YlR3WmhoYlN0SFlmdWVqX0Zxd3ZmUlFxQnNSTlVJUG9OLS1wYzNqbzgtX09lNzNtYVZxRE5IemNPZnF4YUlnOXlyQ09xSVRhaXJzdHpMTUN6VlV1cktuMEFNQdIBxwFBVV95cUxPWC1jT0RCdnQ2Z3NZTWtxZmVZZE0xOFVkaEpHcXprR29BcnFLdlV3WktfT1JoNlV3b2hsOTl5MDc2WXR6UVNVdXI2bXRLbGRtZV8yakdqNjFBMzhVQ3FBWlRwWE95SkMzd0dIVnNRTFdzSFpwa2lTMkV6N0MtaXlFY0RYMzdqQV9hTXhGT3RaZE9OLTVURE5mY3RMZktUYTdhU0ZaQm9kbW1KMGZiWXVycm40NGExaUNaOEFBSDd3LUtSYnpSWk9V",
-        "CBMivgFBVV95cUxOTlQyc1g4X1FJTlZoMTQ3OGNUTVA0NUdLOWFPX1dZVVFrYU9Ud296bTZWVUFhalktUk1hdm9mWXVJUmxnZUIwUUpMRVVnbUNDTGVXMVJxd00tYlF5ZG9scjBrRGQxM1FaZ043cERwbHl6Qm5vY0JxSEptZGJZT0IzMzFEa2FNa3BiT1ZNMkxrMzNpSzFMekg3bmd4NkRjeFBwejNCcm1FZXkzTWJoNWNJeDd1Tk5idzhPcGhsZE130gHDAUFVX3lxTE00c1NkdkpwX0JQN1NEZUR5ZFFLVHp6WlJiWm14TXNERkQtallmN2RJSUpFUmlrOWo5WDVBbng4ajRlVG5CRGs5QjBkMzR0ZjZNR1FKblQ2Ynd5U0oxNXZBeWg4OUI3MlhmNW9QV2xrZ3NGbWNXa21HRzY4NHJZWFNmVGpfSVBrZzF0Q0ZneGZQRUg3WVhYR1hkMkdHeXB5ODR4cU95Zk9zN0ZPTnhXaG5mcm1FSmVaV2JWcjZ5ank5QUZKcw"
+        "CBMivgFBVV95cUxOTlQyc1g4X1FJTlZoMTQ3OGNUTVA0NUdLOWFPX1dZVVFrYU9Ud296bTZWVUFhalktUk1hdm9mWXVJUmxnZUIwUUpMRVVnbUNDTGVXMVJxd00tYlF5ZG9scjBrRGQxM1FaZ043cERwbHl6Qm5vY0JxSEptZGJZT0IzMzFEa2FNa3BiT1ZNMkxrMzNpSzFMekg3bmd4NkRjeFBwejNCcm1FZXkzTWJoNWNJeDd1Tk5idzhPcGhsZE130gHDAUFVX3lxTE00c1NkdkpwX0JQN1NEZUR5ZFFLVHp6WlJiWm14TXNERkQtallmN2RJSUpFUmlrOWo5WDVBbng4ajRlVG5CRGs5QjBkMzR0ZjZNR1FKblQ2Ynd5U0oxNXZBeWg4OUI3MlhmNW9QV2xrZ3NGbWNXa21HRzY4NHJZWFNmVGpfSVBrZzF0Q0ZneGZQRUg3WVhYR1hkMkdHeXB5ODR4cU95Zk9zN0ZPTnhXaG5mcm1FSmVaV2JWcjZ5ank5QUZKcw",
+        "CBMigAJBVV95cUxNWVNJOHhHc0ppN0RtQmd0d0dFQW1ZcjFFWkZTR2lhSWFIeFI4N05Kb2FUNUtNa3RWbGl1WThyak54RWl0QU1hMlE4b1pwQ0NsWVRpTi1qRHZ5RDB5X05wT0x5RkJIbGEyZlgyZ1ppR3Rkb3FyNEJiOFhTWDlNdWI4Rk9vRm5PczZSeHQxcFpxRjA0SWNMVlVKeW01VUV4SjRtWkpESWprY2Y2bTdzU01INHdFeDJhT2tZcGRVZ1hpeUJmVzg4UGRpa3BRcnAxeTVwTkxLRDVRZ3J2ZUItZ0tHU1RGb3VFNXNFZVFfeXh3U2s5T3pBd2pZdTYtSlJfOWsx0gGGAkFVX3lxTE9pb0pMYVNIeVoyRTRhdlB6bWtoZ05RUE5PNXRFOVkteVhvc3VCb2w2QjQwVllKaDJCTER4dWhkclFvZU5hbU13UHc4a3lDWnMtWG40X2E4bnpmVGIzVmxrMlJlRkVOUlFQRTU0OGZWLXNfSWtCekdaY3Rwa3U1eF9vbFY0bmV3XzFDQV9sVWZGWjJMRHNIWG42UU5EYXUyUW5zWHlvSVdvbi1zRHNIUjhTVkh5aVJmUVlkd0NTWkU1TXQtd2hwMEhQMk5Xdnc3Rm1kVTlFanVVemRjaDduMDl0MHNTb2hPUy1wWk52bEp2WlJLNWJQQVlfNEVjYzBTbUJoSjJ2dlE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-14T09:12:01.374Z",
-      "last_epoch": 1791958503000,
-      "etag": "\"0c261c8ed295adf268989379bc96d5649-gzip\"",
-      "last_modified": "Wed, 14 Oct 2026 08:58:29 GMT",
+      "last_fetched": "2026-10-14T16:11:02.881Z",
+      "last_epoch": 1791987288000,
+      "etag": "\"09cc8b755e89a00124df2e41b8e525610-gzip\"",
+      "last_modified": "Wed, 14 Oct 2026 15:55:35 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/gff-2026-sbi-sees-fcnr-liquidity-deployment-taking-3-4-months-eyes-agentic-ai-for-banking/articleshow/134000172.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/msd-inaugurates-2-5-lakh-sq-ft-tech-centre-in-hyderabad/articleshow/133999213.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ikure-bags-usd-1-8-million-from-global-investors-to-expand-primary-healthcare-in-india/articleshow/133998168.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-watch-series-12s-health-age-takes-on-whoops-health-tracking/articleshow/133994844.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/regional-healthcare-hubs-emerge-as-new-investment-hotspots/articleshow/133993549.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/who-chief-praises-indias-health-advances-during-meeting-with-jp-nadda-a-spotlight-on-maternal-care-tb-initiatives-and-more/articleshow/133992253.cms",
@@ -627,18 +624,21 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hospitals-clinics-may-now-have-to-display-service-rates-prominently/articleshow/134926050.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/nmc-healthcare-founder-br-shetty-files-15-billion-lawsuit-against-bank-of-baroda/articleshow/134926001.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/well-be-very-happy-to-get-it-at-least-a-few-days-before-him-sunil-bharti-mittal-on-musks-starlink-satellite-internet-approval-in-india/articleshow/134933640.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/bank-of-baroda-to-defend-interests-after-uae-businessman-shetty-files-15-bln-suit/articleshow/134932816.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/bank-of-baroda-to-defend-interests-after-uae-businessman-shetty-files-15-bln-suit/articleshow/134932816.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airbus-predicts-244-million-new-jobs-in-aviation-by-2045-amid-service-market-boom/articleshow/134944622.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/jios-10-year-timeline-how-ambanis-reliance-transformed-indian-telecom/articleshow/134943882.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/cisco-bullish-on-india-to-expand-chip-design-team-says-ceo-chuck-robbins/articleshow/134939253.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-14T09:12:08.567Z",
+      "last_fetched": "2026-10-14T16:11:03.086Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-13T15:26:33.031Z",
+      "last_fetched": "2026-10-14T16:11:03.654Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

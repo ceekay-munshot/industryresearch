@@ -1,14 +1,11 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-14T09:09:26.248Z",
-      "last_epoch": 1791956580000,
+      "last_fetched": "2026-10-14T16:08:36.490Z",
+      "last_epoch": 1791986823000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiowFBVV95cUxNekNBZWwxSDJKTHl3ZUNJZ0Mwd0xDbERTVXFOcXZxa3hVejJfdDZGWTVMcEhhbXlkaW5nTm9JVEF0N1ZBdnF1bWZHeGRDWDBoTnZMVlBiTWZDQ3lUUF9teU9ndmZvdHZCM0EtWTRfaEFTTTE0VlBxWG5NZkkzOHBmSXFTZ2w2Y1BrVmJHUmgxRVR2YkN6SF83M3ZhQkdrSENqbTJF",
-        "CBMipAFBVV95cUxQaUhwYU96SGtrZ1hiOUg2Wmw5QXZEcTJpV3hlaWkwV0l2T1VPV0gwb2RKcW9Iem1yWUpCclUwUWV5bUFQc2k1X3BZZFl2QXphLWlFaC12SlB6eDVwa3M5TlNUbS1kWjFHNHF3NHRYSWMwWEVzMmFucVdGa2tYTWFjT0g2ai01aFFtWlNGSTdPYl9BWWxVbGI5aV9qNzJtUDZQclFSTw",
-        "CBMifEFVX3lxTE5uR1hobFBpeDNkenR4b0NfMWRka29sd1ZfNzg5dVh1N082NTRjNUFaVFU0RXpRN19hTDVGZmpaYjN4VkoxZzdLYU03VDhSUF9oRmtaTWZPU3QzZlkyMlFxdzNqLVV1NkgzWkFMbWpkbThtVTVvcDJqdU0wQ2g",
         "CBMirgFBVV95cUxPamVqSTRObVd6dnJDWmlGcFdLLVRvcEpOWnFnT2JVTk5pZ0pwb1F6d3N1RTZraEJuSlNCNmpTdFFDN0gwcEUyVW9RT2huaEN1NGVuaGlYQVRSWHc3TWdkLXZiQjNuUGJXQlZaR1ZFcm9PV0xacW01aWlFSUw5TFc5TUhyWnFQWEhoby1nSEdMbEVGZWhxNW84N3BVWkVWajNXYmpmS1dnbG1XWjdTYlE",
         "CBMirwFBVV95cUxNQzVGVFBTbVZ0ZUk1Rmw1VWJaNFNGNnp5QVZDbkRsN041R3YxbnhqM1JYbVdaUFo0c1RhVTZ4Mi1fZHVwRlNrb0JnNVRWeEhsbVE0Q3laUlRwNnJXeGpTSXBjMDd6NWozdEt5UXhKV1hyNU9SYnR0NXZZY3hrRkZpOE9xYlFfUnItUUZyN01LZlRfMld6V2l6M3gtSEI0SWd3V1BIbUxPcE1qdmE1T2ww",
         "CBMiowFBVV95cUxPNW16aFQxeGF1RW0tNXpPdTVzVTBxLWY5cjR1N2Y0NjlPNk83Mkx1dXA4eVpCcmc5SVMzb1dnd2l3STBqSlBkYi0waXNaeGRENEhxUC1TTnZqdENNZ3hJb3BjZGNuSUdlZGdxaWZwblBCMERyTDQxQ2w1Sm5BZklVNnREb0otVHZBeFQwUUdObEVibkNoNENIekZDMkJPNkNCTTNj",
@@ -305,18 +302,21 @@
         "CBMiogFBVV95cUxPSE8tYm1rREJWWmdHaFdkb1FlbUYxZ2I3eDV1SDlpVmFOWDFUazhOOEFac1dKemxnSE9WQ1kwYXo2VWxsX05IaWZuMkpneGtpVml6MDgwU2lsV0RNNmJWdk9qVXRIRng4X2ItdElRRm1IZWN3V2hVeE9YMmNKbUVfbEhvU0JWaTYyd19PWHVZUkhrZnpuQi1OdFZxUVREZWZaLWc",
         "CBMijgFBVV95cUxOd1RrdHZYOXJGN0JQeHBQQVlsa3Rhd0dEZ1dXcHZuR1VfUlZhbEpZQ3BLbnVSRjZmcGVhZXFEeGw2RWFUWGJwdU8zaFRZakFXTk9hUGJQOTQ3OG5pdEEwWlZWTm1NTGs5WmRSS2pkZ29BdlhwUjU1cl80ZEoxTVlibTJxcmJieFI5YzQwNmNR",
         "CBMipAFBVV95cUxPZUxwVGJKUUs2QTVIdEFYN1BJV091ak1LOUNIcURMcGZoenRzMGxva2R1d2ozWUdTbndHY2cyUHZvSWVSRGlsNzAwY2tVWXlKcEc3RzlZRTlVeThocGx5RUlScmE2a3M4UDRUdGF0VFNOSm95dVo1b0lGRElFcjJ5XzFESkRYVk1FMHNPeDM5T2o0YzNIOTJiSExCSzVQNEFtMTg3NA",
-        "CBMiwAFBVV95cUxQMDl3WG9FSVFMOEhvb1lReU8tMW5pSnY3dFN6N1RiZ2lybTU0WTNHUmkyaXUwX3ZZUzlReUY3RDYwRm9IZjBfZmo2M2xiZ1h2WmZtRU9VTlcxZjJwbEx5UDNnSEkzVXFZOHIzQTMyeG4wMTc4MndCTjdxcnZxLTRYVnRIb2Z5Q3Z1RjUtWnVDaTJTaTZfOUFNTXRCWG5QUG5yWjRGdEk2RnNEeVcxaS1ISGc1TnA5YUhzM2RIZHY4YWM"
+        "CBMiwAFBVV95cUxQMDl3WG9FSVFMOEhvb1lReU8tMW5pSnY3dFN6N1RiZ2lybTU0WTNHUmkyaXUwX3ZZUzlReUY3RDYwRm9IZjBfZmo2M2xiZ1h2WmZtRU9VTlcxZjJwbEx5UDNnSEkzVXFZOHIzQTMyeG4wMTc4MndCTjdxcnZxLTRYVnRIb2Z5Q3Z1RjUtWnVDaTJTaTZfOUFNTXRCWG5QUG5yWjRGdEk2RnNEeVcxaS1ISGc1TnA5YUhzM2RIZHY4YWM",
+        "CBMi2AFBVV95cUxONUI1bFEtaHRiS2V3UkdCU0hXM2JFeWlCRm85cHEwQWx0aWhnZ3VPX1NoZTJId2dWb1pDb2s3YzF5WmRrYkRUTDVfYXA1dTY3SEhjLUJQSGw4TC1SaDdzWWRCNDMzeTZSaFVmZDh2Smo5REk1XzVTaHZlMUYtclBTVUNMb1RhS1pIZlFPWDRQZXBJMHB6dnhLY1M1c1F3cVFKZFRmZnNXOERZQ19RMVF2WkJkb3dwaEZ0aTd1ZUwzM1FmQk10ZEcycW1qQjJjTG5yaU1hRWdEcVfSAd4BQVVfeXFMUE1vSXVHNk9fbE51ZEdIeDVRRFJtZExRZWF2d2IyclNjRTZHTHU5VmhzNzV2N0JpVWE0bXpzeW5maF91QjN0QTlDTUE2N0t1cGdFakZHV1pod0pZX29MODVlZ2ZJbGl2V0NuVnJOR2UwTVF3RXN5NWRnRGdtajlsTVBBdENaWEEzb1hrVXBBYVNqME1UZDdyS0lQd3RjYkVuTmVHTlM5UWhJc0NrX2kzTng1dm1IR09zSW1lQ0FjTW5ZUXhlOTZoWVB1dzNUUmZXSUN3WWNXdFJsaTlDLUFR",
+        "CBMirAFBVV95cUxNSENvbGlWWHJFb3VQTVM4bV9wR3E2cU8wVGJHZ0Z4YkdXZ3FwQzVMaXpLcHl3NFM1bWRYNjFScTZCRW00eXNFb19OcmszbkVuUDgtQy1lNlFLR18zREhpLU0zSXZVWFdfV0QxcUZsbHFDaFYwTFp1MnlOMmUyc2N6LVlFZ3dMX3JtTkIzdks4NmRmYm5oVVduZE9lYnpoQXg2WlF4QTRwNzc2VXJ0",
+        "CBMi0AFBVV95cUxQRFNtSzIyYmJPSW1UbEJDMDNna3RTY0c0cXhMTnJpalpUbXdGZ2JwYU5fTDg4VU9wdGlvRTNNTnVacjBfbXlZMGYzRDdVYlJNc09oX3poeEJqNkRMWnUxOFcyZHVoUy1FejlvY2JMeHh6VjhHRXpxWUVmbnJVWHBVdWpFazhhZmNoZm1NaWtCM2FVWF9zcmlCblRmS2FDOWIydHlfVm9RSWdUNWVfR2N5TERCM0lXT1YzekE2YUtDWnoxR0JZVzdvNEVXWndablRf0gHXAUFVX3lxTE5MWmQxYW1NZExtVXdTMmVaOURGQjE3el83TXVxcGNXMng0bDJabS1scUJKRWY1bGpqZndRQ0pRejRYNGU3ZmxzeU8tM2ozUzR4VEdXcWgtR2NJYmNEamdoLUdYblhFOTJLSkxONE1DZndxRGViTXRjS2NhOEVpMDVYT1lhU1RuQ2d6LUxSamVpQ0NmeVpiYV9WdVQ1ai1nak9OTjVOZzVkV1NmWm5ocTNZMUZrb0hoNlNYNVdVQUtka0poUEgwZUJ3Qk1GRFZGX0tLNmtOX3M0"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-14T09:10:02.273Z",
+      "last_fetched": "2026-10-14T16:09:11.810Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-14T09:10:03.995Z",
+      "last_fetched": "2026-10-14T16:09:13.688Z",
       "last_epoch": 1791965099000,
       "etag": null,
       "last_modified": null,
@@ -624,10 +624,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-14T09:10:04.104Z",
+      "last_fetched": "2026-10-14T16:09:13.804Z",
       "last_epoch": 1791875906000,
-      "etag": "\"0c261c8ed295adf268989379bc96d5649-gzip\"",
-      "last_modified": "Wed, 14 Oct 2026 08:58:29 GMT",
+      "etag": "\"09cc8b755e89a00124df2e41b8e525610-gzip\"",
+      "last_modified": "Wed, 14 Oct 2026 15:55:35 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/steel-ministry-mandates-melt-and-pour-to-tighten-domestic-procurement-policy/articleshow/133321002.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/tata-steel-gets-cci-nod-to-acquire-additional-23-stake-in-tm-international-logistics/articleshow/133323860.cms",
@@ -695,14 +695,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-14T09:10:11.223Z",
+      "last_fetched": "2026-10-14T16:09:14.304Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-13T15:25:12.140Z",
+      "last_fetched": "2026-10-14T16:09:14.613Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
