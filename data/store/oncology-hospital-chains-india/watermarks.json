@@ -1,29 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-14T02:35:46.031Z",
+      "last_fetched": "2026-10-14T09:12:08.771Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-14T02:36:22.037Z",
+      "last_fetched": "2026-10-14T09:12:43.904Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-14T02:36:23.765Z",
-      "last_epoch": 1791903177000,
+      "last_fetched": "2026-10-14T09:12:45.609Z",
+      "last_epoch": 1791962294000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiWkFVX3lxTFBnSmE3YUI1X2R4ZWwxcXBBQ19Kck5iS3F1cV9xakZ4YjJBamMzWTl2emlhRnozaFQ2RHB6WV9vUGNzWC1oMlk1Y1c4cVlvWG4tRnROODhGcmpVZw",
-        "CBMi0AFBVV95cUxQSG1CamVReVJJbFdJbUdwbU5LN2Fuem9xVUJhOUFpbmZRMG1LNGE1VXkxelhwUzdQaEQ3WXExTlB3Y1hjdUYyLTgyWW5sdHF2U0V2YkllUlhpbEV0dnhIb1cydy1lQWhEcEFmSXlqempyVDZyNF9jYk1xVnllNGdvNVQxb2xUWGNqbWlWVE1HTXBPYXRDaHdWYVRPM3V1WHpmaDNFNlIzNzFZcDk5UzhYUXZ4YzFtNW53czdCZlVwdUMtR1NIcEdQak1sQjZNVHV3",
-        "CBMikwFBVV95cUxOOUFIZkpEeGFRdEx0ckZxTUxRVTZyeGhqSjJBUW5kekpVeFh4SWlyVlJNNFdJUVBuUzdPcE9ydndtWW01bVJrYUVxSU5jT20teEhydzVXVVB3MnJaWGU2UHg5Q1VUaGZ4R200YVV0ZFhpR1VSTHJtSFBMbEFhOG5hVEhUcmZGWWtWWmNJcUVWYi10REU",
-        "CBMibkFVX3lxTE1xdlU3ZG9xN2lrcXlua1Y3V2ZSTm03VHh5NDhBcl9Icnc1TVZWZG51UzEwQXBiTTlPeFFMNUJySXJKd0loTERDUG0yUzU4OVlzS2dSLUY1aElhaGtwU0M4NWYxMnNtbkhSZDUyMHFB",
         "CBMihgFBVV95cUxPMDlQV1dNVEYwYUpfRjcwaXE1bWExN0xjbUlnV0ZNLUc1TXFpdVFYSzVuU1p0UzkzNEZ5X0NSaXRMNFJZbEFhRFcxcFk1bkF0Ykp3eGdEYWItVDg1Uzc2YjhPRzRPMWdKWk4zb2pGT29mMGlJbndzMFdIeExTYVdFLTl3dXlGUQ",
         "CBMikwFBVV95cUxQR00xeWFyMEwtam5NQ0ZQTjZjRDhpZk1TMWFzRHBHLUZTMm52N18wQUhuZDZYQTFER2g2WlY5RE5zN2o1MUtRcTZQd2RGeGFWeHlHWWdHdXJzRHNOdkRiSkNfRjd4QklBRHJQS3ZmTTI1RTJPaTN5TkJOb3FlV3c3LUp6OVZobnBRemFPNEluSXVTcFE",
         "CBMiuAFBVV95cUxQckxQZ2NjN0NuUURpMDEzVFdJZUFDRVIta0h6TmJjT0o2R19Ld3F4dFFKSEt4Yjlkem5ZaFFLMWtOaWZwQ1M5el8tdzh2NDNNR2I5YUVkTnFjZjBWQTA5V2twYVZ4ZGdDRVhuZk9vQjdDV1ZlYjdRdFpuU1BwQXdSa3ZBWjBBdjlEYzZObEhNZ25GQ3B1eG1xbFg3amRsQy1wbXFzcWc5T1RCaXoyWEprYzIwdExwbGI3",
@@ -319,18 +315,19 @@
         "CBMiygFBVV95cUxQNUF5azJyOGw5MUtwSzV2Q2dYX1dKTGhzSnFqSTRLQ1k1OFJlU0dfSy1tTllqdmwySkltbmFJMmdHOHBlTkFfNkh0aWg4Um5aUTY0ZFFRWEVlaDVmbm5sRWRiUHcwOGZaR2dDSlppRnFfMnNxMGZodFVFYkpPT194aWF2UElDbFp0OXp5VEdvY1FEZHoybF9POGFVOVFNcmRCMVdwdDh0MzByNjh1a1lidHJOX2lyWjVXd1hPRE16NGlQSU9GWjJUQjVn",
         "CBMitgFBVV95cUxPTVJjZEYtLUxqOXFJLU93bWZRbzFZY3FxMjlmQ3RFemNFZTVtejNxME81UzJTVXpWcGRXejJEZzV1VHlSeXF5OU9fTzEyeDRhR3lzeTQxVlo3bXpfMDZEazZtWHoyeFlhZ09qdFNpN2xINkVTWWhVbDE2ZEU1Zl9RZWQxMnJqa19zcmlSM3U4WWJCUWJJMGtFMkZxeldhYS1HU1hnektFaV9jYWVLUlhXSUQ1SncxUQ",
         "CBMirwFBVV95cUxORjJ4bC1SYUFPc0pWVHVGclU0VEU3UkE0dGVweFE2bF9TQUdIUmNrZjdiR2wydkNxZlNjeGtqeHJxSVFCaUdrWFZ4VjRkRXB4RnpXdm1URFZhU2FwaEd4NFZSbDVMaUxodzc3aDJUWndsTGVfYlFYREctVUdyM0lQZlU0NFg3R3dzQUU3SXJUcjBrdVdaYXhfOUk1VEtCbEQtRk0xNFpFTmhXUl9LUWtV",
-        "CBMi2AFBVV95cUxNTVVCc0ZTNmRqc0pQQ0RjNFExaUo3M3d1aUpadERwcnZfcEh1S0xuNktvYzIwQVZMUGw3T1FJNG1NNTVXVGVaZFJVZzJWcjQtVFhsRmhobHIzalc2R2hqanU1aGQ0R09HSzNiZGs4bHZlLWNya1RHRWU1eGV2WFFmeThhTURNX3RvZkJCbkpKOGdNQWpqb0VwR3NWNUpzSXlSU2xsOENZOGs1QzlSYXZYN2U4QmFfU2lqT285cVJpQ0lxaGU2MDBWYkZ0ZWRyRnZzT2RGUTRFUnDSAd4BQVVfeXFMTTdobmxIZ0hsSEhYWE1lT2V1Nlk2elVIbXZBeEtISW13MXdBLWVLTVRxTHZnSDR6X0FSSFZkX3pHVW9NamNiSU90WU0ybHVINWZUdW80S09udktYXzB1T284a3l6aHVidEszTmlCdS1qYmZkcnBzM01EdmN6VUxCZGFGa3h5OE9lSXhMMTJYUm1vb0Itbjd5TmNna1NmTF9RQzdONW5aa2lZRF9RRGpZck82RFk5RkQ1M2JwMXhDbWxyZi1yTTBYYjhsUzNDdDRxYUgyZWtQemVpc1B6ZTl3"
+        "CBMi2AFBVV95cUxNTVVCc0ZTNmRqc0pQQ0RjNFExaUo3M3d1aUpadERwcnZfcEh1S0xuNktvYzIwQVZMUGw3T1FJNG1NNTVXVGVaZFJVZzJWcjQtVFhsRmhobHIzalc2R2hqanU1aGQ0R09HSzNiZGs4bHZlLWNya1RHRWU1eGV2WFFmeThhTURNX3RvZkJCbkpKOGdNQWpqb0VwR3NWNUpzSXlSU2xsOENZOGs1QzlSYXZYN2U4QmFfU2lqT285cVJpQ0lxaGU2MDBWYkZ0ZWRyRnZzT2RGUTRFUnDSAd4BQVVfeXFMTTdobmxIZ0hsSEhYWE1lT2V1Nlk2elVIbXZBeEtISW13MXdBLWVLTVRxTHZnSDR6X0FSSFZkX3pHVW9NamNiSU90WU0ybHVINWZUdW80S09udktYXzB1T284a3l6aHVidEszTmlCdS1qYmZkcnBzM01EdmN6VUxCZGFGa3h5OE9lSXhMMTJYUm1vb0Itbjd5TmNna1NmTF9RQzdONW5aa2lZRF9RRGpZck82RFk5RkQ1M2JwMXhDbWxyZi1yTTBYYjhsUzNDdDRxYUgyZWtQemVpc1B6ZTl3",
+        "CBMixgFBVV95cUxPeU1keEN6QVd2Q0o0aTJINHJVSkl0REQzQzVtZHdGSE9UaW51WU1lbzZTa0VVckw0UGwzUTNNQ294b0hfRjZKQmxCQ2NIX1k1MnpZYlVBMGh1UDVMdG5DWnFQckltMXdNTVp3Y0xsSXpOcERDOVNJUjRHakJIazR6US1mc2NPa3JtNXF4TXpUZnNibzRmNkNlUUJleURtTUdDVzdaRGRpUXBWNjlnRm11YkFxWW1IZnViUUJRNld3TF8zQnJTd0E",
+        "CBMicEFVX3lxTE9tOGU1TFY5eEZXQ0hKeFR0MUNSYkdVX0VGLXhlSHFtNzRZd1UyTHVQNUI5cmI4cjFOdFMtTlNsd2h4WUFEak1BTTRWZ3V5Ymt6d1pqRVlKR212TDJWN2VFWi1rSzE0andENTNsMldmVFU",
+        "CBMi5AFBVV95cUxNbEZIeEpocms0cUxXbU5pOGpUQ3VkN0ZfRnVyWVYxUHF2b3BzZGVQbktMYzNmaFN1d3JFV191VnlWWnM0YVN0TndlQTQ0MWpPNkZXWE9FS3k2cjltbUdQV0dPcU56LUdyZHVHLWloQWZseFNQVVNfNzVFeUw1T005NTdMWnZnMVI3WFY2OHYwU1luX1VFWGxDTGsyRzNSUnBrRVFzVEttVlRTTU4zenZwelNUMmxMamE4ZGFlRlo4LWVEc2NpX05TTnhlcVRvMjZndXFMX2EwZE40NGlTSHZ6cnpFMG0",
+        "CBMiogFBVV95cUxPeE9NeGwycjVKdkg5V19ULWM5RVpWUGxCdktUM0xhdkV1QldWejJ0WjItM2NBVzdqYUlHSGQwSzF5eGFwY2EyUnZqWVFjaGVjcUo2T3RzRHAzdHNPS0psbEtqQ2FYVDFiYV9EdThudTZvTmpFTFNNSUxMOU1QWFdwZE1MdXFlNjVGQThzNmhNYUROOXJPbjU3VjdzbEN6YW5LQmc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-14T02:36:23.828Z",
-      "last_epoch": 1791919489000,
-      "etag": "\"0f2087f6575913080c3f07bfc8ce46c9e-gzip\"",
-      "last_modified": "Wed, 14 Oct 2026 02:17:04 GMT",
+      "last_fetched": "2026-10-14T09:12:45.786Z",
+      "last_epoch": 1791966744000,
+      "etag": "\"0c261c8ed295adf268989379bc96d5649-gzip\"",
+      "last_modified": "Wed, 14 Oct 2026 08:58:29 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/banking/finance/insure/prudential-hcl-health-insurance-starts-operations-in-india/articleshow/133368196.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/moderna-merck-breakthrough-could-usher-in-wave-of-cancer-vaccines/articleshow/133365307.cms",
-        "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/uae-companies-keen-to-invest-in-rajasthan-hospitality-sector-uae-ministry/articleshow/133381036.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/india-private-equity-investment-2026-geopolitical-risks-gulf-war-pe-deals-investment-strategy-resilience-deloitte-report-bain-capital-limited-partners/articleshow/133393403.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/govt-to-invest-rs-28840-crore-in-udan-scheme-over-next-10-years-union-minister-ram-mohan-naidu/articleshow/133405276.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/india-secures-728-billion-in-overseas-borrowings-to-boost-economy/articleshow/133421298.cms",
@@ -627,11 +624,14 @@
         "https://economictimes.indiatimes.com/industry/energy/power/indias-coal-capacity-plans-face-a-major-rethink-as-power-demand-soars/articleshow/134912507.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/states-urged-to-speed-up-utilization-of-2-lakh-crore-interest-free-capex-loan-program-amidst-slow-spending/articleshow/134926096.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hospitals-clinics-may-now-have-to-display-service-rates-prominently/articleshow/134926050.cms",
-        "https://economictimes.indiatimes.com/industry/energy/power/india-needs-to-boost-coal-power-capacity-to-meet-soaring-electricity-demand-warns-cea-chief/articleshow/134925554.cms"
+        "https://economictimes.indiatimes.com/industry/energy/power/india-needs-to-boost-coal-power-capacity-to-meet-soaring-electricity-demand-warns-cea-chief/articleshow/134925554.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/delhi-high-court-seeks-fssai-centres-response-on-sale-of-non-dairy-products-as-paneer/articleshow/134936887.cms",
+        "https://economictimes.indiatimes.com/industry/energy/power/india-needs-rs-15-lakh-crore-to-add-91-gw-nuclear-capacity-by-2047-cea-chief/articleshow/134935676.cms",
+        "https://economictimes.indiatimes.com/industry/energy/power/tata-power-announces-15000-crore-mumbai-grid-expansion-plan-to-meet-rising-ai-demand/articleshow/134934669.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-14T02:36:23.895Z",
+      "last_fetched": "2026-10-14T09:12:45.878Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
