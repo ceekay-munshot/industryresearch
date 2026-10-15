@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-14T22:52:38.244Z",
+      "last_fetched": "2026-10-15T08:41:50.351Z",
       "last_epoch": 1791979831000,
       "etag": null,
       "last_modified": null,
@@ -16,19 +16,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-14T22:53:07.785Z",
+      "last_fetched": "2026-10-15T08:41:57.389Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-14T22:53:10.230Z",
-      "last_epoch": 1792015856000,
+      "last_fetched": "2026-10-15T08:41:59.542Z",
+      "last_epoch": 1792038083000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMitAFBVV95cUxPNXp5U1NScVBhb29ldkZHSmNLS1pYVHBvRGhXTHNuSDh2QXpkY2hUeDBqTjBFekpaOVA4YW9vcEo0endNWjhDb2dSQ0V1NVJGNTZUMEowT0dlX2liaEE3VmV0UGtpdHRHNGhvSUlERTkyY3BaU0o3cUhCdlktdUxOcHljY21yTUY3ekJoclh2SWJQd0kwV05ua0ItdzNkTklTS25YWUU2ZkZ5RFRNUC03bEp5Wko",
         "CBMifkFVX3lxTE5jZEI2VHA5Qk14QVQ4QmdUNFp1LTV5WEQwTFdkRXl0aGxaRktjTDZBMWFGdld6QzJVNFFLYktCMGpqTERWblVoUTlpQzJ1aTZ3dGJPMmZDeFJIUWVYYnBOdEtjbFVoRTJTMTk2MHplVm1hWllwTFkyOVQ3YkJVZ9IBgwFBVV95cUxOSkk1U3N6bkJFck1HLUhwUVdFblh4STlXQ09BQ2ZwLXBwbnVWWVoybko1THZQZVRhWWpsWlBYcVd5MFd1NE1jYktOZTZ3WmdjTURib2U0YzZEUF94ekhPRDR5N2tfcGhadkpvTXVMMzl3bnM0clJyNkVuS0FrV2pKdy13SQ",
         "CBMitAFBVV95cUxNSmpMYk0xRTBfdm5NMXRfNVNfMlE0cnppenNvTHNITzhVNXZ0R2NIX0Z3bmlWSmV1RHBpYURmWmdMT1ZLY2hUWG5WcDRsaFVSWktoRWFNQkdtRzg5UHpLeGstQXFGdkprdGhEbk05RUE5MEM4UTVlb281N3lOb2Y2WndNNHhzNUEtU3JlMUd5Z2FQRFRiM29JMU1fa25QRzBnekJJU3FYZGZlby1faklDS1pURG8",
         "CBMipgFBVV95cUxQUlB4UzdsdU5wQzVkdkY2akdtRHB2R2ZYUUhibmlRVHkzbTBIVkV0LUo4SG9uSjFMbXF3SXYzNDF6OU1LM09EcHRscmdaRzAxT3ZncWlrbFNxaVBVVDZTcXhWSTJHM0Ffd1lSMWdXN1pfc2dJdm1Xel9Md0dpTjF1WlhBbFBZakhNdU1hdTF2WVRTeG1xc2NGcWNZZVFZREpvYjF4cUFn",
@@ -327,14 +326,15 @@
         "CBMipwFBVV95cUxNXzJ4ZXEtRk9mVmE1SDd2alR6R2xLTjc3ZzRiU0xIcTdwYnpuOEdmdnJnNnpjSXdNV3lDdWtXWU5ZRjZtalU4blI4b1ZQRjVQTGk3VU1PVkNCd00yZWN5R1dZOVh6d3M0VTJLWW5OU2xRUlZuckNQOHJpMFJCbFBzcDNRUE9yVm1sa1YtOWtLUTA1NnpUSUdiVkJqRDBpSWI5UjdxeWt6Yw",
         "CBMiqgFBVV95cUxObnl4SnIxUlExUkZEV18wVHpaMzZ4bFFPMjY0Q2Y3Vnk1eW5qcjhYTG4wV01PM21aalRhNEUxQVl4TGljZGRkMnFvSVRiNTFZUnZiaC1QVkFpR243WHExeEZ6T0h5R0RxT1BnTnZfTmw2MTZQYktHbHpRck55RVRkVzNObUIyRENGaFpKRElwMEVkTlN6VjJKc1phaERtRDlpaFN6MUxkTnlKdw",
         "CBMimgFBVV95cUxQZHNodVFwdXlKTWl2YWVEV050Rzd4WlhBVzlURmxOVXVsLVVoOVY2MEtZajdMSGdoS0t4SnhqSkVKdHNhWGQxYTQwbDBaOVZiZVY4bmFnRkZzVkp2SkJ2WWVkV0R3Z0RVQ0g0dFE5RHFldEVIa0NRbnBidG9OOVhuNTRmaUhQeWR6aDlXY2NhWnNpTEVrSEhHZl9n",
-        "CBMi7wFBVV95cUxOMmFxMldVbUdzcVhUSUtScDBORWU2LUVadnlXdDVWb0R6VnhwNjR3R2FsZnZQY1BvT1ExUEpYOUZFeFpGaUdaVXVOMmI2d3R6bTNyakpCUHJoSkU4bmhuQV94TVJrV09qSzJjUEhZT3dsOVNQQ3lORHM1akI4ZzB2RTNicTFtM08wVC1zZW1EMEpLRFZPcXhONVVrRXRFLVRlTnVsM3FraHhYZE0wdFpad01NYzcxbEl4Z18tVUM4SHhBNnFtX3ZOek1ZcGhuMEVNV1VIbVpRcjFPWEktV3g3b3NaWVJPSGE5SHJlaDRmOA"
+        "CBMi7wFBVV95cUxOMmFxMldVbUdzcVhUSUtScDBORWU2LUVadnlXdDVWb0R6VnhwNjR3R2FsZnZQY1BvT1ExUEpYOUZFeFpGaUdaVXVOMmI2d3R6bTNyakpCUHJoSkU4bmhuQV94TVJrV09qSzJjUEhZT3dsOVNQQ3lORHM1akI4ZzB2RTNicTFtM08wVC1zZW1EMEpLRFZPcXhONVVrRXRFLVRlTnVsM3FraHhYZE0wdFpad01NYzcxbEl4Z18tVUM4SHhBNnFtX3ZOek1ZcGhuMEVNV1VIbVpRcjFPWEktV3g3b3NaWVJPSGE5SHJlaDRmOA",
+        "CBMirwFBVV95cUxQaVFQYUF5MkR6MG5qR3VUb2VvUzhJdEJCaEplR1p2NGZIRGMxa0ZVaUFlOTdlZnpINEJSOVdHSkoySmp4Y1FVZUk2WVd2Unh0cWtaRnlPbWdQdE5FZlkzcThVa1V4TjdyVG1XVWNHOW5FTTlrQmZaYlJWa0FhUGpzNFJkVmZoVkRGeGU4bVJLZ3lrWXBqaktMYThDOEFXMUdMd3hTaVMxY191Q3RnckdZ0gG8AUFVX3lxTE5sVHBOZjVNSGNrVktSYXI4RVp5N0tES0V6WkVFbGRvNkprYVdxUm96cFNLM1Q5YTVFNDFLZ0IyeWRCaE1tMGlGUkZsaGtTakh6LTJCazh6X3pQRU9mT0xucVdoM3JYcFVsTHdGb3JmQUZyb1owX1JvczdyVDNtLW5kTXVwQjVNY3RSV3pDVEc3WklfY3BkZG9oMXBOcFBBQmNBRzBaNGNSUlUweWhOSDVfWGp6T0NFaE1rREg4"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-14T22:53:10.362Z",
-      "last_epoch": 1791987756000,
-      "etag": "\"0235360bea030adcbb028298052fcd8c8-gzip\"",
-      "last_modified": "Wed, 14 Oct 2026 22:29:42 GMT",
+      "last_fetched": "2026-10-15T08:41:59.689Z",
+      "last_epoch": 1792027800000,
+      "etag": "\"0e933c47f83214a217a956e915ea7e62c-gzip\"",
+      "last_modified": "Thu, 15 Oct 2026 08:30:17 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -401,11 +401,12 @@
         "https://economictimes.indiatimes.com/industry/services/education/bridging-continents-the-university-of-western-australia-brings-world-class-postgraduate-programmes-to-india/articleshow/134911034.cms",
         "https://economictimes.indiatimes.com/industry/services/education/as-technology-and-ai-reshape-the-workplace-which-skills-will-define-future-leaders/articleshow/134909031.cms",
         "https://economictimes.indiatimes.com/industry/energy/power/india-looks-to-ai-to-make-power-grid-more-reliable-secure-and-smart-mos-mnre/articleshow/134937279.cms",
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says/articleshow/134944948.cms"
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/record-oil-tanker-rates-put-pressure-on-asian-refiners-iea-says/articleshow/134944948.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/physical-ai-in-manufacturing-how-computer-vision-robotics-and-edge-automation-are-moving-into-the-real-world/articleshow/134940594.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-14T22:53:11.659Z",
+      "last_fetched": "2026-10-15T08:41:59.808Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-14T22:51:56.084Z",
+      "last_fetched": "2026-10-15T08:41:39.040Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-14T22:52:26.343Z",
+      "last_fetched": "2026-10-15T08:41:43.576Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-14T22:52:28.052Z",
-      "last_epoch": 1791987540000,
+      "last_fetched": "2026-10-15T08:41:44.942Z",
+      "last_epoch": 1792031478000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMijwFBVV95cUxQSzRUQ3E2cVJ1cEdOMXd0Ykw2TXFkZEZpMkNUZXVsMW42MTVVRUR0aXM2T1YtQXp5Tkc2UGVFc0lkQnljNTBHb2hCVS05YmF4OTBZSDVIUDJFU1NtMURoUS0tQXpmNHBJR29hY2dZd0ZLTU5mTjc5OVlWeERJaWRHSnA0aVR5ejByd3EyRVN0UQ",
         "CBMipAFBVV95cUxPNVJVT1lkM3dVb0pJYWhtcGR3US05WHlBY053SUpXUHJURE5nOEI0aHRYN3BSSmhpU1BpRlp2TmdNVndGM1ZWdmV5Si1fQkNwZ0t3LXhTMWFseUt6SElReEF3TWd2RTA3dHp1WWNnaVYxUTZZXzB3eVBhWlRlWnRHWFUwX01aMHRWRGZMN1NuY3BqdmdOVVVvaUs2MDhMRlVPVW9xbw",
         "CBMi2wFBVV95cUxPaWNYcEszSTd1WGc3YXo5U1lFcXpzQUVnQmN5c2tPUHhQM1g3SUFac2d0VjYzTTJfTkFiUnNzNk5iUTR0YVViWmxiLWZ4RW9DQ1BGRDBacGxPXzZVbnI2N3hrdlVUUzR3blVWTGppdVVDTmZzTER3M0U5LVZlOGs1bGd0eUNzWU02elgzZVdHX1hXV0Y2aUxhLWJWb2R5TkhieHMySXlFX2dBZ0xtV1pUSElWUnlULVJDTldyRk93Q1NEcV81cGtialZNbU5oWFVxeXF5WlJWYUE0b1E",
         "CBMivgFBVV95cUxQa1BZSS13Z1pNUGI0S0RyRTJkYjBjV2QtbTJOeVBMdm45djBQRXBkSS1GX2JnQ2lNUGlFdzhOc0R3Q2p3NW4zZTlvNDJtMjRKZ3VuWEJ5VUJ5SW53ZmtVRkdyMmF2NzQ0UnVGOFRLcmg5Zm5Mc01kUWktQlg3WVZuWVRTLV90VU90UHN1YXhhTGhKeW1UZnRoTTA0bGt4TDQyQWk4eGlHVzh2VDFKdXNLcjctVVlBWUNLTjJJUHB3",
@@ -319,21 +318,16 @@
         "CBMigAJBVV95cUxNWVNJOHhHc0ppN0RtQmd0d0dFQW1ZcjFFWkZTR2lhSWFIeFI4N05Kb2FUNUtNa3RWbGl1WThyak54RWl0QU1hMlE4b1pwQ0NsWVRpTi1qRHZ5RDB5X05wT0x5RkJIbGEyZlgyZ1ppR3Rkb3FyNEJiOFhTWDlNdWI4Rk9vRm5PczZSeHQxcFpxRjA0SWNMVlVKeW01VUV4SjRtWkpESWprY2Y2bTdzU01INHdFeDJhT2tZcGRVZ1hpeUJmVzg4UGRpa3BRcnAxeTVwTkxLRDVRZ3J2ZUItZ0tHU1RGb3VFNXNFZVFfeXh3U2s5T3pBd2pZdTYtSlJfOWsx0gGGAkFVX3lxTE9pb0pMYVNIeVoyRTRhdlB6bWtoZ05RUE5PNXRFOVkteVhvc3VCb2w2QjQwVllKaDJCTER4dWhkclFvZU5hbU13UHc4a3lDWnMtWG40X2E4bnpmVGIzVmxrMlJlRkVOUlFQRTU0OGZWLXNfSWtCekdaY3Rwa3U1eF9vbFY0bmV3XzFDQV9sVWZGWjJMRHNIWG42UU5EYXUyUW5zWHlvSVdvbi1zRHNIUjhTVkh5aVJmUVlkd0NTWkU1TXQtd2hwMEhQMk5Xdnc3Rm1kVTlFanVVemRjaDduMDl0MHNTb2hPUy1wWk52bEp2WlJLNWJQQVlfNEVjYzBTbUJoSjJ2dlE",
         "CBMihAJBVV95cUxPSWZ4UFQ3ckw5NWRKNFJRZUl3a0pMcEwxT1VsMmRCM1NHd1FYX2VkY2JMUXlNRzIwZHB1NFhqOVd5OVJITGZwN0VyWkJpSmRPa2hNeUdKbUxTWVg2MnBsTnozWk1CY0hQa2V3WHdjSVN0N25ZLWlTN085THJmSHFqQ043NW9EbURYLTc3WlhlWkR2R3dING5EcXVnVExmRV9WNlBLdGhkbHA0Y3BWWXpqeEZxOFNYZnZqTDlKVFVBWGxzNUVqeVlRalp2Q2pURXhtUWc3NjVzdUZhOEttbU9EdkNsejdUS1hGOVRjMGtBR2t4OWRCUS00bEJySEYzVXpYTHU3Vw",
         "CBMitwFBVV95cUxORGVuZ0dlU0JoWWZWUkpiVk9vRmJXYU1aalEwYTVkMHpPMkNrVHBhXzZ5b2JMRzVLVUNNZXpySkxaSGJuOWdXTmpuelNldlFqT2Y4cjhGM005SWIyMVNWTnBuUzRVYTRjeEoyT3B0V1lsZ1JGUWNrZ1hXWjZGN3JoNEhoRG83NkczQy1BbnVLOHZBekc4eGV4M2NfcF9PUEgtZ05NWXhjejU1czhxU1pjNl9CZF9pUGc",
-        "CBMi2gFBVV95cUxNS0tScmNndFFQbUU0cUFpZTlHRENLTnlPd3RMaDQ4SG1zWnc5a1h3NGZuTTRFQWIyeW43a0lIYzJueTRKbmxJVnk3WGtSZkVmWDRieUk1dUhvcUVYNE5LRjNXNVZIVU5KZDIzV0l0SjdoakRxVE9nMVpVMVViZzBaRDczNWF1bFZ0UVZXRXRnYVFHdHphWTBlcFItUk8weXRKVXN5VjhGd3k1LWpsZmZ2ZUs3alJPMVg0ay1TdXE5ZlVGQXFwUmVLSnBKYXZWUGQ3Y1Vuajc1Y3hPZw"
+        "CBMi2gFBVV95cUxNS0tScmNndFFQbUU0cUFpZTlHRENLTnlPd3RMaDQ4SG1zWnc5a1h3NGZuTTRFQWIyeW43a0lIYzJueTRKbmxJVnk3WGtSZkVmWDRieUk1dUhvcUVYNE5LRjNXNVZIVU5KZDIzV0l0SjdoakRxVE9nMVpVMVViZzBaRDczNWF1bFZ0UVZXRXRnYVFHdHphWTBlcFItUk8weXRKVXN5VjhGd3k1LWpsZmZ2ZUs3alJPMVg0ay1TdXE5ZlVGQXFwUmVLSnBKYXZWUGQ3Y1Vuajc1Y3hPZw",
+        "CBMiqwFBVV95cUxPaTVGMUNsR2xkLVIyRUNBYXd5V3JQYmFVd3EtcFR4QzV1X21LRE1VVnFKdTlhVE12STd0bXREWjBuQWxPdmtiS2xHRzRRanl5bGpabnFqRGhPdkdFMmNsd1hjai1BS20zemZORmt2MHI4aUFLaU9NeWJLczBRQmcwaEpkN3pKQzlPU01TaktyVThFNnNtdFBNbUw3UnIwbTRfZ2FFeTJXY29TcmfSAasBQVVfeXFMT2k1RjFDbEdsZC1SMkVDQWF3eVdyUGJhVXdxLXBUeEM1dV9tS0RNVVZxSnU5YVRNdkk3dG10RFowbkFsT3ZrYktsR0c0UWp5eWxqWm5xakRoT3ZHRTJjbHdYY2otQUttM3pmTkZrdjByOGlBS2lPTXliS3MwUUJnMGhKZDd6SkM5T1NNU2pLclU4RTZzbXRQTW1MN1JyMG00X2dhRXkyV2NvU3Jn"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-14T22:52:28.127Z",
-      "last_epoch": 1792004064000,
-      "etag": "\"0c709ab7126f2beed3c7fc85fda7d4d4b-gzip\"",
-      "last_modified": "Wed, 14 Oct 2026 22:48:45 GMT",
+      "last_fetched": "2026-10-15T08:41:45.050Z",
+      "last_epoch": 1792043078000,
+      "etag": "\"0e933c47f83214a217a956e915ea7e62c-gzip\"",
+      "last_modified": "Thu, 15 Oct 2026 08:30:17 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/cons-products/liquor/tamil-nadu-steps-up-liquor-quality-checks-across-distilleries-after-enrica-controversy/articleshow/133435620.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/et-world-leaders-forum-india-needs-to-make-the-shift-from-petro-state-to-electro-state/articleshow/133446332.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/sc-issues-notice-on-plea-to-enforce-community-forest-rights-near-pekb-coal-block-in-chhattisgarh/articleshow/133462207.cms",
-        "https://economictimes.indiatimes.com/industry/services/education/indigo-co-founder-gangwal-commits-rs-300-cr-more-to-iit-kanpur-medical-sciences-school/articleshow/133459866.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-to-launch-twice-weekly-direct-flights-between-gaya-and-bangkok-from-october-26/articleshow/133459302.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/tvs-supply-chain-japans-sankyu-join-hands-to-expand-supply-chain-engineering-services-shares-jump-8/articleshow/133452034.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/11-airports-to-see-rs-8622-crore-private-investment-under-50-year-concessions/articleshow/133477036.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/adani-group-to-set-up-2000-bed-hospital-in-bengal-1000-beds-to-be-free/articleshow/133473864.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/retailers-keep-price-hikes-in-check-amid-rising-input-costs-nuvama/articleshow/133502057.cms",
@@ -627,11 +621,17 @@
         "https://economictimes.indiatimes.com/industry/energy/power/indias-electricity-demand-set-to-outpace-overall-energy-demand-by-2035-data-centres-to-fuel-growth-sp-global/articleshow/134943860.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indias-alternative-accomodation-market-expected-to-reach-4-7-billion-in-gbv-by-fy29-report/articleshow/134940733.cms",
         "https://economictimes.indiatimes.com/industry/energy/centre-extends-bid-deadline-for-advanced-chemistry-cell-battery-pli-scheme-to-november-10/articleshow/134938625.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/biocon-clears-path-for-cancer-drug-launch/articleshow/134949891.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/biocon-clears-path-for-cancer-drug-launch/articleshow/134949891.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/kalyan-shahad-titwala-to-asangaon-commuters-take-note-railways-seeks-forest-clearance-for-a-fourth-railway-line/articleshow/134957974.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/birla-estates-in-advance-talks-to-buy-noida-plot-for-rs-1000-crore/articleshow/134956429.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/biocon-settles-us-patent-dispute-with-roches-genentech-eyes-2027-perjeta-biosimilar-launch/articleshow/134955259.cms",
+        "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/radisson-india-revenue-to-cross-500-million-this-year-eyes-750-million-in-four-years/articleshow/134955241.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/physical-ai-in-manufacturing-how-computer-vision-robotics-and-edge-automation-are-moving-into-the-real-world/articleshow/134940594.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/novo-holdings-gic-axight-look-to-back-aig-hospitals-founders-aim-to-pare-10-12-stake-at-rs-24000-cr-valuation/articleshow/134950407.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-14T22:52:28.238Z",
+      "last_fetched": "2026-10-15T08:41:45.088Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-14T22:54:15.210Z",
+      "last_fetched": "2026-10-15T08:43:34.835Z",
       "last_epoch": 1791540670000,
       "etag": null,
       "last_modified": null,
@@ -13,15 +13,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-14T22:54:45.685Z",
+      "last_fetched": "2026-10-15T08:43:43.193Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-14T22:54:46.887Z",
-      "last_epoch": 1791987163000,
+      "last_fetched": "2026-10-15T08:43:44.274Z",
+      "last_epoch": 1792047874000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -215,14 +215,19 @@
         "CBMijwFBVV95cUxOQjIxbkQxVWVlNkwwOVRCSGdrOUM5X3FPejVaTFhFR21Cd0NOMFZ2SFR6aWVCeXc0ZW4zejVKYkhUc0RlLUd6NXU3MUxRZ2c5ZTJxQ1YxWGFONEJiZlY1MlVUN2NoNV9HMFg2bElLYXNuWFdXY0hZUm41Q2V5X1F4bGh4MGlRZ0MwSklYYVNnYw",
         "CBMidEFVX3lxTFByWGp4REtUVkpJdl96LXBfRFBPMFh6Wk9RTGtETWttejVIUDRDd0xnMnVPWjhIaGxwU0NoODVJczN5LXRrdjRINGYwNktvTkktT0JhQVVkdk5ITkVhV2Jya2o0b2doNkNFTm5teHYtVEl0cDhN",
         "CBMivAFBVV95cUxOQThUNzFndkJFbXRCaV9reUduRE5XNTF2aGdZWFZaSDNpMkRveW1aZlNub01vN0ZSVW5QdmMzX0JKQ1l2MkZrV1NJUE56bWFkUjFIel9IN3pTSVFieG1CdnFidmNELWY2dk15UlRUbnQ3dUN1djhnY3RWMzA2Y2t1QUI5ekF0enZqeFgtSDVnVTREN3pBdFBiV3puV3FlTGZPTHhuaTNrTDdTcmVHX2kyT2RGUUpoVHFRTXR1WQ",
-        "CBMiugFBVV95cUxNdEtuT1ZfSjR4bkZaOGhXTHlCbWtkSlZKT0ZlOVZYNFBHWEo4MVpHNS1mWnRjSk10d0RrMTZqcXhsbDBwdTJUOGVldEF3cHZ6RF9wX2Jya2JZaXo1X0NIelR0ZVp5aC1tWW94bnFPLVowVWhneWhQZ1lQZERNVGwzZUtoLTRudDVKZmZEQ3o3UHBBYkdDRWc1Tl9BODcydGxSQ3BEVldQOHVDTi0yeXV2ODNqYUlhYXlweHc"
+        "CBMiugFBVV95cUxNdEtuT1ZfSjR4bkZaOGhXTHlCbWtkSlZKT0ZlOVZYNFBHWEo4MVpHNS1mWnRjSk10d0RrMTZqcXhsbDBwdTJUOGVldEF3cHZ6RF9wX2Jya2JZaXo1X0NIelR0ZVp5aC1tWW94bnFPLVowVWhneWhQZ1lQZERNVGwzZUtoLTRudDVKZmZEQ3o3UHBBYkdDRWc1Tl9BODcydGxSQ3BEVldQOHVDTi0yeXV2ODNqYUlhYXlweHc",
+        "CBMiswFBVV95cUxOb2gzaXZKVmRtaDYzU1lBbnJHSzNVcllLV0h4LU4zaTVLNkxFX01BUnUtaWVmUVk2OGNpMnc5eU8wejJtc1dSdGRtU3c5aFlTMlhrMEZ1cWduVlVWdWhwekdScnI0SjhkSTk5YUFraXItSks1RVVYTkZfMDlWOURkUTk4ZmFhLW9VZW82RElGWmFkbnlObEZOS2ZBYmtsdWFaUnJONjI5LUJCQjd3T0g2S2R4MNIBuAFBVV95cUxPZktIVEc4TGhVamIxc3FFVFFsTDVuSjlCZm1WTXFZcGNtRUJ4WUYwbXJrTVlRWDhYOG0wTHF0X3NrZ2ZtMTFia3hOYVo3b0FIdHh2U1l6enBZVUdtek9mTUVza2VGMU03RHNVWGFFOFktNjRIRWszNGwxRUNSY203UU1QR1VKUzFxaUFKSDQyZGR0VjhwUnUxV1QzQmIwcTBsZTA0aGRZZDVpdGV0by1tdnR0b0tta2cz",
+        "CBMilgFBVV95cUxNTFg5bUpERGNPMHNNTUZQMHZEdUVJVHBVb082YzItYzBySS00X2Q2MUxocm9hNnF4LWJLeTc4UDJRMjY0V3ctR2ZHMHJzMWYyd0Y4N0lvWjVKbHpWSTdvcW1rRkJaM1pyc1hUMm9JcDBXOEU3NlQ3U1BVQ2VUME5SbUhxVHFLcDJsRUpnRDRKeUZ5WmxjalE",
+        "CBMilgFBVV95cUxNTjZvUXBpN0E1TUM4d2tLT1F6LVlLOWZtdHVzS2RRT0pGaEhoa0hZR1Q2UUoxV2VBVjRMUmpucWM0SzdTQlVHNS1xS0M0TmhnRHN2NnRqcEtvQ0RQcVNzSnk1TUJ0cThPWHJzRDVseUx4OWtTZHIwblBUVGoxd2k1eDRmQUxoMWdyaVZ1REFzUVlXWkN4eGc",
+        "CBMibkFVX3lxTE02aWJhS3UxOGo5eGhYekNwNUdGZTBUS2RPaXVSRjk1RUpKSEgzc2VIRkpvY01VZXZYdDJObFVFOFB1c3RDSFFvRUdETjcxdEZKbWpDaHV5WXBENmFFWUVTYndMaG43U0pFbzM2OUh3",
+        "CBMipwFBVV95cUxNUmdudENHY2x3RDE4SlllcTZfNmp5MDRmTnJUTzhITmM2eGk0SEN5aGd0TzFTU1RNYlpzcWRESVNkMlV1Q3pqZjRqaERUR000YTNLWjMxNlRYcXZuLVNDZFRxcUY2bmN4LWwzVVZ5dWI0YlBwV3NzOTR0Zk9JOWFoWFFrSXhiZy1INHNjV0hhTkZOcGl6MXlMUzdfeTdsUTRYUWdnTGZKOA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-14T22:54:46.983Z",
+      "last_fetched": "2026-10-15T08:43:44.308Z",
       "last_epoch": 1791873134000,
-      "etag": "\"0235360bea030adcbb028298052fcd8c8-gzip\"",
-      "last_modified": "Wed, 14 Oct 2026 22:29:42 GMT",
+      "etag": "\"0e933c47f83214a217a956e915ea7e62c-gzip\"",
+      "last_modified": "Thu, 15 Oct 2026 08:30:17 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
@@ -232,7 +237,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-14T22:54:47.432Z",
+      "last_fetched": "2026-10-15T08:43:44.347Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
