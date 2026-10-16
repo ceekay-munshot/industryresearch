@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-16T08:35:33.430Z",
+      "last_fetched": "2026-10-16T15:44:31.058Z",
       "last_epoch": 1792133714000,
       "etag": null,
       "last_modified": null,
@@ -71,15 +71,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-16T08:35:36.892Z",
+      "last_fetched": "2026-10-16T15:44:33.129Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-16T08:35:38.045Z",
-      "last_epoch": 1792130821000,
+      "last_fetched": "2026-10-16T15:44:34.447Z",
+      "last_epoch": 1792158877000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -333,14 +333,16 @@
         "CBMijgFBVV95cUxNbWJlcjZMQmppMnZjbHlhWnhidnJSejZLRDFjWEMzTFV0WmtnUHUzNzRxV245ZFdQenRlYlk0U3ZqeXRtWEZOTkotTk5HaUxhd1h3T0JpbFoyX3dYckNpaVpGbDVEV1hETFF2TW1ydmMxVkc0S3poUUQ2UVA2YUtPV3dlaXhhd3N6Q0JzQ2pR",
         "CBMixAFBVV95cUxOa3JNeTUwcmlZZXV2U2FmYkxGTDc5UnFyT0cwcGcwRU1kTUJlOWtqMkdMYml6bzN6YkpHc3U3aXVaMDZSLXNtN3E0eEozWHlfM3RjVmJ6R3BRcTJfVWFXQWhrYWNhZldVSXhkb3JpdWw2dlp3U19VeU1udzNkQWlMejBnRzR5Tmc1ZnZTRzNhUUozNUFPX3VfOXItbE9YTWd6dUtwbkxpVEt0TUR4SHBHdEp1OTJBN2t2SXJ5Q1h0NzBieVZw",
         "CBMiygFBVV95cUxQbUhvSjFTYUdkYUpQVWFJQ0VsZnNqcUJ3Tzg2YXkzdl9qb2EtcVlGeEg4MjNHaDdacXQ4a2JUbjc3aTEyYmFGeDN4NjhSUFF1dDYtVThCUEZyUERuZW9aUHFZTkdHbnNnd1ltYXFsMzM4bnlCTEZWeU1jZTNhUk13b3JUVm91ZTZRY2RSd2JCRWZNeDNQTi1sdGVicUxhSkYzbTZod3JTbEU3TGtSVVlIbXlsSzZjeWx6NWNwOEFTQWFKaGpvUlM3ZWpB",
-        "CBMi1AFBVV95cUxQem5pTHA2WWhqSldMN0psQkNiaVdHaVFydlZhbXprbzduVmlIWEc2Um1LSUt1SmtkSGpOcERJSUdiV0ZXQ0hGbi1WaDJQZVk4VEUyTVR0eUlBeVlUcDE4VlpvUGp5c3pKa3phZ0F4SVk2TTdZUnZKWEM0Q0RFUHBMZDgtdDhrY2lDa2xTdkowMFFKYUtPamVmdVpsRnR0OTh0bWd5NlJoWWFnM1N3Z2pHR0xkM2JHTFEtci1MUHFHLWo0T0ZodDhIeURScDRES2xRYVd1cg"
+        "CBMi1AFBVV95cUxQem5pTHA2WWhqSldMN0psQkNiaVdHaVFydlZhbXprbzduVmlIWEc2Um1LSUt1SmtkSGpOcERJSUdiV0ZXQ0hGbi1WaDJQZVk4VEUyTVR0eUlBeVlUcDE4VlpvUGp5c3pKa3phZ0F4SVk2TTdZUnZKWEM0Q0RFUHBMZDgtdDhrY2lDa2xTdkowMFFKYUtPamVmdVpsRnR0OTh0bWd5NlJoWWFnM1N3Z2pHR0xkM2JHTFEtci1MUHFHLWo0T0ZodDhIeURScDRES2xRYVd1cg",
+        "CBMi3AFBVV95cUxQSEkwQml5ZVNEcDVFbHA3RmdDYkZZZHlaLWs3QVI5NmFZYmx1VzVSR2dWT2J6N3NGdWwxNmFGRFlKeElGMVIwYzNnblN3cnc3QUc3RzJxWFV4VHpBM3Q1OWotVklvOGtKajhTdldDeHZNQ0VrMjR3a0c3d1F0SGJYMnJ2elluMjB0cWtuMlFxN0xqRWxpQ284T1FzLTYtUDdXUkxOMkpOZTlmU3RRS21EdkVnal9uQ3VleHNmZlkzcmxfYXB1d3VhUTliZGNxWXhidngtdW9MRGg2cEI2",
+        "CBMiwAFBVV95cUxOdUFjQ2pNY21sbk9Qbk1GSkxMa093T2lSeWNveXM3VWxVUzZzWW04Uk9FNTRNVTNkM0Y3NTN0Qm9wb0Y0Vm9QUl83cFJyUlRCZ01wakJNYTFoTmh3STJPM1otRUhwNDlWeGxrc2ZKZjNnNXo0TVVQLUFhMEdyUGFoMUJNY0ZpS3BEUUtBY2xQOFA5OFk2aE5hUFh1MnIwZmtQV3R5eC1EOXYwenZhOHVvNlRSQU92UVBMdHdpOEhMbXM"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-16T08:35:38.067Z",
+      "last_fetched": "2026-10-16T15:44:34.489Z",
       "last_epoch": 1792135714000,
-      "etag": "\"052a4fb02c39e8d5aaabc3587c3ae4046-gzip\"",
-      "last_modified": "Fri, 16 Oct 2026 08:23:02 GMT",
+      "etag": "\"0d2124b44ea55340973bc1aa976be1567-gzip\"",
+      "last_modified": "Fri, 16 Oct 2026 15:24:51 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -399,7 +401,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-16T08:35:38.135Z",
+      "last_fetched": "2026-10-16T15:44:34.553Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
