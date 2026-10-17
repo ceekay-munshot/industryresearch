@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-16T22:19:17.432Z",
+      "last_fetched": "2026-10-17T08:07:32.063Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-16T22:19:25.437Z",
+      "last_fetched": "2026-10-17T08:07:36.366Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-16T22:19:26.724Z",
-      "last_epoch": 1792171020000,
+      "last_fetched": "2026-10-17T08:07:37.697Z",
+      "last_epoch": 1792221928000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiywFBVV95cUxNWHI5NVBpZm5rckEzQnFWVzBSUDVZZG8zUjBaZEhEb0hybHhiU3llSkNGSGZpN2xJUHNvS0t0UW56UXZPdVMxVlhIUURrNGEzUzZLRHM5UkdTS0VZSFNpcnFkNks5TEFsa25sam92X2gyNnFnc1oyNlVYeEIyV0lqSWF1N1plTUNZQ3d5UHZJMDBZbEtDLUhRc1diZ0dBck8tVi1jdGs0RjA0cmR5T0xQNEZ6a1N1TGRlNkJqVFBRalVEdkxpd09OVXRmQdIB0gFBVV95cUxPOG1MYXJtZHRscVNFd2xhdEJTRnhsZzZnWDgtSjhwblM0OWN3cmR6OXJaNzdRM2xHXy1weUZjM0h0b1gxd0NSRkxSVUFlS3g2RzE5WkxKTHBaSVJOaUhlZjRDODBWR3UxWl9jRnhqcEJmbExEZ2wwRVRnTUZXTzhKc3FEVUNYMDhTQzhaQWdoM05oSWhmZFNpZ2R1WjMxYWNST2t4R3Yyazhad1I4LUNqbjlrR3ZPY2NaRHhPZkYxaXUwVUZyTnR6MUZvd2VaMUJVaGc",
         "CBMiggFBVV95cUxOa3E3MGtral9pbGxPaEtwQTg3aUZHQmtQWGJLck1WbWtNQk1RYVdhZWtZQ3hwT3BuRmtVQ0ZPT2hMUGtqQWFiN3YxekFEOUhlVDdobi05LUlOMks5Um41REY5T1B5aDlxd1M4NEc2Wjk1MGJid21pOHdvS2RpSm1TZmN3",
         "CBMimgFBVV95cUxNcks0cWJ1VkpxM0dhMk15QUlYaTJBNDgxRklTdEo5aDNfb3NsZHJWeVRNM2ZaangyZFhISUdzbmhhT3VIelM1OUxfQjltUjJWM3d5RHllekQycFdKaUlTTGxIT0dTbFQwelJiWENLUldvV3RCaHdrUDNkN3pUcVFxNERtMWM3ZVVfQ3RuYXd1QWk4V0U0UC0wckdB",
         "CBMiwwFBVV95cUxPS190SnpGdXFNaVE0LTFINzJWMl85THJORDVXd0QyN3h6cHEta0pxOWRRalE2VURXM2FEUnJvWkVCaHFodTVOaW0zcGJudGZacXNKUzE0OFROSnlleGxORWVPM3NTb0NyQm1IaVRQNU9pNjBid2RJbElXLU45eEkzZWZfYVk3QjB5RDFSQV9jVkt3YVBQckkteE1JSjhnNGx0NjBBRnJ5Vk1xSEZJb2I5UjBWSkk2bGtmTnhKWlJ0S0JfdUE",
@@ -319,16 +318,16 @@
         "CBMiwgFBVV95cUxNM0JzU2Z5TElpM3lfZUUyd0hrSU4tUUJTREN6Z29RY1ctNHF0am1sYl9VYnZCZnBFVGREWHBkRkc2RE9KV3lubk0xZWdVTVV5Y2U2RXdnSUVoSDd6S1V1cGhja0FPdDI5UC1TeGIwdXZWbHBVaVNhZEFtdXJyYkNnNENNZXBpVnp5UmdQR3BndG4wMHRzT1VaTmtnUFlyUTdQTzA1LWY0OXZJUW1FZ2RVSl9NeC1HcTVqNE51cUkzdGFMZw",
         "CBMixgFBVV95cUxNbnltdGxxTVNFS0cybzFobnMzZmpSRWpYdl9CR0hSYXBSb09QNENOYzRmSFhFMFR6bWFJY1E0bzhpT1l0WjhydlhfenlzVExzTzI0aDItQVFhRG5UOTlnWEJhV2ptNjFRWHFRZVJzUzUzT3Jucml4M0hTUUNoY1Nqd2RzRGExZU9nMGJLU1RFQTJOblRfb3JDSHVBelpkcW1XUl9pTTRJVDhFMjVFbVJvbEZWMFdpUEdUYWdiUERfcFpjMHViZnc",
         "CBMi2gFBVV95cUxNcm4yXzlIWXJIYjVQTDB4VTcybzlreFZuZWwzS2VtaXpfeVZ6UURWb2h4QTgzVmZjZU9GVTdWcG81bzNWQXNrUGdkaDQ5N05SeHdlZ1RBeGJJOXZwWm1xT0tNMnVIYUZnczVNd3VOdHlOZXNmMzAxQVJXYV93aHNvZkk0MUJfQ2JudTZvZ1RxZnNfVmtUNExsMXZDWmgyaHZCMzROSlJ4UFphbEZLWURfdUxzU0YtTkxOc19fU3NYWHNhdEtBdHFBUkVITU5mWFZTYkthN3F1TmxKQQ",
-        "CBMi0wFBVV95cUxPNW15b2FJeEx6S2I2Nm54OHZiRUFJcExJQ1pKQkpuSHlNVHE3RVlDUDFDZFk2emFCM2djUkVzMmozdzR2Tkw2RHN1SGFnOU9OenNNNnpxWkdKT29JcS12MTZJTy1nYXg3ZWxxT2pOd0VRNmJ0MUx2NExfQ2JLS0tsRGlyQk5lV2NZOEoyLXVfWGp2UXUzZzFYUUJ5Zlg4U0VjdVZWc1Z2TnZGUWQxUm5DS0lYLW9mX2NvUTdaQ3llV0wzSjRMeEZCR1ZZV1pDbWpPSmlr"
+        "CBMi0wFBVV95cUxPNW15b2FJeEx6S2I2Nm54OHZiRUFJcExJQ1pKQkpuSHlNVHE3RVlDUDFDZFk2emFCM2djUkVzMmozdzR2Tkw2RHN1SGFnOU9OenNNNnpxWkdKT29JcS12MTZJTy1nYXg3ZWxxT2pOd0VRNmJ0MUx2NExfQ2JLS0tsRGlyQk5lV2NZOEoyLXVfWGp2UXUzZzFYUUJ5Zlg4U0VjdVZWc1Z2TnZGUWQxUm5DS0lYLW9mX2NvUTdaQ3llV0wzSjRMeEZCR1ZZV1pDbWpPSmlr",
+        "CBMigAJBVV95cUxOU0pKVnhOTldhUFpaaXRhX0tXSERLbVpKTWVhRjBCTTRlWFd3U3MzNFZZcG5mRE4yRDVwSXY3ZzZuOWdyTkF3YjAzbHV2dkxDdlJUTHo4Y0RYNDV3RTFzaTVkYWl6eTY3YUxCUWFvejIybi0xamxiSW91dzVab0ZwSVM1aG05MWQyY1Z2TnhfVUpaaXlBd04zX3M5bVA2S3hRekFTanFvc1owNG14SmgwTXVOeUJxTzhwMTN4R1ktYlN3RkY2OGZsQ3JGLWRQRGhqZnowNjVOaVhBa3ZJanAyaVJEY0NHTlA4X3hSSWR0clpZUklVUEtTeTlqVUVsVUIt"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-16T22:19:26.748Z",
-      "last_epoch": 1792178924000,
-      "etag": "\"001145966ddf34d84ec2daed3a5a22c04-gzip\"",
-      "last_modified": "Fri, 16 Oct 2026 21:49:01 GMT",
+      "last_fetched": "2026-10-17T08:07:37.729Z",
+      "last_epoch": 1792201495000,
+      "etag": "\"0b154421311ad38b2d97065df01afaa32-gzip\"",
+      "last_modified": "Sat, 17 Oct 2026 07:51:15 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/services/retail/decathlon-indias-b2b-business-grows-20-fold-in-five-years-now-contributes-10-of-overall-business/articleshow/134055717.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ai-trauma-bionics-indias-top-institutes-join-forces-to-develop-medical-care-for-soldiers/articleshow/134086977.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/russias-sberbank-plans-major-india-push-to-build-business-hub/articleshow/134083993.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/cochin-shipyard-dp-world-arm-to-develop-and-run-kochi-ship-repair-facility/articleshow/134080811.cms",
@@ -627,11 +626,12 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/reliance-industries-welcomes-starlink-competition-while-urging-compliance-with-indian-laws/articleshow/135003009.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbc-has-used-over-half-of-1-billion-startup-fund-within-a-year-global-innovation-banking-head-david-sabow/articleshow/135002799.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/india-refines-1200-tonnes-of-gold-but-consumes-800-850-tonnes-how-gift-city-could-help-unlock-a-major-export-opportunity/articleshow/135002488.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/roadways/nitin-gadkari-looks-to-japan-for-better-roads-in-india-from-advanced-construction-technology-to-safer-tunnels-and-bridges-heres-what-was-discussed/articleshow/134999254.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/nitin-gadkari-looks-to-japan-for-better-roads-in-india-from-advanced-construction-technology-to-safer-tunnels-and-bridges-heres-what-was-discussed/articleshow/134999254.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/elon-musks-starlink-responds-to-reliance-says-ready-to-connect-india-with-high-speed-internet/articleshow/135005865.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-16T22:19:26.787Z",
+      "last_fetched": "2026-10-17T08:07:37.774Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

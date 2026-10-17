@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-16T22:19:45.168Z",
+      "last_fetched": "2026-10-17T08:08:28.064Z",
       "last_epoch": 1791979831000,
       "etag": null,
       "last_modified": null,
@@ -16,22 +16,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-16T22:19:55.497Z",
+      "last_fetched": "2026-10-17T08:08:32.692Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-16T22:19:58.445Z",
-      "last_epoch": 1792185388000,
+      "last_fetched": "2026-10-17T08:08:35.056Z",
+      "last_epoch": 1792206148000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMilAFBVV95cUxNS0tBZXRaWkdrX3ptaHVnM1c3V29xbkVmdVRvRGNmUXl1RWNldGR3RS1IbGMtUzY1T3FRYXJwU3czbXBDS1FCSF9CQWN3X2p6akRGVzkyOFgzLWpGOWhGWHhMOXBqanM0a2FhOEUwU1QwbTZFNjV0REN1TDdaMWlYSmxLVGVXanpZV1RDa1lZMUtYbzRE",
-        "CBMisgFBVV95cUxOZW1PMmt1Q2c4TzNIaDNIbEs2TWQ3V0xQc1F6QXpzdHdHalpEWlk5ZlhoYnVHVXlsUGdmRm1Fd05aek1UdGFWT2dTZmFBUk9HZDAtRE85NFEwWXhnaHFqdWdSNzkzbWFMUWRxaDQ1VU4tblBrSFhRYkR3VEltUnhtMlI3dmhkcDE5OEx5T2l3RjZ6amdzVFhyeXE1Z2ZTQ0liUVFlREVzZU52THFDM29XSXpB",
-        "CBMijwFBVV95cUxPbTJZazg1STZjVGNheUZjOW1SczBSSXJCOXpzbldyNWFaWVlYZmFETkExZWZzdnRrNk42eVN5VjVxZzFBY0s3Um5rV0RxSHhpam5NMzc4bXVMZ2ZYOXVjSy1zMWtnTzlJcWFXOUI1V2UwNDhXNXY2Y1VJYXhxYzFmUTZ2QktsaTdtVUc5ekZYUQ",
-        "CBMiuwFBVV95cUxOZTRvUTQzcFF6Q2RkM1M2cU5DRWVQYnFBX2d2LUxzTWJwcDhWbzA0dF81Y1FCdFpxa3NEUkZDR1lVUjNEMFAzYkoyLTVGclpCS0s4TGItZDhzOUQ1bVExR0pnWHVUaHoySDhMT3hqTzZSbFRxdjhQUWF4c0diOTB6ZkxzRl9DNHJGWndkS3VPZ2ZuMEpnSkRvRHVHUF9wU2phQWZmeF84eVlQQkJOU1N4Tm5uU2Nxb3N1R2lr",
         "CBMirgFBVV95cUxPdWYxZzY5WHhVYUNwUmxkajA5YmhMQ3NRc1FFaEFiV094VFdZNGdob1lfcFFIR1JkVzR2OVpWa21GWTNlSkVXUGxTdDZwWTZBNXhac1RheWRuc2U2M2hZWHIzQXlMby1jVjFwYWpueXlBT0wxQlloNUNPM2RFWmZIVGtJQngzUV9qNlBJZUtzUkZYSnFxcHQtbjR2YVU3dnZFdkhFNTlHcGFHd0Nic3c",
         "CBMib0FVX3lxTE9LUjBabEQwUG1TSlBLWGJJbENYbEZXVzYxWTlGVEpXRXhvM0ZOMjhXWmdzNVdTX0dLcGF3S0Z1RDN1UDJ1aDhMbGFMZE1iNnd5SkVNVk1JY3ZXUl9FNXZiZTcwV24zVlI5dVdsNFo1VdIBdEFVX3lxTE1GMTVTanpmVGs0Q2J1RlEtTHRRWEpuRWNwUkF3YmhIS2VzLUQ0SzRPaERxNHo4WDNhX1hsNXdUNE5KSmM0ak5OTzdkQmd5dE4tMmhMSzFNWFYyTFB3amxPMjFVbnI0Wm5HSzg0WENTdXIxamZy",
         "CBMingFBVV95cUxOUEpLOGExLXd6b0dKeXJadmdubW9zdWZzTDB6eVhLb0RSN3RSQTYyenBJdTVRdmR6Vm5jRnp4VHVQQ1NEbGFQb1J0V08xcThIRUs1aG5NQ0piLXhEQTRhcXZQNEZkMUVuaHVyLTRNVjhjbDEtZmxuTGpuR2d1ZDU2b1pGdkxqS1o2TUNDcUMyaFUzRVdmUUpPQndkdEZMZw",
@@ -327,14 +323,18 @@
         "CBMilwFBVV95cUxQMnpOOTdkUDRPcEk5Z1NYR3UzbHhnT1ByMHN5M2ZaNFlicC1XTks3VmY3eEo2cE5IaFZIMTU1SU5veWtmaTlxRUJqamxJNTlJaW1fdk9ET2c0UjJKZXh6UUxJTEtyalhtTDdldGJha0xQYUQycE9xY3Y0QnduSmhzdURjMkFDaVozd3dDTFFlYldNTlZxdkVR",
         "CBMijwFBVV95cUxPU3JCaUx0THN4ZkVISTNhaU5xWEFPcm84eGRISDk2ZGVlSENIQm0zdTdLQkdOZ0NPUWw1MVFQcE01SWl2UVQ0YUQ1cEZxbGxoS01QdnpqWEpWaHZoVFJiYzdoQjdhbkxMbl9xVXZUek1aRzdaNXMwekE2UERkRVhKczkyUUlrbW4xRUNWd2ctdw",
         "CBMia0FVX3lxTFA2bkxFUFRMWlFOeXFSVU5iVDhhMjBuQk82TkxmNFVWUmQ2YW4zNU1UR0tNeVA3Zms2OWVrXzhJbld4aUlhWmtqY19MVFNncWIwRzBDak1CRDRENmhHdGotZFpQajlsdENBZHNz",
-        "CBMikAFBVV95cUxOYzZyaWFLZkJQdTJjNUhxaUswOGF6MjdtT0FBU2QzTS1fYXpZX2NNMkg3cFF1cWtHMEpIRXNadVBwTmEyNWFTYkVKY1k3UXdzdFZ1R2JfbGFlVTFiNXExWElaOGRNVmlHS0YzTThEeWRPd0lVQjdKaml0bTU2bWQyMjBpTF9ZVFFjc2FuLUp4UGs"
+        "CBMikAFBVV95cUxOYzZyaWFLZkJQdTJjNUhxaUswOGF6MjdtT0FBU2QzTS1fYXpZX2NNMkg3cFF1cWtHMEpIRXNadVBwTmEyNWFTYkVKY1k3UXdzdFZ1R2JfbGFlVTFiNXExWElaOGRNVmlHS0YzTThEeWRPd0lVQjdKaml0bTU2bWQyMjBpTF9ZVFFjc2FuLUp4UGs",
+        "CBMidkFVX3lxTE5HWW0tZWdWSEREZXFVYThUdU1fWEpycXBBMkZRYmhZekZXSlNaNWtFRFh1QUFMNGY5djNXSV9XaE94dTBfLVYxVWxxMzhTd2p1NlQ0Qk01aVVEeGpEV3J2Y0tHQVRfUGFGa19mZ19XZFBlUmpoMGc",
+        "CBMipgFBVV95cUxPYk90ZFZ1RnRrRDhSUDZKQ2R0SlhsRnl0NEVVTEUxY0hwYnJ5cnR5RVhOdXRfdzJQLVU2WDM3TzFxQ0ZORVBYN1lwMV9WZDJCSVNFc2d4SVRRWXdISU42QVVhSGNTQU9hMFljMl9JaWN4cGRDUWtQc2dRN3dzeFNZQUhLdDZVUDBzMFdreTVpZjFWcUtKeXJCNm84U2VIV05NZ05tMHZ3",
+        "CBMiywFBVV95cUxNUV9yTGlxb3d4TGRReFEwRlB1c3B2LVhYbTgwYk5oVWZCdkxBc3RPLVRYZlZHMkNLSHJvck1iZ2RJbDBDc1VBT1htekhoR2tiVmpzd3B2LWdRQ1pGWDhIS1JxREVGOS1JTGh4aFM1UjV0MDZ1OHhlZlNMc1VUWE9Zem5HOTV5U2ZpQWYxSUdwWTFjeVY0Q1dWSDBxUml3amtTY0pENDlGOXEwWnktcHJpYUd6emMzOTM2X04wbm9QMThpNFRRbXZqZHdXQQ",
+        "CBMilwFBVV95cUxOQnFRVEQxWmZGUTdSU2ZMSTRRVUNINjFiSlhVVGdiU1ZKeW9mSE9Pd3dtTGRydGd3emdrbDJzR3RRZDBOdk5NVTg2Sm10Z2QxUDJKaEEtelRWUUd2TVptQkpsTWpzN3QyaXlRSFJWUlpuQXAzaGpfUmxOWWdqOUhDWGNQZS1odG1fVlR6LXFjdndZOHdSNEw4"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-16T22:19:58.496Z",
-      "last_epoch": 1792154682000,
-      "etag": "\"001145966ddf34d84ec2daed3a5a22c04-gzip\"",
-      "last_modified": "Fri, 16 Oct 2026 21:49:01 GMT",
+      "last_fetched": "2026-10-17T08:08:35.089Z",
+      "last_epoch": 1792221864000,
+      "etag": "\"0b154421311ad38b2d97065df01afaa32-gzip\"",
+      "last_modified": "Sat, 17 Oct 2026 07:51:15 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -407,11 +407,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ayush-sees-rise-in-patetns-filings-showcases-innovation-growth-4077-applications-filed-from-2014-to-2026/articleshow/134995232.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/aurum-proptech-q2-income-rises-57-to-rs-137-crore/articleshow/134993435.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/experience-of-the-shanti-rasa-or-bhaav-is-a-key-reason-behind-hanuman-anshs-success-producer-namrata-g-singh/articleshow/134992245.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/indias-clean-power-firms-prepare-for-an-ai-fuelled-data-center-demand-surge/articleshow/134989248.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/indias-clean-power-firms-prepare-for-an-ai-fuelled-data-center-demand-surge/articleshow/134989248.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/apples-extraordinary-iphone-duo-demand-puts-foldable-bet-to-the-test/articleshow/135009586.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-16T22:19:58.564Z",
+      "last_fetched": "2026-10-17T08:08:35.143Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
