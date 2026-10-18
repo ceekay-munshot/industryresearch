@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-18T01:57:00.256Z",
+      "last_fetched": "2026-10-18T08:28:27.994Z",
       "last_epoch": 1792275100000,
       "etag": null,
       "last_modified": null,
@@ -309,15 +309,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-18T01:57:03.106Z",
+      "last_fetched": "2026-10-18T08:28:33.342Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-17T21:51:11.096Z",
-      "last_epoch": 1792146720000,
+      "last_fetched": "2026-10-18T08:28:34.480Z",
+      "last_epoch": 1792305840000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -598,14 +598,16 @@
         "CBMixgFBVV95cUxPaEhQUmwzQ1FNaFZJQ1NRV1JCSVl5b2VHMzl2OG1fOGowR2l1TVM4N2dvOU1CZlBKR3JuWGRrZW1YbnZxWUIzVnVGR2pZb3lOM052bzI2cFVVVWxZWU03NjZubnBuQ0VTZ1o5UTBDWk5IT3ljb09GVDB1WkhOLXdVN1NxZFY4WTFIcGRNRk83M1dieXgzamdIeXZ5MnV1d216Z0x5TjhZRDNUUzF3dzlWdGR2QlZLemVFSUVQRGxOYmoxVWlpbkE",
         "CBMi5wFBVV95cUxQZm9EM2xLNEk2UUtpcm96Z2hmR19VLWx3eFJfUGxBM2RJVV9UaTRmYjhCcGtsZ0F6R3lsSzM4aVJfMG96RVY1WDRtb0NLZFRLZFRQakNZSm54RDAzZG9nZ2dFaklFeGF2bjN1cjhvMlRrbk1CaDVhcUptQlg5WXB1U0h1a2RjS0VNblljNTBoM21mdnVmLXJkMEt6SHc4N3k4QkRyZEhXREdSeEpnSFpWNlRjTzBzTUpnSmN6Q3A4c3NvZ2p5ODJSZ0ZPWDFtbTRSZF84VFNjdC1XQ2VUSFFGeVlUMHhBZ2s",
         "CBMi1AFBVV95cUxPR09OaW9SSjVwRHBvN0JKSnpGcFgzQmlKdExTMm5qN0pVWTBBRzRhbWRkcy1CR2tlYTR2Z2UzZXZPbUNEZXVqV1Z5ajNhdlRhNGxGQkdZRVlPMF9iUFN1QmlOM2Y5azd1S204QnRxWnN4eTZDRkNWSVhLNUItS1hxaUJwZjAyLUsxTXdHU1NpQjlSdlhlOWJYOWNabWhrRFBSVHBvTGNLc0xYMGFBTzN0cVk4Z2xYSWhIWkRaQ0gyQTFzeDRkWjdLemc1UEZ2MGRHRmluMg",
-        "CBMiwwFBVV95cUxNa3dNTS1oWWVHdDZQc1lhZlJTS3VDNWF5THJuYld5WmhDTXcwWm5xWmgyR2dCdURScy1iMkQ4WjFtVTdqcU5QVWxuaUpFZVNYVUdZOFFzLXUwX3ZhVnRQWmJBMF80RTJ5SldYTHZ1d0E3T2xrZGtZVG1nOVJKcjBiaTR6WnB3REhXUFBtUlk2TU5GSDBVZUN4RkpXOU9IMkhhZmREZndHcU9aN3J5TUZwWkJPcDRBRTNGeVpBc3VnSV9Sb3c"
+        "CBMiwwFBVV95cUxNa3dNTS1oWWVHdDZQc1lhZlJTS3VDNWF5THJuYld5WmhDTXcwWm5xWmgyR2dCdURScy1iMkQ4WjFtVTdqcU5QVWxuaUpFZVNYVUdZOFFzLXUwX3ZhVnRQWmJBMF80RTJ5SldYTHZ1d0E3T2xrZGtZVG1nOVJKcjBiaTR6WnB3REhXUFBtUlk2TU5GSDBVZUN4RkpXOU9IMkhhZmREZndHcU9aN3J5TUZwWkJPcDRBRTNGeVpBc3VnSV9Sb3c",
+        "CBMi2gFBVV95cUxQamF5cE5FMHZTNGM2RkJCNWZ3Tm9CT1ROdkZ3R3NvVTB1alRhMG9iU19KY1BSZkx5bG5yWWVhdzJsMUJ1SDc4dGM1SW51dHd1c2JTc1VwUmQ1aktWRF9JS3hNem9WcVRiWkVTby1fSmtwcXlhdmRuQ2ZPdkMta0ZSRFFjSEJQSmh4T2RESy1rN2xxWEZKekRtVkJkaWNjanFzNHMzWDhndEFZc0NyMlBfWDBXTG54OTJLNGY1OEJhZkNqd1lWUlVTNGR1U2RGeXNJOE1xV2NGcDJyUQ",
+        "CBMipgJBVV95cUxNWkJDd01rSzY0a2h3Q1E0RVJfUWNHMXN0cWsyX1I5Q2lZQ0htNHFCSERoa0kyXzZoa0lSRXZDVmRQTVBZdnc0aWIzTXBTeEJXZXRhV19HZ2VZUVBpOWt5eUI4ekxZVXVETmEzckhDT2tKN3RUNFBDdVZoRDBBbVc5cDJoZE1oOTBmaENHcGlHeEtJUlZZenE4YnRqLUtyaS1rb1ZhSFJsZ2g3ZXJOWk9EeFhxcTJMenFMYWJyNEIydDM3OWhRY1NlVlgta1RlRThnbUc0QUh4Ym40eVktV2hMZXpYWEh1SnJZaUNnTjYwdlV4WmhVQ2FvMzl0cnhOejRlby1zWWZjMW80WGFXTHlkNkFtZXNHc2R1TkJrRFg3TnBBZS1LQkE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-17T21:51:11.172Z",
+      "last_fetched": "2026-10-18T08:28:34.506Z",
       "last_epoch": 1791918158000,
-      "etag": "\"04f967d9fa297fb018f7dc1ed766ec2ea-gzip\"",
-      "last_modified": "Sat, 17 Oct 2026 21:40:56 GMT",
+      "etag": "\"0c237059ead407e66f1964bad6d4d6d43-gzip\"",
+      "last_modified": "Sun, 18 Oct 2026 08:03:24 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/ambanis-reliance-enters-ice-cream-market-with-launch-of-bombay-creamery/articleshow/133678139.cms",
@@ -621,7 +623,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-17T21:51:11.292Z",
+      "last_fetched": "2026-10-18T08:28:34.526Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

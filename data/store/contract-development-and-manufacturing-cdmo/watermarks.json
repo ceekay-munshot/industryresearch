@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-18T01:57:40.595Z",
+      "last_fetched": "2026-10-18T08:29:19.506Z",
       "last_epoch": 1792144363000,
       "etag": null,
       "last_modified": null,
@@ -75,20 +75,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-18T01:57:45.844Z",
+      "last_fetched": "2026-10-18T08:29:32.573Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-17T21:53:42.997Z",
-      "last_epoch": 1792241276000,
+      "last_fetched": "2026-10-18T08:29:33.814Z",
+      "last_epoch": 1792292289000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMipwFBVV95cUxNQ1Z6RUNCeWtOT1pGY05pZGI1WXRlTHpuMFNqTkFKcmd5UFZtMFhDUGNZYWNjeWhHbDg4Mi10MWFRSnU5ZVVXcUhzUTZva1F3LXRLU1pjZW5JLVN4SGJpNHc2QnBvZ0FNdkdRWng0MWxTbjN2VGZzOHlWRlJlcnp2SDh1bTY5VENCcDJZMEZKZWY0OFktTU0zakhzVmViRHdESUhoa3ZCTQ",
-        "CBMiugFBVV95cUxNTWN3dTRjQ1BxVm5pMWs5bGJrT0JPWmdvMlR3NmxmbEpCTHdNOVNZTFBNTDg1SFZ5dzMyLXFkXzhKZ3hHTXBOQzMxbzF2Smt0WFVLUXYyWW1iSTJCLTlFQnR3cXVtWk56dmZ0Sml6eUhZUGFfNG1VOXpkY1BOa19FS3B5MVRoNUlfY2JWTndTekVwZGhtT283RkFzR3JNYW9Fay1ocURXa3ppS2FHOFlXNTNoQUJkWnBTYkE",
         "CBMirwFBVV95cUxQSlY0dEZ6ZklOMkZ4R0ZJc3FSRGpMaXR6X28yblpiWlZrLXpQWVpRZWRiWDF4OHJSdVN2VElkVGVIWW13c2V6cVRrOTNjWndLS3VjeWdaeUFLMUd6bXZGak5MLW85MjY1eGpCZ3hhUHRGeTJ4c0NoT1VHTFhUcDI1SG9Md0k5cWYwMUUtd25nVFNmNThpSEhHMFctcU9OcFpQN3ctYnVVM0MyQUIwTV9v",
         "CBMiowFBVV95cUxPMkJ0WUQ0X3VuVTFyNHRmRHNQYzVTbzR0OFJnMHU4LVBYSFpsQXFLTVBKcHNLbjJlLS1NQUItampaWnFKRkZOT3NKYzNBX3ppNjNzRmJZTkpoNTJqbDlEcU82UGcxdkliVW9uVWJpVTJSc1c4Z3NpeGZaT2lXYU1pSF9FY04wUVFOX3c3Z2E2Y0JnZWJUajFaUkhwdS1XR0NiM2V3",
         "CBMilAFBVV95cUxOQ1VRbTA1bFAxa2dQQjFMV21lSzAyXzFYVTJRQ2VMVTZER3ZmQ2FEQ3NnWWd5S0VrNGZwakRoSGFkSENySm5Hb0tuUkk4Y2c3Z1cySFhiOU9PcDBaNjM1bU85OUlzdlF5ZG1YNDk0ZnlLWXVZYUNEU05OVzZraV9Vd0Jla2t3N2VDY2RQel9mMEJoUnli",
@@ -386,14 +384,16 @@
         "CBMiiAFBVV95cUxQODY5WEdGRS1RM1RGRzd1UFNtenhJQV9NSF94anRwVHRueHhvT1pVZkc2QTNvWnAtS0JmYjJiMUwzNWh3ajBfTklNLXhER3B6WS1ZMnYwUzBNRkpzUDRLYkV5VF9DSzlVVTNCMmY4V0x4NzQ1OHBOQlJubGszd2E5SnJ5RUZtWFpX",
         "CBMi1AFBVV95cUxQNlpOeEtmZ2tPWHZXZk43Nkw5aDAySmVjV3RUdjVHNFRpb3oyWDVJbHZkdnhtYTVPeW5INEg1VkRKX3VYMHBpUUwzN19xRVZWblB4NTRPX0lzeEFJMmhMRFpKYWRFWDJJZXdVMVZjVURNNS1qUm9UMURyeXp6YncwMEM2UWhKTEJDWTNQQWhVSlFFTzRvQVM1RUJBbEJXX0NSSUVTVHVEaGVqb2F2WmsweDExZldoQTEtZVY2aUxkNGo1eEZnbDVPeENVOXRVcnY5azZYZ9IB2wFBVV95cUxQS1ZiNHhwRnRDRTBGTnNFU1pCREt2aThCMTB1ZnpQSGtwdmV1WkhZSlVOSWtNTEhYYUZyYS1Wa0RKNm1VZWZvZkhmNGthcnBNTE4wWnIzRlJiT0VheHBOX0xxY1I0TnFvSHN3eUZYQmdtSnJfOG5oLUM5SUZocHR0RjJuN053NGNSMkhzZ3h2V2J6d0dwOHVYZ01ma0ZTNUloY25jR1hHVGhfLUVXVXlSYk1FOUQ1VDJ6d3F2angta2tjaXBrWThTR1VqQkhBT1pzWDhEOHZiTmdVaEU",
         "CBMiwAFBVV95cUxOS3RYcmtzby1mTF9kNW1LanpWak5lMWczSnpNR19aZ19iLXlVRDJySmFJcUtVOUpIZGxMdTdySFFnT3hObVEzZFh6X2V3VmlwQ20weklXVk9yb2F4dDJ1dHhNbTNrNzE0ckFWVlM2Q1BaelRxaG1ETWoyU2h5UWVHRjJ4V3BwUElndXoyYklHZHg5NzlfM01oTUQwdDg5cHoyaERXSlJiWWFKdTBHWWJiNnNjUGFkZjlFMFNBVFJ1YWU",
-        "CBMimwFBVV95cUxOY0FGQjR1c2lsSmFYZF84SHg0bmhWU3JudlR6akRQdG9CR3JsVWxTby1OWnlzTlJEMS1taUxkN0xaaUN3QTMxeENWRHhucVU3S3NzbGNUVTJZeUxibmM2eEx5a2xxLTJ2cV9Zd0NyOGJMNHdzY19DMHJFTEFSUjluY2h3aF9taGVMbTdMWHFVZ083VGR2Um9SWXAtZw"
+        "CBMimwFBVV95cUxOY0FGQjR1c2lsSmFYZF84SHg0bmhWU3JudlR6akRQdG9CR3JsVWxTby1OWnlzTlJEMS1taUxkN0xaaUN3QTMxeENWRHhucVU3S3NzbGNUVTJZeUxibmM2eEx5a2xxLTJ2cV9Zd0NyOGJMNHdzY19DMHJFTEFSUjluY2h3aF9taGVMbTdMWHFVZ083VGR2Um9SWXAtZw",
+        "CBMi7AFBVV95cUxQLWlOLXhfYXVjR19fYkNwRVBmRDk2cG1GSGtkYldwZW9vb3JxTFRnNG1tTU1EaDBUdWVDQ21uSmltNVF5Vld0WndJc3dlQS0tUnYzLS1Gb0p1QkRHTmtHQzJfWHpiam1PbDlPdWJsQWFHV3loUWpnbzVVU3JiWWJBUUtQczE5Ty1jRXZXSHJNRUY1eDd6V1JkckhTbHJxaGFQWnk5Rk5QTmRJZXBVYTFhTnZoZ01tdXJFLXpDRnR2anVmWXpSQ09HdldZTkV5ejJjX05WWGlTQkJGOExzVU13ZzR3WFpqVUJuNlpLVNIB8gFBVV95cUxQcVIwZ2s4bmltSDNHM0pSS3dEb2ZRN01BOEhvWWxaclh1OEZiMkJ5THN3RzBIa1NvVUhTUlZ2Wjc2TmRqMmJBSnJIRGt3U3VNTFZnR0F5eno0cThkczlMZlRVUXk1QVgya21JVzVwMjVuMnJMVXg3VGJZWnp1RXFLNEhNUWhTN21tYjB0d0ZVaFJNSmZyQzhRdzhXa3JmQVVpNzE2TkM5MjRpbGVqYkdPUnE1dlBOeEVhVjIyU2lMc25YY2tKckt6a2pMRWJiNzBjZFdqelhKc1R0WnNvQ195YU1EcVF3ZHZlV216Z2ZlYVp6QQ",
+        "CBMimgFBVV95cUxNdHJ0TEZBVFRnODhfN1l6bXBnV05Sd18xYk1uNDctRDBUdjV0RmxkWWFxaVczSnJKRWVBWXV0WHhqTWR2aDdEQjNQWFdfcGRzTjVNNEZNd3BaUk16SVM3VFVMLTdueEZFQkhEbWZOSnBzWFhUaVhVbUVldzNiVVpSOEFIOXNRQVhON1BPaGtpdnU0T2RNWHhlekpR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-17T21:53:43.032Z",
-      "last_epoch": 1792246922000,
-      "etag": "\"0e84eeb429ce2b6020e62cbb0e2360ebb-gzip\"",
-      "last_modified": "Sat, 17 Oct 2026 21:24:53 GMT",
+      "last_fetched": "2026-10-18T08:29:33.842Z",
+      "last_epoch": 1792304516000,
+      "etag": "\"0713a689c87f7e9e54314f51739dd5ed2-gzip\"",
+      "last_modified": "Sun, 18 Oct 2026 08:19:28 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -684,11 +684,12 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/finance-ministry-clarifies-on-legislative-developments-concerning-govts-idbi-bank-stake/articleshow/135007224.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/3500-jobs-for-chhattisgarh-bhoomipoojan-of-yash-fans-plant-in-nava-raipur-in-the-presence-of-cm-vishnu-deo-sai/articleshow/135012156.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/dlf-signs-agreement-to-add-7-48-acre-land-on-golf-course-extension-road-in-gurgaon/articleshow/135011493.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/nppa-caps-trade-margins-on-137-cancer-drugs-at-30-revised-prices-from-nov-9/articleshow/135015811.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/nppa-caps-trade-margins-on-137-cancer-drugs-at-30-revised-prices-from-nov-9/articleshow/135015811.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/china-proposes-export-controls-on-solar-manufacturing-technologies/articleshow/135024898.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-17T21:53:43.098Z",
+      "last_fetched": "2026-10-18T08:29:33.873Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
