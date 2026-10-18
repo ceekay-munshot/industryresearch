@@ -2,66 +2,398 @@
   "meta": {
     "slug": "defense-electronics-batteries",
     "name": "Defense Electronics & Batteries",
-    "aliases": [
-      "Military Electronics",
-      "Defence Electronics",
-      "Battery & Energy Storage (India)"
-    ],
-    "definition": "Mission-critical electronic systems (radars, C4ISR, electronic warfare, avionics, communications) used across land, air, naval and space defence platforms, combined with the battery/energy-storage ecosystem (lead-acid and lithium-ion) that powers defence, EV, telecom and grid applications in India.",
-    "is_manufacturing": true,
-    "generated_at": "2026-10-18",
-    "mock": false,
     "query": "Defense Electronics & Batteries",
+    "aliases": [],
+    "mock": false,
+    "generated_at": "2026-10-18",
     "updated_at": "2026-10-18",
     "coverage": {
       "sections": {
         "other": {
-          "sources": 33,
+          "sources": 35,
           "confidence": 1,
           "as_of": null
         },
         "growth_drivers": {
-          "sources": 34,
+          "sources": 35,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "size": {
-          "sources": 32,
+          "sources": 33,
           "confidence": 1,
           "as_of": "2025-01-01"
         },
         "players": {
-          "sources": 33,
+          "sources": 34,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "quant": {
-          "sources": 25,
+          "sources": 26,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "value_chain": {
-          "sources": 17,
+          "sources": 20,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "segments": {
-          "sources": 33,
+          "sources": 35,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "margins": {
-          "sources": 13,
+          "sources": 15,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "channels": {
-          "sources": 6,
-          "confidence": 0.9994,
+          "sources": 8,
+          "confidence": 0.9997,
           "as_of": "2026-01-01"
         }
       }
     }
+  },
+  "sources": {
+    "news": [
+      {
+        "title": "Govt approves Rs 1,012-crore electronics manufacturing clusters in Tamil Nadu- Moneycontrol.com",
+        "publisher": "",
+        "date": "July 22, 2026",
+        "url": "https://www.moneycontrol.com/news/consumer/electronics/govt-approves-rs-1-012-crore-electronics-manufacturing-clusters-in-tamil-nadu-13980870.html",
+        "snippet": "India has emerged as one of the major electronics manufacturing ecosystems. The government plans to expand across AI, electronics manufacturing and semiconductor industries."
+      },
+      {
+        "title": "Make in India Defence Electronics 2026: Rugged Systems Guide",
+        "publisher": "",
+        "date": "May 22, 2026",
+        "url": "https://ariseotechelectronics.com/make-in-india-defence-electronics-2026",
+        "snippet": "India's defence electronics sector is growing fast. Discover how rugged system suppliers in India are powering military self-reliance in 2026. Explore specs, policy, and suppliers."
+      },
+      {
+        "title": "Bharat Electronics Secures Defense Equipment And Solutions Orders",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://www.sahi.com/news/bharat-electronics-secures-defense-equipment-and-solutions-orders",
+        "snippet": "Bharat Electronics continues to demonstrate steady order intake across communication, avionics, and defense electronics domains. The company's business"
+      },
+      {
+        "title": "India's electronics output jumps 4x to Rs 11.5 trillion; components to drive next growth phase",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://www.moneycontrol.com/news/consumer/electronics/india-s-electronics-manufacturing-sector-entering-next-growth-phase-as-component-push-gains-momentum-13953354.html/amp",
+        "snippet": "Brokerage sees sector nearly tripling from Rs 11.5 trillion in FY25 on localisation push; stays positive on Dixon and Amber, downgrades Kaynes"
+      },
+      {
+        "title": "Revolutionizing Data Centres: The Strategic Role of Batteries in India, ETEnergyworld",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://energy.economictimes.indiatimes.com/amp/news/power/as-indias-data-centres-scale-batteries-are-moving-beyond-backup/134961190",
+        "snippet": "Explore how India's data centres are evolving with advanced battery systems, moving beyond mere backup to play a critical role in power management and renewable energy integration."
+      },
+      {
+        "title": "Largecap Defence Stocks 2026: HAL, BEL, Solar Industries",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://univest.in/blogs/largecap-defence-stocks-to-watch-multibagger-potential",
+        "snippet": "Largecap defence stocks to watch for multibagger potential: HAL, BEL and Solar Industries. Compare market cap, PE, ROE, profit growth and institutional holding."
+      },
+      {
+        "title": "India's defence electronics ambitions get a boost as RRP opens advanced chip packaging facility | Defence Pulse",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://www.wionews.com/defence-pulse/rrp-electronics-wafer-level-packaging-facility-navi-mumbai-1791906716770",
+        "snippet": "RRP Electronics has inaugurated an advanced wafer-level packaging facility in Maharashtra as India seeks to strengthen semiconductor self-reliance and reduce dependence on overseas suppliers for critical defence electronics."
+      },
+      {
+        "title": "BEL secures additional defence orders worth INR 5.33 billion",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://mediaindia.eu/defence-aerospace/bel-secures-additional-defence-orders-worth-inr-5-33-billion/",
+        "snippet": "Public sector defence major Bharat Electronics Limited (BEL) has secured additional orders worth INR 5.33 billion since its last..."
+      },
+      {
+        "title": "India's Non-Lithium Batteries to Slash Storage Imports by 50% by 2035, ETManufacturing",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://manufacturing.economictimes.indiatimes.com/amp/news/energy/non-lithium-batteries-set-to-cut-indias-50-storage-imports-by-2035-netra/134970535",
+        "snippet": "A recent NETRA survey highlights that non-lithium energy storage technologies like sodium-ion batteries could halve India's storage imports by 2035, paving the way for a more self-sufficient energy sector."
+      },
+      {
+        "title": "The Battery Show India 2026 Sets the Stage for EV & Energy Storage Growth",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://timestech.in/the-battery-show-india-2026-sets-the-stage-for-ev-energy-storage-growth",
+        "snippet": "The Battery Show India, organised by Informa Markets in India, brought together leading industry stakeholders at a media roundtable in Pune."
+      },
+      {
+        "title": "India on target to meet CEA’s 2030 battery storage projection: MNRE Additional Secretary",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://psuwatch.com/amp/story/newsupdates/india-on-target-to-meet-ceas-2030-battery-storage-projection-mnre-additional-secretary",
+        "snippet": "India is on target to meet the Central Electricity Authority’s 2030 battery storage projection, a senior MNRE official said"
+      },
+      {
+        "title": "Data Center Champion Awards 2026 - Express Computer",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://www.expresscomputer.in/videos/dci-summit/data-center-champion-awards-11-sep-2026-chn/139981/",
+        "snippet": "Data Center & Infrastructure Summit | DAY 1 | 11th September 2026 | Chennai"
+      },
+      {
+        "title": "BEL TechConnect engages young engineers in India’s defence technology mission",
+        "publisher": "",
+        "date": "16 hours ago",
+        "url": "https://psuwatch.com/events-reports/bel-techconnect-engages-young-engineers-in-indias-defence-technology-mission",
+        "snippet": "BEL is strengthening its engagement with premier engineering institutions through its initiative, 'BEL TechConnect – Connecting Young Minds'"
+      },
+      {
+        "title": "News18 DEFCON 2026: Decoding India’s Next Defence Transition | India News - News18",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://news18.com/amp/india/news18-defcon-2026-decoding-indias-next-defence-transition-10371292.html",
+        "snippet": "Reducing import dependence remains important, but the larger test is whether self-reliance can translate into technological ownership, industrial depth, and operational readiness"
+      },
+      {
+        "title": "Bharat Electronics: डिफेंस सेक्टर में बड़ी कामयाबी, कंपनी को मिले **₹533 करोड़** के नए ऑर्डर | Whalesbook Corporate News",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://whalesbook.com/corporate-news/Hindi/aerospace-defense/Bharat-Electronics-Secures-New-Defence-Orders-Worth-Rs-533-Crore/6ace0202b2eb76fd08c27516",
+        "snippet": "Bharat Electronics ने हासिल किए ₹533 करोड़ के नए डिफेंस ऑर्डर। कम्युनिकेशन और ड्रोन तकनीक पर रहेगा फोकस। जानें निवेशकों के लिए ..."
+      },
+      {
+        "title": "India could cut battery storage import dependence to 50–52% by 2035",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://manufacturingtodayindia.com/india-cut-battery-import-dependence",
+        "snippet": "NETRA says India could reduce battery storage import dependence by 2035 through domestic manufacturing and alternative battery technologies."
+      },
+      {
+        "title": "Bharat Electronics: डिफेन्स क्षेत्रात मोठी मजल, कंपनीला मिळाली **₹533 कोटींची** नवीन ऑर्डर | Whalesbook Corporate News",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://whalesbook.com/corporate-news/Marathi/aerospace-defense/Bharat-Electronics-Secures-New-Defence-Orders-Worth-Rs-533-Crore/6ace0202b2eb76fd08c27516",
+        "snippet": "Bharat Electronics (BEL) ला मिळाली ₹533 कोटींची डिफेन्स ऑर्डर. ड्रोन, जॅमर आणि सायबर सिक्युरिटी क्षेत्रात कंपनीचा विस्तार, गुंत..."
+      },
+      {
+        "title": "Global Defense Electronics Market - Forecast to 2036 | AI, Electronic Warfare, and Space Systems Drive 6.4% CAGR and a USD 486.8 Billion Opportunity",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://globenewswire.com/news-release/2026/10/06/3375885/0/en/global-defense-electronics-market-forecast-to-2036-ai-electronic-warfare-and-space-systems-drive-6-4-cagr-and-a-usd-486-8-billion-opportunity.html",
+        "snippet": "Target AI, edge computing, electronic warfare and space systems; leverage GaN, AESA and open architectures to improve interoperability and reduce lifecycle..."
+      },
+      {
+        "title": "India Defense Market 2026-2034: Size, Share, Growth Trends, Top Companies, Demand & Industry Outlook",
+        "publisher": "",
+        "date": "1 month ago",
+        "url": "https://openpr.com/news/4638187/india-defense-market-2026-2034-size-share-growth-trends-top",
+        "snippet": "How Is India s Defense Market Performing India s defense market stands as one of Asia s most strategically significant and rapidly modernizing security sectors encompassing Fixed Wing Aircraft Rotorcraft Ground Vehicles Naval Vessels C4ISR Weapons and Ammunition Protection and ..."
+      },
+      {
+        "title": "Bharat Electronics: డిఫెన్స్ రంగంలో భారీ ఆర్డర్లు.. రూ. 533 కోట్ల కాంట్రాక్టులతో దూకుడు! | Whalesbook Corporate News",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://whalesbook.com/corporate-news/Telugu/aerospace-defense/Bharat-Electronics-Secures-New-Defence-Orders-Worth-Rs-533-Crore/6ace0202b2eb76fd08c27516",
+        "snippet": "Bharat Electronics Limited కు రూ. 533 కోట్ల కొత్త డిఫెన్స్ ఆర్డర్లు. డ్రోన్లు, కమ్యూనికేషన్ పరికరాలతో BEL జోరు. ఇన్వెస్టర్లు తెలుసు..."
+      },
+      {
+        "title": "Bharat Elec Share Price, Bharat Elec Stock Price, Bharat Electronics Ltd. Stock Price, Share Price, Live BSE/NSE, Bharat Electronics Ltd. Bids Offers. Buy/Sell Bharat Electronics Ltd. news & tips, & F&O Quotes, NSE/BSE Forecast News and Live Quotes - Moneycontrol.com",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://www.moneycontrol.com/india/stockpricequote/aerospacedefence/bharatelectronics/BE03",
+        "snippet": "Bharat Elec Share Price: Find the latest news on Bharat Elec Stock Price. Get all the information on Bharat Elec with historic price charts for NSE / BSE. Experts & Broker view also get the Bharat Elec Ltd. buy/sell tips detailed news, announcements, Forecasts, Analysts, Valuation, Earning ..."
+      },
+      {
+        "title": "Bharat Electronics Board to Meet on 30 October for Q2 Results",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://www.psuconnect.in/psu-news/bharat-electronics-board-to-meet-on-30-october-for-q2-results",
+        "snippet": "Bharat Electronics Limited (BEL) will hold its Board meeting on 30 October 2026 to consider and approve unaudited standalone and consolidated financial…"
+      },
+      {
+        "title": "ಭಾರತ್ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಲಿಮಿಟೆಡ್ ನೇಮಕಾತಿ; ಯಾರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು? | Bharat Electronics Limited Recruitment; Who can apply?",
+        "publisher": "",
+        "date": "15 hours ago",
+        "url": "https://www.varthabharati.in/amp/information-guidance/bharat-electronics-limited-recruitment-who-can-apply-2283687",
+        "snippet": "ಭಾರತದ ಪ್ರಮುಖ ರಕ್ಷಣಾ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಸಂಸ್ಥೆಗಳಲ್ಲಿ ಒಂದಾದ ಭಾರತ್ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಲಿಮಿಟೆಡ್ (BEL) ಇದೀಗ ನಿರ್ದೇಶಕ ..."
+      },
+      {
+        "title": "BEL Q2 results 2026 date out | Market sees up to 16% YoY revenue growth, defence order may drop — share outlook in focus | Stock Market News",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://livemint.com/market/stock-market-news/bel-q2-results-2026-date-out-market-sees-up-to-16-yoy-revenue-growth-defence-order-may-drop-share-outlook-in-focus-11792223944924.html",
+        "snippet": "BEL Q2 Results 2026 Date: The board of directors of Bharat Electronics Limited (BEL) has scheduled its meeting on 30 October 2026 to consider and approve the September 2026 quarter results for the current financial year. The defence stock announced this in an exchange filing on Friday."
+      },
+      {
+        "title": "Bharat Electronics Limited में Project Engineer के पद खाली, दिल्ली और बेंगलुरु में इंटरव्यू - Prabhasakshi latest news in hindi",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://www.prabhasakshi.com/amp/news/bel-project-engineer-recruitment-announced-for-new-delhi-and-bengaluru",
+        "snippet": "भारत इलेक्ट्रॉनिक्स लिमिटेड ने प्रोजेक्ट इंजीनियर के विभिन्न पदों के लिए आवेदन आमंत्रित किए हैं। कंप्यूटर ..."
+      },
+      {
+        "title": "BEL wins INR 5.33 billion orders: what INR 722.58 billion means for Bharat Electronics stock",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/bel-wins-inr-5-33-billion-orders-what-inr-722-58-billion-means-for-bharat-electronics-stock/70337039",
+        "snippet": "Q1 FY2027 revenue rose 25.27 percent year over year. For Bharat Electronics stock, the order book st"
+      },
+      {
+        "title": "P/E at 45.17 vs Industry's 43.56: What the Data Shows for Bharat Electronics Ltd",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://marketsmojo.com/news/stocks-in-action/bharat-electronics-ltd-navigating-nifty-50-membership-amid-mixed-market-signals-4227363",
+        "snippet": "The Aerospace & Defense sector has experienced mixed results recently, with a combination of positive, flat, and negative performances among constituent stocks. Bharat Electronics Ltd’s relative outperformance over the one-year and year-to-date periods suggests it has been a more resilient ..."
+      },
+      {
+        "title": "Defence & power stocks secure Rs 12,000 cr orders: What it means for investors - Industry News | The Financial Express",
+        "publisher": "",
+        "date": "1 day ago",
+        "url": "https://www.financialexpress.com/business/industry-defence-amp-power-stocks-secure-rs-4927-orders-what-it-means-for-investors-4363570/",
+        "snippet": "Kalpataru Projects International, Bharat Dynamics, Adani Power, IRCON International and Bharat Electronics are among the companies that reported new business wins, ranging from heavyweight torpedo supplies for the Indian Navy to thermal power supply and railway construction contracts."
+      },
+      {
+        "title": "Stock Market Highlights, Oct 16: Sensex gains 413 pts, Nifty ends at 23,146 led by IT stocks - The HinduBusinessLine",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-16-october-2026/article71587755.ece",
+        "snippet": "InterGlobe Aviation, Reliance Industries, Asian Paints and Bharat Electronics were among the biggest laggards."
+      },
+      {
+        "title": "The Defence Order Backlog Question: What the Order Execution Test Really Reveals | Kalkine India",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://kalkine.co.in/article/industrials/bharat-electronics-nsebel-the-defence-order-backlog-question",
+        "snippet": "The company-specific test for Bharat Electronics's order execution calls for evidence from the company's own reporting. The wider picture includes domestic procurement, cash flow and the results of its business activities, rather than a headline taken on its own."
+      }
+    ],
+    "reports": [
+      {
+        "title": "The Indian Defence Industry",
+        "url": "https://nishithdesai.com/fileadmin/user_upload/pdfs/Research_Papers/Indian-Defence-Industry-Redefining_Frontiers-web.pdf",
+        "type": "other",
+        "summary": "Over the years, Positive Indigenization List, 26 · encompassing a total of 411 defense weaponry and equipment items, have been issued since 2020. Notably, around 75% (approximately INR 1 lakh crore)…"
+      },
+      {
+        "title": "Indian defence manufacturing landscape-DRDO, public ...",
+        "url": "https://www.allresearchjournal.com/archives/2025/vol11issue10/PartC/11-9-42-743.pdf",
+        "type": "other",
+        "summary": "Currently, HAL is providing ROH for 12 types of aircraft/ ... Industrial Marine Gas Turbines [49]. In FY 2024-25, HAL · reported revenue of ₹34,532 crore and a net profit of ₹5,827 · crore, with a wo…"
+      },
+      {
+        "title": "Indian Defence Industry: An Agenda for Making in India",
+        "url": "https://idsa.in/system/files/book/book_indian-defence-industry_0.pdf",
+        "type": "other",
+        "summary": "In 1954 Bharat Electronics Ltd (BEL) was set up with · French assistance. The government also acquired two shipyards – Mazagon · Dock Ltd and Garden Reach Shipyard – and placed them under the control…"
+      },
+      {
+        "title": "Defence - Sector Thematic",
+        "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf",
+        "type": "other",
+        "summary": "India is aligning its policies with this global shift. ... Policy & industry: IN-SPACe and NSIL reforms enable private participation."
+      },
+      {
+        "title": "Indian Defence Industry - Set to Grow at Around 20% ...",
+        "url": "https://www.careratings.com/uploads/newsfiles/1735540355_Indian%20defence%20industry%20-%20CareEdge%20Report.pdf",
+        "type": "other",
+        "summary": "The collaboration between the government and private sector entities in India’s defence sector has driven · advancements in arms and ammunition, aerospace, electronics, and naval technologies, aided…"
+      },
+      {
+        "title": "Make in India Powers Defence Growth",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202543531401.pdf",
+        "type": "government",
+        "summary": "Make in India Powers Defence Growth · Exports at ₹23,622 crore in FY 2024-25, while production hit ₹1.27 lakh crore in FY 2023-24"
+      },
+      {
+        "title": "INDIAN ELECTRONICS INDUSTRY PREPARED BY: SAS PARTNERS",
+        "url": "https://saspartners.com/wp-content/uploads/2024/12/Indian-Electronics-Industry-Report.pdf",
+        "type": "other",
+        "summary": "India and Start-up India programs, emphasizing its significance in achieving the goal of generating US$ 1 trillion from the digital economy by 2025. The industry spans across various sectors includin…"
+      },
+      {
+        "title": "Delhi NCR | Mumbai | Bengaluru | UAE | KSA | Singapore www.1lattice.com S",
+        "url": "https://smgroupindia.com/wp-content/uploads/2024/10/Industry-Report.pdf",
+        "type": "other",
+        "summary": "income. The industry generated 16-17% of India’s GDP pre-pandemic and is projected to be one of the fastest-growing sectors."
+      },
+      {
+        "title": "Advanced Chemistry Cell Battery Reuse and Recycling Market in India",
+        "url": "https://www.niti.gov.in/sites/default/files/2022-07/ACC-battery-reuse-and-recycling-market-in-India_Niti-Aayog_UK.pdf",
+        "type": "government",
+        "summary": "starting, lighting and ignition (SLI) batteries, consumer electronics and home or · commercial uninterruptible power supply · (UPS) solutions. This report undertakes analysis of the · overall battery…"
+      },
+      {
+        "title": "State of Industry R&D in India",
+        "url": "https://www.fast-india.org/wp-content/uploads/2024/05/State-of-Industry-RD-in-India.pdf",
+        "type": "other",
+        "summary": "Today, there are no objective benchmarks for the Indian industry to compare their R&D · efforts with their peers in India and globally. The report provides an objective comparison"
+      },
+      {
+        "title": "Indian Aerospace & Defence Industry Outlook",
+        "url": "https://www.sicci.in/pdf/reports/624ca9b871c94Knowledge-Paper-A&D%20Industry-17.12.2020.pdf",
+        "type": "other",
+        "summary": "India’s Defence & Aerospace requirements and our specific focus has been on Tamil Nadu with our · multiple engagements & conferences with the Defence forces. SICCI is committed to the establishment ·…"
+      },
+      {
+        "title": "India's Defence Equipment Industry: Exploring New Frontiers",
+        "url": "https://www.eximbankindia.in/sites/default/files/2025-07/210file_0.pdf",
+        "type": "other",
+        "summary": "A. Expanding Defence Export Horizons: India aims at achieving defence exports of ₹ 500 billion by 2029 from · an estimated ₹ 210.8 billion in 2023-24. This may be achieved by accelerating the pace of…"
+      }
+    ],
+    "youtube": [
+      {
+        "title": "Bharat Electronics Ltd BEL From 1954 Origins to India’s Digital Defence Giant | Full Company Histor - YouTube",
+        "url": "https://www.youtube.com/watch?v=ZoMOoENEvhI",
+        "why_relevant": "🛡️ Bharat Electronics Ltd (BEL): Company Overview | Business Model | Defence PSU of IndiaIn this video, we explore Bharat Electronics Limited (BEL), a leadi...",
+        "thumbnail": "https://img.youtube.com/vi/ZoMOoENEvhI/hqdefault.jpg"
+      },
+      {
+        "title": "Everything You Need to Know About India’s Lithium Ion Battery Sector | Markets by Zerodha Hindi - YouTube",
+        "url": "https://www.youtube.com/watch?v=EU_joBDViG8",
+        "why_relevant": "Is video mein hum baat karenge ek aise game-changing technology ke baare mein, jo aaj ke time mein electric vehicles aur renewable energy storage ka backbone...",
+        "thumbnail": "https://img.youtube.com/vi/EU_joBDViG8/hqdefault.jpg"
+      },
+      {
+        "title": "India's Defence Industry Revolution | Defence Dynamics - YouTube",
+        "url": "https://www.youtube.com/watch?v=eMU9UpDhrmc",
+        "why_relevant": "#AtmanirbharBharat #MakeInIndia #IndianDefence #DRDO India’s defence sector is transforming rapidly. From DRDO-led development to a powerful private-public e...",
+        "thumbnail": "https://img.youtube.com/vi/eMU9UpDhrmc/hqdefault.jpg"
+      },
+      {
+        "title": "Defence Tech Supercycle? India’s Shift to AI Warfare, Drones & Missiles Explained | Deep Dive - YouTube",
+        "url": "https://www.youtube.com/watch?v=PlhkwY9QD7Y",
+        "why_relevant": "Modern warfare is shifting from firepower to technology drones, AI, and precision systems are redefining battlefields. With rising defence spending and a str...",
+        "thumbnail": "https://img.youtube.com/vi/PlhkwY9QD7Y/hqdefault.jpg"
+      },
+      {
+        "title": "Electronics, EVs, Defence Rising, But India’s Manufacturing Lags Behind - YouTube",
+        "url": "https://www.youtube.com/watch?v=j94_BCYOfe0",
+        "why_relevant": "India’s manufacturing is growing in electronics, EVs, and defence, yet value addition and employment lag behind. We analyse what India makes, what it imports...",
+        "thumbnail": "https://img.youtube.com/vi/j94_BCYOfe0/hqdefault.jpg"
+      },
+      {
+        "title": "Breaking News | Defence Giant Safran to Set Up Its First Electronics Unit in India | NewsX - YouTube",
+        "url": "https://www.youtube.com/watch?v=lMpoLk-qYao",
+        "why_relevant": "French defence conglomerate Safran Group has indicated to India's National Security Advisor Ajit Doval that it is willing to set up its first Defence Electro...",
+        "thumbnail": "https://img.youtube.com/vi/lMpoLk-qYao/hqdefault.jpg"
+      },
+      {
+        "title": "India Boosts Indigenous Defence Manufacturing with Key Technology Transfers - YouTube",
+        "url": "https://www.youtube.com/watch?v=o__EewtysfM",
+        "why_relevant": "In a significant push to expand India’s indigenous defence manufacturing capabilities, the Defence Research and Development Organisation (DRDO) has transferr...",
+        "thumbnail": "https://img.youtube.com/vi/o__EewtysfM/hqdefault.jpg"
+      },
+      {
+        "title": "💥 Top 10 Countries With the Largest Defense Electronics Industry ⚙️💥#shorts #youtubeshorts #army - YouTube",
+        "url": "https://www.youtube.com/watch?v=UUF43dhDNEo",
+        "why_relevant": "\"Modern wars are powered as much by electronics as by weapons! ⚙️\"Defense electronics include radar, sensors, avionics, communications, and electronic warfar...",
+        "thumbnail": "https://img.youtube.com/vi/UUF43dhDNEo/hqdefault.jpg"
+      }
+    ]
   },
   "summary": {
     "headline": "India's defence electronics market is valued at roughly USD 10.5 billion (2025) and growing near 8% CAGR -- the fastest of any major country -- while the broader India battery market stands at about USD 9.3-14 billion and is set to more than quadruple to USD 78.8 billion by 2035 on EV, grid-storage and telecom demand.",
@@ -76,51 +408,81 @@
     "report": {
       "kind": "llm",
       "generated_at": "2026-10-18",
-      "hash": "e5dfd86c6827a46b7c4686bfa808d6df",
+      "hash": "f2b2da4c4cfd9f490c41d8a2eca5f6e4",
       "sections": [
         {
           "heading": "Executive summary",
           "prose": [
-            "India's defence electronics market is valued at roughly USD 10.5 billion in 2025 and is growing near 8% a year through FY32 -- among the fastest rates of any major country. Alongside it, the broader India battery market, worth roughly USD 9.3-14 billion today, is set to more than quadruple to USD 78.8 billion by 2035, driven by EVs, grid storage and telecom demand.",
-            "Indian defence production hit a record ₹1.27 lakh crore in FY24, up 174% since FY15, and defence exports have jumped 34 times since FY14 to ₹23,622 crore in FY25. The government is targeting ₹3 lakh crore in production and ₹50,000 crore in exports by FY29.",
-            "Bharat Electronics Ltd (BEL) dominates the electronics side with a 60% market share and a ₹730 billion order backlog. The battery side is far more import-dependent: India still imports around 84% of its lithium-ion batteries, mostly from China, even as PLI-backed gigafactories from Tata, Reliance, Exide and Ola push toward over 50 GWh of domestic cell capacity."
-          ],
-          "key_numbers": [],
-          "source_refs": []
-        },
-        {
-          "heading": "Market size & growth",
-          "prose": [
-            "India's defence exports hit an all-time high of ₹23,622 crore in FY25, up from ₹21,083 crore in FY24 and ₹15,918 crore in FY23 -- a 34-times increase from just ₹686 crore in FY14. Exports have compounded at roughly 28% a year over FY18-24, according to CareEdge.",
-            "Separately, India's defence electronics market itself is growing at around 7-8% a year through FY32, among the fastest of any major country, as domestic procurement mandates, platform modernisation programs, and rising defence budgets feed a large and expanding order pipeline.",
-            "The battery market tells a similar growth story on a much larger scale: India's battery market, currently USD 9.3-14 billion, is projected to grow more than four-fold to USD 78.8 billion by 2035, powered by EV adoption, grid-storage buildout and telecom infrastructure demand."
+            "India's defence electronics market is worth roughly USD 10.5 billion in 2025 and is growing near 8% a year, the fastest rate among major countries. Alongside it, India's broader battery market, currently USD 9.3-14 billion, is expected to more than quadruple to USD 78.8 billion by 2035, driven by electric vehicles, grid storage and telecom demand.",
+            "Indian defence production hit a record Rs 1.27 lakh crore in FY24, up 174% since FY15, and defence exports have surged 34 times since FY14 to Rs 23,622 crore in FY25. The government is targeting Rs 3 lakh crore in production and Rs 50,000 crore in exports by FY29.",
+            "State-run Bharat Electronics (BEL) dominates defence electronics with a 60% market share and a Rs 730 billion order backlog, supported by HAL, BDL, MDL and a fast-growing group of private players. India is still one of the world's largest arms importers, and the battery sector remains heavily dependent on imported lithium, cobalt and nickel, mostly from China -- the central tension in both industries' growth stories."
           ],
           "key_numbers": [
             {
-              "label": "Defence exports (FY25)",
-              "value": "₹23,622 crore"
+              "label": "India defence electronics market size",
+              "value": "USD 10.5B (2025)"
             },
             {
-              "label": "Defence exports (FY14)",
-              "value": "₹686 crore"
+              "label": "India defence electronics growth",
+              "value": "~8% CAGR"
             },
             {
-              "label": "Defence export CAGR (FY18-24)",
-              "value": "~28%"
+              "label": "India battery market by 2035",
+              "value": "USD 78.8B"
             },
             {
-              "label": "Defence electronics market CAGR (throug…",
-              "value": "~7-8%"
+              "label": "Defence exports FY25",
+              "value": "Rs 23,622 crore"
+            },
+            {
+              "label": "BEL market share",
+              "value": "60%"
             }
           ],
           "source_refs": []
         },
         {
+          "heading": "Market size & growth",
+          "prose": [
+            "India's defence exports reached an all-time high of Rs 23,622 crore in FY 2024-25, a 34-fold increase from Rs 686 crore in FY 2013-14. Growth has been steady and sharp across the decade: from Rs 4,682 crore in FY17 to Rs 10,746 crore in FY19, Rs 15,918 crore in FY23, Rs 21,083 crore in FY24, and now Rs 23,622 crore in FY25.",
+            "Defence exports grew at roughly 28% CAGR between FY18 and FY24. The India defence electronics market itself is forecast to grow at about 7-8% CAGR through FY32, among the fastest rates of any major country's defence electronics sector.",
+            "The government has set a target of Rs 3 lakh crore in total defence production and Rs 50,000 crore in exports by FY29, implying continued strong growth from current levels."
+          ],
+          "key_numbers": [
+            {
+              "label": "Defence exports FY25",
+              "value": "Rs 23,622 crore"
+            },
+            {
+              "label": "Defence exports FY14",
+              "value": "Rs 686 crore"
+            },
+            {
+              "label": "Exports CAGR FY18-24",
+              "value": "~28%"
+            },
+            {
+              "label": "Defence electronics CAGR through FY32",
+              "value": "~7-8%"
+            },
+            {
+              "label": "Export target by FY29",
+              "value": "Rs 50,000 crore"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "PIB / HDFC Securities",
+              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202543531401.pdf"
+            }
+          ]
+        },
+        {
           "heading": "Segments",
           "prose": [
-            "In global defence electronics, C4ISR systems (command, control, communications, computers, intelligence, surveillance, reconnaissance) are the largest equipment segment, exceeding 40% share in 2025. Radar systems account for 23.3% of the global market, the largest application segment, while electronic warfare is the second-largest India application segment at about 22.6% and the fastest-growing globally.",
-            "By platform, airborne systems lead globally with 39.4% share, while land platforms account for roughly USD 58.9 billion of the global market, growing at about 4.9% a year.",
-            "Within India's defence production base, public-sector DPSUs contribute roughly 74-79% of output, with the private sector making up about 21%. On the battery side, secondary (rechargeable) batteries hold 65.5% of India's battery market by revenue and are growing at a 15.9% CAGR through 2031. Lead-acid remains the dominant chemistry at 53.2% share, and automotive is the largest application at 39.6% share, growing 15.2% a year."
+            "Globally, C4ISR systems are the largest defence electronics equipment segment, exceeding 40% share in 2025. Radar systems make up 23.3% of the global defence electronics market, while electronic warfare is the second-largest and fastest-growing application segment, at about 22.6% of India's defence electronics market in 2024.",
+            "By platform, airborne systems lead globally with 39.4% share, while land platforms account for roughly USD 58.9 billion and are growing at about 4.9% CAGR. In India's defence production base, public-sector DPSUs contribute around 74-79% of output, with the private sector contributing 21%.",
+            "In batteries, secondary (rechargeable) batteries lead India's market with 65.5% revenue share in 2025 and a 15.9% CAGR outlook through 2031. Lead-acid remains the dominant chemistry at 53.2% share, while automotive is the largest end-use application at 39.6% share, growing at 15.2% CAGR through 2031."
           ],
           "key_numbers": [
             {
@@ -132,23 +494,49 @@
               "value": "23.3% (2025)"
             },
             {
-              "label": "DPSU share of India defence production",
-              "value": "~74-79%"
+              "label": "Electronic warfare India share",
+              "value": "22.6% (2024)"
             },
             {
-              "label": "Secondary batteries share, India",
+              "label": "India secondary battery share",
               "value": "65.5% (2025)"
+            },
+            {
+              "label": "India lead-acid share",
+              "value": "53.2% (2025)"
             }
           ],
-          "source_refs": []
+          "source_refs": [
+            {
+              "label": "6Wresearch",
+              "url": "https://www.6wresearch.com/industry-report/global-defense-electronics-market"
+            },
+            {
+              "label": "GM Insights",
+              "url": "https://www.gminsights.com/industry-analysis/defense-electronics-market"
+            },
+            {
+              "label": "Fortune Business Insights (via secondary)",
+              "url": "https://jhoonsmith2468.wixsite.com/trends-insights-blog/post/india-defense-electronics-market-size-share-future-analysis-2026-2034"
+            },
+            {
+              "label": "AllResearchJournal",
+              "url": "https://www.allresearchjournal.com/archives/2025/vol11issue10/PartC/11-9-42-743.pdf"
+            },
+            {
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-battery-market"
+            }
+          ]
         },
         {
           "heading": "Value chain",
           "prose": [
-            "Research and design sits with DRDO's 50+ labs and private players like Data Patterns and Astra Microwave, developing radars, electronic warfare systems and missile electronics. BEL invests 6-7% of revenue in R&D each year. R&D-heavy domestic orders carry 40-45% gross margins versus just 8-10% for build-to-print export orders.",
-            "Component and sub-system manufacturing is handled by BEL, HAL, BDL and Tier-2 private firms such as Apollo Micro Systems and Paras Defence, though critical semiconductor and GaN content remains import-reliant. Defence electronics makes up roughly 32% of total global defence procurement value.",
-            "BEL and HAL act as lead system integrators on major platforms like QRSAM, Tejas and Project Kusha, managing complex multi-vendor projects at a scale private firms cannot yet match -- a role that supports BEL's ~27-28% EBITDA margins.",
-            "On the battery side, cathode, anode and electrolyte materials are overwhelmingly imported, with China supplying 39% of global cathode material by weight. India assembles cells and packs domestically under PLI incentives but lacks upstream mining and refining scale, leaving domestic cell manufacturing 25-40% more expensive than imports. Defence offset policy also requires foreign OEMs to reinvest 30% of large contract value (₹2,000 crore+) into India, pushing firms like Thales, Safran, Rafael and MBDA into local joint ventures."
+            "Design and R&D sit with DRDO's 50+ labs and private firms like Data Patterns and Astra Microwave, which design radars, electronic warfare systems and missile electronics. BEL invests 6-7% of revenue in R&D each year. Domestic, R&D-heavy production carries 40-45% gross margins, far above the 8-10% margin typical of build-to-print export orders.",
+            "Component and sub-system manufacturing runs through BEL, HAL, BDL and Tier-2 private firms such as Apollo Micro Systems and Paras Defence, though critical semiconductor and GaN content remains import-reliant. Defence electronics makes up roughly 32% of total global defence procurement value.",
+            "BEL and HAL act as lead system integrators on major platforms like QRSAM, Tejas and Project Kusha, managing complex multi-vendor projects at a scale private players cannot yet match -- a role that supports BEL's roughly 27-28% EBITDA margins.",
+            "In batteries, cathode, anode and electrolyte materials are overwhelmingly imported, with China alone supplying 39% of global cathode material by weight. India assembles cells and packs domestically under PLI incentives but lacks upstream mining and refining scale, keeping domestic cell costs 25-40% higher than imports.",
+            "Defence offset policy requires foreign OEMs to invest 30% of large contract value (Rs 2,000 crore or more) back into India, pushing global firms like Thales, Safran, Rafael and MBDA into joint ventures with Indian players."
           ],
           "key_numbers": [
             {
@@ -156,7 +544,7 @@
               "value": "40-45%"
             },
             {
-              "label": "Export/build-to-print gross margin",
+              "label": "Export order gross margin",
               "value": "8-10%"
             },
             {
@@ -164,18 +552,40 @@
               "value": "~32%"
             },
             {
-              "label": "Offset requirement threshold",
-              "value": "₹2,000 crore+"
+              "label": "China share of global cathode material",
+              "value": "39% (by weight)"
+            },
+            {
+              "label": "Offset obligation threshold",
+              "value": "Rs 2,000 crore"
             }
           ],
-          "source_refs": []
+          "source_refs": [
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf"
+            },
+            {
+              "label": "DCX Industry Report",
+              "url": "https://dcxindia.com/wp-content/uploads/2022/10/18a.-DCX-Industry-Report.pdf"
+            },
+            {
+              "label": "NITI Aayog",
+              "url": "https://www.niti.gov.in/sites/default/files/2022-07/ACC-battery-reuse-and-recycling-market-in-India_Niti-Aayog_UK.pdf"
+            },
+            {
+              "label": "DAP 2020 via SICCI",
+              "url": "https://www.sicci.in/pdf/reports/624ca9b871c94Knowledge-Paper-A&D%20Industry-17.12.2020.pdf"
+            }
+          ]
         },
         {
           "heading": "Key players & positioning",
           "prose": [
-            "Bharat Electronics Ltd (BEL) is the clear leader in India's defence electronics, holding a 60% market share and a ₹730 billion order backlog as of Q3FY26. Hindustan Aeronautics Ltd (HAL) is India's sole fighter-platform integrator, supporting nearly 80% of the country's active military fleet, with an order backlog of roughly ₹1.8-2.4 trillion. Bharat Dynamics Ltd (BDL) holds access to over 50% of the domestic missile market, and Mazagon Dock Shipbuilders (MDL) is India's leading shipyard and the only PSU yard to have built both destroyers and submarines.",
-            "A fast-growing cluster of private players is scaling up: Data Patterns commands the highest margins among peers through its modular, COTS-led approach; Astra Microwave is a proxy play on defence and space growth via its JV with Israel's Rafael; Apollo Micro Systems has worked with DRDO for over 40 years across missile and naval programs; and Paras Defence is the only Asia-Pacific company making submarine periscopes. Tata Advanced Systems, Mahindra Defence Systems and L&T Defence round out the private landscape, alongside global leaders Lockheed Martin (12.8% world market share) and RTX Corporation (13.3%).",
-            "In batteries, Exide Industries leads nationally and has commissioned a 3 GWh lithium-ion line in Pune, while Amara Raja dominates southern India and supplies batteries for defence communication and surveillance uses. Tata (Agratas)/Tata Chemicals is investing about USD 1.5 billion in a lithium-ion gigafactory in Gujarat. HBL Power Systems supplies lead-acid, nickel-cadmium and lithium-ion products specifically for defence and railways, and Attero Recycling is India's largest lithium battery recycler, expanding capacity toward 200,000-300,000 tonnes a year."
+            "Bharat Electronics (BEL) is the clear leader in Indian defence electronics with a 60% market share and a Rs 730 billion order backlog as of Q3FY26. Hindustan Aeronautics (HAL) is India's sole fighter-platform integrator, supporting nearly 80% of the country's active military fleet, with an order backlog of roughly Rs 1.8-2.4 trillion. Bharat Dynamics (BDL) is the primary manufacturer of guided missiles, with access to over 50% of the domestic missile market, while Mazagon Dock (MDL) is India's leading shipbuilding yard and the only PSU shipyard to have built both destroyers and submarines.",
+            "A fast-growing cluster of private players is emerging alongside the PSUs. Data Patterns commands the highest margins among peers through a modular, reusable component approach with over 1,000 COTS building blocks. Astra Microwave is a proxy play on India's defence and space growth via its RF/microwave sub-systems and Rafael joint venture. Apollo Micro Systems has worked with DRDO for over 40 years across missile and naval programs, and Paras Defence is the only Asia-Pacific company making submarine periscopes and the only Indian private firm producing hyperspectral cameras. Larger private conglomerates -- Tata Advanced Systems, Mahindra Defence and L&T Defence -- are also expanding across electronics, aerostructures and missile systems.",
+            "Globally, Lockheed Martin (12.8% share) and RTX Corporation (13.3% share) lead the worldwide defence electronics market in 2025, with no significant India-specific share disclosed for either.",
+            "In batteries, Exide Industries leads nationally and has commissioned a 3 GWh lithium-ion line in Pune, while Amara Raja dominates southern India and supplies batteries for defence communication and surveillance uses. Tata (via Agratas/Tata Chemicals) is investing about USD 1.5 billion in a lithium-ion gigafactory in Gujarat. HBL Power Systems supplies specialised lead-acid, nickel-cadmium and lithium-ion batteries for defence and railways, and Attero Recycling is India's largest lithium battery recycler, expanding capacity toward 200,000-300,000 tonnes a year."
           ],
           "key_numbers": [
             {
@@ -184,7 +594,7 @@
             },
             {
               "label": "BEL order backlog",
-              "value": "₹730 billion (Q3FY26)"
+              "value": "Rs 730 billion (Q3FY26)"
             },
             {
               "label": "HAL fleet support",
@@ -203,97 +613,199 @@
               "value": "13.3% (2025)"
             }
           ],
-          "source_refs": []
+          "source_refs": [
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf"
+            },
+            {
+              "label": "GM Insights",
+              "url": "https://www.gminsights.com/industry-analysis/defense-electronics-market"
+            },
+            {
+              "label": "AllResearchJournal",
+              "url": "https://www.allresearchjournal.com/archives/2025/vol11issue10/PartC/11-9-42-743.pdf"
+            },
+            {
+              "label": "MarknTel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/india-battery-market-report.html"
+            },
+            {
+              "label": "Nishith Desai Associates",
+              "url": "https://nishithdesai.com/fileadmin/user_upload/pdfs/Research_Papers/Indian-Defence-Industry-Redefining_Frontiers-web.pdf"
+            },
+            {
+              "label": "Fortune Business Insights (via secondary)",
+              "url": "https://jhoonsmith2468.wixsite.com/trends-insights-blog/post/india-defense-electronics-market-size-share-future-analysis-2026-2034"
+            }
+          ]
         },
         {
           "heading": "Margins",
           "prose": [
-            "BEL's EBITDA margin has expanded steadily, from 21.2% in FY20 to 28.8% in FY25, with management guiding toward roughly 27% from FY26 onward. Domestic defence orders carry 40-45% gross margins, far above the 8-10% margins typical of export or build-to-print work -- a key reason companies prize domestic order books. Among private players, Data Patterns stands out with the highest margins (38-45% EBITDA) due to its modular, reusable COTS-based design approach."
+            "BEL's EBITDA margin has expanded steadily from 21.2% in FY20 to 28.8% in FY25, and management guides to about 27% EBITDA margin from FY26 onward. This reflects BEL's position as a lead system integrator managing complex, large-scale projects.",
+            "Domestic defence orders generally carry 40-45% gross margins, compared with just 8-10% for export or build-to-print orders, as seen at Astra Microwave. Among private players, Data Patterns shows the highest margins -- 38-45% EBITDA -- thanks to its modular, reusable COTS-based approach."
           ],
           "key_numbers": [
             {
-              "label": "BEL EBITDA margin (FY25)",
+              "label": "BEL EBITDA margin FY25",
               "value": "28.8%"
             },
             {
-              "label": "BEL EBITDA margin (FY20)",
+              "label": "BEL EBITDA margin FY20",
               "value": "21.2%"
             },
             {
-              "label": "BEL EBITDA guidance (FY26E+)",
+              "label": "BEL guided margin FY26E+",
               "value": "~27%"
             },
             {
-              "label": "Data Patterns EBITDA margin",
-              "value": "38-45%"
+              "label": "Domestic order gross margin",
+              "value": "40-45%"
+            },
+            {
+              "label": "Export order gross margin",
+              "value": "8-10%"
             }
           ],
-          "source_refs": []
+          "source_refs": [
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf"
+            }
+          ]
         },
         {
           "heading": "Supply & capacity",
           "prose": [
-            "India's PLI-backed Advanced Chemistry Cell (ACC) scheme is targeting 50 GWh of domestic lithium-ion cell manufacturing capacity, backed by gigafactory investments from Tata, Reliance, Exide and Ola. Despite this build-out, India remains heavily reliant on imports: lithium-ion battery imports rose sharply from USD 329 million in 2017 to USD 1,193 million in 2020, and USD 1,291 million just in April-December of FY22, underlining the scale of the import gap domestic capacity still needs to close."
+            "India's PLI-backed Advanced Chemistry Cell (ACC) scheme targets 50 GWh of domestic lithium-ion cell manufacturing capacity, with gigafactories being built by Tata, Reliance, Exide and Ola. Despite this build-out, India remains overwhelmingly import-dependent for lithium-ion batteries: imports of lithium-ion batteries rose sharply from USD 329 million in 2017 to USD 1,193 million in 2020, and USD 1,291 million in just the April-December period of FY22.",
+            "To support domestic manufacturing, India raised the import duty on lithium cells from 5% to 10% and on lithium battery packs from 5% to 15%, both effective April 2021."
           ],
           "key_numbers": [
             {
-              "label": "Target domestic cell capacity",
+              "label": "ACC PLI target capacity",
               "value": "50 GWh"
             },
             {
-              "label": "LIB imports (2017)",
-              "value": "USD 329M"
+              "label": "LIB imports 2017",
+              "value": "USD 329 million"
             },
             {
-              "label": "LIB imports (2020)",
-              "value": "USD 1,193M"
+              "label": "LIB imports 2020",
+              "value": "USD 1,193 million"
             },
             {
-              "label": "LIB imports (Apr-Dec FY22)",
-              "value": "USD 1,291M"
+              "label": "LIB imports Apr-Dec FY22",
+              "value": "USD 1,291 million"
             }
           ],
-          "source_refs": []
+          "source_refs": [
+            {
+              "label": "NITI Aayog",
+              "url": "https://www.niti.gov.in/sites/default/files/2022-07/ACC-battery-reuse-and-recycling-market-in-India_Niti-Aayog_UK.pdf"
+            }
+          ]
         },
         {
           "heading": "Tailwinds vs headwinds",
           "prose": [
-            "Global defence spending jumped 9.4% in real terms in 2024 to USD 2,718 billion -- the steepest annual rise since the Cold War -- lifting demand for Indian platforms and exports. Domestically, a 75% procurement mandate for Indian suppliers and 509+ import-banned defence items create captive demand, while falling global battery pack prices (toward USD 80/kWh by 2026) improve EV and storage economics. Operation Sindoor in May 2025, which saw indigenous Akash and S-400 systems neutralize 600 hostile drones, validated Indian systems in live combat and boosted both domestic and export confidence.",
-            "Still, India remains the world's largest or second-largest arms importer, accounting for roughly 8.3-9.8% of global arms imports in 2019-24, showing indigenisation has not yet closed the gap. The battery value chain is even more exposed: India imports about 82% of its lithium and 76% of its silicon from China, which controls 85-98% of global capacity across cathodes, anodes, separators and electrolytes, and locally made cells are expected to cost 25-40% more than Chinese imports near-term. On the electronics side, engine and semiconductor supply delays -- such as GE F-404 engines for the Tejas Mk1A -- threaten production timelines, while complex acquisition procedures add 3-5 years to typical procurement cycles and US ITAR export controls limit technology transfer depth."
+            "Global defence spending rose 9.4% in real terms in 2024 to USD 2,718 billion, the steepest annual increase since the Cold War, lifting demand for Indian platforms and exports. Domestically, a 75% procurement mandate for domestic suppliers and 509 import-prohibited defence items create captive demand. Falling global lithium-ion pack prices -- toward USD 80/kWh by 2026 from USD 115/kWh in 2024 -- improve EV and storage economics even as India scales domestic cell manufacturing. Operation Sindoor in May 2025, which neutralized 600 hostile drones using indigenous S-400 and Akash systems, validated Indian systems in live combat and boosted both domestic and export confidence.",
+            "Despite indigenisation progress, India remains the world's second-largest defence importer, accounting for roughly 9% of global arms imports during 2020-24. On the battery side, India imports about 82% of lithium and 76% of silicon from China, which controls 85-98% of global capacity across cathodes, anodes, separators and electrolytes -- a major structural vulnerability. Domestically manufactured battery cells are expected to cost 25-40% more than Chinese imports in the near term due to oversupply and price undercutting from China.",
+            "Engine and semiconductor supply delays -- notably GE F-404 engine deliveries for the Tejas Mk1A -- threaten platform production timelines and underline continued dependence on foreign licensed technology. Complex, multi-stage acquisition procedures add 3-5 years to typical procurement cycles, delaying order conversion into revenue, while US ITAR export-control regimes limit the depth of technology transfer available to Indian firms even under dual-sourcing arrangements."
           ],
           "key_numbers": [
             {
-              "label": "Global defence spending growth (2024)",
-              "value": "+9.4% real, to USD 2,718B"
+              "label": "Global defence spending growth 2024",
+              "value": "+9.4% real, USD 2,718B"
             },
             {
               "label": "India share of global arms imports",
-              "value": "~8.3-9.8% (2019-24)"
+              "value": "~9% (2020-24)"
             },
             {
               "label": "India lithium import dependence",
               "value": "~82% from China"
             },
             {
-              "label": "Local cell cost premium vs imports",
-              "value": "25-40% higher"
+              "label": "China control of battery material capac…",
+              "value": "85-98%"
+            },
+            {
+              "label": "Domestic cell cost premium",
+              "value": "25-40% vs imports"
             }
           ],
-          "source_refs": []
+          "source_refs": [
+            {
+              "label": "Market Research Future",
+              "url": "https://www.marketresearchfuture.com/reports/defense-electronics-market-12379"
+            },
+            {
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-defense-market"
+            },
+            {
+              "label": "Mordor Intelligence / IndianDefenseNews",
+              "url": "https://www.indiandefensenews.in/2026/09/indias-194000-crore-battery-race-can-it.html"
+            },
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf"
+            },
+            {
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-battery-market"
+            }
+          ]
         },
         {
           "heading": "Outlook",
           "prose": [
-            "India's defence electronics market is set to keep growing near 8% a year through FY32, supported by rising defence budgets (6.4% CAGR projected for 2024-30E), a long pipeline of platform programs (QRSAM, Project Kusha, AMCA, Tejas Mk1A/Mk2, P-75(I) submarines), and government targets of ₹3 lakh crore production and ₹50,000 crore exports by FY29.",
-            "The battery market's growth path is even steeper, with India targeting a more than four-fold expansion to USD 78.8 billion by 2035 as EV adoption, grid storage and telecom demand scale up alongside PLI-backed gigafactory capacity. The key swing factors on both fronts are the same: how fast India can close its reliance on imported engines, semiconductors, GaN components and battery raw materials, and whether procurement cycles and cost gaps versus China can be shortened as domestic capacity ramps up."
+            "India's defence electronics market is set to keep growing near 8% a year through FY32, supported by rising defence budgets (6.4% CAGR projected for 2024-30E, up from 4.2% in 2017-24), a 75% domestic procurement mandate, and long-term platform programs like QRSAM, Project Kusha, AMCA and Tejas Mk1A/Mk2 that give suppliers multi-year revenue visibility. Government targets of Rs 3 lakh crore in production and Rs 50,000 crore in exports by FY29 signal continued expansion of both domestic output and global sales.",
+            "The battery market's growth to USD 78.8 billion by 2035 depends on EV adoption, grid storage and telecom demand, backed by PLI-funded gigafactories targeting 50+ GWh of cell capacity. However, this growth will likely continue alongside heavy import dependence on Chinese lithium, cobalt, nickel and processed materials, keeping near-term domestic cell costs 25-40% above imports.",
+            "Key risks to watch: continued reliance on foreign engines and semiconductors (illustrated by GE F-404 delays), China's near-total control of battery material supply chains, slow multi-year procurement cycles, and ITAR-related technology transfer limits. These will shape how quickly India's indigenisation targets convert into실현 production and export outcomes."
           ],
-          "key_numbers": [],
-          "source_refs": []
+          "key_numbers": [
+            {
+              "label": "Defence electronics CAGR through FY32",
+              "value": "~7-8%"
+            },
+            {
+              "label": "India defence budget CAGR 2024-30E",
+              "value": "6.4%"
+            },
+            {
+              "label": "Battery market by 2035",
+              "value": "USD 78.8B"
+            },
+            {
+              "label": "Production target FY29",
+              "value": "Rs 3 lakh crore"
+            },
+            {
+              "label": "Export target FY29",
+              "value": "Rs 50,000 crore"
+            }
+          ],
+          "source_refs": [
+            {
+              "label": "HDFC Securities",
+              "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf"
+            },
+            {
+              "label": "PIB / HDFC Securities",
+              "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202543531401.pdf"
+            },
+            {
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-battery-market"
+            }
+          ]
         },
         {
           "heading": "Sources",
           "prose": [
-            "This report draws on Indian government data (PIB, NITI Aayog), industry and brokerage research (HDFC Securities), and specialist market research firms (GM Insights, Mordor Intelligence, 6Wresearch, Market Research Future, MarknTel Advisors, DCX India), along with sector-specific publications covering India's defence and battery industries."
+            "This report draws on Indian government data (PIB), industry research firms (Mordor Intelligence, GM Insights, 6Wresearch, Market Research Future, MarknTel Advisors), sector analysis from HDFC Securities, and supporting technical and policy documents from NITI Aayog, DCX India and Nishith Desai Associates."
           ],
           "key_numbers": [],
           "source_refs": [
@@ -310,56 +822,16 @@
               "url": "https://www.gminsights.com/industry-analysis/defense-electronics-market"
             },
             {
-              "label": "Fortune Business Insights (via secondary)",
-              "url": "https://jhoonsmith2468.wixsite.com/trends-insights-blog/post/india-defense-electronics-market-size-share-future-analysis-2026-2034"
-            },
-            {
-              "label": "AllResearchJournal",
-              "url": "https://www.allresearchjournal.com/archives/2025/vol11issue10/PartC/11-9-42-743.pdf"
-            },
-            {
-              "label": "Mordor Intelligence (battery)",
-              "url": "https://www.mordorintelligence.com/industry-reports/india-battery-market"
-            },
-            {
               "label": "HDFC Securities",
               "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf"
             },
             {
-              "label": "Market Research Future",
-              "url": "https://www.marketresearchfuture.com/reports/defense-electronics-market-12379"
-            },
-            {
-              "label": "Mordor Intelligence (defense)",
-              "url": "https://www.mordorintelligence.com/industry-reports/india-defense-market"
-            },
-            {
-              "label": "IndianDefenseNews",
-              "url": "https://www.indiandefensenews.in/2026/09/indias-194000-crore-battery-race-can-it.html"
-            },
-            {
-              "label": "DCX Industry Report",
-              "url": "https://dcxindia.com/wp-content/uploads/2022/10/18a.-DCX-Industry-Report.pdf"
+              "label": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/india-battery-market"
             },
             {
               "label": "NITI Aayog",
               "url": "https://www.niti.gov.in/sites/default/files/2022-07/ACC-battery-reuse-and-recycling-market-in-India_Niti-Aayog_UK.pdf"
-            },
-            {
-              "label": "DAP 2020 via SICCI",
-              "url": "https://www.sicci.in/pdf/reports/624ca9b871c94Knowledge-Paper-A&D%20Industry-17.12.2020.pdf"
-            },
-            {
-              "label": "Nishith Desai Associates",
-              "url": "https://nishithdesai.com/fileadmin/user_upload/pdfs/Research_Papers/Indian-Defence-Industry-Redefining_Frontiers-web.pdf"
-            },
-            {
-              "label": "MarknTel Advisors",
-              "url": "https://www.marknteladvisors.com/research-library/india-battery-market-report.html"
-            },
-            {
-              "label": "Tickertape",
-              "url": "https://www.tickertape.in/stocks/collections/battery-stocks"
             }
           ]
         }
@@ -1165,363 +1637,6 @@
       "url": "https://www.niti.gov.in/sites/default/files/2022-07/ACC-battery-reuse-and-recycling-market-in-India_Niti-Aayog_UK.pdf",
       "snippet": "increased import duty on lithium cells (from 5% to 10% from April 2021)"
     }
-  },
-  "sources": {
-    "youtube": [
-      {
-        "title": "Bharat Electronics Ltd BEL From 1954 Origins to India's Digital Defence Giant | Full Company History",
-        "channel": "YouTube",
-        "url": "https://www.youtube.com/watch?v=ZoMOoENEvhI",
-        "why_relevant": "Explains BEL's history, business model and market leadership position in India's defence electronics industry",
-        "thumbnail": "https://img.youtube.com/vi/ZoMOoENEvhI/hqdefault.jpg"
-      },
-      {
-        "title": "India's Defence Industry Revolution | Defence Dynamics",
-        "channel": "YouTube",
-        "url": "https://www.youtube.com/watch?v=eMU9UpDhrmc",
-        "why_relevant": "Overview of India's defence manufacturing ecosystem, key players and government policy drivers",
-        "thumbnail": "https://img.youtube.com/vi/eMU9UpDhrmc/hqdefault.jpg"
-      },
-      {
-        "title": "Everything You Need to Know About India's Lithium Ion Battery Sector | Markets by Zerodha Hindi",
-        "channel": "Zerodha",
-        "url": "https://www.youtube.com/watch?v=EU_joBDViG8",
-        "why_relevant": "Explains India's lithium-ion battery market, import dependence and domestic manufacturing push",
-        "thumbnail": "https://img.youtube.com/vi/EU_joBDViG8/hqdefault.jpg"
-      },
-      {
-        "title": "Defence Tech Supercycle? India's Shift to AI Warfare, Drones & Missiles Explained | Deep Dive",
-        "channel": "YouTube",
-        "url": "https://www.youtube.com/watch?v=PlhkwY9QD7Y",
-        "why_relevant": "Covers emerging technology trends (AI, drones, missiles) reshaping India's defence electronics landscape",
-        "thumbnail": "https://img.youtube.com/vi/PlhkwY9QD7Y/hqdefault.jpg"
-      },
-      {
-        "title": "Electronics, EVs, Defence Rising, But India's Manufacturing Lags Behind",
-        "channel": "YouTube",
-        "url": "https://www.youtube.com/watch?v=j94_BCYOfe0",
-        "why_relevant": "Discusses why India's electronics/defence/EV manufacturing still lags despite growth, highlighting import dependence",
-        "thumbnail": "https://img.youtube.com/vi/j94_BCYOfe0/hqdefault.jpg"
-      },
-      {
-        "title": "Breaking News | Defence Giant Safran to Set Up Its First Electronics Unit in India | NewsX",
-        "channel": "NewsX",
-        "url": "https://www.youtube.com/watch?v=lMpoLk-qYao",
-        "why_relevant": "Shows how global defence electronics majors like Safran are entering India via local manufacturing partnerships",
-        "thumbnail": "https://img.youtube.com/vi/lMpoLk-qYao/hqdefault.jpg"
-      },
-      {
-        "title": "💥 Top 10 Countries With the Largest Defense Electronics Industry ⚙️💥#shorts #youtubeshorts #army - YouTube",
-        "url": "https://www.youtube.com/watch?v=UUF43dhDNEo",
-        "why_relevant": "\"Modern wars are powered as much by electronics as by weapons! ⚙️\"Defense electronics include radar, sensors, avionics, communications, and electronic warfar...",
-        "thumbnail": "https://img.youtube.com/vi/UUF43dhDNEo/hqdefault.jpg"
-      },
-      {
-        "title": "India Boosts Indigenous Defence Manufacturing with Key Technology Transfers",
-        "channel": "YouTube",
-        "url": "https://www.youtube.com/watch?v=o__EewtysfM",
-        "why_relevant": "Covers technology transfer agreements boosting India's indigenous defence electronics capability",
-        "thumbnail": "https://img.youtube.com/vi/o__EewtysfM/hqdefault.jpg"
-      }
-    ],
-    "reports": [
-      {
-        "title": "The Indian Defence Industry",
-        "url": "https://nishithdesai.com/fileadmin/user_upload/pdfs/Research_Papers/Indian-Defence-Industry-Redefining_Frontiers-web.pdf",
-        "type": "other",
-        "summary": "Over the years, Positive Indigenization List, 26 · encompassing a total of 411 defense weaponry and equipment items, have been issued since 2020. Notably, around 75% (approximately INR 1 lakh crore)…"
-      },
-      {
-        "title": "Indian defence manufacturing landscape-DRDO, public ...",
-        "url": "https://www.allresearchjournal.com/archives/2025/vol11issue10/PartC/11-9-42-743.pdf",
-        "type": "other",
-        "summary": "Currently, HAL is providing ROH for 12 types of aircraft/ ... Industrial Marine Gas Turbines [49]. In FY 2024-25, HAL · reported revenue of ₹34,532 crore and a net profit of ₹5,827 · crore, with a wo…"
-      },
-      {
-        "title": "Indian Defence Industry: An Agenda for Making in India",
-        "publisher": "IDSA",
-        "date": "2016",
-        "url": "https://idsa.in/system/files/book/book_indian-defence-industry_0.pdf",
-        "type": "think-tank report",
-        "summary": "Historical and structural analysis of India's defence industrial base, DPSUs, offsets policy and self-reliance index"
-      },
-      {
-        "title": "Defence - Sector Thematic",
-        "publisher": "HDFC Securities",
-        "date": "2026",
-        "url": "https://www.hdfcsec.com/hsl.docs/Defence%20-%20Sector%20Thematic%20-%20HSIE-202603061206048441018.pdf",
-        "type": "broker research",
-        "summary": "Comprehensive sector thematic covering India defence budget, major platforms (Tejas, QRSAM, Kusha, P-75I), company-level coverage of BEL, HAL, BDL, MDL, Data Patterns, Astra Microwave, Apollo Micro S…"
-      },
-      {
-        "title": "Indian Defence Industry - Set to Grow at Around 20% CAGR",
-        "publisher": "CareEdge Ratings",
-        "date": "2024",
-        "url": "https://www.careratings.com/uploads/newsfiles/1735540355_Indian%20defence%20industry%20-%20CareEdge%20Report.pdf",
-        "type": "credit rating agency report",
-        "summary": "Growth outlook, public-private production share, and financial profile of India's defence sector"
-      },
-      {
-        "title": "INDIAN ELECTRONICS INDUSTRY PREPARED BY: SAS PARTNERS",
-        "url": "https://saspartners.com/wp-content/uploads/2024/12/Indian-Electronics-Industry-Report.pdf",
-        "type": "other",
-        "summary": "India and Start-up India programs, emphasizing its significance in achieving the goal of generating US$ 1 trillion from the digital economy by 2025. The industry spans across various sectors includin…"
-      },
-      {
-        "title": "Make in India Powers Defence Growth",
-        "publisher": "PIB (Government of India)",
-        "date": "2025",
-        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc202543531401.pdf",
-        "type": "government",
-        "summary": "Official data on India's defence production, exports, indigenisation lists, iDEX, SRIJAN portal and defence industrial corridors"
-      },
-      {
-        "title": "Advanced Chemistry Cell Battery Reuse and Recycling Market in India",
-        "publisher": "NITI Aayog",
-        "date": "2022",
-        "url": "https://www.niti.gov.in/sites/default/files/2022-07/ACC-battery-reuse-and-recycling-market-in-India_Niti-Aayog_UK.pdf",
-        "type": "government",
-        "summary": "Detailed analysis of India's battery market, import dependence, recycling landscape, cell chemistries and PLI-ACC scheme"
-      },
-      {
-        "title": "Delhi NCR | Mumbai | Bengaluru | UAE | KSA | Singapore www.1lattice.com S",
-        "url": "https://smgroupindia.com/wp-content/uploads/2024/10/Industry-Report.pdf",
-        "type": "other",
-        "summary": "income. The industry generated 16-17% of India’s GDP pre-pandemic and is projected to be one of the fastest-growing sectors."
-      },
-      {
-        "title": "State of Industry R&D in India",
-        "url": "https://www.fast-india.org/wp-content/uploads/2024/05/State-of-Industry-RD-in-India.pdf",
-        "type": "other",
-        "summary": "Today, there are no objective benchmarks for the Indian industry to compare their R&D · efforts with their peers in India and globally. The report provides an objective comparison"
-      },
-      {
-        "title": "Indian Aerospace & Defence Industry Outlook",
-        "url": "https://www.sicci.in/pdf/reports/624ca9b871c94Knowledge-Paper-A&D%20Industry-17.12.2020.pdf",
-        "type": "other",
-        "summary": "India’s Defence & Aerospace requirements and our specific focus has been on Tamil Nadu with our · multiple engagements & conferences with the Defence forces. SICCI is committed to the establishment ·…"
-      },
-      {
-        "title": "India's Defence Equipment Industry: Exploring New Frontiers",
-        "publisher": "EXIM Bank India",
-        "date": "2025",
-        "url": "https://www.eximbankindia.in/sites/default/files/2025-07/210file_0.pdf",
-        "type": "trade bank report",
-        "summary": "Global and India trade data on defence electronics, aerospace exports/imports, naval power rankings and financing mechanisms"
-      }
-    ],
-    "news": [
-      {
-        "title": "Govt approves Rs 1,012-crore electronics manufacturing clusters in Tamil Nadu- Moneycontrol.com",
-        "publisher": "",
-        "date": "July 22, 2026",
-        "url": "https://www.moneycontrol.com/news/consumer/electronics/govt-approves-rs-1-012-crore-electronics-manufacturing-clusters-in-tamil-nadu-13980870.html",
-        "snippet": "India has emerged as one of the major electronics manufacturing ecosystems. The government plans to expand across AI, electronics manufacturing and semiconductor industries."
-      },
-      {
-        "title": "Make in India Defence Electronics 2026: Rugged Systems Guide",
-        "publisher": "",
-        "date": "May 22, 2026",
-        "url": "https://ariseotechelectronics.com/make-in-india-defence-electronics-2026",
-        "snippet": "India's defence electronics sector is growing fast. Discover how rugged system suppliers in India are powering military self-reliance in 2026. Explore specs, policy, and suppliers."
-      },
-      {
-        "title": "Bharat Electronics Secures Defense Equipment And Solutions Orders",
-        "publisher": "",
-        "date": "5 days ago",
-        "url": "https://www.sahi.com/news/bharat-electronics-secures-defense-equipment-and-solutions-orders",
-        "snippet": "Bharat Electronics continues to demonstrate steady order intake across communication, avionics, and defense electronics domains. The company's business"
-      },
-      {
-        "title": "India's electronics output jumps 4x to Rs 11.5 trillion; components to drive next growth phase",
-        "publisher": "",
-        "date": "5 days ago",
-        "url": "https://www.moneycontrol.com/news/consumer/electronics/india-s-electronics-manufacturing-sector-entering-next-growth-phase-as-component-push-gains-momentum-13953354.html/amp",
-        "snippet": "Brokerage sees sector nearly tripling from Rs 11.5 trillion in FY25 on localisation push; stays positive on Dixon and Amber, downgrades Kaynes"
-      },
-      {
-        "title": "India's Non-Lithium Batteries to Slash Storage Imports by 50% by 2035, ETManufacturing",
-        "publisher": "",
-        "date": "3 days ago",
-        "url": "https://manufacturing.economictimes.indiatimes.com/amp/news/energy/non-lithium-batteries-set-to-cut-indias-50-storage-imports-by-2035-netra/134970535",
-        "snippet": "A recent NETRA survey highlights that non-lithium energy storage technologies like sodium-ion batteries could halve India's storage imports by 2035, paving the way for a more self-sufficient energy sector."
-      },
-      {
-        "title": "Revolutionizing Data Centres: The Strategic Role of Batteries in India, ETEnergyworld",
-        "publisher": "",
-        "date": "3 days ago",
-        "url": "https://energy.economictimes.indiatimes.com/amp/news/power/as-indias-data-centres-scale-batteries-are-moving-beyond-backup/134961190",
-        "snippet": "Explore how India's data centres are evolving with advanced battery systems, moving beyond mere backup to play a critical role in power management and renewable energy integration."
-      },
-      {
-        "title": "Largecap Defence Stocks 2026: HAL, BEL, Solar Industries",
-        "publisher": "",
-        "date": "3 days ago",
-        "url": "https://univest.in/blogs/largecap-defence-stocks-to-watch-multibagger-potential",
-        "snippet": "Largecap defence stocks to watch for multibagger potential: HAL, BEL and Solar Industries. Compare market cap, PE, ROE, profit growth and institutional holding."
-      },
-      {
-        "title": "India's defence electronics ambitions get a boost as RRP opens advanced chip packaging facility | Defence Pulse",
-        "publisher": "",
-        "date": "5 days ago",
-        "url": "https://www.wionews.com/defence-pulse/rrp-electronics-wafer-level-packaging-facility-navi-mumbai-1791906716770",
-        "snippet": "RRP Electronics has inaugurated an advanced wafer-level packaging facility in Maharashtra as India seeks to strengthen semiconductor self-reliance and reduce dependence on overseas suppliers for critical defence electronics."
-      },
-      {
-        "title": "BEL secures additional defence orders worth INR 5.33 billion",
-        "publisher": "",
-        "date": "3 days ago",
-        "url": "https://mediaindia.eu/defence-aerospace/bel-secures-additional-defence-orders-worth-inr-5-33-billion/",
-        "snippet": "Public sector defence major Bharat Electronics Limited (BEL) has secured additional orders worth INR 5.33 billion since its last..."
-      },
-      {
-        "title": "The Battery Show India 2026 Sets the Stage for EV & Energy Storage Growth",
-        "publisher": "",
-        "date": "2 weeks ago",
-        "url": "https://timestech.in/the-battery-show-india-2026-sets-the-stage-for-ev-energy-storage-growth",
-        "snippet": "The Battery Show India, organised by Informa Markets in India, brought together leading industry stakeholders at a media roundtable in Pune."
-      },
-      {
-        "title": "India on target to meet CEA’s 2030 battery storage projection: MNRE Additional Secretary",
-        "publisher": "",
-        "date": "4 days ago",
-        "url": "https://psuwatch.com/amp/story/newsupdates/india-on-target-to-meet-ceas-2030-battery-storage-projection-mnre-additional-secretary",
-        "snippet": "India is on target to meet the Central Electricity Authority’s 2030 battery storage projection, a senior MNRE official said"
-      },
-      {
-        "title": "Data Center Champion Awards 2026 - Express Computer",
-        "publisher": "",
-        "date": "3 days ago",
-        "url": "https://www.expresscomputer.in/videos/dci-summit/data-center-champion-awards-11-sep-2026-chn/139981/",
-        "snippet": "Data Center & Infrastructure Summit | DAY 1 | 11th September 2026 | Chennai"
-      },
-      {
-        "title": "BEL TechConnect engages young engineers in India’s defence technology mission",
-        "publisher": "",
-        "date": "16 hours ago",
-        "url": "https://psuwatch.com/events-reports/bel-techconnect-engages-young-engineers-in-indias-defence-technology-mission",
-        "snippet": "BEL is strengthening its engagement with premier engineering institutions through its initiative, 'BEL TechConnect – Connecting Young Minds'"
-      },
-      {
-        "title": "News18 DEFCON 2026: Decoding India’s Next Defence Transition | India News - News18",
-        "publisher": "",
-        "date": "2 weeks ago",
-        "url": "https://news18.com/amp/india/news18-defcon-2026-decoding-indias-next-defence-transition-10371292.html",
-        "snippet": "Reducing import dependence remains important, but the larger test is whether self-reliance can translate into technological ownership, industrial depth, and operational readiness"
-      },
-      {
-        "title": "Bharat Electronics: डिफेंस सेक्टर में बड़ी कामयाबी, कंपनी को मिले **₹533 करोड़** के नए ऑर्डर | Whalesbook Corporate News",
-        "publisher": "",
-        "date": "5 days ago",
-        "url": "https://whalesbook.com/corporate-news/Hindi/aerospace-defense/Bharat-Electronics-Secures-New-Defence-Orders-Worth-Rs-533-Crore/6ace0202b2eb76fd08c27516",
-        "snippet": "Bharat Electronics ने हासिल किए ₹533 करोड़ के नए डिफेंस ऑर्डर। कम्युनिकेशन और ड्रोन तकनीक पर रहेगा फोकस। जानें निवेशकों के लिए ..."
-      },
-      {
-        "title": "India could cut battery storage import dependence to 50–52% by 2035",
-        "publisher": "",
-        "date": "3 days ago",
-        "url": "https://manufacturingtodayindia.com/india-cut-battery-import-dependence",
-        "snippet": "NETRA says India could reduce battery storage import dependence by 2035 through domestic manufacturing and alternative battery technologies."
-      },
-      {
-        "title": "Bharat Electronics: डिफेन्स क्षेत्रात मोठी मजल, कंपनीला मिळाली **₹533 कोटींची** नवीन ऑर्डर | Whalesbook Corporate News",
-        "publisher": "",
-        "date": "5 days ago",
-        "url": "https://whalesbook.com/corporate-news/Marathi/aerospace-defense/Bharat-Electronics-Secures-New-Defence-Orders-Worth-Rs-533-Crore/6ace0202b2eb76fd08c27516",
-        "snippet": "Bharat Electronics (BEL) ला मिळाली ₹533 कोटींची डिफेन्स ऑर्डर. ड्रोन, जॅमर आणि सायबर सिक्युरिटी क्षेत्रात कंपनीचा विस्तार, गुंत..."
-      },
-      {
-        "title": "Global Defense Electronics Market - Forecast to 2036 | AI, Electronic Warfare, and Space Systems Drive 6.4% CAGR and a USD 486.8 Billion Opportunity",
-        "publisher": "",
-        "date": "2 weeks ago",
-        "url": "https://globenewswire.com/news-release/2026/10/06/3375885/0/en/global-defense-electronics-market-forecast-to-2036-ai-electronic-warfare-and-space-systems-drive-6-4-cagr-and-a-usd-486-8-billion-opportunity.html",
-        "snippet": "Target AI, edge computing, electronic warfare and space systems; leverage GaN, AESA and open architectures to improve interoperability and reduce lifecycle..."
-      },
-      {
-        "title": "India Defense Market 2026-2034: Size, Share, Growth Trends, Top Companies, Demand & Industry Outlook",
-        "publisher": "",
-        "date": "1 month ago",
-        "url": "https://openpr.com/news/4638187/india-defense-market-2026-2034-size-share-growth-trends-top",
-        "snippet": "How Is India s Defense Market Performing India s defense market stands as one of Asia s most strategically significant and rapidly modernizing security sectors encompassing Fixed Wing Aircraft Rotorcraft Ground Vehicles Naval Vessels C4ISR Weapons and Ammunition Protection and ..."
-      },
-      {
-        "title": "Bharat Electronics: డిఫెన్స్ రంగంలో భారీ ఆర్డర్లు.. రూ. 533 కోట్ల కాంట్రాక్టులతో దూకుడు! | Whalesbook Corporate News",
-        "publisher": "",
-        "date": "5 days ago",
-        "url": "https://whalesbook.com/corporate-news/Telugu/aerospace-defense/Bharat-Electronics-Secures-New-Defence-Orders-Worth-Rs-533-Crore/6ace0202b2eb76fd08c27516",
-        "snippet": "Bharat Electronics Limited కు రూ. 533 కోట్ల కొత్త డిఫెన్స్ ఆర్డర్లు. డ్రోన్లు, కమ్యూనికేషన్ పరికరాలతో BEL జోరు. ఇన్వెస్టర్లు తెలుసు..."
-      },
-      {
-        "title": "Bharat Elec Share Price, Bharat Elec Stock Price, Bharat Electronics Ltd. Stock Price, Share Price, Live BSE/NSE, Bharat Electronics Ltd. Bids Offers. Buy/Sell Bharat Electronics Ltd. news & tips, & F&O Quotes, NSE/BSE Forecast News and Live Quotes - Moneycontrol.com",
-        "publisher": "",
-        "date": "1 day ago",
-        "url": "https://www.moneycontrol.com/india/stockpricequote/aerospacedefence/bharatelectronics/BE03",
-        "snippet": "Bharat Elec Share Price: Find the latest news on Bharat Elec Stock Price. Get all the information on Bharat Elec with historic price charts for NSE / BSE. Experts & Broker view also get the Bharat Elec Ltd. buy/sell tips detailed news, announcements, Forecasts, Analysts, Valuation, Earning ..."
-      },
-      {
-        "title": "Bharat Electronics Board to Meet on 30 October for Q2 Results",
-        "publisher": "",
-        "date": "2 days ago",
-        "url": "https://www.psuconnect.in/psu-news/bharat-electronics-board-to-meet-on-30-october-for-q2-results",
-        "snippet": "Bharat Electronics Limited (BEL) will hold its Board meeting on 30 October 2026 to consider and approve unaudited standalone and consolidated financial…"
-      },
-      {
-        "title": "ಭಾರತ್ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಲಿಮಿಟೆಡ್ ನೇಮಕಾತಿ; ಯಾರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು? | Bharat Electronics Limited Recruitment; Who can apply?",
-        "publisher": "",
-        "date": "15 hours ago",
-        "url": "https://www.varthabharati.in/amp/information-guidance/bharat-electronics-limited-recruitment-who-can-apply-2283687",
-        "snippet": "ಭಾರತದ ಪ್ರಮುಖ ರಕ್ಷಣಾ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಸಂಸ್ಥೆಗಳಲ್ಲಿ ಒಂದಾದ ಭಾರತ್ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಲಿಮಿಟೆಡ್ (BEL) ಇದೀಗ ನಿರ್ದೇಶಕ ..."
-      },
-      {
-        "title": "BEL Q2 results 2026 date out | Market sees up to 16% YoY revenue growth, defence order may drop — share outlook in focus | Stock Market News",
-        "publisher": "",
-        "date": "1 day ago",
-        "url": "https://livemint.com/market/stock-market-news/bel-q2-results-2026-date-out-market-sees-up-to-16-yoy-revenue-growth-defence-order-may-drop-share-outlook-in-focus-11792223944924.html",
-        "snippet": "BEL Q2 Results 2026 Date: The board of directors of Bharat Electronics Limited (BEL) has scheduled its meeting on 30 October 2026 to consider and approve the September 2026 quarter results for the current financial year. The defence stock announced this in an exchange filing on Friday."
-      },
-      {
-        "title": "Bharat Electronics Limited में Project Engineer के पद खाली, दिल्ली और बेंगलुरु में इंटरव्यू - Prabhasakshi latest news in hindi",
-        "publisher": "",
-        "date": "1 day ago",
-        "url": "https://www.prabhasakshi.com/amp/news/bel-project-engineer-recruitment-announced-for-new-delhi-and-bengaluru",
-        "snippet": "भारत इलेक्ट्रॉनिक्स लिमिटेड ने प्रोजेक्ट इंजीनियर के विभिन्न पदों के लिए आवेदन आमंत्रित किए हैं। कंप्यूटर ..."
-      },
-      {
-        "title": "BEL wins INR 5.33 billion orders: what INR 722.58 billion means for Bharat Electronics stock",
-        "publisher": "",
-        "date": "2 days ago",
-        "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/bel-wins-inr-5-33-billion-orders-what-inr-722-58-billion-means-for-bharat-electronics-stock/70337039",
-        "snippet": "Q1 FY2027 revenue rose 25.27 percent year over year. For Bharat Electronics stock, the order book st"
-      },
-      {
-        "title": "P/E at 45.17 vs Industry's 43.56: What the Data Shows for Bharat Electronics Ltd",
-        "publisher": "",
-        "date": "2 days ago",
-        "url": "https://marketsmojo.com/news/stocks-in-action/bharat-electronics-ltd-navigating-nifty-50-membership-amid-mixed-market-signals-4227363",
-        "snippet": "The Aerospace & Defense sector has experienced mixed results recently, with a combination of positive, flat, and negative performances among constituent stocks. Bharat Electronics Ltd’s relative outperformance over the one-year and year-to-date periods suggests it has been a more resilient ..."
-      },
-      {
-        "title": "Defence & power stocks secure Rs 12,000 cr orders: What it means for investors - Industry News | The Financial Express",
-        "publisher": "",
-        "date": "1 day ago",
-        "url": "https://www.financialexpress.com/business/industry-defence-amp-power-stocks-secure-rs-4927-orders-what-it-means-for-investors-4363570/",
-        "snippet": "Kalpataru Projects International, Bharat Dynamics, Adani Power, IRCON International and Bharat Electronics are among the companies that reported new business wins, ranging from heavyweight torpedo supplies for the Indian Navy to thermal power supply and railway construction contracts."
-      },
-      {
-        "title": "Stock Market Highlights, Oct 16: Sensex gains 413 pts, Nifty ends at 23,146 led by IT stocks - The HinduBusinessLine",
-        "publisher": "",
-        "date": "2 days ago",
-        "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-16-october-2026/article71587755.ece",
-        "snippet": "InterGlobe Aviation, Reliance Industries, Asian Paints and Bharat Electronics were among the biggest laggards."
-      },
-      {
-        "title": "The Defence Order Backlog Question: What the Order Execution Test Really Reveals | Kalkine India",
-        "publisher": "",
-        "date": "2 days ago",
-        "url": "https://kalkine.co.in/article/industrials/bharat-electronics-nsebel-the-defence-order-backlog-question",
-        "snippet": "The company-specific test for Bharat Electronics's order execution calls for evidence from the company's own reporting. The wider picture includes domestic procurement, cash flow and the results of its business activities, rather than a headline taken on its own."
-      }
-    ]
   },
   "benchmarking": {
     "generated_at": "2026-10-18",
