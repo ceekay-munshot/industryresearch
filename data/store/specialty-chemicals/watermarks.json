@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-18T15:04:43.043Z",
+      "last_fetched": "2026-10-18T22:07:04.289Z",
       "last_epoch": 1792295301000,
       "etag": null,
       "last_modified": null,
@@ -204,19 +204,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-18T15:04:52.437Z",
+      "last_fetched": "2026-10-18T22:07:38.084Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-18T15:04:54.371Z",
-      "last_epoch": 1792313459000,
+      "last_fetched": "2026-10-18T22:07:39.874Z",
+      "last_epoch": 1792337782000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMimAFBVV95cUxORUpkd0ZjUjQwU1NKX3lPNHNnWHpVZmc5RkhfV3lXaW1JR0pwZDd1TF9pLUdPVHM5cnZXYXBiSC1naDlxT1FRTTdIaWpWSGM1LW9taXFGUjZFSGkzOVFwRVplYnR5UERRQzJwbEMxVUJYakZLUXBhRkl6Z0Y5YjkwdnV5a1ZQeGJMNE9YV3NtbVZqMDFNWXh6UQ",
         "CBMi3wFBVV95cUxNUngzMmtzQ0pTMms5THdGcmdEVTRncEFIbDA2WTVhWm80amFFcWNJeGZqOEM0QWUzSDRKekpHN2hRZHpRNHAyTzFoamc4MmtIejRsTHFCeEZFWWplc3ZaS2hkN3ZsaFh6TURzQ2VZM2J5ZVRjcWt4ZDdYeDVOT3dlR2FXdzFodmlJRkdnSkJfZlNOaXh6X0NmSGpwZ1dMekJsOWdXQ3RHNmF4aTdJeUxJT2xKUHQyMEs5ejI4QkVzM0ZuY2sxdE45T2JCUzVPMzYzLThROFFhVUQyWFMzNFlN",
         "CBMiiAJBVV95cUxNYS1FOS01b1dqdlJiQlN3akY0bUNGYjdIcEFjYkV4MlFXdmlzV3hrSlU4QU9wQjVKU25Bb28zR1JsaG92MkxLZ1E2MGVybTU0NjVnblBiaGJhNkRZSFd4ZDJ0YzhxclVBVlA5THJ2N3hHOGpwdDhIS2xYTTh6dHdsc1dydmNOSG84cHY0V3UyVUp1QWZJVTBqbmdKdTNnSTR5em1TWlItVHhSdWM3Si10QnVmNlFZZ25jN0h5SnJOZDdQQVFOTzhXYmd0ekh0V0RqQjVTYUNzOHlGQlBNdWM0V2ZfR1psVVUzaG1ReF9mcGJwdWFMTl9TRmR2QThuRmczY2ZEc1ZiYi0",
         "CBMiqwFBVV95cUxNVFh4NTJzLVJIcTl0Yzc3S0J1SVJCZTlMRWdudllETENhbWYtM0lfUHdCclVfeE9LcFhEVFFvYTNUcXF6V1N0dVdvd0dUMWtfZzFWcXR0NUZPdzdwRW1MdHFDc1dWS29XS3FuQjRjdmUxX0NwenJpVllMZkdFdDYwY1k3elZXTXRLTkczazZZNGctWkIzcnY4bl9tOFZKRThWa1UzeE1UWXRqSjg",
@@ -515,14 +514,15 @@
         "CBMiygFBVV95cUxOblhReVNhY0dYa3NNT3YwSUFXTUlpaF9XdGxySVRRSlFKWElrN0ZoS0VTelJpYzdvTXFuY1pNb21sdm1MZXpjSUF0Zzlla0lxUlhsczlQczQ1aWJGZ0xlRzB4T29TT29vVEV6SE43VG9YanNUXzA0blZXVkVUTEk3MXdzeVU1TkpfVGFXbldXdzROYWpmYVNONXlFaUpfMlgxRmRSOGNlSkp4TWUzd2NPZERTYnBPS3NGd3dwTFZFRWRjOHdmTzFhM21B0gHPAUFVX3lxTE9kcHZYclNGVml5YW9LQV9YQldjaDNQMWRpM1RSYUdVVk04cjVDM2FKbFNYYUtRQ0xTMmRMeU4zNElpdTdybW9mYTR6Q0FQVGpsTXY2SEtURFZaMVJoNlhnZDQ2b3dhVFRHR1lUTTJiSTVuR0JiMFBoQm0tRWRTUGpxNFBjVWMwRjY3UEs3SWptblc3NXVaUXczaGVlVWNscGlzUk1xdzktNGdsRTVwSUhLTkl3NGxsTGU3b3haNi1yWXd3LTktdEZyMmxJRUktbw",
         "CBMid0FVX3lxTE9JaDBGMkFOdUdUTVgzTVJhTWkzZDU2dUdFYXYzQmpaSXRHM1JjekZENjZCaVhxTjB6X2NyUUNmT0QxU0JMQTRkVUNVanFRMjZOV3lUSkx0YjQ1RC1GWjZnYWc1U09GSURQSEZoUDE5SGcyY1A3cVpj",
         "CBMihAFBVV95cUxNOHljS2NBUlZmSE5WOG1iajdmVUxDcEtpbXhvenBjbzk0cVRKN0UtX0oybXRWNkRONlVpS2tUbG1xZnhqLVprVUtiYzB4V0RUUmZSb0lWTmR1RDFkbVY2aVdkOGllaWZ5M1YwTG5iQUotenA3Yzc4c2swTjg2NWdsSEt6Y2k",
-        "CBMilAFBVV95cUxNLVNnMkw0M3JqY2xZU1pGUXA1cXh4MXhTcFJEVF9OVGJ3OENFQk1uVUlJSVBreXdXdEZiZ3RoMEF6dENGSVJvOXNnaGZMdEFxallsMzNla2NkR0RsMGwtZjZ5MFFpNllGaUtJSUpGc183TzFidzhFMjdlQUdZWlpoVFRDNHNWWV91bXAwNlk0OF9hRzJ0"
+        "CBMilAFBVV95cUxNLVNnMkw0M3JqY2xZU1pGUXA1cXh4MXhTcFJEVF9OVGJ3OENFQk1uVUlJSVBreXdXdEZiZ3RoMEF6dENGSVJvOXNnaGZMdEFxallsMzNla2NkR0RsMGwtZjZ5MFFpNllGaUtJSUpGc183TzFidzhFMjdlQUdZWlpoVFRDNHNWWV91bXAwNlk0OF9hRzJ0",
+        "CBMilAFBVV95cUxQT21lRjFsM29PLVVVa0hqMnpONmZBTXpSRHVBblRHQVhtZWpuMnYta3YtS3VTRlNxU2ZPZGtPX21HODVTWFlpN3gzcDA4UGxnOWVQaW9YX1pNSjBQdzNNdi1BTy16NU5laUlONUZRdlJEUmU0NGpNd2FTRVI0TW8xd2RRMTBNYVBwYjZ1d0ZOc0F0djQw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-18T15:04:54.392Z",
+      "last_fetched": "2026-10-18T22:07:40.362Z",
       "last_epoch": 1792232818000,
-      "etag": "\"04d5e3ae3beeb9f071160ff8af48b4224-gzip\"",
-      "last_modified": "Sun, 18 Oct 2026 14:47:06 GMT",
+      "etag": "\"0d36ca329740bf623aa51a49d2237abf8-gzip\"",
+      "last_modified": "Sun, 18 Oct 2026 22:03:13 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/media/entertainment/anymind-group-launches-anycreator-stream-in-india-to-help-creators-monetise-live-audiences/articleshow/134408355.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/reliance-consumer-products-quadruples-authorised-capital-to-40000-crore-as-fmcg-business-scales-up/articleshow/134445016.cms",
@@ -574,7 +574,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-18T15:04:54.439Z",
+      "last_fetched": "2026-10-18T22:07:41.299Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

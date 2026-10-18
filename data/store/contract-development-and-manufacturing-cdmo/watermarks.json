@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-18T15:04:12.838Z",
+      "last_fetched": "2026-10-18T22:04:56.229Z",
       "last_epoch": 1792144363000,
       "etag": null,
       "last_modified": null,
@@ -75,19 +75,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-18T15:04:15.040Z",
+      "last_fetched": "2026-10-18T22:05:30.708Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-18T15:04:16.331Z",
-      "last_epoch": 1792292289000,
+      "last_fetched": "2026-10-18T22:05:32.027Z",
+      "last_epoch": 1792304720000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMirwFBVV95cUxQSlY0dEZ6ZklOMkZ4R0ZJc3FSRGpMaXR6X28yblpiWlZrLXpQWVpRZWRiWDF4OHJSdVN2VElkVGVIWW13c2V6cVRrOTNjWndLS3VjeWdaeUFLMUd6bXZGak5MLW85MjY1eGpCZ3hhUHRGeTJ4c0NoT1VHTFhUcDI1SG9Md0k5cWYwMUUtd25nVFNmNThpSEhHMFctcU9OcFpQN3ctYnVVM0MyQUIwTV9v",
         "CBMiowFBVV95cUxPMkJ0WUQ0X3VuVTFyNHRmRHNQYzVTbzR0OFJnMHU4LVBYSFpsQXFLTVBKcHNLbjJlLS1NQUItampaWnFKRkZOT3NKYzNBX3ppNjNzRmJZTkpoNTJqbDlEcU82UGcxdkliVW9uVWJpVTJSc1c4Z3NpeGZaT2lXYU1pSF9FY04wUVFOX3c3Z2E2Y0JnZWJUajFaUkhwdS1XR0NiM2V3",
         "CBMilAFBVV95cUxOQ1VRbTA1bFAxa2dQQjFMV21lSzAyXzFYVTJRQ2VMVTZER3ZmQ2FEQ3NnWWd5S0VrNGZwakRoSGFkSENySm5Hb0tuUkk4Y2c3Z1cySFhiOU9PcDBaNjM1bU85OUlzdlF5ZG1YNDk0ZnlLWXVZYUNEU05OVzZraV9Vd0Jla2t3N2VDY2RQel9mMEJoUnli",
         "CBMimwFBVV95cUxNYUNhYWxEaWk0ekhnU3NuSG5GNW5TQVdBcmVnTUhGQ0dzU3gzU1F0VDFveXpfNVBhX1ZLRkl0TGIxNWdkdXhhQU52QnpTT2pYb3A1TlVmbXRvanZ3TXNXUzhKZWNzSG1jVTQ0MnNUUVBrazJGT1ZEaWNyaXo2SFBEM3RMU3l2dGg0cmdQNUJ1bkFGXy1XcXVBYlo3TQ",
@@ -386,14 +385,15 @@
         "CBMiwAFBVV95cUxOS3RYcmtzby1mTF9kNW1LanpWak5lMWczSnpNR19aZ19iLXlVRDJySmFJcUtVOUpIZGxMdTdySFFnT3hObVEzZFh6X2V3VmlwQ20weklXVk9yb2F4dDJ1dHhNbTNrNzE0ckFWVlM2Q1BaelRxaG1ETWoyU2h5UWVHRjJ4V3BwUElndXoyYklHZHg5NzlfM01oTUQwdDg5cHoyaERXSlJiWWFKdTBHWWJiNnNjUGFkZjlFMFNBVFJ1YWU",
         "CBMimwFBVV95cUxOY0FGQjR1c2lsSmFYZF84SHg0bmhWU3JudlR6akRQdG9CR3JsVWxTby1OWnlzTlJEMS1taUxkN0xaaUN3QTMxeENWRHhucVU3S3NzbGNUVTJZeUxibmM2eEx5a2xxLTJ2cV9Zd0NyOGJMNHdzY19DMHJFTEFSUjluY2h3aF9taGVMbTdMWHFVZ083VGR2Um9SWXAtZw",
         "CBMi7AFBVV95cUxQLWlOLXhfYXVjR19fYkNwRVBmRDk2cG1GSGtkYldwZW9vb3JxTFRnNG1tTU1EaDBUdWVDQ21uSmltNVF5Vld0WndJc3dlQS0tUnYzLS1Gb0p1QkRHTmtHQzJfWHpiam1PbDlPdWJsQWFHV3loUWpnbzVVU3JiWWJBUUtQczE5Ty1jRXZXSHJNRUY1eDd6V1JkckhTbHJxaGFQWnk5Rk5QTmRJZXBVYTFhTnZoZ01tdXJFLXpDRnR2anVmWXpSQ09HdldZTkV5ejJjX05WWGlTQkJGOExzVU13ZzR3WFpqVUJuNlpLVNIB8gFBVV95cUxQcVIwZ2s4bmltSDNHM0pSS3dEb2ZRN01BOEhvWWxaclh1OEZiMkJ5THN3RzBIa1NvVUhTUlZ2Wjc2TmRqMmJBSnJIRGt3U3VNTFZnR0F5eno0cThkczlMZlRVUXk1QVgya21JVzVwMjVuMnJMVXg3VGJZWnp1RXFLNEhNUWhTN21tYjB0d0ZVaFJNSmZyQzhRdzhXa3JmQVVpNzE2TkM5MjRpbGVqYkdPUnE1dlBOeEVhVjIyU2lMc25YY2tKckt6a2pMRWJiNzBjZFdqelhKc1R0WnNvQ195YU1EcVF3ZHZlV216Z2ZlYVp6QQ",
-        "CBMimgFBVV95cUxNdHJ0TEZBVFRnODhfN1l6bXBnV05Sd18xYk1uNDctRDBUdjV0RmxkWWFxaVczSnJKRWVBWXV0WHhqTWR2aDdEQjNQWFdfcGRzTjVNNEZNd3BaUk16SVM3VFVMLTdueEZFQkhEbWZOSnBzWFhUaVhVbUVldzNiVVpSOEFIOXNRQVhON1BPaGtpdnU0T2RNWHhlekpR"
+        "CBMimgFBVV95cUxNdHJ0TEZBVFRnODhfN1l6bXBnV05Sd18xYk1uNDctRDBUdjV0RmxkWWFxaVczSnJKRWVBWXV0WHhqTWR2aDdEQjNQWFdfcGRzTjVNNEZNd3BaUk16SVM3VFVMLTdueEZFQkhEbWZOSnBzWFhUaVhVbUVldzNiVVpSOEFIOXNRQVhON1BPaGtpdnU0T2RNWHhlekpR",
+        "CBMiWkFVX3lxTE5oY3ZnbnRRT0tPa3JNR1g4b0puYVVBdnpsblJULWtoMlZuekMwb193dUJpNVFDalJ0X1dDWFhuLXFoVGdBZTQ3cTZ0X293SzRWZFBrQTZUTEZZdw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-18T15:04:16.350Z",
-      "last_epoch": 1792318992000,
-      "etag": "\"04d5e3ae3beeb9f071160ff8af48b4224-gzip\"",
-      "last_modified": "Sun, 18 Oct 2026 14:47:06 GMT",
+      "last_fetched": "2026-10-18T22:05:32.087Z",
+      "last_epoch": 1792350372000,
+      "etag": "\"06f87de2d6fd7720925c51a09377c5b59-gzip\"",
+      "last_modified": "Sun, 18 Oct 2026 21:47:11 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
@@ -686,11 +686,12 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/dlf-signs-agreement-to-add-7-48-acre-land-on-golf-course-extension-road-in-gurgaon/articleshow/135011493.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/nppa-caps-trade-margins-on-137-cancer-drugs-at-30-revised-prices-from-nov-9/articleshow/135015811.cms",
         "https://economictimes.indiatimes.com/industry/renewables/china-proposes-export-controls-on-solar-manufacturing-technologies/articleshow/135024898.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/roadways/govt-invokes-catastrophic-failure-event-clause-against-2-highway-developers/articleshow/135027152.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/govt-invokes-catastrophic-failure-event-clause-against-2-highway-developers/articleshow/135027152.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/haier-india-to-invest-7000-crore-in-new-facility-in-andhra/articleshow/135034585.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-18T15:04:16.393Z",
+      "last_fetched": "2026-10-18T22:05:32.215Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
