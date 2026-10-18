@@ -1,5 +1,5 @@
 {
-  "default": "mdf-boards-india",
+  "default": "defense-electronics-batteries",
   "industries": [
     {
       "slug": "mdf-boards-india",
@@ -211,6 +211,17 @@
         "Precision Manufacturing",
         "Precision Machining",
         "Precision Components"
+      ],
+      "is_manufacturing": true,
+      "mock": false
+    },
+    {
+      "slug": "defense-electronics-batteries",
+      "name": "Defense Electronics & Batteries",
+      "aliases": [
+        "Military Electronics",
+        "Defence Electronics",
+        "Battery & Energy Storage (India)"
       ],
       "is_manufacturing": true,
       "mock": false
