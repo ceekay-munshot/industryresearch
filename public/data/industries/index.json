@@ -1,14 +1,13 @@
 {
-  "default": "defense-electronics-batteries",
+  "default": "mdf-boards-india",
   "industries": [
     {
       "slug": "mdf-boards-india",
-      "name": "MDF Boards (Medium Density Fibreboard)",
+      "name": "MDF Boards",
       "aliases": [
-        "MDF",
         "Medium Density Fiberboard",
-        "MDF panels",
-        "wood panel - MDF segment"
+        "MDF",
+        "Engineered Wood Panels"
       ],
       "is_manufacturing": true,
       "mock": false
