@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-19T02:19:51.915Z",
+      "last_fetched": "2026-10-19T09:32:19.103Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-19T02:20:16.704Z",
+      "last_fetched": "2026-10-19T09:32:29.847Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-18T22:11:00.331Z",
-      "last_epoch": 1792353878000,
+      "last_fetched": "2026-10-19T09:32:31.736Z",
+      "last_epoch": 1792398756000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -175,28 +175,33 @@
         "CBMi6wFBVV95cUxPTW9qMlF3VTh1Q2pJbjhWdFVLQ1JrQ3NjcWdGM2Q1LUx3VTByb3RvUWlSenpyU3hCdUxMZFFGUjVNTzZJTEZVUl9zczZ4alFlWUtJUmRfT3JZVUdQbFZzTXFGZC10U0Y3eE1pbDkyNFlBMjQ5cDYwYTQtakYzS000b09fMzM4TzU0SHB6Wkx4VmdMVDQwcWRYaXNLTkR0TmdWRUVuWllFUUlEeVdLZ0U2V2pVOUVaR19uTEZwRkxUMVItSTltTHM3LXV6cFpEZWtWSURqZDBVNjdmRHZXYXVhcHJGd2RSNjZTSGk4",
         "CBMi1wFBVV95cUxQQ0NNT3VfakxRczJCZGloNUNfRE9Rb0kyQ0QxbV9MRlJaczVwSERLSVNYYXlBSUU1blZibFdFOS1jY2h5ZmZvZGtTSlNWbkFxa29GbzhtcUZpOTZWMzdiX3ZYZWptTmY0RHFPRjRuTDIwTmNWTTBJc2oyZFRieWtHR1VGV2RSZm1PTk1PekZoZi1iRWlCS3U5dEhzZ1BHclhaTkhDTkRHcVhOMkFPQ1oxdkRqU1pONEljMnNTeWxDanE3Z1NOUmsyT3ZLMEpoc1B3c20xd3JHNNIB3gFBVV95cUxPUUdIaURPNndEeENTWTBsZlJ0S2NsdjVDUTJuUzZQLXZSdEUtcXhNeXN6aUJ5a1FQcFNiemN5eGg2VjdOb2hfam9NM3g2RlhGV2tsUnFGdjRyamxxOGxxLWxqY1I2eml0aXJhSGt5S3VPbWdsOEZEWWtpREs5dndSd0hYdjd1UlMyekt1a1EzSHlLV0ZPSkJ0ak1mSFZCbGtzUVB2NXNPUlNWLTVZblVLQlBDWkNRRTd5X3FkQW5VUG9uV2RMX3h4dGFBRElrX05aMzd0aGUtQjNHMGtBaWc",
         "CBMi0wFBVV95cUxNOTBoTXJRZU5uLTVmVU1RQm8wYmZ2WGMxal9POHJkbndnNHZWVFpsUHdhbHBnSnd0d19QYlprV1BlX3hCTFd5MlJ2UWpmRGUxRVV3NnNMVzVKeFM5b29Lc0NKTl9ScGlnc28ySTltWl9zN2pseXF4akVoRkZfZnFrSFRhWEVkMmF6YVFIdjI5QjdmWm1fb0V5dUtpSTVqTjh5Q1k4RVo3MkNwZkFjZ2lodDJqNGdvcnRXSmdKQkFoNGozUVZTLTBjalJ2NTNiNXdfSmE40gHTAUFVX3lxTE05MGhNclFlTm4tNWZVTVFCbzBiZnZYYzFqX084cmRud2c0dlZUWmxQd2FscGdKd3R3X1BiWmtXUGVfeEJMV3kyUnZRamZEZTFFVXc2c0xXNUp4Uzlvb0tzQ0pOX1JwaWdzbzJJOW1aX3M3amx5cXhqRWhGRl9mcWtIVGFYRWQyYXphUUh2MjlCN2ZabV9vRXl1S2lJNWpOOHlDWThFWjcyQ3BmQWNnaWh0Mmo0Z29ydFdKZ0pCQWg0ajNRVlMtMGNqUnY1M2I1d19KYTg",
-        "CBMitgFBVV95cUxQRkM2aVRWWGx4VjZza04wVi1NZ0s5RWN0WUg2aU45Uzk5dWcxY2htN0hzYi11QVVlVVQwRUFONkxSTDQ2ckh6bnpiYUsxcmI0ZEtNcEtmT2JiRTFGbGxPZnZUVG41TDIzOXp5UkxJbVBQeDZjbUg2ek1namJsdlBGMTFJTXFKdm5iaWliLTl3cGozVTV0NGg4U3VVRlVpcjh0QXBULVhfTDY4VjN4U3RMUWNtZ1g3Z9IBtgFBVV95cUxQRkM2aVRWWGx4VjZza04wVi1NZ0s5RWN0WUg2aU45Uzk5dWcxY2htN0hzYi11QVVlVVQwRUFONkxSTDQ2ckh6bnpiYUsxcmI0ZEtNcEtmT2JiRTFGbGxPZnZUVG41TDIzOXp5UkxJbVBQeDZjbUg2ek1namJsdlBGMTFJTXFKdm5iaWliLTl3cGozVTV0NGg4U3VVRlVpcjh0QXBULVhfTDY4VjN4U3RMUWNtZ1g3Zw"
+        "CBMitgFBVV95cUxQRkM2aVRWWGx4VjZza04wVi1NZ0s5RWN0WUg2aU45Uzk5dWcxY2htN0hzYi11QVVlVVQwRUFONkxSTDQ2ckh6bnpiYUsxcmI0ZEtNcEtmT2JiRTFGbGxPZnZUVG41TDIzOXp5UkxJbVBQeDZjbUg2ek1namJsdlBGMTFJTXFKdm5iaWliLTl3cGozVTV0NGg4U3VVRlVpcjh0QXBULVhfTDY4VjN4U3RMUWNtZ1g3Z9IBtgFBVV95cUxQRkM2aVRWWGx4VjZza04wVi1NZ0s5RWN0WUg2aU45Uzk5dWcxY2htN0hzYi11QVVlVVQwRUFONkxSTDQ2ckh6bnpiYUsxcmI0ZEtNcEtmT2JiRTFGbGxPZnZUVG41TDIzOXp5UkxJbVBQeDZjbUg2ek1namJsdlBGMTFJTXFKdm5iaWliLTl3cGozVTV0NGg4U3VVRlVpcjh0QXBULVhfTDY4VjN4U3RMUWNtZ1g3Zw",
+        "CBMijAJBVV95cUxPWm5hbWhvQkJNNU1ZWU54ZWZHUUtDYU1yS0xzWTMtTGpJd1hwQ1NOTzhHTHJzQWtJZkFNT254QTg1S25UUUZmMUYweDU3NkVLU25QbFNWM3JwY3ZhNUdXNXk0UDNfQTllMGNGN3hKNEwxQkltYVlFZS14bEwyM2NyeXpFcXRiT1M4VFlWU1k0aXFoYkdZZUM5a1VVMnIyRV9qdmVXX0dDMXlVYl9wZnhsaTloTXUwRTItb0JjZTZ2SkN2Z3BYbHc5akhGVVo5VWdMeDlRNWxmV09WcktoOUYxcWM1dE5hdmtHZEpOMW8weUUyTkVOODhySmFpMVpsWXdsWjktMFg3OTZGdFdk",
+        "CBMixwFBVV95cUxQNGhXN2pDbFprLXUtc0RJQlJHSHBmMjkySS1sMkFPbjdVa2FCLW1wbmJTQnYtTHdJQ1JRRU1WdzFSVEVxc1BiWk94cVV5eDhSdS05ZnlIM094SFNyTlNKc2JuSG52MnZWRjdVWjVmMHhXZVZpQWZ5LVdWUEEyNWhYVWtid0dlQk5CWktzZWEwcU0yUzJ1VURfSGloektzQ280SERFWXl6ZGtmdWFQUGVvQ0U0OE9EamEzNTNVYkRPbEdfM1FRTFp3",
+        "CBMivAFBVV95cUxNNFlLRGp5UzNVa2Q5NlYyNy1nQTNGNGlaNThPMGlyeXVNa2hDNUVjajVKMWpBZFpINVFWVVV2aE5rNENIN1VfNzNzbkZyS0tpU3AyYldXNldtQ0dPckMtOGdvY1c0NnBDdHVuOUhNY2kwTGFCOWR0MmZjTFFId1VmWmpSOFEyVXF5MHZuM1dCdU9VVll1a1BXM0ZNR3ZzVXRXWjFtMUUzcnd1TmNOVEZFSmNWbnIzbmdpU3hMNw",
+        "CBMiugFBVV95cUxQODdReXc5d3NSc1g1dTFfNVg3bUx4VC1yQ2ZPRmw0UXlMTFJROWNlNVlraVBqT1F0S3Y3SF9GdzA3aTZKWjhadFQxNm4xWXpoeng5VTVPMkhRelhGOU9jMTB6WFlzZFVRcS1pOU5iVjRfWnFaeFR0dDhGaUZ1Nm5yMG9Gc3docFZkUldUV0tja3VHNlRsOEVvcE5IWVYxdG5PX0hkT3RVbDVpX0s2clppX295QktEcTlQa3fSAboBQVVfeXFMTU5yZV9lZWtZeUphQ2c3U29US1l5VVJTSDhkalZhQ0xpR2Exam96ZG96UWdsZm9CN3RBUzlSN3BHMXJvTHgwVWhuOFpnWERGbmNDT2VxTWpjWjVsSHg2MEFmMzdJbmNDTFlvMzZqeVNBQWhZM0hSQWNsRVhGaThzT0stZGR1QmJYR3kwck1ITEp6X3lRNFJIUC1mOGY0aWhjdXhKQTM5ZDQzUUFMbmhMOTJhZU9wQnhobVBB",
+        "CBMipgFBVV95cUxORzd3YWp0NW0wQVBxQm1LaDAzZ0VHX250ZWY3SlhkbVUwaXpKUHZqM3ZicjF0cGFES3NqSnFiY0xMMEpQZ2pkTWt5N3Z5NWVGM2xrOFZRcnZzYXp1cWJmOWowb2RRSlFyZnNaeDFjVUJ5TG1tRC0zQlBBd1JMX1lEdU1kNlVZdmRYOEdJNjVmQmNMb3BOTVpoVk9TczNWTXZqTk1WR0V3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-18T22:11:00.442Z",
+      "last_fetched": "2026-10-19T09:32:31.755Z",
       "last_epoch": 1792304516000,
-      "etag": "\"06f87de2d6fd7720925c51a09377c5b59-gzip\"",
-      "last_modified": "Sun, 18 Oct 2026 21:47:11 GMT",
+      "etag": "\"064b8e18fd5280b2e3b01eb52be8acc20-gzip\"",
+      "last_modified": "Mon, 19 Oct 2026 09:08:11 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/china-proposes-export-controls-on-solar-manufacturing-technologies/articleshow/135024898.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/3500-jobs-for-chhattisgarh-bhoomipoojan-of-yash-fans-plant-in-nava-raipur-in-the-presence-of-cm-vishnu-deo-sai/articleshow/135012156.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-18T22:11:00.556Z",
+      "last_fetched": "2026-10-19T09:32:31.795Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:35:34 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-18T08:31:28.125Z",
+      "last_fetched": "2026-10-19T09:32:31.814Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
