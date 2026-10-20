@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-20T09:02:56.500Z",
+      "last_fetched": "2026-10-20T16:01:09.404Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-20T09:03:32.921Z",
+      "last_fetched": "2026-10-20T16:01:43.579Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-20T09:03:34.559Z",
-      "last_epoch": 1792479926000,
+      "last_fetched": "2026-10-20T16:01:45.201Z",
+      "last_epoch": 1792510801000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMigAJBVV95cUxQYkdQM1lCUF9DSkpxUU5ZcVowWGlxTU5EQmV2c09mVmpNdy1USU05UE1oWi15MmpuUFowelFPbmo4R3JsY2o3LWE0N2hISF9DT2dyYW95dGRPZ0g0b1o5RVRLRWJVczhGVjhqQmt0bmVlQUF6SUI3YzVGeG5lRGxCNDk1TXRQc21NYVk0WXM3Y2hYWGFhRTVKNy0xOWI3UlNQTUJhUFM3bW1ydGpDcGVzb01lOFcwb1hYQWdDblpDR293b0VKMWdxeHc3N2xMOUEtNVZqeEhfT2NCZy13Mkw0M3hfMWFyVllKbU81VDE3aUN1NEw1aldEWkhDcVNWb3N2",
         "CBMiZEFVX3lxTE5INEpIcnh1V3R5eUtkb3NOU0ExNUV4bFBrZDZCc1BKdi0yajV3R25nSkdLYXgwcVlqY1Bid3JGM3R3SU80OGxNdFdndUF0Q3hEb3VqZXI1OUVhOE4tdlZibVZSWm0",
         "CBMi5gFBVV95cUxNTmVRX3JUbGF3ZE1jb09qSnQzRUdNMnlhckVwMzZjeF82M2E3TWs4RnZpQkVRSmhRR2VFLUZ0Q1c2MEE3N3R6SU96TlBHUmFoZVJkeXR6a0xoUVZBdmQtMzNZS2I1VGs4T0ZPVnJmOEFsekcwbVFrN2lYUV9DT0xlVUhxX1d2ejRRNVNoYnNNbnJEZ1RwRkVHOV9yZjlBX2FnVlJnX3FzQ3RiNFRldXNBYWxiTzd6ZGZ2ZTNSQ1UwYXFmTXRoRG9DNnZieFFfbmpieUp1VlE3b3RvcDRJOFBYNXRDbTM4QQ",
         "CBMijwFBVV95cUxNN1U3R2JhdFpoemJpZEUwa29kU1RWVWxWblZLZGRsQkJaM0hjRktaQ2dfNHFhTm9SaGVUaGI1bEdLYWJiT254T0FlWWlzNTBsNkRfTkFhaTFfZnYwR2E4RElEZ2pUOFNwRUc5VHZXVVdNVkhiSTFNNEE4eHliV3BiVDlvX2xxbHBtSWQwVVVSMA",
@@ -319,16 +318,16 @@
         "CBMi0AFBVV95cUxNRWVXRGN6RFFaczFWVGowNVlyVTU5RElpYUJFRU02TUNjNUxaTTQ0LThTXzlqWmRHaHoyeDBXR1R4R1pnaHVfMTNzX1pZQnkwVTdvN21XYzJWclRuMThNV1h6Zmd6ZTlYZ09BcVBoVlVqVkFrRHpoNlc1a3QzZmxQT1drMURnZXVucG9xVlRuX0dPMDV0YXpJSnliSHBkQm0wR0xzenRONU81LVdZLTVtNmVTUXVMOHlxaGxnVXJycDhxeGZ2bW1yZjFHa0JJTElx",
         "CBMi8gFBVV95cUxPUnVUejdxNGFYcU1ST1RfVU5fUlNlc05ZemhVb1diWld6Sk9jMXlJR2dzY2tJMkV3OXBsWlNVWi1NNC14NjV2d2lGYko5N21OWkxLMjhIT255MG9KdnVWSTN0a0F6RkdRM1A4cHNNY3ptaTkyUXVtbEZtYVBvMDhsdEp6ZnQzalhMNzZ4RUROb1hQVThDdEhudlZtVk95MFhPSTdoZW45YWpkZ09nb1pzTWNITl94WjNlb0kyeUt6OEZkaG5tYWtZeGNmREdfdVN2dEtwbVlrVExIRkl0RE5KeW9KZjdGZ2t0Q0JYcDVQMXhuQQ",
         "CBMi2AFBVV95cUxQQ0FEcnFoWlpxMmJ1TV9sMTRobXJ5SGtBWWd6Ny1RbDRKb2tpYVRFV2pOaDhfTFRhSXNKMU1uLVUyRGxiM3VoZm1PZ1Z4emFvdU9vMmpzckJkRDZkN3IzeDlIVUpYN1paS0JOdEpOLTNWVEpDTHptaVdCc21mczBrTVZ1ZVQzbVd3eDRodHY3aTdBN3prenMyQ3ZGcWpMRUU0WFd5dDM2anlUZmFyMllFd3hnNE5BckRpdkZxMVN4Q0JNNEVRWUJuUzVnbU9YbEtoVHZidi11bmw",
-        "CBMizAFBVV95cUxPbFItUEhsZUFsN0ZBRGRBR3M2SWJISXR3TlBlcmZzaE1vbXVQbW41eUMzWXBjcGdQbEVBTXhCTW9XSkdZWlpCdjZ6VFBIR0tlUERJdTFPSUpfbkVURTAyOTJIbl9hQ1o0UHZwcTFIRHJxSkI5MjJIX2JiOGd0c2FMSXpEZTR2VHJyNHhmQzg5RFZCak9NVE0yeU4wT2RXZFJMOXZTM3J5QnRCSkR4QVhVWm5wVEtUUHlYWDNzMXFUbDNqVzdaSzd5NFBqazY"
+        "CBMizAFBVV95cUxPbFItUEhsZUFsN0ZBRGRBR3M2SWJISXR3TlBlcmZzaE1vbXVQbW41eUMzWXBjcGdQbEVBTXhCTW9XSkdZWlpCdjZ6VFBIR0tlUERJdTFPSUpfbkVURTAyOTJIbl9hQ1o0UHZwcTFIRHJxSkI5MjJIX2JiOGd0c2FMSXpEZTR2VHJyNHhmQzg5RFZCak9NVE0yeU4wT2RXZFJMOXZTM3J5QnRCSkR4QVhVWm5wVEtUUHlYWDNzMXFUbDNqVzdaSzd5NFBqazY",
+        "CBMiwwFBVV95cUxOamlZb1NTNUxxWXZtbm02NlpiUkY4b3FJcjBJOF8zMzBOLVlvcjdhRmc3VUpIYTMxRFJ4dXA1WFE1MVZGVFZ6d2R5WEVib1YtZUxzVFJqaHJaUmIxaE9TZTBSeVRjSjRTRWJKSnlzU2YyWFZwc1N1TDNneTdXcDBtd2tXVzduWjJseWpRRG43Y2N4MU5CWVROUTNXd085STlfZ3RUdTduX0JyQXhYNm91UThqZWRjWkQ5bHNZcnU0a0syZlE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-20T09:03:34.643Z",
-      "last_epoch": 1792474707000,
-      "etag": "\"07021a29bee3f6028dd858a51fcdf8466-gzip\"",
-      "last_modified": "Tue, 20 Oct 2026 08:45:24 GMT",
+      "last_fetched": "2026-10-20T16:01:45.305Z",
+      "last_epoch": 1792496668000,
+      "etag": "\"076a62164ac139026096a77b1e64b3f68-gzip\"",
+      "last_modified": "Tue, 20 Oct 2026 15:44:52 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/drugmakers-may-bear-sole-responsibility-for-overpricing-essential-medicines-under-nppa-proposal/articleshow/133598884.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-bank-to-add-100-branches-hire-2500-as-expansion-shifts-west/articleshow/133626487.cms",
         "https://economictimes.indiatimes.com/industry/services/education/technical-glitches-cause-chaos-in-neet-pg-2026-examination-in-jaipur-student-protests-erupt/articleshow/133626368.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/jharkhand-on-high-alert-over-swine-flu-health-minister-directs-hospitals-to-reserve-beds-ramp-up-surveillance/articleshow/133626123.cms",
@@ -627,11 +626,12 @@
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/big-four-battle-for-indias-2-billion-and-growing-gcc-work/articleshow/135033218.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/central-bank-of-india-reports-technical-glitch-in-rtgs-outward-system/articleshow/135053338.cms",
         "https://economictimes.indiatimes.com/industry/renewables/states-may-be-nudged-to-go-for-agrivoltaic-solar-projects/articleshow/135054873.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/cbdt-makes-form-173a-mandatory-to-claim-tax-exemption-on-interest-and-gains-from-government-securities/articleshow/135062208.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/cbdt-makes-form-173a-mandatory-to-claim-tax-exemption-on-interest-and-gains-from-government-securities/articleshow/135062208.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/healthrail-turning-indias-hospital-receivables-into-growth-capital/articleshow/135069045.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-20T09:03:35.063Z",
+      "last_fetched": "2026-10-20T16:01:45.383Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

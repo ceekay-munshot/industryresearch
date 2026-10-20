@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-20T09:03:35.255Z",
+      "last_fetched": "2026-10-20T16:01:45.622Z",
       "last_epoch": 1792457820000,
       "etag": null,
       "last_modified": null,
@@ -78,19 +78,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-20T09:04:10.486Z",
+      "last_fetched": "2026-10-20T16:02:20.103Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-20T09:04:11.843Z",
-      "last_epoch": 1792481824000,
+      "last_fetched": "2026-10-20T16:02:21.517Z",
+      "last_epoch": 1792483588000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi7wFBVV95cUxNcDduTE9BVEZOVkpKRUo2eFFUX3kxYTlmR29rLXdtZHZ2ajUyZlpxYWdmV0RHU3NiN2N3ajNiclZxYmxSQXhtZXU0X2xIREVaa0l6MTNHZEx1M2lPV29QOFFGRTZjS09zN3RLdERoMFdXMkFlbEk3RHd0RHBGRTIwZERvWXNseVFfYWFTZXNaekR1bWlla3oyY2lsU3hoVm8wMGpSS0IxaTFfcVpxLTJ6eGdlWVVkUzhPd1VDNHBsd1EtTGhidUNIU2RNcExSUDQ1ZnZsYUl3a0Nzczk4dGwxeEM2UkF4akJsc0pCNlNsTQ",
         "CBMilwJBVV95cUxPY21LWF9kVXQzTERwMURnR1lCbHJEOXNnWGtJQnBScml0TjhfRmlDa1V6V0tuT3VkTG9OUG9Pb1RfdS1MTHNIV1ZJVDZ3LWtrYWVQM0lmR3RCUm14akxTYWwxZmRDdnA4cE9GSVRheUZ0d2d2T2xGeWwyWlJHS1F5SFIxTTdJa1FlUjU2S2dkQ2w1MkJ4MENkYWhDYTUxQzdUSFpyMko2ZG9ZSS1ibU8wRUlLQVRoQTJGU3Qzbkw1eDlCZERtLVJmdnlDU0UzTkN5NWZxNXI0d3AtVGVhNFh1VmVSLTEta0hVRERFUXUyNVFlVUk5VlhWOVhoTDgtU08xX0ZnckVhekwyQXNmVWFzTm5tOWRFRlE",
         "CBMivwFBVV95cUxNQXZTbDAwNWRha3RJYXJqNE4zQk5hRXpkWVJxU09rV2tTczFBMGpud1Jxc1kydVpXdGpHN3JmSW44cWRjOGhzM29VbWlURk9JME9HRmQ1UjllY09mQzlyN0Z4bjVHYzgzRFlrdXNaUjNNN0ZKZHR0ZnFrYnhuN05LVm1YYWFrMWVEbjZLOGpDNEl4a0EtYWl4VjFIQ2FMd0x0ZjNJS2dwNGZUamEweC1DRjgxMUs2cXF6Qnp2MGlNOA",
         "CBMisgFBVV95cUxQWjhiOC0wNHhmZUNicjlYLTB5dUY1MnRoN194dmhWRW14Y3ZqOXdaWDBGVVMwMF8zWEoyaC1YeThyc3Y3ZzRLM2NwSmx5R2p5S08yZnNIT2hUaURPRVlqTldlTExVNzFScjJvdGdsX0dOanpyNWg4dklaSUhYTWVJdGJ1Qko2YXJnMW55QUY1aUZhRTVLRFR1UVkzWG1KTHJXb1RuOGswTGlQSU5Jb0J5OXB3",
@@ -389,17 +388,16 @@
         "CBMitgFBVV95cUxNUVhRdGlHTENnMmxSZ0JiUHkxWGtOYzROOEVmVkNyNGhTdlIzRUZLV0t2RURpbC1EdUtDSnR1elFoeEJzVG9QdXVFU05MVUwwQnphSk1CODgzcmp2b3VGVGU0VGUwNG84QXE1ekNTZmdQOFpkZHlnX1QtbHNoMXpmdHlJcThGMTVhQ0ZMRzE4RUNMckVoR1hNZ0tsN0VFWWNOUFVjSzJSTVpGYXUybzRwbGw1WnN5dw",
         "CBMi0AFBVV95cUxPajFFbWF0OE5GTkZtN3RyQUNXc2xmS3Z4WDZaVE4yYkJ6Y25fYjNkbzB3aTVSVXFXbVJxVGZndVlyQTFSRmViLU1qV2tGMzBiNUJiTFRBQXVKVFlJQmlhMlJWV0VGR0I2d2ljSndfT0liQ2NCdUswUnJvVlF4WnlsTDBCTzR2VWhzUzBiamJyUTRZUzRReGgwVm5rM0czd2tNRG4wT21HVjdpTC1makVvd2xZZHJuQUUxd0d5cUJ3VVRCT3otbUEwY3psbXIzakZr0gHWAUFVX3lxTFBxN3Y4VDhlVXBFR0ZEWkEtSHM5UERrdnF3NUJWalpkbXdFQlA5c1RqeFVGdkU3am1td0RnRTBRaDhIOW5zUnZ6Sjdlc1ZCQmNvTm1BQUFhMVk2ZzJuZ0l3YmRoVF9lZHJiZFktYkZhVGZyMC1kYm1CR2xPYlJ0OVNvUW9IT21JQzgxTERKMGxOMXhCRDJpVjVpblUtcm0yVlRKeEhDbjZxenZ3aTB3ZVRZUEFucm9zd1dYLWFLNWRYYUVwNHhkOVpFZ1U1T0xIeWpzRTZzc3c",
         "CBMijgFBVV95cUxNT0hZYktOMkRQelhmNm9xSzFMd21pYm1Nc1Vrbkp5U0ViMERIMUR1X05BV0FXclFueEM0RFUzRnhkX2EyNHVxbmpnNVBGS2s5MENLbk5jRUQwd1FfZVR3Mzh4WjI2aER2MTZHNHhUNU8wUE91NUw2Zy1Qd0F1Q0ZEM0JHZllnYm56N21XdlRR",
-        "CBMiO0FVX3lxTE9GVnZxZUhFY1pXb2RKbjRLNVpuYXppeXppZjdZc3V1NF9taDV1LUNuSFduVnlEdlhKMWFF"
+        "CBMiO0FVX3lxTE9GVnZxZUhFY1pXb2RKbjRLNVpuYXppeXppZjdZc3V1NF9taDV1LUNuSFduVnlEdlhKMWFF",
+        "CBMilAFBVV95cUxQYTJiTi11YXhBbkhEWVJBSjlpbzcwLXNZRkdTcnIzYUx1T3I5S05VajdCcVIySGttY0N2WWNsbnBEZ3czcWQzZmlTOWxQeEY2cHFRWmpzVzE3WDl6LTA4elZQMlItanJHSW1zN3Z0S01EaWc4c0lVN3p5MklFaFR0RDU1UHJSbW9EWmhKaGtPc0tlRFhL"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-20T09:04:12.016Z",
-      "last_epoch": 1792481550000,
-      "etag": "\"07021a29bee3f6028dd858a51fcdf8466-gzip\"",
-      "last_modified": "Tue, 20 Oct 2026 08:45:24 GMT",
+      "last_fetched": "2026-10-20T16:02:21.646Z",
+      "last_epoch": 1792496536000,
+      "etag": "\"076a62164ac139026096a77b1e64b3f68-gzip\"",
+      "last_modified": "Tue, 20 Oct 2026 15:44:52 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/accelerating-plastics-circularity-turning-ambition-into-scalable-action-industry-roundtable/articleshow/133711900.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-to-chennai-from-cupertino-how-tim-cook-iphone-makers-india-recipe/articleshow/133703358.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/india-needs-to-build-advanced-tech-capabilities-reduce-import-dependence-hyundai-ceo-tarun-garg/articleshow/133703447.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/engineering-the-future-of-global-pipeline-infrastructure-how-indias-ssegpl-is-powering-the-next-generation-of-energy-projects/articleshow/133702016.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/auto-industry-must-turn-disruption-into-strength-says-maruti-suzuki-ceo/articleshow/133701798.cms",
@@ -696,11 +694,14 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/natco-pharma-subsidiary-launches-carboplatin-in-us-market-to-address-shortages/articleshow/135044938.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/shift-to-navi-mumbai-or-suspend-flights-mumbai-airport-gives-airlines-options/articleshow/135054937.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/smarr-realty-builds-on-its-legacy-as-one-of-the-trusted-ncr-developer-with-a-focus-on-experience-and-destination-led-retail/articleshow/135064010.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/nepal-priyagold-biscuits-ban-why-indian-brands-licence-was-suspended-what-dangerous-substance-did-fssai-flag/articleshow/135062316.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/nepal-priyagold-biscuits-ban-why-indian-brands-licence-was-suspended-what-dangerous-substance-did-fssai-flag/articleshow/135062316.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/prestige-estates-to-launch-rs-40k-cr-worth-homes-for-sale-in-h2-of-fy27-up-2-5-times-from-apr-sep/articleshow/135069164.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/paper-/-wood-/-glass/-plastic/-marbles/hindusthan-national-glass-industries-to-invest-300-500-crore-to-boost-its-manufacturing-capacity-and-expansion-efforts/articleshow/135067846.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-components/stellantis-india-targets-to-halve-vehicle-development-time-boost-localisation/articleshow/135067508.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-20T09:04:12.446Z",
+      "last_fetched": "2026-10-20T16:02:21.759Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

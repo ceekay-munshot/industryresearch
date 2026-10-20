@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-20T09:02:17.978Z",
+      "last_fetched": "2026-10-20T16:00:33.444Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-20T09:02:53.605Z",
+      "last_fetched": "2026-10-20T16:01:07.740Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-20T09:02:54.826Z",
-      "last_epoch": 1792462557000,
+      "last_fetched": "2026-10-20T16:01:09.096Z",
+      "last_epoch": 1792507902000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMisAFBVV95cUxOQzY2aUIycWtuMEpnSEVVanQ3ZmZJall5WEZZWFU5dkgyZUFrajlncEFuVmdWc3ZGcEd6U3BrRFQtcGZOUEI1N1NzZXZOaWpjLXJRUjQ5WF9jT0lhbkpud2RJRWl1S0pZa1NrZ3M2RXZ3N1g0aTNFQXpRSEY5VmlwUEZaUXRaVWhnOHhqYndoa2pDNThheEJfQ3RaTC00R0VVVWtXT2NfN3ZZUEpWck1tNg",
         "CBMitAFBVV95cUxQRm9PeXg3bGNrdFZwWGk0OVRHUHVRNS1Tb1o2UDFhLW5EUTAzZjlPRTEyTm1HTlFUZGY2M1NCUW5Sc3B1TzhsMDQ0bXBVOE1zalc4c2IyUVdaUE5qcmJDSHBqSjdraW1nT1pWVzlMaE93aU9WWE13SlNqU3JSNTg2OXdxNTdyYUhqMTFWNVlVeWt5TlZ2NWhtUWVoZ29uSmozUFVXWThLOXZ1VXpqOGY0amZmZEPSAbsBQVVfeXFMT28zTjNvU0U0VWQ5OG85ZVNuTFZWbkxtbGxDOURLUmtWbDZ1WGNNMHZRZkt4MnBFaDFpM2ZFbmJGb3lOMGhqMVNVVlFsUmtUSzFLUkExZGlHRkdZX2FleDQyUmZDV1h4bTFPXzFDNVBVMTVJT1RhWGdaYThLdjU1X1RzNHF0UkZ4MHpfaENPeW1aV1BGcjJUNk1fMnlEcC03WU1Wc2MtVU14ZDRKekFjV2FCNUF3TXpVY012WQ",
         "CBMi7gFBVV95cUxQSWtDMS1OYWtVX2I4dzhqdXM4clVxcTJJUmc0UVZ5LTRwM29fV2ZuX1NoSWo1bDI4dnlPZ29VUlBPRWY3ZjlWX2RfMlFmWTJORmtWTkRDek04ZUJwYTVrRl9MN0N0MWNGMFBTOWIxMUt1LXZZMU5uUndkdTlyZmNuSTljdWdmdU8zNkhvdEEtODFZVTBOX3d2MUZJb2RNQ0dTNkJIeVVjNzJhUElpQ3dOS3V0YTdpbUFCU1k5dnNtNGlNcDZoQjZYMWNhZXVXbDVwNDAyWkxtUkVwTmhrRmRwR3VUYWp6VXpvOEt0alZ3",
         "CBMi0AFBVV95cUxNM2g4SnRma1dtTjFRa0VlT090TGFWM1d0MzhKZXJLdUhLVzhGakROWXpOQkF4VXRsTzNpREI1bWpFMkFFQW0wUThIX1NNU0hVYlRXblZwYVh3UElweU1YVzJVaTI1ZjVFS1dlQnhOSEFMdGlnZjYwajBhTllHaFZTS3FaT3NJeHl4SlRseUJuMGhQTkU0MlVraUVNRUpodlNiUkEzRTE0QkNPaHhWR21WWlRaOURwTzNBa3VTUEFtRlVLUW9OTVVhUDlPa1Z1RHU2",
@@ -319,19 +318,16 @@
         "CBMirAFBVV95cUxNTjJpbmdyOUk0bkJYd1BidkRmV3RXZzk0akM3eXV0V3pFRFNVOFhHOU5FVFlNTjFJTzFDV011MU1YeV9PNERjc0JiWmx5cnJuaWNkSXJDRmNGaFFmM0ZCMDkxVGlQYXMzcVBoX0ZlZ01fS2RVcmh0ZGJobDVqdFJZNnF1R0thVng4Nk1CWVJ4RXJ6R0s5YjUzNDFxbVlvLW5KNm1hNXBtRk1qLTRK",
         "CBMilwFBVV95cUxNTFBDeW5vRWREdURiUXNnS3VNX0g2WHVGa2xHZDdMVkZDeE1DcmJnSms5Tm5iSHVPOXRxSUZWVzJJQXJxazZBN21TM2JwaXpqc3piRjA4RjA2bHBBQ3poYnhwRXlmMlR1MGtLdFlBMWdmazltOWNsWmN3eHdRelhJYnRGTVZuMmdmMXJzM1RMUHpsMG8yLURN",
         "CBMi1wFBVV95cUxPcU9OMXExZE5EY2haU2VrVkJxYnlHamdZM1Z2OEhMWlV0VXFoWU03SVNaWjJfeTFzX0g1Y3lRb3lweDd5MDNrZnFRbFU0ZlRwN21lTnIzc1NKQ1Q4Z19xWXF0UUpzRTlzbTdVcEdxaGJhdENaNk9JVmNib05lNEhpSlVHYkVOR3BXU2FuZ2huQUFpREVkcUpoLVR2dERqQjF0dGNLbk81Mjlza1pkU0pwcWl5NkN4a0g5aU50Z1NiNDBBMmtVUjdSOVpJbEI1YjBNWFNrMGpaVQ",
-        "CBMixgFBVV95cUxQZUNoSTlOR1d1eF8yVE41WU9XS2VYcDRaSmRWMUZzMzV5cGZoT1ZvdXM3SDNuRWZmN2RWOG45SEd2Ykl1dHZlUlVrQVdHTkd1cEZyVWYyTDQ3U1loZGhfSTEwdVJpVmRJVGl3dGtqaFBWQUJHSHNNaUdnTTRSWEozNXpkMmc2eG5RX1h6d1J5UkdlY3VFVHNHMy1WQWlCVW82WEhzYmdXaVNXXzktTUxCNko1aENmTVd3MFpwN2FjUzRpRnhpZVHSAcsBQVVfeXFMT013R1RPMjU2a2xCaDB0RXdNdjZTanh6a0xsYVJTM2hxNXBSNlBKUHZFWGxTaXdjTUJxWGdZRF8yR0E4ODJRN3JmLV85bWlXVXJEQUtOUm9PdkZlM1JzYVdkeVVGUml1d19UbXAzdUV2dWc1bEpQaE1IM1hJemFMX2dTenJ2VlVERUVIWmc2R0h3VV9fX2FlY21OSlk5N0xtU1dFb2tJUTVuQTFZUDVXeXEzMl9CR25XX3hjQnRDUU9aME5Dd3VYUTdwdlU"
+        "CBMixgFBVV95cUxQZUNoSTlOR1d1eF8yVE41WU9XS2VYcDRaSmRWMUZzMzV5cGZoT1ZvdXM3SDNuRWZmN2RWOG45SEd2Ykl1dHZlUlVrQVdHTkd1cEZyVWYyTDQ3U1loZGhfSTEwdVJpVmRJVGl3dGtqaFBWQUJHSHNNaUdnTTRSWEozNXpkMmc2eG5RX1h6d1J5UkdlY3VFVHNHMy1WQWlCVW82WEhzYmdXaVNXXzktTUxCNko1aENmTVd3MFpwN2FjUzRpRnhpZVHSAcsBQVVfeXFMT013R1RPMjU2a2xCaDB0RXdNdjZTanh6a0xsYVJTM2hxNXBSNlBKUHZFWGxTaXdjTUJxWGdZRF8yR0E4ODJRN3JmLV85bWlXVXJEQUtOUm9PdkZlM1JzYVdkeVVGUml1d19UbXAzdUV2dWc1bEpQaE1IM1hJemFMX2dTenJ2VlVERUVIWmc2R0h3VV9fX2FlY21OSlk5N0xtU1dFb2tJUTVuQTFZUDVXeXEzMl9CR25XX3hjQnRDUU9aME5Dd3VYUTdwdlU",
+        "CBMivAFBVV95cUxPQ2paMnl6WjNqZzY5c2JiT2NnMmhTaE90MWo4SmtmVVUtU3dfM0djOTQyVlhzdF8xRVMteXBYbnNNS0U1UHFCYzlLa2JXeE5SZlFNcWZKdkpzNHRFSXVVMXZCNEVYYnloY3BmaEVfUXhIeElRQ0FIZmFsVW9BemJTYVFBd3V0N2NVT2pwUTUwcDRBbzA0dXRTdk44QzJLLUd1MHhFNjBrbERZaXV1STE4YmZkTWg1NGJJejd4Uw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-20T09:02:54.945Z",
-      "last_epoch": 1792478623000,
-      "etag": "\"07021a29bee3f6028dd858a51fcdf8466-gzip\"",
-      "last_modified": "Tue, 20 Oct 2026 08:45:24 GMT",
+      "last_fetched": "2026-10-20T16:01:09.138Z",
+      "last_epoch": 1792504489000,
+      "etag": "\"076a62164ac139026096a77b1e64b3f68-gzip\"",
+      "last_modified": "Tue, 20 Oct 2026 15:44:52 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/new-tb-vaccines-expected-from-2029-could-prevent-7-3-million-deaths-by-2050-gavi-says/articleshow/134241264.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/train-passengers-could-be-the-biggest-beneficiaries-india-completes-2843-km-dedicated-freight-corridor-how-shifting-goods-trains-to-separate-tracks-could-change-rail-travel/articleshow/134240514.cms",
-        "https://economictimes.indiatimes.com/industry/auto/auto-news/fada-in-initial-pact-with-rosmerta-digital-to-simplify-vehicle-compliance-services/articleshow/134237523.cms",
-        "https://economictimes.indiatimes.com/industry/services/retail/indias-festive-demand-hits-5-year-high-from-cars-and-acs-to-tvs-apparel-and-quick-commerce-retailers-expect-a-bumper-navratri-diwali-season/articleshow/134247333.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/satcom-to-play-key-complementary-role-in-reaching-remote-areas-trai-chairman/articleshow/134245440.cms",
         "https://economictimes.indiatimes.com/industry/auto/bharatbenz-adds-new-supaul-dealership-to-bihar-network/articleshow/134256133.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-expands-use-of-salesforces-ai-platform-to-streamline-customer-services/articleshow/134254374.cms",
@@ -627,11 +623,15 @@
         "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/big-four-battle-for-indias-2-billion-and-growing-gcc-work/articleshow/135033218.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/train-passengers-take-note-5-superfast-trains-including-2-vande-bharat-express-services-get-ai-based-cleaning-checks-a-2-hour-complaint-resolution-target/articleshow/135032578.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/bank-of-america-arm-seeks-cci-nod-for-up-to-49-9-in-jio-credit/articleshow/135049790.cms",
-        "https://economictimes.indiatimes.com/industry/services/retail/from-free-ration-to-school-uniforms-in-kind-welfare-moves-nearly-22-crore-indians-to-a-higher-consumption-bracket/articleshow/135062857.cms"
+        "https://economictimes.indiatimes.com/industry/services/retail/from-free-ration-to-school-uniforms-in-kind-welfare-moves-nearly-22-crore-indians-to-a-higher-consumption-bracket/articleshow/135062857.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/insure/indusind-general-insurance-appoints-sharad-mathur-as-md-ceo/articleshow/135071461.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/et-exclusive-jio-wants-satellite-broadband-within-reach-of-more-indians-says-akash-ambani/articleshow/135070296.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/healthrail-turning-indias-hospital-receivables-into-growth-capital/articleshow/135069045.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/rubio-says-us-to-discuss-venezuelan-oil-production-with-ambanis-reliance-industries/articleshow/135068011.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-20T09:02:56.319Z",
+      "last_fetched": "2026-10-20T16:01:09.231Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
