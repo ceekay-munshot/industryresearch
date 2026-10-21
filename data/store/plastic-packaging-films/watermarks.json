@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-20T22:50:09.246Z",
+      "last_fetched": "2026-10-21T08:59:37.229Z",
       "last_epoch": 1791540670000,
       "etag": null,
       "last_modified": null,
@@ -13,15 +13,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-20T22:50:45.794Z",
+      "last_fetched": "2026-10-21T09:00:07.051Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-20T22:50:47.085Z",
-      "last_epoch": 1792523609000,
+      "last_fetched": "2026-10-21T09:00:08.213Z",
+      "last_epoch": 1792565642000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -240,14 +240,17 @@
         "CBMivAFBVV95cUxOMG5oOEV0VnE3THlJOWFLMVRwb1UyUnpLTDk5c3lodW9DSkdOc3pZd3IzXzI3Zm42WC1fOW11Y1RqczlKQUhIUU5reGRwOE0ta29aZHF6R3RBcnFwS216X0x4WGxsRFRfYzFzczQwOWVVQ0xJakkwQVluUW1mUHVGazctZi0xNUVjWUJiTlJSM2d4VktCZThSMXliencxZWFrVDV3OWx0dHFQNGlJT1hOMG0yVTFrcjR2bEZQZg",
         "CBMisgFBVV95cUxNUkVpNjUtU2Ewa09vOGpsclVYdElTTU1vN3VnVUdnQ1hLNnFTd2FmMnZjUkRoNEJYSXpkdVM4ZDFCaDZZMnhiRkp3V3J6VnppM1BVTHd1YVJlY1Y4R1JNTy1Fekw5Q09waWNoXzBpN0Z5LXlKN3JnQ2MzRjFlcUtNUjJzNU5waEZZNV9nTjZnTk1lX2NUbUF5MnFhQUdQRDdWSW9XTmpid25TYm1BZGpGa0Vn",
         "CBMimgFBVV95cUxOeTVKaDhUWVZnbTlaZ2VCYU1GSWxwcndtUV9fa3Z5T2YzVTZKb2Z5LU1YSUpGbFlTYjJadVBJcGNhbVdidkl0aUNwd2NoMnVhUnhnUkI0UzNfeE91aFNfeU42dGlaa2tEa2UybXJnV3pPRC04TE1EbW9YNE1TY0ZNMlllYlF6WXJwUjFrOWQtX3dWZTRDS2RHS3p3",
-        "CBMiywFBVV95cUxQVTgxU3ZhSFlhaHoyLThJbllKdjg4M2JieG5CNk4wODk3dmUyUjdSVXoxVVVPV3U3bW95V0FZSzVfZWRDS3hKMHRTVEJrTm1Pbzl4M2ZXSF9PcWpfZG9iZWFGMnJwSWZvMUlzdDUzT1NfMm1sLS1MY2FlWUp1Z1JHM0x2QVpONlFLMldhOGhNUjhnUE1qNkExRmhkbFJYcVpwT0F3U00zNW9BVVMtMHplWDVQTEFSZDNwd0hQbV9PVFhzSUZVY1RacGlUUQ"
+        "CBMiywFBVV95cUxQVTgxU3ZhSFlhaHoyLThJbllKdjg4M2JieG5CNk4wODk3dmUyUjdSVXoxVVVPV3U3bW95V0FZSzVfZWRDS3hKMHRTVEJrTm1Pbzl4M2ZXSF9PcWpfZG9iZWFGMnJwSWZvMUlzdDUzT1NfMm1sLS1MY2FlWUp1Z1JHM0x2QVpONlFLMldhOGhNUjhnUE1qNkExRmhkbFJYcVpwT0F3U00zNW9BVVMtMHplWDVQTEFSZDNwd0hQbV9PVFhzSUZVY1RacGlUUQ",
+        "CBMiaEFVX3lxTE1FODYzVUg0akdiVU05cjFCZ2l4SWV1eVRGamI0N3ZEX2pXMExKUTlSakJZNU93VG9uWEN0MTd3X0VfT1JWQ2RJY25jZ04zUVJnNFQxd3k4QWx0a2VFSTh0QnFuLTI2RXFw",
+        "CBMiwgFBVV95cUxQY293Vkg0MWhTaXk3aG9kRHduMUtSc2JrWkQ5SlcwVTltUDV6dy1vQlBRaFBWS2w5UXlHUTh1UHNlbHV6QU9fVXlQS2FhY0RLQWEtTlV2VGt2UXAyek42M0N0V1dJMFVaeTdJVGs4djBuREJfYVFERXN6ZVQ0bGV1U3pfTTJTSm81c2RJVWVYSUNfNWN1ZmVGVzVxck5pSkhkRXFCb2pEd2VJMC1zZWt5Wl9fWlgwWGQ2cDNwdGRmOFBtZw",
+        "CBMiqgFBVV95cUxNWDdBRFRKeVBHZy1weFpFQ2MyWWNEenI5TVFyRXNOekUxMmdGTnFvYWlPMU9kcURqRGxkUVNWZUFZQU40bTlxdW9oQU44WHNYU2stZXhmUkVkTmZGMnp4LXo0NjVZMVlhWVB6SkhyR2R2MmEyME1pNFM2dm54MkhVZzBPSlltS1lmdkZPV3NfNDNzM2t5RG1jUWFZU3F6VnZaTmNQN2xsRkppZw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-20T22:50:47.237Z",
+      "last_fetched": "2026-10-21T09:00:08.344Z",
       "last_epoch": 1792222999000,
-      "etag": "\"02d478bf353f7411fa1e2b72d77f73e21-gzip\"",
-      "last_modified": "Tue, 20 Oct 2026 22:38:13 GMT",
+      "etag": "\"0852e625c954117a0b1d5ee20178f87c5-gzip\"",
+      "last_modified": "Wed, 21 Oct 2026 08:31:05 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
@@ -258,14 +261,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-20T22:50:47.270Z",
+      "last_fetched": "2026-10-21T09:00:08.516Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-20T02:28:49.381Z",
+      "last_fetched": "2026-10-21T09:00:08.907Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

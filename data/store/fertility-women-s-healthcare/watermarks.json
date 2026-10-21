@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-20T22:47:57.688Z",
+      "last_fetched": "2026-10-21T08:58:59.486Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-20T22:47:57.770Z",
+      "last_fetched": "2026-10-21T08:58:59.577Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-20T22:47:59.103Z",
-      "last_epoch": 1792507902000,
+      "last_fetched": "2026-10-21T08:59:00.748Z",
+      "last_epoch": 1792564935000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMitAFBVV95cUxQRm9PeXg3bGNrdFZwWGk0OVRHUHVRNS1Tb1o2UDFhLW5EUTAzZjlPRTEyTm1HTlFUZGY2M1NCUW5Sc3B1TzhsMDQ0bXBVOE1zalc4c2IyUVdaUE5qcmJDSHBqSjdraW1nT1pWVzlMaE93aU9WWE13SlNqU3JSNTg2OXdxNTdyYUhqMTFWNVlVeWt5TlZ2NWhtUWVoZ29uSmozUFVXWThLOXZ1VXpqOGY0amZmZEPSAbsBQVVfeXFMT28zTjNvU0U0VWQ5OG85ZVNuTFZWbkxtbGxDOURLUmtWbDZ1WGNNMHZRZkt4MnBFaDFpM2ZFbmJGb3lOMGhqMVNVVlFsUmtUSzFLUkExZGlHRkdZX2FleDQyUmZDV1h4bTFPXzFDNVBVMTVJT1RhWGdaYThLdjU1X1RzNHF0UkZ4MHpfaENPeW1aV1BGcjJUNk1fMnlEcC03WU1Wc2MtVU14ZDRKekFjV2FCNUF3TXpVY012WQ",
-        "CBMi7gFBVV95cUxQSWtDMS1OYWtVX2I4dzhqdXM4clVxcTJJUmc0UVZ5LTRwM29fV2ZuX1NoSWo1bDI4dnlPZ29VUlBPRWY3ZjlWX2RfMlFmWTJORmtWTkRDek04ZUJwYTVrRl9MN0N0MWNGMFBTOWIxMUt1LXZZMU5uUndkdTlyZmNuSTljdWdmdU8zNkhvdEEtODFZVTBOX3d2MUZJb2RNQ0dTNkJIeVVjNzJhUElpQ3dOS3V0YTdpbUFCU1k5dnNtNGlNcDZoQjZYMWNhZXVXbDVwNDAyWkxtUkVwTmhrRmRwR3VUYWp6VXpvOEt0alZ3",
-        "CBMi0AFBVV95cUxNM2g4SnRma1dtTjFRa0VlT090TGFWM1d0MzhKZXJLdUhLVzhGakROWXpOQkF4VXRsTzNpREI1bWpFMkFFQW0wUThIX1NNU0hVYlRXblZwYVh3UElweU1YVzJVaTI1ZjVFS1dlQnhOSEFMdGlnZjYwajBhTllHaFZTS3FaT3NJeHl4SlRseUJuMGhQTkU0MlVraUVNRUpodlNiUkEzRTE0QkNPaHhWR21WWlRaOURwTzNBa3VTUEFtRlVLUW9OTVVhUDlPa1Z1RHU2",
         "CBMi8wFBVV95cUxPUWdTNTF4THNQUnJQTlBxSlFwTC1sLU54UlQzc1NKOGxGWUZhaE9VUG1qWnR0OXprOW96SDhTQS11Z0pUNjY3d1BrVmpEREE2c0hCMDhvQ1ZDQnV6NWNyU2RwdGJaZWJSYm9xanM3cktoV19HQ1U4M1NRWWNmTGZPNDZtNml1bWVFX3JBX21vcDRacDMwV2k4QTJMSjFYbmlVd1RCeWJQWWZuY0tSal83U0x5THk4em5sT1VwbE9rRzVxdENMZkdKWncxM0stdXdqWGNOOHdGLUQ2Ym5wdEpLMjgzSTNFZmlpMi1wdUxkajhTM3c",
         "CBMiwAFBVV95cUxNZXhIbzQ4Y08xMGxyOWM4SnhGSmp1c3JIT2FIVWp5ZU9FRkNxajBUQVp5ckYzeExoVGkyRDY0dkZnRkprQ0RNTEFHZ0EwYUpyYWxNSWVXTUxMSTJsTFhuS1FGSC1qZy02X2FBLUU5V1FtYVF0bDAyWGNyNHNYS0FpR25iajFqeFlaNnVyVGFOV3hoMEdvazVhTXJaVGpzcXJhRENTRk0tVWF0MXhIdUgtaHd3dTl5aE9JX1I0QlBRTm8",
         "CBMivAFBVV95cUxPaHp5eGl2cjlvRWRpZWpXMmkxWHZyN2p0eF84YlJORkd1MnUtUlRqaDFGTEhiZlFsWGU3cV9fTDQxbFFBU1BTVDFtOG1pOWNJdTZvM3UtQS1UeEFnR2djUG1NaWJKMG5LNk45WEdfRU1MUDNiLVpLZ2hhNzU4MWF0NWVzTm93dC1aMjcwbWNSbnZ0aHpSNmpiNEREWjlkVmc5TlZ2OFBqeDRPWGNpT3Y4S3RPTy1xcGtReG1TbQ",
@@ -319,17 +316,18 @@
         "CBMilwFBVV95cUxNTFBDeW5vRWREdURiUXNnS3VNX0g2WHVGa2xHZDdMVkZDeE1DcmJnSms5Tm5iSHVPOXRxSUZWVzJJQXJxazZBN21TM2JwaXpqc3piRjA4RjA2bHBBQ3poYnhwRXlmMlR1MGtLdFlBMWdmazltOWNsWmN3eHdRelhJYnRGTVZuMmdmMXJzM1RMUHpsMG8yLURN",
         "CBMi1wFBVV95cUxPcU9OMXExZE5EY2haU2VrVkJxYnlHamdZM1Z2OEhMWlV0VXFoWU03SVNaWjJfeTFzX0g1Y3lRb3lweDd5MDNrZnFRbFU0ZlRwN21lTnIzc1NKQ1Q4Z19xWXF0UUpzRTlzbTdVcEdxaGJhdENaNk9JVmNib05lNEhpSlVHYkVOR3BXU2FuZ2huQUFpREVkcUpoLVR2dERqQjF0dGNLbk81Mjlza1pkU0pwcWl5NkN4a0g5aU50Z1NiNDBBMmtVUjdSOVpJbEI1YjBNWFNrMGpaVQ",
         "CBMixgFBVV95cUxQZUNoSTlOR1d1eF8yVE41WU9XS2VYcDRaSmRWMUZzMzV5cGZoT1ZvdXM3SDNuRWZmN2RWOG45SEd2Ykl1dHZlUlVrQVdHTkd1cEZyVWYyTDQ3U1loZGhfSTEwdVJpVmRJVGl3dGtqaFBWQUJHSHNNaUdnTTRSWEozNXpkMmc2eG5RX1h6d1J5UkdlY3VFVHNHMy1WQWlCVW82WEhzYmdXaVNXXzktTUxCNko1aENmTVd3MFpwN2FjUzRpRnhpZVHSAcsBQVVfeXFMT013R1RPMjU2a2xCaDB0RXdNdjZTanh6a0xsYVJTM2hxNXBSNlBKUHZFWGxTaXdjTUJxWGdZRF8yR0E4ODJRN3JmLV85bWlXVXJEQUtOUm9PdkZlM1JzYVdkeVVGUml1d19UbXAzdUV2dWc1bEpQaE1IM1hJemFMX2dTenJ2VlVERUVIWmc2R0h3VV9fX2FlY21OSlk5N0xtU1dFb2tJUTVuQTFZUDVXeXEzMl9CR25XX3hjQnRDUU9aME5Dd3VYUTdwdlU",
-        "CBMivAFBVV95cUxPQ2paMnl6WjNqZzY5c2JiT2NnMmhTaE90MWo4SmtmVVUtU3dfM0djOTQyVlhzdF8xRVMteXBYbnNNS0U1UHFCYzlLa2JXeE5SZlFNcWZKdkpzNHRFSXVVMXZCNEVYYnloY3BmaEVfUXhIeElRQ0FIZmFsVW9BemJTYVFBd3V0N2NVT2pwUTUwcDRBbzA0dXRTdk44QzJLLUd1MHhFNjBrbERZaXV1STE4YmZkTWg1NGJJejd4Uw"
+        "CBMivAFBVV95cUxPQ2paMnl6WjNqZzY5c2JiT2NnMmhTaE90MWo4SmtmVVUtU3dfM0djOTQyVlhzdF8xRVMteXBYbnNNS0U1UHFCYzlLa2JXeE5SZlFNcWZKdkpzNHRFSXVVMXZCNEVYYnloY3BmaEVfUXhIeElRQ0FIZmFsVW9BemJTYVFBd3V0N2NVT2pwUTUwcDRBbzA0dXRTdk44QzJLLUd1MHhFNjBrbERZaXV1STE4YmZkTWg1NGJJejd4Uw",
+        "CBMiiAFBVV95cUxPQlowaDFwdVd1b1N0RlN5dmM3cnFlQWY4V0lWakw2blpEVVl3RWM0eWNyRGNLZUQyVU9oRjdiUk9fWjQ5LXJibTBJTjdfSGtaMjVycDNxRm9SVlRZTm9iRTZ4SEZOZC1FdU9YSXdOSFo2VkZQcjdCR2ExVDd1cUktbjRFTlJIMTRY",
+        "CBMitgFBVV95cUxPeTZ2T0hLQ0F6eWJlX1hCY0U3Tmo3bC1Qb1YwbXdJcnhqcTd2NDhfSlNraHZhRWY2TjNPbzJHRHRVaXFod2dRM2premZzS2x3eGNBc241Z194V0lIQWUtcEROZkltM2hHaVVKUk03Rl9sdE10dnFLQjJ5S3RxOXFibWtUaF91cTN4N05HQ2ItcnF2NFduUWtlb2dvSlVzbHMtTjE0V0RzeXRrWEtMdTRDVkU3MmN0dw",
+        "CBMi0AFBVV95cUxOYVY1cTVDcFJhakVLNVZCaC1idk00WW5iOVBMNjhyQmFWd2FqdjhlZlRyT0RBaXU0R2g0WlpvZll1OUVCX2drYVFpTS1YeG5oRUtNQmhYZld5Um1FUk9GaExYTzlRZnpsLXJwSUtoVkhCZXJnVTk3WEZNZVlDWktZV0UwdXpVZlpEUXRnaVFCZ0I5VGI5bU5LM1B0bUFTSFo3dUE5SUNiak92eDZSLVA0S3hqOVNEUDJCSXlaRHJVSTFEeGQxQ1BOWm9hdW1OWjUt0gHWAUFVX3lxTFA5N2syTjU4SVpWUnVTMlA3SVY3cXF1X3M2YV9TdWdHT0NLdU40VDhWM29lSEJjbUZqQnpHV0hwaVFHMTI3dWYyZ1BHY0tGaHQtanVWazQ4YWZzSm9LUHFHT1hZY3JKMXhyeXhMeGpvemFmYWlTbllqczJLdERzTmIxdDBFbXE1bTFCVlZkSUlQVFluWGpHaWx6cHJDaG8wUXVsektaWVQ1ZHVxZ05ybW5JV1lkb0hWeGE2SFdDWDh2UWIyTWo4VUlJdHlYa3pYVnFWNWZESnc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-20T22:47:59.128Z",
-      "last_epoch": 1792504489000,
-      "etag": "\"03b28fcad8abc1e2b1354b4a0a34228c0-gzip\"",
-      "last_modified": "Tue, 20 Oct 2026 22:22:07 GMT",
+      "last_fetched": "2026-10-21T08:59:00.780Z",
+      "last_epoch": 1792564907000,
+      "etag": "\"0852e625c954117a0b1d5ee20178f87c5-gzip\"",
+      "last_modified": "Wed, 21 Oct 2026 08:31:05 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/satcom-to-play-key-complementary-role-in-reaching-remote-areas-trai-chairman/articleshow/134245440.cms",
-        "https://economictimes.indiatimes.com/industry/auto/bharatbenz-adds-new-supaul-dealership-to-bihar-network/articleshow/134256133.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-expands-use-of-salesforces-ai-platform-to-streamline-customer-services/articleshow/134254374.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-targets-rs-2-4-lakh-crore-wealth-management-market-eyes-shareholder-value-growth-state-bank-of-india/articleshow/134266957.cms",
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/more-than-50-of-hotels-use-ai-but-under-10-see-real-impact-report/articleshow/134265899.cms",
@@ -627,18 +625,20 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/indusind-general-insurance-appoints-sharad-mathur-as-md-ceo/articleshow/135071461.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/et-exclusive-jio-wants-satellite-broadband-within-reach-of-more-indians-says-akash-ambani/articleshow/135070296.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/healthrail-turning-indias-hospital-receivables-into-growth-capital/articleshow/135069045.cms",
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/rubio-says-us-to-discuss-venezuelan-oil-production-with-ambanis-reliance-industries/articleshow/135068011.cms"
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/rubio-says-us-to-discuss-venezuelan-oil-production-with-ambanis-reliance-industries/articleshow/135068011.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/bird-group-plans-to-double-the-business-across-all-verticals-by-2030/articleshow/135084398.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/after-79-years-railways-reaches-this-remote-town-for-the-first-time-since-independence-rs-1628-crore-line-opens-two-new-trains-flagged-off/articleshow/135081915.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-20T22:47:59.172Z",
+      "last_fetched": "2026-10-21T08:59:00.812Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-20T02:28:37.220Z",
+      "last_fetched": "2026-10-21T08:59:00.893Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
