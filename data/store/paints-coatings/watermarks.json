@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-21T22:52:19.847Z",
+      "last_fetched": "2026-10-22T08:59:48.470Z",
       "last_epoch": 1792590508000,
       "etag": null,
       "last_modified": null,
@@ -123,19 +123,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-21T22:52:46.870Z",
+      "last_fetched": "2026-10-22T09:00:05.054Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-21T22:52:48.378Z",
-      "last_epoch": 1792592418000,
+      "last_fetched": "2026-10-22T09:00:06.541Z",
+      "last_epoch": 1792641250000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi2wFBVV95cUxNclA1SzBtNGVNSzlHdnhra0RjeUY0VDJhWDk0ODAwREUwaDc0MXRmUUpvSUp0cS1qRVQtX0R1SVFvQXg3NHNGb3ZVUGpMZThVa2N4c0ZiZUpsS1RYWGQtME1RVWgxaVM2TnVaOS1NVFQ1d09IWE5GMTlYWnhCdUozNVdHQ3E5X0haS0VMQ2ZCQl9PUTZaVmZIS1BwQmNHeEI2RTRqaTIxSkFvTFlDdWkxenlhQWxhUFdfSTVRX2VlejlJNWxHWXk2bDV3eGtQZ04yVWhORUFsM3BJeHPSAdsBQVVfeXFMTXJQNUswbTRlTUs5R3Z4a2tEY3lGNFQyYVg5NDgwMERFMGg3NDF0ZlFKb0lKdHEtakVULV9EdUlRb0F4NzRzRm92VVBqTGU4VWtjeHNGYmVKbEtUWFhkLTBNUVVoMWlTNk51WjktTVRUNXdPSFhORjE5WFp4QnVKMzVXR0NxOV9IWktFTENmQkJfT1E2WlZmSEtQcEJjR3hCNkU0amkyMUpBb0xZQ3VpMXp5YUFsYVBXX0k1UV9lZXo5STVsR1l5Nmw1d3hrUGdOMlVoTkVBbDNwSXhz",
         "CBMi4wFBVV95cUxORl9fa2V3OVlJeDVKakl3bDlMdkI1R1ViT05LV01QRW41U3FFejJXRTFWbkpPUlg1OTlBYVBFa1BHV0EzanhnLXB2RnhqdEVMc2FERUt2SVdaZFo1eEZPdzc2dHoyRFFSbUsyb1gzRXl6V3JjOUZnODkwdTRNWWdidVFIOHN0UmN3UjlkTC15b1lSYlpfRVN1VW9hVHhpZzMxWGpJYS1scjBGbDVVdm9MWmR1M054Nlc0QzJtc3V5enpfamg5WnU1M2xOZVhZZnI0VFdlQmt6M0g2Yk4zNjdWV2E4UdIB4wFBVV95cUxORl9fa2V3OVlJeDVKakl3bDlMdkI1R1ViT05LV01QRW41U3FFejJXRTFWbkpPUlg1OTlBYVBFa1BHV0EzanhnLXB2RnhqdEVMc2FERUt2SVdaZFo1eEZPdzc2dHoyRFFSbUsyb1gzRXl6V3JjOUZnODkwdTRNWWdidVFIOHN0UmN3UjlkTC15b1lSYlpfRVN1VW9hVHhpZzMxWGpJYS1scjBGbDVVdm9MWmR1M054Nlc0QzJtc3V5enpfamg5WnU1M2xOZVhZZnI0VFdlQmt6M0g2Yk4zNjdWV2E4UQ",
         "CBMi3gFBVV95cUxQb3NpVnVGaTg5THVkYVdYeGk5ZXl1cmctZzJQZ1J3cTNBRjhHSEMyTXp1ZmZNc3FfeFo5aWtEbGdmTDAxNXdUNHRHb3NWaDRpVUQ1cHFxdHJOM1plUTNlSmNHeDVfTE9UNURnVHV3elRGaHV6UWxvd2M2SlNSLUZreW4tWE5IZC1sVkZCQU5PVGNsQXZ4eURLWlBNVTRpVU5mU0ZNcXBNUXY3dF9EeXJkQU1KdmU1SWV6QnZHSFhOWExUUjhNaUNidGE1bWNhM3FpQW5GcDlRblJHblRENkE",
         "CBMiuwFBVV95cUxOWlpVZmE0ckpaSlpkVmxUQ3Y0blk4aFpsR1NKVlJ2MFlKZzBSaDhKNVp0SEEyQldmSmwzZnlzRGl6ZXd3ak5TenpzRkhQUzlfMFhFbGJ2Q1ZwYkQ3czJ3RHYwbHYxbTkwMWt0NlIyTkpsa19Sck9TVk1xZk5YZWxFMDZ0ZTVqS0haZ2ZVblM1eWptR1MwOTNYOS1XUzBxRDdwMzFnTUtPTlY4X0NEZWljcUNqZ1dHYU9Na0Zz0gG7AUFVX3lxTE5aWlVmYTRySlpKWmRWbFRDdjRuWThoWmxHU0pWUnYwWUpnMFJoOEo1WnRIQTJCV2ZKbDNmeXNEaXpld3dqTlN6enNGSFBTOV8wWEVsYnZDVnBiRDdzMndEdjBsdjFtOTAxa3Q2UjJOSmxrX1JyT1NWTXFmTlhlbEUwNnRlNWpLSFpnZlVuUzV5am1HUzA5M1g5LVdTMHFEN3AzMWdNS09OVjhfQ0RlaWNxQ2pnV0dhT01rRnM",
@@ -434,14 +433,15 @@
         "CBMi4gFBVV95cUxNSHNXTFdfT05zNmszbUVNb3R5NTYxOTBHV1RJUFZsalpOeTBGV1BlNG5hNFJKZnk3LUdkVHd4UUpLY29nOGdwRkxFRzdmQTFwaTRVTHBER2xieVNsWUNPdTZEVHhXN2lsVm55Qkgyck9TLXRzWWpoUi14OXNxTERPRVdidS1VUm1fSlY2VGd6Z2h2UmtmUTJZRHphem1Nc0NfaFo3WUxCYi1VNmk0QmVTQkRTZXJnOS1jamtZZmRYU05CTGEwUEd5TzFaaUV2ajNNeWxlazhiWmJkNExaTWhFcF93",
         "CBMi5gFBVV95cUxQNVNKTjctY1BuVTczNGc0aE9MNEMzdnkzX19INENLNXplQ2ZvR3JhZEJFaWNyTWxYRnlTLXBXQ25hWUhoMW9FbnQteWFFd01KRUVrNkh0bTJnd1lZd1BWY3pERElkSllPVVJRUlFwbHlhMkZDbHRGQlFCYk9HMC1Oc0FkdkNqNUdHbVY4R18yYVFLZnVxcllDbUtfcXZGWEFld09JbHE4YlJFMnhlMnpMUHZERTdvLW9nb21rRUlETnh6UnAwWnBrX2dUeU1FNER3N243TjNyS2IzOUJRRUdlZ1JBcWtFZw",
         "CBMiwwFBVV95cUxPN1Z0OXNaNkVvenlrVWFZNXUtRHIwcGFWTC1JMjk3RE1GLXFxYV92M2lnTHd5MGpwS1RoaTJNUXdjMnVhNnNMYXlBQWhTVGxLVkFRLWRtSG83bF9RaHl1NkVsXzdxdW9MY2FEWDVPcWtzX3pHUm1HY0hjM3pSRk1jZkllNWlfODhrTS1TMjFfQ2Etanl6VFRwTWtTakVKdmlacVl2X1VWeWx5WDJIOXZGU0V2bjQzRll3dWJQd2RmX1h4OGM",
-        "CBMizwFBVV95cUxQM3M0Ym9PS01JbUF5VFl2ay1ZbF94dmRqVUdJbDFYVVYwam1feWNYd0FtdmtHLTJDUEpJYjZBTGhkdlluaXBoVHI0MDM0aHZYRDVRazQyN1dBU0RzOUpCZ3ZLSUVKUHkyMFA1Skp5TWt5dFZOekRmQ0xISzhzLTEwSHJUWl9qREtBUTlGZVlicXlCajhwdURabUdGQ3JNVml2a3BWUGJBMF9LbXhodmhMdTdRcExla1hPd25VSC1ianVIVEU3bHh5Znl2djhuTzQ"
+        "CBMizwFBVV95cUxQM3M0Ym9PS01JbUF5VFl2ay1ZbF94dmRqVUdJbDFYVVYwam1feWNYd0FtdmtHLTJDUEpJYjZBTGhkdlluaXBoVHI0MDM0aHZYRDVRazQyN1dBU0RzOUpCZ3ZLSUVKUHkyMFA1Skp5TWt5dFZOekRmQ0xISzhzLTEwSHJUWl9qREtBUTlGZVlicXlCajhwdURabUdGQ3JNVml2a3BWUGJBMF9LbXhodmhMdTdRcExla1hPd25VSC1ianVIVEU3bHh5Znl2djhuTzQ",
+        "CBMi8AFBVV95cUxQVkhCbDNNUW15QTJNenZyOHNuUWdCRDBVODdLaWhPSS13SF9vdnQwOFgxbGJsRm5hUVJfNXVQZUFsdXdreEJ0WWpNNXFoV2FIYWxINzVBcE55dC1vSWc0UGtEMHBMLVBZVktEQl9LX24zZXl5aXFhUzlWLUxTTFY5VG1xbVJuN0tlX0lDT3ZGSXQtSVRRY0phUVZOWW9sR3N2dUdoT2RVWWNQSTQ3LVdpb3NZWkZsaGktcEpPclhJQUZpN2JMMFY4anlfcElPVXFfZ0RJOEF2VzNfb295REZIZ0ExeDg2Q1dKbzlHbXAzMmXSAfYBQVVfeXFMTURoWmF6Rkh5eHJTRGZzeFlkQmdlM1REaE5wQVZjYUFhZVpXMFM3OGR2Q3JxMHJ4ZzBTdW90dXVxYU9TWVVVOW1aNDM5d3R5N2docVZHMzN5UWZramFBZXBNLTVjanEwVHoxVWgxdDR5WmVDN1cyQWNQS0doUkVXbGpPZzlpVWZ0SGpuVnVvaFptMEJwZDJPZ09RaVlrU0hvTEFsSmFnWDRPT3lFT1hWajRreXJjUlUycVYtYzdab3JhcDdTY2hKVWlrWXhYNVF4RHRpMHM1VTlNLWNqYy1rZHRwMmNLazczNzlPSkRYbUlxWVVpaW9R"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-21T22:52:48.515Z",
+      "last_fetched": "2026-10-22T09:00:06.598Z",
       "last_epoch": 1792609515000,
-      "etag": "\"07bbfb485a9de9871675e4a8b32e6812b-gzip\"",
-      "last_modified": "Wed, 21 Oct 2026 22:33:34 GMT",
+      "etag": "\"0b8dfe0d5533a8f064683904aecd8beeb-gzip\"",
+      "last_modified": "Thu, 22 Oct 2026 08:36:15 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -503,14 +503,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-21T22:52:48.684Z",
+      "last_fetched": "2026-10-22T09:00:06.662Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-21T08:57:52.090Z",
+      "last_fetched": "2026-10-22T09:00:06.692Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
