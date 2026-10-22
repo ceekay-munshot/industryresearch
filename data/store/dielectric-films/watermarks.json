@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-22T09:08:12.464Z",
+      "last_fetched": "2026-10-22T16:17:32.754Z",
       "last_epoch": 1792593376000,
       "etag": null,
       "last_modified": null,
@@ -25,15 +25,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-22T09:08:48.178Z",
+      "last_fetched": "2026-10-22T16:17:34.951Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-22T09:08:48.828Z",
-      "last_epoch": 1792657342000,
+      "last_fetched": "2026-10-22T16:17:35.685Z",
+      "last_epoch": 1792677074000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -252,21 +252,25 @@
         "CBMiywFBVV95cUxPcGRjb0w2ZDRwcS1VOUdPUVg4aGpjdURTaV91OGtlcWhQLUZ1LThhd3JFcEdkV2JRdEI5MXZGVTFRV0x2eXppR1FhRy1MTm9Od0lYd0ZHQU9lNWxSZWlaZmM0ZWZCenZORHloMUZmZTNGX3E2NnIzWGs1OTk2Qjc1VEZzUjFKbmpsSUZyeVZ5X0ZpSHBmVnlmeTl2a3AtTVZqRVd5Y3UxSjN4V3hhTmlzbGlfcDN4eUQxTThqSFZWbV9kSU80SlhaMElRb9IB0AFBVV95cUxOeTZmZlRGb01MeFZPS19ySHlvWmJXV3k5OUJCX2ZJUl9velpPcmI4dU5LemVfZVZETC0xbzJySFBKdnFMTFhTZXU1bU9sZlhpNENvLXM0blRNelVha3NYbjJtNlB4NDR3Z0RQcG1UaHFjX20xRW9ieTM1UU16djBraDEtbFNoYTBuemhSdllNUUxuOXIza0JIWXZ3WHBnTmJuN1BrYXp5QzMzcHZfQjRFSXpZbE9TaHU0a0ZxQmdld29OLThTOVRpaFBOQ0VzNDNP",
         "CBMi3wFBVV95cUxPZnBlc2VVUzlzSWZ4RXJLQ09HcHVwV3lySEdKRXFDcXN0TmNaQmxQZ2pJUHJUaW9tYkxEVTZuYkJsUXQxUW0zZmJLRmI5Z3A3QldSMEZfRGhqOC1EYzQxM1dhalhGWjU4OXBpRERYY1RnODhqdjBFdWhkelVidnJXZV81ZHlfd2lVQ3NCbkJ3REdwd0t0UWktZFBVZ3FLQTh0aU83MUJjbkdGQnJoTDVvRWxqYnJLdDR3NDdxeTZLdlhDcGhCTTFNQm5qNVFhcWczTFJOUWljZjFIR0g1MkRv0gHkAUFVX3lxTE5ZSFBBWldIT0g5Sm05MkRNSjE0LUtwYWdxRzZjYlVjRUhBdGlfbnBLN3hCYUN1QUpTcG1jc0EyYWl4b2xoTEt0Nmt1MURDRXJMbllObDZENGhvcEJEVVljM1g3d2luX21najJSakRCMUREMVFPdkNrVVIzZS02TnlpMm5oVEcxelYxb1Z5QnBCT05DX1hsYTlJektsc0tSc1VfY05mdi1NRTEyZ3Vaa1l3bk8yZU1zQl9Mb2VhVjhMVk16N3dCU0pKOVJIWFJzZ0tCRGVEVUNFMEtHMXppZTA4NHRuNw",
         "CBMipgFBVV95cUxQYndBMVhwLTlLeFA3NFRoNWFiQ2RjYTBJY0VYWGxhb0g5NUhyNEdvMGRXQUpmY01yUnZNMDZuTmh2Z2JQQ2lMa0hpVmY5T1lNNWVKNVl6Qm94MWNaT04yVW9aNnhHVFF2NlVsZXBveF9nLXY4Ym1pUlRjbm93X3V3TlhVR2hIYUoxM05BZUcwbFhNaHpqeHlicF9jaHVOY0p6MGQ1WEFn",
-        "CBMipgFBVV95cUxNWlBuVGRwcldXU25YaXpPMlduYzFFS0dBdE8zbWJBYVBQMmtsaDRnSlZFR0oxYUVuVlFDdTRGY0ROWGdQbDVob1VCZ0pvV0JaY0lyX255Z3pqOVJxcHhEQWhWSTdYeEgzUEQyblB4OHNSbE5uaWxYdUU0TVFHRjRnSmFjYzBSNXBzcnlTZmJEN2xtYy0wQ1FXNk1zeHNVSk9XVV8zcnlB"
+        "CBMipgFBVV95cUxNWlBuVGRwcldXU25YaXpPMlduYzFFS0dBdE8zbWJBYVBQMmtsaDRnSlZFR0oxYUVuVlFDdTRGY0ROWGdQbDVob1VCZ0pvV0JaY0lyX255Z3pqOVJxcHhEQWhWSTdYeEgzUEQyblB4OHNSbE5uaWxYdUU0TVFHRjRnSmFjYzBSNXBzcnlTZmJEN2xtYy0wQ1FXNk1zeHNVSk9XVV8zcnlB",
+        "CBMilAFBVV95cUxQT2VRR3BBeE1vYTV1bmZpdll3NE1UaGljWENKeUdHYndMRWFtVnlVam5hLUlILTEycTRCSE51dnZUbWtwUHRYNEZEdWVxRGZMdVBBMnRTU3F2U2F0S3o5S254Wjk1QmlkT19PUWtLUmNoQUFRRFUydTFIOE5URE5BYnpKa0tFcjFKbVV1NkZiSGYxUnBr",
+        "CBMimwFBVV95cUxPeWIwZHZNM2xwUjRIR3pSbW9abWtEaE5MZ2J3eTlxY3VkVjZaLTFKZTBGYWYyZ0hhWTJKODdpVDduTDZyalpnQ09FVzM1TXZpLVh1WjZKN0pnZWt6a21KX05LRUk4RXppd3NTaUhaS2lDNWxkeGNHT2JRNDJoS095X21tUVByV0hVNWgta29wM25CWkJETmJZNExzVQ",
+        "CBMixAFBVV95cUxNN0pmSEZSTTl4elRrc0dtMFRhYlUyRGpMTnJBdlpZZmhDRGZKMlVydjZFMDY4c1phZFZIeGI1TlJpUEJ4TTdWODkycG52VURrZ1JfdTBNYjJMaUN5ckJoN3NIV1Atc0RIeVhXNFdVenlVckp5akhYWDlKdzAtTG94azhZQTY5dHY0Q29hN0x2c3NHUFdqdXkyanVLb2NQdjY3dUVpV180YXR6djRyR0hPZzAwNzVYcHR0aUluM2RYdWRacjMy",
+        "CBMihAJBVV95cUxQcVlhajBVTVR2bE50N0NhUy1zc2xJcFRPLTAtMHkxN2dqQnNTaVM1WklMd0J2VzlWV2VrdzBXZno4OXpxd0JVeGl3SUZpYzNhMWlsR0Z2OUJiMmxJWExOWUxMeHdTaVRtamZCR2Uwb3BlMFRDU3FMSkFBZHk5OTVMZXdVejAzMnVRZXJJLU9ZNnhXRDYzLU9GWnlhWUN2X3pybkM0YzI3elFkYWw4bXI2dENUWHZTTVBXXzFIYkVBRWRUbTc2UTZSTnpFUGJFQVFRRXJqcHpRVDJ6U0JsUWFtal9VQ1BYWFdFYjU0TXV6ZVV5alhKczYxTHVaSk90UWhobDdMdA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-22T09:08:48.945Z",
+      "last_fetched": "2026-10-22T16:17:35.732Z",
       "last_epoch": 1792580689000,
-      "etag": "\"0b8dfe0d5533a8f064683904aecd8beeb-gzip\"",
-      "last_modified": "Thu, 22 Oct 2026 08:36:15 GMT",
+      "etag": "\"03a252fa645c7491f3503f961a5cb7966-gzip\"",
+      "last_modified": "Thu, 22 Oct 2026 16:06:33 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/srf-ltd-announces-600-crore-aluminium-foil-manufacturing-plant-in-madhya-pradesh-for-battery-applications/articleshow/135090288.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-22T09:08:49.014Z",
+      "last_fetched": "2026-10-22T16:17:35.842Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

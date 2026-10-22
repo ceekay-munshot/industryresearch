@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-22T09:01:24.962Z",
+      "last_fetched": "2026-10-22T16:14:41.729Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-22T09:01:59.443Z",
+      "last_fetched": "2026-10-22T16:14:49.364Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-22T09:02:00.461Z",
-      "last_epoch": 1792623127000,
+      "last_fetched": "2026-10-22T16:14:50.511Z",
+      "last_epoch": 1792670435000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -186,14 +186,18 @@
         "CBMivgFBVV95cUxORDVDVm1fa25YZjJQaFhSUjhqbFYxSWRCUFFwRmQzTXBHcGd3X1dWRUxxX0RLNHctLU5HbFFxb0M0R1FFaTNxU19kcmVrR1RsbnRXNUZnRVc0YWppMWlhdlc1a1JZTFoyX2NRaXgtdFV5aldaeXlZczlrbHR0ckRIRml6eHlSTjdCVXNRTnJfd0xwTHA1TjZKV1l0ZWxnRTNiMHBTV2hkMHh6YVJWVU43UEk5c1hENmowVVVoZ0p3",
         "CBMixAFBVV95cUxOY3k4RGhhZDNsdmh2UXhpTkdIcHdaWDFTNTR0SmNMbkx3OWRCS0FTVjRIRDgtQkFkbHpQU1RfaGI3Z0FjRFp6OXZIdWJuRjJKR2liQ0F2YzJydlBoVU1tOXJqQzlramJUR0M2N1UwUGRBSHhIY05lTDh6UVliMVV2cnYtWGhoVDV2NlhhY0lLOFVsQngwMVZ2cFdJUWJuSFhIaENDUTBGSGhKRjRZakxlOUNoVW10cEVnc3lldXpSM3JOd1lJ",
         "CBMiqgFBVV95cUxQbV9xRVlnZXk1ZTdZU2xOMmRJQlJtM2ZmMDd6OWduMjRZeW0tOEt5WENYTlV6X0xZemwxSkY1RUprTVpvWE5CTEdNdnZTMzdScmwxNWZXaVV4LW1La1cwVVBoQnpsZ1JkbUVreU92cFYtVnJSTlREZ0JzQ0pRYTREOTRFZ2xvdnBHNXRTZjJtcHVjNzNIQklmMExMVWNIelkta2x0SlhodlgyQQ",
-        "CBMiigJBVV95cUxPeEc3LVR1Z1F6ampJakJ3ZDZzQkJlUXlWdHVRUHowOVZGeXZ4VDBNMXNoNDdIeE9mXzN6UC1DbGM5b3Z6aUlQby0tZUgwUV9ZcDRaX0tybkt1LXNrQlR0NUxVUEJ2c1FVOUpWai1wMXpTU0x2Mmp4bHNTNjB2NEdJaXdJR0FyamZHLXM1aklrVmZPQ3ZaRVM2eU1Lc3lGV292ODktRUJjM3hjY0N0TVhhaFNMdVBJbER1eERmNmVVUWoyZlhTSnVCdER3b0RMck9ac05saHhHV2RwaWhDdXBZUHJRTm5LVlVUV0NiS25ranV4ZEdpN2R1UXVhWnU3bzdTMmRWLTctMnMxZ9IBigJBVV95cUxPeEc3LVR1Z1F6ampJakJ3ZDZzQkJlUXlWdHVRUHowOVZGeXZ4VDBNMXNoNDdIeE9mXzN6UC1DbGM5b3Z6aUlQby0tZUgwUV9ZcDRaX0tybkt1LXNrQlR0NUxVUEJ2c1FVOUpWai1wMXpTU0x2Mmp4bHNTNjB2NEdJaXdJR0FyamZHLXM1aklrVmZPQ3ZaRVM2eU1Lc3lGV292ODktRUJjM3hjY0N0TVhhaFNMdVBJbER1eERmNmVVUWoyZlhTSnVCdER3b0RMck9ac05saHhHV2RwaWhDdXBZUHJRTm5LVlVUV0NiS25ranV4ZEdpN2R1UXVhWnU3bzdTMmRWLTctMnMxZw"
+        "CBMiigJBVV95cUxPeEc3LVR1Z1F6ampJakJ3ZDZzQkJlUXlWdHVRUHowOVZGeXZ4VDBNMXNoNDdIeE9mXzN6UC1DbGM5b3Z6aUlQby0tZUgwUV9ZcDRaX0tybkt1LXNrQlR0NUxVUEJ2c1FVOUpWai1wMXpTU0x2Mmp4bHNTNjB2NEdJaXdJR0FyamZHLXM1aklrVmZPQ3ZaRVM2eU1Lc3lGV292ODktRUJjM3hjY0N0TVhhaFNMdVBJbER1eERmNmVVUWoyZlhTSnVCdER3b0RMck9ac05saHhHV2RwaWhDdXBZUHJRTm5LVlVUV0NiS25ranV4ZEdpN2R1UXVhWnU3bzdTMmRWLTctMnMxZ9IBigJBVV95cUxPeEc3LVR1Z1F6ampJakJ3ZDZzQkJlUXlWdHVRUHowOVZGeXZ4VDBNMXNoNDdIeE9mXzN6UC1DbGM5b3Z6aUlQby0tZUgwUV9ZcDRaX0tybkt1LXNrQlR0NUxVUEJ2c1FVOUpWai1wMXpTU0x2Mmp4bHNTNjB2NEdJaXdJR0FyamZHLXM1aklrVmZPQ3ZaRVM2eU1Lc3lGV292ODktRUJjM3hjY0N0TVhhaFNMdVBJbER1eERmNmVVUWoyZlhTSnVCdER3b0RMck9ac05saHhHV2RwaWhDdXBZUHJRTm5LVlVUV0NiS25ranV4ZEdpN2R1UXVhWnU3bzdTMmRWLTctMnMxZw",
+        "CBMi0gFBVV95cUxNdmUzYXZBR0lodFhNODlSX0g4aWNnTUR1SWtZNFlSR0E2cXJkWjNWTV9DQWltd3JYemNHT09OMTBkdXFUYjE2bWMybWhid0N3OVR3c1FwR0ZGaDlZSWtNVktWRDd3YzJvWF85dUg3blB1Sk5jVjNjRlc5Y09hX0t2dUYzM0p1Qk01V3dhcktmRi1EcTJlY2JGbDU5QXNOMVZObkh0b1JnZzIwTFhjOEx4TXV6WHNTRTBPa2s1LXg0Wm1Ja1NvMld2aDlQY0hFWWM1RVE",
+        "CBMilAFBVV95cUxOTi1WanE0cGlvU0ZnWGIwM1I0b3hBVHprdGlwQlZDQ3ExLXdtTWdraUNoTVZnY3oxbEZQMkxvR2c4b3lBalZXMm1xazI1SVVLR1dmYkJ5RWxCVG9KOXdKck9QbWZibFFTalAwUXFzZ0NKUGJEX3oyaXh2eThpVnBZYVowbkhENjI1UFNkenU3aE9zMC1Q",
+        "CBMingFBVV95cUxOeV9kal9CdTN2YlVQZWdiU3BlbjQ3dHpUM2lVUVRRVWUxcU5WaGZDeGNUdndTcEFHVmdwbGJla3pPQlhVY21qeDZ3ZVFqanBCSEJrTnczUmdnWV9fZy1qcm1wRWM2VkZOM1hoNHc3X2pDOC1mOEozRUFQTkFxb1VpdWdTNkZjR3JEdGVoNENMSTdQU1JKZVJ4M19jUkExZw",
+        "CBMizwFBVV95cUxQUlBGSjVHaFlocjFzaEhMQmx5U2xwa1ZxY3BISkRCclhCTHpMNFlLVWtYbDZTck1hN01lMWNBVHRDN3J4UnRKem9Gdno4MHFtYTlLT0VJQnJnWlZCd3F3b3RiRW5LWWFIMVB3cVNySV9fcko4WnRrYzc2S3kyWG5RMFFxaFlFUVFSWWp2bDRQNGlfSTlVU0NmWFNCenp3WXpOdTNEclNHcThjbk9ZTDVQaHgyZG5pRlBIQk9DQ3l0Q3pfRzROcmlISm5ja21yVnM"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-22T09:02:00.621Z",
-      "last_epoch": 1792653215000,
-      "etag": "\"0b8dfe0d5533a8f064683904aecd8beeb-gzip\"",
-      "last_modified": "Thu, 22 Oct 2026 08:36:15 GMT",
+      "last_fetched": "2026-10-22T16:14:50.534Z",
+      "last_epoch": 1792663488000,
+      "etag": "\"03a252fa645c7491f3503f961a5cb7966-gzip\"",
+      "last_modified": "Thu, 22 Oct 2026 16:06:33 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -329,11 +333,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/shridevi-institute-us-based-vaxonyx-sign-mou-for-ai-driven-cancer-and-genomic-research/articleshow/135014184.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbc-has-used-over-half-of-1-billion-startup-fund-within-a-year-global-innovation-banking-head-david-sabow/articleshow/135002799.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sanofi-healthcare-receives-cdsco-approval-for-qftilia-therapy-for-haemophilia-patients-in-india/articleshow/135087070.cms",
-        "https://economictimes.indiatimes.com/industry/services/advertising/nike-signs-multi-year-kit-partnership-with-mumbai-indians-from-2027-season/articleshow/135110709.cms"
+        "https://economictimes.indiatimes.com/industry/services/advertising/nike-signs-multi-year-kit-partnership-with-mumbai-indians-from-2027-season/articleshow/135110709.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/58-of-engineers-want-fde-roles-but-90-lack-upskilling-roadmap-report/articleshow/135115371.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-22T09:02:00.688Z",
+      "last_fetched": "2026-10-22T16:14:50.583Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

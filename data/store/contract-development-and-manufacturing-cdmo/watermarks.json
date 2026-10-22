@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-22T09:03:50.387Z",
+      "last_fetched": "2026-10-22T16:15:31.569Z",
       "last_epoch": 1792623634000,
       "etag": null,
       "last_modified": null,
@@ -82,19 +82,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-22T09:04:24.598Z",
+      "last_fetched": "2026-10-22T16:16:06.050Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-22T09:04:25.860Z",
-      "last_epoch": 1792656000000,
+      "last_fetched": "2026-10-22T16:16:07.340Z",
+      "last_epoch": 1792680319000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi5wFBVV95cUxOTjlIbHg3QnFFWHZXRmpVR1VFMkkzSTd3eWE3LVFzYmUteFluNlZPaHkzaVlHVjM5dkF6d0U4TWdxemE1bzFmTWViUUtiVVU3dGVHejZDQlZ2cEdxcUk4RjNuS190OXREaWdzdGU4UnUwVlBwa3pZSjRGV0ZhZm0yeGotNFNDSlppMWZxWlFhWkdOQUJCVXRYbnZvQlhVaFNZbDlETWN6SUVPUjJzLWY0U0cxYWFWNkt4XzRnZDJVNmo3MWJ1clpWTGtxTGhXcHFJMlFMdWlST3FHdkRVRFhYVWQzUG5rM3M",
         "CBMi_gFBVV95cUxOd1BXa0NvT2pVamhEYmxRb1d1c2V3ZW1FZWdOU016WklOcHRBbWVraWZxSEZBNjVOeTk0cU1iWE1tYVA5NVluVGcxVmlOWEYxMmdMaXFsYkdqT0RaY1NncVlBLTVPRDQtZ0ZfM3gwUnNhZkhMTXUtaVBnUWo4eFlKOUJvbE5ZVzd6M1lTaFRHLWxzQWpoYllLM0lPT2tEZU54Y3lSMzNkYjhyRlRPdkxIN01vR3ZpY1prZ0NWMXZhODJ5UkFxV0xBaTNrU0hRNzN5Y3lxTmVFSjRvN0pDbHRyMUEyWFZTcXlLVWE2cTlvX19OUHdkRzFpUm1lTVpUdw",
         "CBMibkFVX3lxTE91ZWRvRkx1YmtvaGhrVkJjN3VHWno4a0Y1MXlscXM5QzdSVzViM0wzbzlvTWFkems3VEtRUkZmeWJrODBOdjY4ZlJuZnlxV0NPWmxYaVNhd2tSd01IbDVxUVN4WmRHcWNENFdINkpB",
         "CBMi8AFBVV95cUxQQXJVVW04eGFaek9rbklzbTdzOE44X1RMN0RPN0ZHV0d1aWo4UjZYUzR2SzQ5QnNscjRkNmtoU2R5TWIwVk9YNjhpenZlLWtuN1MzOVNzODBhSHdxZGRmZkNYM3l3ZVprQ0ZnYVl5c2tlWVZFRjh0WFY2Q0NfWE5hTElIU1I2V3JyamNqbi1jbm5uMUZQbDBudlNQZXpuUFE1a0VSbjZVMFVFTnBoUVp1UjBwM3lCcmp6OURaVS1KYjd2V2ZUTFFYLVdkTmVPLTlHQlJyTm5XWlRJWU12YWVDVjI3OE1nZGhlckpaUE5Dc2E",
@@ -393,18 +392,16 @@
         "CBMi5gFBVV95cUxPRUc3N2JZTnVwZ1pKR1hYM21nWVZiTmNOMFlNWjNSREVzUE85dkw5RjNuNmFQRUgtbzdkeE54dmpuSjR4T0NucV9rWjBSVUdjdFp6Unk2Qkllc1VicDUtcEt6RmFnWkMzQ1JxcVdYbnpaVWJhZ2tublU3eDZhWFNYXzJoVkgtaDY2WEVfaGRTOWtORkZieTlvLXI5aUk2dkZnd19LbFkwbDhBSnlxSHBtUG9sa3otMHJQdV81QVN4SDZHR0VxQ2xOR1V6VENIcEV6T2VkOFpHcGZSOWxFNkNRRjR3a2FCZw",
         "CBMixAFBVV95cUxQcWhTOHN2dVFvd213TllTNzRfRzlOaW92NWltZnB5dEllWVp4UG1MeWtNV3U3WWI3RTB6NnRmbmVjY0R5QjNJU2xTREFXRXFoNVNKclhLM0wzZ1I0NEJBbERtNWFrS2dfTVpoMDBLT2dFajM1WTFtZDdCaFF6YW9HVDJmaVNFajFjcDB1T3I5YzN3SWsyT1pYd1BsbGprMkZscU1EVE9QZFk5T1I0eTVjVDJVVUJhNW1fZ2RYTmg3QndCWHNT",
         "CBMiwgFBVV95cUxQWXM5YlpTS3g1WUxRa2J2T3BvLVBaMk5zaF9VRnE4ZnhKTGt4NVk4QVZVMnJoelRpV0ZJd2s0Tk04Yjd5QW1wQmJKMWkxbjYyNnpNRkVrU3pXSThmVUtvaENfMGRRWGNGc1V5RnBKb1FmTXNJNVlxUDcyak0wcVpNNEducUlOaHpDVGdWRnNaYXp2Zk1CZUc3enh6U0daS3EwUmFCLXptWFhLU1RnQUV0R3FVYnBqZ0kyOVBFMTBuenJTdw",
-        "CBMi8wFBVV95cUxPREM4ZFlzbm4wVERzbGxOdEJ5Tmd4UGRpUklFMU9iRWdBal9zeUEydk1HbnBkdkdOcEpCdnFzemQ3SUpVYXhYeVM1Wm5FdWMtZ19qb0tDMU5lazZxc241ZlViYW1yNE5pd3ZGRnpmZVRNSEgyNjZ0SjE5c0pSMjUtNm1WT2pabU9uOW9lc2J6bmtlaHNGd0YwM2c4M1RQekQya2M4TlB6d2FGMVc0aFRQcXRXLXNHSHpuY014NnIzWUFKdjdCYllxTGVlQ3hwdzlqbGF5QTBzeW5tbWZDQzlHYUVXUHpBYXpxaXhkbHQtQWRVUHc"
+        "CBMi8wFBVV95cUxPREM4ZFlzbm4wVERzbGxOdEJ5Tmd4UGRpUklFMU9iRWdBal9zeUEydk1HbnBkdkdOcEpCdnFzemQ3SUpVYXhYeVM1Wm5FdWMtZ19qb0tDMU5lazZxc241ZlViYW1yNE5pd3ZGRnpmZVRNSEgyNjZ0SjE5c0pSMjUtNm1WT2pabU9uOW9lc2J6bmtlaHNGd0YwM2c4M1RQekQya2M4TlB6d2FGMVc0aFRQcXRXLXNHSHpuY014NnIzWUFKdjdCYllxTGVlQ3hwdzlqbGF5QTBzeW5tbWZDQzlHYUVXUHpBYXpxaXhkbHQtQWRVUHc",
+        "CBMilgFBVV95cUxPc0NISU1fVXBTTDFrQndsck5xbFhfZ2pSSUR5R2lVQXVmVmVXNGZvcWExX3R5NllpQ3NadzQzRXhvZkg2TGM0SFI5Z3JtT25JUVpWa0xNUkFmYncwNGJQNDNRZDNMU0hoNEUwTjR2VHZDWXduWlN5TzhZcl96OFkxQXEwb3pSQVVObWxJazE2TU5EUF9lV0E"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-22T09:04:25.950Z",
-      "last_epoch": 1792641547000,
-      "etag": "\"0b8dfe0d5533a8f064683904aecd8beeb-gzip\"",
-      "last_modified": "Thu, 22 Oct 2026 08:36:15 GMT",
+      "last_fetched": "2026-10-22T16:16:07.421Z",
+      "last_epoch": 1792669093000,
+      "etag": "\"03a252fa645c7491f3503f961a5cb7966-gzip\"",
+      "last_modified": "Thu, 22 Oct 2026 16:06:33 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rpg-life-sciences-subsidiary-acquires-raghava-life-sciences-api-biz-for-rs-135-cr/articleshow/133733657.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/bullet-train-with-a-desi-makeover-next-year-your-journey-on-this-250-kmph-homegrown-train-will-come-with-features-that-could-completely-change-your-travel-experience/articleshow/133732272.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/corporate-stress-remains-benign-despite-ibc-delays-and-deep-haircuts-kotak/articleshow/133731323.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/fssai-weighs-nationwide-ban-on-analogue-paneer-plans-junk-food-curbs-near-schools/articleshow/133730875.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-companies-reject-proposal-for-sole-accountability-in-medicine-overpricing/articleshow/133745399.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mumbai-to-become-slum-free-in-10-years-maharashtra-cm-fadnavis-unveils-ambitious-urbanization-plans/articleshow/133741404.cms",
@@ -701,11 +698,14 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/srf-ltd-announces-600-crore-aluminium-foil-manufacturing-plant-in-madhya-pradesh-for-battery-applications/articleshow/135090288.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/essar-ports-gets-nod-to-develop-rs-2276-06-crore-multipurpose-cargo-terminal-at-kandla/articleshow/135088101.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/arcelormittal-sas-idc-close-in-on-610-m-deal/articleshow/135099683.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/bl-agro-heads-to-africa-with-rs-7000-crore-tanzania-plan-targets-edible-oils-agriculture/articleshow/135106494.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/bl-agro-heads-to-africa-with-rs-7000-crore-tanzania-plan-targets-edible-oils-agriculture/articleshow/135106494.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mahindra-lifespaces-april-september-pre-sales-rise-66-to-rs-1988-crore/articleshow/135117692.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/australia-and-india-join-forces-to-drive-global-clean-energy-revolution/articleshow/135117349.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/bcgcl-starts-construction-work-on-rs-25000-cr-gasification-project-rs-15k-cr-work-awarded/articleshow/135114274.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-22T09:04:26.032Z",
+      "last_fetched": "2026-10-22T16:16:07.588Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
