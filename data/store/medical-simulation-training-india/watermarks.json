@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-23T08:55:06.994Z",
+      "last_fetched": "2026-10-23T16:06:05.970Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-23T08:55:11.419Z",
+      "last_fetched": "2026-10-23T16:06:42.874Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-23T08:55:12.447Z",
-      "last_epoch": 1792716786000,
+      "last_fetched": "2026-10-23T16:06:44.071Z",
+      "last_epoch": 1792750996000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -193,14 +193,17 @@
         "CBMizwFBVV95cUxQUlBGSjVHaFlocjFzaEhMQmx5U2xwa1ZxY3BISkRCclhCTHpMNFlLVWtYbDZTck1hN01lMWNBVHRDN3J4UnRKem9Gdno4MHFtYTlLT0VJQnJnWlZCd3F3b3RiRW5LWWFIMVB3cVNySV9fcko4WnRrYzc2S3kyWG5RMFFxaFlFUVFSWWp2bDRQNGlfSTlVU0NmWFNCenp3WXpOdTNEclNHcThjbk9ZTDVQaHgyZG5pRlBIQk9DQ3l0Q3pfRzROcmlISm5ja21yVnM",
         "CBMiwgFBVV95cUxQMzJ2SmNYUHVWMDRjMllkUDZBRDhfWjVweHVjamdRVmVTZ2kyQWdMOVNuUEtpQWdEN1BMM3NaMVdVaHowN2kzWTIyMWtBU1lkaGRPb2ZBNFRURThEQjVNQXI5RGZlVFo2Vmo1N1ozTXNSUkdfR0pSUUFCN3Ruajc0aEdlZk1KRDJneVJ4ZjAxZnBEZUpzRzFYdDBoTW1Dd1F0QUhUWExiU3FlY3UzeHdaMEZzR3FteUxLRkhKbFhJYjUyZw",
         "CBMiiwFBVV95cUxQR3k2RmxRRjl4RjYwMTNmVXBQdUFraGh0VUJZeTBid3QyaFc1a2dmZC1Vb2tLNGZNY3VLM0EzclU4MUp4ZEM1amFxY283bnJUVmRJc2FWWTMzVHg5b1JncHA0QU9UbHJjN3cxZmU5MmFCcEVVYzVIMXlkWHBMd1VKZVpFdXVER2pnaURj",
-        "CBMimAJBVV95cUxPeWJONFA0ZHFZU3NTaUVISDY4WnBoVnlWTDZydW1xbzVHUlFzLTlHdXd5eXdiNmZ4NWgtMzdobWJYTWsybWlaRUt5M3dYX0JjLU5LTFNQZC1jV2pYUU4taGJxLU5GR1BuQ0VxUGpzMlFrOWhTaGl2NlQtc1d5S1VSQzh6dF9wb0dTelB6VElPVFk0allZWHlOTTJ0R05hSTVUVjJWNW03VUNPdTk1V0Y1ZzFWbkwwUk0yT25oekYyQ0l5RkFZRjNCVVdzWW9jU3dKZmNubFZzUm5VSE90QVBXTGhULWh0d0hfa0ZDYkR0YVVmdHhqbzVIVHMzZVRfMDJERXhwcFNBYW5XcjNlYVRHQlVNd3B3LTJ30gGYAkFVX3lxTE95Yk40UDRkcVlTc1NpRUhINjhacGhWeVZMNnJ1bXFvNUdSUXMtOUd1d3l5d2I2Zng1aC0zN2htYlhNazJtaVpFS3kzd1hfQmMtTktMU1BkLWNXalhRTi1oYnEtTkZHUG5DRXFQanMyUWs5aFNoaXY2VC1zV3lLVVJDOHp0X3BvR1N6UHpUSU9UWTRqWVlYeU5NMnRHTmFJNVRWMlY1bTdVQ091OTVXRjVnMVZuTDBSTTJPbmh6RjJDSXlGQVlGM0JVV3NZb2NTd0pmY25sVnNSblVIT3RBUFdMaFQtaHR3SF9rRkNiRHRhVWZ0eGpvNUhUczNlVF8wMkRFeHBwU0FhbldyM2VhVEdCVU13cHctMnc"
+        "CBMimAJBVV95cUxPeWJONFA0ZHFZU3NTaUVISDY4WnBoVnlWTDZydW1xbzVHUlFzLTlHdXd5eXdiNmZ4NWgtMzdobWJYTWsybWlaRUt5M3dYX0JjLU5LTFNQZC1jV2pYUU4taGJxLU5GR1BuQ0VxUGpzMlFrOWhTaGl2NlQtc1d5S1VSQzh6dF9wb0dTelB6VElPVFk0allZWHlOTTJ0R05hSTVUVjJWNW03VUNPdTk1V0Y1ZzFWbkwwUk0yT25oekYyQ0l5RkFZRjNCVVdzWW9jU3dKZmNubFZzUm5VSE90QVBXTGhULWh0d0hfa0ZDYkR0YVVmdHhqbzVIVHMzZVRfMDJERXhwcFNBYW5XcjNlYVRHQlVNd3B3LTJ30gGYAkFVX3lxTE95Yk40UDRkcVlTc1NpRUhINjhacGhWeVZMNnJ1bXFvNUdSUXMtOUd1d3l5d2I2Zng1aC0zN2htYlhNazJtaVpFS3kzd1hfQmMtTktMU1BkLWNXalhRTi1oYnEtTkZHUG5DRXFQanMyUWs5aFNoaXY2VC1zV3lLVVJDOHp0X3BvR1N6UHpUSU9UWTRqWVlYeU5NMnRHTmFJNVRWMlY1bTdVQ091OTVXRjVnMVZuTDBSTTJPbmh6RjJDSXlGQVlGM0JVV3NZb2NTd0pmY25sVnNSblVIT3RBUFdMaFQtaHR3SF9rRkNiRHRhVWZ0eGpvNUhUczNlVF8wMkRFeHBwU0FhbldyM2VhVEdCVU13cHctMnc",
+        "CBMihwFBVV95cUxOMXIybFdPTVNzS005SmJYUnVaZWRpMXVjMjNEQXcyZ0lGanNWbHRMcnpoMnpGNnZjaWZydWM5U1pzYURqQ3VTUzRUWkQwSzV2dnpxSkZRa0ZCbEhwZEh1UUNvR0NDQ1NHbE00WHA5NWZLbG83Umg0VkoyZzYtNlN1eXNyLTZ4eHc",
+        "CBMikAFBVV95cUxNVmVMMDgwQXZlYUEyYUtQaENCT2FVUGo4ZnExSXVHbUF2a1RqLUV4THFBby1ZMmhOeVFOQ2xrTHZ0c0xqUldVSnNudEt6MTcyMjJ1M2V6SVdXWENHZUk2Z2d6ejV6Qk54YUs2S05OM0hibmg0cnhSMXh5anMtVHk0Z041X2h3Smh4NDRXWF9yVDLSAZYBQVVfeXFMTmlxMGdIN08zRkdObWdzM2FHTU1uZ3BhMnZJUm5pdzJKRHNyM29SMWV6WnE5bmMwVk1SQXoyWlJjMFFXS0xoLXZ1MmlydlQ5MnhNX3JGZXlmQmJ6TldJSHlJaUlSemR1Ny1KSkRGRklHUHhfM0ZRSDhZcXlvZUxQREg2ZE0tOU9YaUJ2MEVCamMwalV4amNR",
+        "CBMingFBVV95cUxNRUl5WmVnenc4WVRjbHFCR2hKTThiNEZ6dU9YWG83NVRBaGpJdXVwUnB1MU1sZ2RybGVGUDJ4MDlTZndRb0ZFZlVPX2pLU0tuMmtmcU55cmFBemNnMEgwYzc2b3dDSXVPSnBMUWxxVlpBT2lrWG53MnpqQ2l2NHZOVG9yWnViSEtFLWpVc25nR0tZb0c1M3ZaVjRocDE1Zw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-23T08:55:12.476Z",
-      "last_epoch": 1792738882000,
-      "etag": "\"087972401ab1038ac8598595f63e5cb47-gzip\"",
-      "last_modified": "Fri, 23 Oct 2026 08:26:43 GMT",
+      "last_fetched": "2026-10-23T16:06:44.190Z",
+      "last_epoch": 1792768368000,
+      "etag": "\"0237d406c36febbfa45f5aa0f1f8df863-gzip\"",
+      "last_modified": "Fri, 23 Oct 2026 15:56:03 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -338,18 +341,19 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sanofi-healthcare-receives-cdsco-approval-for-qftilia-therapy-for-haemophilia-patients-in-india/articleshow/135087070.cms",
         "https://economictimes.indiatimes.com/industry/services/advertising/nike-signs-multi-year-kit-partnership-with-mumbai-indians-from-2027-season/articleshow/135110709.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/58-of-engineers-want-fde-roles-but-90-lack-upskilling-roadmap-report/articleshow/135115371.cms",
-        "https://economictimes.indiatimes.com/industry/media/entertainment/ima-urges-review-of-sunny-deol-sanjay-dutt-starrer-suryaa-promo-says-movie-glorifies-violence-generalises-graft-in-medical-field/articleshow/135138449.cms"
+        "https://economictimes.indiatimes.com/industry/media/entertainment/ima-urges-review-of-sunny-deol-sanjay-dutt-starrer-suryaa-promo-says-movie-glorifies-violence-generalises-graft-in-medical-field/articleshow/135138449.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharma-unethical-practices-marketing-rules-under-lens-new-review-body-set-up/articleshow/135149361.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-23T08:55:12.497Z",
+      "last_fetched": "2026-10-23T16:06:44.812Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-22T09:02:00.960Z",
+      "last_fetched": "2026-10-23T16:06:45.420Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
