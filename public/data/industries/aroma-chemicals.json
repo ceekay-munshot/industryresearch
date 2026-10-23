@@ -12,7 +12,7 @@
     "generated_at": "2026-08-18",
     "mock": false,
     "query": "Aroma Chemicals",
-    "updated_at": "2026-10-22",
+    "updated_at": "2026-10-23",
     "coverage": {
       "sections": {
         "size": {
@@ -63,7 +63,7 @@
         "news": {
           "sources": 2,
           "confidence": 0.84,
-          "as_of": "2026-10-22"
+          "as_of": "2026-10-23"
         }
       }
     }
@@ -1512,6 +1512,27 @@
     ],
     "news": [
       {
+        "title": "India’s $13.62 billion food ingredients opportunity: 2 stocks, two very different bets - The Financial Express",
+        "publisher": "The Financial Express",
+        "date": "Fri, 23 Oct 2026 00:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYnI2cEJaV1piM0Z6cmtBMWVOTTR2RU81d09mWEhDRVkwRnhQQmlmR3lHekc0cWswODlzbUxENzhPTDZCZkpyMmp4NHpaUktoeVBIY1pjYjdkX0dXam02Y2pfdmFRWTU5Z0trRHdHMlhjTlB3RVlObFZwUnB6V3RiMVB1b05UUnBIc2FhNnZRV2V3NHJnYUlUbWJfeEdkcG9sd2hXX3NiOG9fZVpYMjJyM0FpY2lJWXlZZTBRMWk1cDVROHVfdThGSTV6YVc5WWlyazNEVGVJTGExYURuRG5n0gHmAUFVX3lxTFBOM2RUdWR6SHZCR1ZEUjQ5eUpCaV96X084U0EzdjFRWDk5Ujl2azBQWE4xTXZEZlRqNlYxdGlUN09zX1djSHJyTGRJYjlTM1J5RlVBV0JOaTU3cnBORTB6REpLTEtGNk82QWNRRlpDRS1WbjVVTVQtOGhBT1RnRHhTbFA2U3lxUks1bWNqbWhrZ3dEMlJiQ2VrZThYNlpReUZPa1VVeXhCcHdtOWE0N0I0WjNXRzFwWDJTZDA3bDdfV2lMSF81d2V5bkJzdHJJU3JwaDM3cUxlUVloLWl6eGZRNDJuUDdn?oc=5",
+        "snippet": "India’s $13.62 billion food ingredients opportunity: 2 stocks, two very different bets &nbsp;&nbsp; The Financial Express"
+      },
+      {
+        "title": "Clean Science and Technology among 3 stocks rose above VWAP - The Economic Times",
+        "publisher": "The Economic Times",
+        "date": "Fri, 23 Oct 2026 03:37:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdTFIdVFvVGtVX2VlQTBRQjc2b29hYkhuWUJYZlZoWC1wWUZMN0xNaEVFZUZqb3BreUpTeEFnZlJrdFJMZXlNbTNaU3ZYQkYyejE1ckFSMnJ1Y2twZ3BhLWV6QU14enVDQm44eUwzUC1oa3pCdm9kQllFXzVwLTFRYkJValQ1SE1XSVhRVmpMZEJELVRJd1pBTHJWWWhtV1gyX1ZWMjZEdkVYQmgxVmNTV3FJRjR1dVJYWWZDN01HNU01cEotX1A3dWQxcURrRnVJS0VYeXk5eFJERXc?oc=5",
+        "snippet": "Clean Science and Technology among 3 stocks rose above VWAP &nbsp;&nbsp; The Economic Times"
+      },
+      {
+        "title": "Devyani International - Clean Science and Technology among 3 stocks rose above VWAP - The Economic Times",
+        "publisher": "The Economic Times",
+        "date": "Fri, 23 Oct 2026 04:10:30 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdm0wQmRDTW1RdzJXQk9kX3lsX0hWMkZCODRTb1ExVElsMVRJYWVxcllmOGRBOV9NYkhqZ3Vxd09lcmRQMU5UN2R5dF9DM0hGVnU1Q29JNGJBdXV6OFhmRm8yMzV4dUJQSUpPTkQ5RzdmQ3dnU0llRXNkakJIeDBGa29qWExyRmY1NHRmR2tud2g3QVltSXBaMU9zbjBKN2lKUGpuTlZFYkFlZlM3ZlRBNk1seDlfSFZ3U2VCMVNReGtkQ0VRNk9KTDRGdFM2NUtKbm41TzFkU2VmZk5aTUlYVnUxVTdOc1Rs?oc=5",
+        "snippet": "Devyani International - Clean Science and Technology among 3 stocks rose above VWAP &nbsp;&nbsp; The Economic Times"
+      },
+      {
         "title": "Urea imports surge 40% despite push to cut chemical fertilisers",
         "publisher": "economictimes.indiatimes.com",
         "date": "Thu, 22 Oct 2026 23:50:13 +0530",
@@ -1699,27 +1720,6 @@
         "date": "Thu, 15 Oct 2026 13:38:15 GMT",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQem5pTHA2WWhqSldMN0psQkNiaVdHaVFydlZhbXprbzduVmlIWEc2Um1LSUt1SmtkSGpOcERJSUdiV0ZXQ0hGbi1WaDJQZVk4VEUyTVR0eUlBeVlUcDE4VlpvUGp5c3pKa3phZ0F4SVk2TTdZUnZKWEM0Q0RFUHBMZDgtdDhrY2lDa2xTdkowMFFKYUtPamVmdVpsRnR0OTh0bWd5NlJoWWFnM1N3Z2pHR0xkM2JHTFEtci1MUHFHLWo0T0ZodDhIeURScDRES2xRYVd1cg?oc=5",
         "snippet": "Clean Science and Technology (CLEAN.NS) Slips 2.95% to ₹794.45 as Stock Drifts Toward Mid-Range Support - Quote Data &nbsp;&nbsp; https://www.siam.in/"
-      },
-      {
-        "title": "Tata Chemicals gets relief in ₹908 crore arbitration case, directed to pay ₹1 crore plus interest",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Fri, 16 Oct 2026 12:58:34 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/tata-chemicals-gets-relief-in-908-crore-arbitration-case-directed-to-pay-1-crore-plus-interest/articleshow/134986268.cms",
-        "snippet": "In a significant ruling, a Mumbai Centre for International Arbitration tribunal has turned down a ₹908-crore claim aimed at Tata Chemicals. The tribunal instructed Tata to compensate Allied Silica and its head with a payment of ₹1 crore, with a dissenting opinion from one member. Tata Chemicals is c"
-      },
-      {
-        "title": "Droppers Market Forecast to 2035: Pediatric and Geriatric Liquid Dosing Demand Drives Growth - News and Statistics - IndexBox",
-        "publisher": "IndexBox",
-        "date": "Thu, 15 Oct 2026 11:46:04 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3NVNzkzUFhYa2c3R3pQY0d2QzdDRzRiODh1Y1lpUTgtcFgwUjQ1cC1GbF9PMFFZR1l2bUc0bWVHRFgwTGZBZ043enF4a05JYnhwVWhtTzZYd2czVlEyUTI1bFdUaVJVX2FVcEZYXzVjUHk2ZDVsSmhpRjVRSW51TXd3dl9LeFh4aXBwaDdFMHpza0lSNVpWX21xU3RCNS1PbEZpaThxWVVRMlBaM1d3YWk5b3RTdw?oc=5",
-        "snippet": "Droppers Market Forecast to 2035: Pediatric and Geriatric Liquid Dosing Demand Drives Growth - News and Statistics &nbsp;&nbsp; IndexBox"
-      },
-      {
-        "title": "Oriental Aromatics Share Price and Technical Outlook - Kalkine India",
-        "publisher": "Kalkine India",
-        "date": "Thu, 15 Oct 2026 07:12:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnppeThJLWo3VlROZW1QVjJaajdSMWo5cnRLSTNETENnc3h6VTdnVlp3bzlENkxHN3ZQTVRNd3V3VUpsUEdqY0VCcWx6b1hKY0stQzBmRkJ4cXo3VXNGaUNmNVRhSGtDaU0zWVZ0WkRFcUJ2YU5DS1FDcVpXV3Y1T2RaS2lCWGZxSGgtcHlZSVB1RXlYcTlmQVJBTEluc2ZXNGFEckxDQTlnUHZmTnRLVHRneGhuYmE1LXFqZ0d4MA?oc=5",
-        "snippet": "Oriental Aromatics Share Price and Technical Outlook &nbsp;&nbsp; Kalkine India"
       }
     ]
   },

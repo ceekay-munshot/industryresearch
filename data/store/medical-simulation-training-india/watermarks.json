@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-22T22:53:04.713Z",
+      "last_fetched": "2026-10-23T08:55:06.994Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-22T22:53:22.791Z",
+      "last_fetched": "2026-10-23T08:55:11.419Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-22T22:53:23.837Z",
-      "last_epoch": 1792690864000,
+      "last_fetched": "2026-10-23T08:55:12.447Z",
+      "last_epoch": 1792716786000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -192,14 +192,15 @@
         "CBMingFBVV95cUxOeV9kal9CdTN2YlVQZWdiU3BlbjQ3dHpUM2lVUVRRVWUxcU5WaGZDeGNUdndTcEFHVmdwbGJla3pPQlhVY21qeDZ3ZVFqanBCSEJrTnczUmdnWV9fZy1qcm1wRWM2VkZOM1hoNHc3X2pDOC1mOEozRUFQTkFxb1VpdWdTNkZjR3JEdGVoNENMSTdQU1JKZVJ4M19jUkExZw",
         "CBMizwFBVV95cUxQUlBGSjVHaFlocjFzaEhMQmx5U2xwa1ZxY3BISkRCclhCTHpMNFlLVWtYbDZTck1hN01lMWNBVHRDN3J4UnRKem9Gdno4MHFtYTlLT0VJQnJnWlZCd3F3b3RiRW5LWWFIMVB3cVNySV9fcko4WnRrYzc2S3kyWG5RMFFxaFlFUVFSWWp2bDRQNGlfSTlVU0NmWFNCenp3WXpOdTNEclNHcThjbk9ZTDVQaHgyZG5pRlBIQk9DQ3l0Q3pfRzROcmlISm5ja21yVnM",
         "CBMiwgFBVV95cUxQMzJ2SmNYUHVWMDRjMllkUDZBRDhfWjVweHVjamdRVmVTZ2kyQWdMOVNuUEtpQWdEN1BMM3NaMVdVaHowN2kzWTIyMWtBU1lkaGRPb2ZBNFRURThEQjVNQXI5RGZlVFo2Vmo1N1ozTXNSUkdfR0pSUUFCN3Ruajc0aEdlZk1KRDJneVJ4ZjAxZnBEZUpzRzFYdDBoTW1Dd1F0QUhUWExiU3FlY3UzeHdaMEZzR3FteUxLRkhKbFhJYjUyZw",
-        "CBMiiwFBVV95cUxQR3k2RmxRRjl4RjYwMTNmVXBQdUFraGh0VUJZeTBid3QyaFc1a2dmZC1Vb2tLNGZNY3VLM0EzclU4MUp4ZEM1amFxY283bnJUVmRJc2FWWTMzVHg5b1JncHA0QU9UbHJjN3cxZmU5MmFCcEVVYzVIMXlkWHBMd1VKZVpFdXVER2pnaURj"
+        "CBMiiwFBVV95cUxQR3k2RmxRRjl4RjYwMTNmVXBQdUFraGh0VUJZeTBid3QyaFc1a2dmZC1Vb2tLNGZNY3VLM0EzclU4MUp4ZEM1amFxY283bnJUVmRJc2FWWTMzVHg5b1JncHA0QU9UbHJjN3cxZmU5MmFCcEVVYzVIMXlkWHBMd1VKZVpFdXVER2pnaURj",
+        "CBMimAJBVV95cUxPeWJONFA0ZHFZU3NTaUVISDY4WnBoVnlWTDZydW1xbzVHUlFzLTlHdXd5eXdiNmZ4NWgtMzdobWJYTWsybWlaRUt5M3dYX0JjLU5LTFNQZC1jV2pYUU4taGJxLU5GR1BuQ0VxUGpzMlFrOWhTaGl2NlQtc1d5S1VSQzh6dF9wb0dTelB6VElPVFk0allZWHlOTTJ0R05hSTVUVjJWNW03VUNPdTk1V0Y1ZzFWbkwwUk0yT25oekYyQ0l5RkFZRjNCVVdzWW9jU3dKZmNubFZzUm5VSE90QVBXTGhULWh0d0hfa0ZDYkR0YVVmdHhqbzVIVHMzZVRfMDJERXhwcFNBYW5XcjNlYVRHQlVNd3B3LTJ30gGYAkFVX3lxTE95Yk40UDRkcVlTc1NpRUhINjhacGhWeVZMNnJ1bXFvNUdSUXMtOUd1d3l5d2I2Zng1aC0zN2htYlhNazJtaVpFS3kzd1hfQmMtTktMU1BkLWNXalhRTi1oYnEtTkZHUG5DRXFQanMyUWs5aFNoaXY2VC1zV3lLVVJDOHp0X3BvR1N6UHpUSU9UWTRqWVlYeU5NMnRHTmFJNVRWMlY1bTdVQ091OTVXRjVnMVZuTDBSTTJPbmh6RjJDSXlGQVlGM0JVV3NZb2NTd0pmY25sVnNSblVIT3RBUFdMaFQtaHR3SF9rRkNiRHRhVWZ0eGpvNUhUczNlVF8wMkRFeHBwU0FhbldyM2VhVEdCVU13cHctMnc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-22T22:53:23.888Z",
-      "last_epoch": 1792663488000,
-      "etag": "\"0baa3451a69061e024dbda2f34ba11961-gzip\"",
-      "last_modified": "Thu, 22 Oct 2026 22:32:32 GMT",
+      "last_fetched": "2026-10-23T08:55:12.476Z",
+      "last_epoch": 1792738882000,
+      "etag": "\"087972401ab1038ac8598595f63e5cb47-gzip\"",
+      "last_modified": "Fri, 23 Oct 2026 08:26:43 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -336,11 +337,12 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbc-has-used-over-half-of-1-billion-startup-fund-within-a-year-global-innovation-banking-head-david-sabow/articleshow/135002799.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sanofi-healthcare-receives-cdsco-approval-for-qftilia-therapy-for-haemophilia-patients-in-india/articleshow/135087070.cms",
         "https://economictimes.indiatimes.com/industry/services/advertising/nike-signs-multi-year-kit-partnership-with-mumbai-indians-from-2027-season/articleshow/135110709.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/58-of-engineers-want-fde-roles-but-90-lack-upskilling-roadmap-report/articleshow/135115371.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/58-of-engineers-want-fde-roles-but-90-lack-upskilling-roadmap-report/articleshow/135115371.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/ima-urges-review-of-sunny-deol-sanjay-dutt-starrer-suryaa-promo-says-movie-glorifies-violence-generalises-graft-in-medical-field/articleshow/135138449.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-22T22:53:23.934Z",
+      "last_fetched": "2026-10-23T08:55:12.497Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
