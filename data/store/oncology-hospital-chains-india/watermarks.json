@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-23T16:08:05.268Z",
+      "last_fetched": "2026-10-23T22:48:03.697Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-23T16:08:23.515Z",
+      "last_fetched": "2026-10-23T22:48:42.415Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-23T16:08:25.169Z",
-      "last_epoch": 1792757393000,
+      "last_fetched": "2026-10-23T22:48:44.025Z",
+      "last_epoch": 1792765736000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi9wFBVV95cUxNV09INHhOWk5QQ2ktaW10UjdJc2lvZGZYUFN5SnVKYlpaVEJkV2NiYWpCa2dOOEsxd1JZbHNUTXhmeVlJUTV1WjlmVmxvZWpsSlkweDNuUlJHS0V4QU43YU9aSUFTTGN5YTRITFhfR0xTcVkxa3BVcTNfRG41X2M5VnpTRE1WR2pjNFNvUlQ5aFFsMDZ4Y1k2SGJBRkdDU25KekNrOG56SWtpejlZNDE4MzA0WWkxaVA0UGhpY2NhdVdZbDR4U05xOTRQNUgtRENmdE1GcG83SnNlRnQ1RGxTdFdRUWFpdmowN1ZWRGVCOEZnTFZyZjJr",
         "CBMiqgFBVV95cUxOS21KZHJRSUZra0lVODE4VGl5YkJqb2Noc2RDQ3hZclUyT0twS25GVXktRWRtcTlfZVFpc0d0MTZKMTNVa25hT0NaWG5idHhXYXJJZmN1S25pOEZsamlsZkdQMkVXb0dxdV9CNHVyY0hLMmVPWl9wSGJWdXVHZ2N1dWUzdlJqVERUdS1SNVNFSGxOYmxKTDlDRVpxam1SVWVGZHgwNHNhbUNJUQ",
         "CBMi0wFBVV95cUxQeXVGYUFzcjF0MHJ4djZBUU9BTS1HMV9meWNCQXZRQXExUlhWTFFzd25CM3FXenVuMlhXeHFKd3o1Zi1NVHlBVVdxTk5BMFdvZzluaUhmOXNlcEdUVjk3ME96Z3g0SEExMF95bk1QWVpCek4zZUZVRmNWNlpTcGlhWl9hSi1LNkRmb3B5SjNUTHZDTFNHVU1BSmhSV2tjbHI0dEJqYlc3RndWd2RVX1lMQ05OemUzREhrcWFjVjBHQkJVWHlFREctUWFaRnZZcF9hLVl3",
         "CBMivwFBVV95cUxOZTFnU0RjRk1hRnFtdGlrdC1DaDYtX0xFZ0ZseE54elNqT0ZsblBTaHBxNEE5LUZDYkdMcFd2WE1lazRwZzNrOTJ3R0ZSTGRhdlZ0QVp4OEFFRDc2cHJyQjUwUTdGZ3o1LVFlaHNZbDBPZHdsbXU0UmxYeWFFVkNkc3lyTU5CeHUwcWdBWkIwcjd0d3hhaUdLTGJGT1B2VjllTjdNY09rYngwUG5xLU9mdlJMZkxjYlNPNERoa1dWWQ",
@@ -319,16 +318,16 @@
         "CBMiigFBVV95cUxQUWlpUTdXWmxtbnUwczBjOE96X25jTmcyTnRuOWFkT2RzemJKV1VNUlFhQWpGOUs0aU92bS1DQ3BzZzVqNmpXbVIzYTMwQUtNdFRXTWJYUlB3RWJGMFlDbl96Q1pnMVZVdzJreG9BbEVjUy1fNXpaU1ZaV2NDVjI0YmNtZnFBTVZ3WXc",
         "CBMiiAFBVV95cUxQU3hlejVWdlFvMnlEVkZPdEdTUklkbUVxcWJhV2Q2d2h4aDM2UVZwQ2l0Q25sYWxia1VrMmpwQVltbEpIR1liS2F1ZXhNbWlRVmItTlJ6TlE2WDBnejVndjdTbFlIVHFzeXRnM2hSLXloLXM1R1p2amdrVkJDSjVXME5VTWJCZHFj",
         "CBMi0AFBVV95cUxNTGljMVNOM2hudjZtTXp1WGp5UFFaY1hwSTFFOWRoZ19iaWg0dGZQaG9KaGZSRHRXcy02aFA3QkdIMGJJTk41dTd5dEExYmx2a1JYWlhnNXBCS21UaFByRnk0bFNpV2xhTFkwaXF4RFF2SVlBRFJlTmhIYWVPZmQtRko3blRBZUFJaXF4cFltNmVfSWw5ZGFPeUF5UU8xX0FESnUtMExpb2NUSWRNeEQ5WDJpcEJWLXpFTkt2WC1wQ0RNUXJBTmttQjVBNUdrVzJv0gHWAUFVX3lxTE1tTFlTWTNxZzRmMmMyRGEyaXY5cFVzM1g1cmNXTGs0MURZTm1Sb05IRXRvazhRTUc4VmxsbW9PbXFjd2ZFNUYyOGNGeTNIMkhkOWZGOUdrcDdZQTVzMmdyeFk4bHlQWEtWanRQMVhrV01lNXpVM0ZYVk9hNU5qcnZ0WmZQMVpBVzNvRFBoM1RDdUN3b1dYQmxrWFl3OVhZODhwd0F1dzVtQzFQMm45NGJQY0tBVTFmRU1RcUFoUktrX0plT0d4X1M2ZjdBbzlKMTNnM2U1eXc",
-        "CBMi0gFBVV95cUxQNHU3ZWUtaUxER2Z6T2hwOGdMZWdKV21VNjVRalZwalBPa0JHRmZLZ3lnbkFFYVliSjdWSGw1RTNVNERfamVEaGRaWHFadW9GTEh5aS0wbHBKcjAwbFRqb1dHOG8zOVFjZ0JWQ3VCNUZLb2Q3bkp2MnpXQTRuU2JiblU5RDdPQzEwQUxXYnZQNmc0Q0FIOGM4Yk4wQTA2R1FjVnQ5dEx1NlBiamtod1BMSWlIQWRjOUpidk5kUVNENG0zeWRiQXVUVHNnZFNNSmNGWHc"
+        "CBMi0gFBVV95cUxQNHU3ZWUtaUxER2Z6T2hwOGdMZWdKV21VNjVRalZwalBPa0JHRmZLZ3lnbkFFYVliSjdWSGw1RTNVNERfamVEaGRaWHFadW9GTEh5aS0wbHBKcjAwbFRqb1dHOG8zOVFjZ0JWQ3VCNUZLb2Q3bkp2MnpXQTRuU2JiblU5RDdPQzEwQUxXYnZQNmc0Q0FIOGM4Yk4wQTA2R1FjVnQ5dEx1NlBiamtod1BMSWlIQWRjOUpidk5kUVNENG0zeWRiQXVUVHNnZFNNSmNGWHc",
+        "CBMi-AFBVV95cUxQWk1GYjI2dlNfOVBaankyTHp6M0dWV2M4UDhqVE1nb1NSVzAzVkRwUE8wZ09JQWN2elVQc3h3Mzd0SmVHc0NkUWNZNWNoOVpGU1Rkc3JkTm8tbjJqTXlBa2pCTThMWHVfT3dqQUUyaEZMaktRMGRpS0UwYlFnNllZS282dGZCMC1BWFZrSlhxSTBxdnp4OGYzNWtwdjJsX1h0akdEbzg4WTZ2b3pBRU5RaGlvVnRBX3F1VWZMNDR2SXJIRXBhVlRIekZ2d0FzSHc2U0lJVWVJZnJObTNDcDY1R1JSX1JRQ29JcW1OcmJIYkd0bVNZVGxtTg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-23T16:08:25.334Z",
-      "last_epoch": 1792766535000,
-      "etag": "\"0237d406c36febbfa45f5aa0f1f8df863-gzip\"",
-      "last_modified": "Fri, 23 Oct 2026 15:56:03 GMT",
+      "last_fetched": "2026-10-23T22:48:44.175Z",
+      "last_epoch": 1792794618000,
+      "etag": "\"09f0cb51319fdd6d12c6f4f7ba9db67a7-gzip\"",
+      "last_modified": "Fri, 23 Oct 2026 22:37:11 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/chalet-hotels-partners-with-the-job-plus-and-thsc-to-skill-5000-new-hospitality-professionals-by-2030/articleshow/133685073.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-cuts-diesel-export-levy-to-rs-1/litre-from-rs-3-windfall-tax-to-rs-19/articleshow/133681487.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-appoints-suman-ray-as-executive-director-to-head-dicgc-and-premises-department/articleshow/133677180.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-secures-all-regulatory-approvals-for-3-8-billion-iveco-group-acquisition/articleshow/133691453.cms",
@@ -627,11 +626,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/welspun-corp-bags-5500-crore-us-natural-gas-pipeline-order/articleshow/135134253.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/cipla-subsidiary-clears-usfda-inspection-with-zero-observations/articleshow/135133614.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/indias-scotch-probe-of-diageo-pernod-undermining-india-uk-pact-benefits-trade-group-says/articleshow/135148854.cms",
-        "https://economictimes.indiatimes.com/industry/energy/power/kec-international-bags-new-orders-worth-over-rs-1000-cr/articleshow/135143636.cms"
+        "https://economictimes.indiatimes.com/industry/energy/power/kec-international-bags-new-orders-worth-over-rs-1000-cr/articleshow/135143636.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/states-urged-to-enforce-ban-on-reuse-of-single-use-medical-devices/articleshow/135157961.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-23T16:08:25.460Z",
+      "last_fetched": "2026-10-23T22:48:44.238Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

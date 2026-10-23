@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-23T16:07:23.311Z",
+      "last_fetched": "2026-10-23T22:47:25.643Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-23T16:08:02.792Z",
+      "last_fetched": "2026-10-23T22:48:01.683Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-23T16:08:04.235Z",
-      "last_epoch": 1792749192000,
+      "last_fetched": "2026-10-23T22:48:03.046Z",
+      "last_epoch": 1792770844000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizgFBVV95cUxQVFBGQXVnU2txZnVGRGZldUI4R21MajJoaFN6MkVydl9hUjNzdDNsTGk2RGNNcGY3RFhLdVc5OGV3aW1HQlExZ0JQeUZzNU02SU5oWDlPOW9uRUVXcHludmo5MnRoVGtPMEktYjQzMFFxUG9aVDQ4LW5ET29CUHQ5LWt3Ri1sTWNRaDFjR09vSDlKbTI3UUg0UU1tNXpWRlN0dVNoQU8zV2trWVpIWFgxazRqQXZMNUt2WVFwdWhkQnV4blIxU1B2c0tCSG8zUQ",
         "CBMi3AFBVV95cUxPV3hnZGpGcGI1SEJfQjFOOUlZa2Z3Wm9COEFYZC1TcWxFak1sRUZ0dDBsSk5BZ2NZSWgzVnpOSjdud2owSVRoVEtMX2wwOGJPNVJkaEk2YXBUcmFGVzVYN0tUa253TXdoMlBid3ByNGtaTWhZSjcxVmtxU040b3hNREJQeENHMkhvMkVVRjJBNHFoLU52ejB2ZzA3cTJSd3RWWldkNHhESHY0d2RHMDVrcHFXclRmVU1UWEFQZ2xDdnp4VWRYNGswYW5zVTNydDdxOUU3bTdmMUczRzBG",
         "CBMizAFBVV95cUxPTGdBbnR1RTlYMVhQS1pOazQyRXBocVFWbjBkNFlfcER4SFZBTHVNWjBxN1BKT00tbEJoTnFoZjZzTDZqVEF2Mm04ZkFwOXV2S2xPOGlUOTJwUXNOcGhraGhZd1IxbDIzdFpYdHl6YWVBdmpHaTJtRHhISHdBRl9IZkIwQWZRdHpVaGRMNFZnWHh1bWdNYko2N3IybTBQUHlSRF85QXprOUZ3RzQwa2ktQWlJSE10aUlqLVdLOFA5UUFiSS1qM2FqaDJMZ1bSAcwBQVVfeXFMT0xnQW50dUU5WDFYUEtaTms0MkVwaHFRVm4wZDRZX3BEeEhWQUx1TVowcTdQSk9NLWxCaE5xaGY2c0w2alRBdjJtOGZBcDl1dktsTzhpVDkycFFzTnBoa2hoWXdSMWwyM3RaWHR5emFlQXZqR2kybUR4SEh3QUZfSGZCMEFmUXR6VWhkTDRWZ1h4dW1nTWJKNjdyMm0wUFB5UkRfOUF6azlGd0c0MGtpLUFpSUhNdGlJai1XSzhQOVFBYkktajNhamgyTGdW",
         "CBMilAFBVV95cUxQOGdWb21MRHQyNEg3Nmx6R3hrOEI3SmMzWTViOGZ3UXJtTWprVjlwWFZFWk1HbHF2MkZfald0bUMwYllHRUlYWHNjQWRQZGZmTFpnbVVkWjB3UUtrdU1SR083TlNtOVZCM19ia0Vwc1o3Z0cwMm5Ka20tS0Y3LTVGakxMQnp0THlDQ1A1RjFUMDFwSmVQ",
@@ -319,18 +318,16 @@
         "CBMioAJBVV95cUxPbjhNNlNIN0dWd3g1TEFJN1NpVkR5aTBKY085TXdxQS01SlBNTzlnXzFibElTZFF2dXltODhWRkpxS2tZYVFWTG9iVnpnVHJaV1cxRlBMSHJqMmExYzExSVctVEtnTm1iSVBwR01iUzB5eEFtUG1WaUdaaFpvUERBV2hQWTdJN0F2bW8xTmxkMmpLLWs5UEZJSXloUGpLZnFPMkc3WFRjRjdRY0FGZlBKdW4taWFRVGdoSWtfQkw5S1dCX0lxX2FJR2Y0UUs2ZF9tVEFUbk5VVThJZXBpa0s3cWRRZU5KbG03dVNndUJNcTN6NjFkOGRCLWhTaFhqYXdoNmhKNGJHR1dfMFhZSUhHZ0dTc1h0TFJ3TzJkRzlHNEvSAaYCQVVfeXFMUDJsN0lYTktMNnE1WnBxRGhGMTBsc1lEbVBoSjA4dUxyd0s1MTkyRDZoZGQxNTNKdU8yQlJiZ0hUal9IUVBvYi1ncEllOEhFNThTRVlydGZEQlRGNWRWb1BEazBiX1l5TVF0OS01ZmZMaWVZSVpnNXhEXzBoeThpYUY3aHZiY1B2TTRJa041YVFuMEhEY3kyeGtvd3RaX1M4LVF5M0w5WnJCV1ozV012X0ViSU5HMGg5S1RJcDZ6Rzg4MUxrdlU1aGZ1TE1UNHpYVmh2cDhJby1na3ZfWHhaVE5XZlhjMHNocXVibndjTzVnOVFSY3c0c1pHRmRaRnBIOUVjZURTbXZqQkF2TzNqaHlucmFZTk51Q0FpU2JXS2xEU0x3Mmd3",
         "CBMi8AFBVV95cUxQdVpDZVMtdVo5YTVldUZldUFjZkZzbV9weUNFSjQ1dVJxa3hHVDJ4OWlZOXhhaHp1TkFvdDRFWjFSX05WNTUzUnNiQjNjTjJXRGdnVlhwd0JPSDlZc0k1OWpSR3cxQ2N6bjJod2RfMm9TWVdpZVNSS1ZCa1BpVlFmdV9sTUVJU253cXl4MWVNeExWWkZuaWtOdzVHazhXam1iVndBTXdHQ3V2SmpNdW1BRlZnb1MxNUlVTkZrNzlPX0V5MFc2Z0dKZDE1cFFpTllGb1EwZkJDZGNDRXFOYzZnWXY3YkVqeWYyOWItOEQ3TkXSAfYBQVVfeXFMUHNEMUdkYjdXOUN3Wkh5eDdsRjZOVUpnd1ZDYmRZWGtpU0pTS095Y2p2dkZ2d0RQcjR6YmN6RDk1RmN3WE9xdl9OQmxSOUExNDBfd1lzNGhRLWozMVN3TFNVVFVlNm9GaHl6b1RnWHNINjdFVWlBZnNuNmNzd0x6N1hwbmRQSFpGVDEzZlVya0NGTERFdi1qVVlKbUJNaU9uU3FKVldHTWNzYUw4bFEwMHVCNmQzWmlyWTAxTnpuUzd1dFVhY2NrRlJ6Y3FFTVJNaGJJd0ROTTJOR2hLemJneS1mU1ZuVUZEOXJRdVJnQUFFRmtpczFn",
         "CBMiekFVX3lxTE10c1FMVnFLLVVVVWNjVGpqN0RIOVhaQU5ZMFBnMjFpOTFBWHZhSVlJTE1OaDg1ZHUzcmw4dEkwTldBU3FQcFdzQTdvZ0s1Y0xyQk05N3lkSFMxUDZLOUVwRFhTc3FnbEdCMHduTk5XcU10b2Jab2ctTWZn",
-        "CBMi5AFBVV95cUxQcElNUEZiVTJKSWtOYmplbi1LVmJGQkYtaTNGN3BaWUtDdnhpTDZHWGZLWVBrR2VmYThVMUtOMkZielhrRTZ3ejZEYWNRRHlqQW90YnA1QnBPb2k4ZnFTNEdMNG9fQzZKNm02TmxqVjVYemVZUzQ2R3FvbVZVdGh1YXMtV2ZyYzlVR1dsZ3QzaGdSRkxMTjYwb09pOU1MaUhZUkx5ZGVjb3JBaWJGZ0xxVG95MU1GUktJZUNlbGQ1NEZDVlFCLUFJclMzcWJ4bFh4aVpJbUJqUWI1U1VrMzM2bUxBczk"
+        "CBMi5AFBVV95cUxQcElNUEZiVTJKSWtOYmplbi1LVmJGQkYtaTNGN3BaWUtDdnhpTDZHWGZLWVBrR2VmYThVMUtOMkZielhrRTZ3ejZEYWNRRHlqQW90YnA1QnBPb2k4ZnFTNEdMNG9fQzZKNm02TmxqVjVYemVZUzQ2R3FvbVZVdGh1YXMtV2ZyYzlVR1dsZ3QzaGdSRkxMTjYwb09pOU1MaUhZUkx5ZGVjb3JBaWJGZ0xxVG95MU1GUktJZUNlbGQ1NEZDVlFCLUFJclMzcWJ4bFh4aVpJbUJqUWI1U1VrMzM2bUxBczk",
+        "CBMixwFBVV95cUxNRmZMem5kUWxKQ3R2RTJ0TGVIM2dWQUxqdHlLYTR5X3o1X2hWWlcwODRnNVVYZXhyOFJkT2JFRUFMTEN2cmx1OFVZTkdIUURKRUFOSklWTkx3RFRHZ3owM1ItQ3FkLTJTeTNYcWJ6Qkl2NTRUTzAyaXdfYy1SUkRpOC1sbDFsWmJXS3JxTHVJcjlTcTQtMTN4Y2ZMT2JmSmtOazU4ODRrSUVRN0RBRDhlQU5KdGczdzZHYjlObU10RFluSE1yVUpF0gHMAUFVX3lxTE9XbWNVUV9pbkhmMVg4NW9Zd3dZZTJ1eVNybUN2SkRXZkxKZGFZaXFDUHB1WjMtZ1ozeGxoSUltMTBicTZNQk1wQlBXVFFLdllzY05oWndrNDRZendEOHlYTm9hd1ZwSWF4WWNtWHFOSkhiNm9pWFJWN2plbENyR0xHZlpmdXFTcjFRM3kwd0t6aXRSaU5hUThkZDEyTVUycXlucUdjNU9YUktZbzFDTTQtOU95YWNnb0hvZ3BmV1pTNERmX1VvaXZUelNidg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-23T16:08:04.323Z",
-      "last_epoch": 1792768368000,
-      "etag": "\"0237d406c36febbfa45f5aa0f1f8df863-gzip\"",
-      "last_modified": "Fri, 23 Oct 2026 15:56:03 GMT",
+      "last_fetched": "2026-10-23T22:48:03.178Z",
+      "last_epoch": 1792794618000,
+      "etag": "\"09f0cb51319fdd6d12c6f4f7ba9db67a7-gzip\"",
+      "last_modified": "Fri, 23 Oct 2026 22:37:11 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/mdr-rollout-will-be-monitored-to-protect-users/articleshow/134319433.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/apple-pay-set-for-india-launch-next-month-with-axis-bank-credit-cards-sources/articleshow/134326330.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-must-move-beyond-semiconductor-engineering-to-own-products-capture-innovation-value-infosys-vikram-meghal/articleshow/134326203.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/sleeper-vande-bharat-express-for-delhi-varanasi-passengers-new-overnight-service-may-launch-around-diwali-with-prayagraj-kanpur-stops-heres-what-travellers-need-to-know/articleshow/134338093.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/indias-first-hydrogen-train-has-room-for-2600-passengers-but-only-40-60-are-riding-it-two-months-after-launch-heres-why-railways-is-planning-to-extend-it-to-delhi/articleshow/134334083.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/cash-flow-based-lending-to-become-important-for-new-age-sectors-sbi-md/articleshow/134331125.cms",
@@ -627,11 +624,14 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/from-nasal-delivery-to-sterile-injectables-biodeal-pharmaceuticals-expansion-plans/articleshow/135137663.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/ima-urges-review-of-sunny-deol-sanjay-dutt-starrer-suryaa-promo-says-movie-glorifies-violence-generalises-graft-in-medical-field/articleshow/135138449.cms",
         "https://economictimes.indiatimes.com/industry/transportation/roadways/driving-licence-holders-take-note-new-rules-may-change-your-card-details-documents-needed-online-services-check-what-the-govt-proposes/articleshow/135136506.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharma-unethical-practices-marketing-rules-under-lens-new-review-body-set-up/articleshow/135149361.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indian-pharma-unethical-practices-marketing-rules-under-lens-new-review-body-set-up/articleshow/135149361.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/states-urged-to-enforce-ban-on-reuse-of-single-use-medical-devices/articleshow/135157961.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/link-fertiliser-subsidies-to-area-crop-productivity-icrier/articleshow/135154109.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/nothing-to-fear-top-bureaucrat-says-idbi-staff-pensioners-service-conditions-wont-change-after-fairfax-deal/articleshow/135150036.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-23T16:08:04.414Z",
+      "last_fetched": "2026-10-23T22:48:03.539Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

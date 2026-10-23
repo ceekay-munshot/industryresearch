@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-23T16:11:36.186Z",
+      "last_fetched": "2026-10-23T22:52:51.003Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-23T16:11:45.266Z",
+      "last_fetched": "2026-10-23T22:53:13.754Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-23T16:11:46.644Z",
-      "last_epoch": 1792721147000,
+      "last_fetched": "2026-10-23T22:53:14.862Z",
+      "last_epoch": 1792786558000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -84,14 +84,15 @@
         "CBMihgFBVV95cUxPSkxldTVyRnN6OTgyMnJWTmp3R3JBSVVKWVV2M0ZZX3Q4WXFXYkJKZDFBeFdqOGdfWVlKenFlUHRnOFpsck5ONnZQXzRKZzF1bndDNmFyWnNMWEtfLXRZMmhNdTdrVmZORnA5TDQyM0RnWGRER1RkNXllWmhXcHNfdlA4UVdkZw",
         "CBMigwFBVV95cUxQdC1yM1FVaktMS0Q0ZmNSb1pZSmM5LVZwX0dISUdOTk1vR0Q0ZjBFX0tZVE1NNlJkbm92NTZxUDQ5dk1jWTFZbnlyUklmTU5nc0VjYzI5ZW8yNkpMNTVhb2NUeHN0WUR3Y0ZDLWpSeUNMNXBMSWJOa2NGN190UU1hUzd5QQ",
         "CBMi4wFBVV95cUxPeE1LT3pPLXNvVnJ4ZjVYM2t2c29CNkFnTFI1bnVWbnVSVmczdmdHRzc1ck1iNmtlbk5kdU5LeGI3a1JzYzdYLTdBOVp5VTdoZ2ZzaXktY25aelFvUzNvN21RM01FQmMtaFNpYUhtWU9XOEFSaG9RblU5MGVPbk9qUGsyTUVGMDZkVkVQLW9RVmNfUEgxMm82b1pVbmN1T0tQYmsxcGpQc3c3WC1XLXpQOWpqd0dEMy1DSzNBQ1ZNZVVOZjQ4TWVORUlYM3JmWHluTmxpMnNJU2p6M21aenhZQWlBUQ",
-        "CBMi8wFBVV95cUxPbnBuWFllamozRGw5VXJac3lJMmhEN1piQVVsYm13WDduRHlwLVNCNVNwMVlOQjVrQW1sMmdOYVY4eW5xOXpzVGdfMnVxd2pTb1Y1M2I3OTlfT3h1YTRKTzBCMUFucDNiVnFUSWtVeHhCVG8xaEZpY2w5eTMzVEs4LUdRYVd5dDQ4bkR2Y2lPZmdxZlVJVmFwblV4elQ0eFRtZk8zU3FZN0VVMTlUejFBQ21aT1NNRC1McGlkdmF3T3hWRFRDT0Q1NmpZMlV5QVRTMUlmRFNSSllLOVhXa281M3JhWVh5NWp2VnlEVVYwcUVzekXSAfgBQVVfeXFMTTVjZHpmZ1lXZ3JnN21yelBQQ3FiaXE0UGVfQlU4OU5uU3o2eDIyRW9MeDFtZE91MTJKdjdUYXFPY05taXY2ZlBXaWJlZnFrQUE1bjFxU0Jtb2cycnpnRDlreXZUUWVUYjZIWTFIcHFnajBoZzZFeG1kNVA3dHNmc0E2RlNFZTNWS28xNkttbTJqWjlQT0xLbEJNbHJBR0REendzd3dDbm52V01ydHRlQnJ2bVUtU3EyOW84T0UySV9PRkxsWk1yQkk3M2MydXF5NC1qY2dOdW9QbGRlWTFWTDdBRHBndnBhd01VYlowV3lBaklVUFRuSk0"
+        "CBMi8wFBVV95cUxPbnBuWFllamozRGw5VXJac3lJMmhEN1piQVVsYm13WDduRHlwLVNCNVNwMVlOQjVrQW1sMmdOYVY4eW5xOXpzVGdfMnVxd2pTb1Y1M2I3OTlfT3h1YTRKTzBCMUFucDNiVnFUSWtVeHhCVG8xaEZpY2w5eTMzVEs4LUdRYVd5dDQ4bkR2Y2lPZmdxZlVJVmFwblV4elQ0eFRtZk8zU3FZN0VVMTlUejFBQ21aT1NNRC1McGlkdmF3T3hWRFRDT0Q1NmpZMlV5QVRTMUlmRFNSSllLOVhXa281M3JhWVh5NWp2VnlEVVYwcUVzekXSAfgBQVVfeXFMTTVjZHpmZ1lXZ3JnN21yelBQQ3FiaXE0UGVfQlU4OU5uU3o2eDIyRW9MeDFtZE91MTJKdjdUYXFPY05taXY2ZlBXaWJlZnFrQUE1bjFxU0Jtb2cycnpnRDlreXZUUWVUYjZIWTFIcHFnajBoZzZFeG1kNVA3dHNmc0E2RlNFZTNWS28xNkttbTJqWjlQT0xLbEJNbHJBR0REendzd3dDbm52V01ydHRlQnJ2bVUtU3EyOW84T0UySV9PRkxsWk1yQkk3M2MydXF5NC1qY2dOdW9QbGRlWTFWTDdBRHBndnBhd01VYlowV3lBaklVUFRuSk0",
+        "CBMieEFVX3lxTE8zT0RqQk51VlNtb3IyV0VXcjlwYUhrRDYtN0Fkd2pjWEF3TEJwUkdsQUhJLXFwU1VpZWtMRXl4VjhMNGc1REd2c3l3bmlZdEI1NE9ZcVhtWkdQTFI5NmtnUlVrQmxKTVo3RE0tWS12Yjl0cG9RUVhFUA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-23T16:11:46.698Z",
+      "last_fetched": "2026-10-23T22:53:15.002Z",
       "last_epoch": 1792715400000,
-      "etag": "\"0237d406c36febbfa45f5aa0f1f8df863-gzip\"",
-      "last_modified": "Fri, 23 Oct 2026 15:56:03 GMT",
+      "etag": "\"09f0cb51319fdd6d12c6f4f7ba9db67a7-gzip\"",
+      "last_modified": "Fri, 23 Oct 2026 22:37:11 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-issues-draft-audit-manual-for-drm-based-digital-addressable-systems-seeks-comments-by-october-30/articleshow/134840672.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms",
@@ -121,7 +122,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-23T16:11:46.764Z",
+      "last_fetched": "2026-10-23T22:53:15.287Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
