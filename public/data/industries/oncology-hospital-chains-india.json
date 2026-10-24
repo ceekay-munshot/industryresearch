@@ -12,7 +12,7 @@
     "generated_at": "2026-08-19",
     "mock": false,
     "query": "Oncology Hospital Chains (India)",
-    "updated_at": "2026-10-23",
+    "updated_at": "2026-10-24",
     "coverage": {
       "sections": {
         "size": {
@@ -63,7 +63,7 @@
         "news": {
           "sources": 2,
           "confidence": 0.84,
-          "as_of": "2026-10-23"
+          "as_of": "2026-10-24"
         }
       }
     }
@@ -1339,6 +1339,34 @@
     ],
     "news": [
       {
+        "title": "HealthCare Global Enterprises Ltd. Estimates – NSE:HCG - TradingView",
+        "publisher": "TradingView",
+        "date": "Fri, 23 Oct 2026 22:02:11 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYjkxTDh4U3ZVN0pzTVRrdGVsclBtY0UxZWU3M245UUdHbE1YTGtvLVBsSUxEb2F0VU83M05KZXZqYVZweWdkN3RjSjZBRE01MDF6dXZhd2ZXaEpFalZkWklkdURQQjd5VEw5NDZHY1hCZnlBcmYwX1ljd3ZzQ294U3Bmcng2aVVwdnl1V093TjlpQQ?oc=5",
+        "snippet": "HealthCare Global Enterprises Ltd. Estimates – NSE:HCG &nbsp;&nbsp; TradingView"
+      },
+      {
+        "title": "Apollo Hospitals Enterprise Limited Estimates – BSE:APOLLOHOSP - TradingView",
+        "publisher": "TradingView",
+        "date": "Sat, 24 Oct 2026 05:09:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83YWVoNGlJZU5JM2VvZ3hzMDhHTENOVUdJbVpCNjd1UWk5RVRoNkx4OFJBNi0xMVNpR1diQWVSTUVEMkUzWEhabVY3Tkdyd244U2Q5MTktVF93QUlMZlh6R0FjcExhaWQ3Wkw1b0thSWFkbHpLZktuZThPWmY?oc=5",
+        "snippet": "Apollo Hospitals Enterprise Limited Estimates – BSE:APOLLOHOSP &nbsp;&nbsp; TradingView"
+      },
+      {
+        "title": "CIPLA Share Price Today - Cipla on NSE/BSE - scanx.trade",
+        "publisher": "scanx.trade",
+        "date": "Fri, 23 Oct 2026 22:31:12 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16ajcyUzZmWGstaG5SaDJCRlZ5N3hGVXdCUVRKR0V1SVdjUWhtUUdnQUhmNnVKeHFOZ0s2WGx1SzFqWnQybGEwXzNyUjZnZw?oc=5",
+        "snippet": "CIPLA Share Price Today - Cipla on NSE/BSE &nbsp;&nbsp; scanx.trade"
+      },
+      {
+        "title": "Cipla takes asthma awareness to Kolkata’s Durga Puja pandals with giant inhaler displays - Indian Pharma Post",
+        "publisher": "Indian Pharma Post",
+        "date": "Sat, 24 Oct 2026 03:51:58 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRWticjhLMWdIejF0TmdzenFRbkpTcFNLVlhraTNDVkVSTFJheTFHRWdmQ00zbE1pYUlQckNpLWViWDB0MFg3UWYzX3pLQVJWeXNTb0tYMzVxZ1JJY0h6eDZoZWFUOVdwQU43NlVlNm1sMWNIRjE2d0kyazlIeW9sMjFGcVB0eFVKS1Q0MTFrRGRyQl9YakN6Y0xTVGljdElxRzE1ZjdwWGRmcE9IamZIdHNtWUt4OHRpUF81NlBfNGNTY2NLSWk2SVBPdUhJQ3hZNHFV0gHaAUFVX3lxTFBUVFlDS243UDViRU00b1QyblljLS0yOHNBcXZFYzRORTdBYVFVSjZTWDBubTRLNHFqVTlCSVEwSXY3dE9ISjBESDVvbFVHWHpoaXRpT0swUVhqamZnOXo1SENfSEQ1bTJ6ZXV6TUhURDFFc3YySGZ2VEQyMmJ1ZlJSelZndkJNM0JmTndSeEdSWXk1TVA2QjFlNGdKUHViUFIyR2dSdllKR0piTHZpSUR6dFkzNEJCR3BJdWQyYnpvRmU5bXJSZ1JSekpVQUxVeVc4dy1teG9nWDF3?oc=5",
+        "snippet": "Cipla takes asthma awareness to Kolkata’s Durga Puja pandals with giant inhaler displays &nbsp;&nbsp; Indian Pharma Post"
+      },
+      {
         "title": "Apollo Hospitals Pune and Pune Cardiac Centre Mark Milestones in Minimally Invasive and Robotic Cardiac Surgery - Apollo Hospitals",
         "publisher": "Apollo Hospitals",
         "date": "Fri, 23 Oct 2026 14:28:56 GMT",
@@ -1519,34 +1547,6 @@
         "date": "Thu, 22 Oct 2026 11:52:31 GMT",
         "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeUJUVUcwYkdTZEdlR0w0dTlsaWVwRzFsWV9BckVnYTEySU11TE5zMUR3d0tnVlFUYjFmS1VVT2hiQkh4bXZqNWQ5VDBITy1kZFpFNUU1M2FzejJ3UFlEa3JrbVJuOWxXVnA2ek54SnVsRHpYM0hiQU1Eci1ELVpoY3RpMUJKYkc0UmRMaTBUc0ZXVDNYblZ0UlhSUUtUT3ppLTRxbEZaNUlkTlRLbEJDS0VKVmxJSnZUTEkxSHJ5cGo5VGNHdy16cG9wX2FaZFYyVEFONTF4VmZ5eFlvalh6NEw2Y3hldWdLNVpwN3VrSmVLcnFhNGZ6a19JeF95eURKRzd0VHZ1QzFmZGt4OGfSAZMCQVVfeXFMTjA4RnR0TTdFazljcC04RUVpcHc0c3ROOW1KZjVheDU2eG56OXg5TjNlS3o2dUhWekVoMnV6dGd6bWxvWGxpMTAwYVAtRGdKRE5IMThvVlpFaW5Cc0hXcVRfaUNuUFZWby1VMWdMbTdvaTdkakRkTlU1blE4amFwaGl3V21UbUg3SVlHWVI3b1JYa1JJODdyMVJCMFpaTmQ4c1JyX2JGWXVOSVBmbVdhcF9oZXdUemsta04tMjUwV3pRMDlIakxJTDZuUm9sUWpETHN4MzhteUZ5dkszZWdRRE9WcV9pR3FudTBkTEw1Zm5JOEI4cnhoN1JOMDRVX0RmakJlN21XdS1wclMwUm1zMXc3bHc?oc=5",
         "snippet": "Market wrap: Bajaj Finance, Cipla, Nestle India, Eternal top gainers and losers on Nifty and Sensex on Thu &nbsp;&nbsp; The Economic Times"
-      },
-      {
-        "title": "Cipla wins court fight over HIV pill tender - GroundUp",
-        "publisher": "GroundUp",
-        "date": "Thu, 22 Oct 2026 12:29:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeVBpcUlKZHpyVjlpMjhOOHhTSzNyXzZNdVYzWEUyemFVbDhrcC1oeTA2TFkzQTFUVEZQZ2JxaDZSZVd4SUNsV1hrNW9XN05OeU9Ta0cwY0I1bDZqMm1IOWQwc21OVEstQTliYjFtWDJCTTdQZDEwMnoxUXNBQTQ3V0hn?oc=5",
-        "snippet": "Cipla wins court fight over HIV pill tender &nbsp;&nbsp; GroundUp"
-      },
-      {
-        "title": "AI in supply chain management: How enterprises are rethinking warehousing, forecasting and delivery",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Thu, 22 Oct 2026 16:45:30 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/services/education/ai-in-supply-chain-management-how-enterprises-are-rethinking-warehousing-forecasting-and-delivery/articleshow/135116920.cms",
-        "snippet": "AI is changing supply chain management by helping businesses forecast demand, position inventory, automate warehouses, and improve delivery planning. As quick-commerce companies build operations around speed, established enterprises are exploring how similar capabilities can improve efficiency acros"
-      },
-      {
-        "title": "Cancer drugs to get cheaper? Here’s what the latest government order says",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Thu, 22 Oct 2026 14:34:35 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/cancer-drugs-to-get-cheaper-heres-what-the-latest-government-order-says/videoshow/135113824.cms",
-        "snippet": ""
-      },
-      {
-        "title": "Apollo Hospitals debuts UK-backed emergency medicine programme - Healthcare Asia Magazine",
-        "publisher": "Healthcare Asia Magazine",
-        "date": "Thu, 22 Oct 2026 03:18:30 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHRZVTFnVy12aGxkSlJ4RzI0RTRiWWNsZlZlMzVLamdFdGRfcWtZVkdiU0ZHR3pGMlh4bDhXeDJybDMtQjhOZEduX2FWVFRMYWxWLVJaSEhiN1h5aUR1UFI2Z0xJLWlqN01nXzNDQ0RuSHhjZ0tTNVhCUWxQRXUzTEt1RWNIUXZlemEteVhGeHJReTBzQVVtdWw4alhFODNUdDFxSXdpVFBReVZKWEQwa3BHWQ?oc=5",
-        "snippet": "Apollo Hospitals debuts UK-backed emergency medicine programme &nbsp;&nbsp; Healthcare Asia Magazine"
       }
     ]
   },
