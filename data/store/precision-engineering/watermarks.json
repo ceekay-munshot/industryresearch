@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-24T08:31:47.891Z",
-      "last_epoch": 1792766760000,
+      "last_fetched": "2026-10-24T15:07:53.480Z",
+      "last_epoch": 1792842019000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -129,19 +129,21 @@
         "CBMikAFBVV95cUxOX1hnVzNVc1p3VE5aYXZDdnptZTZzODNkc0VSVVBDdUhwSnNpbjd4dlRZMlRDUWZFUlVWVmxzRHNGMGIxeVdHNDZhMC1rVjFWUHZSRkNITF9uTENkTnBmekZCOE1xcUNpS09ZOWpUSjdHN1hQeFlKX1pVZEpiMnRYdXFoMTkyTXVEMlBIMUxCTXI",
         "CBMi2AFBVV95cUxNcExIaWxGaVp6d0VjOEMwVjY5OFJjaTV2eUJXdGphZWhSRlZhQXJ4Qll1azBxNjVrNzdwcEIzSDU4RmJYZFFBVjJ5VGdYSHFfYTFvSF96eXJKb2pmWmdfLXlWX2UxbVItdlVGVFpjZU1zVDFlenY5LWJGY1RKWmNXME12bHJ6SjZ1VG90dmpJREFlaDZvWlA2dEhPLWhKNjR5UW0wdjZfLTRvbHN2cU5ZLVdnY19pM2pzN1V5aFJrazdBSk5uS20yS1V6NDNMMmhXYkZLd0lTVXg",
         "CBMimgFBVV95cUxNeHp3SFRqYmFxVnN6eVRXT2Q5a0RMRUhqTnptQmczNGJycnNBU0pFaGNiUzdnSE9wVmxHMUhSN045N1lLV3l2ZC1JOXZjd3BZeW5TUkZCYXZMOEJ3Q1FnQzVYSHBKOHpfN2dyLVFMZDJFMVotdlljTERuNC05czVjcGZJeW93OC1yYUNxMmEycUl6Ykc2OG5oSGh3",
-        "CBMi4gFBVV95cUxQQXJtQ3JxdG0zdVEwMndzbnVucm5HZHB0RldUWVo3b21PTDZSbFpabGp0MWpmMzJlTVJhMV8yVXV2NGxEUGltUlZVZHJxQWJUU1JIUXJVUGt1bVJHekJMUlhRLXZ0Q1ZSdVNscEk0QXJZUXNwSWtINnc4dTFfMkdDMXdOUWJLUXFpSlF2QU84TzRfZmF3WDBVZzZaWUE3blUxMGlyRnFJOF9xTUJRYkVGLWt6S1hMU3VvemlKU2lhSXBiQkNiSDdPVFdwTnpUOWwwTE9HaEVQdF9mcS1DdVQ0d1JR"
+        "CBMi4gFBVV95cUxQQXJtQ3JxdG0zdVEwMndzbnVucm5HZHB0RldUWVo3b21PTDZSbFpabGp0MWpmMzJlTVJhMV8yVXV2NGxEUGltUlZVZHJxQWJUU1JIUXJVUGt1bVJHekJMUlhRLXZ0Q1ZSdVNscEk0QXJZUXNwSWtINnc4dTFfMkdDMXdOUWJLUXFpSlF2QU84TzRfZmF3WDBVZzZaWUE3blUxMGlyRnFJOF9xTUJRYkVGLWt6S1hMU3VvemlKU2lhSXBiQkNiSDdPVFdwTnpUOWwwTE9HaEVQdF9mcS1DdVQ0d1JR",
+        "CBMiwwFBVV95cUxPamRPNS13UXduYVdlMjZhVzNVdE9rNVg3SGstOTdEbFlHMzJ5Z3VycDF4enBZWWw3clhadzYwdl9CYmZGSEhOcGdsM2NMc1c0S1lxc3NUQVU4QVA3VXFmcUx5ejBRSElUQzhTNlpaaDVUc21MRE5VWWpfM05iNUk0RTJKMTBrT0ZDODVzb2I3bUFDNUpzVmRFZWVGVVRKUVZpNFBrNDh1dDhOb1pKakI5RHVTOTRIazROR2pVUnpyX3JWYlnSAcsBQVVfeXFMTkxidVR2WUpzYTlpWXo4YzZjNU1OMkYwSENpRXRMRFh6REl1bDJkd0RnNFFONWVOYTVhTUNjLWJ4MWFVLTBHbWdHM0h2RUlNa00xZWx3WU1wTVNGeVQyeTNaZm9qUjAwR2F5Ny0zeUlWeWF5YjJGSjR2ZUJvMTJIWDdYaXVLRWdpUHVqRFozaU5zWno5TUtaR2FMVEVoeFlVV2hlbUx0SmVJQTcycl9yRDFKaWtGZUpzQ1hhcmdoSUxkdVNORHlVX0JoXzA",
+        "CBMi4wFBVV95cUxQUUZKN2NCV3UxVVYxbGZ5VzJEcGFDZDJTdGNnR3A3ZVhRa1EwRDhuNEtwRjJBei05YzZ6VlpFN1Q4eXhEdEpQdno0dW1wYXY5RjY0UlFSMXBaMTFSYXJpelRKX0FHOWhVa1hxeGlNMTAyNXBNRVZHYk5qbWJPMVBKMG1oQjdUaGFnMm5DZmxxT0xSd3hpdjYtWHJoVU9XckVkTU41RHhLMnotb0JXN3Q3QlhhUWxhdl9KT1p0bDZhWDFjNGt3MXpDSVBBMFVKZjl5OXBqZFlSaTBCU2h5QmxHUWF3NNIB4wFBVV95cUxQUUZKN2NCV3UxVVYxbGZ5VzJEcGFDZDJTdGNnR3A3ZVhRa1EwRDhuNEtwRjJBei05YzZ6VlpFN1Q4eXhEdEpQdno0dW1wYXY5RjY0UlFSMXBaMTFSYXJpelRKX0FHOWhVa1hxeGlNMTAyNXBNRVZHYk5qbWJPMVBKMG1oQjdUaGFnMm5DZmxxT0xSd3hpdjYtWHJoVU9XckVkTU41RHhLMnotb0JXN3Q3QlhhUWxhdl9KT1p0bDZhWDFjNGt3MXpDSVBBMFVKZjl5OXBqZFlSaTBCU2h5QmxHUWF3NA"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-24T08:32:23.047Z",
+      "last_fetched": "2026-10-24T15:08:02.280Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-24T08:32:24.261Z",
-      "last_epoch": 1792812398000,
+      "last_fetched": "2026-10-24T15:08:03.477Z",
+      "last_epoch": 1792838308000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -373,14 +375,15 @@
         "CBMikAFBVV95cUxOLU1WdHU4MG1rUFdwaDJHNW1SX1F2cmVnYUJ3QzI5M1VtY1oycnE3aGt0T0NrdVNUdVhORGxtZm81Y0ZJXzJGZU56RWcxa2h6UjczbFZNdGVCMnpoR05tRl9ITXE0V1RTRDFUVTFVYzV0VkhoSUxEcWVUNjBxcC1ZQ203a2p6RHR6blBwemVZLXg",
         "CBMid0FVX3lxTE5ldzlSbzlsREk3QnlCNUZJU3RDQlhCd3ppUjJIbnpjQlZCWmJCNmw0a1hwZ1Y0STdZWW56OUtjc3FnUW5oWGJ0VFVSOXR4U1FaYlUzeUNXM0F3b2kxXzh4YzNwZkhXcFJDYS1ZcEN2TUptNi00b1Bv",
         "CBMiqAFBVV95cUxPVzd0UGROUWpJU25TbU9wLTRQd2t6RGxCenF3Z1lWMGJ2QU1UTlpWeVVFaTc2dmVrUEhKRmpZZHpFb19CWnFPOWJEdkdGY241c3ZtVUI2WWpxRE5aNWREUGo0Y0tZcS1BRU85TktEQ2VMSU5GSHB1YUp6ZXFRU1BBSXZ2OVVrcjBBUi1LVVRiZUlGVFdhdGI5bzNJeXFza0RQVTRYWnd2YjY",
-        "CBMifEFVX3lxTE9QZDhBdEhlQXMwX3RNVHB1OUZuQ0pxR1dRbDcySGEyanZrcTNpZHdGQmFWQldqN0plZU9zZFlvRUtkdm43RmE0Rm9XY01yanZNdHlmdTZtQnBVcDA2ckI2aFBIMXZTbHk2VXVhUXJucjB1TDdvWG9zSDBqcG4"
+        "CBMifEFVX3lxTE9QZDhBdEhlQXMwX3RNVHB1OUZuQ0pxR1dRbDcySGEyanZrcTNpZHdGQmFWQldqN0plZU9zZFlvRUtkdm43RmE0Rm9XY01yanZNdHlmdTZtQnBVcDA2ckI2aFBIMXZTbHk2VXVhUXJucjB1TDdvWG9zSDBqcG4",
+        "CBMi8wFBVV95cUxPN2NuWkVmVVdUanFKeUFEXzdpUmt4YlkyRU4wa09oZDEzY3o2RktaQXlLNHBVOWlIT3pjZ3Y2d283ZF9MaTlaZGh1MXpXejh5T0hrQ3JUX0pFaGpnTFVMbzlMb1AzWkVDMEdwaUE2b0xtdjRaYUZKZVpwR2VyQkxQRjBYZVRVemdJS1lDajhmYXlyaFZkcmYwRGFXTkpySTBNVWNXN2JzRU9IYVh0bk1VYmVzLUJqRndKNDZ5U29MN0syc1czaWNMdE5hcEppVzNZOGl3UGZGR20xTVRjRmhWRnRqMUttbVJ0dFZvLXk4MlhSV1k"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-24T08:32:24.364Z",
-      "last_epoch": 1792782486000,
-      "etag": "\"0ae874b8d5828a2c0f1dd20975d99e1ea-gzip\"",
-      "last_modified": "Sat, 24 Oct 2026 08:15:11 GMT",
+      "last_fetched": "2026-10-24T15:08:03.517Z",
+      "last_epoch": 1792836823000,
+      "etag": "\"0c500da6a19d1821d9429945aafcf3a58-gzip\"",
+      "last_modified": "Sat, 24 Oct 2026 14:40:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/andhra-factory-makes-3-million-tea-bags-daily-for-global-giants-walmart-aldi-and-carrefour/articleshow/134859981.cms",
@@ -427,11 +430,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/cipla-subsidiary-clears-usfda-inspection-with-zero-observations/articleshow/135133614.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/indias-chip-path-is-clearly-laid-out-ashwini-vaishnaw-outlines-road-map-to-a-bigger-better-semiconductor-ecosystem/articleshow/135145639.cms",
         "https://economictimes.indiatimes.com/industry/renewables/vikram-solar-to-roll-out-first-cells-from-9-gw-tamil-nadu-facility-in-december-2026/articleshow/135138065.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/lava-md-sunil-raina-cfo-rajesh-sethi-exit-amid-turnaround/articleshow/135154356.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/lava-md-sunil-raina-cfo-rajesh-sethi-exit-amid-turnaround/articleshow/135154356.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/adani-wind-bags-696-mw-turbine-orders-from-5-power-producers-targets-10-gw-capacity/articleshow/135167621.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-24T08:32:24.419Z",
+      "last_fetched": "2026-10-24T15:08:03.570Z",
       "last_epoch": 1713863838000,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-24T08:29:56.089Z",
+      "last_fetched": "2026-10-24T15:05:31.651Z",
       "last_epoch": 1792733938000,
       "etag": null,
       "last_modified": null,
@@ -85,19 +85,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-24T08:30:14.770Z",
+      "last_fetched": "2026-10-24T15:06:06.133Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-24T08:30:16.050Z",
-      "last_epoch": 1792815927000,
+      "last_fetched": "2026-10-24T15:06:07.319Z",
+      "last_epoch": 1792844439000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMikwFBVV95cUxPLUN3MHVDMGMza0ZHOWZmZWdIaE9mYzBiZk5Ubl9iSWZ3ZlFoaU05cTBBWkRheWN5R19xTmhNM0lZNFU5aE1MUTRtVkxJa0lKUEVMMVgyUWFoenZ1UGFzUHphMUJTbGJpQVNsY2cyb2lvRDZyZjRPRGxhakhrUEw1a0tDZW9xa1lzZ0RsR2J0SHk5X2M",
         "CBMiuAFBVV95cUxPX0c4aVk3SXpNWkxUYWJxandtQ25uOGFLTWNxbzJZTC1tcFNBZDZfT1hfckIzc3FwejJRYjU1V0NtZFRUekcwOTY0b19vTl90OHZKdnBPSWRibHg0OUprY2g5Ul9oSUQ3VWlnZjF2V3dvci00UG9aVmVEaGVnNTdRY3pzd2MtMFR4Y3g5TkgzUmtFbEp0Njd2cHVHdGw2M1NYdnYwQUwtY3JBcmtIeHZTak4zamk1U3hq",
         "CBMi7AFBVV95cUxQRTFkVVRyTHE0blJWb0RLNVRXT3RlMldCeUlrdWF2QkRzQ09mVWlKNXJ3bjBhajlOcDBQSEJ4d2hKZml1SGVCYXQ0cDZGQlRWMTVyXzVCMl9KV2gtTW4yalhwQjJsLWUzQzlYZHVndDZZdGdCamVhbWY0cHRfOEdyeFNEWXFGRm9LNDZ1XzdIWFUxVFNpb2hZdWJSLWtxTV9ZMUdVLXZYdVhFcEl0TU1kM29JVkRUSng2ZDRKVWYyakVDazhYTlFHRktQQ21scjZXUWxaY2RteDJFeDdrVHhHTUljS2I5M3VqS01BV9IB8gFBVV95cUxPQTFEMGs0Mi1XZGdCMW1ZSVJmV3pwN1RHQlptcHlOcVpvMWdBcEdSMmlYSlg5NF9tYmlXakdJZFlqaHdpYl9UTVlDa1dLMEVGZEtDeWVBTzQ0MGxaNFoxX0liSlBrYzIxUWhLZ3dpa2dPRXdHUGdiN2pZMXNzUG1RdVA0Ym8yYXBaTkJVQlJDdEk3NzEzQ1FLMDhaczdyRU5kVzBsSHNxbEg4cExuOGRsQTZqT01Fd2YzMjc4ak5YUHB3WTBGRWI4UG1JQ1duNXUyY1A3RW9HZkxDRjlzVmtyYWV3R3JmSmZuSWRaMXA2S2F4dw",
         "CBMi1AFBVV95cUxOcnFqV01JLXBwUUhMUWlJaDVxYVJfQmJpaUM5OUNoSFFZSFJ1UUp1V2xLeU5jTkhkVk9CV2RGLURCbHplMXJ0TU43aUJxLW5Fa2g1OE5MTWZUTU1jZ1lPSnNuQ0wwSzV5Q1dibUZ3SndjQVFEM3B0aTlPWndRejg0SGNkdXF2ZEljYVRVeHk2UUp6TzJBQmpFQXcyUUd4WFppSGpJQVQ0T2Q4T0xKRE45NzhfY2l5MnJsLXAybnFhRTVQLWJDU1hQUjRfUW1SYTFfckNzag",
@@ -396,16 +395,16 @@
         "CBMieEFVX3lxTE5zejlCTWtVQ3JvX1FCeUw5cDIyV2RJaFAyaWx5VkpMMU5VVGZ6MGo4YVZJeFBOVk1lUFhGdXRDU2VENERNMFFTN0g3ak1qWWxHM0tXX05nNGJuZHlaQW5uZGpFeHRQRUdyOEsxdG50dEV2d0J2bjZoeA",
         "CBMi7AFBVV95cUxOREpteHlGd2w5NnY4bU9vYTFvUV9hdlJQYXlwRWxVVEItZ1JGdjBTVXdYenZUN0s1LU9UQ2NPdFh2VnYtaTVTaXJTV0YwM21sbVZaOUxlekdOeXY1UlhKa0Rqekh6bGRlc0tZSjhqRmdTcGROdkFBSXd1OFVaWU44S0dxejRDczNRdE8wLThvMjN4QkNNLUpMdTRkVUlIVTdXckM0a0dHS2s0T2lZRllvMVhSYm9WNnE2QXhUWmhQNG1TbVFfVW5NbUtQUE9VUTJtb05rU2l4V3NzMEhqRXNRQ3lQLVhTWG1DMGhaMdIB7AFBVV95cUxOREpteHlGd2w5NnY4bU9vYTFvUV9hdlJQYXlwRWxVVEItZ1JGdjBTVXdYenZUN0s1LU9UQ2NPdFh2VnYtaTVTaXJTV0YwM21sbVZaOUxlekdOeXY1UlhKa0Rqekh6bGRlc0tZSjhqRmdTcGROdkFBSXd1OFVaWU44S0dxejRDczNRdE8wLThvMjN4QkNNLUpMdTRkVUlIVTdXckM0a0dHS2s0T2lZRllvMVhSYm9WNnE2QXhUWmhQNG1TbVFfVW5NbUtQUE9VUTJtb05rU2l4V3NzMEhqRXNRQ3lQLVhTWG1DMGhaMQ",
         "CBMimAFBVV95cUxNTlgtSGprWk1LdDFnc1g0NEZQdnNXMzU5NVpRNV9UTUNUci1OLWRnb3ZIVXBfVC1DNzdnTTk5NS10YUtzSUhLNk1ndXJzdWNuRWV6YVhfclhmSjd5ZVV0cTVXX0tfUEhhNmpjbURJS0tfNkdnZ3ZVWXlPT3Q0bEEyTy1WZzFRejVlNDE2YmlXcFE0WkdpZG5RYw",
-        "CBMixwFBVV95cUxNaE1YS28ySGoxVFV1VUUxMEpsUDZxYWFCYmwxb1NLN09EM0p1SlRyV1o3RFg0UlRFUW80UW4zbEU1bmJkekJHQnluNmlCaE5nQWpuTXRrcllQUHFISWxNMEwwelI4eTZvZXo0NjVBTUJOS0lwLURMN2J0S292dkF1a0NVX18yd0l6OVFOSkNGUHlqUHBWc1lDQnZMeUd0NW53b1phNEl3NEVEQVVpOEVnT2pod3JhQjBpN1htUkdOZUhTbUhmRnBV"
+        "CBMixwFBVV95cUxNaE1YS28ySGoxVFV1VUUxMEpsUDZxYWFCYmwxb1NLN09EM0p1SlRyV1o3RFg0UlRFUW80UW4zbEU1bmJkekJHQnluNmlCaE5nQWpuTXRrcllQUHFISWxNMEwwelI4eTZvZXo0NjVBTUJOS0lwLURMN2J0S292dkF1a0NVX18yd0l6OVFOSkNGUHlqUHBWc1lDQnZMeUd0NW53b1phNEl3NEVEQVVpOEVnT2pod3JhQjBpN1htUkdOZUhTbUhmRnBV",
+        "CBMi-gFBVV95cUxOXzYxc3BpQlNTZk9uVmJEUHlyb2ZRTExkSHJhaXZuMmV2eFpXbExXZ1JuQjByRTVOaUEwYldORXdmbjRsd2lkLTdpSkJ3S2xfQkJVSHA4dW9RRzJHOXdfQzVyemN6Y21VTGxINTVGZW9FSFpyZnNJZXJzaHE5dmtCVjZIQTFiMFFoejlZVnAza2VWbE9qSTBhS3lqT0hydnpQWTRWV2xLeWpKODBVbGNhRUllcUUzYWt1MUpybXAwd0xmLV9SSzBlVkJrX0M2TUkwZ1MwSnRWWDRzVlNOR2U5MGJlaGJCNDRUSjZmVTc2cllHM0o4M0g5WHJR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-24T08:30:16.162Z",
-      "last_epoch": 1792829013000,
-      "etag": "\"0ae874b8d5828a2c0f1dd20975d99e1ea-gzip\"",
-      "last_modified": "Sat, 24 Oct 2026 08:15:11 GMT",
+      "last_fetched": "2026-10-24T15:06:07.570Z",
+      "last_epoch": 1792836823000,
+      "etag": "\"0c500da6a19d1821d9429945aafcf3a58-gzip\"",
+      "last_modified": "Sat, 24 Oct 2026 14:40:20 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/renewables/adb-signs-first-transaction-advisory-pact-in-india-to-mobilise-1-billion-for-renewable-energy-projects/articleshow/133872369.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-signs-pact-with-japans-jfe-steel-to-boost-ferritic-stainless-steel-manufacturing/articleshow/133871969.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/india-joins-us-led-global-initiative-to-shape-next-generation-6g-networks/articleshow/133902294.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-fines-icici-lombard-rs-1-crore-for-outsourcing-vendor-management-lapses/articleshow/133895158.cms",
@@ -704,11 +703,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/lava-md-sunil-raina-cfo-rajesh-sethi-exit-amid-turnaround/articleshow/135154356.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airlines-oppose-any-cuts-in-slots-at-mumbai-airport/articleshow/135153755.cms",
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/sagarmala-finance-corp-aims-for-rs-60205-cr-disbursal-by-2031/articleshow/135150371.cms",
-        "https://economictimes.indiatimes.com/industry/energy/power/kec-international-bags-2872-crore-pgcil-orders-for-765-kv-transmission-lines/articleshow/135165563.cms"
+        "https://economictimes.indiatimes.com/industry/energy/power/kec-international-bags-2872-crore-pgcil-orders-for-765-kv-transmission-lines/articleshow/135165563.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/adani-wind-bags-696-mw-turbine-orders-from-5-power-producers-targets-10-gw-capacity/articleshow/135167621.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-24T08:30:16.275Z",
+      "last_fetched": "2026-10-24T15:06:07.653Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

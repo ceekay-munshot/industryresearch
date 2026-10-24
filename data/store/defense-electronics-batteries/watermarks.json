@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-24T08:32:24.584Z",
+      "last_fetched": "2026-10-24T15:08:03.729Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-24T08:32:29.748Z",
+      "last_fetched": "2026-10-24T15:08:10.862Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-24T08:32:31.489Z",
-      "last_epoch": 1792774667000,
+      "last_fetched": "2026-10-24T15:08:12.723Z",
+      "last_epoch": 1792835696000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -254,14 +254,16 @@
         "CBMifEFVX3lxTE90YVo1ZHhkMXQwTEZxRTczREtOUHV4UXBkT1FqbmhjS3F2RncyZkpFMGphOUppTEItd2xvZ1Juc0lpbHZJazlvUjVxeTVVNjZ3dmFQTjlJUWJkZ2h5NWNqVW1FdFo0eDFjQkVPdlpVejV3dlJqbHM4TGc1Q00",
         "CBMi6wFBVV95cUxQV3hreHA1RWpyUzdHeGt0cmctZlk1YThsVDJHekdLS2hfVlp6Ym5tZ19RalAwa3VVdFBHUGs3QzFfbHBKcmhvcEVuQUt0dFBEcnVKaXlnRm1rNi1mOUFoZXlfd0lyU0hTQkFWcURHYkhnUFEyRWtRTDZWQ0RsMVdET2lMTVBxSzc5eVBxd2JkenkzM2w5UGJBTXFORF8tNHVySXJVRGJSUm1rTHhtbHU3N2gyN3Q1VUw4ckExTDU3eFd3QnlHazJOamZfQU91RVREX1p0UThOYW9WUGdGZjlIVDUtV2dvc2NOSGxN",
         "CBMi7AFBVV95cUxQcGxxS09fRnAyTnBNSDRHMUZocS1WN2hhUUQ5VmVtRHRkX0VVM0RDUXc1bURtNi1VcGdwUGU0aFZJbUFMMERHaGNLcGlyb0lGblVJWE5WQUpCNnV5WGgwUU9NRVM1UGprUFV5dDRHbXRLbGNWVzJFbDhkcUhLbDNPTEt3TFN3VlRQMkVXNVdmekpvQmgya0JLdzhZRGVqb2FDOExGeDhZMFZPZTNWWXB0Q3A3aWhPX1ZocEpiNl9OQUZ0LVZUbkFhV29UNkMzRkt1ZkFjY3ZmLThtTkgyQWExZDVXUl91aVFqUXlTetIB8gFBVV95cUxObEN0dmdNcWM1YVRhdzYweWMxQjQ3V3JtMkJMeVFhbWVoOUNWelFTZnYycVFoNmI3Ql90NkxUb3dMX1RNMzNaM1lqdXJ6ZU9URTlrYUVscUJTV2RYMm9RcWpEalFLQ295YlBqSXpXNnJyaXo5c1piRGxWUWZVWk1jM2UtRU5veTU2QmdXTlN2ZEo2MjZLaFJnaS0tNGVVX3h2elVFSzZkODhvS3JVUWNXYmE0N04xY2Zfb25TNEJRNUdtN29FWmw1bDA5X2l3VFhTRE1TWkRNaGY1T3JMUEVjdmNOTDZELUY3VHVDWXV5RDhHUQ",
-        "CBMieEFVX3lxTE02WUpwVkJOdENFVmVLbGpoNExRWm9IbktzVVYyMHRYSi1jN19yNk9xeUQ2dzlVdDhIYWhQNklSMkx2MFhPVk1CaGZzZEszX0dTR0Y1bmZ5akN6b0JocHFsaGVrM1BwdTE5b3JzanIzMlJ5SnVPY3cyOA"
+        "CBMieEFVX3lxTE02WUpwVkJOdENFVmVLbGpoNExRWm9IbktzVVYyMHRYSi1jN19yNk9xeUQ2dzlVdDhIYWhQNklSMkx2MFhPVk1CaGZzZEszX0dTR0Y1bmZ5akN6b0JocHFsaGVrM1BwdTE5b3JzanIzMlJ5SnVPY3cyOA",
+        "CBMihwFBVV95cUxNcVh3Y25YZFJKamM0a1BaOWFQcGxlakV3cUQxVldReXVOcFdGLXhLaUdsaDlwQXJqeE1GVFQ3UXFYRUxKMl9GWlhQRFhkNDNoSFRhZTFSajZ1alltWlNhZ214Vm1XdndFYzZ6eE9oMmRJVzlXVUx4eGtMc2d3b3l4Y1UxN0t0Rnc",
+        "CBMizwFBVV95cUxQZUczU1RYR2JIbVU0SmY0bmhBd3lWekJ3R21lTzZxcFR1S2R6Smc1MzZoU0N5WVBCR1NzTG9qM2hwc0hOQXA5X2F6RXBYQVk0aFVnV3ZLY2tYdVp1XzZscUFqbmJCcWcyY19KWEUycWpFUDdiTUpqYWJtQjM0cDBIYm1ENFI3SkhGVEF5T0xiWFhsVDJBcHZ3bDZGZ05Fb1ZicGlOVVpMczNXQzQwcm9XLVJpcERDWDljRFEzMFpPVmktYk8wODhsLTJ0WF9HSGPSAdQBQVVfeXFMTlJwSHdDb0tsa19tbkJ4X2dTZTJHTURKakw5RGJFcnRRcE4yTmhDaURTemFVX2pjN0ppMFIzampucVlLaE4tN09FdEJBVEgwTVZKeEtnNGJPbUJ6T0pDcnRGQjZtQW1DNjJkRWRDQ1RzcEo5dEFzUENwVDhzaF9iRFhJbmlGYTA4c0xwOXBNMkFWTk1ncHcwN2pacVpnZDJPdVFVMXBRVXZRYzVDdURKcFZBZUQydVhSSXdUcEdGZERGNWlXelE4cXBhMGxsQndhTE80aUo"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-24T08:32:31.593Z",
+      "last_fetched": "2026-10-24T15:08:12.804Z",
       "last_epoch": 1792715400000,
-      "etag": "\"0ae874b8d5828a2c0f1dd20975d99e1ea-gzip\"",
-      "last_modified": "Sat, 24 Oct 2026 08:15:11 GMT",
+      "etag": "\"0c500da6a19d1821d9429945aafcf3a58-gzip\"",
+      "last_modified": "Sat, 24 Oct 2026 14:40:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/china-proposes-export-controls-on-solar-manufacturing-technologies/articleshow/135024898.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/3500-jobs-for-chhattisgarh-bhoomipoojan-of-yash-fans-plant-in-nava-raipur-in-the-presence-of-cm-vishnu-deo-sai/articleshow/135012156.cms",
@@ -273,7 +275,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-24T08:32:31.690Z",
+      "last_fetched": "2026-10-24T15:08:12.912Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

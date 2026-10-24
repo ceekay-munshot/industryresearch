@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-24T08:30:37.571Z",
+      "last_fetched": "2026-10-24T15:07:13.317Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-24T08:30:45.683Z",
+      "last_fetched": "2026-10-24T15:07:21.567Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-24T08:30:46.859Z",
-      "last_epoch": 1792825741000,
+      "last_fetched": "2026-10-24T15:07:22.600Z",
+      "last_epoch": 1792846528000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -180,14 +180,15 @@
         "CBMioAFBVV95cUxQMi1jd0Q0OC00aFgwbDZpaEVHWGhkYWZROXlOblA0cEcxc053VGNaYndtVXlwTUI0NjdSWkpNS1Z5Qmh0QWxZYm96Nk1hcE5FVTc3NGtydmZaSDQ1Y1gyNVJyazVJQnBKVDB0TGNFa3Y2Q2hqQms1SC0wM1VRTGtYUGJkYUlmRUtFeDdzaU05VHJOYkFYSjdLMmphdmdDdmZf",
         "CBMi0wFBVV95cUxOVHVkQ2F0T2F2Z1o4WDJGbl9CcXE2ZVp0S3RNR1NPN1d1WXdWS2tCa251WjR1YWVMVGl1ZkJWcTBiWV9aeFJLdE5ZSGZDOUNMdzhIOS14eWF5QU9ReFFkRlVxdUtvanp1c21lNDJVWkVOdEl0TmY0Vkt1VGFWM3BJQTctWUpRcUR2YXpFOThlMHRERjdzZllPcTUzc0tCSkNnX1lwb2ltZkhWMkZMZG9jZzhyaVB6MzBkcHBwNmhpaDYwajRra18tYzJlQ3JWZy0yaW44",
         "CBMie0FVX3lxTE9sYTVqNmhTNjNKWkxzcjY5Y1JaNEMya0t1MUNXNEJmTWs3TFRzT0R0MExyVlVuVERmZDRMeDdKOEdqUVBDZWQ0S0RmM01pc3U1WTEtUC1kbGhQaGdiVzdpeEpybnF6bGhpRmI2LUJnbzY0Rlo0ZUlMc1dxbw",
-        "CBMiwgFBVV95cUxNOEhDME5SbXNpRVF4QV9UeXFqbG1oalowWk5nWS1JUGR6cmppRWc1YWdQdlo3R25yek1kQXREUVNEZ3pfbEdqSjJFTkptcklXVzRqTWV1Yk5GNzBCeTRoa2R6eEVnMC1tYjdoU2pxY3lSTG4tV25fUGpUSXBjZUdkM2JqUTVlZ21FaUhISC1ibEhVZnd1TUFmVy1jRkVaMXVERzNPQ2Y4aC1ZXzRVR3gwMHZaT0RmWDVteEhuWnJNbXFTQdIBxwFBVV95cUxNdXFqdW5rRnVNZTdXNi1felVIU1RVOFVYSFQ2azFzQ0VVMnpJSGM2QVljdkx5clJxQUhZaG9qTTZzTVN4MHdjdGUtVnpIN1FCWDVpUDBTblhxcllMWDhaYTNFR2E3UGJGbmNQWnBEcGhUN2FWNnJwem4ta3VWMk9XZTF1NS1rNnFDQWllbFljWjJOQmVxSndTTkJTdDZfSGRPRUc0MUQya3RnaElYSHJYZjctUVRualp2THVNQXlkcmZmZE4teWZR"
+        "CBMiwgFBVV95cUxNOEhDME5SbXNpRVF4QV9UeXFqbG1oalowWk5nWS1JUGR6cmppRWc1YWdQdlo3R25yek1kQXREUVNEZ3pfbEdqSjJFTkptcklXVzRqTWV1Yk5GNzBCeTRoa2R6eEVnMC1tYjdoU2pxY3lSTG4tV25fUGpUSXBjZUdkM2JqUTVlZ21FaUhISC1ibEhVZnd1TUFmVy1jRkVaMXVERzNPQ2Y4aC1ZXzRVR3gwMHZaT0RmWDVteEhuWnJNbXFTQdIBxwFBVV95cUxNdXFqdW5rRnVNZTdXNi1felVIU1RVOFVYSFQ2azFzQ0VVMnpJSGM2QVljdkx5clJxQUhZaG9qTTZzTVN4MHdjdGUtVnpIN1FCWDVpUDBTblhxcllMWDhaYTNFR2E3UGJGbmNQWnBEcGhUN2FWNnJwem4ta3VWMk9XZTF1NS1rNnFDQWllbFljWjJOQmVxSndTTkJTdDZfSGRPRUc0MUQya3RnaElYSHJYZjctUVRualp2THVNQXlkcmZmZE4teWZR",
+        "CBMie0FVX3lxTFBhY0xQYm5raTItSnFoTjdvcTdvUFNiMmNsT3RnaXo2c2ZMb2NSTkk5WkdQMU5RUGRIQnZZUndlNHNPS2tQOUNZZGZSZTVQc3lTQnBVVXFxZ0lGbGxBVWMxWTh1UDFKdndnUDk4dS1YakVNZFVOdUoyU0prQQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-24T08:30:46.911Z",
-      "last_epoch": 1792782486000,
-      "etag": "\"0ae874b8d5828a2c0f1dd20975d99e1ea-gzip\"",
-      "last_modified": "Sat, 24 Oct 2026 08:15:11 GMT",
+      "last_fetched": "2026-10-24T15:07:22.665Z",
+      "last_epoch": 1792836823000,
+      "etag": "\"0c500da6a19d1821d9429945aafcf3a58-gzip\"",
+      "last_modified": "Sat, 24 Oct 2026 14:40:20 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -271,11 +272,12 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-tightens-leverage-ratio-rules-keeps-minimum-capital-thresholds-unchanged/articleshow/135144889.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/indias-chip-path-is-clearly-laid-out-ashwini-vaishnaw-outlines-road-map-to-a-bigger-better-semiconductor-ecosystem/articleshow/135145639.cms",
         "https://economictimes.indiatimes.com/industry/renewables/vikram-solar-to-roll-out-first-cells-from-9-gw-tamil-nadu-facility-in-december-2026/articleshow/135138065.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/lava-md-sunil-raina-cfo-rajesh-sethi-exit-amid-turnaround/articleshow/135154356.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/lava-md-sunil-raina-cfo-rajesh-sethi-exit-amid-turnaround/articleshow/135154356.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/adani-wind-bags-696-mw-turbine-orders-from-5-power-producers-targets-10-gw-capacity/articleshow/135167621.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-24T08:30:46.965Z",
+      "last_fetched": "2026-10-24T15:07:22.699Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
