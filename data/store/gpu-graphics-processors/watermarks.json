@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-24T22:09:42.954Z",
+      "last_fetched": "2026-10-25T08:48:52.639Z",
       "last_epoch": 1791979831000,
       "etag": null,
       "last_modified": null,
@@ -16,19 +16,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-24T22:09:54.949Z",
+      "last_fetched": "2026-10-25T08:49:02.601Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-24T22:09:57.185Z",
-      "last_epoch": 1792849290000,
+      "last_fetched": "2026-10-25T08:49:04.845Z",
+      "last_epoch": 1792852202000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiswFBVV95cUxPSS03MkZ2Q1NrZ0NnMGE0VGotME5VMmpIaFphaUdBd2ZWYzhHdTU4Unhad2tmS2k0NXg1ZGY2NHhjX19nZzR0OVNmLTRtTE1jX3c3UGEyYmpIRlhnbmtJZUZ1T2JLcFM3ckRRcDE5ZnB5SEpnbk1vQWtQOUV6VDJnVjd4ZnBHN1QwTlBMMTlkVWdNR0FhU0Q3cE5oVlgyNlBfSmVZanRkanhqZ2tUTlFiX3BBbw",
         "CBMihgFBVV95cUxQX1BneXItUldrMWl0bTBfSUhtSjdoUlA0ck9LWUV3enJUaDZpQlNma3ZMRnhOVm0yNmxadnVBemtYYlZXeF90M2hDcE5KR1oyeDd4XzY0SWs3dUFDalZrNTBLczNhbDFTTVNaVWZaV1J2LWdUQWxSVzQ4R3pnekxpVFJ4Tkc5UQ",
         "CBMivgFBVV95cUxNc1Jxd19qSU5hTnNhMjBKQjB1aXd6OGFjUkxmOUZSNHVZRVMtTzdhZTRVVGNwTUpjNGJhUTRVaGpROHdXUTZERld1UHdRdW1YYU5PVF94XzFGZ2FRcGdfeTctRFRzOEVqMjl2TVl4QVM0Z05VRFA3QUN2N3ViNXpVV3NNNzRzd1JOcG1zOW02TVp4Y01jN0dHTG9BMFBTbXpoOHdpN3Z0Tk9HWmFiMUxvc2tuZUxWTFpYMHd1eU1B",
         "CBMirAFBVV95cUxQQW9IX3h3YzRRRWZrX1VNVk02dkd6UDlUUFlDMjdfU1dwUTJEWXhHRkpCZ2EwVXZqLXJqQmJfeHdaU1VLOWpOYlU3Wi1YNmljekVRcHRsZ0dMOHNrTzM3dGlRc1dRNFBhTGlrVzFJcGxtSEVuRjVfeFQzTy1WOFRHMGVROFBIQ2R3LTZkYlVzVnMwWFVCQk9RV1B1emhkRTljS3BsTW53akZwNFRx",
@@ -327,14 +326,15 @@
         "CBMitgFBVV95cUxPN1kwNGVDOVM2RzM1UHRXSGxMb2t0bVR5U3F2ektqUGFGSDFwcEx4MzVsUVJWNjZobzhHSWoydXFZSVc0Y2ZuVmtGaWZ4UlpIelVnWlRGeF9fSllBSXlDNDd2U0NLenF4aVlGRy1MQWZ2bHVlTWVROUh6cVdrT2ZZU1E4N1ZaS2MxZEIyaG5QeXBEVUx0X1dLZmd5bk01RXVtc0stTG5oT1RJNk1tQ2lndi1jYV85QdIBuwFBVV95cUxQWkFsODZMbW1ZMjhwOXdUcHFSZ01La3kteUFsVXBPVWV1RnRqVzRmLXZZOXZpWklDTk52T3k4ZGkwbHduZHJkdW9rYjhEbXBPLWFiZURiNmt1UUdyaUpqdS1kS1lXTjRJWnA2N0Z4UlR3NnJhUkNyZ3RYMGF4VTRfWDg3emVCWEZ5R1dYcFk3RXc3RjRqQXNhMG82MlR4d2RaNFU2OUNxQmVJcU9OOTNyaXluSjI0N1d6WFg4",
         "CBMiigFBVV95cUxNTjhCa25vWUdaNF85N2JFb2EzNWRta2J0bWlleTNRNHB3ME9TQ0FFU0VtNnd2VEFZZFFzT0xNZkF4NC1naUV5dGtRWFp0TzJxN3FxMURVV0d6bklCejRsSW9kY3dCVl92anBlblZmV2FfTjFXVEpMM3lrNS1ja0hhdmprOU10MjB6a2c",
         "CBMixwFBVV95cUxPN1YxeUZBekxBQ1dVM0U3ajNyRkE3OV9zWjdOMUtMNzA3SXBTOHZJVDM5cE9CdGZqZU13S0o5QXFDQjhwc1hSME9odDhLNDRjSXVQNkN3VFhuTGlCc2lwUUNOYUdBazQxVldTOUJ0T3hMSWp3SDYwVFllejJpS2VGbnZlR3locGZUQUJLcHRxZnczTVdxM1EzUjVxazFoRndIVGQzYnpKcUxpNGtZSHRMWVJnUXJGR3cwV0t5SnlRNV9QU0ctUHRn0gHMAUFVX3lxTE1ITExueDZGN2JIUkdJdXBuVHJvTTRBZ0lBa2NvendFV2ozcldIekhrNFFfeGZSeDFJZVgwRU1uVWtSZzctTExXdFdXSDM2SFdQSFdnOEpEMkp0N3I1Z05jYVVwa1AzY00zYmtrZElRRXFsS3VaTzJYekpWcEpwZnBYSUhUUW1ySFlSdnJvcHpPTVdEazNtZFp6b2RrX21LRm1jd0pRMUNibDZlSVdYSGhLd3FDMGlEVDIzMGlJU3hRTFl5N2RoUUhYZ24zYQ",
-        "CBMiqAFBVV95cUxPWFdUYUlBdWRnZmxoeGs3MDZBY19zVk5mYklhemFLSVZwY1VVNkVlaTRZUy1yS2Y2bTRyazZraXZJcnFYb3VNWUx2aWhENUJYRHJScnZrT0FMSkx3N0ppTFBhMFJVaXEtNmNFekQ4QkFRU2I3dC1ib01kS1dZamY3cmh0SEZ6aExKVkxHTnJ5SFdzYnFGNGhHVlFHZUxCRzlkQW55aUN3YXI"
+        "CBMiqAFBVV95cUxPWFdUYUlBdWRnZmxoeGs3MDZBY19zVk5mYklhemFLSVZwY1VVNkVlaTRZUy1yS2Y2bTRyazZraXZJcnFYb3VNWUx2aWhENUJYRHJScnZrT0FMSkx3N0ppTFBhMFJVaXEtNmNFekQ4QkFRU2I3dC1ib01kS1dZamY3cmh0SEZ6aExKVkxHTnJ5SFdzYnFGNGhHVlFHZUxCRzlkQW55aUN3YXI",
+        "CBMiugFBVV95cUxNbUZXZ0JzckR5ZHE5Qnl4bkgzVlhpWWFIUU5IbFNSenNva0EwcEdDbzQxcEx2ckFOZ2RMclF2eVBGVVcyQnQtOVFYRG1WMzFtUV8td2pCMkVjMEtfeVlaR2UwV0ZEUXBsTllGX1VWYnVtaGNtR1hfODV5UGFIYlhNaVVDY3l0aUJJRHVjWWhPZmVqaFZtdnZ4UXJLNXl5UHpYcWp2bEt2dmxxalVNREt3Zl84Sng1d0FQNmc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-24T22:09:57.209Z",
-      "last_epoch": 1792769926000,
-      "etag": "\"0708955c21a97797eb43d7aac2c763969-gzip\"",
-      "last_modified": "Sat, 24 Oct 2026 21:37:55 GMT",
+      "last_fetched": "2026-10-25T08:49:04.893Z",
+      "last_epoch": 1792915532000,
+      "etag": "\"05603a2c31ff8321b1c53db8dec1fb1d1-gzip\"",
+      "last_modified": "Sun, 25 Oct 2026 08:36:06 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -420,11 +420,14 @@
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/marco-rubio-tours-jamnagar-as-washington-courts-reliances-refining-muscle/articleshow/135091948.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/artificial-intelligence-private-equity-deals-pe-investment-deloitte-profit-margins-india-big-money-investors-face-a-new-wild-card/articleshow/135108222.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/from-continuous-data-to-trusted-health-intelligence-what-abu-dhabi-and-india-can-learn-from-each-other-about-predictive-health/articleshow/135100070.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-alert-about-ai-driven-cyber-risks-banks-taking-steps-to-plug-vulnerabilities-governor/articleshow/135149829.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-alert-about-ai-driven-cyber-risks-banks-taking-steps-to-plug-vulnerabilities-governor/articleshow/135149829.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/bits-pilani-revamps-ug-curriculum-to-prepare-students-for-ai-era-vice-chancellor/articleshow/135186338.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/ncert-rolls-out-20-hour-ai-computational-thinking-module-for-classes-9-12/articleshow/135185294.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/global-asset-management-industry-to-expand-through-2030-profitability-remains-a-challenge-morgan-stanley/articleshow/135184618.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-24T22:09:57.250Z",
+      "last_fetched": "2026-10-25T08:49:04.943Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
