@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-26T09:32:37.094Z",
+      "last_fetched": "2026-10-26T17:55:49.766Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-26T09:33:13.312Z",
+      "last_fetched": "2026-10-26T17:56:26.601Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-26T09:33:14.243Z",
-      "last_epoch": 1792994400000,
+      "last_fetched": "2026-10-26T17:56:27.666Z",
+      "last_epoch": 1793021044000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -191,14 +191,18 @@
         "CBMiwgFBVV95cUxPeTBtWjJoRndMcm0tYmI4N1kxZXRSdlhFOXY3LUExZXQ1QS1SaFdfV3RyenBiRkxrbTBvN2FiN0xid1IweVo4X2htdmNNS3RWZ28zMmNrcHhKNTFIQ2RCdmNSVjdOTlFIRFN1TE9PczJTR3JHVmh2QXdqX0lWazRkVjYyWWJEOFZPQXJwb1BQLVJicGc4Ym5ITUV5dEZZbDJCN3RUSGxPMFBvclIzNHZvVk5ZUGt6VVZJNWFCUmRHNG8tQdIB0gFBVV95cUxNMS1fOTVYVFMzd3FkbjNyT0VYQWZfVjFTRlU2aUhzSHdhOXJVdExVVHZTQTlidWJRODBWaE9VLUxsV25aZTRDUVI1azduYWZsbFBucjBTS2RoMktxQVJIRzBuaWhGTzY0Y1QwYURKaGJCY1VZWmU2UUNVd0hiNDd3SWhsZGJQd1pMRHRweWk5ZjNtLW9OdUd2RmFOQURwUVRNQkZZcEJ0dlJoRHBFWUFBOFREVXVaQk1QTjJHTXBNdUI5aHBGVmpCTTgtMjktOEtlNnc",
         "CBMiyAFBVV95cUxQazlkemhvUDhxTzZCRlkzcGNranRTVFkxeWwxWlN2WjR5N3NnakZHUEVtMWtvVmRUd0FVQktseEx2UHBNdU5XakhVTmZMY0tMclhOWlZPQVhkYy0wbnRDV2ZkdlpDMlIza1MydUUtc21JTldzTXk1N2ZNVm1kZ3BUMXRmTHR3QW9YblQteGo0bVUzMnpOTW9YNGxqYmwxcFBrSk5xZzR6SnFXMVBYUVI3c1R4TjVqWjRELU5wOTltMTBOSGdjcEpSbw",
         "CBMikwFBVV95cUxQVHJ3cm9KZWJIbHh6Sm5tUzVvRXhHQU90V2dwNXNqaEktR3RWV0paZnZ1Uzh4N2xOZXZQa0ZlYW8zSF9IbU9STEVzY1hqX1hFLTJZZzVzSGJmOXdjaGY2Z3ZVZnloenVXUk9JaDFxSzhJcmNiYmtJaWpHYUNFakgyWVdabV92cmpVY3BlbXlPbi1BbFk",
-        "CBMingFBVV95cUxNelE3cXFsd3ZaQ05rQzQ2dWx0R0MyU1ZiNmpOYXk5VGVsTkZBekw5VDhaeTlXeUZrRUdfWXpvREpZNmZVTjVnc2IxQ1pNUml5anZJWFBodEpJTVYwMHJfUGl0azRmcjgyNW5semNBM1VjVlo4NmVEM2gxS0N1QVVldFZpekVPLWs3c21PaVFQOFNDVGNMb1BNR3FuUGpHUdIBngFBVV95cUxNelE3cXFsd3ZaQ05rQzQ2dWx0R0MyU1ZiNmpOYXk5VGVsTkZBekw5VDhaeTlXeUZrRUdfWXpvREpZNmZVTjVnc2IxQ1pNUml5anZJWFBodEpJTVYwMHJfUGl0azRmcjgyNW5semNBM1VjVlo4NmVEM2gxS0N1QVVldFZpekVPLWs3c21PaVFQOFNDVGNMb1BNR3FuUGpHUQ"
+        "CBMingFBVV95cUxNelE3cXFsd3ZaQ05rQzQ2dWx0R0MyU1ZiNmpOYXk5VGVsTkZBekw5VDhaeTlXeUZrRUdfWXpvREpZNmZVTjVnc2IxQ1pNUml5anZJWFBodEpJTVYwMHJfUGl0azRmcjgyNW5semNBM1VjVlo4NmVEM2gxS0N1QVVldFZpekVPLWs3c21PaVFQOFNDVGNMb1BNR3FuUGpHUdIBngFBVV95cUxNelE3cXFsd3ZaQ05rQzQ2dWx0R0MyU1ZiNmpOYXk5VGVsTkZBekw5VDhaeTlXeUZrRUdfWXpvREpZNmZVTjVnc2IxQ1pNUml5anZJWFBodEpJTVYwMHJfUGl0azRmcjgyNW5semNBM1VjVlo4NmVEM2gxS0N1QVVldFZpekVPLWs3c21PaVFQOFNDVGNMb1BNR3FuUGpHUQ",
+        "CBMi3wFBVV95cUxPUnFJMXVLUF9pQld4dzdpNnJEdVRYd1BoQklwaEJXLS1wYTktS3laRUxsOExPRzRYZ09aOWdKOElYRmh1dkJzall4WFV5Sk9rTEJnajdtX2p5R25XUHo3aUhPYnVSMTNqV1lvYWhvZXhRbmhqYzVhS3hlWHlnWGRJeXhWWXFjNGRTOU5hWlc2ZmhhWUcwVHJkVWZmWW5KamVyOUdMWXQzMEtLSUUtTkc0dTNROFRhaDhfdUVhem5QR0x5SkM2WG5IMi1jS0NYelk3TDBVNkhCQ3AtSmxOaDk0",
+        "CBMimwFBVV95cUxPQlpyNy1QdjltRDZDdDFPaFVSZ2lKZWRGQjdiV1AzT2hzVzBrTms4MmQxYzl3WnZENlNHdlB3ckVJTnVNcXdqREwyT19McUVNMG1KdjdOVzZXRTdoTlJCU0xKRW9EUVJwbWJ1VndDNUFDOWtIdHhZSUJCR0xwVWhUbGZkWDlHeXItNHJVUVNIcnV4MUVYcldnU3BqOA",
+        "CBMitgFBVV95cUxORXhRQVNjZ2M4bWxKc0FVc01aeTRxM09TWThZbU1FekZKMV9VZmN2b1Z0d1AxYVhpLW1rR1lnQzFjLWstdDBMUU53Y3g3VU02bjEzRW96dklySFhITmJTX05CV0J1Qjd3VlFSLXA5d0hGSmZEbmlDWnRhbnVGWENQVDlKVFNzdHZWNDVURUNwUk9ieXFINWE2LUpFeW0zVFhqaGtVVHR0aUNQZmk4VEVPZHZpSGF5UQ",
+        "CBMiwgFBVV95cUxNVjB1a1VvRUNXRWhJLUtLR1MwdUhDekJmaEtZdDFUOTJoSU4wUXhjZTQ3V3NtVzgtUnpJU0R2cGhjWk5VOG1SbGFUVnE2WFRaS0dGYzFJNnFiOWk5MktEMzRfUVN5eXFhbzYwZGltM0dtai15cWRGcHRiRmVoZTFxVVhTSjNuV2RYTWpwYUpjZThQNTVnelduamw1OTctQWt6emhEeWdSMmxma1dxRW5jOWQ2NloxdnItT3lXbG1NNzEyQQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-26T09:33:14.346Z",
-      "last_epoch": 1793004763000,
-      "etag": "\"0eb261835f78f078093109f668c302d38-gzip\"",
-      "last_modified": "Mon, 26 Oct 2026 09:13:01 GMT",
+      "last_fetched": "2026-10-26T17:56:27.695Z",
+      "last_epoch": 1793032711000,
+      "etag": "\"01c42c8093fe8987e76c1f46d1c7e0d8d-gzip\"",
+      "last_modified": "Mon, 26 Oct 2026 17:46:35 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -288,11 +292,15 @@
         "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/pm-modi-inaugurates-arvinds-garment-manufacturing-facility-in-varanasi/articleshow/135185818.cms",
         "https://economictimes.indiatimes.com/industry/renewables/microtek-invests-over-rs-400-cr-to-accelerate-solar-business-growth/articleshow/135188393.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/china-smartphones-oppo-vivo-xiaomi-indian-phones-ai-lava-missed-call-for-china-is-a-loud-wake-up-call-for-desi-companies/articleshow/135207190.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-reports-650-crore-india-software-revenue-in-fy26/articleshow/135197101.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-reports-650-crore-india-software-revenue-in-fy26/articleshow/135197101.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/korea-marine-equipment-association-to-open-india-office-coming-friday-shipping-ministry/articleshow/135215673.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-limited-becomes-asias-first-company-to-secure-multiple-us-fda-registrations-for-200-surgical-and-hygiene-products-us-exports-to-begin-in-december/articleshow/135209031.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/hyundai-motor-india-to-hike-production-capacity-to-1-14-mn-units-by-2030boost-localisation/articleshow/135208956.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/indias-textile-industry-targets-350-billion-by-2030-as-exports-rebound-costs-rise-report/articleshow/135207872.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-26T09:33:14.416Z",
+      "last_fetched": "2026-10-26T17:56:27.808Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

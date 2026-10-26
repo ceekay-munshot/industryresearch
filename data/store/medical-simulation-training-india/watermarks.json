@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-26T09:29:18.649Z",
+      "last_fetched": "2026-10-26T17:52:13.454Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-26T09:29:46.721Z",
+      "last_fetched": "2026-10-26T17:52:33.889Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-26T09:29:47.648Z",
-      "last_epoch": 1792879713000,
+      "last_fetched": "2026-10-26T17:52:35.149Z",
+      "last_epoch": 1793009760000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -201,14 +201,15 @@
         "CBMidEFVX3lxTE9BbUVUUFZEZkpPUVNDOG5FRjRPNU1xeWM0ZHRHSjFiWHcxRXVaRXVrQWJ2N1lqZU9BbWFGVUhwZHZodWpFSk1ZV2FIOFd6Q0lMaHdyX2FmOU5oT3V5ZmZOMURITjY1Y05oRGdFU2VPLW0tX0o4",
         "CBMilgFBVV95cUxQNzhjM0FTeGVnLUlXekdPOHFHLU1aZ2RkTDF5S2M3d0diR05lWjd6ZXhFUVhCLTFEcGlaaUpnc1VMMDQyb0ZEa0VvdXZza0pMMkl5dTZJNV9hWnFmSHYxRFlrRFI4M3dyeFhUZE9rZHd5UzdZVHVKZUFWdTM2ZVVBa3dWSkEzVE16Rm1GcXVuNWZaQTR6SHc",
         "CBMieEFVX3lxTE13dWdvRUI4R0l5UDRTV3ZPSnRGaThzUnpQWjNTUWk0RzdZSHByQVprSm0td2xJMUdOaVpxTHdVU2lrei1RdlVSeHA3Sm9HVWdyWk5JcVlXT0s2N1pseDNqNG80a2hpY3lHLVZ2Tmt1TnN4OVJSdHlQSQ",
-        "CBMiUEFVX3lxTE10WW16cWNqa1d6QVpBbm1iLWtyWmNWSUF1TndPS0R4aEh5enlYMUZULV8tZ1VjZzFEOVdPdmJYUEo3eDNLY256RWg1TEY5YUF2"
+        "CBMiUEFVX3lxTE10WW16cWNqa1d6QVpBbm1iLWtyWmNWSUF1TndPS0R4aEh5enlYMUZULV8tZ1VjZzFEOVdPdmJYUEo3eDNLY256RWg1TEY5YUF2",
+        "CBMiuwFBVV95cUxQeWJiR1ZJTGpkSDh0RW5RTEZuSU5NTXA3VmpEbV82MUk3ZU8tcEFxcDJxM0VSNTdocS1oeVVOQm5tczhvLUJsX1FWVTFSQjgzLTcwSXlhRF96S0dKSG9HTWFDUUo4T0YweG9mdnVxSnRWb2tYS1Z5d2pyZ0FQSTRGTDlFZkxSYkRtVDVNQ2F2RmJZd2drdVdvUVpzanhSMFNfQi1fSExVRGo4dU51Rllzd0lJbVJQMG5Ndldr"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-26T09:29:47.758Z",
-      "last_epoch": 1792945619000,
-      "etag": "\"0eb261835f78f078093109f668c302d38-gzip\"",
-      "last_modified": "Mon, 26 Oct 2026 09:13:01 GMT",
+      "last_fetched": "2026-10-26T17:52:35.216Z",
+      "last_epoch": 1793035639000,
+      "etag": "\"01c42c8093fe8987e76c1f46d1c7e0d8d-gzip\"",
+      "last_modified": "Mon, 26 Oct 2026 17:46:35 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -353,11 +354,13 @@
         "https://economictimes.indiatimes.com/industry/services/education/ncert-rolls-out-20-hour-ai-computational-thinking-module-for-classes-9-12/articleshow/135185294.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/pm-modi-to-inaugurate-rbis-data-centre-in-bhubaneswar/articleshow/135183099.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/wars-now-target-economies-pm-modi-warns-of-cyber-terrorists-calls-for-stronger-banking-security/articleshow/135192008.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-data-centre-to-strengthen-payment-systems-cyber-resilience/articleshow/135194472.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-data-centre-to-strengthen-payment-systems-cyber-resilience/articleshow/135194472.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-opens-cyber-coe-announces-training-for-1-8-lakh-staff-in-cybersecurity/articleshow/135216394.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/sakar-healthcare-posts-rs-11-cr-profit-in-q2/articleshow/135212224.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-26T09:29:47.808Z",
+      "last_fetched": "2026-10-26T17:52:35.617Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

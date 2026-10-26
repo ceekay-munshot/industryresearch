@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-26T09:35:55.158Z",
+      "last_fetched": "2026-10-26T17:59:23.221Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-26T09:36:28.868Z",
+      "last_fetched": "2026-10-26T17:59:53.939Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-26T09:36:30.368Z",
-      "last_epoch": 1793003686000,
+      "last_fetched": "2026-10-26T17:59:55.775Z",
+      "last_epoch": 1793032596000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -267,14 +267,18 @@
         "CBMisAFBVV95cUxNQmhla2ozRldwSGFodFNJdzNMcFBFUTFBN2h6cDF1VlhTVHBfSTdOX19NNDQ4dnJiY1UwWDRrTmhjWlVIMkVRTjM0NXUtbUhIOGM3dFhVWDBjUkNaN1pzTEljWkY0eXFiZGJ2aTNjQjZhMEFRZkxQbVhSaXA3TjVXVjlhQWF5VUswd0JMYy1naVdRWkQycUJrRXhpckFZQ3p6SXpvN2pidWxOb3h4SmdTSQ",
         "CBMi-AFBVV95cUxNTS1peTJfaXNPeW5FYU9GaWVpaVZQZ0xVN25uMkZuMGFTdlVhRnpQZlJNdzFaV0RZbjhPZHpCTG16UTh6dU9fYU5EX2N4ODZHZFhGanFQZWdMM0p2YzI4VHM4ZXEwQXR4NTJ6U0JnRE96M19wT1ZZSGxSMHIyVWNLSHVRVnJtTDFFVTdKU3A2ajJESFE0MjJid2tjOGNWaWRVM3BFY2UyMndzcHVuYktwTjlUdU41ejdkdWxzV2FveTk2N0ctalVMTlpFUlJaSmtXdURnY0RaUkdWa1N4bGk2ZUtDYUM4dTJkZ0ZCQ3Y5U1FFdXNkNy1MMdIB_gFBVV95cUxPMC1aZ3B2T2JhMkdKSmtlT3VPVjZlSmotX2Z3bUZXdUNUSm80aU9FdXhHaGZDZk52dUc3aVBxUUhIN2JFUnVkaFd5c0RKTEMxdDZZZzdwMnd1TzdCa1pSYnR1WW1rb1F2bWpDSFEwbjFjSlkyY3JGT0dJLVVKbm1lRjJtbXlUSEI0QkpQX0FKOFZ4UkhvejRpSTdfeGVYR1VXXzlLSmpUVDQ4dWxENXpzZm5kSklOaG1GY1pKRU1EN2VjajZtMTBHYVVqeWZ6cWJIS1dUbklFTWZ6eTBGTVVfRW5GNm1qRzdhUjdIazZCTG1laE9pRHh4SGJHa3F4UQ",
         "CBMiswFBVV95cUxNM1A4VEtPWUFsYzZFbURhTTNkVnlDbG93ZHVYbTd1OVN0WUF3YmJpVllTX1hzcWFZMGNCOHlhNUY2QS0zb3NOZDVWN0RKR0hqSTdOV21QR3VTUFhGNDNFYVpsTmktYVpYVjRTOElUT3dBdjhSLWVtV0dwaXlvZHR3Z0lTbzIxaTBrTTVsYVlUYlhMSndVX3RSeHl0YklEQ0JRQ2hXYzZFVTB0dHFTeE52MUZmWQ",
-        "CBMisAFBVV95cUxPR1ZnVGk3emZmbFhnLURMcjN3ay1KaEd1QktqTVJaRk50X05OZG1EQzFXLU1TRDZWV3c1SU1zY0twbVlPbEdQWm93LUpuelhGNTY4eW11d1lsRnFaV0FhOUM5ZlQzRnNXXzkyNkF6WjFoZGdFenhqUVhOVmtOS1BqQ3RuNG02bnJwTVN0QzI1YllJcnZ1OWxyUjQ0WVU0Z3QwdmpFYk5jZU9ZOGl6WkMxZ9IBtwFBVV95cUxNTjNUTnU1WUpnZWowS2VodkFzNWVvSmFqZ1hOUGNrTUc3bkZSMUNncmR2UktsRGRwVWU0cGhnSjkwLVZlN2d3NDV2eVI1Mm1iSGdMYVlkTHNQMUFFdzJzeGtueHllYW9KZ0JwX0ptaklscVl0c2ROa2tPeXZHLTlMYVpDOGFIWjl6M2dzZm9CWGt2UXIzTFFLWEFSUXdtZ1NncFdQa0Q3bUF3SXplazJ1ZEI5d3otYms"
+        "CBMisAFBVV95cUxPR1ZnVGk3emZmbFhnLURMcjN3ay1KaEd1QktqTVJaRk50X05OZG1EQzFXLU1TRDZWV3c1SU1zY0twbVlPbEdQWm93LUpuelhGNTY4eW11d1lsRnFaV0FhOUM5ZlQzRnNXXzkyNkF6WjFoZGdFenhqUVhOVmtOS1BqQ3RuNG02bnJwTVN0QzI1YllJcnZ1OWxyUjQ0WVU0Z3QwdmpFYk5jZU9ZOGl6WkMxZ9IBtwFBVV95cUxNTjNUTnU1WUpnZWowS2VodkFzNWVvSmFqZ1hOUGNrTUc3bkZSMUNncmR2UktsRGRwVWU0cGhnSjkwLVZlN2d3NDV2eVI1Mm1iSGdMYVlkTHNQMUFFdzJzeGtueHllYW9KZ0JwX0ptaklscVl0c2ROa2tPeXZHLTlMYVpDOGFIWjl6M2dzZm9CWGt2UXIzTFFLWEFSUXdtZ1NncFdQa0Q3bUF3SXplazJ1ZEI5d3otYms",
+        "CBMiywFBVV95cUxOQlJFWTFEY2lqa3NqdlQ0T0JkM3paYXhwMmN1WUM2Q0k5QmJPT25CV1hMbi1qZndYS0JielpDdm52TDVhMzctU1FFS1lvR0ZpX1M3aVVQdDhzbXVfUkE1aGdDakstbTBlb0ViTThRcmVyREk2RzJvUjk5R1IzU2didDhYdVpBajBXYVdLd0tCbXE0Tko5ZDdWc2cybGJFSGR1aUV0ODMyajZLVFk3d0tqQjhXd1VVNnlyUlNJOFByU1Q4NVI1YkVXMXNzQdIBywFBVV95cUxOQlJFWTFEY2lqa3NqdlQ0T0JkM3paYXhwMmN1WUM2Q0k5QmJPT25CV1hMbi1qZndYS0JielpDdm52TDVhMzctU1FFS1lvR0ZpX1M3aVVQdDhzbXVfUkE1aGdDakstbTBlb0ViTThRcmVyREk2RzJvUjk5R1IzU2didDhYdVpBajBXYVdLd0tCbXE0Tko5ZDdWc2cybGJFSGR1aUV0ODMyajZLVFk3d0tqQjhXd1VVNnlyUlNJOFByU1Q4NVI1YkVXMXNzQQ",
+        "CBMipwFBVV95cUxOczBtWDg4LVZJVDNwM3lRM3FkVzJHcmh5ekl2UzhydlptY1ZLQUtEVExkX1BvLVpyRWN5RzJaZEpOa1dNR0U4X2dpdU9MWnBnbnROLXZLZGViT29tYWhBX0Nla1FJTkJZQnRYOVBWVWFxVEZEYjN4eHBDVWdVTTh4NUEwYnRtekpZQ1M0eTNtd3FCbjNKaGNsUThyUnJuUlVJRGlkMGhjdw",
+        "CBMisAFBVV95cUxNWkJtbEdkRVRlcldkdUs1SHVfZ1RQWm1jRDFUd3FxVmNVLUJYZWRQNnFUUEJRVXRJYlNJdjUyYTUxSmd6cldDQ3VaaEhpY3pOeFRYUnZXUGhrRTVBQVllSDNjODlGZVI0WTdReEx6NVNXcUJSaWNmbTAta2ZjTHpYSVN0OG42YWkyZ2ctbHJ0X3htQ1U0MnhWdjIzSGdxbVFVLXJnVWJjWnRobFJaZzd2UdIBtgFBVV95cUxOYktGd0RRN0RLSEpRaWpud2J4a1lFcG9FcF82b0pVX3laZ3pqaExLNWw2dXJBVGx3b2dOVnREdFBvdjhxdGdoam1QN29TaF9aMUJkTHJWMDJCN2RRUWh5LS1qMGQ1ckRleHYzQmJydUtkYlpscko4eFNmMWQ3V2hseGRrZ2ZvSEtXSWREazl3cHpyMHRqem1fTVpfTWpnajRQMW44RjZjN1B4aU92MTNXVjdJMHBVQQ",
+        "CBMiZ0FVX3lxTE1Eb2FvLVY3bWREWjJOc00wZkNGeW5ZYjl1cDc0amY0azcwYWpHZUtnUHYxUGZsTUh4MGhGSERHNVV5WjBaa09LbllZanM3YVJTX2hxMEx1X3M5b0JDUE5adWo2M0dvNEU"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-26T09:36:30.466Z",
+      "last_fetched": "2026-10-26T17:59:55.799Z",
       "last_epoch": 1792715400000,
-      "etag": "\"06e60287f5aeec6e57e8a9db8c9182a31-gzip\"",
-      "last_modified": "Mon, 26 Oct 2026 09:29:03 GMT",
+      "etag": "\"01c42c8093fe8987e76c1f46d1c7e0d8d-gzip\"",
+      "last_modified": "Mon, 26 Oct 2026 17:46:35 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/china-proposes-export-controls-on-solar-manufacturing-technologies/articleshow/135024898.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/3500-jobs-for-chhattisgarh-bhoomipoojan-of-yash-fans-plant-in-nava-raipur-in-the-presence-of-cm-vishnu-deo-sai/articleshow/135012156.cms",
@@ -286,7 +290,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-26T09:36:30.578Z",
+      "last_fetched": "2026-10-26T17:59:55.864Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
