@@ -1,34 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-25T22:12:28.062Z",
+      "last_fetched": "2026-10-26T09:30:06.521Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-25T22:13:02.546Z",
+      "last_fetched": "2026-10-26T09:30:40.999Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-25T22:13:04.016Z",
-      "last_epoch": 1792898138000,
+      "last_fetched": "2026-10-26T09:30:42.120Z",
+      "last_epoch": 1793003221000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMigAFBVV95cUxPbHBIRkVXTzlqT2VoeGs1a3c5ZnpqdEt3ZXNqR2pvMURTSkZNamwzZEJyOTA0OW1LUkZueEs3NERROEVCdzdRZVpPTFp4bzJaSUIySHk0WExVaHZhUkl5VVg2UXppdWJSNEdQSGpNZkNaTU5DUEhMbU5JeVYxQ2NlUg",
-        "CBMi1wFBVV95cUxOTFo4OEFHdlZ0NHVydThlLUpocEZmNEtpcUpYNE1QN0RQd3VkNlR0bWdNa3JkeFNDMHZrLUQ1bGdtM3RlSDk4dE9QcFNoSzJBdFdTX1lHQ3lLUHlCTGtMOHRaOV84X3luQjJIUWFNWmZyYkx6MWQ1am5GTzJJakl6bERxNWJoQVRqcjVsMXhHdENnMmVKY0JaYk12RnlreTZsbVJJZkV6bExMdVEtdDY1aVAtb3k4R044SVRLTU15Qm0tSEVfQmxXalpaeDgyeG9kMWNYT2lyTdIB3wFBVV95cUxPZ3ZybWNhSXlqMENLOVIzV01FanNOY2ZfNXVMSkM4akh5YjZXcEszdEJ1Vm9KcllFbEFfSXMzTzJjbjBoV1c0T2lXZktEOXRIZTh4bUJrcjFwUHl0aUhmb1N0RnVVbWI3a0pkd3o1eXVCemFhTlc3WjRVdjA3UFJMRzQzdll3RllJc1BaUkdPYUpXN2FDSFVRclVFcHFUbnNtTFJtNmwzOS1BRFhZMW9JTm5TTXBvT2dWajhSMk5Pcnc2S05TdEZucjA0TDkyZk1aUmJON2hISlNlbzM4TXFv",
-        "CBMi1gFBVV95cUxOTFBnbHNGTkdSR3dPaWowUi1yTWcyRTB1WW1CbUgyeVNPdi13aGhDQlpvUTVlVEF5VFhxQzhQMEVIOFNnbHBVWUFDdlNidGN4MjMxNFJZRHZ4MHNfX3VzSnBfVEN6MEpfYXNmZTJlM0VKV1E3MW9ScDV4b1dvdlZnWEJPM2llV1c3WG1zZEluUHdwSEttTWNLOUJva1dxZjh3Zlg0Q3VVR282UW05aHNlMXJ6cGlhUGU4VmR5YXVpQ0RJZFdfS00zRDIyR1ZPLTBIN1NnRGJn",
-        "CBMi5wFBVV95cUxNLWxCQ2M2Z1BWUmJxYV9QQ2w2eGl5d3dpbjBxNDN1UVRaTEpaYkFPRUNwXy1JbU1zdVY0UWRhcWhiRnBtM2R1c0VPYzlCMlY5UVZBdFFtOFhTREQwbGdlM0hBYjhzT2hiSUNKSFBNYUNZSHdqZHVTd0ZzQ2hFblF1bWg0WExaeUc4VWNBYV9Da1pkZnBLa0dHTEFVb1QxUTAwVWowRm5MR2d4ZUVUNDBNcWtneXJCdzhtaXhCeUpnWkFYMEZqMEx5RHpQLTdBb29Nc1c1Njg1eHBKUWR3ZXJkR0Q2QkZUczTSAecBQVVfeXFMTS1sQkNjNmdQVlJicWFfUENsNnhpeXd3aW4wcTQzdVFUWkxKWmJBT0VDcF8tSW1Nc3VWNFFkYXFoYkZwbTNkdXNFT2M5QjJWOVFWQXRRbThYU0REMGxnZTNIQWI4c09oYklDSkhQTWFDWUh3amR1U3dGc0NoRW5RdW1oNFhMWnlHOFVjQWFfQ2taZGZwS2tHR0xBVW9UMVEwMFVqMEZuTEdneGVFVDQwTXFrZ3lyQnc4bWl4QnlKZ1pBWDBGajBMeUR6UC03QW9vTXNXNTY4NXhwSlFkd2VyZEdENkJGVHM0",
-        "CBMi9gFBVV95cUxQTFVFNERITFJhM1BpeFBPNTFpTjlnMXVLMlo2Y3BqQW5CMmdRNjl6R0RoN0NkQTRyVVBYeW5DamN6TWluMEUtdlhwakp5QWRINzRZR2h2WlFKVTNUaDBWNzlmZ1JvMTZEMmJSNURvNmg1Ujdqb2tkZTViNjMxUGlNTC1GYnNKM0lBSHlOSjB4SmZ2Ykh1S2FKVm9iTFcwOVI2T1A0ZlFndVFZQVFiWHpfa3o2RDhmY2FFRHBNSXI5Y29qWXdWVXM0RWpJSHduU3NDdnhGUmJ1NTI3ekpBX0liVDhBOW5BYXd4VFptdjh3MzhETVk2ZGfSAfYBQVVfeXFMUExVRTRESExSYTNQaXhQTzUxaU45ZzF1SzJaNmNwakFuQjJnUTY5ekdEaDdDZEE0clVQWHluQ2pjek1pbjBFLXZYcGpKeUFkSDc0WUdodlpRSlUzVGgwVjc5ZmdSbzE2RDJiUjVEbzZoNVI3am9rZGU1YjYzMVBpTUwtRmJzSjNJQUh5TkoweEpmdmJIdUthSlZvYkxXMDlSNk9QNGZRZ3VRWUFRYlh6X2t6NkQ4ZmNhRURwTUlyOWNvall3VlVzNEVqSUh3blNzQ3Z4RlJidTUyN3pKQV9JYlQ4QTluQWF3eFRabXY4dzM4RE1ZNmRn",
-        "CBMi5gFBVV95cUxPanZLaGZONmN6c2EybzJmTElJaENzY2NkdTVfSFdTNWtxYUMzNDItT05LRnlleUlzczNXWTUxWXB6cmJXRmpjSDhINXhlaGk3XzM0U0I5R0JlYW9UWFoxd3ZfMmhIWkFvRGt1YzFwdm1HRW1TY2ZOSmd2NU5jWUtCSGt0dU1fRlhTZ3VvSVlkNFVzYlgxUklWN0RGcGxnRUxtVGxKSk1NenlIS1h0ZE5HbnRSTDBiY2dOSmk4N1V0WGxSdXU4Tjgwb28zNkhiZzB4NGx0MmNIcGJEb2ViRkRTQng4ZzhVZ9IB6wFBVV95cUxOQnFZZTIwcnoxTU9rZnE5SVVqdVdON3Z5anVZUU5hTXAxNW1hWUtma0VTMDF6QXJTeHJfMzNWb19feXNVaGZKVGVmX0FWRVY2VHNVWG1rcDZwM3FKOFNibkpzRG1BcjR4Wmx2TlJ6MURDVno5c0wxSnNxUmZUVHlFcHRmQjZkS20xSDlKVmJjLTl1SEdISmxQV1MxWldIY01meHdMdGRmbUhxTzlySjR6cGJuMVFCMXVFTzFwcVlBLVhjZVhOcEU4Ujkwd21ZaDYzMENwXy05c1ZNZWNGRmtTUFkwc2I4YUdlQmFB",
-        "CBMivAFBVV95cUxNc01uX1RhMFJpcHBra3RXNHJCNDQ4Qi1FODBEOW5fZVFwUWhKZmRiQ3RBdWtOb05nZkR0WDBMOGlmOE11MlpubEpCeVotSl9wRmJET0ZEeURrV3FtbWxEaTNvMVpmWVRjeWxFd0NUb21lLXRkUDNXSnZUVWZTcUNTN1I3VDVfZE11M3hvN3JSd0oyelNBRkJCTTJScEFUaG5yOV9VMTJkb0d5clBHVDREdW9SUG9IakZ3cE42VA",
-        "CBMijwFBVV95cUxQWXpXZjN0MTFGaVl3TGhsQWJQTHdMd01LckY2NmMzREhKZy1xZ2NLbURCY193ZlY2OVBDdWUwYndmT1FoNG1RR191TWpJbnRTOUJQMHNiZFBkUVlsOGNEU0pSeWZDekh0aXIwbGd4Mmtyb2Vrdk5MRV9BYmZDcW53Q090Ulh0b05JTk1MU1o0TQ",
-        "CBMi2AFBVV95cUxNdjB2MzI5SmdWb0QxZlVId1pKWVdTNjdmUnpTY29YTGIzYWs0U1NCUndKcFo2VUZWenNnWHR5WnpLSDRoVjF5c2JGb20xTG9mdGdRZ2E2MFlBU3Nodks0dEs0b0k0NTlLamJ4TFVQVWNQQnBRQi1XY3lTZjNlQmZLYTFaalhVNEFma3ZfeDItNFR5WkpfLTRWZ3puTHpYN05jcXZ2b0pNSVZSVFJNUl9vY2hBcDJ3YnJMdHU4SGFjemtiT0o5TFgtaWE2dlZmRldoOHN1WUlyQ2_SAd4BQVVfeXFMTS0yazVJWTVmbHV0MDc4dkpRV3otb3JicmU2eVc5RU9veTcxbzFWTkpCM3lkVEFlbGJ1MWNVZWJRNDlpc1Nrc1hnOUhyYVBfd3NKRHJpWGlrSnplSE5uOFcwLU9yNHk4MlFBSUREbUNQNGNkMDlsNUJsOGRHdEItYlhSV0NOU1JHXzRGODZnaUdkNjdZeEhWcnNYb2dQSFpid1hKamJER2g5dk1nZ09SbHFRY1Jab2FpU2JtYzNFVkhUSDZ3NFlLZDN6R2lWd1VwNjZPWGtJQ0dDYlF5aFNn",
         "CBMi4gFBVV95cUxNbV9XU2FrdFJ3akhaaF94bWg5TFI4QksxMkdPVnFzanJTSEZscjhHc0k0RzNfclVsVjRHRWtoYUxWbHpPSUZLRkZ0ZjJLZE42RWJEa2lMQzNBRkExTWFmOFEtMDc5SVdvamVuMkJYb0lqaXJMdmh3TnNMSGp3Zk1uaGljQTFsLXpVTHB4bG52WmFjSFhKd3NBeEZVUU9LWFZTRm5ZQWFwZU1rUjN0bVVsdFNqVjc5NUcyOHN1cjBlMG9Sd3FEQ0NoVEtYSU9XUFp4N0pJaG9vN2RXS2xsNXhhX1dR0gHnAUFVX3lxTE1xNThzbWZjMGNmYWEteUwzZzdBTzV0RzdlUHpRbnRuZEk3b0pxQXU5UzYwZFBTS0J1SmlUN1ZpekxtX1lhU2pyQ3MxeEtCT2tyaDZmdnBNRVE5WnFBbUtjQ0JEUTJ1NVJKNDBFRnhfa0hzZUZsM2Q5WTRPOFVUZjJaYnpOQ1pHNldPc28wNXdUazYxQzRwNld3YlJxSUJaaWxiR2tORXlST3RkeWFPNEw1QjQzMHdjaVZBLUFLVVVxWVFSc0pMcHQ0OXVoYzNLZUZyd2VscTRmc0oyUVVuOG9aak4tT3lJbw",
         "CBMikAFBVV95cUxQcHBFLXhzeExRNk9GSFVfeS1JeHp1ODctRUpReURNeTNnNFJFeFpaQ3FxYm44SmUwSG5DLVlQbTdNSnJldHIyV3VtSlcyUEZsakgxNlNHUHpMdWZHRUZxNkRMbnREZzFQSnkycF9IN25wVHZDLWM0dExrSFdUQTVkdU1uVmxOaGpBdWlBM0ctZEw",
         "CBMirAFBVV95cUxOTmVGUnJRX0JRR25DTnp6TVhPenBjS2JXa0ZSejg1cVpQS2E5S0NDZC0yZVdNb2wtMmZOT3VOZHJ3akI1ajhOSEFaUXVoNTVtZGZfSlBSRDhOYVJ3aTA1LXBIQ1VhSjV0bVVBUE92TlpOREs1UmxEMWM3VXZwWE1FX2ZhZWxhaXlvZy1jYTJoUk02OERCblJvNVRCYVN3c0ZxdDhsZzI0TlNrMkIz0gGsAUFVX3lxTE5OZUZSclFfQlFHbkNOenpNWE96cGNLYldrRlJ6ODVxWlBLYTlLQ0NkLTJlV01vbC0yZk5PdU5kcndqQjVqOE5IQVpRdWg1NW1kZl9KUFJEOE5hUndpMDUtcEhDVWFKNXRtVUFQT3ZOWk5ESzVSbEQxYzdVdnBYTUVfZmFlbGFpeW9nLWNhMmhSTTY4REJuUm81VEJhU3dzRnF0OGxnMjROU2syQjM",
@@ -319,18 +310,24 @@
         "CBMixAFBVV95cUxPZjh1QVBMUFVwd3lydzNoVWs3WlBkMXVOX01OV29mSHZHN3RrRjNzUHZHNmNPV0I4OHlnUXNjeWdEdjRoZzVRRTBwQ18wRlBVMUJnWHVVemJDT2ZyZ2Z0WjNNZ0FLbWZJNEFDSlZNQlFuNnRodDNfTjRQbHJfMFk2VjF1TUlURnl6a2ItcmRycmh1VWl3bTlTOFZZS1hYM2JLaHVUbi1oMkM3M3pENWczNnhsX1Y0bHVid2VLWVJiTWpVRVBK",
         "CBMi2AFBVV95cUxPSU1PX3B2U0htb3B4NXRmTy1JS1Z1dUdOQmgyT1BWd3ZTTzdkanJaWlFDeHNZQ09uY013SUNjdVk0RjlaeEROdjZJR0hPNk5jYUVsOFVGRVNrT1RaZXRPWlZuR0llRERqYUVZbUhWd3ZWXzlHMkxVUWo4aGd2YzBlWTZYRUZTRmYteVBkTjNFWl9PY0xZRjVaSmFraFA3dEY3cXJCLWdfSUh6WGU5eXNvWlZxSWtqdk9FRlZFblRSU3Q3Y2JCYXI4YllDVXlzTG0zZzFMRUIyUlk",
         "CBMilAFBVV95cUxNRXhSMTJKazNrU1drRnRjM0VjUDdqTVVtQVMwd3dHWjNuTTBybFhnVERvX0UzQkFPOThkM3g2bnVWZmJjaHd3cW1naHBtUWp4Y3RiaTNzU01MMFlqclM4UkJtWGFUSkxfYzdocV9ER0NnaWdUdHZiTVVIV1ZfN3dCcUdqU2xZWk1Wd2w4Ry1PNWdrcUl6",
-        "CBMimAFBVV95cUxQaEdySzRYNHpSWEpvWG5PMUJKdHhvdXBiSjlfRWpaYkk3WG5yQ01WQkUwaDdPcDVGaXExLU91bUNxYzZ2alVoRUNuX1VnY0swcHJmLWh1Z1VLZHVkNThtWlZsSXVsRWhZTzVWWmdLaVZFdW9XUlBBMWhLRU5TTmhnVE9vYlU1VTdtbHZRNWpwdVB2ckZTSmJVdw"
+        "CBMimAFBVV95cUxQaEdySzRYNHpSWEpvWG5PMUJKdHhvdXBiSjlfRWpaYkk3WG5yQ01WQkUwaDdPcDVGaXExLU91bUNxYzZ2alVoRUNuX1VnY0swcHJmLWh1Z1VLZHVkNThtWlZsSXVsRWhZTzVWWmdLaVZFdW9XUlBBMWhLRU5TTmhnVE9vYlU1VTdtbHZRNWpwdVB2ckZTSmJVdw",
+        "CBMiwAFBVV95cUxNR3hyQTNnRVFOamN3a1FEQlA4RVpMZllVT0NKbERiUDZ6dHNSU2lERExUdVZxZDNLUEgwWEZRZWV3aVIzRU5sN0Z4bnhFU0lVWW9KVG1PWERmTnozQm9iWDV5eDFubFJNQUc5b3VfVnJUcHh0bDhjV01rbU0yRTVWNGtiVzZhczZ3ak5fQnFyOTNCNVE3aWxmemNZY3FtOTgyWFFKNmtRMUFlMGh4SW93WWFCcVFGbTc0Z2NFWXpWM0U",
+        "CBMi4wFBVV95cUxPbTRQbEVfemUzSjNfX0RpdUNlNThzSzU1eFJzeDFOSVN1WmpaQ21VVmlxMGZnUW55TlZXdzFkUy1OQko2VUhMa2dqOXIySEYxSmxIQjdpcEFDTXVWaV9HWHBMWTRoT19SMnI5Zmg3MGg3VDNqelV4SWNabzlpazB2RlZ4VHdOSnlmWEtCaVl6ZEF2Vkt0emVObFUwV0hQVmVHVFFjbV9SR0ZnRUxQVUZxU3FILU5KcEdWcThUY2pPbzBOa1J0NWdoc3V1bk8tZnRWTGc0QUtOWU9PdVJzOVpoSEI5RQ",
+        "CBMi0AFBVV95cUxQbFFjRzE0b0ktcjdoVDR6WDdHUVFQWnVvVXdGWWlvZ3NNTWpxM3pFM3ozLXFsaDZhRTJRdHlaM0U0YWhvTXJaQ1o4TE5kalR1MXZWS3djaTg3bXBtbjZvU2F2MERzUS1oVXlpSFNaYVkwaFhMQTc4Zi1oNlUybVZDWkg1dVl6bjN0SGdLY2ktWi01bl9MS1RiN0x3dEFnaF9oWGFEdU0zdVJuTmpRX1dqNFg2QnBxVDhRU044dVVrV0J6aDd4RXpsenR3TTdGNjFN0gHWAUFVX3lxTE9HZVRhc1liTUhBdG1RYWZublBoMjgzZ3Z5NGpqM09MYTBzTlY4aVN0TTZwekoyNGpvMnlRUFFHV3hyVTRvLVQ3dzdVdW9XX2lkOWJ6dFdUOElBa0RrS1dSZW9TNHBvZ2RJTTd0OFJEemFZUnBId0J2OFBycjVMUEowLUk5TUdBcmUyRDFVbks5aDJoNjM4V0p0VkJRYmMtdFc5TjBHaTliYVpVRUFpUmQ3eG1WUkx3alRyN0RpdDFCU2xqdnpkWXFvZU1XbDdkemd1ZWZwQlE",
+        "CBMikwFBVV95cUxOMS0zZ2FKN0YxTUlTdlNUc0FieXhUbzBpOUphWVg2YXpjZmFhUVVnREcwVFhnbmhSVFp6Z0k4aFMtYUR6Ml9zQ0JiOEF1aGl4NG5VMU1jRW1wV1VvM3cxQzN4R09ic0VqeDJTRFJuTDdBWVhWbGtkSkhiTGZzbllkUmV0QmVpTmlUZlVYU1EwRmZmSXM",
+        "CBMixAFBVV95cUxNdXMwQURkT0xiZUsyOXNPQUhQZDloa0NDcjRnSlVPb1lpOE9renRHQVBhMEl4a2ttMXB0RnktNGRLaWd1VXBjLTE3OXFaMkQyMGMyNFJTMHlPY3lIRVp2ejFhNnFiUkc1ZV9icjNRLUdGY3E5MzNvNHlHa005QXgzVG9rNFRHQlMtelh4UXJXU3ZOSGp6WkxCcjI1YmdTVHQ5MEF6RUhDcFQ4MV82dzI1X3FVRmNJSnJ0T2ZQc0hRZ2QySnZ5",
+        "CBMiqwFBVV95cUxQUEdCbVNvenNiOGNKMlR3bWhUV05mQmxJblE4NGNMYmx0NHotbW9mcFIzenNsQWFMdXVZSFFIaGRzQ3Y4UjZURnllczN6OU5ub05CYmF1RWc5YThUMk4zTW93RUdzS2puMXQxR29JV3FrZ0s5RjhDVXlpc3lVSGtFN25JU2pQd2hNdU9hYmRtNVprUXJJNFk3TXlxVjFzRlJ5OXAxMUdRSnVkNXM",
+        "CBMivgFBVV95cUxOVU1Fa1BOckpoWi02TlV4NFowOWdhYkpfNDdoeGItNmppTW1LNEt0bjFTM2tkempxRVd0YTVRb1daeUVXajk4U0tERnZXZEdKRXBuNkhya243c0NxbUtqbkc2WnBUTzJSUERXay1makpMSWtmUmh4T3ZfblEtWUpTaTBqbE45NzR5R2ZZVDh1Q05LSXR3bEdLOVhiTTAwMEUzMEVfZTR2eG1Qa2lIbUlJb0JwMEhNOXhtWlE3bVhn",
+        "CBMitwFBVV95cUxOM3BtMDlWQ3g4ZmNQY0pxUnFTRzhxN2R6TjlONVNCa2t2Y1R4N1VnMVlIMjV5TnljaThRRlFMbjYtREs3aVo3MnZnVENwQzl1b2ZQMnpndmVBbG9FSklpUVp6dndGMFM5RGM4RGsySUg0RTE4UHg0bk5tRmd5Y3pXeHp3M2xkWkhUU1c1blZyZjJWZkQxTHlIQ3hidW5EZEw1aHJpakdySWh5QkVTNUd3alFsSExyODQ",
+        "CBMijAFBVV95cUxNNWdWeGpvaS1UOElzNWpueENUOWFTN19fa1BiZldYTXY1blJRbS1GekhTQW83alNTVExaQllhN1dud3IwT1RyMGIzRkJzdnVIb3Zpa28zNDV0WnI0bVVqSTlNbW9oRm9FOEFlRFIzU1M4cWFSRTFmdU9vbWl0ZG9rUm9PeHd3WkxneUVTUg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-25T22:13:04.093Z",
-      "last_epoch": 1792956371000,
-      "etag": "\"0b429b51fdb9aa60c0e118443023a430e-gzip\"",
-      "last_modified": "Sun, 25 Oct 2026 21:58:42 GMT",
+      "last_fetched": "2026-10-26T09:30:42.164Z",
+      "last_epoch": 1792999744000,
+      "etag": "\"0eb261835f78f078093109f668c302d38-gzip\"",
+      "last_modified": "Mon, 26 Oct 2026 09:13:01 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-prepares-reforms-for-creating-larger-accounting-firm-networks-proposals-expected-in-two-months/articleshow/134364704.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/free-cancer-immunotherapy-karnatakas-new-medical-institute-revolutionizes-healthcare-access/articleshow/134369510.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/titan-open-to-acquiring-smaller-watch-brands-sees-strong-growth-in-premium-segment/articleshow/134365750.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/fcnr-haul-to-power-hsbcs-india-wealth-retail-banking-push/articleshow/134374668.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/t-mobile-jio-achieve-worlds-first-5g-standalone-roaming-connection-with-syniverse/articleshow/134393077.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/rnfi-money-gets-rbi-approval-to-undertake-cross-border-trade-remittances/articleshow/134392464.cms",
@@ -627,14 +624,17 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/insurance-commission-nbfcs-seek-5-year-transition-period-to-reduce-selling-fee/articleshow/135197256.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-air-india-group-to-shift-133-weekly-flights-to-navi-mumbai-airport/articleshow/135196834.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-seek-relief-from-sustainable-lending-norms-for-fcnrb-loans/articleshow/135196528.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-data-centre-to-strengthen-payment-systems-cyber-resilience/articleshow/135194472.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-data-centre-to-strengthen-payment-systems-cyber-resilience/articleshow/135194472.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/mumbai-local-train-impacted-hanging-ohe-wire-disrupts-services-office-goers-face-delays-thane-kalyan-status-central-line/articleshow/135205284.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/india-to-get-first-cooperative-sector-airline-says-kerala-cm-satheesan/articleshow/135202367.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/lt-technology-services-signs-five-year-deal-with-nokia-for-rd-support-in-india/articleshow/135202158.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-25T22:13:04.513Z",
+      "last_fetched": "2026-10-26T09:30:42.571Z",
       "last_epoch": 0,
       "etag": null,
-      "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
+      "last_modified": "Mon, 03 Jun 2024 17:35:34 GMT",
       "seen": []
     },
     "pib-releases": {
