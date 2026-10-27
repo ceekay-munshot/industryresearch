@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-26T23:30:43.577Z",
+      "last_fetched": "2026-10-27T09:31:35.013Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-26T23:31:18.059Z",
+      "last_fetched": "2026-10-27T09:32:11.281Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-27T02:45:49.103Z",
-      "last_epoch": 1793021044000,
+      "last_fetched": "2026-10-27T09:32:12.259Z",
+      "last_epoch": 1793081297000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -195,14 +195,15 @@
         "CBMi3wFBVV95cUxPUnFJMXVLUF9pQld4dzdpNnJEdVRYd1BoQklwaEJXLS1wYTktS3laRUxsOExPRzRYZ09aOWdKOElYRmh1dkJzall4WFV5Sk9rTEJnajdtX2p5R25XUHo3aUhPYnVSMTNqV1lvYWhvZXhRbmhqYzVhS3hlWHlnWGRJeXhWWXFjNGRTOU5hWlc2ZmhhWUcwVHJkVWZmWW5KamVyOUdMWXQzMEtLSUUtTkc0dTNROFRhaDhfdUVhem5QR0x5SkM2WG5IMi1jS0NYelk3TDBVNkhCQ3AtSmxOaDk0",
         "CBMimwFBVV95cUxPQlpyNy1QdjltRDZDdDFPaFVSZ2lKZWRGQjdiV1AzT2hzVzBrTms4MmQxYzl3WnZENlNHdlB3ckVJTnVNcXdqREwyT19McUVNMG1KdjdOVzZXRTdoTlJCU0xKRW9EUVJwbWJ1VndDNUFDOWtIdHhZSUJCR0xwVWhUbGZkWDlHeXItNHJVUVNIcnV4MUVYcldnU3BqOA",
         "CBMitgFBVV95cUxORXhRQVNjZ2M4bWxKc0FVc01aeTRxM09TWThZbU1FekZKMV9VZmN2b1Z0d1AxYVhpLW1rR1lnQzFjLWstdDBMUU53Y3g3VU02bjEzRW96dklySFhITmJTX05CV0J1Qjd3VlFSLXA5d0hGSmZEbmlDWnRhbnVGWENQVDlKVFNzdHZWNDVURUNwUk9ieXFINWE2LUpFeW0zVFhqaGtVVHR0aUNQZmk4VEVPZHZpSGF5UQ",
-        "CBMiwgFBVV95cUxNVjB1a1VvRUNXRWhJLUtLR1MwdUhDekJmaEtZdDFUOTJoSU4wUXhjZTQ3V3NtVzgtUnpJU0R2cGhjWk5VOG1SbGFUVnE2WFRaS0dGYzFJNnFiOWk5MktEMzRfUVN5eXFhbzYwZGltM0dtai15cWRGcHRiRmVoZTFxVVhTSjNuV2RYTWpwYUpjZThQNTVnelduamw1OTctQWt6emhEeWdSMmxma1dxRW5jOWQ2NloxdnItT3lXbG1NNzEyQQ"
+        "CBMiwgFBVV95cUxNVjB1a1VvRUNXRWhJLUtLR1MwdUhDekJmaEtZdDFUOTJoSU4wUXhjZTQ3V3NtVzgtUnpJU0R2cGhjWk5VOG1SbGFUVnE2WFRaS0dGYzFJNnFiOWk5MktEMzRfUVN5eXFhbzYwZGltM0dtai15cWRGcHRiRmVoZTFxVVhTSjNuV2RYTWpwYUpjZThQNTVnelduamw1OTctQWt6emhEeWdSMmxma1dxRW5jOWQ2NloxdnItT3lXbG1NNzEyQQ",
+        "CBMi8AFBVV95cUxPSldnZWxpaFJjMldYRkxCNFJJTXFldGEwUEhCT0hfR2RrSV9GVHNPcDY3UHM4bDJDVEpaS2xkUDBZT3dpMWdGVDJmMXJ5NG4yUkc4TVpDbkJQWkxCeGs3a1hkcUttVDIxaGNoY2tJcTNWOWdRWlNtaXlmVzJhaU1qcW1RanYxRkRjTGU0QndwcVhTeHZRRmJuZk5SU1NLX0wyV3pZak5tUHBZaVNYdEJlbzN5YVc4VEI1YXQ4VkdTYzcyQm5GS1c1MkpJbVhGRjhkanhMNEVxZXh3Z2dsY0l4TmRJT1JiRXRiUGpDd2hXRDnSAfABQVVfeXFMT0pXZ2VsaWhSYzJXWEZMQjRSSU1xZXRhMFBIQk9IX0dka0lfRlRzT3A2N1BzOGwyQ1RKWktsZFAwWU93aTFnRlQyZjFyeTRuMlJHOE1aQ25CUFpMQnhrN2tYZHFLbVQyMWhjaGNrSXEzVjlnUVpTbWl5ZlcyYWlNanFtUWp2MUZEY0xlNEJ3cHFYU3h2UUZibmZOUlNTS19MMld6WWpObVBwWWlTWHRCZW8zeWFXOFRCNWF0OFZHU2M3MkJuRktXNTJKSW1YRkY4ZGp4TDRFcWV4d2dnbGNJeE5kSU9SYkV0YlBqQ3doV0Q5"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-27T02:45:49.135Z",
-      "last_epoch": 1793032711000,
-      "etag": "\"0db6300561df04dd6e53f26790e9d9fcd-gzip\"",
-      "last_modified": "Tue, 27 Oct 2026 02:36:25 GMT",
+      "last_fetched": "2026-10-27T09:32:12.353Z",
+      "last_epoch": 1793072474000,
+      "etag": "\"0e340e78434bc6607694e3a6c346e955a-gzip\"",
+      "last_modified": "Tue, 27 Oct 2026 09:17:47 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -296,11 +297,12 @@
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/korea-marine-equipment-association-to-open-india-office-coming-friday-shipping-ministry/articleshow/135215673.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-limited-becomes-asias-first-company-to-secure-multiple-us-fda-registrations-for-200-surgical-and-hygiene-products-us-exports-to-begin-in-december/articleshow/135209031.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/hyundai-motor-india-to-hike-production-capacity-to-1-14-mn-units-by-2030boost-localisation/articleshow/135208956.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/indias-textile-industry-targets-350-billion-by-2030-as-exports-rebound-costs-rise-report/articleshow/135207872.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/indias-textile-industry-targets-350-billion-by-2030-as-exports-rebound-costs-rise-report/articleshow/135207872.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/food/snacking-brand-troovy-raises-fresh-funding-of-rs-100-crore/articleshow/135223789.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-27T02:45:49.168Z",
+      "last_fetched": "2026-10-27T09:32:12.431Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
