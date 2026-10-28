@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-27T23:25:15.777Z",
+      "last_fetched": "2026-10-28T10:15:02.807Z",
       "last_epoch": 1792984744000,
       "etag": null,
       "last_modified": null,
@@ -29,15 +29,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-27T23:25:26.119Z",
+      "last_fetched": "2026-10-28T10:15:40.605Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-27T23:25:26.772Z",
-      "last_epoch": 1793125498000,
+      "last_fetched": "2026-10-28T10:15:41.195Z",
+      "last_epoch": 1793179842000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -282,21 +282,23 @@
         "CBMi5wFBVV95cUxQRWZ3MExjLXhvbS1EdzdMenVPNUMyb015N1RreDkzNEVhVWQ2VEV1Rl9odHlGNlpBbXZuOG5zdmUtNHQ5bHBGanNtb2JBYnlNSXlWUFYxTExLdXprLVNtazZNTzY2a2lZZXpwc2NfLTVSSnZ4MUllTVhsQzRCZnhVVUJpbVd3S1FUUUtRTUdnNG5TbDFybEwwVlhDSV9IMEIzUTZOa3BiMmdLRXFHcVAzdlVNUFFONFBlZG1Sb3JmU1VDTlB6Z2M2cUE3N1YtN19YRi1adW8tN081dnpKbGlZNE11Q2xVLVk",
         "CBMiugFBVV95cUxPR1M0aGE4cE8tSlhNR0NEQjNocVlkUm9feDNUaFhBTGhVZEVnTzJDRk10Z242bGYxLXh5eEhYMFl2bzhST2VPMllPVDI5cUFzRVRyV2dxczZLX2RxYmZxdjdHN1BSNVFNV0JGRXlIMWhWSDFkblRoX25wUzJMbkIxLWRISi10SElidEVRUVlOY3pVVTV3cW44b0s3d1V0NU5qVWdNV29KMjhPbHdLbHBfZEJSLVBaZ1BSWEE",
         "CBMigAFBVV95cUxPOE1BUUNUSkFfWXMxVDByNUFpNVgtZlRFd2pXWkNGTExaOW85bllFLWFTLXgtUl9lMkpTRFlXOW1RTzJESjZXUHF2U0JaZnlqV3FKOW83VFBIckdjMFowNF9aQ1dVZGNlUWU4d0ZoSlRQUVZ1Qm0tbnZoRUpubnBWcdIBhgFBVV95cUxQb2Q4bXJJQTdHOElVRzVOcmx3M0FrLUs0NlRlekxnMUZwVlhOOGtCSUlXcmZud1pBNVEtVFhpTkRNMTN5SGdWakxVWDdBUVVHN3B0Z1Y4LW5mTHg0Q0RlZnNJVERfVEZGWlRCUUtPYmV2enlaYkNfbnpQTlljSjY0TTdhLXBmZw",
-        "CBMiswFBVV95cUxOOHlObDdERkRQVXJwVHIwRUNHdWg4WjROdlFaX0tvX2N3MXRETk9MZ0duemUtMXlHaVNzei1sOWQ2RHpnd1NjVXJlQlpZNDFrdm04SXFiX2RWYXMwSkdGVlhLblBwU0VDLTRLQzhaLTZycXJlUFJvVE93RWtVMVlPTURKQ2llejlPanBULV9TMmRqV2M4TmU1RHB2MDVLeDR3YVRxLWZ3UG4tc3NXajAzQV9rZ9IBswFBVV95cUxOOHlObDdERkRQVXJwVHIwRUNHdWg4WjROdlFaX0tvX2N3MXRETk9MZ0duemUtMXlHaVNzei1sOWQ2RHpnd1NjVXJlQlpZNDFrdm04SXFiX2RWYXMwSkdGVlhLblBwU0VDLTRLQzhaLTZycXJlUFJvVE93RWtVMVlPTURKQ2llejlPanBULV9TMmRqV2M4TmU1RHB2MDVLeDR3YVRxLWZ3UG4tc3NXajAzQV9rZw"
+        "CBMiswFBVV95cUxOOHlObDdERkRQVXJwVHIwRUNHdWg4WjROdlFaX0tvX2N3MXRETk9MZ0duemUtMXlHaVNzei1sOWQ2RHpnd1NjVXJlQlpZNDFrdm04SXFiX2RWYXMwSkdGVlhLblBwU0VDLTRLQzhaLTZycXJlUFJvVE93RWtVMVlPTURKQ2llejlPanBULV9TMmRqV2M4TmU1RHB2MDVLeDR3YVRxLWZ3UG4tc3NXajAzQV9rZ9IBswFBVV95cUxOOHlObDdERkRQVXJwVHIwRUNHdWg4WjROdlFaX0tvX2N3MXRETk9MZ0duemUtMXlHaVNzei1sOWQ2RHpnd1NjVXJlQlpZNDFrdm04SXFiX2RWYXMwSkdGVlhLblBwU0VDLTRLQzhaLTZycXJlUFJvVE93RWtVMVlPTURKQ2llejlPanBULV9TMmRqV2M4TmU1RHB2MDVLeDR3YVRxLWZ3UG4tc3NXajAzQV9rZw",
+        "CBMipwFBVV95cUxNN05EdjdNd1RSQTl3VGNFd3RfQzc2T0Qydjl3UzZHTUFhYU1Za1RMa3Z5WFBCcThVQUVxUXpGZVJjeExuTU1ra0FnNFUxN0diYXJuZWJrVUVuNmo1WE5NcTlVeE5ybUI4NmdWNktKSEFiOGo1MVNlenVid3FqQlQ5U0tyMFczVjhFQk05ODdKeXVQYV9Obi1uaUN0LXFYcjBpeENLcW9SMA",
+        "CBMibEFVX3lxTE55cjdra2QwRy12VGJoeG1rQ3hyRUlzUUNxcnJNMEozWUJVdldUM3ppeHd5cTVyWWtoemJ4MkdVMWNWTnNDTmotLTQ1TXZFOENENGM1VkpiRDY5RGkwMUdoSlZ1X3BfQkVFT1ZHQg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-27T23:25:26.799Z",
+      "last_fetched": "2026-10-28T10:15:41.331Z",
       "last_epoch": 1792580689000,
-      "etag": "\"0f730ecc9874c540bdc4e1b7ec3db2d53-gzip\"",
-      "last_modified": "Tue, 27 Oct 2026 23:12:11 GMT",
+      "etag": "\"08cbd2162c6cb10583852a96c9a593b18-gzip\"",
+      "last_modified": "Wed, 28 Oct 2026 09:54:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/srf-ltd-announces-600-crore-aluminium-foil-manufacturing-plant-in-madhya-pradesh-for-battery-applications/articleshow/135090288.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-27T23:25:26.834Z",
+      "last_fetched": "2026-10-28T10:15:41.665Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

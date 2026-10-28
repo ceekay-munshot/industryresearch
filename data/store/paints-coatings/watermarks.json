@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-27T23:19:01.651Z",
+      "last_fetched": "2026-10-28T10:07:19.161Z",
       "last_epoch": 1793039400000,
       "etag": null,
       "last_modified": null,
@@ -128,19 +128,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-27T23:19:33.854Z",
+      "last_fetched": "2026-10-28T10:07:57.874Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-27T23:19:35.334Z",
-      "last_epoch": 1793115113000,
+      "last_fetched": "2026-10-28T10:07:59.003Z",
+      "last_epoch": 1793126901000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMivwFBVV95cUxQczJoZTlaRmFjNGFsZzY0VlppcF9RZlFnMUduQ1pBanFPTjFHRlAwc01nRlNPcVlHeFlBbl90MFExR05VeUtpaFUyb0ZXQ1FTZkd6TmVxNG1wZE51N0M5aWRWc3AtS2hmNUZKd2lLVnowQy1RVkZ3bWdON0h4RVdvNjVfQVBuZ29lRmtic3ptZ2dZZU04b21XMFhpOXBzUGpaeG5yNG9HTzFEUDhnWGxJQ3BMYlBBN1N6YTZNMVVBWdIBvwFBVV95cUxQczJoZTlaRmFjNGFsZzY0VlppcF9RZlFnMUduQ1pBanFPTjFHRlAwc01nRlNPcVlHeFlBbl90MFExR05VeUtpaFUyb0ZXQ1FTZkd6TmVxNG1wZE51N0M5aWRWc3AtS2hmNUZKd2lLVnowQy1RVkZ3bWdON0h4RVdvNjVfQVBuZ29lRmtic3ptZ2dZZU04b21XMFhpOXBzUGpaeG5yNG9HTzFEUDhnWGxJQ3BMYlBBN1N6YTZNMVVBWQ",
         "CBMitgFBVV95cUxOX3VPUmdQSWdIMzBDRGtRbVZZRlZQQUlWRXZKcVBvV2tKcFZ3Q1BENkg4UHhIR280dFpZdldoalJOejgwMHNjb19QQlhERkVFMWl4OGhmekRva0R1V09NVm9rVzhfNDhaU2xCbF9FSmFMTGZEMWw4MXRjdWJxWi1KVEtaOHZjWV9PZEdlU1NZVzRNaEozcktFeDkwX3BiXzBTVlBXN0RyMm05Y3lWNGF5RV95MmxMdw",
         "CBMi7wFBVV95cUxNYnpRQU9aSk5IU3ZtSno5VkFEUE5JZEJxRlp6SmxNR1EyUVdNZ2Q2T2pMeGlhVFRpRzlfUmZSX0pxd2lvQ00zcHdZb0kzMlc0aEd3R2xMTUMzZHZyOHpSc1RGazVyeXNqUnFQSE9ZaVVmNzdPR0xyR3hsNlQyTmUwd2E4amdyNmxjUjlwemE3Vzk2TTl6YU1GNDZ2WVRvbWRaMlIxNWRVa0RSNkJoY3I0dWNJazBySFhkN0VLX3YwMnFzZUU0X0pkRnktTDN3Yjc0dU9VOWpWZ1F5eDVVZGtWRHc3SFNDNUZQcElZcVFZa9IB6AFBVV95cUxNYmk1MUdMeWNGWnhVUXZzenN5ZkdGV2xMVzVlWUFBZzRBcDltRm1Rd19ZS29CRkowUFpMQTRsaVd5ZXdZVzh0aHhWdmZXeDVYUzRTeVRQYXZqX21jWEpDaC14d1RoRWtCVzBMTVA5ZDhCMjl2VF9iUEJDbENDNTQ3Nkw3cjV5bW5jMVd3ak5qXzEzSnNIalZRZkhuRWVpYmZqTkFZLXdnYnN3SzlwZ2w0MUxjS0tkRWVseUY5TEF5YWJkOXBIMl8wWWRkOHR2Vk56enpjTFhROW1TSjBEU01TS0JUVlo0M2Vz",
         "CBMirwFBVV95cUxPWUZxN25mVmxWN0RGejhWenpRa0ltYUE3OXNsa2tnZUZIc0dSd0ZZTm5ETm1OMnNVdlRaOWcyY1kwMXgycWdPakZKU3dDRW5qVUNSRFlJX3R2Nk1FVjMwN3plWF80TS1sZmlNeHVWQ185S1pBX0lWR0NkQlkyMmV4WG1IWjN2dGJXLWJzcGRYVHpSRlJrYXhPSThTWDlnNUZLY05JYmxmeDZVSG1kWW1v",
@@ -439,14 +438,15 @@
         "CBMiygFBVV95cUxQNU1oUWJqdThrN1hCaDVvQXhzOUlkbVZKWDhMUFFQblRUQlBpajcta3h3ZHFUdmVkLUF3eExtdXlNTUNpT0dwcXhWZU94c0hCSEw2RmZNNWJ3X2ZreUIyTWlHdHd0cGFHd1JnMFhaN0I3ajY3Q2YyZ3VuZWllOTBKZDJnblFJUGhvamt2bXllOHpZNjdYMWNiWmpnSkhuRGh2YjV6MEJuaEZGUU1zcHJxMnZXVlpBSFBWSlAySThiQ3NYZzY5bW5udDRn",
         "CBMikgFBVV95cUxNbVpuY0U0bF84TGZDbVl5X0twS19VZzI2NWxJbFRzRTZTZEhnS0NrY3Z2MEJPMkZXOGgteVllZGEyYWRNaGxWcmE4RFpxaThXNFFrM2JKRVh4d3RBUXJrWlYtTjl1ZEZYVzZDc3BoYlNsWHNqMXdSMHJ0WUE4Z1BnTzVZTklvc3VGUk93S2ZxUGNoUQ",
         "CBMi1AFBVV95cUxOZnZSRWJxOEQyWXg1YVB1VXlXeUFVbTVicHBxMkxUbnJxbnhhTlZKU3p4V0c0dk1vbjY3NVBpOFNmRVUwNWVCSC00ZkNkTDNHRHUyOVFpWVZzMXVRQzNzbWtLMGEwQ3ZRaEZCVnl4MVN1WXQtTmNVa1Z3ZVFDTTJxeHZYQzJwQlpmQU9FTjRtRldzUXhGSkJFQ2tpRURXVnJ0UTNXUmE4SE5lLUdXSmNlYkVpRGpnVzI4akcxcENlcG83QWJTNE1RZEdDOGVNVncxTnM2Nw",
-        "CBMijAFBVV95cUxPa1BxekFFemZNZHdXWXFHTUROdlJPSUt1bWVCbEpsTk4tX1VWSW81Z1dwWjk0N2s4cWNOSEpRNTZyajhtbXFzdGh5Y3VuUVBwMHFjZzBHVnBQOWFCUnB3bUw0VnFuc2lpLWw3VW9YMHV1cU14UXhUUHlORE5kV3pSN1BrTDBIZGthdVloZw"
+        "CBMijAFBVV95cUxPa1BxekFFemZNZHdXWXFHTUROdlJPSUt1bWVCbEpsTk4tX1VWSW81Z1dwWjk0N2s4cWNOSEpRNTZyajhtbXFzdGh5Y3VuUVBwMHFjZzBHVnBQOWFCUnB3bUw0VnFuc2lpLWw3VW9YMHV1cU14UXhUUHlORE5kV3pSN1BrTDBIZGthdVloZw",
+        "CBMi0gFBVV95cUxPdzQtdWs0S0VmQ0tSQ3RVcG1XNDlSTFBQdGtDTmlIZWpPUmQ5OUwwMXVDZnRsQ2hYNFR3a294ckpGRXhpYml2QXhXTlNydmVpNFF2a3lKRkRaYkYwdEFXbkJ6VjdWa0hac0xsNnJPeFdtRzJWdHVPTVJhOU1makY4ekNZS3E0RVVQdGtmMmotM0YyTlhGRGhMYlpSTjVnM3VINk9zQU5udHkwZ0VUV3FUanVUQ3lCaThxaDYzRElubXVlLVMyMjh1V2x6ekdlN0dCQVHSAdgBQVVfeXFMT2wzcktsT3ZBdjNjYWpUWFRUWUlTR2JhZGRucS1JOFBOb2NlTUNjUnFuYjdmWnd1bDhPTHF0dy1oYkNtUDcxTTh4ak9PMHp3elRwVFB2RE5UV2ZVcm9VM1V6aEhVXzBSbjZQM3gyZW1qSm1zWHU2dFQ1TnFLNTZmem96T0QwMmFSckJQUnpfeHhWZE1HaUlDMnFBRlJ4SnBkZVF1U05EWFNIOGhJZjFCQzRzbmlVUll1Ni1icy1iQ0ZlZG9Bc1VtWmVUTDhmeElwSTVHZGl6eV96"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-27T23:19:35.506Z",
-      "last_epoch": 1793113892000,
-      "etag": "\"0f730ecc9874c540bdc4e1b7ec3db2d53-gzip\"",
-      "last_modified": "Tue, 27 Oct 2026 23:12:11 GMT",
+      "last_fetched": "2026-10-28T10:07:59.050Z",
+      "last_epoch": 1793178148000,
+      "etag": "\"08cbd2162c6cb10583852a96c9a593b18-gzip\"",
+      "last_modified": "Wed, 28 Oct 2026 09:54:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -507,11 +507,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/arcelormittal-sas-idc-close-in-on-610-m-deal/articleshow/135099683.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/paints/china-faces-fresh-indian-duties-on-titanium-dioxide-imports-anti-dumping-levy-of-460-681-per-tonne-reimposed-for-five-years/articleshow/135170362.cms",
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/nagaland-gets-its-first-five-star-hotel-as-polo-hotel-kohima-opens-boosting-states-hospitality-offering/articleshow/135186032.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/versigent-leases-nearly-3-lakh-sq-ft-of-industrial-space-in-chennai/articleshow/135238426.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/versigent-leases-nearly-3-lakh-sq-ft-of-industrial-space-in-chennai/articleshow/135238426.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-worry-more-about-geopolitics-than-borrowing-costs-survey-shows/articleshow/135257666.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-27T23:19:35.562Z",
+      "last_fetched": "2026-10-28T10:07:59.080Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-27T23:23:46.199Z",
+      "last_fetched": "2026-10-28T10:13:34.882Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-27T23:24:03.527Z",
+      "last_fetched": "2026-10-28T10:13:44.483Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-27T23:24:04.758Z",
-      "last_epoch": 1793081297000,
+      "last_fetched": "2026-10-28T10:13:45.480Z",
+      "last_epoch": 1793176445000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -196,14 +196,21 @@
         "CBMimwFBVV95cUxPQlpyNy1QdjltRDZDdDFPaFVSZ2lKZWRGQjdiV1AzT2hzVzBrTms4MmQxYzl3WnZENlNHdlB3ckVJTnVNcXdqREwyT19McUVNMG1KdjdOVzZXRTdoTlJCU0xKRW9EUVJwbWJ1VndDNUFDOWtIdHhZSUJCR0xwVWhUbGZkWDlHeXItNHJVUVNIcnV4MUVYcldnU3BqOA",
         "CBMitgFBVV95cUxORXhRQVNjZ2M4bWxKc0FVc01aeTRxM09TWThZbU1FekZKMV9VZmN2b1Z0d1AxYVhpLW1rR1lnQzFjLWstdDBMUU53Y3g3VU02bjEzRW96dklySFhITmJTX05CV0J1Qjd3VlFSLXA5d0hGSmZEbmlDWnRhbnVGWENQVDlKVFNzdHZWNDVURUNwUk9ieXFINWE2LUpFeW0zVFhqaGtVVHR0aUNQZmk4VEVPZHZpSGF5UQ",
         "CBMiwgFBVV95cUxNVjB1a1VvRUNXRWhJLUtLR1MwdUhDekJmaEtZdDFUOTJoSU4wUXhjZTQ3V3NtVzgtUnpJU0R2cGhjWk5VOG1SbGFUVnE2WFRaS0dGYzFJNnFiOWk5MktEMzRfUVN5eXFhbzYwZGltM0dtai15cWRGcHRiRmVoZTFxVVhTSjNuV2RYTWpwYUpjZThQNTVnelduamw1OTctQWt6emhEeWdSMmxma1dxRW5jOWQ2NloxdnItT3lXbG1NNzEyQQ",
-        "CBMi8AFBVV95cUxPSldnZWxpaFJjMldYRkxCNFJJTXFldGEwUEhCT0hfR2RrSV9GVHNPcDY3UHM4bDJDVEpaS2xkUDBZT3dpMWdGVDJmMXJ5NG4yUkc4TVpDbkJQWkxCeGs3a1hkcUttVDIxaGNoY2tJcTNWOWdRWlNtaXlmVzJhaU1qcW1RanYxRkRjTGU0QndwcVhTeHZRRmJuZk5SU1NLX0wyV3pZak5tUHBZaVNYdEJlbzN5YVc4VEI1YXQ4VkdTYzcyQm5GS1c1MkpJbVhGRjhkanhMNEVxZXh3Z2dsY0l4TmRJT1JiRXRiUGpDd2hXRDnSAfABQVVfeXFMT0pXZ2VsaWhSYzJXWEZMQjRSSU1xZXRhMFBIQk9IX0dka0lfRlRzT3A2N1BzOGwyQ1RKWktsZFAwWU93aTFnRlQyZjFyeTRuMlJHOE1aQ25CUFpMQnhrN2tYZHFLbVQyMWhjaGNrSXEzVjlnUVpTbWl5ZlcyYWlNanFtUWp2MUZEY0xlNEJ3cHFYU3h2UUZibmZOUlNTS19MMld6WWpObVBwWWlTWHRCZW8zeWFXOFRCNWF0OFZHU2M3MkJuRktXNTJKSW1YRkY4ZGp4TDRFcWV4d2dnbGNJeE5kSU9SYkV0YlBqQ3doV0Q5"
+        "CBMi8AFBVV95cUxPSldnZWxpaFJjMldYRkxCNFJJTXFldGEwUEhCT0hfR2RrSV9GVHNPcDY3UHM4bDJDVEpaS2xkUDBZT3dpMWdGVDJmMXJ5NG4yUkc4TVpDbkJQWkxCeGs3a1hkcUttVDIxaGNoY2tJcTNWOWdRWlNtaXlmVzJhaU1qcW1RanYxRkRjTGU0QndwcVhTeHZRRmJuZk5SU1NLX0wyV3pZak5tUHBZaVNYdEJlbzN5YVc4VEI1YXQ4VkdTYzcyQm5GS1c1MkpJbVhGRjhkanhMNEVxZXh3Z2dsY0l4TmRJT1JiRXRiUGpDd2hXRDnSAfABQVVfeXFMT0pXZ2VsaWhSYzJXWEZMQjRSSU1xZXRhMFBIQk9IX0dka0lfRlRzT3A2N1BzOGwyQ1RKWktsZFAwWU93aTFnRlQyZjFyeTRuMlJHOE1aQ25CUFpMQnhrN2tYZHFLbVQyMWhjaGNrSXEzVjlnUVpTbWl5ZlcyYWlNanFtUWp2MUZEY0xlNEJ3cHFYU3h2UUZibmZOUlNTS19MMld6WWpObVBwWWlTWHRCZW8zeWFXOFRCNWF0OFZHU2M3MkJuRktXNTJKSW1YRkY4ZGp4TDRFcWV4d2dnbGNJeE5kSU9SYkV0YlBqQ3doV0Q5",
+        "CBMiwgFBVV95cUxPOUdoR2xYRkpwNDRhc0RiMFNTMThOR3dGdlktLWxHZ0NLMGNhZTFDcmNValR1YkI5cmVRQ1NnakxuUnE5WjQ1UFdUbWFxdTVSWm85MkRJU3pOd0NSSkhKb1VvR2t0Rmh1clpRa05URnVBVXE0X3dMWlJ2cVB5WWlodVRCNlFTV3FBamdXYmt1M2gxUE9kMHVNQklmN2JsaFJMVmN1azIyeWFwYnIzS1RSekNuNE84Q0lWdlROclgxRjd5Zw",
+        "CBMiwAFBVV95cUxOcFFON3JCS0o0dGVsWUxNOF9ZUkpqTVFPU1dBVmFLaWFrSTFjdWh0anVPRUFidHByUDl5VzYwOVNlQndJaWRzTnZ0T1VSQ3o0MUFuQW5aNkJJengzTUFjYmlTWUpKLWJjRlExWkU0dXRKaVR2NWpySTBBNG9wcnFCa2NZdmJKVEZuQXhLSmNWVVdOeV9MWVlnd2I5eTZQWUNZdzd4OVBnd2cyT3pXMWZFZjJLVWFtd1N1c2NxOFg3QVg",
+        "CBMi1gFBVV95cUxPYVZhRnlNblZ1T3JIQ21Fa19fbWcxMlNRY0d1c1N1LW5RTDRvTVRjNFBybjJQbDk2YnQ2R3JSOVpBLTV4Y1B5bW90ei1QQkNkOWVUTExSeUxBUk03MERoT2REdW0wMXpfMkhnTHVEZlRpLWYzdWtUVmpqTkUtRDV3Q0FWM09ZeENERDg4OV90WFQ0TUlfTHdUcUEyQjJmeUM3XzdhRXN5N3N6RzNKWlZvQ2JHX2E0RGdGMGx5dmtWUWhvOS1RQ1lGRVJKT2dfR3UxSHN1ZEpB",
+        "CBMizwFBVV95cUxNQkpZdUYtRTFPX1BVWHhraW14UF9TNzVDUWN5N2Z3YmgyVl9KSmpFZmZSSlhmODZvWHRmLWtLSnBpSmdwUkFJQ3JMNEFVclVrMXFDNzFOc2NzM18tTXZOSGVQMkFITkVxalZ6b1BDOW5INkNTajhxeFFNSkVQTHhKVmE5SkZrRjVrWVprUC1zb0FKOG11RjBRdFZXT25ZeTVRbmZzWi1kUWFIMWRfQ0hGQjc1dldaNlhJSF9fSjdGc0NDR2U1WTdfZTdGNGdOdVHSAdQBQVVfeXFMT1ZsRC15bXdYcnVhdGtCalhzeUVOWDZuUUhacjVabmhnMG9YMFVfeHlISGpKM0ZzOUlVNjNVMFUxSUtreHl0SWZPeVVWT3F6c0RyVWxNZVRWcU1nbnQ1Vk1aSGtabUNyem9oU19sZ3RCTzdtcFRuSEw1ck1Ua1I2R2pyMUlOV2NDeVhwa0pCa0VkTmpNRGNZeEVPTllDMHZ3Ym5nZmxDaDYxNVdXd05MUjVNZVJhZGpFc0R2c2tJUkxybURSWXBBXzJWRzVYUkxYM0dPTzc",
+        "CBMiqAFBVV95cUxPSjd0TVlCUFRsaVVEUEdqS2tfdUl2RUEwbGlGaWMycFNDN3hVTXRVQVB2UlpyYkl3azBST0hpOFRUV2I3VlkxcWhPcU9qeXpaYnljR2VCTmpjM2RRbmI2S0VPaVdheVlKWWU4NGgxRVRkVXozSTFxaVRCVUtJSmNzd2dEajZybkR6VWp1Rk1zYjdCZExTSjFrWGgzSmJwMUdnel9SemRUTW0",
+        "CBMi2wFBVV95cUxNcFlUTVdGWVhWT2lwUUhmR2h2Ry1GWTRGYkJDYkhra25jejhmRVc4UDN0UTVoVlZoNTh6TWFLQnB1MjhtbWxCSldnQy1MeFQ1VXlma1EzVDJlSGRsYU1zZWp4c1hUM0VLdWcxcnIyNTlnNGVRYThNVm05NzJ4SWxRbDk2bC1aWENaQk9fTHFJcTZmMU5UZGdhdXFCMTg0ZXZtQXlPNmxGS1FxQktuVFByaTRHOEp6ajZzUXMyUDRNLTJVRE5RTXRHa3hjVXU3X1JMZzN6OEF6dVRnZ0U",
+        "CBMiugFBVV95cUxPS0VNUFhVZDJqeFJ4TC05UE54TXVoYVhZdkVDUkE0aFY1OXo5VDhabG9XZHJ6V2F3b3hBZk55WVBTbXM1RGpKMG5BWWtwV2ZaUWctb3JoWG9saE4yTTJFMG9YQUYzN1VnTjBLV3B3c3A2b2dQS1IzdmxOd0swZE9PTDY2UGxyZ2dVTkd3WHBjU2p2dFpDTTFSOVI3dlc1MDVmd0h0RWVTODF4ZmIyUDR4ekxSQmNNMW9MVUE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-27T23:24:04.870Z",
-      "last_epoch": 1793123685000,
-      "etag": "\"0f730ecc9874c540bdc4e1b7ec3db2d53-gzip\"",
-      "last_modified": "Tue, 27 Oct 2026 23:12:11 GMT",
+      "last_fetched": "2026-10-28T10:13:45.500Z",
+      "last_epoch": 1793177933000,
+      "etag": "\"08cbd2162c6cb10583852a96c9a593b18-gzip\"",
+      "last_modified": "Wed, 28 Oct 2026 09:54:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -302,11 +309,14 @@
         "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/india-woos-south-korea-cyprus-to-boost-shipbuilding-and-maritime-sector/articleshow/135239943.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/tax-officials-visit-radico-khaitan-offices-and-plant-amid-review-of-bulk-scotch-imports/articleshow/135239560.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/shaktikanta-das-calls-on-bfsi-sector-to-propel-indias-infrastructure-and-high-tech-manufacturing-growth/articleshow/135232860.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/textile-pli-scheme-likely-to-be-extended-by-four-years-with-easier-norms-for-msmes/articleshow/135242883.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/textile-pli-scheme-likely-to-be-extended-by-four-years-with-easier-norms-for-msmes/articleshow/135242883.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/petrochem/adperma-set-to-start-commercial-production-at-haldia-plant-in-december/articleshow/135258825.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/waaree-energies-expands-us-solar-manufacturing-amid-data-centre-boom/articleshow/135258450.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/ashwini-vaishnaw-says-mobile-pli-scheme-generated-rs-25000-crore-in-direct-taxes-employs-12-lakh-people/articleshow/135249680.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-27T23:24:04.929Z",
+      "last_fetched": "2026-10-28T10:13:45.520Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
