@@ -13,7 +13,7 @@
     "generated_at": "2026-09-07",
     "mock": false,
     "query": "GPU / Graphics Processors",
-    "updated_at": "2026-10-28",
+    "updated_at": "2026-10-29",
     "coverage": {
       "sections": {
         "size": {
@@ -62,9 +62,9 @@
           "as_of": "2026-01-01"
         },
         "news": {
-          "sources": 2,
-          "confidence": 0.84,
-          "as_of": "2026-10-28"
+          "sources": 1,
+          "confidence": 0.6,
+          "as_of": "2026-10-29"
         }
       }
     }
@@ -1295,6 +1295,27 @@
     ],
     "news": [
       {
+        "title": "Dear AMD Stock Fans, Mark Your Calendar for November 3 - Barchart.com",
+        "publisher": "Barchart.com",
+        "date": "Wed, 28 Oct 2026 23:08:41 GMT",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM1A2S19LMEpnSUJCWDcxNnZERzNhTkR2dnFTSkd3X0NMWjBFZjRBcm5ldVo0UnJ3a1g0ZFhjOWwtcmxETGF0Mk5yWC1Gb1dzaGJwU1Y3dGpTeG5fVE5GOEJyMEtmaDlMRWctYUJQamcxMzllQ0MzUThTQ2hiUGZNUHVYOWpxNm96QmxTYTVWSUQtS3JIVzY4Y2U2MjBoQQ?oc=5",
+        "snippet": "Dear AMD Stock Fans, Mark Your Calendar for November 3 &nbsp;&nbsp; Barchart.com"
+      },
+      {
+        "title": "Form 4 QUALCOMM Incorporated For: 28 October By Investing.com - Investing.com India",
+        "publisher": "Investing.com India",
+        "date": "Thu, 29 Oct 2026 00:54:21 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOGNmSEhuOFZtR1FYN1FnZFdUdXYzMUhRUThTaHlNbzczMXpSeDNtRDBxWkdMRzc2UTc5c29WWlpWMGlwSWNkMlB0c2g2VnFzbzB5anBqR2hubWI3Uk5FUzhRY05Jb3VVdVdvcVpVV25hNmZ6X1F2QmFoSG9LLUJJM3pkUWE3dkRqOUVPWTB3VUc3YUZFMnZPTms4OGZyZXlRQk5OYVB1NA?oc=5",
+        "snippet": "Form 4 QUALCOMM Incorporated For: 28 October By Investing.com &nbsp;&nbsp; Investing.com India"
+      },
+      {
+        "title": "Explained: Why Anthropic could owe Amazon $110 b even if it doesn't use all the cloud capacity it has committed to buy - Livemint",
+        "publisher": "Livemint",
+        "date": "Thu, 29 Oct 2026 07:22:42 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQbGtteV93UmsxV1lwVTRpODZqSjc5WTZabzRjZjZkSHB3V2FJQWozeE5CNXR0WDB0cWMtcFEwU0o1TEhDQ3lrLWhEREw2OE93Z2xMblNBZXc1ZXZRTEYxMGtSUHFDb0NYQi1nZWF5bk9BNy05VVRfdXJibDBpWjVQR1Zsd0ZidDhGNklOa1JIVFBDMDZFdVkxdUxZdklBWFpCX3hBa1RZUFRSQUdJWlh6bm5KOWpLdmpzVENPVFlvX0tTR1F1R1NkcnU3bjV0ajkzbDl6Z0xlajRLNmNkU0xxYTZGbk5QSElNTnc5QVhvSURIOVg3eVhITnl1MUVOOXQxUGdWdjBn0gGLAkFVX3lxTE5mOEVfVEh3SDVPQ1RSTjJMVXBaY2luNkRzZnoyMHZwcjFwRHJIcC1tZ3BXQzBIQ3hhS2dhT2NiUFo4RXFwOFVZOXJrTUoxX0U5Z2lYNGRTTWt6cnB3dDF2WWVxaThSWTMxUkM0UzZPZXcwQzJGdzZ6OE1DbHloaUk2Rk1mSlA1Q3V0a2xJdVlXRHZwaDB3S2tLb3FkWURIWkpsNjlidGx1Z2o1VXJTWU1oT0VKR2pyd0dNR3BMbGU5aUtWWnFmdUlWOUw2LWRURUp3THNkclNjYkRBZGlzYVgwOEZQXzlkSkV4MFBaZDRIUFQ1cl9mVVhleHVhSnVId3k3dUtVcDgzdFJLdw?oc=5",
+        "snippet": "Explained: Why Anthropic could owe Amazon $110 b even if it doesn't use all the cloud capacity it has committed to buy &nbsp;&nbsp; Livemint"
+      },
+      {
         "title": "Intel India Deepens Semiconductor Role With Sovereign AI Push - The 420.in",
         "publisher": "The 420.in",
         "date": "Wed, 28 Oct 2026 19:13:04 GMT",
@@ -1482,27 +1503,6 @@
         "date": "Tue, 27 Oct 2026 19:05:27 GMT",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQnE2UEdCSE9qUkxiR1NONVQ3YXZ3V3V0MVoxZC1vb0xRM0VsUEU3Z2E2U3NUdGF5bGszY0ZwR1h5ZVl4bjF4SjBLdndPM0hoSEJEOUE2SnJKQzBXQzZSM2cycUxVekM2V1d2VnJ6OVBrdWFjaTBBT3lfWGVYNGlsV2x6Zm9wZ0h6U3dTWVU5VWM0Uk1IYnZqQlVWWG1HbUViZC1DMU9NdTZIejg?oc=5",
         "snippet": "What Is Qualcomm (QCOM) Signaling With Its BlueChip Government Laptop Push? &nbsp;&nbsp; Yahoo Finance"
-      },
-      {
-        "title": "Qualcomm looks beyond chips to smart glasses, edge data: Rajen Vagadia - Business Standard",
-        "publisher": "Business Standard",
-        "date": "Tue, 27 Oct 2026 17:38:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOFctMEtlNldrYTZXTWwtZVRSUnUzLW8weF8xSTNLV3hHQkpESDJ0X1ktcGc1RUZLcUhWQXQ2U3JQclBmY1pwV3JDeDJ2OEFLWFluc1dMRGN0N3h3bXZidmlyWEI1ZENMU1ZVQXJUQmctQ19ZV2NjYlhtYm9KOGRJZHl2bC1XR2ltajJJWTdPUktVRUkydGFtem55S0tSYXBGcHZkQ0FvbF9HTndoUjYzcUxGYy1wRV9XLXZOX2UxR09uOFptRjJSc0kwYmg5WFBkUThTdHJ30gHbAUFVX3lxTFAwSGp5cXJVNGJ4TFlqTFlrYlZHcWhUc3k5a0FiLXlha1ZsOUJxNktUbjkyVFdOb3k1UmdheUw0c1I1VS1WLVBLbHllSHRpVzhMTTh6YUxxMlAtRFgxVkNUeVdHMGMxVDl0S3FVeXNPMnZTdWYwM3N2UnhXZHlta1dKc3pUU0drc1otaFdrQmw0cm85V0JJNkRhNU1qbjQtNE0tcnc0SXpDM2NTby1lVUw0TkVpUWJSeXJNTFd4UjFBTW5fQUJ2b3VTWVZHSGJPcFBGbXF1X1lYMGdGZw?oc=5",
-        "snippet": "Qualcomm looks beyond chips to smart glasses, edge data: Rajen Vagadia &nbsp;&nbsp; Business Standard"
-      },
-      {
-        "title": "Anduril and Qualcomm plan to build laptop with US supply chain - The Economic Times",
-        "publisher": "The Economic Times",
-        "date": "Tue, 27 Oct 2026 16:39:52 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYWdwYm1uU1M0VDRmMWFPS2V3MjdGM2pNWWZGcnBmVG02VDlrRmZiYm1ZTlNvak5aR2VSd0tiOTNqcjNMR2NqdmhyczlWV19BXzhVNFpHemwweUlxZmc4UlhrQm40WmxiUmYtSTRCMUYzcnRKWXdRU2dsMW1oZ2lrenJtd2NaRWU0em5jOFY2d3RWLXhVcHQ5OFVubjJDVHpTakFTV3JTVXFSaEREeGR5eVNhQmF6WExjNjREU2RCWF9pQ3BVZjh4VVJvSkLSAdIBQVVfeXFMTk1EYXdSSW1UU0s2bGdPMUYzXzlkZWk5UTdheURhR3Y2OEZDR0ZiY1lidUtBUEZ3b3FlMzZ4MDNOTDFVVl9nRVpjcjNaR0dNMWRuNE1fSFZ2Z3Ixb3dZcG50QlZvbkhpcDJqcW9neEQ5M2FPTDk1RWNRbWxhWFNmd0NFamRtMkdRTzRaVjJzWHB4UHJ3QTFjZno0M1RqeklkMzk0S1dHWFZXOFFfbEFXb2pGSlYtME1BNzRsMVdudlVsTDVtUHdBT0RtNEFFcUZRdjNn?oc=5",
-        "snippet": "Anduril and Qualcomm plan to build laptop with US supply chain &nbsp;&nbsp; The Economic Times"
-      },
-      {
-        "title": "Regional rural banks to set up cybersecurity centres, develop threat intel",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Tue, 27 Oct 2026 23:38:29 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/regional-rural-banks-to-set-up-cybersecurity-centres-develop-threat-intel/articleshow/135243325.cms",
-        "snippet": "Regional rural banks are set to improve their cyber security through the establishment of cyber security operations centres. They will also develop capabilities for vulnerability assessments and incident response as part of the reform agenda. The Financial Stability and Development Council plans to "
       }
     ]
   },
