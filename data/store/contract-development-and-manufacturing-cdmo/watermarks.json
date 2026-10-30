@@ -102,12 +102,11 @@
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-29T17:50:14.491Z",
-      "last_epoch": 1793286333000,
+      "last_fetched": "2026-10-30T03:20:48.744Z",
+      "last_epoch": 1793327497000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi8wFBVV95cUxPNE5UVXRITnBzN0kweDIxMjBCbHpfTEtOWEx3bE9hVUh4ZGlidE1aY3ZmQzZra1phV1ozX295dFJvT1M1aHotQjZtWlRhVnlVWno0ZURrU3JKMnRKYVJ4SmdtYnplb3cwUUpmcUtrcmxnVk1BTXU0bnZJc3pfUkdiS2dzSFhGSU9SNlBTLW45QVJBR1hmdDJIUkxiVnBsNVE2YXo1ZGxweXllXzloOU1YeDRPX216a2tjSnc5UzN5czdFUldEbXNtT0xCWUVHR0RhNmlVcmpRWDMtWVFLcFJrZXRNTlVUU2FQT08wd1FEXy1FcFk",
         "CBMipgFBVV95cUxPMGlLb0JkWXVLZ0Y1MUltQThGaUtyY3VkYVZVbFlWaTZhNEduRzlyOVYxNUFJTnpaN2hVZXh5QlpPMXdGalRGQkRRQzNHLWlXNnRQMjVMUWxhWkpHSW9qRmVfR3lZRGtfRUpfSloyRFBtMTUyc1hnYVJ3bjJPa1dNQ0lhRDl2bEcwZHdqREg0SGo2TW43d01uaEJSTXpabHF2SERfYWhR",
         "CBMilgFBVV95cUxOQml1WWxHSDFjWnNrRGMzdHN4WlR3a01WVWItSXQ3cFFsY3RscWVTYmJ5YW14WEhJNDdkeXh5bTNVV2VMcHpQTG5ZQU1tUFZ4dG5iYndJbXJtUUVnckg2cnN0bkltTDBTbWlieTduQVRFY01NcjROd29kS2FGRFBSUWtTNzZHbEpWeUlmZVg0NkNUZ2V1X1E",
         "CBMi1wFBVV95cUxNdEtHdEpqZ0pYdl9EajVzTThFa3hUa19OTkd3LWlMYVdBMTVHV0hlaDBRMVdUTllHck5Wd21HMlZwbEpEMXFyWHNSUEp2OHNodmV4UWp5RFBxMXV2TDZmTDhwVm9rak9jbDZXcTVzS1E2NTY2cXRDX052MnlWTnpfNFl6MEpnSzAxb3NMUVo2Ylk2Z2tHbVFTbUw2Q0JPU0tGSmxlNFhFdzJmbWx0dUJKb2s2anFZSi0wLVN0OTlfX2FUSjZVbVdzTVlCdkdjaXJDUDdOSERsRQ",
@@ -406,18 +405,16 @@
         "CBMiugFBVV95cUxOaTRsdkRsbm9oVmZ5VFBhNFNveTc3Zi1hNXV3QjNNSXVhTWgxeTRGSEtudHVsRDNKVkJJYWkydHhlN1N1R1dxYThSSDd2R2tzY25iS1JZS2R3Rk0yVl95MTRvc1ppLThqZ0RzVkhxQ3d3ZGp4MVFJeTZyTVZLWmQtQnZVWjhZV0RjczRsamYwUm9nOTNHOC01X2E2UGNCcTFvSnNjZklKeWplNlFJYWU0ZURNYlhMS1lpcUE",
         "CBMi0wFBVV95cUxON3lJcnNYTnN1d3JIbHg2eVk5NkRVMktMSDhFRkE4WFRiQXg1UU9aSTFtckdrWjBDRUZwUDVOc3lGVDJ5YllLeXpPMlRPelY2SE9Ha3RiM1I5YTZrTzk1d0RCUTZWNENjUVR4bnRjdWRHNTVnZFA4VTJlQ2xCT0drUG5xRHYzWS1LRFNpb1JUYl9MZEdfX3BrSGt3ZDExQ211ZTRKQWFoRk5hWXE2b0VWc0ZyVnFXVkVtWGFXYnczOFNodnBXcXFfOEROYnFSLWxraUln",
         "CBMirwFBVV95cUxQajVyRng3RDByaG14Tk9reWhETHcwZ1hRaXQyajN4SzJUODB2ZDQxY3NhODFZVGJ2RllKdjN0ZE56VlcxeXl6YVo0YzBkaDVMbWRaX1VDLVVmeWtvU05IbU5uMFdaMEhjSVNYSzIwcUJmd19Uay1oOVFUMWN0UUFMUkJmblBYR3FmdWVMbHhuWDNRRHpTMEZ0MkxEQnlacF9SRDUxU2o2SW1nd1lDOEtJ",
-        "CBMi1gFBVV95cUxQS1huM1pRR2JrSUtTR0NhME85bzhHSnU4enQ3bklxdkdfQTFhX2dpek0wTlVhQ0xfR3pUMEtuRXljeUxOS3hla055NHVzYmc1Z2N1NzNqaGlraWFDMkdLY25icFhleEtkeWQzNnM4TVRaQjhwNW5CNlFOZk1EZlZsM24wN2x2UHY2cWNDaHVZb3d4dThCbXdHTGdxeTNiNWhXSXIyWDdfWjQ0TmI2WU1RT1NoSFEzQmcyMmp6cWI4MXcxUTB0RVI0cVBkYXo2TVRLWFRWRWRB"
+        "CBMi1gFBVV95cUxQS1huM1pRR2JrSUtTR0NhME85bzhHSnU4enQ3bklxdkdfQTFhX2dpek0wTlVhQ0xfR3pUMEtuRXljeUxOS3hla055NHVzYmc1Z2N1NzNqaGlraWFDMkdLY25icFhleEtkeWQzNnM4TVRaQjhwNW5CNlFOZk1EZlZsM24wN2x2UHY2cWNDaHVZb3d4dThCbXdHTGdxeTNiNWhXSXIyWDdfWjQ0TmI2WU1RT1NoSFEzQmcyMmp6cWI4MXcxUTB0RVI0cVBkYXo2TVRLWFRWRWRB",
+        "CBMivAFBVV95cUxQQUdDb19HZkNFR2dRRHNVTS1DRVdSVmpvZy1KTjBSaVRMRUtJU3AtZ2RCRTVOUUlyOXpIOGZWOGo1NWhOcjJ2N25hYTB1d0tKMzBhaVIza3FtT1FpU3ZvNTBCUDdDS2RIYk43eFNoRlJCTEREWDNxXzlFd2ZTdGhyNmxhOURjd1BrenYwWlE3V0V5dlFKdm5tSmFtVFZtTlU4OEkwZ3RUa2xPVWZWLWFaTURyWUJmZ1l6Zl8wbA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-29T17:50:14.616Z",
-      "last_epoch": 1793287994000,
-      "etag": "\"00e1b5a68accb0450a2a40a1f1cbe8d63-gzip\"",
-      "last_modified": "Thu, 29 Oct 2026 17:31:26 GMT",
+      "last_fetched": "2026-10-30T03:20:48.827Z",
+      "last_epoch": 1793327032000,
+      "etag": "\"0c4e3f66ae1aecd8414d6d9b1e2c2e747-gzip\"",
+      "last_modified": "Fri, 30 Oct 2026 03:09:07 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/houthis-seize-strategic-red-sea-island-raising-fresh-threat-to-saudi-oil-exports/articleshow/134087216.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/jk-bank-receives-best-csr-overall-practices-award-in-bengaluru-md-ceo-reiterates-commitment-for-inclusive-and-sustainable-development/articleshow/134146160.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/roadways/haryana-govt-approves-hisar-kurukshetra-narnaul-jind-and-sohna-palwal-bypass-projects/articleshow/134179202.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/nhc-foods-plans-to-set-up-a-manufacturing-unit-in-liberia/articleshow/134189441.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/indias-electrical-manufacturing-sector-powering-the-next-phase-of-growth/videoshow/134234406.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mumbai-sees-redevelopment-boom-as-1000-plus-projects-reshape-housing-market/articleshow/134231805.cms",
@@ -714,18 +711,21 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/one-planet-partners-launches-maiden-pe-fund-with-japan-sumitomo-mitsui-trust-bank-smtb-targets-rs-3000-crore-tata-group/articleshow/135295669.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/schott-pharma-india-marks-a-new-chapter-building-on-its-strong-national-presence-and-global-capabilities/articleshow/135291362.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indias-pharma-exports-rise-4-9-to-usd-16-14-bn-in-h1-shipments-to-europe-up-nearly-10-pharmexcil/articleshow/135321960.cms",
-        "https://economictimes.indiatimes.com/industry/auto/two-wheelers-three-wheelers/tvs-motor-to-make-80000-electric-two-wheelers-a-month-as-evs-capture-over-20-of-indias-scooter-market/articleshow/135301923.cms"
+        "https://economictimes.indiatimes.com/industry/auto/two-wheelers-three-wheelers/tvs-motor-to-make-80000-electric-two-wheelers-a-month-as-evs-capture-over-20-of-indias-scooter-market/articleshow/135301923.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/adani-ports-floats-unit-in-oman-seen-closing-in-on-salalah-port/articleshow/135339400.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/centre-to-tap-iits-nits-for-nuclear-tech-courses-to-power-indias-100-gw-dream/articleshow/135338335.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/insure/health-insurers-seek-expense-cap-tweaks/articleshow/135330238.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-29T17:50:15.092Z",
+      "last_fetched": "2026-10-30T03:20:48.845Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-29T03:18:30.843Z",
+      "last_fetched": "2026-10-30T03:20:48.872Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
