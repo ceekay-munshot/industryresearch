@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-30T10:37:04.093Z",
+      "last_fetched": "2026-10-30T17:29:56.026Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-30T10:37:37.720Z",
+      "last_fetched": "2026-10-30T17:30:06.257Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-30T10:37:38.832Z",
-      "last_epoch": 1793352150000,
+      "last_fetched": "2026-10-30T17:30:07.503Z",
+      "last_epoch": 1793368422000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -227,14 +227,18 @@
         "CBMiqAFBVV95cUxPSVBUY2JwQXdENjlQOC1weVBnNnFnYmc0MkdyanJRSlVMR0VVcTRsQlVCbGdQdGt4UFc0NTJKNFpkRzBZV2FMeWlzVzItUFdCXzA2ZVdIV01ZMGRESEF0aFppdldsYkg2aWJ0NHlWV0JVZWNQcDlVTDgzb3RtM1loVXpoOTVKM3Vkblo3ZW5fUV96WGVxYndUdXFlcEpxWGZRdnp5SEFwUGfSAa4BQVVfeXFMUGp3V2E2NlhKbDBHY0h5RlJyNFpWbmdWR2RnSzJKYUNXbnpZX1JfNkg1cUtfaUJIR203SnRlQjdJVU5lakE0Y2R2NUhoNWZFMFpwSXFIWmx1NTEzNjdUUm9wamR1WlFzeTZWczlsaW12V05Cc1FWMVpGVDF0YmxGcjR6TTVuTmR5dXM5a0d6TGpyR1djLS1xS2xsNktwSlZFVmFOX3p3eFBxc25HR3hR",
         "CBMinAFBVV95cUxOcGh0aUp4UEhsWVA0QldmdG5LakJnaTlVWnhaME5YRzNLTEpPVmpFNHBhS2Mxdm9FLU5RZXNSZE5XWEc0Z29saTg4T2NybnJFM2tkeW95Mm1LOVNJQWZsREtNVWN6dnowUWpZSWVkOEczRzFpUjAtTEtKdi11WWNlTnRpdXg2WEpqaFhPdzNKYlpxQ3ZkdFFodTN0RVI",
         "CBMiogFBVV95cUxObl9xUEZyZVBKZmVTcTlhd0xLaU42bVNrRWhXT3BFUzBTSkp1WmVYZlp4QUZac25WRW5LYTVZamZid0VCQXpTdndSU3NYaTZvSE1JQzJlVFhscjQyNkVHbjdWZ084X2FudjRPNWdoWHFJbHVUbEgxLUtMMjZxUU56LXhhamFGY0NhM0NIR3d0TEU2RVVkOTFSaGpsa2k1VDhGY3c",
-        "CBMi0wFBVV95cUxPeXFJa3BpR2E1dzFOTlYzVW02bEF0NVpTT1cyNmt6WkFIcmtqcVdWQTlPSk5BbFlxZWtpNkVteG1ta3FfdE1talpSWHNtRnpoOHF0OTZBYTNhNkt2dEc2UkZmMEFIZ1d1MXZtTldYX3U3UU5keTFyVmM4X2FkMXZGWHhEQ0FSdEJFMzBoMU40cWN3X0U0ZmhLWHc1dnJoU1VqRTdZX05VOGpFRHlCU3M2d29yN0hFNHRCRkZvbnFucERBRVpZRk1ZeXpRTk9YLTFnNk4w"
+        "CBMi0wFBVV95cUxPeXFJa3BpR2E1dzFOTlYzVW02bEF0NVpTT1cyNmt6WkFIcmtqcVdWQTlPSk5BbFlxZWtpNkVteG1ta3FfdE1talpSWHNtRnpoOHF0OTZBYTNhNkt2dEc2UkZmMEFIZ1d1MXZtTldYX3U3UU5keTFyVmM4X2FkMXZGWHhEQ0FSdEJFMzBoMU40cWN3X0U0ZmhLWHc1dnJoU1VqRTdZX05VOGpFRHlCU3M2d29yN0hFNHRCRkZvbnFucERBRVpZRk1ZeXpRTk9YLTFnNk4w",
+        "CBMia0FVX3lxTE1KVHNYOWFkTUZvd0ZCNklLTG9sWFl4enNLUDFia1BKWTRNSWxfeTBGaGg0eFNFWjFQMTJhdVRFdkJncy1wdEFZY0FraEhNajhmSENkUmtVMDdxVFhleklxQ0I2LTd3dEljMzVZ",
+        "CBMi1wFBVV95cUxNYTAyVERFX2Z5YXRMQXhOZ2hTdHQ5ZlhEZDV2ZEljOHlkeHh2RmNfUF82N3pBUDVUTXZ5SDFYLWRCdF9KcWpUS0h2cTNUbk5McDkwcWNEMmFrd2s1c3pLSnRJZUpqdEswMUhpVFFsU1hiNlFBVTFqeThxNlhuR1JrcmV5bndUeF96dlVyVGxGbFZVOFhjclF1S0ZVYjVuNTVDbU41Nk1qaXVOSUNieDNqMTd1cFpnaU13aVh5ME9teWxuSW1qVXkwM1ZVUkJqSmZwcW1MRVBORQ",
+        "CBMivwFBVV95cUxNRE5kSlczWGl2c2lVUUdsTmNyTTNtQU5aUktHVkJyRHRVdlZ6OG9vbXV5THo2dEJOdnR5UUI2a3NWcE9faXh1OTdmY1lsWWgyUmx2Sy1yd09HWTZfRGVSYTNmNmV6d2VFVVllaEFBbzVuZUNnTWtac2hWNVJNY3BPVGRTOWZRS3pZTjliZ0k2alpEdG0weDlRNGsxdmxNTzBydk45cERlcWVydlFKM3ZkSWVpTnE5akFRODdpNmR6dw",
+        "CBMiyAFBVV95cUxNMno4bndPYl9RNVRITDdvdFA5VmxkZkcxSjN3d09CR0kzdTJzTkZDRnNWTHc1ZWc2UE4yVURrZmhBZU8xbWJJd2drLUZZWlNNcjNkVTJxWjJQMnlHSlM3U1F1MndkTW44VXphSXA1bmpXNXBMYkU3UzJZU3J5NnhNTUJZdWJ0LUh3ZWVLVlg4c1lYaU92dExTNkpNT1VWMnJ2bnF5TUJTV3ZoS0RtQ3FXSUcza2Z3YVBRMzMxT2IwV2NBTUNKTE83RQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-30T10:37:39.001Z",
+      "last_fetched": "2026-10-30T17:30:07.557Z",
       "last_epoch": 1793354821000,
-      "etag": "\"00a7129fb09f2d46f0f62c5b84c675030-gzip\"",
-      "last_modified": "Fri, 30 Oct 2026 10:06:08 GMT",
+      "etag": "\"046f3efbadecf6ab0c166b69d015c597f-gzip\"",
+      "last_modified": "Fri, 30 Oct 2026 17:19:28 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -348,7 +352,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-30T10:37:39.402Z",
+      "last_fetched": "2026-10-30T17:30:07.647Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

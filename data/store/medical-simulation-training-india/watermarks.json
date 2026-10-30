@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-30T10:33:48.929Z",
+      "last_fetched": "2026-10-30T17:26:20.127Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-30T10:34:24.479Z",
+      "last_fetched": "2026-10-30T17:26:40.078Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-30T10:34:25.719Z",
-      "last_epoch": 1793319463000,
+      "last_fetched": "2026-10-30T17:26:41.273Z",
+      "last_epoch": 1793371428000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -217,14 +217,15 @@
         "CBMivwFBVV95cUxQZ1Q3VnRNRXJybkR5Q3dlSEkyX1NJTE9FblB0VmJ3TjJsVXdTMUVhVEhZV3ZwbWVtaGVycm5pX0ZMZU51Z1JzTGJIS2NWVXJ0dXVFNXJlWGVuem9XWWxzNW1JZldiUFRvVklWbjRfaXliT0FxVDl4SzROTE9wdGJOU0c3MVFWN2RqaEoteUJFcS16WE9QSnQ0OV9RdjJ3a3lQeTZiV2lOR0tlT0xSV1hlNjRBR2tmMERHU1VPTk5yNA",
         "CBMiwAFBVV95cUxOYVVYNFFfRHFpX1NGM2hLRkU1RFN2cDdwUGNWcVJMYU9fLUpkbnhSWTE5UEMtQVlDVTRQSXAxdTUzMFExcnhQYzJjTDhQal9HdG5FNkgzUm9yLXFjRi1UYVpBWnJkZTNNSGZGWEE3cUNRaERiQkFGU1RES2JYRW1JMkhoRS1WVm8xYjd1X3FsalBmXzVpNWM0TmtfeHFPSHB5MkU3ekFWSWt3Q1B6dlV1VTdvTkpVcjVybHFEWnNXbXQ",
         "CBMiYEFVX3lxTE52THF4S2lmdld2eWVzSGJaUDlvbkJtOEhDYnZqWGg0MDlmWk9RbUlVZzNjYTlQY094cmFHOUZ5ZnhXX3gxVkRMcm96TkM2RUkyUWpPMjY1YUJ0MWJKOXVoVA",
-        "CBMilgJBVV95cUxNMjFRdmZqRm9zSi1pZ18wdEp2T3IzWW51Q1laWDVSZ1d5ZXBPNU9lT1gzWjdsZjVicVRyQnByRFZUX0gza1pWcFBMR2pfZU81MFZ2NWxFN21DRVJSMzU4M0x4Q1g0RGFxb1VTdHhCSUlVVEgzNTZXTFdPOUUwVi1xdVY1SGxiSG1xbGJfeGM0VTFEYkRnaW4yekxvREJXdDFDV2pQcTgyM0tFbTRuQllNSHdoWVFJeDNrMXA1VnJqWmdnRkl6cnB2a3c4dFFoUlVHMkNIWFFueS1UNUI1Y3VIaFRJWmVzTFdhT1BKSXJQMGxXU2N4Y0tkVkFLN012RXAwRmdNUHlMcklZVmRhdllrZXUwZmw5d9IBmwJBVV95cUxPZm5hdmc2X1dvNFVCQnJGWk9qQWhhYUNYU1dpT3haWUx0VzdQYXdRUF9ZRnByc2wwRTlYREVmZVhFOWphQnQ2Ymd3XzRkUWdYaWpfLU83WmY1WmRXOE5nemgxeGd4YnlneVBCZUsyRWdmS0o4MjNWcWFWU0lVM3FwdnJ4bGRMWDI0cXVGMHVRdHdLcUU2R281Mnd2NW5VWFQ4UzN0LVJpVEsySW9vcXltN2VvQmY1Y3N2MWt5ZENVWDZCQ1NsaU5LWXBsdXpiSG1jLUdBRzZTMTBHaHBYNGVGVEJFV1ItX1lDUGFwY256YWZnRmpTNGxpWlJ6REs0d2Z3NXJSdk12dDBHSHhsTGdJS2JkX2NPZTJlYkxB"
+        "CBMilgJBVV95cUxNMjFRdmZqRm9zSi1pZ18wdEp2T3IzWW51Q1laWDVSZ1d5ZXBPNU9lT1gzWjdsZjVicVRyQnByRFZUX0gza1pWcFBMR2pfZU81MFZ2NWxFN21DRVJSMzU4M0x4Q1g0RGFxb1VTdHhCSUlVVEgzNTZXTFdPOUUwVi1xdVY1SGxiSG1xbGJfeGM0VTFEYkRnaW4yekxvREJXdDFDV2pQcTgyM0tFbTRuQllNSHdoWVFJeDNrMXA1VnJqWmdnRkl6cnB2a3c4dFFoUlVHMkNIWFFueS1UNUI1Y3VIaFRJWmVzTFdhT1BKSXJQMGxXU2N4Y0tkVkFLN012RXAwRmdNUHlMcklZVmRhdllrZXUwZmw5d9IBmwJBVV95cUxPZm5hdmc2X1dvNFVCQnJGWk9qQWhhYUNYU1dpT3haWUx0VzdQYXdRUF9ZRnByc2wwRTlYREVmZVhFOWphQnQ2Ymd3XzRkUWdYaWpfLU83WmY1WmRXOE5nemgxeGd4YnlneVBCZUsyRWdmS0o4MjNWcWFWU0lVM3FwdnJ4bGRMWDI0cXVGMHVRdHdLcUU2R281Mnd2NW5VWFQ4UzN0LVJpVEsySW9vcXltN2VvQmY1Y3N2MWt5ZENVWDZCQ1NsaU5LWXBsdXpiSG1jLUdBRzZTMTBHaHBYNGVGVEJFV1ItX1lDUGFwY256YWZnRmpTNGxpWlJ6REs0d2Z3NXJSdk12dDBHSHhsTGdJS2JkX2NPZTJlYkxB",
+        "CBMioAFBVV95cUxQV2dNbGFNY1NOdWkxdjU0QTZTc0h0b2s2MUZLa0djbVhQY0w0NGRXR2FxNGRNNzVpSWlLWGpWNHZmVUN0SVdQWEYwbGZXRUNKNmxLOWR0MjlZcXVfa1JQWlA0YVRrdDkxYi0yTDJySVVGNlFjUWlCOTZYc2pBVDctNjBJVFhqTzdZMVNZUWFRbG95YzJCVmw1aUE2ZWY5cWdh"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-30T10:34:25.794Z",
-      "last_epoch": 1793354634000,
-      "etag": "\"00a7129fb09f2d46f0f62c5b84c675030-gzip\"",
-      "last_modified": "Fri, 30 Oct 2026 10:06:08 GMT",
+      "last_fetched": "2026-10-30T17:26:41.459Z",
+      "last_epoch": 1793377683000,
+      "etag": "\"046f3efbadecf6ab0c166b69d015c597f-gzip\"",
+      "last_modified": "Fri, 30 Oct 2026 17:19:28 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -380,11 +381,13 @@
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airlines-cant-predict-oil-prices-anymore-travellers-may-be-left-footing-the-bill/articleshow/135262393.cms",
         "https://economictimes.indiatimes.com/industry/services/education/centre-to-tap-iits-nits-for-nuclear-tech-courses-to-power-indias-100-gw-dream/articleshow/135338335.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/max-healthcare-to-add-209-beds-with-rs-415-crore-capex-q2-network-profit-rises-10-to-rs-448-crore/articleshow/135355191.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/omron-healthcare-expands-manufacturing-in-chennai-aims-for-3-million-blood-pressure-monitors-annually-by-2028/articleshow/135353364.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/omron-healthcare-expands-manufacturing-in-chennai-aims-for-3-million-blood-pressure-monitors-annually-by-2028/articleshow/135353364.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/not-just-ai-how-soft-skills-are-becoming-key-to-getting-hired/articleshow/135369844.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-gets-dgca-approval-for-flying-academy-in-maharashtra/articleshow/135366242.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-30T10:34:25.903Z",
+      "last_fetched": "2026-10-30T17:26:42.673Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
