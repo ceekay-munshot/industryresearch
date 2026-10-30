@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-29T23:46:51.393Z",
+      "last_fetched": "2026-10-30T10:37:51.620Z",
       "last_epoch": 1793181604000,
       "etag": null,
       "last_modified": null,
@@ -16,15 +16,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-29T23:47:26.560Z",
+      "last_fetched": "2026-10-30T10:38:23.897Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-30T03:20:55.611Z",
-      "last_epoch": 1793300866000,
+      "last_fetched": "2026-10-30T10:38:25.084Z",
+      "last_epoch": 1793340138000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -292,14 +292,16 @@
         "CBMiogFBVV95cUxQLTBrQ2VKRHB6ZnV2LVJ2YTk3WEoxODFLTVYwVUhEQXUzT2ZtM2QyYXJ2SkZHTjg0QnU2ck02YjR5UUdvMXM3b05fd0M3RUZ4enlXLU9UR2RvT0pTa3AtZGIxMGx6bFd5WGhvREZiTUtCNW1oRlluQkZWeTRyU2VZbnVLeFZuYllKa2IyRUpfdVFmM2dNeXhQVzJxcVRnWjVURnfSAacBQVVfeXFMUGluME12WTBFSEFPV21HcURFU0dPZjRZUzZNbVU2emFxdU5qY1hDZHVFOTZ1OC0zRTB2WGlWZ0FDZDhRSVpVNHF6aFZua3FHWjBqNWNGN0RnQUhjOTI4TndYWmlpVGRfaExPbFdDMGk5XzlDcUxJelFMYm5VclNMUGs1TGdTQ2VEYUdaOHdaaUVoUTRqU0tXbTc4NmxZbm5POFVjSTNvSDQ",
         "CBMipgFBVV95cUxNLUNHdG9YdmJWcms3X0tBYWs0WE1mWHNiaEd6TXNseXVSLUQ4TTNWV0s1OE5BN3Q0U29VbjV3R3BIM2Nlb0paOEFFLXNlZjYwMkVLcEV0YzNWUVBNMVVTTWY0ZU9LYlJZa0p2eDJhUnRuWTM0eF9kR1E2Q0JIelN4OWRhNWFYX0NRRVNFdUswX1plYm1pb2JkbDByZWE1aTlaeFQ2U25B",
         "CBMi7wFBVV95cUxPdkFXeURmTnRoYVlVdXd6ZVZKNXdiQWNwTFg0VnJKUnlkSGpBTzdzcy1Ycm04X3dpWEJmRGdUS19ycy13OEI5WV91MlpaZ3JXcXl2UFdyQnpraG9DYVA2VFBkUjlwS2JNc1BWcG9heXA4TmxIS1hPdzFHLVlnNWstb19Gd2VIQlhkZGh2c01McWtZQUVvMkE2YjhsdDFpV250T2xPSUZRNFBBS0lGT2VqdWVWaFFJRElKaDJBam5GRkhGbl9UVDhMSXB0UHhRd2Vtb2NWclRSV2swaTlMSWtLaHRyTFAwMUlsTFJYbGs1NNIB_AFBVV95cUxNZWJFWGF6Q1ZTelZuSS1sQkJzXzdhMVhnLUNOMTVPR1FtRWdNUzV3b2FHYk42a0g1TnUyLTROeVBzVGNudktQTklSVWFnVkxCUWctY01ZTlVhMEhaT29oYW9PXzZucW1MOEdjVEYwZFFzUnQxZXZXMFEyRHRyZ1BtQm9KSjVNX3dHY05pWm1qNVpiZDhHcWdvOXVjTVFtY29MSzFwWXFodGgtckZUYW1JSUpjcHB0dnZOQlJEZVdycGlWc25wckY4a0MwN2toU2pkRXFld01aUldZUDFtWlBUMXd5UU9EMGZzMFVyTDY4S2xESTZGWFIyRUlmT24",
-        "CBMirgFBVV95cUxPVGtDQThqbE9hUzFXTW9vRkwzdHRGaXpkZGY0MDBEZ0FGSDZDc0tmTWl3ZXNOWGZsN21XNm03NWw1Z2hlM2M3U3E0R25xQzE2ZVk5R24zbFJNQ0RxOUZ1Z3cwVGtOSVRNUGd0Zy1pZnJ1VDU0OUwwMFRFWlNBS3ZENnVmd2ZLdjB1eW5ISXhUSzVwcVp5TGV6czhqMC1kcnFTc2J6UnNoOHVaRVpGMVE"
+        "CBMirgFBVV95cUxPVGtDQThqbE9hUzFXTW9vRkwzdHRGaXpkZGY0MDBEZ0FGSDZDc0tmTWl3ZXNOWGZsN21XNm03NWw1Z2hlM2M3U3E0R25xQzE2ZVk5R24zbFJNQ0RxOUZ1Z3cwVGtOSVRNUGd0Zy1pZnJ1VDU0OUwwMFRFWlNBS3ZENnVmd2ZLdjB1eW5ISXhUSzVwcVp5TGV6czhqMC1kcnFTc2J6UnNoOHVaRVpGMVE",
+        "CBMiUkFVX3lxTE5UUTJvZUJBU1IwLUpCZ3hYYXhkVnJMWk5DM3BTcE1hbXlsblh5MVkwUlc5SEFQWHF6Nk1vRTUybW82X1dncFQySWw2TzI4VmJLc3c",
+        "CBMidEFVX3lxTE5xY1dkNkFocUpURE0yXy0yM1JmS0ZfNDhLVWg3dk5Va3JDc3NuUnhsejlqQVk2cnFjeFB6LTVBUHhTN3lLb2lUX1FlTTM2ejlkbndHVXMxS3gtcGpQczA1SnRibXdvVlMzcVNWVmVHN194eXIy"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-30T03:20:55.710Z",
-      "last_epoch": 1793200452000,
-      "etag": "\"0c4e3f66ae1aecd8414d6d9b1e2c2e747-gzip\"",
-      "last_modified": "Fri, 30 Oct 2026 03:09:07 GMT",
+      "last_fetched": "2026-10-30T10:38:25.246Z",
+      "last_epoch": 1793348729000,
+      "etag": "\"00a7129fb09f2d46f0f62c5b84c675030-gzip\"",
+      "last_modified": "Fri, 30 Oct 2026 10:06:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
@@ -312,11 +314,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/packaging/maharashtras-shabari-naturals-earns-global-award-for-tribal-inspired-packaging-pm-mann-ki-baat/articleshow/135184993.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/jiohotstar-expands-in-nepal-discover-exclusive-indian-content-with-dgo-partnership/articleshow/135229987.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/akasa-air-to-hike-pilots-salaries-by-up-to-20-from-january-2027-as-it-expands-fleet-and-routes/articleshow/135270729.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indian-corporates-become-the-second-largest-occupiers-for-flex-space/articleshow/135267094.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indian-corporates-become-the-second-largest-occupiers-for-flex-space/articleshow/135267094.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/low-sugar-fizz-high-cost-squeeze-varun-beverages-battles-margin-pressure/articleshow/135351109.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-30T03:20:55.736Z",
+      "last_fetched": "2026-10-30T10:38:25.379Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
