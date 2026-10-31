@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-31T10:04:07.467Z",
+      "last_fetched": "2026-10-31T16:31:02.710Z",
       "last_epoch": 1793399039000,
       "etag": null,
       "last_modified": null,
@@ -88,21 +88,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-31T10:04:44.456Z",
+      "last_fetched": "2026-10-31T16:31:37.395Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T10:04:46.101Z",
-      "last_epoch": 1793438070000,
+      "last_fetched": "2026-10-31T16:31:38.632Z",
+      "last_epoch": 1793445933000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiyAFBVV95cUxNZEd5X3BlNEdMWDNrNDlFRDRBNzdGdW9yanpDTk5xWk40bUJXODdpY2loLVZXN0hNMnRqSUFNN2drTjRHYzhCVi1BNHNKTDI0Ulo0ZndxT3JWTXdicVNvMDd3dWk3QjZ6R3dzM1ROZU9ENHFEdlZab0txX0NJd1hCWEVWYXN5aEVkUjZfN3NwVDlSTG5kc3lWckZhS2dONldDWmktSVVTZ0RfSktBVU5EbFc2dUNkM3k5eV83NzR3SExueXp1TkNuag",
-        "CBMijgFBVV95cUxQMUdjWGJrcmp1ZUhnbTlKLXlFWl9LRVdYajdqb2lwY2VYQjVuOFc5SFlHd25haV9Ja2lmaUMtZkZZYmhVbUxIYkpzMTI4SWhYY2tCN3hoYkF2SEUtZUdwbVhLdWx1NlFoT1NnX054VkNFbWx1UHhuQUZXRWpfakxpdnp1c0I2cDJuWFBKYXJ3",
-        "CBMihAJBVV95cUxPNXNnN0Z5NE1zQjRUcDdqZHdqYVRscmVRNVRKX3NQLUgwcTFZUTNtVU5tSWxfUlJGR0pSejRiTFJnX3ZYeS1ESm5yOUFZbXA1eEkwUVdia0lTNEVFOC1taFoxLUdScTE5OW5EOXNtUUhiUmU4eXhHMWxHS0lLVV9uOEtYRXQ1d19jX05QYVdlMkpnNWpMMmtyMzNtdHA1WnJ0LVZnd0VfOFpkSEkxMEZXOTVYcmZ5NkM0WlhZZGJLTjdxOGt1WWlpSU1xNjE5RjNZaEwwSThSZU5QUENZMl9ZTVotMlpSSG1FVHRybUFlNS1sWnlQT1ZnRktHMkZId002U3pqLQ",
         "CBMi7wFBVV95cUxPU0lURF9RaEJQZHYtdDJjbjl1VTNSYk0xODNqNE95WG1KRmFhYmJtTE9RaTYwREU4WXhBQmtSaUhFWFdJVUJRNW42RWN0TzZsS0xvcEtjRlJ1VncyS2NmeUJUck9zV3hzaUxxNkNSY2lPVTJCal9jVVRPcWhJV2lYWkpyaGxydzdQV2hWSWdNMzVEUnlKdFhqWEtsTXFOekw2RmM3eTAwRWxUTThBaUR2dDV2Y0RuN0NSM3czVGpiekl0alBwWkJnZm5UNEpZZHlXVEU3UW85Q3F4T0RWX3J6RG1sc0RRV3liNjBNZ2psZw",
         "CBMi_gFBVV95cUxPYkhTeEcwUUZpeWljMHROREJKOEVVSGx2MnBuNjVSTzdSRW5CR090Y1ZJVldyUUUwel9RSV9EZWhENjUxSUo4dEhJcWRUYTVVRDFVSE1EMW9NTGxTSy1vRUhOQnROaGtVaW1McFhsc2JQcVUxNHZPNlRFRDczSm9LcGJNRUR1V3R6MFZLOV9JY3ktaVd1bU1FWGRxZjRCQWJkUm8wRURWMmZSa19naVVmZUlwUWs3Q1hERXYyVlpJcmh1UWpUYl8zZFlLOHJ4bFE1MEFOVDZkODdsbVJvX3czVzVab0pQN2V5RGpWaUZqQ28yenI5ekpFOHFET2dPQQ",
         "CBMixAFBVV95cUxNNGotSkVWQWY1ckFMMVBkNVAtOGhvWnNra3E3cG5RVjRiU2dqY1FKc1JZb21WLS1CWDlsYkc1Nnh0cnhHTS0zWFl1aWJiZ24wOVo5Ql9YNHV4MC1sMVVhLXBGbWZ2cEJ2Q1NyMExab2Jvc2FKMEZvVnhzM2VFa1hmaDdyRVpaa2xxTDBXWGNYNGRuMXBYV0NDcnNhOWZEQ2tySmRqbkVmWWRMbHVpYVQxSGpJSEVtRk53WTBlT2h6aVFaVlJ5",
@@ -399,14 +396,17 @@
         "CBMi2AFBVV95cUxOVjgyQUctdXFEZjZsTXptc1VmYmIxZEhQbU9mYnZQcmlEc0NSZjZybFRBZ3IyLUdMMzBBbVh6VU03TjRleDRhWmQyZENrMUFLRWFTWV9HeXFPdi13MDczNU5GSnl1MS1fQ1MxNkUtcllja2lTcW5IaVFwbHZBZ3VoODRhUWFyYjZEYlNNTzBVLVluMG1KMzVGVjhBU290ZzZEM21icWhGWmtGT2FNdkQwdEQxZWdJY0ZGeFFFX1Fka3AwUUVnRlQ1WEV0TXpORGxKNi11QUROQjM",
         "CBMiowFBVV95cUxNMnp5cVhKWU9QcjlZTWJYZjVBS254RmZmTk1QeGk0bi1sYkVVVjlYSkI3RGctT1JBdDlOMG90UktsT2ZNOE5XajJyT050aHA5SUFVdnZfdTJITUpyczV3ajhCOFRNYlVSZXNWNk83VFF1MHZRbDYtZzdGMW5KMEFKWnd0NVJZYVdCV0ZwdUNqaDA5ajRUVFlXRjlTNGpTckVaSjRZ",
         "CBMirAFBVV95cUxQWjlKVlJLMFNKb013bkc2RHEzcEk4QmNvR1RPbGppV1ZIUlFVaGN6VWV0TGxscTlxbnM5bHN3VUZVUXJpeHgzSHpPTmt5SV9BMXdPMHMwOVpzbDhVa0kwY3MwVWltbWk5YVB6QTg5VWhNT2ctVlBfMHNEdzVWeENSV2FxUTNueDRaNl9pcHFlWDBzalRfcFhTV0VzaW1EbW1hcFF3NDhSbnNXWU1x",
-        "CBMivgFBVV95cUxPa2hHeF9SNkJ6cGpCbV93NW9CRTJ0Yk9senRrZ3ZJdjNid0NqS3RJWFVGNk9HTktyVWFRZzB2MEg1QTVyLXNuZjR6QlZORFNZMjFqNGdJNGhjbWtGamIxYXJkdzJXVmdGU3ZYTjlQRkxBUXFaQnJPYjJDRkdpVDV5R0lCN19BSEd2eFlzcjlQRWl5dS14RzBfMDItU01QdjNVR2RJbjBTcjd5OGJrMzFYV3dQV1pGYVIyNTlGb0Z3"
+        "CBMivgFBVV95cUxPa2hHeF9SNkJ6cGpCbV93NW9CRTJ0Yk9senRrZ3ZJdjNid0NqS3RJWFVGNk9HTktyVWFRZzB2MEg1QTVyLXNuZjR6QlZORFNZMjFqNGdJNGhjbWtGamIxYXJkdzJXVmdGU3ZYTjlQRkxBUXFaQnJPYjJDRkdpVDV5R0lCN19BSEd2eFlzcjlQRWl5dS14RzBfMDItU01QdjNVR2RJbjBTcjd5OGJrMzFYV3dQV1pGYVIyNTlGb0Z3",
+        "CBMi2wFBVV95cUxNNEJzQV93RXRvQzR6aVA2ZW1Oc1FEcGJpWTJTRWZiM0NRaGsxX0YwZndFd2VGRU1qV1lNRl9VSlF4bzlxakkyTnZ1TmliUXBBX21wWmRpQzdENkhYRlNjUFlaWElVMzN4SmdpVHFFMC1rR3VYNWY5dDRqeFdscVVXOE1tWkgtaDEwLWRzLTRWN0ZFclZMM09HcVY1UmVTcHBXMkZFaWpkMzlOMHN1bHQ5ZllveV9POE5tdjhHdEZDSHZHWHdGaEVDbUF1REZ1ck91SjRCZU5fRTBhQWc",
+        "CBMiwgFBVV95cUxNUkxzaHJUdGR0YzhmQkRfeUxnLXdjVldObHlWRVMwZ0NWVHhJSm55bElMbTBlYUVBYmYxZS1HRGRXLUpKT3BGVlJqMzBtSjNLUENDcGJfeXpGY2trbUg3TndJYlI2cHFsVXdHbVFFNXNvZC1TcENfcTk4aGFWRnNjbE03eWxaOEdMRmZaSW5qUWlMYWlLYUZ1VnY1WnJXTjhJWDljNTEwRDNlUlJUTFFGWENWM1JDZ3ptR0lTYkpaeVp4dw",
+        "CBMiiAFBVV95cUxPd2d5aHZJM3VXejRCWHktTmZfa29RQ3ZCMVRnOS1wc05ZdG9Lem9uUWRaVGJkM05QQlM2TGF4ZEhIaVlSSmFzc1VYRUpVV1JvaklDVXBISlVJdHRtUW5LeUowZ2t4R3l1N0drUEZxUDdLMW5JcmNZdWRiaWRoSGVjVm9JQUpFRnBU"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T10:04:46.351Z",
+      "last_fetched": "2026-10-31T16:31:38.908Z",
       "last_epoch": 1793404800000,
-      "etag": "\"0ade9aeef5c9410dcdc425ed9da1da14e-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 09:54:50 GMT",
+      "etag": "\"0efcc888e83a26f3944c499ed78805f55-gzip\"",
+      "last_modified": "Sat, 31 Oct 2026 16:03:57 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -473,7 +473,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T10:04:46.480Z",
+      "last_fetched": "2026-10-31T16:31:39.036Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

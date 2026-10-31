@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-31T10:08:08.496Z",
+      "last_fetched": "2026-10-31T16:36:43.542Z",
       "last_epoch": 1793322762000,
       "etag": null,
       "last_modified": null,
@@ -30,15 +30,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-31T10:08:10.079Z",
+      "last_fetched": "2026-10-31T16:36:52.798Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T10:08:10.955Z",
-      "last_epoch": 1793399148000,
+      "last_fetched": "2026-10-31T16:36:53.520Z",
+      "last_epoch": 1793454250000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -296,21 +296,24 @@
         "CBMi7gFBVV95cUxOa3I3aW5WUC1XSFk2MVpuWlV6MGRJb0RuU0N4eDVEbU1RbzJ2clh5VFVRcWhVT3RsbDNJQjAzZ2ZvZ0NxTlh3TVBKZWJzbHNYdkdpSlhOYmRhZWM2WUgzV1BBUFZ5d3Y3UFY0Mjc2R2JOVHItb0stc2ZKNmVCSUUyV285VTRPeFJ3aWhIdkhjRk9hb2FrSnRTOGF4dFpHWUx6OWhfaVhsZE53QzNhOEF0OFREcWVXWjg5Qzg1MDhOS1VoeGludHkyVTlHQlEyeG5LX3hpV1JwQjBZSXQ4RHZwUld6NDhwS1BtelBWcXpB0gHyAUFVX3lxTFAzRHMzTTcyTWpqUk8xM01UelRjVXhpcHdCald6c3pwbDRMZDBROTJNaTl0NEk2dFFmREZzMU0za09IN0p3em8yYXhxbVBOOGt4bExMS2VacG5jU0o5NERNbDRISmJrMzh0OWxwWW9JOUZVbWZyNTE1SWFBQjI4QU56YzJHWkZRZmdmdTVEdGlZSVRVZS14X2xXaWF4QWNTZ0ZBSkw0T3JaMWx0OUxKcE9rYXdNNW5nNWNpbC1Kd3czX2dGTjFnVlJjNEVBbllsVFBBZk1UdnktQmhqRExIWDdzeGtiamRJTVFDTnU2QmYtV2d3",
         "CBMi4wFBVV95cUxPdG8yVE5zV3RCSnIta2U4NERzemxvUHZlY3BWUUZJOUtCUGtqczlmLUttVWRUSndRQTFtMU5sMUIzUm1QLXBrSElubkpxWTBJR245V25rZEVYakpNczgweG5MRkJ6M2JscVRBRllGUzJRWFRKcWVtUmt1UnIxU2ZPQlNtSjZjazNDZm9TY0o0eGJMa3NFYkJ3R1FCMVFrN3BLX1d4Z3JldkhHV2l4NXVkbjkxOFo3ZnRuOEtYMXFXWjMtZ0RueHdCZXplVm9xMEYtVHZSZEdMZFRZbmxYQ3gyZDhpaw",
         "CBMiowFBVV95cUxQRGoyaUNYa0lMcFdRYVM0MmwxSENZQjBuRkZGUUxMa3dxVnNCWVVhZXkwQ3kwOGRCcndMbkdhVE8yZUxDZm12a0ZSQzh3LWlpdEtPbndSNS11QXUtWV9uTWJfOEJxSjJNLTMwSS1CQUJoOU1Wc1Y2MTVLRWUzZjY2UWR1dF9pTDI2WVJ0V2Y3Q1BFV3hrY2h4eGlWa19BTGV2YTF3",
-        "CBMivAFBVV95cUxPMG5sWlgwRnJmN2c2dHZ6YWtDeVFmRFpBZXNibHNTWXg2WDN0VHNoTEZZLXNSQks1bXBESlJuYVpuR0hnZVNJNUk2UkJsNkpJeXc0ODRmSG05a0V2cTBZdDBzejJNeVIwdU1BanhkOEVsUWVFRWkwZ202aGI3QUZDcE9fbzhzY0NpTWZZWnZHU2ptbXZtWlVCeUYtN3BLX0JZSXYxdzROR1VHQ2JRdzdhWjQ4ZkxZaWd1RkJ3ag"
+        "CBMivAFBVV95cUxPMG5sWlgwRnJmN2c2dHZ6YWtDeVFmRFpBZXNibHNTWXg2WDN0VHNoTEZZLXNSQks1bXBESlJuYVpuR0hnZVNJNUk2UkJsNkpJeXc0ODRmSG05a0V2cTBZdDBzejJNeVIwdU1BanhkOEVsUWVFRWkwZ202aGI3QUZDcE9fbzhzY0NpTWZZWnZHU2ptbXZtWlVCeUYtN3BLX0JZSXYxdzROR1VHQ2JRdzdhWjQ4ZkxZaWd1RkJ3ag",
+        "CBMimwFBVV95cUxNNF9lVmJRck5qa041cl8yMDYzTjc2ZjJNNmMweGd0MFdWRE9uY0V5WjM3UW1rRjhrZEd0OXJaNU9yd2RnMGVXYTAxTDFyd3N4THM4czA5dDQ1OWxlNjZMa2xmbUIyTUs4Vnhpbmh4TmdqamZzeGVQWXN5V293SFZsYVgxN2dVSmVKaFVjMUQ2cTc3RUpCTG90a1VVdw",
+        "CBMivwFBVV95cUxNeDRrU3AzYXdRVEsyeDR2cHp3Q1hldktFbERzT3JnMXU1a2ZLNkktYnY1aEhwc0djVHFYRFI0UFFjb2RCVElNV2NzMzk1SmZ5Q1BXVVB1UzFwdmZZdkl3MmRfQ1ZtNkpUZHo5amhJbEJIUVhzUnctUVhEN0h6UVo4NlhwWGlKY1Z1N2ZKR1E2LU1PNUNZcS1Zb2syRE4wcmpvVHlfQXNDWWtoa1V5TUZiSVBzTFdJU0tadmNTS1lUUQ",
+        "CBMivgFBVV95cUxPZ3M3MmhBay1NT19QWWhaZEd1NlNFVWthUmRST3ZzajllcGRNNnljQ3RhV2wySzBVTHNja1BjOVJMYVNUbWt2WEItdkFnXzJmekdlbWdaTU9BZkI5TlpXRnlpVWlKbmstMlZJN3ZFV0tUQjFnUFB6NnowZG5DVS1BeVBRU1JwcWdFazk5VlV4MzVFQ1I0eUNnV3Y0SHJsVVF2blpqTHUzU09WVG9FaXFhTjdqMFg3TWZHVVpnOVZB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T10:08:11.004Z",
+      "last_fetched": "2026-10-31T16:36:53.586Z",
       "last_epoch": 1792580689000,
-      "etag": "\"0ade9aeef5c9410dcdc425ed9da1da14e-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 09:54:50 GMT",
+      "etag": "\"0376d1e1d9109943bed0972c1beff495d-gzip\"",
+      "last_modified": "Sat, 31 Oct 2026 16:19:58 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/srf-ltd-announces-600-crore-aluminium-foil-manufacturing-plant-in-madhya-pradesh-for-battery-applications/articleshow/135090288.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T10:08:11.064Z",
+      "last_fetched": "2026-10-31T16:36:53.658Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
