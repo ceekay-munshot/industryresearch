@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-30T23:23:28.457Z",
+      "last_fetched": "2026-10-31T10:03:27.139Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-30T23:23:57.779Z",
+      "last_fetched": "2026-10-31T10:04:04.200Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T03:04:51.773Z",
-      "last_epoch": 1793371428000,
+      "last_fetched": "2026-10-31T10:04:05.588Z",
+      "last_epoch": 1793436579000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -218,14 +218,17 @@
         "CBMiwAFBVV95cUxOYVVYNFFfRHFpX1NGM2hLRkU1RFN2cDdwUGNWcVJMYU9fLUpkbnhSWTE5UEMtQVlDVTRQSXAxdTUzMFExcnhQYzJjTDhQal9HdG5FNkgzUm9yLXFjRi1UYVpBWnJkZTNNSGZGWEE3cUNRaERiQkFGU1RES2JYRW1JMkhoRS1WVm8xYjd1X3FsalBmXzVpNWM0TmtfeHFPSHB5MkU3ekFWSWt3Q1B6dlV1VTdvTkpVcjVybHFEWnNXbXQ",
         "CBMiYEFVX3lxTE52THF4S2lmdld2eWVzSGJaUDlvbkJtOEhDYnZqWGg0MDlmWk9RbUlVZzNjYTlQY094cmFHOUZ5ZnhXX3gxVkRMcm96TkM2RUkyUWpPMjY1YUJ0MWJKOXVoVA",
         "CBMilgJBVV95cUxNMjFRdmZqRm9zSi1pZ18wdEp2T3IzWW51Q1laWDVSZ1d5ZXBPNU9lT1gzWjdsZjVicVRyQnByRFZUX0gza1pWcFBMR2pfZU81MFZ2NWxFN21DRVJSMzU4M0x4Q1g0RGFxb1VTdHhCSUlVVEgzNTZXTFdPOUUwVi1xdVY1SGxiSG1xbGJfeGM0VTFEYkRnaW4yekxvREJXdDFDV2pQcTgyM0tFbTRuQllNSHdoWVFJeDNrMXA1VnJqWmdnRkl6cnB2a3c4dFFoUlVHMkNIWFFueS1UNUI1Y3VIaFRJWmVzTFdhT1BKSXJQMGxXU2N4Y0tkVkFLN012RXAwRmdNUHlMcklZVmRhdllrZXUwZmw5d9IBmwJBVV95cUxPZm5hdmc2X1dvNFVCQnJGWk9qQWhhYUNYU1dpT3haWUx0VzdQYXdRUF9ZRnByc2wwRTlYREVmZVhFOWphQnQ2Ymd3XzRkUWdYaWpfLU83WmY1WmRXOE5nemgxeGd4YnlneVBCZUsyRWdmS0o4MjNWcWFWU0lVM3FwdnJ4bGRMWDI0cXVGMHVRdHdLcUU2R281Mnd2NW5VWFQ4UzN0LVJpVEsySW9vcXltN2VvQmY1Y3N2MWt5ZENVWDZCQ1NsaU5LWXBsdXpiSG1jLUdBRzZTMTBHaHBYNGVGVEJFV1ItX1lDUGFwY256YWZnRmpTNGxpWlJ6REs0d2Z3NXJSdk12dDBHSHhsTGdJS2JkX2NPZTJlYkxB",
-        "CBMioAFBVV95cUxQV2dNbGFNY1NOdWkxdjU0QTZTc0h0b2s2MUZLa0djbVhQY0w0NGRXR2FxNGRNNzVpSWlLWGpWNHZmVUN0SVdQWEYwbGZXRUNKNmxLOWR0MjlZcXVfa1JQWlA0YVRrdDkxYi0yTDJySVVGNlFjUWlCOTZYc2pBVDctNjBJVFhqTzdZMVNZUWFRbG95YzJCVmw1aUE2ZWY5cWdh"
+        "CBMioAFBVV95cUxQV2dNbGFNY1NOdWkxdjU0QTZTc0h0b2s2MUZLa0djbVhQY0w0NGRXR2FxNGRNNzVpSWlLWGpWNHZmVUN0SVdQWEYwbGZXRUNKNmxLOWR0MjlZcXVfa1JQWlA0YVRrdDkxYi0yTDJySVVGNlFjUWlCOTZYc2pBVDctNjBJVFhqTzdZMVNZUWFRbG95YzJCVmw1aUE2ZWY5cWdh",
+        "CBMiZEFVX3lxTE82SU5lVmdlQ1E4bi1aNEsweUp3MFktUGNVWFhhNElqNTN2dFVGRkFMdWxTbW5md0VvWl93R0M4YUxpS0lHUzZ2ODMzODNzYTRjZFUwWWtwZnNYUkhGVVlFRVZNSmo",
+        "CBMiVkFVX3lxTE10aGpJUjNZbFpNOExYaU50SkxRNGMyYy0zaWJqR0hJVWdjdkpTdlRfNkx4NnhKNk8wUTYtM2IxeW9zT2NFUUtNOFdEZHFFc2dJN0UxNEtB",
+        "CBMi1AFBVV95cUxOVlhhOWFJVEgtUnRHdXNNWXE0SWdlN3g0cm1ocTBubGthREtnODZjN3YxRkJNdUZRblNVbnFhMGdSQ2w2dFlOXzJuUFZ0bEVsSjFMM0FzalhFcWU5endGS1NzQWtJR3ljdU9icFh0VnZlS0tFVDlkY05oZ0JQWVFXSXFldmNNM1UxTHlkeE1keEZzaGNCb1d2dlgtTHRwdTNNQnVWNWJlSU84OHJTOW9ZbTJ0dXp6amZtanlKdGhNeU9JYmhicHViZlBaOTRUWjV2Nm5KZA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T03:04:51.833Z",
+      "last_fetched": "2026-10-31T10:04:05.851Z",
       "last_epoch": 1793377683000,
-      "etag": "\"05253c94c9a556880463647764273f97a-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 02:57:24 GMT",
+      "etag": "\"0ade9aeef5c9410dcdc425ed9da1da14e-gzip\"",
+      "last_modified": "Sat, 31 Oct 2026 09:54:50 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -387,14 +390,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T03:04:51.862Z",
+      "last_fetched": "2026-10-31T10:04:07.054Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-30T03:20:43.571Z",
+      "last_fetched": "2026-10-31T10:04:07.108Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

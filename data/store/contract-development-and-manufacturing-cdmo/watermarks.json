@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-10-30T23:24:29.498Z",
+      "last_fetched": "2026-10-31T10:05:53.366Z",
       "last_epoch": 1793394000000,
       "etag": null,
       "last_modified": null,
@@ -97,20 +97,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-10-30T23:25:01.975Z",
+      "last_fetched": "2026-10-31T10:06:10.281Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T03:04:56.809Z",
-      "last_epoch": 1793372091000,
+      "last_fetched": "2026-10-31T10:06:12.222Z",
+      "last_epoch": 1793430976000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi-gFBVV95cUxQbklwQmZ5ck5QalNKaVRzM252bEdLQm1RRW1Ld3hwRXZ3Smxmd3U4MFkwYWNndURBVmRNbm9TcEFsdjl5RTNZb0FVa0x6OVA2MDAwaE9kS0NzWERMaVZfeWkyRXd3ZlVqelRRMDBLQWNXZ01PVmhTVHNtbWVrSU1zeFhEU0ZYalI1T2wtU0dES0llbVBCVnNwOENHcFpIQV9uZGhYRGJKLUNxR0NOQmcwaEFNTW5sRmN6SkdWREpNd041djFVa1hIZkdhUkp6OHM0RGlvX3dhb3E2alJpdU9KdHRaR1FmRTVZMktLZ1ZTMHV4eUlyRy1CcldR",
-        "CBMivgFBVV95cUxOMU1PVnY0UUxCSGVreEo1SlNHTVFFVVhZZWx0aFlWaWZReEhZRFdGbVRzQnFVM1dhY204NDgyXzhGY2k3MWVrUTZzN0VrdFRYelJ5UXVVVWpwX1RuVS0ydWNjM2d5bVdNb0J5b3BHOGhmSEgwT3drUlctcUJxbnRlMTVOcXo5cGt2OEpTQXZybGc1Y1dfaXBzdnRkdElLZ0dETTZkRzdYRlJCYjBHcFZ4OElOUVYyMnNXOTU3M0Zn",
         "CBMikgJBVV95cUxPd253VVJqVllWSzUzRDR1UThldFpvN21pSXVDZVNqUDdqLVFzZzFHQVpPZ2JtbFE5MlFtVm5rU0RmNThORlB4T0oyYUMtaUlqLTNuSFFHSGxHb3UwSVVMazV2TDI3NHJqcVV5eHQtZzhPUGFRN2kySDZvRnVFQUhOMS1DQXhBTTA5RzNQdHU0Xy1vWWhvY2N3ajlzVHZaVUE1QVYwMWpRNmZqX18zTGtSTTJ3OGgybFNZRXR0ZFBRU1hFcldyekdUT3FZbkYzVkxmWlU0N1hIbk01enE4Q3RNdjFhbnZraWctUk00SFF2R2xibGQ1YW5pRE5ScFdjbnAwLUhtcFVZNHZxVm1hcE9RNDdR0gGSAkFVX3lxTE93bndVUmpWWVZLNTNENHVROGV0Wm83bWlJdUNlU2pQN2otUXNnMUdBWk9nYm1sUTkyUW1WbmtTRGY1OE5GUHhPSjJhQy1pSWotM25IUUdIbEdvdTBJVUxrNXZMMjc0cmpxVXl4dC1nOE9QYVE3aTJINm9GdUVBSE4xLUNBeEFNMDlHM1B0dTRfLW9ZaG9jY3dqOXNUdlpVQTVBVjAxalE2ZmpfXzNMa1JNMnc4aDJsU1lFdHRkUFFTWEVyV3J6R1RPcVluRjNWTGZaVTQ3WEhuTTV6cThDdE12MWFudmtpZy1STTRIUXZHbGJsZDVhbmlETlJwV2NucDAtSG1wVVk0dnFWbWFwT1E0N1E",
         "CBMi9AFBVV95cUxPZV9RYzVrMDV6TGJUaDYwQU5Fb0dnY1VaNDZQV3BadFlDcGR1VXFGc2tubXNqUEFBaFlHY3BhVGt1XzRELU9sMi02blNVRThHQmUxSFpMbEgwXy1UanBTVlFmN0xLakpna09pUnVybC1rSXZaWXBCaUN2WDR0M0RIM29YbXQxREhkNnJuMGpPSzB2RkgwX1ZTM1RQbGlpc0p4dzNUazNlcW5UYnQ2dmduYl9ReFpkRGJpWkJWQWhmSnVtbEJfVU5MWlY2aEVhS0stQmZ4dExzYklfbnh3RWJLSmpxaGxqT3BtYWU1SFZUR1hpTGRX0gH0AUFVX3lxTE9lX1FjNWswNXpMYlRoNjBBTkVvR2djVVo0NlBXcFp0WUNwZHVVcUZza25tc2pQQUFoWUdjcGFUa3VfNEQtT2wyLTZuU1VFOEdCZTFIWkxsSDBfLVRqcFNWUWY3TEtqSmdrT2lSdXJsLWtJdlpZcEJpQ3ZYNHQzREgzb1htdDFESGQ2cm4wak9LMHZGSDBfVlMzVFBsaWlzSnh3M1RrM2VxblRidDZ2Z25iX1F4WmREYmlaQlZBaGZKdW1sQl9VTkxaVjZoRWFLSy1CZnh0THNiSV9ueHdFYktKanFobGpPcG1hZTVIVlRHWGlMZFc",
         "CBMiggJBVV95cUxQMk1yYmE0Qk1pdWF6NW01TVF1QldNOXdJVE50TjJQSGI2NmNseGJRVzhWVjJGRGZ3Zjlmb2xwR2Vfak81bnkyUHc5MmJIRDVMM0FmWThvN1lLblZNeTRvRGRObkpqYlVVcDJKYS10SmZ6ZDNYOGtmeU1YaExLM2JLXzZJdTZLS0JmZE5iVmVZczdwNUtqdTJURE1CZkNUVk8zTi1NVktJM3JwY19xZUR4UU1IdTlBVkJTTUNrX085UTNxMVkyYS1TTUVSb3c1WjJkZk1EenE0ZVhNM3cxZUpMcHo0R1VhSmRhZmtQdF9ySGRIV3pyWktUa1Q4RlpubHF4emc",
@@ -408,18 +406,17 @@
         "CBMi-gFBVV95cUxQRl8tVFlFZ3psbWdwZTJfdV9odV9iaE95aXF2eHNjWHh3YVVISUsyeEl1bXpjRVhvY3ZvSVE5dmlSY1VkUVYzTUFTdFQ2YkowRWxnOERkMUZseFBQVzZPWVkxN21LMGxLVko4VGZwdGZId3M4bldVcWNkVmp0UVRlU0RBMEtERTU2WHVtbHNBR0FNb29JSTBZeHFjVk9jbF82cHVkVU9LdVlkVU5MUjQyS3VWRDBPb2lHTVZlV2ZGWlAtdFktR1htV2tfZ0N3aGZHRFhobWFaQ0JfTTE0US11Q2k2WXFLdFRBdXMxSm9JVzBpOFlPMmV4dHBn",
         "CBMizwFBVV95cUxPWUZOZ1ZxVzU3XzJHalhBQ2JZd1E4WkIybG9vMEY5VUxIR1paLU1nX2JIYTJpTmxDZUg1Nl9PVENlOG9pS19lUnJHSWRXa192cW9IOFU2UGNPRS1vYVlPYTY2QmhpNS1fVFNobG4xN0hwcW55a09SYXpKd21RanVoT1N4aEtQMjdEU2sxdmNYYlBvV1hzakR2OWhMU0VXUko4TUt2TzBYQWhzUTFHYXZVcVd6ZU1DakhmNHhZYUtzbXhkU2xkMDJadFd0NTJWd2c",
         "CBMisgFBVV95cUxQRzN6aHVKWmg4UEFiNjh3RjZPakFNWUFvcXdkc3p1TzdoT054Q2Q4dEsyM3RhaGNSajhoc1NQcEJIc25JTHVRSFJyZm5NY1N0Sk1CZ3dvaHIxOGR1UUxoLWtIMkZjd3AtNHRsWm5WQUdhTmlCb3lldklaWmQtSW1DaEppeEo5clZaR2owOTVTSlJIQXhPVXJlOUF0MXNpOHhHSncxYkRESHhRWm8weElnSUJ3",
-        "CBMixAFBVV95cUxNVkJrTDVYNWRtdGpMNjl3X2JRamtmYVEzZnA3cVNfWF9RcWRSX3VxcWRHTmctMFJJcXVSU1ZKQWU4QlV4MnluMWxzSThZY2wtRkQxdjNicWo3ZkFTTkx3RkpKZVVZMFRLS25qb05TWkc3eEdKT191OVNKeEhqS3NBYUFSaVlsUllzMEIxUDJ6YWF4bzB0QTFVOHhYWGpfOTIzeTV2OVN3emlEQkp1VUhHQjUyVHc4MlV1dWFBUmtkUlp0Z0F4"
+        "CBMixAFBVV95cUxNVkJrTDVYNWRtdGpMNjl3X2JRamtmYVEzZnA3cVNfWF9RcWRSX3VxcWRHTmctMFJJcXVSU1ZKQWU4QlV4MnluMWxzSThZY2wtRkQxdjNicWo3ZkFTTkx3RkpKZVVZMFRLS25qb05TWkc3eEdKT191OVNKeEhqS3NBYUFSaVlsUllzMEIxUDJ6YWF4bzB0QTFVOHhYWGpfOTIzeTV2OVN3emlEQkp1VUhHQjUyVHc4MlV1dWFBUmtkUlp0Z0F4",
+        "CBMi6AFBVV95cUxQanZreGV3SU1GZ2lZeXpSXzFVNlkxeWE3bUx6ZlRJeG5hR2hUZm9rOVROZ1ZXVFNQRENJd0lTY2tDN0JYS3JlMVBXbGdwcS1yZk1JLVF4WmkyWHozbzNfcS1weE9ybXRVWVRqdXJUNHRmVG5ZQzFXZzJXaU9UZkUyWGx0bTdyZnFvZlVJclh5bTduN3hlWlgxZkJSVkozT0RDNnRCellJSmk4T2xuX0NUanFpMmhWLTdiWFlIYmRlSXBUbFNiWV9veWF1SzY0cld3d2FTV05FSEd0dlpiT0NLUF9HamN6Z2hN",
+        "CBMi4AFBVV95cUxNS1ByUnktQ09KYXkxTWJXZ2F2WEh0MXNzWFJIUENLdTIwTzRMV1ZTdjJ6VFo3TWVBTE44bjVPLUF6VmRsRFJkTG4wQ0hWemxBMUZuUDN4NUtwV2syQWRVTzJKdDlJNDI0TW1aNVQxbk8xR2FCT3ZUeW9acERKRms2QUFXSjBiejVhQk5haWhKMU15ZWVTZWt6WmQyNXVNY2NPNVMtUENsOUVJNUVfb1hQREU1UDZTQkhRNEdndjNKamZiUUl5M3U2TlBQcDB6TEFmVS1vRVk3Vlg5RWRZWjdmVg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T03:04:56.953Z",
-      "last_epoch": 1793379532000,
-      "etag": "\"05253c94c9a556880463647764273f97a-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 02:57:24 GMT",
+      "last_fetched": "2026-10-31T10:06:12.352Z",
+      "last_epoch": 1793438479000,
+      "etag": "\"0ade9aeef5c9410dcdc425ed9da1da14e-gzip\"",
+      "last_modified": "Sat, 31 Oct 2026 09:54:50 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/renewables/saatvik-green-energy-bags-order-worth-rs-1042-crore-from-seci/articleshow/134267699.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/embassy-developments-to-invest-rs-2000-cr-in-85-acre-bengaluru-project-phase-1/articleshow/134263134.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/train-journey-from-jammu-tawi-railway-station-new-entry-exit-arrangements-start-tomorrow-heres-where-passengers-must-go-from-september-16/articleshow/134261069.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/hindustan-coca-cola-beverages-lines-up-1127-crore-for-new-unit-expansion-in-andhra-pradesh/articleshow/134272247.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/customs-duty-hike-impact-gold-imports-contract-to-usd-2-3-billion-in-august/articleshow/134268881.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/cement/karnataka-hc-quashes-rs-482-crore-penalty-on-acc-directs-govt-to-execute-mining-lease/articleshow/134289251.cms",
@@ -716,18 +713,21 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/smartworks-raises-fy27-revenue-growth-guidance-to-35-after-q2-revenue-jumps/articleshow/135348923.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indias-domestic-air-traffic-fell-8-3-in-september-as-demand-remained-under-pressure-iata/articleshow/135370556.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-q2-profit-drops-13-2-to-rs-1147-crore-as-margins-contract/articleshow/135368242.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/bengalurus-blue-line-promises-cheaper-airport-rides-but-tamil-nadus-stone-transport-ban-poses-a-hurdle-check-latest-update/articleshow/135321180.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/railways/bengalurus-blue-line-promises-cheaper-airport-rides-but-tamil-nadus-stone-transport-ban-poses-a-hurdle-check-latest-update/articleshow/135321180.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/liquor/govt-to-meet-liquor-firms-as-domestic-giants-join-foreign-peers-in-scotch-dispute/articleshow/135396203.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/signature-global-awards-rs-496-crore-construction-contract-for-tonino-lamborghini-residences/articleshow/135393587.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/ireda-appoints-ex-rec-executive-jatin-kumar-nayak-as-cmd/articleshow/135389366.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T03:04:56.980Z",
+      "last_fetched": "2026-10-31T10:06:12.450Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-30T03:20:48.872Z",
+      "last_fetched": "2026-10-31T10:06:12.502Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
