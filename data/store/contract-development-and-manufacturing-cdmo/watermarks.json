@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T03:03:29.380Z",
+      "last_fetched": "2026-11-01T10:56:22.465Z",
       "last_epoch": 1793394000000,
       "etag": null,
       "last_modified": null,
@@ -97,20 +97,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T03:04:07.241Z",
+      "last_fetched": "2026-11-01T10:56:53.164Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T22:59:22.403Z",
-      "last_epoch": 1793430976000,
+      "last_fetched": "2026-11-01T10:56:54.260Z",
+      "last_epoch": 1793456918000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMikgJBVV95cUxPd253VVJqVllWSzUzRDR1UThldFpvN21pSXVDZVNqUDdqLVFzZzFHQVpPZ2JtbFE5MlFtVm5rU0RmNThORlB4T0oyYUMtaUlqLTNuSFFHSGxHb3UwSVVMazV2TDI3NHJqcVV5eHQtZzhPUGFRN2kySDZvRnVFQUhOMS1DQXhBTTA5RzNQdHU0Xy1vWWhvY2N3ajlzVHZaVUE1QVYwMWpRNmZqX18zTGtSTTJ3OGgybFNZRXR0ZFBRU1hFcldyekdUT3FZbkYzVkxmWlU0N1hIbk01enE4Q3RNdjFhbnZraWctUk00SFF2R2xibGQ1YW5pRE5ScFdjbnAwLUhtcFVZNHZxVm1hcE9RNDdR0gGSAkFVX3lxTE93bndVUmpWWVZLNTNENHVROGV0Wm83bWlJdUNlU2pQN2otUXNnMUdBWk9nYm1sUTkyUW1WbmtTRGY1OE5GUHhPSjJhQy1pSWotM25IUUdIbEdvdTBJVUxrNXZMMjc0cmpxVXl4dC1nOE9QYVE3aTJINm9GdUVBSE4xLUNBeEFNMDlHM1B0dTRfLW9ZaG9jY3dqOXNUdlpVQTVBVjAxalE2ZmpfXzNMa1JNMnc4aDJsU1lFdHRkUFFTWEVyV3J6R1RPcVluRjNWTGZaVTQ3WEhuTTV6cThDdE12MWFudmtpZy1STTRIUXZHbGJsZDVhbmlETlJwV2NucDAtSG1wVVk0dnFWbWFwT1E0N1E",
-        "CBMi9AFBVV95cUxPZV9RYzVrMDV6TGJUaDYwQU5Fb0dnY1VaNDZQV3BadFlDcGR1VXFGc2tubXNqUEFBaFlHY3BhVGt1XzRELU9sMi02blNVRThHQmUxSFpMbEgwXy1UanBTVlFmN0xLakpna09pUnVybC1rSXZaWXBCaUN2WDR0M0RIM29YbXQxREhkNnJuMGpPSzB2RkgwX1ZTM1RQbGlpc0p4dzNUazNlcW5UYnQ2dmduYl9ReFpkRGJpWkJWQWhmSnVtbEJfVU5MWlY2aEVhS0stQmZ4dExzYklfbnh3RWJLSmpxaGxqT3BtYWU1SFZUR1hpTGRX0gH0AUFVX3lxTE9lX1FjNWswNXpMYlRoNjBBTkVvR2djVVo0NlBXcFp0WUNwZHVVcUZza25tc2pQQUFoWUdjcGFUa3VfNEQtT2wyLTZuU1VFOEdCZTFIWkxsSDBfLVRqcFNWUWY3TEtqSmdrT2lSdXJsLWtJdlpZcEJpQ3ZYNHQzREgzb1htdDFESGQ2cm4wak9LMHZGSDBfVlMzVFBsaWlzSnh3M1RrM2VxblRidDZ2Z25iX1F4WmREYmlaQlZBaGZKdW1sQl9VTkxaVjZoRWFLSy1CZnh0THNiSV9ueHdFYktKanFobGpPcG1hZTVIVlRHWGlMZFc",
         "CBMiggJBVV95cUxQMk1yYmE0Qk1pdWF6NW01TVF1QldNOXdJVE50TjJQSGI2NmNseGJRVzhWVjJGRGZ3Zjlmb2xwR2Vfak81bnkyUHc5MmJIRDVMM0FmWThvN1lLblZNeTRvRGRObkpqYlVVcDJKYS10SmZ6ZDNYOGtmeU1YaExLM2JLXzZJdTZLS0JmZE5iVmVZczdwNUtqdTJURE1CZkNUVk8zTi1NVktJM3JwY19xZUR4UU1IdTlBVkJTTUNrX085UTNxMVkyYS1TTUVSb3c1WjJkZk1EenE0ZVhNM3cxZUpMcHo0R1VhSmRhZmtQdF9ySGRIV3pyWktUa1Q4RlpubHF4emc",
         "CBMilAFBVV95cUxOWmc1azRfOGZtYjZadVBka2k3M05USWJ3bzJMT2RqRmJBYnoxUklKSWN2UWJKR3NVY3gxNkZuMzhxTkNZSzZIaVc1SVY2amtsQzZYTV9VdE5iZ0xtWTdBTEtaV1N6WFRYRUN6dURIbVBLWExOMmtVNUcwTnc4VW1INGdYSHZUazQ4M2JYUXJ4U2h2NDMz",
         "CBMiuAFBVV95cUxPb0R0VHJIOEh3YWpITFdOMmc1U2lyTXRVRm5WRFZ5MUpXZ052YndTYVRwN21vd25ZYlRCY0pHcTRQYkdlLTNLUmZRWWtycFRrWlFkQ2pIdUUwalNwdnp4czRtNVJ4NExmenR4TU1tZjRkVWlfc1VGZnl5MzJBNGhVeDYwbHl1YUFBU3pqNFBiSk9VOUtvN1VubmF1Z09OdVJ5Q3FfZ0NNNC02Q3dOcHdMLWEtZDdHdHlU0gG-AUFVX3lxTE5Bc1lfYy02UDlOLUJEMGJ6eGFRQ1dVM2FoRy1EbWNJelVzM19fbmFKLTlVTE1IR0pjN1U1WUFJZjFYUDB6MVBRYjRmdkdjeVBraS1oWFFFUUJJV1hHQ2JGVlROZGdBeFBCdnpiTU9QNGwzQ2JoRXB3WDhRZ2VwR0VEUEFuSWE4YU8yNkk4VWdDZk5xTzdxOElUdVBYbEoxeE9KZkFLN3IyQWtrUHVnVWEwcTFvTzNYNmV5ckpEYUE",
@@ -408,16 +406,17 @@
         "CBMisgFBVV95cUxQRzN6aHVKWmg4UEFiNjh3RjZPakFNWUFvcXdkc3p1TzdoT054Q2Q4dEsyM3RhaGNSajhoc1NQcEJIc25JTHVRSFJyZm5NY1N0Sk1CZ3dvaHIxOGR1UUxoLWtIMkZjd3AtNHRsWm5WQUdhTmlCb3lldklaWmQtSW1DaEppeEo5clZaR2owOTVTSlJIQXhPVXJlOUF0MXNpOHhHSncxYkRESHhRWm8weElnSUJ3",
         "CBMixAFBVV95cUxNVkJrTDVYNWRtdGpMNjl3X2JRamtmYVEzZnA3cVNfWF9RcWRSX3VxcWRHTmctMFJJcXVSU1ZKQWU4QlV4MnluMWxzSThZY2wtRkQxdjNicWo3ZkFTTkx3RkpKZVVZMFRLS25qb05TWkc3eEdKT191OVNKeEhqS3NBYUFSaVlsUllzMEIxUDJ6YWF4bzB0QTFVOHhYWGpfOTIzeTV2OVN3emlEQkp1VUhHQjUyVHc4MlV1dWFBUmtkUlp0Z0F4",
         "CBMi6AFBVV95cUxQanZreGV3SU1GZ2lZeXpSXzFVNlkxeWE3bUx6ZlRJeG5hR2hUZm9rOVROZ1ZXVFNQRENJd0lTY2tDN0JYS3JlMVBXbGdwcS1yZk1JLVF4WmkyWHozbzNfcS1weE9ybXRVWVRqdXJUNHRmVG5ZQzFXZzJXaU9UZkUyWGx0bTdyZnFvZlVJclh5bTduN3hlWlgxZkJSVkozT0RDNnRCellJSmk4T2xuX0NUanFpMmhWLTdiWFlIYmRlSXBUbFNiWV9veWF1SzY0cld3d2FTV05FSEd0dlpiT0NLUF9HamN6Z2hN",
-        "CBMi4AFBVV95cUxNS1ByUnktQ09KYXkxTWJXZ2F2WEh0MXNzWFJIUENLdTIwTzRMV1ZTdjJ6VFo3TWVBTE44bjVPLUF6VmRsRFJkTG4wQ0hWemxBMUZuUDN4NUtwV2syQWRVTzJKdDlJNDI0TW1aNVQxbk8xR2FCT3ZUeW9acERKRms2QUFXSjBiejVhQk5haWhKMU15ZWVTZWt6WmQyNXVNY2NPNVMtUENsOUVJNUVfb1hQREU1UDZTQkhRNEdndjNKamZiUUl5M3U2TlBQcDB6TEFmVS1vRVk3Vlg5RWRZWjdmVg"
+        "CBMi4AFBVV95cUxNS1ByUnktQ09KYXkxTWJXZ2F2WEh0MXNzWFJIUENLdTIwTzRMV1ZTdjJ6VFo3TWVBTE44bjVPLUF6VmRsRFJkTG4wQ0hWemxBMUZuUDN4NUtwV2syQWRVTzJKdDlJNDI0TW1aNVQxbk8xR2FCT3ZUeW9acERKRms2QUFXSjBiejVhQk5haWhKMU15ZWVTZWt6WmQyNXVNY2NPNVMtUENsOUVJNUVfb1hQREU1UDZTQkhRNEdndjNKamZiUUl5M3U2TlBQcDB6TEFmVS1vRVk3Vlg5RWRZWjdmVg",
+        "CBMiakFVX3lxTE1fODRqOWlNZHpkUXdHMWpMRTFjXzNjbWNpa1RubS0wV000RWxYU19lTHV0bV85RmRoQXhRb1J5REV3d2pIN2phYzJkd3lTNUxDblhkbTdYWE0xUTdnNkVIdENpdjN6SzhERHc",
+        "CBMivAFBVV95cUxNNC1QU3lwWkJudnR6V2F4MTRVTk9TSzcwYm5HYy1OQm1oMVpmdGlZZFZXNE9qSkhNSng2a21UR1h5WEtoMENEQU1aS2d0Y2stMnVQdTN4dDR3dkNBUkVyZWhET1dkbjdCTjlPU0hPeXFIOGNncmRZYVpmNnNiRG9qcmZBN25HNzE0MU9WNEd6c2dkTFZQRy1SWnNlcUhPWThSMGI1Nlh0d1laUmxCYXdOWHRHNU1rR2pLeS1BbQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T22:59:22.494Z",
-      "last_epoch": 1793454411000,
-      "etag": "\"073473193a79f67a70ea9c858424419a5-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 22:29:37 GMT",
+      "last_fetched": "2026-11-01T10:56:54.296Z",
+      "last_epoch": 1793528277000,
+      "etag": "\"0e71a2e9567443b17c86fadc30212cfa2-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 10:48:04 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indias-data-centre-capacity-set-to-surge-by-3860-mw-by-2030-fueling-digital-growth-and-investment-opportunities/articleshow/134283064.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/fujifilm-to-invest-rs-800-cr-in-semiconductor-materials-manufacturing-facility-in-india/articleshow/134292306.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/government-reviews-use-of-ship-recycled-steel-to-boost-manufacturing/articleshow/134292075.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2-0-infineon-ceo-calls-india-key-semiconductor-market-expands-workforce-by-28/articleshow/134304509.cms",
@@ -716,18 +715,19 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/nclt-voids-rs-525-cr-guarantee-mumbai-land-transfer-in-jls-realty-dispute/articleshow/135402913.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/landmark-group-acquires-22-acre-land-on-dwarka-expressway-property-in-delhi-real-estate/articleshow/135400174.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/pharma-company-gufic-buys-luxury-duplex-in-mumbais-juhu-for-over-rs-236-cr/articleshow/135399678.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/signature-global-awards-rs-496-crore-construction-contract-for-tonino-lamborghini-residences/articleshow/135399207.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/signature-global-awards-rs-496-crore-construction-contract-for-tonino-lamborghini-residences/articleshow/135399207.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/ncrtc-explores-transit-oriented-development-along-namo-bharat-proposed-regional-corridors/articleshow/135424101.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T22:59:22.531Z",
+      "last_fetched": "2026-11-01T10:56:54.399Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-31T10:06:12.502Z",
+      "last_fetched": "2026-11-01T10:56:54.814Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T03:07:57.604Z",
+      "last_fetched": "2026-11-01T10:59:43.526Z",
       "last_epoch": 1793487660000,
       "etag": null,
       "last_modified": null,
@@ -177,15 +177,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T03:08:31.447Z",
+      "last_fetched": "2026-11-01T11:00:12.751Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T23:03:56.395Z",
-      "last_epoch": 1793485631000,
+      "last_fetched": "2026-11-01T11:00:13.883Z",
+      "last_epoch": 1793509500000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -460,14 +460,17 @@
         "CBMilAFBVV95cUxNWjhEbVpHX2tnYXR5ZTRJdkFua0NWZHU2cG9jeXREd3JoQlFkNndOX0wzOU45NG4ydVBQVXNPNjBFRVJiYm5Fc254SnlObDBTalpQRkpoT0Y2Z1Y3b3pQZFNqb3YwWEZFcnZMcG43cXRvS0Ryc3hEdXZiSG1GVGQxdmlmVDhOUEFpdlhZZFUxZ1pKb3RO",
         "CBMiugFBVV95cUxOY2huNGdWUHljd21FNFNTUHVxVVc2U0RINjExQVFONVlhNWEwc2dmamIwbjJYNkdzeGhXSkF3Y3huZjV4T1piS0NMVDM0ZXhUQzUxRkd0dDlBaVl3SGdNY1BsN0ZEMWNpOFY0VDdBV3VqcnFza1pEcjVQUEtmVnp4bWRXYUVlU1lDY1dBblFjNkJQQWZZT3JtUjMtaEhiRGVTYkR6SERWbWxNOTdPR1VCcFI4dTlseHFCOFE",
         "CBMirAFBVV95cUxOUzNxVDFUb0RXZ1Z0WWZDeVBPY1k2cEJqblZIUlhHajZlNERYUTc0dE9iTFJTMjlVR2ptWkx1YjRmbGp1TTBsazlWVzlFbFp6azRDVU4wS2ZoaEgxRFVldnRjb1lxQjJnRm1uaHFMY3VBWjJYRThpODZCTmhzYUo2NHpFTE1ISmo4UnB3dFN4VkkzTUlocXY1VUNjcnZpNlJQa3E1WEdlRTN5Zlg1",
-        "CBMihAFBVV95cUxNS0RGcEZVMEdKc0NicUlwNl9zdzJtbWFQZnAtT0FjbmJuZzY1bkd2SVprMnFwR0d2S0pDZXRrcGR4bmlpRTBtNVVZdFhZRzFYd1ROT3ZJdkF0S2p4YXAzS193VEhQeGxqaDF1d2RDMlJIdmRUX3czZURGeUFMeXdNWmZ3eDbSAYQBQVVfeXFMTUtERnBGVTBHSnNDYnFJcDZfc3cybW1hUGZwLU9BY25ibmc2NW5HdklaazJxcEdHdktKQ2V0a3BkeG5paUUwbTVVWXRYWUcxWHdUTk92SXZBdEtqeGFwM0tfd1RIUHhsamgxdXdkQzJSSHZkVF93M2VERnlBTHl3TVpmd3g2"
+        "CBMihAFBVV95cUxNS0RGcEZVMEdKc0NicUlwNl9zdzJtbWFQZnAtT0FjbmJuZzY1bkd2SVprMnFwR0d2S0pDZXRrcGR4bmlpRTBtNVVZdFhZRzFYd1ROT3ZJdkF0S2p4YXAzS193VEhQeGxqaDF1d2RDMlJIdmRUX3czZURGeUFMeXdNWmZ3eDbSAYQBQVVfeXFMTUtERnBGVTBHSnNDYnFJcDZfc3cybW1hUGZwLU9BY25ibmc2NW5HdklaazJxcEdHdktKQ2V0a3BkeG5paUUwbTVVWXRYWUcxWHdUTk92SXZBdEtqeGFwM0tfd1RIUHhsamgxdXdkQzJSSHZkVF93M2VERnlBTHl3TVpmd3g2",
+        "CBMigwJBVV95cUxOeUtUcW1Sd2kyU3liZUZZVU0wQngtVGJEVHF3b3AzUmdnNHNqNzEwTXFsS2M2TVVsbGhHNE5NbHVObEpXdFhWZWF1a0lLUDBfamlDRGItSFlDY25JSFgzMUR6cVdURjQ2SUpmejRDeXhpd3l3NjBPVGVwaXlVcEJOS2pOUkNqYmZCLW9XVnozZ2hkX1ZVVjB2bmU1V05lbmVRUFhFSzFjZzVTU2MweFNxZlV3aUU3dDJKaTJ6c0ZkVGhBOEtqeUpQX3lzaTl6VmVjbFFuVFpVZjZfT1UyMDR4SkViXzRac2ZvaXRjSHFsdXVXLXhmNmVsVGREYmczNkJXRUJV",
+        "CBMiZ0FVX3lxTE1XNHdzM09nZW9DdkdXaWRBY3otT0ZXQVBVVXJkcW95d2VhV0dPZjF2eWlKaWIweXA5UmxFbmh0UWZhV1liNGZlUUpnWjVyVlQtM3Rob0lEVVF5VEVzd2pDVUJKelBvTEE",
+        "CBMi1wFBVV95cUxPTEhBeU9rSGJQcUFhNHNpc185dXBtV1FRQ1FDdkdVVmtvZlZTVzhCRW95MFdvbnd3VUtxRGI4bE1VVWZBUEoxUkNBcEpwejZlR3RBRVJaUWlOMjl0SGtaa2FRajVOTnc5LUpkeUgwa3FyYmEzVHBvXzZ4R2ZjN1cxaGFxTjBLaDBPQ1ExdF9VblpteWF1aHJOWGdsbVgxY0xhV1V3M0lkLUJkOUZ4eWlOamxUOWJYWFJPbTdFSmJudHhSclByVlJmRDFWM3hqRXhOSHdOYzZhMA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T23:03:56.477Z",
-      "last_epoch": 1793438479000,
-      "etag": "\"0f7d353a05ba4cc86699c786b79492962-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 22:45:45 GMT",
+      "last_fetched": "2026-11-01T11:00:13.951Z",
+      "last_epoch": 1793508618000,
+      "etag": "\"0e71a2e9567443b17c86fadc30212cfa2-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 10:48:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/andhra-factory-makes-3-million-tea-bags-daily-for-global-giants-walmart-aldi-and-carrefour/articleshow/134859981.cms",
@@ -543,11 +546,12 @@
         "https://economictimes.indiatimes.com/industry/auto/two-wheelers-three-wheelers/tvs-motor-to-make-80000-electric-two-wheelers-a-month-as-evs-capture-over-20-of-indias-scooter-market/articleshow/135301923.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/sun-pharma-ordered-to-halt-eye-drug-production-at-assam-plant-over-quality-lapses-report/articleshow/135355586.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/omron-healthcare-expands-manufacturing-in-chennai-aims-for-3-million-blood-pressure-monitors-annually-by-2028/articleshow/135353364.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/liquor/govt-to-meet-liquor-firms-as-domestic-giants-join-foreign-peers-in-scotch-dispute/articleshow/135396203.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/liquor/govt-to-meet-liquor-firms-as-domestic-giants-join-foreign-peers-in-scotch-dispute/articleshow/135396203.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-components/sona-comstar-expects-annual-investments-to-rise-from-rs-500-600-cr-as-business-grows-md/articleshow/135418034.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T23:03:56.768Z",
+      "last_fetched": "2026-11-01T11:00:13.975Z",
       "last_epoch": 1713863838000,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T03:05:49.437Z",
+      "last_fetched": "2026-11-01T10:57:58.073Z",
       "last_epoch": 1793473565000,
       "etag": null,
       "last_modified": null,
@@ -296,19 +296,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T03:06:27.235Z",
+      "last_fetched": "2026-11-01T10:58:24.224Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T23:00:49.616Z",
-      "last_epoch": 1793472975000,
+      "last_fetched": "2026-11-01T10:58:25.688Z",
+      "last_epoch": 1793520376000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiwwFBVV95cUxNMFFiNzEycVhfZHcxenRNTUl6U2JzdlNmQkpXUUFjUTRySVVOcFhpd1ZsZFQ2WUFOMW1SS0VPNXg3X0E0WEp6dmd0SlZvR3A4X0YxbkEyRUYyV2xLaWQ3dUFRSlFDR294dGphcUpzaGxza24ydWx1WWVUOExvREx5RFQ0bmZ5aS1STVFKcTY1WTU2Z0V6dFh4bGc0MFpqUWRxMW54SldPTGpSZXhuT2FVbmlxLVY1Qkc5d0JGMWRleU5PbWPSAcgBQVVfeXFMUGdGR1NTTWY3ZzBhY0dBTDNheEY5cDZOQ2hpbjdXQ1pEdkVJMlVpRUxLcGJUdTg4SlJST3pnV0llMHFTWWdSMlNvZzdVTURVdW53S3c2SjdiTnJ5dGtLSUVxM3F2U3RNTTczd0V1UHRWOVdiV1Z6LW0ydDgwZTFmTHNhNThzeU02bjdRYURuOWtDOFBxUll5Sm85T3N1ZmxsT1FpNnE2R1RxR19UMjJxX3ItWDNsUWRkQ2R5bThCSUpYdnA3UlJjWGE",
         "CBMi0wFBVV95cUxQdXpXREpTLVFGVmRkakZuc0htSGdWWGYzTjlXZEo2MXdjdU1CSTZyaVNYcFJ5WUxNeUMwU1Bta0hmdUFubWx0Tmo2VGxDc0tmRk1iSWtuZTA0ZkNnaUJXY0wxVEhrcXFJckFNY0g0emZERzVBN0ljelVsbjd4UnVnQndVNE1wcDFpOElJbnZ1SkUzbU1WcVpjZ1Z0eDBrTFB0QXNsSklvLTVJcGZlQmxHc01ZbGFNMUMzU3ZRVVQzYmI5cHp4RDNSRmNiNW1mb1hWRFVF",
         "CBMixAFBVV95cUxQLUZJMDVIenFVRW9YT05udzZFZ0stQkl4QTZ6bWRHV09iLTRBbVo5SGJJTk1lLUdlVzhPenVXLUVSQjQ1b3JINGVWM0JnX0U4RmZSV3RodjZneDZ2Umd6Yy0zd19GcUxXeEptSHR0UXBWLTdzblZHbm5yRHFQVnFTLXc3MVB2XzdpYm1EeW4tMVRublJDX1ZWalhISXF0eXp4RG1QREU2M05mSjl1M0RWVV9Kb3VTdERxTmZYb29hTnFmeWxH",
         "CBMiqwFBVV95cUxPVmRSb0tQaGQwSWZzMTRBYUt0Z0JNR2J0bkZkd29OMXRHQmpTZWphRS1nZGV3SWFfZlloOGRFSHU2V0hDdmhjVHZsaXJ6dExVZWlkLUowQlN2NjBJLTJENm5yWGgybm5QZHJNRFduaUd0dkFpT3VtUkhSMzNMajNxUVptcjFLNHZ4aUpVbjFGeHh2OGVHeU8zNTBiNm9ucm85VVVxSFYyQUJDS0XSAasBQVVfeXFMT1ZkUm9LUGhkMElmczE0QWFLdGdCTUdidG5GZHdvTjF0R0JqU2VqYUUtZ2Rld0lhX2ZZaDhkRUh1NldIQ3ZoY1R2bGlyenRMVWVpZC1KMEJTdjYwSS0yRDZuclhoMm5uUGRyTURXbmlHdHZBaU91bVJIUjMzTGozcVFabXIxSzR2eGlKVW4xRnh4djhlR3lPMzUwYjZvbnJvOVVVcUhWMkFCQ0tF",
@@ -607,14 +606,15 @@
         "CBMilAFBVV95cUxPZGV2UXVLdXplZ2VKdmZvS3hOVjVFMWhvQkhwUlY3SGpsNTN3b09EaWZnb1ZDOHFvcURxZHMwVGJxRVpWRGZ1NUszcGJONWxrNlFZWUZlUnJsMGNyalZaTGtWa2d4ejNFRXhEQzY1Q2Q1NkNhemJQeG9HaVE5aFMyOEc4aDc0TEFpQ3YyMFluM0hjbURQ",
         "CBMi1AFBVV95cUxPbUpLUENvZm1INWpUdThXNnNKWlNGck82aGMxbGRVcDV0X2ZqejlaNkdUcjZZRThHWUFDODVmSUZ1V0JzaGVTR1J1UGVIYTdCSHEwNEFVYzRvOGNtWVBwaWJEbFMyMnBjSElHbm9SLS15UU9MSW1GTk5fWG9VWUxfckIyNmJyMlpLQXA5eFRYbTBvVFVzdnFkaEFLSVV4Wk9oX09OT0VqQ3hBekxFeC1zekxsSzdtdTdPbGM2eFBpVkVEbFNIWXpjRldmQWFpMTUzZWZENA",
         "CBMihgFBVV95cUxQWmtUTnRORGpJc2JIWGd6QlVuSDJ5S2dXYnJOT1NHWk1CNGtuLTRIT2lNWk9HdnIxdlliRGN2RGwyd010dzNUa19hdXF5eW5kN3ZzaXRKYWpHNEZUMlV2eWRLSVZfSzJCbktvcTNta2dZU1lvWWRmMktBc2k0RzRBYlRTVVN0Zw",
-        "CBMivwFBVV95cUxNUkNvOHhaUmc4NnNIaFFYRm9lSUg5am0ySWo2TlVaaHpNQVNkM255RnFLbnEtV0thU1JzdDJMbFlwcTYwVTNSTlRQcnMzaFpsX1VHZGdnMFdCS29pQmJvUUxSZ3dNX3A2V3JHWENnWUY2a2VBbldQZ0IteHRsSWpJWGxCUDNoWFNLdUZaZ0t6ZFR5MnZCVnRTMTBzRW41Nm5xSUYzNW5BVWZtVlBfYTBFZWxxbmZua3R1Nlp0WkxNUdIBxgFBVV95cUxNb2s4ZFJtaUphTElialJZWl9MNEx6MjlrZ3dTWUpISjZFU05oMjdVY3lPcXRlQmFYVWFhM2c5bE5oWDJKVWJ4V2tJdklLMzRVSHRtQ0tDOE9hWDFWTEQtbGhYSnYtUUhCdEVZRmVEM2wzd2hoaDFodGR4R20zdzFsMHhxMElEbmZkcXFCcHY4VVJBUENEVDJYdFhJaWdRWkgya0EzTnlGQ0UxQWoyUFJYY09Ia3lEVFNFczY4RF9WNkNFZDRNZ1E"
+        "CBMivwFBVV95cUxNUkNvOHhaUmc4NnNIaFFYRm9lSUg5am0ySWo2TlVaaHpNQVNkM255RnFLbnEtV0thU1JzdDJMbFlwcTYwVTNSTlRQcnMzaFpsX1VHZGdnMFdCS29pQmJvUUxSZ3dNX3A2V3JHWENnWUY2a2VBbldQZ0IteHRsSWpJWGxCUDNoWFNLdUZaZ0t6ZFR5MnZCVnRTMTBzRW41Nm5xSUYzNW5BVWZtVlBfYTBFZWxxbmZua3R1Nlp0WkxNUdIBxgFBVV95cUxNb2s4ZFJtaUphTElialJZWl9MNEx6MjlrZ3dTWUpISjZFU05oMjdVY3lPcXRlQmFYVWFhM2c5bE5oWDJKVWJ4V2tJdklLMzRVSHRtQ0tDOE9hWDFWTEQtbGhYSnYtUUhCdEVZRmVEM2wzd2hoaDFodGR4R20zdzFsMHhxMElEbmZkcXFCcHY4VVJBUENEVDJYdFhJaWdRWkgya0EzTnlGQ0UxQWoyUFJYY09Ia3lEVFNFczY4RF9WNkNFZDRNZ1E",
+        "CBMic0FVX3lxTE44MjJXcVEwS2tNU2xYdzJHNXlVMVM5bkhoWjY2a1hadFBKNEd3WS1WMHpPMmFnVUJybXFEV00zcDgxa0VhZ1p2M2J1ZkVmNmlFVk5zTERtSEhjNXpyV3RGU25KX2JabjgwVy1kTzItbjlja28"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T23:00:49.664Z",
-      "last_epoch": 1793447075000,
-      "etag": "\"073473193a79f67a70ea9c858424419a5-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 22:29:37 GMT",
+      "last_fetched": "2026-11-01T10:58:25.720Z",
+      "last_epoch": 1793518948000,
+      "etag": "\"0e71a2e9567443b17c86fadc30212cfa2-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 10:48:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/media/entertainment/anymind-group-launches-anycreator-stream-in-india-to-help-creators-monetise-live-audiences/articleshow/134408355.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/reliance-consumer-products-quadruples-authorised-capital-to-40000-crore-as-fmcg-business-scales-up/articleshow/134445016.cms",
@@ -687,18 +687,19 @@
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/middle-east-war-helps-lift-reliances-oil-to-chemicals-earnings-to-an-all-time-high/articleshow/135367997.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-to-chemicals-business-powers-reliance-industries-record-quarterly-net-profit-up-34-to-29550-crore/articleshow/135375705.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/diljit-dosanjh-puts-up-grand-show-at-aura-tour-in-delhi-says-dont-teach-punjabis-how-to-fight/articleshow/135387436.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/pharma-company-gufic-buys-luxury-duplex-in-mumbais-juhu-for-over-rs-236-cr/articleshow/135399678.cms"
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/pharma-company-gufic-buys-luxury-duplex-in-mumbais-juhu-for-over-rs-236-cr/articleshow/135399678.cms",
+        "https://economictimes.indiatimes.com/industry/auto/cars-uvs/hyundai-tata-mm-october-sales-surge-amid-festive-cheer-escorts-kubota-declines-10/articleshow/135421007.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T23:00:50.004Z",
+      "last_fetched": "2026-11-01T10:58:25.755Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-31T10:07:50.491Z",
+      "last_fetched": "2026-11-01T10:58:26.060Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

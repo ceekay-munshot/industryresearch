@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T03:04:07.462Z",
+      "last_fetched": "2026-11-01T10:56:54.971Z",
       "last_epoch": 1793214784000,
       "etag": null,
       "last_modified": null,
@@ -18,21 +18,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T03:04:45.310Z",
+      "last_fetched": "2026-11-01T10:57:14.986Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T22:59:31.902Z",
-      "last_epoch": 1793451742000,
+      "last_fetched": "2026-11-01T10:57:17.084Z",
+      "last_epoch": 1793499600000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi2AFBVV95cUxOa1pkNEc3MDZnTDYyYWN3dmoyZzBiaXdOTm0xNDBvMEVlcU0zQVd6RGg0LU9hM1NER21DaEJaa3pDMW1kS2M3bnlMOWl2RFlaMnZ6akhYWWx0LVRkUG1zT2ZNWVBlWlhiT2QxSXdWMnlicmNGbGJ5bzlWRlpHb1pyRmcxNDZpb29WZnhtUkxkYUtYRHBRR1VMTHVRbWNGSUJmVmRCRXpYSFVDbWlJcUV5NEk3QUxrT0ZQWnk1dnJpQlpDckxpNWVEYmJBVW15N3ZoM3lVNzFSRy0",
-        "CBMiqwFBVV95cUxOejdHd21XRmhnOUlCTEF3clU2M2Z6M3kydUR0Z0NjZ0d6ckF0RFlXS3JpRXFDSnJNQmxfMjduRmVoSUw2TWQ5U0pTS3VFV1J3M05ud29uYzYtSS1IbzdmSVl3REdZY3F1U01wd3lGQnFSa1RvbVVfdzdJQlBtcGxldURDOE1HaGZ3TmgwUlFWZnlqRzd1bXFkX0l0YWUxWk1WWDZpS3N3TnlkelU",
-        "CBMixwFBVV95cUxQVUx1Y1pGOUVCa0JLclF3MVpxUmx5VHBJT2pjU3ZQUFdQTTgyck5JQTJ6QVUtYkdzNlJiVnVqODRuMHdmTTFmTG9mc0RwdEdGc2RZY1QzT3MtN05CREJoUDE3a1pCZE9zR3ViaHRYeUhtc0Ryd3BoS20zcklIcVJDZFBHOEQ2ZXVpWmx4cW5PVUx1QXlsX3Vlc25TcEdtODZVcUpiVkYzX005bkZ6a2ZmMGlBTnBXbDhvNFNuSTdiZ05xSEptMUlZ",
         "CBMiwgFBVV95cUxNU1NqQ0RYWmxLYmVBUWZCX1JiS3YtanBtSW9COVMybENyeGUyVnFweGR0cmk2dTNWalR5eVlrdG1hUmFMS0xhQTJvMnpwNmpLMjhVY1h5YWZHQjg0Vnd4VTZWRHdiWVZZLU84Z1J5ZE9nVzducTJaSi1mWVQxdHBwUzdJazYzUnB0cnZPUWZ6YjR0UGFiWmtROXd3N0Nna1NCak9pbHBRYkJEWmY1a1RQWnFZUkM3cktFeUctRnQ1SXlwUQ",
         "CBMi7wFBVV95cUxOSkFDTE9XNjFZMGQ3MUsyeUdIa2pUY0VPV3NRbmJMQWtLTE12WmVnMlJ2MFBCcUpzY2lNbGJEaDV2VVdtMjFEZ2hIY0ZrUERJTHd5SEQzNi1ZQmh3RE53RXJVa3pLLUVPUHdIcTRRd3I1dS1WbmpFdXRxYVM3Ym9JeV8wRFVhTXVveTV6djI0OTJtbmR1dnl3M3dmN3oyZVNWaV94aE1EZ0phSS1vdHR3MWZ4RFRUSGVmN2dUM0VhSEZLdjN3SVE2MXpLYTBtOF84SFdKTC1Hc3dLRkxWc0pQS25CZlVGdG45QzB6TnV6TQ",
         "CBMiogFBVV95cUxPV09BNnhmQ01lTVcza3dxVzMyeW1wbDFXTi1HblJycnVmc1B3d24yRUIzWHBmeFE2T3dCT3Q4eFdWQUdGcFdKbmJRQmZZVVk5WTVoU2NLczVPOU53UHNadFRRZmFRTWhBWlVDcXBTU2hrQ2pQYWh5X19jaXgzZmhUejkydkIyTllRT2R6QXpzQ2JzbnZUWGRfbmJ6aEN2LVBBRkE",
@@ -329,14 +326,17 @@
         "CBMikwFBVV95cUxOdzhoak1Pa2VqN3M5ZHphVmNKMFZ3eWdjdUxDZFl6RktYN1JhODZ6WTZJZUJYanJDR25aTklSSTFIRGF0VWRJU05PdkhqLWM5a2xULXNsbm9GaERvbF9vVlNZNzgtVGFQdU91dGZNZXIwRHZKVWlYM3F3UlFPSWdGLXhrLTVIdGJodGpoXy1DQkN4LVU",
         "CBMid0FVX3lxTE1xclBETW15NHBPWWh5ajZwemlEcmVkdC1nNUJqdHhJUmdoWXFTMzlsaWw4REFxbFNSaTlUVkRGY3RrSV8zTzVHOTgyX1h2dHFjUUMydUszNWd1WUJnUjItYzBxZ2Jhd193WUtfSWNCM1RPR3U2UVV3",
         "CBMiswFBVV95cUxPdTgtMDNUQ0Rkakc1NmE0bl8tNEJMdlNfRWNqVXFWb05NMzBxZC1qYk1obWVpc0kxQVA0S0JGTGxraC1ieWc5dVJJQ0I0RnJfVEtHdUhYUWcxTkU3b29yOW5kbmJvZXlYRFRfM1NMaUl5aUlTUU5DNU9zb0loUFduOXhfeDNxN3BYb3FHM1lXWndLYWk3VjJRaWVERzNvYkNURHV2anFVQUJtVEE1VzZIWUhCTdIBuAFBVV95cUxNOFladFJrdjg0LXNOTkVuSUQ0SWlIWHlDNUVETF9ieHRURHZzTlhHM0RFX3ZqTVVlMXpRcVA3Vlk5ejg2WWFhZG9GWGNqSGR0Mzk2eDFrcnJRdE5LNUNkNFowTGRtcTlZUUQ3VER2RllYV1p3M2ZnelFYTmx1Y1lFZjBQNUF4clNOc0ZOa21VS0pFSl9lQmRFY1FPWUlrX2dUMFowQ1dITjRTaVJjcHBncURxRnFXczBS",
-        "CBMicEFVX3lxTE5OVHZQSUVWSmhocUZUSUdWcjFYQ2x2VVE4c1J4Qm02Vm83MnlycEZZbkFWUGU0SjFEM05PZDJxV0JDcjd0ZlV2X2lZZFctSml2S3owcG1TbWw1ZlNxVGVVdGloMlVVOHRacmYwUC1vdjU"
+        "CBMicEFVX3lxTE5OVHZQSUVWSmhocUZUSUdWcjFYQ2x2VVE4c1J4Qm02Vm83MnlycEZZbkFWUGU0SjFEM05PZDJxV0JDcjd0ZlV2X2lZZFctSml2S3owcG1TbWw1ZlNxVGVVdGloMlVVOHRacmYwUC1vdjU",
+        "CBMimAFBVV95cUxQTFJxekNxajNUTXo3U0c2a3BEVzlOaXVOdk1nVnVBaFRmUlZlbll5aU9wd1B3LWFEUUFIU3p5Rm1xclFfY2p4Z3FGbUpJQWUxaXhlbEw3c200bThlSm02UTdaTXhQWkhFTUtrYXV6aW8ya1NXcTE4UENqcmFhYnVNbjdOS1ZHMl8xSlVpVjNIZDBERmxNeDBRbg",
+        "CBMinwFBVV95cUxPOTZoZ0V3MlY2RzNzRkV0Q2JnajY0OG5ucjZRbHdIaVZ1aDE5cFFCbU5IYmMwcmdSS3RyOVlQZGVtVE1vSDVBbmNrcG41UTlrdlRLd2NVVUZ2VUluUkRwZDE4TFUybWRUdkd6aXNXOHFEODFEV0loNDk2OF9PamRQX0NuclJuVXEyWlNOa3gzYlJVdmdabS0ySEo1UFZPYTg",
+        "CBMiZkFVX3lxTFBKWE1PcDVFNHVKc3F3d0tIV3ZkVlF6UjI0QTVqem1vZmFCTnJocU1ueDRlMWlmZGtHc284YzB0NU1pTE5XblFsQWhMRndoLUVyUkxGVUlWb0wyX1VkV0JjU1dJb1FNdw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T22:59:31.942Z",
-      "last_epoch": 1793420662000,
-      "etag": "\"073473193a79f67a70ea9c858424419a5-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 22:29:37 GMT",
+      "last_fetched": "2026-11-01T10:57:17.111Z",
+      "last_epoch": 1793526437000,
+      "etag": "\"0e71a2e9567443b17c86fadc30212cfa2-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 10:48:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -436,18 +436,19 @@
         "https://economictimes.indiatimes.com/industry/services/education/not-just-ai-how-soft-skills-are-becoming-key-to-getting-hired/articleshow/135369844.cms",
         "https://economictimes.indiatimes.com/industry/renewables/adani-energy-solutions-gets-cci-approval-for-rs-3050-crore-intellismart-acquisition/articleshow/135365528.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-releases-draft-guidelines-on-responsible-ai-use-in-telecom-networks-services/articleshow/135361926.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/80-feet-above-ground-3-railway-lines-below-nagpur-metros-257-metre-bridge-uses-construction-technique-that-eliminates-the-need-for-scaffolding/articleshow/135387537.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/railways/80-feet-above-ground-3-railway-lines-below-nagpur-metros-257-metre-bridge-uses-construction-technique-that-eliminates-the-need-for-scaffolding/articleshow/135387537.cms",
+        "https://economictimes.indiatimes.com/industry/services/retail/millennials-lead-ai-shopping-adoption-in-india-at-84-ahead-of-gen-z-mckinsey/articleshow/135423301.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T22:59:31.974Z",
+      "last_fetched": "2026-11-01T10:57:17.174Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-31T10:06:18.606Z",
+      "last_fetched": "2026-11-01T10:57:17.446Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

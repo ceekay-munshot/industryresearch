@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T03:04:45.666Z",
+      "last_fetched": "2026-11-01T10:57:17.695Z",
       "last_epoch": 1793452864000,
       "etag": null,
       "last_modified": null,
@@ -97,15 +97,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T03:05:10.983Z",
+      "last_fetched": "2026-11-01T10:57:26.652Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-10-31T23:00:00.466Z",
-      "last_epoch": 1793370201000,
+      "last_fetched": "2026-11-01T10:57:27.744Z",
+      "last_epoch": 1793523141000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -293,25 +293,28 @@
         "CBMiwAFBVV95cUxNRFFVajFIR01RNG9kN1RMOHZKMnIwdmxMT1FhNEtaNFI1SFJFbTlPSHlxYWFGU0p2cWtodDA2cFVzRnlldUNCNVlxUFo1ajdyVGx1aHVoeEZPMlpjZkxWYXoyX3A2MkJjRk54ZjhsOGFwWjZ5bVVzVWx2SU5PMUhXSEY2dVg3dWczbUlPTTU5OE9TYlV3Z205d1VUT2owQzBBUFlqYWdtRUJyZEF1VWx3VW11SkdpRXROc0ZKaUtQOWw",
         "CBMioAFBVV95cUxONWNCQlRLY2RyREtEeHNHdkFTLXZmMW1QUVZPMHZrTC01ZEs2blJCZUJUUkVyUWJFWW1qcHFPeWFXc3JuQWNIcnlSaGlOQnBlaW1pNExxN21nQ3ZXMDNUdXZYVVhIWEdvRjBOU3ZCZER6eWRUZW5yQUxKY0x6WGp3ckN3VXM1ZWNLMjdFOUhxQWJncG5IWlAzWndmRlkwRE5S",
         "CBMiwAFBVV95cUxPcVRhSlZFY1ozeV9DZzJ4MTJQUUIyUkZjcmp0X3FiRUpoTHcwdGZ5Tk5SVjRkQ0k3U3NGaExfRnJ6MnhaVGN4ejNHemw3OXZCU1NpX2MxTWd1RlBxN1A5eGxXaXlEZnRPSHpxZWhEeVlGR1lpN1pZUmJJWFh6d0ttWjh0MC14N19KeF8zVEJfano4RFc0TjcwSEY1YkQ1Rk1TZk5lS2RMd1NSb2tkak9CMmdNTUJaaXlzT052VnBtSUk",
-        "CBMihgFBVV95cUxOY1JmVVBNaloxekd4eFAxcnd6Z29YN2tGVlJya3E1WjNFRWt5ZXdxZUk5cG9FVEZjalFmaFdXTEl2MExiVnVKMHEtZS16bkhpQlZraWxJcmY0U2Z4TUk1bTdnMVNRM0Q2MEZ2TmZTSmw2NEptRmE5aUVSUnEydkljMkRZTlVoUQ"
+        "CBMihgFBVV95cUxOY1JmVVBNaloxekd4eFAxcnd6Z29YN2tGVlJya3E1WjNFRWt5ZXdxZUk5cG9FVEZjalFmaFdXTEl2MExiVnVKMHEtZS16bkhpQlZraWxJcmY0U2Z4TUk1bTdnMVNRM0Q2MEZ2TmZTSmw2NEptRmE5aUVSUnEydkljMkRZTlVoUQ",
+        "CBMibEFVX3lxTE5hTUFyUGpCVjFCYWpQUlR6VGVsWkV6RDRialVnMGxSTU1KclJrMnkyR0JaWnVTRjMyZ05VbFRCOUVCUVV4V1JXZ29FSXdUS1d2ZE8wa1lEZnRNbVgtOVdDY1pPYmk1Nm1NMmNWcQ",
+        "CBMiogFBVV95cUxONGVTcjV1VUVCVWduV3c5Y1NfX2tWcms0WjN6YV9UQjRYWW94Y2xJMHh6RUtXX1pLbWZKdVYwLUpOa0FiLU5sbVpmOU9zcTd3ZS1yWkdZdHhSakpzQmduWE1NZDlzWWVkQm9PY09NQ1FRQzVPUWVrVzBRcUZnMGdDdjFTYVZzUTRoX3ZwLUZfLTl6NlRNQmdkYlJ0T1laOGhsQ1E",
+        "CBMiiAJBVV95cUxPRVYxa0wwT1E0MVlrbEN2aUpGWHJpMUxoTVJPY3lyZlFWbUQ2ZlhDTXFqRjNHZ2gxekUyS3ZLYVNYcV9KZDM1cFNJQnlLT3lfLURQLWhjY0ZyLVdsODVuUUZibVNrYmQtNFNGcVc5QkZZZU1hZDlzWHV3MkNQY2RJMnBxSVBTWUNhZU9DRFFNRVNLSHU0X3NOaURMNGs3U0p2aV8zTHpwOHF4b1pnUjFTT1NVOFJiOEhOckxvV2RCT3Y2Z0JYdkRYN0dpdmY1WnV5RTlaaW5pZkJrNGdiRktTU3p0dmcwbWJLUGZGM2dkZ3FmTV9rSGxBNkdJUDQxRS00cDhfd3R2cGw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-10-31T23:00:00.567Z",
+      "last_fetched": "2026-11-01T10:57:27.771Z",
       "last_epoch": 0,
-      "etag": "\"073473193a79f67a70ea9c858424419a5-gzip\"",
-      "last_modified": "Sat, 31 Oct 2026 22:29:37 GMT",
+      "etag": "\"0e71a2e9567443b17c86fadc30212cfa2-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 10:48:04 GMT",
       "seen": []
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-10-31T23:00:00.625Z",
+      "last_fetched": "2026-11-01T10:57:27.800Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-10-31T10:06:31.770Z",
+      "last_fetched": "2026-11-01T10:57:27.815Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
