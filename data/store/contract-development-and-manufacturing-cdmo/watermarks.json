@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T10:56:22.465Z",
+      "last_fetched": "2026-11-01T17:25:59.053Z",
       "last_epoch": 1793394000000,
       "etag": null,
       "last_modified": null,
@@ -97,20 +97,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T10:56:53.164Z",
+      "last_fetched": "2026-11-01T17:26:22.772Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-01T10:56:54.260Z",
-      "last_epoch": 1793456918000,
+      "last_fetched": "2026-11-01T17:26:24.044Z",
+      "last_epoch": 1793538739000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiggJBVV95cUxQMk1yYmE0Qk1pdWF6NW01TVF1QldNOXdJVE50TjJQSGI2NmNseGJRVzhWVjJGRGZ3Zjlmb2xwR2Vfak81bnkyUHc5MmJIRDVMM0FmWThvN1lLblZNeTRvRGRObkpqYlVVcDJKYS10SmZ6ZDNYOGtmeU1YaExLM2JLXzZJdTZLS0JmZE5iVmVZczdwNUtqdTJURE1CZkNUVk8zTi1NVktJM3JwY19xZUR4UU1IdTlBVkJTTUNrX085UTNxMVkyYS1TTUVSb3c1WjJkZk1EenE0ZVhNM3cxZUpMcHo0R1VhSmRhZmtQdF9ySGRIV3pyWktUa1Q4RlpubHF4emc",
-        "CBMilAFBVV95cUxOWmc1azRfOGZtYjZadVBka2k3M05USWJ3bzJMT2RqRmJBYnoxUklKSWN2UWJKR3NVY3gxNkZuMzhxTkNZSzZIaVc1SVY2amtsQzZYTV9VdE5iZ0xtWTdBTEtaV1N6WFRYRUN6dURIbVBLWExOMmtVNUcwTnc4VW1INGdYSHZUazQ4M2JYUXJ4U2h2NDMz",
         "CBMiuAFBVV95cUxPb0R0VHJIOEh3YWpITFdOMmc1U2lyTXRVRm5WRFZ5MUpXZ052YndTYVRwN21vd25ZYlRCY0pHcTRQYkdlLTNLUmZRWWtycFRrWlFkQ2pIdUUwalNwdnp4czRtNVJ4NExmenR4TU1tZjRkVWlfc1VGZnl5MzJBNGhVeDYwbHl1YUFBU3pqNFBiSk9VOUtvN1VubmF1Z09OdVJ5Q3FfZ0NNNC02Q3dOcHdMLWEtZDdHdHlU0gG-AUFVX3lxTE5Bc1lfYy02UDlOLUJEMGJ6eGFRQ1dVM2FoRy1EbWNJelVzM19fbmFKLTlVTE1IR0pjN1U1WUFJZjFYUDB6MVBRYjRmdkdjeVBraS1oWFFFUUJJV1hHQ2JGVlROZGdBeFBCdnpiTU9QNGwzQ2JoRXB3WDhRZ2VwR0VEUEFuSWE4YU8yNkk4VWdDZk5xTzdxOElUdVBYbEoxeE9KZkFLN3IyQWtrUHVnVWEwcTFvTzNYNmV5ckpEYUE",
         "CBMi5AFBVV95cUxPUzUxSWN2aW9GUm11Rk90VjIxbkFwMkFHRzlnRnFHNzlVcHp4QUN4R2pKNjBGcFdlN29ueEVwMG1JSGJqQzdIRTVGU1VwU09FbnRmV3lXMnJUSmNfb0pwdU5yV0U1Z1hfdFVTVjNERy1rald6VEs0REFtMC1IbERhQjdpV253NEoyN1o5WVRVQkcxN1hNb29WQkFNYVplWmplT3E2Q3Zka0V1eko2cDI0SGpXbmRlRGZxZE9adzV1eGNVcktFWU83a2FGaUJYX3YxUm14WlgwOGo3bVpneExPR1ExQl_SAeQBQVVfeXFMT1M1MUljdmlvRlJtdUZPdFYyMW5BcDJBR0c5Z0ZxRzc5VXB6eEFDeEdqSjYwRnBXZTdvbnhFcDBtSUhiakM3SEU1RlNVcFNPRW50Zld5VzJyVEpjX29KcHVOcldFNWdYX3RVU1YzREcta2pXelRLNERBbTAtSGxEYUI3aVdudzRKMjdaOVlUVUJHMTdYTW9vVkJBTWFaZVpqZU9xNkN2ZGtFdXpKNnAyNEhqV25kZURmcWRPWnc1dXhjVXJLRVlPN2thRmlCWF92MVJteFpYMDhqN21aZ3hMT0dRMUJf",
         "CBMiuAFBVV95cUxPSFhtdWZoX1BFVEhDWWRMTkhLbHhVU0VrNEcyMFNzZ18yWHZKckl0c0h6bnRVU2xkbUVJMml2X2NnUE9QQV9MUVdjeFJkZ0h1TEJwVjBKMFk1WEdLRUZaNVEzTi1MRmhrd2Zqa0pLOEdXN05wZ0tlUFhubWs3YlVyaVNZUW9rdExxeUpiaTR4SXNiR1pTT2c1RUhRZzE2aTROM3VWYnZpeWREc3BwVklQcW84N2g3NHdt",
@@ -408,18 +406,17 @@
         "CBMi6AFBVV95cUxQanZreGV3SU1GZ2lZeXpSXzFVNlkxeWE3bUx6ZlRJeG5hR2hUZm9rOVROZ1ZXVFNQRENJd0lTY2tDN0JYS3JlMVBXbGdwcS1yZk1JLVF4WmkyWHozbzNfcS1weE9ybXRVWVRqdXJUNHRmVG5ZQzFXZzJXaU9UZkUyWGx0bTdyZnFvZlVJclh5bTduN3hlWlgxZkJSVkozT0RDNnRCellJSmk4T2xuX0NUanFpMmhWLTdiWFlIYmRlSXBUbFNiWV9veWF1SzY0cld3d2FTV05FSEd0dlpiT0NLUF9HamN6Z2hN",
         "CBMi4AFBVV95cUxNS1ByUnktQ09KYXkxTWJXZ2F2WEh0MXNzWFJIUENLdTIwTzRMV1ZTdjJ6VFo3TWVBTE44bjVPLUF6VmRsRFJkTG4wQ0hWemxBMUZuUDN4NUtwV2syQWRVTzJKdDlJNDI0TW1aNVQxbk8xR2FCT3ZUeW9acERKRms2QUFXSjBiejVhQk5haWhKMU15ZWVTZWt6WmQyNXVNY2NPNVMtUENsOUVJNUVfb1hQREU1UDZTQkhRNEdndjNKamZiUUl5M3U2TlBQcDB6TEFmVS1vRVk3Vlg5RWRZWjdmVg",
         "CBMiakFVX3lxTE1fODRqOWlNZHpkUXdHMWpMRTFjXzNjbWNpa1RubS0wV000RWxYU19lTHV0bV85RmRoQXhRb1J5REV3d2pIN2phYzJkd3lTNUxDblhkbTdYWE0xUTdnNkVIdENpdjN6SzhERHc",
-        "CBMivAFBVV95cUxNNC1QU3lwWkJudnR6V2F4MTRVTk9TSzcwYm5HYy1OQm1oMVpmdGlZZFZXNE9qSkhNSng2a21UR1h5WEtoMENEQU1aS2d0Y2stMnVQdTN4dDR3dkNBUkVyZWhET1dkbjdCTjlPU0hPeXFIOGNncmRZYVpmNnNiRG9qcmZBN25HNzE0MU9WNEd6c2dkTFZQRy1SWnNlcUhPWThSMGI1Nlh0d1laUmxCYXdOWHRHNU1rR2pLeS1BbQ"
+        "CBMivAFBVV95cUxNNC1QU3lwWkJudnR6V2F4MTRVTk9TSzcwYm5HYy1OQm1oMVpmdGlZZFZXNE9qSkhNSng2a21UR1h5WEtoMENEQU1aS2d0Y2stMnVQdTN4dDR3dkNBUkVyZWhET1dkbjdCTjlPU0hPeXFIOGNncmRZYVpmNnNiRG9qcmZBN25HNzE0MU9WNEd6c2dkTFZQRy1SWnNlcUhPWThSMGI1Nlh0d1laUmxCYXdOWHRHNU1rR2pLeS1BbQ",
+        "CBMi2gFBVV95cUxPaG1lY29GQlptWGhQTS1tN044TXROcG52WE1mV0VtU1J3VnJRVFE3bGZsekk3bmZQNW0xTkFzbmhqSUtHckVZNHRfa1ZfWjNvLTNEdVEyWi1PWkJfTTFEVWlhcVFGY0swb3FPVG5sZjdrT1hBbzVIWWtQZnJEaTl1cUFhQzJxNVVueUdDR0lSbXFSVXI0czloZDA2ZHBRV1BCN1Z3Y3ZuU2hQQW11bUJFeVQydDNKT0t5YWNNbmVoYTZGUzlnVnNOakswZHlnclhTbWdSVHd5QVpFQdIB3wFBVV95cUxPLVM5dDNtelB1bV9memJpQUlIS0xzeDJDb1R2SnlWdEUzLWpTMXAwWGs0b29relhzVVZWdnRFa0o5WHRPWFY4S0dMTTA4eVU2M0N0WjJMUENWYUNENExQaGlzN1NtZHVJUjZ2eHdYUUF0UWpVd0NYcXFPTmVLN1NReDRxQ1NsV1pHYjlJNXMwazRUYWNvUTE0YkZCWXk5NDAxRDd3dzRsN1BJbzNjNTUzMnNlUXRHMTBPemw2RjFpamF2MGZTc2ZhLUo0ZXB4eUdHWEZneFVGTVdSWDNMb3Bz",
+        "CBMi6wFBVV95cUxNLU9uZGtJOWJNR29HM3kyZFZnYmNRYkdtdFJkOFVNaThDd3lXMlRWcUFwZ3Z6SlBieGpLaEZKLUJKdTNyTFA0VnpOdGZMMFVYamw5c3JyZTlJN0NodEtJSDFidGI4TlNIVExMXzdfUkpLbm9PdHN1Q2xySnNZTXNuLVFlSXZIaktYa1hITlFFZ21mNFAzNnQxWXpsOFVtQm1zOTVOWjUwUm1fdnBMSEwyQThfamRhQUMxc1pvWlh2WGdyUVhGSjQ4emZmZEZkOXBTRTZfR19NMERfbVlxdnEydG1QVksxTkNscHZv0gHkAUFVX3lxTFAxcHBUVnVpZkVlc3Q2b3d0RE9SSEpCQUhLYU1PNmtDVG1WbHpMUXNUc2FYUmFEZWpMaTJRMWNObjUxbFB0bVF5TEJ6YUV2aGtnQ2htNDF3UjAwdGhkX18xQ2Q0YzFFQ1llaXZkcnhBQnZOQzkyb0JsQ0dSamNUeFZmekdZX3NQX0FZbGl0M3RRSG1mQU01UXRja3ZMLThmMmVtdW1pMXUtOXAwVWRkdHBycGJPX2NPOGdLTFUyR1BVVUJmU2JKZG55bjVPc2c1djhveFFlWDNZaHRTWkFIa3dycHBkNg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-01T10:56:54.296Z",
-      "last_epoch": 1793528277000,
-      "etag": "\"0e71a2e9567443b17c86fadc30212cfa2-gzip\"",
-      "last_modified": "Sun, 01 Nov 2026 10:48:04 GMT",
+      "last_fetched": "2026-11-01T17:26:24.138Z",
+      "last_epoch": 1793543953000,
+      "etag": "\"09f0e8c0b0b2683e5b6af7a3c6dd0ebc4-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 16:57:09 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/fujifilm-to-invest-rs-800-cr-in-semiconductor-materials-manufacturing-facility-in-india/articleshow/134292306.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/government-reviews-use-of-ship-recycled-steel-to-boost-manufacturing/articleshow/134292075.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2-0-infineon-ceo-calls-india-key-semiconductor-market-expands-workforce-by-28/articleshow/134304509.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-india-2026-indias-chip-story-has-moved-from-files-to-factories-says-pm-modi/articleshow/134303425.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/applied-materials-announces-5-billion-india-investment-under-vision-2035-for-semiconductor-ecosystem/articleshow/134303422.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-2026-from-phones-to-fabs-how-india-is-building-its-semiconductor-muscle/articleshow/134302289.cms",
@@ -716,11 +713,14 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/landmark-group-acquires-22-acre-land-on-dwarka-expressway-property-in-delhi-real-estate/articleshow/135400174.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/pharma-company-gufic-buys-luxury-duplex-in-mumbais-juhu-for-over-rs-236-cr/articleshow/135399678.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/signature-global-awards-rs-496-crore-construction-contract-for-tonino-lamborghini-residences/articleshow/135399207.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/ncrtc-explores-transit-oriented-development-along-namo-bharat-proposed-regional-corridors/articleshow/135424101.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/railways/ncrtc-explores-transit-oriented-development-along-namo-bharat-proposed-regional-corridors/articleshow/135424101.cms",
+        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/ncrtc-to-develop-urban-centres-along-the-namo-bharat-corridor/articleshow/135429887.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/pilots-now-need-fresh-permits-before-every-sortie-ucada-after-joshimath-crash/articleshow/135429568.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/vaishnaw-visits-beml-facility-building-indias-first-bullet-train-for-mumbai-ahmedabad-corridor/articleshow/135426832.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-01T10:56:54.399Z",
+      "last_fetched": "2026-11-01T17:26:24.234Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
