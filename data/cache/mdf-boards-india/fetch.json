@@ -80,10 +80,10 @@
     "status": 200
   },
   "https://financialservices.gov.in/annual-reports": {
-    "content_hash": "ace2e78f33a31325b6cecdb273d59c55293cbc7359423955046c3967bbe5a6e9",
+    "content_hash": "8dad6cfb1d54da73342ccd73736711e2e1e03fd264052024ec6aa99cdde04cd9",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -91,7 +91,7 @@
     "content_hash": "05eede75787bdb5242c656616d772d581247a473daacd7382d501b1dc8c38294",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -115,7 +115,7 @@
     "content_hash": "f9acae539309a5caf1aae0733e5dd358e2af82050d769b889ca46e37fb073516",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -128,10 +128,10 @@
     "status": 200
   },
   "https://kyzo.in/blogs/trends-insights/future-of-mdf-sustainability-india": {
-    "content_hash": "fb6db164df1cca0d911d4dfafc234a58b27bf26930908f9326de8a0485ab28f3",
+    "content_hash": "96f1f50e3fe06874c48e95f04f476c525ee87b8f79ace5a2a31217229b4dfc40",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-08-14",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -163,7 +163,7 @@
     "content_hash": "8c403ab1cd53b5894a64a8c05d1d5b56bb973e0212a8d69b6f5f1a382c157def",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -176,18 +176,26 @@
     "status": 200
   },
   "https://niveshaay.wordpress.com/2022/01/17/indian-mdf-industry": {
-    "content_hash": "b10b198d169376bae80369f87541f2cd477e2b3ccbe13f1ed775054ab1de7bc8",
+    "content_hash": "7fed8270f173e906b8cb01ff9b90eac7a67e98486290f8f8293ecc523bf1bfb3",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
   "https://plyinsight.com/all-india-mdf-manufacturers-association": {
-    "content_hash": "2e18c38723c15406751872654999b560869c878fec3dd76616980a7165f9be73",
+    "content_hash": "892f5e5ec0aa8c137816d8023578db4b4766f799e81322505f023a6046938523",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
+    "api": "report",
+    "status": 200
+  },
+  "https://powermin.gov.in/en/content/annual-reports-year-wise-ministry": {
+    "content_hash": "abc1ed0405de7c6e477a686a9ad45e3cff31f22d51a580ebcdd5b92148270a03",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -200,10 +208,10 @@
     "status": 200
   },
   "https://simplehai.axisdirect.in/images/2024/Gravita-India-Ltd---Initiating-Coverage---25092024-2.pdf": {
-    "content_hash": "7959a85d53745ecc72b1a4fe92b3798f1f8a26d7086b4327eacd99ebe82a1a01",
+    "content_hash": "3ccdd862cd269f0544bda3902b98ad2723dc78671af2ab9422565648c9a280d8",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-12",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -231,11 +239,19 @@
     "api": "muns-reader",
     "status": 200
   },
-  "https://www.6wresearch.com/market-takeaways-view/top-players-in-medium-density-fiberboard-market-in-india": {
-    "content_hash": "14da56366b9c5c3df79bc46b1a247caf1293635da883e18fbffd262d91dfece0",
+  "https://www.6wresearch.com/industry-report/india-medium-density-fiberboard-market": {
+    "content_hash": "5e434993390fee21e83f16f23f7a3261419b5e82c39828bf0bef87352397bb68",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.6wresearch.com/market-takeaways-view/top-players-in-medium-density-fiberboard-market-in-india": {
+    "content_hash": "5deb0d2ef0d37e3f3ab4324b212e72b3a833f960a47a6d88a78e0d826c390ce3",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -331,7 +347,7 @@
     "content_hash": "35cad820c23d8cd9e40459f9dd310b13ff93e1fc481da70ec2ab2e6a79953621",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -339,7 +355,15 @@
     "content_hash": "0ac6c9dba7eaa588f634db6adced5f35cc42c40fc270ffdfefd58e66164d1e78",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.cognitivemarketresearch.com/mdf-board-market-report": {
+    "content_hash": "cb94a67a612251fd01524a0d1a3c4fa1fc29b34745880a2ae06cf8cac1c1f0fb",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -351,6 +375,22 @@
     "api": "muns-reader",
     "status": 200
   },
+  "https://www.ddpmod.gov.in/documents/annual-reports": {
+    "content_hash": "1feec0472f6adecef2554584fcc135be3b2120345253ee0eb82a1daf65b3cb87",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
+    "api": "report",
+    "status": 200
+  },
+  "https://www.dord.gov.in/static/uploads/2024/07/fb6bfb782cd7bd67316af15a58c72d5a.pdf": {
+    "content_hash": "ac6de3e8036974a381be3a1ab84c312bf0d767c70387d167ae1fb819be65810c",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
+    "api": "report",
+    "status": 200
+  },
   "https://www.entrepreneurindia.co/project-details/medium-density-fiberboard-mdf-manufacturing-plant-detailed-project-report-profile-business-plan-industry-trends-market-research-survey-manufacturing-process-machinery-raw-materials-feasibility-study-investment-opportunities-cost-and-revenue": {
     "content_hash": "2ec5317fdcfb9fb21d25b9ad87949d9810732fa7f48340d893b85f9a448db14c",
     "etag": null,
@@ -360,10 +400,10 @@
     "status": 200
   },
   "https://www.expertmarketresearch.com/reports/medium-density-fibreboard-market-report": {
-    "content_hash": "9e9e69372f811704f90b5fba0c2262d33016fc5098023745ec71346af4530a7f",
+    "content_hash": "33b129811030ef9df9b1d634838680b2bd28f4a005553809ca8b168bdda7fd72",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -384,10 +424,10 @@
     "status": 200
   },
   "https://www.futuremarketinsights.com/reports/medium-density-fiberboard-market": {
-    "content_hash": "03b757439f4f441a39f6b1041547d9d2cf826fcb7c531d5dbc8e379d8a4dd437",
+    "content_hash": "61d53c2499bd77bad7fd15eb8db7a542c8c8d2cef466cab8d1a8ee9151cc7f3f",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -400,10 +440,10 @@
     "status": 200
   },
   "https://www.goindiastocks.com/brokerReport": {
-    "content_hash": "8047324654feeb3e7bb12bc8d60136450e2cbeea9b5812f0ba6613dba0e99f06",
+    "content_hash": "75729daba1c7a59061e8c2c63d4387e55e856e527bb5046ed59f214c33fa5ec0",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -416,11 +456,11 @@
     "status": 200
   },
   "https://www.grandviewresearch.com/industry-analysis/medium-density-fiberboard-market": {
-    "content_hash": "032d81d4f2ede72316c664b6e9ab1a270565af1df8950379840bfbf5cafff0aa",
+    "content_hash": "567863d69b398261a5c7ed53c46f64c54ee904ec1958f399f90ea2fbac27db8f",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
-    "api": "report",
+    "fetched_at": "2026-11-02",
+    "api": "muns-reader",
     "status": 200
   },
   "https://www.greenpanel.com/pdf/Annual-Report_2018-19.pdf": {
@@ -456,26 +496,34 @@
     "status": 200
   },
   "https://www.hdfcsec.com/hsl.research.pdf/CAMS%20Ltd.-%20Initiating%20Coverage-%2001032021.pdf": {
-    "content_hash": "7f362f7288843923bdd17e2023691253f5d047a886e744c2fd0031ca0683dd63",
+    "content_hash": "7be583d45137beb0fec6e5c0ab063bb93cac2cf31b05f6ce30f3d521078e69bc",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
   "https://www.hdfcsec.com/hsl.research.pdf/Crisil%20-%20Initiating%20Coverage%20-%20310322.pdf": {
-    "content_hash": "816dcebbab8dd6716fee566a53abae4d1f554052661bc32fb36ac8c076a4a8ef",
+    "content_hash": "7be583d45137beb0fec6e5c0ab063bb93cac2cf31b05f6ce30f3d521078e69bc",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-12",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
-  "https://www.hdhmr.in/blog/mdf-manufacturers-india": {
-    "content_hash": "d3fbfd0cd8e97923b84e8f868b7a0c81b06215c2d4fba11cda90a9de38cac2a0",
+  "https://www.hdhmr.in/blog/mdf-board-design-ideas": {
+    "content_hash": "f47c082d4cf63c527a312b06b00b4cd48dfaa8ee58df7be77256f2792f9982d4",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
+    "api": "muns-reader",
+    "status": 200
+  },
+  "https://www.hdhmr.in/blog/mdf-manufacturers-india": {
+    "content_hash": "6882d77aa173fdffed564f5c79b8277b2ca39ce9b6b4213f816e74d73d5226aa",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -523,7 +571,7 @@
     "content_hash": "2386afaa40c3d057299ea6bbd4e4fef3889412b1b648b33548eaaab2191bdb92",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -536,19 +584,19 @@
     "status": 200
   },
   "https://www.imarcgroup.com/insight/mdf-board-manufacturing-plant-setup-cost-india": {
-    "content_hash": "a2bbffbdb4beb88afc0d4cc434585227b2251ded91d5ab25f6ffcf94c617f7e8",
+    "content_hash": "fe35e7cb36a7daf456ee195aaa6d87f07726b70e97d934f05343a7f51c60c572",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
   "https://www.imarcgroup.com/mdf-board-manufacturing-plant-project-report": {
-    "content_hash": "1eb3a8189a69a95b39a5933148eb29de1e9dd2cc40219d0f13c110c953816b0e",
+    "content_hash": "a6e27bfae7b8cd4c0e88d70a4ead65ac9b1874f2f197ab0422ca3ed3de5c21a1",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
-    "api": "muns-reader",
+    "fetched_at": "2026-11-02",
+    "api": "report",
     "status": 200
   },
   "https://www.imarcgroup.com/medium-density-fiberboard-manufacturing-plant-project-report": {
@@ -568,10 +616,10 @@
     "status": 200
   },
   "https://www.indexbox.io/store/india-mdf-market-analysis-forecast-size-trends-and-insights": {
-    "content_hash": "8171a9d2dc522bd2ac64b8410ed03e7365908e79b14d9ba8f40c682c2c3feb05",
+    "content_hash": "230175a39cedcba5fa08af40b3a04aafdf8778dbb401729f719c9a18a4041c7e",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -584,11 +632,11 @@
     "status": 200
   },
   "https://www.indexbox.io/store/india-medium-density-fiberboard-market-analysis-forecast-size-trends-and-insights": {
-    "content_hash": "aac4d903bef5a1733a7da5e64a8e3fd6160883597b6408ede8a7fde4b918cf44",
+    "content_hash": "8bf32a0000308efac91949a65c2ee47a13e925a83b97a668a6f89bda91a24034",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
-    "api": "muns-reader",
+    "fetched_at": "2026-11-02",
+    "api": "report",
     "status": 200
   },
   "https://www.indiaratings.co.in/pressrelease/q16wxng78anjuxuvaen4bi04": {
@@ -667,15 +715,15 @@
     "content_hash": "1821b0b093dc9c5f645273d1830bcc44a0d6761b7433c50f72e129c52042493b",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
   "https://www.niir.org/profile-project-reports/profile/1912/medium-density-fiberboard-mdf-board-manufacturing-plant-detailed-project-report-profile-business-plan-industry-trends-market-research-survey-manufacturing-process-machinery-raw-materials-feasibility-study-investment-opportunities.html": {
-    "content_hash": "8c3dc3a90a1ea8cb0dd042c4f03d23a3722c5b175a9261796ee54eb06e184955",
+    "content_hash": "09f43342db55ecbe4a023469e81f40ba376f0b579efc4d58b8180ec42e6d1418",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "report",
     "status": 200
   },
@@ -685,6 +733,14 @@
     "last_modified": null,
     "fetched_at": "2026-08-17",
     "api": "report",
+    "status": 200
+  },
+  "https://www.plyreporter.com/MDF-particle-board/design-trends": {
+    "content_hash": "9fab1eb1dcf693f757cd4877ee8f025da627dbe43a05dadfbda86f50113302ae",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
+    "api": "muns-reader",
     "status": 200
   },
   "https://www.precisionbusinessinsights.com/market-reports/medium-density-fiberboard-market": {
@@ -699,7 +755,7 @@
     "content_hash": "af2d4862c07bfb8466aff9ce9e772bc21920856825d7a6cfc78be542fe8557f5",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-05",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -712,10 +768,10 @@
     "status": 200
   },
   "https://www.researchandmarkets.com/report/mdf": {
-    "content_hash": "fbbe24122071f527694bc13077b29a306d63565b73d9cf083a1ace1b2d8da978",
+    "content_hash": "abcc7c7217ed2006ed599cd3dbae6535558da712a7463337d4a197594f58e37d",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
@@ -736,18 +792,26 @@
     "status": 200
   },
   "https://www.scribd.com/document/935841939/Mdf-Industry-Analysis-1": {
-    "content_hash": "ec30d361077dfff760f19194d1ad8c4d4ae053208f89b353f7419ca58d38d00b",
+    "content_hash": "b353ad66602e9fbd458d94cd7959704c58cbae93466d9595e50139bd6932825d",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-10-26",
+    "fetched_at": "2026-11-02",
     "api": "muns-reader",
     "status": 200
   },
-  "screener://financials/516003?c=consolidated": {
-    "content_hash": "40f7e78bfb010d2692b406b0c42f8613f2827b29d18190d6ec545875fbd71c67",
+  "https://www.slideshare.net/slideshow/medium-density-fiberboard-mdf-market-survey-cum-detailed-techno-economic-feasibility-project-report/61265639": {
+    "content_hash": "15d4e71d3b881c030f872ec974b6045893021296ea784d972568f2753136face",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
+    "api": "report",
+    "status": 200
+  },
+  "screener://financials/516003?c=consolidated": {
+    "content_hash": "2999caccf3eb8e77d00f7c0d63fa8522395cc44d9347d7fa05fc635f28025b8b",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
@@ -776,10 +840,10 @@
     "status": 200
   },
   "screener://financials/GREENPANEL?c=consolidated": {
-    "content_hash": "d5e46da45d9012ac6e8cf36a642bd8083cd9f65a8738dd7c943dc7e54775a1ba",
+    "content_hash": "40dc70683af153c16e4cdac62ee8ab7d40d42519b8204709633389214ef29789",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
@@ -803,7 +867,7 @@
     "content_hash": "ec20650b38e68e2f4ead6b707a325d74625c61cd109005c250a1bab6aecf5ce4",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
@@ -816,10 +880,10 @@
     "status": 200
   },
   "screener://financials/NCLIND?c=consolidated": {
-    "content_hash": "0394a9898e882ed5643b84c905b009921ce4092eb1e137f8103d271185b1aca9",
+    "content_hash": "c82f33cbef610145f970a1d051a738f8b19fa54d0e793e8a10bbc08d6550eb98",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
@@ -835,7 +899,7 @@
     "content_hash": "a5f212baca425f2b6597e60679f057c38d0d58b1d1d4a4878bd9d16d529d4a09",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
@@ -848,10 +912,10 @@
     "status": 200
   },
   "screener://financials/RUSHIL?c=consolidated": {
-    "content_hash": "8e273c768e24efb3d017964563d11848550baa20e217c988b2674d7b2af25eb6",
+    "content_hash": "943c3511c8b77fb32ecba842e7daa518126fe7be04f921d2e8cb0c5fe714ca96",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
@@ -864,10 +928,10 @@
     "status": 200
   },
   "screener://financials/SHIVATEX?c=consolidated": {
-    "content_hash": "4910f8737dd4ce67b6b4601c4215c41f59d03f4b15363ee0a1ce044abf7215d1",
+    "content_hash": "6335992e2e8b82e74ac1ca5d05a818b9ccd634f38f610210eda3a621748a213a",
     "etag": null,
     "last_modified": null,
-    "fetched_at": "2026-09-28",
+    "fetched_at": "2026-11-02",
     "api": "screener",
     "status": 200
   },
