@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-01T23:16:15.977Z",
+      "last_fetched": "2026-11-02T11:51:58.605Z",
       "last_epoch": 1793214784000,
       "etag": null,
       "last_modified": null,
@@ -18,21 +18,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-01T23:16:26.359Z",
+      "last_fetched": "2026-11-02T11:52:33.472Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-02T03:10:02.528Z",
-      "last_epoch": 1793582237000,
+      "last_fetched": "2026-11-02T11:52:35.566Z",
+      "last_epoch": 1793615400000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizwFBVV95cUxQZDl1RjFTUWRrbGdNMlJpU1hVTHhvcGdwNjMxdS1UTDdRcHFwTFNzNjBaUWJaY0FUbWF4S3lZNEtuTS12TFNsYnI3U1AwaS10Yl9ja1RqcjBqcGI1WW9VQmVnWnhDR1FJWFRjanpPVF9nd01nTlJ2TWVfWjlGSDZkZ292XzJCS0dkaWdHd290ejRwYkFqdGdfa0U0cFpVRlFidDhiQXJscC02RlJSZHB4cFhHbTRLVU80RWJ1MlpJQUhVdzU2TUk2TlNrVmgwQ0E",
-        "CBMirwFBVV95cUxQUkF0Z0d5VTdCU1hISVI0eXNTUnpGOFlXc1BwM0dHWEJ6SWs2REc1TEdFdUtQRlRYTUM4TXRqcnFYZWlldDdjQnhLQ3ZQVmdrYXVvTWhwSGRnejRLLXBjbms5Z2pRMEJVWlp5Yks5WG5Tck9ZYXJaVDk5ZGZyanhEQVJUOXJMM0hBTzRTNnVheFlkcmpUSzdadi12VmZlbGFEWjA3SXEzcnJ2TTRXMkZv",
-        "CBMisAFBVV95cUxPTDQyZF9hQzg5YmxhM2ZBQmZfYjhQdkhWSG5IdEdfQXJFU3NTbWdJVllGR3lCcm1FMUdHLUxxNWl0VGoydU5wZlE3dEVMaUN4c3VGa29VU01Ga1NYa0pvRS1NU05xSHVUTExqdE5yZVVXWmRlWnBtdUlGcWtVVDd5dE8xbDQxYjNWVjVZb2tEeVZGaU41dHFMSENORWY3Y01ZSzVmenpMQTczWVc5V1FMNA",
         "CBMisAFBVV95cUxQRmNJQVFlMUpRWE52eHdVY1NuUXU4blFlVkxxMDRxYnRVaHFWR3p1azY2TzJHSWF4Rkp0U0xwWGhqUHpqS3IwbVdqZTJKQ0d1X2w1UGNuWl96MHhOUDBBY1g4S0lLMlV2X3FmZURNYlNYMzlaREQwaDNJblRWZ3RITkRiUVpUNU1MV3FrXzV0NElxTGVkV3NqNV9pTkx3UDlYMElRWlFiUG1MUFlfUHZKRQ",
         "CBMisAFBVV95cUxOdDFUaDRwSGppdV9lMlQ4RmdETVhmU2x5ckN1U2F3enhmR2lxYnoyM2w0cXlwQmJQMUlPdFZQTGVWZy16R2VLNERfaHM0Vkw2YWdDZG5NZzZCanl2NTByRFQxUkpQU2NoVFNtbUVkbmdnQTg5Wk1ua2xzdzdlVWNZck9SYjdtVGltand5TGtSaVRrVXNqZk9YQXVCU1NHaGVhd2lwMDA4a2lIaC1aeVp6bg",
         "CBMiqAFBVV95cUxOR2FmYWRaWlpwdHFVVDYydmZSMGVWMlFUYTd0R2VGMjBlR29xQXlLaHlDZVFjSVpWWnpIRGN2MUVEVHZUN2xjTzlDRFBjMGYwcUpKckszTDVrVUtiUW1ZN2xLY0V4MFNmQ1pfaV9MTnhaMTlwRjJmTGwyVzNMclMzVWlKeWVNalpSRnhOdTR1MDBQbl9BR2pqZXdJdEJQQ2tMMEQyZGcxUkQ",
@@ -329,14 +326,17 @@
         "CBMi9AFBVV95cUxQZ09YN0JnbDJMZ041NjluNW5VcWxSZlhiMEJPb0Z2VGctWEZFVWRfY0pNdTA3cEhSUEdLWXRFUlk5bzB5aDRfWWF3dEpXYS1wc19GQTFhQjdhdHo2c21wWWJialI4RWtyd0dhaEg0U1h4cHY2azltV3RldHVZQ0ZKbkFCS0poekZvbTZ3OTdsR05XUFpEU2hkMmFPcjIyQVRONTNZTXA4VkF6dXJscTJqREtWdVZtNnI3eGFnNF9ONk53WEhvMnBFMExnbVhWb1FqM0pjMmlNb0Z1aFpHbms1cVNxSHJ0eTFkQ0ttNXFBd0RGQUpC",
         "CBMiywFBVV95cUxNWEFCY2dFZ3NMOUdfZ3I5UXRVNkZ0MTU5eWlTSjJodjZHZlo0czVtS0tGR2M4RHlvR0ZEUFN5N1dFd0Y3Q0NfY0dsVkZwd1JfV0JJRF9GdHJwMjI5OUl1U2pmcGpYZ2NoSnNDLWRiUFFtMzg5TGc5dHJ1VlhBUS1iSEZDLXBrbDhmbktrNWZ5WGpCY3YzNG9fWDh6Q1lKbThVTTFrVG1DTjY1cjJJeE9vdEM4cG5BVkdLdkU4d3QzRXRQNXo2Vk5PWFFuaw",
         "CBMilwFBVV95cUxNSTdXS2hXUW1aa3FVeS0xODhVLVRrTzJqcVFEaFdwNXdzcTd5ZFNjR2hmUFVCcVhpYXMwc1pTWmpDSW0tbDRKbVRrRDk1Z0Z5dFIyYU5LWnhyUjFFZzFuSDg2U3NVZHMzSmM1OXdYVnJkMTk1Szlka01IY1JEOXpUT1hBZHRhUmdJcXJkTEUxZk9tT0tUMDhj",
-        "CBMiogFBVV95cUxQYlowVTlhZkFPVmNrYzF0SVdyNTJGOHFYVDRwbmFYWklVbGxEcGtJSF9QZTNEd1ZfcG1QZEpHNVNBczJHTUFJVjJwOUtRc3FPVUdVZHVKc0NQZ1NQQnlTR2xiNGoxQml0MWNMMVZTRHJJN21ZaUlQZEhNdC1ucDhvemItMEd4c0kyXzJDYjRCcFdGQUd6eWNhWUhIVFV3YWh1Z0E"
+        "CBMiogFBVV95cUxQYlowVTlhZkFPVmNrYzF0SVdyNTJGOHFYVDRwbmFYWklVbGxEcGtJSF9QZTNEd1ZfcG1QZEpHNVNBczJHTUFJVjJwOUtRc3FPVUdVZHVKc0NQZ1NQQnlTR2xiNGoxQml0MWNMMVZTRHJJN21ZaUlQZEhNdC1ucDhvemItMEd4c0kyXzJDYjRCcFdGQUd6eWNhWUhIVFV3YWh1Z0E",
+        "CBMikgFBVV95cUxQc3pEd0lpM0pJM3k2bmxLY0x4QURCeVJsWTJ1Yk5EeGxNUWRMblQtelZua19hajYwSFFDSUw2amJWQWFWT3ZBaXo3Yzh5UFZvdnFxMTVZdG4zOGhVQUQ0dnppUS13RzctdDNyMnlvR19EcXJrdE5IY2pGc0hPeC1FWXA1ZVA2blI1ZVlrcG1ibzB4QQ",
+        "CBMimAFBVV95cUxOdXlTa1ZUX0cyb1pRUEtoV0t2bWJEZ3J4LXFOS3hUVlh0aEFRWnE0Y25WeFR3VTJYWU81QW8wVzRPdWtOUjZ5bWRlSEd1YUVXLWtIN2ZUN2ViS3dwVk81YlNHV0hPTDRDNzR1YkFPNGRCZm4xUXZndzJEbEY4NDRnbHdHQkZrbmNkckRGV0FtRF9KQ2R5MURXNQ",
+        "CBMinwFBVV95cUxNNFFjdGVPN0NpNVhmeGhMZHNUM0Vod3k0T1lGZXZZZUR4dEl5UkREZjQyM0cxd2JiQ0ZQeGZ5MFFvQkZ4SEZyTXRKd3dIX0kyR21qd1Z2RFVydGpGR2VJbkxqV1dqc1NYTTZtWWJXNGptLXVMSzZqQzYxNW1vYktGanJfRGxleUYtd0xBT3RmYlNyRUVlVkJESGVQRnZrYms"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-02T03:10:02.555Z",
-      "last_epoch": 1793556137000,
-      "etag": "\"08150fe57b0deef5ae749abfea6cfb718-gzip\"",
-      "last_modified": "Mon, 02 Nov 2026 02:51:10 GMT",
+      "last_fetched": "2026-11-02T11:52:35.633Z",
+      "last_epoch": 1793605271000,
+      "etag": "\"0883c8ef312c1b4fac23922d0c163f835-gzip\"",
+      "last_modified": "Mon, 02 Nov 2026 11:40:50 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/novartis-india-to-acquire-pfizers-minipress-trademark-for-rs-1250-crore/articleshow/133870192.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/youtube-pushes-indias-content-industry-towards-owning-ip/articleshow/133849782.cms",
@@ -438,18 +438,19 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-releases-draft-guidelines-on-responsible-ai-use-in-telecom-networks-services/articleshow/135361926.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/80-feet-above-ground-3-railway-lines-below-nagpur-metros-257-metre-bridge-uses-construction-technique-that-eliminates-the-need-for-scaffolding/articleshow/135387537.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/millennials-lead-ai-shopping-adoption-in-india-at-84-ahead-of-gen-z-mckinsey/articleshow/135423301.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-report-10-50-gains-in-productivity-turnaround-time-and-costs-from-ai-led-initiatives/articleshow/135434677.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-report-10-50-gains-in-productivity-turnaround-time-and-costs-from-ai-led-initiatives/articleshow/135434677.cms",
+        "https://economictimes.indiatimes.com/industry/media/entertainment/zee5-launches-zap-with-saptharushi-to-deliver-privacy-first-audience-intelligence/articleshow/135450292.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-02T03:10:02.615Z",
+      "last_fetched": "2026-11-02T11:52:35.742Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-01T10:57:17.446Z",
+      "last_fetched": "2026-11-02T11:52:36.039Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
