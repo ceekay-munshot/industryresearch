@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-02T11:51:36.731Z",
+      "last_fetched": "2026-11-02T21:04:12.174Z",
       "last_epoch": 1793615060000,
       "etag": null,
       "last_modified": null,
@@ -110,19 +110,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-02T11:51:56.877Z",
+      "last_fetched": "2026-11-02T21:04:47.741Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-02T11:51:58.041Z",
-      "last_epoch": 1793611356000,
+      "last_fetched": "2026-11-02T21:04:49.573Z",
+      "last_epoch": 1793648036000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiogFBVV95cUxQc0hISm9SX0dVbFJLLXh1X21FbFBUWkl6TmpaWml0cTBqQ1ROTnNQaVEySzU0Y21Qc0VMUlhyVzJYLTRqM1Zld2IwaGpzRy1PNUZ5aXZoemRyQkhGRFhfUTJWaEdMTWZSVzRpR01kQ3RRaWtjdTJyWGVIZVQ0OVJRN3h3dUk5aGo3bUIyYi1CTGFxSVhsaHJXdzNYN1p5VEZubmc",
         "CBMigwFBVV95cUxNbGpJRkUyM0FFeGMwSlhDRkRuTUZLU3dRWjJMUDJqSW5fbFFQeVp3eUhwSVRjdDZLWGJIZmZ2WHg5V05VSjZ6ZHlJTndTVkswdmtpU2x0UEwxNmR1bDdLcTJleHNWX1pvUHAzazNOOVdPZUFKa2tZVmdSUUdhdE1IZTV0cw",
         "CBMi0AFBVV95cUxPMFBRMlpDMnQzRmdhVjN0WHJPV0FjS2tEWVdpYTNndWVIZ3VodVJYTHh2OF9QTnZxUlJtMEtzM2FjSTZfUktQZTRWLVVKaVU3WTU0LVdmTlhaYlJycEMtUUJSZVdHdXh0b3hMaVcxTGNxLWRqTWQ0YXZXVW85MHZUTDFpZTRZcmhMc3VOd296ZmtuRG1ST3ZCeHhrWjRObjh1S0FEeVRPVkowQktSTzljWXlZQUMxeGUtTTFoVTdaUU5Oa2JWcEZzRy1IbzVDd3N10gHQAUFVX3lxTE8wUFEyWkMydDNGZ2FWM3RYck9XQWNLa0RZV2lhM2d1ZUhndWh1UlhMeHY4X1BOdnFSUm0wS3MzYWNJNl9SS1BlNFYtVUppVTdZNTQtV2ZOWFpiUnJwQy1RQlJlV0d1eHRveExpVzFMY3EtZGpNZDRhdldVbzkwdlRMMWllNFlyaExzdU53b3pma25EbVJPdkJ4eGtaNE5uOHVLQUR5VE9WSjBCS1JPOWNZeVlBQzF4ZS1NMWhVN1pRTk5rYlZwRnNHLUhvNUN3c3U",
         "CBMitAFBVV95cUxQWElrR2VjX1ZiZlBwOG1VdkU5eVlHb0NiWmN5OFpiQ1doMW81TmJmQS1OZ2lnLUJFMFBSRHlybmw4NlNfZGtnNnREeTNicUdZWWhKWWxRYy1GRVVKSXl3TWxXOGl4UWRGZ1J2M2p2alB3Q3ZuajBjN2lwbE5HV3cwSEwyOUM1cUZRZUJ2TWx5Um85SHlYcDJ6eVY5UkpPeGJiR0FBYjU1QkhLMm42YU93d0tqTm8",
@@ -421,18 +420,16 @@
         "CBMiwgFBVV95cUxNMy1CVWdPT2wwOU9jdW56U3JWb25qSTNZSGpPV0pKdmdDcVVjeWdqaWFMVjhIdmFvR1JSTWlYWFJmUDVKMzNUS0pNLWhsWVdBZld4eGlCNU1rV090Y0dTcER0NHMxRm5qM1I4d3JhcWZLTFgxUTRMNU9UTXVPRmlzdUs0elc4bmk1VkNlTnAtLXRodFhEVXFWTzg0YTBPWUdwd3JZakR3dXo1MkM1bjJjYXdaZFpFS1A5eUxZazhIa2t3QdIBwgFBVV95cUxNMy1CVWdPT2wwOU9jdW56U3JWb25qSTNZSGpPV0pKdmdDcVVjeWdqaWFMVjhIdmFvR1JSTWlYWFJmUDVKMzNUS0pNLWhsWVdBZld4eGlCNU1rV090Y0dTcER0NHMxRm5qM1I4d3JhcWZLTFgxUTRMNU9UTXVPRmlzdUs0elc4bmk1VkNlTnAtLXRodFhEVXFWTzg0YTBPWUdwd3JZakR3dXo1MkM1bjJjYXdaZFpFS1A5eUxZazhIa2t3QQ",
         "CBMi8AFBVV95cUxQbGxsTG9kbzVfUHR1UXlKUk9ScXZuenN6djY4cVpGaHdJVURyRzhoV3dZLUtGQURDSmFqZ05QUkczUUEwTkR6OUd1UGpteEwzdy1ORjFNWGJjY0d1U0tZSVBpbGtITUNub2VfSGhpbkl5cGlLMVBnRnZBMVF4VGJwaHhIdEZEQ3lwVmNUQWRRbE8tcTg1X1c1Rm5nSmZDdE9oRGpaUENPcFVWY0hXMTl6RlFDeVBBZnNMdFp6Xy1Qekg4SktZYUNyM3pUT18xN1BvQktiMzZTLURxVlhGUHUwZlY2Q0phTVZzWUlaLWVYcTk",
         "CBMingFBVV95cUxPQ3NvdFNGYzdGTTJkY1RXZFhmMHB0cmw0OFBtMzd6cldlU2RPX3U0LTlseXBadDNVeDh3Y2hoQjI2VVYzdW9HdW13cUZOM3RjWncyNnNyYjZUc04yUUx5NkZmMV9BVDVrbmRQVVRxTGhPajA3YV84OGZqem92Rk9VYVcwcDFUOGtnTnhUSnVwb2VYeUM0Y3BQcC1EaVdOUQ",
-        "CBMi6gFBVV95cUxOa0REQmkwVmluaTFnWV9sTlFBbGZTcUZRZVNEWFpEd25HWlQ5UXc1N0ZpbTBDc21uWjh4UHQtM0l5RnE3RFNqSnVKc2RweE01UzZrcUtxeVZhQWxSOFYtOG16bkJWOTlNc2lteWoxb3ZjLUt6a3ktOEpfeDIwWGl5S3NIMVA1aUZQM1FnbmpPaTlieFBVbmRFdnpjNEw2eGJOejBZcVBqeVdhaExjQVR6bzdvcnVDWkJFTWhWVlh5Smd4Z0Z5cDFqOUlaWC13RW5DSFZJMERodFJILWtzN1ROYWZBaVFTdG9lVFE"
+        "CBMi6gFBVV95cUxOa0REQmkwVmluaTFnWV9sTlFBbGZTcUZRZVNEWFpEd25HWlQ5UXc1N0ZpbTBDc21uWjh4UHQtM0l5RnE3RFNqSnVKc2RweE01UzZrcUtxeVZhQWxSOFYtOG16bkJWOTlNc2lteWoxb3ZjLUt6a3ktOEpfeDIwWGl5S3NIMVA1aUZQM1FnbmpPaTlieFBVbmRFdnpjNEw2eGJOejBZcVBqeVdhaExjQVR6bzdvcnVDWkJFTWhWVlh5Smd4Z0Z5cDFqOUlaWC13RW5DSFZJMERodFJILWtzN1ROYWZBaVFTdG9lVFE",
+        "CBMi7AFBVV95cUxPTkg1WVlVUmtsaTBENHh1Y2ZNR3BXWTNDTzVwOG9wZnBCRVFjR1hYYXNmTkoyQTVrUERhLUlMeWQxSlNGRXNOTW10M0lpSzc5Z0lDenhkQjBpQkEyQnVFbTUtanBYYzNLYklzU1o4QmdzY2FGVkZyZ2cxSk8xN3dkNHJSUUN2Y3dGTFBZVHBjRGUtYXVQd1lxSzFJNEI4MHRsbUNmTDhDQjlVVGlvOERFWFRpbmhnZ004dS1qeDFLcEJfSjBXVVdaQ0ZkNlNoLTRCWi1tRzBHWnJwd0o4MmhUMWlBVXpNXzBNWUZYb9IB8gFBVV95cUxPWnFpNFhsdnZfWFFwc2hvYmpyOURmYkFOalV1S2RJZFdqTTc3bFkzVVk0aTJneW9BREZQNHJfSTVjOWVPZ3ljbDNWQjQzMU9YNHU2MXpsMU9RYTAwU1dvTVVtNmFDeFpVR1lVZDR0VVVCWS1NZlVHalhFaTNfX1Z2RUotR3RpdEpuWGFuYTg4ckhYdXJkWHVaYU83UVdVMFM3TGFNRXZzNDJLN21lWW9veURqakxwOVNTMTJ4MEVKbUNUOG9NUnVYc1pFa0tfZGRRLVZfX3ZPMzNldkpUS0gtZjNSdGxMRTRyakJGTE9YZWJKdw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-02T11:51:58.076Z",
-      "last_epoch": 1793614992000,
-      "etag": "\"0883c8ef312c1b4fac23922d0c163f835-gzip\"",
-      "last_modified": "Mon, 02 Nov 2026 11:40:50 GMT",
+      "last_fetched": "2026-11-02T21:04:50.033Z",
+      "last_epoch": 1793647099000,
+      "etag": "\"0d2ae99d4ee9bb8fb495e8adc57201585-gzip\"",
+      "last_modified": "Mon, 02 Nov 2026 20:46:39 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/ndude-labs-invests-in-nutraceutical-ingredients-firm-nutriventia/articleshow/134313661.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hiranandanis-greenbase-to-invest-rs-2000-cr-to-develop-5-million-sq-ft-in-tamil-nadu/articleshow/134312408.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/oriflame-wants-india-to-be-its-biggest-market-and-factory-floor-ceo-kenneth-benaim-campbell/articleshow/134307340.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/health-ministry-proposes-cctv-surveillance-at-medical-stores-selling-prescription-drugs/articleshow/134307348.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-components/tariffs-supply-risks-push-indian-auto-parts-makers-to-build-beyond-china/articleshow/134306479.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/dr-reddys-inks-pact-with-gilead-for-once-yearly-hiv-prevention-drug-lenacapavir/articleshow/134306473.cms",
@@ -729,11 +726,14 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/mumbai-ahmedabad-bullet-train-can-travel-at-249-kmph-speed-carrying-up-to-1114-passengers-with-two-8-coach-trains-joined-to-form-a-16-coach-train-free-wi-fi-for-passengers/articleshow/135452937.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/cement/ambuja-cements-invests-15-billion-to-boost-capacity-to-155-mtpa-by-fy30-amid-rising-demand/articleshow/135450952.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hdfc-capital-creates-rs-1500-crore-residential-platform-with-divyasree-developers/articleshow/135445972.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/excellent-progress-ashwini-vaishnaw-inspects-indias-first-bullet-train-manufacturing-at-beml/videoshow/135445718.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/railways/excellent-progress-ashwini-vaishnaw-inspects-indias-first-bullet-train-manufacturing-at-beml/videoshow/135445718.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/high-court-restrains-nppa-from-action-against-astrazeneca/articleshow/135472551.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/railways-adds-9638-wagons-to-contracts-worth-rs-3925-crore/articleshow/135472570.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/cement/ambuja-cements-to-invest-rs-14500-crore-to-add-30-million-tonnes-capacity-by-fy30/articleshow/135463952.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-02T11:51:58.165Z",
+      "last_fetched": "2026-11-02T21:04:50.088Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

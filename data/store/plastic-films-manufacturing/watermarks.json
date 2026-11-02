@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-02T11:54:43.911Z",
+      "last_fetched": "2026-11-02T21:07:34.678Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-02T11:55:20.851Z",
+      "last_fetched": "2026-11-02T21:08:09.779Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-02T11:55:21.530Z",
-      "last_epoch": 1793618989000,
+      "last_fetched": "2026-11-02T21:08:10.109Z",
+      "last_epoch": 1793630764000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi2AFBVV95cUxOT25OdElFdzFHUmNQYXdaVjNRazVOeWY4X0lGMERJeG5iVUtuYkgtYmNpQ0ZUanhqVGlyeUxHekZReTBwamUxUFRpVjY0MUFfWjkyNDBaMERvYWgwYWRRR1ZUR2cxZ1VXWkxXRTVkb25CMmE0d3QzaFR2RjNRSkRfNTl6WThGLVFjWGpkakwwdmtsVFV4WS1ZUmROMjFZVzZMRGpLV2Q5a0lmVVpjZVlZZFJ6dzB0NWFENUNMdEN5a0stZ3RxTE5KYVAyRU9EVkV4V084dEQyTHk",
-        "CBMiX0FVX3lxTE0xd2pTaHdfMm44VnpDbEE1SzRIUDdub0swZmNyX2lZSGtYcVI1cHhiN0V1Z2Z0clI0SzVvTDlpd255NGJlSUxVUlMzd0lDYTdlMC12UkM2Q0s0Nk8zcE1B",
-        "CBMi2AFBVV95cUxQUmg4bU9nVTVCcnJmbmVpN3ZEZnYtOS1OV2ZFM0FERXZNdldyVVhxNEpMWUVtNU9HTkY4dDFKOVd1MmxldmJOV05RNmJZeXp3TzVWcXNkdjEyQUpXM2pyWHdBX2wxRzlvcVo4MURVS25yRFdqTnY3UndpaGZiVnhyY2lzQklyQXJGa2R1NHpuWnMyX241d3Z3eS11a21zYjFWQ3hEZWJWWHNKNlBIV1FaYl9qMU5UdjM5ZUZJRWthc2dlV09HZE85TE9xby13Y0QzTjMwQ2JwanU",
         "CBMibkFVX3lxTFBEYmRRbGxpSENMYlZUcGFiOXAtVExGZXJ5bWl4N3huZGJmekNJN3NFQjJRZl9pVjN3dTA0RUo0Mzc2TnFtbXZ5THRzRFVLSHNZOTExNzRaRWRMNjdfS2Nnb2s3VWxxNmVvSjJ3UnRn",
         "CBMif0FVX3lxTFBXaWFfRlFOYXZxSUxrS3l6eVk5T2lJOW96N0xlUU01ZF93YTJJb3hyN0JFVi1LNnViMHh6ZkhuQ25QVUNfcUlld2dmNTVBWmlsdFFKOW0yZ3d2QTIxQTFrNXlDa2VDZWFieHNySDJqZllPeDNTTjZINzR6Y3BDcVE",
         "CBMizgFBVV95cUxQOUtLVVZwLWxPbkhSSlVfSE5kY2IwQzBHZGFoVWFidnUxNVktWS1NTDM3YkRsYm9BRFo1Wk5KMGJnN0FVVVlaMGNIX2J0NTBrNzVXc3VaYWsxTk5iYnM0a3JIMkZDMnF1R0VHLS1WeGYtZWNNaTJuaGZnM1ZHb1JKa3JFOVAzNUhXNzJzaVBVVHZQMzlGbkhNUEhGYUUwVzAxXzhIX1Bid1B1SkFBd1dSa216V3JRVW1vY21ZSC0wYUljM25CSjV0cHFtZm9Vd9IBzgFBVV95cUxQOUtLVVZwLWxPbkhSSlVfSE5kY2IwQzBHZGFoVWFidnUxNVktWS1NTDM3YkRsYm9BRFo1Wk5KMGJnN0FVVVlaMGNIX2J0NTBrNzVXc3VaYWsxTk5iYnM0a3JIMkZDMnF1R0VHLS1WeGYtZWNNaTJuaGZnM1ZHb1JKa3JFOVAzNUhXNzJzaVBVVHZQMzlGbkhNUEhGYUUwVzAxXzhIX1Bid1B1SkFBd1dSa216V3JRVW1vY21ZSC0wYUljM25CSjV0cHFtZm9Vdw",
@@ -319,14 +316,17 @@
         "CBMiwAFBVV95cUxONUE5cXJlcm9FSXJMbmhiQ3gxcm9FX1RiS1dpZEp4MURKSjdBYnZoeXUwcGVhbEFZaG91TGItN0tBVlM1d1NsT3ZFMzlEOWd4ck5GZWM4cXpPWmsxT1Z5MVJKc19kWmdoMkdOQ3k0emRfRlJNNEViV3Nfb2p3Y0dFWTJTZ0hPc3F4a0RncU96V2pSWTZKTVRsQ0JGVWJta3VvOF9vODNjeV9VRGIwRk9tRGpxV3F0QUdVTUpib0VfNUI",
         "CBMiuAFBVV95cUxQRmM3ZEIwTjFqR1U3bW9XeS1pT19UUE1Ud0cwWmcwUE9EUms1MHVVZ1RnZ0ZqR0dKYk5IUlhmQWN3VmtOTjVpNFBoTVFQLUgya3k0MVBNWWZKOU1BbDg0ZGl2bmRweXJ5NC11dl9lVC03QVU1d3pDckdxaElLMlF1ZGw4TnpGSnJCUlZmTzQzYnhON1NPYW14UFFmWjlGNWJjZkIzaWVFUmhKbUlRdEhYdEpmOXRJY28w",
         "CBMioAFBVV95cUxOWTdMcm40cEFwT29YYXVVdlVqNTRGMjdyaTBPNG8wZWZ3SlpUWTRpSnhWZTdEejF4dC1ubW9Za1F3blpGZXFvdTdZMS1GN0U1eVk5X2dYd3Atc3dTajdFRTFRME5oMHFRZ19fNHVxdEVLbnA2RUhiZU43T2pHR3dVUmNsZFo3d2QyUTI5czFmTE5BN0xsWjVfMGJrU2JiY0pX",
-        "CBMipwFBVV95cUxQNUVXdUVPdUFNMjdfMnNDQVZQYkt0S1ZVT0FnR1VLZGJLbTA1X0tfS3R0LWNkazBwcVFiTUhQSmRIOXhqT3RmTE1VcWt1Nmlua1lqd0pULW9MWnZNa3BZVUZNNG5iYUZjVE5xcFhKeExHNHR4S3pJOV91Wk9EYk1PVFNmMVdIbmo0UzQ4RkJzdk5Mb203NWFEbFM3bHlPdFJWNW9VMFpJQQ"
+        "CBMipwFBVV95cUxQNUVXdUVPdUFNMjdfMnNDQVZQYkt0S1ZVT0FnR1VLZGJLbTA1X0tfS3R0LWNkazBwcVFiTUhQSmRIOXhqT3RmTE1VcWt1Nmlua1lqd0pULW9MWnZNa3BZVUZNNG5iYUZjVE5xcFhKeExHNHR4S3pJOV91Wk9EYk1PVFNmMVdIbmo0UzQ4RkJzdk5Mb203NWFEbFM3bHlPdFJWNW9VMFpJQQ",
+        "CBMivAFBVV95cUxPTVV6M3puR2JJRXhFOVZkY2NLakQ5ZmlFZGo1dHd6UzRxMGMwU3gtQTUzZGkwS0NyQ1NHMXk0dE5RMmR5RjlrTVdNVFprMFREWlQwOVA5OEdUS3BfTWtTaXB4cEhQMTJzNGMtY3lwc2t6UnJod3RKS0hON1I1XzRCamlfRnF5bFBpNGhISHJuNXllRW0tYnFDcDRUclloMlQyNE5CY1RKZDJfbHhaNDBMUGE5a1ZiUUFIR08zQw",
+        "CBMipgFBVV95cUxONWZTQmV3X1VlV1Z2bmtjcjRNR1Vfc1Q5cE1pRVUyVTVjTVdpTVZaX3FpdmNXTTc0OTc5UTJydGJMdWh0dExUZVlYQVk0V21yczdXNjZpYUxDU1Q4eFRTeWNuUTVPelllSnZDLU91ZHdER0xJcVNMUnF6UVJlMEhXSWoySXJHcTFiU0R4RmFKLVg2U2xLM0tFck94MEFxUUU3RzBIYjlR",
+        "CBMiX0FVX3lxTE5iTnNibkZIRnpLUXpqQmgwUVBKalptdDZMTEVrSEp4dFBQWWU4WkFUd2dtaEl6ajFoTV9ISG1TS3pCT2lfQS1hS2JhZWZjb0JpYVZsaUQtNkdWTTZmallj"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-02T11:55:21.558Z",
-      "last_epoch": 1793612057000,
-      "etag": "\"0883c8ef312c1b4fac23922d0c163f835-gzip\"",
-      "last_modified": "Mon, 02 Nov 2026 11:40:50 GMT",
+      "last_fetched": "2026-11-02T21:08:10.273Z",
+      "last_epoch": 1793626705000,
+      "etag": "\"0b831212d8563b577a231303dd51bfa64-gzip\"",
+      "last_modified": "Mon, 02 Nov 2026 21:02:40 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -437,11 +437,12 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/vaishnaw-visits-beml-facility-building-indias-first-bullet-train-for-mumbai-ahmedabad-corridor/articleshow/135426832.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/mumbai-ahmedabad-bullet-train-can-travel-at-249-kmph-speed-carrying-up-to-1114-passengers-with-two-8-coach-trains-joined-to-form-a-16-coach-train-free-wi-fi-for-passengers/articleshow/135452937.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/cement/ambuja-cements-invests-15-billion-to-boost-capacity-to-155-mtpa-by-fy30-amid-rising-demand/articleshow/135450952.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/excellent-progress-ashwini-vaishnaw-inspects-indias-first-bullet-train-manufacturing-at-beml/videoshow/135445718.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/railways/excellent-progress-ashwini-vaishnaw-inspects-indias-first-bullet-train-manufacturing-at-beml/videoshow/135445718.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/cement/ambuja-cements-to-invest-rs-14500-crore-to-add-30-million-tonnes-capacity-by-fy30/articleshow/135463952.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-02T11:55:21.608Z",
+      "last_fetched": "2026-11-02T21:08:10.330Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
