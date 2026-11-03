@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-03T04:35:01.670Z",
+      "last_fetched": "2026-11-03T15:43:45.369Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-03T04:35:38.956Z",
+      "last_fetched": "2026-11-03T15:44:20.218Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-03T04:35:40.253Z",
-      "last_epoch": 1793624852000,
+      "last_fetched": "2026-11-03T15:44:21.809Z",
+      "last_epoch": 1793713981000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -99,14 +99,17 @@
         "CBMizAFBVV95cUxPZlN3SmZCdVZHYU9Ya0I3RGlkZmJ1eHhhaVdEZFhZcXF0OVdTWmMtSU5SS0JrZDhVbklSVXlGeVI3bWo3V0JjMmRFdXpCemZSdEd1eXJkN2diT1ZsZlhkWm5SdFBWTVFlTUZ2R3ZFaWZqTVVyOXdHaFgxNElVakdUZUZsd2NlWm9iaEtCT2Jsc3NveEpCUUxEb2JlU2ZhMkQzeC1KVTkyd1NRNnRyOGt0S1dUMndiUHlEOXh5RmMycGJucUJYWHdrLVJlcnI",
         "CBMivAFBVV95cUxNc1VaX20xdmhydWFaMUdZSURISVRJdHR1VDBELVFkby14bU1hcXFuWURaVWt2anpJMV9GRDl3dXZ3T0JRQ2dnaTdCcGViOEhLUDVtSDlhSmpabXZOcmpQMHkwQTdGSXZ4elM0dTdtWWFzQ0hOdEU0STdkNDlvb200d0N3RTNNLVJBWS05cWhYSmpPUEFMZzR3V1NIckREam9VSU5MRkY2QUlTbXVpZjhxa1BSNHU4cUV3c3RnNw",
         "CBMikwFBVV95cUxQenA4QlJzTXBRNmFpWVBTV2xkSTg2ZF9QWXVta1diQUIzdjlRRjlTbk1hT2xSNElqVGQ2aE9TbjNPT0J6TGtXeWRMdkRrclZGQVE3ZjdqSU9EV3ZOdlFjY3AzVktVbGF6dWtfazc5YjdaT1hhTzRaUzJJbGZhNlU3VTVyLWxOTU05T0YwcUZFR19mZHc",
-        "CBMiwwFBVV95cUxQLTZUQ045NDFybXZXWFRHZzdYZGN1N2c2T1l6OGhkTjhfNUc5cFEyYlVaT2hQNldvMkx0ck5uRzVCdWJwc05BMXBOdkZpc3RtTG1wR3NtWGFPMnJ5R1lqMUQ3dktqdjN5ZEhTVWlUSzZRUi1kT3AxQURncXhTX3B6ZmRiTXJyTDliVFhHRVR3WHhGOGNjcFFOZXVHUzcxQ2ViLVdnMEtHb2ZpdTYzMFc1V2R5c1BIemExQ2hpb2loeDc3ZHc"
+        "CBMiwwFBVV95cUxQLTZUQ045NDFybXZXWFRHZzdYZGN1N2c2T1l6OGhkTjhfNUc5cFEyYlVaT2hQNldvMkx0ck5uRzVCdWJwc05BMXBOdkZpc3RtTG1wR3NtWGFPMnJ5R1lqMUQ3dktqdjN5ZEhTVWlUSzZRUi1kT3AxQURncXhTX3B6ZmRiTXJyTDliVFhHRVR3WHhGOGNjcFFOZXVHUzcxQ2ViLVdnMEtHb2ZpdTYzMFc1V2R5c1BIemExQ2hpb2loeDc3ZHc",
+        "CBMivgFBVV95cUxPZ2VDa2xBWTNpbmZsUUhjMGRqeGVnXzRqaVlQNlA1T0RQbXlaQkhqV2ZDYkpIREJxU0FNTjR2YTNESjNJTVIxSGZhcm1PbGMxeWRQeFRLUHkwVnlKV3JSQmxDcV9WOHF6eERnVlZPZFhoWG5SeTFUb093RlZhTWp6Z3lXOEp1ZW11dXRDS3d4ZWVYeFV1V0s4SFVOSmpTR2RPTDFJd1Z0bFNQd292cEsyMmRSaVdCWlkxcWdXeTBB",
+        "CBMiggFBVV95cUxQajhTUUxCUVNaVGFta1JYRFVGbGN3U0NnQzYzRW5CajRPdjZzcTRiMkJFTHpTZ2hZSS1Ldi1QeE5hRjZtU2FGYzJyUndXWVNRLVZQdTh3TXBBVFl2Yl9VN3NoSXZMekhrbUR0S2QtY0p0bFZPSE9LU1hheTZ1UDVYNmdn",
+        "CBMijgFBVV95cUxNbmN5RklpU3h4MmIyZ0pzQzYta0NXak45b2lkLWdSWEhBNE4xSWpxNjFUWDlyUmh2S2ZZUmNoT3R3MThGOUF6WWJpcDl0eVRpQ3lvLVQwZVZ0dGRBWjFxLXNsVEJrbTB3TFRWNXpMMHhLZE9GXzlMbm43SWJ4MnpjZ180OHRaaGE4NDlJV193"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-03T04:35:40.301Z",
-      "last_epoch": 1793632387000,
-      "etag": "\"092770cdbb1d6af293fb46b3c3abfea58-gzip\"",
-      "last_modified": "Tue, 03 Nov 2026 04:16:02 GMT",
+      "last_fetched": "2026-11-03T15:44:21.950Z",
+      "last_epoch": 1793713368000,
+      "etag": "\"0b8b700f7bd9a941c126a51e6514abefc-gzip\"",
+      "last_modified": "Tue, 03 Nov 2026 15:13:57 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-issues-draft-audit-manual-for-drm-based-digital-addressable-systems-seeks-comments-by-october-30/articleshow/134840672.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms",
@@ -154,11 +157,12 @@
         "https://economictimes.indiatimes.com/industry/auto/two-wheelers-three-wheelers/tvs-family-succession-dispute-venu-srinivasan-raises-governance-questions-for-listed-companies-says-ingovern/articleshow/135425114.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-to-weigh-650-responses-on-insurance-commissions/articleshow/135435794.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/delhi-metro-announces-40-additional-trips-on-weekdays-as-govt-imposes-grap-ii-dmrc-advisory-pollution-public-transport/articleshow/135466061.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-to-consider-hedging-fuel-as-it-ventures-on-long-haul-routes/articleshow/135464400.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indigo-to-consider-hedging-fuel-as-it-ventures-on-long-haul-routes/articleshow/135464400.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/banking/cci-approves-kotak-mahindra-banks-acquisition-of-deutsche-banks-india-retail-banking-business/articleshow/135501810.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-03T04:35:40.402Z",
+      "last_fetched": "2026-11-03T15:44:22.074Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

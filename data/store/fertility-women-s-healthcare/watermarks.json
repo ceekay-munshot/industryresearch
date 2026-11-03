@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-03T04:29:32.719Z",
+      "last_fetched": "2026-11-03T15:38:04.210Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-03T04:30:05.241Z",
+      "last_fetched": "2026-11-03T15:38:37.801Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-03T04:30:06.493Z",
-      "last_epoch": 1793633578000,
+      "last_fetched": "2026-11-03T15:38:39.193Z",
+      "last_epoch": 1793712074000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi3wFBVV95cUxNc25rTk55ajZkSGRZS1NzWUliOFF3bVdZam9RYkkxdVR2dk5CeWdnWFN5Y2FLenlrQUVVZWN4ME1vVnNySXd0MGYtZURxNF9VOHVvYWZ6U2hNQ2dIb1lySldWNDdmNzdZZTlueWF0dVZ3VHU2S1gtVXRZazdodGFjVUl5WGhYUUJpRW9IQzlSRTNNVVhFbmRYOGVDV2ZKc3Z3SklUWEJNeklvVGNKOFBjUmEwaHh2SlNSaWN5TjNQR1VkeDlMU3VzaUpnOEg3b1dtbTkzVTRwa0tqc1hUWHlR",
-        "CBMi1wFBVV95cUxOMl9vQlhXckU4OXdwRGNzTXo1ajJjRjl6SzNvbkhsYnpCMnEwUGhWNTRNSUZ2bnBRb21pMzJhTDRPR1Vrb1J6YTVRVTJhOFFuYkZCM2hSYm9Pak05X2RzbkxXYXlqSGRvZFA3TWNlWVVYVzhOVS1CLWZvWUFySGpEN3NiRy16cHdZZGhocTkzZXFPWXhTQ0hXSzZxSGpjNExoT09vakpNQzhwOTBZNkJIeXB5Mmc2WERvSS1NSEdERlJvdHJBVS1XcF9JTnRjUHR4aVFDRjR4ONIB1wFBVV95cUxOMl9vQlhXckU4OXdwRGNzTXo1ajJjRjl6SzNvbkhsYnpCMnEwUGhWNTRNSUZ2bnBRb21pMzJhTDRPR1Vrb1J6YTVRVTJhOFFuYkZCM2hSYm9Pak05X2RzbkxXYXlqSGRvZFA3TWNlWVVYVzhOVS1CLWZvWUFySGpEN3NiRy16cHdZZGhocTkzZXFPWXhTQ0hXSzZxSGpjNExoT09vakpNQzhwOTBZNkJIeXB5Mmc2WERvSS1NSEdERlJvdHJBVS1XcF9JTnRjUHR4aVFDRjR4OA",
         "CBMikwFBVV95cUxPOUQ2N3F6VWIwa1VtWWQwRS04Rmp1Y1hiUlNfUm1zNjFUV1BoaEFoaktic2dkMmtvWkpsRW9QWThRQk03UUR2YkxsQzF2T3lwbWo2WFlUdzRub05FLUswQzkwSUl6TFRpTnBZV2R0OVlOcUFzNkJObjB1U2R1ZGRiWFBHb1dyeDA2SG1tWDdJRG1taTQ",
         "CBMi4AFBVV95cUxNYldzVUtMcTNIcnNQWW5Ha2Q4TGdycVNNM3c3ZFZpOFl2bm8tYllVS29HbDEwTEoxbFlORjJaeEFPTS1sc21ZdlNjWTZwLTFmajdRZ05qYjJCNUpQZ2tOSzRRSy1FSEZRckhIaXFiUkVycDlBc05BQUNlb2c2NzVZRzdURFhrZU52Wlg2SkpDSFM3V1ZKajQ1M2Z5dmFFZm1aT19KVWNIOGRnTDEydkhrNWlYbE5uVl94R3QtVHBxWVdGd2xuZ0YyUkN3ejlQaEJCZjF5a2ZKRWRJUUlWTTE3VtIB4AFBVV95cUxNYldzVUtMcTNIcnNQWW5Ha2Q4TGdycVNNM3c3ZFZpOFl2bm8tYllVS29HbDEwTEoxbFlORjJaeEFPTS1sc21ZdlNjWTZwLTFmajdRZ05qYjJCNUpQZ2tOSzRRSy1FSEZRckhIaXFiUkVycDlBc05BQUNlb2c2NzVZRzdURFhrZU52Wlg2SkpDSFM3V1ZKajQ1M2Z5dmFFZm1aT19KVWNIOGRnTDEydkhrNWlYbE5uVl94R3QtVHBxWVdGd2xuZ0YyUkN3ejlQaEJCZjF5a2ZKRWRJUUlWTTE3Vg",
         "CBMiswFBVV95cUxOYzNLb3pQeFlBWE8zZWtzWkprTWVKX2VLRVp5ZUNzRGd3Y2NaZDBUMGhoU2NtZG1aVmxtQ3hjd3J2QVE5M3kwS3FUcU4tMDZiNzR4OXBfbkhLSVNZWlBDOGw3VHRGTWp4WGVBb0YxM0I3UlJYaEp2MFBCb0otdTZPTnZvalhqSFkwcmZ0bGdaNktBVnFTSU90Y2t5eHJuLTFWMERJUEsxSUlEakV6blc2UjJDcw",
@@ -319,21 +317,17 @@
         "CBMiggJBVV95cUxOSW1Ga3lzb08xdGRCUDZBZXhBRXhEN3VfaGwwM1E4OTl4alRQREpSVzVyUHZFcnRBRXUyUDNPNWNRa0o2Z1ZsQ3J5N3lHN1ZnWkZiN05DSE0wQ1N3SEFzYnlpcVdMTWdXZTBKS1Z6RHJOZFdxSGNpNkxfQ0owNXFEdldYd0Q0cWtFUWZtd1hfQ1FjNnBQb3o1WVJUUWdTQnBmUEEySGhiX3BBaE1qMHRJbHBDVEhnUGptZlRQYWtRSEMzRkphbzZKcXlTOFdiQ0UyODlEZ1M1MFdKX2tLRW9UUlpUSmJVODlCdnFnWVJIRVdsQ2dGRXQtVXRsY1ZHcmZsZmfSAYcCQVVfeXFMTkFveUtuZ01lX2VhSGJVQ1cxOWNIY0FDREs2QzhoQndTZnlYS1VWaEg4WjVTWWFxOWJnc2poZm5HYVV3bUpRU2F0bmZ5TS1ueW1MTHhhNXNfM1dKV3lWU0xYdGtvZTA5RTdZYWpGOXdGN1hHNk1ka21EWHRFWVppSEowS3hxVngyOGJ5eTAzd3daeER0VFNPd25ZVG5VdV9fVUZPb0h3S1dWWUpHMWNKSnZmbEZabmFEVDc0T1hhLXE2SDQ5alVPY3FvYVlHWmJ6YlFTNVl3dXpSUWpRTldfV2pRT3pjN2MzU1c0TG9ZaVZON2wtV19pNWI3ZzVrV21BMkRCemtqakE",
         "CBMi1AFBVV95cUxOb1Fpa1lxTEpCZW9uWlRsQ0pWdnJUS3F1cEdiUTUwLXpHeTNGLXZkV1pYMER5V0ZVeWJabm90TTlNeDRhLUFVRjlWZUM0ZWNUS0VjbmNjVC00ZU5GeW81dHl1LUNCQXlLR1ZVU0N6SFRMOWdfYlI4R2tKVmNlRmxuamhCeGdyVkZpbUlVZ0lIQXVYa0l1RENxTFJWRVkwTUVNbTJYT2xMOEhZUGcxVlBaSGVRZ0syRlF3WnhEZGxnbXltNW90ZmxUdFA4WGczdFV0bVRwedIB2gFBVV95cUxPU2hBUHc1Ny04Q1FfeUh2MGZwRmJZS2g2dE91X2t4MnZ5U0pXVk8zT2wyOVJBaXlzV2NiSmc5YUd6T2stSmwxcGozRlRTOXVSX2RqZGlqWGp4Vm9wMUZucXNKNlAxMk1LMjY0RmtWRXU5aHBQYXNFNS1XRlVLbWVDeERxeWs2OGdvMnlSXy16eTl3R01pdVlxVTVTOC1aRTllTU9HSHVkVTdReDFMNW1SbldhQUYyaEd4X0hlMVhTMlZOOTMyUUpLSDZocHE0cXR0SDhVOEQwUERYUQ",
         "CBMivAFBVV95cUxPRUpEVGo0OUpCMDZKb05xbzJMeXpwSkcwMUNwZXEwQjJyNFpQdDl3cldveTRweW5BUG92QjJtZGJzdVZ3enE3clFMMDQ3MnVFbi1RdW9BY2VDWTBJTGRVbG83XzR1UmV6bC1qaHItXzRIbWhNaDRBVUpqVzZLaHFGeUgteGdqLXRUSE13a21VcVdLSUhoMnppdzdEQmt6dl9PT2EwTVlHdWJhV0RlX0w0dFdiTW8xblA1UHgyWQ",
-        "CBMirAFBVV95cUxQUmxjMTRTYnVCcUhmVUw2S19xTXp2YzBQdkxQMXNiRXlUQTNuM1BxNEYzUXF1ODVtT0hzTnpFYXQ3NmYwVlRUQ0tyVWp0M2M2a1Y1TjRZbEEwb2tiY1NZSGR6b3VpYlVCOURkS0o5ZTVRaVJnMUNQUGxBS0JQbTJ5WWI1VGcweGR3MXJLVWJVX1k0UVl2NlRObUlEREZNR2FyeHBsY3l3ZlpuaEd3"
+        "CBMirAFBVV95cUxQUmxjMTRTYnVCcUhmVUw2S19xTXp2YzBQdkxQMXNiRXlUQTNuM1BxNEYzUXF1ODVtT0hzTnpFYXQ3NmYwVlRUQ0tyVWp0M2M2a1Y1TjRZbEEwb2tiY1NZSGR6b3VpYlVCOURkS0o5ZTVRaVJnMUNQUGxBS0JQbTJ5WWI1VGcweGR3MXJLVWJVX1k0UVl2NlRObUlEREZNR2FyeHBsY3l3ZlpuaEd3",
+        "CBMijwJBVV95cUxNSm5YV0VKYUU3bW9kNUxSUGx1VTVNZjdiclZMbG1CaW9LempvbkFkOV9nN2R3QWFMaHBHVVdjc2lQVzRzQ0U3UkU1bmxVQi16aGdoQ2RnV0toekI4NHEwUmZUVjdhNDNXRkdwZnNJNVI3MElGa2NyVkRnUm5VYlRmT1pMNUllTHpLYmlLU1pYOE1fSURmR0tHR2ZWZWhLNWpySmN4WXBCdlFHcEViUjd3X2QzdWtGd0Jld0lMck5QS0NkVzZlVmtzalhvanIyN1JuMS1naGwzbHBnNjRVUlVMVDRkNlYzcGRUWHJ5QnFzUVJCNkU5aWFZbExKOU4xWnhDR25yby1ibGJtZzRpb2dJ",
+        "CBMi5AFBVV95cUxORE5fV2QwdkNFZE1fNFVQbldLYkpqQUFIZlVzWU5Ic1dNQUlJa3Vhdkl3SEw4Z2NxSjdTVml2bGRtVkpwXzREaVJwekJWQVNZZkthWFlGdU1EdlBYcTI5SWEtRWJDelR1S0NYcnVucGtUVmtWR09wd2JtYXU3X2h2LTNTM21GT0QzZ0dkNFVSdlBmV3FOazJDVUhfTW9TNGxmVHlvcFFuVTV2WnRMQzhRX2g2Y2IteWRjc0xCeFd4SXdDdDZoTGJsRFBSdkhfMXlaWXBHbmJGbk5LNmhURHctZFkwbjjSAeoBQVVfeXFMT0cwRmRXRzVBTTlFSWZDN1dyZzZad0x3SFRha2VDSDA2Y3loNm1MVXUtZ2lGcW43OUJGbEV2WTMtdklya1E4SHNOUTlRVjI2TnFKWTZEREpJNWROS0F2bFdpMTRCcEpCcFAwTC1XUExFZFNrcDFEc2k0N1k3T09OOENQbktkWXUxN19GSzlDTHRPclFVbVlIT19nampvQW1CTkFBWkNoWG9EelBKWGZHUU9tOXNkcEdtdjBMSTZ2bVMyODdMSGJmV2dkckg0UlB4Wkd4MjYtc2xmSXRlSXBZODRtQ0pwM0UtdkZ3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-03T04:30:06.533Z",
-      "last_epoch": 1793647053000,
-      "etag": "\"092770cdbb1d6af293fb46b3c3abfea58-gzip\"",
-      "last_modified": "Tue, 03 Nov 2026 04:16:02 GMT",
+      "last_fetched": "2026-11-03T15:38:39.335Z",
+      "last_epoch": 1793716779000,
+      "etag": "\"0b8b700f7bd9a941c126a51e6514abefc-gzip\"",
+      "last_modified": "Tue, 03 Nov 2026 15:13:57 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/tata-steel-extends-dutch-green-steel-pact-by-five-months-to-march-2027/articleshow/134487695.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/food/csir-niist-tata-consumer-to-set-up-food-fortification-centre-in-thiruvananthapuram/articleshow/134486797.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/tesla-opens-first-experience-centre-in-chennai-expands-india-retail-and-service-network/articleshow/134486186.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/gujarat-rajasthan-up-bihar-take-note-new-amrit-bharat-express-to-cover-2532-km-bhuj-barauni-train-gets-20-stoppages-check-full-details/articleshow/134486049.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/before-ayushman-bharat-families-sold-their-homes-to-afford-treatment-j-p-nadda/articleshow/134483895.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/tobacco/india-orders-crackdown-on-nicotine-pouches-citing-health-risks-letter-shows/articleshow/134483581.cms",
         "https://economictimes.indiatimes.com/industry/renewables/ethanol-can-help-raise-farmers-income-and-reduce-fuel-imports-nitin-gadkari/articleshow/134483191.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-advances-ai-breast-cancer-screening-towards-clinical-trials/articleshow/134482696.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/max-healthcare-expands-africa-footprint-with-new-centre-in-tanzania/articleshow/134482637.cms",
@@ -627,18 +621,24 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/j-estates-partners-with-emoha-for-senior-living-project-in-gurugram/articleshow/135465477.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mindspace-reit-leases-1-6-million-sq-ft-in-q2-noi-rises-31-9/articleshow/135463501.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/no-engine-no-driver-6-km-journey-seven-empty-train-coaches-roll-away-from-tamil-nadu-yard-derail-near-tirupattur/articleshow/135461993.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/brahamastra-part-of-lords-mark-industries-limited-takes-indigenous-defence-innovation-to-the-global-stage/articleshow/135461617.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/brahamastra-part-of-lords-mark-industries-limited-takes-indigenous-defence-innovation-to-the-global-stage/articleshow/135461617.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airbus-wants-more-made-in-india-aircraft-parts-from-titanium-to-complex-assemblies-heres-what-company-plans-to-source-next/articleshow/135503094.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/15-features-of-indias-first-bullet-train-not-just-280-kmph-speed-check-its-interiors-passenger-facilities-and-advanced-technology/articleshow/135501581.cms",
+        "https://economictimes.indiatimes.com/industry/services/education/india-adds-34-new-universities-to-qs-asia-rankings-top-six-slip/articleshow/135499718.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/ncrtc-to-run-20-additional-namo-bharat-trips-from-november-4-amid-rising-pollution/articleshow/135499952.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/logistics-links-shipping-services-emerge-as-key-drivers-for-indias-maritime-growth-report/articleshow/135491297.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/apple-achieves-historic-revenue-milestone-in-india-with-record-iphone-upgrades-and-services-growth/articleshow/135489283.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-03T04:30:06.711Z",
+      "last_fetched": "2026-11-03T15:38:39.436Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-02T11:51:23.061Z",
+      "last_fetched": "2026-11-03T15:38:39.951Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

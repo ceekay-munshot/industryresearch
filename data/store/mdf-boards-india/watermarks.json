@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-03T04:26:10.220Z",
+      "last_fetched": "2026-11-03T15:34:18.593Z",
       "last_epoch": 1793219126000,
       "etag": null,
       "last_modified": null,
@@ -26,25 +26,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-03T04:26:43.882Z",
+      "last_fetched": "2026-11-03T15:34:41.061Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-03T04:26:44.909Z",
-      "last_epoch": 1793628480000,
+      "last_fetched": "2026-11-03T15:34:42.546Z",
+      "last_epoch": 1793717804000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMimwFBVV95cUxQVFJkR2xqODdzejhVYWJmZE1FUzRSWFNFQk1GNjhHdWVkRzhsZlNMOG9PcW8td3V2dFhOaVpwTGVCYmNrNlNUbFEtMXRLbDBDVVU1dm5GYmVGM2NoMGRzeHRhVktndGZWLXVXSEM1ZE80NUlWazZUY0c3QUJ5eWtOSGZnYWNrVVZQc2EwTXNLOGdSejJOZGlxOUhnaw",
-        "CBMihAFBVV95cUxQeG5Tblh5OW9nY0NBbU5DVzVhRnY2Qm1WZkoyTjlPTjZTck0xSnk2eXkxRG5zQmFXdTd2d2l0eUh0M3FFcW0wUmpkZDlNYlQ5OURPNHA5T3FIVklveFRybGgtaXdaUktwdkpkcE1NbWZ6bU1SbjJJdGhsYWEzamdEYTRMQ1A",
-        "CBMi5gFBVV95cUxNQnhQN0M2SnpRVXRXVjd0UkgzdHVLWEVnd3RFNm95bTdZbTZ5YXNmVlVmMENvbU9UbEJ2aGNRUzZEa2NrWFRqYkVNUThNTF8tSm9DUHpTWC04R2k2X2VPUmZiNzJBVXZfWmhVSVd6NGV1T2liRkRmS0R0UjJoZmpoaUlxRFYyOW01X1lHVDc4NlJKLUowb25wLWVod1o0OERjOGZ1anFPQ0JqcGFWOUlncUllM1lXZXNCc2Z5TnJHMWJEajlmWTFZS0RkajhfdnpsdTFRUUlLOTZuaDR1SExBRXdwSzZDZw",
-        "CBMihgFBVV95cUxQbDg3b0p5dF9hWjliREtjRDhaR0h1a3RmVHdjQWZkeXE5UGhWTFNMaFloUTAxSDRnZnJWQndYcV9ET0daZEhIWVdhSWV6UnhIMUwxYml4N2xVUFg5Um9EcDZfZXNrRE5sQlhtUk4tcy1MclNrZ1pZdmlUZk9obmc5WWVzdGg4QQ",
-        "CBMitAFBVV95cUxQU1pvbUtpWVp3S0E5RkZMUllXSTVOTkU5YXZzSnpfLXhGVF81bzVMV2h0UDNvWkNwazZ1Z3Z5MjNQWFF2OTFDREozNWN6Rmc1QlplUFNBR1BzZGh2MVRLRDFGZVlVd202MFNrRlBiNGo3NUhWSjdScGNycUpvRHM5NV9EcFJGLUhpakR2UnRyUTJROU1QclNUZ2Z0Z0ExVFB2WlBad2QxM1I5TEtKRUphMUpRSWPSAbQBQVVfeXFMUFNab21LaVlad0tBOUZGTFJZV0k1Tk5FOWF2c0p6Xy14RlRfNW81TFdodFAzb1pDcGs2dWd2eTIzUFhRdjkxQ0RKMzVjekZnNUJaZVBTQUdQc2RodjFUS0QxRmVZVXdtNjBTa0ZQYjRqNzVIVko3UnBjcnFKb0RzOTVfRHBSRi1IaWpEdlJ0clEyUTlNUHJTVGdmdGdBMVRQdlpQWndkMTNSOUxLSkVKYTFKUUlj",
-        "CBMipAFBVV95cUxPNGpTQWNzdDN5VVRPdW9qdkRXQU5HamxEMTJKaXp1TDg4N2xvZnI5M3hJa2dISGpzaWRwSDY0UU5XWVBSZlQwNFNBRUhGb2NfdzQ5ZTJMY1NXckQwMk9TYTRsTmk0TVhDdHBRR2dBWWRRcW1pSWdVd0tRNFI3WDlFRzktamFDa2Q3MUFDTzFKYUtZQ0o1YkxtMWZhRUxJRFFlZk5vMQ",
-        "CBMiswFBVV95cUxPYzYwQWxHWkFNNFNQQVFtVUwwckJybTFPQ05ITDNFZTBaeDhua3M5S3AtNlN0d0xzNXNCZ1Jwc2RPUVpITkt6aXV0cUxfZGJxd3JUT3hHWDRSUk5LMk50TzVsajRpdXMyM0RnaEZWV3dQYlpLV0t3OVY5ckFqU2ZoN2RBeFJtdm9zbTQtUnJjeEpmTWNsdmZNaFJKRklHSFFIRGtqM042Y0VhdDh0LTFWQmE3NNIBswFBVV95cUxPYzYwQWxHWkFNNFNQQVFtVUwwckJybTFPQ05ITDNFZTBaeDhua3M5S3AtNlN0d0xzNXNCZ1Jwc2RPUVpITkt6aXV0cUxfZGJxd3JUT3hHWDRSUk5LMk50TzVsajRpdXMyM0RnaEZWV3dQYlpLV0t3OVY5ckFqU2ZoN2RBeFJtdm9zbTQtUnJjeEpmTWNsdmZNaFJKRklHSFFIRGtqM042Y0VhdDh0LTFWQmE3NA",
         "CBMiqwFBVV95cUxOblNEZ25MUktkLXhpRmFuNVk1Z0NWakRfc0hvNVJDYmJCNVkyT29ZUzVrYlBEVUpzMUtNS1hSNElzbEpzVnI1Q0E1YmEyeFZHcVNtS2hLWlktM2hpUnVpSko3MDdWZUhPa3FuNU5kWVZPbVZDOTBkTVl5bDhjYW91cko0UmttaUNzMy1GcW9adFZjR1ltNkVzSDJnSDFTSVB2UWlUblV1Umhqclk",
         "CBMi7AFBVV95cUxNTFVXUEhmSGtlazNqRmd4eGU3TjJqa0IwZXpOTmhhUjdnQkRYUnpjT1BPQnQzV0dZMzlMTERRUHRsRTIzZUJHQWttMHBta2tYVHY1NFhzT0xQQ09lYm44OFNEOEZuQlp0V1Z3WGdZR041UkRzUUFIQWZWYzA3eFRxdmQ0ZGFweF9xN2NUQUZKVUpxQnE0RGZtTzExTkVHZjhNVnhuVEppSmdNNkRfYmVUN0pLRjdMcnhfXzNXNXloNUNDdTNYMGVBbE1wS2Q1RjM3VUE5VnRYVmFheWg4SEZpYmNzVS10cUk1bnotbg",
         "CBMiqwFBVV95cUxNYlNxQzRLY2RIN01QYVlYTFZRSlVQRHF2R3RhTS1YcWtyYUJLMXFmaXZuZGJXamk1NTRJV3FsX0Y5a2dVbl9BczBzSVBzZnBiaU1RTWEyVlFDRi1uUGtGYjdFV05ENTNIemMwZnlsakNiMkdtX0thNWMtZGh0M2ZYZy0waWF0RDRGa1oycTVGVjZzSjhRY2NJT3plNUcxMklaeENRbDRPLWdxWUE",
@@ -337,14 +330,21 @@
         "CBMitwFBVV95cUxORGVwckRsRTNLSG5ta0NGUWdMUThnOUhOMFVUbF9lVWVuUzFaUThjRnhpdE5YZEI3U2oxdmZkNkFJandaNU9OU3MyV1U5QnQ2U0JTVm50ZTAxdlROcnNJbDNweFh3a0NIdHlHYXJ6NFZGZzdDVVZqUkI5SWNKYVF0MjREVFFVaHk4Z2JJZFhxYk5HWXBvUXRyMllUNjNhek9FWFhldFFmNjdMb3RnODhMQXFOeTB4UHM",
         "CBMiswFBVV95cUxNX3pMMERIUjlBcFZaOTlKN1VKTUsxNUI1bmN4aTZNTVVCQ2JvSjZkUXJCTGJFN0pmb0JKNmdPWXpZcjF0ckVXcVJfUUNCbGNsaUNtOXJDay0xLXh3MjVMSVY4ZG9aQlFTcGYxdmF4eGEyOHZSWURoeE5SRXNsWUJzcXNPSFROOHA5aXZpTEk5aGlhWk5nbWVSNFY0TTFCWFRNb0hfYXdfTF9DS0YxV01JTndhZw",
         "CBMijgJBVV95cUxOMlFXS1JRZEVqcVc5ZFVMVzdLRjlUWEdkakN5UTJvUWxQM1hhQ3h5X0R0UTR2ZlNxMmVuQW4yZG9qUXF0Mko4clVLNk43Z01CSUtIc1hKam82V2U1aG9pR3RwMFhESGdVOVZIdDdfbktiVEpwTUFKZGl0cFhVc2Z0VjNFTGlzcnpsckhrQ0dnMEtxR2RHM2xnWktaU3VJRUViU2loUzZaWXVydDBhUlVXTTFGY1JDcDdGOUpuSWU1UFlDV0VUOTZ5ZjBIMV9ySFd3X1oycTgyVGtzTEtSUV8yc1Y0U3l2RGs5YkhnSlRHSlFTbElvRTVuLTZUTzVlbW1vWnAwSlFad1B6aHl3bEE",
-        "CBMi1AFBVV95cUxNSTFBOThuVC1kOHJNWEdSQWFqQUtQMmtTdzF1UHdvRFJ5bWZSZzI1STRzdnVoZ005R1djOFJzYW9TckhwelpKb0FPUG9SeXA2cTk3MGJTM29GYk5PSzdySXBuSy1wVlk5WVlnYWNVOE9iLXVmS09RdUptMzdvVmppQkkyVnJnSlhwN0o2S1NNZUltem5kUjdna1YyVkxnTE1xbWRXSmR5bDBRR1lyM0c3ZzhXZURqa0dkZkFkZjJDOU9WNDlubi11bnE1Y052WFdZWmY3MA"
+        "CBMi1AFBVV95cUxNSTFBOThuVC1kOHJNWEdSQWFqQUtQMmtTdzF1UHdvRFJ5bWZSZzI1STRzdnVoZ005R1djOFJzYW9TckhwelpKb0FPUG9SeXA2cTk3MGJTM29GYk5PSzdySXBuSy1wVlk5WVlnYWNVOE9iLXVmS09RdUptMzdvVmppQkkyVnJnSlhwN0o2S1NNZUltem5kUjdna1YyVkxnTE1xbWRXSmR5bDBRR1lyM0c3ZzhXZURqa0dkZkFkZjJDOU9WNDlubi11bnE1Y052WFdZWmY3MA",
+        "CBMiwwFBVV95cUxNeTBwMldFU2JNOXo5LWl5WWdTWnZIWFJQWWZNSDlNNDBOVTQ0OVB6a1ZhVnZDM01hMGhoSnJDN0FuNjhoUWhqNUpEcmx0NVRFb3FpeTFueUhHQzZhVkJ6UjIyMmJKdXkwTFlzSXZxdDYtdXBoRDlJSk1OM0ExYjhKQ2ZUN3dUSWpBY2dDLXM5Z3B6dzYyZ3BwbEprcklkdUhIR3B5dmRyQzBGTG1jbkdwNTMtTGhSaERZTDVGcXcxZDI1cFU",
+        "CBMiugFBVV95cUxQRE03MkVvM3dUZDdlWVN6a3dZOEtuT2ZKMmVMMlZWbWFSdXpfRk9BdmFwbVFseGJ0VEVjUUdHZ1YzUmdxVzExSzdCUFpYaUFHY0Y3eDI0ZURvVlJibFY5d1NuemtOdzlKeDE3VTJGOXBWZVRDY3JPRXlMTGZSNVlJM0lJNUdGQ05zeU9LU0ZzLXd4dnFDLWJZNHJCZGJjYXhvQlJBeVp5R2xVV0YzdG5Ub2Y2Z29SblJRM3fSAb8BQVVfeXFMTVpjYWdTUzA2aHhZd2hBWVU4ZG52M1BnYklSMlJiNlJSSXdoTm5rNWJaa19id0FPSFZMQzNzdkRJRmNpTDZ1VFIxVW1HWkhDdmQxcVgxZ2FwcjVEdHZFUEhobXEwaGJHMFZZbkhiN0syeVcyS2xGWlpiSmt0aW91NXRYVTNMMW9yd0ZLVTdsM0UtZjRGaUVoa1hLUTRRbGxRY29pd0pGamNkb2tXcHdDbHlMUHVFU2VCa1N6bm1od1E",
+        "CBMiwAFBVV95cUxPVVF6WkxlUW9KenlnQlliX2t0QkljQzloc2JLOVpXdFZxaEJNOTRmWklYekp4eC11bE5LRHhCZkNQYWt0QmpGbC1GU012bzh6dkgyc05VTVBsZFdHOXBqUVFFM2ZFX245LUgyX3pQMnNVc245Tk1QWUVQT212YmZhRlZ0aWNvbmtfU2pBOU5qNVdHMlZ0QkVhQWt0Sl81ckVYcVBGLUdpSThyRWtRNjNFanZ4QnlhcEtjdkx3Y2NVRXI",
+        "CBMixAFBVV95cUxQVGc4emVGRXJDUXhfdnp2cFAyTFFJSEFLWTM1Qzh6VVQ5UlNqcjZZMVNOdDk0ZnVIbHVaX2d4WHRaaWZFV3ZZa2lDXzRWWHRPclNrcklmSDJkNVduYWlTNjFHWUFtNzA2dm1BRUpIdllRZ2ZZdHdVV3hkamNSTVV1VXM1VUJ1Z213TS1ZdFBkZnNna0NNUjJFekM3S242Z2pTbF9aY0xSWEJDN0FYWkZKSnJnOXZScGt4LWlOZjZhdk9NdGlY0gHKAUFVX3lxTE5NRmhUcGFvRzlsY3JZd1hsSnlZd1ZwME5leVQ3YTZzR3VmX016aEJBQTJSdnRQcFotVlNBdFlKdmJUTjVBRms4YnhiaTd6TUsyTGcwOXhFQml5THZQdE1nVzVSZDZKRHp3THU3Qk5jZ0RJQ3BKQVBvR1l6WTFmU2U4MUN5MWxYcGhRaHB5ZzFmZXZ1NFRhMGxYLWVYTk5ycVAzaFJNSmdqZGFITEtqUk1GX1BXaENVSmZfdFZKZFRySTREUjJVUWo3X0E",
+        "CBMiuAFBVV95cUxQMkZsWXhYdGE2cnpQYmlWQVlQZzhYSXduMnRLeUFPY1VIUXhYZllDeGtEaml6OWV1NlBxaEVzamdMaXUyRUJPYnpiVHVIdTQ1V3Y2YV92VlZYcG1kbXdxY0tqUTNvYkZ6NlQwakhONGdNclR4UFA4aG9zWnhVTDVaX2ZMdGFpcGlFSDhOTmV3bk5TQTQzQzJQck9PX1pIdGo0WHFiNTlCZGUyOUpMRVRhbDV5dzEyM3hD",
+        "CBMisgFBVV95cUxNZFVCUjc0VWx5c0ZVa1RCVU5iT1ZPUHVvNWZDenB1RW5sOXdEYm1yMHhaWE4xMXhKN3hyM25PQ1BTajNZdTdmcnZGNzZ5Q0VyR1l6VldfVlE3UlI1QXFjSWRETnNGYXBmTWdUUE1MOGY4LW8tYW5uVUpaRnozZGI4ajMzSE1NX19yVy1SVU9hSUtmUmNxNkZyU294Wmd1V3BNbFJaUnhvN3NOOHJ0eXd2eTJB",
+        "CBMi2wFBVV95cUxNOUNwMU5uaEVXX1lSTlNjYXlzVTZ3TlY4cF9FcXB2dnByeEVYVkdGV0MyVDVrTlZtaUJROWpIV0NwbGZJdU9ockNLYlFJS1Y1RlhpT3ljNWQtMHdrdlpzTE13aGZvVGpFX3EwMVNkOWxjanpxUkxqQUxNclJXVWxQUUprcW5GV0RjX3ZRNmRLalZVY1lQdkNBcHc1b3BWakwzRDZEeFRlb1FMRDRzaURoeklrTDFwbFczZzZxVUxwNFowa1NLVUF4dzBXTTJlckpDQ29ldnBuNmZHajg"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-03T04:26:45.046Z",
-      "last_epoch": 1793633998000,
-      "etag": "\"092770cdbb1d6af293fb46b3c3abfea58-gzip\"",
-      "last_modified": "Tue, 03 Nov 2026 04:16:02 GMT",
+      "last_fetched": "2026-11-03T15:34:43.462Z",
+      "last_epoch": 1793718528000,
+      "etag": "\"0b8b700f7bd9a941c126a51e6514abefc-gzip\"",
+      "last_modified": "Tue, 03 Nov 2026 15:13:57 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-sector-revenue-to-grow-11-13-pc-in-fy27-on-strong-exports-domestic-demand-crisil/articleshow/134460174.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/holding-companies-nbfcs-rejig-assets-income-to-escape-rbi-scrutiny/articleshow/134525412.cms",
@@ -354,18 +354,19 @@
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/hotels-business-has-hit-a-critical-mass-for-ixigo-co-confident-of-triple-digit-growth-group-ceo/articleshow/135013916.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/aayush-wellness-launches-calcium-vitamin-supplements-enters-usd-16-3-bn-bone-joint-health-segment/articleshow/135016605.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/state-run-general-insurers-to-submit-turnaround-plans/articleshow/135436840.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/itc-flags-illicit-trade-pressure-on-cigarettes-digital-first-businesses-grow-over-70/articleshow/135466581.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/fmcg/itc-flags-illicit-trade-pressure-on-cigarettes-digital-first-businesses-grow-over-70/articleshow/135466581.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/gulf-oil-eyes-market-leadership-in-india-global-expansion-to-drive-next-growth-phase/articleshow/135504377.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-03T04:26:45.179Z",
+      "last_fetched": "2026-11-03T15:34:43.591Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-02T11:47:22.304Z",
+      "last_fetched": "2026-11-03T15:34:44.458Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
