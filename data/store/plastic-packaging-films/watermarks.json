@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-03T21:27:32.664Z",
+      "last_fetched": "2026-11-04T03:51:56.647Z",
       "last_epoch": 1793630764000,
       "etag": null,
       "last_modified": null,
@@ -19,15 +19,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-03T21:28:02.827Z",
+      "last_fetched": "2026-11-04T03:52:18.240Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-03T15:42:33.369Z",
-      "last_epoch": 1793669670000,
+      "last_fetched": "2026-11-04T03:52:19.562Z",
+      "last_epoch": 1793749664000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -316,14 +316,18 @@
         "CBMipgFBVV95cUxONWZTQmV3X1VlV1Z2bmtjcjRNR1Vfc1Q5cE1pRVUyVTVjTVdpTVZaX3FpdmNXTTc0OTc5UTJydGJMdWh0dExUZVlYQVk0V21yczdXNjZpYUxDU1Q4eFRTeWNuUTVPelllSnZDLU91ZHdER0xJcVNMUnF6UVJlMEhXSWoySXJHcTFiU0R4RmFKLVg2U2xLM0tFck94MEFxUUU3RzBIYjlR",
         "CBMitgFBVV95cUxQY1hfZ3NRN3h6YlpYcGJWNDlEVThpeHAxajBad0tpQmMtcUstUzY3RURSU0tXbDVTREtDQXNKckZ0NFNhNXZsOFVLNlhadG81eWc1Yl9QMlRaaVBFTkpnNFktUDhXMlNPUGRRQnlkQVlJeXB0LUFLa21lSzRoNFlmWU9kRHRQb1JoeWdQS0Y0QnpqcjNRdjRoV3hzSDRkSE1KVXZBSk5KNXdNcXRqd1lRWFEwdklDdw",
         "CBMiqwFBVV95cUxQTzVuMkhxWXRZcmJiZGhOMVpsME04MW1wSVJmTmZVTEpPVEhwM2YwZ1VkTUpQN1dmWm9pMG1uLTczUlM1Y281VGxGRVoyZHJpQ0pHLUVrcVQ3U2NEMjNRSVNZTjh0NXBfS0F1N0NsNGJpOHdROU9leXJUWFkxZXpLQjBrYVlJZWJDQUxFWEJLOGFlS1ZkWUNleTVteW5BTjIxMzMwY1hDV3Q0X1k",
-        "CBMiZEFVX3lxTFA2ci1aUV93SXBWTzlCZGlBdC1Bb0NCdk0ySEJ2b0NITFZ2RUxNZ1Z1YklTbTdLVUxva1V0c2NrZ20tNTJLS190R1VmdzJjOGdiRkcxX1pBdXB0VjJTLWgySUhRTmI"
+        "CBMiZEFVX3lxTFA2ci1aUV93SXBWTzlCZGlBdC1Bb0NCdk0ySEJ2b0NITFZ2RUxNZ1Z1YklTbTdLVUxva1V0c2NrZ20tNTJLS190R1VmdzJjOGdiRkcxX1pBdXB0VjJTLWgySUhRTmI",
+        "CBMif0FVX3lxTFBXaWFfRlFOYXZxSUxrS3l6eVk5T2lJOW96N0xlUU01ZF93YTJJb3hyN0JFVi1LNnViMHh6ZkhuQ25QVUNfcUlld2dmNTVBWmlsdFFKOW0yZ3d2QTIxQTFrNXlDa2VDZWFieHNySDJqZllPeDNTTjZINzR6Y3BDcVE",
+        "CBMigAFBVV95cUxQXy1fNDN0cHVwLXd3YkNvLWlhYnBTY3BWRkl2V2d3ejlFblBsVDJxRE92U0loSVlFSmxNSmlLSnRLbGs3NlQycTBoZm9rLWU2UThhcnNTOWNqaUJhQmlJSHZCOS1PVkZ4cFRUWDhXazhBZHI0Q1ZXTDdIYzl3a005TQ",
+        "CBMioAFBVV95cUxOMEZrZEVXZmpaaTRNN0R5ckl0Y0hhb2Nkc1RnWXc0MkRJZGxhNGNoRWlHV2VUd21KSEJEY1NBRmNDRTNWQ0diY3V6MG1sVm9xd0t0Ylo4X1hObFhnczBwdmVkVHJpS0xuQTBLcHBBT1ZTcW5fOXItdjc5OWFxaWg3NGE5UjduRkdJUnJpSUxHdFdHUXhXMlMxeXJ0Nklxbkcy",
+        "CBMiogFBVV95cUxQdkdIYUR2cHhXcTJsOVdmNUpzTkkyeXhPNGd2NDBNVTh2WEs4aVZZT1FzZXBmcjd6SFpYeWNmV0NxSjJBX3ltRHpWbVFwbFVHMWlWVE1pSk9kNUNQTDUxb2JvanQyRUdJQXBOOWpiV0JYZzFxMWMzaEM1a3dxWjRfN2VCU1J3OFNsVkJORmFWc2dHWkxSakVFRm1NS3dub2VhNGc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-03T15:42:33.487Z",
+      "last_fetched": "2026-11-04T03:52:19.708Z",
       "last_epoch": 1793543953000,
-      "etag": "\"0b8b700f7bd9a941c126a51e6514abefc-gzip\"",
-      "last_modified": "Tue, 03 Nov 2026 15:13:57 GMT",
+      "etag": "\"0c2b4ede2b0ee562e38da033185453a94-gzip\"",
+      "last_modified": "Wed, 04 Nov 2026 03:36:23 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
@@ -342,7 +346,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-03T15:42:33.588Z",
+      "last_fetched": "2026-11-04T03:52:19.761Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
