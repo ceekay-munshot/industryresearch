@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-04T03:50:42.017Z",
+      "last_fetched": "2026-11-04T11:48:13.325Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-04T03:51:16.496Z",
+      "last_fetched": "2026-11-04T11:48:49.275Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-04T03:51:17.812Z",
-      "last_epoch": 1793729670000,
+      "last_fetched": "2026-11-04T11:48:50.574Z",
+      "last_epoch": 1793774160000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -247,14 +247,16 @@
         "CBMi2wFBVV95cUxNNjhfeWhzcDRrNEx1MGJXRTh5ZWRsUnJYUUtUSFVlTjdlVDFKdm41RFpRUlA0eGlQNHFSd21FeGVNbmlzMzFOUmhsbFB0Ul9qaEpQT3BLV2ZzSkxiQVVCSTB3cXAyMXEtcmxHTGpQM2VPRl8wem90SUVIRDNMSmNvU1MyMmVBUGZDYjdWU2dfalhlOXQwV1FIS2UzdS1mTGN1dU9jbUIwWHRxaEloenZINWNUUndqX09iVUZsakxxQkJDeW5ST21sSVhNVHNvUkNKT3RDeEl4X2NOc1U",
         "CBMi2wFBVV95cUxNOUNwMU5uaEVXX1lSTlNjYXlzVTZ3TlY4cF9FcXB2dnByeEVYVkdGV0MyVDVrTlZtaUJROWpIV0NwbGZJdU9ockNLYlFJS1Y1RlhpT3ljNWQtMHdrdlpzTE13aGZvVGpFX3EwMVNkOWxjanpxUkxqQUxNclJXVWxQUUprcW5GV0RjX3ZRNmRLalZVY1lQdkNBcHc1b3BWakwzRDZEeFRlb1FMRDRzaURoeklrTDFwbFczZzZxVUxwNFowa1NLVUF4dzBXTTJlckpDQ29ldnBuNmZHajg",
         "CBMi8gFBVV95cUxQUXFTUzhIM0NCV1VoX0pyamZXRkNWUl8yN2ZqbV9RNzlnMjFMWlNiLVR3NTVSaGhNNV8xYlQtZGZaU0lfNGpmeng1TWdtbjZKb05HRU5LTEpYbWlBd3NraFYyVGI5dXFocGJhWWNWSlJPbnhFTG9tY19wMHZSdER3M2IwdFJ0em4wT0JibjFIem83TFdCSUNXS0o1OGRCdG1uY3hMT0FDVEdST2pRd1ZVUTRTUDBFTlRXV05hNUl1VmU3ckFCX2JhSHhvYU94V2F4Nk9vNHQyazYtdGlrNGVYVGZzdXh5WWpoUmxJYmxDd3RyUQ",
-        "CBMirwFBVV95cUxNWmVHOGotcG9uYmhuUkVnUXpXczVTSV9RX0RXQ1dQaWppSkgtZWMtcEw5SjFrQkRoWFhvMXJxSlllREJQaDJZSlpjZ3JpejNLcGRrcG1hNlREaHBIU1RhZ0R0am5kZEk3YVN3ZDRsMk1LMjN2Sk0wTzlWUUFJa0d3LVpGOTR1RGVkWk1qakVrbHhRYlMwTEZlT0tpZEpZRUpocGNpMUVGZXNoVXdnWGZr"
+        "CBMirwFBVV95cUxNWmVHOGotcG9uYmhuUkVnUXpXczVTSV9RX0RXQ1dQaWppSkgtZWMtcEw5SjFrQkRoWFhvMXJxSlllREJQaDJZSlpjZ3JpejNLcGRrcG1hNlREaHBIU1RhZ0R0am5kZEk3YVN3ZDRsMk1LMjN2Sk0wTzlWUUFJa0d3LVpGOTR1RGVkWk1qakVrbHhRYlMwTEZlT0tpZEpZRUpocGNpMUVGZXNoVXdnWGZr",
+        "CBMilgFBVV95cUxOelo3d00xbjV6R2FxLVh4d01kSVMxVTFWV2g1YkxnVllONnJ0QlNtY0J5RmpRZ2hFOW9JS2FKanB1V01QSzZKWUNnRk1hWTNyNkt4akFWTW9HaGMyMC1Qd0pVaGZfeWlSYjVQb2lBWG8xZUN4T3pFalUzaXRxSFJqbWdzakNxUW1pR2pTaHJJT3hCQk82bnc",
+        "CBMixgFBVV95cUxNaXU4TUhJNVpzYlB1dTk5bk5Ncnl6c1RyUHAyLVlLZGtOMDVFcURUVnpINzhlc3lTbWN0QVhPM1hZZTFKckpTUndPcDU3ZGZVZ205SFFUblNnT1BtWlVUY1pvQUg5TUNHaXB3eERHS3ZaUWJLOHk0Ty1oVTNfby1ZTW1UNURjOURTd3RqeEZQRmlkNFo5OXo3WnBzOWxqelZlazVnejBlTGFTNDFLUG1LNWxFa1NCcncySTlBODY0NVV1ZlFPc2c"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-04T03:51:17.949Z",
-      "last_epoch": 1793722654000,
-      "etag": "\"0c2b4ede2b0ee562e38da033185453a94-gzip\"",
-      "last_modified": "Wed, 04 Nov 2026 03:36:23 GMT",
+      "last_fetched": "2026-11-04T11:48:50.664Z",
+      "last_epoch": 1793784264000,
+      "etag": "\"04279528cf5a8d25cf78be7ab1c9bef6a-gzip\"",
+      "last_modified": "Wed, 04 Nov 2026 11:38:03 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -373,11 +375,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/cement/ambuja-cements-to-invest-rs-14500-crore-to-add-30-million-tonnes-capacity-by-fy30/articleshow/135463952.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/gulf-oil-eyes-market-leadership-in-india-global-expansion-to-drive-next-growth-phase/articleshow/135504377.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airbus-wants-more-made-in-india-aircraft-parts-from-titanium-to-complex-assemblies-heres-what-company-plans-to-source-next/articleshow/135503094.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/indias-solar-manufacturing-industry-can-generate-32-lakh-jobs-attract-89-billion-investment-by-2047-isma/articleshow/135506269.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/indias-solar-manufacturing-industry-can-generate-32-lakh-jobs-attract-89-billion-investment-by-2047-isma/articleshow/135506269.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/indian-battery-component-makers-face-up-to-61-cost-disadvantage-against-imports-report/articleshow/135533648.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-04T03:51:18.273Z",
+      "last_fetched": "2026-11-04T11:48:51.010Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
