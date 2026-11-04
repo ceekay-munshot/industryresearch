@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-04T11:50:39.607Z",
+      "last_fetched": "2026-11-04T19:08:47.136Z",
       "last_epoch": 1793771837000,
       "etag": null,
       "last_modified": null,
@@ -38,15 +38,15 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-04T11:51:01.993Z",
+      "last_fetched": "2026-11-04T19:09:23.564Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-04T11:51:02.757Z",
-      "last_epoch": 1793790255000,
+      "last_fetched": "2026-11-04T19:09:24.283Z",
+      "last_epoch": 1793816351000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -326,28 +326,32 @@
         "CBMihwFBVV95cUxNMnBpYWJXbGQtMmlPeUxkRWlITUJick1vODA3LUNFNmR0VzlrNENUVGZvWHlqSlNIVnZsdFJNVm9FbzJ3WFROeThOUU10dnZBVlNfUnJwUTlkMmt3eWlUaXA5TjZRSEtib0NNUlNVeG5yYUlVR0JuSjl5MTNvLTEyZG13ME9VcjQ",
         "CBMixgFBVV95cUxQZUV0b0c0X0tXV2RMaHR3cVlScFUxSTJuLWlKOFE3WUFxNEd3QXpJZm5HR0NrRW1IaHhHRVA5Y2tDbVNEMFdXbkt3d1JsclJTemF3OTV6U3NmeW85YVVJbmF2c0sxQkF1VXpBa3R4N1JVeUhaTkIycEVIVGJGMVpsLWZNRHZQSGR0YVQ4LUVfc1djZjdUQk16Y1Ftd0RZWWhMUVpfVWkwM0diYkVOczJiNTk4elpiUUJ3a0IySE81TVZoM2YxR0E",
         "CBMioAFBVV95cUxOc25aWWE3UnFydDUwa2h3dzE3YzJXRDA2NnNLeEJpYk1LdC1kQVMxamFNcUtJcFhENFlnRTB6WXdrWHBTekVQTXNickVUWVd4czZoTmZfdWhmWExldUJEVVRlZXZsN0V3VUhnWEl3RzV1eGVZSlZMeEdvSEw0bkFxRFR0SExjUGw5WlpWVlJrT1d2c0F0Q0FJZmw5TG9qQlFn",
-        "CBMi6wFBVV95cUxNa19ScjctNTk2TExQSXNXcmlJdGpzS0JKMWFGMGNuWWotYnE0cklVM2pWTWsxREtQc3NCRFBlbUJSWHYzMlUxUzNNX0dEdm12M1lCdnFfMjhGREZ6ZGdFbm82UDRibm0zekc5SXBFQTRUclBwb3NZZnpSMGoyRjFIRzBabFVsRTVoSk1LVEp4dEtIaFNMcnZZa3ZyZGdRajFOblhkZWZ5NWZBRjZiM3VYRW9peGRVRXJJTDJuMU05Sy1EcXlLVTBtRkYtdDNzQ3ZLRUZDNVN6WWFtb0xpZGh1MmJJellPNHhTRWdr"
+        "CBMi6wFBVV95cUxNa19ScjctNTk2TExQSXNXcmlJdGpzS0JKMWFGMGNuWWotYnE0cklVM2pWTWsxREtQc3NCRFBlbUJSWHYzMlUxUzNNX0dEdm12M1lCdnFfMjhGREZ6ZGdFbm82UDRibm0zekc5SXBFQTRUclBwb3NZZnpSMGoyRjFIRzBabFVsRTVoSk1LVEp4dEtIaFNMcnZZa3ZyZGdRajFOblhkZWZ5NWZBRjZiM3VYRW9peGRVRXJJTDJuMU05Sy1EcXlLVTBtRkYtdDNzQ3ZLRUZDNVN6WWFtb0xpZGh1MmJJellPNHhTRWdr",
+        "CBMi2AFBVV95cUxObVBFT3VlUzkyNHU0THZzbFdCOTVBTGVENkJsOGhRSjQ4QWEwRFoxd3dKTVR0Z3d1Q0ZJQmJhUUQzcUtsdmpPSHFhUGNTUkFBUGw2cnprZWVDUzcyMjhXdzBwQ1BFZnlJX2sxbEw1eGt5UHZucWF4NUZScE5oMW93Q0xZVEZ2RVgzMU5DUUlHMUJrSS1TcjBOTkpsSi1MYV9OT2gxaW81OWVMNFlGLUZPZTg1ejJjbWJRTmQwbkVvNTBqUzVhSUVUNkQyNWJCX2JLVkg0S1NKUXE",
+        "CBMiO0FVX3lxTE0tWVV6REYxTEF2Z19zSkJpeE1fR2I1MUxGRDFKNGtFNzhDTHlvdFBJUHJCbkdhTTZyanZv",
+        "CBMimgFBVV95cUxQMktGRWM2ZVFCT1FVNXZmX0FhZU4yMmRhZmlNakFBTC1kUmtnaHhaUlRodDROWl9ha3ZZcVRUV3BNcEZPNGpCUUNGbXUtNHNhTkM1TmxTSHZPc3E2cDl4Ny0xejNnTXU3ZUpaWmF6WFIwY3c3b21WMWprcTFub0hFMkhpTkhnSUtxYVdTS3ZraGNmSmNjUVJMcGdn",
+        "CBMic0FVX3lxTE5JYjdXZk9SZDdYTlh2S1ZhNWhna21oTEhsa01CemNZd2ZvQl96Q1pGelNzSmJOQ25lMHJSc2lPcXJrU3JVZVY1bVhxYTFlWTZDUmFpUkstejhlYm1MM2d2eXNfNmsyMlNtMkxiSVBFYUtZeUk"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-04T11:51:02.925Z",
+      "last_fetched": "2026-11-04T19:09:24.392Z",
       "last_epoch": 1792580689000,
-      "etag": "\"04279528cf5a8d25cf78be7ab1c9bef6a-gzip\"",
-      "last_modified": "Wed, 04 Nov 2026 11:38:03 GMT",
+      "etag": "\"07a8fb3df7e0b8d63bb816085679fa93d-gzip\"",
+      "last_modified": "Wed, 04 Nov 2026 18:58:26 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/srf-ltd-announces-600-crore-aluminium-foil-manufacturing-plant-in-madhya-pradesh-for-battery-applications/articleshow/135090288.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-04T11:51:03.020Z",
+      "last_fetched": "2026-11-04T19:09:24.711Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-03T15:43:45.096Z",
+      "last_fetched": "2026-11-04T19:09:25.249Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

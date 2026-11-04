@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-04T11:46:13.877Z",
+      "last_fetched": "2026-11-04T19:05:06.409Z",
       "last_epoch": 1793716465000,
       "etag": null,
       "last_modified": null,
@@ -115,20 +115,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-04T11:46:49.563Z",
+      "last_fetched": "2026-11-04T19:05:42.642Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-04T11:46:50.859Z",
-      "last_epoch": 1793775792000,
+      "last_fetched": "2026-11-04T19:05:43.861Z",
+      "last_epoch": 1793799480000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiiwJBVV95cUxPcEpOQVZpMWItN0wwdHhTc2xnOTR0c083NVhNbGtqeUl3czFQM2VLRl9EM0M5X2FIVTJNLTQ5M3otMU5HUlNjc3pwemlUTW80OVVLSTBLeFFTaV84Tm9qME55eHlnOEc3VG1ZMGdjdFhYX3ZxQi1NeWJCZXlWMXRBcGxudl9jWnEyc19DSzNvSG5PZkc0dDRGWDZqUTZkVF94T2pLNVdCazRGNWZXRGJiSVlhRmtQc0pYd2hMZEZDN0VPNDM3dnI4UDFZTXczYjZscDhmZkVCOFQwR3Z5OXN0ZmJ6OUpjc1BiekdKd0xZWnFTTVVoSXhkV0lKT0dZTU0ybC0tbFlYTkdNT0E",
-        "CBMijwFBVV95cUxQNmM3V0FvSkJHRkRMZ3RxVFRvSk9Xd0NabXVQblJYNExKUTg3TDRqRi1jeFMzdzMzMWp3aUdvdHFVMm9PbFVhOFFKdzhvbkJRRWNCellWSndGcXVUTDM4cEZOc3NhWV9TNFM4NzYxcVkxUGREZGo5T1hvaXJOUW5HZ05QYThwMzV4UWJDSWhjSQ",
         "CBMibkFVX3lxTFBmYjBjcEM2SmFvYjRIUndidkJybjR1RHR1WV9wd1NPSFhMVEpia19IZVlRNHlrVGlZMUpybHkzQmEzMjlmNlpCQzkxM1lodWMzMUJMTVRoMGZTRDNkblZSdGN3LUFfc0xCMFpCZ1B3",
         "CBMivwFBVV95cUxPd3hJYlFqNWwtaDRtdk84X0lBa3lNdnBZNHA4WVBjZGlNSFVIbERkaTFieDlFZlRzYTA3RVVoajZfSGJsUjJ3VHNueUdscUJ5aU1VS2czUDlaSjFqUnpyOUZjWGhHLTNVVXhiSmljWkFsTXdvekp0ZEM1aUFRWmVSOGxQRThac3o5V0oySW03QVExUVlyaVZ3Zmd3a3dFS0l4UU5aLUtXN2NodElPWGREc2pRZFEtTGNqQTRBZkpQSQ",
         "CBMihwFBVV95cUxQd1A2YW9tc29aSDZCSGIzMG41ZDFfZl9UcHZxN0Z2OGcwV1EwZE9qNDdZNkRPamZUT19yNmtweWpPeHRHbDNCVzJwbXQtZEg3U1JqaFFOVmFzNkJkdXJlQkFTclpPbDdUT05LRGhRc1BKa2hjanVPV3BROEloYzlvMU9ySmpBWEE",
@@ -426,16 +424,17 @@
         "CBMimwFBVV95cUxPamdKQ0hCUXBuOUlGcEpXT3BTREc0QUEzaVd2d0w4QzlWRGlxNl9CaVNNZ0VfTWVGZXN6QWE0aTlIMkxTUGtqdGpMNXlQQnM2R3A5ejRzSi1udS1ZcGRpRGM0RXI3aHRSUnFFc0RCWnV1Q0hGdUszTHI4SG1QODIzS2tpTDdPRVNjSkJFYjdWd0Rxd2d1QnVHRmlsQQ",
         "CBMi7AFBVV95cUxOTzVNdnNIQ2xTSU03NzNHWkpHNF9DR1RCUE5ITmlWTDEwbHA2MmtiUXo4Z3QxOW5saDBEb19aZjQ1Qm40dklfNFNpVGd0QzZLOGF1a3pxeEJiMmxvNllYRk95WllVeFRseEp0TXN2WmpxUUs1V3MtaFQ4RjFxcG0teXotR1FOTzVCYnlzVmVZRi1fOTJYVHZTNFZkV0xicG14Y3NVU1lLVmhWWXlycDNPaG1MbkxjMUNaMmxjaXN0NnpzdjVJeU10ODJTNDNKQ2I5Y1EtV1gwMk5pMnluc1N0LUtHV2Nyd25VQ0xqXw",
         "CBMie0FVX3lxTE45VnFPdk8wZ1RyYjVWNmF0MzlIcFAzN01odk9rcURFa21waTFTYjJDZjRKVFFpaDAxZDNKRTZIUEVWTnM2ZDVDWEJZVk1ZQlZFQlZNRUMzd1pFN1ZkOXZyUXU4TUxQc1RaRWlPVTdVOXVUU0ViZmtEZWsxZw",
-        "CBMi0AFBVV95cUxQcDZFazM0cW1zRWdrMkZRSEhSZ3Q5STRlZ1ZCY3VLTEpVUlZHREFfRTYtWHlYRnROb3FDSlJtcHBJMGdGUjZ0MGQwd3lLRmt5T3hFYUFHTUxHNEVqVmdGemE2LU9wV3owTTNpSEdyTlJXZFpaTWN6SVBiOE9xaGJDeVJ1VlF1dXJRczJCODdpYWROaFZpMjIzMUlOejdrcXNhZ3hlcWpuT0hiUG5oU3pUY3M1Z1h2MlUxWjVDQkJpckZzQnUzRUdPcHVIODBpVERr0gHWAUFVX3lxTE9ScjlxbDdFQzNSTTZJRktiR01hWTUwNTVGS0dISWZGbTBlcmtfNDJDdkQ4YmFIZ3pYUzhIN2R0QmdVbE53TjVLZEU5UmRfeFZkSmg2aUl2eGVJM0tqTXpiY1JwYmlCNEk4aUQ5QWRFR2ltaWk0WkxoR2NGeWFVU2tUQjQtSVNCcU05RUx5TXJkMl9EMWRndEtxY2FLdU9Ob2ItN0o0RmM2aThMc2h4UlFZRmVHeDF6dllnQjNhZmdxX1JaNzdSbXAydWJLRmVUNnlGTXphWlE"
+        "CBMi0AFBVV95cUxQcDZFazM0cW1zRWdrMkZRSEhSZ3Q5STRlZ1ZCY3VLTEpVUlZHREFfRTYtWHlYRnROb3FDSlJtcHBJMGdGUjZ0MGQwd3lLRmt5T3hFYUFHTUxHNEVqVmdGemE2LU9wV3owTTNpSEdyTlJXZFpaTWN6SVBiOE9xaGJDeVJ1VlF1dXJRczJCODdpYWROaFZpMjIzMUlOejdrcXNhZ3hlcWpuT0hiUG5oU3pUY3M1Z1h2MlUxWjVDQkJpckZzQnUzRUdPcHVIODBpVERr0gHWAUFVX3lxTE9ScjlxbDdFQzNSTTZJRktiR01hWTUwNTVGS0dISWZGbTBlcmtfNDJDdkQ4YmFIZ3pYUzhIN2R0QmdVbE53TjVLZEU5UmRfeFZkSmg2aUl2eGVJM0tqTXpiY1JwYmlCNEk4aUQ5QWRFR2ltaWk0WkxoR2NGeWFVU2tUQjQtSVNCcU05RUx5TXJkMl9EMWRndEtxY2FLdU9Ob2ItN0o0RmM2aThMc2h4UlFZRmVHeDF6dllnQjNhZmdxX1JaNzdSbXAydWJLRmVUNnlGTXphWlE",
+        "CBMipAFBVV95cUxPV3hleXBaZHdUeWNLRmZXU3gzdWdNa21BNkI4aGNMSDdPSjdBaWktS2tDendNR2lBajdORm1LNUtOOVJla2JOV2swTG1UUXFYQ2dpRmo3TFBZdkdnR2ZEbm9BRExQYkFsR00zY0hOLTNwazhNbUdlX0NXWjl6OHlSMi1PQUE5OE5maVdmMmxhaG1oRjMxSTE5emNKcWZwQlRJOGRFcw",
+        "CBMiuAFBVV95cUxNanBDc0hRbTV2RUpFTWxsVUpMWUlNR0lmd1dBcEZXQ1hCOEdVdDdTc3ZHYjUzQkNqamJJb1h4djJFM1dkMkpEa1FldHlEZGRnYVJwaGNIOW9kcUNEWWlhMGNmc3VuZ1N0bDdfeXEwakpKZ0JXQjVEcnZhd2tITnJrbGlQdkh2dnJqbWdXRkZnMDBCT0VFMUw2SldEaXVVamh1V2luYWJvU1dPb0VkQk11S1lWYmhud3hW"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-04T11:46:50.969Z",
-      "last_epoch": 1793784264000,
-      "etag": "\"04279528cf5a8d25cf78be7ab1c9bef6a-gzip\"",
-      "last_modified": "Wed, 04 Nov 2026 11:38:03 GMT",
+      "last_fetched": "2026-11-04T19:05:43.932Z",
+      "last_epoch": 1793802462000,
+      "etag": "\"07a8fb3df7e0b8d63bb816085679fa93d-gzip\"",
+      "last_modified": "Wed, 04 Nov 2026 18:58:26 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/energy/power/ntpc-terminates-rs-413-crore-mouda-bess-contract-after-contractor-default/articleshow/134353150.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/entod-pharmaceuticals-secures-patent-for-its-insulin-eye-drop/articleshow/134359748.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/energy/power/coal-india-limited-announces-ambitious-business-development-portfolio-for-diversification-beyond-mining/articleshow/134368468.cms",
@@ -734,18 +733,19 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/nppa-updates-list-of-reduced-mrp-of-1085-anti-cancer-drugs/articleshow/135506787.cms",
         "https://economictimes.indiatimes.com/industry/renewables/indias-solar-manufacturing-industry-can-generate-32-lakh-jobs-attract-89-billion-investment-by-2047-isma/articleshow/135506269.cms",
         "https://economictimes.indiatimes.com/industry/renewables/indian-battery-component-makers-face-up-to-61-cost-disadvantage-against-imports-report/articleshow/135533648.cms",
-        "https://economictimes.indiatimes.com/industry/energy/power/bhel-bags-orders-worth-up-to-rs-28000-crore-from-adani-power-for-four-1600-mw-projects/articleshow/135522758.cms"
+        "https://economictimes.indiatimes.com/industry/energy/power/bhel-bags-orders-worth-up-to-rs-28000-crore-from-adani-power-for-four-1600-mw-projects/articleshow/135522758.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/nitin-gadkari-flags-indian-highways-expressways-still-lack-perfect-signage/articleshow/135540314.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-04T11:46:51.364Z",
+      "last_fetched": "2026-11-04T19:05:44.092Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-03T15:39:28.132Z",
+      "last_fetched": "2026-11-04T19:05:44.131Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
