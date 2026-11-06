@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-06T11:43:48.387Z",
+      "last_fetched": "2026-11-06T18:40:14.190Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-06T11:43:52.869Z",
+      "last_fetched": "2026-11-06T18:40:23.747Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-06T11:43:54.289Z",
-      "last_epoch": 1793962368000,
+      "last_fetched": "2026-11-06T18:40:24.852Z",
+      "last_epoch": 1793979631000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi1wFBVV95cUxPbGNPWFVoQk5vYmhJY3pWTzdfS2dOR1BZZ0laRWo3cWwxRVhHbnJzMnJieF8tWFNnMHFZVkpQY1JNZ1ZDVm5pOHdWQ3ZwX0w5SWhFWFE3RDZ0XzhLdFYwNGJIcHhqWnRZUGVxVk80WlFyUkozM1l5ZHNLUUdmYzNjRmV1aHpfSUdCTnVnWnM1SER5TldaYW5QYWJTOWo2amlTN1JobUJuc0EzVGJMdEQySDllcFBvdUVMMmotcEJYYm5qbWxxV1BsOFZ5TWxhQ2FleHliWUR0MNIB1wFBVV95cUxPbGNPWFVoQk5vYmhJY3pWTzdfS2dOR1BZZ0laRWo3cWwxRVhHbnJzMnJieF8tWFNnMHFZVkpQY1JNZ1ZDVm5pOHdWQ3ZwX0w5SWhFWFE3RDZ0XzhLdFYwNGJIcHhqWnRZUGVxVk80WlFyUkozM1l5ZHNLUUdmYzNjRmV1aHpfSUdCTnVnWnM1SER5TldaYW5QYWJTOWo2amlTN1JobUJuc0EzVGJMdEQySDllcFBvdUVMMmotcEJYYm5qbWxxV1BsOFZ5TWxhQ2FleHliWUR0MA",
-        "CBMidkFVX3lxTFA2Si12Z1dtYnBUbVRBdGFkdjQ1TDFncHlCOFVuU1E0bEhneFNJaElvNmVTV0ZxNTg1TjlLY2VBN1pMLWRwS1VQZzJvRjFvdHoxYUFlTjZSWlJlN3BITU04ZXp6UW5TOUdYV2F2SV82bE9oLUU4SEE",
         "CBMiigJBVV95cUxOLWdXQjdBT19HY1dHYm5VMDMtUElsN0d4blBFU1JPVFlPRTdNVEZoTlJ5dndJTVpVZGlKNzVCczNjc3Awa0syZ2N5RS1jWUM5Q1BSM0trQkZWZFcwb2hFcVNBV0JlSjQxWjBzOHBWZk02a3ZDaHFSSTVBb181aVRQUXJBdW5uek1JZWdjekdyY2c0Rzh1bk1nRmhWNUExRzc2WFJMRXpaSkpUaUhXN2REZjBFM3g2SVNtdmdaajNmU0k4a1hMdWM0V09ETEUtQVZzeVVIQ1ppdkN6b05wb29Gc0RjN25mNVNkdU1HMTBoWWZqQUFhTmcybVAyNHkxRTdlcWhCQkpuNVhHQdIBigJBVV95cUxOLWdXQjdBT19HY1dHYm5VMDMtUElsN0d4blBFU1JPVFlPRTdNVEZoTlJ5dndJTVpVZGlKNzVCczNjc3Awa0syZ2N5RS1jWUM5Q1BSM0trQkZWZFcwb2hFcVNBV0JlSjQxWjBzOHBWZk02a3ZDaHFSSTVBb181aVRQUXJBdW5uek1JZWdjekdyY2c0Rzh1bk1nRmhWNUExRzc2WFJMRXpaSkpUaUhXN2REZjBFM3g2SVNtdmdaajNmU0k4a1hMdWM0V09ETEUtQVZzeVVIQ1ppdkN6b05wb29Gc0RjN25mNVNkdU1HMTBoWWZqQUFhTmcybVAyNHkxRTdlcWhCQkpuNVhHQQ",
         "CBMirgFBVV95cUxQbkd3OU1hVUhMU3lGdFVmRUVXVnhyTzIzZjgydENmUXFfeHp4Uk1LN20yemFrbDJfZW8weHJOa09ZbWxPbko2WUwwVVVUdmwwZFp6NFRETjA1NzcyRXRMYUx5bDJYbzJOa3J5UlNudF8tR1BEeFN5QXNOZTBONEw4TjZTcU80WFI4Rjk0M3VPclhqSTNSWjc4ak1qZmU3ajNLQ0RsTVJLM2c3QjJjbmc",
         "CBMigAJBVV95cUxOSjBnNGt1LXNLd3FoWUxBT0RyR0hSYzdOTGNMUzlCUEJtbjJvcGJiSExkRDVyVHRmck9xajIzSUliaHg3Q2hJa21BNXJkMkdKZGUya0hQNmh5cDIya0xZUV8tRFhRNUdpTENMalppWVVZQ1A4MVRMQzdHY0JrTU1KTXlUOWJ2UGFRakV5X3VjVTZ2TTVjNnZjUG5vYXRJT2U3TngzbWUwZnlUXzMyTmw3aXNoeVJzclNiOTlvTm8zNXE4MW5mTlRVNGtNRGRJOE9tMkZjeWJfbUVwOFQ0WnU3SzgwMkZPc3ZzNTBDeTFvZHBVWi1oTXZZeWNmMlVXUUc20gGGAkFVX3lxTE1QOWxVZEtHbkdqZzBDZ0psMGlYS3gxemV2ZEVndHdEVHFMc1JWYXZHV1hZbFExZXI5aFlpb2lXWXpXMkVLUnNyeTRqc0puYTNtM3ltbTBOZDVidzJ5RWRpN2ZGZy1sdUtpLW4yZWg0aU5XVG1ZUFNiNFU0MV9nSzRaUUZqRXAyclZKMnZXdm9JYkFuSmxvNVdpV25sc2VreHpEZEp3Qm1GekdnV3dfNU1sY3MzYVNvc2ZtUXZFR1daT1RYWmlvTVc4S01zZmtYeURhSXhuTXk0bzYtUUo0aU43ZXkxN0drMGZIOE9mZThGWEMtWVp3M1lCXzkxMjZQV1JWNW5XTmc",
@@ -319,16 +317,17 @@
         "CBMioAFBVV95cUxOR0FvWloxektMMURqeHNldXZwT052R3hxU2RqbUQzV2Z1bXU3cHk3ZmJtOFdlOHp1YVhxaEZvSkItTFNTdFhIVVc4dy1mbFBQRG9PcFNrNUhTdWF5X01FMkU1ODdqUE1kUEY0VVlKem1vQ3BGbjdfWlhKTHI3TENiczF3SW1NeENKNTA5Tmc4YzlJcHlZQklGVTdZa2d3MTZI",
         "CBMizAFBVV95cUxNOE1RUWxvU1lFTGxqMVR6X0lMQVdQNlVrWVhhTXNwODNMZ2hBSUZsWjVOYVlJcHlCZ2Q2OUtNcTlXaGJrc3NoNl96c3pBOWt2Nk5hQi1WLTNReXdFQ3I4cEo0T0dUZnBpMndVT0hCNzZFNE1wVm1NdnFfN1FJWWNrUFk1MFpFVUJyS3RrdE9VR2lVNVR3a1poZHBZTUR2VXBfNnBCdGlMLWZ4Z2VpQkJEczhmNmwxTG9pLWhZeGhacjJWZlhWdEZjX0k2NlU",
         "CBMigAJBVV95cUxQcVFuVjlVdFpKckhOdE5kUVpxQlNiSEhjOE5XNk9wRm44c25mbDBjV2ItMEZMT2RzUThXVkNra2o1ejdyRkM0alZRcGhxeTFQcmtuVXkwejR1YnFMRzU1RDBCdDFUbW5EdW1qQWlRaG9STmZ6OWhDWk12RnNJclhZNE1SUkp3RUNjOWZiX3hzTFR1aVVTSjlFeWREV2NrRHZnMkNpYzdoRWdSTlpUQWhfZE9nZHVTY3ktNlVIUmdCNk5jVUdONEYtMzJjUW1OWDJoUUxTMTROLWxXNDlBMHJpcWdQQnRpMUJXTGVYN0F2YTUtbmREN0ZFRW1rQzRqSUpl",
-        "CBMiqgFBVV95cUxQT191STlNN0JvMjE2VFZvTGdVbzFjRFZxSHhwMnNFcWRROE1xVlY0VFZOdUdkTG5HVDV6VFh0WTJidkZiS0JYeTNod3pjckJyTUZoMy1VeXRyRHk5TE5lekhCOWV2VDFKdHpVT3NMUDJYU1JqSE14N2xabEI5eE5sRlZnM0xfd3MzYThjTlRUV1ZRdmF5LW8xRlIweXliRG96dHA1aVBMSEdpdw"
+        "CBMiqgFBVV95cUxQT191STlNN0JvMjE2VFZvTGdVbzFjRFZxSHhwMnNFcWRROE1xVlY0VFZOdUdkTG5HVDV6VFh0WTJidkZiS0JYeTNod3pjckJyTUZoMy1VeXRyRHk5TE5lekhCOWV2VDFKdHpVT3NMUDJYU1JqSE14N2xabEI5eE5sRlZnM0xfd3MzYThjTlRUV1ZRdmF5LW8xRlIweXliRG96dHA1aVBMSEdpdw",
+        "CBMi1AFBVV95cUxONjRNMWJCUFpBVlYtRkpYTHRzNWxWSTMyYzIyRHFXV05RV1VjYVBGcHY2U3dmSUFlcTk0VXdVUDhyb3Y0azZVNzhCcUxXdGVrR2t6NXBsWm54d0NlMnVOYnFaZ3BLYTBGQWNLY2Rwc2NjckpJVWh6RmVHMTBhVk9RNDRvWUFvZU9aaU85a1Q4bmJyXzd0ckJJQ01NNVNnTm5QTW96dC1rOEhYUzdhT1pPeG1wd0xlandiaVdyaFdRRHo5c2Vqako5bEQtRkpWVjJyVzIzUA",
+        "CBMi8wFBVV95cUxOaWRCUklpNTliUjZzRTBnSTJ5LUdqU05uUWVwZmQ1S3dtTk5fb2NDaWEwbWRnTVlUc0gwcE0yTjhMekhhczNKS1hDX1ZGdEJyWEVWMFU1ejNJRXg4ZEcyX25yMVQwUTFhdDd0TXJCYzFUbWRqUFVXUHhnd0N1Ujk5bkZMWTlwYkdGc2I5UGhMdmFhZGNVU1FJVlYyZ2NYQVJOcnRSUG5od1VlQW95ZFg1akVxblRPZjNOQWFDVGcwZXdncW9PQUVuVVc5c0p2ZDJXM2xOQkx3dFN2Y1ROdjRPbzZMemdoNVNybGhTZkNMSkxnZ2vSAfgBQVVfeXFMTUdxMm5wMnRvcFFpVHlENUN0VUhxWGhZZ3MzTUZGOUR1Qi1TU21lMzJ1emFvYWl3bFcyWW1KQjlsdTZRR0cwcW1FOXB1dGR5alhHbElQWE9QTkZvYzJTUHpMOUt0TlF5ZzJVTlNpRDEwSzRUbmZQQ0NEY2tqWC04QTRieklfUXBxV0hfN2NsemlvZl9zNFhERzEzVTd2MEl0emhGY2ZEd1A5TFF4ZXZYcGRGSkFXSXp3eU94Q091ZVpXVGhycFlmeUJhSWhINEFYeW9JZWFDSlNmaWlIOFQ2WEZpNGZ6X0hMSFEyUWw2V0k3ODBwN2VaY1Q"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-06T11:43:54.308Z",
-      "last_epoch": 1793955488000,
-      "etag": "\"0c00138d4efa6512ad85cc70995c244aa-gzip\"",
-      "last_modified": "Fri, 06 Nov 2026 11:34:17 GMT",
+      "last_fetched": "2026-11-06T18:40:24.929Z",
+      "last_epoch": 1793980031000,
+      "etag": "\"0e61d36f667a7294d3c24bae8fd312287-gzip\"",
+      "last_modified": "Fri, 06 Nov 2026 18:26:25 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-mandates-telcos-to-take-action-against-spammers-identified-by-their-ai-based-caller-id/articleshow/134548575.cms",
         "https://economictimes.indiatimes.com/industry/renewables/tata-ev-extends-battery-as-a-service-offering-across-its-electric-vehicle-portfolio/articleshow/134544322.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-adani-airports-launch-online-duty-free-shopping-platform-for-international-travellers/articleshow/134542884.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/indias-top-court-disposes-of-fortis-petition-against-ihh-healthcare-unit/articleshow/134539248.cms",
@@ -627,11 +626,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/ashwini-vaishnaw-launches-semicon-2-0-portal-says-50-of-units-approved-under-ecms-are-smes-msmes/articleshow/135601091.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/gold-may-glitter-at-rs-1-68-lakh-as-global-uncertainties-bolster-outlook-report/articleshow/135600374.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/the-man-behind-lords-mark-dr-sachidanand-upadhyay-features-in-time-magazine-for-the-third-consecutive-year/articleshow/135598235.cms",
-        "https://economictimes.indiatimes.com/industry/auto/auto-news/maruti-suzuki-launches-12-automated-driving-license-test-tracks-in-telangana/articleshow/135594369.cms"
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/maruti-suzuki-launches-12-automated-driving-license-test-tracks-in-telangana/articleshow/135594369.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/auto-sector-sees-strong-dhanteras-deliveries-expects-momentum-to-continue-till-diwali/articleshow/135612686.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-06T11:43:54.400Z",
+      "last_fetched": "2026-11-06T18:40:24.977Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

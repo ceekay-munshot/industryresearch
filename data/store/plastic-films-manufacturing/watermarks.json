@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-06T11:45:01.625Z",
+      "last_fetched": "2026-11-06T18:43:09.806Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-06T11:45:35.806Z",
+      "last_fetched": "2026-11-06T18:43:11.962Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-06T11:45:37.026Z",
-      "last_epoch": 1793948638000,
+      "last_fetched": "2026-11-06T18:43:12.230Z",
+      "last_epoch": 1793973044000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiuwFBVV95cUxQU0MwNVJnbjB5a00tX3Exc1BibmxMTjRMQjhQYUoxZ0tud3gzNGNZS3VTbkpzdXEzRE5naUloZzE3aDBXekVGNEdvT1RfanRRR3FxQk51dDNzUFFTWGpBQ214TzYzMS1aZFhVMlJ4bVJ3QUFGN1lnZmJVTXlHbTVWdEhMRllqMW81QnZkQkxUS3hrSTlhcFhST01BNjB5MU1hTkotNVRXU3FUWmFjQ3FDaUc1MURkdElyT25B",
-        "CBMipwFBVV95cUxPOFQ2WEgyMzNqTXBpa0p3bm9Tcl94YTNMNVBmQU1lN0Z6ZUJMNTFKNTVwQjBBWWNyZWZZM0pjMVdyUHlsVkdrc1R5MkhoQ1BoY2RnYWhUdXFxaER4RDdIcGxWZ0h1cWJyY2RlazJHYTBmTDJTN2ExaF96bFphcUdudnl1ampoeE83NG9TMk5RbE5vdWlPeTdhTGxlaExTZjhucWtqR0V0OA",
         "CBMiuAFBVV95cUxPZUYyLXlZZW1jbG1qVUlFdU1kRExhU2dyS0JWSGxuUk9ubUNjU2F6a3F2eEduLVp2ZGZtUHhGSFVMUTNEWVhBX3hJb1VGUElCRVJubl9sTFdtQ1FpWXMxNzR6X0VNckpmUHFHTzI2THFBQ0N5VVREaWVfQ1FQZlJxbGRkNC11ZHhJTndmM3hJQ0Y4S25qSkJFNUxYeEN4Y0FXUFc2WWkyTVZjdndzWXYzTzJ5TmFCMDVw",
         "CBMiwwFBVV95cUxOMUFtazAxSjgzS201bVF4YVlydTlCNl9nV2xNb2wwQUlsdkk0M184V3VKVFNtVFhwVWpUbTBMdG9VV25WeEtLTlZ6Y0tGcUg0YnEwZ2c5endnbS1ScFRSTGQ1b0xWYlNfUURaanBOVVJTMXI5UzNkS3diTFZYXzRaWVVDbkFUU2stWm4tZG81YTc1b0xjX3pyNjFza05FNzJqOXM0bHhfQUIxZW1ucUdPdzFadGVFSGZiZm5UcDlJbG1tOVU",
         "CBMi2AFBVV95cUxQZTNNV1BPOTVoZ0ZOZnFPMHkxaHFNOHFPNTlQalVkcmplZ2hKc3JTTFpCME16dU5sWVc2WkUzYUtocEJNdlFYVzdfSWJEWnJ1cVVvdm9OVWtHSGtZR3lXT2dFem5oU0VXZkR3blhOODlqLURlTDBUNS1BWGpKaWhjbHpfT1BjLUl4VzZtanotVUFWRnBBRG45MHZ1Nm9IRFA4RVhEbzFjdTNWcVJjQ2dqcWktTWVnNWlnRHpNOWdvZFQ4bTBrbFF1cFVTbFZ0UVhqb3l6dDJVSFI",
@@ -319,14 +317,16 @@
         "CBMitgFBVV95cUxNXzhNdDBsN2hDdGlIVExaWUFlbmhza0hBS1Z3TTdWdzdfX1VUVUdtTXZVMHhsX015bFMtOTV4UEpBVndIMElKU19lUmN6aV9zaHZGYXYyOFFYWjB1ZEtmU2QzMHVqU3M0NnVUaVpNSTdJTkl2dVItWjlKS2NwRTBwM0RKNklmOFRJWF9oTFJ2Q215UGdiM3lpWThnd015LWtvTjRNNllwaHY1ODktUkRmZ21uNXpoZw",
         "CBMi1gFBVV95cUxOR3RWU1VkZWZJYjhrZ2x4eTN2cXgyX1NhdEJMVXgwQldsUTRMUy1PZHEtTWFmaFYxVFZnbEY5aTJaYmhsMlZhandSNVl0Z1ZRR1ExdFlnSUE0MDZ3czRHQ2FZOERJSWh1UFNUcXFWSnZYWEpUdExPLVJjcmRfaHdiTDJYUV9vT3BUQjBDM0NTOW1EN1o3aWxia3FPbGZCS2xyVHVWWVBwYml5VUtzeE5OeWlPZkhOeVFNZkNzN1Y5V19XSER0d3RnY2NwV01maDNFVlVqME1R0gHbAUFVX3lxTFA3QmYyb2M0Nnh1OEVUZjhHTTFMUEwwMXV1cGtzQlBNaUJGMTU0eng0OWRzUF9YQlE4aGIwUERENEJJSi1QRDZyWGt6Z3MzekVtRGpockdJSDJUVy1WeXZQaXNjMC1MdWxDSmxVcHFNMm4zaFVoaTY1aXJmQjlBVk9PeW1hTmJ3MU5Dbm9VUVZOYVpveFVFREdyVkswNndER2d6dHdrXzlEb1liS1JwUmlzQm1mdUdrVlBxWHprQmpPVXB5TlRBcFNzQlhMWHNVRlpkODNidUVrckdVQQ",
         "CBMivgFBVV95cUxPeW5UNjBtOTd2REpyZVhXMFRuU0ROdUhsVXN4N3pjamtBR09tTGpuUjhfVEJ4dWRyVC1QTFM3dG0yaENqRXFraGp3d3JOSGNfVHNQZHBEUURnN2Y1eV9vWGRCYkgwZWhFRlVsSU5pUnFhQkJhVlFzZ3UyazFjMVhESnprYXM1UUFJWnJZZlZqMk83aEotb3ZpNURqcDFVd0hmUlQyUWEyRjNoaUt1RDZWMUFHdEZITWdqMlJ0Ml9n",
-        "CBMi3wFBVV95cUxQNUxZTG55QmxVZ1pua3BoRWo2cWRvUHJiUjZTZ3ZyWXY4Ty1WLVNYeV91bHVQYXgzaXVhaUFlRGwxR3cwZFh6YWdoWnBmY0toMFYzZXE2WmZ2dmtsN2tYRlhLZVR5cE9oMUhhclhHMmh3Z3NieW40RjQ0T05BNGh1T0hEUnhNeWRmMlUxLTlGdjZONXdaSk1WNWFCNF9ucFN0S2lGVm9qbzlTX2c3ZldJT195OV9MemdLUENzTlFZcTl0ZVpZZWgyRzZkOXJUaFgzNGlfX1JWTkxac2E5NTVn0gHfAUFVX3lxTFA1TFlMbnlCbFVnWm5rcGhFajZxZG9QcmJSNlNndnJZdjhPLVYtU1h5X3VsdVBheDNpdWFpQWVEbDFHdzBkWHphZ2hacGZjS2gwVjNlcTZaZnZ2a2w3a1hGWEtlVHlwT2gxSGFyWEcyaHdnc2J5bjRGNDRPTkE0aHVPSERSeE15ZGYyVTEtOUZ2Nk41d1pKTVY1YUI0X25wU3RLaUZWb2pvOVNfZzdmV0lPX3k5X0x6Z0tQQ3NOUVlxOXRlWlllaDJHNmQ5clRoWDM0aV9fUlZOTFpzYTk1NWc"
+        "CBMi3wFBVV95cUxQNUxZTG55QmxVZ1pua3BoRWo2cWRvUHJiUjZTZ3ZyWXY4Ty1WLVNYeV91bHVQYXgzaXVhaUFlRGwxR3cwZFh6YWdoWnBmY0toMFYzZXE2WmZ2dmtsN2tYRlhLZVR5cE9oMUhhclhHMmh3Z3NieW40RjQ0T05BNGh1T0hEUnhNeWRmMlUxLTlGdjZONXdaSk1WNWFCNF9ucFN0S2lGVm9qbzlTX2c3ZldJT195OV9MemdLUENzTlFZcTl0ZVpZZWgyRzZkOXJUaFgzNGlfX1JWTkxac2E5NTVn0gHfAUFVX3lxTFA1TFlMbnlCbFVnWm5rcGhFajZxZG9QcmJSNlNndnJZdjhPLVYtU1h5X3VsdVBheDNpdWFpQWVEbDFHdzBkWHphZ2hacGZjS2gwVjNlcTZaZnZ2a2w3a1hGWEtlVHlwT2gxSGFyWEcyaHdnc2J5bjRGNDRPTkE0aHVPSERSeE15ZGYyVTEtOUZ2Nk41d1pKTVY1YUI0X25wU3RLaUZWb2pvOVNfZzdmV0lPX3k5X0x6Z0tQQ3NOUVlxOXRlWlllaDJHNmQ5clRoWDM0aV9fUlZOTFpzYTk1NWc",
+        "CBMi7gFBVV95cUxQT2Jwc1lha2NRd2o3bWZsUDdnZG5TRmw2TDBLcHhTbF9ISWRKVUFEV1NwamJIQVlRQ1RiNlRfaXpmRnN6bmZNOTh5WFY3YnN2VWtNZlRXWGpOV1V0eVBrUWlVU2llZU93ajV4M0NKcnlrNDFUS19INThFY3h6M0hsZHpablVxdmJRUGpWTjZQNnBRc3NqbDg3XzNraTByd2x4RmxVYXN1Z2w3ZHpjNUNNRnhIeXJ3OHFvNHl1RERVNUtUZ3RQcHg0c1J4TElveDVFc0t1S2JpZUpINE1fV2czMGY0bVZhRlZkYzRrOER3",
+        "CBMiYkFVX3lxTE9DNlc2YUFvVG5TdkxBRjNieGdFVGZwTmtZRThrS1J5SzRCZVNlMFhjeTYwY0piZzNiY0E1YjJFXzYxTzFzZzRoYWh0M3NtZzlCcHlqakNjUFZyWkl2bmxEMkd3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-06T11:45:37.067Z",
+      "last_fetched": "2026-11-06T18:43:12.248Z",
       "last_epoch": 1793955488000,
-      "etag": "\"0c00138d4efa6512ad85cc70995c244aa-gzip\"",
-      "last_modified": "Fri, 06 Nov 2026 11:34:17 GMT",
+      "etag": "\"0e61d36f667a7294d3c24bae8fd312287-gzip\"",
+      "last_modified": "Fri, 06 Nov 2026 18:26:25 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -452,7 +452,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-06T11:45:37.211Z",
+      "last_fetched": "2026-11-06T18:43:12.274Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
