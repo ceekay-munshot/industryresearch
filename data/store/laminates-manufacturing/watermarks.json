@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-06T00:39:41.098Z",
+      "last_fetched": "2026-11-06T11:44:23.387Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-06T00:39:51.318Z",
+      "last_fetched": "2026-11-06T11:44:29.585Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-05T19:19:35.244Z",
-      "last_epoch": 1793889366000,
+      "last_fetched": "2026-11-06T11:44:30.737Z",
+      "last_epoch": 1793950756000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -271,14 +271,17 @@
         "CBMivgFBVV95cUxPYWp1bWpsZjNpUWNFdHBVQzhRaWxKTDhIRzVMUnoxT1NqOTdDSV9rVmlyVjhSSzFYQkdiOHo1T1lULTBwTjR1ZFpRUklGYzRQWHJKeE1JZzVNZzVLZUtGU0prTVRqYXdFeFVKNWo4bUc5eXl2N28tbHFiTEYxbl9BMGFKU3NMRnBrTlJ1N1I5TzZLc0NRcHMxQUU1cl9CSWVhWWV3TXEyTjE0a0Exck1zQU55SVhuOWpuNG93UEhR",
         "CBMisAFBVV95cUxOdWVhQVBPVHd6eDRKMUJaV0Zmd1R2emdjeVpnOXR5YVRHazhta3hLMnB3R00wMURDX3ZXVFBKX3NJNmNVWHNVbnk1NjJ6SExtNUhVZDgxc1ZjQTJUZ2UyYXpTTWJkWjNMWmViYkxSQm5meUpJOWNkczgxN3l3S1J5Um1hakgwY1licWpwekpUS3VBVmtOTTlFLWI4R2hxTDBtcFdxTE1tNkdtM1dXenRveg",
         "CBMiuwFBVV95cUxPR3JpTnBob0k0cE1WV0VPN0xkbEpFdl9aYm5CUWNhZWhEV0hKdTNEMjBjOE9MeC1yRWtYSkVmNGdEd1Z2Vm5QS2tiSEJVa0hGRTBKZTc5ejdDV05yTFYzVnFfd2dkOWI0T2NJUVdEME5tWkI5a2p1UnBCZWozOTRxRjBRNWM0cWdvcVoyZU9qNkRBdHNaUzFWczc0ZEU5MkVSTDdjTnFCVlMzbHgyQUNmN0EwZkFxOHJNczdr",
-        "CBMi3gFBVV95cUxPWVhKSWREeWI2OG9jSlpkZUZ0dkNqUjhIbnhxQXQ2TUhsMjNoUS1VeDlsRzdzTmsyMUpLU1FNYjZqNGl4SXpNRnZacWFmZUZQdVJoTE1wb3NFYkhCUHRXLWJ2N3ltTnYxR3VRSE5EMWkyUE50WUpCX01udE9RTndodWxwa21yVnNMZDQ3Tm8xd3doTG9pdjRwMzdhbUdtOHM5RnktZWppNV9sZUMxVThXYmJqcjV6MGV4ck5senRpTVZub0NPMER6YndDREt6OG84ZVdPVFd6ZEtLVnFRN2c"
+        "CBMi3gFBVV95cUxPWVhKSWREeWI2OG9jSlpkZUZ0dkNqUjhIbnhxQXQ2TUhsMjNoUS1VeDlsRzdzTmsyMUpLU1FNYjZqNGl4SXpNRnZacWFmZUZQdVJoTE1wb3NFYkhCUHRXLWJ2N3ltTnYxR3VRSE5EMWkyUE50WUpCX01udE9RTndodWxwa21yVnNMZDQ3Tm8xd3doTG9pdjRwMzdhbUdtOHM5RnktZWppNV9sZUMxVThXYmJqcjV6MGV4ck5senRpTVZub0NPMER6YndDREt6OG84ZVdPVFd6ZEtLVnFRN2c",
+        "CBMiuwFBVV95cUxPVFh2Y19lT0RMSmlHdXZlYzQ4X2VSLVVoOVpERnZwajQ2YzQ4QVZZVllGczJnNjJGWlhtQ0xydHRfd2Y4NWtrdmVqY1BmYjVycEFvYXl1dWlQRklMVGxqb21XYWhGdnFZcTlFM1Y5ZGtqdFJHNndQNXpmeHNYc294MktveFl5bEV4MjB1X3hOTFFOOURJM203cVJpR1BhanlRQWNBVV9VbDBFNWkwWDhFeFhEVkEyRmZCcVRJ",
+        "CBMikwJBVV95cUxPWWRjTVAtX183RTJKbUxyUEtZei0wamZZZnlVYXdEbU5ZM1lyVzBFSjlMUUZoOWc2UjNZbVBrOWZXWnpkZVpKWk5YMXk2dWdGOEVPajA4eFV6R2dBNzhmbWJ1WmQtdjRBNFp2N08xRW0teUljcFg3TjFKUzNfUmF4OS1SekdjUVE5SkNrOWVyUWVOZkxqTFBucjJZazVLdUhTWHpDZ1hqcmhBcFFITWNxUi05ODIyRVUxcU0zQ01nM1ZBeEFCU1A4UDk4b3F4c1dDczVoOTB6WVctdlpYSDREa2NCQzBKTTRQNnB0RFdLY0JLdDhEWmIybTR2cjVrMWx0dGlxTDlaeXUxX3VJbnFKUzM0Zw",
+        "CBMivAFBVV95cUxPNmZ2R2hON0hLVFZldVBFeEloS2NWUjQ3NTF4LWJLaTJkd3pqV3VVSHFndXM3dFlQWjl2VWVnUmFmWExjMEhPNFJwNWJBdmdTQWp2aGRWSFgzTEt1c21XLWNyR1RmRmNyWUZ2Y0JDVHI1NUtXUF82M3J4aG9jQTRxeG5iSHg3R3dwUV9PUFFCaEtVVHVPazkzX2VESEFqZGhIRVIwWmVpd24yNkNQOGxpWHE1LUwxZ0ltcXdfZQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-05T19:19:35.379Z",
-      "last_epoch": 1793872418000,
-      "etag": "\"0363f808a040a37793b37fff8454b38d0-gzip\"",
-      "last_modified": "Thu, 05 Nov 2026 18:58:31 GMT",
+      "last_fetched": "2026-11-06T11:44:30.755Z",
+      "last_epoch": 1793955488000,
+      "etag": "\"0c00138d4efa6512ad85cc70995c244aa-gzip\"",
+      "last_modified": "Fri, 06 Nov 2026 11:34:17 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -402,11 +405,12 @@
         "https://economictimes.indiatimes.com/industry/renewables/indias-farms-offer-116-gw-solar-manufacturing-opportunity-isma/articleshow/135568232.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/govt-plans-instant-ban-on-manufacturing-of-drugs-failing-key-quality-tests/articleshow/135550663.cms",
         "https://economictimes.indiatimes.com/industry/auto/cars-uvs/mercedes-plans-bigger-india-play-with-greater-localisation-of-parts/articleshow/135550599.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/battery-component-makers-may-get-up-to-50-capital-subsidy-pli-scheme/articleshow/135549700.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/battery-component-makers-may-get-up-to-50-capital-subsidy-pli-scheme/articleshow/135549700.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/ashwini-vaishnaw-launches-semicon-2-0-portal-says-50-of-units-approved-under-ecms-are-smes-msmes/articleshow/135601091.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-05T19:19:35.454Z",
+      "last_fetched": "2026-11-06T11:44:30.815Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
