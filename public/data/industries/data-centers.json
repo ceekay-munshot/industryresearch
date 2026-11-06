@@ -13,7 +13,7 @@
     "generated_at": "2026-10-11",
     "mock": false,
     "query": "Data Centers",
-    "updated_at": "2026-11-05",
+    "updated_at": "2026-11-06",
     "coverage": {
       "sections": {
         "size": {
@@ -64,7 +64,7 @@
         "news": {
           "sources": 2,
           "confidence": 0.84,
-          "as_of": "2026-11-05"
+          "as_of": "2026-11-06"
         }
       }
     }
@@ -1422,6 +1422,34 @@
     ],
     "news": [
       {
+        "title": "Nvidia’s Workaround For Data Center Backlash: Retrofitting Old Telephone Buildings - The Information",
+        "publisher": "The Information",
+        "date": "Thu, 05 Nov 2026 19:47:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdk42anJHNXZZdl9CY3ZJRGRNODcxR2x5V2tleWNwVkNvSWZaaWN4cW9RUEM3OVo1U0RTWTFoUjV2a3lGZXFHRkpjOGR2OVF2enNVYWpEMTloMVFEMDNLOW00Ul82THNXaTBua3U4c0VKV0lSWEVRZk9IVWVZblRtd3V6TjJUVG1DaUF3WEtfSU9oTE4wODdEN3UtT2dGc3RFMTFyWGpqSTM5UHdTdF84R1R4MmR0NHc?oc=5",
+        "snippet": "Nvidia’s Workaround For Data Center Backlash: Retrofitting Old Telephone Buildings &nbsp;&nbsp; The Information"
+      },
+      {
+        "title": "Nvidia explores retrofitting old telecom buildings for AI data centers - Information - Investing.com",
+        "publisher": "Investing.com",
+        "date": "Thu, 05 Nov 2026 19:57:59 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWElkd1JUSXA5YTViRnFuN1NGMjExaEMyZ2prQmw4RWk1RksyZTZuUWcxUEtPeDh5SkNmMWp4NFFYSmdzVlAtUFlqRGpfcldDYmZzbmpsOEpFTnlET1dBeFZpYXYtSmRKVGI1MXZ4by1fUXZCUTU3cjNsb3JvbG9sNS10eUdONThiLWRSMVpmUkltWExmM1ZCOXNqTGV6aHg4bDZsWUhVbkFJTEZXR1hRaVJIYzBZN0FONlpHQlFVWS1WYVdjMzJtaVh3d1FGaVhicTJIYmlvSmZFSTlwQ3c?oc=5",
+        "snippet": "Nvidia explores retrofitting old telecom buildings for AI data centers - Information &nbsp;&nbsp; Investing.com"
+      },
+      {
+        "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now' - CNBC",
+        "publisher": "CNBC",
+        "date": "Thu, 05 Nov 2026 20:16:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG85QmJuZGVEWUIxSW4ybHJPVmN2RmR2VjBTdnkydmZSOGV6YllsWEUtbVpYclRTSWhQS09EZGxJSllyY0otS1QtQVdVY3BhY0ZqMWxfR25WeWo3Q3d5LUg5dVZrUGRneGh2LTRBQjY3SERxNTdLaXNkaU9VaHVPb0lKQW10WmvSAYwBQVVfeXFMTWdsc2pjdEpUS1NXdWRzcld3SFp2eVBhWkU2NWNOTXRsUS1WbTNRVlg3S0ZRalhiYnR5WTNKQUxiR1JXNkI3b3ItbnBsZkdoZE9lbWJkVFB1eTFwMFluVFNobUtfLU1sTUJPSlRVSU1IUnRhYXFPVzNEc0NRempsZGM3MTFTVFZSUGUzS0Y?oc=5",
+        "snippet": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now' &nbsp;&nbsp; CNBC"
+      },
+      {
+        "title": "Data centers will start running on 800 VDC power as early as 2027 - Latitude Media",
+        "publisher": "Latitude Media",
+        "date": "Thu, 05 Nov 2026 20:40:42 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSjY4dkJ3TU8yeG1CSGw1dmd1d0EzNEJRMUxOR1Utb3p2bkhpZTRWOXNEWEZ3cHJEUDFJc3NMUDhFVjZJUkxQLXFfYkhHNlRLeEJIc2tubUI1OV9vLTNHeGltZ2FuSU5CSDJjc0NweVRTaXdKNlQ1cDVRS3Mtb0tBSU5GQXdfQWpxYjUwX1hXN3BYNmJNeFR4dEY3ei1kVDFIdENz?oc=5",
+        "snippet": "Data centers will start running on 800 VDC power as early as 2027 &nbsp;&nbsp; Latitude Media"
+      },
+      {
         "title": "OpenAI kicks off charm offensive to change voters' view of data centers - Reuters",
         "publisher": "Reuters",
         "date": "Thu, 05 Nov 2026 17:55:04 GMT",
@@ -1602,34 +1630,6 @@
         "date": "Thu, 05 Nov 2026 10:52:12 GMT",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2Ryck5VbXFHWERXNmFYM0xwZGFuUDNwdExQTEtiN294Rkpyc1d3QTJRUThpS1F4UE5yRUxFZEE4UzFLSmZ6Y1huOU5xV3ptR1Nqek53YmtwUzNWbkpwemExUDBmdU5mNjZNdktPTl9sTkc5RTRVY2NpM1NoRlNNWU55TVJrYXhTZUdSMlV6d21qT0tsWU9qZ20waXF6WU1OdDBnbnRNU05xblFZTDB2aWFldDR5bGc?oc=5",
         "snippet": "Infineon and SOLUM strengthen collaboration on HVDC power solutions for AI data centers &nbsp;&nbsp; Bisinfotech"
-      },
-      {
-        "title": "Form 4 Modine Manufacturing Comp: Michael Bernard Mahan (President, Data Centers) For: 2 November - Investing.com India",
-        "publisher": "Investing.com India",
-        "date": "Thu, 05 Nov 2026 04:12:25 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPaU9PZW9tYlJmTGtjVm9sOWpTNHVGR3FzX0Zhei10SS1qSmpvUzdRNHM1Y1JWOVBDTkkyb195RlNTUFlEQS1hMi1CcVhMRFlXdGN3cVRpUXpyOXFQMmNFWm0xOFNaRkZzVGlwazhlUlVFaGxCMTU5STdFeGZROFVxdm1kb3NnUUJ2QVNpVjl0Tnh0ZnNUMVVLY2RqRHh2NlpETlpZcjUyeU5JRkZOQ3lleXVDWktnMmU0dkVaa0liZEJSRzctYVlpMjl2Sy14MUpMM3hwc25NVmFvRHpVa0tWemNBWE8zeDR5?oc=5",
-        "snippet": "Form 4 Modine Manufacturing Comp: Michael Bernard Mahan (President, Data Centers) For: 2 November &nbsp;&nbsp; Investing.com India"
-      },
-      {
-        "title": "OpenAI pledges to pay for data center power after election highlights AI concerns - CNBC",
-        "publisher": "CNBC",
-        "date": "Thu, 05 Nov 2026 10:00:01 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZThLcjRmNUduOEJ4aUt0bmF0OXI4T0xhb0hQMk9BMjlYb3YzYWx1V05CaFRjR2xuMTROU1l3NUd6M0phTWE4ZG9hSHEzS21KTGVrUGxBWVBsRFA4UWtZVEtxVjM1V2x4NGFzY01UVkMzcEQzSW9pc013MDc3RXZRSFM4TENWcmxRbGExTHAwQzRHYlE3UEZlaHZvWldTTUVyNEZkWWZ5VdIBrAFBVV95cUxNb0ZKaGw3Qmh1WEFRTHV1Tk9RNDd5bnVudHhrR0pCQVJXUG5TUDdrXy1kXzA1Z2s2MFpSSlNzVEl0TFh2RURiejFETVZVZkNkSzhVZ1JFa3hPRHFFcUFOWFpWSE1EOTUwSDF6dEFCZU01Z2JMV3JKRjJ3ZkQ0Wkc2VHFwdzhkd1VodEtPdUg4REItby15c3d5azQ0MGdLbExuaEdxdjhlTS16MlhP?oc=5",
-        "snippet": "OpenAI pledges to pay for data center power after election highlights AI concerns &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "BHARTIARTL Share Price Today - Bharti Airtel on NSE/BSE - scanx.trade",
-        "publisher": "scanx.trade",
-        "date": "Thu, 05 Nov 2026 06:41:18 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NenFfV0tfelcwTUZ5SVFva2hGZUdqekowbmVqMXpIQnFRVkgwakU4MlpTUHNSVzU0Z2dXQzRpNW1zVl9pVndxWFVSRzhKTnhPWnVqa09hbUk?oc=5",
-        "snippet": "BHARTIARTL Share Price Today - Bharti Airtel on NSE/BSE &nbsp;&nbsp; scanx.trade"
-      },
-      {
-        "title": "Bharti Airtel Q2 results: Net profit rises 31% to Rs 8,888 crore, misses estimates - Moneycontrol.com",
-        "publisher": "Moneycontrol.com",
-        "date": "Thu, 05 Nov 2026 11:01:33 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQXIyZ2FEUlRYdVhrd1NOMDdIUHhlUEJEXzFpV1ZnVFZaNFlubE1TOGJvZVBiTTZVUS0xMHUzOUtfZjBTeDU4YWltT0oyTk11Z2F0WFZKczVob3U3WHYxUXhzOVJBYlRWd2htSW9xZC1nZHpwanZ5b1NzYjQyME1Xd2R5aklWMjRlelQyNHM2THZOek8wRTNJSnNCdXpEWDlrZ084TGk0TWtLSlYtQlh3V3ZNbjhpTlFhWVNBZFZycjhWbWUxRklnUy1MaHhnZjhQUlpTa0k1M1JVWmtOX0HSAeMBQVVfeXFMUGM1R1oxRzNLbHN3RVJnYXVWM09mal9VZ2xMLU1PWGtlYm5Ddk5OVXBWaTdfa0xOTTY0OUtvZHQ2RXo5eUVSOTRzYW5QMUlKb3ZLZ3pkTUlFUVl3bV8yZmJidmZ3VVM4ZmJlM0RtSi1SOU1sTVVVa2hJTmlNVW5LQnRGV0EtSHV5UXJGOWprTzZ5cDF1WXE1WW1wSU5Gd2JIR1NEbXpmcVhCXzZOanpOeW5TTVVFMW5HR1JIZmJEdVVqbjdjRmRjWl8ySjFaWXpueThpLXRYX0ZIeTcxbDhFSjI3Tmc?oc=5",
-        "snippet": "Bharti Airtel Q2 results: Net profit rises 31% to Rs 8,888 crore, misses estimates &nbsp;&nbsp; Moneycontrol.com"
       }
     ]
   },
