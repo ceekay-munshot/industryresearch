@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-07T23:17:07.623Z",
+      "last_fetched": "2026-11-08T10:54:39.910Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-07T23:17:46.054Z",
+      "last_fetched": "2026-11-08T10:54:48.300Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-07T23:17:47.324Z",
-      "last_epoch": 1794049837000,
+      "last_fetched": "2026-11-08T10:54:49.643Z",
+      "last_epoch": 1794122301000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiqgFBVV95cUxOWjlRREJsei1oOTNOSjhab2U5RlZZOXVMUGMzQ1J5QzdwWEhacUdYLURGZTJHSEhKaTJ0TGU0UzY1NW92QWd3OVlCVXYyT2dnelctYnI2ZloyeXFkdEI4NUpSSi1xQllPYVpmdXdVelBqcVBlRGlXZDFKS0RlcEhDT3Z6M1JMeDN3Qkp3TnF5Z0lsODc2NDJoM0tWUHQ4ZlYzNFhYU3BIUll1QQ",
-        "CBMigwFBVV95cUxNWWRKNl80TmEtMWRPT3ZOanVIbnZTYm0tcnloOTgzeVdRY0drRTNEUXlVRWctX2NDNFRJQUYtdE5GNDU0S1FJWlBuSkhicEhFR09kNnRmMk5rTmVHT1BzNjBUMzIwYWdXNy13MnBEdEhiNkF5ejVEUmUtQlJsTTFMeWF1dw",
-        "CBMiiAFBVV95cUxNeTZ4alpfcUJCeFNEcFNTT0Qydl95RTdudlVCQXA1VzRIRU10SzBLODZsTlVLVXJmZ3o4Zng3ejBGVVA1a2Y3VGh1ZXlpRnU1di1hRjEwc1FGcXlnQ0J0QnFYTXZ0YWlwbkRicmhvZ3hOLWNFZVVYaFkwdDRnWmd5Tk9BQVctdnlq",
         "CBMi8wFBVV95cUxNTUJ5aDQ3RUw3Y0Q2RVJvb3NxYVVEWGNHWnA4QVFSbGFocERrRnJaNDVfY2NrbWg1VkJzQUdBMy1KM1EzR1pUTnROS3ZsaHY3YUF4YXVLcW1oWmlTVFZUUDhpVllPbEZrRWpfeHF2dUlFTHVCUGxuZVpPZS1kMzUtWGRhb3JfYWJlYzVYMkVoNHR2cnpQbFg5MUx5QU9MVzdWVzRWbVM1cWtPOG5TaTQwUG9yd3pxSGRrSE9Cc0ZRVV82ZTFJd3F1bjdNU0dqc0cxSzVvTkVTckhUUG9saUFXS2VHVjhkcHBXX01ueEVrSlVTZHfSAfgBQVVfeXFMTW54YXM1YUplU2E1R0l4QjVUcUdQa2ZGbVQzdUNqYlFPUjc0U01EbGNOeWxyVEhCRy1WTlVxRGZ6TWJrcFVYUGxMZWZuUjRZdVJGd29yTXpCS3QtOU1vUzhZSlBhVDlNREhCclNlOFFiZmJWSEFzRFMtNm4xVGdWTndUNEgyN0ZMeThpcDNxdFAtOWIxZTlRNnJKR1I4eFBXTHZIcHp4UjdpUXFETmFnSEo5Y2Y4U3pQOGxDZ0huSVZUSlA2bHdubW94NGRGRE5FMjNLU3gweVhaZVk2SEc1MFV5cHpMZzFuVElfa1pRbGJpVUZubVRGWDM",
         "CBMi7AFBVV95cUxObmFSelJrVll3dVA2bE5CNlJhOFFmTjZfS1g1WW5icS00bkpOWWhqT2VKakhUY2VYU2t6R3ZJcTZ1UDBsZXZ3QWtvRXZvTkVXUkFoZGNJVjZfR082QUNWWEJPcU5oRE9Jbmx1VzlIQ0t1MVVsbkpXbmM2RXhheEoyTjkzVFprOEs5VjlKaWtTN3VEUENwd1hlTFdHYU5JSkIya0VNRTZWbW50U0tCR25kcHRSMkVRbGJxSlBIcmkzMVhwWTdlVzl4QnFzLVpPREg1QjFiMGJiRkNqZmg3VVRGQ2tNSFhEOHNCN2dGRNIB8wFBVV95cUxNYjkybHFRRVZ2WFduYnpKRVAtd0xHYlMyMUxWRHlkOGZvRml5dklHZ01ZbVZ0R016YVlYOHBUejVaWU5DMnNVT0RjZzcxUy16Nmo3Qm1LYVZFV0V3dkMwY2dvVGJHbHlZZVlaNHNRVVRQcnQ0Q2h5dkR0eVNreDVEZ2hMajdJdjVjUG1tTlI0eWkwY2F4MU82bnNMT0RtcVVnWXN3MXo3SzVyeUVfZmpPVnBwN183dHNUVHpvS3lSTUhtaVB5QWdBVFZaRlZNM0VSV0htNV9NYUdqQWJVakZCbmVuUm15Q0ZpWU5lQ0ZfQUM5bm8",
         "CBMikgFBVV95cUxQdGE4R0duSENBUWR1V1lDQ3hqQm9XNTQ5ak9HYUZ3VmlIcEN4Y25HdlpCX0U4eHNFMVY0RFgyWlRsV3RMdU1XZE0tQXdLeUpiMnB3MFppYXd3Y0lnZFVNMmtPb2xQOTlrYmc0SlRyUzVpaXVLWjZhclVQSGRQZWZVTU1IdEFiRnRtVVJ4VGtCQ0NCZw",
@@ -319,16 +316,18 @@
         "CBMiwwFBVV95cUxPc1NtRHRMVVA1NHR0cXVBUGlBcjF3NkVSVmo3OE9EZi1pZmtOM19ybUlSVmtLZTVDZlhPOGlUYktxTXUydWJpSmZpLXRLSFAtQkF0cG9TREJlVkR1Ujdxc2F6TTJwZzl5dnlBZFlpcHYyYWxkdTZLV3VGNlhXLXBQZUl5YXlnOGJCQVBWbU55eGZvOHYtUHpuSXhOWjlETlpxaWM5U3RyaGxUQi1ockNSWXFUZG1KQ0VKcUlnbXoxQTdmVTg",
         "CBMiuwFBVV95cUxNTUdtbzBQMUlVWEFQOTl1aDMyTkJfTV90NkRER1RhTUR2Umo2QkFpMnpGR1htN19rTGdlaDB5dnQ5S0hFZ2JYWVpJREVvTXdIVTl4YmNyZ2JLUlFBdGZ0U1JMQWNELTd4amh0SGt5eWtoeVRfdzg0aUJReGdfZ0FsZGdMRkxjdlBDSjcxTmoyaXhSdi1pQU1talFVZGtqanJxQWQ3YmZGODl4WndlcktiU1Y3d3cxXzgzMUxN",
         "CBMixwFBVV95cUxQVWJMVV9pemJNWEIwQzVKYlJscVBoMGNuTlNFOW9XaXRvNU1wMDM1VlRaZzdNZmpyNzlicklZWmNDM2JwN3FZcFlTZ2stSWMzVGR2RjBiWVBEWXdaWnpXVmItRnBjM1BESVVMM3RXNDhKQnhDSUktWDl0Y2JMSE5ObmlWbWo2NnlqajhpVmdsMnU5SGxjWUZsdDJud2lWNlZiV1ZScWUwSG1kRGxlUUltNEZUMVNPYzZMUTZTdnhGUWV5RW5yTlAw",
-        "CBMinwFBVV95cUxOQUpwVHV3ZjFYSVdURFFXaklmaVdvU0luREt2SWt3M2VaSFBIc1FZQ19jYldBN203bmR0azNLZHFPdHRKbnhhT0p4WUVNYkFSVDkwT1phTnZfQW83NGZhdEFobjltNnhab2d0SjlRTE1YSWljS0xqRkJSbkFGUjJEVndGbk1PelkwRDRjcUd1bnQyd1ZTWks4bk9DSTI3bTg"
+        "CBMinwFBVV95cUxOQUpwVHV3ZjFYSVdURFFXaklmaVdvU0luREt2SWt3M2VaSFBIc1FZQ19jYldBN203bmR0azNLZHFPdHRKbnhhT0p4WUVNYkFSVDkwT1phTnZfQW83NGZhdEFobjltNnhab2d0SjlRTE1YSWljS0xqRkJSbkFGUjJEVndGbk1PelkwRDRjcUd1bnQyd1ZTWks4bk9DSTI3bTg",
+        "CBMiwgFBVV95cUxPUHFJd3RZUTJjWTBKNnpqZjRBSFBrZjA4YnZiN1N1UHdoQWE3cHBCVTRxV2UyOVlBTTdPRFVDUXdRVVgzX0s2TzJhUmhfUW9nZ1lEU3JFN19kQ3A4YmNXS3hNVndXRl80WXN3b0t0Y3ZGdDhKcmlqLXRQNTBsTVp0SEdISUNYTlRFX2VKekdFMVdZWS1uTlhJS05DeGZhMnhMT1JmTFFwOEl5M2pLMzFYdWR0Y0hPajJ5NTBrYUE4OFdod9IBxwFBVV95cUxOUDVOZFRTeV9VWExFdDVxVm9nWENJbUUwR0hMVmFUZGwxZFpIbjJ6aEVaRkRBbFpWU0dKNnBjaFZsWlM4QnduWDhkRGhUekdEU0k3enYyV3h6WXVsV3V1aUZoQTFXYkZEUWhDanBGcnkwSFpOWUh0eFlNcFBSRXRpdHgtd3pFWlFtRUw1WEFTeUMwMDNSX3ZucUxJT0hhYzZIZXJwV2dhWEl2UWVha3JPVldTcXFjam03Z19pT19tZ0R5NkU0aENN",
+        "CBMiqwFBVV95cUxNdDJ5Yk9DTzh1d1RnbF9fdkFqZS1iMGhjOGd5SXc5MXByR3FJbWdUeDNQZElwX21TcFFjMDZvYzFBOEJEbk53YXRXY2lTMDllWkM3SEF4Y1ZFZFZZVFhmWW5BUUZKdlltaUFfcWs5cUkxbjF3aTNFbzl6VnYzTVd6aDFSbTN0RTZ0WElsRkt6d29vaG82Vm9CM185MXVHZVRtd0doRmo1VDlQSVnSAbABQVVfeXFMT0p5WFY5clE5ZmV1dTZwYXc1QWg4M1hhTWJHczEzNTRMMS02WVVyUFRCNFFMSE4xbm96TS0xQzQzblJoMEdjeEEyZXNOaThyOGplYzFEdEFYZUNvMHdvX1NmSGxlUXNxS1ZVMTRnaGxIS3EzZGpPZGc5VVNUNmwzdkt3am1zMEZtUTdIM052c3lGXzhYMVJuR0hnU0lqc3FNRFhRTHEtMXV0Z1MwZ21GZG4",
+        "CBMi2wFBVV95cUxOaThaVzVUTzFkYXNvTFI2SENZYkZwVl9PejFUOU1FS3hNTGhkbW9xQ3dpUWpiT2ZkNVh0ak8wLVp2dG5Md0pRS05wbG9mQ0ZFRHpRRTd4QnpPX3dpVkU1TW5iUTBBUEgwVHVEN2t6Q0VoMEhjOG9hc0V2cWw3cnVFZl9STDR2NHNKeWc4OWp2cHdDZ1ZPNWFDQjJxSzFULTJGWFRZcE56U29zUjZjeXpRNWVkV3BZNkt3M0RWM3gxd0FpQ3hZQTN5WENIVlpIQ1JYR0l4dXRKMC14MlnSAeABQVVfeXFMTU1CeWdDUmw4dFVUTVBVRnR0cmxqQUpFM1REXzZsMVNILUthS0U4bDlySVdHQzlINWxWLTR0U193TUdVVkgzWk1iajFWcENEVnc5UTlLTmRvdHBRRmdDWTh2OUM0YlpIa2x5cG5PeWRZZjd3cUdJYXh3bzFZLWVhbXlac0l1TXJFeTFYeUtPUDZNem8zQjM5RE5LQnpndmdBRGwwVk9JbjlGVzdfY08xeXI5cW1PQ3Q2bGFGd0NfQXgwU1hrbk12N2ZzbjdIdmxYeWZLUDlNemtCNHVVVFAyZjE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-07T23:17:47.643Z",
-      "last_epoch": 1794053397000,
-      "etag": "\"0945b66041dab4d8723fc7f46bc1584eb-gzip\"",
-      "last_modified": "Sat, 07 Nov 2026 22:49:59 GMT",
+      "last_fetched": "2026-11-08T10:54:49.665Z",
+      "last_epoch": 1794116591000,
+      "etag": "\"0ae6945e94163c214d3ad65d85a164136-gzip\"",
+      "last_modified": "Sun, 08 Nov 2026 10:36:06 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/centre-rap-pushes-bhel-to-diversify-beyond-thermal/articleshow/134272029.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-under-scrutiny-indias-consumer-protection-body-steps-up-probe-over-ios-18-related-complaints/articleshow/134269200.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/us-natural-gas-crisis-2030-how-ai-lng-exports-and-extreme-weather-could-trigger-global-energy-shock/articleshow/134279860.cms",
         "https://economictimes.indiatimes.com/industry/renewables/niti-aayog-calls-electric-mobility-a-key-strategy-for-indias-viksit-bharat-2047-vision/articleshow/134287837.cms",
@@ -627,11 +626,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/centre-and-states-set-to-discuss-key-mining-and-coal-sector-reforms-at-national-conference-in-goa/articleshow/135558092.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/gold-may-glitter-at-rs-1-68-lakh-as-global-uncertainties-bolster-outlook-report/articleshow/135600374.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/et-fb-conclave-north-india-2026-celebrating-the-leaders-innovators-and-iconic-brands-shaping-indias-hospitality-industrylead-image/articleshow/135606492.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-oil-corporation-to-buy-crude-lpg-ships-as-west-asia-crisis-exposes-shipping-risks/articleshow/135652440.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-07T23:17:47.766Z",
+      "last_fetched": "2026-11-08T10:54:49.689Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
