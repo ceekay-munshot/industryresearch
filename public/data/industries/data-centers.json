@@ -13,7 +13,7 @@
     "generated_at": "2026-10-11",
     "mock": false,
     "query": "Data Centers",
-    "updated_at": "2026-11-08",
+    "updated_at": "2026-11-09",
     "coverage": {
       "sections": {
         "size": {
@@ -62,9 +62,9 @@
           "as_of": "2026-01-01"
         },
         "news": {
-          "sources": 1,
-          "confidence": 0.6,
-          "as_of": "2026-11-08"
+          "sources": 2,
+          "confidence": 0.84,
+          "as_of": "2026-11-09"
         }
       }
     }
@@ -1422,6 +1422,132 @@
     ],
     "news": [
       {
+        "title": "Statnett halts new grid capacity reservations for data centers - EnergyWatch",
+        "publisher": "EnergyWatch",
+        "date": "Mon, 09 Nov 2026 10:23:20 GMT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzODVRUC1YMmVLaUp0amVMT29Yc2JBNUFrSXJNQTVLRXVXMzN5RnNadmV5d1NZZEJzYzhrdkNES2lIZkZ6ZlpOMVYzdDAwTUFsR2J1NGUtbmNacFNGclF5MGF2b1M5dW9FQ3hV?oc=5",
+        "snippet": "Statnett halts new grid capacity reservations for data centers &nbsp;&nbsp; EnergyWatch"
+      },
+      {
+        "title": "Building AI Kill Switches in Data Centers - Data Center Knowledge",
+        "publisher": "Data Center Knowledge",
+        "date": "Mon, 09 Nov 2026 10:00:44 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDBuOHByQlNSX240WGM2eC1NOWxUd2JrQk9GSm81RHBTMnlOV3BIVmczQVY0dVl4QjUzLVh4OV9YeG56RkVhNnBNODNrYmxTbUVXYU5nY1k5Qmt0UXp6UXNETFNNal8zUHlYQUZ2ZDVxYWJvejVoUFo2UXhfcTk3V29IUjdNOF90MzVfck9pMlN2WTRRZWNjSQ?oc=5",
+        "snippet": "Building AI Kill Switches in Data Centers &nbsp;&nbsp; Data Center Knowledge"
+      },
+      {
+        "title": "1 in 4 data centers run in area with stressed water supply, study finds - The Washington Post",
+        "publisher": "The Washington Post",
+        "date": "Mon, 09 Nov 2026 11:32:33 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbTNpdW9fT2plc2o1NjA3X0cydkozVHJyaHQxR2NGeWgwZHlxeFNaTW9DcVNVMUhkMW9XZ2RMQkdweFY5amMxaVVFcUUyLUFMaTU5YVZBRERpdVAzb3VVeXZIX0pfUGxXTkpxbURKZmhDVVZZT195ZF9meEFPV3BIcldzb1NOaktBTkNDckFuVkF3VU9jSlJ3RU9XdVJTSW1nNUhCRHVNRU9rXzBPQzV6R3VMaUdVWVljbjlXY0l6cnA1cmVacW9v?oc=5",
+        "snippet": "1 in 4 data centers run in area with stressed water supply, study finds &nbsp;&nbsp; The Washington Post"
+      },
+      {
+        "title": "Norway Halts Power Connections for New Data Centers - Bloomberg.com",
+        "publisher": "Bloomberg.com",
+        "date": "Mon, 09 Nov 2026 09:51:49 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2xOem5VTTZVQWFmZ3F5a0xwaUVxR1VZTkljcWZ3LUpNb0x1VDVsX0RRcENpeWJTc09rblNFRzBXLU0zTk1oRDc1OTBfZkQ4c18yOWxhRVRDVnpLVy03WlNaRHphWkpZck01T3VTZGdBVWl4cTUtM0JtTWFaWFFuQUZYNTRJZW9xZDQ0YjRuQmFvZmlVN3p0UkNKZFFlYVpKc0NZVA?oc=5",
+        "snippet": "Norway Halts Power Connections for New Data Centers &nbsp;&nbsp; Bloomberg.com"
+      },
+      {
+        "title": "How reinsurance can help build better data centers - Global Reinsurance",
+        "publisher": "Global Reinsurance",
+        "date": "Mon, 09 Nov 2026 10:46:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnVGRlJjSTBpUWxxZ2hqWEZVVEpob1VMZkhpRWlUOS1Ja3Znemc5WUhVbGd2dzk0MU1GRDlYcDJwT0FhdzZ4MjlSbEdDVFNzZnhScTJkMzI0WDd2YWR6VFA2MDg0ZHBqWGxtQW9jUk1Fbng4Mkd3YmZMMDFOb085cGJyM3FUdS0tMWhyTjByYkg4Z2tQdFVrOHNjb3lKbmVaM3dzQVNBNzc?oc=5",
+        "snippet": "How reinsurance can help build better data centers &nbsp;&nbsp; Global Reinsurance"
+      },
+      {
+        "title": "Voters reset the debate on data centers and billionaires - The Japan Times",
+        "publisher": "The Japan Times",
+        "date": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLUZPb3ZSUEVzNzhRLTNNanJ0dHVHeWVnYk5DS3JLQTRjTDREWkZqMVh4OE5oOWF3cjR3R0ZoS0Q5QlpEVEpXZGxuS29XeTFlM1dVLTJpNkNtdXR5aHdTdDQwekFHOWNHODJDVUhPel9ZcTNZLVlES1BNSHljbXBtcHFRSUM4WXljM3c?oc=5",
+        "snippet": "Voters reset the debate on data centers and billionaires &nbsp;&nbsp; The Japan Times"
+      },
+      {
+        "title": "Used Gas Turbines for Data Centers: Skip 6-Year Wait [2026] - https://tech-insider.org/",
+        "publisher": "https://tech-insider.org/",
+        "date": "Mon, 09 Nov 2026 09:05:28 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZV9PVXdoeGlwZXFYd1huVmFtWDRlXzlrOXFSMHFtQ3o1NXFnanRTeHRvdDlQYVlRY2pia1Z3YU9aUmthQ2ZGSDlPY240WlBqT21BQkNkUUNCMVVQejNYY0laMnhzZEdPM19VcXE3TTVtcmZ0WWNqeG96YjRTMlNMM2tGNW51Q21mXzJJ?oc=5",
+        "snippet": "Used Gas Turbines for Data Centers: Skip 6-Year Wait [2026] &nbsp;&nbsp; https://tech-insider.org/"
+      },
+      {
+        "title": "Bharti Airtel reinstates ₹299 recharge plan three months after withdrawal; Citi explains the implications - CNBC TV18 - LinkedIn",
+        "publisher": "LinkedIn",
+        "date": "Mon, 09 Nov 2026 06:58:08 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTWtOQzVVWUdTQlhab3o3QURrbTlBWlFjbGxOQm1jM3FoQ1hxellwUHY4ZWNJU2ZMZjdKTHFJQ1Mwdkp0cmpPbkVpT2JWZDRGTkl1Y0F0VW1SeUVqR3gxTkhwMG8tYWdBRWFtd0c3eVZxaHJjT0dXTElWRnZmQlFaWF92MjFJLUxpNnFYOUFUNXlsaUtjNmlDSlluWFRsSDg5eWxsaFZMMWtQdGdPWmlRWjhoS3ZCZkxy?oc=5",
+        "snippet": "Bharti Airtel reinstates ₹299 recharge plan three months after withdrawal; Citi explains the implications - CNBC TV18 &nbsp;&nbsp; LinkedIn"
+      },
+      {
+        "title": "Buy Bharti Airtel: target of Rs 2430: ICICI Securities - TradingView",
+        "publisher": "TradingView",
+        "date": "Mon, 09 Nov 2026 08:31:47 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRmlLUzdCa2U3ZVVMYkc0al9uR05FaGNObzlfTGU0Wkw4TkF6RzJ6MTRqWDE5RWZqRDR0YkNSMEtwZXl4YmhXSVBXcWxPbFZmWkUxZUM0dE5pcU54M1pZZDZrOGhKZ3JjckdPeFBfQi1JVndOMUxDXzJoT1NSWnZFaEFqX1JRSERTeWtrRlExZ1FVUFlERUVrcC1OMnlKd0hHZUVWNEMzQlB6TzNOclJjVHdScnFZQQ?oc=5",
+        "snippet": "Buy Bharti Airtel: target of Rs 2430: ICICI Securities &nbsp;&nbsp; TradingView"
+      },
+      {
+        "title": "Bharti Airtel reinstates ₹299 recharge plan three months after withdrawal; Citi explains the implications - CNBC TV18",
+        "publisher": "CNBC TV18",
+        "date": "Mon, 09 Nov 2026 05:13:30 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTERuLVEyWjFxSTA1WXZrMXVWaTU4ZlNvbjVhY1FGUzFXTWpGQ050OHFpM1A4eXQtQldham8wRG1ZblVGLWRpTDlyekJvTHhVQl9Ca2RBZHk2dGxIWXRISWhvLXlGTEt6cmlodkJQYWZCRGFrNkVLUmltNjFjRC1RNnR4bHJtRXllREwzYXBJTGcxQ0ROOXpsMnI0MWludWdseGlaSWtwWmlEY2QwMzFieGc2bWN3WWRpelk4SUd2M1lhVnI1MjNRSUYtaGc4eHVsZG55RTBRci1uYV9hZUEzdzZLaGpBcWZHb1BDWNIB8gFBVV95cUxQYmRYRHZ3UmtmUlFwclRYRHNJb0tPbnBLbUhhY3luRlJPeEFwRGJoNU5sMmN5T013TE5VcjlrU0VHQng4cXRlNW80U0hZaGRGejRnemRjRUN4ZVdjSXRWa0FMQ05ZSnNpeG9XV1ZXczF4YnpNSU14VmU2SGRfVms2RXEzdnNkYnlMeGYyVm5sNVpoczh1TU1XTzR6TlBvaU9KY0RjZlhra1ZKS0tpTTlTSGIzVmRmc1FaNU15LUFsREhBc19MMjUyRHRoM09uU19Sd19LWk5GQXMzYTJINmdtNF95dnl6QklWUWFSMXVBOHp1Zw?oc=5",
+        "snippet": "Bharti Airtel reinstates ₹299 recharge plan three months after withdrawal; Citi explains the implications &nbsp;&nbsp; CNBC TV18"
+      },
+      {
+        "title": "Buy Bharti Airtel; target of Rs 2411: Prabhudas Lilladher - Moneycontrol.com",
+        "publisher": "Moneycontrol.com",
+        "date": "Mon, 09 Nov 2026 04:48:28 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOUcxbzhIQ0ZxZUVhNVpuc1ZZVTRsM3EwSkZ4U3NlUW9WOFFkTzdKZjRVNUliZkdKU1dScU5Tc0pVSlhTTFZfbXR5d21SSV9VX3RBZk0tcFlrNkp5MXkxSW9PbUxNamxHdWMyVWxoWUxVOU1GUTJTcXB3TE04NXJxbDYtRERZRmRmbkR5VElwSDh6dk00bmdDcG5tNEpRdTBMQWgtQVNJdG9HcXFNZkhWbFBIMWZYR2tDRVdn0gHAAUFVX3lxTE1qRXpRb3VDZG9uWWhZRHJLRjM0VjhXUnZfNVlKR0txd09FdDVfbkJVZ2c1bk9Ma3pKcGxIeFhVUGRpak5wa2JSR2dHOGNSck9HeEJRNkhMeFJVSU93Qjc1ODl1ZFNDaEw0bmk0Y0RFVDQ5SjlFTzVhaFF5RVJDWWp5d1pydzU0anR1TG9LNG1JZmZRMWI2VldXcmtyelhnbjNMN2JoTHFiVmZ1S194OXN3ejEtR0RqVzNGVkJMZHpRbw?oc=5",
+        "snippet": "Buy Bharti Airtel; target of Rs 2411: Prabhudas Lilladher &nbsp;&nbsp; Moneycontrol.com"
+      },
+      {
+        "title": "Weekly Recap: RELIANCE's record-results surge and coal gasification plans - TradingView",
+        "publisher": "TradingView",
+        "date": "Mon, 09 Nov 2026 01:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRXF1cWU3TXJZLU9FWGtUSVFVcTRCQjZ6enlkdVFXUFpiZ3E5OWMxcXRjTHgySV9MdjV2UldKQmUzektXS09STGhELXlZbnJObE1jZTNmM0JxSU1Rbnd3ZkhkLUFDQUpBUlZGcUtIOE15dkdvQ25hMV9ZWFhqUWp5X0tlWGQwakFwMUVuOENMZEN0bk8tWHpqbFBsNXFyLWo3N1YyRktZUjBlSFpta2NSMDlkTmdhUExrZmwzNTJ5b1VYVmxWak9DQW51SXRhN3M?oc=5",
+        "snippet": "Weekly Recap: RELIANCE's record-results surge and coal gasification plans &nbsp;&nbsp; TradingView"
+      },
+      {
+        "title": "ONGC, BP, Reliance explore $1 billion shared offshore infrastructure in Mahanadi basin - PSU Watch",
+        "publisher": "PSU Watch",
+        "date": "Mon, 09 Nov 2026 05:31:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNelJENkJhQ3RCb2JaeFdabV9JYW95RjdvM3Z3ZzFzeHBfUnd5d2N1eE1WN0J6Wng0Q1Rtd3Z2SWlPR1diOEhlMzhoTzBSZzFUb3c1bjVTeVgzNjFyaXkzclBMMVl2cDRVMFJXU2tqbWFnaTNwc1NURXNoZWhMb1lKellmZDlkUklQYVVoX2s1cTRDd2lmUVBER1EzdVljR1hxMV9TLVJFUWlDekY4MVgzaklmRFNPTDDSAcQBQVVfeXFMT1FnY2RKY3RLd2VHUkFVeC00eGxQTFZZTFlyOGhjZEQwYm1JWE51bFB6VjRuVk1Pd09OMUVHNWFidU5LQTRZXzhfLXVrVnprR2NYdU9jRDVyNmthZjhqV0xGRlAyUWk2U1hINHU1ZkxFZnY2RlZGWUJEMVptMVNPbVYxdE5lUV9sdW56anRqTFN0aTdFaU5ZY3FVcTZLN21jQ3VCeDYyS3FidHhXMjlER29fLTk3by1ReGFhcnhhZ20teFJQZg?oc=5",
+        "snippet": "ONGC, BP, Reliance explore $1 billion shared offshore infrastructure in Mahanadi basin &nbsp;&nbsp; PSU Watch"
+      },
+      {
+        "title": "‘Reliance may find it tougher to crack India’s biscuit market than soft drinks’: Britannia CEO Rakshit Hargave - Startup Pedia",
+        "publisher": "Startup Pedia",
+        "date": "Mon, 09 Nov 2026 10:32:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQOFRLWEE3RGFsX2M4enBLa2xZdXVJV0x3T3NseTJacmtxVUpyWS02X1A5d1VpajhNN1hndkdTOVloZnhtUmdneUpjSmc2aW5OazlPSGJfalZ5WXUwdVdHbk13VTFLNHRRSzRpVEI1SmExMDViV09DRDJWNFo0VkRRbHkwWFRDcXJvZjN3X1EtYnZDRmtPU083MkI4cTJUZEx5MC11MG11WHl5elJEZjI5Wm1MR0I1SlRFNEhFMDdYZ2NvSUpXRDdQQkZEQ0tnbmZmNGRQRlp2QXowaEdOazZMWThn?oc=5",
+        "snippet": "‘Reliance may find it tougher to crack India’s biscuit market than soft drinks’: Britannia CEO Rakshit Hargave &nbsp;&nbsp; Startup Pedia"
+      },
+      {
+        "title": "Adani Enterprises Plans Rs 35,000–40,000 Cr Annual Capex in Next Two Years - HDFC Sky",
+        "publisher": "HDFC Sky",
+        "date": "Mon, 09 Nov 2026 03:41:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2JvVlFBY3pnVmttTWFNU0JiQTdsVnBKaXhhaDR6VVNRZkFNaUtSUU9wMUtSSTN5azh0d3pUdURsZ2w1Y3VBcWRRTEd3R3FxN1NOMjN3SHlZR1EtYlEtZS1DUFQ1MXZQR294OXpuUnNSSVhYRzNqeV9CRnNORF9TRGFWZXM0MWM1WGY5NnZSUjI0NEp2cFRoUVM2R1BOUQ?oc=5",
+        "snippet": "Adani Enterprises Plans Rs 35,000–40,000 Cr Annual Capex in Next Two Years &nbsp;&nbsp; HDFC Sky"
+      },
+      {
+        "title": "GIFT Nifty up 66 points; Adani Enterprises, BHEL, Alkem Labs, Dabur among top stocks in focus - IndiaIPO",
+        "publisher": "IndiaIPO",
+        "date": "Mon, 09 Nov 2026 02:34:42 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUUxqc0Zub2puVFA3eFRScUxDR2JlOUdUWVlteEpVSmVvSnpFUVJsTkdxVFRRVEZyd2VGTkJiWmphd3VsclBxQ3Z2YnZKc1prYlIxSTJYZzdSY3NUd3RIUXIxRm5RUUd5ZFBybDlUUzJzLWpwS0ZNbDF5Q1k5dUd4QVphNDg3VTdzbEZRZ21WMzdNRGZ2dzFUWG5iTVdrdVlGV1d6LUI2c01OZmJJY0Y5bjd0MnR2VXhjbFo0enRRT3R1S2c?oc=5",
+        "snippet": "GIFT Nifty up 66 points; Adani Enterprises, BHEL, Alkem Labs, Dabur among top stocks in focus &nbsp;&nbsp; IndiaIPO"
+      },
+      {
+        "title": "Adani Ports shares gain 10% since Q2 earnings, approach Rs 2,000 mark; what's next? - Business Today",
+        "publisher": "Business Today",
+        "date": "Mon, 09 Nov 2026 04:05:25 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUURUQjA3aDgyVmE4V1B1Q085UHo3ZGhOZTRiYUFPdkVUSnJyNGlOR1Ftb0Zzc2h1OWc4X1djTFR0VnFwVmxUcTd3MHJtd1E5UGhqU0JSZWU3VjAzckJUOXJLUDRiTHlCaXN3VDNWNVhFR0dobW90Tk12ZHNNZFUxeFV4Y1pRRW1WTWxOQUxDejNjcG5SMXZNMWNBOFJJb25RSk4yR1VuMTBYckhrQlpmUDVuaG0tY0M2U29FU2J5LVMzYmtPM0syTE9tX1paYnNuRUtfOUJZcEp4UdIB3wFBVV95cUxQNUh2WVdudC02RDdRN1VlcW9HRDVFU0hKeXVlYllBSnp5SHYydi1tRWpWMDJ4Z2gwTXlqY25XZHZKS3JfSF9ETl94YzhOV25yd2pTckpUNkV6ZUU4OEdJQ3BMbXpRM3o0WXExMGJFbEY2T0NhOUVZM3VHUEk0MXFsUWhpV21fTjlhUWN0NWhoaDdoaklaaF92ZHU3Sm9WX3BGMWxocWhNMHMwLWhFcWVPWGlLUl9XU1g2d0ZOMFEzSTEzMDFUcElUUVZLTWZEdEt3eDlTbE1vdzVLNmlzWEpR?oc=5",
+        "snippet": "Adani Ports shares gain 10% since Q2 earnings, approach Rs 2,000 mark; what's next? &nbsp;&nbsp; Business Today"
+      },
+      {
+        "title": "Reliance may find it difficult to replicate cola disruption in biscuits: Britannia CEO & MD",
+        "publisher": "economictimes.indiatimes.com",
+        "date": "Mon, 09 Nov 2026 17:43:08 +0530",
+        "url": "https://economictimes.indiatimes.com/industry/cons-products/food/reliance-may-find-it-difficult-to-replicate-cola-disruption-in-biscuits-britannia-ceo-md/articleshow/135681762.cms",
+        "snippet": "Britannia Industries has expressed confidence in its market position amid competition from Reliance Industries. While Reliance has entered the biscuits market, distinct pricing dynamics could limit its ability to disrupt. Britannia CEO Rakshit Hargave emphasized their strong market moats and growth "
+      },
+      {
         "title": "Anthropic secures $3.4 billion generator deal for AI data centers, FT reports - Reuters",
         "publisher": "Reuters",
         "date": "Sun, 08 Nov 2026 12:54:10 GMT",
@@ -1504,132 +1630,6 @@
         "date": "Sat, 07 Nov 2026 13:00:01 GMT",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkVFNKdFlSLTl6ZndHZTBvOFFta0JaelYzcldkc21kSVJiSHNOcDVBX19xTVY3clpiekZSWmpRbFdtaHdTbVo1d3lNNXJTa3FfQ2NiWHhJV3Vvb3hEekdfQnJDV2xQcU0wUFo4dnBiM050YnhVOVFfYXo4VW5PRWc?oc=5",
         "snippet": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "Data centers' 'phantom load' impact on U.S. grid - CNBC",
-        "publisher": "CNBC",
-        "date": "Sat, 07 Nov 2026 00:23:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYlBXYWN0aDMxekZ4SUdCWXppZXg4emV4T3RINjZ3cVFxS2F2S2xYREdEWjVndVEzSjR5ZzhnZTlfRnVwM05zZDdqMUNXZm55NHY1a1V1d3FweFQ5TnpnellwQTNZS1dSYTROR1E0anhnVkxYQ2h3ajVyMWNBY3JFekdiYnhTME5DcXBwRFBvTQ?oc=5",
-        "snippet": "Data centers' 'phantom load' impact on U.S. grid &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "All the latest updates on AI data centers - The Verge",
-        "publisher": "The Verge",
-        "date": "Sat, 07 Nov 2026 08:03:54 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0UxRGMyQ3VLZ1hCY2U3dVVzZnYyX1FZSGJ6OElGOFZ3amc1NnY2Z3Fhb2NIcUp4UFNQNTBQZ3RPa2RiaGEtYWROcHpadFpCV244Nng2VDZuOTBMZDNwdHR3ajl4RXhSSEFjSUZQMVlFd25GSXNZWHZxaVpJYXN0VFJSYUtwcWpOc1huZENJSTRjTlJtTUN3RXh4WFgxRkhOZnBLNVFwSHc?oc=5",
-        "snippet": "All the latest updates on AI data centers &nbsp;&nbsp; The Verge"
-      },
-      {
-        "title": "AI data centers reshape grid planning for utilities - ET Datacenters",
-        "publisher": "ET Datacenters",
-        "date": "Sat, 07 Nov 2026 02:34:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWXlxQ0ZBUHg3SjJqNnY5Xy1feEl0SUpKcm45V1lSU3JQR3VHdi1OZzd3emdsLVFUcjAxZlR4M0FzbUdGU0tKckpnX0Q1LUlieUNpZ05LVXBXd2FtbzhQS2FVMkpHdUdQMTNNZjdsZ0hoUllPRU5hZERsbllxYXh0MmRFM284UWVCZGpBcGZxUVR3OThOWVZrSXdtRXpYSENfcllDYnptOFZsdldyd1RCQjN0LURpM1V1T2RGY1E4MXhDTVZlR1ZZakhtdzdRaVplZ2ppNG1NNHlKdFRXRnfSAeIBQVVfeXFMT0hPTkZEMGNTMmRnTjB4LXpPZ2V1Q3BSSWRIeXpST21vUjRiYUJxdENRVFdCRTloOUNSTnZJd2thWGZEQmt5enZteC1GVGMtMmNCVDllUFBCbXY1UGVWNGt4YzJNZEV5WTNuMkJUbFJaa2x3MnZfLU1KRFlvWEJUaXpZYUptc0xsRmNYRGJZWU5xbFBDWl9yX3RoNmhzZTAzU3VBOTRMYUhFblZmVFlTZHZBaDRJcmtSYnlWQWk1UU5lV2VNaXFXLTMxRFFUN3djMFVWemU2dHRWcFF5eGZCREdtQQ?oc=5",
-        "snippet": "AI data centers reshape grid planning for utilities &nbsp;&nbsp; ET Datacenters"
-      },
-      {
-        "title": "In Mexico, the concentration of data centers raises concerns among residents of Querétaro state - Le Monde.fr",
-        "publisher": "Le Monde.fr",
-        "date": "Fri, 06 Nov 2026 23:51:59 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOTlUMnRCa2Rad2ZyWnB6MlpEaS0wV2ppRV9LRmFqZFk0QlR0WVhTblJNTW9ZWEtiLTQ4V1RnTWU1ZldBY3I0S1kxQ1hfV0RJSWJ2d3FRQ2tFM2tQektfcF9uc3k4YW9KNHZ3d0tTaEs1MkRueFlVUWxPc3hUeGJJTll2a3ppNVdDckZpTXJaSHA2MWc2Mi1SWFIwN2RZTGhaY2xyMG92b0NtRVQ3NlBvM3E1SkxZNmh1UzJhd1duQzVoampyNmgyYW9KdWozYWQ3V3h0bU5yR01PR3NRTTZVelM4OXEtNEptcEFOVlczVTd0WmhpNUE?oc=5",
-        "snippet": "In Mexico, the concentration of data centers raises concerns among residents of Querétaro state &nbsp;&nbsp; Le Monde.fr"
-      },
-      {
-        "title": "Bharti Airtel re-launches ₹299 plan; analysts flag rise in subscriber churn after Aug tariff rejig - ET Telecom",
-        "publisher": "ET Telecom",
-        "date": "Sat, 07 Nov 2026 02:29:08 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPajRBQmdpVkpyZmRJbm5oMzNyVm1QNkZVVWRTOE5odlY3VVJFaXJicFM1a3hDcWhSUTlDUkpaUnZTYWFlMUt6Mzl2WU9QVVdBQ2dySWNrbDV0MW1xanFxUl95Vi12aS05cEdRSTUybHQ4cVVaeGFGbTlQa0M1M3lDQjFZWmhrdm1xQnJkRURVYXl2YkRLN3JoWWdiMXhWU1BlM2twMW1yeFpxNnhOZXBLUzVDWVhhcG9iME8wUzFpc1hXTlllaG1qeXItQTZ3N1FwSkNhczNIV3c1UU9XeG4wazc4Mm5fSVpjU3FFUFdfZVBRanYtVlVDYtIB_gFBVV95cUxOZWZiNWlZdmJpSXdvd05OaXhtX1NXYUdTMUJLNk12bGdzR2hBbzlIX2dibEpXdEFYUWtrTHJBZHNUTHNXQ0lNWkhHeTlFamhtb1Nva1FhZkU4N1FUUkJIX0NZTmtodUFiSHItS1BJR0RDVkNZMzVIeEdJcmVqWGhNU01HQjU5a1NULXI2TW1IYzZrNW9raEhTRExqeUFKNk41c1hhVHR2a0hwa1hqWjRxVl9KOWhJY1ZMNzV0YW9CZHNaWVJ3Ync3Mm9Ib0V3RlN2LWRyWXEwcFVFOWR2cDdwTWZqYjd4bGpRZ09xQzRfSU9xYnZPUHZxQWdqX1RZZw?oc=5",
-        "snippet": "Bharti Airtel re-launches ₹299 plan; analysts flag rise in subscriber churn after Aug tariff rejig &nbsp;&nbsp; ET Telecom"
-      },
-      {
-        "title": "AI data centers took a beating in the midterm elections. A reckoning may be ahead for tech giants - AP News",
-        "publisher": "AP News",
-        "date": "Fri, 06 Nov 2026 19:16:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3NGMHFJQlQwNk4yNzFPblZsOHRFS0FBcmc0b3JxbGRoSnUzUC00WGctejhmNllYa094VGFmMHJrSWYyaUhBRlFERkdKbktXSmRkcWhhc21JVUp5Z29kbFVtTE11YjZnc3ZkZU5jM3BvbmRqUVVyUDBveF9OTmJXd1poLVI1LVhlRUVfUjhzczh2b2t3cnZuTUc4UDExWXFmVWlQZ2R4MHVQaGllbnljdlR2UQ?oc=5",
-        "snippet": "AI data centers took a beating in the midterm elections. A reckoning may be ahead for tech giants &nbsp;&nbsp; AP News"
-      },
-      {
-        "title": "Data Centers - Potomac Riverkeeper Network",
-        "publisher": "Potomac Riverkeeper Network",
-        "date": "Fri, 06 Nov 2026 14:11:13 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fZ3BNa2ZrSU5vclJ1ODJhVHYwZllwU2htMmJPaHJ3LThaNFR6UV8tR2xXaDhqX0pxOGdKMjBCa1A5Z2wwUWdCdTROaVJkcGt5VDhxWnE0cHBUaEtETERKTQ?oc=5",
-        "snippet": "Data Centers &nbsp;&nbsp; Potomac Riverkeeper Network"
-      },
-      {
-        "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC - CNBC",
-        "publisher": "CNBC",
-        "date": "Fri, 06 Nov 2026 16:22:49 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54bWpvVi13alRsTVY0VGFfT0dUS3JtMG4yYVZtNDhkN2lIUndZeFVvVEdwZExsNjNPeXR1aEVVZzNSZjlBS1lSdUdoeUg4RmpWc3VqcDREUzA0RGlxZ2kzaC1KYVNzX3pxTlBLSGJtUlA0LUVq0gF6QVVfeXFMUEZaU3cwQVBvMmNCQmROc3lERDZDVHNUNXZHYVlxREdrRlZHYWwtVVV3NW5USzNoaXJXdldxejRWSUI5RklJMVlwRlBXZlRjdGg0cnlhUld3ZzVycGdOZ1o0Uk1Ja3ROV3JwMGxsQzhGa2FUbzFYa1p4aXc?oc=5",
-        "snippet": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "ECB Considers Review of Banks’ Data Center Lending as Fears Rise - Bloomberg.com",
-        "publisher": "Bloomberg.com",
-        "date": "Fri, 06 Nov 2026 15:35:23 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXB2bzhtMkZMTXFJMURqRnJwdUNoLU1BQy1jUDVQcC1uS1NaME5VekJnWHVXeFdOVW1OdFRSN2VGT05nUXFnVkdvVDFoRVYzMlhYUW5KczFpRF9UaVE2bUtQOTBmZ1hOLW5nSlFXNmhsbEpKUDd2RUNSYlQ1Q0RJTDNUdzVDLUpWMm5ueXpYOF8tenM1MUF0MU1mTDVXN2tCM1NkdXNYVVVObFBuNFpoUmZBUTc?oc=5",
-        "snippet": "ECB Considers Review of Banks’ Data Center Lending as Fears Rise &nbsp;&nbsp; Bloomberg.com"
-      },
-      {
-        "title": "ECB mulls review of bank lending tied to data centers - Bloomberg By Investing.com - Investing.com India",
-        "publisher": "Investing.com India",
-        "date": "Fri, 06 Nov 2026 14:28:09 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSnhfMEVxZTR6RnRjaXdWTTlvUUsyNmtXZF90b3lveFExU1RfeE0xQVBwZkxQY0xLUFNtYlNxVnJ4WloyLTJ5XzJaY3NLekZSbDlhTll5bzB1bVlEV1ltaVNTcy14S1JmTDA3dWN5ampBNk50VkFYSGlIUm52blpmVE81blYzbjlmU1Z0akxPVzF2MDYzMWpLRXdvekpPQ0ZtOXhySkV6eFNaSjdzV3dpM0RodnI0OC1TSFV4bXZqVnp6a3c?oc=5",
-        "snippet": "ECB mulls review of bank lending tied to data centers - Bloomberg By Investing.com &nbsp;&nbsp; Investing.com India"
-      },
-      {
-        "title": "Secure I.T. Environments to deliver modular data centers to hospitals in Wales - Data Center Dynamics",
-        "publisher": "Data Center Dynamics",
-        "date": "Fri, 06 Nov 2026 13:25:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdGlsOWFDZ3BkRVVoMU5ENTdEM1RWYWNXZXdzNGhCMzJDS0hmTHA2M1lfUWM5ZVhYbTBaaWZlZ2lENHRpWHU1dnNhV0hOVDJqc0RfRy1YOFAyZ1pjeGMtaWNOd0lCenZ0VTNHenJYcDBRV3F0aWY3MDZDT0doVWhUa3lwVWFCd25LekprSmw3VnR5ZWp6dFFZNmk3aXhia0VqMFFzeEFMT04wbUpzaV9sSFh0dDNKaDRZaG9WbQ?oc=5",
-        "snippet": "Secure I.T. Environments to deliver modular data centers to hospitals in Wales &nbsp;&nbsp; Data Center Dynamics"
-      },
-      {
-        "title": "Europewide protests planned against AI data centers expansion - Anadolu Ajansı",
-        "publisher": "Anadolu Ajansı",
-        "date": "Fri, 06 Nov 2026 10:01:47 GMT",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcFdJc0FZWVVXQjJfMDFtaFBNWHZHNVV0VTZCaEtvQnkzU3ZXcXlFSGtFYTJfRkNHazFSX09Qbl85STlhSWw3RnAyVUxrYnpnMEVTVjQ1ZFRZRzlYVU1fbVFHSTZXTTVmRER2TEpIb0haVXJ2aFRIZFpkTVAyRVhKNUsyTDJ3cFREcm9MTTNiWm85VXhhU0xRaTJZM2d5UQ?oc=5",
-        "snippet": "Europewide protests planned against AI data centers expansion &nbsp;&nbsp; Anadolu Ajansı"
-      },
-      {
-        "title": "China Mobile Bets Bigger on Data Centers as AI Demand Grows - Caixin Global",
-        "publisher": "Caixin Global",
-        "date": "Fri, 06 Nov 2026 11:07:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWkNSSWFtd3JzZ0hCZ3RyNUdBcVhJSVF5eGsyYTdVSUFqNDczTTBmTThmc05tbzBrQ3NPMVVUeUN0NXZzN19QLXplUE5ubWUyQnhteExvNGdqQVAtZVpFM3Jid3diRG9SaDgwcVJweEVlNkZ6NHBPZ2hvNlc3ZDVDZTluSzhzSHRVSUtSNlN3VWF5NTdwM19jVjVKczJwb3pjSVpmazE2c3plTm1vcnd0bjNDMF8?oc=5",
-        "snippet": "China Mobile Bets Bigger on Data Centers as AI Demand Grows &nbsp;&nbsp; Caixin Global"
-      },
-      {
-        "title": "TE Connectivity talks better data centers, smarter vehicles - Electronics360",
-        "publisher": "Electronics360",
-        "date": "Fri, 06 Nov 2026 13:15:52 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLWNPZDJQdlhTZFNFcGZfYk9qWURRNzllSzk3R0Y5dXlXRkdLaDhyMl9PRDh2cU1zY1NmS2tXT1JGamtWZENjaDVsOF9pTjM5eEwzZjc0MC1EMUM3SXJkUnhHaHpSQjE5YW91RGJsTU5CVDNBUlo0SERpU3A2bEZ5VlkyLVgtRDlUajBxMldhTExRWjAxb2xYSzhlMWgyZWU5QTdtQUVIeW5scW1QLTZj?oc=5",
-        "snippet": "TE Connectivity talks better data centers, smarter vehicles &nbsp;&nbsp; Electronics360"
-      },
-      {
-        "title": "We have a PR issue with how data centers have presented themselves, says Plexo's Lo Toney - CNBC",
-        "publisher": "CNBC",
-        "date": "Fri, 06 Nov 2026 13:49:41 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNU1PcDE0aW1iUE10VGJfek9oUEJMRDZJejJ6c2dFSUZaOWp2M3R6NFByWnBreDZieXp6SWlyalNuT0NsbmRUZzg2cTJUQlFtNXdCREZyMXRkSTRQaGJmMlB2c3puc21WQ1BUYnVRaFc3TXNHVldhSzl6d1ZWbVpoR3hNcDFCaU42MldRRFctZWFqTjg5RXMyUE9lWHo4ZTVfTi1aVUF0NXVHLVNsaXZsejNxclVnc2Z2ZEU4ZXNRMXBpSlFpX3BKLWNB?oc=5",
-        "snippet": "We have a PR issue with how data centers have presented themselves, says Plexo's Lo Toney &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "The purple tsunami against data centers : Machine Gods - NPR",
-        "publisher": "NPR",
-        "date": "Fri, 06 Nov 2026 12:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTFFYYTRRNVVRNGk3UGdCVl9CbnZULWtPaThpNXhTR1gxb2Znb3VmUHZiTGQxd2VjazkzU3ItUS1rb191LS16RVJ6U0pqeDJoUC12V0t4TlROUnpHQnBjTXlFQ1VyLUF0RHZTZXFyMVdfUE5UODdBWWxRSVFHc0VGOFpvc08yc0R6bWtQNw?oc=5",
-        "snippet": "The purple tsunami against data centers : Machine Gods &nbsp;&nbsp; NPR"
-      },
-      {
-        "title": "Netweb Technologies India Ltd Hits Intraday Low Amid Price Pressure - MarketsMojo",
-        "publisher": "MarketsMojo",
-        "date": "Fri, 06 Nov 2026 13:07:06 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN2hOY3VaZWxqMnQ1QUZPTzFrSHNwcHFJcW5Ed0xPRXlsNlNJcFdLSG1YTkJQTV9waUZoaGwtZEhveFZBM21ZYk5xWjUyMHdYYzlJb3FGQ05NRFBrUW9MVzgtR19tRS1PbGdDMnFlcFVSWWpMNWJSYi10Q3NXZHh6LVVra0NSeFlBc2hXRTUtdGR3ZTJpRm9OOVJUa3l4eGhVYWZScktDUzRVcS1aa1NKSFR3VUZJa0Vzdi1YaWt3VVA1Y00?oc=5",
-        "snippet": "Netweb Technologies India Ltd Hits Intraday Low Amid Price Pressure &nbsp;&nbsp; MarketsMojo"
-      },
-      {
-        "title": "Bharti Airtel reclaims 2nd spot in mcap rankings, overtakes Jio Platforms - Business Standard",
-        "publisher": "Business Standard",
-        "date": "Fri, 06 Nov 2026 12:17:58 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNFJKSG9YRUFnU2l4a090ZGZZTDVqalR3V3l3R2hkd1pLSE1tOVlFZkxsRDlSUlhKTzY0NXN5V2dLcG0tTmsyYnY3RVBBSjA4MTA3bGlkNVNTdEhPSHE3TEFjZ3dOY3RKYzhmQlZTTkp3c2wtZFZaWnZaaHl1R3dubTZyeFZpcXdReGEwUDJ5T25IVE50bFNHUC0yUURqVjV3S0pJRy1pM0FZb2ctLTFkRFVCM3p0aUNBeEotU2RCSDdtVkZ0Q1A0NTRHb3liN3VnelpoYThabGjSAd4BQVVfeXFMTkRKQ1NnUE9UV1RrcEVpZkhlQWtQN3VNd284NDFPM0pSLU5pS3p2VUUydnFDOUZOUE1DLWJlN1Nnc2ZGVlJVR093R1R0bEYyM2xvUEtoZlJESkltckhSYlhLVm1CZnlXek1TZ3pENEFhQU5xUkozM0ZrYjZoX3hEbVBLUTh5YlVCMXFOWlpuaGExbU1uT1pCMDdwZ0pmcExZVkotLUFRWlFEeGlqSkIxWU1nT2tOSGlySkRjaGYzR19pR1hMS3l1WV9LUmhiVVlOZ2NTa0RpN0tMVHpNaGZB?oc=5",
-        "snippet": "Bharti Airtel reclaims 2nd spot in mcap rankings, overtakes Jio Platforms &nbsp;&nbsp; Business Standard"
       }
     ]
   },
