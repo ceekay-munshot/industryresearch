@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-08T23:23:00.641Z",
+      "last_fetched": "2026-11-09T03:36:47.834Z",
       "last_epoch": 1793865600000,
       "etag": null,
       "last_modified": null,
@@ -20,20 +20,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-08T23:23:10.470Z",
+      "last_fetched": "2026-11-09T03:37:22.863Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-08T17:27:56.291Z",
-      "last_epoch": 1794137586000,
+      "last_fetched": "2026-11-09T03:37:24.022Z",
+      "last_epoch": 1794174735000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMinwFBVV95cUxPV0ZsUGpoSzN0cEdPQm4tNlowWUhoQnhjZWRfZ1YzSS0tNmpiQW53bEJ2ZkVqMGNnZ2xuSDgyblE1V2lWQThZSUh5Q3hXdTMzb3VMR1JRTVpWQnR4Sm9GTUUyb3lLdzMtblJGNlN2LTFPMzRNem1aMXZ4QXllLVZKemk3dXo4eVdIQmlteFVvYzR1RzE0bXJmdHpudUppQWs",
-        "CBMijwFBVV95cUxOTGdEOEFnWllXRUI1cGFuNFNIRHRjOVJubWtQc1lmc0RnN252MmV2Y1l5b1BDSFNab2NkSkt5VHFtTllPQzdhZXk2RXlMWGIxWkpoRF9JYXh3YnUxTXA1MDNBbnVSN1NZWTlnMUdUYWlCM3FkUDlYUGozdlhaUl9zZG40Y1hDUXBaVlg4RzJGUQ",
         "CBMifkFVX3lxTE1oMzFQdGFoQU15Xy12WXZzOHVHU0c3ek5pWEFub05pTUpOekF5cFR2cDI4eXRQbUdxUUMxcmljYlV3akRNV2xqRkdYUFJScWpRcU9pZUJQQkNDbmdNcWtfUldfX01rcHJ2NHlTQ3NwXzUwLU15bzFJVjVxN295QQ",
         "CBMitwFBVV95cUxQT1hHT2doMDBsUkx5T3BoaEFwNGZPTHVDaWhqUFYwUHB6LXFnQWdYMTc2SFN2NElSbVZQTUFsVHFlcDdOaE9GYzZESXZEMXYxZm0zbmhKUS1MM0M3M09WeE9JUXBwdHpsZkVSeVJhdWVrNUhnYk0tMEh5dXF5OE1OSUdXZGNsQzJTQ2VmbnFNUnpjTWdMTEgwMlkwWUFXQWZ5Q0FDazdNU3VndFBfN2dCWEFNZzNGZ0k",
         "CBMijAFBVV95cUxNblFCeEVCbVlsYUcxSjBCbzl5N0h6QUpIVUtqbHNhR3FtRV9wN0k3QVJFZ3JCWkJWWmxtTWxBOU52bDg1VC1hWklHcmZZaWdJam1Ea1BFb3F0WTd5Rm8tMFRuaDJOQ05JZXVNTWZmRHgwSXUtYjgyODhpelB6RVZkX0dlUTJ2bU5rQ3RmWg",
@@ -331,14 +329,16 @@
         "CBMiZEFVX3lxTE03c040TmU0WGN6SWpFZ2d3THVVRlZ3eUtfZXRjaUJTUDQ5ZEdyd1hfSTUzLTJFV2hJYmhpc2U4NE1VN1J1TjVjRUJEb2hJeW9CaDN0TERoSElVcjJlZExyTl9IamE",
         "CBMibEFVX3lxTE1vTE9oZW5nVEdVNHlja0VnOS1sczhBMWtSOW4ySWVTbUNOU3RxMzBPc2ItMklzSjhnWC1YMW1IcDV6VE5qS1dLUlNCSW5YdU1xZkE2MVFDTmkxcG9UX2RzVmZDbjMxRlhvc1Z4UQ",
         "CBMibkFVX3lxTFB3NklrbWJnbVdaeURQRVhUbFJ4NndvTEpHTS1lQnBZUEd1RFB3dnRIQ0VkYkticU0xcGRpVzJvcTBnRXJTdW9oQVhjZjFrejB0LVZqTk9ySEJ6azBMNnl5ZmZGT1pDY1ZnTndDbDFR",
-        "CBMiZ0FVX3lxTE1rZHBmU2FjU19tOUc5cDROaG42WXVaVjVTWWZGYllPa25ZbkFRRDZhSHVCZ25ZSEtDamp6VG01TDUyeXY5UFJRWU8xTENMdnJKbWZHTk5CY2RxdlZlZHBDZnl6TzY4SU0"
+        "CBMiZ0FVX3lxTE1rZHBmU2FjU19tOUc5cDROaG42WXVaVjVTWWZGYllPa25ZbkFRRDZhSHVCZ25ZSEtDamp6VG01TDUyeXY5UFJRWU8xTENMdnJKbWZHTk5CY2RxdlZlZHBDZnl6TzY4SU0",
+        "CBMibEFVX3lxTE8yYVFVS1pzNklEcDV4OTlxY0l2S1hmQVhZRHl0SnFxVWh5eUpYY29TYXZLUWdTdHZkTEdMNml3RnhoN3gzQk80Yi1mLXhLMmpPT19IeGR5ZDZZcm40Z2ZrSGVLNjllNzlRQU9xbA",
+        "CBMikgFBVV95cUxON2EtUUo5aVhCc0J6LXdubjVKanRXWWJBUlczMEpCbnMtU3pmOVdybTRxSDhSZTh2dFh0NlFxbmstZ0JFVDJzODlSMGVWcXBSMm45cDVia3owd3pKLXkyeFFNT3NwbkhiOXU2bDBwT1d2WFlqN0plX1Q1cjJPZllPbmpuNkd1TEN4YkVmM0d2Zi1rZw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-08T17:27:56.307Z",
+      "last_fetched": "2026-11-09T03:37:24.090Z",
       "last_epoch": 1793850883000,
-      "etag": "\"02fd501de83c88286c96edf29c22d35cf-gzip\"",
-      "last_modified": "Sun, 08 Nov 2026 17:17:19 GMT",
+      "etag": "\"07d937152c4fd109a58e1a555f6849426-gzip\"",
+      "last_modified": "Mon, 09 Nov 2026 03:11:10 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
@@ -358,14 +358,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-08T17:27:56.331Z",
+      "last_fetched": "2026-11-09T03:37:24.235Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-08T03:06:33.719Z",
+      "last_fetched": "2026-11-09T03:37:24.889Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
