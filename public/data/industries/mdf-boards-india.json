@@ -1,32 +1,32 @@
 {
   "meta": {
     "slug": "mdf-boards-india",
-    "name": "MDF Boards (Medium Density Fiberboard), India",
+    "name": "MDF Boards",
     "aliases": [
-      "MDF",
       "Medium Density Fiberboard",
-      "Wood panel - MDF segment"
+      "MDF",
+      "Medium Density Fibreboard"
     ],
-    "definition": "Medium Density Fiberboard (MDF) is an engineered wood panel made by combining wood fibre, resin (typically urea-formaldehyde), wax and water under heat and pressure. In India it is a fast-growing, 100% organised segment of the wood panel industry, used mainly in furniture, modular kitchens, wardrobes, doors and interior applications, and is substituting for low/medium-grade plywood.",
+    "definition": "Engineered wood panel made by binding wood fibre (from plantation timber, agro residues or recycled wood) with resin under heat and pressure, used chiefly in furniture, modular kitchens, cabinetry, doors and interior fit-outs.",
     "is_manufacturing": true,
-    "generated_at": "2026-11-02",
+    "generated_at": "2026-11-09",
     "mock": false,
     "query": "MDF boards, India",
-    "updated_at": "2026-11-08",
+    "updated_at": "2026-11-09",
     "coverage": {
       "sections": {
         "size": {
-          "sources": 42,
+          "sources": 45,
           "confidence": 1,
           "as_of": "2025-01-01"
         },
         "segments": {
-          "sources": 49,
+          "sources": 52,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "growth_drivers": {
-          "sources": 45,
+          "sources": 48,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
@@ -41,145 +41,187 @@
           "as_of": "2026-01-01"
         },
         "value_chain": {
-          "sources": 29,
+          "sources": 30,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "channels": {
-          "sources": 22,
+          "sources": 23,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "players": {
-          "sources": 52,
+          "sources": 55,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "margins": {
-          "sources": 25,
+          "sources": 26,
           "confidence": 1,
           "as_of": "2026-01-01"
         },
         "quant": {
-          "sources": 42,
+          "sources": 44,
           "confidence": 1,
-          "as_of": "2025-01-01"
+          "as_of": "2026-01-01"
         },
         "other": {
-          "sources": 55,
+          "sources": 58,
           "confidence": 1,
           "as_of": null
-        },
-        "news": {
-          "sources": 1,
-          "confidence": 0.6,
-          "as_of": "2026-11-08"
         }
       }
     }
   },
   "summary": {
-    "headline": "India's MDF market is worth roughly Rs 50-60 billion (~USD 1.4-1.5 billion) and growing 15-20% a year in volume, more than double the pace of the overall Rs 430-530 billion wood panel industry, as MDF rapidly displaces low-cost plywood and imports recede under new BIS quality norms.",
+    "headline": "India's MDF market is valued at roughly Rs 50-60 billion (~USD 1.4-1.5 billion) in FY25/2025, growing at a structurally higher 15-20% volume CAGR even as a wave of new domestic capacity and a mandatory BIS Quality Control Order reshape competitive dynamics.",
     "key_takeaways": [
-      "India's organised MDF market is sized at roughly Rs 50-60 billion (FY23-25), with volumes near 2.8-3.2 million CBM, growing at 15-20% annually versus just 5-8% for plywood.",
-      "India remains hugely under-penetrated versus global peers: the MDF-to-plywood consumption ratio is skewed 20:80 in India versus roughly 65-80:20-35 globally, giving MDF a long structural runway as it targets 50:50 by 2030.",
-      "Greenpanel Industries is India's largest MDF producer with ~26% organised market share and 891,000 CBM capacity (Andhra Pradesh + Uttarakhand), ahead of Action TESA, Rushil Décor and Century Plyboards, which is building out a Rs 1,000-crore Andhra Pradesh plant.",
-      "Mandatory BIS Quality Control Order (QCO) certification effective February 2025 has sharply cut MDF imports (down over 80% in 9MFY26) and is driving industry consolidation toward compliant domestic producers.",
-      "Industry margins have come under pressure - PBILDT margins fell from highs of ~30% in FY22 to roughly 10% by FY25/9MFY26 - due to a wave of new domestic capacity (FY24-25) outpacing demand and sharply higher timber costs."
+      "India's MDF industry is sized at roughly Rs 50 billion in FY23 (CareEdge/Prabhudas Lilladher) and about USD 1.4-1.5 billion in 2025/2026 (IMARC), with the broader Indian wood panel industry at ~Rs 430 billion; MDF remains highly under-penetrated versus global markets (India's MDF:Plywood ratio is ~20:80 versus a global ~70:30/80:20 favouring MDF).",
+      "Mandatory BIS certification (Wood Based Boards Quality Control Order, effective 11 Feb 2025) has sharply cut MDF imports - down over 80% YoY in 9MFY26 - while a wave of new domestic capacity (India's top-4 listed players' capacity roughly doubling from ~830k CBM in FY21 to ~2,150k CBM by 9MFY26) has pushed industry capacity utilisation down from ~80% in FY22 to ~63-66% in FY25/9MFY26, compressing MDF margins from historical highs of >20% to around 9-10%.",
+      "Greenpanel Industries is India's largest organised MDF producer (~26% domestic share, largest exporter of Indian MDF), followed by Balaji Action Buildwell/Action TESA (~24-26% installed capacity share) and Century Plyboards (a late entrant now ranked #3 in MDF, doubling capacity to 1,900 CBM/day at its new Andhra Pradesh plant) and Rushil Décor (~11% share); the industry is largely organised (100% in several industry trackers) and dominated by 4-5 key players.",
+      "MDF substitutes for the Rs 80bn low-cost/unorganised plywood segment and is 30-50% cheaper than plywood, which is the core structural growth driver, alongside rising urban housing, modular-kitchen/RTA furniture adoption, and India's Pradhan Mantri Awas Yojana housing push; India's MDF:Plywood consumption ratio is expected to improve toward 50:50 by 2030 from ~20:80 today.",
+      "Key India-specific risks: import dependence for certain grades (Thailand, Vietnam and China together ~71% of India's MDF import value), crude-oil-linked resin/chemical cost inflation (Brent-driven chemical costs rose 70-80% in a cited 6-month window), elevated timber price inflation in FY24-25, and oversupply from the ongoing capacity expansion wave which analysts expect to keep margins benign (~10%) through FY27."
     ],
-    "report_markdown": "## Market size and growth\nIndia's MDF market was sized at roughly **Rs 3,000-4,000 crore (~2.8 million CBM) in 2021** and has since scaled to an estimated **Rs 50-60 billion (~USD 1.4-1.5 billion) by FY23-25**, with volumes of leading listed players alone rising from 265,000 CBM (FY17) to over 850,000-2,150,000 CBM industry-wide by FY22-9MFY26. Multiple broker and rating-agency sources converge on **15-20% volume growth** for MDF versus just 5-8% for plywood and roughly 8-10% for the broader ~Rs 430-530 billion wood panel industry. India's installed MDF capacity grew more than 12x from 0.15 million CBM (2010) to ~1.8-1.9 million CBM (2021), and industry capacity is now estimated near 3.2 million CBM (2025), still expanding at a CAGR of ~17-25%.\n\n## Why India is different from the rest of the world\nGlobally the MDF-to-plywood consumption ratio favours MDF (estimates range 65:35 to 80:20 in MDF's favour), but in **India the ratio is inverted at roughly 20:80 in favour of plywood** - a key structural growth driver as this gap narrows toward an expected 50:50 by 2030. China alone consumes ~30-50 million CBM of MDF versus India's ~0.7-2.8 million CBM, underlining the under-penetration opportunity analysts repeatedly cite.\n\n## Segments\n- **By product/process**: MDF is split into Standard MDF (dominant, ~55-66% globally), Moisture-Resistant (MR), and Fire-Retardant (FR) grades; globally E1 formaldehyde-emission MDF dominates (~75% share) over higher-emission E2.\n- **By application**: Furniture is the single largest end-use, cited at roughly 51-60% of MDF volume, followed by interior/construction and decorative applications.\n- **By region within India**: South India is the largest regional demand centre (~45%), followed by North (~30%) and West (~15%), with South previously served disproportionately by imports due to high domestic transport costs.\n- **Within the wood panel industry**: Century Plyboard data for FY23 shows Plywood ~Rs 265bn (62% of a Rs 430bn wood panel market), MDF ~Rs 50bn, Laminates ~Rs 65bn, Particle Board ~Rs 50bn.\n\n## Value chain and margins\nMDF manufacturing is capital-intensive (plant costs ranging **INR 100-800 crore**) with high entry barriers from stringent environmental approvals and a 2-2.5 year gestation period to reach optimum capacity. Raw material (plantation timber/wood chips plus resin) typically accounts for 50-60% of operating costs; well-run plants can post gross margins of 25-35% and net margins of 10-15% at 70-90% utilisation. However, industry PBILDT margins have compressed sharply - from highs above 25-30% in FY21-22 to roughly 9-10% by FY25/9MFY26 - as a wave of new capacity (FY24-25) outpaced demand growth and timber costs surged on constrained wood availability.\n\n## Imports, trade and policy (India-analyst lens)\nIndia has historically been a **net importer of MDF**, with imports from Thailand, Vietnam, China and Malaysia (collectively ~71% of import value) filling gaps mainly in South India. The mandatory **BIS Quality Control Order (QCO), effective 11 February 2025**, has been transformative: MDF imports fell by over 80% year-on-year in 9MFY26, directly boosting domestic capacity utilisation and benefiting large organised players. Anti-dumping duties on thick MDF boards from China, Malaysia, Thailand, Indonesia, Vietnam and Sri Lanka have also historically supported the domestic industry. India's exports remain modest but are growing (UAE is the top destination, ~71% of export value), aided by rising MDF manufacturing quality and BIS/CARB/FSC certification adoption that also opens doors in the Middle East and South Asia.\n\n## Competitive landscape\nThe market is dominated by a handful of large, pan-India organised players: **Greenpanel Industries** (largest, ~26% market share, 891,000 CBM capacity across Andhra Pradesh and Uttarakhand), **Action TESA/Balaji Action Buildwell** (~750,000 CBM, strong in North India), **Rushil Décor (VIR MDF)** (~330,000 CBM, strong in South/West), and **Century Plyboards** (late entrant, 2017, now ~550,000 CBM after doubling capacity at its Andhra Pradesh plant). The top four players together control roughly 70% of India's MDF capacity. Globally, Kronospan, ARAUCO, EGGER and Swiss Krono lead a more fragmented market where the top five players hold ~47% share.\n\n## Outlook\nAnalysts broadly expect the MDF sector to sustain 15-20% volume growth through FY26-30, supported by rising per-capita furniture consumption (India's per-capita furniture spend of ~USD 5 lags China at USD 237 and the US at USD 733), continuing plywood-to-MDF substitution, and PMAY-led affordable housing demand. The near-term risk is margin normalisation as new capacity (Greenpanel, Century, Action TESA, Rushil Décor and others) comes online faster than demand, keeping utilisation and realisations under pressure into FY26-27 even as import substitution supports the domestic pie.",
+    "report_markdown": "## Market size and structure\nIndia's MDF market is estimated at roughly **Rs 50 billion in FY23** (CareEdge/Prabhudas Lilladher), growing to an expected **Rs 60 billion by FY25** at a ~19% CAGR over FY21-25E, and separately pegged at **USD 1.4-1.5 billion (2025-2026)** by IMARC Group, which forecasts the market reaching USD 2.6 billion by 2034 at a 7.24% CAGR (2026-2034). The wider Indian wood panel industry (plywood, MDF, laminates, particle board, decorative veneer) is valued at approximately **Rs 430 billion as of FY23**, estimated to reach Rs 530 billion by FY26. MDF is a small but fast-growing slice: within the wood panel pie, MDF's share has risen from ~10% five-six years ago to ~20% currently, and is expected to reach 50% by 2030 as India's MDF:Plywood consumption ratio converges toward the global pattern.\n\nIndia's MDF production capacity has grown explosively - from 0.15 million CBM in 2010 to ~1.8-1.9 million CBM by 2021, and further to ~2.1-2.3 million CBM by FY22, with capacity projected to reach ~4.0 million CBM by FY26 (a ~17% CAGR, FY22-26E). The top 4 listed/organised players alone expanded capacity from ~830 thousand CBM (FY21) to ~2,150 thousand CBM (9MFY26).\n\n## Segments\n- **By product/grade**: Standard MDF remains the volume leader, with growing demand for moisture-resistant (MR/HDHMR), fire-retardant and pre-laminated/laminated MDF as value-added, higher-margin categories.\n- **By region (demand)**: South India ~45%, North India ~30%, West India ~15%, Others ~10% - South and West India are also the most import-exposed regions due to port proximity and historically higher transportation cost of domestic MDF to the South.\n- **Context - MDF vs plywood**: Globally the MDF:Plywood consumption ratio favours MDF at roughly 65:35-80:20; in India it is inverted at ~20:80 in favour of plywood, expected to normalise to 50:50 by 2030. MDF is particularly substituting the low-cost/unorganised plywood segment (sized at ~Rs 80 billion), which constitutes ~85% of India's plywood market.\n\n## Growth drivers\n- **Cost and performance substitution of plywood**: MDF is priced ~30-50% cheaper than plywood (and ~25-30% cheaper than mid-range plywood), smoother to finish, and increasingly preferred for modular furniture/RTA/ready-made furniture - a structural tailwind as furniture industry formalises.\n- **Housing and urbanisation**: Government programmes (Pradhan Mantri Awas Yojana targeting 20 million urban homes by 2030, each requiring ~0.22 m³ of MDF) and broader urban housing/real estate growth (real estate sector targeting ~20% CAGR over CY21-30E to a USD 1 trillion market) support volume growth.\n- **Rising capacity utilisation and realisations**: MDF realisations improved from ~Rs 19,500/CBM (FY20) to ~Rs 30,000/CBM (FY23) before easing toward Rs 26,000-28,000/CBM as new capacity and renewed imports put pressure on pricing.\n- **New domestic capacity**: Greenpanel, Action TESA/Balaji Action, Century Plyboards and Rushil Décor have all added large-scale capacity (e.g., Greenpanel's Srikalahasti plant expanded from 660,000 to 891,000 CBM in Feb 2025; Century's new Andhra Pradesh facility doubled MDF capacity to 1,900 CBM/day).\n\n## Tailwinds\n- BIS Quality Control Order (effective Feb 2025) is squeezing out cheap/non-compliant imports, supporting domestic organised-sector volumes and pricing power over time.\n- India's MDF export volumes have grown sharply (Greenpanel's MDF exports rose from 25,000 CBM in FY20 to 173,000 CBM in FY23, ~24% of its MDF sales volume), supported by domestic cost competitiveness and proximity to Middle East/South Asia export markets (UAE alone is ~71% of India's MDF export value).\n- Formalisation of the furniture industry, rising disposable incomes and shrinking furniture/home-refurbishment cycles (from 15-20 years a generation ago to 7-8 years now) sustain replacement demand.\n\n## Headwinds\n- **Oversupply and margin compression**: A massive capacity expansion wave in FY24-FY25 has outpaced demand growth, pushing industry utilisation down from ~80% (FY22) to ~63-66% (9MFY26) and compressing MDF PBILDT margins from >30% (FY22 highs) to ~9.5-10.5% (FY25/9MFY26); CareEdge expects margins to remain benign at ~10% through FY27.\n- **Raw material cost inflation**: Timber prices rose >25% in FY24 and ~20% in FY25, while crude-oil-linked resin/chemical costs have historically spiked sharply (70-80% increase cited over a 6-month window tied to a 70% Brent rally), squeezing manufacturer margins given limited pricing power to pass through costs fully.\n- **Import competition and currency exposure**: Despite the BIS order cutting imports sharply, India still imports MDF (chiefly from Thailand, Vietnam and China, which together account for ~71% of import value), exposing domestic pricing to global oversupply/dumping risk, especially from China (the world's largest MDF producer at ~49% global share) and freight/currency swings.\n- **Fragmentation versus plywood incumbency**: Plywood (sized at Rs 265 billion, with ~75% still unorganised) remains deeply entrenched, especially in India's premium and mid-market segments, slowing MDF's share gains versus the faster substitution seen in markets with a more organised furniture sector.\n\n## Value chain and margins\nMDF manufacturing is capital intensive - an Indian MDF plant typically requires INR 100-800 crore of investment with a 2-2.5 year gestation period to reach optimum capacity utilisation, a 5-7 year payback and 14-20% IRR for well-run plants. Raw material (plantation timber such as eucalyptus/poplar, plus urea/melamine formaldehyde resin) typically accounts for 50-60% of operating cost, with power/thermal energy at 20-25%. Gross margins for a well-run plant are typically 25-35%, with net margins of 10-15%; however, Indian MDF manufacturers (Greenpanel, Century, Balaji Action) have seen realised EBITDA margins compress from highs of 23-30% (FY22) to the high-single-digits/low-teens by FY25-26 amid oversupply.\n\n## Players and market shares\nThe market is dominated by four to five organised players: **Greenpanel Industries** (India's largest MDF manufacturer, ~26% domestic market share, largest exporter of Indian MDF, 891,000 CBM capacity across Uttarakhand and Andhra Pradesh after its Feb-2025 expansion); **Balaji Action Buildwell/Action TESA** (~24-26% installed-capacity share, 750,000 CBM capacity, largest engineered wood panel manufacturer in India by some measures); **Century Plyboards (India)** (a comparatively late MDF entrant in 2017, now the third-largest by revenue despite late entry, having doubled capacity to 1,900 CBM/day at its new Andhra Pradesh facility, ~13% MDF market share); and **Rushil Décor** (~11% MDF market share, 330,000 CBM capacity, exports to 40-57+ countries). Greenply Industries, historically the pioneer MDF entrant (India's first MDF plant, 2010), announced a fresh ~Rs 500 crore investment for a new MDF facility targeted for FY28, aiming to re-enter at scale.",
     "report": {
       "kind": "llm",
-      "generated_at": "2026-11-02",
-      "hash": "dae974f58f283e0393e278a37376513c",
+      "generated_at": "2026-11-09",
+      "hash": "6ddca7643f1f2a3e54e9c54bbd42e41b",
       "sections": [
         {
           "heading": "Executive summary",
           "prose": [
-            "India's organised MDF (Medium Density Fiberboard) market is worth roughly Rs 50-60 billion (about USD 1.4-1.5 billion), and is growing 15-20% a year in volume. That is more than double the pace of the broader Rs 430-530 billion wood panel industry. MDF is 100% organised in India and is rapidly taking share from low and medium-grade plywood.",
-            "The market is being reshaped by a new mandatory BIS Quality Control Order (QCO), effective February 2025, which has sharply cut imports and is pushing the industry toward compliant domestic producers. At the same time, a wave of new domestic capacity added in FY24-25 has outpaced demand, squeezing margins even as volumes keep growing.",
-            "India remains far behind global peers in MDF adoption. The MDF-to-plywood consumption ratio is skewed 20:80 in India, versus roughly 65-80:20-35 in other major markets, which gives MDF a long runway as the industry targets a 50:50 mix by 2030."
+            "India's MDF (medium density fibreboard) market is worth roughly Rs 50-60 billion (about USD 1.4-1.5 billion) as of FY25/2025. It has grown fast, from around Rs 30 billion in FY21 to Rs 50 billion in FY23, and is on track toward Rs 60 billion by FY25 at close to a 19% CAGR.",
+            "The industry is at an inflection point. A mandatory BIS Quality Control Order took effect on 11 February 2025, cutting MDF imports by over 80% year-on-year in the first nine months of FY26. At the same time, domestic producers have nearly doubled capacity, pushing utilisation down and compressing margins from historical highs above 20% to around 9-10%.",
+            "MDF remains deeply under-penetrated in India: it holds only about 12% of the wood-panel market by value, versus plywood's 62%, and India's MDF-to-plywood consumption ratio is roughly 20:80 compared with a global mix closer to 70:30 or 80:20 in MDF's favour. That gap, plus MDF's 30-50% cost advantage over plywood, is the core growth story for the next decade."
           ],
-          "key_numbers": [
-            {
-              "label": "Market size",
-              "value": "Rs 60bn (FY25)"
-            },
-            {
-              "label": "Volume growth",
-              "value": "15-20% a year"
-            },
-            {
-              "label": "MDF vs plywood ratio (India)",
-              "value": "20:80"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "Prabhudas Lilladher",
-              "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf"
-            }
-          ]
+          "key_numbers": [],
+          "source_refs": []
         },
         {
           "heading": "Market size & growth",
           "prose": [
-            "India's MDF market is expected to reach Rs 60 billion by FY25, up from Rs 50 billion in FY23 and Rs 30 billion in FY21, a roughly 19% CAGR over FY21-25E according to broker estimates. Other industry sources put ongoing volume growth at 15-20% a year through FY26-30, well ahead of plywood's 5-8% growth.",
-            "Volumes are estimated near 2.8-3.2 million CBM as of FY23-25. The pace of growth reflects MDF's displacement of low and medium-grade plywood, supported by cheaper pricing and improving product standards."
+            "India's MDF market stood at about Rs 50 billion in FY23 and was projected to reach Rs 60 billion by FY25, implying a roughly 19% CAGR over FY21-25E, up from about Rs 30 billion in FY21. Separately, IMARC values the market at USD 1.4-1.5 billion in 2025/2026 and projects a slower 7.24% CAGR in USD terms from 2026 to 2034 as the base grows larger.",
+            "The broader Indian wood-panel industry is valued at roughly Rs 430 billion, of which MDF is still a small but fast-growing slice. Growth has been driven by rapid capacity build-out, substitution away from plywood, and rising demand from organised furniture and modular-kitchen segments."
           ],
-          "key_numbers": [
-            {
-              "label": "Market size (FY25)",
-              "value": "Rs 60bn"
-            },
-            {
-              "label": "Market size (FY23)",
-              "value": "Rs 50bn"
-            },
-            {
-              "label": "Market size (FY21)",
-              "value": "Rs 30bn"
-            },
-            {
-              "label": "CAGR (FY21-25E)",
-              "value": "19%"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "Prabhudas Lilladher",
-              "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf"
-            }
-          ]
+          "key_numbers": [],
+          "source_refs": []
         },
         {
           "heading": "Segments",
           "prose": [
-            "By value, India's wood panel industry is still dominated by plywood (62% share), with MDF at just 12%, laminates at 15% and particle board at 12%. This is the reverse of the global pattern, where MDF typically dominates, underscoring how early-stage India's MDF adoption remains.",
-            "Within MDF itself, laminated MDF is the largest and fastest-growing product segment, holding a 27.6% revenue share in 2025. Regionally, South India accounts for the largest share of MDF demand at 45%, followed by North India (30%), West India (15%) and other regions (10%). The South has historically relied heavily on imports to meet this demand.",
-            "Among organised MDF producers, Greenpanel leads with 26% market share, followed by Balaji Action/Action TESA (24%), Century Plyboards (13%) and Rushil Décor (11%), with the remainder split among smaller players."
+            "By value, India's wood-panel industry breaks down as plywood 62%, laminates 15%, MDF 12%, and particle board 12%. This is the reverse of global markets, where MDF typically dominates, underscoring India's structural under-penetration and room to grow.",
+            "Within MDF itself, laminated MDF is the largest and fastest-growing product segment, holding a 27.6% revenue share in 2025. Regionally, South India is the largest demand centre with 45% share, followed by North India (30%), West India (15%), and other regions (10%) - a pattern shaped historically by import flows into southern ports.",
+            "The organised MDF market is concentrated among four to five players: Greenpanel leads with 26% share, followed by Balaji Action/Action TESA (24%), Century Plyboards (13%), Rushil Décor (11%), and others making up the remaining 26%."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Value chain",
+          "prose": [
+            "Raw material sourcing starts with timber (domestically available plantation and farm wood, agro-residues like bagasse, cotton stalks and rice husk, plus recycled wood), which makes up roughly 75% of raw-material cost; chemicals and resins account for the remaining 25%. Wood chips alone represent 50-60% of total manufacturing opex.",
+            "Manufacturing compresses wood fibre with resin binder under heat and pressure using continuous press-line technology (such as Siempelkamp and Dieffenbacher systems). Gross margins in MDF manufacturing typically run 25-35%, with net margins of 10-15%.",
+            "Panels are then finished into laminated, pre-laminated, veneered or coated MDF for specific furniture and interior uses; these value-added grades command a 15-40% price premium over standard MDF. From there, product flows through authorised distributors (8-15% markup, minimum 50-100 sheets) and retail dealers (15-25% markup, sold from a single sheet) to furniture makers and consumers. A separate, competing import channel brings MDF from Thailand, Vietnam and China through ports like Nhava Sheva (JNPT) and Chennai, exposed to freight, currency and anti-dumping/QCO risk."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Distribution & channels",
+          "prose": [
+            "Most MDF reaches the market through a two-tier trade structure: authorised distributors who take bulk orders (50-100 sheets) at an 8-15% markup, and retail dealers who sell single sheets at a 15-25% markup to carpenters, furniture-makers and individual buyers.",
+            "Manufacturers are also building direct and branded channels. Action TESA runs 220+ branded studios nationwide, and Greenply has a network of more than 13,000 distributors, dealers, sub-dealers and retailers spanning 300+ cities and 45 branches. E-commerce is an emerging channel too: ready-to-assemble furniture sales have lifted MDF consumption 21% through e-commerce platforms, and Centuryply entered e-commerce via a Flipkart partnership in 2020."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Key players & positioning",
+          "prose": [
+            "Greenpanel Industries is India's largest organised MDF producer, with roughly 26% domestic share and the largest exporter of Indian MDF. It expanded capacity from 660,000 to 891,000 CBM at its Srikalahasti (Andhra Pradesh) plant in February 2025 and also operates in Rudrapur, Uttarakhand; it was the first in India to adopt continuous press-line technology. Its market cap is about Rs 4,775 crore.",
+            "Balaji Action Buildwell (Action TESA) holds about 24-26% installed capacity share, with annual production capacity of 750,000 CBM, 220+ branded studios, and India's first 7th-generation Contiroll machine from Siempelkamp.",
+            "Century Plyboards, a late entrant, has risen to the #2-3 position in MDF, doubling capacity to 1,900 CBM/day at a new Andhra Pradesh plant (commercial dispatches from April 2024) and exporting to over 20 countries. Its market cap is Rs 14,180 crore, the largest among the listed panel players.",
+            "Rushil Décor (VIR MDF) holds about 11% share, with a footprint in 57+ countries and a new Rs 504 crore investment underway in Koraput, Odisha. Greenply Industries is expanding with a new MDF plant planned in Vadodara, Gujarat, backed by an announced ~Rs 500 crore investment for completion by FY28. Other organised players include Sarda Plywood, Archidply, Shirdi Industries (Srichakra), Duroply, Shiva Texyarn, Mangalam Timber, E3 Group, Bajaj Eco-Tec, Nuchem, NCL Industries and Novopan India. Globally, Kronospan, ARAUCO, Kastamonu Entegre, EGGER Group, Duratex and Swiss Krono lead; Kronospan alone runs 28 facilities across 12 countries with capacity exceeding 8 million cubic metres."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Margins",
+          "prose": [
+            "MDF manufacturing margins have come under sustained pressure. Industry PBILDT margins have fallen from highs of roughly 27-30% in FY21-22 to about 9.5-10.5% by FY25/9MFY26, as new capacity outpaced demand and timber costs surged.",
+            "At the plant level, gross margins typically run 25-35% at healthy utilisation, with net margins of 10-15%. Downstream, distributors add 8-15% and retail dealers add 15-25%, meaning end-user prices sit well above factory-gate levels even as manufacturer profitability has compressed toward the 9-10% range."
           ],
           "key_numbers": [
             {
-              "label": "Plywood share of wood panel value",
-              "value": "62%"
+              "label": "Current MDF industry margin",
+              "value": "~9-10% (FY25/9MFY26)"
             },
             {
-              "label": "MDF share of wood panel value",
-              "value": "12%"
-            },
-            {
-              "label": "Laminated MDF share of MDF market",
-              "value": "27.6% (2025)"
-            },
-            {
-              "label": "South India MDF demand share",
-              "value": "45%"
+              "label": "Historical margin high",
+              "value": ">20%"
             }
           ],
+          "source_refs": []
+        },
+        {
+          "heading": "Supply & capacity",
+          "prose": [
+            "India's top-4 listed MDF players have roughly doubled aggregate capacity, from about 830,000 CBM in FY21 to around 2,150,000 CBM by 9MFY26. Greenpanel leads with 891,000 CBM, followed by Action TESA (750,000 CBM), Century Plyboards (550,000 CBM) and Rushil Décor/VIR (330,000 CBM).",
+            "This capacity wave has outpaced demand growth, pulling industry capacity utilisation down from about 80% in FY22 to roughly 63-66% in FY25/9MFY26. Imports, meanwhile, rose sharply from 80,000 CBM in 2022 to a peak of 326,000 CBM in 2024, before falling to 201,000 CBM in 2025 as the BIS Quality Control Order took hold."
+          ],
+          "key_numbers": [
+            {
+              "label": "Top-4 players' capacity (FY26)",
+              "value": "2,150 '000 CBM"
+            },
+            {
+              "label": "Top-4 players' capacity (FY21)",
+              "value": "830 '000 CBM"
+            },
+            {
+              "label": "Capacity utilisation",
+              "value": "~65%"
+            },
+            {
+              "label": "Imports (2024 peak)",
+              "value": "326 '000 CBM"
+            },
+            {
+              "label": "Imports (2025)",
+              "value": "201 '000 CBM"
+            }
+          ],
+          "source_refs": []
+        },
+        {
+          "heading": "Tailwinds vs headwinds",
+          "prose": [
+            "Tailwinds: India's furniture market grew 11% in USD terms in 2024, with forecasts of sustained 6% real growth in 2025 and 2026. Falling home loan rates (below 6.5%) are improving housing affordability and boosting furnishing demand. MDF's price advantage - 50% cheaper than premium plywood and 25-30% cheaper than mid-range plywood - keeps driving substitution. Domestic production capacity is projected to grow at a 20-25% CAGR through 2030, well ahead of underlying demand, positioning India for greater self-sufficiency. Government housing push (PMAY, targeting 20 million urban homes by 2030 at ~0.22 m³ of MDF per unit), a shortening home-refurbishment cycle (down from 15-20 years to 7-8 years), rising organised furniture growth (20-25% annually) and IKEA's India sourcing (set to rise from 20% to 30% of its products over two years) add further support.",
+            "Headwinds: Melamine-faced particleboard undercuts MDF by about 25% in carcass applications, posing a substitution risk of its own. Tightening formaldehyde-emission standards are raising compliance costs that squeeze smaller, unorganised mills disproportionately (margin compression of 10-18% versus 3-5% for large integrated producers). India remains a net importer for high-thickness, laminated and specialty boards, exposing the market to currency and freight risk. New MDF plants need 2-2.5 years to reach optimum capacity, delaying returns. And input costs have spiked sharply - chemicals and resins rose 70-80% in a six-month window on higher Brent crude, while timber costs hit unprecedented highs in FY24-25 - squeezing manufacturer margins industry-wide."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Outlook",
+          "prose": [
+            "India's MDF market is set to keep growing faster than the broader wood-panel industry, supported by continued substitution away from plywood, PMAY-driven housing demand, rising organised-furniture penetration, and the BIS Quality Control Order's curb on cheap imports. The MDF-to-plywood consumption ratio is expected to improve toward 50:50 by 2030, from roughly 20:80 today.",
+            "Near-term, the sector faces an absorption challenge: capacity has roughly doubled over five years while utilisation has fallen to 63-66%, and analysts expect margins to stay benign at around 10% through FY27 as the market works through this oversupply. Input-cost volatility in resins and timber remains a key swing factor for profitability even as volume growth stays structurally strong at 15-20%."
+          ],
+          "key_numbers": [],
+          "source_refs": []
+        },
+        {
+          "heading": "Sources",
+          "prose": [
+            "This report draws on industry and company data from Prabhudas Lilladher, CareEdge Ratings/IMARC, Niveshaay, Mordor Intelligence, Grand View Research, IndexBox, Dataintelo, Straits Research, Expert Market Research, Fortune Business Insights, Market Research Future, Market.us, HDHMR.in, IMARC Group, EntrepreneurIndia, and BIS standards documentation."
+          ],
+          "key_numbers": [],
           "source_refs": [
             {
-              "label": "Prabhudas Lilladher",
+              "label": "Prabhudas Lilladher Woodpanel Sector Update",
               "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf"
             },
             {
@@ -189,36 +231,27 @@
             {
               "label": "Grand View Research India MDF Outlook",
               "url": "https://www.grandviewresearch.com/horizon/outlook/medium-density-fiberboard-market/india"
-            }
-          ]
-        },
-        {
-          "heading": "Value chain",
-          "prose": [
-            "MDF manufacturing starts with wood fibre supply. Timber makes up roughly 75% of raw-material cost, sourced domestically along with agricultural residues (bagasse, cotton stalks, rice husk), farm and social forestry wood, and recycled wood waste. Chemicals and resins make up the remaining 25% of raw-material cost, and wood chips alone account for 50-60% of total operating expenditure.",
-            "In manufacturing, wood fibre is compressed under heat and pressure with a resin binder using continuous press lines (technology from Siempelkamp and Dieffenbacher). Gross profit margins in manufacturing typically run 25-35%, with net margins of 10-15%.",
-            "Panels are then finished into laminated, pre-laminated, veneered or coated MDF for specific furniture and interior uses; these value-added grades command a 15-40% price premium over standard MDF. From there, product moves through wholesale distributors (8-15% markup) and retail dealers (15-25% markup) to furniture makers, carpenters and consumers.",
-            "A separate, competing import supply chain exists, bringing in MDF from mills in Thailand, Vietnam and China via ports such as Nhava Sheva (JNPT) and Chennai, through Indian importers, stockists and distributors. This channel is exposed to freight, currency and anti-dumping/QCO risk."
-          ],
-          "key_numbers": [
-            {
-              "label": "Timber share of raw-material cost",
-              "value": "~75%"
             },
             {
-              "label": "Wood chips share of OpEx",
-              "value": "50-60%"
+              "label": "Mordor Intelligence MDF Market",
+              "url": "https://www.mordorintelligence.com/industry-reports/medium-density-fiberboard-mdf-market"
             },
             {
-              "label": "Manufacturing gross margin",
-              "value": "25-35%"
+              "label": "Scribd MDF Industry Analysis",
+              "url": "https://www.scribd.com/document/935841939/Mdf-Industry-Analysis-1"
             },
             {
-              "label": "Value-added product premium",
-              "value": "15-40%"
-            }
-          ],
-          "source_refs": [
+              "label": "Niveshaay Indian MDF Industry",
+              "url": "https://niveshaay.com/blog/indian-mdf-industry/"
+            },
+            {
+              "label": "Market.us",
+              "url": "https://market.us/report/medium-density-fiberboard-market/"
+            },
+            {
+              "label": "IndexBox",
+              "url": "https://www.indexbox.io/store/india-medium-density-fiberboard-market-analysis-forecast-size-trends-and-insights/"
+            },
             {
               "label": "HDHMR / IMARC",
               "url": "https://www.hdhmr.in/blog/mdf-manufacturers-india/"
@@ -228,44 +261,8 @@
               "url": "https://www.imarcgroup.com/mdf-board-manufacturing-plant-project-report"
             },
             {
-              "label": "IndexBox",
-              "url": "https://www.indexbox.io/store/india-medium-density-fiberboard-market-analysis-forecast-size-trends-and-insights/"
-            },
-            {
-              "label": "IndexBox",
+              "label": "IndexBox (MDF market analysis)",
               "url": "https://www.indexbox.io/store/india-mdf-market-analysis-forecast-size-trends-and-insights/"
-            }
-          ]
-        },
-        {
-          "heading": "Distribution & channels",
-          "prose": [
-            "MDF reaches the market mainly through two tiers: authorised distributors, who take minimum orders of 50-100 sheets at an 8-15% markup over factory price, and retail dealers, who sell from a single sheet upward at a 15-25% markup.",
-            "Some manufacturers run their own branded retail presence: Action TESA operates more than 220 studios nationwide. Greenply has built a large distribution network of over 13,000 distributors, dealers, sub-dealers and retailers spanning 300+ cities and 45 branches across India.",
-            "E-commerce and direct-to-consumer furniture platforms are a growing channel: ready-to-assemble furniture sales lifted MDF consumption 21% in e-commerce, and Centuryply entered e-commerce through a 2020 partnership with Flipkart."
-          ],
-          "key_numbers": [
-            {
-              "label": "Authorised distributor markup",
-              "value": "8-15%"
-            },
-            {
-              "label": "Retail dealer markup",
-              "value": "15-25%"
-            },
-            {
-              "label": "Action TESA branded studios",
-              "value": "220+"
-            },
-            {
-              "label": "Greenply distribution network",
-              "value": "13,000+ distributors/dealers, 300+ cities"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "HDHMR / IMARC",
-              "url": "https://www.hdhmr.in/blog/mdf-manufacturers-india/"
             },
             {
               "label": "Fortune Business Insights",
@@ -274,224 +271,34 @@
             {
               "label": "Market Research Future",
               "url": "https://www.marketresearchfuture.com/reports/medium-density-fiberboards-market-10126"
-            }
-          ]
-        },
-        {
-          "heading": "Key players & positioning",
-          "prose": [
-            "Greenpanel Industries is India's largest MDF manufacturer, with about 26% organised market share and capacity expanded to 891,000 CBM across plants in Srikalahasti, Andhra Pradesh and Rudrapur, Uttarakhand. It was the first in India to adopt Continuous Press Line technology and carries a market cap of Rs 4,775 crore.",
-            "Action TESA (Balaji Action Buildwell) holds roughly 24% share and runs 750,000 CBM of annual capacity. It installed India's first 7th-generation Contiroll machine from German manufacturer Siempelkamp and operates 220+ branded studios.",
-            "Century Plyboards, with a market cap of Rs 14,180 crore, ranks among the top MDF producers and has doubled MDF capacity to 1,900 CBM/day at a new Andhra Pradesh plant that began commercial dispatches in April 2024; it exports to over 20 countries. Rushil Décor (VIR MDF), with a Rs 737 crore market cap, is investing Rs 504 crore in a new MDF unit in Koraput, Odisha, and has a footprint across 57+ countries.",
-            "Other organised Indian players include Greenply Industries (planning a new Rs 500 crore plant in Vadodara, Gujarat, by FY28), Sarda Plywood, Archidply, Shirdi Industries (Srichakra), Duroply, Shiva Texyarn, Mangalam Timber Products, E3 Group (550 CBM/day in Kashipur, Uttarakhand), Bajaj Eco-Tec Products and Nuchem. Globally, the category is led by Kronospan (28 facilities across 12 countries, 8 million+ CBM capacity), Arauco (~9% global share), Kastamonu Entegre, EGGER Group, Duratex and Swiss Krono Group; Adler Wood India launched a new thin-MDF line in Punjab in 2024."
-          ],
-          "key_numbers": [
-            {
-              "label": "Greenpanel market share",
-              "value": "~26%"
-            },
-            {
-              "label": "Greenpanel capacity",
-              "value": "891,000 CBM"
-            },
-            {
-              "label": "Action TESA capacity",
-              "value": "750,000 CBM"
-            },
-            {
-              "label": "Century Plyboards market cap",
-              "value": "Rs 14,180 crore"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "HDHMR / IMARC",
-              "url": "https://www.hdhmr.in/blog/mdf-manufacturers-india/"
-            },
-            {
-              "label": "Scribd MDF Industry Analysis",
-              "url": "https://www.scribd.com/document/935841939/Mdf-Industry-Analysis-1"
-            },
-            {
-              "label": "IndexBox",
-              "url": "https://www.indexbox.io/store/india-medium-density-fiberboard-market-analysis-forecast-size-trends-and-insights/"
-            },
-            {
-              "label": "IndexBox",
-              "url": "https://www.indexbox.io/store/india-mdf-market-analysis-forecast-size-trends-and-insights/"
             },
             {
               "label": "HDHMR.in top brands",
               "url": "https://www.hdhmr.in/blog/top-mdf-board-manufacturers-india-brands-2026/"
             },
             {
+              "label": "EntrepreneurIndia",
+              "url": "https://www.entrepreneurindia.co/project-details/medium-density-fiberboard-mdf-manufacturing-plant-detailed-project-report-profile-business-plan-industry-trends-market-research-survey-manufacturing-process-machinery-raw-materials-feasibility-study-investment-opportunities-cost-and-revenue"
+            },
+            {
+              "label": "law.resource.org - IS 12406:2003",
+              "url": "https://law.resource.org/pub/in/bis/S03/is.12406.2003.pdf"
+            },
+            {
               "label": "Dataintelo",
               "url": "https://dataintelo.com/report/global-medium-density-fiberboard-market"
-            }
-          ]
-        },
-        {
-          "heading": "Margins",
-          "prose": [
-            "Industry profitability has come under significant pressure. PBILDT margins for MDF players fell from historical highs of around 27-30% in FY21-22 to roughly 9.5-10.5% by FY25 and 9MFY26. This was driven by a surge of new domestic capacity added in FY24-25 that outpaced demand growth, combined with sharply higher timber costs.",
-            "At the manufacturing level, gross margins typically run 25-35% with net margins of 10-15%, before distribution markups of 8-15% (authorised distributors) and 15-25% (retail dealers) are added further down the chain."
-          ],
-          "key_numbers": [
-            {
-              "label": "PBILDT margin, FY21-22 peak",
-              "value": "~27-30%"
             },
             {
-              "label": "PBILDT margin, FY25/9MFY26",
-              "value": "~9.5-10.5%"
+              "label": "Straits Research",
+              "url": "https://straitsresearch.com/report/medium-density-fiberboard-market"
             },
             {
-              "label": "Manufacturing net margin",
-              "value": "10-15%"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "IMARC Group / CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf"
-            }
-          ]
-        },
-        {
-          "heading": "Supply & capacity",
-          "prose": [
-            "India's organised MDF capacity is concentrated among a handful of large producers: Greenpanel (891,000 CBM/year across Andhra Pradesh and Uttarakhand), Action TESA (750,000 CBM/year across multiple locations), Century Plyboards (550,000 CBM/year across Punjab and Andhra Pradesh), Rushil Décor/VIR (330,000 CBM/year across Karnataka and Andhra Pradesh), and E3 Group (200,000 CBM/year in Kashipur, Uttarakhand).",
-            "Industry-wide capacity utilisation stands at about 63%, reflecting the recent wave of capacity additions that has outpaced current demand. New MDF plants also require a 2-2.5 year gestation period to reach optimum capacity, meaning new supply takes time to be absorbed by the market."
-          ],
-          "key_numbers": [
-            {
-              "label": "Capacity utilisation",
-              "value": "~63%"
-            },
-            {
-              "label": "Greenpanel capacity",
-              "value": "891,000 CBM/year"
-            },
-            {
-              "label": "Action TESA capacity",
-              "value": "750,000 CBM/year"
-            },
-            {
-              "label": "Century Plyboards capacity",
-              "value": "550,000 CBM/year"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "IMARC Group / CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf"
-            }
-          ]
-        },
-        {
-          "heading": "Tailwinds vs headwinds",
-          "prose": [
-            "Several forces are supporting demand. India's furniture market grew 11% in USD terms in 2024, with forecasts for sustained 6% real growth in both 2025 and 2026. Falling home loan rates, now below 6.5%, have improved housing affordability and boosted furnishing demand. MDF's structural cost advantage remains intact, priced 50% cheaper than premium plywood and 25-30% cheaper than mid-range plywood. Domestic production capacity is projected to grow at a 20-25% CAGR through 2030, supporting self-sufficiency. Other drivers include the government's PMAY housing programme (targeting 20 million urban homes by 2030, each needing about 0.22 m³ of MDF), a fast-growing organised furniture sector, rising IKEA sourcing from India, shorter home-refurbishment cycles (down from 15-20 years to 7-8 years), and new BIS quality standards aligning Indian MDF with global buyer specifications.",
-            "Headwinds are also notable. Melamine-faced particleboard underprices MDF by about 25% in carcass applications, posing a substitution risk. Tightening formaldehyde-emission standards are raising compliance costs, disproportionately squeezing smaller, unorganised mills, whose margins can compress 10-18% versus 3-5% for large integrated producers. India has historically been a net importer of high-thickness, laminated and specialty MDF boards, exposing the market to import competition and currency/freight risk. Sharp input-cost inflation has also hit margins: chemicals and resins rose 70-80% in a six-month window on higher crude prices, and timber costs surged to unprecedented levels during FY24-25."
-          ],
-          "key_numbers": [
-            {
-              "label": "Furniture market growth (2024)",
-              "value": "+11% (USD terms)"
-            },
-            {
-              "label": "MDF price discount vs premium plywood",
-              "value": "50%"
-            },
-            {
-              "label": "Domestic capacity CAGR (2021-2030)",
-              "value": "20-25%"
-            },
-            {
-              "label": "Chemicals/resin cost rise",
-              "value": "70-80% in 6 months"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "Market.us",
-              "url": "https://market.us/report/medium-density-fiberboard-market/"
-            },
-            {
-              "label": "Niveshaay Indian MDF Industry",
-              "url": "https://niveshaay.com/blog/indian-mdf-industry/"
-            },
-            {
-              "label": "Scribd MDF Industry Analysis",
-              "url": "https://www.scribd.com/document/935841939/Mdf-Industry-Analysis-1"
-            },
-            {
-              "label": "Mordor Intelligence MDF Market",
-              "url": "https://www.mordorintelligence.com/industry-reports/medium-density-fiberboard-mdf-market"
-            },
-            {
-              "label": "IndexBox",
-              "url": "https://www.indexbox.io/store/india-medium-density-fiberboard-market-analysis-forecast-size-trends-and-insights/"
-            }
-          ]
-        },
-        {
-          "heading": "Outlook",
-          "prose": [
-            "India's MDF market is set to keep growing well ahead of the broader wood panel industry, with volumes expanding 15-20% a year versus 5-8% for plywood. Growth will continue to be driven by MDF's lower cost versus plywood, government housing programmes, a fast-growing organised furniture sector, shorter refurbishment cycles and improving quality standards that are curbing cheap imports.",
-            "The industry's long-term opportunity is substantial given India's low 20:80 MDF-to-plywood ratio versus 65-80:20-35 globally, with the sector targeting a 50:50 split by 2030. In the near term, however, margins are likely to stay compressed as new domestic capacity added in FY24-25 continues to outpace demand, and as elevated timber and resin costs persist. Imports should keep shrinking following the BIS Quality Control Order, which cut imports by more than 80% year-on-year in 9MFY26, with further restriction expected once BIS furniture norms take effect in February 2026."
-          ],
-          "key_numbers": [
-            {
-              "label": "Volume growth outlook",
-              "value": "15-20% a year"
-            },
-            {
-              "label": "Target MDF:plywood ratio",
-              "value": "50:50 by 2030"
-            },
-            {
-              "label": "Import decline",
-              "value": ">80% YoY (9MFY26)"
-            }
-          ],
-          "source_refs": [
-            {
-              "label": "IMARC Group / CareEdge Ratings",
-              "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf"
-            },
-            {
-              "label": "Niveshaay MDF Industry Analysis",
-              "url": "https://niveshaay.files.wordpress.com/2022/01/mdf-industry-analysis-1.pdf"
-            }
-          ]
-        },
-        {
-          "heading": "Sources",
-          "prose": [
-            "This report draws on industry and broker research including Prabhudas Lilladher, CareEdge Ratings/IMARC Group, Niveshaay, Mordor Intelligence, Grand View Research, IndexBox, Fortune Business Insights, Market Research Future, HDHMR.in, Dataintelo, Straits Research, Expert Market Research, Market.us and EntrepreneurIndia, among others listed below."
-          ],
-          "key_numbers": [],
-          "source_refs": [
-            {
-              "label": "Prabhudas Lilladher",
-              "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf"
+              "label": "Expert Market Research",
+              "url": "https://www.expertmarketresearch.com/reports/medium-density-fibreboard-market-report"
             },
             {
               "label": "IMARC Group / CareEdge Ratings",
               "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf"
-            },
-            {
-              "label": "Niveshaay MDF Industry Analysis",
-              "url": "https://niveshaay.files.wordpress.com/2022/01/mdf-industry-analysis-1.pdf"
-            },
-            {
-              "label": "Grand View Research India MDF Outlook",
-              "url": "https://www.grandviewresearch.com/horizon/outlook/medium-density-fiberboard-market/india"
-            },
-            {
-              "label": "Mordor Intelligence MDF Market",
-              "url": "https://www.mordorintelligence.com/industry-reports/medium-density-fiberboard-mdf-market"
             }
           ]
         }
@@ -501,9 +308,9 @@
   "highlights": [
     {
       "label": "India MDF market size",
-      "value": "50-60",
+      "value": "50",
       "unit": "Rs billion",
-      "year": 2025,
+      "year": 2023,
       "trend": "up",
       "series": [
         {
@@ -516,56 +323,97 @@
         },
         {
           "year": 2025,
-          "value": 55
+          "value": 60
         }
       ],
-      "note": "Multiple industry estimates (CareEdge, Prabhudas Lilladher) put the India MDF market at Rs 50-60 billion as of FY23-26, versus Rs 30bn in 2021",
+      "note": "Prabhudas Lilladher/CareEdge estimate; separate IMARC estimate puts 2025/2026 size at USD 1.4-1.5bn",
       "source": {
-        "label": "CareEdge Ratings",
-        "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
-        "snippet": "demand for MDF in India is growing at a compounded annual growth rate (CAGR) of over 10%"
+        "label": "Prabhudas Lilladher",
+        "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf",
+        "snippet": "India's MDF industry valued at ~Rs50bn is growing at faster pace against others"
       }
     },
     {
-      "label": "Global MDF market size (for context)",
-      "value": "33.6-47.4",
+      "label": "Global market size",
+      "value": "44.9",
       "unit": "USD billion",
       "year": 2025,
       "trend": "up",
       "source": {
-        "label": "Expert Market Research / Market.us",
-        "url": "https://www.expertmarketresearch.com/reports/medium-density-fibreboard-market-report",
-        "snippet": "In 2025, the market reached an approximate value of USD 33.60 Billion."
+        "label": "Grand View Research",
+        "url": "https://www.grandviewresearch.com/industry-analysis/medium-density-fiberboard-market",
+        "snippet": "global medium density fiberboard market size was valued at USD 44.9 billion in 2025"
       }
     },
     {
       "label": "India MDF:Plywood consumption ratio",
       "value": "20:80",
-      "unit": "ratio (MDF:Plywood)",
+      "year": 2021,
+      "trend": "up",
+      "note": "Expected to improve to 50:50 by 2030 as MDF substitutes plywood; globally the ratio favours MDF at ~65:35-80:20",
+      "source": {
+        "label": "Scribd/Niveshaay MDF Industry Analysis",
+        "url": "https://www.scribd.com/document/935841939/Mdf-Industry-Analysis-1",
+        "snippet": "the MDF : Plywood ratio in India will improve to 50:50 by 2030"
+      }
+    },
+    {
+      "label": "MDF share of India wood-panel industry (by value)",
+      "value": "20",
+      "unit": "%",
       "year": 2023,
       "trend": "up",
-      "note": "Global ratio is roughly 65:35 to 80:20 in favour of MDF; India's ratio is reversed but expected to reach 50:50 by 2030",
+      "series": [
+        {
+          "year": 2017,
+          "value": 10
+        },
+        {
+          "year": 2023,
+          "value": 20
+        }
+      ],
+      "note": "Expected to reach 50% by 2030",
       "source": {
         "label": "Prabhudas Lilladher",
         "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf",
-        "snippet": "in India it is ~20:80 expected to become 50:50 soon"
+        "snippet": "The MDF share in India has increased from 10% 5-6 years back to 20% currently, which is further expected to increase to 50% by 2030"
       }
     },
     {
-      "label": "Top 4 players' share of installed MDF capacity",
-      "value": "~70",
+      "label": "Top-4 listed players MDF capacity utilisation",
+      "value": "63-66",
       "unit": "%",
-      "year": 2023,
-      "trend": "flat",
+      "year": 2025,
+      "trend": "down",
+      "series": [
+        {
+          "year": 2022,
+          "value": 78
+        },
+        {
+          "year": 2023,
+          "value": 72
+        },
+        {
+          "year": 2024,
+          "value": 72
+        },
+        {
+          "year": 2025,
+          "value": 65
+        }
+      ],
+      "note": "Declined from ~80% (FY22) amid a wave of new capacity additions",
       "source": {
-        "label": "IMARC Group",
-        "url": "https://www.imarcgroup.com/india-medium-density-fiberboard-market",
-        "snippet": "the top four players, who together control nearly 70% of existing MDF capacity"
+        "label": "CareEdge Ratings",
+        "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
+        "snippet": "utilisation levels have declined from ~80% in FY22 to ~66% in FY25"
       }
     },
     {
-      "label": "MDF industry EBITDA/PBILDT margin",
-      "value": "10",
+      "label": "MDF industry PBILDT margin",
+      "value": "9.5-10.5",
       "unit": "%",
       "year": 2025,
       "trend": "down",
@@ -591,19 +439,20 @@
           "value": 10.5
         }
       ],
-      "note": "Margins compressed sharply from FY22 peak as new capacity flooded the market and imports rose before BIS certification took effect",
+      "note": "Compressed sharply from FY22 highs amid oversupply and rising timber costs",
       "source": {
         "label": "CareEdge Ratings",
         "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
-        "snippet": "Operating margins in the MDF industry began moderating since FY24 after a period of elevated profitability"
+        "snippet": "FY23 | 30100 | 26.5 | FY24 | 28800 | 17.5 | FY25 | 28000 | 10.5"
       }
     },
     {
-      "label": "MDF imports decline post-BIS certification",
+      "label": "Decline in MDF imports post-BIS order",
       "value": "80",
-      "unit": "% decline (9MFY26 y/y)",
+      "unit": "% YoY decline",
       "year": 2026,
       "trend": "down",
+      "note": "9MFY26 vs year-ago period, following mandatory BIS certification effective Feb 2025",
       "source": {
         "label": "CareEdge Ratings",
         "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
@@ -611,75 +460,37 @@
       }
     },
     {
-      "label": "Average MDF realisation (India)",
-      "value": "28,500",
-      "unit": "Rs per CBM",
+      "label": "Top 4 listed players MDF capacity",
+      "value": "2,150",
+      "unit": "'000 CBM",
       "year": 2026,
       "trend": "up",
       "series": [
         {
           "year": 2021,
-          "value": 21500
-        },
-        {
-          "year": 2022,
-          "value": 27300
-        },
-        {
-          "year": 2023,
-          "value": 30100
-        },
-        {
-          "year": 2024,
-          "value": 28800
+          "value": 830
         },
         {
           "year": 2026,
-          "value": 28500
+          "value": 2150
         }
       ],
+      "note": "9MFY26, a ~2.6x increase from FY21",
       "source": {
         "label": "CareEdge Ratings",
         "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
-        "snippet": "Average realisation was Rs 21,500 per CBM in FY21 and reached Rs 28,500 per CBM in 9MFY26"
-      }
-    },
-    {
-      "label": "Installed MDF capacity (India)",
-      "value": "3,240",
-      "unit": "thousand CBM",
-      "year": 2025,
-      "trend": "up",
-      "series": [
-        {
-          "year": 2015,
-          "value": 590
-        },
-        {
-          "year": 2022,
-          "value": 1710
-        },
-        {
-          "year": 2025,
-          "value": 3240
-        }
-      ],
-      "note": "Installed capacity has grown roughly 5.5x in a decade, driving the recent oversupply and margin pressure",
-      "source": {
-        "label": "CareEdge Ratings",
-        "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
-        "snippet": "2015 | 590 | 2022 | 1710 | 2025 | 3240"
+        "snippet": "FY21 | 830 | 71 ... 9MFY26 | 2150 | 63"
       }
     }
   ],
   "size": {
     "current": {
-      "value": 60,
+      "value": 50,
       "unit": "Rs billion",
-      "year": 2025
+      "year": 2023
     },
     "cagr_pct": 19,
-    "cagr_note": "FY21-25E CAGR per broker estimate; separate industry sources cite 15-20% volume CAGR through FY26-30",
+    "cagr_note": "Indian MDF market expected to reach Rs 60bn by FY25 at 19% CAGR over FY21-25E (Prabhudas Lilladher); IMARC separately projects ~7.24% USD-value CAGR 2026-2034 off a USD 1.4-1.5bn base",
     "history": [
       {
         "year": 2021,
@@ -695,7 +506,7 @@
       }
     ],
     "source": {
-      "label": "Prabhudas Lilladher",
+      "label": "Prabhudas Lilladher Woodpanel Sector Update",
       "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf",
       "snippet": "Indian MDF market expected to reach Rs 60bn by FY25 at 19% CAGR over FY21-25E"
     }
@@ -1356,83 +1167,90 @@
   "quant": {
     "capacity": [
       {
+        "player": "Top-4 listed MDF players (aggregate)",
+        "region": "India",
+        "capacity": 2150,
+        "unit": "'000 CBM",
+        "year": 2026
+      },
+      {
+        "player": "Top-4 listed MDF players (aggregate)",
+        "region": "India",
+        "capacity": 830,
+        "unit": "'000 CBM",
+        "year": 2021
+      },
+      {
         "player": "Greenpanel Industries",
-        "region": "Andhra Pradesh + Uttarakhand",
-        "capacity": 891000,
-        "unit": "CBM/year",
+        "region": "Uttarakhand + Andhra Pradesh",
+        "capacity": 891,
+        "unit": "'000 CBM",
         "year": 2025
       },
       {
         "player": "Action TESA",
-        "region": "Multiple India locations",
-        "capacity": 750000,
-        "unit": "CBM/year",
+        "region": "Multiple locations, India",
+        "capacity": 750,
+        "unit": "'000 CBM",
         "year": 2025
       },
       {
         "player": "Century Plyboards",
         "region": "Punjab + Andhra Pradesh",
-        "capacity": 550000,
-        "unit": "CBM/year",
+        "capacity": 550,
+        "unit": "'000 CBM",
         "year": 2025
       },
       {
         "player": "Rushil Décor (VIR)",
         "region": "Karnataka + Andhra Pradesh",
-        "capacity": 330000,
-        "unit": "CBM/year",
-        "year": 2025
-      },
-      {
-        "player": "E3 Group",
-        "region": "Kashipur, Uttarakhand",
-        "capacity": 200000,
-        "unit": "CBM/year",
+        "capacity": 330,
+        "unit": "'000 CBM",
         "year": 2025
       }
     ],
-    "utilisation_pct": 63,
+    "utilisation_pct": 65,
     "imports": [
       {
         "year": 2021,
         "volume": 112,
-        "unit": "thousand CBM"
+        "unit": "'000 CBM"
       },
       {
         "year": 2022,
         "volume": 80,
-        "unit": "thousand CBM"
+        "unit": "'000 CBM"
       },
       {
         "year": 2023,
         "volume": 187,
-        "unit": "thousand CBM"
+        "unit": "'000 CBM"
       },
       {
         "year": 2024,
         "volume": 326,
-        "unit": "thousand CBM"
+        "unit": "'000 CBM"
       },
       {
         "year": 2025,
         "volume": 201,
-        "unit": "thousand CBM"
+        "unit": "'000 CBM"
       }
     ],
     "duty": [
       {
-        "country": "China, Malaysia, Thailand, Indonesia, Vietnam, Sri Lanka",
-        "note": "Anti-dumping duty imposed historically on plain MDF boards of thickness 6mm and above to protect domestic producers"
+        "country": "China, Malaysia, Thailand, Sri Lanka, Vietnam, Indonesia",
+        "note": "India has imposed/reviewed anti-dumping duty on plain MDF boards of thickness 6mm and above (and separately below 6mm in some rulings) from these countries to protect domestic producers"
       },
       {
-        "country": "India",
-        "note": "Mandatory BIS Quality Control Order (QCO) for MDF effective 11 February 2025, which cut imports by over 80% YoY in 9MFY26 and is expected to further restrict large-scale imports once BIS furniture norms take effect from February 2026"
+        "country": "India (domestic)",
+        "note": "Mandatory BIS certification under the Wood Based Boards (Quality Control) Order took effect 11 February 2025, which cut MDF imports by over 80% YoY in 9MFY26"
       }
     ],
     "source": {
       "label": "CareEdge Ratings",
       "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
-      "snippet": "FY21 | 112 | FY22 | 80 | FY23 | 187 | FY24 | 326 | FY25 | 201 | 9MFY25 | 143 | 9MFY26 | 27"
+      "snippet": "Mandatory BIS certification, effective February 2025, raised entry barriers for imported MDF"
     }
   },
   "sources": {
@@ -1441,31 +1259,25 @@
         "title": "Why India is Shifting from Plywood to MDF | Wood Panel Sector Analysis",
         "channel": "Markets by Zerodha Hindi",
         "url": "https://www.youtube.com/watch?v=Pr9cQNcVCxQ",
-        "why_relevant": "Explains the structural shift from plywood to MDF in India, the key industry dynamic driving this market's growth",
+        "why_relevant": "Explains why MDF is substituting plywood in India and the sector's competitive and market dynamics",
         "thumbnail": "https://img.youtube.com/vi/Pr9cQNcVCxQ/hqdefault.jpg"
       },
       {
-        "title": "What is MDF Board? | MDF Price | MDF Uses | Full Information in Hindi",
+        "title": "What is MDF Board ? | MDF Price | MDF Uses | Full Information in Hindi",
         "url": "https://www.youtube.com/watch?v=scnojeTvI6U",
-        "why_relevant": "Consumer-facing explainer on MDF pricing, uses and comparison with other board types relevant to the Indian retail market",
+        "why_relevant": "Consumer-facing explainer on MDF pricing and uses relevant to the Indian retail buyer",
         "thumbnail": "https://img.youtube.com/vi/scnojeTvI6U/hqdefault.jpg"
       },
       {
         "title": "MDF Explained: Everything You Need to Know About Medium-Density Fibreboard",
         "url": "https://www.youtube.com/watch?v=1x68miGYjDY",
-        "why_relevant": "Overview of what MDF is, its composition and properties versus substitutes like plywood and particleboard",
+        "why_relevant": "Overview of MDF as a product category, its properties and how it compares with alternatives like plywood and solid wood",
         "thumbnail": "https://img.youtube.com/vi/1x68miGYjDY/hqdefault.jpg"
-      },
-      {
-        "title": "How Are MDF Boards Made?",
-        "url": "https://www.youtube.com/watch?v=0M49S21QjPY",
-        "why_relevant": "How-it's-made factory overview of the MDF manufacturing process",
-        "thumbnail": "https://img.youtube.com/vi/0M49S21QjPY/hqdefault.jpg"
       },
       {
         "title": "MDF Explained",
         "url": "https://www.youtube.com/watch?v=EjQEu7YDju8",
-        "why_relevant": "General industry primer on MDF characteristics and applications",
+        "why_relevant": "General primer on what MDF is and where it fits versus substitute wood panel products",
         "thumbnail": "https://img.youtube.com/vi/EjQEu7YDju8/hqdefault.jpg"
       },
       {
@@ -1475,61 +1287,92 @@
         "thumbnail": "https://img.youtube.com/vi/ZVDak5Zbgz4/hqdefault.jpg"
       },
       {
+        "title": "MDF Boards | Particle Boards | Asis India - YouTube",
+        "url": "https://www.youtube.com/watch?v=t8X52hJXZ0k",
+        "why_relevant": "Medium Density Fiberboard, MDF is a comparatively new entrant in the wood panel industry. Made of wood and other lignocelluloses materials, MDF boards are th...",
+        "thumbnail": "https://img.youtube.com/vi/t8X52hJXZ0k/hqdefault.jpg"
+      },
+      {
         "title": "How MDF Boards Are Made in Industry | Full Manufacturing Process - YouTube",
         "url": "https://www.youtube.com/watch?v=_VR1BTQuy3A",
         "why_relevant": "Medium Density Fiberboard (MDF) is one of the most widely used engineered wood products in modern construction and furniture industries. In this video, we ta...",
         "thumbnail": "https://img.youtube.com/vi/_VR1BTQuy3A/hqdefault.jpg"
       },
       {
-        "title": "MDF Board kya hota hai? | What is MDF Board, its uses, Price, Screw capacity, Water Resistant - YouTube",
-        "url": "https://www.youtube.com/watch?v=-Y6pEGXnRZg",
-        "why_relevant": "For Interior Consultancy WhatsApp on - https://wa.me/7217804220Instagram - https://www.instagram.com/ghar.guruji/In this video, we will learn about MDF Boar",
-        "thumbnail": "https://img.youtube.com/vi/-Y6pEGXnRZg/hqdefault.jpg"
+        "title": "How Are MDF Boards Made?",
+        "url": "https://www.youtube.com/watch?v=0M49S21QjPY",
+        "why_relevant": "How-it's-made factory overview of the MDF manufacturing process",
+        "thumbnail": "https://img.youtube.com/vi/0M49S21QjPY/hqdefault.jpg"
       }
     ],
     "reports": [
       {
         "title": "Growth to Sustain, Margins May Moderate by 400-500 bps",
         "publisher": "CareEdge Ratings",
-        "date": "2023-02",
         "url": "https://www.careratings.com/uploads/newsfiles/24022023122649_Medium_Density_Fibreboard_CareEdge_Report.pdf",
         "type": "other",
-        "summary": "Rating agency sector report on India's MDF industry covering demand growth, import dynamics, capacity additions and margin outlook"
+        "summary": "Earlier CareEdge report on India's MDF demand growth (~15% CAGR) and anticipated margin moderation from FY22 peaks."
       },
       {
-        "title": "Indian MDF sector - Margins to Remain Benign at ~10% in FY27",
+        "title": "MDF Sector: Margins to Remain Benign at ~10% in FY27",
         "publisher": "CareEdge Ratings",
         "url": "https://www.careratings.com/uploads/newsfiles/1776236339_Indian%20MDF%20sector.pdf",
         "type": "other",
-        "summary": "Updated rating agency outlook on India's MDF sector covering capacity, utilisation, imports post-BIS certification, and margin trajectory through FY27"
+        "summary": "Analyses India's MDF capacity expansion, falling utilisation, BIS-driven import decline and margin compression, projecting benign ~10% margins through FY27."
       },
       {
-        "title": "Woodpanel Sector Update - Challenging time, carving growth",
+        "title": "Sector Report: Woodpanel - Challenging time, carving growth",
         "publisher": "Prabhudas Lilladher",
-        "date": "2023-07",
         "url": "https://images.assettype.com/bloombergquint/2023-07/0fd30220-a9a9-4d3a-bd76-663281d6a5dd/Prabhudas_Lilladher_Woodpanel_Sector_Update.pdf",
         "type": "broker",
-        "summary": "Detailed broker initiation report on India's wood panel sector covering MDF, plywood, laminates and particle board, with company-level financials, capacity and market share data for Century Plyboards…"
+        "summary": "Initiates coverage on Century Plyboards and Greenpanel with detailed India wood-panel/MDF market sizing, segment shares, capacity and margin analysis."
       },
       {
-        "title": "Greenpanel MDF Catalogue / Company Profile",
+        "title": "MDF India's No.1 MDF Company - MDF Range Catalogue",
         "publisher": "Greenpanel Industries",
         "url": "https://greenpanel.com/pdf/Greenpanel-MDF_Catalogue.pdf",
         "type": "other",
-        "summary": "Company profile and product catalogue detailing Greenpanel's capacity, certifications, and position as India's largest MDF manufacturer"
+        "summary": "Company catalogue detailing Greenpanel's MDF product range, capacity history, certifications and market positioning."
+      },
+      {
+        "title": "One Day Workshop On Assessment on Demand and Supply of Timber in India",
+        "publisher": "ICFRE (Government)",
+        "url": "https://english.icfre.gov.in/pdf/bulletin_board/bulletin103.pdf",
+        "type": "government",
+        "summary": "Government bulletin on India's wood/timber demand-supply balance, including the plywood/particleboard/MDF panel industry's raw material dependence."
       },
       {
         "title": "India Medium Density Fiberboard Market Size Report 2026-2034",
         "publisher": "IMARC Group",
         "url": "https://www.imarcgroup.com/india-medium-density-fiberboard-market",
         "type": "industry",
-        "summary": "Market sizing and forecast report for India's MDF market with historical capacity growth data and CAGR projections"
+        "summary": "India MDF market sizing, historical capacity growth and forecast to 2034 with drivers and BIS regulatory impact."
+      },
+      {
+        "title": "Century Plyboards (India) Ltd. Brokerage/Research Reports",
+        "publisher": "Trendlyne",
+        "url": "https://trendlyne.com/research-reports/stock/252/CENTURYPLY/century-plyboards-india-ltd/",
+        "type": "broker",
+        "summary": "Aggregated sell-side analyst notes tracking Century Plyboards' plywood/MDF/laminates performance and capacity expansions."
+      },
+      {
+        "title": "INITIATING COVERAGE REPORT",
+        "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/ffa44352_ADF%20Foods%20Ltd.-%20Initiating%20Coverage%20-%20Feb.2024_27Feb2024110315.pdf",
+        "type": "broker",
+        "summary": "INITIATING COVERAGE REPORT · The company has launched a number of products in FY23 & FY24 and the same have gain traction during"
       },
       {
         "title": "MDF Board Manufacturing Plant Cost, Setup, DPR 2026",
+        "publisher": "IMARC Group",
         "url": "https://www.imarcgroup.com/mdf-board-manufacturing-plant-project-report",
         "type": "industry",
-        "summary": "The expansion strengthens Homanit's ... locally. January 2025: The Indian government implemented Quality Control Orders (QCO) for plywood and MDF boards, receiving industry acceptance for enhancing p…"
+        "summary": "Project-report style breakdown of MDF plant capex, opex structure, margins and capacity economics relevant to India."
+      },
+      {
+        "title": "Initiating Coverage Crisil Ltd.",
+        "url": "https://www.hdfcsec.com/hsl.research.pdf/Crisil%20-%20Initiating%20Coverage%20-%20310322.pdf",
+        "type": "broker",
+        "summary": "HDFC Securities offers online trading account for stocks, IPOs, mutual funds, margin trading and more. Open a trading account today and start investing Now!"
       },
       {
         "title": "Medium-Density Fiberboard Market Size, Analysis 2035",
@@ -1542,248 +1385,223 @@
         "url": "https://simplehai.axisdirect.in/images/2024/Gravita-India-Ltd---Initiating-Coverage---25092024-2.pdf",
         "type": "broker",
         "summary": "Capitalizing on the Recycling Revolution · We are initiating coverage on Gravita India Ltd. (Gravita) with a BUY recommendation and a"
-      },
-      {
-        "title": "MDF Board Manufacturing Plant Setup in India",
-        "publisher": "IMARC Group",
-        "url": "https://www.imarcgroup.com/insight/mdf-board-manufacturing-plant-setup-cost-india",
-        "type": "industry",
-        "summary": "Detailed cost breakdown, capex/opex structure, margins and setup considerations for an MDF manufacturing plant in India, including impact of BIS certification on imports"
-      },
-      {
-        "title": "Broker & Analyst Research Reports - Daily Market Insights | GoIndiaStocks",
-        "url": "https://www.goindiastocks.com/brokerReport",
-        "type": "broker",
-        "summary": "Access the latest analyst and broker research reports from top brokerage houses. Get expert insights and recommendations to guide your investment strategy."
-      },
-      {
-        "title": "Initiating Coverage Crisil Ltd.",
-        "url": "https://www.hdfcsec.com/hsl.research.pdf/Crisil%20-%20Initiating%20Coverage%20-%20310322.pdf",
-        "type": "broker",
-        "summary": "HDFC Securities offers online trading account for stocks, IPOs, mutual funds, margin trading and more. Open a trading account today and start investing Now!"
-      },
-      {
-        "title": "Indian MDF Industry - Niveshaay - WordPress.com",
-        "url": "https://niveshaay.wordpress.com/2022/01/17/indian-mdf-industry/",
-        "type": "other",
-        "summary": "THIS REPORT COVERS WHY MDF INDUSTRY?INDIAN FURNITURE INDUSTRYABOUT MEDIUM DENSITY FIBER BOARD (MDF)MDF VS PLYWOODEXISTING PRODUCTION CAPACITIES & PROPOSED CAPEX OF TOP ORGANIZED PLAYERSCONCLUSI…"
       }
     ],
     "news": [
       {
-        "title": "Century Plyboards expects to surpass FY27 guidance, targets over 20% CAGR: Keshav Bhajanka - Fortune India",
-        "publisher": "Fortune India",
-        "date": "Sun, 08 Nov 2026 04:44:25 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXy10RlNqWGNkdncwcEh6R2E0aEtMVmV4dlBnU2d5MjBLd3NrWjJyZHhlWHdGTE4yWTBPZm9EcEwyWk1KOG1yMENTcXYyazdJSzBZSzR4Y2dhMWRsS05LQkVyeU9aZHdLLTdOUnNacnV4a3EzRDhtc281bnlqendzS0pEX29XTmktb1V6eVJVS3FKR09ZT1lnbXhkbGZ1MzE3RU0wMTV4dWxxSUZBMS1Dd0szZzhjTlgyOGc2WHA2Z0swT2d3aGl0SkRadk5fU0Q4ejZJ0gHgAUFVX3lxTFBiVzVMRHZSZ0o0cXFWb19xbVpreVZrVUFJX3duVGlJREVjb2I0cXdKVm5uaEl0eVZ5VGM2SWFWeVBjbGN2bmwyMFRqNG5TU2pGbVpMX0RqZjFNUjZ4SWdBMktsTU1Cck5SQnJQUEZuNDhoUE8yRGlKZkhSNlJnQW5EdDkwWkl2d2RiVTJFODJYRjRHV29ER2d0R2JwRlMzTkhzZkw4SUJUcE9WdXdob3F4T0NmbU1pMlhmamhwR3FoVjVJektPVjJwajRJMXR5emJMLTdpc2E5ZHlVRGdEdlpD?oc=5",
-        "snippet": "Century Plyboards expects to surpass FY27 guidance, targets over 20% CAGR: Keshav Bhajanka &nbsp;&nbsp; Fortune India"
+        "title": "The three tests for India’s corporate boards in 2026: Geopolitics, AI and family feuds",
+        "publisher": "",
+        "date": "October 5, 2026",
+        "url": "https://theprint.in/opinion/the-three-tests-for-indias-corporate-boards-in-2026-geopolitics-ai-and-family-feuds/3061778",
+        "snippet": "From airline crises to family feuds, boardroom turbulence highlights the pressing need for proactive governance and strategic oversight."
       },
       {
-        "title": "Rushil Decor posts record Q2 revenue as profit rises 96.6% - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Sat, 07 Nov 2026 11:22:01 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY0hBQnFnVW9jVHBMMHg2UEc4NTFUamo0dXUzanhSMmY2TXJMVjVCREZXSHI0cmxrbXdsVndFZm5ZS0M4R0lfeGJjellGQ0gxek5pa3RxNEJTUEEzeFdzVW5NOERkX05XRDdydnU3YVU0Y0RvcEstVFo4RktWOXRlUTYxdERiYS1ya1BLM3ZhREN2bHVnSEM3ajRwTlFqNVVVeXlnMUt0T3ZtcVpsQTBhYw?oc=5",
-        "snippet": "Rushil Decor posts record Q2 revenue as profit rises 96.6% &nbsp;&nbsp; Multibagg AI"
+        "title": "MDF Board Price in India – 2026 Rates & Options",
+        "publisher": "",
+        "date": "October 3, 2026",
+        "url": "https://e3groupindia.com/mdf-board-price-in-india/",
+        "snippet": "Check the latest MDF board price in India and explore the best for your furniture & interior applications. Compare brands, features, density, finishes. etc."
       },
       {
-        "title": "Rushil Decor Posts Record Q2 Revenue of Rs 295.3 Crore - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Sat, 07 Nov 2026 11:21:48 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVkkxZ0FnUzBwbndmbWNTc3FXdmhjbFp5S0R1QVVWSkJvX05RTlZkb0hLQ0xBcnU2SFpGYTRoYlZkTnNWSU9aWmtTMlBnVWN0UUR6Rkt6RWNpQ3hyRkttcGNKOVpieG9yT3lKZTlJWHVRUVQ4aHM5VUlTVTN2S20yT1phOEtObGhJeE5KUl84VUV4dHlCN2dqbmFFRlNZVVBZc1d2Sldn?oc=5",
-        "snippet": "Rushil Decor Posts Record Q2 Revenue of Rs 295.3 Crore &nbsp;&nbsp; Multibagg AI"
+        "title": "HDFC Bank names Anup Bagchi as its new MD and CEO- Moneycontrol.com",
+        "publisher": "",
+        "date": "October 1, 2026",
+        "url": "https://moneycontrol.com/news/business/banks/hdfc-bank-appoints-anup-bagchi-as-its-new-md-and-ceo-14042973.html",
+        "snippet": "The development ends days of speculation over succession at India's largest private lender."
       },
       {
-        "title": "Rushil Decor expands jumbo-laminate exports to 63 countries - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Sat, 07 Nov 2026 11:21:49 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY0l1NUV3WFd3SnFzekJpQ2lSc3ZraVNZNW1qSjRYUW0tN1pnSUNfMkR1OTd5Sm9rN3hzZEtkaTlma3dUWmRFT2dvQW96cVZVRVFpX2ZWVXN5QnhFNkN0bk9oZ3VKNDZDbTN3QTVpaEhCVU1wX3liN1FOdUFOS21KbEVhaTN5NXFPdEVIcVFMZFdnWDQ3bzc0TTlzUmdnNjVLY0dvS2x2dzhMR3Fpd1ZCTFE3R0xBTGM?oc=5",
-        "snippet": "Rushil Decor expands jumbo-laminate exports to 63 countries &nbsp;&nbsp; Multibagg AI"
+        "title": "Century Plyboards defers MDF plant amid capacity glut | Market News & Analysis",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://www.multibagg.ai/market-pulse/articles/century-plyboards-defers-mdf-plant-timeline-concall-cmw67dcyo00bi2bnx1j5ibimc",
+        "snippet": "Made with 💙 in India. © Finsky Technologies Pvt Ltd. 2026 ... Century Plyboards has no firm commissioning date for its Uttar Pradesh MDF plant."
       },
       {
-        "title": "What Investors Got Wrong About Greenpanel Industries Before The Drop - Simply Wall St",
-        "publisher": "Simply Wall St",
-        "date": "Sat, 07 Nov 2026 08:37:14 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbTZUOFg4V01YTWo1RXZzc2Rka2VXRHJhTERMQ0FYYkFncm9rNDNjek5sVmdVNXNGWWp3RVk3MWRzWFhTZmoyczVGS2RMOWRINHotTG10RW5zdDljRjZneGxRVzVqODlXVFhiQVRBNG5ocE9Hb0Z4c1Y0bGs2Mko5U1l1dTJlWko5MWNYNy03bXp2VlZmWkdPR2M4ZlRXXy02cWNNMGR2MjRCLS03cWRSbmFqU0g1enVyRFA1QzlfX2JOWEFMdmVzU1dpeDVtMmRiMm04T0lDNVdiVHkycWgxQlFGR0VneXNiSGfSAeoBQVVfeXFMTW02VDhYOFdNWE1qNUV2c3NkZGtlV0RyYUxETENBWGJBZ3JvazQzY3pObFZnVTVzRllqd0VZNzFkc1hYU2ZqMnM1RktkTDlkSDR6LUxtdEVuc3Q5Y0Y2Z3hsUVc1ajg5V1RYYkFUQTRuaHBPR29GeHNWNGxrNjJKOVNZdXUyZVpKOTFjWDctN216dlZWZlpHT0djOGZUV18tNnFjTTBkdjI0Qi0tN3FkUm5halNINXp1ckRQNUM5X19iTlhBTHZlc1NXaXg1bTJkYjJtOE9JQzVXYlR5MnFoMUJRRkdFZ3lzYkhn?oc=5",
-        "snippet": "What Investors Got Wrong About Greenpanel Industries Before The Drop &nbsp;&nbsp; Simply Wall St"
+        "title": "Greenply Industries Limited retains 15%-16% MDF margin target | Market News & Analysis",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://www.multibagg.ai/market-pulse/articles/greenply-mdf-margin-price-rollback-concall-cmw34jxpb00572gta72myidbs",
+        "snippet": "Greenply retained its FY27 MDF margin target of 15%-16% after rolling back price hikes, while chemical costs remained 7%-8% higher in Q2."
       },
       {
-        "title": "Century Plyboards defers MDF plant amid capacity glut - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Sat, 07 Nov 2026 09:30:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFdxamVmNG5kbnJKeHBidl8tQmxSWXNwQlpwSk9VaXNwY2hTWWhCMWpEbG5JMlhVOTdUWXRNRVRHU2gxTDJlTWNBZEMycUxFRUQ4WUNtM2FJb1NfRk56TGdZemxYMWJ6YVJlSExlZDMwUUxFUGxPZXA0X3hwNjFDOFhLRWpXcGU5Q0N1N0gtWFlvUTNCa0ZMdjZONmFNQk1KbXd6YUVlUDdBTzZTUVB6SnVBV21tMjBPQTJCTVVKWWpaQQ?oc=5",
-        "snippet": "Century Plyboards defers MDF plant amid capacity glut &nbsp;&nbsp; Multibagg AI"
+        "title": "MDF Board Plant Setup Cost: Manufacturing Feasibility Study, Business Plan & Financial Model",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://openpr.com/news/4681709/mdf-board-plant-setup-cost-manufacturing-feasibility-study",
+        "snippet": "Setting up an MDF board manufacturing plant in 2026 requires clarity on a few core variables wood fiber sourcing resin supply board grades and thickness range production capacity capital investment operating cost structure and profitability under prevailing market conditions This ..."
       },
       {
-        "title": "Century Plyboards reports 46% Q2 FY27 profit growth - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Sat, 07 Nov 2026 09:30:21 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdDkwU1NrN0pDX3Z1a2w5UjNCNVI4YVdLekMxSWh0ZzlMb2VDSVdLR3pkMXhJLVV1V0U4YXFIaDF3dmJSNm51NUdKMUVkZnJLUC1wQjRQNWJIUHZQSFh3QWZ2ZU5ESDNNUFlyVUlHeHlpT0FHR2tyanRYNWpwaGJNRWFLRjNhSmE1M0tlOVhCWnI4YmFfaGRyYVd6SjU5aGVHZVdSN3FXbEt0WE0?oc=5",
-        "snippet": "Century Plyboards reports 46% Q2 FY27 profit growth &nbsp;&nbsp; Multibagg AI"
+        "title": "India vs New Zealand match called off; IND wins by 4 runs on DLS method and take 2-0 lead | Cricket News - The Indian Express",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://indianexpress.com/article/sports/cricket/ind-vs-nz-2nd-odi-match-live-score-india-vs-new-zealand-2026-match-today-virat-kohli-mitchell-santner-wellington-10953964/",
+        "snippet": "While Shreyas Iyer was the top scorer with 30 runs, KL Rahul remained unbeaten at 26 before the rain had its say in the match. Follow the live score and scorecard of the IND vs NZ 2nd ODI on The Indian Express' blog"
       },
       {
-        "title": "Century Plyboards (India) Limited Beat Revenue Forecasts By 5.2%: Here's What Analysts Are Forecasting Next - Simply Wall St",
-        "publisher": "Simply Wall St",
-        "date": "Sat, 07 Nov 2026 03:31:52 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONDlLVm9vbC0yUm14MXhrdXVVSkpVQVBfM2xCcThzRHE0WWtGaWwxbkJncnVBWVI0ZFVYb0U2TER6NjRucGxvTkJlODFuT0ZKdkpsOC1wRndvSnA3cVdTZUptVnRFb2FIMWZBUnFELW00QkRld2ZFelk3el9TSWIwaUtNRDRVNXZ6djQycnZHSzFzUTRoZUtyUnkzMmlHZDl3WnloeElISFpxNzlUT3pIbWFKVFR0UE4zczdDR0dRaFVJUU0wVVUwWXZaQ3p4UW5FREpNUVJyVGtycWVUOE9uREEtVmhhX3NJbmZuRDJR0gHuAUFVX3lxTE40OUtWb29sLTJSbXgxeGt1dVVKSlVBUF8zbEJxOHNEcTRZa0ZpbDFuQmdydUFZUjRkVVhvRTZMRHo2NG5wbG9OQmU4MW5PRkp2Smw4LXBGd29KcDdxV1NlSm1WdEVvYUgxZkFScUQtbTRCRGV3ZkV6WTd6X1NJYjBpS01ENFU1dnp2NDJydkdLMXNRNGhlS3JSeTMyaUdkOXdaeWh4SUhIWnE3OVRPekhtYUpUVHRQTjNzN0NHR1FoVUlRTTBVVTBZdlpDenhRbkVESk1RUnJUa3JxZVQ4T25EQS1WaGFfc0luZm5EMlE?oc=5",
-        "snippet": "Century Plyboards (India) Limited Beat Revenue Forecasts By 5.2%: Here's What Analysts Are Forecasting Next &nbsp;&nbsp; Simply Wall St"
+        "title": "Wood Based Panel Market to Witness Steady Growth Through 2034, Driven by Construction Activities, Furniture Demand and Sustainable Building Materials",
+        "publisher": "",
+        "date": "30 minutes ago",
+        "url": "https://openpr.com/news/4685064/wood-based-panel-market-to-witness-steady-growth-through-2034",
+        "snippet": "Increasing use of oriented strand board OSB plywood MDF and decorative wood panels across construction and interior applications is expected to support market expansion during the forecast period November 9 2026 The global Wood Based Panel Market is expected to ..."
       },
       {
-        "title": "Century Plyboards Q2 FY27 Earnings Call Key Highlights - Kalkine India",
-        "publisher": "Kalkine India",
-        "date": "Sat, 07 Nov 2026 09:24:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTEY3c1ZNTTJpV0FxUlU3azZHR0Q4YXE3d0lCaGlaTUtNMDVxYjRLWEl5dFpEWVpBRW5lcmtTMXAzazZOblA4STFSemR0NGZfMDlvYjhPeVRkMm1pSDd5RnEtT08wYjA1R3R5NURucmRLdE4xOU1NY3AyVGFDMkV3Z3FtcGVRNlFIUEM3bGdRVHlaQkMtVml3emJHaElYdmgyX3BTMDFOckNua0IwYmhSTGVmZEJLbVF6ejJJejY2bk1MMkhkVWxGblhITQ?oc=5",
-        "snippet": "Century Plyboards Q2 FY27 Earnings Call Key Highlights &nbsp;&nbsp; Kalkine India"
+        "title": "India News Today's Live Updates, 5 November 2026: Latest Breaking News From India, Delhi, Mumbai & Around the World | India News - The Indian Express",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-5-november-2026-kerala-abuse-case-social-media-immunity-navi-mumbai-airport-10951448/",
+        "snippet": "India News Today Live Updates, 5 November 2026: Follow breaking news live updates on The Indian Express — a 16-year-old boy allegedly sexually abused by multiple persons in Kerala with one arrest made, the IT Ministry discussing a proposal to strip social media platforms of legal immunity, ..."
       },
       {
-        "title": "Century Plyboards India Q2 Revenue Up 28.5% - InvestyWise",
-        "publisher": "InvestyWise",
-        "date": "Sat, 07 Nov 2026 09:32:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRWp2b00wU2pJSzVjYmZJaTFPWDhibWNCbW40TGRFM3pZeTR0SXJ5RWJSaWhNbHQtNTkwbDBLU1dMOFVyU25kbXk1ZFc3SGFWbENfS3l5LVFVREpqVUUtYVhtTXpWRUhwaloybm1xeUNwZTRLOVFHYW45bTFFdXFmb1NfSWtfdC1EMDZsX1JrMUx6aUhZSjIyZW8yY0lBUWVRNDktQ041OA?oc=5",
-        "snippet": "Century Plyboards India Q2 Revenue Up 28.5% &nbsp;&nbsp; InvestyWise"
+        "title": "Montra Electric E-45 Tractors Cut Diesel Use at Action TESA",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://www.tractorjunction.com/tractor-news/montra-electric-deploys-seven-e-tractors-in-visakhapatnam-to-boost-green-logistics/?amp=1",
+        "snippet": "Montra Electric has deployed 7 E-45 electric tractors at Action TESA’s Visakhapatnam MDF plant, saving 50,000 litres of diesel and ₹40 lakh a year."
       },
       {
-        "title": "Broker’s call: Century Plyboards (Buy) - BusinessLine",
-        "publisher": "BusinessLine",
-        "date": "Fri, 06 Nov 2026 13:53:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT19ocjBZaDVWSHMxWmRLMml2cjIyRHdjbTl6Z0xBZ0FBRzJQellWUnZjMlpkTHFVSTYtQ2tPQ0dSUmJaVzVBWDVoRmVIZnFXZXV6cTNHRzRYVjRJSE55YUQ1NmlRUmxrY08zcUdnNjBIMmhub1psS01HR0E1bFNQQngycHJTYUVTLVdtU1JCZVJ4S29VWmZnOWZldllMazR20gGnAUFVX3lxTFAzZUNLZ2lUNExpNzdQUWV3bGhweHZleWJXYi1nTWxUSU9nX0NhX0JxSmhwWWVubjAwV3U4ZWE5OXFUbE9SQ1R2ZWdfcFgtUElNeEZxWlBBV012TEI3emJXRHlFVEQ5Zm5OSWdvVTVRWHg4WE9pd2szMDB3T0NiN3k2dlRsblNad1lRbkNjWjlkZnIxbk9aQnpOLXFTSTJPLTlmM0M1QlZr?oc=5",
-        "snippet": "Broker’s call: Century Plyboards (Buy) &nbsp;&nbsp; BusinessLine"
+        "title": "Montra deploys seven e-tractors in Visakhapatnam to boost green logistics - The Hindu",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://www.thehindu.com/news/cities/Visakhapatnam/montra-deploys-seven-e-tractors-in-visakhapatnam-to-boost-green-logistics/article71669613.ece/amp/",
+        "snippet": "Montra Electric deploys seven E-45 e-tractors in Visakhapatnam to slash diesel use and CO2, boosting green MDF logistics."
       },
       {
-        "title": "Greenpanel Industries CSO Prakash Tripathi resigns effective Nov 5 - scanx.trade",
-        "publisher": "scanx.trade",
-        "date": "Thu, 05 Nov 2026 20:40:47 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS3Rva3BZZ2UybXZ6c0dGYnFmOHdURW1xU0xIS09FaDdCZ3ZNVThBVUJjOGNzUVhvY2tiTVdwekRENk80UVN4TUxXXy1zclFrT0d3bVR6UzFPOUZnUFBlTV9CV1lGU3U3QjNTMnRjT0p4SU9mY0FyZTcyakNQVjU3X0wzS1g3RUMyaFk0Mmd1MVRtbmE5X2JkTkxHS0l5QlhIamdUdUFLMnRucU04RDNHUlhVd2NLaVNVcFBTQnMwUkQ?oc=5",
-        "snippet": "Greenpanel Industries CSO Prakash Tripathi resigns effective Nov 5 &nbsp;&nbsp; scanx.trade"
+        "title": "NEET MDS 2026 Cutoff Reduction | MoHFW Revises NEET MDS 2026 Qualifying Cutoffs; Check Category Wise Updated Percentile - Telegraph India",
+        "publisher": "",
+        "date": "1 month ago",
+        "url": "https://telegraphindia.com/edugraph/news/mohfw-revises-neet-mds-2026-qualifying-cutoffs-check-category-wise-updated-percentile/cid/2184514",
+        "snippet": "The Ministry of Health and Family ... MDS) 2026 by 20.576 percentile points across all categories. The revised eligibility criteria cover candidates belonging to the General, Economically Weaker Sections (EWS), Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC) and Persons with Disabilities (PwD) categories. Following the decision to relax the qualifying criteria, the ministry has directed the National Board of Examinations ..."
       },
       {
-        "title": "CenturyPly Q2 revenue rises 28.5% to ₹1,780 crore - Exchange4Media",
-        "publisher": "Exchange4Media",
-        "date": "Fri, 06 Nov 2026 08:28:13 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRzhDTGU5RkZDeDVqUm9LUWRJU3RoYzhoeFBhUDlDbVNKeFpQOURzQmt6a2hQd0xvVTdGOUJxYWRyZWpLNkFIbjJlSndOUnNqOS04THJHTHFjX1NQWUJjM0JNZkUtamNNbmJMcFRfMVBhbWlaNi1EQzlPTG85U1ZTeFJZbldBbktad0FaOUxUVlFqS0lQN21zeVlWOGJhSHVvcTNXa2ktcmM?oc=5",
-        "snippet": "CenturyPly Q2 revenue rises 28.5% to ₹1,780 crore &nbsp;&nbsp; Exchange4Media"
+        "title": "IMF sees India bucking global slowdown, raises 2026 growth forecast to 7% - The Economic Times",
+        "publisher": "",
+        "date": "1 month ago",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-raises-indias-2026-growth-forecast-to-7-says-india-stands-out-even-as-global-growth-slows/articleshow/134905823.cms",
+        "snippet": "India's growth forecast for 2026 has been raised to 7% by the IMF, marking a notable increase. This revision is attributed to resilient domestic demand and strong services sector performance. Various global organizations, including the World Bank, have similarly revised India's growth outlook ..."
       },
       {
-        "title": "Buy Century Plyboards Ltd For Target Rs.750 by Motilal Oswal Financial Services Ltd - Investment Guru India",
-        "publisher": "Investment Guru India",
-        "date": "Fri, 06 Nov 2026 07:11:05 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTGJCN0lNV3FhUm1hem5tdDRFZHNlV216bGZoNzFuMlJNelZfSDl5Um1ZeVBpUlZtT2x5b2pLUURRTlhzU21wdy1KYTJjSEdDM3dBV1Y3T09sQ0l1aFBHdEptd3J3Smc0Q3NwZWRlUDdDRkF2XzVzUmpaQkEtdmpLa3hnMWJBN2Y2LWc2X0xzdmlBQnB3eWc0QU5qQlpTdVVfbVczc0pQZVZiZDdyQlQxOEZ1V1MxeTFUTVMyVmR0RnNraTlWQTV0SjFWYUE?oc=5",
-        "snippet": "Buy Century Plyboards Ltd For Target Rs.750 by Motilal Oswal Financial Services Ltd &nbsp;&nbsp; Investment Guru India"
+        "title": "India News Highlights, 29 October 2026: Priyanka Gandhi inspects Ramlila Maidan ahead of Nov 1 INDIA bloc rally | India News - The Indian Express",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-29-october-2026-kn-nehru-dvac-raids-job-scam-supreme-court-voter-deletions-cyclone-arnab-dmk-tamil-nadu-10941404/",
+        "snippet": "The Opposition bloc has announced a joint action plan that includes protests across the country, a march by Opposition MPs to the Election Commission headquarters and the mega rally in Delhi."
       },
       {
-        "title": "Rushil Decor Ltd (BOM:533470) (Q2 2027) Earnings Call Highlights - GuruFocus",
-        "publisher": "GuruFocus",
-        "date": "Fri, 06 Nov 2026 07:39:16 GMT",
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPWWRjTVAtX183RTJKbUxyUEtZei0wamZZZnlVYXdEbU5ZM1lyVzBFSjlMUUZoOWc2UjNZbVBrOWZXWnpkZVpKWk5YMXk2dWdGOEVPajA4eFV6R2dBNzhmbWJ1WmQtdjRBNFp2N08xRW0teUljcFg3TjFKUzNfUmF4OS1SekdjUVE5SkNrOWVyUWVOZkxqTFBucjJZazVLdUhTWHpDZ1hqcmhBcFFITWNxUi05ODIyRVUxcU0zQ01nM1ZBeEFCU1A4UDk4b3F4c1dDczVoOTB6WVctdlpYSDREa2NCQzBKTTRQNnB0RFdLY0JLdDhEWmIybTR2cjVrMWx0dGlxTDlaeXUxX3VJbnFKUzM0Zw?oc=5",
-        "snippet": "Rushil Decor Ltd (BOM:533470) (Q2 2027) Earnings Call Highlights &nbsp;&nbsp; GuruFocus"
+        "title": "Ageing leadership, stagnant diversity, financial concerns define India’s top 100 company boards | Today News",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://livemint.com/news/corporate-governance-nifty-100-board-diversity-women-directors-independent-directors-board-age-succession-planning-11793940731614.html",
+        "snippet": "The share of women and directors under the age of 50 on the boards of the largest companies has seen little change in recent years. Women accounted for 20% of all directors in FY26, down from 21% in FY25, while the average age of directors rose from 63.5 to 64."
       },
       {
-        "title": "Rushil Decor Q2FY27 Results: Net profit jumps 96.6% YoY to ₹101 million - scanx.trade",
-        "publisher": "scanx.trade",
-        "date": "Fri, 06 Nov 2026 07:34:11 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNmZ2R2hON0hLVFZldVBFeEloS2NWUjQ3NTF4LWJLaTJkd3pqV3VVSHFndXM3dFlQWjl2VWVnUmFmWExjMEhPNFJwNWJBdmdTQWp2aGRWSFgzTEt1c21XLWNyR1RmRmNyWUZ2Y0JDVHI1NUtXUF82M3J4aG9jQTRxeG5iSHg3R3dwUV9PUFFCaEtVVHVPazkzX2VESEFqZGhIRVIwWmVpd24yNkNQOGxpWHE1LUwxZ0ltcXdfZQ?oc=5",
-        "snippet": "Rushil Decor Q2FY27 Results: Net profit jumps 96.6% YoY to ₹101 million &nbsp;&nbsp; scanx.trade"
+        "title": "NEET MDS 2026 cut-off reduced: Check revised qualifying scores for all categories - The Times of India",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://timesofindia.indiatimes.com/education/news/neet-mds-2026-cut-off-reduced-check-revised-qualifying-scores-for-all-categories/articleshow/135010131.cms",
+        "snippet": "The Ministry of Health and Family Welfare has lowered the qualifying cut-off for the National Eligibility-cum-Entrance Test for Master of Dental Surgery (NEET MDS) 2026 by 20.576 percentile points across all category groups. The decision offers candidates who did not meet the earlier qualifying ..."
       },
       {
-        "title": "Greenpanel Industries Limited says OEM share dropped to 15% - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 14:49:51 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmtKZ28tRlgzSFVpM0xoN2dLN0ExRDM2T3phbmdvU09hamhRaW5aQ0tiYW9YeTl6U18tWlJkeUlzWW05SU5iTFZCbDdkTFNPSXRrNkdNM3Z6VVplWUtoU3JBdVQyOHZtQ09hUFdhaGw3S3JGclo3Y0lKMUwyZHVrZmpja05MMkE4clpqQktNRnJLc2FENktVN1JOeHQ3QlRDZlNqM1JRV2NRRl9iczhhWHV1UGlKOXM?oc=5",
-        "snippet": "Greenpanel Industries Limited says OEM share dropped to 15% &nbsp;&nbsp; Multibagg AI"
+        "title": "NEET MDS Counselling 2026 | MCC Begins NEET MDS Counselling 2026 Round 3 Registration; Check Updated Schedule - Telegraph India",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://telegraphindia.com/edugraph/news/mcc-begins-neet-mds-counselling-2026-round-3-registration-check-updated-schedule/cid/2185869",
+        "snippet": "MCC has commenced the third-round registration process for the National Eligibility cum Entrance Test-Master of Dental Surgery (NEET MDS) 2026 counselling. MCC will conduct counselling for the 50% All India Quota (AIQ) seats and 100% Deemed/Central Universities/AFMS."
       },
       {
-        "title": "Greenpanel Industries Revenue Rises 4.6% in Q2 FY27 - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 13:38:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdkhQaVFjRFlZSFVjZXRFNm1McExRRDE3bEhuZjJaYXQ5cE9tQmh2WXF4TzhSNUxscUJ5Z0I5YWUyY0FZYVFBaGlvVVJKUXpJTzFDTVRxQUM2a0tWSk1kQlRjTTdPVnNXbW9WaVlkMVFiRWxaRFNMdWxQUU5WMEJ1bWVBV2NfMXh0MGR4RjlXeXNDb1FGbmFmakdrS2hqS3dM?oc=5",
-        "snippet": "Greenpanel Industries Revenue Rises 4.6% in Q2 FY27 &nbsp;&nbsp; Multibagg AI"
+        "title": "GREENPLY: Revenue grew 16.1%; capacity additions underpin growth as MDF competition pressures persist — TradingView News",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4390517:0-greenply-revenue-grew-16-1-capacity-additions-underpin-growth-as-mdf-competition-pressures-persist/",
+        "snippet": "Q2 revenue rose 16.1% YoY and core EBITDA margin expanded 300 bps. Plywood capacity limits and MDF cost and competition pressures remain, while FY27 guidance targets >10% plywood volume growth and 20% MDF growth at 15%–16% margins.Based on Greenply Industries Ltd [GREENPLY] Q2 26/27 Audio ..."
       },
       {
-        "title": "Greenpanel sees MDF supply pressure lasting two more years - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 14:49:59 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaTZVYTdzZGRNZHMyU1YzbjdOWWdCaUhkM08xNXRJZkJybXhVbkkwWmlNRkc1THZnc0VRQnlJVFN5dHQtNHR1eXZfZHJpRTRSVU9NQ0JCdV8xMHNzZDE3Y0k1cXBYUlQ0QnlpV1BYeUx2dGdycEJIOHF1NGJKbXV2MWFmeVlxclN1emtrUmYzOHlzMUNQYjZMUnF4RUtuaTNRS2dkYkhiOWVMaEtvQzZBdTRwejREU1Y5bDhB?oc=5",
-        "snippet": "Greenpanel sees MDF supply pressure lasting two more years &nbsp;&nbsp; Multibagg AI"
+        "title": "GREENPLY: Q2 profit rose as plywood and MDF results improved; Sandila expansion plans advanced — TradingView News",
+        "publisher": "",
+        "date": "2 weeks ago",
+        "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3851888:0-greenply-q2-profit-rose-as-plywood-and-mdf-results-improved-sandila-expansion-plans-advanced/",
+        "snippet": "Q2 FY27 consolidated revenue was ₹79,968.60 lakh and profit was ₹4,272.66 lakh; H1 revenue and profit also increased YoY. A 15 million sq. m Sandila capacity expansion is planned by Q4 FY28, with up to ₹30 crore of subsidiary equity funding approved.Original document: Greenply Industries ..."
       },
       {
-        "title": "Greenpanel retail record cannot prevent 3.4% MDF volume fall - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 14:49:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeWhaSEl5NF9Ta1NBajk0eG1RVEkxbmFsbWJidll4NnJteEhzU3NrTjNsNWgxMVBBYkVLZk96cndncWRINGJjQmtqVURhRFYwN2ZLMUpFdWhfdGJEcXhQdzZVOGFpT29DSHdKVVYxY3RKcjB3ams4aldiZHVicFRfN3pNTkpzNFFmS2xwb0JDTURtV2RkRElGaWdHM2hxMXMyUGZ0QmxreW9uU0xRMElvUXB6OU5kNW5F?oc=5",
-        "snippet": "Greenpanel retail record cannot prevent 3.4% MDF volume fall &nbsp;&nbsp; Multibagg AI"
+        "title": "HDFC Bank deputy MD Kaizad Bharucha to step down by December 31- Moneycontrol.com",
+        "publisher": "",
+        "date": "3 weeks ago",
+        "url": "https://moneycontrol.com/news/business/banks/hdfc-bank-deputy-md-kaizad-bharucha-to-step-down-by-december-31-14054492.html",
+        "snippet": "HDFC Bank's board has accepted deputy managing director Kaizad Bharucha's request to step down at the end of December 2026"
       },
       {
-        "title": "Greenpanel Industries GREENPANEL CSO Resignation November 2026 - Kalkine India",
-        "publisher": "Kalkine India",
-        "date": "Thu, 05 Nov 2026 13:07:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUU1aYnhjY3hFY1lvNmxUT1ZJMHVUQUZHMU9fN0xvUnFKWnl5LTBVTXkxcGlNQ3QtMHR1VXZOZVEycEtlLXk5dExSdUIyN0F4N2V6WGVxa19vZG9IS2JkbVVhQ0VHd3hKVkpEd3FTTEhndjVWbnUwRE40UGdacl93VS1jRnVXOTMyQ1oxTVVycXNDRUJ0ZTRsZUpaYng0ME1yUklvYm5XVzNSVUltTHptWTB0dExKVUUyaF9UdU9zRjl6WXNDSmc?oc=5",
-        "snippet": "Greenpanel Industries GREENPANEL CSO Resignation November 2026 &nbsp;&nbsp; Kalkine India"
+        "title": "What Investors Got Wrong About Greenpanel Industries Before The Drop - Simply Wall St News",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://simplywall.st/stocks/in/materials/nse-greenpanel/greenpanel-industries-shares/news/what-investors-got-wrong-about-greenpanel-industries-before/amp",
+        "snippet": "Greenpanel Industries had just reported Q2 2027 results showing revenue of ₹4,142.08m and a much smaller loss than the previous year. Investors could finally compare promise with outcome. Holding Greenpanel Industries over the past year would have meant a 50.0% loss, including dividends."
       },
       {
-        "title": "Greenpanel Industries reports cessation of CSO and Senior Management Personnel - InvestyWise",
-        "publisher": "InvestyWise",
-        "date": "Thu, 05 Nov 2026 13:14:20 GMT",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbkt1RFJYbGUyWWtTVzA1RGliVlUzV1BET0lBdUhpczZIYWZYQlZlQ3dqM2RZNmVuNWdmdDM0UXpGdTZjY3QwVm1MNlY0OEg3NHpLeGJIRkF6WTdrNmtiQ0p4UHNlUG9IV1JHdTcwNXdXY245ekQzQUh4SVplcTVEM1BqdFR3V2lTSGFuYlhvWVo5MVU?oc=5",
-        "snippet": "Greenpanel Industries reports cessation of CSO and Senior Management Personnel &nbsp;&nbsp; InvestyWise"
+        "title": "Greenpanel Industries Gains 8.03%: 3 Key Factors Driving the Week’s Recovery",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://marketsmojo.com/news/stocks-in-action/greenpanel-industries-gains-803-3-key-factors-driving-the-weeks-recovery-4255137",
+        "snippet": "Greenpanel Industries Ltd delivered a strong weekly performance, rising 8.03% from Rs.132.05 to Rs.142.65 between 2 and 6 November 2026, marginally outperforming the Sensex’s 7.15% gain over the same period. The week was marked by a sharp rebound from a 52-week low, a valuation reassessment, ..."
       },
       {
-        "title": "Greenpanel Industries Q2 FY27 Earnings Call - InvestyWise",
-        "publisher": "InvestyWise",
-        "date": "Thu, 05 Nov 2026 13:14:20 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSEJxcTdTNlYxNVdZbjVodWx0TDhtalk5aUlIMXBDZUt6NmxPMklZVVFvOFA3aVphYzJkTmp0MkJGSGJSR2o5VHhna2FXeHRFNlh2X3lfLVVWUmVzYzl3NzZSM09aTTFRVXZDSS1zTS12Z2FRS1BvMVl4STkzaUFnam9PUUlKV1hH?oc=5",
-        "snippet": "Greenpanel Industries Q2 FY27 Earnings Call &nbsp;&nbsp; InvestyWise"
+        "title": "Greenpanel Industries Ltd Surges 9.04% to Day's High of Rs 147.8 — Outperforms Sector by 9.55 Percentage Points",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://marketsmojo.com/news/stocks-in-action/greenpanel-industries-ltd-hits-intraday-high-with-904-surge-on-5-nov-2026-4252727",
+        "snippet": "The Sensex climbed 2.60% on 05 Nov 2026, yet Greenpanel Industries Ltd outpaced the broader market with a robust 9.04% gain, reaching an intraday high of Rs 147.8. This 9.55 percentage-point outperformance over its sector signals a distinctly stock-specific rally rather than a mere market tailwind."
       },
       {
-        "title": "Greenpanel Industries Ltd Surges 9.04% to Day's High of Rs 147.8 — Outperforms Sector by 9.55 Percentage Points - MarketsMojo",
-        "publisher": "MarketsMojo",
-        "date": "Thu, 05 Nov 2026 10:38:41 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObXpjRUYzSm0zOFpUNjctaExLSzhNQzFsblFtdlItUkRLNG92N2M3c296MlgyckYtU0d4bDZkYXZ0WmgtVnp0R09paXhSc2hzS0VYbHZwTEtxMm1VRmh0V0VqRXhHNW1UZlJ0a3p3SGJ5b3loVUZDb0s0c2pTMUtyQXc0YzdJcVZlRW1nY0xnRVRLWXZfU0xKckQ3Y01Tdm4zdXNJWUZsclZfYmcxSlhIc0RQWTViWDYwSjZvV0ZYaWdkZUUxaHp4VXUzQQ?oc=5",
-        "snippet": "Greenpanel Industries Ltd Surges 9.04% to Day's High of Rs 147.8 — Outperforms Sector by 9.55 Percentage Points &nbsp;&nbsp; MarketsMojo"
+        "title": "Greenlam Industries Limited Panel & Allied EBITDA Turns Positive | Market News & Analysis",
+        "publisher": "",
+        "date": "2 days ago",
+        "url": "https://multibagg.ai/market-pulse/articles/greenlam-industries-limited-panel-profitability-ppt-cmw6fwqyt00312xo8do07rezk",
+        "snippet": "Greenlam Industries Limited’s Panel & Allied segment reported Rs 8.7 crore pre-forex EBITDA in Q2FY27, reversing a Rs 7.3 crore loss as revenue rose 123.9%."
       },
       {
-        "title": "Century Plyboards Q2 2027 Earnings Call Is Live - TradingView",
-        "publisher": "TradingView",
-        "date": "Thu, 05 Nov 2026 08:27:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDluUEdaNG5faTZ4MEswUDVXWDBrQW1kOExHU09zUlNiQ3NuSGt0TGdPTUVDenI2LTBTdE5peElvaXFucU5CZ1I4LWhOSm93SFFnVzF4djJTX05ma0FJU2FVbWFiNXd3VDlHY2oxTDh1VV9JNEhFX0tLT2YwcVpYS212Y0ltVzVlcDlGQVlCTzVESFZlVnAzU1NSME0tclZITXhxWmdJRUJ3Z2JwSVR2bUhLUkhIUXc?oc=5",
-        "snippet": "Century Plyboards Q2 2027 Earnings Call Is Live &nbsp;&nbsp; TradingView"
+        "title": "Greenpanel Industries Revenue Rises 4.6% in Q2 FY27 | Market News & Analysis",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://multibagg.ai/market-pulse/articles/greenpanel-q2-fy27-revenue-cmw3ld6gs007w2kqqbv4h8hzs",
+        "snippet": "Why did Greenpanel Industries' EBITDA margin fall in Q2 FY27? The operating EBITDA margin fell to 7.5% because product prices were reduced while higher-cost opening inventory continued to affect cost of goods. Management said the full benefit of lower costs had not yet appeared in the quarter's results..."
       },
       {
-        "title": "Century Plyboards units offset continuing particle-board loss - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 07:59:45 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVkowV3c5RkFwOUhpYjNJenNKWDBsWW14Y20xNTRUN3JCU0xhQVB4T3hQZ25sbnRiSWh6UlBIM0NQRXozbTRHbmJ2ckdVOHlsTXVqZkJSLWxrc0NTYmVhdENhMFZYNEtlSzc0UzV1dURYZzlxRVpKRDhWNXQxMkx4MWx5Wl9ZeWFjb3RsbnIyV0lJaV9wVlhSNzl2S0xubjhJRE9kZ2g1QjZVTXQ2UVNIbk9QMF9BbDhUNkF1d0dR?oc=5",
-        "snippet": "Century Plyboards units offset continuing particle-board loss &nbsp;&nbsp; Multibagg AI"
+        "title": "Greenpanel Industries Limited says OEM share dropped to 15% | Market News & Analysis",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://multibagg.ai/market-pulse/articles/greenpanel-oem-share-price-increase-concall-cmw3nwinl00gq2kqqln4dua0e",
+        "snippet": "Greenpanel Industries Limited said OEM share was 15% in H1 FY27, versus 25%-30% last year, after its Q1 FY27 price increase caused customers to place import orders; total MDF volume consequently fell 3.4% year on year in Q2 despite 17% retail MDF growth."
       },
       {
-        "title": "Century Plyboards capex doubles as operating cash flow declines - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 07:59:26 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOUNZX3kzVTY3U1pmMEREendtamtyaEJnUHVKdUtSdGJFcVFuMFBJWGR2QVM5X0ZGS2ZfaWFTLUcyaUUweUNyaUpNeW1LSlN0LVZVN1ZBWDFfb1ZBZVVLdGw2WVh3cGp1R01sbmhzZm1JeWJqOEU1YkQ5aFliZU0wUkNhaU85Ti1JMGJHNVZ2dWNwVGtBLVZNR0ZuenFMXzRlNHJlcVZTV3JkSC1RZEpMaXNTOWI3TWw3SE43SkxwTkFCU3Jxak54NQ?oc=5",
-        "snippet": "Century Plyboards capex doubles as operating cash flow declines &nbsp;&nbsp; Multibagg AI"
+        "title": "Greenpanel Industries Ltd is Rated Sell",
+        "publisher": "",
+        "date": "3 days ago",
+        "url": "https://marketsmojo.com/news/stock-recommendation/greenpanel-industries-ltd-is-rated-sell-4253878",
+        "snippet": "The financial trend for Greenpanel Industries Ltd is described as 'flat'. Recent quarterly results highlight this stagnation, with the company reporting a Profit Before Tax (PBT) less other income of Rs -3.99 crores, representing a decline of 101.3% compared to the average of the previous four ..."
       },
       {
-        "title": "Century Plyboards Q2 profit rises to Rs 106.28 crore, revenue grows - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 07:59:17 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeTRkZUc3SjBmaFVCcGpiOXBoOG01cmZodGpOT29rUWI1VDNvdEJfSmt0UjlNa1NvRldPMDZQWkxValNGTWlyem4wLW5ockNmN2lIRlhIcmc5MEhSNnlJd1VXVnA5REJaejdSOXdkbVZaNjRFOUZmckx0TzE5bHBwaUhraG5KaHdlY2xUaWVBem54UGRyMlEwNTJxcWl2OTFsOWRkX3FDal9rRTB4MWl2RjBRX1hpdzhFRUtJ?oc=5",
-        "snippet": "Century Plyboards Q2 profit rises to Rs 106.28 crore, revenue grows &nbsp;&nbsp; Multibagg AI"
+        "title": "Hold Greenpanel Industries: target of Rs 131: ICICI Securities- Moneycontrol.com",
+        "publisher": "",
+        "date": "1 week ago",
+        "url": "https://www.moneycontrol.com/news/business/hold-greenpanel-industries-target-of-rs-131-icici-securities-14067641.html",
+        "snippet": "ICICI Securities recommended hold rating on Greenpanel Industries with a target price of Rs 131 in its research report dated November 03, 2026."
       },
       {
-        "title": "Century Ply plywood sales rise 30.4% on volume and realisations - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 09:39:27 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2hXazU5YWRFLTdSaFZPRk5nSGtOLW55ZFVYQU02LXUyWlJOSFJhR3puT0lHbVFYd0RtNWU1Qmp4Uzc4U0I2NWVqTjNjNS1Cbm5yMmRhT3JhMGhLVFZNa1RPSW0tOU51dmcyajJldGlFWjRQMEdsXzJmQ29Jd09JWEpYa0Q3NEdRTTJDdmdCS0lzRGMxUWpKeEdydXF6NlV6bWw0VmxOTnRWUQ?oc=5",
-        "snippet": "Century Ply plywood sales rise 30.4% on volume and realisations &nbsp;&nbsp; Multibagg AI"
+        "title": "Greenpanel Industries CSO Prakash Tripathi resigns effective Nov 5",
+        "publisher": "",
+        "date": "4 days ago",
+        "url": "https://scanx.trade/stock-market-news/companies/greenpanel-industries-cso-prakash-tripathi-resigns-effective-nov-5/55438560",
+        "snippet": "How will Greenpanel Industries' sales strategy and channel partner relationships be impacted by the departure of its Chief Sales Officer?fuzz it · Who has been appointed as the interim or permanent successor to the Chief Sales Officer role, and what is their background in the building materials sector?fuzz it · Will the 38-day notice period shortfall result ..."
       },
       {
-        "title": "Century Ply particle board returns to EBITDA profit in Sep’26 - Multibagg AI",
-        "publisher": "Multibagg AI",
-        "date": "Thu, 05 Nov 2026 09:40:26 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTUxnRlMtN0pBNm9TWHVaOURIUmQybnJ6WF9oZEZXX1JaajlDc2pTM2dwSE9FaWxUaDJzLUdJaF9SMWxDN1pQd0Y3TlFIVHlSa0xBc1ctRjc4THN4NWZkb2R4M0gxNWRZcm0tM3c2UXdzNW0yb1N3cko5M0NFaWxhcXViU1pWdnVRLXVDQm1SUjFHSENFNk1PQUNkam4xakRGTkJJVVVLWjI3bEd4QXlLVkFTM3Q?oc=5",
-        "snippet": "Century Ply particle board returns to EBITDA profit in Sep’26 &nbsp;&nbsp; Multibagg AI"
+        "title": "Greenpanel Industries Ltd Valuation Shifts to Fair Amidst Market Challenges",
+        "publisher": "",
+        "date": "5 days ago",
+        "url": "https://marketsmojo.com/news/stocks-in-action/greenpanel-industries-ltd-valuation-shifts-to-fair-amidst-market-challenges-4249800",
+        "snippet": "Greenpanel Industries Ltd has witnessed a notable shift in its valuation parameters, moving from an attractive to a fair valuation grade. This change reflects evolving market perceptions amid subdued financial performance and challenging sector dynamics, prompting investors to reassess the ..."
       }
     ]
   },
   "benchmarking": {
-    "generated_at": "2026-11-02",
+    "generated_at": "2026-11-09",
     "peers": [
       {
         "name": "Greenpanel Industries Ltd",
@@ -1806,7 +1624,7 @@
           "url": "https://www.screener.in/company/GREENPANEL/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Action TESA (Balaji Action Buildwell)",
@@ -1815,7 +1633,7 @@
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Century Plyboards (India) Ltd",
@@ -1838,7 +1656,7 @@
           "url": "https://www.screener.in/company/CENTURYPLY/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Rushil Decor Ltd (VIR MDF)",
@@ -1884,7 +1702,7 @@
           "url": "https://www.screener.in/company/GREENPLY/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Sarda Plywood Industries Ltd",
@@ -1893,7 +1711,7 @@
         "status": "listed-pending",
         "pending": true,
         "pending_reason": "Financials pending — from screener.in",
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Archidply Industries Ltd",
@@ -1916,7 +1734,7 @@
           "url": "https://www.screener.in/company/ARCHIDPLY/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Shirdi Industries Ltd (Srichakra)",
@@ -1925,7 +1743,7 @@
         "status": "listed-pending",
         "pending": true,
         "pending_reason": "Financials pending — from screener.in",
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Duroply Industries Ltd",
@@ -1948,7 +1766,7 @@
           "url": "https://www.screener.in/company/516003/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Shiva Texyarn Ltd (Shiva Board)",
@@ -2003,7 +1821,7 @@
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Bajaj Eco-Tec Products Ltd",
@@ -2012,7 +1830,7 @@
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Nuchem Ltd",
@@ -2057,7 +1875,7 @@
           "url": "https://www.screener.in/company/NCLIND/consolidated/",
           "snippet": ""
         },
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       },
       {
         "name": "Novopan India Limited",
@@ -2066,7 +1884,7 @@
         "status": "unlisted",
         "pending": true,
         "pending_reason": "Private Circle",
-        "updated_at": "2026-11-02"
+        "updated_at": "2026-11-09"
       }
     ]
   }
