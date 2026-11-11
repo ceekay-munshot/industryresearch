@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-11T03:39:31.022Z",
+      "last_fetched": "2026-11-11T11:40:09.230Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-11T03:39:39.348Z",
+      "last_fetched": "2026-11-11T11:40:43.712Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-11T03:39:40.343Z",
-      "last_epoch": 1794362847000,
+      "last_fetched": "2026-11-11T11:40:44.835Z",
+      "last_epoch": 1794381405000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -134,14 +134,15 @@
         "CBMiZ0FVX3lxTFB2Z0hUdTdXQnlYcnNwOVo1aDVjRVYxWUdoOFIxWXZyMk9BZXB0SjRjMkh5NzA5dVRpTXg4bXBONFBDT0t4VmF5S2dCc3V4REZqU0c4MUNMbm41d1J6dkJqMGNFdk5SNk0",
         "CBMiwAFBVV95cUxNNW5YeXdvQVZEMHBaSVFJdlVFMVlDQ1Iya3FtOXFuNnZRS0lPVkdMcUU0b213b0RIM09WSUk1SkZLM1ZiV1pwTkhQMExjbmtOZ1ZoenVweDlqMGdfX2dUVnVWclh0cDdyQnpTR3o5Sm1hQ0k3UE16c0lTRmhHeGZwZWFlR2JrS3U5X3N3ZXY1cXR2NGRMaHVxQXV1UEVYSW1FRVhaQ3JINXU4WDBNYlNnNlFBR3lBeXdlT1QxcDJyZng",
         "CBMiowJBVV95cUxQVjBPbGs5UE5oUXRma3VldU5QTERUaW1qSHh5blp3c1UtUVB2YVpVelZqaE1QaU40cUlQNG5HTE9EbHdUYTFhSnpHRnNEbUVTYlNYc2JJanRIY3pCNFdXa3hxNjNQNXdxcVNnVEtib2VPVy02V3FENUpuMlljcmFabFJGV2xqaHpGY29GRklmZXZ3QVhtNHJ5RElOckJJRFNod2NMZTktRDBURkNkdlB4NUFzc0lRZzJJWUF4QlJ6T2ZXWmZsQjhGQi1lQ0h2R29PQzdYbnlGaERrVE1lS3dlMXhWUncxbzB0c2tBRWZrak42VmFjaU84Q09mM3NraXV5OWs2cEFzb25pbXc4bEdoWGlQRWhEZVVtWmRMTjA0by0xa1E",
-        "CBMigwJBVV95cUxOSHN4UGF4eVZ3bGEySUNyMjFPc3NUS2lpYXZnRzJNaG1LWU1BeDFGZHNlMWQ4akhwU1M4dTZIYldWeUJSMXNfNlVBbFhFbFg0V25DRXlSZ1ZKdFRzakV3SDVhY0hoZVp1SXJHWWZxdnhtQVFYS0RHMWw4ODhZVnVhWXNCRTlCcEw5TUhzdkZUQldHODVGcFJIcHZ1T1kxV1RtQ1JhZGtYOVZCaDJCbDhWdjFVOFR1UTVDOUtZdGg0X3AtajJsNGN1dXlwaERXUGh2WF81X3RGWlFzVnRNZUp0T2daY0hXbnFSNjVreTJFbWlnUnBjTVNhLTNuQ0NoQ25CWWJj0gGIAkFVX3lxTE9QM2pabWgzY2Z3alBfV3dZQVp0N3FWOFhwTWNzcnJ1a3FjSFV2eXNVMmltQ2hCb1JPRlVmSFdNbW5tRVN4dlZoRkFqaE02MkpxNkp2ejZZZDFxQ1RyZ0lzN2JxM2VnVlZ1WExNRjlaa0hHbjB5Yk4tRVM2RFFYMkxzM2QxSGp3Y0htSFZHTy01OEtiaUZSRWNIeFB3WWJJM19fMUhmdkpQalFzVzhGUmw2TDVSWmhJaEpKOEtUd2dIcXlMZlZ1dVdxTmg5T0dCRHNLUGFHUlUxajNHOVNiel9oQ3hYY1JFNUNVQUExNUtNMFVSU0ttOG05V1FPa0VNc2lmdXhJamhHdQ"
+        "CBMigwJBVV95cUxOSHN4UGF4eVZ3bGEySUNyMjFPc3NUS2lpYXZnRzJNaG1LWU1BeDFGZHNlMWQ4akhwU1M4dTZIYldWeUJSMXNfNlVBbFhFbFg0V25DRXlSZ1ZKdFRzakV3SDVhY0hoZVp1SXJHWWZxdnhtQVFYS0RHMWw4ODhZVnVhWXNCRTlCcEw5TUhzdkZUQldHODVGcFJIcHZ1T1kxV1RtQ1JhZGtYOVZCaDJCbDhWdjFVOFR1UTVDOUtZdGg0X3AtajJsNGN1dXlwaERXUGh2WF81X3RGWlFzVnRNZUp0T2daY0hXbnFSNjVreTJFbWlnUnBjTVNhLTNuQ0NoQ25CWWJj0gGIAkFVX3lxTE9QM2pabWgzY2Z3alBfV3dZQVp0N3FWOFhwTWNzcnJ1a3FjSFV2eXNVMmltQ2hCb1JPRlVmSFdNbW5tRVN4dlZoRkFqaE02MkpxNkp2ejZZZDFxQ1RyZ0lzN2JxM2VnVlZ1WExNRjlaa0hHbjB5Yk4tRVM2RFFYMkxzM2QxSGp3Y0htSFZHTy01OEtiaUZSRWNIeFB3WWJJM19fMUhmdkpQalFzVzhGUmw2TDVSWmhJaEpKOEtUd2dIcXlMZlZ1dVdxTmg5T0dCRHNLUGFHUlUxajNHOVNiel9oQ3hYY1JFNUNVQUExNUtNMFVSU0ttOG05V1FPa0VNc2lmdXhJamhHdQ",
+        "CBMilwFBVV95cUxNVGVUUlQxM2Nyai1remJ2bnpXQk8ybWdWeDZvWXhxSVFWU1JrLWdQdTR1QkU3bVVqTEpla3MybW1JNmdpOTdHVFRLVUxUWDNMVV9FVmNPc1lLSWdmTFdpai1STkpKRXJ3Wm1QRlpGTmtoVkRLVmRhZnNacnhvV09KNkxCZ2NUeE1pb1lhX3ZDR1VTQTVWNnR3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-11T03:39:40.370Z",
+      "last_fetched": "2026-11-11T11:40:44.940Z",
       "last_epoch": 1794290764000,
-      "etag": "\"0533714b319ec11f6fa90c3a63c927c24-gzip\"",
-      "last_modified": "Wed, 11 Nov 2026 03:07:31 GMT",
+      "etag": "\"0ad7a88860bf7d86315f626152bbd294c-gzip\"",
+      "last_modified": "Wed, 11 Nov 2026 11:25:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-issues-draft-audit-manual-for-drm-based-digital-addressable-systems-seeks-comments-by-october-30/articleshow/134840672.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms",
@@ -200,14 +201,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-11T03:39:40.388Z",
+      "last_fetched": "2026-11-11T11:40:45.045Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-10T05:05:48.902Z",
+      "last_fetched": "2026-11-11T11:40:45.397Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

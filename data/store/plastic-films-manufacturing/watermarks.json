@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-11T03:39:19.582Z",
+      "last_fetched": "2026-11-11T11:39:20.332Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-11T03:39:21.838Z",
+      "last_fetched": "2026-11-11T11:39:55.973Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-11T03:39:22.075Z",
-      "last_epoch": 1794338473000,
+      "last_fetched": "2026-11-11T11:39:56.317Z",
+      "last_epoch": 1794385565000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMimwFBVV95cUxOMHpQdEZfeWZLXy1abEhuWGVWVmV6eG5YYmh5b0puRTU0aVI2R254VjRPNU1GWFZDZi1LaVBOMkpZeHR0eFVuVVItbWRTYjlRbThzZ0hXd0NKcEJIem4yV09hQS1RRE8yUld2Ykg2emVSeWkwWnVKNmd5bUdyVkdhQ2RfeTRvbFN3UDNld3VacjBBdXRyRFIySVN3cw",
-        "CBMiygFBVV95cUxNMWVYUWE0azBVRHRTSTY1YWpxNVhRWmFINGRSQkJBYjFrMVlRWUdVT3NucTdLQ24xbEhaNW5xemQxcVF3bUtLOHVtckdGRGRhVGQzUmh3eW5kZFJ1eGlTTDRlSmFpLWttMms4a2Y1NW96bDRuVFlXb0lOajUyblltd3R3UG1ZWk5tQUsxYVBQRkhWRTV1Zy1Ra2J0UTNsb01XV0paM1IwVVg5S2FXMDhIV1Y3cWZrZV9WYXRudEtjNUw1MkhTRUlHUF9n",
-        "CBMigAFBVV95cUxOQXJ1QkZnaXZiTVlvZ1VjZUxpd0NJWllSU2U0RUpYZktrdWI5azZsMjhVY01FTmRQRWZ3eVRoa0g3THNDTFQ2RTR6eHdOR3FnWHJpaDZfQUJLbGJBVmhkNG40dmtiNG5mazBSemdqdjNxcVdvSkpWdi13T2gzWnNZTg",
         "CBMi0wFBVV95cUxOMnJpOVYxQmhJT01ZV0RrZVhHSm1fdy01bTlWUlg4RkQyN3dSQVZmSlpZR2gwWEhlUW01NS1WU1Z1NEhGa1RvSjVJV0ppdFZUekpaNmh6VGFGY1duOHFkRk5OVnluLTFValV5a3hGQ1VTdmFDWE1yRk45TnRtdFl6UTA1czEyOF80Y3dNWkF0ZU5ucGxDdzdkSnNEQVNNdG9OM0dtRW5qWnZ0dzlYZnpoNkJ6TFB6U3J3N2YzeVo2REFseVRNQVM3UXZITm1LRU1fcXMw",
         "CBMitgFBVV95cUxPWUlPQkNObGJ5c0xITmMtWnVMM0ZUMEVjbWV0TklPbjhYWWFVQ09rb29uVXZLVm1sc0ZYS3h5MUotRWo3NEs2dUl1M0tCTENyMzduVnpQT0NsVkpCZXRvUWNnMzdnNmdhRE5KQVJ2M1NqdWhNcnA0VllBSU9EYnhfZDZnalM0V2xLRk1WWU5uS2V0WnVFWmRzQUlUQ2ZMQTNwRjItcUx4TWlDNHhVVjhWY01QbmJYZw",
         "CBMijgFBVV95cUxQTHVIbTdfOUFZbTZHX0Z2YmhfNEpBbko0MzNTV0Q2ZzdfazJDRk0xeGJ5Q1hDMXN0UnJJZlFYNnVDWDBnTElCN1pKZ1J5Zk5laWJfZFJPTmdoSkk1NVpMaTJJRnZyZWJpY3RPVm1OYWpqQXNzSFFXOThwcVd4aldkUmJPVTZaZHhURE1BV2V3",
@@ -319,14 +316,17 @@
         "CBMiiAFBVV95cUxPRXJvamZEM1Z6a2xjYzNadWQ3U1hUa29BYll4UkRaWk1nVldTMWdtd1NxQ0ZMcFMtV1lSekxzaUE1N0RIWlA0M2FnOGdNVEVkd05wTVA3M3Q2aXBhVFlyUnJ0SEtJXzlKdTROMXl6LVZpblM0RHZLemg1Tmd4V0VFbEdzblZhUjRX",
         "CBMibkFVX3lxTE5VaVBUbkxtQ0xDenNNLU9CNzZyWGpaUkNWeEVjZ1ZLbUw3OUFuTFA0WC1kZUZEVENOMkFhQWNLU1ZaV2YwWUs4ckpVNXV4b2lOeEEzSnU2dDloMGxhNGVySUZKdUlfUEIyZnk5bGZR",
         "CBMifkFVX3lxTFA0THlheHFsZDQ2dHlzZzdUZkZseVlNNnZCWmdXZldGY3hqWG84X293OEVSS0Y4SzRSRVh0bERMUkFHQ2dIZkt4cHNicTBxTlQwOUhaaXJobWlzSzZXZWRWZ29hd1V1Z3BBZDg4djIzaEJ0a1hQMFVnTTZzYXVrUQ",
-        "CBMie0FVX3lxTE1yaWVvOGVwTjRRX2tuWE5BMUN1R2x6aFhwS2tGME4tWGtZMEF4S1VaZERpN0xITWZCVnMxSUxiLWp2QnBtTXhaaXA3LW9Nall1R3EwRWlNbk9odzVCaVJXcFJucWhpTHNyYkFrVUdUajgzM2ZuQXl4QWcxYw"
+        "CBMie0FVX3lxTE1yaWVvOGVwTjRRX2tuWE5BMUN1R2x6aFhwS2tGME4tWGtZMEF4S1VaZERpN0xITWZCVnMxSUxiLWp2QnBtTXhaaXA3LW9Nall1R3EwRWlNbk9odzVCaVJXcFJucWhpTHNyYkFrVUdUajgzM2ZuQXl4QWcxYw",
+        "CBMirAFBVV95cUxQa0NBSGhjQUdlTC10WnlRRmN1cVlfTDUyc3lNRjZxQkhETl96eGJzWmUtS1kxeDlmVEl6a2tOd0VpWG5GeFlUaG85ZVlpN2dGNGtGbUlsZk5GT01ZU0o2blk3M2lGQTNzNm1nei1UWHV6RkpjMUc4Y0RiSVU3dC16Z0dyTTEzSHd0ZTVUX1dSTjdkcG9IMDdCMC1tMnZhLVZUZUlfNk1SbWRjMm1j",
+        "CBMiuAFBVV95cUxNZlJibUUzRXB4bHU4R0h2MVJnY2FROFU0UFZYcEpKMVVWT1MyUzBfaEZ5N1RRclI3ZkhWTS1QZjVzSjM3RnE1QzVqQVJmZmx3Vl9fTnlMcFFfZkNRbVQtNnItUVBwTzJrNUZ1Z3NlYzNYbGxZbEhyS2ZoaFZ5Zk9LTHdwck01RWJIdmY1cGY4MTJUTFp1bmpmY0l3NjJYUVJpNXEzQTljTEFFR3ZnUDB0cXV5RVZvXzVy",
+        "CBMijwFBVV95cUxPZG9HM2g3enh5c25laERRREI1aUU1d2tKMU96ZG9wZU9YYk9PNkk3MXpIcjBrWWhZOC13SWlGQ3NtVk03TjFzMzA0b3ZZZlk3amwzVGM0Q2M3S3h4SXdMaGZodGY0eWc3MTVZOUdDTlRJWVlXTVB6dHMzV3YyQXBpMlRvV21fTVMxSTNqWmZtRQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-11T03:39:22.115Z",
-      "last_epoch": 1794236938000,
-      "etag": "\"06d84deba2b13c9e689941db366111a01-gzip\"",
-      "last_modified": "Wed, 11 Nov 2026 03:23:43 GMT",
+      "last_fetched": "2026-11-11T11:39:56.399Z",
+      "last_epoch": 1794387141000,
+      "etag": "\"0ad7a88860bf7d86315f626152bbd294c-gzip\"",
+      "last_modified": "Wed, 11 Nov 2026 11:25:04 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -451,18 +451,20 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/ashwini-vaishnaw-launches-semicon-2-0-portal-says-50-of-units-approved-under-ecms-are-smes-msmes/articleshow/135601091.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/paper-/-wood-/-glass/-plastic/-marbles/balrampur-chinis-rs-3100-cr-bio-plastic-plant-to-start-commercial-operations-in-jan-mar-cmd/articleshow/135680755.cms",
-        "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-meets-skoda-auto-volkswagen-india-ceo-talks-focus-on-ev-push-exports/articleshow/135685828.cms"
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-meets-skoda-auto-volkswagen-india-ceo-talks-focus-on-ev-push-exports/articleshow/135685828.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/aurobindo-pharma-arm-gets-voluntary-action-indicated-classification-for-telengana-facility-from-usfda/articleshow/135731486.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/tata-motors-and-finzo-ev-solutions-join-forces-to-revolutionize-electric-commercial-vehicle-financing/articleshow/135730496.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-11T03:39:22.151Z",
+      "last_fetched": "2026-11-11T11:39:56.733Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-10T05:04:36.230Z",
+      "last_fetched": "2026-11-11T11:39:57.023Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
