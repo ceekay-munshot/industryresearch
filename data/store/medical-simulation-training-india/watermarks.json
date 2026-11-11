@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-10T21:33:31.153Z",
+      "last_fetched": "2026-11-11T03:37:36.182Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-10T21:33:40.487Z",
+      "last_fetched": "2026-11-11T03:37:43.685Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-10T15:57:29.726Z",
-      "last_epoch": 1794323945000,
+      "last_fetched": "2026-11-11T03:37:44.757Z",
+      "last_epoch": 1794367368000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -279,14 +279,17 @@
         "CBMi5AFBVV95cUxQbF9aN3JTellOY1RhWFFxY19QeFJiRlJZMkRqUGpEV0RXSFFheUh3bzhxckRfc1dMSUNoMEdBOFhJcmFWUER1aHZ3eG5WYjE4VmFlODZQcWZxSnJIbzBqVmZWRnhSNW9xSzNEekJKTVAwRkU3SjZaak5CRlYwczN0NDk5NGExMk45a1E0RVZTelNNSzJub1c2bFE3QWxUU2VLd0UzLVRKZGIyZ1dkVXdFbTBnc2h0SmYzVnRTUUNyejZNalVFcEV3LWhoVUhBMzJfcV8tWGp5d01KLVVUQUtDN21NZjg",
         "CBMi0wFBVV95cUxPS0k0WHIxbkpJaFdnaVo5aTBHQWRVRTBJaHpjd2owSjA5ZWxCdGM4MUVrZkpsOGtZckJBOEJsZjVxbzdVSHkwaFlRMTNldlVJRThVaElUZ1lwcDI0ei04V1VmTjBGOVBwbmU1UFZlN0d3NHVRS1Z5S2VhVEFkUmFyU1hXbnNGdjlEemVtMTFmR2ZXY0V5dWE5T3pJZlpwQUtSYi0wcldGREtwVk15bDhKdEtjcnZqNnJUM0dBaUpGTGV5MDN0cjRFc0cxSkhrdm9rbVJF",
         "CBMi9AFBVV95cUxQaUNCM25vcGx6WVFUREhhbFg0bUFDWjkxT3BxVV9qdVYzZHF4MUd1bFVqY0FJTnVuZ0Q4dk1BeVZGVlJ5T0xhRktfbEtaUGluZVlKVG80NTVmc2MxT0Y3MVRpWlBZNjJWUVExMWp0dnRveXhpYkRFa2tQd2pWVHk4Q0R1bVBsbGdpZjlUQV9uYm9VRE9HV1NxekJNd05tX05kZ0tiekVwU1hHZHNvSEw0ZDJ3RDBWM2UxcEE5dmVBVWNfWlI1MURtMUZZQUtSRmNia1dUNGY1WmVrYV9zT0JjdUJlLTRlT25sTHEyQ0g1Z1ZHWnMw",
-        "CBMiwgFBVV95cUxNUEpPQjFXQjl1b3BHUlkzY0ZzYlRsVGh5aWdDQ29NUEpjVk1lZUY0aGtyNjN2TWdIM1ozV0cwY183U01BSU5jSVR0WHgyZ1pvLU9tNmxvaE51QVJ5VE0wM19JeGVSclBvcXl5bUxCNDFSWWE1cUZON0toUEp1NFBOOVlhSmxCdDFDRmNZTmZXVFA4N281eVNkcDBQX2JNMXl2bmotSE1QNlktR3R1SjQxZC0zcXkwN3BOb0ZkNzdxRW43QQ"
+        "CBMiwgFBVV95cUxNUEpPQjFXQjl1b3BHUlkzY0ZzYlRsVGh5aWdDQ29NUEpjVk1lZUY0aGtyNjN2TWdIM1ozV0cwY183U01BSU5jSVR0WHgyZ1pvLU9tNmxvaE51QVJ5VE0wM19JeGVSclBvcXl5bUxCNDFSWWE1cUZON0toUEp1NFBOOVlhSmxCdDFDRmNZTmZXVFA4N281eVNkcDBQX2JNMXl2bmotSE1QNlktR3R1SjQxZC0zcXkwN3BOb0ZkNzdxRW43QQ",
+        "CBMiqgFBVV95cUxPbDV6YVk3a1BSUU9UY09CalB0NkdoYmdLdGFoQnhqSHlBYTRiVmc0S1pzNWlMSVc5UFlKTHl3cW40QlZHV25fc3QtMXFMbXh2eEJtemQ1ZUpLLW0zbmp1S3BYM25xNms5c0FKQ0pJY2hpWDNqUjhHRlpyYTVHcEhydkRLb25yaHhzQ1hwcVZhdXVhWnhpVHAxSUVpRFRTdXMzXzVEQTdwaFNiQQ",
+        "CBMizAFBVV95cUxQS1NXZHNabTFib3Q2T0FGcDJVcGJCeFplVk9zeGZrOURUNzdzcThYZWYyOUV2Rk1FWFVMSVQ1WExKWndpRnNXUEJfSGY5NWZFSExXTmVRZ0d6WEtlYlFOOHR1ZkkzM2dNN3lWblRSV0hQRkRXc3cyVTM5a3RyekEwczg1bWs1X1B5MWFSbVBmYmRKMlBqc0RSeHBLaXFUOXVzUkF2Mm9sc2ROUTBNa2xQRk9ZQW85NXhBUDQ5OVJuRmE2RS1Ickh5UV96ZGY",
+        "CBMiqAFBVV95cUxPTHhiUWpjb212NEd3ZTBZcEIyNnZ4Yk9rc1F4T3lhV1J0VmNPVEJVQ3dVQmNLWDRhaGZ3MHdzYXZlYXhnRGVKXzNOS01zNHRfX3RzNVdHWUY2UGxKRXZwRFRxd1JTTVhvb0REbzRISUhqek9CaVpSb2ZDNzVMTFhZdWdDbXFsTzkycTFsZkxNdVd6dWtXMmw5RjRWSnJTX0E1aXJtXzZ2SnA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-10T15:57:29.840Z",
+      "last_fetched": "2026-11-11T03:37:44.824Z",
       "last_epoch": 1794320549000,
-      "etag": "\"0bee6777235eb36ae99ff9b7a7e4320cc-gzip\"",
-      "last_modified": "Tue, 10 Nov 2026 15:30:38 GMT",
+      "etag": "\"0533714b319ec11f6fa90c3a63c927c24-gzip\"",
+      "last_modified": "Wed, 11 Nov 2026 03:07:31 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -457,7 +460,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-10T15:57:30.029Z",
+      "last_fetched": "2026-11-11T03:37:45.141Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
