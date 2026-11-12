@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-11T19:03:18.197Z",
+      "last_fetched": "2026-11-12T01:47:51.531Z",
       "last_epoch": 1794377943000,
       "etag": null,
       "last_modified": null,
@@ -122,19 +122,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-11T19:03:55.158Z",
+      "last_fetched": "2026-11-12T01:48:02.745Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-11T19:03:56.667Z",
-      "last_epoch": 1794383577000,
+      "last_fetched": "2026-11-12T01:48:04.573Z",
+      "last_epoch": 1794387376000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMia0FVX3lxTE9pNHAwT1A3dWZfakxkS3hZZlhCaGxfemlzQldmTlZzejhyeWE5eGNHQTFqX3hjWDBDZEVFeUtFRm5zekFYcXhUbXFsVk14bGVGeXBOWThqQi1YeGdmQVBDTGVvMkJ6dXhEb1F3",
         "CBMi6wFBVV95cUxQdlFrTjdWUHJUT1RodngzWGxsbmllQUdFX3ZBeUZPWTdTWFdCbU1CVHFta0p4VUhyYy1XekUzNzRQOHdwOEFsTXFxWXNMN2hNalpBZlpCdWtFMVZ1dHF0U1pHYmRvMHhEbEZ0Z3VlMDNsc1Vkd1NWUjVGUFoyaVJJa2ppV0Z3UkVYOEFwbkFzTVVtTkx0M1ZrWGxpZVU5d2xmaFZWYk52dTFjdnZkUXhick0zRk9tQ0VUSS1hTFVlWDg3elRPWDV1ckpYQjgzejU4blFKU2plUVE0SWNQNG5EWlZJV2xNc2VtMU9r",
         "CBMi8AFBVV95cUxPTDRLS2JhSTZzWl9XU0NtVU5RZmZaRVExQU52c2UwMzQ2cElYX29QZ2h4bUhuTzFzdmtpMWhTNjVQclVWQXh5QUpfRzQwbEpkeUpFNTNpczlsSXFrUTR4bEdHTFdLbm9rWFpEOXhEQ19Ea2pkMUJRLWV1cmkwc2hyaTFObHJxVUh4b2c3VGdhM1U0ZldETU5CZ1NWbVBmOFdoYWVRVnV5X2FBemdJVEVwemVmaGhQSjZtMTVUUFhHTlRMMGVCdlozQU05bF9tN1pIbFBsUzZ6OFhhbE5fN3FaLTdnczhTcVFuTEFkbnBwUk4",
         "CBMi3gFBVV95cUxONC1lRVNjeWgybkVudm9iLXdPTzAwOS1OM3FJbVF1OUc4OFlfVURCNDhoaXdIaEFMUEVBeXlzaUhaZmpCc0NYaFNBeFgyYm1SeXBseTQ3VVFNQVplRUpIdWExX2xZWWEwd3QxNW1nNHhIUWZRYzF0VlF3ejJLZmFfaXBrdGpZeGtqdzZuWU41NG9VV0MxNzVraG9MODMwRGlMcm1MSm15c3JNc1ZqU0NsM3l6NmdBTF9GV3o1dkYwX0hSX3dReWpaOUpiOFJOR1VmUWtwYnprNTVUSUlBakE",
@@ -433,14 +432,15 @@
         "CBMia0FVX3lxTE9zQjJ6UkQwaHpZNGdYQ2ZXclhpTG1mOWtiWlJjckgtV3VXWll2aGRXZGwwT1RpRERDV1BvQ0VZdW5OMi1Qa0pEREtvdnFHbnFaQ2lyQXR6a2liVGsxbHpBOGNMOXlmdi1QVi1B",
         "CBMi6gFBVV95cUxOZXhjbVF0ck9MVkowQzVkS3RCakZDZVlCX2F5UnY5MnZGbHY4U3I3X3ZPQmlPN1lIdXh2RVpQcG1Cb3J6VF92THgwMXdoWXJGTnFFV0FLQ1VEMWtSUV9iVHNTRWNaSWE4dXRmZS1oNXhiYzJtRXhHYlc2TGUzWVNuRF9DTXUya0h5THBzd2t3TWRYT0xZajBYdHQxNGxVQVp5SDBNMG1ONlExVF9NZmswcEdNQzFYOExEYU5EUDBpYkgxSVdrekhWZ2hlTFhMaVEwWGFZZUF0a3d3UDBfSUdGYlljbmdLMG9xaXc",
         "CBMiywFBVV95cUxPZ2lkOWx3VVF5Z2xXLS1xY0pVN0NwdHZUQW1PeU5uY1RaUGlDbFNLOHR1bjV0NEdRaDJFdDlTelpuZFhQTVg2RnVuRjVXaDdSMWJsWS1EWVJXTjVVZHJqZ1dSVTVRTUtDaWh0ejVmbjVIb3hYejNfRUg0dGlTb2dPamR6aFlJczFTVWgyek5RcklPcjdFa295SG9LbXJQLUl2R1N6Q3REMk43WE5odlFxVmZCYXgyOVBBaXg5MllNd0EtcTdMZFVnbzRmUQ",
-        "CBMimAFBVV95cUxPUG92TjB6V1J5LUFEdy1iUVYxeVIzbVZyS0lzTkdQLVRrMUg3TXBwMUxabHQ2V3ViTnRBanBBc3BXa19qb3ZoSm8xY0VRZmtGdGdxSmVNMUc0VXZLRUJ5ei0zZDV1cU5DSkd1dFFEbzZIUzZOOFlXU0l2SHZIVzczNF9GRUtIRFBwaVVlTl9zUVJjQWxFWnhURw"
+        "CBMimAFBVV95cUxPUG92TjB6V1J5LUFEdy1iUVYxeVIzbVZyS0lzTkdQLVRrMUg3TXBwMUxabHQ2V3ViTnRBanBBc3BXa19qb3ZoSm8xY0VRZmtGdGdxSmVNMUc0VXZLRUJ5ei0zZDV1cU5DSkd1dFFEbzZIUzZOOFlXU0l2SHZIVzczNF9GRUtIRFBwaVVlTl9zUVJjQWxFWnhURw",
+        "CBMi5gFBVV95cUxQNnZ4cUdaTzJrZFdSeFdraUsxbmJwbHhpRnpIT2V4ZnRvNnZ2Z1lsMHAwMFF3YUU5MVVHTTM3NGNadWJlWmROcjdacGpYY003dFFZYzlPOGVVd3BlN2lwMHZYYnl3N0pqVTdTR2EzN3VaaW5Ua3dTeEhxNVNmeDhZVWNiR0xQVVB6Tk5aMzc5NXFONHpTLWZtQnA0dzRZeE51MTdZQlpLQVVKQTNJREdieWp1bmVGUHZDcGZwM2FZVDFBZ3ZzcnlneElSRTRaMFQyMkVzVTdKQTVHOXh1S0d3aXJSRDhyd9IB6wFBVV95cUxPRTFsMU5qdzZUR0N3aTdLWjdZV0VUdG04MTMxUVhkR01iWkRjak5qdDgtUE85cTJSbno3VnJIaEVxX1Y1OUJ4ajNobHpROHZJNjBOSC1qNUhPMFdMdTM0cDdzdGhHRFAxSFgtN0xTNW5JNU9RX0lFMHJEeEZBbFg4aWxXOXNFRzBTeHhKUXhsR1NUdU5ZVC1RVWFaZ0ZtWVhPdUVGVV9jbjVfTDEzZVNSZ29lVnEzQnM3YjJCdDlGVk5DU0JYcE1DOGxpRVpFcThBNVlXV1JBRDNJcnctNnVOXzBiNC1HeFpOQnBv"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-11T19:03:57.014Z",
+      "last_fetched": "2026-11-12T01:48:04.595Z",
       "last_epoch": 1794415236000,
-      "etag": "\"0be706417c769e385bbfa90281b5c75ea-gzip\"",
-      "last_modified": "Wed, 11 Nov 2026 18:52:08 GMT",
+      "etag": "\"0071bbc418ee1b28f2d20a1201c9c686a-gzip\"",
+      "last_modified": "Thu, 12 Nov 2026 01:33:32 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/roadways/nhai-debars-theme-engineering-services-ishita-info-solutions-from-bidding-for-future-road-projects/articleshow/134415654.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/engineers-india-lands-450-million-dangote-deal-for-mega-kenya-refinery/articleshow/134414700.cms",
@@ -745,7 +745,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-11T19:03:57.104Z",
+      "last_fetched": "2026-11-12T01:48:04.680Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

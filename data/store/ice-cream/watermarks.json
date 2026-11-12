@@ -1,12 +1,11 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-11T18:59:49.469Z",
-      "last_epoch": 1794421008000,
+      "last_fetched": "2026-11-12T01:44:30.969Z",
+      "last_epoch": 1794426071000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiuwFBVV95cUxNNDNCMEVsNmJvQlktZk9OTV9ZMnAxbmZfTGMtTGdrOTZjQW9PMnB3RU9hdkU0UWdjNUhEcTRuaWt5czBmQk5MQzdoSVBkM0FBeHRLZktDRXZtTm1iNncxbENyZ2RVOW8xbG02R0ltV05IdE1uanJpWXdYUDNhV3psYUttWHV1NlB5YmhQVUJHUUtQcElleVBVSlNXUVREY1ZpMDIwUEJwNHlUOWhKTHFBQ2hRd1ZoaTJsUU0w",
         "CBMirAFBVV95cUxNaEFUNWpjVHlkcGR6RVpOZEVNOWpFSnFraE5BV3picTUyUjZwb1kybGpRbU04Zi0xZDNoeFVkTnR6NENBelAyOE9FOGdkNkZQS21wNkZNdWFxQzVCdzdKRTNrQ3RzSVBENDRUUDBEN3pqN1Y4LS1COTBjWXJydTdFRWVaZFpfNkM4aUtKZVQxclVKTkM4VVd6c1phMWhVakw5RmtqQXBlRVNkV0tm",
         "CBMi2AFBVV95cUxNa2w0QU9nZjBZd0RsLVNtRjJZaGtuNmVEbFM5MGRvYjRnc25jRjZkeUtmbjlmaF83WWh6emlCTnNMa04zRHFCeDcxY0llTHBaQ2cycEg5LUR0ekRWSGl2WHpkY0RwcGE1TVo5NUhMMG9EX0JvWmhGN3dPdl9oQVFIeVJHWUQ1SVVXbDRNVHAyRW9YdHZGdl9ycWxlZHYxQjZ4R050bWlDWEZGWkJKdUF0eWFwdmVTbU1FOUtPQjJYd0RkNEdiREZ5QVhsVzg1OGVwelZRWnRveEw",
         "CBMivgFBVV95cUxQclA3TTd2UlJ2bVRJNjdpRWdJYlhpLXNWaFB2MGY1S0lzYk40TTNPdmotZUdweVpUQXpINHNYR1pyd0JfODNJb29mdEZtS29QRmlIUy1JR2Flc3pHYUJubldjUk41bl9EM1R4MUJlb1VtdzZ2NHJVNVNraGlOWE10OXBTSnAyLVl0Y0JlZ3JZdm53UE1zb2RMREFoVTZOOXBUcVdGbG9UdWFPYlo5d2pOSl9GWWVlZm9YUFBrMjFR",
@@ -305,18 +304,19 @@
         "CBMiYkFVX3lxTE1XVkFIYi1rZV9QNnZkWko5NVM1WXppWE1wS2MtdlZwSjJSQUxiVFFpaFJJalNmdDRvNnFXX0FCLUE4aTlUV1B2RmkwanI2NTdPMzMyd3k1cEhIWjY3NzAybEFn",
         "CBMikAFBVV95cUxPd2Zlemw1OV9hNGRQelNvMFdsT2p2Ymt2YUMxMHloWXo4NFBjYnBfZklsZ2FCakZpYUMyMEhiT0p1eFNXQTNsS3h4d1ctdEs3aF9HbzZjVzhxTkN6aldGVGVFUHJDM2JmX1EyV0pWN2V0MGxTTFp2bUdjZ25VSjNjTFNBcGNEeUgzdFE1LW9PVm8",
         "CBMilgFBVV95cUxNSncyT0pHUlhYbi1VNmhpOUIwank3Y1FMNHNwT0o2amdWaWpQdDZmVFNfS29sd0R3b2daNGk1VFNnMGhJZVhlY0k3Z25TWC05RFgyeUJfQ0hIZVFuVWFiSWpxWUk4RlZVSm5LUG9rQ1lDSVVZdFhNSm9hbUFVaXVaQ0RsSU9iMUJRZzFscjhDVTlXTkpXYVE",
-        "CBMia0FVX3lxTE9IZlg1ZzF5R242eTl3WHlYUkdDcjE4Nkw1NnBpVkctWi1lemV6Wkp6U0pteTZESXkzQTBzUndjcC1PWkVxY1pQSVQycGZIT1pJbVZvYWlYbWEtdlRHUGpQMExlaTRtVUhJTUdr"
+        "CBMia0FVX3lxTE9IZlg1ZzF5R242eTl3WHlYUkdDcjE4Nkw1NnBpVkctWi1lemV6Wkp6U0pteTZESXkzQTBzUndjcC1PWkVxY1pQSVQycGZIT1pJbVZvYWlYbWEtdlRHUGpQMExlaTRtVUhJTUdr",
+        "CBMixAFBVV95cUxORjRaeFkwOXhxSW1zakV5bmFWNEZiSExjTEEwSkdCeVNKREhoaTR2QU9DUS1NeDJqN25XS2JRN0JNVGVnSXVydVQ0ZVpLYjd5NWFyUngtelNWRFNJMFdKeWtYQjhGMHk1TjRDUHctRXZLT29Cam82Rl9jQ05hU1QwWWRKa0x6MUJ0U01uTjdvbzNnb1lOaUNfZnNsV3FwLXNQNFcwV0JBU0J6M1RHYzQ4ZUd1ZUNLRTdCUVNqdGo2OHJtd1Y5"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-11T19:00:10.489Z",
+      "last_fetched": "2026-11-12T01:45:02.895Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-11T19:00:11.760Z",
+      "last_fetched": "2026-11-12T01:45:04.389Z",
       "last_epoch": 1794355495000,
       "etag": null,
       "last_modified": null,
@@ -624,10 +624,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-11T19:00:11.822Z",
+      "last_fetched": "2026-11-12T01:45:04.449Z",
       "last_epoch": 1794376647000,
-      "etag": "\"0be706417c769e385bbfa90281b5c75ea-gzip\"",
-      "last_modified": "Wed, 11 Nov 2026 18:52:08 GMT",
+      "etag": "\"0071bbc418ee1b28f2d20a1201c9c686a-gzip\"",
+      "last_modified": "Thu, 12 Nov 2026 01:33:32 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/ambanis-reliance-enters-ice-cream-market-with-launch-of-bombay-creamery/articleshow/133678139.cms",
@@ -644,7 +644,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-11T19:00:11.886Z",
+      "last_fetched": "2026-11-12T01:45:04.551Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

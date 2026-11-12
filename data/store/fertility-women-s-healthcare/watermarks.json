@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-11T19:02:01.366Z",
+      "last_fetched": "2026-11-12T01:46:35.765Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-11T19:02:37.875Z",
+      "last_fetched": "2026-11-12T01:47:11.486Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-11T19:02:39.190Z",
-      "last_epoch": 1794316127000,
+      "last_fetched": "2026-11-12T01:47:13.044Z",
+      "last_epoch": 1794447666000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMitAFBVV95cUxNZ2N2eU43Wk80WG9uN05SbkgyTWtvSENaTDF2N0VyYkhXSEw2Ti1Oa2JwZkFMLXJFbjhka3VLNFdXZjczQ1ZvT1pYa2x3bWJudWNlMUNNUEJSb3FkTERFWnBXTXZPdEN3Z0puVl96dFlfVXpSM0luTHJ1SVBkT3FUeUdrbVcyakgtcjJWdklOQ1pacjRfYW5zMU5feWJWZnVVRlM2QkpDZVlkbEFuTFpla05JMEY",
-        "CBMiiwJBVV95cUxNcVExdDY3a2p0QkRPWE95MHpkT3hPSExyVkp3SHlmbUxCaHNUYVE3bEl2OG5hWVdPMHJteVJvU1djckxaSDN3ZUgtSmktSUZzQTczZVFDQlR0Q0cwLXQwUzcyWjlQWHgwVndndWowX0phU2JKdlkzQXp0NkVvam11aklXMVRST0xoNU4weV9fZ0JLNE1OcUpuOXJnM3M0aTFQcWZZZ2lIanp6cmIyQUxYNnFNTEZTMFZZdWZBRW1Qay1yLWtZY2x6UjNlelFadWVaVS1xRUVFZHRpaUdORWJDcVRfNVM5cmk0WlVqT1dFci1tYnZwQ01IbjMzbTJoVkpINUNwakUyOVBWaGc",
         "CBMi8AFBVV95cUxOMHNzN0pWX0FoekptSDlibmxWdFg1dmFaZnBwWVJYM292b0xxbHBEZFNKS2RIT092YUYwbm9zRmRRQVZRT1FOQU9EZXJ1cG1xRFZERTRWOFpKLXZrcDJHeEU0LTU3NG1iX3hDelVsbHEyMS12Q1RFWGlkZ0c4V1k2NWFURWZSNXFTSjhFU2tHTnBOY0cwQ0FNdERNQzhxWkFScTlmeklmb09WdWQ4TmF3dm10RFA1Vzk2YmxmU3k4N1FvZV9kODd6QmNCQ1ZYOUEtM01rOGNwMnpCeFN6em0tMWJBdlpxU3lpeENNTmZaV1c",
         "CBMi0gFBVV95cUxQOTRHV0FqYjRQY25rQlpMZEs5M2Z6clZxTElwVDVhd0FqUkF4TkVpWEZZb1B2Um0tYmM3cUdzZWNmWFZnYi1yWkVMdDZOOE1qVnFfYUh6ZWVuaUk2Rk5VRTdKNGVLWWJVczBYaVBfRW5RdkhMMTNaYVMtdWpvVkh2WFJCbUxaaURURFNOdEVfZV9UQmFyWTVIZ0V2MU10a3dfNW11cW9Qa1lFOE4tTXJPSU5Xb3ZwTUZFeVc0VlRwMFM1Z3hJaHp1eWR1M0E4ZWdyTkHSAdgBQVVfeXFMTlQzNHRkSHZPWGxNR09wX2lkTERmelVpdUNEcTg4RDdSSF9QWlpubTFpd05MS0Y1VHdaVVVvLVlIOVU2SDB4NGdYemUwcGNMb1AxOHN1SUFXYzdZZHR1RHJZcExvVjdSeU9FY2praHVtQ3RGZlhYZXdraEF3dVI4N2VXUERTdDM3TmtPWlFRYVFJcGRITUEyN09hQTBmYnQzSTdMUGh2R1ppdDJxc3ZzbDNLVElLVDZnZUwtVkZTbXppWmlEbkY3WWZtb24tZlF0eVRJTzBZalM2",
         "CBMirAFBVV95cUxPMEVjWmNraXRLZHJVWHdEQWhsVVNsSnlFRkZEZzZObm9PdnNrTmk4ekl6aTlERENObzBaMmgwY2tNSl9iV2g1blpJZGtiT01wMm9Wb2ZOelozTDJXMG4wbkVIaDlqbDFRaGJ0RGI0X0thLU9SaWRFQTJ3TjlHUDliaXBURVkta2RGTEppTE03SHVQR21tVWpZc2o2eFN0MlRtZDMzeEx1d0VMQlN3",
@@ -319,14 +317,16 @@
         "CBMisAFBVV95cUxNZ2pnOTZsZHpEWjZQbWdMV2l2NHdFUTY0bFlDQVVydkp5eFJFOHRkRHpiOUtGdWtQUTBfMExXZmJsaXJjczgwc0x2VkVtR1FhaUVKSEhTZmtQcmFfWXF5Q3BHc1k5T2cyVnhoMlZhQVNDVWNIcGg1Y1poX0VxVHNnckdYTDFVSllmOE9zTV9ic2kwTk9JUEVSOVBrdG9wTmlKQnB2dGRJWVBtZW5NQ3pvQdIBtwFBVV95cUxNMm02c3RVVWFyd0lUV2Zwa3czVTdIdDdRVC1rMllRZmVjTWVsVDNpYnZKUnBJUHlpaFZ4RHI0dkJqWGdjOWlXNWlqQkx3RW03ZmZ6WnlXTFJLWFhlcDhQM0FxOHFnWWNfSDlSOV9lUlhUd0pEcmYxVWNhWmJaVDZ3VUhUQVRndHp4S2llY1U0YkI0OHZvN3BQWlhZWDlFQURWd3BoZy1DYkpGbGFBNVVFRnNkWVg3R1k",
         "CBMiuwFBVV95cUxQMGVwZnRuQmk1UUFnMlh1ZVNtYjhIU3ZDdzB1Z2hlZDVOdzJiYkx5dldGaXZHOWRqUUc1NkhwU0tJSnp5NzdGWnF6bGRwVE9JZmd2RTNJT2MtbVdJSmNrWlpVVmxUMklJODd2a0lqVVhUTV8wYS1YdXpRX0cxeW0tYWR0YlR1X3pnYWxSRzNEeVdabFVNZmJsUEZ5UE1GbUhlbTdWOGdTQjRhWWZCTzdGVHVkeHRNektDWWxB",
         "CBMiogJBVV95cUxPTHNVeUl3X1hVQTUzV1pvSDRBRjd4Z2RiOXRfa09CN0ZEN1Q5QUVMcG1mQkVXWHlxbHFkTEdWN3h6NDFMX2NWSFZZeTdNeGlWRTZxcXZpSTVrcDBuckJsbEczN29xZXhEeFRZdW1Zb1dSNXh0WGIzQzJaRkZ4YkpYcFBaWnRuZ1dobEUxVHhiczA1N2lqYXQ1dFFTdVBrcFY0cTMxeHNOaHEtTFBpRWZRSFBOZTU1NDViVEwxR21ySkE5LVNraFdHdnpwNmxTSXFkcV93NDFIbS0xT0wxUk53NnVsZkZhdjAyWlc5S1VmS3NoYzI5ZHE5NDRPM2ZURGszYUFQWFJMR0hoQldwNnBaRGRaWEN3RHhTSHVVRTFrWnZiUQ",
-        "CBMirgFBVV95cUxQQTRZU1NDLTR6czZhZzhpUnJoa3pweWVwNU1pUlRjRTZtemw2M0FvdVlPVXQxUHpHTGVTVmNXY0VPb0lISUw1ZXVVZHBRMnpicTE4cHlFTlF4bk1CanlmbVFYckRFbDlrakdXQjE2SmEyM1RjM1N2dXlZLXBMR3o0ZEVnM0pDZExpV0pMN3U5eEF1N0k4SGJVMUZ3RDhaNkVIaW9xTHViRVpJTGp6b3c"
+        "CBMirgFBVV95cUxQQTRZU1NDLTR6czZhZzhpUnJoa3pweWVwNU1pUlRjRTZtemw2M0FvdVlPVXQxUHpHTGVTVmNXY0VPb0lISUw1ZXVVZHBRMnpicTE4cHlFTlF4bk1CanlmbVFYckRFbDlrakdXQjE2SmEyM1RjM1N2dXlZLXBMR3o0ZEVnM0pDZExpV0pMN3U5eEF1N0k4SGJVMUZ3RDhaNkVIaW9xTHViRVpJTGp6b3c",
+        "CBMivwFBVV95cUxOUDRKVDVGQ09RUUFxZjZaNHoyVElXY0VvdEpZSFlFbTZxQnZJeHFXZkVUWC14bXRUcEVKSENDaXpiZzR5cDBlRmlqM3A2djJqVnJMdVRBYVQ2THlTeFNHbndCNFNqRFRyV2lFdVpXRnZwRVNXVzB1dlNXNkMyZkpmUllncXF5U01ObkJTa1JTbGQxN2tFQU92Sml0UFp1Ynh3RXFsMUpDanpnWXJoTEpyYzltS2VLbW15enpmT3VCZw",
+        "CBMioAFBVV95cUxOd1R3QjV6VWV5VS1WMEt6cDdWcE9nQWpDTlRBckdlalprVm05TjRTaE5laS1JZjBTUlJMSndPTUcwVjR4Wko2cVhzVmtOcnBlRUxIOElxREFZaWgyLXlCSTlKVEd6bGQzSl8tT25sUnF5QXpNcnYwd1QySTdjQnc5Z25aMVZwcnQzZHpIZzVjTTBhNnE4SUxwTnEtcDR5amlY"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-11T19:02:39.254Z",
+      "last_fetched": "2026-11-12T01:47:13.127Z",
       "last_epoch": 1794418422000,
-      "etag": "\"0cf1437fc482b3bcc7752e681caeae8d3-gzip\"",
-      "last_modified": "Wed, 11 Nov 2026 18:36:06 GMT",
+      "etag": "\"0071bbc418ee1b28f2d20a1201c9c686a-gzip\"",
+      "last_modified": "Thu, 12 Nov 2026 01:33:32 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/medanta-operator-global-health-buys-ghaziabad-land-for-rs-166-cr-to-build-350-bed-hospital/articleshow/134564180.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/sc-upholds-hc-order-clarifies-scope-of-fortis-forensic-audit/articleshow/134573627.cms",
@@ -631,7 +631,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-11T19:02:39.578Z",
+      "last_fetched": "2026-11-12T01:47:13.208Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
