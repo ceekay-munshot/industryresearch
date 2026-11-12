@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-12T01:45:43.443Z",
+      "last_fetched": "2026-11-12T12:00:13.815Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-12T01:46:20.409Z",
+      "last_fetched": "2026-11-12T12:00:48.294Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-12T01:46:21.884Z",
-      "last_epoch": 1794429256000,
+      "last_fetched": "2026-11-12T12:00:49.447Z",
+      "last_epoch": 1794481561000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -286,14 +286,23 @@
         "CBMizwFBVV95cUxPd1Y1eVJ5ck1ZS1FUTGhXdy1ma0hNa21VNTNiNDl2MnVPZnhPNEZXY3A1ZUhvdXlVQ2xXSnhqQ0NRTFphZDlmcDBOZzBTaGV0b2NWbjktQVIwYkhXTUdHZlY5bVVTUnhYOXdyRHVwZ0MtWmFuZGVBaTN5MXZtem1TeUhUTVk5aHVsNWdVS3RjXzJZb3JoQ2Nuc2NJeHZpNjFTeUl6N1hJMnJGeHY0dENpdzNWMHRpQVFaLWdFbE5HelV4OEFuczdSNllKelhMOFE",
         "CBMitAFBVV95cUxONzQwY0owamkwNk1FVjkzczdtTE43T2JGYmJtanVmdlk3OE5Hb2RXM01uSFU1REJ4NTdlb2RKNTVMVGhtbDhsZUR6WF83eGxpUnlmSHpSajBxZ3N2eU80TzRhZG5tNkFQYkZkVTJPc05LMmhHR2dRYlp4NHY0R3hlaXlrSXZ5SkNsbTlLT28zNHNocWxoblBuZ0tFdk1DWVNScXlFVG1kQ0R0OUZnbWRwYmc0N04",
         "CBMinAFBVV95cUxQVTJNajE2X1BzU1pxLUp1VGFiTXlmRTV3b2pVYm5rNXd2Z0Jwdk9tWXhpZk02Sk9vb0NDWmRfTG9veHJvY0RrQ0pwSDNybzZpRTg5UXBDelB5TEo3c29kbHdVLXcwWjdMaGZYUE50MVRNLUF6SHNfeTFKelFzRGg4TlZlUnF6eVZGcGpHLUxQS0xtZW1tUnJaMnExWHc",
-        "CBMi2wFBVV95cUxNQmpqcVNZUXZZUTJmRnR4b0xjNl9keUppdVNKOFluQlpqTDc3VVFPeTdBZmJ1TVA0WmhwUnJMNV9hTTJpOHIzYmd2TXQ2SjhFRmVBQXplbm9QaG8zX2ZLYmpMX0FFRFkxdlZWTGVZYU1tclNpamRpbk43clQzOXNONHNRSXg4ZGNQOG4yY1o2dGp6YThURi1yUkN4dWFXMmFBYnVXV01kTkdta2hYNGNacWJaUElTdnZrWUNPNWJWb2hpNVozYXY5ZUhrX1BjRWQyaG5vZTJCdUFlSmc"
+        "CBMi2wFBVV95cUxNQmpqcVNZUXZZUTJmRnR4b0xjNl9keUppdVNKOFluQlpqTDc3VVFPeTdBZmJ1TVA0WmhwUnJMNV9hTTJpOHIzYmd2TXQ2SjhFRmVBQXplbm9QaG8zX2ZLYmpMX0FFRFkxdlZWTGVZYU1tclNpamRpbk43clQzOXNONHNRSXg4ZGNQOG4yY1o2dGp6YThURi1yUkN4dWFXMmFBYnVXV01kTkdta2hYNGNacWJaUElTdnZrWUNPNWJWb2hpNVozYXY5ZUhrX1BjRWQyaG5vZTJCdUFlSmc",
+        "CBMi1wFBVV95cUxOLWFybUsyeGg2MHBKaDVaNWV5YUYwYlBBMEdLbEhsRC16M0RjdEJ6aEI1OGRWczM4bXhYblZzNnhCNUJkdUdjUEQtbXB0enpkNXVqeVJmdlMzRjRVOUNoNkxsOHVrVUpNNFlwdlpqMVlyazBJOXVfVDdXOWJoS3VZTGNqRVZ1LUM3dmlEQ2RrMC1WRTFOTDJnUEZVcWhrSDlobVl6T3E0Q1hWSmFnVnBpWk4xaVRBQmw5UFVyTXhYckxoMkRmcDVmMHVhb1lxMWJINHJ0TGV4MA",
+        "CBMizwFBVV95cUxOU2hoeFpnQkFYUU9sMWctOTNZTzVTLUhYVGhWUmd4bGtkU09pZ0h1ZDNKbDRXMXBrb3BRTHRldGE4d19hN05ZbHJfZFBkTG1Dc0E0c2NWeFVyYzRaMnlJc2VUbFJzaW9KcmFVeFdXRVRBTXFJSjlQY3huZEFLd25UbXpsUk95NlN2Q2NuM2ZVZklvUkthdUgzQWRBaDZaNGlBWWo3eEl1R0JUc2ZJRS1CNU5NQ3VIRkpnQ1Z2UUV5T1k3Xzd0VDVIQ09MdTNmeUk",
+        "CBMiuAJBVV95cUxPTjA3MUg0VDNrQ0J6TG1QcVYwN19rdHFGX2puejNiblVDU0V5QmV6MkpZbmZhblM0amhwTjRMNi1FZDdia0dqdEVsdExia19wcGJvNURGOXJTUnkyUEljajJWWlA1bDlIc191WHMzcVJtZTRGMlVOLVlyMjBDc3d2UV9qSkg5Rkl6QlU5V3ppSnZZRUllRnhtVXAwM2Y3WVRBZWJKUGtuVVREMWI3MVAwM3E2M0w1X3NfNElLN0wtYmRIUHpiMW5xNU9rbm5YWFFBa2hRX2sxVWRQSHYxQnFJVjFZemZhZGNya0dXc3RVbm9td0paVGJiaDRZSWFzYlpvSi1ZSThncVNpYVBHb04zZ1hxS0ZnR2FCRDVNZzBKZHRKLXc1M25STFBtSlB4R3BsV1NCSy1oc1k",
+        "CBMi8wFBVV95cUxOdl9PczhFUDhuWnlaOEliaTV0MFJyUHE0d1drbVRQR2p5aTBCb0ZWZ093YVBtS3l1bl9HVzQwbWRDUllyRTlyVXRVYzF4aE5hQUFNTk05VmllZTFfZDdrLVJfV0RlbHBWYXJzTm9HLTlDbVFiQm9wdGJYUFpjRkZmYjlUXzBwbFgxOXpBMWQ1X0NNNTBRZDFTRHdBY0xqdldjamVPYnZmRG9jZk1oV0lXUmEwd3pBdG9vRVRLcGdSSjZ1QXhEaHRJa1J0akdxM3RoUUJYOEd3UHBKLURpZUo4aks1NFlZQmVMTFBOcUY1aG1xWjg",
+        "CBMiqwFBVV95cUxOZ3hocFJUcjh4RW5aMGFiSVVZTFpTRUJEZXBuNW5oRU14STF3SXlkV3pNZmJqQXlCRy1DN3EzRmlVZFI4SDFOVzNvWmRiMjdWWk5JQmp4b0FlMEI3LVhBZjBrMXZPTWlsX2FQenJ5QWdfY3kyLWRkMkw1NXRfclFFZjdWVWgtOThLSTVmc0hmdUtGTGJDYWhoV2V0eFFhakJtbFVmcEJyOFFFeVU",
+        "CBMi4gFBVV95cUxPUHdjSm94TFdXUGVwdWx4MGpDc2QtYjVpVEk3RHNqRmhBT2ZtR1JHeHFkT1hGTFduU1BMdUhVNHdyaHlzOVdOS1d2dC1jZFM0anhjM1JoT25wRF9qQVdfa0ZwR3VzS1AwVEF2TFd2VVNVdEJHWW5xR0dEcGNQN1cwaG5Tb25qeXRaWGxSZXdRZmxYZ3ZUa2JGakZiQmt0WXR6YW40WkdqbXhnNUtLYng3bFpLRzVBcVBRYzlCWlNjRW82T08xYklQT2J4M2RLaWtabV90Zk1VeE5jRlI1dlRZeFVR",
+        "CBMi0wFBVV95cUxOVS1zSUFqdFQ0R3FLeWhZak1vZkVhajViaV9MREJHMDg2ZnlEX1B1RTlBbUtqMklKd3R4M0NxTzNpNnhlVzQyYlJncnB3OGlwZE10cEx1VmwxcXhLMWhpa2MyZmx2TFpJc2plS2ZpbWFsSER1SzE5U3RBQ2VZdGdNUkN6LW9TV09FemNqSUNGNVVSVlFoXzBVbTVFcm9YVDUwTk5YOWVNa1lBNV9RWkNncEVCV3A5T3Q0Y3Q5ZElMRzM1LWV0c0FOVjloamo1bGU1ZGhJ",
+        "CBMiowFBVV95cUxPMERhcTlUZDdmZjRQeDZ6Rm9uSy0yVUlTRTc0bzJTOHAtYjhFUm45QS1oSzRKTlc3M3RneUJSc05XNzJaVXZhZEFiUlVNRWQ0SFlCVndJSnVSUmdYRnBUMm12Yi1rQ0pLLUZUd2FCblJXV1ZDb3NUWUZoOWdtNTM1VDNYSVlRaHBCVkZMcjBRNHp1R2o3cFNEbFVFRFdqUWI0Uk9Z",
+        "CBMiwwFBVV95cUxOdFIyUlZUTkc5NG5WOWZ4bnBKLUJsYlVTVkhfX2NNQVZxamNvWTFwVHZPU2dFYXBOaXhQSDdTLUpuSEVtcUoxdFU1UExfT25HQzQzYzdyY1lsNFdiWVJkN2xVQW15bm4tM0h0M2MyaUY2RnkwaTk0aUI2azEwLW1vclZuZy1xdTFYZ0x0QWJsaENOTEw0djRtbDFrWXUweXB0cmYwUVNDZ24wTnVYdlFFTHpxYmtnMGhULXZ5d1ktYnFMNE0"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-12T01:46:22.029Z",
-      "last_epoch": 1794388486000,
-      "etag": "\"0071bbc418ee1b28f2d20a1201c9c686a-gzip\"",
-      "last_modified": "Thu, 12 Nov 2026 01:33:32 GMT",
+      "last_fetched": "2026-11-12T12:00:49.505Z",
+      "last_epoch": 1794469336000,
+      "etag": "\"098ccf6de98f95c0ff95592c072df2c20-gzip\"",
+      "last_modified": "Thu, 12 Nov 2026 11:43:23 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -462,18 +471,19 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/global-insurance-cover-may-help-rise-medical-tourism-apollo-hospitals-sangita-reddy/articleshow/135667920.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/cci-clears-advent-internationals-rs-3150-crore-investment-in-yatharth-hospital/articleshow/135713222.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/deepinder-goyals-900-temple-wearable-faces-scrutiny-over-brain-blood-flow-claims/articleshow/135731983.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/provisional-registration-framework-proposed-for-allied-healthcare-professionals/articleshow/135730967.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/provisional-registration-framework-proposed-for-allied-healthcare-professionals/articleshow/135730967.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/zydus-lifesciences-completes-5050-jv-transaction-with-sunshine-healthcare-lanka/articleshow/135760462.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-12T01:46:22.389Z",
+      "last_fetched": "2026-11-12T12:00:49.843Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-11T11:34:45.300Z",
+      "last_fetched": "2026-11-12T12:00:50.171Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
