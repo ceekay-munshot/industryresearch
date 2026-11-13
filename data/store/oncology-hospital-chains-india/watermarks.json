@@ -1,28 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-13T11:45:26.163Z",
+      "last_fetched": "2026-11-13T18:57:48.587Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-13T11:46:01.896Z",
+      "last_fetched": "2026-11-13T18:57:56.692Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-13T11:46:03.179Z",
-      "last_epoch": 1794554820000,
+      "last_fetched": "2026-11-13T18:57:58.006Z",
+      "last_epoch": 1794590673000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMisAFBVV95cUxQanQ5OWZIbnR3dGdpS1NpVkh3YUFxNUJwM0V5cGYwMDlsZEwyMENRbjk1M3YtTGgxSGcwUGNTQjdDRW91UjczWVBuRnpNajF5NFBHOW5TbEdPaXM2dnptU2dzQkRWa0dXOVV6UlVSRTdWVVBLeGwyS2taRk01N1FqVVNBdHg1OUFMSGVlXzUxSC1idDJhUGkycllmakdnUlNWV19YVnR6ZEJsdW15cUNPOdIBuAFBVV95cUxNRUpSUVZ6QkIwSTVydzI2N2VHMk9vckhtcmxQczNEMHN0M3czUWNCQ0ZPUkJ6ai1rb29rdkJUZlNhaG81eVZzbUd0QjYzOEZQTGlKdHJtM1k4dnJ4OGxJVGdGcmcxMUx2U0pIZDhfMWpNaF9DRl9DVm5UWlVrZ2JvdzVINE5PdFJleGt1Q0R2c1FibUlqMFBjamM0QmtnWk5lbkJXb01zYUpRWElKWTR0RGx1dkZEb0VQ",
-        "CBMiowFBVV95cUxOU051YU1kT0FwWjNrMFBpRzlEY1cxdEFUeWxLeHdaN1BYWnJlZGUxbUtOV2tGSzdsbmpiVjRDQVdabU5lNmNBN2RObjhuWDV0NVRweXd6LWFhYXEyemF2aWlrYVkwb2NNbnRWdkJDVWdQTUJJZml6V05vbmlHNlh5dUdHZlFmdlBuc2s2R3JOek1fZGE5cHpPV0dOX2FqV0U0cXpn",
-        "CBMipwJBVV95cUxNOTRpRkZFdlliWmRCdUpHSjhNLVE1TkQxTk1DT3k5QmdyM1hybmZzRnFFSnMzMWx1dG1wSjlBWTFOS3I4Vm9ReUtuUDFyaTRIc1RIQnN5aEt0MHhPWkUxak1Kb1Q4eUJpbGNZdFBBY2d2ZUpQR2xzM2hrX2htcjNjSTYtV25pZDBZWTN0SWxUNUZzMXVnSHh3NXdLTDNJTnZGdk1qaUpLay0wM3RCMlJ4NGFwckVfclFUOHFyTTVnRDFEaDhKQkU1U1ZYRmJseWtWeklwUmJTcmRTcHQtUXVJZV9iLVN5MFZTTjNKUWFDTV85LVRPNU54MXNzMTNvRWppRktQZmY5NlRmeTJZRUFiVFBTWU8tODBIdWUzZ29LeFZkQi1UODFF0gGnAkFVX3lxTE05NGlGRkV2WWJaZEJ1SkdKOE0tUTVORDFOTUNPeTlCZ3IzWHJuZnNGcUVKczMxbHV0bXBKOUFZMU5LcjhWb1F5S25QMXJpNEhzVEhCc3loS3QweE9aRTFqTUpvVDh5QmlsY1l0UEFjZ3ZlSlBHbHMzaGtfaG1yM2NJNi1XbmlkMFlZM3RJbFQ1RnMxdWdIeHc1d0tMM0lOdkZ2TWppSktrLTAzdEIyUng0YXByRV9yUVQ4cXJNNWdEMURoOEpCRTVTVlhGYmx5a1Z6SXBSYlNyZFNwdC1RdUllX2ItU3kwVlNOM0pRYUNNXzktVE81Tngxc3MxM29FamlGS1BmZjk2VGZ5MllFQWJUUFNZTy04MEh1ZTNnb0t4VmRCLVQ4MUU",
         "CBMimAFBVV95cUxQWXBGUnU0ZHNwX0tyTXBNZjFHVElSVm5mQXVkVGw3ZDFwWnFFYU9fRjFQSlE3MWRRTkJORzNUZU5xZkxzc2ttZy1UWWVYcGJhdGZSaklDSGl2bGZDVldQMzdWOTh3QWhFR0pkckR4ZzdCMnNUdG1WQ2FicXhteTBTVEFzVzlyM3kxSW5sWlJYckZ1MGdFS3MxRQ",
         "CBMinAFBVV95cUxNcVpBek1FVUV2dWR5VFJTRVpvd0VkZDEwRktfZlpmcWFyWV9tVG84S3BBY1JqcDZVV0w2UHR1aHVtZUpTbjNHWk5LTnNlZ3BtbDE4LV9lYWlTY2dPbmtFMkxfUmR6cmFNdDIxT21PbVIzRHhOZ2RRMjBENUM1V0JTN3lpemJsbEVRYVpIbmt6dGRObVFnQnpTc1hBQ2Q",
         "CBMisAFBVV95cUxNejd3bTBIcVZaWlhBQzg0TzFQUkhSQjNxbDh2cGt4N3Q2T2JWdnl5elRnR1pyc2MxbkJ0S2xwaUFwQkduVzNVU0d4WkI5N0FwTEFWTElzQURHcTR6REM3RndFUDZDOHRSMHBoYXkyOEhyT3lfelBNeHkyd3RmUDEyNHFFRnJFZ3VqNlZJaE12ZmI5Xzd6Y3FESk5ySDdnbnBnYTZKcnN5QjhBSGtDd3dhZQ",
@@ -319,16 +316,18 @@
         "CBMiXEFVX3lxTE1zWUgzc1Nzbk04WEYyZUlvaUdDTWtheFRuekhKNGhwbHlDNTR6ZjlRVzNON2RheTdqX2oxZ3FGTmNycTZTeWRsMlVuaUVaVE94UlgwdEpqNFpjbngt",
         "CBMivwFBVV95cUxQdjJGT1pUR3MwQmg5c2VIaUVWdi1lN1VmWmRQcS00WFBlWk5GQUtkbXdJa0FvbmRzMVEzWW5xRW1WdnFaVmdLSDhnLXRiZjJvSTVkdi0tVGJ5aDJCUUUyeUx5bmtzTF9EV0FQQS1vUW5oVUpLZXo4dXZoZHdkb3hWSDBRNjF0bDJBUnZPeVN0UkQ5R0l2QldQcHpaTnRObEszNF9Qbl9kVjNtNmxNaG5ScGEyQjAwam5uaVBIQ05JWdIBzAFBVV95cUxPUDlDcmhsZXVnYzF6YmdXdVh6bGpNbFZtT09TU3M3R3JpNFpJTC1XTlJaV3prZGhaaGp3MWFpenU1b1FJLXZCZ2tjcWJaX21ya2x5WXBtNzZwaW1xN3RWbklqaWxEYkRCaDJUU20yWmx5aTRoNjZRQk00TWUzajE5dW9zMTItMDFkby1wYkZ0R2FtcHdIMVZhUlRwaW9GeEJxd1I4ME9KbTlaajBIOVB6MmlESjNJNHRIbm5MeHV2cWlDN1hpV0FyNWpCdGk",
         "CBMi0gFBVV95cUxNU1dkNVVHVVFNYjRQY0dTNTdGV25sQjFlVVBLNGwtcTlxaHdGN3dJN29hYXFFQ0hiejB3WDZOVGZzdGhCY2tjSVJIU1Mtb05xa3VHYTZuS2pvVzFwYzVoMXhIS2llRndEYTlEbkx6RnZPR2dKcVAxS0JtVklSWmxZWEJQa3djcU5Ka0FNem9DajJpRkhOMzZpaExlYTVuUGtEallDM2JoeDdWN2psVm9va2xCV1hmZ1V2SWFHV3Ria1lxYmFpTDVFTjlOa0ZYd3ZGZmc",
-        "CBMiwAFBVV95cUxPeHBSV3FHNm1YengzdHdCU0JHMGUySnA5eUtQX1cxeHlCWTc0bndybnRRYWhxb2czcXg3T0IxRFdhOE9wSWlxemhISkZWTm5ZQW9seFZZSWMza0prWUZ4ZW9rSnVRMkIwT2hNMGNNaGhReS0zajh6Uk42Q2ZNSy1ISzlxRXktQ0h4ZW52T1ZTNjlKdzc2dkczZkdEWmpkRC1lTDZVanNNZmNLa3Fsdmw5N1dhb2haV2RfcmtLeFdSdDk"
+        "CBMiwAFBVV95cUxPeHBSV3FHNm1YengzdHdCU0JHMGUySnA5eUtQX1cxeHlCWTc0bndybnRRYWhxb2czcXg3T0IxRFdhOE9wSWlxemhISkZWTm5ZQW9seFZZSWMza0prWUZ4ZW9rSnVRMkIwT2hNMGNNaGhReS0zajh6Uk42Q2ZNSy1ISzlxRXktQ0h4ZW52T1ZTNjlKdzc2dkczZkdEWmpkRC1lTDZVanNNZmNLa3Fsdmw5N1dhb2haV2RfcmtLeFdSdDk",
+        "CBMiuAFBVV95cUxPeVltX0ZVTS05ODFRYWhxMU4ycUV2TE5rUnlKUVdCaGlSdEZ1VDJzWXFjdnpJakt0V0ZSWFFZbmVWMzQtX1FWbmphdHhTWER5dkNuZXg1VW5XZUR0VENacUxDZjZRY0hNS3RRMjROZXJqQXE3dVVsbjBkQWVJeC1NTDRNZnZyWmJhbWZIRmpjQ0thbGJ6VUdueHJXSzVjVV9SSmVyWUpoN3BjYl9rMVdUejJSS3dodHlY",
+        "CBMihwFBVV95cUxNZ0R2MWNWa0xhaUlhY3MtXzJfR1JpYU5idzI1dW5hQ1BXUVJQRTNxZkVpank5SGxzOUc0SnI1ekVIVzE5cDJjSC11YkJBSThHcWNuaS1idzFNMkozQUk2eWp3QkFFbWV6V3RJTWVSMFA2Zzh5R211cDVybjB4c0VOU0U0aXBGNkE",
+        "CBMitwFBVV95cUxQaWJnVXJ5U3Z5M1A2OXhHTFhibmZuai1rcEtNMVFncnhJVDRQbGRpeXVOM2NrQUE0NmdFVWtoRFZvcHNWcHdyeU8zNGQ5OGNsN3R5MnpWUWRERWFRNEViT2lOY1l1YTdTS2VKLW91Z3JVQzA5ejNDel85YnRsLWxLajFRV2RKdXI0aEVuMkVfd1d2ekRta0VHXzBuNTdrdmpmaFV1ZlR2YVhMeWtCWjBHVWUtSldsRmc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-13T11:46:03.225Z",
-      "last_epoch": 1794481375000,
-      "etag": "\"02bd999a8ec2fe071971893057f39f74c-gzip\"",
-      "last_modified": "Fri, 13 Nov 2026 11:20:07 GMT",
+      "last_fetched": "2026-11-13T18:57:58.026Z",
+      "last_epoch": 1794582151000,
+      "etag": "\"0b24b4a9484f19041d035e3a17736d115-gzip\"",
+      "last_modified": "Fri, 13 Nov 2026 18:49:38 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/tata-electronics-set-to-sign-16-mous-at-semicon-india-2026-as-ecosystem-expands-ceo-randhir-thakur/articleshow/134303399.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/applied-materials-announces-5-billion-india-investment-under-vision-2035-for-semiconductor-ecosystem/articleshow/134303422.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/hospitals-seek-new-pricing-rules-as-maharashtra-fda-flags-high-markups/articleshow/134302712.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/semicon-2026-from-phones-to-fabs-how-india-is-building-its-semiconductor-muscle/articleshow/134302289.cms",
@@ -627,18 +626,19 @@
         "https://economictimes.indiatimes.com/industry/transportation/railways/bengaluru-metro-blue-line-moves-closer-to-airport-connectivity-train-completes-6-km-trial-run-from-byappanahalli-to-doddanekundi-on-the-58-km-corridor-between-central-silk-board-and-kempegowda-international-airport/slideshow/135731279.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/airlines-confront-crisis-soaring-fuel-prices-and-supply-chain-struggles-amidst-aapas-70th-assembly/articleshow/135766532.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/fairfaxs-rs-52878-crore-idbi-bank-deal-sets-stage-for-a-financial-services-powerhouse/articleshow/135764422.cms",
-        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/hfcl-secures-rs-834-crore-export-orders-eyes-ai-data-centre-demand/articleshow/135756968.cms"
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/hfcl-secures-rs-834-crore-export-orders-eyes-ai-data-centre-demand/articleshow/135756968.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/binance-blockchain-week-bangkok-2026-reveals-speaker-lineup-featuring-global-finance-and-crypto-leaders/articleshow/135807464.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-13T11:46:03.346Z",
+      "last_fetched": "2026-11-13T18:57:58.073Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-12T12:02:39.721Z",
+      "last_fetched": "2026-11-13T18:57:58.094Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

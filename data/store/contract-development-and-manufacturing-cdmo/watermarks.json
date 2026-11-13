@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-13T11:46:03.592Z",
+      "last_fetched": "2026-11-13T18:57:58.424Z",
       "last_epoch": 1794558720000,
       "etag": null,
       "last_modified": null,
@@ -127,20 +127,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-13T11:46:38.728Z",
+      "last_fetched": "2026-11-13T18:58:08.166Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-13T11:46:42.089Z",
-      "last_epoch": 1794557432000,
+      "last_fetched": "2026-11-13T18:58:09.479Z",
+      "last_epoch": 1794586920000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMingFBVV95cUxOQjY1NWFMWkM3bGVzRmo1eEJsTUdVRFA2MmJBbTZfM0VpZDkwMXYwVFhIUTB0RGNMOGhnYVV0VTVzOUFwdFdSYTZDd0twXzZGQ04xbDN6a1huZ3BGV2NaLTY0RVdkVkQ5VmtYRmdxQ3J1SnVXVVNBS3hHM0ZWNzZxS3o3NjB3YzlyYndMYThfbkJWb2FIazRURE82OUo2QQ",
-        "CBMi_wFBVV95cUxPaXdWSHA2YVd0eXNjblVXdVg1QWEyU0F0aWw5TG5MclBpT1kwbTVScWNtb0JlOHBMVE1XMW1DUGptU05MaVczaVJ5SnB6TmxjZHpZb0xjOThidnc5OFFpWnJPMnFBQnVwbGNqeEcwM3NRclZFWTl5ZzAtZGctdlJ4N3BoNzhDVFk4VVV5cGI1NDlMb0NZX3d4Q2dXMUJtVlhVSzdaUlJsNElwS3BVbzNvT19IdHpFWHBhOFd5WF9pYTUwa2VzbW1GWVJrVFZRYnFjZGN6UldOdnV1bzdvT041cnBXYXF4d3BqTFJMblE3R1kzLWVBWjBpMWs0ZElsaEk",
         "CBMif0FVX3lxTE0yOENnRzBiYUFTbndLZnhwdWZRUEJNejRpclRUdWo4ekhieTd1QnlxYnZfTTFhZm56X3Q5R214NzBFdk55UGRoOEJyMFhBNXpYY2JsNjBRdks2VzJMNlphMTEwTFlGZmZPRGJ1aEhSb2FPcVdnb2x6ajI2aW5IVXc",
         "CBMi3AFBVV95cUxOM2liZlVtZlBjTl9hU1dZWHdhcHhrUDN5VFYxaGJLb0MwM293ZzJwa2ZKWVZGS19RUnAyWEpibUJGbmVScVZfeE92c3k4RGRlYXRTOWtCQ2tHajNOVGhGTnlLT2ZCQVoyTWJqVzNuSTBTUG9PWVB4NEtPYjhoMmlFdDNfMFIwdE94Q0diTGJESWJzTHZJQlRSam40akJqOGp6YTFXSnNEeFFGRG40UzJKT25xREN3bjRycnMySDJVSzI2QXV0Z0dBNGZ3MUFmWVVIYlF5ckZxMEpKempZ",
         "CBMitwFBVV95cUxQN0lnOHhWTHNIcGZsMzh1V1ZLbm0wY1RuVmhxWWozZl9FWXA3U2lKbDBmc1pIdWlyWV95WklCS3FiakNTZVc3YnlNR1BYYVNXT1VIekQ4TWRpU3YzTVlscHMyUWVIT04ydXhPa3RXcVpXbC16Q0c2ZldyN2ZjSWUySmNSX2h5aGVYQzBXeEp5NkZBZlpaYzV6U25aM2J5ZjdDckxyakVKV1g5cmVzOE9WaVNRSS1DcDg",
@@ -438,16 +436,17 @@
         "CBMiwgFBVV95cUxOTTRiZGhWQzJrMExWTE1DdmRmVFpLay1SUHRORGhhaG1Hc1NPT1dKTXFOSGQxdTZjRGFyd2RSNERFOGxvNkJZc1NibU9UYTBFcTZBTTJvR1gyd3VCYWR3TzhqcGRyQ2xxR3lYRGpUNXgyTnRfZVVVQV9FdHEyR3JQUEJFME5xLWlTWTB5Rl9MNHBteHdpekVGc1hWc0t3alloVm1hS0dNYzlGVzV6al8yTEpHQU85T09RdFFETlo1dmxXQQ",
         "CBMiigJBVV95cUxPb0J3cmFkMHdsRVJzRzQxdlhsUXBqaGJqeDZ2bDdVSGdoVHFNc1NTVHVnOFVUVGdXeFVoQWlnd3FMblpqenpLeUJiNkdlYzZLRnBheG53NDlrMjBzNUtCZXhFRWJxX0dHenFteEFEMXBCUElDNUhhS0dkOU9wSnloNkJBTDZ1eHBURVNzVEdrTU4tYnZDeG5zRE1PTDJuV1VoNWt6WkhpQ0VMY1MtQ09MXzJuWUY2Q3hPWXpSR2EyeUVRN1lyZ3EtUFF3bTFIemFORjA5N2NNNklPNktua0Z6ZGkxa0RKV3ZYcWg5UVA1c3RfWjFQTHNxOUxOS0o5NWRxM3lxOW5fZzQwdw",
         "CBMihgJBVV95cUxNLTVLY1NseWpJcm5acjNxV05faFlibUktMUpsZHNnQlpTenhwMTdOX1JkZFBpOEZ2OGM2Nl9MWm5RemxMZDVEbGYwa2NtbHdjVC04NHBHdzlWWXZ3THlYWG5QUzlkZzc0cTBKZnRrdXRhMGE3OUVSWGZGSC1qMXNBZUhrLUFBb3NZUlFRN2xScWk0MUlmMG9kam0zUzJCUkxwd0R4emU0OVk5M1dLVXlCaElia1BPTXlrUi0tdHJCZlRidzRLa2Z3NXFSWUItVmI4MVhfUk9yUGZ5V3pmLVdKWU5UTHhnMGZ2d05lSzAxRjMtVDRDT05lc2tBempTbF9rUkNDa2hB",
-        "CBMisgFBVV95cUxOOGVWRGM0V1UwbHdmcnAtSTBjVTlBVzFkcVRJRjBham9fZVhnRUJQeFhONHBqSmdLQmR5bmp3LWtxNWVfT0dlNy02VXZOd0RiTUlhbVUxYmIyTWFhdVFpekp5WENJWHk0b0tRemJ4RC1qclZuc2tQRllTM0Z6RFZBMktlMXoyY2NCOTZJcGxSWVN6MmFETHVXT2k4YkJ2ME5wRzdqbFdJNXRHdGQ5SDdPWFJR"
+        "CBMisgFBVV95cUxOOGVWRGM0V1UwbHdmcnAtSTBjVTlBVzFkcVRJRjBham9fZVhnRUJQeFhONHBqSmdLQmR5bmp3LWtxNWVfT0dlNy02VXZOd0RiTUlhbVUxYmIyTWFhdVFpekp5WENJWHk0b0tRemJ4RC1qclZuc2tQRllTM0Z6RFZBMktlMXoyY2NCOTZJcGxSWVN6MmFETHVXT2k4YkJ2ME5wRzdqbFdJNXRHdGQ5SDdPWFJR",
+        "CBMirwFBVV95cUxPUmNGbFpZZUVTS2Y1ODFtVTI3SWdGamQ5ZmxQX2ZkaV9SUnFXT1Nya3VBQ0g3RG5ScnFrSXE4SkM2WTFFdUJBaVZDRXYxc1RsS2RycUJYVEx2bklRdFdLZWV4eVZhS3J6cDRVUUIxQjJsWlZrY1VCUnBaclE4QmVmVXQ3YjF3RUU1My00MG1XQ1FOVnE0ekJpQldQNm1OOUNrZjRIUGlYNFZnVW5EWm5Z",
+        "CBMi3AFBVV95cUxQeTRxaGV1eGlhSTZxZkdYTFZ5dFdfejZ5Zm05Y0gyUTMyeEVKcERnTTBCSEs3Mm5LQ2xXWmYxb2Z4d2laOEJ5b2s5SkdGYWlaZGhJOHQwb1RBU1kzcVl3VVdYbHR2NncxZ3JMVFhKY05TMzdxOVdrSHVoNXhOemFETjlRYUNtVmVQZ1Q5bVMzZDVOam5VZ01qUUZmSi05N0IxRXlNdWc5Yi1rN0xjS1BiZmVObUFsdjJaaktyZHI0UUNwSDc5UEFJcVFDWngtX3Z0ZVZEbzI2bzJQVE1n"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-13T11:46:42.130Z",
-      "last_epoch": 1794545269000,
-      "etag": "\"0a426acc1f8cb195a6957e8d0b335213f-gzip\"",
-      "last_modified": "Fri, 13 Nov 2026 11:36:12 GMT",
+      "last_fetched": "2026-11-13T18:58:09.531Z",
+      "last_epoch": 1794572290000,
+      "etag": "\"0b24b4a9484f19041d035e3a17736d115-gzip\"",
+      "last_modified": "Fri, 13 Nov 2026 18:49:38 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/transportation/roadways/highway-projects-in-gujarat-nhai-signs-mou-with-ssnnl-to-simplify-approvals-speed-up-project-development/articleshow/134412608.cms",
         "https://economictimes.indiatimes.com/industry/renewables/solex-energy-targets-over-rs-4500-cr-revenue-by-fy28-bets-on-solar-expansion/articleshow/134409804.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/shekhar-kapur-joins-ltm-as-strategic-advisor-to-drive-ai-powered-storytelling/articleshow/134407509.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-slips-below-100-but-remains-volatile-as-trumps-un-remarks-dampen-optimism-over-saudi-arabia-resuming-yanbu-operations-and-east-west-pipeline-restart/articleshow/134419785.cms",
@@ -746,18 +745,19 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/usfda-classifies-aurobindo-pharmas-us-facility-as-official-action-indicated/articleshow/135743453.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/india-needs-suitable-evaluation-matrix-for-awarding-exploration-and-mining-projects-niti-ceo/articleshow/135737588.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/godrej-properties-acquires-31-acres-in-indore-for-new-residential-project-amid-strong-demand/articleshow/135789725.cms",
-        "https://economictimes.indiatimes.com/industry/energy/power/power-transmission-developers-seek-relief-for-projects-hit-by-interconnection-delays/articleshow/135787705.cms"
+        "https://economictimes.indiatimes.com/industry/energy/power/power-transmission-developers-seek-relief-for-projects-hit-by-interconnection-delays/articleshow/135787705.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/spicejet-board-to-meet-on-november-18-to-consider-fresh-capital-raising-proposal/articleshow/135802832.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-13T11:46:42.173Z",
+      "last_fetched": "2026-11-13T18:58:09.664Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-12T12:03:18.982Z",
+      "last_fetched": "2026-11-13T18:58:09.700Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
