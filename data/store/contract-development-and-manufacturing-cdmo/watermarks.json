@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-14T11:08:40.574Z",
+      "last_fetched": "2026-11-14T17:29:47.609Z",
       "last_epoch": 1794558720000,
       "etag": null,
       "last_modified": null,
@@ -127,19 +127,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-14T11:09:15.963Z",
+      "last_fetched": "2026-11-14T17:29:56.560Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-14T11:09:17.241Z",
-      "last_epoch": 1794630524000,
+      "last_fetched": "2026-11-14T17:29:58.000Z",
+      "last_epoch": 1794634111000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi3AFBVV95cUxOM2liZlVtZlBjTl9hU1dZWHdhcHhrUDN5VFYxaGJLb0MwM293ZzJwa2ZKWVZGS19RUnAyWEpibUJGbmVScVZfeE92c3k4RGRlYXRTOWtCQ2tHajNOVGhGTnlLT2ZCQVoyTWJqVzNuSTBTUG9PWVB4NEtPYjhoMmlFdDNfMFIwdE94Q0diTGJESWJzTHZJQlRSam40akJqOGp6YTFXSnNEeFFGRG40UzJKT25xREN3bjRycnMySDJVSzI2QXV0Z0dBNGZ3MUFmWVVIYlF5ckZxMEpKempZ",
         "CBMitwFBVV95cUxQN0lnOHhWTHNIcGZsMzh1V1ZLbm0wY1RuVmhxWWozZl9FWXA3U2lKbDBmc1pIdWlyWV95WklCS3FiakNTZVc3YnlNR1BYYVNXT1VIekQ4TWRpU3YzTVlscHMyUWVIT04ydXhPa3RXcVpXbC16Q0c2ZldyN2ZjSWUySmNSX2h5aGVYQzBXeEp5NkZBZlpaYzV6U25aM2J5ZjdDckxyakVKV1g5cmVzOE9WaVNRSS1DcDg",
         "CBMi7gFBVV95cUxPZTNtRlNzQ1RZMkxjbk81SThXSzZqblUzUWpXMndsV0pIUVJ5Q2JVX2VkSXZFQ256aEkwUlFjWnFlUktFUXRVbjhZSkJSTDFsdmo2ZmM2S085WGRUeVQxd1BqNjNmaHVUeWJaRDl4cW1DU1hEa2ttSHpWWjZCcUV0OF8tel9JR2J5RjM1UFcwTV9CSDg0dGVqc1c3bDlQamstcXZwOURocW9NUWM5Wm95OVVGbWlIWExPekpiYWJIdnNhTXpOWkIyRXlNQ0ZKMzd2RnFsN1VYN1dURV9RdVRUeEQxRkNkMXo3OWJoaWdB0gHzAUFVX3lxTE94NmNhN25JWmxNT3Z5WXNpTllCZVlFSU5tNUdwUGxhNEJxN0s2b3lPR0tqWktxWVZPcXV3STQ4Q0VJNGpGS3hoOHZwNlRwN2hLN3lnNzFUZnZZTEZ1QkZQNkQydkU1aExTWTE3MFAtbm5DcmRlWHJYLV96VWVoZGw0X0NDenRLTWViQUdqbUNkT3NReVlpVGl0em05MjVLcHYyNjBva0laRU9rLWFsVzV4WGZURm5DXzU2UVBtT2JnbXFISEZaZzlQdVBsZy1IaEtsWXVhV2Q4TzJYZFdiNUtmNHpzcGhoOU00cFJfQ2gtTmJLWQ",
         "CBMikgFBVV95cUxOb1NFbXZJenBPbm1vQWVZeXFJNnVJNHpkbGpYa2YtQkdnbzBlODBnZW9YdGRlRWtjNXdWNzZyR0tXYkNvZ1ljMTViaV9pTXNPelNlVzJfM05tcGhxOXNEanFUVWhOYU11R2JKUjNqbmgzNEFZRkdybWN6WVJmcUFjWTR2eHVLd1RoRjE5UDBkUDJnZw",
@@ -438,14 +437,15 @@
         "CBMisgFBVV95cUxOOGVWRGM0V1UwbHdmcnAtSTBjVTlBVzFkcVRJRjBham9fZVhnRUJQeFhONHBqSmdLQmR5bmp3LWtxNWVfT0dlNy02VXZOd0RiTUlhbVUxYmIyTWFhdVFpekp5WENJWHk0b0tRemJ4RC1qclZuc2tQRllTM0Z6RFZBMktlMXoyY2NCOTZJcGxSWVN6MmFETHVXT2k4YkJ2ME5wRzdqbFdJNXRHdGQ5SDdPWFJR",
         "CBMirwFBVV95cUxPUmNGbFpZZUVTS2Y1ODFtVTI3SWdGamQ5ZmxQX2ZkaV9SUnFXT1Nya3VBQ0g3RG5ScnFrSXE4SkM2WTFFdUJBaVZDRXYxc1RsS2RycUJYVEx2bklRdFdLZWV4eVZhS3J6cDRVUUIxQjJsWlZrY1VCUnBaclE4QmVmVXQ3YjF3RUU1My00MG1XQ1FOVnE0ekJpQldQNm1OOUNrZjRIUGlYNFZnVW5EWm5Z",
         "CBMi3AFBVV95cUxQeTRxaGV1eGlhSTZxZkdYTFZ5dFdfejZ5Zm05Y0gyUTMyeEVKcERnTTBCSEs3Mm5LQ2xXWmYxb2Z4d2laOEJ5b2s5SkdGYWlaZGhJOHQwb1RBU1kzcVl3VVdYbHR2NncxZ3JMVFhKY05TMzdxOVdrSHVoNXhOemFETjlRYUNtVmVQZ1Q5bVMzZDVOam5VZ01qUUZmSi05N0IxRXlNdWc5Yi1rN0xjS1BiZmVObUFsdjJaaktyZHI0UUNwSDc5UEFJcVFDWngtX3Z0ZVZEbzI2bzJQVE1n",
-        "CBMizwFBVV95cUxQelhTY3FLa1VTSVZYRDJYcGhUSVVkWjd6WFdDR1hnTGlLZGZOeGo5eTJtNEtZaGFDUld5MERFRG9pMm1zalVtUEM0SzdNdmdEb3NGV2dxQ3VSN3pFUmt2ZmxOWl9lc2pHZHFsTjJRdmY1V3lEak9pOVZIMDVkdU5JcmFvZXB0aVlpUGk0RGlYSmdxcXhQdjVPa05fbjlnUEhsYVBhYlJ1YUg4OERhZ1lCY21sdks2N1lqdzFZZmFKbHNDbEIxRUJIRG95ZVVFUXc"
+        "CBMizwFBVV95cUxQelhTY3FLa1VTSVZYRDJYcGhUSVVkWjd6WFdDR1hnTGlLZGZOeGo5eTJtNEtZaGFDUld5MERFRG9pMm1zalVtUEM0SzdNdmdEb3NGV2dxQ3VSN3pFUmt2ZmxOWl9lc2pHZHFsTjJRdmY1V3lEak9pOVZIMDVkdU5JcmFvZXB0aVlpUGk0RGlYSmdxcXhQdjVPa05fbjlnUEhsYVBhYlJ1YUg4OERhZ1lCY21sdks2N1lqdzFZZmFKbHNDbEIxRUJIRG95ZVVFUXc",
+        "CBMiswFBVV95cUxPSHdJUWtZZHhkb1V4YnpKQkFjVzhNdnFjS2YwMklSRW9Ia1ByYjRwVnd5YVhDUzFOb0dvNGNvOU9LUE9PaVhFSUV5S1hUdGI5VDhNSGlBVWJOYzJsZ05aQVdoVEJUYzlEdjExZDMzNnEyVkprSGJ3bDJuNWZoSjVITUpraTdYbVJWQlR5T3YtcldReExnZTZMSUFEN0M5djFwQzZxY1h5T25zRHA3c3JXM3VSdw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-14T11:09:17.336Z",
+      "last_fetched": "2026-11-14T17:29:58.431Z",
       "last_epoch": 1794572290000,
-      "etag": "\"07d1893f7f584e824b5fa3a30872e8dd0-gzip\"",
-      "last_modified": "Sat, 14 Nov 2026 10:52:55 GMT",
+      "etag": "\"0ab8bf2070770ebe1e38e1f361727b643-gzip\"",
+      "last_modified": "Sat, 14 Nov 2026 17:25:45 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/solex-energy-targets-over-rs-4500-cr-revenue-by-fy28-bets-on-solar-expansion/articleshow/134409804.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/shekhar-kapur-joins-ltm-as-strategic-advisor-to-drive-ai-powered-storytelling/articleshow/134407509.cms",
@@ -750,7 +750,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-14T11:09:17.421Z",
+      "last_fetched": "2026-11-14T17:29:58.477Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-14T11:07:26.405Z",
+      "last_fetched": "2026-11-14T17:28:46.472Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-14T11:08:02.196Z",
+      "last_fetched": "2026-11-14T17:29:15.525Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-14T11:08:03.347Z",
-      "last_epoch": 1794649314000,
+      "last_fetched": "2026-11-14T17:29:16.669Z",
+      "last_epoch": 1794669909000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMixwFBVV95cUxQcFFBTk5LWjRuMFpWVENNUzFfNkRZc3NCVzgxTzhUUDFOTUNCU3pua1d6ZnN0R0ZCN29PeTF3V011MGplQU9GMEJtUnoxQzk2VVEySm9kdUR3MEpkQTNlNEpDVURIbVRMcFp6WUE2cTMxSFhZekw2QjUxUlRETmtoVUlvVjNSeGVMNG1JT3NpSVlKVWh4dW5BQk9LZUh6OG5yWWFmSF9FRHU3SkFWZWgtVm9pUWY4UkJ5b2p0ZG1BeEo0ZElKSVAw",
         "CBMi3wFBVV95cUxNaDNYLUctdnJvdnVZbWZSUmc1XzNiRi1UUXN0enV3aHhrMkJpY3BkTzJpNk1sb3dkN21saWthdUlieWNZMHF1aXZ4dXp3M3dLY2gzVkk1X2ktWE1GT3A2Wk1rUVpVWEJvTWFDT1Vhc3h0NkZZMkw1YW1DOEFLekVJY1RyN2ZMZzI2a0RzcFJTcTh1Rnh6MzFjQnV3eGRjWXV5YkR5d1QyaHJMNnNubW0tOXVyTzJYbk51czZLNk56WnhCcTR5Y0xqTU84UEVobzJXUUNULVlSQV9DOThXckRn0gHkAUFVX3lxTE1rb0ZOZjJob0lRbkZWSk03YUdPSjFQWnZvU2wtV3JyNVVOMEl2UXJKU0VFcXVyRGs2WDUxR3JnbE1ab0FDNkMwU01JVUtLSWo5Tm0xRDAyRm9XMDFERzVKb0dUYUpzNjU5NTJsMXhsZXFuTlByTC1TYUdLbjBVTmljeTkxbDJUelV6by15eHlXOGxQc2oxeTA1WWZIN2hqQWNhc3lLVE1CU2tOUzR2YlRkXzVnRFE1ZEJycUhNYUczYjFpbE9fRktZWjVLalYyOXd2a2xONkxFTkZrUkI5U3BDLVdFNA",
         "CBMixgFBVV95cUxQVVNlanFZZlJhWjlGOUlzX1BhNTYxRmVUcC1qQjdrRWs2cVRZTXBtZzlEU1hiT0lRZVQwN1Y1VXctNlNYZHJFdWxVcG1VSHo2WFZwLV9hNXpvOTZhNkVicFNDQ2tSX0VkbEJHeHhOVlpTWnhrLTRGQi1mUFY1bXJDQWhqRFhQLTBNdTVZUlNtbzFUY0NRRmV2QmZzMkZxb0dudnc5RzRIOTYwdGhzOWtaYnFNeGtZcUlld2NlXzkzYzZpa05lYXc",
         "CBMiiAFBVV95cUxNRk9WeHh5S3hjeUcwNWszSDNiTFFFWEhkeW5POURtXy1xV1RDazhYMjhfZkhqaGdXdVBaZURQWkpwaVNNNEMybzJ6X0ZmSE1pdG9QRU42SDhSekhSeE03NGFTYjVCak43Ri1VazdiUjFIcW1vTmN4c3NBVTdUNWw5OGJTa2t3SC1j",
@@ -319,14 +318,15 @@
         "CBMi1wFBVV95cUxPT2hWSWVJeWctOVo3RmpUd1J4ckFZVzBLS2pWbndfSklRT1BuUnJ0Wl96czctcnVuWGV3dWNJeGJQRUxCNEVMYUJrc1NjWTVKTzRjbHNfR2JobXN5T25lVXlXaVdTRkctWDlxUnRaMjlfOE9Wb3hCd3gwSHhvMm1zYnd5RGpZbUJWR1hjTHBPVDZFWnAzQ2ZsNDZsSWloVzcxREhTdEE1N1pHTWlBYlpLWDRacW5TR3JRZ1lYVTE3djdZajh4dVdyXzlIczc2RGhYbDlUMXlONNIB3AFBVV95cUxPeXNFV2dzb2xoRmIyQzFSU1htTlNuMm5DSkNCY0xnYmtXa1AyVm5IcTZVaEZpRDRVMkdDU2V3dV9CeEoyTlBaRm82QU5DeUtycE5PY29DWVBNQWFTOTBUM2xZTmZSWmx6WnVHUjVxU3Z5ZnpraEVxZ0ZGVEplOG4yd19fWmZoSEtabDZ3X1k2V3NXdS1ONUtoc2ZZUGNZRlI0OUx1eTl3YVRxWEZXQ2lwa2JDOEpjN3d4VnVZZUJaUkFvdDZvUkg0cnMyLVVhRjUwMEExY2E1ai1Fb3J4",
         "CBMipwFBVV95cUxQajhZWllrQU4wVEJLZVV6ejB6SkxLaGJTMGk1emlJUTg1V0dPUG9CTVdvUVpXMm5WSTdBRlBFcFR1bThDbnQ4SHRncHlpOGNObk9Vb0xEVG92c0E2eU81VlNzTWdaWFZlVFBtZnhNMXFJQlNKd0hQY0hVTVcyeXVycUl2T0xTSVVHZGVOVjJNcjJkby1sU00ycEloLUROVnQwQnVNMjNxMA",
         "CBMipAFBVV95cUxNQWdPNVNZc201Ry02UWg5MEQ1Ukk2RlVncnJWdmdBUDdnRUhoNVlCNTJJV2pId2dkM0tWaXo4Q1hSZjZ4S0s0Z0JneTBRMVpLeEZSWjZiWHF1V29qTHJJcUdxSmVHVVVkUkJISURMZWVCODh2T1RraWdvaURCMWV3SGRtc1ZPV3ZUXzRsRjhYcDVmZFFYVkprdi1yUnFua0tuc2VLag",
-        "CBMif0FVX3lxTE1KdlI4MFRLWUZuTm5Dc2R4cl9TWlMydFBOcndjcnN5ZkZtWWgyMEtxbjJLc0w3MGRiUFpEQmpZNVlYQnRqcGl2S1g1MTJDT2ZQeE5UcVhjM1EzVmJaSG9iMzFfLW1xNWNubkxRbHdoblFJUXIxV3EwbTBGV182Mk0"
+        "CBMif0FVX3lxTE1KdlI4MFRLWUZuTm5Dc2R4cl9TWlMydFBOcndjcnN5ZkZtWWgyMEtxbjJLc0w3MGRiUFpEQmpZNVlYQnRqcGl2S1g1MTJDT2ZQeE5UcVhjM1EzVmJaSG9iMzFfLW1xNWNubkxRbHdoblFJUXIxV3EwbTBGV182Mk0",
+        "CBMiywFBVV95cUxPTUFjYVNfYXVoRk1xb1JObkQ3czJxZzFjVHJMU04yX2hhQXZ4c3dWWnZhWU00WjdpMFhrY082M2FiQnRGY1NtTlNuQk1pRWpobEdBRGVQa3c3YTRydFlvSndZTzBtcEozYzhVOWlGdi05dnZqQjVUbTdiSkVKX0pFNy1lTXgtM2tJaDJNUVhfSHVQM3d4ZU8tOE9aMUotMmJRNWQtQnlGTkRJY0JOa3JWbl9GbnJiTTNXcVdKcGNRQzlVY2ViYjRmZXEwc9IB0AFBVV95cUxPeHhkdlI1clM1SExmWVdIRFYtNmxZcTdzT3hJRVlabTBhaENBOGlXaEVIRTlLQU9LUG9VNFgtN1g1VlVHZHF0Um9iSTRDTGFnbDJfYkk3dnY5dzhYQ2kxS19ud293Wm96QWhXb3dGRzNBc2VoSTNJVEk2R3JOYUwyMTJOZFJIdXRRVjQ5SGpVOWJRcWpjUVdLMjhsTlE4VmVuTk5JX29NcEFMVUprWElVVUk1dDlQMm1EWksyZ1RwTFdTU2I5QURBeWozMktOMHdE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-14T11:08:03.415Z",
+      "last_fetched": "2026-11-14T17:29:16.734Z",
       "last_epoch": 1794648455000,
-      "etag": "\"03bf52747fd275fce3b3cfa050ebf57ac-gzip\"",
-      "last_modified": "Sat, 14 Nov 2026 10:36:53 GMT",
+      "etag": "\"0af34ae54bb766e55c7b862ec9bbef0c5-gzip\"",
+      "last_modified": "Sat, 14 Nov 2026 17:09:40 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-secures-mhra-registration-for-dialysis-device-plans-uk-expansion/articleshow/134593962.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/srishti-architecting-the-digital-tomorrow-at-india-mobile-congress-2026/articleshow/134592954.cms",
@@ -631,7 +631,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-14T11:08:03.507Z",
+      "last_fetched": "2026-11-14T17:29:16.885Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
