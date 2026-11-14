@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-14T00:41:18.344Z",
+      "last_fetched": "2026-11-14T11:13:35.964Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-14T00:41:51.332Z",
+      "last_fetched": "2026-11-14T11:14:07.749Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-13T18:59:52.119Z",
-      "last_epoch": 1794550710000,
+      "last_fetched": "2026-11-14T11:14:08.913Z",
+      "last_epoch": 1794642130000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -143,14 +143,16 @@
         "CBMilwFBVV95cUxOTm5XR1B1cFJQakc5MTltaU5vRm80TzlsVWc4Q3pYNHJ1dThMRExZSHZHcnNMbU9ST0FwckJ3ekdSbUdXaDZBbTFXX1Y5R1d5eUFTX1A0RmdOR1UtYWVfc2Z4MDlTbEdvNmJzWmotNGt0cnEyVVpHRHVBTnhKYnY2VUhRWHFWdGd4X2ZibFlHNFhXSl80MzM0",
         "CBMixgFBVV95cUxNZ1pXSG1uaTdacUpfWmdiWDRhU0tTclV2LXpkUzA5UnJCQ1pudWQ1Q3ZNaDhKWkVweFlPVHlJYVBRWFF3T2d6Wks0bjlGVm1LMHNybGpDSnFoc0lCZXNxNVJ0X012emdMdERpRGd5dTNiMkZodTN1dzVrVGZVVjhPdWxVYlBJS1NZbGppN19uR19HOUM0TWtET050WVh0SGlyVzFKbXkyVkZfNFJvRWxHVGxoZFZGNXRvbmwxWUlFWkMtN0dBWmc",
         "CBMi8gFBVV95cUxPaF9BRW1NX3gxNU1QT05ld2lnUF9HcEFBT2JwRkQzYmlzMjZpQ3dXcHN6Z01lcnRQZmhVQmZSME5RU1RoN2V1N0JwWnBRcW5TdEg5ZWFiMWJGY2czTWF0UVdWVTk2a2VsZ05heG0wdGhwaElLMW92NDE2UllQcWdLX1U3QXF3T3FjSlpEU05EZnJSMXBpZHBSRGp6WmZuXzZfcEZoaGwzZWpkZk4zOUxWenJLLUl0RXlPSzl3ZkhEV3pfdHpndk01OEV3V05ma09nTG41M3BBM3k2VUxIaUJXWkVVNWFvaTN6ZWVJcF9Kb0V5dw",
-        "CBMipwJBVV95cUxQZUkySld0ZXRhNzF0akp0aDZGdWhDemVLVHdnM2NqRXlmNWVULVZ5NG1wNXQ1emNJVTRScFU2T1hCSnlvZ1pzXzRmdF9SWFNJUmdoN1VDa182Z0VFZ29jdkJKZVcxSXFNRFNXN3pBU0hLRVlvUXoxVU8yNDFQaHpCa1VPaHY4VFFJRnJ3VTRZUmNORTQ5S1lhVjRrWjBrOXpCcFZDWk1wWkZzVEtXRUY3VWVEX0poXzBNUmd3TnBPZXJ5TTJWQlBLYzJrWkU0Wml6VVJ2WVQ0WjQ3VUhmaFlsMWlpS09scTFSZHRWYWxiX3kzLWxFeGQ5Qmh5RkdDVzcyR01PNTlVQlNpTjYxekxnU3lGYWVSUjNrSlpxRUtXSU9CUW9TU044"
+        "CBMipwJBVV95cUxQZUkySld0ZXRhNzF0akp0aDZGdWhDemVLVHdnM2NqRXlmNWVULVZ5NG1wNXQ1emNJVTRScFU2T1hCSnlvZ1pzXzRmdF9SWFNJUmdoN1VDa182Z0VFZ29jdkJKZVcxSXFNRFNXN3pBU0hLRVlvUXoxVU8yNDFQaHpCa1VPaHY4VFFJRnJ3VTRZUmNORTQ5S1lhVjRrWjBrOXpCcFZDWk1wWkZzVEtXRUY3VWVEX0poXzBNUmd3TnBPZXJ5TTJWQlBLYzJrWkU0Wml6VVJ2WVQ0WjQ3VUhmaFlsMWlpS09scTFSZHRWYWxiX3kzLWxFeGQ5Qmh5RkdDVzcyR01PNTlVQlNpTjYxekxnU3lGYWVSUjNrSlpxRUtXSU9CUW9TU044",
+        "CBMiWEFVX3lxTE1hVk9uUWV2dzV3ZWdvay1ac2RhTFF2YV9iNEQ4bjllWUs1NHBPMFRyT0EzakZMUUxJWkY2UF96aEpzYUktNmpjWTRIRTViUzNLTks2LTBnTEs",
+        "CBMijAFBVV95cUxQN25oWTRFblljTjIzVWRobDlJeXhfenJlRmNWeGtkVVJOQzBNLXp1STNHQzBuRUswV0IweFlyd2hiY1VkektoamVNajhDeGNoRHVDQVZmN2JwNkJ0YklKUW41VDlXSHRlbW9ZbHBseThtWTM3TmZnbE9fb2VsRm1hcEhHdnJIVDdSMTdSOA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-13T18:59:52.144Z",
+      "last_fetched": "2026-11-14T11:14:08.968Z",
       "last_epoch": 1794560942000,
-      "etag": "\"0b24b4a9484f19041d035e3a17736d115-gzip\"",
-      "last_modified": "Fri, 13 Nov 2026 18:49:38 GMT",
+      "etag": "\"07d1893f7f584e824b5fa3a30872e8dd0-gzip\"",
+      "last_modified": "Sat, 14 Nov 2026 11:00:38 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-issues-draft-audit-manual-for-drm-based-digital-addressable-systems-seeks-comments-by-october-30/articleshow/134840672.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms",
@@ -210,7 +212,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-13T18:59:52.213Z",
+      "last_fetched": "2026-11-14T11:14:09.141Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-14T00:35:19.813Z",
+      "last_fetched": "2026-11-14T11:06:48.713Z",
       "last_epoch": 1794551826000,
       "etag": null,
       "last_modified": null,
@@ -106,19 +106,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-14T00:35:56.316Z",
+      "last_fetched": "2026-11-14T11:07:24.862Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-13T18:57:39.072Z",
-      "last_epoch": 1794419921000,
+      "last_fetched": "2026-11-14T11:07:25.946Z",
+      "last_epoch": 1794546032000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMisAJBVV95cUxOUDNvaEZRQjlRbUtsMW1hdlNFMUw2NHdoY3k4NzNsYVZwQmpvRXlYLTRnN0pJYXBOSDRwN0V2Vlh1ZjI5LWRwWDRjTmFoajJtYXk5TVlqUlByaXBlOVM5VEY4T1NPMlRxTWFnV05NQU9LUFoyZFNhMEV4WWFKeTB4VlozQ2RqS3psejlIcHJaQlg5VDNPT3Z5eDl2blgxWFJST21oN1k1R0x4RzlxbllOSk1JVmVyeEZpYjhBTGY5Y3VaV0U5MmtBUFJVcTAwbXBlUUZJNUJTYkhNZTdwTEd4eEloX3FxU0VUZzVpcTVWa2NYTnZJYlo0Qm5uTG9tblZoMlJpTUJnNXVIVHFhR2hRTmFDUl8tMVk5WlB0ZlJaQXdRVjhHN1gyTlE0a3N1Z0pW",
         "CBMikgFBVV95cUxORGdFczZjcEkwd3I5QktpQVZjbXE3T002bVBKYXgtQVh3UW5TSHFSVFIzTExMT1QySjJXTzFya3h4RTAwc3R6WV9fRUtfbzdUeWk1Y0YtQTZtWU5JeXBPQ3RqVjZXRThsOTU5d1RzaGY5NEVrei1TT3h6N2VTR2VfendPT1UwVFR6RVVBalpMRnJnZw",
         "CBMi9wFBVV95cUxNNXBkWXRyeWR3dzV1dm9OLUkyQWZuNWJ1T0hobkkwaGplcm1VR1V5Q3p5dEtRaW1peFktZ3NtbmJqdF8wTHY3bDhuM0l6Wk9OcXJtM1JpNDBRUkV6eUdtVnRaeWgzVU9UR0Z3TXRpOW43NHg0M0FMLWZHbEpQRGQ1Z05PZ3h1RDVnNDlIZkVmWVRRa05vRl8wdFpfdEpmZndULXN2dkVfaUlaWHVkT3JON3hsODhMVUp3YW5ZMUtGX2gzbEJDd2xFejRTQVl6dWRMQWVjM2NCbm54QlFPUEd3TnlVTVdFWDNPOEhwem9mWmEyYWhibWp3",
         "CBMicEFVX3lxTE05ZWdjcjI1MzViaTJLbnpsOHVyR1RKc0laNkpNaGtkZUF2N3NPZTdIZFB6ZVdHQnBka1hsU1l6aWZTV014T0dyUnlaYWx5VHdKTjc3ajdsdTR5a21Pb0hnd1UzX0ZpMEJlX1R1akpUdFE",
@@ -417,14 +416,15 @@
         "CBMigwFBVV95cUxPVll0NEVIRDAzRm5peGtIanJZN2ZkWWJQSzBBbnNMcDZXcFk5VkF2Q3hfd182NEFybnF2ZVJnSlFNVERvN3EwNUdlMEc3ZE9CaC1LREp0aDV6LXJublJINFJGRXh0eDF3UTQyd2o4bzZCb3pad3llR21yTnlHTG44WEJ6bw",
         "CBMiugFBVV95cUxOY0hMNmJ5Z3lmRXlYbHNEcnJ4ZXNBUVJ5NXJVTEJseXZyN0VCaDYtM05uYUJsQzNNNUltNHQzRDBqMm40ODFnRDZXd256b1RVTVl2SXYyMk5waUhfVVdIYjZGU1NqTFpzT0hXcndlRXVPdmI2WUp2XzYtR2h0QTNoSTNyR2FOVXNzclZUUTJDT0dHbEdPVXhuVmxpR3lScVk4TUl6aEpWYTl2OTloaTdfUUFYbHhNNk40QXc",
         "CBMijAJBVV95cUxQbkNVMjJBNGtDMkQ2QUlOaHNLcHFpZWltelhkWGRVbzVORjZ2c214OUdCMWwyLUY5bHBXby1meTJxbTlzY1Q4VFdkMF9qQkFsNVRFc0hWelptLURCdTVwWXVQcEpKWnpIOVFHajI1cTMzLTEyYUFzWnRCbFFORkxqbk1BZ3FvWE02d3VjQmxQd3BkdFktNFNkVFBWRFd2X0p3TFp0RE91ZWVDczg1SVZlVjFrd2wzUlFPM0g2amxBMkFJSENRSUhxbWhuWlhpazluYWxRc1JWVkJ4X1V6WGlWY1M0MmhVOVQ2S1pkMDVsM1BpOEg4LWxfb3V2QUpkQVFUUFhkSkxPRzNnRmZS",
-        "CBMiZEFVX3lxTE4tVXVXQ3BUVEZHVW9wQ2ZtTmFhODRHX1ptR2tnY0RtWWNsSDNLbV93VkRMWG1LMWZ5NUVWX01nSHA0OEFpRzZwOXk2X0NMeXY1N01DMFB4dEdCQWFHWWZzMWdVNks"
+        "CBMiZEFVX3lxTE4tVXVXQ3BUVEZHVW9wQ2ZtTmFhODRHX1ptR2tnY0RtWWNsSDNLbV93VkRMWG1LMWZ5NUVWX01nSHA0OEFpRzZwOXk2X0NMeXY1N01DMFB4dEdCQWFHWWZzMWdVNks",
+        "CBMibkFVX3lxTE52RzRjaTdycmw0VGl1cUZpenZmalk3R2ZGSmc5U0VyS3JHV19GTGdnWDh5MDNiTTRfenF6ZmJ6TTlpaUQ3eXZ0OFVsV2c3Z3BOU1ZEcHBGdlFNNWJfOUY0aXoxU2tRS1BodnBUdUxn"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-13T18:57:39.151Z",
-      "last_epoch": 1794053397000,
-      "etag": "\"0b24b4a9484f19041d035e3a17736d115-gzip\"",
-      "last_modified": "Fri, 13 Nov 2026 18:49:38 GMT",
+      "last_fetched": "2026-11-14T11:07:26.106Z",
+      "last_epoch": 1794636664000,
+      "etag": "\"07d1893f7f584e824b5fa3a30872e8dd0-gzip\"",
+      "last_modified": "Sat, 14 Nov 2026 10:52:55 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -493,11 +493,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/johnnie-walker-launches-first-india-inspired-blue-label-festive-blend-in-its-200-year-history/articleshow/135506240.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/mrpl-boosts-delivered-oil-buying-as-iran-war-raises-shipping-risks/articleshow/135532794.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/calcutta-hc-grants-interim-injunction-in-favour-of-nocil-limited-in-patent-suit/articleshow/135597913.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/rs-37500-cr-coal-gasification-push-cdep-cws-study-identifies-priority-chemicals-to-cut-import/articleshow/135824512.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-13T18:57:39.286Z",
+      "last_fetched": "2026-11-14T11:07:26.227Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

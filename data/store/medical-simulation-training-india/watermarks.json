@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-14T00:34:43.474Z",
+      "last_fetched": "2026-11-14T11:06:11.024Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-14T00:35:19.575Z",
+      "last_fetched": "2026-11-14T11:06:46.956Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-13T18:57:12.312Z",
-      "last_epoch": 1794585462000,
+      "last_fetched": "2026-11-14T11:06:48.016Z",
+      "last_epoch": 1794610249000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -305,14 +305,17 @@
         "CBMifkFVX3lxTE5sTDJkc25zcXZzOVpxZ1ZZZDJzRmc2YlpqMjd5b1RIMXlSVTRkSHVTQlBISm0xeFlKd2xsclVZelMtN052bzFQYXl2MXMwZXFNeE9IcEg4UlFONTE1QlFYQVpLLXpDMHdrVVZ5VnRiRnFOR01RaWMwYzZZM3dIQQ",
         "CBMiwwFBVV95cUxQSThZWF9jX253c2xrR0s2LW5kRHloN2JnYUJpNTlqV3luSGc2azNrV2N3RDZnamZya2F6cUN2M2k5ZnFLLXNvVW1SOUhCcmRlU0tmRHdHa2RFZThRWG41TXk3T0RnbWpqRzNsSTdoNVNMNTdkOUpONXVoaWI5TGlvUFpNekt3WllmVEo1OGNqUUt0MDNtaWMzM3V1QnpmZm0zOG1kWC1BNDNhYWdkRWRvb0JEOVhLRzNoVzQ5UENDcDY3QnM",
         "CBMiZEFVX3lxTE5rMjZxbTh5V0d1TkxxNkFWa2ZuZFpzSncwUGVMM2ZscFZLNkVTYTVPV3YwVHdzXzdsT0dqbWlHRjBGN2hXbm9ta2kzQnFpM1dxWDVSVEFnRDFBaFdRVm1MTExfTUE",
-        "CBMiiAFBVV95cUxOd28yN215SmhDQkw0d201aWR1elg5N2paWmxTM0hDUXFlOW01eFVEZXRhdHJaS2s0R3ZLNHk1UU41Z1pLaHVCbUhyRGNjS25hQTRSNlNkd0NNaEc5V3F4dU4wWWxpNTAyNk9ic3hUQkJxdzczeWtLdnUyTHZZN01tUHgyZmwzWGxO0gGOAUFVX3lxTFBPckpXZGF2b0N4Y1JZYlZQVWdKSDMyZHNMN3NocFpvbTlISTUzSndneExCYVhDYWQxek1oVGRidnpSSGN3dFAyYlJlZWhZZmw2elZCMDhuTGVZbXlta3ZZYmhOaXhSVkZxRWgtdWZUSTYtY1ZDR3JlWlRDcEF4Xzlsc1JfUDYwbk1jRDZUQVE"
+        "CBMiiAFBVV95cUxOd28yN215SmhDQkw0d201aWR1elg5N2paWmxTM0hDUXFlOW01eFVEZXRhdHJaS2s0R3ZLNHk1UU41Z1pLaHVCbUhyRGNjS25hQTRSNlNkd0NNaEc5V3F4dU4wWWxpNTAyNk9ic3hUQkJxdzczeWtLdnUyTHZZN01tUHgyZmwzWGxO0gGOAUFVX3lxTFBPckpXZGF2b0N4Y1JZYlZQVWdKSDMyZHNMN3NocFpvbTlISTUzSndneExCYVhDYWQxek1oVGRidnpSSGN3dFAyYlJlZWhZZmw2elZCMDhuTGVZbXlta3ZZYmhOaXhSVkZxRWgtdWZUSTYtY1ZDR3JlWlRDcEF4Xzlsc1JfUDYwbk1jRDZUQVE",
+        "CBMiqwFBVV95cUxPS3Q0aEIxcFYyVUttU0ZXR0JkcjhQV0hkMGllM25SLUVkUU5oMXZNWnEzbmp5UnpYeHZ5ekh1MFQ4UFNUN05KWURReWdhUUtwNVZWbUgzeEloWXh0QVROTmtYTmFmSno4R2xmVXlRZDh1WDlEa2Eyc1dud1hQTGZXN1gtUmhoSXFZTHA4STdIODJXUzh1UFpacVFmMjRKbF9aVEdjcTBMRXE4aVk",
+        "CBMingFBVV95cUxNVV82Tzc3SExQUGF0NTdKM0gzcW80dldPNDU2b1VQbm4weFh6aG9wdU1xS3U1UUt5VVRLSTRsU0xwbTJVYzdXTjFOZklXVlhfb0g5T0VsdWNxRzFYamxtT2tvZk9uZmk4SXMzdFZEUkdDb2ZVVXlBWExURXA1WkhUZ2Z6YWs0NkdTQUJkU190R0duMDAtVHpNRERUMXY4Zw",
+        "CBMirAFBVV95cUxOcllwNFhXYUFTT19pYUZseHdXbXAxa2tCZjRPelRnbU00MEJxYk0yeW8yVmVEdmdYVnRZNENHU01iOTVYOXdkQm8xWExjTG93LVpyVEx4ZkFKQVpUQTRNQlJnM1ZGbHBDNDYtcDFibE1RWXI3alhXejNRNlBwcWlBaTJwd0hHNTdNSEg3cEtkelRNSjktZ2tIVHloLXJnZEdJS2VFZlpDVEhpbmZp"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-13T18:57:12.355Z",
-      "last_epoch": 1794469336000,
-      "etag": "\"0b24b4a9484f19041d035e3a17736d115-gzip\"",
-      "last_modified": "Fri, 13 Nov 2026 18:49:38 GMT",
+      "last_fetched": "2026-11-14T11:06:48.103Z",
+      "last_epoch": 1794648455000,
+      "etag": "\"07d1893f7f584e824b5fa3a30872e8dd0-gzip\"",
+      "last_modified": "Sat, 14 Nov 2026 10:52:55 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -482,11 +485,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/cci-clears-advent-internationals-rs-3150-crore-investment-in-yatharth-hospital/articleshow/135713222.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/deepinder-goyals-900-temple-wearable-faces-scrutiny-over-brain-blood-flow-claims/articleshow/135731983.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/provisional-registration-framework-proposed-for-allied-healthcare-professionals/articleshow/135730967.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/zydus-lifesciences-completes-5050-jv-transaction-with-sunshine-healthcare-lanka/articleshow/135760462.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/zydus-lifesciences-completes-5050-jv-transaction-with-sunshine-healthcare-lanka/articleshow/135760462.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/mufin-green-finance-gets-rbi-licence-to-offer-forex-remittance-services/articleshow/135828522.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-13T18:57:12.467Z",
+      "last_fetched": "2026-11-14T11:06:48.509Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

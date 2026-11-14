@@ -12,7 +12,7 @@
     "generated_at": "2026-08-19",
     "mock": false,
     "query": "Oncology Hospital Chains (India)",
-    "updated_at": "2026-11-13",
+    "updated_at": "2026-11-14",
     "coverage": {
       "sections": {
         "size": {
@@ -63,7 +63,7 @@
         "news": {
           "sources": 2,
           "confidence": 0.84,
-          "as_of": "2026-11-13"
+          "as_of": "2026-11-14"
         }
       }
     }
@@ -1339,6 +1339,20 @@
     ],
     "news": [
       {
+        "title": "Apollo Opens Clinic and Reference Lab in Gurugram - Voice of Healthcare",
+        "publisher": "Voice of Healthcare",
+        "date": "Sat, 14 Nov 2026 09:02:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb1dKREl2SmNJVG41UHpja0ZGdVRiaGtvSFNMd2VOd0gxcVFUWG4wRXlIZmNpQXdnMWdXQlhiOU00dGpfUkp3enZGXzk0b0MyNjNTcEV3UTN3WUhlUE9TT056YUUzQndiYUZwVTdJeldXeEk4eS1FWmI1cTFwSDVSMDFrLTVmQ05hV2RpbmU3Y1FITjNEcWQyaVF4UXM1dUQzY1R4WGJDTU1ZX2d0XzVCNThPR3NBQlRhdGY2VEdFVVlMMEdBdkxoblBHOWpkaTBOOFVVS0tNdUhSa1k?oc=5",
+        "snippet": "Apollo Opens Clinic and Reference Lab in Gurugram &nbsp;&nbsp; Voice of Healthcare"
+      },
+      {
+        "title": "TMI: Your Formulation is Showing - JD Supra",
+        "publisher": "JD Supra",
+        "date": "Fri, 13 Nov 2026 19:37:06 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WcFlqdFhBMkgxeTY0R25zQTlpWkIxbmJiZVRJOEttbF9PTlEzckRaN01wRTRuZjN3NXE4QUxJVlJTZ2VpbnBqZmJ1c0lONVhoVFRMdjluU1dqX2tDX0pPYWdWcU8xdFVDYm1ydE9xOG11dTV3TXFZZ0xyQzE3YVU?oc=5",
+        "snippet": "TMI: Your Formulation is Showing &nbsp;&nbsp; JD Supra"
+      },
+      {
         "title": "Max Healthcare presents investor deck at CITIC CLSA India Forum - scanx.trade",
         "publisher": "scanx.trade",
         "date": "Fri, 13 Nov 2026 17:11:51 GMT",
@@ -1533,20 +1547,6 @@
         "date": "Tue, 10 Nov 2026 23:58:09 GMT",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR0RCeHNRSEItOTg0WjNUQ1RxQVgxX2pwcUJWaS14TkcxWHVuNDRmMVdEdHFZT2RkMkQ0QzdHdkpTbTBWU25GcEpsNFQwS0JYRHJLTlRHVHhiSUlOdndnSzZ5TmpMSDd2dWFaaWY3TGhmM2xCdzVSZW9NM2dVeHhmaVhNZGc0YmZqX2RNWjdvMmFENTFIaExsQXFjc0txRTZMV215U0c5WVRhYlhocmdNeGp1N25sVTZqX25zdw?oc=5",
         "snippet": "Fortis Healthcare stock: Q2 revenue rises 17.3%, margins improve &nbsp;&nbsp; ad-hoc-news.de"
-      },
-      {
-        "title": "Apollo Hospitals’ Dr. Sangita Reddy Highlights Role of AI and Wearables in Preventive Healthcare - Apollo Hospitals",
-        "publisher": "Apollo Hospitals",
-        "date": "Tue, 10 Nov 2026 06:53:59 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd2tvbzlQOW1aY3B3VzduVVliMy1hWlQxZ0RKaDZFcUVjOTdFSzZqYUFSQ1ZjWnFXaGlvRW5qYTdnZktPYnVnVUlQZEZwU2h4VDg3SmZkaVY0S2xZOUlmTGhxTzBlMkowR1U0OFdkc2p3emk2OEVwRnZJT0hibU9mRXR0Z0hPazA5NHgzdkg5R1haX2lsWTJIWGVJME1pZ3FjUWpEb3RtMEpVMUljTzlMd0xDMnR1ZEg4QTY0UDA2bzRxV1QtSDdpWWlNbVFQUEVuclZXNDdzc1hEb3VaSVE?oc=5",
-        "snippet": "Apollo Hospitals’ Dr. Sangita Reddy Highlights Role of AI and Wearables in Preventive Healthcare &nbsp;&nbsp; Apollo Hospitals"
-      },
-      {
-        "title": "Apollo Hospitals Chennai Launches Multidisciplinary Centre for Memory Care and Healthy Ageing - Apollo Hospitals",
-        "publisher": "Apollo Hospitals",
-        "date": "Tue, 10 Nov 2026 06:54:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOY1h4T2x5NkdENWhfbFRRc05iMHY2NDdJdEFqd01mQlFfZjhMTGtGbzFjNUdoVjdWQl8wWEJJemVxVENBdTR3VW5TcVlZaUFzSDB1Q2RKZHh5MU5uRFBRSjRUdGJYTVFfNUtmaGM0eWVCOUdUTzViVUJJbGxqWE9MVk93WnR3SVA3WHQ0cXctbXBHTzlMRzNBNmRoQl9OanVTNFpjVDMxcndvampBWTVka0pUOE91VnBXVnVVdDF3eWF5czN6REVsalh1ZkhYeWVNdFJWLWpibGVFSnhW?oc=5",
-        "snippet": "Apollo Hospitals Chennai Launches Multidisciplinary Centre for Memory Care and Healthy Ageing &nbsp;&nbsp; Apollo Hospitals"
       }
     ]
   },
