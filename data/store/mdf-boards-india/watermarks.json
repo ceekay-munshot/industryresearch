@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-15T11:37:03.288Z",
+      "last_fetched": "2026-11-15T18:07:23.476Z",
       "last_epoch": 1793787197000,
       "etag": null,
       "last_modified": null,
@@ -29,19 +29,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-15T11:37:37.699Z",
+      "last_fetched": "2026-11-15T18:08:01.918Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-15T11:37:38.786Z",
-      "last_epoch": 1794719468000,
+      "last_fetched": "2026-11-15T18:08:03.068Z",
+      "last_epoch": 1794745226000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi9wFBVV95cUxNUkdHaURJRC1SY2xjLUZmeC1GTjVRZ1hFbW5uSEtxeGZFcW5xZkdBbXpOU3BEV0FEN1A2NEY2Z2xlX0NSbVBpNVIxdkxPY1JqQ1BSaG8xY1lBeDBBbFU5YUMwOXJHTy16UFBuLVVPcmFyeXpJNzJKYkhkLVZ0Q2lnUTdMWm1pNE44M2RoVTFKMkhJeFFmVEJINXdZY0FmV0hSQklXOXN0OTROSVJLeTBwc2pkNjNJYWtSdnRwV05fSTZ0dmJFMVA3VzB1NV9uM3ZCZ2oxMDBubUNvYkhCR196RnliSl9aNVNGNHpkd0lEVEs5eGNVRjlR",
         "CBMi6gFBVV95cUxQQ2dfZ3c2OGhwX3l3NXZnVnJxeGhFS05hS2tyMnJGd09MRXFjQ2ZYTHdoUkJDSmM5cjRvaFpBNkZnYmZJdWpCTU5tRXBMbXVRcm5sQVJBLUVmNHc3bkZ0OXdDSWEwRUtmcEVVbXdpdHlfQ2VKaURMcmZPTmhmQlktMW9yZzI5SnIwenZjTWVJMHhhdzQ5b056RFhxcGQ5SmFNU1VWeGRFc2ZUcUV2SXc5OVVqeEEyN3pyTEtsNjFHQmVvdzJ3NzJOSzY0UzFHX1lyZHZILUJ5Z2VpWUtRTG9zck9xTUQyZERCMlE",
         "CBMi3gFBVV95cUxOU2gwem1sb0thTVcwNVdkN0g3TEhCQ05LZHZLNjhBd1RoMEpPUjJ6a2VVU0YwbHREVHZOZmpUVUlBT2RnSDBOTDZJd0xoMEsyUTNCM2hyMnB3a0Jfd2VzaTF3UXozVEF6YTQ5LUlXR1kzOHBYX2NUM0lVcFBKamM4enUwc3VCUXZzSEI2aUdOalF0ektDZDZhVWhwSkdCdmxWLWJtMzJkSG05M3lNdlhYbFFWSEM3VlVWUkY2eWFkUTRoa3kyb3d0M1p1RGt4aU00UkVZb1RNc203UzZjWWc",
         "CBMimwJBVV95cUxNRGpqOWZVM1dFamx1YzdKZkJNVEdZelQxc0NkSnpkaFk0NnpKV1J3cWNmdUxTZ3EycDRPMk1fdmlQSkJpa2pNaXZOd1o5N2xGQ2RxT1ZBM1l1eWNBdjVYaVlUcC1wVzJSTmNUSzI2YkZTNzhfYXgxZW54UE1RcDhqN21CREdJQ2RrWEdzbmx5MnhCeHF3LURWZVNpcDNJaHZlQmlnaGgwWjV5c3BxTllSaFdYajBQSTZFQ1lhYWhqQ3pCdDJndTNSRW1KZ0l1cGNLWHZWVHFrV3FFTS1nN0llUEEzYWFlNEg2dU1pczRTdDg2YTA2MjNlb3Q0ZzUweVpZV0x2eW43R0JqTlI1OV9lYVNNNWNkUVNLcWpR",
@@ -340,14 +339,15 @@
         "CBMilAFBVV95cUxPSFM5T3ozSFJ1d0lLd3J4M3FlZm1yTzRtQ1luN1U4WWlSam9jaG1rY3dZeVI2c2Z0U1NVd1BHcGtsc2lZdW9qOThyVVBneHZDXzNISmlFbGZ4TDlzYzFNcUI3Zm9tZkJxcDVPX0d3dndOQlBialA2a21hRHd4TGptWDVmTE1pc0VOd3d0REZuU1R6VFRX",
         "CBMiqwFBVV95cUxOSENQLTR6Y2NhQ0hscW4xMTE1c2NVcjRlNi1kQXlsZ0tpMERlQWRfVjRtazZmbzVSb0ZVakJ0UXU5b3hDX1B6REl0MGN3cjFKblRiUkVGMXBSeG5vX0JDbkFzN2p6Y1dvU19vdFlZbUhRRUJtcThibURsZFJERTZzNUE1dV8ta1ZzMGoxekFTWV9nTWs2dGQxWG5QQmRvWjh6NVhyQ1NKZWY3dWM",
         "CBMia0FVX3lxTE00VG5Sa1FWdjlOTGlMdlVuY25Eank2a0RVR0hhMkpOd09VeTBZbVA3U1duUGVyVEpZQkd2ZjFkRjZRdnBOVmdyUXlpclVMRnE1SlMtYms4TjBFSXExclZ4blRUUEN5WEdfVHhJ",
-        "CBMiXkFVX3lxTFBsQ1hON2NBcldkTXY5a3Jjck5vcmRrUUNqZ3N0VFJSVFRLQW9mWmJlcnkzaWJhVERBX1U2VjItckNDX3hJdWltaWY0LXJleEVBRC0yR3E4aFA2cDY2bUE"
+        "CBMiXkFVX3lxTFBsQ1hON2NBcldkTXY5a3Jjck5vcmRrUUNqZ3N0VFJSVFRLQW9mWmJlcnkzaWJhVERBX1U2VjItckNDX3hJdWltaWY0LXJleEVBRC0yR3E4aFA2cDY2bUE",
+        "CBMioAFBVV95cUxNQWFEM2JfS09rSGZkLUhFTXhtaUFXdE5GUXU2VW11UGR0UGpfbEk0ZkVxcVluUlgxemlBYkhIelgzUHpMYnBXazI2aTN6Nl81cE95Ry12X2RYamJYQks4eG83dElIQjZsWlRaOU15ZHVENmJhT2twNmtFU19iZ1dFVWhkS1dwNjY3SGpEeWxJdVF1ejhjeWEzQUtaWlZSUThz"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-15T11:37:38.879Z",
+      "last_fetched": "2026-11-15T18:08:03.282Z",
       "last_epoch": 1793798101000,
-      "etag": "\"09707df4415aa267f4f6180e7c70db685-gzip\"",
-      "last_modified": "Sun, 15 Nov 2026 11:21:30 GMT",
+      "etag": "\"0087f812beab381834224fb924496c9ed-gzip\"",
+      "last_modified": "Sun, 15 Nov 2026 17:47:05 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-sector-revenue-to-grow-11-13-pc-in-fy27-on-strong-exports-domestic-demand-crisil/articleshow/134460174.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/holding-companies-nbfcs-rejig-assets-income-to-escape-rbi-scrutiny/articleshow/134525412.cms",
@@ -364,7 +364,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-15T11:37:39.122Z",
+      "last_fetched": "2026-11-15T18:08:03.615Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
