@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-15T23:42:09.009Z",
+      "last_fetched": "2026-11-16T12:15:11.892Z",
       "last_epoch": 1794785280000,
       "etag": null,
       "last_modified": null,
@@ -129,20 +129,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-15T23:42:39.438Z",
+      "last_fetched": "2026-11-16T12:15:46.016Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-16T03:37:17.044Z",
-      "last_epoch": 1794708554000,
+      "last_fetched": "2026-11-16T12:15:47.084Z",
+      "last_epoch": 1794822245000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMikgFBVV95cUxOb1NFbXZJenBPbm1vQWVZeXFJNnVJNHpkbGpYa2YtQkdnbzBlODBnZW9YdGRlRWtjNXdWNzZyR0tXYkNvZ1ljMTViaV9pTXNPelNlVzJfM05tcGhxOXNEanFUVWhOYU11R2JKUjNqbmgzNEFZRkdybWN6WVJmcUFjWTR2eHVLd1RoRjE5UDBkUDJnZw",
-        "CBMiqAFBVV95cUxOd3Q3WGhWdDVYX1YzWTVqOGZQRHg2Z0hraW1mVHZLd3RPU1l0bHZyT0xfR1dwY19ZbnBITmdLNUQ1eG9lbDJQeU41MEhGRGZMRnhtTm91djRrUkVQWGVSLURMYXhQblFmNDZNUkQ2TzA0YjNYcU5wN2Q4V3R5TjZZMF9VOGtiX2tDMlo5WmJFd2lhSGIxRnA4Q2pRajVSTG5iZW5rcVJCdmc",
         "CBMiwgFBVV95cUxOSDRvVXU0ZWZXSmlOckw2MWRSWU5yX04yVGtOVFhFajNKZWpncEhQbTRpVGZyRUlOSFI3clZHcHNYd1NVTi1iVTlUdUw1TTRwRUxDUEVfR1oxZGNWai1IaXlpalBaOVVuM24wSkM0R0luUGNNdlBKRktoM0RNUzZKSG41VU9ZREJ6M0JXd0ZaOENCUmtYR1VNcGZac2dibVNHTFF2bVpsUmw2aFRURXNqVzRCZVVMV1NPR1FsZ2NhYkxFdw",
         "CBMixAFBVV95cUxNeVRJNXd3ZnBYSEhCaUFmS0tGVDBuTjJuajFxLTVOOXFyTEpveEFhOEFpckJEcEJkWG1IZGlWUXZEUDFaRndnSEhISllvZmhfSzVnTmJNT0doTzFHUXhyM1lwb2s4eVR3dnFBZm00MEUwMVZpdFhBZEpsZE5HQlE5bWRMRUp4Y0lYb1RaYlNGUE5rZ28zcmxnWWVtWnlWSDJyMkZmVnJoZVM5MjRxejlXZmxyNEhPcjh5ejhQNDNEa0xCZ3d5",
         "CBMi4gJBVV95cUxQX25jYkxHSndQR2JBS0ItYjdncGZWOC0zdzNScWFSRUtBTlBoR0Q4QjdhTGZSWjYtRlhNTFpOU25BdENKdEhydmFqNFBrbmZ6TnAydXlpRjNKYkEtWmdzNEtZRFhoWlJWMXhkUV8yVlh5VklreWY5VDI3TzNabmJUVVNKY0RJQWIwYXZVOGJlenczaUNhTEswNjF5bXYwTnJyUWFhTDZES01qdFFuTG9oQ2toaDNoVEc1dVFWajY3Si1sYnlRYmpGX1pJVF9xX19QdEpKTG5vQ1RiWnFCOXhfaGpfN3ZsY1hGRDFyZzVXMEhiSHFqTlFodjdsczVibllZelo1UWZmcWRhVTFjWEV4NGZqelM4ZmdWeVJtQlRpLVdFQXRrUHMyOUdnZ0Q5VXJpcDVSUHhfci0xN21zVGtoR2RESVpFdDhzQnFtaG9ET2tGbkdjMkczTlF6VTc0anNMNEE",
@@ -440,16 +438,17 @@
         "CBMizwFBVV95cUxQelhTY3FLa1VTSVZYRDJYcGhUSVVkWjd6WFdDR1hnTGlLZGZOeGo5eTJtNEtZaGFDUld5MERFRG9pMm1zalVtUEM0SzdNdmdEb3NGV2dxQ3VSN3pFUmt2ZmxOWl9lc2pHZHFsTjJRdmY1V3lEak9pOVZIMDVkdU5JcmFvZXB0aVlpUGk0RGlYSmdxcXhQdjVPa05fbjlnUEhsYVBhYlJ1YUg4OERhZ1lCY21sdks2N1lqdzFZZmFKbHNDbEIxRUJIRG95ZVVFUXc",
         "CBMiswFBVV95cUxPSHdJUWtZZHhkb1V4YnpKQkFjVzhNdnFjS2YwMklSRW9Ia1ByYjRwVnd5YVhDUzFOb0dvNGNvOU9LUE9PaVhFSUV5S1hUdGI5VDhNSGlBVWJOYzJsZ05aQVdoVEJUYzlEdjExZDMzNnEyVkprSGJ3bDJuNWZoSjVITUpraTdYbVJWQlR5T3YtcldReExnZTZMSUFEN0M5djFwQzZxY1h5T25zRHA3c3JXM3VSdw",
         "CBMisAFBVV95cUxQeDZBRGFuVEY5cEN0ZU5mdG80Mkl4Q0JkMHlMTERacXlSZHVBcEV1MmVLMkZSelRHOEdUaUxza0UzYURzWGNid3NNdU8taEd2OEJGdDhNNlZpTlk1ZXJiWlhsUEdPdHRPaG50VGNEc3hRZGxvdDFzSlRXZGZxTDBXOGVkczgzcWl3OVo3RUdkV2tESHNpR2MyOHFYaVkyVTVWVDN5MDhlYnRDQUt0OWlBWg",
-        "CBMi8gFBVV95cUxPZzF4amZDRm9CR3k2c3Fhbk9VUTZlaUJkelRhaEw5ZW5KV2w5U21VX0dkWFo3bTJHV1hBTFJGNU9nNHNzSlNLVlBUaTdKS2dQUGZFWG1NYU1ZMG1UbnhCNzlnRjFsZ0x6Wm9wM19JNnFZcW9uanZsekVVTTBkVnVwd3dYckVsMVZCTGx6ZDRNMzl4VkxWSTRzVkxkOFVWal9JQ3ZiRjBHZHAyZFFNYnpURVFzTklhbkV4WGJoa2FDeUhmNlpUZTFVVGZIWWZoTDNpcGxCMFVySkJid1U2VmctVkwyVlZPRXpfRGRBVHVENUpRUdIB9wFBVV95cUxQckt2MWdZcWl4M1Z2OFc5MDBjcmFGTk9FVVpnME5TcFBUSkthdHFVMmE0dm1Hbm85dHhLbkFNS2h5VE9Na0JaQ2xMT2RPLVNlbkRMVElqSS1hS2dVNmg0aGhBLVJ2UnB0aHItV3hzTzBlQkdpbEw1NE0yUldaSFd1TVBhQTRHbTlRZWNHdTY0TlVIa2kyUzhmTGdibzJ0RVRHZ0FfaWZCNWVpbXY0NThKY2E3OUxlMURrcjJpZnFDVVh6b3FkbnVqY2FTdjdaN1Q4RVF1anR6WFlpakUweURJWjFnNDc0dEdIelA0aWZ1OWVDb2VheUtj"
+        "CBMi8gFBVV95cUxPZzF4amZDRm9CR3k2c3Fhbk9VUTZlaUJkelRhaEw5ZW5KV2w5U21VX0dkWFo3bTJHV1hBTFJGNU9nNHNzSlNLVlBUaTdKS2dQUGZFWG1NYU1ZMG1UbnhCNzlnRjFsZ0x6Wm9wM19JNnFZcW9uanZsekVVTTBkVnVwd3dYckVsMVZCTGx6ZDRNMzl4VkxWSTRzVkxkOFVWal9JQ3ZiRjBHZHAyZFFNYnpURVFzTklhbkV4WGJoa2FDeUhmNlpUZTFVVGZIWWZoTDNpcGxCMFVySkJid1U2VmctVkwyVlZPRXpfRGRBVHVENUpRUdIB9wFBVV95cUxQckt2MWdZcWl4M1Z2OFc5MDBjcmFGTk9FVVpnME5TcFBUSkthdHFVMmE0dm1Hbm85dHhLbkFNS2h5VE9Na0JaQ2xMT2RPLVNlbkRMVElqSS1hS2dVNmg0aGhBLVJ2UnB0aHItV3hzTzBlQkdpbEw1NE0yUldaSFd1TVBhQTRHbTlRZWNHdTY0TlVIa2kyUzhmTGdibzJ0RVRHZ0FfaWZCNWVpbXY0NThKY2E3OUxlMURrcjJpZnFDVVh6b3FkbnVqY2FTdjdaN1Q4RVF1anR6WFlpakUweURJWjFnNDc0dEdIelA0aWZ1OWVDb2VheUtj",
+        "CBMizgFBVV95cUxPMWYxcjFhNGUtRUZoeV9vSjZDc0pQc2pfLUhvZnotS1MzeXJGTEowNjRzTVZpSGcxMDNyVDM0aDFQOFFWZ0NxOWNGdFVLWFdacXJyWHVZR3BIZHBmNk1xSmZtd1hqdzFDS3V2OU5ybE5hdW9hWmtwNEtzLU42dnl6cGpYcWlOVHd6QjZSa015c00wTkRKd1ZMTDVMdFAwbkZoWHRfeURydkg3S0k3a1d2RF9TdXpWemVhTzg5ZXJQdUc3UzMxUjUtVXRteXRpUdIB0wFBVV95cUxPdjBxYzBpT0RGRVFjUFJBNUxDRlA4TWh4bHJWQlpOZm95OUVjWDN2eVprbTdsMnMyakJ6WC1xaTVlSlpPbE41ODUtX3RTblRfM3prNFdRWkg2UEV6VUVlMDlHdW9ndGlESzNXNEY5bnk5dVNJZDd0aEF3NGRRYXphd285VUZibW90T3g4YVR4SUdzTWFNM250cks3NVVXMzhwc1dQUkNLcllSVGZuZ1pIdS1LWUg3Y3dKRlNvcldicTIxakh4RkxtWVpxZHVlcDRlREZv",
+        "CBMisgFBVV95cUxPTG80RXNoUDk4blNOZUxXNmVaZTJZeVdMQmpfbDQ0V0M3Q2JnSnFtMld4TnVJalZKaWRzQ0dJRlJKaUZ3MW5JWXk4b0d2ZTVxbDUyaVI5bDBzYmV2QjRmWkU2X0tLS2N6U3dIM0JFcXFIQVh4OVI4djFsa3hxOWFtMFR3V29Jd3lxZkhMRmFhSFlQLTZvTGItOFRWcmZnMjRwMnlEV2k5SzQ5YV8zazZJaUZR0gG7AUFVX3lxTE1FOWRaN1d6eUhXQ2NCMHpNclh0Q0p6NU5PMzVEQW9XeGRhVHpHNDdVNTdadzFmb0RxQjE4VFlrMDU3WTZMVXMzR3dQd0VkQlNmdWN0QkRNeTlNMEotUTBRN2dFS3ZLZHBtWmFKSHA1dUFKcGt3R3FWTVVaTF9CUTJkelNQWXRSWG9qc19TemtOclJIRHViaTBHamtYalNhbGk2Njc2MVpmVm5zeF9YMmtUOE9mNzNQaTR3V28"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-16T03:37:17.077Z",
-      "last_epoch": 1794572290000,
-      "etag": "\"04e821eb50607d1eeaedc8e778015f644-gzip\"",
-      "last_modified": "Mon, 16 Nov 2026 03:25:14 GMT",
+      "last_fetched": "2026-11-16T12:15:47.118Z",
+      "last_epoch": 1794812805000,
+      "etag": "\"0043fbaa1bb2bfd71c13d753b4449e83f-gzip\"",
+      "last_modified": "Mon, 16 Nov 2026 12:07:09 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/renewables/solex-energy-targets-over-rs-4500-cr-revenue-by-fy28-bets-on-solar-expansion/articleshow/134409804.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/shekhar-kapur-joins-ltm-as-strategic-advisor-to-drive-ai-powered-storytelling/articleshow/134407509.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-slips-below-100-but-remains-volatile-as-trumps-un-remarks-dampen-optimism-over-saudi-arabia-resuming-yanbu-operations-and-east-west-pipeline-restart/articleshow/134419785.cms",
         "https://economictimes.indiatimes.com/industry/media/entertainment/media/brahma-ai-raises-150m-at-2b-valuation-in-multiples-led-round/articleshow/134419743.cms",
@@ -748,11 +747,12 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/india-needs-suitable-evaluation-matrix-for-awarding-exploration-and-mining-projects-niti-ceo/articleshow/135737588.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/godrej-properties-acquires-31-acres-in-indore-for-new-residential-project-amid-strong-demand/articleshow/135789725.cms",
         "https://economictimes.indiatimes.com/industry/energy/power/power-transmission-developers-seek-relief-for-projects-hit-by-interconnection-delays/articleshow/135787705.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/spicejet-board-to-meet-on-november-18-to-consider-fresh-capital-raising-proposal/articleshow/135802832.cms"
+        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/spicejet-board-to-meet-on-november-18-to-consider-fresh-capital-raising-proposal/articleshow/135802832.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/glenmark-launches-generic-of-inlyta-tablets-for-kidney-cancer-treatment-in-us/articleshow/135875104.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-16T03:37:17.122Z",
+      "last_fetched": "2026-11-16T12:15:47.162Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
