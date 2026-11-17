@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-16T12:20:04.796Z",
+      "last_fetched": "2026-11-17T00:04:07.499Z",
       "last_epoch": 1794823010000,
       "etag": null,
       "last_modified": null,
@@ -240,20 +240,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-16T12:20:41.967Z",
+      "last_fetched": "2026-11-17T00:04:44.418Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-16T12:20:42.969Z",
-      "last_epoch": 1794768512000,
+      "last_fetched": "2026-11-17T00:04:53.451Z",
+      "last_epoch": 1794861562000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMivwFBVV95cUxQbk9tU3A5ZzhMaFhMNDR4WGRpQmhibnBwdm9lbEZHaV9zd3p5NUNVdHRHamJha1JudlA2VGJuamN1OGtyMy0tSlN5RDNibkdRU3V6Y01udlVfNU5DOXNYckRseDl2blM4TUx6S2x1M1A0eTVmUG5HWmNGUE1zdXEwTk96TGdLbEJBQVZjaGZ5aTk1aDdxTy12VEoyZm5tb20tYnh3ZjlxUE1RaEdSMzFiVkItMUp0bjJseDlOZHplTdIBxAFBVV95cUxNdTZDaEZFOGtnQkgxclFsSmQxalRMZUxWMDVEazdfS3hLVm9XZnlNTmRtYXpIMkJqaEZkbDgzZk1FbURqMWRpdUFFeTJ5d1U2dkxJTzBvODJrdlBxZzhSOGdSZlM4VEdMc3ZSNnZyNkYwLXVBUTFaWUo2ZmZ4TVJ1a3Ffb1U1RWxZSnVpTTVmOEk3WTFXb1ZqN3J4MUpVSExGWngtTjlSaC1vdmtTWmVCVm5pWFZYdDRKVXFhU3BQVFBoY25T",
-        "CBMiWEFVX3lxTFBSMnVsTWh4Mi0wOGF6b3FkQWNRM2ktRzZRVXNZeUREODBxSWwtWEdvdkpKUDZTQUdHYnBOWTZqaXI1eEJIRzA2WXBjOHhwSmltcVlIVzd0NnM",
         "CBMi3gFBVV95cUxObDY3bEZqZE5TY2l1X1pNRHhfTDlnV2NRUXdJMDZSZzFWSnZzdGEyZXZPaWp2RkEtNGdESUY4QXhtLXR0Sllac3ZZTEtGREpmZXhDUzZ5V2FZMHR0bERVZDRRZ2ZKdnZsM280ZkNXTmxLcVFscDh3TXFRX1JKZnMwRXlKOG83S2gzNXgtcjB3S0J0dElTaFliT0FaNnhnTzAxVlUxOUZFY29JNDlwd1psS09JQ3p1YkdGYTRJbHZDdFpOOF9FY3JTOWZrelNwTkxoRmNkMU4yZFExbG5INGc",
         "CBMimwFBVV95cUxPUUxycVYzTFFSYU96RHRNUEpkajM5ald6NDZ6S1V4OXRVVG4ySEdTWC1QTkpCU3AxVmlDN3J5N1k4ZVVJalRsYlZIWmFvRlo5WkNsVDRmZ2IwZmFYdWhIVXI3VGd2UVIwR05TZjRQQmRpLWRsNGkxOVViMTR6SXhPNjBCaWNaa2dTa2VpV3pfLU13V3NzYzJGMUFDaw",
         "CBMixwFBVV95cUxQcHphcGF2cDRoNTR5V2FVMDhhcE1WWGYzekRlRjJ6Ry14Q3NhcE9iemdJQ2Y5VFlsT2U5NVZPZkRNbl9CRTdTQXdfRUxXRU5iMmRidEIydkxHVS1Oa1FFZkowSWpWbmRfcXJYQ2hWa3ZZZWxVNzM0TS1RNk8taDJEVV9PaHk2WG9NamMwQTVZWDBPS0ZJLWt5eXM5bDFicFpTTkZOdE5xZWE2ZGh2MjFGWG4wRHpfVXpaVWNzeUdjVFZ6MTlaeGtr",
@@ -551,14 +549,16 @@
         "CBMitAFBVV95cUxQT3lxS21FNXFRZzIyTEVoYkN0V0RXQjhTRi01aXVfOXo0NjBsd290TUlZdGNLbVowbnB2MHlXb1B1XzMtamJZdnozUG1IY21INjJhYllwRHp4bzhmTmFpejlWOGJsV2VVWG00YkJTQmhXZHpKZHJZSFNXVk5DdVFFZ0pFTHN0bXVBUUJyVWUwNFBlWjk5Yy02Zmdzdlc2VS1NT19BemNDT3I2c2JnT2QwX1lVUV8",
         "CBMi9wFBVV95cUxPR0xFNEJWbnpFbXF6RVY0LV9rNVY4M1ZGVzVpYmg1M2RUQ2Fya0tXVXBSeHV4dy1mZEU0RHFXeTdoOGkzZHBoMkc1YkczSFRwSkVibHJwYnRqZ1E5UE5KcW1QM1FGMGlXMWRDbG9haXRsXzlvV1NHM2hib2hpbEFLTDBTRnl6QW1fUHFSaGtXT0hFQ0NoY1dBRFlMY3RvX094SHh6ZkdVSHVyeE50ZDBsZmZEZzBSMGd6QUF5bU1uMkFYYUZaSnRtVmd4dXhFNE9RWVhKdlhaUlIwMGxZMFR0UDdQV2hmeHp4SUlYa1NqRW0tOUIwOThB",
         "CBMi-wFBVV95cUxOSndhSThkTm81RGNsZGk5dFhzeV9QdU9XSXNzRWNHX3JoNXRXV05mdzEtVTg3ZHJ1V20tdUVBWHEtZVAzM2MtbVFZbTk2dml5RTBKZ1Z1UXh4ODU1VFFROExmSG05R1NfZU1YM3pmRGdpNTI3U0RCaEV0LTZNQnBoNmhlZWx1VHh2aTJZczB2eHZyUUtlV3dUUklVZnBvdERHZlN3Wks3ZFR1OTMwR01BQVFJdWNoWm9BZ0FIam9TbC0yQ25Ud3FaYk1oZWhYUEhvcFFEMVNwdXMtREZoUm9Sdzd2SnN5MU1hY2Q1WE8zVldYbUFDSU5NQjdhSQ",
-        "CBMiqgFBVV95cUxNWll5TWx3ZXM4aG4wU21NSGNCdXdMcUUzY3pqTlFDMXVVQTM2TXhPMko0RU9QS0loOVlWMXllRHowOE04R1dBWGtmaHRZOTNmWHozNkowelZDcGVZc1ZFbU9QUG0xVlBuOTQwWDQ2WnM1UktEMFBpUjM3d1ZHQjRYVzlTZXBJQXFBX3BYNVRIZ0hjS1F3RHBYQzhBZUFtQnZubXo1YU1ubFJqUQ"
+        "CBMiqgFBVV95cUxNWll5TWx3ZXM4aG4wU21NSGNCdXdMcUUzY3pqTlFDMXVVQTM2TXhPMko0RU9QS0loOVlWMXllRHowOE04R1dBWGtmaHRZOTNmWHozNkowelZDcGVZc1ZFbU9QUG0xVlBuOTQwWDQ2WnM1UktEMFBpUjM3d1ZHQjRYVzlTZXBJQXFBX3BYNVRIZ0hjS1F3RHBYQzhBZUFtQnZubXo1YU1ubFJqUQ",
+        "CBMikAFBVV95cUxQeEk4MVE3eXptY1Zxc2FFU3pydkpiSmNyYTlNZGFUQmxWM3BhSTlvTHN6MzBnTXk0RXVTbnZCY2RKeHN2dEM1WERXM3ZaT0JwU0NDYWFmVTFYbXNhT0tPRjRSaVRwdGZqWkVVZmNlX0sxRUdiMzVQQWtkWlhtMmRUNmJqX2R3NEJzRG5CY0FlZmk",
+        "CBMivgFBVV95cUxNTkM0VEZpdXVFY0REY0EwRXp3MGhLR19pRXB0ak8wVE5ScW5Fd2lVblR4ZGo2N0szTGx2cld4ek1ad3lkak9YNFdSX0ItWll2TjdMS1JkN0tQdmpSR2N2ajBZNlRZa2lDR3NSU3hRTTJNMEdOOU9fVmdnSnEyVWFqRy15dHQtSWFDVWp6bFhidy1XQ0pyY3V4bC1FWnc3LUpCS0NlRDI1RGhjLV9lcHlSN09HT2JXZzRvRjRrZzdB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-16T12:20:43.063Z",
-      "last_epoch": 1794387141000,
-      "etag": "\"0043fbaa1bb2bfd71c13d753b4449e83f-gzip\"",
-      "last_modified": "Mon, 16 Nov 2026 12:07:09 GMT",
+      "last_fetched": "2026-11-17T00:04:53.475Z",
+      "last_epoch": 1794832550000,
+      "etag": "\"090abea4ce2f384c22115f05ddb495cc3-gzip\"",
+      "last_modified": "Mon, 16 Nov 2026 23:47:02 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/andhra-factory-makes-3-million-tea-bags-daily-for-global-giants-walmart-aldi-and-carrefour/articleshow/134859981.cms",
@@ -655,11 +655,12 @@
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/ashwini-vaishnaw-launches-semicon-2-0-portal-says-50-of-units-approved-under-ecms-are-smes-msmes/articleshow/135601091.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-meets-skoda-auto-volkswagen-india-ceo-talks-focus-on-ev-push-exports/articleshow/135685828.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/aurobindo-pharma-arm-gets-voluntary-action-indicated-classification-for-telengana-facility-from-usfda/articleshow/135731486.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/aurobindo-pharma-arm-gets-voluntary-action-indicated-classification-for-telengana-facility-from-usfda/articleshow/135731486.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/adani-starts-production-of-indias-longest-wind-turbine-blades/articleshow/135889335.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-16T12:20:43.158Z",
+      "last_fetched": "2026-11-17T00:04:53.555Z",
       "last_epoch": 1713863838000,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
@@ -668,7 +669,7 @@
       ]
     },
     "pib-releases": {
-      "last_fetched": "2026-11-15T23:47:20.886Z",
+      "last_fetched": "2026-11-17T00:04:54.057Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

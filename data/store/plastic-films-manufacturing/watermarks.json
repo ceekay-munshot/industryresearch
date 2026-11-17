@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-16T12:19:00.035Z",
+      "last_fetched": "2026-11-17T00:01:58.014Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-16T12:19:38.976Z",
+      "last_fetched": "2026-11-17T00:02:32.496Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-16T12:19:39.212Z",
-      "last_epoch": 1794830331000,
+      "last_fetched": "2026-11-17T00:02:35.471Z",
+      "last_epoch": 1794834909000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMivAFBVV95cUxOSnFwRE9jU2owV096bkdtanlIa1ktN2ZoOGQxdDZXV1ZHOWZkWkg2bDAzenZBU0NKNUk5c2dfWGhQRWxnU0ZWcWhTSWVFRVFTTmlrcnlUQmktaHl6aWcwT3hMSVVTS3o1V3N5el9ZVGx4ZGkxRDY5T04weGk3UWZwSHBtNHFYalp1Q0FGZE5CWkJhN0pFUkFvdk0tQzU2MzJoenZpU0ZIRk55OEpHWl93djhZWVFuYmlLTWtSRg",
         "CBMijAFBVV95cUxNOTJfV0lfX3Y4ZG1VOGVZZVduR003VExPdGFKQUJqMkphRWY1ZmZtb2NNTVM2aFJwbHp4VXZwbTh6R25NbkVRX3A3cXNzd0xkUm9OYkJuSmROdC16MmxIN1JwSkNidWdJV3Fid3FzMU4tVXpRZmlVZi1WN2RqMjhjSzZLUF9zOTk5cXhrMg",
         "CBMinwFBVV95cUxOQmk3dVFOSzdVbkl4WmRoNGM1Ml9Pa2JWdVprY1RiN2pVaEIyRE1oeEhCUUNaMjQ0MWtRTW5hUExFVzdyQ2dtS1lxR3hOUm5FaHlrUmNuOFlrUmZoLW1sWlBkWi0wSm5HbUhFbHIzMnRhcUxuRmEzenZiYmh0aVFQVjFEY2FuVW9QTE5leFlFVDNyM0t3LUNtZjVKZnY4M2fSAZ8BQVVfeXFMTkJpN3VRTks3VW5JeFpkaDRjNTJfT2tiVnVaa2NUYjdqVWhCMkRNaHhIQlFDWjI0NDFrUU1uYVBMRVc3ckNnbUtZcUd4TlJuRWh5a1JjbjhZa1JmaC1tbFpQZFotMEpuR21IRWxyMzJ0YXFMbkZhM3p2YmJodGlRUFYxRGNhblVvUExOZXhZRVQzcjNLdy1DbWY1SmZ2ODNn",
         "CBMipwFBVV95cUxOQkszWFdyeThiWU4xdXRFaGJpNW1haDBKeF9LdzQ0T1ViWnVIX3h2TzlKNGlWSkRueTdKb1p4V2k4V1FabjRubmVqajFMUDJOTnZIclRHRFZqQnQ5aHNWMWRYNzRqbzVhR3V3YmZDeWJsRV9YaVdZbFVMMFB0cHJSclZJYVhNOFJQMnNaSDBXQktJMkZ5bmp2VHZsOTM5WnNGcE5VTVktdw",
@@ -319,14 +318,15 @@
         "CBMiuAFBVV95cUxOSzZNOXJjcV94dzQ5UXE0b2Z1T1JOUVE4ak03TC1maDJhUHJvOGNUdjQwYTJtaHMwb0hwSlM3WkNIWHVFUWF2UTRycC1lT1ppZEtnVHoyTENpRmRiSzNYa2J3dW53LUhkdU51WFlHSDdJSFlpMm5sTUU2aXkxc0FMX0tsS2FELUFVUXFoTHlCMVAyVVhXeGFWM1cwb3FqSmlzRlR3WVU1czl1MFNnVGcyMHpOdG1ZOTZK",
         "CBMixwFBVV95cUxPNmlPOVBBVDlFbWFvSE9EM3dIQmt5a21PNlgxWTNTOC1hUS1OTXdfMnlab2plS2tUY3ZhU3lqY0pLQmlTMmtGNlAtTmIydjY4SXJOZGJYNElOSzQ1UWlKTmRickxlejd0elpmaVJIZDdISmROVUNuTE1YeGJfMWRwNWNPRDNiWURTR2U0V05jaV9OZ21MMlF3a3JyR2hCaEZkQVVwbVFqdnExN2pSWU83QlZlekxjQjExc2RBbzZBZjdibjM0ckdn",
         "CBMi0gFBVV95cUxQYUM3OGlnalpiUkd4bHZ2bmxUOERPTlBsdVVWVnVUQnlkaGVsMTRkQ1FzV3VkWlk5TEZEQm5sR19uV0tCRkR2MnFtT2Q3R1NjZHdEQlczSldQQmV3cWROZzV2Q1pKeWdrYXdyQVVPcjJCREdEcFlUelRJYTdaVzJTc0FucjM1QWJFcXhMaklXVTlXN2N0M3dXUFVOZk00R1UwZzJ5UFd5ejVXazFQWXphTl9jME1yZ3JleFkxZ0tzZm9VSFlWTkhnb18xLVVUOFJWWEE",
-        "CBMi7wFBVV95cUxQY3NkSHdyVV9YYXM2VkY5SEw4MXV3Q2NaYU9qbWJfM1g5MndzNW9rZUZ2Z2QzM2hGamFIWUg3bGh5dlNIWlZiWFFETmdxN3FqTmZsaHd2QmhMOG04SC0zUkJhMmY1bThQS014Z3RmWW1PX0ZKU2h2a3pUVjJmR2R6cjFPazR4cEpHVENhWW5vZWpvRkEzQUxrbWNsbm9rZTZxT25EZ25oT2FRelBWcDRNSkxHNnpOWkR4dnVJbVMwb3dNUTdySzZlbExKbVFvZk5TOXhHbld6bXhhdnhCMHJVbEkxOEtOdzJWVU0xbVkzc9IB9AFBVV95cUxQRDZTOUZoalRhNWVkUzU1cGR0T1N4VFNiUmpLaFlKcmF5V0dxeUF4TFZFSWwyX1hjUTdSZFZvZkNsVU5wLVh5RXY5MFB3bVg5N1RJMG5qVDFhWUFReFBkV2Vsbk1JTVphaHRTb0dYQ2pmdzJkVGdSY3U0NXJiX005SkZlQ0hBVTdNM29pYS1la3pnUnNBOEZyWW9FU1Y5cEVnYTluQjhTWV9nbTBhX0hwbkxQX3N6WFg3bTBXN3NSRlpXeWJHSm9tQXVGdzVVRER4LXRNSHZkU25YZXJ1STJ1d3ZFYWlnMTJaNnBodXRReFAtNkRl"
+        "CBMi7wFBVV95cUxQY3NkSHdyVV9YYXM2VkY5SEw4MXV3Q2NaYU9qbWJfM1g5MndzNW9rZUZ2Z2QzM2hGamFIWUg3bGh5dlNIWlZiWFFETmdxN3FqTmZsaHd2QmhMOG04SC0zUkJhMmY1bThQS014Z3RmWW1PX0ZKU2h2a3pUVjJmR2R6cjFPazR4cEpHVENhWW5vZWpvRkEzQUxrbWNsbm9rZTZxT25EZ25oT2FRelBWcDRNSkxHNnpOWkR4dnVJbVMwb3dNUTdySzZlbExKbVFvZk5TOXhHbld6bXhhdnhCMHJVbEkxOEtOdzJWVU0xbVkzc9IB9AFBVV95cUxQRDZTOUZoalRhNWVkUzU1cGR0T1N4VFNiUmpLaFlKcmF5V0dxeUF4TFZFSWwyX1hjUTdSZFZvZkNsVU5wLVh5RXY5MFB3bVg5N1RJMG5qVDFhWUFReFBkV2Vsbk1JTVphaHRTb0dYQ2pmdzJkVGdSY3U0NXJiX005SkZlQ0hBVTdNM29pYS1la3pnUnNBOEZyWW9FU1Y5cEVnYTluQjhTWV9nbTBhX0hwbkxQX3N6WFg3bTBXN3NSRlpXeWJHSm9tQXVGdzVVRER4LXRNSHZkU25YZXJ1STJ1d3ZFYWlnMTJaNnBodXRReFAtNkRl",
+        "CBMioAJBVV95cUxOdkR5NUt5aDZVNTl4V2RGcGFDUUs5S0M4MVNFQ1dnOG9MWHVUY0hqOElRT0JxS0dGRnJGSkZ2NXhBUU00UDBmZE5JcE9jS19pWlFVcXVSU3ZOeC1KdXp0NkZmTWlWQ3hjS09nTElLenAybVNpSEFzN0t2aEVBbkxtNDR0aDdDQlBlanJsVm5VTEVRR1pZQnBtaTRNdkI1LUItNkNoRk9tN0JIR0ZtNUlrc1BBcVhBVDRCRkxZR1hBR2hvTGNiVDEwaF82LUhPSUhfTDJhQmZHR3BLOVZiUVBDOHZfWnFmRk5ySGVoNXNDSXpPLXhzOTZOQ0YyOXRzb05lVkE2Z1RRLTFINm11dlNMaUJqbHdTM0d6MHV4ZkJsRlo"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-16T12:19:39.285Z",
-      "last_epoch": 1794387141000,
-      "etag": "\"0043fbaa1bb2bfd71c13d753b4449e83f-gzip\"",
-      "last_modified": "Mon, 16 Nov 2026 12:07:09 GMT",
+      "last_fetched": "2026-11-17T00:02:35.501Z",
+      "last_epoch": 1794832550000,
+      "etag": "\"090abea4ce2f384c22115f05ddb495cc3-gzip\"",
+      "last_modified": "Mon, 16 Nov 2026 23:47:02 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -453,18 +453,19 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/paper-/-wood-/-glass/-plastic/-marbles/balrampur-chinis-rs-3100-cr-bio-plastic-plant-to-start-commercial-operations-in-jan-mar-cmd/articleshow/135680755.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/piyush-goyal-meets-skoda-auto-volkswagen-india-ceo-talks-focus-on-ev-push-exports/articleshow/135685828.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/aurobindo-pharma-arm-gets-voluntary-action-indicated-classification-for-telengana-facility-from-usfda/articleshow/135731486.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/tata-motors-and-finzo-ev-solutions-join-forces-to-revolutionize-electric-commercial-vehicle-financing/articleshow/135730496.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/tata-motors-and-finzo-ev-solutions-join-forces-to-revolutionize-electric-commercial-vehicle-financing/articleshow/135730496.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/adani-starts-production-of-indias-longest-wind-turbine-blades/articleshow/135889335.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-16T12:19:39.578Z",
+      "last_fetched": "2026-11-17T00:02:35.589Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-15T23:45:30.532Z",
+      "last_fetched": "2026-11-17T00:02:35.872Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
