@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-18T22:47:35.974Z",
+      "last_fetched": "2026-11-19T04:55:35.473Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-18T22:47:56.250Z",
+      "last_fetched": "2026-11-19T04:56:12.666Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-18T22:47:57.424Z",
-      "last_epoch": 1795039911000,
+      "last_fetched": "2026-11-19T04:56:13.630Z",
+      "last_epoch": 1795052183000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMid0FVX3lxTE0zenJLeUU1MlJXeTNKYTA0cVhFY1RnWlh4Slk2VkNiem03SWdqY0ZHUlV4VTF6SHZ5TUNPaGMzYTlRZjdOMnF6ZUtIcWc4UU1KSjRzM3hHLWh5NFQ1enBMc3EwMXFXRzhIX09HWUJwUThESGxlWi1F",
         "CBMizgFBVV95cUxOelB2aHRwcExJbGpGQ3I4RHYxelhmMlZOUzd6SV9aWTJxZ3FCcFNKQWY2bEFubUpjWXJmdXBMc2pzT2FHelU0TWRwM0tRNDZ4bEtWb1R0ZWU3MTlGZEtHejYtVUl3VDAxWEhrQzhHTGh6Y0ttTDF6cTRlOFBGRUM2c0Jfc3luS3lNcTYxcnFES19xSVZDTkdfZjUzWnZPNGZYajdjaWVfVkMtb0JTZG4zbjlPTm1xOVRIWmhia2FFdHhVc1hNallWTV8xdURFZw",
         "CBMisAFBVV95cUxNWWYtd0dNMEg5QUJhYy02aFl3Y0V5SDVmQXFwb0syS09ycF9qZExVMDZPMG02cEp0RnpPWVlzeW9SZS1xMFpsd0hlZldVbzhJM1NLYUN2dHRTb2dpVlBQSW91a2lxblhnTEdNV01pbFJscm9oQml3cXBuR29LMmxZOXhXSTZWbkRsRkJrVURiblpqMm9FQnE1TXJiX3hMbXJlTGZ4dHRfOWN5MG9TVmJhYw",
         "CBMizAFBVV95cUxQbXAyVDlpNU9QQ2Y1V0g2dnJvdFlBdWJpY1JJMEQ2dmZFSXFjLWRFYUZoQkhPeHYzejdybmxsUG15cm5GWjgzbzJBOGlQR1NUckUwOXZXa0J4MXZwX3pDSGFLVHBrMXBkUmpKemZZMnRCM29lNi1iZFROV3RUT01JMV9EaTZmeFh4X0pVUUdOSUJPOHFrYzIwNFp3UUxYd3lZT1c2ZnRIQ0pwYWQ5RWRENG9SenRxXzdRdGh1ZnNlajZUX1pmSFNuQUs3Q2M",
@@ -319,14 +318,15 @@
         "CBMijgFBVV95cUxOSU1wX2VwczVSVm44d19VWTh1QnNveURWT1ZnSE1oQzFHTEs2N2d6TWptbkFWSHAwd0t4OVpIci1HRm9GNDdnUlBWSzZfcEhPcE9lTUQ5Q29kQV84bkdOVE9hZVNWVFd5Q1cybWtZTmpxeGkzdGo0QWxoMXlYU1hGLVFnLVlNaVZFZmNBNnVB",
         "CBMinwFBVV95cUxNQkJRYVpZVW1WN0tSbEVIQWVqUFVKeEdTNlY4R0ZtT2N3b0NvOUFESFpOcmlYamZkcnBBaUJVVGlHWEpYTERPX09XYy1qUy04c04yWWM3UUxuMTlSMU5KcXZ4bWVRaVpQck8xZUJqdnVJRFNTX2Ewa01jTHBzeTg2ZmNKUEROZW5YRkI0bUctNjROS2pSaUhmZTVvdTd1dGvSAZ8BQVVfeXFMTUJCUWFaWVVtVjdLUmxFSEFlalBVSnhHUzZWOEdGbU9jd29DbzlBREhaTnJpWGpmZHJwQWlCVVRpR1hKWExET19PV2MtalMtOHNOMlljN1FMbjE5UjFOSnF2eG1lUWlaUHJPMWVCanZ1SURTU19hMGtNY0xwc3k4NmZjSlBETmVuWEZCNG1HLTY0TktqUmlIZmU1b3U3dXRr",
         "CBMirAFBVV95cUxQOUduaThzY1pya012eGlZbUJGZkxTalZDRjJtcmpIR0l3cENVQlFLajRDd0FMdDdPQVNlSEgzQ2ZpR3hjbm5NelRLTjY2U0ZIQkg1cThIS2k4dlhLazhXOW1CWDJrN1ZtVjNjOXVYb3N0ZFFrRk9YNHphUWo2aGJLR0N5MlJQRTZKRTVCNml4YmNab1M5M1RLTkpyblNKNmx6WTdGMzJ3UXduMEJ3",
-        "CBMiygFBVV95cUxNYWxDSnpJcjYyWWdZTlVzVXk5dWNBTDlqMUtmRTFfa3gxR2F3a1F2SC1wVlVlWlN2cGJaTlJjRnhucHhWaDZsQXgxYWM4TjBiZ244ODFvd2NEYVZXNzRIZlE3N2taQXBmQlpuMGY3UDI0eHMxNkhnM0xCTTYxVThxT0swZkNzZDVRZkQ4LWUwRXVGV2VJZXAwbW1uQ21kVkxFTHpsanZDWWY1X2ZHMEdxRGFWdVRucjZFQ2NSRXA0LUJ1YWpMdkkzTkV3"
+        "CBMiygFBVV95cUxNYWxDSnpJcjYyWWdZTlVzVXk5dWNBTDlqMUtmRTFfa3gxR2F3a1F2SC1wVlVlWlN2cGJaTlJjRnhucHhWaDZsQXgxYWM4TjBiZ244ODFvd2NEYVZXNzRIZlE3N2taQXBmQlpuMGY3UDI0eHMxNkhnM0xCTTYxVThxT0swZkNzZDVRZkQ4LWUwRXVGV2VJZXAwbW1uQ21kVkxFTHpsanZDWWY1X2ZHMEdxRGFWdVRucjZFQ2NSRXA0LUJ1YWpMdkkzTkV3",
+        "CBMioAFBVV95cUxOc3lZYjJYVG9SSi1wRTRrOW9JWTdtYk8wMWtWbXJucm9WYWxieGU4aFVGRmpKOEdyX25DWkdsUmlTd1J0R1lBMGltX01zN3JaNFM1Tk9jUHBNRk1QYTRMSkw1bEhyVTlBUmw0NTNTSE9TWXVrSGtjc1NpUWwwZGNaQThjOWN1M3l0MThNRFJON1JZSW1pbnB1Qm1fMXNLWkNt"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-18T22:47:57.564Z",
+      "last_fetched": "2026-11-19T04:56:13.672Z",
       "last_epoch": 1795002592000,
-      "etag": "\"066cf3e039ec531d322286f3f635bf3f1-gzip\"",
-      "last_modified": "Wed, 18 Nov 2026 22:40:03 GMT",
+      "etag": "\"0ed56a0786d1e3fcce408d948491d141c-gzip\"",
+      "last_modified": "Thu, 19 Nov 2026 04:45:11 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -502,14 +502,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-18T22:47:57.619Z",
+      "last_fetched": "2026-11-19T04:56:14.024Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-18T01:59:04.693Z",
+      "last_fetched": "2026-11-19T04:56:14.159Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
