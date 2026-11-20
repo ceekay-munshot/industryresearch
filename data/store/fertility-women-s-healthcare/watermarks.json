@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-20T12:21:20.949Z",
+      "last_fetched": "2026-11-20T22:28:31.888Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-20T12:21:56.988Z",
+      "last_fetched": "2026-11-20T22:29:02.729Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-20T12:21:58.225Z",
-      "last_epoch": 1795158160000,
+      "last_fetched": "2026-11-20T22:29:04.098Z",
+      "last_epoch": 1795194119000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMixAFBVV95cUxOWnR6d3F1aC1rNHZOWGsxSlZ1bURNMGhDbXd2eTgzQ0xMbGF5ZE91TGJjQUVIQjc1OUNyU2RGZ1Q2TFdGSVlSdFNWSWpzUXFGVEdkT2FfQlhyRUI0Vkc2Sm9uUEdFVG5rcHAzaHZNOTVSQ1JhVGUwNnlIOXV0cG1UbHowWTJ3TXFuaERhYWlqc3dhbEF3TXRqakhCdEU5aFNnVktRa2ZUQWxnYm1kOVR3eTFBRUZRNG84YU1sMGdzZUJqQXJS",
-        "CBMi7wJBVV95cUxQZy02Z2VKZzN1dkgtQ1g3MlhQbGN2U3ZDYmJlTnJCWVh5Qy1lWkVHa1liU1pGZVd6NkFUeWl5S0NDSm9tZ0laQk9PNFVjcVEyU0FXQkdwbk1Yb2ZDTi1kYTlPMVlLejBDUWJOTmw2OEZPNWpCYXdOb2V6c095MFVEY2lzYlBtMW9mQUtyTEF0REFoNTJ5aEpzejhxcmlBUDNJdk9YS1BnNV9ZcVBEeHBybm1LanQtUVd5NWJkN0I5blVEZ1A3dTlfdUgyRGJxdnB2djRxU21zdjMyMmlvMU14aWRmb2NLbmRnTmk5a1owbXVIeV9PNy1uZzJKY05jSDdLUnpSNHR1enYzdGphaW5xLThlajFtMzBYeTFXYVJlUDBuV0pEOVJKVDRPWXNidi1VRnlTeDc1YlRnUEhjV0lBZVFIelA4VW52b3BZT0dKWHNHYlp2VzFLbTR4MmtyUUtZNVNwSXpFNkFucllIM0lZ",
         "CBMiuwFBVV95cUxQNTk0MDRGTy1TYzBRVTEzaGRVd2RBNExFS2NuRVBIOTlLdlJfdG5EYlJGblp1UXgzc0JDcXpJN0RPR0VDTk1tR0JJY1lzRHV6VHIwTHlIelZoUEYyYllaLW80NWYyT3h2ejZwSlA5RWxYaElIeVFpRTZzVmxwRE5KWE1OOHA0QS1Pbk9hc3Z6V0lRSTk2TEk0Nm4xd3N0TUVQNU13eUFSVVd6dGtBdm1ZRFNISWM3MmVEbFZJ",
         "CBMiigFBVV95cUxPU3Q3R09lSkZ0eHczZ2N5RXVQbEpremkwVGYwbnZINERWS2VyemVaRVJRamRBdzRNaDE3QXpQRTF1cHZ6anpWZElxWi1aT0x6MVl2YkVRdU1Dd00tQ2twQkgwSVItNXlVNVN5aFNMY0t4Sjl3VHhHd0ZMNjZGSkpoZFp4OS1vRlNHTXc",
         "CBMisAFBVV95cUxOekNTaDJMMGJCT2hxU1J0cjVTNVNYXzJxRlVnTkdDVkhyNFVBWnVxa1VrcWFfT0xNdkhzY1RVOFFuVG9ORlhadFZjeDBqeUpMR0s1MlBqQWxMOVFWd2tUeHFCd0NReW5kV0lIcWtiZmNhU1d2YW0tN3VFQmhMb0U0MER0aWREUU52UmIxSkVjSDc2Q1BEZnh1RzNLVzFnUW83MUNWS1JDNFNXVDJVSEtBbw",
@@ -319,19 +317,17 @@
         "CBMixwFBVV95cUxPWlZ3ZlR2RS1SN0s1c05NckR0elNwekV3Mm54Y3k3N1IzeERRNEZadk8tTDlvLUpoempKTnNRNTNZU2hDek1WclhZZFpURUVINUY5dGZhd1k3Zkc2SVZKbmtsNE8yVThpSm9hVHUwVFNoN3NVcVM3cDFKUzVpSjZiWmV1VFpGekFEZ09GQ2x5Vmk5QWU3TjcyU1BBUm90azJhWkh4VzlQUmFwVXBCNVRpdHhCWEY5Qk5ZQmZwdEFBYkpNQUljeHJz",
         "CBMilAFBVV95cUxPTXQzekpfSDdTTHV0MVRVMkl3TlVmOVpxUE9Sa2lYZkQ3UHdRd1RqOERsSnJHNzRIdHdONm1KVjVybVk4VWZqZzJxdk5pR0lwTHlMalNTMEFUSC1vcVJIU2NFWjdWdVREc0VDeWx5dEtoUURFQzRrTTVILWx6WWhKTmF5UXN1cUlTM2ZscEwwUVhoamlE",
         "CBMi3wFBVV95cUxPcTcyWWs3TDVOVVFYV2VibDJfc25HWHFVREg1LXRJLUdOV00yWGwwWENRRmVaOXJ6YVRLWk94ZEZwWERkS1k5bG5pT2xaaXhxSnVYNGFJZlZRRmlkcG5HUFhYV1NPOVk2czh5NHZxSzVUU2J1VGUtbGhMeVNURnN5Z3F2cFFCRDhVaXRiS0RnLWZQZWJBNXJKb05WX2hHS0h3NVp4VmtMa1N1b1FHN0oxLXdqSFpWczlFdWxLYUFPdkY4MjdoaWExMVVnM3M0V1A5LTdKN3lCeFhSMjJiOEhF",
-        "CBMia0FVX3lxTE9lbmVTUlM0QWNya0lINVBVbEN4QlhCa3lndUlnOHNmRkZmTDhzSTh0bkNUekxpWU80ZXlseFhoYmFoZ0QtUUM1SVItSThkWGlBZ1UtUHU4QTY3WVNERlF0RVQxaV8tN0M4blpv"
+        "CBMia0FVX3lxTE9lbmVTUlM0QWNya0lINVBVbEN4QlhCa3lndUlnOHNmRkZmTDhzSTh0bkNUekxpWU80ZXlseFhoYmFoZ0QtUUM1SVItSThkWGlBZ1UtUHU4QTY3WVNERlF0RVQxaV8tN0M4blpv",
+        "CBMiowFBVV95cUxOZ0hZbEdBaElxWFJXRXBXSEZVRTNUNjE4U0RmSVdCZjB6QUpBdW1qeVBGRGN4X2Zqd0lVSDNxbXFjOGJERU01Z29QRlFnR1JTWlB4X2VGSDB1dVVMdzQxaDBPajJlREFzS3ZzZHgxd2RlMExySDZzUHV3d1R6Mmg4TU81bkpLNXMwZ1hxcFFGbElZTzZrMTFfcnJBUjR2QUZ5UEdz",
+        "CBMiswFBVV95cUxQZ19nTnR1NjM1Uzk4N2xIc0JDS0RpWENhMElLVlZsZnhHQkRwSVdiemVYbDYtaW5qYm5QMUVTb2dDYWtTbmJsSjZmZ1A5YWR5QWFmUWotVHNrNWNhdk90YXMtTnJDNVpwRGJ6S0hseVo5QW5EUzFWMlZRWG9DYUdtNkpVQUttNmpfQzBBeEpyMHhvamJjMGNPUXRRaHZiVWh1b2gwWmxJSzQ1R3ZIZUxkZVdWYw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-20T12:21:58.315Z",
-      "last_epoch": 1795169545000,
-      "etag": "\"037e9f7403301b865c9bb7bc0767a65a9-gzip\"",
-      "last_modified": "Fri, 20 Nov 2026 12:03:49 GMT",
+      "last_fetched": "2026-11-20T22:29:04.470Z",
+      "last_epoch": 1795194700000,
+      "etag": "\"04511665f481837564f3f787a08a85570-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 22:11:50 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/services/retail/amazon-now-doubles-footprint-to-120-cities-ahead-of-festive-season/articleshow/134635735.cms",
-        "https://economictimes.indiatimes.com/industry/transportation/railways/mangaluru-railway-region-now-under-mysuru-what-changes-for-passengers-trains-and-vande-bharat-services/articleshow/134631849.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/banking/hsbc-hires-cantors-paras-jain-to-lead-global-tmt-banking-sources-say/articleshow/134636975.cms",
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/singhania-familys-jkc-sports-plans-150-crore-sports-infrastructure-expansion/articleshow/134645540.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/deepinder-goyal-teases-six-colours-for-temple-pre-orders-may-open-next-week/articleshow/134644429.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/front-of-pack-warnings-can-help-consumers-make-healthier-food-choices-experts/articleshow/134656313.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-news/your-car-knows-where-you-go-insurers-lenders-and-automakers-want-to-know-too/articleshow/134668735.cms",
@@ -627,11 +623,15 @@
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/wedding-bells-and-travel-demand-ring-in-for-indias-hotels/articleshow/135982346.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/blackstone-backed-aster-dm-in-talks-to-acquire-rival-hospitals-in-deeper-india-push/articleshow/135980019.cms",
         "https://economictimes.indiatimes.com/industry/energy/power/andhra-govt-to-tap-nuclear-power-through-smr-tech-as-alternative-to-thermal-power/articleshow/136022324.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-loses-the-man-behind-the-iphone-camera-jon-mccormack-photo-app/articleshow/136011815.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-loses-the-man-behind-the-iphone-camera-jon-mccormack-photo-app/articleshow/136011815.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/philanthropy-boosts-healthcare-donations-in-india-by-82-to-rs-1768-crore-in-fy26-edelgive-hurun-report/articleshow/136034804.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/roadways/blue-dart-express-unveils-next-day-delivery-service-from-srinagar-to-major-indian-cities/articleshow/136030714.cms",
+        "https://economictimes.indiatimes.com/industry/transportation/railways/track-trials-of-indias-indigenous-bullet-train-expected-by-mid-2027-first-service-begins-late-2027/articleshow/136029030.cms",
+        "https://economictimes.indiatimes.com/industry/csr/anant-ambanis-vantara-airlifts-critically-ill-seven-week-old-elephant-calf-raja-from-assam-to-gujarat/articleshow/136027580.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-20T12:21:58.381Z",
+      "last_fetched": "2026-11-20T22:29:04.907Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

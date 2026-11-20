@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-20T12:22:37.826Z",
+      "last_fetched": "2026-11-20T22:29:17.846Z",
       "last_epoch": 1795079393000,
       "etag": null,
       "last_modified": null,
@@ -136,20 +136,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-20T12:23:14.135Z",
+      "last_fetched": "2026-11-20T22:29:38.014Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-20T12:23:15.340Z",
-      "last_epoch": 1795169255000,
+      "last_fetched": "2026-11-20T22:29:39.268Z",
+      "last_epoch": 1795189350000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi0gFBVV95cUxNVWdKcW14RE5hNk1rS0x2SlhCY0F1YzlEdDlQdkkzbTdWNWZYWlZuTDFPTFZ3YXVKQVdoeGV1eHJnY3F4MUdQcFJmYlh3WFpwejRwV3NlYWRmUGREMlZaQjYyYTltNkxMd21qamFyVU55WE9icDQ3alpwRE1RdVJVbHFZRjdGVk9OTDNsQVg5TWozQkl3WTdtMGMyM0hPNmQybGhLNWxzWmo1UHFOaFhfRUFWc2dBdnZIaTdTSTluQ1plWWxqOVA3QlB2MGlYVWFSamc",
-        "CBMiXkFVX3lxTE1fS1Q4TWhNOUFkR2Q1VkFYbUd3RlpGLTRacFZDMlJNNE1rYlZJaXk0bXFXbnZuT2lhemh4OEllSmxMU2Nxbkx1c0JoNjVXSXhXdUxhMmF0dnpoT1hkUXc",
         "CBMimgFBVV95cUxQX2ZCRV9QNkhtcWwxd0FJZlZmbG93alJWSzU3ODZuU3NadnBWZ2FMNzRWQ2V5MTFRNlF4bTdIM3RWRmhIN0RoZGNkeUZnRWNEMlQ5NGdPbk5QWElrZHhyR0JKcWpGTmdjWUhBX29JeE50MHN1SEZSalhmYTJWM2owZkM1bjRMcm42SldCVHhMbXVXMmZ6OEJwUjB3",
         "CBMia0FVX3lxTFBUTFEzODFrWjhXbE9vTFRuOEhaa3k5bVFUNXFBZWkxMlY0OWdlYmhJdU9MdUI0WWVIb3dkUzlHRHZtYUVlUHpwV1plV21QU2FFbUlGNmVOQW1pWWtfRmZoSG03X1JFV3lHc1Br",
         "CBMi4gFBVV95cUxNUHFCVV8zUEFXdjM3al9weFBiM3g1b3lYcFUwQVFuZ1hWMXNHekw4VmxlQWJEZW91SnBUd2hQc243eXZGOXpjU2xyTDlMTDdZUGlpU3hvTmU0Rm5IMkNRUXNDbEZsS3J0YmROZVM1NjR2bTBSamxmX0xiNU4xSjU1UDZBZ3pZZ1RHRllZVXNVeWQ5RmpzYnhQZDFqakl3cll6cUd4N0lSNl9wNVZhR0h0NXk0MlJyNG5xMWprNk96cEhlNjN1TmJGQlVSdUVwQ19UVmdvU2hmSG9ObFA1MjhKZzh3",
@@ -447,16 +445,17 @@
         "CBMivgFBVV95cUxPRy1XTU4tYUFkT3pLVmlPZV9nVDFJSS1wcEw5S0FmOG5BWXdoT184SFdHZThmOHNscm54eERYU29sNkgyZ1FpSUhTc0xXX3NfRmFJRmVXakotT3Nrb3liSGhjS21MQlpzM0lrT3FkWldUeENoUUhUTXN6SXg1RW8zSkVOekltdnZvdEUyUUJMWVdqS0xaZ0RRWDJrVWRqbTZfbTkzemhrUmVKY3BNSVRvN05HNi1xUHNBSXgwYkNR",
         "CBMihAFBVV95cUxOQXBfbExHY0FyUkZiS3dTbmx5WUxuWkxxb0xOeDNJNFB1Y2hjRjN0d3ZPQXhVQTV1cFZWTU9nTnl0eTFQMW01bmYtcnBFaEF5SVNNSlRuTV9NT1VIeTRhV1hjZlgxaHNZNnE3WnFWMDl6RzFDSkx0aFZ0T0YwTGJ6SkRycU4",
         "CBMivgFBVV95cUxNdnRwVW56R0d6djR5TlRHQjV1VFVEMENDZnBobG5xRmVtZ3dkdEpnZFVza2hKNG05blBhTWstYjE4VUFIN3hzdnpaR3plcG1xT1p0T1ozV1l2TTY2VlRpelAtT29ES2FzQ29SVFEweS1OMllheF9NaW5tcDRsSTdxZFNsM1A4U1ViajJCZjBCM0dIVjFUeUZrc3ZpSGQtYzJPMEFPXzMxYzdLei1iSkF5XzRMS3A5ajVvaXNRWXpR",
-        "CBMiZEFVX3lxTFAtQ2dSanQzUlpGbVQ1czlKVEEtVTFqbzZac25lSUZveU50aHpfTzFsTDJqbU9uSXBEaVg5VE1RdGhZZDBLY191a3JlbVBkbW5jTXl4QjZKUWFuV0l0elFfWk9MZl8"
+        "CBMiZEFVX3lxTFAtQ2dSanQzUlpGbVQ1czlKVEEtVTFqbzZac25lSUZveU50aHpfTzFsTDJqbU9uSXBEaVg5VE1RdGhZZDBLY191a3JlbVBkbW5jTXl4QjZKUWFuV0l0elFfWk9MZl8",
+        "CBMi6gFBVV95cUxQYXZRYnkwdmVFMloydzl3TWwzVjl1Q0VaNEFiRHhGbnpHZFcxT2hjcDZjbGdhX2VtUnNmTk1nRXIycVl4YWQwMzEtVHBvaXdNMDQtNTVneGhWUDlPdmVzcUU2WmZ3eXpEUS01eTV1RzIzSHoxTkJxSHRjVk5ZREt1NC1OS0h3Zk9iY1k4UldxNnI2T0hwUUVNcWFBMXhqQkdXbGlRVm5lcEZyd3VvZzJLdUhETks2cWUxY05XamsxNTVqUlJYVjlGTzdXdmdiWVlsYmpXemRUYVpJVHotcW9DLUJLR0xpUVhfZWfSAe8BQVVfeXFMTTJpdjhramlnRGxWaWd0OFROTXhlaXZWMHl2MmNFX2RUMkVlWk5jcVhYMXRnZzZ6TmFkSnhUU0E3RmxybE1mV2NCdVNnNjRad0VBV0FCb3JjZWJ6dnN5MjJVelZ0TjlNWFU0UjZrTi1CSy1abmlhb2FVeFcwVjM5dWtzVW50RGxnZmhjazlvVUR6ODdBOG1OOEtZaUFTdzVMRENnVUJxU2ZmX09JZklJNVJudUFQYUZJLWZna0Z2NUNhclpHTzI3b3h1WEtvRXJWNDVfNzBoa3E2X1pfaFFCempROFhMSmJ5Qi1XaW0zVlk",
+        "CBMipAFBVV95cUxPU1d1QmtIT2xhcFFYRkZVZnhZNkVJVWl1S1FPNHZ2TkdHTEtJNWdkcngwdEhQdWhjZ21pNTUtSzBsejREZEJfT2h4ZnBXRVBkZ3AxRXQzY1FKbWJXVVJuYXJKcnllQmM0TzZUWnRsNVFfelQ4WVlmNDBlVThwcHFiSXd2a0NtU0lYWGhnMlQ0X3ZlRU5sOHFVWXFtU1VYWDNHbXZUMw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-20T12:23:15.488Z",
-      "last_epoch": 1795145327000,
-      "etag": "\"037e9f7403301b865c9bb7bc0767a65a9-gzip\"",
-      "last_modified": "Fri, 20 Nov 2026 12:03:49 GMT",
+      "last_fetched": "2026-11-20T22:29:39.442Z",
+      "last_epoch": 1795176721000,
+      "etag": "\"04511665f481837564f3f787a08a85570-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 22:11:50 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/adani-airports-aims-to-cut-regulated-revenue-to-single-digits-through-non-aero-city-side-businesses/articleshow/134443223.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/shivtek-spechemi-industries-to-expand-manufacturing-capabilities-through-new-land-acquisition/articleshow/134454279.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/miniratna-psu-hll-lifecare-marks-15-year-milepost-with-big-new-plan-for-nationwide-push/articleshow/134465896.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/pb-fintech-forced-to-rethink-business-plan-as-india-insurance-commissions-cap-comes-as-a-major-shocker/articleshow/134465028.cms",
@@ -755,11 +754,12 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/mukesh-ambani-reliance-jio-seeks-to-build-satellite-capacity-for-starlink-challenge/articleshow/135945326.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/cil-led-consortium-receives-loi-from-govt-to-set-up-rare-earth-permanent-manufacturing-facility/articleshow/135995063.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/nike-to-become-formula-ones-official-apparel-and-uniform-partner/articleshow/136009500.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/indias-solar-cell-capacity-surge-may-squeeze-margins-favour-integrated-manufacturers-report/articleshow/136011171.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/indias-solar-cell-capacity-surge-may-squeeze-margins-favour-integrated-manufacturers-report/articleshow/136011171.cms",
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/reliance-indian-oil-other-indian-refiners-race-to-secure-oil-tankers-as-freight-costs-rise/articleshow/136026329.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-20T12:23:15.554Z",
+      "last_fetched": "2026-11-20T22:29:39.605Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

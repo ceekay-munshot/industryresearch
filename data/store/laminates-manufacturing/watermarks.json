@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-20T12:24:28.426Z",
+      "last_fetched": "2026-11-20T22:29:53.598Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-20T12:25:01.624Z",
+      "last_fetched": "2026-11-20T22:30:05.337Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-20T12:25:02.957Z",
-      "last_epoch": 1795144740000,
+      "last_fetched": "2026-11-20T22:30:06.488Z",
+      "last_epoch": 1795184231000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMibEFVX3lxTFA3eVBuTnd0THZnWUd4SzItMjVXTG5EQWZaSE1nQ2pGaDdsQ1p6VnYzOS1LMmc0YmxSRjRhcHNkMGdveGRsVGNNRkVWV0pXT0hpQUJ6bTdxaWRzOWNXSWZueGtsdm53Q0tLcmhCOdIBcEFVX3lxTE9JVjJQTUVxbFZLcFkyNW15dE1YSW1Ua01vSUtVNzc2MjRUcFprMlpjYlBRbUFsdnJMbmxBZGR2MTFnVFlxZ2FUcXpPTlMxQTd1dDdwMEhuX3lYUVY1eElIVGppWWN1WWNGWnZPWjdDT1U",
-        "CBMiugFBVV95cUxPY2RUREJuUE11TWZ6U0tCZ0lxY1lPMF9wVno5Q1hBcEtka2dCQ1ZWVmlJRHhMRkM0dzJCMVpjYXZLYnRHUXNabjZYemVmZU1saFdmNlN3UEc5bEVrZkNjTzl3M0FhU2V0eC1Dd0E1V2lWdTdFcE01YXZkSlFDTjluNUlzY3BwMnRFeDlMMDZPWjZlZUNBbU94RUlLUFBlM0dQRDBRZkt0d2w5MW1PWTFtcHZhMkJVU3dBUFE",
         "CBMihwFBVV95cUxPajBDTGhLeVktZldIVGJKMDlUTVRYV0RGVmJIRlBKSkNMM0R4dVZ1Zkx2OEdLOGhjc0xpdl84aklUcUcxM01kdUhtdUhTWmgzak1fWDV0Qi1fTlh2bmh1RWhmdXFlV3ZtalVuTTRaTUR0a0w2TktKc0FRUlRJa1h0czkxVzZVNjg",
         "CBMi5wFBVV95cUxQTVg3REU2d0NfZVZpU1FOcDZoRi01aXFNY1pEUnhNTzFoZmo0TlJDN3o2R0dabi03Q1Z2aU8zczQtbHUxc2wzeTRMcXdwTGltSldObURFbE9Idy1tdHo1T3hFdGIxeTFiUGZyM01VYXlDYVIyYXAyU0FXOUpTSU9zMjBabG9LaHRsOGJhLUFzZGZOTE10QlRFY0dMamRNWXQyUXFabmEzY0p4SERyZ2hmOURjZF9yMWtwOU9IRFhaVC1ZbkNjWVNWQ2ZDbDBZUUhBQmdINTktM1RSNzdwb3BNNFVhOTViUWM",
         "CBMi1wFBVV95cUxNeWhuRnctcmVvTEtVcEt4cXIyazBlT0xTa1BWbHo1bG5TaGlRN1ZBOFJueXphWVVuam5nT0RKVFFCbWVUcTRsSzNiQWRZY2NHMTVHcjNvcUNNcVNvTVR1TFB0WG5sRFFuNXNsenZ3a1RGUTVBX2J4QXliR3VjUzNZYjh5azZBV1ExM3dDc0V1RUVySUJFOHV6d0xYNjREVDVrZXVuQVRQSjNYcGxCUnJjSnNXSmtUUDZuTTRBNFpPMWZlWW02QUQzVWJPald3NU1qQXZBYlptRdIB3gFBVV95cUxQWFBrWV9ZMDVQdmJGYTNwcTA1ZW0xeVlUUnYwbW1CNEF6NkJhMkNRNzl0a0l5WC1NZXY5QTBSSExBalMxYkxTbm1VOFUwVm91YW5tTTVzeVBNdjA3NWx3TkNJTHVKOC1KNDlUZGdLSlg2dDJIUF83cW1Mak92a1NYZjhXa21YYWptb0dxNE9TWlQyTGZtektDYndXWFFJSDMteTdfaVhGU29aamluYXNnc2NwUzA2NWZyaHN5cmlhZzlpOUc3OGhLQ0FjdUdFR0liZjhMZmdlVGhIM1V0blE",
@@ -319,14 +317,16 @@
         "CBMi4wFBVV95cUxPbE90NXhGbDZvdXFSREZrUFN5aWpVbVlJX3B1ZzgzeE53QXhDX0U0MlFFN2FZcEQ1SE5POTREQ05iT2VIVGt3WFV3aVBSSFNpa20xU1FWVmllMm9KNUozM25VOUdCQVY1d3ROY1VYbmZwSmY0ZklaREU5ZUxlRF80cFZ6emd5OTV4OEplOTZZTVRkWjBxM0lkcWN1ME5RSHh0TkJJMzhTVmVHY2l3cjFHaHFBQ1kxMk5WVVZJMTNpQ0ozNVZTNjFtbS1MUGxadDV5Tk00dmVpWFBNVGJEZlhoaDFwWQ",
         "CBMiywFBVV95cUxPWHJDaFJJZjRraGFCaldLOFljN2ZBWjlOREY5dnRqV2djd2hzdE5yQkZRRTVkTm1tMVhrbU1FcFNuUWFPcUpwVFp2eG04SW9GM19YbTlmVHRycGsxaGh0OGNCVDhTbmJDaFM2b1RBdGp6TkxIZTJOd010VERkbU9IazM0UUdBQ25yMnRrR0JfYlBJd0dvZDhlaUtBeE1pNXRkcGdDSDZwTllMZUF2RkpxZGxQQ2p6S2wyTzdfNDhxSG5OdUNkenFodVQ4NA",
         "CBMisAFBVV95cUxQNXFpM3J2NklZT0plOHktemlhWGVOUVhaYTU4Y1dmSWhkcTNxT3prVGF0aUNjTC1QVlNfVVh4OXdxZFd2eUxnVlBLVW1oQ1NrNVRBSDk1cXhSOTBWdk1EVjJpX3VMOHRxRTIxSXM5LXZZVGR1X1lGT1NNYlhPQ2g0a0tOS0FRczdKWTdyU1pWcHROczZtTUpTdU8xSmxnNE84cTEwenFJZVNqTUdrYWNoQQ",
-        "CBMiqwFBVV95cUxQeExSQTJTOVcxTEJaNnFDZGhPRmhpd2t3UUprWDZCUHNuYkhSY3ZPSWtSOUpwNXJDaE1aUHJGY25Dc0lGRFBjTnMwRHlOZl9odHh0MEI0Q1R0aTFKWWMxYjU4MUpIdHZQVHJnbFRMaVk0TThEYmZBRkYzV1JkUU53bzNHR2ItR1BFNzh2RndxNmZNZXVKZG43aDdjT2JPYVR1aUZITl9GMzNrWTA"
+        "CBMiqwFBVV95cUxQeExSQTJTOVcxTEJaNnFDZGhPRmhpd2t3UUprWDZCUHNuYkhSY3ZPSWtSOUpwNXJDaE1aUHJGY25Dc0lGRFBjTnMwRHlOZl9odHh0MEI0Q1R0aTFKWWMxYjU4MUpIdHZQVHJnbFRMaVk0TThEYmZBRkYzV1JkUU53bzNHR2ItR1BFNzh2RndxNmZNZXVKZG43aDdjT2JPYVR1aUZITl9GMzNrWTA",
+        "CBMiaEFVX3lxTE5mUktGNWhHVlVZd1JsS1I1QS1xTDdSOTZNNkNOaU83VXBzQ3hkNnZFeUhvTmhsVzJEXzZWVGxzSUM3SkJ2ajZzSW1ISTY0X2FaclNiNV9xS2VWa21sc2tfeFBTbnBqZG1a",
+        "CBMimwFBVV95cUxOTXlaWG9LZWN3bk1ET3EwS1pDMlk2VWRNQVlRRzNZU3piUkNabWFJMlZsLVlZa2gwRFI0dDd1TDJhbkpQYllrbUFjQ1pvYzhtbHV2RFdVcVd6TnBCejFsSWdtSVUyT0I4c29yaGxkWEc1bThLYUZZRWtWTVZsTkpNSjlpcng0bTZlcTRONUptRWMyVXFmeFdIT20wTQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-20T12:25:03.039Z",
+      "last_fetched": "2026-11-20T22:30:06.679Z",
       "last_epoch": 1795145327000,
-      "etag": "\"03a500e6ecfa682fdf3ae90cdf4a99ca2-gzip\"",
-      "last_modified": "Fri, 20 Nov 2026 12:19:51 GMT",
+      "etag": "\"04511665f481837564f3f787a08a85570-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 22:11:50 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -464,7 +464,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-20T12:25:03.655Z",
+      "last_fetched": "2026-11-20T22:30:06.805Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
