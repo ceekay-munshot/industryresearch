@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-19T16:58:44.995Z",
+      "last_fetched": "2026-11-20T01:34:31.222Z",
       "last_epoch": 1795079393000,
       "etag": null,
       "last_modified": null,
@@ -136,19 +136,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-19T16:58:54.823Z",
+      "last_fetched": "2026-11-20T01:35:05.393Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-19T16:58:56.162Z",
-      "last_epoch": 1795093485000,
+      "last_fetched": "2026-11-20T01:35:06.457Z",
+      "last_epoch": 1795137140000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiywFBVV95cUxNNzRXNHVDc25BVXp0Q2xITmxKN2RaV29YN3RQYkIwV1ZZVU9aN0VyVlZjM2JyZm1kX1c5cGR3bXMyWXJwbUstR2ZuQ1ZJNWxsVjU1NGM5STFOdkc2clNHU28temo3M25FWDlkaDVPT2xyQm4tZ0UyNF82TWY1NjF3OGR6eDlrTm85UkcyLW91UVppYVVZOXhyUXdNOGVGQWdRdVpxaVhQOXpLUmM2YkhtemtPa0FiMTNoNmY1TDZ6R2oxVGRtdmNncm01aw",
         "CBMiiAFBVV95cUxNcFMzYlhDdVhKVjdYMFJsZEJTUU5xLXRET0JfOWhIb3E2dDVUZW1pY0NINGpGbWxiZFp1M3ZCcHZsaWVtUmNhWF9BUUIyTjhjeHIxWERiMVYzNV92N1JMSXhpeE9TdDNXaUlNUGNhdGdDTWFNYmlEWDJ4NDc2ZnVzWGQzbE1EdExx",
         "CBMi0gFBVV95cUxNVWdKcW14RE5hNk1rS0x2SlhCY0F1YzlEdDlQdkkzbTdWNWZYWlZuTDFPTFZ3YXVKQVdoeGV1eHJnY3F4MUdQcFJmYlh3WFpwejRwV3NlYWRmUGREMlZaQjYyYTltNkxMd21qamFyVU55WE9icDQ3alpwRE1RdVJVbHFZRjdGVk9OTDNsQVg5TWozQkl3WTdtMGMyM0hPNmQybGhLNWxzWmo1UHFOaFhfRUFWc2dBdnZIaTdTSTluQ1plWWxqOVA3QlB2MGlYVWFSamc",
         "CBMiXkFVX3lxTE1fS1Q4TWhNOUFkR2Q1VkFYbUd3RlpGLTRacFZDMlJNNE1rYlZJaXk0bXFXbnZuT2lhemh4OEllSmxMU2Nxbkx1c0JoNjVXSXhXdUxhMmF0dnpoT1hkUXc",
@@ -447,16 +446,16 @@
         "CBMiygJBVV95cUxPS1M3YTAwSWhXZUh1NkFDWm5tZDhzaV92STJ0VGVObVNlSG9rWnd1aVUwTEs1bEVST1RSaHJta0RfWldEa1pDTUF4WllCX0RPaXZWSzJ2emNiSy1Ld2NFb0tvVzNmb0Y5anRlYm5vSHNXd1Q4Zm96RGc2UHdSbU8yeTZyRHZGYlE3OWJ4b184eVhyZ0RLTVdvcUNXdU5GM25qMUdMc19Jb29lZjFhSDNkTnZZbjdWRVRSNWItX2IyZGtUQ08ya0lXRUl4UXFWX2drS3MyTExxWEhQTFRqN3Buci1TUUNBM21uQ1E3STU0TjJZbE5SdWVncjZIc1JBdHRfcGRRMlYxY3h5MUVpdmtqWkl1U195eHo4TWFQUzdCUnBQUkl6VU8yelMtX0pMUE9zWmRlM3RfUDFDbTdPSzhia18wNmdNNXEyMXc",
         "CBMijwFBVV95cUxQajNRVVpLTXRCdU5yVE45T0k2bjZoN1JKTERaM1hfZzV6TzNmb1BfOWlLTVFwaWJyelpyMFFHT01QUW5lWVRaZlJ2bGFuWnVNUjZ2amlkRTI5Z0RHd2JjR1prQWxYYVNDSHZkQkdGVHRrbG9Udjd2MmdiV09rcllRTDd2RWVRVUlVc2dJazdhSQ",
         "CBMivgFBVV95cUxPRy1XTU4tYUFkT3pLVmlPZV9nVDFJSS1wcEw5S0FmOG5BWXdoT184SFdHZThmOHNscm54eERYU29sNkgyZ1FpSUhTc0xXX3NfRmFJRmVXakotT3Nrb3liSGhjS21MQlpzM0lrT3FkWldUeENoUUhUTXN6SXg1RW8zSkVOekltdnZvdEUyUUJMWVdqS0xaZ0RRWDJrVWRqbTZfbTkzemhrUmVKY3BNSVRvN05HNi1xUHNBSXgwYkNR",
-        "CBMihAFBVV95cUxOQXBfbExHY0FyUkZiS3dTbmx5WUxuWkxxb0xOeDNJNFB1Y2hjRjN0d3ZPQXhVQTV1cFZWTU9nTnl0eTFQMW01bmYtcnBFaEF5SVNNSlRuTV9NT1VIeTRhV1hjZlgxaHNZNnE3WnFWMDl6RzFDSkx0aFZ0T0YwTGJ6SkRycU4"
+        "CBMihAFBVV95cUxOQXBfbExHY0FyUkZiS3dTbmx5WUxuWkxxb0xOeDNJNFB1Y2hjRjN0d3ZPQXhVQTV1cFZWTU9nTnl0eTFQMW01bmYtcnBFaEF5SVNNSlRuTV9NT1VIeTRhV1hjZlgxaHNZNnE3WnFWMDl6RzFDSkx0aFZ0T0YwTGJ6SkRycU4",
+        "CBMivgFBVV95cUxNdnRwVW56R0d6djR5TlRHQjV1VFVEMENDZnBobG5xRmVtZ3dkdEpnZFVza2hKNG05blBhTWstYjE4VUFIN3hzdnpaR3plcG1xT1p0T1ozV1l2TTY2VlRpelAtT29ES2FzQ29SVFEweS1OMllheF9NaW5tcDRsSTdxZFNsM1A4U1ViajJCZjBCM0dIVjFUeUZrc3ZpSGQtYzJPMEFPXzMxYzdLei1iSkF5XzRMS3A5ajVvaXNRWXpR"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-19T16:58:56.210Z",
-      "last_epoch": 1795097708000,
-      "etag": "\"03499557440b0d9c9fc8169071cd635ce-gzip\"",
-      "last_modified": "Thu, 19 Nov 2026 16:36:35 GMT",
+      "last_fetched": "2026-11-20T01:35:06.534Z",
+      "last_epoch": 1795137912000,
+      "etag": "\"0083512a063fd7d6178ac517b2314dcea-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 01:22:50 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-ramps-up-lpg-output-as-festival-season-begins/articleshow/134445231.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/zydus-lifesciences-expects-decent-growth-for-five-years-as-innovation-matures-sharvil-patel/articleshow/134444729.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/adani-airports-aims-to-cut-regulated-revenue-to-single-digits-through-non-aero-city-side-businesses/articleshow/134443223.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/shivtek-spechemi-industries-to-expand-manufacturing-capabilities-through-new-land-acquisition/articleshow/134454279.cms",
@@ -755,11 +754,12 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/dri-searches-ciplas-mumbai-office-bhiwandi-depot-over-imported-drugs/articleshow/135916439.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ipo-bound-aragen-plans-to-spend-rs-15-billion-over-3-years-for-expansion-md-says/articleshow/135956847.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/mukesh-ambani-reliance-jio-seeks-to-build-satellite-capacity-for-starlink-challenge/articleshow/135945326.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/cil-led-consortium-receives-loi-from-govt-to-set-up-rare-earth-permanent-manufacturing-facility/articleshow/135995063.cms"
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/cil-led-consortium-receives-loi-from-govt-to-set-up-rare-earth-permanent-manufacturing-facility/articleshow/135995063.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/nike-to-become-formula-ones-official-apparel-and-uniform-partner/articleshow/136009500.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-19T16:58:56.296Z",
+      "last_fetched": "2026-11-20T01:35:06.910Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

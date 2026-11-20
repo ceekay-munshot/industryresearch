@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-19T16:57:58.043Z",
+      "last_fetched": "2026-11-20T01:33:19.475Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-19T16:58:07.520Z",
+      "last_fetched": "2026-11-20T01:33:53.678Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-19T16:58:08.949Z",
-      "last_epoch": 1795005888000,
+      "last_fetched": "2026-11-20T01:33:54.741Z",
+      "last_epoch": 1795075140000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMisAFBVV95cUxNWDZyR2lVNFpUdDhZQ3ZvNUk1OU9SN01QZDZuU0ZrQ3VNQ0trQ1ltUHFqZUFwRjRTYi1zckozYnVTUFdfbzFZWnVOT0ZfQjliMU95M3ptTXBiTXRwN1J4R21ZYlplbzlreHpGb1YtUXA0eTBrOENod0JIbVN5YURoSktCU3FaR09xNUtsMUhEN291VDJucElJRGYzQk1aT1lOS05JZXdldnJUVkFJYXNrYtIBvgFBVV95cUxOcnIxVDNMNzA3bnBFcFMxOU5rVUFLOFpEZEVjRWNOOVF4amtVakNRb21kNmo0V2o2MW5mbGVMNmx4WXdUS0ZSZ0Qwek5tZHRGT1NEelRfNmlYSTQ4eVJrSG1YN3pjQkszMTVOMVZ5a2VqZHNrZzA5VTctTHk2cE9FVE9wYVBaTC05aTdIcE5naldNU0VjazMwdk9lelpxZ1RDNG01N1ptbFlsOUk1VmxTelVQLWxDblgyM0tMSGt3",
         "CBMi2wFBVV95cUxQRldaeFJMeEI2Qm5WR1drdjVEajZhMnRlNkMwbWVyeUs2dk1DR041aFB6UzVkN3IzdUp6NmZ0c3RsQ0RXY0RPbUFFYWZRdFBnN2Y2eTA3V3RfREtjTDY0OE9jTzFPNHBjWDFPMnUxd3hjQUlnZEt3SFY3alVxWXhpc3VKbnpOUXBmV3VqRU1WenZ1c0ZLZElINXVMeDNPTDVyeHVacGlZbFNJQnJuV284eHJyLWhMYXNDc2hpN0oxVUZBSTNwajRWMmh1ejJRVko4Uk1rVWE2TDBudjg",
         "CBMiX0FVX3lxTE9VeHRLX2dhaEl3TFRoQnRwelFmX1B3VVVwOUZVeXVwNkhGRjJaUnJTLXBGdkUwX0RuNU9pWXQtUUd4RlJMdzhfeDAxdFIxQVIxRUhJZE9IbzdWQmc4dWpz",
         "CBMixAFBVV95cUxOWnR6d3F1aC1rNHZOWGsxSlZ1bURNMGhDbXd2eTgzQ0xMbGF5ZE91TGJjQUVIQjc1OUNyU2RGZ1Q2TFdGSVlSdFNWSWpzUXFGVEdkT2FfQlhyRUI0Vkc2Sm9uUEdFVG5rcHAzaHZNOTVSQ1JhVGUwNnlIOXV0cG1UbHowWTJ3TXFuaERhYWlqc3dhbEF3TXRqakhCdEU5aFNnVktRa2ZUQWxnYm1kOVR3eTFBRUZRNG84YU1sMGdzZUJqQXJS",
@@ -319,14 +318,15 @@
         "CBMi_AFBVV95cUxQUzhiazBDc0p2ekx2QmctRXRZejZRdkVjajBGTG8yTW91bGVGVnlROG1sSFhaWkRMdUpETm9xQm9TMktlM2swc3ZlOHRZNUVRTDhuZGh3cC1CeS1Kc1RUVzBjc0lEUVdiV2xwbi1XZ2hTaTVMTlJHWmI1N0VwZlN6WUVRZmRIZDg5UFZOTXVaU3hQM2pNekFGVWN4ZWJMMTM5NGpyQVotSjEzeUhRQmNRYmJENlpxbmJPcElyODh1MGRCZzJnRjQ5RFNEd0dIX2lvd0xKU28zcjVweHpyUTNwcnVCV1Vhb3FqeXhsa19UbUx5ektXcDNjdDBNTUzSAYICQVVfeXFMTnV4YnZmeXJZaUp5MThISTQwNWJEMENXMmE4MW9nVEtfRDhGY2YwaVNUTkVzeFRkakV4TklCNjI0R3VUZlFnd2lCWEsyQW1aWVEwRnhVVkQtV3ZpNGVVeklYMTJ0ZEF1Zm1WXzNQMlFPUkJfcGVGOHJGSm1QcWhhRkJ5SThrZENiQXo4YnJGZ0NWRUdvdDN4NXpieGVUU0ZOS0ZPbmlUUldRVkM3elg1MDY0OEFLMWdqRFBSWkpHQ2piYzdGdFVmbUtKUEkwX2laanM2bFYxanQtdDRDU2M0dEEyQ2xUMGt6c0IwWXRZajJqVko0Zk5UY25VZmFPT1JLbThB",
         "CBMisAFBVV95cUxNcVprSWFlZWNBSGJISUVKdVhTdWhGclNVVmhLSWNxQ0I5LUdHOVF1NmtQS0x0ZFp1NGQ4RDR3dHFIVU9ramVOQUJDMlZoeXZGT3VTQ2tmZldUWkF0Uk00R29lZ2pDbGtPVmstYVNfUEtRd3M2Q3Vfc1ZRQlM2NWRUVExSMUlaTG9IT2RKUVNXX2lFOU5COWoyQnZtTHJvWXBZQ0hibExYTXBzVTBWX1pPaw",
         "CBMi3AFBVV95cUxPSjNCRnp1TXFTSXJhQmNicHJaWmVGYWJoOEs5QUt3dlJZZkhYUkdyaEZoVDlmV1ZXS1JuTDVnZ3JQV3E4bUZXTFJEVkZZREdaSlpfaWVQM080T1FYeEVLYTNCQ2U2SkdmRGdHT3Z2SE9TM3VfeHJnTjh0NUwtRDJtWU1USjEyRWJJVE9JM1ZEdlR3c1J3RUJYSHpNR0d6X2dRVG4zZU9fSnlHcE5mc25QRkpGOG5Sanh1TkZ6bUQyazdjUG93TVF0bHJDV0h0eWtBYWZoLVpLdHVxNDJl",
-        "CBMixwFBVV95cUxPWlZ3ZlR2RS1SN0s1c05NckR0elNwekV3Mm54Y3k3N1IzeERRNEZadk8tTDlvLUpoempKTnNRNTNZU2hDek1WclhZZFpURUVINUY5dGZhd1k3Zkc2SVZKbmtsNE8yVThpSm9hVHUwVFNoN3NVcVM3cDFKUzVpSjZiWmV1VFpGekFEZ09GQ2x5Vmk5QWU3TjcyU1BBUm90azJhWkh4VzlQUmFwVXBCNVRpdHhCWEY5Qk5ZQmZwdEFBYkpNQUljeHJz"
+        "CBMixwFBVV95cUxPWlZ3ZlR2RS1SN0s1c05NckR0elNwekV3Mm54Y3k3N1IzeERRNEZadk8tTDlvLUpoempKTnNRNTNZU2hDek1WclhZZFpURUVINUY5dGZhd1k3Zkc2SVZKbmtsNE8yVThpSm9hVHUwVFNoN3NVcVM3cDFKUzVpSjZiWmV1VFpGekFEZ09GQ2x5Vmk5QWU3TjcyU1BBUm90azJhWkh4VzlQUmFwVXBCNVRpdHhCWEY5Qk5ZQmZwdEFBYkpNQUljeHJz",
+        "CBMilAFBVV95cUxPTXQzekpfSDdTTHV0MVRVMkl3TlVmOVpxUE9Sa2lYZkQ3UHdRd1RqOERsSnJHNzRIdHdONm1KVjVybVk4VWZqZzJxdk5pR0lwTHlMalNTMEFUSC1vcVJIU2NFWjdWdVREc0VDeWx5dEtoUURFQzRrTTVILWx6WWhKTmF5UXN1cUlTM2ZscEwwUVhoamlE"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-19T16:58:09.093Z",
+      "last_fetched": "2026-11-20T01:33:54.885Z",
       "last_epoch": 1795076044000,
-      "etag": "\"03499557440b0d9c9fc8169071cd635ce-gzip\"",
-      "last_modified": "Thu, 19 Nov 2026 16:36:35 GMT",
+      "etag": "\"0083512a063fd7d6178ac517b2314dcea-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 01:22:50 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/icici-bank-recieves-rs-229-crore-gst-demand-over-minimum-balance-services/articleshow/134617764.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/bengaluru-gets-direct-vande-bharat-connectivity-to-goa-via-mangaluru-udupi-karwar/articleshow/134616663.cms",
@@ -631,7 +631,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-19T16:58:09.188Z",
+      "last_fetched": "2026-11-20T01:33:54.982Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

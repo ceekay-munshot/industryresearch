@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-19T16:58:09.394Z",
+      "last_fetched": "2026-11-20T01:33:55.159Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-19T16:58:42.985Z",
+      "last_fetched": "2026-11-20T01:34:29.293Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-19T16:58:44.425Z",
-      "last_epoch": 1795086940000,
+      "last_fetched": "2026-11-20T01:34:30.702Z",
+      "last_epoch": 1795127201000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi1wFBVV95cUxQc2xGTkRkQlNrcVd4WVVjMGFSVUVMZ3ZwOC00cmpKam1qX2JPeEtHWUxkblpyc1p3QXZadjV3MjhsWmc2ZHN0NTBienVfQ0pxQjlraUtERlBWR0NRWFU5bW1BUGwyZVV3MGdpNDZSY3NUaU8xWE50VGJGamJlVktWRnZ3OHlCMVRNQ1J3dkQzRFNzb0lDd3hJZ1haUmhnQU1SWVFPbEx1ZmtYVENJNGV3ay1rTXNIYTEtT0c4VUVXWUl4SHR0MlN6Wk5PQkVKenpqR21iakdTUQ",
-        "CBMi3AFBVV95cUxOaHNtTHFJNjZfVThPZXJLeXp4NEpldW03dUxSamxEWXpKZkdzbFhEakZDdlZOeXRTRXBXTndSUGtXQ3NYQU93dUE5SURxbWRIZUt1cU5NY2JZdnZXN3JUb3lUeTFpNUhFVU9yOWtyRDh4bFE4dTFoVi1maWluWU9iSEcyWlFHTXA4YVhKUlRiTVVXZlZlWEtDb1ZqN09ER2plR1djMXBMVmRFWWtvSWpSNkdQMm5Dc3NKMmhXS0lhNDFhdF9abHpTSnVJdFV5S3prSkhCOVowZE9LME9n",
         "CBMivAFBVV95cUxPRTJFeFNsbEpuQ1JEQjR4dEtJSzcwd25yOFpmdzM0TUt4WV9kU0E4QlppOGpWckVzaUd1cUlFTHJ2Y2hya3piY3JmUGRVMzZYcl80b1ZsVlgtNGV5Q2RaWTNMcnlfTUlZakpSVEw0dlltYjJGemJzRTk3NXhOMmpFaVNfU3R1dXltX2NCbTBjbVFoaF93Q2tiX0xCcC1NUjJSWjg2YmI4V3EzYmtNdXdEcTNzX01mUEliNXFTVQ",
         "CBMikwJBVV95cUxOejZuNVZHYUg3QlloRzQzYXBzbjR3OFdESEFXaU1ZaGg4ZU1YMkExbUpVNHZ0S1JCUEZQNmRKVXVraTVxNjAxcnc2MWhPamFkclpDVGNEZDlILWhBdmtzQy16RHVJaW1wQjdtbmN1TUVUZDBudlMtNnNfcXdWMEV1ZWphaElvTUdTeTBsNDFYbEs3UEFHMVMySzZCVEIzeUYwR3Y3bWdPQmVfcHBlOG84Zkg0aGxLMmtLVDhzQms1MUNnWDRXYmFjbnZWQzU0SC1Oci1JXzBjbnQ0UTBJU1l1MWJ4MTd4TV9NM0FVSC1LRV80c1Q4QllyS01NOWFHVUZpMXdkdEpSNmt0aEg4WVl4V2Fwc9IBmAJBVV95cUxPQjJxY1ZBR21RVFNpWE1vR0pkOVA5Z0RUUmFZRDZ4dS16TWpjdzFzcjM0QmQ3bVkxWV9fWmdIdXIzdzA3MFZHUXNIZm9sdjUtd3cyUl82V1RKRTlZVHBMQjVNeFdXWmp6U293TS1WYnpiVzJhZlV0UVZGbTJ6WldTVC03bmhmYlhobTJJNlRUd2VucW1vRlpPRElMelZneGJGdzZLWmRVMWxSd3MwbXpKVXBEQkdMVEdsNWR5c0NXT3dGRVlUSEFGZ3licnVTbllGbnZ6VFBCNGxmZk01cWJjcVpqQW1TZGlmNkE4RUlwdDVyRDhoZUJmaTNLNVpBQ3JRTklFX2dkM2lIcnUxNXlxZnBCemtMMThQ",
         "CBMiZEFVX3lxTE1xNUw0Q0ZPdWdzX0w0Ti13c2FtbjZvUDFhWlF6aUluUmtoQlg5TXBxalRjMDF1MEdFWjdjZkszQWRzUnhvaUhSQkFOemg4ZkJabXQwZkhhRUdacjhqZWVwNnRwQ2w",
@@ -319,14 +317,16 @@
         "CBMingFBVV95cUxQZ2Q5al9YV0JYcG9YbWxBMTlqaVAwSHRBa3lZdFBkWk1lSUwxaFh0LWNuNS1EVXdPNXBMYUJiWWh1U2pfNUlySUZjaHpEQVY3QldWQi10d1Jsb0lzSUxYSk93LW03VTJwZFU5bE5XVUJLZWdCMVY2a3lKR2JNYXRwZERGemJ4U3d4bkpVaVhJTzlybUdQTHp4N2xpMDVaZw",
         "CBMijgFBVV95cUxONTQ3eVVWNkNRT3hOLTM5YWNRZWFYbFhxZURqX2VhNTJkT1RjNXI4MWN3azlXQTd4ZzhzLUFfZy1zallCRDF6WEd4ZkZxdG9IWGdqQWFsRTRaN2dHOWVCNEh1eUR0cF9Jd3llUlNFWFhJQktPRGhTOFVMVzBrbGhTdmpSbV9HUWRwaGw5dFpB",
         "CBMigAJBVV95cUxOdmFhdDcwYW9MaDNjM0lad01COS1xVVQyZ0lfci0yclMzRmVNYzdXUURrQkNEZE5OZTFSQzl3N0Q3QzhoYm5DMkNLRjZTTzBRbU50enZDVG9QR2dJWG5ySldDRnlSSDhBQXluUEVCRC04akJ0YVFXaVRxbzNaNV9vaWg1cWotdXNrQjdMemxXLWpLQ01lVkNBZ1RoQ2E4MVRUcDRycWdTanMwek53QXVBWnJWVjlobFdZSzNuUGl1UVVBUzlBN0pwamNtYmFIMnI5eWNHUTVSMDM3UDRuX3ZMUDhuREJ3Y3dhTUcyQVFqZXptY2NISTNWa3dSNENOTkV3",
-        "CBMiWkFVX3lxTFBoSkFuMXFra3l2bzBsTG04N3prSjdmWjU5VlRqSVdHN19DQ1ZDZjhtUXAzXzZrTGpmd3FPUHZTdEZpWFZyNFREdXVfNS1ybGx1WGRLSk5QUVBkQQ"
+        "CBMiWkFVX3lxTFBoSkFuMXFra3l2bzBsTG04N3prSjdmWjU5VlRqSVdHN19DQ1ZDZjhtUXAzXzZrTGpmd3FPUHZTdEZpWFZyNFREdXVfNS1ybGx1WGRLSk5QUVBkQQ",
+        "CBMikwFBVV95cUxQU0c3U09WSkhtSU91bk8tTkhPLXJfY2JaWmZrTmxpZk1jYjc1Yy1yTlMwdEtZSkpJa2J0UDlQV0Z0MDUyVnRZV2dLeGJET3pFTFdIcXVaZ3NoN191Zk9Va2VIb0FKVV9vU0NhR2s1SkhaM0hNVGxHbEU5bkd0TTVoQXVKQlM0SVJ0dFdPYzJiOW5qY0k",
+        "CBMi2gFBVV95cUxOVlpwaVAxaExKZnIyeUszZ0ZiTi1zc3hqYUlSR0dteHh2Z3REeHRJRFNYWkp5SW9IalJKTEpqWG4wcG9YU3haYjBWUzZHTXhGYXhSMURNNzF5bl85TDVWX0ZPcDRYWjBPMjZfaWd1NlNTUUt1Q1hCeVNOSXpaR1hCOG50NDFObjF4YkNlemJRSnJwR2JSRHhMV0FmQ1VqZlFMR195QzFKRWhTRXY0U0NFVHN6TVotTHU1X3g0ZVk1TGZlT3FzUWpyUWsyNEM0bUJlcUxEclZmWG5xUdIB3wFBVV95cUxQNnU2UVpzMTZLNnd5aW5qdUxtT2RnWkMzdWEyZ2hEUjN1ak14TE1tRTRCU25kTldJemI3N3JLZlBwUlZuZkJLM3JaOFE3SGZhWFRpWnpRQTd2VGRhalJJM2UxdEtrejg5dWFycnNWVHNjS2M5VFpDSGVxb2NHYWN5amFNbzR3OW9VcXdvQ2JuMHZoak1LOTFlc21JbTg1Z2xLNTYwTkdNZWUxZ2hkVkg3eWRDVUkwUDJVM2dtaVR4TFlwTEFIOTh4Zk9JcGlJTndEYkNCazNpU1Qtb2ZYcFdz"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-19T16:58:44.625Z",
+      "last_fetched": "2026-11-20T01:34:30.847Z",
       "last_epoch": 1795070087000,
-      "etag": "\"03499557440b0d9c9fc8169071cd635ce-gzip\"",
-      "last_modified": "Thu, 19 Nov 2026 16:36:35 GMT",
+      "etag": "\"09a7e6d2bc3a69423531519f096f6f942-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 01:06:46 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-now-has-five-semiconductor-units-in-production-ism-2-0-to-build-wider-ecosystem-meity-secretary/articleshow/134306578.cms",
         "https://economictimes.indiatimes.com/industry/auto/auto-components/tariffs-supply-risks-push-indian-auto-parts-makers-to-build-beyond-china/articleshow/134306479.cms",
@@ -631,7 +631,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-19T16:58:44.771Z",
+      "last_fetched": "2026-11-20T01:34:30.961Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

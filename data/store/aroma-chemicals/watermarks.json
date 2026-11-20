@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-19T16:57:22.954Z",
+      "last_fetched": "2026-11-20T01:32:43.819Z",
       "last_epoch": 1795096935000,
       "etag": null,
       "last_modified": null,
@@ -111,19 +111,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-19T16:57:56.337Z",
+      "last_fetched": "2026-11-20T01:33:18.084Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-19T16:57:57.556Z",
-      "last_epoch": 1795089210000,
+      "last_fetched": "2026-11-20T01:33:19.053Z",
+      "last_epoch": 1795116221000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMihgFBVV95cUxOR19CQ0gyV0ptWDlyZ21nYmFHZDhpRVhkcm44Tk91SENLOG5hcmlaRWRyUmNqZ1FmZnNuYWRGMEhPX09sUHFNZDFiSWItdDlMRFQzdU9fYkZsVC05bGM1ZWNrNFdRT3VNWXowbTRNbE80OWFlR09rdmNwQU9reGg1YkpXWHNrQQ",
         "CBMiygFBVV95cUxNZ0swLW5oUXp2UVdaYWhfYlNTYUZYUDVWeWNRVlZrUWUtV0FMeENSc0Rld0s5eXlfUUlMTWRtbXJna2FhdWVoVl9TN1QyQW1GVjBwb3UxWFJibGRGX2NCa1dKWUFfekRENGY2WTBPdEJnUDBwWHZ6M1R6NkxmMTh6d2RkNU1JYzRDLUhLZlpNSEhpZ3g4WGZWREJXeGNkOXlQVUtjMzl1SlJsOUZiMVpFWHJERDY1aWQ0MHcyWURaaE00UHJSaEdYb3N3",
         "CBMizwFBVV95cUxPNWFiVG9oZjdDNmI5dE0wYU90emk0ajBDMWVob3BLSXJJNXpqa29XZm51TWJDVjBicEZUVjljb0haR3U4SlBvRkszVnpsVmFnLXFVZDB6N09JWFROZHJLX2M3d0JWaGI2d183NWlUZUZfVkNJWFhCenJtYzJOOVRoY2E3dXRVVFp1dW5GbUhiNk11YjUwODhrNDJMWjdPVGRtbHVMV0t5TFR1VHBqYnVKcWVqUzY3S0lFczZWNFlCTHd4NzhsalcxY2ZzLXNvUDg",
         "CBMixwFBVV95cUxQUUxOM1F6ZzNyQkFWMXVqc2FzZm53UDFvenc4dU1JWnRsYjRyMHU4bmwwZkFoeFNtTXhUUXA3Z2lfZ0NLQTF5UWZ2T3I5MDlrOXgyYVMtT1REUGlKYngwemZYbjFpVUg3LW9hYldoMG5oY0dHaUgzcEF1bnlHU2RBQURGTHN5MnRqRVlHOWcwLTctbUZ0NXRUa3dlMElTOTdQX2thQnFxZHFhMm4yUGJQUGg2R0lNR0s2Tkp3NHVEUDI5WnVNX1Y0",
@@ -422,14 +421,15 @@
         "CBMihAFBVV95cUxQOGw3VGwtbU9sVVQxakhWZE1SeXN2N1VHMWJ2TlJkNzVzUnZEODdMOVVETS02VmNzelpKdzQxdWc4VDJGc0ZDSmFEUVlmaXppc0tLYmNKSm0zV3dvWW5hMFdTU05RNWYxM01DUW5tUEttRFBlRXM0dFNuMkFPQ3dlSHZxQ1I",
         "CBMiwAFBVV95cUxPM0haOU44SExoZDRsY3piWjFtd295YlRteTBOSmh6dWhxbnpTY2MwMW95ZWRVeExlY21JWEVhal91NVNRR053REg3UTZtdlBSZWtoSDlVc1BkNTBQWVBLekNQaUxObFEya3VqRnVsQkVueUZGLXdfTDlrNXA3OFRWeHM4S1ZvYWNtaXZoV0pXZHJBanRsMWZjUFE1RzlVTXVKb2FSQnZWZlltSzBIakxqSjV0M09McEU0bFJxcXVqeWo",
         "CBMi2wFBVV95cUxQbWlhLUNlbV81RmhLLVJVSUY2NHRiOWlCYm5rWGVUV1BvSld6d3IwajFkZ2FGbC1fNm9ubm9UUTl1REpXcUFhQ2VCaV9waHVreElZOG5wVVpENl9qUEViaGJZTWZtQWR4WDJUUFlsQ0JKM1psTHFhNDlRUm5ncUwzYUVvaU1uaXVqb01NVjVJRjkyRldBdWtNTzBaeWswVWVRU3hxMmZ3ZTRaRFh5OXZmd2pCYlN1OXBWVXMwWXJfRDZWZjhzc2FtR3p5Nm94MTZRVHdIMWVoVUp2d0U",
-        "CBMizwFBVV95cUxPRFRJcjQzeE4yaG1SSVNiY1FOZ1Z1WGdySnRjdzljR1pLVWFjQkNUNUgwemxMY01vVEFGaDNHVkhYVEhsUzc0OURqZnNVaVZfTEhkTE1neVB6ZFVoUm56T3JZZGxHTGxjaG0zWUNPU2wyUTAyQ01HdTlMZ3dfcEVmOEFKWDV2aFFXcVpKenNaZUFnYlhkVHhKZlpkR0hoX1ZHTWRCdE4yRXlubUdTcWdSNFczYjJrSXViR00wN2NiZGlueWh5bDlBaHljNmEwVW8"
+        "CBMizwFBVV95cUxPRFRJcjQzeE4yaG1SSVNiY1FOZ1Z1WGdySnRjdzljR1pLVWFjQkNUNUgwemxMY01vVEFGaDNHVkhYVEhsUzc0OURqZnNVaVZfTEhkTE1neVB6ZFVoUm56T3JZZGxHTGxjaG0zWUNPU2wyUTAyQ01HdTlMZ3dfcEVmOEFKWDV2aFFXcVpKenNaZUFnYlhkVHhKZlpkR0hoX1ZHTWRCdE4yRXlubUdTcWdSNFczYjJrSXViR00wN2NiZGlueWh5bDlBaHljNmEwVW8",
+        "CBMiZ0FVX3lxTE1yczJ1VzQ0MTl2YkEyaEJoOTl2N2xlTXNHR3hEMkVyczY1T3BwQlNmWmZ5UmV2bWJhLUU0cjdvUUFISnR2NDFtdjhLc0d3enV0NzJxN3dtTjNiSDhUb0JaUTNacVFvZlk"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-19T16:57:57.740Z",
+      "last_fetched": "2026-11-20T01:33:19.196Z",
       "last_epoch": 1794636664000,
-      "etag": "\"03499557440b0d9c9fc8169071cd635ce-gzip\"",
-      "last_modified": "Thu, 19 Nov 2026 16:36:35 GMT",
+      "etag": "\"0083512a063fd7d6178ac517b2314dcea-gzip\"",
+      "last_modified": "Fri, 20 Nov 2026 01:22:50 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -503,7 +503,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-19T16:57:57.857Z",
+      "last_fetched": "2026-11-20T01:33:19.306Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
