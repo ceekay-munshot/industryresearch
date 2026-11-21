@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-21T04:39:35.008Z",
+      "last_fetched": "2026-11-21T15:44:45.923Z",
       "last_epoch": 1795078806000,
       "etag": null,
       "last_modified": null,
@@ -171,19 +171,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-21T04:40:09.542Z",
+      "last_fetched": "2026-11-21T15:45:21.826Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-21T04:40:10.727Z",
-      "last_epoch": 1795203029000,
+      "last_fetched": "2026-11-21T15:45:23.001Z",
+      "last_epoch": 1795242321000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMikwJBVV95cUxQNHZLb0g0azl4b242YmFkV1NLZTVibUVlU2dsQ0VCbG5HS3lsQnVsbFhuWTk1UzhyT0p3YjQ1TC1walpHMVdfeTBIRWQxRFZMekVmdHBqcjlKU0oxZk1xcjExeG1Nell2QmVmQk45NFRsRS16blpTM0doZjNrdEFUeVBucmJETjVZYVNGUXFyOGtJeDI5MVpDSThEY1dpaVM3N1lqV3ZmN3Y2NU9KQzdRckdFRjBUNkwxR21La1ZERkpDczd4TE9vM0pDR3U3VkhTQ0NHOUdRMHMxYUxoNGdsRk1TdzZWNVlTZ212eHFJSy1OVlZXUkNWSVVKbHU4Mm5YNFNVMUl2UXVSVzVOUG82YkdVQQ",
         "CBMirgFBVV95cUxOT2Rub0h0bEd6RDROMjBsUTNpUGs2V3ZWWEpwMmJ1QW1GN1pOVVRiQUoxNVZLUFJGaTk1SjNJdXhhOFJ1VUQwM2VMZUhSSW1YYy1yQ3FfTXN5dmU1ZzIwU1FZenJ6al9vVDdSdlc4VzJkZ0xJcFRFalNBMkhLNEtkZGY0N1BnSlAxcW0xa25XNkFtTlRpNWZ2OEpKREc2bWs4OGJNNHpjRDBQYzlyNGc",
         "CBMiqAFBVV95cUxNamdkNHJoQjlpY1Z6SzBCZnoyU2FkT2h3Sng3MjdtTnR3Y3BCRzlkQU5KRXhQbndydGd1R1RTZnNQbW9tRUIyMXJpV2xYaUxodk9ZLVB2bTNUUTA2Uy12WHVESmJlWjBneHdLQVNQZThyZllqc1dXaUdhaFhZZFBPcGlxLXJMR2lhTmdfNW5KTHdLd3BKNTRPSHd4S3B4Z1hKRThzb1VTUE7SAagBQVVfeXFMTWpnZDRyaEI5aWNWekswQmZ6MlNhZE9od0p4NzI3bU50d2NwQkc5ZEFOSkV4UG53cnRndUdUU2ZzUG1vbUVCMjFyaVdsWGlMaHZPWS1Qdm0zVFEwNlMtdlh1REpiZVowZ3h3S0FTUGU4cmZZanNXV2lHYWhYWWRQT3BpcS1yTEdpYU5nXzVuSkx3S3dwSjU0T0h3eEtweGdYSkU4c29VU1BO",
         "CBMi0gFBVV95cUxPejg1Uk9wRlFVdXU4ZW9MUVoxXzJFRmNsOG9Qck10MFA0QXZSQXZKbUhUX0RkQWhHd2lEYnNqdnJWcDFOVi1BT1NWTmE5OWFHTlpzYkJxMC0zT3RaZy1pb3V1MEZZY1NxbFE0VUNfYXphQzl6NVFNdjg0WU1mendWRHRzRjVRUHdaSFhXSkVvZFNoWTJLMHAzUHgzT3NVdHRaODJ0cVNPc2htQ1BNRUtfSUtXaTlzZGNJaHBzTEdKZlhVNVlLRzl4cnFjUmF4VkpCalE",
@@ -482,14 +481,15 @@
         "CBMi1gFBVV95cUxNRFQyR0ljNjhISnBYQVU1S3VDWjc5czlfNkctVDhOZjVpTGYzRTRqQUNnSjVPU1FsZjJ6OE12SGdCZWhHbkZ2NlIxaEQ3WFdKdmJJcG90NUhnandNLU5adkhhdVozRzNkb2FDSWVDNkZ6ZWlyMDlOWlVQUHBzdmlPcXFoMmdmUGh5bFlRbGVJTWpfX3JYbnd0S3E4U1ZtSmRRbEJ6QjdfdmcwUjlVa3lJMzlBYjhwa3FneGVNMDktaTk5MnVlQVBwMlpaSThsdTl3XzdpbC1n0gHbAUFVX3lxTE1lM2hyUjZ6WlVHRWUtNDQ5R3dYWnpkWV9GX0JJckw4aTN0LUdCd29Xa3JLSDJ5Tm5yekFVbG5tYkZ3NmhKdlZQS2RzZ255YmE4R3BpVklXaFNBQ3JMTnA1MUV6UUozSm1famd5NjlqNHI3RHVST1hrVUxKSUhGVUFWcjhIZDRNUUhBUTZLQzJoV0ZrcnNiMTgtOGEtNzgxRXRYUS1Hc2NZWnJheDRwdFpwWkdmMl8wXzBmaDRQUEVQNkZkeG45akhZeml2eDE0OFFkWXFmYXd2Q25MNA",
         "CBMi9AFBVV95cUxQVGtTbVVydUZRZkExWmdPZ0hfdW9zcEozckxSeTJlSXJScVZvN0NlTEt5aVMwOHRlUFFJOGYyNExRZFRFYWx2aFFjQ1p3ODBHeEdkc2o0aElZZjh6VnFITW1ZVlFFYWsweDl2bFlKRjNfWDhuV0ltSzRVU0lUZVo4X1FNMDZIU0NxNUlvZkhUeGxrUTEyNF9iUTNGMzN4dWVkMElhZi1YdUNubjRmb0k0aTdacEJqMVd3RjBvQ1BaZUNhRXl4MkpqMXRPNnZBRm5vcnBOYlZCVjVBcHB3bGM4eFhrRWNFSXVMcmJMM0JBQ2VIMWJV",
         "CBMipAFBVV95cUxNTm80TE5temNac3NfZ0NlSTdDUUthS2xlUUJNNVkwTXJXUEdXRFRjMEkzcHR4eE5waTB1VWZHNDU1UXN0eTBUQURleW4tQ0FSQkFwSnp5OGJ4WEVWWm9zVVp1RVFuWW1zOVlWVEIyWkVQLXMzVzZFZVBrYXlsT3YzdjJJeC10SmdpYjFxZmI0X1l2VkJOREprR0hIekhoS3pTRnFYWQ",
-        "CBMijgFBVV95cUxNcUxmYjZvc2drSW5NSzhUanBXYm16ZmRKczMxV3JvRTlmZmotakxDS05iWFFCVS0xSTJvWmN4eFpVRGtiazlYVDlra3YwTEM0dF9SSGNWX3kxQjV0U3JRUGtMTTR1Rmd1R0k4MGFJZ1RnMWR6SG03VDJiT1VBazRJZHcwa2g0R2hRRXI2eXZR"
+        "CBMijgFBVV95cUxNcUxmYjZvc2drSW5NSzhUanBXYm16ZmRKczMxV3JvRTlmZmotakxDS05iWFFCVS0xSTJvWmN4eFpVRGtiazlYVDlra3YwTEM0dF9SSGNWX3kxQjV0U3JRUGtMTTR1Rmd1R0k4MGFJZ1RnMWR6SG03VDJiT1VBazRJZHcwa2g0R2hRRXI2eXZR",
+        "CBMi5wFBVV95cUxONHYyRUMzSDhyOTBnN2N4aEZPaWRXNzNKZGZyZGFseGtXdkJENzlxZndOZmVQZlcwdUEzR0RRYl9FNnNVZlBOdDk4MjdlQlgxNUdKd3g3eXF6WEIxQUlpdGh2dDdNYzBVektKX3lmUXotRE0xbzh0R0lnejVwOExGYjVYUHNWc2Q2c1g5U3pYazYwYmQtUGFkaWhfQ0g2TjhhTV9jNkhFZld3UU43R2psa3pUVF9BTFdWbFoybzNNS3hHOF9jaThEektIc19mbFhhalVnc1I5ZmR3TUw5Tm1RLUNZYkZyWnPSAewBQVVfeXFMUFZYeUpfMmhnNlJ6cFZPSmJIa1dtcGRUbHdGQlpHQkpvVV9Vbmsyb0w1MkVKYTIyeW5SalNzTUR4VnVnM3cxZ0Z6TlNLTG5tQjdBbVV6NE9oVmN4cUJidjlLUnZpenFTbDRnT2ZPVU15amtKUkNDd3hsX2NfclFVRF9MWTlpWU4wMG1welJ4ZnVDN0VKMXF2SnhFVXBlV2RaZ1MtUG4xX3E0WTJnS3JZSHRDZWZ4YUhNN0Zxd1JtaTg5ZEpPR1B4WlZDZkRQek8zamlESHBFcDBsTWpZSnQyY3hpRmNfZVRNUTJqT3M"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-21T04:40:10.795Z",
-      "last_epoch": 1794464085000,
-      "etag": "\"0900cd94b23a279a0d55f7ccfd3516644-gzip\"",
-      "last_modified": "Sat, 21 Nov 2026 04:24:04 GMT",
+      "last_fetched": "2026-11-21T15:45:23.182Z",
+      "last_epoch": 1795263161000,
+      "etag": "\"09d93861dcc033b15f545dbd54ee743c1-gzip\"",
+      "last_modified": "Sat, 21 Nov 2026 15:33:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -563,18 +563,19 @@
         "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-projects-wins-contract-to-build-global-automakers-plant-in-maharashtra/articleshow/135491404.cms",
         "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/tata-motors-acquires-iveco-group-a-game-changer-in-global-commercial-vehicle-market-chairman-chandrasekaran-meets-italian-pm-meloni/articleshow/135566598.cms",
         "https://economictimes.indiatimes.com/industry/energy/power/india-clears-rs-68800-crore-power-corridor-to-connect-western-renewables-with-eastern-demand-hubs/articleshow/135729920.cms",
-        "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/cm-yogi-adityanath-pitches-ups-bulldozer-brand-invites-cnh-to-manufacture-them/articleshow/135757935.cms"
+        "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/cm-yogi-adityanath-pitches-ups-bulldozer-brand-invites-cnh-to-manufacture-them/articleshow/135757935.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/ashok-leyland-to-set-up-truck-plant-in-west-bengals-singur-says-union-minister-sukanta-majumdar/articleshow/136053797.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-21T04:40:10.925Z",
+      "last_fetched": "2026-11-21T15:45:23.464Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-20T12:19:15.744Z",
+      "last_fetched": "2026-11-21T15:45:23.801Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

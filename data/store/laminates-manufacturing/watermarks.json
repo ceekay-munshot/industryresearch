@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-21T04:45:44.824Z",
+      "last_fetched": "2026-11-21T15:49:50.259Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-21T04:46:20.332Z",
+      "last_fetched": "2026-11-21T15:50:25.007Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-21T04:46:22.720Z",
-      "last_epoch": 1795184231000,
+      "last_fetched": "2026-11-21T15:50:25.949Z",
+      "last_epoch": 1795252371000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMihwFBVV95cUxPajBDTGhLeVktZldIVGJKMDlUTVRYV0RGVmJIRlBKSkNMM0R4dVZ1Zkx2OEdLOGhjc0xpdl84aklUcUcxM01kdUhtdUhTWmgzak1fWDV0Qi1fTlh2bmh1RWhmdXFlV3ZtalVuTTRaTUR0a0w2TktKc0FRUlRJa1h0czkxVzZVNjg",
         "CBMi5wFBVV95cUxQTVg3REU2d0NfZVZpU1FOcDZoRi01aXFNY1pEUnhNTzFoZmo0TlJDN3o2R0dabi03Q1Z2aU8zczQtbHUxc2wzeTRMcXdwTGltSldObURFbE9Idy1tdHo1T3hFdGIxeTFiUGZyM01VYXlDYVIyYXAyU0FXOUpTSU9zMjBabG9LaHRsOGJhLUFzZGZOTE10QlRFY0dMamRNWXQyUXFabmEzY0p4SERyZ2hmOURjZF9yMWtwOU9IRFhaVC1ZbkNjWVNWQ2ZDbDBZUUhBQmdINTktM1RSNzdwb3BNNFVhOTViUWM",
         "CBMi1wFBVV95cUxNeWhuRnctcmVvTEtVcEt4cXIyazBlT0xTa1BWbHo1bG5TaGlRN1ZBOFJueXphWVVuam5nT0RKVFFCbWVUcTRsSzNiQWRZY2NHMTVHcjNvcUNNcVNvTVR1TFB0WG5sRFFuNXNsenZ3a1RGUTVBX2J4QXliR3VjUzNZYjh5azZBV1ExM3dDc0V1RUVySUJFOHV6d0xYNjREVDVrZXVuQVRQSjNYcGxCUnJjSnNXSmtUUDZuTTRBNFpPMWZlWW02QUQzVWJPald3NU1qQXZBYlptRdIB3gFBVV95cUxQWFBrWV9ZMDVQdmJGYTNwcTA1ZW0xeVlUUnYwbW1CNEF6NkJhMkNRNzl0a0l5WC1NZXY5QTBSSExBalMxYkxTbm1VOFUwVm91YW5tTTVzeVBNdjA3NWx3TkNJTHVKOC1KNDlUZGdLSlg2dDJIUF83cW1Mak92a1NYZjhXa21YYWptb0dxNE9TWlQyTGZtektDYndXWFFJSDMteTdfaVhGU29aamluYXNnc2NwUzA2NWZyaHN5cmlhZzlpOUc3OGhLQ0FjdUdFR0liZjhMZmdlVGhIM1V0blE",
         "CBMi8gFBVV95cUxPa2k3Nlo4NlhSbnhzNHpHdXRxcnl5NnBXWTViWE5OUzN6S2N1S1FZa015Sk9XQm1pbUNYVjh0QXE4dlktZGdQeEFlUmhXQnFIUmtOV0ZyaEhubGdQRVlrQ1hjSnZ4cVJzTUJmRnpYOUkwZ0lmdlpUdThmOVZLWlN1cWVscl85NXZaX0hKaGpSSUU2Z25fMUZHWlZlZnY2Z0kyRnlKMnAtZU1WRDdvaFF5LTFQR3ZuSTJGNVRISUZKNjE2a2NyQUh0QndsUzlDQWRTY3Vfd3BiLVlDVjJMbFNWVl9pbFBkUE1DbkwxZDdMQm93dw",
@@ -319,14 +318,15 @@
         "CBMisAFBVV95cUxQNXFpM3J2NklZT0plOHktemlhWGVOUVhaYTU4Y1dmSWhkcTNxT3prVGF0aUNjTC1QVlNfVVh4OXdxZFd2eUxnVlBLVW1oQ1NrNVRBSDk1cXhSOTBWdk1EVjJpX3VMOHRxRTIxSXM5LXZZVGR1X1lGT1NNYlhPQ2g0a0tOS0FRczdKWTdyU1pWcHROczZtTUpTdU8xSmxnNE84cTEwenFJZVNqTUdrYWNoQQ",
         "CBMiqwFBVV95cUxQeExSQTJTOVcxTEJaNnFDZGhPRmhpd2t3UUprWDZCUHNuYkhSY3ZPSWtSOUpwNXJDaE1aUHJGY25Dc0lGRFBjTnMwRHlOZl9odHh0MEI0Q1R0aTFKWWMxYjU4MUpIdHZQVHJnbFRMaVk0TThEYmZBRkYzV1JkUU53bzNHR2ItR1BFNzh2RndxNmZNZXVKZG43aDdjT2JPYVR1aUZITl9GMzNrWTA",
         "CBMiaEFVX3lxTE5mUktGNWhHVlVZd1JsS1I1QS1xTDdSOTZNNkNOaU83VXBzQ3hkNnZFeUhvTmhsVzJEXzZWVGxzSUM3SkJ2ajZzSW1ISTY0X2FaclNiNV9xS2VWa21sc2tfeFBTbnBqZG1a",
-        "CBMimwFBVV95cUxOTXlaWG9LZWN3bk1ET3EwS1pDMlk2VWRNQVlRRzNZU3piUkNabWFJMlZsLVlZa2gwRFI0dDd1TDJhbkpQYllrbUFjQ1pvYzhtbHV2RFdVcVd6TnBCejFsSWdtSVUyT0I4c29yaGxkWEc1bThLYUZZRWtWTVZsTkpNSjlpcng0bTZlcTRONUptRWMyVXFmeFdIT20wTQ"
+        "CBMimwFBVV95cUxOTXlaWG9LZWN3bk1ET3EwS1pDMlk2VWRNQVlRRzNZU3piUkNabWFJMlZsLVlZa2gwRFI0dDd1TDJhbkpQYllrbUFjQ1pvYzhtbHV2RFdVcVd6TnBCejFsSWdtSVUyT0I4c29yaGxkWEc1bThLYUZZRWtWTVZsTkpNSjlpcng0bTZlcTRONUptRWMyVXFmeFdIT20wTQ",
+        "CBMidEFVX3lxTFBzdFBLMDF6ZHFKSnJBZnRueUFnYVUtc1JRLXZSNXJJMmszb3hhTFl2bzJITUdUaFZib2k5Q3Q5WVl0c3lvZUQ0TGE2TXNZaUctZzN4NS1GTWFiR0xEWkQ4ZVFkcDdmN0tfWTl6eXpRLTRiWmVF"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-21T04:46:22.825Z",
-      "last_epoch": 1795145327000,
-      "etag": "\"0900cd94b23a279a0d55f7ccfd3516644-gzip\"",
-      "last_modified": "Sat, 21 Nov 2026 04:24:04 GMT",
+      "last_fetched": "2026-11-21T15:50:26.031Z",
+      "last_epoch": 1795263161000,
+      "etag": "\"09d93861dcc033b15f545dbd54ee743c1-gzip\"",
+      "last_modified": "Sat, 21 Nov 2026 15:33:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -460,18 +460,22 @@
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/ipo-bound-aragen-plans-to-spend-rs-15-billion-over-3-years-for-expansion-md-says/articleshow/135956847.cms",
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/mukesh-ambani-reliance-jio-seeks-to-build-satellite-capacity-for-starlink-challenge/articleshow/135945326.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/cil-led-consortium-receives-loi-from-govt-to-set-up-rare-earth-permanent-manufacturing-facility/articleshow/135995063.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/indias-solar-cell-capacity-surge-may-squeeze-margins-favour-integrated-manufacturers-report/articleshow/136011171.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/indias-solar-cell-capacity-surge-may-squeeze-margins-favour-integrated-manufacturers-report/articleshow/136011171.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/ashok-leyland-to-set-up-truck-plant-in-west-bengals-singur-says-union-minister-sukanta-majumdar/articleshow/136053797.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/usfda-issues-7-observations-to-natco-pharmas-hyderabad-facility/articleshow/136049608.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/indias-position-in-global-manufacturing-heirarchy-evolving-rapidly-rockwell-automation-md/articleshow/136050708.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/ofbusiness-to-invest-rs-200-crore-in-andhra-pradesh-to-scale-up-apparel-manufacturing/articleshow/136045129.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-21T04:46:22.892Z",
+      "last_fetched": "2026-11-21T15:50:26.117Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-20T12:25:03.961Z",
+      "last_fetched": "2026-11-21T15:50:26.442Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

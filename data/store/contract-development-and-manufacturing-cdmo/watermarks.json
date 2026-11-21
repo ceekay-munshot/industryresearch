@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-21T04:43:57.674Z",
+      "last_fetched": "2026-11-21T15:48:07.380Z",
       "last_epoch": 1795079393000,
       "etag": null,
       "last_modified": null,
@@ -136,19 +136,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-21T04:44:31.192Z",
+      "last_fetched": "2026-11-21T15:48:31.051Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-21T04:44:32.493Z",
-      "last_epoch": 1795189350000,
+      "last_fetched": "2026-11-21T15:48:32.171Z",
+      "last_epoch": 1795237260000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMimgFBVV95cUxQX2ZCRV9QNkhtcWwxd0FJZlZmbG93alJWSzU3ODZuU3NadnBWZ2FMNzRWQ2V5MTFRNlF4bTdIM3RWRmhIN0RoZGNkeUZnRWNEMlQ5NGdPbk5QWElrZHhyR0JKcWpGTmdjWUhBX29JeE50MHN1SEZSalhmYTJWM2owZkM1bjRMcm42SldCVHhMbXVXMmZ6OEJwUjB3",
         "CBMia0FVX3lxTFBUTFEzODFrWjhXbE9vTFRuOEhaa3k5bVFUNXFBZWkxMlY0OWdlYmhJdU9MdUI0WWVIb3dkUzlHRHZtYUVlUHpwV1plV21QU2FFbUlGNmVOQW1pWWtfRmZoSG03X1JFV3lHc1Br",
         "CBMi4gFBVV95cUxNUHFCVV8zUEFXdjM3al9weFBiM3g1b3lYcFUwQVFuZ1hWMXNHekw4VmxlQWJEZW91SnBUd2hQc243eXZGOXpjU2xyTDlMTDdZUGlpU3hvTmU0Rm5IMkNRUXNDbEZsS3J0YmROZVM1NjR2bTBSamxmX0xiNU4xSjU1UDZBZ3pZZ1RHRllZVXNVeWQ5RmpzYnhQZDFqakl3cll6cUd4N0lSNl9wNVZhR0h0NXk0MlJyNG5xMWprNk96cEhlNjN1TmJGQlVSdUVwQ19UVmdvU2hmSG9ObFA1MjhKZzh3",
         "CBMi1AFBVV95cUxOMFdmajBvdVVWMDVWdV9TaElHZURESFdVQnlNSE44TEVySDUzenFXQ05wbHNraWgyd0gyYnhaOE9zY0l2Z2I0d2VUWHJGMVdtakdIT0FNSWpVZTB3eU5SdUZlcEpwX1FRQy02MzJQcHF1eldyNzNyZGI5aW85REp5cncwekV6MXVLZzZwdDdYcFdtbDIyZGxuaHRybDJwUko4ZWdzcGs3NFZ1R0xzQ2ZLcU9ER0hVeVMzTzlnbnJPVDJvc1F3d0NKRDZ0UVBhLWtUa2IwctIB2AFBVV95cUxPaWRVc0hFYnpTb1pSZlNGc1E4ZWNGd2dKYzFXeEYwWEtGdDIwNExWNk5NWW0xcDAxYjJNSU1LbGR4RVg5SEM1WTAwTmFfTTQ0dnhaMTBVV0hKYWR2Y0dNbXMxeEQycFhTYnBiSDZCT2FmS3RmZ3MzWlBvZ2RUd1VQVTdVaFRCUkpvbWpZUTZpS2Z0VEo2Z0x4YmtneXY3RG50MGJYZWFMd1Ewd0R5Q3piVVhvenZFdjZTQW5oRF92bjgzS1NIaWgzSmlCdWRJNy1aRTc1YkdmOUw",
@@ -447,21 +446,16 @@
         "CBMivgFBVV95cUxNdnRwVW56R0d6djR5TlRHQjV1VFVEMENDZnBobG5xRmVtZ3dkdEpnZFVza2hKNG05blBhTWstYjE4VUFIN3hzdnpaR3plcG1xT1p0T1ozV1l2TTY2VlRpelAtT29ES2FzQ29SVFEweS1OMllheF9NaW5tcDRsSTdxZFNsM1A4U1ViajJCZjBCM0dIVjFUeUZrc3ZpSGQtYzJPMEFPXzMxYzdLei1iSkF5XzRMS3A5ajVvaXNRWXpR",
         "CBMiZEFVX3lxTFAtQ2dSanQzUlpGbVQ1czlKVEEtVTFqbzZac25lSUZveU50aHpfTzFsTDJqbU9uSXBEaVg5VE1RdGhZZDBLY191a3JlbVBkbW5jTXl4QjZKUWFuV0l0elFfWk9MZl8",
         "CBMi6gFBVV95cUxQYXZRYnkwdmVFMloydzl3TWwzVjl1Q0VaNEFiRHhGbnpHZFcxT2hjcDZjbGdhX2VtUnNmTk1nRXIycVl4YWQwMzEtVHBvaXdNMDQtNTVneGhWUDlPdmVzcUU2WmZ3eXpEUS01eTV1RzIzSHoxTkJxSHRjVk5ZREt1NC1OS0h3Zk9iY1k4UldxNnI2T0hwUUVNcWFBMXhqQkdXbGlRVm5lcEZyd3VvZzJLdUhETks2cWUxY05XamsxNTVqUlJYVjlGTzdXdmdiWVlsYmpXemRUYVpJVHotcW9DLUJLR0xpUVhfZWfSAe8BQVVfeXFMTTJpdjhramlnRGxWaWd0OFROTXhlaXZWMHl2MmNFX2RUMkVlWk5jcVhYMXRnZzZ6TmFkSnhUU0E3RmxybE1mV2NCdVNnNjRad0VBV0FCb3JjZWJ6dnN5MjJVelZ0TjlNWFU0UjZrTi1CSy1abmlhb2FVeFcwVjM5dWtzVW50RGxnZmhjazlvVUR6ODdBOG1OOEtZaUFTdzVMRENnVUJxU2ZmX09JZklJNVJudUFQYUZJLWZna0Z2NUNhclpHTzI3b3h1WEtvRXJWNDVfNzBoa3E2X1pfaFFCempROFhMSmJ5Qi1XaW0zVlk",
-        "CBMipAFBVV95cUxPU1d1QmtIT2xhcFFYRkZVZnhZNkVJVWl1S1FPNHZ2TkdHTEtJNWdkcngwdEhQdWhjZ21pNTUtSzBsejREZEJfT2h4ZnBXRVBkZ3AxRXQzY1FKbWJXVVJuYXJKcnllQmM0TzZUWnRsNVFfelQ4WVlmNDBlVThwcHFiSXd2a0NtU0lYWGhnMlQ0X3ZlRU5sOHFVWXFtU1VYWDNHbXZUMw"
+        "CBMipAFBVV95cUxPU1d1QmtIT2xhcFFYRkZVZnhZNkVJVWl1S1FPNHZ2TkdHTEtJNWdkcngwdEhQdWhjZ21pNTUtSzBsejREZEJfT2h4ZnBXRVBkZ3AxRXQzY1FKbWJXVVJuYXJKcnllQmM0TzZUWnRsNVFfelQ4WVlmNDBlVThwcHFiSXd2a0NtU0lYWGhnMlQ0X3ZlRU5sOHFVWXFtU1VYWDNHbXZUMw",
+        "CBMivAFBVV95cUxPckVYVnFFVThmQktlUll4T3VUMFdGalNFNU5GeVB6NjRaWFppVDlCTlZKeEc5U3FqaE1zakt6azVQemNYQTJsbWZrZ29YZjctV01kcGhfWm9Uem1yUE1jNUROV3VObmd3dmt6MmtJWWlvMGhPdlFQenZ0TGtzNEZOU2xIQkR1VFpsTThQajBqTEFCMWRTS2tlSmNadXhXRGxKNjNtSi1fc0pweTg3eUlscjd3aV9xRlhqNzVzSA"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-21T04:44:32.640Z",
-      "last_epoch": 1795176721000,
-      "etag": "\"0900cd94b23a279a0d55f7ccfd3516644-gzip\"",
-      "last_modified": "Sat, 21 Nov 2026 04:24:04 GMT",
+      "last_fetched": "2026-11-21T15:48:32.228Z",
+      "last_epoch": 1795263161000,
+      "etag": "\"09d93861dcc033b15f545dbd54ee743c1-gzip\"",
+      "last_modified": "Sat, 21 Nov 2026 15:33:08 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/shivtek-spechemi-industries-to-expand-manufacturing-capabilities-through-new-land-acquisition/articleshow/134454279.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/miniratna-psu-hll-lifecare-marks-15-year-milepost-with-big-new-plan-for-nationwide-push/articleshow/134465896.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/insure/pb-fintech-forced-to-rethink-business-plan-as-india-insurance-commissions-cap-comes-as-a-major-shocker/articleshow/134465028.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/kalpataru-projects-international-limited-projects-bags-new-orders-worth-over-rs-2000-crore/articleshow/134465019.cms",
-        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/german-automation-firm-deprag-to-invest-rs-8-10-crore-assemble-systems-in-india/articleshow/134464427.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/jagsonpal-pharma-to-acquire-group-pharmas-wellness-portfolio/articleshow/134463519.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/pharma-sector-revenue-to-grow-11-13-pc-in-fy27-on-strong-exports-domestic-demand-crisil/articleshow/134460174.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-proposals-on-insurance-commission-leads-to-bloodbath-for-insurer-stocks-pb-fintech-max-life-sbi-life-what-happens-to-your-money/articleshow/134457957.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/hll-lifecare-to-expand-pharmacy-network-to-600-outlets-add-4500-jobs/articleshow/134459214.cms",
@@ -755,18 +749,24 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/cil-led-consortium-receives-loi-from-govt-to-set-up-rare-earth-permanent-manufacturing-facility/articleshow/135995063.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/nike-to-become-formula-ones-official-apparel-and-uniform-partner/articleshow/136009500.cms",
         "https://economictimes.indiatimes.com/industry/renewables/indias-solar-cell-capacity-surge-may-squeeze-margins-favour-integrated-manufacturers-report/articleshow/136011171.cms",
-        "https://economictimes.indiatimes.com/industry/energy/oil-gas/reliance-indian-oil-other-indian-refiners-race-to-secure-oil-tankers-as-freight-costs-rise/articleshow/136026329.cms"
+        "https://economictimes.indiatimes.com/industry/energy/oil-gas/reliance-indian-oil-other-indian-refiners-race-to-secure-oil-tankers-as-freight-costs-rise/articleshow/136026329.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/ashok-leyland-to-set-up-truck-plant-in-west-bengals-singur-says-union-minister-sukanta-majumdar/articleshow/136053797.cms",
+        "https://economictimes.indiatimes.com/industry/services/travel/bloom-raises-75m-in-latest-funding-round-from-kedaara/articleshow/136051450.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/usfda-issues-7-observations-to-natco-pharmas-hyderabad-facility/articleshow/136049608.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/indias-position-in-global-manufacturing-heirarchy-evolving-rapidly-rockwell-automation-md/articleshow/136050708.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/us-drug-regulator-classifies-aurobindo-pharma-arms-andhra-facility-as-voluntary-action-indicated/articleshow/136048904.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/ofbusiness-to-invest-rs-200-crore-in-andhra-pradesh-to-scale-up-apparel-manufacturing/articleshow/136045129.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-21T04:44:32.790Z",
+      "last_fetched": "2026-11-21T15:48:32.271Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-20T12:23:15.857Z",
+      "last_fetched": "2026-11-21T15:48:32.373Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
