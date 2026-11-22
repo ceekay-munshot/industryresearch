@@ -62,8 +62,8 @@
           "as_of": "2026-01-01"
         },
         "news": {
-          "sources": 1,
-          "confidence": 0.6,
+          "sources": 2,
+          "confidence": 0.84,
           "as_of": "2026-11-22"
         }
       }
@@ -1422,6 +1422,27 @@
     ],
     "news": [
       {
+        "title": "UK covenant allows temporary power for strategic data centers - ET Datacenters",
+        "publisher": "ET Datacenters",
+        "date": "Sun, 22 Nov 2026 02:04:08 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX0VfZ0lVZFFnZzN0WS1xQkFxaTNiYjZFVDNMOTdzMXpxbldNSG1JZC1ZN2pJclo0MmdDMU1mREoxLXBGcEg1OFlPZ1h2SF90eklEazgwRlYwRmQ5WHFqaGlWS29kY19oSTZLQ0t6dXliLVU5a09ZVU1Wd2NqTjgzN0h3Z0R0M1FvQ21fTzBpOVFrNWNKWTR1VHE4V0NoTkxIM3U4Xzhud3BqQzVnNGZlOHBsTnlQTklGZXF2SnZEZFBWNzNLNVNuX0tRa0V5Z0JQZVR5WmFVd2xFR0nSAd8BQVVfeXFMT3B6UV9kWjRSRFhLR3NUelhKcU5CMzRsdDc5NXIwNDZxTzhWeC1kSTRqNFA5bDdrckRHcHpzV1pMel9MejdhTHhGWDNtcWpKNk9yRTIxS2xIMnQxckNoNGVDVEJ0bFphYVYzNEdJUTQ0VmducXV5c195MlBWdW5Wdld4VGJLNmR4c1Y2VHQwajZPeEtIZ1cwenhoUmNadFNERU5kMzVNY3BnTXZWcV95R1hiRFA4WG40Xy0tbkVjeHNVSEhkVXFqVEZDbzRlMVcybnQ1QnFfajNRTXJUVTlpNA?oc=5",
+        "snippet": "UK covenant allows temporary power for strategic data centers &nbsp;&nbsp; ET Datacenters"
+      },
+      {
+        "title": "Adani Group forays into West Bengal’s power sector, Trinamool calls for transparency - The Hindu",
+        "publisher": "The Hindu",
+        "date": "Sun, 22 Nov 2026 08:58:14 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUWJycU1aR1FvV3JtSjMzTVoxb3A0MjhYbTRUTjNYcUJkVGVQYUlMRlFiNmtwYXNjNVh6TW5xMGs3OXh5cUZGUGZSbW5jWVJ5emJzVGJfRUpnNjdBbHJKbzRvemQ1ek5vTUZMaWMzdnZ3WG5zdDM2UlduaHZlUjVmc0hkTnVWUWpZNDhuZmZkTDNvQkEwZ1B3aEpNSEtOcXRlcnZnS3k1dEw4STZ0QWMtamU4Wl83X3BKUGFJS3pVRk83UHNZMjdoRE9JSzhXNTFJWEZsYmN1eXlaMUoybS1xaFFoSkJiSWhP0gHvAUFVX3lxTE02Sk5PczBaejFsUFNoTVRmLWFFVkstRmtRcm1UbHpHNjU1blFhOG9EVDh0cEVPM2E2Sl8xUXFQaEhWUmY3S0VYZHZHQ1NKd211YTJPeVVGX1J5REx4SFN0UDc2cHJvRUJIaklzTk5jNUNsUmptb25McGZpOXRhUlphYTNFTTMyS2FvWFJ1ZjI4bUpPYjQ2bGFOQVpEck16bTVvYlJhT0tnQm5iaHFORzgtdFlpNFBWYUhRZHZha3pGUUNhN3Q1Sl9vbHZsSlpWT1FHOEtrNHJ6b1hleUpvQkRuYUk1NXhHbU1sR3Z3SWxz?oc=5",
+        "snippet": "Adani Group forays into West Bengal’s power sector, Trinamool calls for transparency &nbsp;&nbsp; The Hindu"
+      },
+      {
+        "title": "ORN Ventures gears up for global travel business push with Rs 10,000 cr investment",
+        "publisher": "economictimes.indiatimes.com",
+        "date": "Sun, 22 Nov 2026 12:41:05 +0530",
+        "url": "https://economictimes.indiatimes.com/industry/services/travel/orn-ventures-gears-up-for-global-travel-business-push-with-rs-10000-cr-investment/articleshow/136069305.cms",
+        "snippet": "ORN Ventures intends to invest over Rs 10,000 crore globally to enhance travel infrastructure and operations. The company aims to deepen its presence in international markets while scaling its direct operator-to-consumer platform. Investments will focus on building physical infrastructure and transp"
+      },
+      {
         "title": "Penny stock under ₹10 with strong fundamentals, high book value; do you own this Reliance Group share? Target, SL - Livemint",
         "publisher": "Livemint",
         "date": "Sun, 22 Nov 2026 03:50:25 GMT",
@@ -1609,27 +1630,6 @@
         "date": "Fri, 20 Nov 2026 18:22:54 GMT",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY0lBOFpCc3ZDVDVFN1gyaXVvLTYzaWcyZmZuMWp5VDNUdEY2Sm9RNG5nRy1BcjM4OFhJVTNNQ1RnaEYwTmhQS2tzX0k1dXBLTWhnVjBjMXk1djI2ZS1GaUJUcWlKOVFTYlFvVWc3NGVwYjd3N1NlTGZRZUFJcC05MkszQUJFdTMzdzVqS0VtcTgwaWNPZWVIaGRUa3FQdkZHSDljVFlZQWtXSTktazNaaXRR?oc=5",
         "snippet": "Trump Threatens to Tax Firms Building Data Centers Abroad &nbsp;&nbsp; Bloomberg.com"
-      },
-      {
-        "title": "TRUMP’S AI ULTIMATUM: What He Told US Tech Giants About Building Data Centers Abroad - The Times of India",
-        "publisher": "The Times of India",
-        "date": "Fri, 20 Nov 2026 22:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMlhDSzh1Q2V4M3RhYzA2X0NMclpZd1pFZFVvaE0xLWwtd3VlcjVmM29GWnZMUVBEdHlvWF9iQmY5RkFDQXU1WWh6NUJ3ZTlnY2pUVFNfTEZxaEg4dmRJU3IzV2V6M3hQdUtjQjdGWXFEb1ZQY2lZMGZNODMzYXhjVGpkMmdhY2hmckh0UGVsUVZEYlZKNU45em4yYUg1MW5kRXRYVmcxQ1VrSGdCeHlpaGFCNV9HNGdhLU50akx1T0xVSDIzV3pONmNRNW9qbXFCdnY5SlE2THA0c283V25XQmhlcF9fX0VfLU9zaDA0YzItMWd0R2fSAfsBQVVfeXFMUEpSWXR6d0Z0dVJVTkc0eFlZSWRhVXZZRXJxVkZseDJFdy1IZ0tPQ00tOERNVXlPbjFja3VoMnF5LThRQ2E5NUxuLTJxTVFSN0RyR2w0Y3ZjaHlNWnBTYnZUdWs4SXdxQUtsRjIyUUtEcGlsNVNtTnhhRXZvZTd0T19tbXFsU1FvMm5POUl5Zy1jQkpQUVprN050bUw1REVkbUJ5X1JnODVEZ2Nsc1ZBYmNyMkZtZUZfVkZkZ3NWQ054X0ZGaGpzT0tSQWlHTXlONnl0cXNreDI1UGxITXVQMmhKdDl1am5wdDcxbEg1S3pMSEhxM2MzVVJwTXM?oc=5",
-        "snippet": "TRUMP’S AI ULTIMATUM: What He Told US Tech Giants About Building Data Centers Abroad &nbsp;&nbsp; The Times of India"
-      },
-      {
-        "title": "Netweb Technologies India falls 2.98% in Friday's session - Global Banking & Finance Review",
-        "publisher": "Global Banking & Finance Review",
-        "date": "Fri, 20 Nov 2026 14:34:03 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUXJfYTF0YXNMdVlPUUs4ci1uS1RHeTl5b1RXMFJNMUNDeUFQanV3QTN0VC1odzJfOVlIalJRUXFieEhYb2Y5bTRqcm5vQURWX0FIbWtmQmJqR3dUVXBVeXk4M0ZfVVN4XzZOX3lMMlV1SFZlRW83UkhuVlJDWVlQMEw2RG9SdmpCMUFmbmJVaHNraUx2Mk1xUg?oc=5",
-        "snippet": "Netweb Technologies India falls 2.98% in Friday's session &nbsp;&nbsp; Global Banking & Finance Review"
-      },
-      {
-        "title": "Air India, AI Express extend Jeddah flight suspension till Nov 24; Riyadh, Dammam until Nov 30 - Mathrubhumi English",
-        "publisher": "Mathrubhumi English",
-        "date": "Fri, 20 Nov 2026 13:11:45 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMDUwaGdlRVE5ZWVJR29nNVpobHBpLThIdEFUUDlRdDVhNU9iNXBFdlMxSHpuaDVwQ2NDS1FGNTN4LUlLSjJuQlM0eThINXJhdFdHVkhxdVBsakhUZmdKb2cxMkJpejR6ZTIwYk9vRXU1MU9TNWc2XzFIcTlmemdnQzc4WjNsTGRLZ25RRWNQX25Lem5xYWI5VU1JWVd6RW9Yb3VUblA3Y243NzBQRjZrRE9hWTdIUXNubnZnek1xWC1KODJKZVhuZkY0a1EydUExVTY0R08xVHPSAd4BQVVfeXFMT3pRVVB4ODlDZFNtQWhSaTYtbnRIR0ZMRWRmUFJfbGxpT3lNMjcyekNoUFVmQ3JFcmVmbFdYRHowLUlpWWswdHEyZThZNE5JYUZYcXhiUFF2T19yUWRsdTd5WWpZVXhXZUd2SFoyeXR0WXFRNzRrVVRCTWlhQmFaVklIOW4ydWJjeTlDSllpYkZkTFpHSk1LUTBpLUNzLTh1enQ0eUROM1AwWUh0eVlJRW5nM1VMcGtGalBOQk93a09FTkFXcE9FaEFmV0swSk1QeklIckZveFRjOVkwVkt3?oc=5",
-        "snippet": "Air India, AI Express extend Jeddah flight suspension till Nov 24; Riyadh, Dammam until Nov 30 &nbsp;&nbsp; Mathrubhumi English"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-22T04:02:00.906Z",
+      "last_fetched": "2026-11-22T12:15:00.654Z",
       "last_epoch": 1795266357000,
       "etag": null,
       "last_modified": null,
@@ -271,19 +271,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-22T04:02:35.384Z",
+      "last_fetched": "2026-11-22T12:15:11.937Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-22T04:02:36.481Z",
-      "last_epoch": 1795248900000,
+      "last_fetched": "2026-11-22T12:15:12.920Z",
+      "last_epoch": 1795327674000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizwFBVV95cUxPcnhWVjZDd2xRT2dXRS1mRjhrNjZnbFBpaGZmcHN5Q0R0NFY1b01tVWRULW15Z2h1THktTXFYZmJzZnJnZURxOWRuUjlKZlpOaWZocW84U1VaeVNtNjVFYk03TENtV1BkWllzdnpiWS1nejVPOTJXRVpMOVhucko3dXBqdmR3cmxVVjVhMENHazZLWm5RYy1aZWs2NVdXUXNIc0ZmNV91SjYwaUtUOFVyMlc2QWsxX3p1TmJlVUtzYUJpRWpnM0V4ZUVOXzMtdXPSAdQBQVVfeXFMTVVkMjJ2SV9wR1lrV3ZwM0VfZUlhOVBIMUVOWnRncXZPbEdnWDZOdF9HQnJNajVJX2pDWGRwRlFoVjZ4RnlyUGR2Rk56Rk0yUHJhZ3ExeHV3ZFpoQm5WT1VIN2NTdkF5X3g4MjRUdmVWTXhSMmlpZkFWWnFqVW1sVmhHa1RVMW9GZjQ2c1JOUi1ZWjhmcFh0MFc4U2YyYTEtZ3lZVG9PRjNrYmFCODAybURXMkxjOHBWWVFYMFkwWEFXOXB4SGdNaU4wLWtoVjJYSjlydkU",
         "CBMizgFBVV95cUxPMlgxNTdzcTVhUDFDMEtTSE5Qd2xRM0RRVHBISzhpWlpNU19ZREdEY3M3ZDFFZVNsUGpRQi14bHdUeEZ5OUtRZTZQbFNJU2M5Q29xdFpORGNscFNYX01nZkVKYzhDVE82N2NZYkswYS1TSHpMRy05NmNxT2RHUWIxR25mck5TYS1mYTRkNTBSUzhzZEZYLV84dVYya3dSWk90bWNYY3JGdmgzdV9IZ3dnT1lSTm96QVpLLUFYdG5ndzFGUENER2dVNmxIQ0prZ9IBzgFBVV95cUxPMlgxNTdzcTVhUDFDMEtTSE5Qd2xRM0RRVHBISzhpWlpNU19ZREdEY3M3ZDFFZVNsUGpRQi14bHdUeEZ5OUtRZTZQbFNJU2M5Q29xdFpORGNscFNYX01nZkVKYzhDVE82N2NZYkswYS1TSHpMRy05NmNxT2RHUWIxR25mck5TYS1mYTRkNTBSUzhzZEZYLV84dVYya3dSWk90bWNYY3JGdmgzdV9IZ3dnT1lSTm96QVpLLUFYdG5ndzFGUENER2dVNmxIQ0prZw",
         "CBMikwFBVV95cUxNLWhvX3NtckQ1QlQtYVVCdTlMTDZWa25WeEhOLUtpSVkxUEd1OC1UQjdfV0NqektXN1hwbC03TnhiYWlBQjBlQ1dEUTZDSVJEcXV6RlhiZE1ZeG1ILThhZF9uMlUtMlBKdGM5OVM2QkJXMzZ3Q3pQWnVUV1oyQ0pfTU5GNUFsTWIzZVdaYXR1TllNdDg",
         "CBMiwAFBVV95cUxNaGRDZ0JMa2VIektfSEVvcW5PNTR5XzRFQ1VLZGhvQ0o3ZjU3VkQzUS1jTC0xM2o0TXdlZkl3X185ZUNtWjZGdzNGbFo1ejl2OEFnVldqMUJwU0taTDQ4YlNqUmNkT2JYLWF4MTM3Y1Rka0d6U3hhVmJXbGx4VlA5X1lzbkpCNDR6SkJTOTVCZzc1dmZlMGFFcXVfakg2d29yckNvQkdjdWhtWDhnTkZuOXM3djFHTFRfemJjWjYxblM",
@@ -582,14 +581,15 @@
         "CBMiigFBVV95cUxPZ3g4M2RCMm9PZ0VRWlpBbnlxNzBqRG04Y0RFR2NRbnVsdnRnazBaTFNUTHBtWEkyN3hRWklfZWpuWkRBMFBJdVBkelpyczZCcFY2UWQzcThiUEhmRUd6TzlQeVM5Und0ZjlmQjZCS183OGJSbFFmdmpCemgyb2t1UTZXN29uVHpoRHc",
         "CBMisgFBVV95cUxOVk5zazBSYnhac0tCN0RiY1JadjJHTllJaHJSaTR5MjV5ZmNzeHVveFBhMnBjUXdXRWNNdF80NTdxSUNWSTVuVHprTHg3eFREcVdjdnFrN09tOURyeDViazBXX0FpZXVBUEQ2SktjVkVta1U0ZzRqTUc4RTlaSm8xU2tVYkpGQzdteUpCNlo4MzRlWjNvZmptTXB3S2JrZ1JuY1lKOUFGeDR2N20tcGhCT0Rn",
         "CBMidEFVX3lxTFBzZ01mMXhoaG9SeWp3QVYxa0JYcVhKVjlLQmNYMFhMUFNWQ2tMY1J1MkNqbDJXUVF3Xy1VRkxxTVBIcGNZVkV6WjRjeEIwYnliN29CUnJtS2Mwcktka1YzSy0wOTh6ME5lUjc5ckdIbmloRjZB",
-        "CBMisAFBVV95cUxNUG9YY1pWWkJIc3k0WFBKTm1LdDg2TjNDc1R6REdmRl9PUTd1ZkhkV0VzSFdPcmQyTlZiT3ZkUGFtcVRwVTJqSDNRY3RhSXNsZ1h2MC1TbkNDbkFZRnMwcTFCN3Z5cjdxX2hNWlhsWDZBekJJVUtfeVlHN1c4Sl9kemdoNFBQXzVmeTJQamNXbHNEdHFuSXB0QjFYRmZvcmdrQ2F0MlloaU9Id3lsYmQwZg"
+        "CBMisAFBVV95cUxNUG9YY1pWWkJIc3k0WFBKTm1LdDg2TjNDc1R6REdmRl9PUTd1ZkhkV0VzSFdPcmQyTlZiT3ZkUGFtcVRwVTJqSDNRY3RhSXNsZ1h2MC1TbkNDbkFZRnMwcTFCN3Z5cjdxX2hNWlhsWDZBekJJVUtfeVlHN1c4Sl9kemdoNFBQXzVmeTJQamNXbHNEdHFuSXB0QjFYRmZvcmdrQ2F0MlloaU9Id3lsYmQwZg",
+        "CBMiqgFBVV95cUxNR183bDgyTUd6dTNXMlp0Q3FEZzhXVE01M21RREFHbU80bWNndVl6RVRhZnh0c0xVd3VhRkNoNnZmekhoZGEtY1NCT2VZYld0eS1KYmFrV1ZsZWhxM0tBS1FwYUZKUkJpaTJpa3l4SUVCTFctYjNfenBwRzQ0NVlnR1pZYVp2UnR2RXpWU3piVE1yODIxLUdGVldNMVBYYWVNc1N0eEl3bjNLQQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-22T04:02:36.509Z",
+      "last_fetched": "2026-11-22T12:15:12.964Z",
       "last_epoch": 1795271056000,
-      "etag": "\"0c8cce28259fcd22cb79413affbad795f-gzip\"",
-      "last_modified": "Sun, 22 Nov 2026 03:53:56 GMT",
+      "etag": "\"055777bf09ca8fb03d67282403f31fb45-gzip\"",
+      "last_modified": "Sun, 22 Nov 2026 11:48:12 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/audi-india-mulling-local-production-of-electric-car-aims-to-double-market-share-in-3-5-years/articleshow/134869142.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/andhra-factory-makes-3-million-tea-bags-daily-for-global-giants-walmart-aldi-and-carrefour/articleshow/134859981.cms",
@@ -701,7 +701,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-22T04:02:36.577Z",
+      "last_fetched": "2026-11-22T12:15:13.025Z",
       "last_epoch": 1713863838000,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

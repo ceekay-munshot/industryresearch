@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-22T04:02:36.725Z",
+      "last_fetched": "2026-11-22T12:15:13.165Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-22T04:03:17.610Z",
+      "last_fetched": "2026-11-22T12:15:50.209Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-22T04:03:18.880Z",
-      "last_epoch": 1795305600000,
+      "last_fetched": "2026-11-22T12:15:51.589Z",
+      "last_epoch": 1795307909000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMirgFBVV95cUxNZFcyYXlMVHYzWFhuZU5vSFZkOVhjSC1nRVdUR1pJc2k3dzZ1b19qdE5TUjU4Y2F0eHdleEY1UndLMHd4UDViSm1Fb2R5R29VcnFqbmxqUHplT2VFMUJrUnEtV082ZUp5MUJ3c1d2VEJ4b3dIM09JOE5nRXkyU2dWWERWNmFsTnNSSHhQWjN5Z3h6eHNpdTNYRVFOYm13QkFWSlMzNEc4aEh2ZmpYakE",
         "CBMitgFBVV95cUxPZkNlWEY5OW82WVhXcU9lT0RnazZwY3NpNE1LeHJ3Z2gxYkRFNnh5WnM4ZFY3S1UwUVRHSUdOV3NGb3lQTWt6T2dzRU03Vk1najB0c2hyOUVoeEJSQ3JFWUhfVHc4LXJ1ZGxEcnk0Mk1CdmdOTWpBQzlXVy1ma0laSFVRZUtkWFF4YlV2bDFPN2xvYzhvZkVtYlk2cGw2b2Y4RS1pekg3SEMwNk5tR3QwTFVwU2RCZw",
         "CBMi8AFBVV95cUxQUTVtbjktMjhoelBzd2VNYmJTUFh6QXZrMWtuMURhSl84NWNGVlBrOVFQVGFpUE9GQnJqQlFDRGNjUmpzQ1V4dFgxTGVjb0dqbUdlaEo4WGtYaFFzZEVldnkxOENzMTAzcWVIdS1PQUJyT2d6S2hxRGwzT293ZERnYS1NVGtHUFBpMFY5alZTbjZZUEptT0cybEZucW5OZFZDbEJTODd3WmQyWEZGb3NKejJacUp4Ym1lRVI2VFJjQXBpQ29TU0JOT09VX3VBRmNneDRIbjg2emNHS21UbzNxd1RibnNSSUtLQUFTeTBUaVjSAfYBQVVfeXFMT2VKRlA3NVhhV0tqVW5Fby11Tkc0TnJZN2NnazNHMkhYQ3M4RWRFckhrUWl2TUJtQ0tkY0xNbFJjUlVNUVUwVktLUUFXdkNTOFpULVY0YnQweFA2bDh5aEFCdmVORzZvc0dldHRIOTRsZEQxbEpjSk1fZUk1d1NlTE4zTDFRTTRCSGF4WG0zYWs0U09ydU9obzZOWUNRd0hwbnc1NnZMODRob3dERHpDN0VvVVRETEJybmJKbUJ3OGN2MmV5eXhyeXcxa29VQ3hsRGlPZ2lwX1hHUzZVcFBhUmdIWXNaTTVzdkhqS0xWaDVBS2dZZmt3",
         "CBMimwFBVV95cUxNbGpjWmdlSnZjUl9DTU9Lb21Wd2NrMjV2VmhSdDVZcmFLT2FjVXpTZDBYNGdyOG14ZGRmSXJNLXIzUFZRTlA0Q2pJcGZUN0FJXzgwOTRsTDRfNHBLdV9XS2xYUFVtUU9oai1EcjVYRzFqMnpTd3lHMDhULXltelJPTEUzN1ZROV9pemJobVhXa0d4d1E3dGQwRTFNSQ",
@@ -319,14 +318,15 @@
         "CBMicEFVX3lxTE5nU1IyaDVuOXVBS1dpVTZkVkRNajJmTEtoUEI2a3FGUDZEckFmS01MZGItZVZYRFduSHZXRE45RTMyaEJGRnFHYVF1aUliMGlaRF8tZEx3VEdSRkdvVmdmc25uTUZJb3VJenhzVnhuSkE",
         "CBMickFVX3lxTE9wSDgzM1VwZkFyMkVfZFQwZE1lRW1LT1kzT19LdXV1TUVUN2ZFUHhYZUlDQUhZYnZwYklVNy1JZ3lDM2RwSXhSUzVzb21TOUF3ZVg1clhGVmR2NngxZmRWYUFPWXFCQ3hYNG05VGM5UVpyUQ",
         "CBMihwJBVV95cUxQV0RHOFd6cnQ2UUkwRmtta1RiM1FPVDRDX2tsOGQwdmtBS2ZpYUV5SkpmRXV2UDFKR1dSbDZrV1J4bUhhd0F5cGkwZU9ocGdQVHdxUE5ZZHBTMXRGWTZWVkpoeDhZSjU3Q0RUZ09Lc011QmozaGVMb2sza1VFNHEyVU9VUnRUUGdvdDZfWnVDaE5qVzI2M1daNlBPWk15bTBDdVZDTGdTaE5haHBPc2tQdmE3VkNoMC1ZYWUzN1h3Tk5aajFTd0J1aGlmWU1vc3ZfM3pRaUc3X05vZmFwbTdSNFRCVHlZazRpQzVvOUVUSGhON0dhZDN4Wm5feG02cGQtRUc4aXYwY9IBhwJBVV95cUxQV0RHOFd6cnQ2UUkwRmtta1RiM1FPVDRDX2tsOGQwdmtBS2ZpYUV5SkpmRXV2UDFKR1dSbDZrV1J4bUhhd0F5cGkwZU9ocGdQVHdxUE5ZZHBTMXRGWTZWVkpoeDhZSjU3Q0RUZ09Lc011QmozaGVMb2sza1VFNHEyVU9VUnRUUGdvdDZfWnVDaE5qVzI2M1daNlBPWk15bTBDdVZDTGdTaE5haHBPc2tQdmE3VkNoMC1ZYWUzN1h3Tk5aajFTd0J1aGlmWU1vc3ZfM3pRaUc3X05vZmFwbTdSNFRCVHlZazRpQzVvOUVUSGhON0dhZDN4Wm5feG02cGQtRUc4aXYwYw",
-        "CBMikwJBVV95cUxNVjZWcW9TUVVNNlVJQ2ZSdXdrX3ZDT01McksyZlRWd3JGcWt4OGVIVjFBVkRjN28xVjFGTm02RGRndlQ3d052bFZINXJKWUdtRnd0c2xtMTFfYXVPYm9pZ2RwbVM4bDdOc0R1SnNyY0t6Z1UtMVlOQ0p1Tm5KTHFScGxsdk51Ylg4eWtTR3p6OHlNd0NGSkhPMXA0RU1TRXVGWkxjOUlpQzE4dldaejgzaHJzTVA2SnhkOXlOaUFRZGdlckFYaU5CLTZTUmdlUWZveVdCUXlzZzJKZENBdkE2Z2dnc3pDeGkwZkZ2ajJTU0xfSkZUUTFCcWFlRXo0QnlTVEs0WW43aWdTd2dONEswalc2QdIBmAJBVV95cUxPRUpfMVpDMjJXRkZRLW9HYkJuYkd2OWZRTndEZnk0YkZHSlJneGhESENyWXVoM3VGY2gtVFUxOV9vT0FqbGZqTDduTU5qU2wyaDFFXzJTeEpoT2ZmbHhNM0JsSE9RQ2YtRmlQMEVUVHpNdHIyRjgzdHJaMWpDUlRfc0JLeGxDWkExcTJzMDQ3M2g5VHZjdHhhT0dRdmJpZnVlbk1tQ2dHdm1VRzR3dkJyZlZUT2VpZE1NTDc1SlZWWUZWS3hGYzlxR2g1MERZcTNFTVlocEtqZ1hqVm1vQVhadjRqMFFMWklfUXZKYnAwTDdsc0RlRWxGTW1BOXQtVXFZMDU3NkVjX1RVclppN09rME1jQ01NZHZR"
+        "CBMikwJBVV95cUxNVjZWcW9TUVVNNlVJQ2ZSdXdrX3ZDT01McksyZlRWd3JGcWt4OGVIVjFBVkRjN28xVjFGTm02RGRndlQ3d052bFZINXJKWUdtRnd0c2xtMTFfYXVPYm9pZ2RwbVM4bDdOc0R1SnNyY0t6Z1UtMVlOQ0p1Tm5KTHFScGxsdk51Ylg4eWtTR3p6OHlNd0NGSkhPMXA0RU1TRXVGWkxjOUlpQzE4dldaejgzaHJzTVA2SnhkOXlOaUFRZGdlckFYaU5CLTZTUmdlUWZveVdCUXlzZzJKZENBdkE2Z2dnc3pDeGkwZkZ2ajJTU0xfSkZUUTFCcWFlRXo0QnlTVEs0WW43aWdTd2dONEswalc2QdIBmAJBVV95cUxPRUpfMVpDMjJXRkZRLW9HYkJuYkd2OWZRTndEZnk0YkZHSlJneGhESENyWXVoM3VGY2gtVFUxOV9vT0FqbGZqTDduTU5qU2wyaDFFXzJTeEpoT2ZmbHhNM0JsSE9RQ2YtRmlQMEVUVHpNdHIyRjgzdHJaMWpDUlRfc0JLeGxDWkExcTJzMDQ3M2g5VHZjdHhhT0dRdmJpZnVlbk1tQ2dHdm1VRzR3dkJyZlZUT2VpZE1NTDc1SlZWWUZWS3hGYzlxR2g1MERZcTNFTVlocEtqZ1hqVm1vQVhadjRqMFFMWklfUXZKYnAwTDdsc0RlRWxGTW1BOXQtVXFZMDU3NkVjX1RVclppN09rME1jQ01NZHZR",
+        "CBMirwFBVV95cUxQc1hVYWc5eWY2enJnRlZHaGR4ckpJa2MydE1rSWtMcDh0SFpDVTFNdzlxWWd4OVV2cktDLVNiZ29VTzd6RlZ1czdNVUJvNFEyNGY0Nkl4LVczUVZrREdNNnBOT0JtbzVlbjBnUHkyTFpBOEhobWd1eVpGc0x6OHdZNEE2N1JtRGxPdXhvQlpBR1V0ZU4zZU05RE1wTHUwT2drYWQ4emdFNDduWV9pT0tF"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-22T04:03:18.914Z",
-      "last_epoch": 1794560942000,
-      "etag": "\"0c8cce28259fcd22cb79413affbad795f-gzip\"",
-      "last_modified": "Sun, 22 Nov 2026 03:53:56 GMT",
+      "last_fetched": "2026-11-22T12:15:51.697Z",
+      "last_epoch": 1795324658000,
+      "etag": "\"055777bf09ca8fb03d67282403f31fb45-gzip\"",
+      "last_modified": "Sun, 22 Nov 2026 11:48:12 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/renewables/china-proposes-export-controls-on-solar-manufacturing-technologies/articleshow/135024898.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/3500-jobs-for-chhattisgarh-bhoomipoojan-of-yash-fans-plant-in-nava-raipur-in-the-presence-of-cm-vishnu-deo-sai/articleshow/135012156.cms",
@@ -339,11 +339,12 @@
         "https://economictimes.indiatimes.com/industry/renewables/renewable-energy-key-to-indias-energy-security-german-envoy-jasper-wieck-says/articleshow/135532322.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/ashwini-vaishnaw-launches-semicon-2-0-portal-says-50-of-units-approved-under-ecms-are-smes-msmes/articleshow/135601091.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/electronics/fires-protests-pollution-how-apples-supply-chain-woes-in-india-have-evolved-over-the-years-tata-foxconn/articleshow/135701067.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-orders-audit-of-electronic-waste-recyclers-to-catch-fake-compliance/articleshow/135796753.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-orders-audit-of-electronic-waste-recyclers-to-catch-fake-compliance/articleshow/135796753.cms",
+        "https://economictimes.indiatimes.com/industry/renewables/ev-brand-e-went-eyes-mass-market-to-test-sodium-ion-batteries-from-december/articleshow/136067784.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-22T04:03:18.990Z",
+      "last_fetched": "2026-11-22T12:15:51.792Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
