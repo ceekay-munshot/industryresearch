@@ -1,8 +1,8 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-22T12:06:47.887Z",
-      "last_epoch": 1795295464000,
+      "last_fetched": "2026-11-22T21:23:43.211Z",
+      "last_epoch": 1795357813000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -168,18 +168,20 @@
         "CBMi0AFBVV95cUxNTDBUbG9zYVJjVElhT1VERlcyNkx3VkRtZGY4WlkxZU1WeEI0MGtQVlNsUndnUklMWHNVVHJVU29mWFU5Y0VyNTdiNHdmSThOdE9VQWdlOVdoamdCM0NQZGRxNnpqaVFQM3ROc1l0Z3lkZF80UGxBS2VHb3I5SlJKUldMN2IzUG44aU43QXV0LTEwSlFHWF9mLVRpU2RoVzZ5QTdVbmdxNmYxM05kdVNYRVVGcll6dmxWYnU4Qkt0bDV1SnhKaWpmZ1hQNE1HeTJU",
         "CBMi3AFBVV95cUxPY3dSZUJrM19jTEM2MVM1QmI5ZWJzQmUyYV9lcEtjcWh2cTA1Qm5LRk9YMUd0OUNqaDJWU2dydU1GbjZWbHBqYmx0R0tFS0pJYlZmM1p3SXhPSGcwVFlKSW1NRTZWQXQwOVhSc2NIdnFhLUYxSHU1aVFoVHlTUHd4NGM4VXVFVDAxTzRQdW9lenozQWxfaDMxalVOczhCRjlLTTJNaHdCS2l2cDBfSkZORHkxQlBsOU5uMmFfSFlFeWxULWktekM4MFh3T3U4aS04ZXFnQklOQTRhX3dU",
         "CBMiowJBVV95cUxPeEtsSHh6M1BfQUpoa1MtWGdFb1ZxOXZubDdueEFBeFVCdmZiUnZscUFxM1FfZ3VEMGJiX3lqZVJqak1rT0NhRC1IUjZ1c3ZRWi0tYjhkYXlhczEyOU1vVGVTQkRLREdZYjFEVGlxN3JRRzhoRXZJYWtEVkFRWGx6OXBXV0JYRGlzY0tGM3B3cDhPdE15UFlTQUJNazFqYUxoX0dFYkREZWFBZWpHZHBXc09XUVFoMVNTTHFhMXR6ZFo3aHI1WkpZSzJ4UGd1WGttUlN0QzdzSXBrYUw4U0dmSnU2bTJ5UFBNQmFJaU1uTUJ4dUdQQ0ctWmtqZ25ldS0tUDVheEZkMHJSWTRaRDUwaUFieDJCQmlqclFadUtaLWNQNTjSAaMCQVVfeXFMT3hLbEh4ejNQX0FKaGtTLVhnRW9WcTl2bmw3bnhBQXhVQnZmYlJ2bHFBcTNRX2d1RDBiYl95amVSampNa09DYUQtSFI2dXN2UVotLWI4ZGF5YXMxMjlNb1RlU0JES0RHWWIxRFRpcTdyUUc4aEV2SWFrRFZBUVhsejlwV1dCWERpc2NLRjNwd3A4T3RNeVBZU0FCTWsxamFMaF9HRWJERGVhQWVqR2RwV3NPV1FRaDFTU0xxYTF0emRaN2hyNVpKWUsyeFBndVhrbVJTdEM3c0lwa2FMOFNHZkp1Nm0yeVBQTUJhSWlNbk1CeHVHUENHLVpramduZXUtLVA1YXhGZDByUlk0WkQ1MGlBYngyQkJpanJRWnVLWi1jUDU4",
-        "CBMisgFBVV95cUxOcE5yQ2FqY3ladUNvRy1sMGdPZHI4dHNDWkY2dTN5SkM5S0ZTdXdpa242aE1jVmNBZmFUeEFhYkpnS2dyV2JUeFk2WW5vNWlyRmNXNnhSWk5iMU1pdDNJN1BBZkZzdU5ydnlZN09BVVdCYURmVV9Zb3hYODVNNmUtUXRSS293aGVPdkUxZEtUMUxuenRSbGtjTGFVaFFjd1VUdjd2X3Y5VmJFU1AzenZVR0hR"
+        "CBMisgFBVV95cUxOcE5yQ2FqY3ladUNvRy1sMGdPZHI4dHNDWkY2dTN5SkM5S0ZTdXdpa242aE1jVmNBZmFUeEFhYkpnS2dyV2JUeFk2WW5vNWlyRmNXNnhSWk5iMU1pdDNJN1BBZkZzdU5ydnlZN09BVVdCYURmVV9Zb3hYODVNNmUtUXRSS293aGVPdkUxZEtUMUxuenRSbGtjTGFVaFFjd1VUdjd2X3Y5VmJFU1AzenZVR0hR",
+        "CBMizAFBVV95cUxON0lxQ3puRlFwQXJscDhqYnZXTE9Fajd0QXpleS1uajMtZ1ZhMUlJZF9sWVA2YVNXT3FpSUMwT1NrQmV1VnZScTR6SDloRDRrV3F2MGxsekVyb1RFY0hEckx3dG41Y2t6Rmt3WkNlcnFIWHpiMjViWnNHVDZTQjFTeVlaTzh0a1VoRmlzYVoyRlRaWmhKNUVEcDdVV3M5NXhLYUN5SkxKUDBmMlhIWWNwLVhKNTFfb0ZycDVBZWRzWVpLQXpHdkVjRnhoMUI",
+        "CBMikAFBVV95cUxOOTl3M21uc0xPeWtyQlN2UHVZdERUQzRHa3VZc2U1SEJtSm43RXJkMEk0LXBfblpNMmRZWnhMZy16SXBJQUJONGZWTmJocE5TUFBtVHBiUDJ3Yk1vRklaTDV3MW5nM2d2RUNacHlUOUdDb1U4OENHZGQ3U0dQZWI2VEZZRF9yWmJucGtUbHlPekQ"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-22T12:07:27.130Z",
+      "last_fetched": "2026-11-22T21:24:01.818Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-22T12:07:28.105Z",
+      "last_fetched": "2026-11-22T21:24:03.013Z",
       "last_epoch": 1795313626000,
       "etag": null,
       "last_modified": null,
@@ -487,10 +489,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-22T12:07:28.171Z",
+      "last_fetched": "2026-11-22T21:24:03.054Z",
       "last_epoch": 1795263161000,
-      "etag": "\"055777bf09ca8fb03d67282403f31fb45-gzip\"",
-      "last_modified": "Sun, 22 Nov 2026 11:48:12 GMT",
+      "etag": "\"07830578eaa0fbec6c0f00e78ff21d4de-gzip\"",
+      "last_modified": "Sun, 22 Nov 2026 21:05:56 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jindal-stainless-investing-rs-900-crore-to-increase-cold-rolling-capacity-to-2-67-mt-by-fy28-md/articleshow/133270494.cms",
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/maharashtra-govt-forms-panel-to-tackle-chakan-industrial-belts-infrastructure-crisis/articleshow/133285550.cms",
@@ -569,14 +571,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-22T12:07:28.745Z",
+      "last_fetched": "2026-11-22T21:24:03.178Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-21T15:45:23.801Z",
+      "last_fetched": "2026-11-22T21:24:03.817Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
