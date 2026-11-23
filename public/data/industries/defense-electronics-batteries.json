@@ -6,7 +6,7 @@
     "aliases": [],
     "mock": false,
     "generated_at": "2026-10-18",
-    "updated_at": "2026-11-22",
+    "updated_at": "2026-11-23",
     "coverage": {
       "sections": {
         "other": {
@@ -57,13 +57,41 @@
         "news": {
           "sources": 2,
           "confidence": 0.84,
-          "as_of": "2026-11-22"
+          "as_of": "2026-11-23"
         }
       }
     }
   },
   "sources": {
     "news": [
+      {
+        "title": "Bharat Electronics secures extra orders totaling ₹648 crore since Aug 26 - scanx.trade",
+        "publisher": "scanx.trade",
+        "date": "Sun, 22 Nov 2026 10:48:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaktHblJhYk81MktZOUFodmRSVWg3SnByd2w4Q0FkcEc0Z2FZQ2xuT3g4NWJkTGtUZDZsLXlGMmFWVmFraS10alFJbFpLekd3VnZGMXFIMjA4SVlUR0M5ZndfaDBqMHpSd2VqTXBTWlVmYy13MkZRdlRrVWIzdG9WSnpLeG42LWVBUlhTOTg5VTFCUWxVUW41Q0VUVFU4Q1Z0YjBaNjNGRUtYWEgxcUVPdEN4dS1mQzRMTXhv?oc=5",
+        "snippet": "Bharat Electronics secures extra orders totaling ₹648 crore since Aug 26 &nbsp;&nbsp; scanx.trade"
+      },
+      {
+        "title": "Weekly Recap: INR 6.19 billion defence orders and UNICORN co-development - TradingView",
+        "publisher": "TradingView",
+        "date": "Mon, 23 Nov 2026 01:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZkROWlEzZGlsVXZCRUFDWHVueHFuVnBETS1ENTZIZ1pzSnFvNExFeXRoOEl0eWEwam5GYlJxUFo1NlZSUE5ZQURSeF9TdzhSZkdDN005Vm8yTWxtbGN3NklFV1M5LWxnbGF1dXNJV1Q5Q0FBTzhqZXE1OGFCUVp1MldXRm1QVnR1dDA2b0VqZ2xkRkZkZFhueTAyYWZyOUdTQVBmSDNEVEdNdUxrbWZCUzd2SkhSQ0hjZVpUaUh2NE1wanJsWExjcElBY05jQQ?oc=5",
+        "snippet": "Weekly Recap: INR 6.19 billion defence orders and UNICORN co-development &nbsp;&nbsp; TradingView"
+      },
+      {
+        "title": "Mazagon Dock releases investor deck with ₹1.82 lakh crore order book - scanx.trade",
+        "publisher": "scanx.trade",
+        "date": "Sun, 22 Nov 2026 11:36:46 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQmhla2ozRldwSGFodFNJdzNMcFBFUTFBN2h6cDF1VlhTVHBfSTdOX19NNDQ4dnJiY1UwWDRrTmhjWlVIMkVRTjM0NXUtbUhIOGM3dFhVWDBjUkNaN1pzTEljWkY0eXFiZGJ2aTNjQjZhMEFRZkxQbVhSaXA3TjVXVjlhQWF5VUswd0JMYy1naVdRWkQycUJrRXhpckFZQ3p6SXpvN2pidWxOb3h4SmdTSQ?oc=5",
+        "snippet": "Mazagon Dock releases investor deck with ₹1.82 lakh crore order book &nbsp;&nbsp; scanx.trade"
+      },
+      {
+        "title": "Beyond imported arms: Lessons from India’s defence revolution - The Nation Newspaper",
+        "publisher": "The Nation Newspaper",
+        "date": "Mon, 23 Nov 2026 04:12:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPampDZFlRRlpZbzFPbk94Y296TEFtVEhnWGxiaUQydFZ5X2I5YWhoODVyZ2dJVDVSWTlkNERjT0d1c3llY1lkQWVZZ0h0UHhGSFAxSnBWck9xc2ZnNEJESnpSMEkwb3JzQjN1SzhQenRJLUltOU9rcE1vYWhXYy0wQUhFc3FEdXlFenhOYU52S0ZaSUFQ0gGaAUFVX3lxTE9fRmQzNmtZdjY4LUs5emg1NlRSTGlKOUotOWNGT1NQV2RkOFE4RklXTjI0S090dkg0S2ZwVEIteEc3d2hkYUZYbV9aWWZOUFlyWnBxX1h6S0h3TUlVd21oZ2ZPVDRoTl9xUC1XYWlzUFlIa0FJem5fUzU4bjdWM0Y3TVFYWkM3QWRPTWlMLUg1QzFsRUhVVHdYT1E?oc=5",
+        "snippet": "Beyond imported arms: Lessons from India’s defence revolution &nbsp;&nbsp; The Nation Newspaper"
+      },
       {
         "title": "4 Shipbuilding Stocks with Strong Growth Plans in India - Univest",
         "publisher": "Univest",
@@ -245,34 +273,6 @@
         "date": "Thu, 19 Nov 2026 05:55:18 GMT",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaVRRYU1sN2hURFhPV05KcmlMaWFZU3lwYS1xQUQwb3Zham40SHpMSlQzUnh0TnZrM0hQeld2S0p5M3U3SzN2UmctS1ljTEw1Qm5fS0FTOGo0SHF0QldlbW9jdFE2ak85RkUwSmVzc05sU0ZJVW0ydVJJS01aX3NxZEtRd2kxSl9VNENCSHBrSWhaZjhJTEwyenB5anZ1MU1Jd21Qb1pNWjg4MkotSlg5Wnpnb0FKYVRIS3BWOUx1NXpDbE9UZGlvb245eTgtNTg4YWJmTGFFT0xhbEZtZXBrbTV1NVpFaDhUNnB30gHrAUFVX3lxTE5pVFFhTWw3aFREWE9XTkpyaUxpYVlTeXBhLXFBRDBvdmFqbjRIekxKVDNSeHROdmszSFB6V3ZLSnkzdTdLM3ZSZy1LWWNMTDVCbl9LQVM4ajRIcXRCV2Vtb2N0UTZqTzlGRTBKZXNzTmxTRklVbTJ1UklLTVpfc3FkS1F3aTFKX1U0Q0JIcGtJaFpmOElMTDJ6cHlqdnUxTUl3bVBvWk1aODgySi1KWDlaemdvQUphVEhLcFY5THU1ekNsT1RkaW9vbjl5OC01ODhhYmZMYUVPTGFsRm1lcGttNXU1WkVoOFQ2cHc?oc=5",
         "snippet": "BDL, BEL, other defence shares gain up to 3% as MoD seeks 20% rise in capex in Budget 2027 &nbsp;&nbsp; Moneycontrol.com"
-      },
-      {
-        "title": "Bharat Dynamics (NSE: BDL) in Focus as India, Philippines Discuss Defence Ties - Kalkine India",
-        "publisher": "Kalkine India",
-        "date": "Thu, 19 Nov 2026 07:07:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNN0w5OHItTUk1ZWU5NmxNUzNaSGRPY3VITWhHWG9kYm5iajJqaTd3UHotT3NkNUVTOFZTWEk0Z2VzWGNRbnlCVXhrQmlxQ3kycUhhN3l1YWZIekNYQVJtZjMwb2hVN09pSzU1aVR6bHM1cHh2alpNM3BIbHdmOU51VHFqUi0xbkRuQ3NReWVMb3RSWExWYTN6RGl0SFAyaWJUek4tQjRSUjNKaDVadmtlcFZ0WkJudFhicjJ3bFlEUkZDWk5uY3FRQ2xkejVOYk83UG5SYWFPVHNfRmh2VDZCNUJTZUJGYlpV?oc=5",
-        "snippet": "Bharat Dynamics (NSE: BDL) in Focus as India, Philippines Discuss Defence Ties &nbsp;&nbsp; Kalkine India"
-      },
-      {
-        "title": "Elara sees 20-22% defence capex growth, picks Solar Industries, Data Patterns and Zen Technologies - CNBC TV18",
-        "publisher": "CNBC TV18",
-        "date": "Thu, 19 Nov 2026 06:39:06 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQNU91QXY5NF9wbG05WHA0UnZCWWFWaHZlTUxndFptbVN2ck54cElneFZqYUpxWldRS2NVbUoxS1o3ZUpsMldRUmtJVVh3U2FlRl9VdGxyenZlNlMyNG91cW5fTUNOcTRBSXlLaS0zRjh1MUppWDZIdE5EX2hMLWx4OVZrX2ZkYm9rOTJtcFVwZGYtX19HblBIVG5hSWlVVHQ0ekJtOEYzSG1CUFBIcE5FR0d3bGNVc0NWcWFvdUNkdFBud0szdG14WXJ5aVBXbEZvTHBtTVkzeXZkVDVIRXg4Wm1Neko5QU5nMHlrTnJ5cmxlbG1Mc2lSLXFGT1VIb1hRX3BGRk1iUC1vMHp5cVA1aWMtaVFPMUZuRkI5bzVZRUtKMF9Kdl82MENIel8wSnJSN2tUQnpybkJic2pZUzFpb1BjTHZDa2RUd1BaYWdpRkPSAdACQVVfeXFMUDVPdUF2OTRfcGxtOVhwNFJ2QllhVmh2ZU1MZ3RabW1TdnJOeHBJZ3hWamFKcVpXUUtjVW1KMUtaN2VKbDJXUVJrSVVYd1NhZUZfVXRscnp2ZTZTMjRvdXFuX01DTnE0QUl5S2ktM0Y4dTFKaVg2SHRORF9oTC1seDlWa19mZGJvazkybXBVcGRmLV9fR25QSFRuYUlpVVR0NHpCbThGM0htQlBQSHBORUdHd2xjVXNDVnFhb3VDZHRQbndLM3RteFlyeWlQV2xGb0xwbU1ZM3l2ZFQ1SEV4OFptTXpKOUFOZzB5a05yeXJsZWxtTHNpUi1xRk9VSG9YUV9wRkZNYlAtbzB6eXFQNWljLWlRTzFGbkZCOW81WUVLSjBfSnZfNjBDSHpfMEpyUjdrVEJ6cm5CYnNqWVMxaW9QY0x2Q2tkVHdQWmFnaUZD?oc=5",
-        "snippet": "Elara sees 20-22% defence capex growth, picks Solar Industries, Data Patterns and Zen Technologies &nbsp;&nbsp; CNBC TV18"
-      },
-      {
-        "title": "India-Philippines Defence Cooperation: Why Bharat Dynamics Is In Focus - Indian Masterminds",
-        "publisher": "Indian Masterminds",
-        "date": "Thu, 19 Nov 2026 09:58:57 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdnkwTFpMQWo1QmhROElNRjhCWERuWTlrMjRxLWFOR2x6YnJta3JDR0ZXRVhKeGEzTGNnLUE1UDY4MzFyTV9WajV1QTJOUWRGcHczLW5QdUZkRmtoUWQ2UlRMc0MyeDh1bTh0VDVhNm53TkRnQkMxMFhrTkpNVDBhektrU3RzWWhZcjliOFhJeElwUnJnX2k1cS0tRXY4Tk5BeXhEMFc2WQ?oc=5",
-        "snippet": "India-Philippines Defence Cooperation: Why Bharat Dynamics Is In Focus &nbsp;&nbsp; Indian Masterminds"
-      },
-      {
-        "title": "What Are Spark Plug, Contract Drug and Navy Ship Stocks? - Univest",
-        "publisher": "Univest",
-        "date": "Thu, 19 Nov 2026 10:38:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaFlOWU9EZWdXTVNPdVNhTnJISHdjUWEyMDhsTmp5THdpUlEwSFFKcmNtcDc4MWM5MFAxd0R5OTQxMExZQzdMTlBGanhjdS05RjEtNFZSSVh2eG45VEtHaXFPdktrMFZMMGEtTjhJY19jUTU3R2JXYUJxSER0UnVleWVzU09rNUZSODNPUlUtelZ5M3Z6T1haYVo3Wlk0YlVfU2lXNk82Sk55VDFIa0V3aDdDZy1NT2hqSG9JNmI0VmlYVGFablI0TktPLWdVQQ?oc=5",
-        "snippet": "What Are Spark Plug, Contract Drug and Navy Ship Stocks? &nbsp;&nbsp; Univest"
       }
     ],
     "reports": [
