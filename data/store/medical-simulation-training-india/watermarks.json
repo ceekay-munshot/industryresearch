@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-23T04:35:43.137Z",
+      "last_fetched": "2026-11-23T19:39:05.307Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-23T04:36:20.885Z",
+      "last_fetched": "2026-11-23T19:39:44.307Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-23T04:36:21.842Z",
-      "last_epoch": 1795299645000,
+      "last_fetched": "2026-11-23T19:39:45.557Z",
+      "last_epoch": 1795431574000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMic0FVX3lxTFA2QmhTRjktdzJMZ2FjdUl0TFhadDNpTy1GTk42VmNVSVBaQkhOaUNTdnRIc0tLekJVblRkQjVSZkJxNGt6X2kzUE4zbGtfVHRFY01mM2dnSGpCR2lYaUZMY3dicTVPd0dYNXE1MTJ3V1BSR2M",
         "CBMi7wFBVV95cUxQeXJzWTYtbi1qSnk5cTV4NUx1TE5tQ21jaDBlWDJwWXVSWERZc2NIZ1VvTndRMW5JVlEtUFRRVDJOdVV2elk3RGpjTDBWdnJQQkI3MWltS3hxNGJiZXRSQ3VlUjdsN0xoM2VWcGNUblFCb21nSGdCbUdIV1ZPUkZLcGdoOWw2Uld3V3pUa0trOUo5QURCS1hYVFJ0OVBXSm4wV0J1aVlWTmUzU1FiY0lDNDBmYTFVSy1jMUF3aWxHZ1dDbEU3bktETE1rVU12ald1Sk52Z2JmaWpNWUlxU1NLTXlyLW9KenI5TUJ4UDZNdw",
         "CBMi5AFBVV95cUxPaGlidjV6ak93YnhKcXVCRXFzSVpubWx2Rk9EM2p5QUR6TUJaWHFmYlphOVVkZmV2S3FkZjlSa2N2VUg1SEk0ckNoSmE2YjlUSzRRcXBrcXpwZWM4VFRXdEZsTHpHel9ZNnpoQWszdGZ6bThQd2V6TVp3LU9Ca1BPZmM5WHBpU1lJaVNEMWNMZHc5NmJHZ2N6VUZXNjB4bklZdVJ0ejJCcmd1Ymh5Mkl6VVFLcjhyY3JIUUdJbXFKcnA4UVhuZUkydFBKVTNLalFTSDFwWWl0V1BRakd5eEdxSVo0WjI",
         "CBMisAFBVV95cUxQaVpDVU5oNGVjQlFkSnhYV0JYMElPR0xhXy01Q212czk5cnNmd0t3cnU1NEhURFZxS1FlY3JkZ2NYNHBEUnF2bkxEaExiYV94ZzhsQTV1VUI0R19WT1ExMUg2ZWtUS1J0R2E4d1Nsd2Q4MGNKekhpcXNMZlhZTV9ZUUxZU1FXY0Q3d2xINHh4TU8xVHFodGVaZmlESklLQ0dMRnZFZHBKYUhWU3BLX1dwaw",
@@ -319,14 +318,15 @@
         "CBMiqAFBVV95cUxONUt1eG1GZkxuTnBKWjd5ME5ORWM0dFotZUdGbmpFbTlGZ1pzR1ppdDZvMEt6ZnFvNjN4Y0JiMW9MU3FRVkFmdUJNTnVwS18tRXhCRkdqZ0xWWVg0eTZnZG5mUDNkSVhnTFlDX0E1MVJHS3NPSk80VEJhUXJsSzRlR2pOcjFDa1FObW9OWDd6T0c0MUd2aFVvR3dqNUN5aXNablp1dWx1Nmk",
         "CBMiuwFBVV95cUxQbEdBclZlbG5PQVIyeHROWFEwNm9UNzUtbkVtYXdBLUFGMm5aUGNtQ2lCaE1Ia2M4bmo0OGpObUpMVlBSSEVaM09pdi1kNk9VaTRjRklOV2tTc1lkQ01vOGwycE1oc1lONE9oTzBaSjl4aE1pb2VqUWpiSnlKZDduYUFzZnNTWUptN2JXNTJNU1lscUY3ZklNaUVTWTRpQUM1d2p4UGpOaWt3VkFwUUpGN2M3eGUzZUprMWFn",
         "CBMizgFBVV95cUxPaEFlaG5MTGdDWk1obDVhOS1FbW1KcnZGOU9JUF92LTItWDRjZTdyaUYyOVd1X3lOb0RpMURwSGQ1QUhDbGxDNnZtTWVIamtVXzJESTZPYlBFczVrOHY1YVdrRVl4S3gzaE1jSGMyMUZsMzRjcWZtckRrTFhrUi1GajVaa1VXY1VuSkZVNXh3QWxLcXJXeTV3Tk5ZMUx3ekxER0V4Y0NhNUtOb1JLb0hpYnRfLTQ3bE5XVG5adk1aTHJxUEpCUDN5QzRuOGlOUQ",
-        "CBMiqwFBVV95cUxNcGxwblV6SHlFejJDQTBKcGFvZUtGVF9OSkZmZWsxakhHaW0xVG1ibVd2OGxkRWJRd3d2ejVJUC05RGI4elA0M3V6UzI0WUl6ZGRHQy1obVAybXppeUpjVUtmWEpsdDk5bUs4MkxlVFczYjgwSkl0UXZ0OVZDY0Vhc0dqTzQzTFpDMFNDbWJHc0dwX0wzN1Bubm1oaUFFNC04V3F0Ti1vVGpoVFk"
+        "CBMiqwFBVV95cUxNcGxwblV6SHlFejJDQTBKcGFvZUtGVF9OSkZmZWsxakhHaW0xVG1ibVd2OGxkRWJRd3d2ejVJUC05RGI4elA0M3V6UzI0WUl6ZGRHQy1obVAybXppeUpjVUtmWEpsdDk5bUs4MkxlVFczYjgwSkl0UXZ0OVZDY0Vhc0dqTzQzTFpDMFNDbWJHc0dwX0wzN1Bubm1oaUFFNC04V3F0Ti1vVGpoVFk",
+        "CBMixwFBVV95cUxOalFXUG5aMUFELVZSZXp2QTNFTk9sS3RNX1BBWm41WjJlMnFBaTFCaWJzbmlNTjNCb0ZCcFQ5SEoxUnhZcloxemZCTUxYWldLUWY1cFFQa3NKcjNfZTBZamlTSE1uVkhxeVItNVNFUEZPWjIwSmR3SkpmdWN2MEVKVVFQX2Z1N3BfTkJvQ0duQ3A1andBVURiOFB6cUZLa3NJNnBzcEhxeUUzczdoWV9WYmhiaDhkSG05ejEzTjQ1TTVZcHBhbzlJ0gHMAUFVX3lxTE5RV21WU3ItQUJFcVVpTVNCY2U3OEN4QmRpYXNjY25yZzlUem11QUVqZnlpSl9zaEJ3VGZZNm1tOGZ2RFdweWJTSUtoNi1Ldmo1a3FGSnlET2s3WGFOUk1SZkgyMFFmNk1nSEo1X1lVTTFIVGhVaU5wSVNnMnU5S1V4WUlERnFtSDJqSElDWG11ZjFSRURjVFlVQzg0TWdjZnhXNTJxS1N0c2x1aFBpcXpwemZrUC1qYUNUSnpzVzNSMUxtdzctS2hMZDVOOQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-23T04:36:21.879Z",
-      "last_epoch": 1795325781000,
-      "etag": "\"083e276717d721de52688a462df2bb96f-gzip\"",
-      "last_modified": "Mon, 23 Nov 2026 04:22:30 GMT",
+      "last_fetched": "2026-11-23T19:39:45.657Z",
+      "last_epoch": 1795431498000,
+      "etag": "\"0cb10e6cf4790b736af75db368f6e039d-gzip\"",
+      "last_modified": "Mon, 23 Nov 2026 19:23:54 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -504,11 +504,12 @@
         "https://economictimes.indiatimes.com/industry/csr/anant-ambanis-vantara-airlifts-critically-ill-seven-week-old-elephant-calf-raja-from-assam-to-gujarat/articleshow/136027580.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/retired-boeing-737-200-moved-from-kolkata-to-bengaluru-for-aircraft-recovery-training/articleshow/136056648.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/indias-position-in-global-manufacturing-heirarchy-evolving-rapidly-rockwell-automation-md/articleshow/136050708.cms",
-        "https://economictimes.indiatimes.com/industry/services/travel/airbnb-looks-beyond-traditional-holiday-hubs-to-deepen-india-presence-bets-on-homestays/articleshow/136068062.cms"
+        "https://economictimes.indiatimes.com/industry/services/travel/airbnb-looks-beyond-traditional-holiday-hubs-to-deepen-india-presence-bets-on-homestays/articleshow/136068062.cms",
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/max-healthcare-cmc-dubai-ink-pact-to-strengthen-access-to-specialist-care-in-uae/articleshow/136099127.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-23T04:36:22.190Z",
+      "last_fetched": "2026-11-23T19:39:45.770Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
