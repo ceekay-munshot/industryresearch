@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-23T19:44:30.744Z",
+      "last_fetched": "2026-11-24T04:38:29.105Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-23T19:45:07.065Z",
+      "last_fetched": "2026-11-24T04:38:40.666Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-23T19:45:07.340Z",
-      "last_epoch": 1795454246000,
+      "last_fetched": "2026-11-24T04:38:40.894Z",
+      "last_epoch": 1795480864000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMid0FVX3lxTFBRT3hzTHdfdkIxeEpqM3ZMbFFfYW1TYUwwcVdwYTFrc1pBdXNKd2FSMWZFNnQxbDBadVUwWkVrNmVLbnpYcDlYR1lKeHMzWXhISDN4TFJLVmJ6RGxyZXg3dXFMZFdGRERGNmljZVh0MTAxLXdqUEVr",
         "CBMiswFBVV95cUxPTU1TeUVCejhTTkpiZE56Nkc1MVA2MjY1WHh3OS1kUnBraWxCNGFnM3Q3MUlQdTZOWkdtTkp3TzFYSjRlQWhwR3RMYWN3dS1EWGxlRUJXWTNCX1FTRzV3b1Fld3haaHJ1YmZ2Sk5xa19ZMGtRZWh2cmQxTlVyLTRGbnFxVmVVZVEzam14WVQ3bHVWN1BDeENwVXU3SmU5ZHQ4X19UcHN1Nnp6QjJyV19NZF8zRQ",
         "CBMixwFBVV95cUxPeWRobThvZU9sOXl1RG1EdEdHY1E2R3BaSU85ZUw5X3g1d2ZRZTlTUVRHSHlNT1FlVnlPVzBTXzZMZDYtOHRwQVJQY3NzZkIzMUQ3bDYwcHVWc0ROTzc2djdqSW9ZNG1LaFljTUplUGR2a3ZidWtCdkwzQ0p3eGlWN0x1VjBfY05CWkV4ZDFKUWtaaHBvWThmNHJwSHd5MTB4QXd6RmRYOVB5eklZS3dCcHI1VTlQb241TURQaTQ5NENuSWVaVVlz0gHLAUFVX3lxTFB4ZllWS0tzT2xobGxodzJQMmhid1NHZ0RUUTNEb0lRUmpQcDhsU1B6UEJDbmx1OUN1YXNoRUhRbVlQSjdjenFuYnFRSklKRXVwcl9sZGZCNmhQRkp4YWY4M042VlhEVXduLWdVN1NtaDNBcGpDRGpiOHVSOGVPSzJEaTZiTVQydTlycm54RlI1SUFRTHNqX3dfckloOURIT1NzZUI3d2Q2R1BmNzFhSlhYb0RnSGJ5Y0VKU2FhUGNyTkY1VWktUUxkWGhV",
         "CBMijwFBVV95cUxOQjIxbkQxVWVlNkwwOVRCSGdrOUM5X3FPejVaTFhFR21Cd0NOMFZ2SFR6aWVCeXc0ZW4zejVKYkhUc0RlLUd6NXU3MUxRZ2c5ZTJxQ1YxWGFONEJiZlY1MlVUN2NoNV9HMFg2bElLYXNuWFdXY0hZUm41Q2V5X1F4bGh4MGlRZ0MwSklYYVNnYw",
@@ -319,14 +318,15 @@
         "CBMid0FVX3lxTFBQUHJsemVDY2NjclFJN001Mnl1bndfS000eXU1NFNBOU1CMG96NDB2TzBpd0xhUUdTR0Nfc1YzRTNxVXFSNkdFQl9nX25udm5yZE5GWUFScHJkM1Y5TE4wSVQxUzFKLWhtcW1QRFZIRTJRWUo0bF84",
         "CBMivAFBVV95cUxNY3EwOUYwNVEtYmp2dnh3WkpzVEFzd2tXdWhCU19sTlN5REhZMlZjazMyNGZJQk9DeXlJeFc3a1ZVazJvYVo1RXJUY2tHTWFXVU1XUmZXNFBuNktuMlJ3V2I0T2RfdDY1VmppaTRHZy1ZMTE0RjhtQTM1VWFrR3BkdVpuNW1jNTY3MWxOaDBocFRLMVBiS01fZjZlSGh6eE5vZGFQZmppZnN5bU1TQjA5bG8zWHVFaUJJY3ppRA",
         "CBMimwFBVV95cUxPSENjdlNLUjFKUkhoa1k4dUcxX3FCN2NsSlJHcnFfUDFZR1Nlc0h0OGJtWFJNdE5nZS1PZmJ4NUxJQXdGUzdCWjhTQmFUQlBhdlhhM01lWGJRbjF6UlJnWDk5VHlZNHM4WEUxVWNjXzVpWHhjS3RseU5fcHVxbVAyS2J4WlE1NVdqcGRIbU5HMWZyM1VoSGdudElMbw",
-        "CBMingFBVV95cUxQSVFfQ25GWDdLYUpjSG0wQjBmX0RwWVNkQ2QtaGJZTjVJZHdmbGJqWXB6aU1rVmltUDQ0UVVsZTFXVTZnRC0xeTNJTXh1LWRES0dCeG9MaTRVWjc2S2xZSWw1VWxpdnNVVUwwb244VkpTdEo1X3E2N2pNQ0dmZTVGVG96RGVhQkdvNlJRUFdSTGxtOG92UTBtd3B4RnpEUQ"
+        "CBMingFBVV95cUxQSVFfQ25GWDdLYUpjSG0wQjBmX0RwWVNkQ2QtaGJZTjVJZHdmbGJqWXB6aU1rVmltUDQ0UVVsZTFXVTZnRC0xeTNJTXh1LWRES0dCeG9MaTRVWjc2S2xZSWw1VWxpdnNVVUwwb244VkpTdEo1X3E2N2pNQ0dmZTVGVG96RGVhQkdvNlJRUFdSTGxtOG92UTBtd3B4RnpEUQ",
+        "CBMixgFBVV95cUxNOXdmNW9Fd3dNVFRzcUR5V2VUdHhIU1VNeWNENjFGeHBlc002WjAtZHNQbEpkOXZOR1MxLW9ZLVdWZlJqTkowRnRTZXJRSzVkRDRoM25OSlpQQTJzRExnM3g3YzhQOE05SlZseHlkRnlXWm5WdU1STmNRZGd4UDZMMENIVVNnbGlfRDNkZnhVY1VYSmVjU0dhZmFidXJUaktraUFZbGhYSElvSG5zWklMQkk1VGotVHZvLWNtN2h1eXBXdjBRUXc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-23T19:45:07.491Z",
+      "last_fetched": "2026-11-24T04:38:40.947Z",
       "last_epoch": 1795439410000,
-      "etag": "\"05133b559f6c76d0630ed6f6472909510-gzip\"",
-      "last_modified": "Mon, 23 Nov 2026 19:42:56 GMT",
+      "etag": "\"047637b0269a525c3f96a87896f740fe5-gzip\"",
+      "last_modified": "Tue, 24 Nov 2026 04:22:49 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -468,14 +468,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-23T19:45:07.556Z",
+      "last_fetched": "2026-11-24T04:38:40.970Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-22T21:29:51.445Z",
+      "last_fetched": "2026-11-24T04:38:40.986Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

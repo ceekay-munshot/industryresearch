@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-23T19:41:00.941Z",
+      "last_fetched": "2026-11-24T04:34:25.812Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-23T19:41:36.422Z",
+      "last_fetched": "2026-11-24T04:35:01.101Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-23T19:41:37.988Z",
-      "last_epoch": 1795458600000,
+      "last_fetched": "2026-11-24T04:35:02.571Z",
+      "last_epoch": 1795492808000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMigAFBVV95cUxOajRaTWVRWklfaEdwSFFoME1ZSGNXTVU0UUh6bEROTlYtMnM1cUhBQlV2TVVCdWJhWHhwM29mQjhJWTkxVVdkTGRLODBLR0R6US1DZ0Zxc3VNMk9UOEhteWhoVVZ3NnNUMExVYWplekZnOUZTYTVoX2RaSW9lbzVwWQ",
-        "CBMiwwFBVV95cUxOZU8wMFZkdFhBcnRmQVJ0WFh3bHIyTUJxeDJ1LVBpam9tTHBqSnpITXdjUVJiZnRMVFd3RlU4X3RVOFhoTEdZTERfd25uUXd2SVl6RUlMeGRDS0xCMHRwaVJyTWNIeklSRkdUeXh4TldWYm14YUVxaDFvRVVEU21PcEVoWlBmQnIxOXVPcDZlTU51dmRTcFVsWG1lRW5tWWtGdmhINXVoS1lvSEh6ZG84aXJsUVc3eFlLVVBHSGN3RVBJdTA",
         "CBMizwFBVV95cUxQQ3EyNHBfbFlCWi02LUh2dTNTaDFoaDRzb0s2Wkc2LUlQdFFHNnlFRzVSZDY2cFFMbnlhakd3MzVZQlhOOUZBdG5Pb0l1cWtmdnZHVWNESU5aSjJhS0tHVFpYQkh5OG9TaTV6MGNHTXBPVG16SXdoNGlkYlJyS2N5SndpT3pRclY5anVrNnM0RkJXWnI3dnBGQW9EOXFpSERvTTN5YkZycVZWVnR6Z1Rtb0NUY3NaTmJxRlBXdFdtWEd5Qnh0Wk4zNmwzUUNMN3PSAdYBQVVfeXFMUG96WXFSZmVTeXNEUk4yLUJyTzdVNF8zMU5zaHVGQjZtSUlXbDZxUGl0UEpsQmxMTmZrdjRTN0RDVG1JSGtpMFBuUzRraXlfVzZBb3Q4YVFFSEljLWxINVQ5Nl94N2pMY2xXem1TWUEtRENrSGJNY19JOXljTEpYRUpBYWdRNEhKNm5EX1cwWHFQOWx0NEg5TzlxQWJkbXZPQUlDdDJVNlNkN0hiZGl6LVZqd1JGa0oyZUtHSXpWNjdJWXZ3V0ZQaFNEc1hSbUZnOE5QQkhVZw",
         "CBMiwAFBVV95cUxONWlKUmdtLTNWUFo5cVdYMjJYOHlWT053TF8yYmZTdTJFYi1KU3dzMmtYNE1rdFpjbm53dGdrTkdxYW5jV0JoVjRpd283V3psZ0ctU3BIVEwxQXEzbWpTVmFpUmlMa2s1TWhZcXJaWGtWWWJpdWJrNk1uR29KMDAybGRhRUo1Ym1IZHBiMTZhbjliVVd5dkxiZUxpWTJHdVk5Q1Y4QVROOVczcy0xMUUtd183Ty1Ia0hxNWNWLVYzZUU",
         "CBMirwFBVV95cUxQSTRCcVpPdXFwTFNCaHB0ZUwxTUkwMzNCTDNUQk1XTGdITjFWMkRMNDlzRFFBaWZsUmJnVmx1SDhVczBJTHAyYTVDaHI1NTI0OVQ5UEpPQTFaSWVMQkVYQ1BBTDl2RWhIcjJBSkw3SUlldmlwX3Z5Mk5fYUdpSmxfVlIwOS03cFJlMjI5SWJFR1JldU0wQ0NoQUJ1Z0oyYW5hZ1pLUU1ON21LUXBKRGRz",
@@ -319,14 +317,16 @@
         "CBMijwJBVV95cUxQb2JXdVNETW9SZDN6TlhRWF9iQ3laajN0UE5VckszUVg2YnJRYkNjVksxM0dvY2ZrbTRsbGNncjdPVjZ2bFBOQVRCdGxqWFpTXzFfeU5fUnRfUzJwMDhXSjBhcUhVNUZLSGd1eUdOdDdRaHpUQjZBX3F0YjUzcG9oREcwclV6eDNRY1pfZmliQnlBT0lnaFFodzFVeVozWDBzYVB0bXlfU3ZBcGg2OHR5S3BKTjI5WmZUWXIwVnlvdVRRWTU2bGU5UjF2cUVUeHgwR0tXZXhfYTQ3cnZKalVEZmtRZU5lZ2JLcHNlMFJYLVB3MWxaOWp2N0w2ekNtbFRyQ2lMb0FYR0JwNVppOGFv0gGIAkFVX3lxTFBJSDJyTzVtZVRpdnB5X1VNcUJ6bzkwM0NoZ2IwV1owMWFfNU8wSzY4WlNlRGIydUx2Mm1jQ1JLY0hhM2tZMW1POGtJZmMyeFRYbjdhZlp6V1BNWF8wLXRaeDh5REdkcGNPdEJ4RkN5T3dhdC03U1JyMm5vTTJZcjFVYzdmRVF3MFpRS0M3REdBcjRCeUo1S19tQUdOT2g0RUZyMTRBSmV0NnRNZWlXcWZLVmk3THExSWNDQUk5c2V0bGdZTjNGQjk0M05talYxaFFKOEVqX0I0czhrV19vQU9Qc1Awd28yWml0ZHktRHdXMFF0all2U3JMY1gzcnJUU2ZTcktCTjZfTA",
         "CBMitgFBVV95cUxNNlVsdndhNXJJOGFxUmNkQVIyZU4yQVN6RXZ4QjQtMVlfN202YkhRdjZqVWt1cGlwTmpFTlRib05tTnU3bnZ0Vk1aMEIwYVNVMVBhOThwQ2llMXpQME83cktGTVM2bllROUR4VHlDRUVPYjVQdk1tcjFZY0xYbGl1QVQ4bXNlSlZudUZuRzlHdjVJXzM3ZnhqUjJELVRJSWljZlptTnpZUzNLeVZhQU9PQ2FMeXhWQQ",
         "CBMisAFBVV95cUxQSEVtRnY4WDNaVzNVejhqQ0FzQnJIbU9nZUxUR0w2NXZRMWsyRDl3emRGV3NJQU41aTdTMWsweTUyUUZDUnR5NHdsbnYyYmFCSVpDWnNVdG9HZXByTVVOZ2RjdnNYX180Nlo5bkkxS1JCM1paUk9GeTZsbXhtRjdfSklCUHhmREVEUUJ6S2ZpZXVKSkN4VVlYRnFjaVhVWFlwNW96ZllYZGg4X0IxMDhVZtIBtgFBVV95cUxOZ0VBdU5IRU9DQk16MlM0UE84Z19uc3hvNkpmdGVlc2d3RlBkUFR6T2Z0VDFlNzU0cDVmbXFQQ2Nla2luQVVRelNyTEM1QmdtWGlSTWdWS2JBSmREalI5WnNFR2cweTZRVXJRQTZ1cUlENTgzbWw2cnoyMGk1UnhFZkJISXNqNzdhSG0tc3pFeTJfa1c1Nk5aODhsVUo3UFNfUko2emYzYjJ5RnM3LTZEMkFobENVZw",
-        "CBMivgFBVV95cUxQci1ma2NHQXZsWE1uLXdjTk9EVUZ3TUJZb0dENXEwQ2JvM3VqNFJ3aE9lNFItcnoxblR0Szdfd1lodFRmMDRZVzNndkNlUVIxbFVjU0Zza2d5RkxDSVUwYm5BS1V0ZFhhNUhXUUFXZlhOcmhuV0hhZDRwWjZCYW5HTWRjVkZhRElJVkNVOGVaRG9Ia3N1WnR2LUh0bnQ0LWJyOW1kTFpxUG03d0ZNcXVlY1VNTXhtM0hwTXNCRVZB"
+        "CBMivgFBVV95cUxQci1ma2NHQXZsWE1uLXdjTk9EVUZ3TUJZb0dENXEwQ2JvM3VqNFJ3aE9lNFItcnoxblR0Szdfd1lodFRmMDRZVzNndkNlUVIxbFVjU0Zza2d5RkxDSVUwYm5BS1V0ZFhhNUhXUUFXZlhOcmhuV0hhZDRwWjZCYW5HTWRjVkZhRElJVkNVOGVaRG9Ia3N1WnR2LUh0bnQ0LWJyOW1kTFpxUG03d0ZNcXVlY1VNTXhtM0hwTXNCRVZB",
+        "CBMioAFBVV95cUxQaVdIQlVsNnJWNWEwMDdhdDBOM040ejlqY2JmS3ZxN1lDLVpfMTFld0RTV1E2R3pqSmt3MlJxeUc3blJCZ2tQc01NRGdqYU9PZUxGRmRWZUZBMGxGaUxTVXo4anFmUmdOVk5kWW5UVEw1NzdmRHhqenJlN2NwWmtLbzhpdkd5VUJGMkh0YkFlOGozNHhPNlVfUEp0VVNhUVJh",
+        "CBMinAFBVV95cUxPaDViWHNSYjJ6WW5xRDU5OFhweDFhc2dHNUhqMGhRRV9tVEtQN2hxSlk0NlZLSlVoazViZnJZdnNBUGlKTDZrVUpJeEd5c2hJckxJWjJjc3ktQWdSWjRGd3U4VUJZbnRWWjE2M0FEb3UwV0lJeThWekJrRXR3ZnNFZGZOSC1FVThOUEtqUEJ0RTluZUpsQlNOWGtxRlU"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-23T19:41:38.062Z",
+      "last_fetched": "2026-11-24T04:35:02.601Z",
       "last_epoch": 1795440323000,
-      "etag": "\"0cb10e6cf4790b736af75db368f6e039d-gzip\"",
-      "last_modified": "Mon, 23 Nov 2026 19:23:54 GMT",
+      "etag": "\"0ca3d92ff8e6c27fbbb5e8dcc93c629f8-gzip\"",
+      "last_modified": "Tue, 24 Nov 2026 04:06:44 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/ai171-crash-pilots-body-fip-seeks-comprehensive-evaluation-of-b787-planes-electrical-system-evidence/articleshow/134357398.cms",
         "https://economictimes.indiatimes.com/industry/services/education/cambridge-backs-flexible-schooling-aligns-curriculum-with-nep-2020-vision-officials/articleshow/134364778.cms",
@@ -631,14 +631,14 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-23T19:41:38.432Z",
+      "last_fetched": "2026-11-24T04:35:02.652Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-22T21:27:08.575Z",
+      "last_fetched": "2026-11-24T04:35:03.273Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
