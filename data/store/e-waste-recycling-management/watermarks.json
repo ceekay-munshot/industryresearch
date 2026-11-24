@@ -1,22 +1,22 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-24T04:39:22.111Z",
+      "last_fetched": "2026-11-24T19:20:26.626Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-24T04:40:00.320Z",
+      "last_fetched": "2026-11-24T19:21:01.223Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-24T04:40:01.248Z",
-      "last_epoch": 1795422558000,
+      "last_fetched": "2026-11-24T19:21:02.352Z",
+      "last_epoch": 1795527037000,
       "etag": null,
       "last_modified": null,
       "seen": [
@@ -169,14 +169,16 @@
         "CBMisgFBVV95cUxNb0dmVEhueWtBRThOa1BMa08tNy0tZUJxdFIxdDdvRFZqbU9oUzByd20xeG1UOWk2MGNQR2M0ZkxsX25fUzVXSVYtc0pUWENfQV8yckc2djUzVnhUXzhBVDgweFd3NHdiT04zVHQ5UExhWEFVXy1jSDF3WlYteW52RldCbnJOMEMzNVE4Njh1SlRjLWR0R1FzeHJGQ0dRN1JqSENrZGdkaEdpUC1Zc244dG9n",
         "CBMiwAFBVV95cUxNRVZ5TEE0R181REZlX0JWeFJSb1VHRVFBSWhtRmsxOGxQOFFmZ0pyaV9pbjZHcHVrdmktUUotQ3Z0SGtqS3RZRW9hOEpoMGh3MDRqbTlCZ2hwd185RjVTY2tmTkpNR2t4cVpSSjlYSFo5UWtHLUtwUjJqTDBtb21mc0RqMXFBVTVnRExDT1FqbWlkQm1iQmE5YXNjWlN2YlVaenlIdHBaUmVEMHEtMTdYQ01GQ0w5bVBlbDJ4TDdkMnk",
         "CBMi0gFBVV95cUxOek9za1VkSG5mVnVQZGJ0R3hyZHdvYWNPQTd6NUwtRnNFekNaX1hsdDE2NXFZN3N5T1lsNmlXYUNEX1VyeUdHTFk5Zmo5UWI1Wk1aVGkybmFKd2UwUGlWTTdjeGJxMGhGbFFIQU02MEVONWMwdWhvai1FRFNDM2xKNTBhQ0RwZWF0M0RHMFBQb1lEeTFEa1JxeHFKV0RKQnFNcE8xQmhmSERmaEVOeGRNOG9uWi1xZzJIdVpJUkwxcERvOHpqMGc5N2JDTFBhSDlWd0HSAeIBQVVfeXFMTzlZZGlmZVViWmFnSmhqaW5kcTA1QlJPeE12TzE5RURpRWhZRU90SzAtTHNiMFZJYkNjZVl2eTkxWEZpMlJPX0dac2VjZ1dsODh2dmdBNWNJQzhCcUYyNE1kaVNqX09YSEJGN0ltdC1iUUxrZUc1WE1zWFMwZnZvV1pkcE9GalNNODktZnNWek1ZRWI5UWdQekx4Wi03YWRPYjkwYXJ3NUNWRlJlOXFyV3RSV3I2NWszTDhjTVFVS1NjZTRrczZsRWNWemNZVThzZEJ4VkdXVm5oYXJsdGVEcXhKUQ",
-        "CBMinAFBVV95cUxOZHhRNmxDaEE3bDZxOXdzSDY2LVl1eTJXbnVTRWRpbXpXTkxJVGxOZmJsS2NPZ29MTEFZLUlsa3Q5TjJXVzRwQ09vQ1l0YXU2eVJkSmxmTGl2OUZnOGhaUjhTdG9LOV8zYVdub2hXODJLZklZR0QyX2ZyTmlJaDdfZVp5VnpmNElMaG1XRkR4a3d0S2dPMG9GVmhUdWU"
+        "CBMinAFBVV95cUxOZHhRNmxDaEE3bDZxOXdzSDY2LVl1eTJXbnVTRWRpbXpXTkxJVGxOZmJsS2NPZ29MTEFZLUlsa3Q5TjJXVzRwQ09vQ1l0YXU2eVJkSmxmTGl2OUZnOGhaUjhTdG9LOV8zYVdub2hXODJLZklZR0QyX2ZyTmlJaDdfZVp5VnpmNElMaG1XRkR4a3d0S2dPMG9GVmhUdWU",
+        "CBMi2AFBVV95cUxPdDh3NmZUcThScUtOM3pLcmROeGk2RzI0dkg5NGZrUjdIZm5rUlVHNTM0WkJLMHhoMWdKZjFDMEk2SWc1bzRCLTR2TzFIMVh6YzZGV3M1djJsSjJjSm5QeU1IRkp0bHllck5EdUZwUG9HaGdIRnlNdHVSWlhYbmI4cmxBNWZmZnZ0ajNxMkF3a2o5VlNoRzFjaWVpZ2pYNEduZjJYa0JERlNKMTdoblJyaXdsSlJYTmkyQk54UjZWUTVWOTNqei0yVk1TSnppbV9jTUdLYnNfOG8",
+        "CBMibkFVX3lxTE5sYTFYcnFuR2pVVGN6UFdVUUFKZm9wXzRBY3Nsa0hLNlF0bklmREZjbzR6SHJ4RGNjY2gxWGtQdktjRWxBZTJGYkhDU2E5bjhGZXJSQWFmd1l6V1JORTk1UE1tNjlFTmJOYkJfNmln"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-24T04:40:01.315Z",
-      "last_epoch": 1795400008000,
-      "etag": "\"047637b0269a525c3f96a87896f740fe5-gzip\"",
-      "last_modified": "Tue, 24 Nov 2026 04:22:49 GMT",
+      "last_fetched": "2026-11-24T19:21:02.389Z",
+      "last_epoch": 1795502305000,
+      "etag": "\"0047d60363b97918603e2ce001e50cdc5-gzip\"",
+      "last_modified": "Tue, 24 Nov 2026 18:53:51 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-issues-draft-audit-manual-for-drm-based-digital-addressable-systems-seeks-comments-by-october-30/articleshow/134840672.cms",
         "https://economictimes.indiatimes.com/industry/services/retail/e-commerce-festive-sales-touch-rs-24000-crore-in-first-two-days-mobiles-lead/articleshow/134868597.cms",
@@ -236,11 +238,12 @@
         "https://economictimes.indiatimes.com/industry/banking/finance/sifs-emerge-as-the-new-heroes-in-a-volatile-market/articleshow/135889879.cms",
         "https://economictimes.indiatimes.com/industry/transportation/railways/refund-for-rac-travellers-who-dont-get-full-berth-what-to-know-as-railways-considers-scrapping-unfair-system-where-two-people-share-one-berth-but-pay-full-fare/slideshow/136024809.cms",
         "https://economictimes.indiatimes.com/industry/banking/finance/banking/pnb-needs-rs-5000-crore-extra-provisions-under-ecl-ceo-sees-limited-impact/articleshow/136069636.cms",
-        "https://economictimes.indiatimes.com/industry/banking/finance/icici-prudential-seeks-800-million-as-alternatives-push-grows/articleshow/136086973.cms"
+        "https://economictimes.indiatimes.com/industry/banking/finance/icici-prudential-seeks-800-million-as-alternatives-push-grows/articleshow/136086973.cms",
+        "https://economictimes.indiatimes.com/industry/banking/finance/gentle-enters-indias-fintech-space-with-an-app-focused-on-personalised-investment-insights/articleshow/136121895.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-24T04:40:01.373Z",
+      "last_fetched": "2026-11-24T19:21:02.686Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
