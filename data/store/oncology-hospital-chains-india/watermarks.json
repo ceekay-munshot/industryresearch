@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-24T19:15:10.531Z",
+      "last_fetched": "2026-11-25T03:18:11.239Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-24T19:15:44.748Z",
+      "last_fetched": "2026-11-25T03:18:34.731Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-24T19:15:46.317Z",
-      "last_epoch": 1795529297000,
+      "last_fetched": "2026-11-25T03:18:36.121Z",
+      "last_epoch": 1795571547000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMitAFBVV95cUxNUEZSdFREMVBlVVAtTEFCRGlSUGRESTFyTDNLLXlzTHRlYVhLWWVldDFtbkNra19BWHBYcjhVVEFmV0Y1RFNqbnBlUm1oeGJHZlU2T09hNWp5X09FZUQ0RUN1WVdTSXBoQ2QtbHZieVN2WFRyNkEtOXhsV25KVng1RGpCV2ZubWh4cm8wbGpob1VPV0twc1FuelZQVDZ0LVduNHFzMHgwVXJHM0VPbVd2T3VFaUw",
         "CBMitwFBVV95cUxQVm91TFVrMTBFZk5IQjJwSGFjOUJUWU9jVXIxWHpLdWd2SDJOalJMc0lWTGFjNVU3NUh4RjhLRzlYb04zdVVYUTNrSzBlNUh5eUVEM0FEZVB2NTNmUVA2VzdtRXJYQUZIVkNPTE1OLVhPTDliRU5CLS1rdTh3RWk3YmNLa1N4STlrQy14SXpuTDNsNy1UX1NwX2Z1RjhBMjRqYU1WdXN2RE5GcXNhVVJvRVdWZEJNWGc",
         "CBMi1wFBVV95cUxNdWpnZWgwRm85UVprblpPcTFjUllYdlZKZWQ1cThKUHVWbVg3T1JnV1RjVko3SkVhRGlpbVFTanpReDlVQVJnZ0tvbGtNZ1lPTU44dDMzdEhCc0ViNFZqenBabGZsZ2kyZmNydWotNmNRbkpQaE9WdEdFS3pHQThYdlI5M0U3aVdXSkxnaF9DeDJEejJDdlVNUktVMkEzc2EyMjdyS2hJQWxGR05QR2hHXzJxR1UwcWNTVGwwVDdsUVM1ZFNVZkxoNVVURHdLTE1GUnV4M29Raw",
         "CBMi0gFBVV95cUxNa3pBZHhCeFBlV014UnNJaGZDNTNyVFhWc2VJV013MHFtYnFaUV9fWXlicHBES0hDZTNOU214THF0Q19fX2ljOXhqVWJrejhLQkhoSktLZ25hRmRUWUVYU0d4dWMxOHduX3N2cmNsRzRKNzFjMG1tNzdiY1BqcmlCa194RklpWW8wX0lPSmVfU2tBM0s1Q19xTzFmcmp4NnpmTVU4cFlfdkY2bFM3ZzhiZm1YTWlSTldDX196eXp6aW9GMUpvaGpyNkdIck16STJucVHSAdcBQVVfeXFMTmNiT2tUUzBxRGhzLU04cTllYjdsWWtRZGVDMndLbF9WT0xTaFhBc0k1YlU3eEVtWmF0MHdHZTBNeGpqQlNVNk4tMFJseUtFZUNDRjJ2Tzg5S3NRQzJJRWU2eDg5QVRqay1zek1yVFhGMThXcFRXS290SFd5X1F3WFpSMkZacWdRWlpJZGJfajBzLWJ0VnRUVExUYVJWTGFRLVdiaG50Ylc1bkpxdW5HZE84Q2VLdmV3WGhONEpxODBaclB2SFQ4NWd2cHVNSHRScGJHMlJKd00",
@@ -319,14 +318,15 @@
         "CBMi0wFBVV95cUxNaVdrUU0wRUJlbjdVRUZHOVo2WmZCajhWTDJzRVNDRnpVVnNpMk1LZEt2REdaY2hrR25ndWxLZkl4N3dCTFRZZUtWQVkzZFJ0UFRTTkFJNVljVlVlSHdYendUcTNrZjFIcjFyZjEycjIyUklMM2pIOWgyMFZuWG5zWVVadHVIZlRqS3J0OTJhRHVwaGtzZHVuVFY1Rm83YzJPang2QXR5ZEVraW96VkFuTUd5QjRRclUwZnY5UWJqeFVSeVlwbkpHUFhVekxHSHprc2hR",
         "CBMi9wFBVV95cUxNdU9KalBiVnlObFFFQUlhNVo5T0g2dG56WUplUmVmbjBOM0x4V0pPNmZPam9reWVOaXozbEVsMjg2cEJ0Y1paMTF2S2FlWXNKc1RGMjNyd3l2VkxLRkZURTBoSW9YUEp2TFZMLVFSakp6c09VYkJFcTFwanpvN29pNUhoWG5OVEM4OWdVWU1hcDAwQmFTRWpfQ3A2VDloSlpEeTFTaUgxb2FLSXd1ZFJ4cVNmODBrWE1pSTdPRjgzRFNVZ1ZpcUI1OTcyMm1xeDN5Z1dZam16WURxMncwM21HdEFWdXNlcW1oaUlpaWxoRjBwZjFaVVNV0gH3AUFVX3lxTE11T0pqUGJWeU5sUUVBSWE1WjlPSDZ0bnpZSmVSZWZuME4zTHhXSk82Zk9qb2t5ZU5pejNsRWwyODZwQnRjWloxMXZLYWVZc0pzVEYyM3J3eXZWTEtGRlRFMGhJb1hQSnZMVkwtUVJqSnpzT1ViQkVxMXBqem83b2k1SGhYbk5UQzg5Z1VZTWFwMDBCYVNFal9DcDZUOWhKWkR5MVNpSDFvYUtJd3VkUnhxU2Y4MGtYTWlJN09GODNEU1VnVmlxQjU5NzIybXF4M3lnV1lqbXpZRHEydzAzbUd0QVZ1c2VxbWhpSWlpbGhGMHBmMVpVU1U",
         "CBMiwgFBVV95cUxNV1VOOThTaDU0a3FpeVFVbEtsR2FSWjhtbk1USC1wQm41TkNOM29aVDVYV29DQWZBcW1LZ1BsOHZQb3JzRzlYU0VVYUNmZWE1UGhmMTVYbmNjOFRaUW02MGtxZmpxeDRmQkNBeDJZQ1VuMWlhbzNUSkZMVlRjb0tRd1BQMVhOM1RGdHBZZ25sMmxwXzBVOG1qUlJKYzM3YXdqMTJOczFFOFNXa1pnM3pOUEpRUC13YmFYby11UVZLQjJZZ9IBwgFBVV95cUxNV1VOOThTaDU0a3FpeVFVbEtsR2FSWjhtbk1USC1wQm41TkNOM29aVDVYV29DQWZBcW1LZ1BsOHZQb3JzRzlYU0VVYUNmZWE1UGhmMTVYbmNjOFRaUW02MGtxZmpxeDRmQkNBeDJZQ1VuMWlhbzNUSkZMVlRjb0tRd1BQMVhOM1RGdHBZZ25sMmxwXzBVOG1qUlJKYzM3YXdqMTJOczFFOFNXa1pnM3pOUEpRUC13YmFYby11UVZLQjJZZw",
-        "CBMiqwFBVV95cUxPb0ROUFpSRm1tc2xGS1FnNm1UaW04ZjVrLXl1UGFxZk9aZzdKNHdXVkZDQnhCMXhsc0Z6SmlOVjBtUS1qdFdJWlNxQU42MlhBZkxNcE1zZU11NTdlTS1DcEJRLVQ5MTFZM294M2dVTGo3dS03SXlHSC1PQjJIMWlyZkg0dnZXejhWMUh6eXFHazhCbE0xV3pvNDcwNFhSN2IzN1lJMTZDbGFXUHM"
+        "CBMiqwFBVV95cUxPb0ROUFpSRm1tc2xGS1FnNm1UaW04ZjVrLXl1UGFxZk9aZzdKNHdXVkZDQnhCMXhsc0Z6SmlOVjBtUS1qdFdJWlNxQU42MlhBZkxNcE1zZU11NTdlTS1DcEJRLVQ5MTFZM294M2dVTGo3dS03SXlHSC1PQjJIMWlyZkg0dnZXejhWMUh6eXFHazhCbE0xV3pvNDcwNFhSN2IzN1lJMTZDbGFXUHM",
+        "CBMi8AFBVV95cUxQRkxlT3VNbUVhR2RxdkJINFNUX2NuVDhYNnVWUVhSZVVERWdMWTFCX3R4a1ZIY2NrZmdtWmoyTXZiMjdQUGVQUGwteUkwRkwxcjlJMFozUGJmWlozcjFoOEJoTWRHdGY3aldWajNoR3lMYUt3X0JmNnZDanJhMUNzcmI0a255NDE4azdZc2FVelY1Nm1LY1JqNENUQVJmSzNfOTQwVUFqYklmODQ1OXZOSmdRUHM5bmdScEZiQlp5WlM0UlNwQW9UUFNmNF9pTkdoek00TjBaZWpkVUNZbXByM2haVTNlQ0U2YU9ILW5SeHI"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-24T19:15:46.384Z",
+      "last_fetched": "2026-11-25T03:18:36.216Z",
       "last_epoch": 1795527103000,
-      "etag": "\"0c3a61dd99774423fe0ef2a2efa18e909-gzip\"",
-      "last_modified": "Tue, 24 Nov 2026 19:09:53 GMT",
+      "etag": "\"0c545e2e6d68afe066eab38f3648db5e1-gzip\"",
+      "last_modified": "Wed, 25 Nov 2026 03:01:08 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/chalet-hotels-in-advanced-talks-to-buy-six-senses-vana-for-600-crore/articleshow/134374818.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -631,7 +631,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-24T19:15:46.698Z",
+      "last_fetched": "2026-11-25T03:18:36.301Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
