@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-25T13:44:48.033Z",
+      "last_fetched": "2026-11-25T23:53:52.325Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-25T13:45:09.982Z",
+      "last_fetched": "2026-11-25T23:54:17.684Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-25T13:45:11.091Z",
-      "last_epoch": 1795518192000,
+      "last_fetched": "2026-11-25T23:54:18.833Z",
+      "last_epoch": 1795598852000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMie0FVX3lxTE1uR2hJc19mX3VvRVd2VmZMQlU2TDhTUmJQWXhLdlQtM3U0blE1ZUFnd1I5MnhaQzlxT2U4MHpnVE10c2tKVWZkZkcwSXk4blI1SWtHVVdPVGZvVXM4SzlQNkJvWkRwa05ISFJQeVdHTHNwajF1QndUak96Z9IBgAFBVV95cUxQQTlSV2VTenNxa2FSSmtDOVNWSjhzbE1iOFZ4ckxyenZCeEROU1VJQ1pHQ0xwRURxQlYwMHZZVWF0cklkdGl4cGtZSWVDZzRPVzJsYjZfdmVNOVJ4dm9pVFFIeWszVS1VTTA2aVZwc0lCSVptT0tlTjJsSFFJYm9uMQ",
         "CBMihgJBVV95cUxPeHhiNzRFb2NVbGR6M3JLdkFNcUJpYVREV2NlU1FnRE1ZOWlpWk9FMEZvMWlHcEZ6VzBKeVVpNF9IUkNPaWNwbk1oLWJzZGJJZXE2eHh0ZTNINHFrd2JrbW5wQXFmVFVMWllNZjY0ZFBqMS1teVlQZ2dBejJrZzJZMVZ1QmRkZTUtSEZldXRNaGs0V01Zc2FtNHg5S09KZkFwbVJrd1BMdE9NeDNIUEU4YWQ3Rnl0TnhVeWFIcjE2U19kZWttTDZBaHphVVBJYU9jVXB4OGpRbEYyNVB0WUUxN040a3M5VXFSZm8yaEtRanZmeHNFZHJZZkJQM0dmNndoaC1qcmVR",
         "CBMi5wFBVV95cUxORzl2Z0czME4zSW8zck1IZnNDOEFXdUxTWTJXZkJsN1R4X016SDE1NmZORi1qVTVhUE5teS1jUXo0Z0pWSnluVFctbWhlTDNFNGpIcHpvUHlnTlVmVVgzS1I2VnM1bG9nX0dCMG1aemI4WGxPTWRXR2NyeC1sWDNQejlEWEtXVTZ2NUl1TndGVC1SRXFEQngtbmljZkdqdE1QblBoQW5XSXdDbkFPOTRXMDN3RHl6RkNhenVYRE5fN21PNHpLQlVLSEl4TjJPNjhUX21xWE5fakxhZDhydDkzWGxMMzhUUDQ",
         "CBMi4gFBVV95cUxQaE41cGd2eVRVcXlDZG1Jb0lSR05sZW1VR1FkYV9nWGdpbU5JTC1zVloxdmRrZElnVzUteWNubFQ4Ry1namJiMUFUaUduQkJUNEwtQ1NHWDFFY3k2NnVucldFUDJkYS15c0VVQ3BvcE5IUFNpcTFIZDNkaDdtN3M0bk5sUmQxLVpEOG5IWWlvTS1PQS1kb3l1T1MtSjVoRjdMZ3QwSlBvU2RHTFlENjB3UlNIY1lNbW1aRmpWY2VhRXRWbW1BZVl4aUpJM0lIekdaYVk1VlgtMmZTSUxYSE9FWFpn",
@@ -319,14 +318,15 @@
         "CBMirwFBVV95cUxNRmIxWFZ4TWNodXZwRmZVcFJpcElaaU9QcV9JWW0ydzZmdlNEaGtmV1VaVGZjaHh5aEZpVDBiNzdPeURQdFpuVXFzSXJCaWlfbDFVdHE5U3dXSUVMVXdPYWdnTl8zZy1tVW1HVTB3VVMzc2ZEbzNQY2QxZkc0SFgyanN6RzBheGRTb0RXNXJVNFFiWVN3Q2QtTWVfVVNKYmJXSHBGTGZRTEpMeHlndFNv",
         "CBMioAFBVV95cUxOcXhsSFhKaElNeTNwcGJIVy1FQlFFM1kwMW8yNWNva2ZJZ185S25OV1JQUUI5dldVblB2TzdwMU9BRzdKVEhSQmo5SVVfM1lib05YTXVyVEtUSkxvamd3ZGFmR19JTTk5Q25icXFNc0ZIR0d1M1loOE54ZFA4NTVub3JKVU84ZVFkdmgteWFvVVFLME90VnlCdWh2MFFMOVNn",
         "CBMi3wFBVV95cUxQb085dTlBekY3czdkUDVzN0sxQldqcG5IRkpRX1A2VWlNYVg4WTI2dGViUkVZREpkOFlxU1BjcWFsU0kxYjJLN1RtWkdFU29FLXRoRngxRUVVdDFVTU1Fejh1Snpxa1RseU0ycTlqdHd4dmdoWTZ0Zkt6SjdHZGtFTUIxS0JIZFpYa1FfOFFFQlJUbUdFRk03aXMydklLVUUxU3NYSjRyMk0zLW5hdUJtbElTMDdxRldTYmVzZDljei1yZDkwMzRKUzZzdFRTODN2QnlwMTBzQng3Ykg1akRv",
-        "CBMixgFBVV95cUxNZUotRVNUdkRJYVNXYjdBQkJ4YjB5NHdHdnY0Q1BHdFN0UEtCVTJwSUtObkQ2eHlOSlFmUXlaanFQeFNJT0FiYzBtSWo4VmowUk95N19sdldHc09mUU4xTTdrbXlpek1OVzNDTEs0OU1oaUxIYlIyN0lNNlhlVFF3c1BjT3lESUtXVE44ZkZXSmdhZ3gyQU41R1N2clI3b3ZkU0plUFVYV2JxZHo4Mkw1dUZZOVRBM09CcHYyWXVsaDMtSENwQXc"
+        "CBMixgFBVV95cUxNZUotRVNUdkRJYVNXYjdBQkJ4YjB5NHdHdnY0Q1BHdFN0UEtCVTJwSUtObkQ2eHlOSlFmUXlaanFQeFNJT0FiYzBtSWo4VmowUk95N19sdldHc09mUU4xTTdrbXlpek1OVzNDTEs0OU1oaUxIYlIyN0lNNlhlVFF3c1BjT3lESUtXVE44ZkZXSmdhZ3gyQU41R1N2clI3b3ZkU0plUFVYV2JxZHo4Mkw1dUZZOVRBM09CcHYyWXVsaDMtSENwQXc",
+        "CBMiYkFVX3lxTFBOZ1FteHlmY29jM2lWQ3dXSHZTcVZDVjdDSEVhTEhSWDAtLW5sTmp3VVVvS1pDY0NmVDRaYUJVRUk3aHlCQ0tsZFZWY2V3a2xMSUh6WmhzY3M3SGlDLVk0UlRB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-25T13:45:11.184Z",
+      "last_fetched": "2026-11-25T23:54:18.922Z",
       "last_epoch": 1795580067000,
-      "etag": "\"04e8ce56c6e7b25402ca7a28e9623aa0d-gzip\"",
-      "last_modified": "Wed, 25 Nov 2026 13:36:04 GMT",
+      "etag": "\"0ac9baef50c98ee5425a0d6a48d225a7f-gzip\"",
+      "last_modified": "Wed, 25 Nov 2026 23:18:42 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/tata-capital-healthcare-fund-iii-invests-30-million-in-tenet-diagnostics/articleshow/133299776.cms",
         "https://economictimes.indiatimes.com/industry/services/education/small-city-aspirations-power-education-loan-demand/articleshow/133324094.cms",
@@ -515,7 +515,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-25T13:45:11.260Z",
+      "last_fetched": "2026-11-25T23:54:18.978Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
