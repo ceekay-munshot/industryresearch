@@ -1,26 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-27T13:23:12.170Z",
+      "last_fetched": "2026-11-27T23:53:21.129Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-27T13:23:24.180Z",
+      "last_fetched": "2026-11-27T23:53:50.943Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-27T13:23:25.244Z",
-      "last_epoch": 1795649400000,
+      "last_fetched": "2026-11-27T23:53:51.877Z",
+      "last_epoch": 1795786313000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi2gFBVV95cUxPTFBCbjloaXAwUjlZY0ZESmFZUF82cU5EeFJxSUhaeHFOdVFMRU0tYmdsMV9sOWNhMzJ1UGJmNzgxNm9mcEpfdmNsZ1ROekhQWERnOUlZRTYxUW9PcDJ3SHlJTGlULUltWnltVWJZUmsxazU1TFdEcUZSaHJGZDRSNTV6RDhaNGlEUU5RUWZ6QmZ4TzlnS3FHLVhtSGI2cUxER2RKZHpZSWtzREdDMHdudnpQbmlZbVJZZEhveUk3aG02QjBYckJuZktZM3dkV0xaa0MxX3JYNmtIQdIB4gFBVV95cUxOVFJURjBzd1RqY215c0tvc0V0S3VKTFk5VEN0d3F2eWJpYkF5b3M1MUpGMTZNbUdrenE4U1Z2VFcwME1pRTlLRDhtYzJXQ2xQNHBJLWt4X1dLazRmcFE0VDlGbmlRYWxpS0tfS242TGhsTnFBSk55eEdHeTQyOUlMbGJBZ1NxeXZSZktjMmlhOVZ6NXVPWXpLYVNSNXFzSEpOeHIxdGc0VFZMNlR0a0swX3RGQzlXSzRyd1ZlQXA3eE9XM0RZODNTaU00NHZnYWVzMnkwVHRIYUxYWG1wejNiR2VR",
         "CBMi4wFBVV95cUxPYi1pQ2l2cjJyUExNWDVaanpCSmNoRm9iZXdYcXg3QXoxanFfMjl3RGZ0NnZCLVRGa3VoMTFrTTZzQXhoN0pUa3BtcTl4MXJzOGNXbHpQYmpMQkRNZnk2Nk5fSExZbU14TTJyN1IzM0p0SFVOZEFiRHR4UnVjaEtNV1lNcENOeUc4d1FXQjdDRVZLWmNMUnJweFVVdFZieDF2Um9yZHpDUHR2eXJVNlp4a3RVMjBHZ000YW5xTnZpMEQtcmJzNmZPa2xzWjBuRVFRYmh5VW1zdzY4MTZOWEE5YzFDRdIB6AFBVV95cUxPMWtXZ1pFLXR4eGd1SmVpNGwxenhER2lUb3lualNGaUFaQWtXUnRXU1ZMNGxBekZqazlKb2RQaFFLUXBOU2psNDkzWC12ZV93TC1YZDdsMF9JTUpWc3RoS25hVVctNHllb3Q5OUx5OU5wcmF3aHNtUTlXTDFwUGlMZW9OcmpuT0hvZ0otUy0wOEFGT2tULWFCQjJxMGwwZWhfYUYyTEhPckRreWpvS0RVMnlZUThULXMtcEswNVIySV8tUXRVcUdFWjZyb2p6Y3V5NjFqLU5UclhjQlJSck94OWFka1BtN0wx",
         "CBMi9wFBVV95cUxNUkdHaURJRC1SY2xjLUZmeC1GTjVRZ1hFbW5uSEtxeGZFcW5xZkdBbXpOU3BEV0FEN1A2NEY2Z2xlX0NSbVBpNVIxdkxPY1JqQ1BSaG8xY1lBeDBBbFU5YUMwOXJHTy16UFBuLVVPcmFyeXpJNzJKYkhkLVZ0Q2lnUTdMWm1pNE44M2RoVTFKMkhJeFFmVEJINXdZY0FmV0hSQklXOXN0OTROSVJLeTBwc2pkNjNJYWtSdnRwV05fSTZ0dmJFMVA3VzB1NV9uM3ZCZ2oxMDBubUNvYkhCR196RnliSl9aNVNGNHpkd0lEVEs5eGNVRjlR",
         "CBMi-AFBVV95cUxNemJRcjV1MEFBLWNzOHpxRndQOFF1aE1wRVA1dUZfX0RvV1pwQ1RMUFVaMU43eXVRanpJLTB5VXhydEpkamtMUnpWSjJnMlJNUWNKNlRKeGppSjNPRkVYbEhzcUhWMjVsOHp2eU1qWG5tclVwejlFS0ZfZTQwbTdWajdRRDZLTFp1SnFmU3MyMzBxdXR2RjVVNk9NTi05dVpnVE03OEFjd1hydUtoN3ZJVVRqNHZnaU9zeS0wS29TQ3U2R1I3WTE3dnhHek43SmpxNmpJZEZMNUd6NVZGR0R3Z2ZkM3dxVWpMV3pWdTFkQUtwQWhEZzNMTtIB_gFBVV95cUxOT2ZBTmdvc1RqLVkwUHdxX3RLaWwzYldBNXFiWTE2dl81Q0pnV1RHMHBXeUVYYkVMbktIUGNaLU5BNnl0b3R6a2s5NjExcWZnYkFLaGZ0TnMwdHZnaDVRVlg1Q1haaGpNc0l4TF9xYlFqN1UwY1M5OEI0dTZrQjV5eXpJZnZ2T0RaSjFxNFpXbU9tY0lmMTlVQ09fMlZFeWhFeXJnajNidzNFVEp4MERBSjFFU0RpSDdUNDE0ZDVzN1ZxaGVjcUF5Y2p3a3llallOdU9OQVFDbmJUYW5mOXdlbkNUZC1rN1BHWk9JeEc0REtCV1Q3Y1ZOZ1Njc045dw",
@@ -319,14 +318,15 @@
         "CBMi1AFBVV95cUxQZUhMYV9MMGhPaU16QkZfb0VQcUNVOHN3NDlucExzdDhoNUgwbkY3ajJGbHRTblJySk4wRWFzbnJaR0tVWFV0WHZnblQ4YWV4UzFtd0pCbXdEQzFLNlVvMXp2NEpNaXE1TWhhRmdsOU00SE9UYlMzZVVTd01MaW1qZWZ5cmQwemxXZ1ctRmE1UXFJUVVPX1ZxLV9FWG0xeGctcGV4Ul9Vd1EteEpWS3NybmpwUDhJdlNESHRuWDFxOVI1Nm1wd21JMEtETjBBQTZLT2gwZw",
         "CBMiqwFBVV95cUxOZlNQaS1ZX3RHX015R2FSYkY0bjlyX2s4UHhJN3RwMUVDSDFJV1pacjQ3V1BtckJxNXVYam03ZURaQlRxYUVDYmRYVzA2cVZxSm5JQUZOM3dXLWpadnZ2N2JjNkVsUWJBd3VqYjZrcmdtd2MwMmQ4WGYtTHJ6cEtQb3pWeVh1TGN4cGlxQ0d2WkY5YVU1TExDN2wzcE02UEllZkdOejVNeE5laE0",
         "CBMioAFBVV95cUxOd052U0VQMXJ0SE9CaGpUU0JUNzM3M1dmRGVLOXNjdG15bU5MNllVWlJjV3BBek9IRXhGbm41TE03SmN6YkZhdUx4UWdwWlF3TEZGRTliQVhSb1ZnVjgzd1FUNHBDV290RjhxRkJadGVFX1ZrWGJ5c2NWb1A2dkZUbmxlUDdrX2p3QWF0NmZnNmd1UHpKNlZuWTk4MFhIcDNQ",
-        "CBMi5wFBVV95cUxPeGNWNjdkZWNTMUEwOUxaUEc2dGl4MjZIVmNzTk1uMVhsTmhBVFNQYUdQQ1gwS0F4TTBfRDctWDByYnVlU3liNWxxOTlFU2NzUTJHT2IxZ2hfY2hBNE81Ny11VjNQaDlHWkpfeUc4dTlZTWVEaUpOaUg1N2tLZVkySXh1V0RQWXB4eFlvZkVaZ1U0c3BLV3ZCTmRzMDlUZzllbzdsd3NQOWNVVm9xQW11allXZTZ1NDFxLUZpMzN2Z1pZTlk2eXQyRU9WSXV5OXJDQVdheDUxLVFkRzdGWUFzZFROQjlJcGfSAe4BQVVfeXFMUEdPcHRiTkRmeGtzbEdkU29vdDFGVGJFQ1lyaVJRMnNITUVpdXE0WmdLaWt0UExlY0ZOZndzQktIRkI3aDVtVndzY1RHNWpvdWtCWmZBbGFvM2poWXhtXy1wYkRZMWhwdjk2VGtzbXVCQmFiLXNXS21NQ2M1X0FrZy1zaVoxU2k3S2l5NXBfSmJXQnZIVzJDaUxweEtTM0xmR2x0blNTc29aODBpRGZ6bXdCS1NXNUZVZnJuUTJDSkp1cElOMUtKZV9wc0o5aVRNRXFqT0w3Skd4YW9RSnA0Z3dYekhjc2dINzRzMFMzQQ"
+        "CBMi5wFBVV95cUxPeGNWNjdkZWNTMUEwOUxaUEc2dGl4MjZIVmNzTk1uMVhsTmhBVFNQYUdQQ1gwS0F4TTBfRDctWDByYnVlU3liNWxxOTlFU2NzUTJHT2IxZ2hfY2hBNE81Ny11VjNQaDlHWkpfeUc4dTlZTWVEaUpOaUg1N2tLZVkySXh1V0RQWXB4eFlvZkVaZ1U0c3BLV3ZCTmRzMDlUZzllbzdsd3NQOWNVVm9xQW11allXZTZ1NDFxLUZpMzN2Z1pZTlk2eXQyRU9WSXV5OXJDQVdheDUxLVFkRzdGWUFzZFROQjlJcGfSAe4BQVVfeXFMUEdPcHRiTkRmeGtzbEdkU29vdDFGVGJFQ1lyaVJRMnNITUVpdXE0WmdLaWt0UExlY0ZOZndzQktIRkI3aDVtVndzY1RHNWpvdWtCWmZBbGFvM2poWXhtXy1wYkRZMWhwdjk2VGtzbXVCQmFiLXNXS21NQ2M1X0FrZy1zaVoxU2k3S2l5NXBfSmJXQnZIVzJDaUxweEtTM0xmR2x0blNTc29aODBpRGZ6bXdCS1NXNUZVZnJuUTJDSkp1cElOMUtKZV9wc0o5aVRNRXFqT0w3Skd4YW9RSnA0Z3dYekhjc2dINzRzMFMzQQ",
+        "CBMihwJBVV95cUxOR2dmazVodmJlZ0h2VExQLTlfNHRjdlNPcjd3WUJkVnpacEhBZV9nZXE1YnhKOTJjM25BNThkU2N2dHdlRzRJOWxHNWRYMTlvWm1PeFlzV084WmdhZnl6OWxHcHZNQmJtNnYyXzA5ZE52ckV6NDR3V09OaTJnVGxmbElPY0U0N0VFb0p6cWtPdUhTTWJIcm40YnItM1lZUU1WOFh3ak1BMVMtTkpnMjlwR1BVLV9FVV90M0RSejlOYmVEYml6MHB2bkY3aTRIUDhCWVd2MFRsZ3ZZc0F6cURlQ0pFdDd2YlZpVTB5T1lsd3pHU25JcG1qRGpQM0dia0JiWU1uX19ZQQ"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-27T13:23:25.269Z",
-      "last_epoch": 1795767062000,
-      "etag": "\"0e1d8e26b218e50d3ed9d79b1aa2d57f9-gzip\"",
-      "last_modified": "Fri, 27 Nov 2026 13:04:28 GMT",
+      "last_fetched": "2026-11-27T23:53:51.928Z",
+      "last_epoch": 1795794248000,
+      "etag": "\"0cd88ef20c346fe8081a46599f95363d8-gzip\"",
+      "last_modified": "Fri, 27 Nov 2026 23:39:21 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/protein-boom-chaayos-tim-hortons-starbucks-launch-protein-drinks-despite-whey-price-surge/articleshow/134374745.cms",
@@ -471,18 +471,19 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/indias-steel-demand-to-touch-250-280-million-tonnes-by-2035-capacity-expansion-to-require-usd-350-400-billion-investment-mckinsey/articleshow/136122234.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-announces-rs-868-crore-investment-in-tamil-nadu-for-new-food-manufacturing-plant-by-2028/articleshow/136160063.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/irefcon-2026-heavy-industrys-demand-for-performance-set-to-redefine-refractory-supply-amid-indias-manufacturing-push/articleshow/136182637.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-secures-manufacturing-licence-for-radiation-free-breast-cancer-screening-device/articleshow/136214077.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-secures-manufacturing-licence-for-radiation-free-breast-cancer-screening-device/articleshow/136214077.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/petrochem/gail-gnfc-join-hands-to-explore-downstream-petrochemical-projects/articleshow/136227332.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-27T13:23:25.365Z",
+      "last_fetched": "2026-11-27T23:53:52.010Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-26T18:04:36.700Z",
+      "last_fetched": "2026-11-27T23:53:52.311Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

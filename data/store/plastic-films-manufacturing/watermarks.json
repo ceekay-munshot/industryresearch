@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-27T13:24:14.515Z",
+      "last_fetched": "2026-11-27T23:54:51.165Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-27T13:24:37.337Z",
+      "last_fetched": "2026-11-27T23:55:24.525Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-27T13:24:37.699Z",
-      "last_epoch": 1795780888000,
+      "last_fetched": "2026-11-27T23:55:24.996Z",
+      "last_epoch": 1795798416000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMirgFBVV95cUxOYkNwMEgwdEkwX2FMQVJfYmlKUzNWeHpkSXY2SExYU2g5bzh0VUpPNE5YWVhsYVVwZHczeGZ6ai1Kb0NoS0J3VTlTb2xhUnp6a3VHdXBYYmZYY2RKTENGSUtJVTRYbFFOcHRWY21jNHdsN0xKcUpfMWNnVGotNDU2ek1IYVdPSUJTTWlOYXp0SEJmSG1WdEgyaEswWmVjSVkwN1Jya0x2YThUWHVKMGc",
-        "CBMi5wFBVV95cUxNTk9LZG5nZVVNeFJNMmtPbkVvQ2h6R1BEOWJGa3lMTlVXaWd1WktseGtiY1BHaG4wUG5MRmJNSlJFMFpqSnYxcU1rV1RyVE1mdkN6U0p2OHp4aTNINE1HbDFzOGcyMFd2YTZDZXJaQ2NRdDVpUVFDSVpJLUYxdDJRNjh5elpwaTZuY1dLb3ZrY1ZOM3ZLelpQNTdoRHF0QXpJUVFuYkJDQ25yWldRUFQ2eTNqXzVuVFlkTVE5clRuZHZ2R0xKOHNMeno1cm1JRjNtUUVTN0dYUzFJSjlJTkROaXctR2NhS2M",
         "CBMiiAJBVV95cUxQdmE1RlJudEFDRENmU1RMb1FzOHVhYmFENHZLVFE2d0JiVm13U3haSGtrRlVwVlRwQ1piUzNDWWhIR2ZxSFZEVnJPMUt4R1dldnNoMFFoYlFEWjgzdnJQVlVpc1ZjRkRWallVNkc0TUJJWjdUdS1FajhTX1Y0WWlJNzkzcVplb0JFZFQ3amZBQ0pleENmN2ZObXF4eDhBM0JqNkxQYmNUZGUtY19QWGlJaHFPMGh0akl2Q0ZnbkVjYzVPZzR5ckZWU3ExNEJ4ZnNYTHQxRTJWNXQ5bldrZzZYZWFCZWhxeXotLVE5LTZFbWdaYThLWEFpNWoza3c3eXlNMXVWeGhfdW_SAYgCQVVfeXFMUHZhNUZSbnRBQ0RDZlNUTG9Rczh1YWJhRDR2S1RRNndCYlZtd1N4Wkhra0ZVcFZUcENaYlMzQ1loSEdmcUhWRFZyTzFLeEdXZXZzaDBRaGJRRFo4M3ZyUFZVaXNWY0ZEVmpZVTZHNE1CSVo3VHUtRWo4U19WNFlpSTc5M3FaZW9CRWRUN2pmQUNKZXhDZjdmTm1xeHg4QTNCajZMUGJjVGRlLWNfUFhpSWhxTzBodGpJdkNGZ25FY2M1T2c0eXJGVlNxMTRCeGZzWEx0MUUyVjV0OW5Xa2c2WGVhQmVocXl6LS1ROS02RW1nWmE4S1hBaTVqM2t3N3l5TTF1VnhoX3Vv",
         "CBMijgJBVV95cUxNYnlXMVdRamR4TExhXzA5bDJaME9Zb09BOExGcXhjdEdXeEtZQ3ktUFZ2OWpZVEo4ZmtSc1BDUHpqTVpicGZHYk1mV3ZVbmw0dFVDZ244ZU9wLXNSX0ZHQXh4Y1FTYzc0XzR3Rkx4WWFJX1FmQXlJNTUxb0tOY1lTQ01wVTNYdkhaOWdTVjlTd1plMTRSZkcwcEhjbmJ2RkFEa0s3enpHUTYwNnE2RWdhbXZzMWoyQmtnTkF0WDVESWlVR1p1LWJwemNhZFhTZldSZjZQbmE0OEJFQU5kOXhkM25xaG1FdExmZlVxY1RrZ3RMS0tucmhVUHlxbzZlQzNWekYycnNfZHNGdDhYcWfSAZMCQVVfeXFMTjRRSWFtdGpXekEtWVRCR21yQ0NwYVZQZ3hlQ3VZRTlrXzJSUkE5NDc0V3Uyei1mTlZyTnhSRXlBRW5vem16QjNYSjBNNnRwRjJUcXBJSngyUzJVX0JrSTdlSFhCT2FtSDdaVEFVZ3NWY01iX0I5cUdybVdUSzBqZjVKcUJwaFk2cUM2V0FzeThmMmo0UVJFY2NWNzZJNlB2bkpWX2ZHdVZNVlRpRnJxZXY3QWk3emdseFFSUkJpSjZhWURiVm1TSmg1LUIxcGJ4Y3NuVEUtZXR3RDl4M01MLUxUWnV0ekc4SmhmY0hmRUFtT0lZbDdTMjBwT1BCcXJVQnFaNGpNT1lCMWhNQWxwSFIwZ1k",
         "CBMiogJBVV95cUxPbTROU0xWcEY5NXl1dmtRUDNDU05SY2xxclcxeUxVRlZyRE8yZVduVWExek9BYnVRaXN4WHJCbUpSekpxWUxUaDZsRnlfOC1tcF9NQWRmUlJsTmU4cHhpYi0zWW5KZ29NWU52cmNwRVlibGpEVXRRYzVTbVUyYWdVTzh2c1lydHJlLU41UDB2NGo3eGM5SjY0QUl3Q0o0SXBtbkstZXZZMjBsbDQwMHh4TVAxRWlzSFVQel9HcDFpVDdyYkZLdUxCMmpfbDVHUHFsSlZzWEVxcTBiaURVM09weWxkU0trc0VRY0EwWGFCSXNGNmpzbU5ZN1U2dndXTGcyRDAwR3BTRWwzQ1poV0s2c3YtZ2RNQ3dWaWlGUWtad2lJUQ",
@@ -319,14 +317,16 @@
         "CBMirgFBVV95cUxOYVVuZm1taFBnZF8yXzdQbTJOdW9vQlpDLTVlLXoyTklkZkk0WVVBNVZic3BHY1lEcHBnVG41WF9lMnVwTld2RWZTS3hjWVhTYm56QUw4d2QyQzdBMVFSTUxMcEoxQ0Yybk1VNHlMa2p2YXEtSEtjeGExMFZYeUhJOGdBdVAwMnVaUVFrMmQ2NzB4MkhkcmtVWFo1dndVdG9ZdTJjSmpIUW5ySDRNa1E",
         "CBMi2gFBVV95cUxNcWdYdVUtXy1fdTZHMWZlX3JzT0VIVWdOdUdlZERTUDRodEloV01ESk9mUFNmSXBYNGFPTmZubk9wdHlhQjQ1Q0hIYy1CYkFzZzFobTdDRExhWS1CSjNNbVlIZ244b29FNklaS00zTXlTRWpsMmlvU2tpQnJzeExLSmJacW5qWnVSSDJKbDRwU0gwRVlNSWE1RVltR3RrTGVzQWtyUFlZWkNxMi1NYUN3dzI4UHRLWDhId1AwZWt4eHlWVjVOU0NTbnk5Q2dqQ1VReUo4Zk5ENnp1QQ",
         "CBMimgFBVV95cUxOcl8yLTJqWllYYWI2MG95VUZSTVIxdmtocVhPRkZYMXZRcndZd28zaEdoa2pLTDJQVzRHdHFNZ1AzaVpEdG52SVh3c3k5Y3ZvUjZWOFhXaFUyRHQwOWFpdFR3dUFtVWhQVVhkYlpjek4yUlhldVpCZlhiM2xRLWxsdzkxUFFnWEZiYzcxeDExdUtWNEpkMExfTnR3",
-        "CBMipwFBVV95cUxQWkZ3cjlBYmF1QlRWLW5EeUZ2ZV9pV3QwSXNJenNoNHJKS2k0WkhvSEZwUHNnY0RPbTEwNzNoWHFqcXJZYzhjc2Q4OXJOc0NYcW9jSEg1enVnaUp1eGxWWVZZaFpPRUZyaDViT0t4bDRnYURiTGVYQXdCZ1pKRmR6MHY5VVAtX1pUdVh6UnpmTUZxZ3VCa0VBOFU2QU8tYXYtT3d4NlRUVQ"
+        "CBMipwFBVV95cUxQWkZ3cjlBYmF1QlRWLW5EeUZ2ZV9pV3QwSXNJenNoNHJKS2k0WkhvSEZwUHNnY0RPbTEwNzNoWHFqcXJZYzhjc2Q4OXJOc0NYcW9jSEg1enVnaUp1eGxWWVZZaFpPRUZyaDViT0t4bDRnYURiTGVYQXdCZ1pKRmR6MHY5VVAtX1pUdVh6UnpmTUZxZ3VCa0VBOFU2QU8tYXYtT3d4NlRUVQ",
+        "CBMizAFBVV95cUxQUXV3VXhiaDhRQWJxenR2SmxfU09mblM2ZDVWYVQwbUNpdEVMMW9WQ3BUS3FJWmNyRHlYMm11Z00wRTZIVjAxVnh2bmF1aFFrSHRJWVlLMnozZFc5YnVBTnFRcVlWNjBBVXhZdmhuWUdKakQyd0lHY1J1bzctN0o2YlhFLXZZTGN0bmN5amNIWEVtZ3NkOU12ekE2UVZoSkxucm85VXJUNDZEYjhpRjhsTUdRT0QtdVZjY09UU25PdVk2V2lEdmxYZ2poR0g",
+        "CBMihwJBVV95cUxOcEs3WFVxQWFkamRwQzE1dzZyYUZpcVZjUjV0a1h1UEZIZ3JBZHBrNkRtVk50a2NQZGd0NkhXWUhwTGl0cTcyZ1FBcVlPNHMwY0ZNZ2lERjhWY2M0UTlsaTl4TFZSZlRWTmN4OXZJQk1ONGRWTHcwRV9wQXNiOXpzX042aDRKam56QkM0bE84RlFMUmNWMUJGa3d2U0xhVEhrbERzV293d3JjU1FveHo2cFR4X1lWV0ZZejUxYmZrWGp4bWptTGhRQUo2U0drZDNIT2p2UlUzeWdEVGhMb3FlSy10MFlnTnctQ3VGT2hkZUE0Rk14T21PQ1l6RHRESmJhN1oxc0pCSdIBjAJBVV95cUxOM2lzdWJTSGxFUkN0MUlyZE1oQlNKZWZYQ1c0SnctMUJqeVZlWS1abGRIQ1FsaG5uaFRUY2tkR3ZzdnUyZzY2ZmNqQl9PcmNOYU5EX2VKaWVQQ25LTzVZb0RZTC1mQjZnOEZPeG9TQTNlaTdGdFoxNFZHVkhTeHduZUhqeU5UejFQQ2NRWWNzRlcybnJkOVBjcEFLX0dyMENCU0lWVzhOLU0xemx0b25TYUIzYzJOazRtX2RlUWQ3VE5wektrLUtZZDY0RnRkRC1vUDhBdmUxbVo3TGN5alRfN2ZDWVlmQllkNTkxak9zelZwNE10NUFFaU9ZX29seGVaWXUyeGxzWGh5T2ZK"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-27T13:24:37.898Z",
-      "last_epoch": 1795767062000,
-      "etag": "\"0e1d8e26b218e50d3ed9d79b1aa2d57f9-gzip\"",
-      "last_modified": "Fri, 27 Nov 2026 13:04:28 GMT",
+      "last_fetched": "2026-11-27T23:55:25.034Z",
+      "last_epoch": 1795794248000,
+      "etag": "\"0cd88ef20c346fe8081a46599f95363d8-gzip\"",
+      "last_modified": "Fri, 27 Nov 2026 23:39:21 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/rs-78400-vs-rs-7750-medicine-novartis-eli-lilly-oppose-bid-to-cut-breast-cancer-drug-prices-in-india/articleshow/134500531.cms",
         "https://economictimes.indiatimes.com/industry/renewables/easemytrips-emtev-rolls-out-electric-buses-in-bhopal-targets-5000-units-annually-in-5-years/articleshow/134487054.cms",
@@ -470,18 +470,19 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/indias-steel-demand-to-touch-250-280-million-tonnes-by-2035-capacity-expansion-to-require-usd-350-400-billion-investment-mckinsey/articleshow/136122234.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/pepsico-announces-rs-868-crore-investment-in-tamil-nadu-for-new-food-manufacturing-plant-by-2028/articleshow/136160063.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/irefcon-2026-heavy-industrys-demand-for-performance-set-to-redefine-refractory-supply-amid-indias-manufacturing-push/articleshow/136182637.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-secures-manufacturing-licence-for-radiation-free-breast-cancer-screening-device/articleshow/136214077.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-secures-manufacturing-licence-for-radiation-free-breast-cancer-screening-device/articleshow/136214077.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/petrochem/gail-gnfc-join-hands-to-explore-downstream-petrochemical-projects/articleshow/136227332.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-27T13:24:38.046Z",
+      "last_fetched": "2026-11-27T23:55:25.338Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-26T18:06:17.848Z",
+      "last_fetched": "2026-11-27T23:55:25.637Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

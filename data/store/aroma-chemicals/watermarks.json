@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-27T13:19:57.082Z",
+      "last_fetched": "2026-11-27T23:51:24.417Z",
       "last_epoch": 1795726565000,
       "etag": null,
       "last_modified": null,
@@ -124,20 +124,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-27T13:20:32.652Z",
+      "last_fetched": "2026-11-27T23:51:58.228Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-27T13:20:33.734Z",
-      "last_epoch": 1795783996000,
+      "last_fetched": "2026-11-27T23:51:59.225Z",
+      "last_epoch": 1795792500000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiqwFBVV95cUxPNE9acDRqLS1LOUhqbjRWMENTTjIzZzBISVN0bklWbDBORGl4NVFGZkFtbGhzU0ZVLV83alhYend5Sy1MOGo3VUxQNVZ4OWJMYjdFM01fSXBFWVNzbVJ6VTBseUFQSWtBSWdnQTZZVkJvcy1jeUFBMHN2N0lkSnRmNjRvY25mcHA0SVpZZ2VvM0htVGdudUJQbHp0WkdlZEdfMEV3bno5bGgyRW8",
-        "CBMijAJBVV95cUxOY0N5RGtjaDJPV2NFS3NnVVh5SlZjNTVuemkweEZteUlVZzdwY0dIeU5zR1h1RTNJbDBDUGRDcDVFX3JoZkZ5SW80cEVkSVdNLVdyQVhMVFEwWkJxLVBmMjFITDR0X2tNa21aX18tSnNqTVFDbS1LT0RycEZ2TW5LLVJoTUZ2QmhzMVlVN1ZiUFphVnpxUVNCOFptdW51azFBbTJ3Yy1rVmhha0NCVmF1cTVKN1E2OGRuSTAtR2c3QjRzcjhiVWFEaXJqXy1LbVVTQVFURHo1aDF5NnVaVy1qODJ4VlVtN3RMVUZkb2hMb2Y5elZaLWlKMTBsR1p2bFk5NlphUkNnbkdaSVJa0gGSAkFVX3lxTE8zd2NaMXI5ZzJ3dXJOSnIzNmhYSVFlWlFBNEkxbXJxZFF4SG8tUUxlT2RfQy1ybnYwV09sLXB1ZjdvZEJHclE4QXo5bGZTTmZtR25WRlR0UEtyRHpmRmNnYUJtZUhESDBfZGtKM201dWZkaTFIZ1NYeGlPUEk4R2duSTlYcEpEcUtsS3J5V0twSjJmSUhJWXBrbHpUVWtlSUFGTkdzRzNad2pRM01IT0FhVG15bmVYREhkcElqN3dKN084eDFkN1JBS2NTWkUxRmV1X2pkUTc5ZUNueS1PT2J6VFItMUYwUmVtWmhWMHpZdzdTZmlDc2NfRldoZG9PVGYtQXRJQ1EzTVlTb1UwbFdOdUE",
         "CBMiuAFBVV95cUxNenZBZVRKWjEtVFdnTy1reXk0cTRxTGdkRUtzYzA5UklFSmlTVXJiWDB1Z1pZSGNEc1hDdWMtSktIR3p6Wno3X0ZaSHMtbGUyZEtvc2hLTTZnd1lnU1BHME1POXJaU1FaOE9xblczRDZMR2F5aFN4WGRBNE4yOURDSXE1dHRwZXhvNWpoUzVPUkUtdlNBaW5RdWpyUURHcEVOek1tTE81LVNGaTNlWUtacEp3WGtvREhI0gG4AUFVX3lxTE16dkFlVEpaMS1UV2dPLWt5eTRxNHFMZ2RFS3NjMDlSSUVKaVNVcmJYMHVnWllIY0RzWEN1Yy1KS0hHenpaejdfRlpIcy1sZTJkS29zaEtNNmd3WWdTUEcwTU85clpTUVo4T3FuVzNENkxHYXloU3hYZEE0TjI5RENJcTV0dHBleG81amhTNU9SRS12U0FpblF1anJRREdwRU56TW1MTzUtU0ZpM2VZS1pwSndYa29ESEg",
         "CBMixAFBVV95cUxNb2xYUHBteFo1OXBvc2JGLXlqMW9UaFgxLWNHTkl3aEtSZmVzam9xa01GYTBYR1g3YVRPT213Um9yT3dtSUE2MDltSnVwRjN5dC1CcFNaUXlyWXo5cEpwMkEyd01tRDV6YWlzVjRsSWpOSG5wdFMtYXhZTGJVaVZ2WkxhWWxMQTdsRXVuajFBWXlaZmtCS0piRVBfVUJKU2V3QWl5MmtJaWluVXVzb3hsSWd5TXhKcHdRaUdld0dod0FTVDlR",
         "CBMimgFBVV95cUxPOGN0NzlvS2ZWbmhCV3ZuVmtBaEtCRy00V0o3UXRmOHRTMnNlVWRYR2xkRHhEUC1SWXEtekZfQ0MtTUN2eV9obVlNYmZtY3l1akU5VFNBX3NMbDd5VC04b0xGYWVrbkRydzE4VXQ1dkJXRm1FM3hERVlIakI4bG84aDhkaXNEZkJRaUFZOHk0Q2p1emVxTlhiU2hn",
@@ -435,14 +433,16 @@
         "CBMi2AFBVV95cUxQbWd4X2JSNlRMRDRxY2t1MWZ5M0VfWFltYjFoWDJxblVMMDJvX0tzQy1udE5JbDJIZVNxVndEZHkwY0loQ290WTVXTjU4eXVuZFBCQ092U1BlTDV0dGhtMlNwNWRTOXZrY0U1aXJlZXZ3T196YzdrQzY3QlllVVFtNnk1VU5ySmFwYnc4VXphZXVsamZyMlNsNmh4cl9ZRVNqeVA1SXF5ekZmeWNPQ0RCWGc1ZERJYzZxY1FBZVNNN2tTSWJqWUhsdFRUbktkQ21lNVVvNnJySjY",
         "CBMimwFBVV95cUxQNkhTRGRsTm8tcUpNLU9NVFFQampiLXdUenlmTlJ5bGo3dkQwUW9WbmtOckloU3RlS1dGbzZkSXhNcDF3NkI2NWYtbUExSnFmLVFTTEozZEY5VjdEUlAwMUU0Z0puTjhGZzMyY3hMT1gyaU03eExadlRHem50amJNSnU1TkJSeVhSQkVOemdRY2x0ak1CMlp4NzgzTQ",
         "CBMidkFVX3lxTE5BVkpSa3VoOUdZRElXZ2ZOeE5SWGt2aFE5eWdCbWV4REpiVUItMEVPQW14LUIxZ2dwcVNPUFEzQTdqYVh4YWJqNjg1RHNhX2xRRXJ4WjloT2NuNW1ZLWNkaDhuanI4VnZVZDhxblF0WWcxVGJwOEE",
-        "CBMimAFBVV95cUxPWmh2RktXRFFNOHlfVnU4Z1dYV2Nkd3dTTlRQV1NJTnl4Z2tiaURybExfU0pZOXhrT2IyMFF6Njg2a2s3LUFnaHNsOC1qZTJ3NlY4R1hkbkNiVFhtQ0c2c21kQkZmRDFITUpvelFCLTdwckJHd2NiQmdnYkFweXB5MkhwNVJ6Ni1TZFNqQTRraGZjYW1tUVlyRA"
+        "CBMimAFBVV95cUxPWmh2RktXRFFNOHlfVnU4Z1dYV2Nkd3dTTlRQV1NJTnl4Z2tiaURybExfU0pZOXhrT2IyMFF6Njg2a2s3LUFnaHNsOC1qZTJ3NlY4R1hkbkNiVFhtQ0c2c21kQkZmRDFITUpvelFCLTdwckJHd2NiQmdnYkFweXB5MkhwNVJ6Ni1TZFNqQTRraGZjYW1tUVlyRA",
+        "CBMinAFBVV95cUxPRG5Gc1VLOHE2UlNaVlVyX09Vb1ZjY24zZ1Q0MXFfY3NxTnNCZmx1WUFaWDRBNXdVUnJucjFxUGRyY2V5T1l1dEJmbXJoRy1OUGRsSFRQLXU3LWVDdS14MURWUjdxN0NmenJmMl9fR29IaUlLRGRhMThhZnZoaGx5OHNlQ1JRVXNpMFhRZ1k0ZGI2VUd2MjNBVnRIaFY",
+        "CBMi2gFBVV95cUxQY2d4VWpCc2tDM2RQZU42bDNBc3UwejJCY0xpWDA5emJuU0FCX1JpeGx5QndjaHFXOUctc1QwWmxCSzhKb1NrWWlsUXVacUFzcHIxWWFwUXpCZzBxRHZLRlhydGZaVW9PeHBfV1ZsUERTNUtSVjNFUmpUZllDVWlkMkdrUDVtTV9XaDZKMElMZnNTcEZsRDRGbDE5Vnk1UzNiWHJNT2d3N2Jrb2xkWHNtUUt6QnM3Z3ZfQ3dwQ3lHV01FT3E5Tms3Y05ocTBxclNJdUl3WHR1U2dsdw"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-27T13:20:33.887Z",
-      "last_epoch": 1795433681000,
-      "etag": "\"0e1d8e26b218e50d3ed9d79b1aa2d57f9-gzip\"",
-      "last_modified": "Fri, 27 Nov 2026 13:04:28 GMT",
+      "last_fetched": "2026-11-27T23:51:59.280Z",
+      "last_epoch": 1795794248000,
+      "etag": "\"0cd88ef20c346fe8081a46599f95363d8-gzip\"",
+      "last_modified": "Fri, 27 Nov 2026 23:39:21 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/himadri-speciality-chemicals-sets-rs-3000-cr-revenue-target-for-its-arm-birla-tyres/articleshow/133313272.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/liquor/diageo-agrees-to-reformulate-india-whisky-rum-drinks-after-flavouring-breach-sources-say/articleshow/133301953.cms",
@@ -513,18 +513,19 @@
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/calcutta-hc-grants-interim-injunction-in-favour-of-nocil-limited-in-patent-suit/articleshow/135597913.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/pharma-industry-steps-up-api-investments-to-cut-import-dependence-move-up-value-chain/articleshow/135636196.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/rs-37500-cr-coal-gasification-push-cdep-cws-study-identifies-priority-chemicals-to-cut-import/articleshow/135824512.cms",
-        "https://economictimes.indiatimes.com/industry/cons-products/food/fssai-tests-samples-of-major-water-brands-warns-of-action-against-violators/articleshow/136100837.cms"
+        "https://economictimes.indiatimes.com/industry/cons-products/food/fssai-tests-samples-of-major-water-brands-warns-of-action-against-violators/articleshow/136100837.cms",
+        "https://economictimes.indiatimes.com/industry/indl-goods/svs/petrochem/gail-gnfc-join-hands-to-explore-downstream-petrochemical-projects/articleshow/136227332.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-27T13:20:34.052Z",
+      "last_fetched": "2026-11-27T23:51:59.614Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-26T18:00:51.304Z",
+      "last_fetched": "2026-11-27T23:51:59.656Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,

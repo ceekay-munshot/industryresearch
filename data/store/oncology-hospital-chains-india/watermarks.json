@@ -1,27 +1,25 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-27T13:21:12.886Z",
+      "last_fetched": "2026-11-27T23:52:11.286Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-27T13:21:48.273Z",
+      "last_fetched": "2026-11-27T23:52:22.670Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-27T13:21:49.715Z",
-      "last_epoch": 1795783724000,
+      "last_fetched": "2026-11-27T23:52:24.064Z",
+      "last_epoch": 1795802910000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMizAFBVV95cUxORENiQlNHSkRna1V5N1JVcG8zY092VS14VFBxbEdSNHd5WTR3X1pRR01jM0s3SWNXeHlleDBSV3Iwd2VyY19TcEtpYUktQW0zX2V6NTRXMkFVWElKUm5aZWszU2g0N28xVEZyc0x1TXU2cDVGUWRvdEpuVVpMMThYc0hCb1B0d2hLekRmMFk4WHh4cHJnUlB6d24xdG10Vy1ucW1obkhSMWFfZEZpS0g2bWFtX1ZBLXA2TWduelUxTEdXTThocjRLWXVVVFbSAdMBQVVfeXFMTUZhbC1VeXd5UlRCOEdGUWc3dXZXWlkweGZUTzlOYzE1bTEyTjlGZ0oxenU0X25ZbU5tdUNGWFAwUXp1dGhVUUs2MzEtcl9VdkVQZHMzNnpYS0JuTHlNQmRTenpfdXpUdDY5UzlnSXFSdjR4S0Y2TUVWYUlZWEFhSldnNEYzbll6UVFxaVFiOENZVWRxdnJPZk52QTN6WFV0SThXSlVGN3cwdGF4TWJsYVF5Skh4TzJacEh1Y3FYaVdfRjVMN0JucUMtNXdhM2w3cGRvQQ",
-        "CBMiwAFBVV95cUxNTEpOYjN5dHN5dE5FVUY4WGRzbzhSWTV3b2p1WWdJVXdZQ1FRSVIxODI5My10ZlVyVy13M0cxbkg1X0hLa3pfRDZUQlkxSjQwel9iLVJNY1ZlelUzYnIxakZ3dkVtdy1Ra29GemEycWVIX1B2eEVyRTFZRExWQi1CVzFHbWNPSndMQ1JpcnhOeFBjNmhSTlBjZFV6SjlZZ3lKUW44TkJDSkp6VGpER1lpMl9UeGZ4dTBybDJmWFJZazQ",
         "CBMi6AFBVV95cUxPTzZsUWRNWEhqRGVPNmpVRHNJVTdtMDdSUXZVMDRqMHdVUWY3MmQzOGFLSEdZbkd2Qy1YOUt6YjhUM19vd3YzLTJjMXlpd0ZPUDNZelRRSTJEZEgzR2o3NmdsY2otVzhjS2pDaHpzdG9EWnVfdHUtRlZPVTlNSlFnNDA5WGk0dnJMcXBsUjR2LVdFTWZGM1NITXdGUndPVkVOQ2xjc0l6cVBiYWpyTjFQTFpYRV9ZREF5Zm93VXJPYnJtYTJpN19Manc5MVNXbE11UTlyLVFrd0VINTAwRnVLNHlCc1RJd3Jo",
         "CBMiugFBVV95cUxPd2I4MXNjMFhHWXUwd2l2VkJvMTVlUXZ6QmtfNE1lVlVVQkw5ZGUyWGtWVzhMMnJMdTVpSF9sZnNiZ0J4VzVHMk5FX0dodXRFMEFSeXgwRGlxOWFZMjhfQVN3OU1MZHk2aHd0LVhtYkJ0UzBxRU1ZX3ZLaUtQVU11YXFtQmltUkEzbG03LWt1bUVtSlhpLV80eHNxSmpTNjlsczdWWjZCejIyalRkRmdzTmhuQXRXWGFaS2c",
         "CBMitwFBVV95cUxPMVNqNUdrTDBLQkhaNWNUclNwelRMUllEajk2cEY3UHU0ZG5zVlFzWkFLa3lEbE5wVXJ1SnRCMmoxMVRJWi1CdVVTUkl0dUVmY2xSUHFkU1ltVGYzWXAyN2dMNy1jbF95dFIwc2F4czU5VHpfZ1V3VUI5NGRRMDVYTGxnVHFUeEdyZFMteU5TZUQyRDJUUHlFSTQzSDNlbUFqOVNsZlhKNHVINjJKMHpSTVpFUDhJdVU",
@@ -319,16 +317,17 @@
         "CBMirgFBVV95cUxPUlEwMUpWUWVXMXA0ZHY5VHhWZS1Tbm5ZVWpHdXFRREFtdlZlR0lFcHVjb21Icm5LY0dCUlFoZUkwV3p2XzBHamVKQkhaWlFvcEFLam9Zc3ZOUU5ibVoxZldDOTNVTXpNdFphdVNXTGpVZnpmNGRlTEtjTkJCdnlvQTI0eGFseUhqbGdVX1pTeVp4eUpBLXBHOVptRElNNElKYjBKLS1QMHpQOTV2cHc",
         "CBMitAFBVV95cUxOdC1aejZORWE2OFBOWVBENDlxeTNxZ3lVc1ZDVldpXzM2aWtTa3AzZGRMTTVyZ1BKNjRjZjJtOHFEeDhtb1FNR2VfRmhOc0ZVU25KYkUtOHlLRnJ4eloyYnpkZExzLWdpSkJOZTB2ZUxJWGcxVzFkVEhQaWhaQkVwYVc0RFJKcXJCVExqUzJzUlhWeEJlMXo3NGhJbEgwbDRlNFVocFR0QnR6SVJnT2o0cHE5VG4",
         "CBMiyAFBVV95cUxPZjR6TnRLU1Awa0pHZFk4UnNTanZxbEcxMzFXeGl4NzRtZlN3QWllNFI5clpTbzR6Q0FXb2xRNy0wTlRMYVhJTjhMNmFFMFE1VmE5VGJhNUFmSnlMaTVhVTFid1Jla1c1WkFpWVNEbFRYdFFkeHNkOVNqYm1IMTJoMU9zZ2tXb2FNMUZuUzhEd0J1MU5mdkhkOHZtNDlzSTJpVWlCNWl5WE9idUk2NkRESjF2UXYzcHZhMzk4dS1URGIxdjhlX1Naag",
-        "CBMiXEFVX3lxTE56dUNocjZtSkczTXhuQlZ5UXJ4WnJVYVdYbVRrcHlfTjMteHBma2ptYzZVT3Q2X1UyTWpEc250YUhVd0YwT1dMNGZ5NUdUemhDYUtQdFJZU2Z4SE1C"
+        "CBMiXEFVX3lxTE56dUNocjZtSkczTXhuQlZ5UXJ4WnJVYVdYbVRrcHlfTjMteHBma2ptYzZVT3Q2X1UyTWpEc250YUhVd0YwT1dMNGZ5NUdUemhDYUtQdFJZU2Z4SE1C",
+        "CBMihwFBVV95cUxPMHp0VDRSV1phR2FvVEFnNG1iUXJVcDZmTHRXa3Q3VENCNFJkbTdrWU8yNnNoNmdfVlhuUkZyM2w4OThIdnRKUTU3N0UzbkVRR3dJVk9BQlZCd0tPTWczMFJOX0lTUmtJNnJzckRRNHYwVG1iUVB4OEJuVEQyYlNXZERYWHdVUGs",
+        "CBMisgFBVV95cUxNTW9CdVJqWnJmcTUxZ1dRNzhDX3hsUXZaakdCRktvVnVSVWpadTAyX2V6OUs4TlZMa01waWZFbllnTElmTHJSR1dTZ3ZtbHQyT040Tlp3MkdFcUE4c3FQZERGbm1qTUhzM0JQajNMbGJFWS1fU1lYVnZ5NC1oYjEtdjB5ZHdXZzBaR01wcFFJODNxT1F1bjJFbTMzR0NkdkVxTG1vcmVibXlzZEY1cUtDZ1p3"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-27T13:21:49.808Z",
-      "last_epoch": 1795767062000,
-      "etag": "\"0e1d8e26b218e50d3ed9d79b1aa2d57f9-gzip\"",
-      "last_modified": "Fri, 27 Nov 2026 13:04:28 GMT",
+      "last_fetched": "2026-11-27T23:52:24.130Z",
+      "last_epoch": 1795797987000,
+      "etag": "\"0cd88ef20c346fe8081a46599f95363d8-gzip\"",
+      "last_modified": "Fri, 27 Nov 2026 23:39:21 GMT",
       "seen": [
-        "https://economictimes.indiatimes.com/industry/cons-products/food/maharashtra-fda-faces-systemic-pressures-as-restaurant-hygiene-crackdown-widens/articleshow/134396595.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/fmcg/soap-shampoo-toothpaste-red-green-brown-dot-veg-non-veg-label-rules-2026/articleshow/134405719.cms",
         "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/centre-to-sign-mous-with-22-states-for-next-phase-of-udan/articleshow/134401745.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/mines-ministry-to-launch-incentive-scheme-for-domestic-lithium-nickel-processing/articleshow/134414562.cms",
@@ -627,18 +626,19 @@
         "https://economictimes.indiatimes.com/industry/telecom/telecom-news/airtel-plans-to-set-up-three-data-centres-in-assam-with-rs-1200-crore-investment/articleshow/136164298.cms",
         "https://economictimes.indiatimes.com/industry/energy/oil-gas/will-conduct-tests-develop-full-ecosystem-before-increasing-ethanol-blending-beyond-e20-hardeep-singh-puri/articleshow/136198939.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/lords-mark-industries-secures-manufacturing-licence-for-radiation-free-breast-cancer-screening-device/articleshow/136214077.cms",
-        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/biocon-gets-brazilian-regulator-nod-for-biosimilar-pertuzumab-for-breast-cancer-treatment/articleshow/136212101.cms"
+        "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/biocon-gets-brazilian-regulator-nod-for-biosimilar-pertuzumab-for-breast-cancer-treatment/articleshow/136212101.cms",
+        "https://economictimes.indiatimes.com/industry/telecom/telecom-news/trai-extends-1601-series-to-e-commerce-hospitals-airlines-aggregators/articleshow/136228504.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-27T13:21:49.928Z",
+      "last_fetched": "2026-11-27T23:52:24.452Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
       "seen": []
     },
     "pib-releases": {
-      "last_fetched": "2026-11-26T18:02:05.567Z",
+      "last_fetched": "2026-11-27T23:52:25.029Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
