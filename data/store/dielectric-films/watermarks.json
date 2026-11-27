@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-26T18:06:18.032Z",
+      "last_fetched": "2026-11-27T02:36:54.039Z",
       "last_epoch": 1795670820000,
       "etag": null,
       "last_modified": null,
@@ -59,22 +59,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-26T18:06:29.026Z",
+      "last_fetched": "2026-11-27T02:37:29.186Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-26T18:06:29.591Z",
-      "last_epoch": 1795691882000,
+      "last_fetched": "2026-11-27T02:37:29.752Z",
+      "last_epoch": 1795745415000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMiqwFBVV95cUxPbWZVb0ZUZ0UzQmxYRnpUbDVPWUJVM1o2R0JwYWllM09oclpTRmRsdTdwYjV2UEVqeVV2a21TajhXRkVYel9FX3NsN21vbWRLSkxtelI0OS1oa0dIeHZBeDhCMEUxS2lHUGVqQS1DaXJnQjctQzN3MjdxdTZFWHRGYjFQU1dRVkE1LXEzUVlZSGs4MmdmeFZpYjlIeDNicWlYaTVZOEkxU0lmaTDSAasBQVVfeXFMT21mVW9GVGdFM0JsWEZ6VGw1T1lCVTNaNkdCcGFpZTNPaHJaU0ZkbHU3cGI1dlBFanlVdmttU2o4V0ZFWHpfRV9zbDdtb21kS0pMbXpSNDktaGtHSHh2QXg4QjBFMUtpR1BlakEtQ2lyZ0I3LUMzdzI3cXU2RVh0RmIxUFNXUVZBNS1xM1FZWUhrODJnZnhWaWI5SHgzYnFpWGk1WThJMVNJZmkw",
-        "CBMitgFBVV95cUxNTWtPWGJRUjBRZWlXYWlJcjNGX1FHV2p3SmhmdGhqT3pQaUJtblp6SXQtOEVfeW11VGNQbUxLWVZEOXdrbWsxZnB1Z0hNa2FYMlJZSGFwRi1vY3N1dTl4ZGFhdzZVU2xHb0NSbFowZTNyQjJrSzI5SXRtY3BQNXBCU2o5dDJxbVdjV0ViNThselRCLVNuSFV1SkhBZmlHb3BSYWwyWW5rLTRvYjF3MldCNzJmOHhiQQ",
-        "CBMingFBVV95cUxPaEpXTlpUclZxdlNXQlBsUHJ0Smo4dTBnU1R5OEFqM3A1dmF0dHFKb0paMFh6WExxaDdhM1AzUWl4T1k3cV9UemJGYUdoM0paTmVLZXBiMUNJdXZ5MTJlRXdNak03Ni1BZVYyMEdVNXRPUzNnVTI0MWcwa2Njb0REWExMRVNzMm43TVZ6ZGV1X1plb2FNQnc2TlZrMXJsdw",
-        "CBMidEFVX3lxTE02UjNLdEVQV2p6WHV4dENCTGI0V010LUdraUQ3blV3VWNvQmVFczVVODRfb05yVUJuLWEwMlNGaDNFcklzbVlpUzJ2dV9sTVIzTVBuMHNSWEpwQkNfVnJRRzI5ZTRkY2FVc21lQk5nSlAtM1d2",
         "CBMijAFBVV95cUxOZ2pmb2xuT1hIc2FVUlJuOG1pSnRET29RaVc4Mk5tUUNCVVlMa2RjbWwtdEUycVd2Sl9tNmlTNTV6ZUZmbUgyczMyalZ4X2tBWm81WXFYT3VTYmdBRUwyQ2dsNENIckY2QmhRNTZDWE1zbkY0cDFNb3l4dTltSGlRNVRab1FwZ3ozcG1leg",
         "CBMinwFBVV95cUxPZlhOanZHdjFkOV9aM0ROVi1jZnpZOWsxUzgtdFprWml2M0xrSlQ0X0xPNUNLQk1SdWRXclJTMkZHNE9wcmlET1FTWjZFNDNuY0lCWGpCV1RNVVdOWFBRam9PQWNCdVpxNlY3QW9ST0gzR3Z0WWRZV1FWNlJxTFVZM2hYc3RFTF9qWHFxRXJqdVpnQ2JXR1JEeFNla3VKQk0",
         "CBMikAFBVV95cUxOU0Y5SVlUNW1NSlBGN3Z4UU84TmpqNkV6M0hkV3YwLVhVLWw3bHhRRXJxTGJ3Und3azZuSmZjdlBSRE1ORk1BZWRKZnpmMzZWNi1UMjVRYUMycXJZUHlSdjhpZzdyMEo1NTFsUGRCXzVEdTkzUUVOcWNxNzR0WGM4aVVNX1hVYnh4VDA4cHVJcGM",
@@ -370,14 +366,18 @@
         "CBMiwgFBVV95cUxNdFFHbF96NVZqa1dQTlVicHQwc1RYY1dnN01YZ2p0Z0dqWmJmSkdQSlc3TnFLWHhRWHlmWV9FZFpoZmhXZHNHOU5NSDZnaEdZY0kyM25SaGxwMlkzUHVFdWlKR0NGWUUxUVZtUGRRcjFMbkowVXlLME13UjBsN25PMmZaNjBuclFrU3N5VVRybkNLVkMzWmg0U2VoMFE1T1ZHTmdjNy04MnBqS3R4cjl0VVBnaXpDeVBmMGdJajZMRVB2Zw",
         "CBMiaEFVX3lxTE5QZ1VZeHlpNlFjay1La1I2WUZtUlJyNUNabjlzSmd0R3hPVUF2bHBzZGJjdFU0T1VieGNkRlN3MHVsMkxXZHdFRWp1anVhcXdRRDFhZ1kyYnh1R2JidnpUYjhlV1RweE12",
         "CBMijgJBVV95cUxNelVybThZdHhETTlWMl9hT2xqcWV5cm9zQnlWZXBLR1NncEtiWGU1QW4xZzhnVTNyOXBkbjJoYjJfbk53VG50bEdEbC1PeEhVaWN6YXVhZjlKbGlKYWl4Z3NiTVV5TTExRlJEYkpZTExJdHFNZmw3dHhWamFYZDIxMkpVcmJTZTNieHdqV1hUeFZhRkgxOFhJcHlDdTc3UUN5ZjZfeTRGVWtLLXI2UVNXamY4RGFfMnhoRkpXVUg0c2o5VFMtX093MXYtVXVrVm44RGl6bVV0VHZLMGNmbVM4dXdMN1FraXYwS0x1S3paVzhuX21EdjdNb0lCWEdQOWNFLTQyOVBxYVNUdGdHREHSAZMCQVVfeXFMTkNjRWxOVWZrcDVzNUhnb0lZR254ZDl4dExacjR6SGw3Z2lJckFGd3B0VHNYaF92Z3BsVkphVmg5dkFpWEhyNloyZ3draTVLS05Wa01tSFBUTDZGczdoQlBKR3dvdGhmLVFXZUk0SFZaVDI3MFVyRk5lR3pRXzB2dDZTZUNac1c3WUluS01MbWVpTHYxS3dWX2h4b2xmSHZONnFsTTVzMmZkaFRoeFktcjh5YnlIOFhsTjFmdXN3NG5ZU3gwQWhkMDV1Wm5pa3RneUtGX1BjM215ZHBpN29SRFV2TERYNmwzZHZ5Q1JsMzljZTlRVXVQdEZqeFJreDJSTzd2Q3RYVTJ6ZnVFVUotWUxzWGM",
-        "CBMimgFBVV95cUxPZS16dmFSQjVXLVpCMTZQTUdoSEJBZ18tZk43OWg3bThGdzgtSi0tN1BlMW0yRlNBTTdzeEN6eF96Ti1aNzBwbEhqMkI5Q1YzSFRCWGdLcktZZDN1X2h4RkJJVG1ZWEIyeGhaWFpiNXRsN0tuSE1UdFBYWGd0R0l4d3hyRFh1NzFKYk9IeFFWakRkNS0xNEFUcDd3"
+        "CBMimgFBVV95cUxPZS16dmFSQjVXLVpCMTZQTUdoSEJBZ18tZk43OWg3bThGdzgtSi0tN1BlMW0yRlNBTTdzeEN6eF96Ti1aNzBwbEhqMkI5Q1YzSFRCWGdLcktZZDN1X2h4RkJJVG1ZWEIyeGhaWFpiNXRsN0tuSE1UdFBYWGd0R0l4d3hyRFh1NzFKYk9IeFFWakRkNS0xNEFUcDd3",
+        "CBMiX0FVX3lxTE5yQWVLT3ZxZXM2U05qQ0FnaWVrYUpHY0ZTMFZrc2dyNjZKODRmUmJQNjBPRUQ4YlB4TXJxenZuZUdfdXBsRUhscld2LTgyRE5DYUdHVVgwVGVidU90WVVz",
+        "CBMieEFVX3lxTFBHV2VCbU96YVJrNEQ3MEZrZzNuNFprLVUyWGd6cmFCWHIzMTI2Um9kRzRObXppRi0yMDhVU0J3NERiU21ranUydm1hRzRSMVZxdjFVODduZ0U0U3U3LU96U1g0bzMxM0p2ZzloNHV6SzNLUEQ1QzNZQw",
+        "CBMihwFBVV95cUxPSzZDbjM5S0J5V19JRE85ekVMQmo4SmVTYXJqbzdSZ000Skx4VzN2WHRSNmtWR3lMSko2S293cjI2REtzanNBMXJVbmMxZWM5NEZnMjZTcHk1RGV6WFBkZ2xyaE1YMUp2eDFvRFozejRLZkllVXc5TlhBQjJGdnZXSEdqb2RJZWc",
+        "CBMisgFBVV95cUxNOGw5T2UwTW93ZnRncHdUZTlueFA3SEZzQmE4QU9xeTQ5R3p5SWRsOHkzbnFwdm00S3cwWGp3NXVIdkZQNGpDT245TnRsTjlKaVNWLUtoUHRCRTdfZmQ1THJDS3RiSjZHOF9RdGt3REU1OWxxN3dyb0V4NDlEWnZtMGFoX2Y5NDdQOW1XdEZjeTNhR1J2LVFmVGNpZ3dnT1V2NWF6U0Y3cXNhOWRialVtTXpB"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-26T18:06:29.618Z",
+      "last_fetched": "2026-11-27T02:37:29.809Z",
       "last_epoch": 1794224581000,
-      "etag": "\"041be9692b982a98164fb8e8576580e2c-gzip\"",
-      "last_modified": "Thu, 26 Nov 2026 17:42:06 GMT",
+      "etag": "\"0f85d64b22f7072a947390f61d31354be-gzip\"",
+      "last_modified": "Fri, 27 Nov 2026 02:23:24 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/started-turning-waste-plastic-into-railway-sleepers-in-2015-australia-now-has-sleepers-that-could-last-up-to-50-years-amp-keep-tonnes-of-plastic-out-of-landfills/slideshow/134673600.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/srf-ltd-announces-600-crore-aluminium-foil-manufacturing-plant-in-madhya-pradesh-for-battery-applications/articleshow/135090288.cms",
@@ -385,7 +385,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-26T18:06:29.676Z",
+      "last_fetched": "2026-11-27T02:37:29.832Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

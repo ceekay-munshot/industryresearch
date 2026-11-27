@@ -13,7 +13,7 @@
     "generated_at": "2026-10-11",
     "mock": false,
     "query": "Data Centers",
-    "updated_at": "2026-11-26",
+    "updated_at": "2026-11-27",
     "coverage": {
       "sections": {
         "size": {
@@ -62,9 +62,9 @@
           "as_of": "2026-01-01"
         },
         "news": {
-          "sources": 2,
-          "confidence": 0.84,
-          "as_of": "2026-11-26"
+          "sources": 1,
+          "confidence": 0.6,
+          "as_of": "2026-11-27"
         }
       }
     }
@@ -1422,6 +1422,41 @@
     ],
     "news": [
       {
+        "title": "Robots, Not Astronauts, Will Have to Fix Space Data Centers - Universe Today",
+        "publisher": "Universe Today",
+        "date": "Thu, 26 Nov 2026 16:28:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2RaelhHUXFhbWZPT1pxREtYOEdBM3pZdUFoVURRR0pPX1RDamg4UlU0NnIxY05uaEJKYUxybjJoekV6RXNhOFFXdm5OWVZmT2otZDl0YUE1VXh4QmlRWG1kV3ZzSVZtWTRqZlZnMlB1UXVadkJuUlFPanUwX0pRVnR1QnZUNlpvd3dWUWphQkxyY0dnc1h4MUJablc?oc=5",
+        "snippet": "Robots, Not Astronauts, Will Have to Fix Space Data Centers &nbsp;&nbsp; Universe Today"
+      },
+      {
+        "title": "From Cassette Tapes to Humanoids: TDK Chases Demand for Sensors in Data Centers, Robots - Bloomberg.com",
+        "publisher": "Bloomberg.com",
+        "date": "Thu, 26 Nov 2026 21:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVUx0VnQtMktySjRnREJFSjhwSjl0Mk9kNXVFQ1FqV1hwZmM5WUJwdmNITDZpaHU1WER2akJ3b1FWbVRtSnpqQTU0MGRpQWNYMTl0aW54YlpQdl9NcVEzR19Fc1cxLXlQamJ6VFBzNVY2Mnozd29JRDQwX1pna25XREFMa25YSHNyTHNVVjlBZk5IcUd3LUo4dnRRWlVIcXNnOEpONzc3dlBzdlBSTWZGcA?oc=5",
+        "snippet": "From Cassette Tapes to Humanoids: TDK Chases Demand for Sensors in Data Centers, Robots &nbsp;&nbsp; Bloomberg.com"
+      },
+      {
+        "title": "Bharti Airtel to chuck $130m at three more data centres - Telecoms",
+        "publisher": "Telecoms",
+        "date": "Thu, 26 Nov 2026 18:18:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQTdvdmZjREJLWllBS1BneGpfMnc5UV9zRnBhZGxjRUo2R1RFWDB4RTF1R0hSTTZBbzB2SFBFNnVVLS1QM0hKa0xod0FVZi1iQUlXRlVpUExoejY2RWxJTG9lcjJkLUZJQ21yNkZuZkxrTjlBdWZjS1pNbGtJS09OQUFDSFZ2ZGVrR3RETk1VOWE3cTlHUHd4dXR0cDk3Zw?oc=5",
+        "snippet": "Bharti Airtel to chuck $130m at three more data centres &nbsp;&nbsp; Telecoms"
+      },
+      {
+        "title": "Bharti Airtel plans to develop 3 data centers across Assam - BigInfo.in",
+        "publisher": "BigInfo.in",
+        "date": "Thu, 26 Nov 2026 18:49:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRFpEeEs4SUd1WkhfSDE2V1VYN2c0NWlmTUhGVzQ2OXRseUtBVlA3S0ZGaWJucUZ1SHJIajhpTTU2VU0td25lTl9ISVJLUGloV1paVl9sVEFvRURjTmNFWkQtbW9taHdqWkFuZ2JsWmFUcHIyc2E2SmVqdHU0WkpmSnJlbEJlUzZRMUE?oc=5",
+        "snippet": "Bharti Airtel plans to develop 3 data centers across Assam &nbsp;&nbsp; BigInfo.in"
+      },
+      {
+        "title": "Tata Communications stock: INR 200 crore paper listed on NSE - ad-hoc-news.de",
+        "publisher": "ad-hoc-news.de",
+        "date": "Fri, 27 Nov 2026 01:28:33 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGVEeFVoTUZXNjBpUm1Vd0xsUUNfV3M4YmdPMnhsQ2NQbXhiSGpDcUZzWGRCaF9EQzZNOEJtTmh0Zjk5Xy1IQl91QXdpZWU0cHFEQmhSRzFMRV81LVRMR1UyZ29vdmpMbnZFRmhtdWI5bXZVYkE1WjI0alhTQnlqbW4xbEdvd1NfTzE3TFZvYWE5UlRiNFdQNmdCY3pENmplY2loR2VJVXQweWlOZWNvcFF1NGJYUldoSWc?oc=5",
+        "snippet": "Tata Communications stock: INR 200 crore paper listed on NSE &nbsp;&nbsp; ad-hoc-news.de"
+      },
+      {
         "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical - NPR",
         "publisher": "NPR",
         "date": "Thu, 26 Nov 2026 06:53:09 GMT",
@@ -1595,41 +1630,6 @@
         "date": "Thu, 26 Nov 2026 00:12:57 GMT",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yVUM1RDVhaHhZZ1h0c182NFEyWkpzVG9PZkRackQ1aTcyNzl3d1M4ZWpmaUQ0clZDdFR5bWZ0Umt0WmhYTW9nbzB4Y0syYTdqVDBwNDl2VVRIYVpEYlNWdE8wSFozTkM5Rnd2YTl4R1E?oc=5",
         "snippet": "Letter: Adani Group’s concentration of wealth is bad for India &nbsp;&nbsp; Financial Times"
-      },
-      {
-        "title": "India's Adani flagship unit eyes December public bond sale, bankers say - Reuters",
-        "publisher": "Reuters",
-        "date": "Thu, 26 Nov 2026 05:54:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFRZanhYeGM2UmlOMkhCR3IzZW1KMnZ3X05ISlFYdmJUSHFxN0dWWnZraXZYTU95bjdKd2hoeE5PZnh4bEp3UXZxQjhzR1J6X2R5ZjdaWWFmSTB1cHF3MklYaVk2Si1KZEVsV3NZOGtwOUJXeEpOSFRiNGtLQWd1MEtMYzRHRUJ6RnRCcDJXZmctVk1pRmFmUnZUX0dsemFJa3htenVkUzIwd3VzclJlQnI2OE1lZ3Nx?oc=5",
-        "snippet": "India's Adani flagship unit eyes December public bond sale, bankers say &nbsp;&nbsp; Reuters"
-      },
-      {
-        "title": "Adani Enterprises, Adani Power planning public bond sale to raise ₹2,000 cr - Business Standard",
-        "publisher": "Business Standard",
-        "date": "Thu, 26 Nov 2026 04:52:47 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb0l2LUpJU2pyZExJYVA2ZGMwVmRha3hJd1ZfX2h1LUcxWVBySmhlYk5XRWhqeW9oaFFadXJoVDB0bGlkQlQ4YWdIRzhQV3R6MTByOFRpaWg5eVFuUksyXzljUjNKT01FNU9fSC1CY0w3ZS12SEx4Tk9ra0NTY2xfLUoySlhvSGlpV0NmVGVUZV9SanlFMktxUHotV2R5T2FzLWN6V1FFcEMtTGlSODZwanhTRDJlOUtHZjhUVTY3ZExnZTRmR0V5aWxvTndCMElmWGx2NU1kMS1DUdIB3wFBVV95cUxPcVY3OVZyelV0UUR4N3VhLWctM3R3b0pMSGdPb29DZTZpcDlqU0ppNU44NnIyVmZqNWVuLUduTHFiWXBKMFFkN1ZVbXlSZ20wZk84UkdIRWg0Q3RMeFVkYlUwVUdCT190UEMwQ3VzQnR3NGZDSXlIaTFSOXNNOEVqSXB2SGJzUGJpYUlPUjFRaTJtYjdQRS1BZDRHczA2NXFpWkhUXzByMHM2OVNMcDZGQll3c2x4RVUwdkNYb2wybVhZT29zNzNTRkZRYWhMaFhPOEMwRWNhRHlacTdybVBj?oc=5",
-        "snippet": "Adani Enterprises, Adani Power planning public bond sale to raise ₹2,000 cr &nbsp;&nbsp; Business Standard"
-      },
-      {
-        "title": "Adani Firms Plan Public Bond Sale to Raise at Least $220 Million - Bloomberg",
-        "publisher": "Bloomberg",
-        "date": "Thu, 26 Nov 2026 03:42:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2ZJdmYtYjc2UFM0QzY3Sldoamk2TzVYb0VPMXRPSkpiaDF0a1NSSlBVNXpQZ1lWR3I4YzRBeWs5Yk05UmRlTVQ4d2VYV1MxYXBFVl9WR084RGpoc3NrZkhMUnl0bjYyZjFoMWR4elowMTBia2lYTExLQlR5RUNxLV84em1GTDVfdmNENW5iRl9QbFpEZ2w3a3djcWI3TDdlLWpZdWw0dlVYVUhMR2FVODRhNnY?oc=5",
-        "snippet": "Adani Firms Plan Public Bond Sale to Raise at Least $220 Million &nbsp;&nbsp; Bloomberg"
-      },
-      {
-        "title": "Adani Group gets contract to supply power from another Adani firm - Inshorts",
-        "publisher": "Inshorts",
-        "date": "Thu, 26 Nov 2026 09:53:20 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbGc3czM5NHpvQk5Vbml6cjlENFB0MlBlbTN2TmpWeUM4SG9sM19XMFpsa3FtdTBrZUoyaEEzb2tmVDNhQS11bWNjeFVjQmtza3k3ajVOQlpLWjE1MmdYem52aVFOdTg5dWZXcjhZbW5zUmg1SjZncGdIYnA3MEJVNDhMRlQ0Y09GSEhib3h0czRQbzExai1HVW1xRGRDYWNXelZxZ3A5QXZoZWdQMTB1Q2Nn?oc=5",
-        "snippet": "Adani Group gets contract to supply power from another Adani firm &nbsp;&nbsp; Inshorts"
-      },
-      {
-        "title": "SBI's renewable energy loan book at Rs 1.24 lakh crore; financed 60 GW capacity: MD",
-        "publisher": "economictimes.indiatimes.com",
-        "date": "Thu, 26 Nov 2026 22:16:38 +0530",
-        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/sbis-renewable-energy-loan-book-at-rs-1-24-lakh-crore-financed-60-gw-capacity-md/articleshow/136198588.cms",
-        "snippet": "Battery energy storage is the single biggest challenge facing India's power sector as the growing renewable energy capacity needs to be supported by adequate storage and transmission infrastructure."
       }
     ]
   },
