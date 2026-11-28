@@ -1,13 +1,11 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-28T05:23:03.163Z",
-      "last_epoch": 1795814867000,
+      "last_fetched": "2026-11-28T16:28:45.911Z",
+      "last_epoch": 1795879240000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMi8wFBVV95cUxOY0VhMVBXcGdRUUhqSVRnckFWWkZPQ1FGc1gtSlVGYXNyN2FlQXUwQ3hwZS1uNGhkY2lQdENmeUlROG9vR25RbU5kWUJla3ZwZ09WUkxPTFVKMVlZdnpRWnM4TEszaXR1dTliazYtSzZsTzFSazdIQjhnMHVMZW1aWnZqYkdyWFJlNGE3RXM3MXgzOEp6Qnk3d2ZpVGEtYVFXdnM1RXRYbUlyWlZmQ2wwM0lONHRYQ1B0MDVONVl4b19pQWVWaHctUllPclUzYU1tQmdFODk2Rmw0blk4bjVwVEN5Y3pkSGtXUzhyMGFaREc0ZXM",
-        "CBMipgFBVV95cUxOSFMwNEdaNkhiRWJHVUswRGVhQS12OEpWVlRSTUNlYmU4UkI0SGI2cEt6aFFXb19GMm93Z3FDME11MU95cUVibjR3WWhkdFNMUUdwSDUydGVmNHhtSkJObDN3TGE1dDdydUdVNWFmU0lhWUZYN09WUzFZV2ZNeUNiSDllYkpneG1DUXRqd2E1dGh0WFVfek5Cb2FrUzlrcGNiZURqZHFn",
         "CBMiXEFVX3lxTE8xWWtKVlR2SFdoeG1sMkFGT0pFcUdlWFVrdFdqa3NpYmVqaVRFTzg0Tk5KYmI4eTRVc0IyMGxIOU1zYVNHbUpoWUJrRHRaNnk0cEJMWHh4eGN4aTRi",
         "CBMipgFBVV95cUxQcXZWS2p3UHRsZkUwWDhNSWlHcy1pdjAydklSaGp4Ykd2WjVBZUVEMm5sNVQ1MGdNYWZyTWlsZWF4TFpNaTFNMkk3WWZnLXRLdllBRWJjYlVvc3BiTmlKOWZfQVFhRktVSmlZcU9lRk94NUJfX3hZdWN1UGc5dTBhSjR2OG85bkNOR0FNYXM5S2NnY0VwR3l3QkhBOEtpaHJnRjBRZmNn",
         "CBMif0FVX3lxTE9OdVhPTmV5OHlidXJ1aGYzdHc0b2ZKdWdPY2ZyQmVueWd4TW9pX2tyT04zaGJxZktDT182clNhbU45WWdBbUxBQWVOdW9ra3NlY2dLdXZnS1VpWE9BWnJsQmJvWkJCVU1CXzd3QjdDRFlBZVotMURTOGRvSXJGa28",
@@ -305,18 +303,20 @@
         "CBMiggFBVV95cUxQMzZScEk1LU52Y04wb09KUUJGb29JLS1COTNPZjNLcmpMdldiSE92WVYydkV1UU5JZGJPZ0NKMC1ESmEza2dUb3lPTHp2Vl9PS0FocnBHUDJDYTZBUVphYjVJU0xRalMxT010N01iSTJaY21aVnhNdGtERGExc0xDWTJn",
         "CBMixAFBVV95cUxQMWxPdFZWdWpzMUpZbEI2Y0RicmJtTFBkTUNLbUk4dnNuWENVWGdBNkpYRXptZmJtNkVzRURLVlM4dzZ1R1p2cC10TjYxZTRGZlFmYmk5a3Z5UDNCMVpXMlg0cVRETkl0TEh4Q1MzYXJuWmpuZF94dnhoMnlDbFRkME1BQ0xmYUhIZ3ZtbEk2TkJfeDRENXZpWjg1c0tlVnY4OGFKTHVkVlQ0aGxZdGNOSDRaeHZsS1MwUjRxcHR0bU05OHd6",
         "CBMicEFVX3lxTE9KV3h1aGh2UzZkQTFZdlJNZG4yR01hNDJ0RXoxdDFwei1ZZzZ1OEYySF9SNDNpN00xS2t4UjlLc1Q0YU0ya3A5YzlhVEIwRlRKazlMc0p2VHVWZWFpQ0FIdnFxN1AxNFdlZlc4ZVdqZFo",
-        "CBMipwFBVV95cUxQMUJqX191YmVRLTVrQWRvMElDQTEwa0VoVjY4NmZiTVNLcklrU2praEVFdzg3VS1sVUFEaWVuZjc0c28wdVFpQVI5M1A0aTRXNDloc3pTMWQtdEd6dlVSQTJmTnRtaHpxQnJ0YTg3ZHRWYW9lREFtd1Z4MzlXaWdLU3ZESVc1TzZVSUprcUhpMEJfSDdkOVRxcXJzbHNpRk91XzI2RUFkWQ"
+        "CBMipwFBVV95cUxQMUJqX191YmVRLTVrQWRvMElDQTEwa0VoVjY4NmZiTVNLcklrU2praEVFdzg3VS1sVUFEaWVuZjc0c28wdVFpQVI5M1A0aTRXNDloc3pTMWQtdEd6dlVSQTJmTnRtaHpxQnJ0YTg3ZHRWYW9lREFtd1Z4MzlXaWdLU3ZESVc1TzZVSUprcUhpMEJfSDdkOVRxcXJzbHNpRk91XzI2RUFkWQ",
+        "CBMibkFVX3lxTFBOYXFlMHRrNEdCQTU0R3JmSnFBS2llMzlDVmNEcmdmQWJDMzBHR0g0WllnUWtsZ0dvNmpXX1FuRUh2YmMwMXd1WlhHbmZBZWZXTlR0SHlmdFZ5QXZLLWsyNVg3UnR4MFphZXlrSERB",
+        "CBMingFBVV95cUxOaWtQM3pVdnNYM2RFTjVibWJYbWtnWlRwWVFqclQ3eDRZS3RBZV9FZ0lZYzQ0RF91aC12eUdTMUs4ejJTb1FOOVVCS3hIalV1emZxcjBYYm5YRElKTVJKRlR3THBCandTOUEyOVgtc054LUNReFM1YXFfV0k3dTFHWlJYUFItX3pkbmdhZXhxbVJRQ2RtbnhmZ2c5UzBGZw"
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-28T05:23:11.716Z",
+      "last_fetched": "2026-11-28T16:28:55.701Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-27T23:50:32.525Z",
+      "last_fetched": "2026-11-28T16:28:56.680Z",
       "last_epoch": 1795792703000,
       "etag": null,
       "last_modified": null,
@@ -624,10 +624,10 @@
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-27T23:50:32.646Z",
+      "last_fetched": "2026-11-28T16:28:56.706Z",
       "last_epoch": 1794376647000,
-      "etag": "\"0cd88ef20c346fe8081a46599f95363d8-gzip\"",
-      "last_modified": "Fri, 27 Nov 2026 23:39:21 GMT",
+      "etag": "\"0901ff13328dba6b77d64c9635aa1ca34-gzip\"",
+      "last_modified": "Sat, 28 Nov 2026 16:23:59 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/transportation/railways/railway-passengers-beware-of-what-you-buy-onboard-irctc-seizes-8000-water-bottles-ice-creams-other-food-products/articleshow/133336176.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/ambanis-reliance-enters-ice-cream-market-with-launch-of-bombay-creamery/articleshow/133678139.cms",
@@ -644,7 +644,7 @@
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-27T23:50:32.990Z",
+      "last_fetched": "2026-11-28T16:28:56.817Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",

@@ -1,7 +1,7 @@
 {
   "sources": {
     "google-news-industry": {
-      "last_fetched": "2026-11-28T05:24:48.457Z",
+      "last_fetched": "2026-11-28T16:31:19.422Z",
       "last_epoch": 1795040393000,
       "etag": null,
       "last_modified": null,
@@ -25,21 +25,18 @@
       ]
     },
     "gdelt-industry": {
-      "last_fetched": "2026-11-28T05:24:56.585Z",
+      "last_fetched": "2026-11-28T16:31:53.902Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": null,
       "seen": []
     },
     "google-news-companies": {
-      "last_fetched": "2026-11-27T23:54:50.446Z",
-      "last_epoch": 1795796280000,
+      "last_fetched": "2026-11-28T16:31:54.998Z",
+      "last_epoch": 1795879862000,
       "etag": null,
       "last_modified": null,
       "seen": [
-        "CBMigAFBVV95cUxNSjZPUHRTVGdLSUgwSC1nLWZ5dTRJMHFEcVd1YTdheTlqczBfcy1nbTVYbmtmTlFYM3VMSXNsQlcwclJHQjZjT0xndkd5ZUx4ZnpnUXN5YmZIQWNHUG9sVUhkck1wTDRMXzBSdWM4OWVpYUdZN3JJY2RnX05xY3lhVA",
-        "CBMiVEFVX3lxTFBvWllLVW9nT1JLSjZVeDRKQ0lMR1BIZjdPaTVndkM0Tl9hVVFhYzg0a1NRVU96UmZNeWUxakJmT3BUdGI4SGhQYjVwaE95NEt2UFJPcg",
-        "CBMilgFBVV95cUxNbkN2SnpUWVBjeWxzYi16YWs4VEI1TFNDYnY3MG1NY0Q3cVdHaFRpekszaTNqNHJ6T3ZZSWFSMEdLenAxTTlVN3F6QWtjTVh0MkFPN2psN2U3RG54bHpPS2lNeTdOQ3pqRGZQTVZZZGxJUXgzTlJ2SjU4S3Vld2ZRekpXMWhkWkpwVWd4d2VBU3pmUWR2c2c",
         "CBMiuAFBVV95cUxPOVJDMjRRaXREMkJJNjEzdVZMU1NkcHZQbEFLLUk4TWxCeDJSeEE4WUlmLWxjTm5YLXBCRnNXZXpGdXF6ZVVDLWI0QmZ0Y1hwZF9TUEV2SHAwQWQzY0huRWRmUFdMaURBWUpCTnFLNFFYLU4tUENHeC1rZ2lYU215bWVyNkhCWjZCek9fSUxYaFQzZEtVQ3BJalVqaWxKQUw5ekdnOFlYNmFxSTEwZ2pWWENhOEtLX0Fm",
         "CBMirgFBVV95cUxPNDVOLWNsWTMxUjR4MmVuZGc2UURESEtoYWpVLXh5eFVxRzFOMklXS1ItTHp4ZDc2Z29CYVR0aGRJZ1l0d1AzMWJxbzFWWXF1ZXpmV2Vpcy1JdnIxbnNTV0x2c1hMYlNFMnF3a0lvNnUtSzVmMjhJbU5xZ01iX2VGMVhLeWxmS0sxVnRIUEpkSnlNN0lNaTJWcG9udm1hWlZCSW84MWhMaTU2MU05S1E",
         "CBMiygFBVV95cUxNNWxTYlhGNlhkNS1ZR08wdl9jakM0ekQyNXlqcDlieWpEVVRfT0ZPNlQxVnJIeU9pN0dYN1dQeUl1SjlTWC1BZjlGMG5GNkdUTTlMeVNNZF9saEtxVTh0cnBVLUZRNkdtT284QjMySUNDR3BmaFh5M2hTRDQ3UnBYZldfbk04aXlSOHhaRDFEanlvRmltaldFR1g1eHNIUDRZS0RqQV9Yd0dJMTl2dEpWbjZtSnJNenlRSXRSa0QyQVhfcHBaa1phcmp3",
@@ -336,14 +333,17 @@
         "CBMihgFBVV95cUxOU0d0NXgzckYxZTN4dWRiSUZaVXJrMWFaYVpyWFh0ZXlxdTRWMUtyM29XcVFDTjRiSVM0R0FIdkhGbmhCTWtZNFZBQjc3V3JQSzllQmVEaHZ6ZG00NC1rMldnc29pd0pFc0IzaWNWclJOVEpOeWdIM3VRbF9fTTJlWlphTndkUQ",
         "CBMi2gFBVV95cUxQNnBPUUprZmhfbEFTeklGZFEzQm01SnpwMnJEQmxQQWVrbThET0RhcFhOZFpXQlB1QXRubUNmYXJKZGVYUGlJU2lkU2hIWWFJb1RLUHNIVVVZaUJubjZvMU9EcVdFaVNEU003OTh3Vm4xTGlCbFB4aEYxMFhUMk52Q05vVFAwMlNRcXJVVC1vNHd5QUc3bGpPV0JjZEt1bWlaMXpjOXoxM055dk91SGZZem5xRmFFb1FscUlhdGhCNFJqRjJ6ajVDdE40aGVMRGRqRkRja3FaMXhJQQ",
         "CBMizAFBVV95cUxQUXV3VXhiaDhRQWJxenR2SmxfU09mblM2ZDVWYVQwbUNpdEVMMW9WQ3BUS3FJWmNyRHlYMm11Z00wRTZIVjAxVnh2bmF1aFFrSHRJWVlLMnozZFc5YnVBTnFRcVlWNjBBVXhZdmhuWUdKakQyd0lHY1J1bzctN0o2YlhFLXZZTGN0bmN5amNIWEVtZ3NkOU12ekE2UVZoSkxucm85VXJUNDZEYjhpRjhsTUdRT0QtdVZjY09UU25PdVk2V2lEdmxYZ2poR0g",
-        "CBMiwAFBVV95cUxNVVVUa3FHVUlRN09lSUZka0RRX1c5VmNyX29ySDRpVWx3QXRoNVIzOTJ3VkRqRFRGdlRzU2FXRWpxQWlOVVA5UlNQU1lPaWliWmdmOVVpYnAzVGJObVpNT0ZFcVd2VmgtZTV2UXIxUTdsNGdNN0dlVXlvVWFBR01HTk9Ccm1kTGVSWjktZE1mSDg3Z195QkR4ZDZGbDRyYXFpVHU5LVFwTHlpZlgzWHI4S05xbWZ1Vnc5VFdLNTdjaXA"
+        "CBMiwAFBVV95cUxNVVVUa3FHVUlRN09lSUZka0RRX1c5VmNyX29ySDRpVWx3QXRoNVIzOTJ3VkRqRFRGdlRzU2FXRWpxQWlOVVA5UlNQU1lPaWliWmdmOVVpYnAzVGJObVpNT0ZFcVd2VmgtZTV2UXIxUTdsNGdNN0dlVXlvVWFBR01HTk9Ccm1kTGVSWjktZE1mSDg3Z195QkR4ZDZGbDRyYXFpVHU5LVFwTHlpZlgzWHI4S05xbWZ1Vnc5VFdLNTdjaXA",
+        "CBMi3gFBVV95cUxPcWNBU0NvVUtZS2hycGZXRjZCRVVRRXRSb3ZZcklmNXVwdTczdGNhWDA1OWpBLWFOWVktaGZtdFFGWnJLdnV3T294cnpFOWNOT1Y1bzNMWkNpc3BfelVEWGNWVWpIME9td045Skd6SV9EeHVrLThhV1EyNmxHZHpMV2JsNFZSbjQxQ2k4VGt1MFUwNWJPUHFDd21wYVhNOTRybkJBUXBmWU83OHJxQXY2VFB6Zkg0dEZZRHJJNGdfQ0hhQ3VuVE9fZmhDTUstRDlxSE1BdHdYWU1nNFhsaVE",
+        "CBMigwJBVV95cUxNbzZGZWdOYWdJektJaG43T2lRdGdfUmlJM0d1RnFJTjF0d0xSd0RLdkV1LUU0Y1g1dFJwcHNEOWh1YTZOc2tHb0Q2aUIzSGdQZjRTak16WUgwWm5ESGptN1RWYXFjOGdZaTAtRmhIVTVFSmRqc0lETkwyNGhTWVl4QU1hc1FsbHZyWERNQmZUNUhvbEZUMFVNMHQ1ZWxGb2lEaTJBc21EeWs4QTU4OHRTd0hfX2NhSjRaRmhGZnJCV2NEZ0txLXNJUFFOV1F5T1BhTXpQT0VsZUJKMDZOMVp1bUtPNkZXYmtLNzdMOG9mTlNuMXc3b0xNcUNQcWEtYnlRRG8w",
+        "CBMiUkFVX3lxTFBJU0xhV1pKOXNsaDdzOUI0RGxtdjZYblVzaDVjZXduN0RjcWh5OExHYU8zZGxGbFIyX2dCVmRyeFpfS3h4bzhISFRtX2dLTlhoZGc"
       ]
     },
     "et-industry": {
-      "last_fetched": "2026-11-27T23:54:50.596Z",
-      "last_epoch": 1794386783000,
-      "etag": "\"0cd88ef20c346fe8081a46599f95363d8-gzip\"",
-      "last_modified": "Fri, 27 Nov 2026 23:39:21 GMT",
+      "last_fetched": "2026-11-28T16:31:55.042Z",
+      "last_epoch": 1795860456000,
+      "etag": "\"0901ff13328dba6b77d64c9635aa1ca34-gzip\"",
+      "last_modified": "Sat, 28 Nov 2026 16:23:59 GMT",
       "seen": [
         "https://economictimes.indiatimes.com/industry/banking/finance/insure/jobs-in-line-as-irdai-commission-caps-force-insurance-brokers-to-rethink-models/articleshow/134573767.cms",
         "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/maharashtra-fda-cancels-cipla-warehouse-licences-over-drug-violations/articleshow/134641214.cms",
@@ -361,11 +361,12 @@
         "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/ncrtc-to-develop-urban-centres-along-the-namo-bharat-corridor/articleshow/135429887.cms",
         "https://economictimes.indiatimes.com/industry/cons-products/food/nandini-ghee-butter-paneer-prices-revised-in-bengaluru-check-new-rates/articleshow/135557986.cms",
         "https://economictimes.indiatimes.com/industry/indl-goods/svs/paper-/-wood-/-glass/-plastic/-marbles/balrampur-chinis-rs-3100-cr-bio-plastic-plant-to-start-commercial-operations-in-jan-mar-cmd/articleshow/135680755.cms",
-        "https://economictimes.indiatimes.com/industry/renewables/tata-motors-and-finzo-ev-solutions-join-forces-to-revolutionize-electric-commercial-vehicle-financing/articleshow/135730496.cms"
+        "https://economictimes.indiatimes.com/industry/renewables/tata-motors-and-finzo-ev-solutions-join-forces-to-revolutionize-electric-commercial-vehicle-financing/articleshow/135730496.cms",
+        "https://economictimes.indiatimes.com/industry/cons-products/liquor/delhi-hc-restrains-old-monk-makers-from-bottling-iq-gin-packaging-similar-to-greater-than-gin/articleshow/136243836.cms"
       ]
     },
     "moneycontrol-business": {
-      "last_fetched": "2026-11-27T23:54:50.679Z",
+      "last_fetched": "2026-11-28T16:31:55.182Z",
       "last_epoch": 0,
       "etag": null,
       "last_modified": "Mon, 03 Jun 2024 17:36:31 GMT",
